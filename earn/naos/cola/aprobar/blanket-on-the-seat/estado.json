@@ -1,0 +1,26 @@
+{
+ "slug": "blanket-on-the-seat",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-18T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ce108234af586d5257577744e3583673003ce153c5067fb7fe9d57da5ab8735d",
+ "hashes": {
+  "short": "9dea67e08700f4e97257a646bba011da9c5cf3ac4bf9056ed9b28866e48e79b9",
+  "reel": "494565c848f70f7aeab483ef952bb1e488adff640d984157da9536a38e46803b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886927423,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

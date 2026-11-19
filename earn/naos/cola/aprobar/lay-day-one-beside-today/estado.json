@@ -1,0 +1,26 @@
+{
+ "slug": "lay-day-one-beside-today",
+ "issue": 92,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-31T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "44dbe5597fd93189736886f496e8294caaa87979865939481d612351f4c5de2e",
+ "hashes": {
+  "short": "e6015851f8dc1363524e41de2cdd756bca647d0cdee6ab92a3bc8da478ffd07b",
+  "reel": "c3df719f0ca57a2c3d4d12840cfc41dae5790f78032fb45ef3a39587be76454e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886885788,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "ened-2631",
+ "caducado_utc": "2026-11-15T00:51:17Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1367
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "pretending-not-to-see",
+ "titulo": "Me pretending I didn't see someone I know",
+ "caption": "Me pretending I didn't see someone I know\n\nMe pretending I didn't see someone I know.\n\nA two-second hello costs less than a whole block of pretending.\n\nSend it to the friend who crosses the street to skip a hello.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me pretending I didn't see someone I know.\n\nA two-second hello costs less than a whole block of pretending.\n\nSend it to the friend who crosses the street to skip a hello.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A staircase room. Two small block figures with white eyes, an ink-black one on the left and a navy one on the right, walk toward each other. Both notice the other with wide eyes, then both snap their eyes away, one up and one down, as if nothing happened. They glance back at the same moment, lock eyes with a tremble, and look away again. At last both say hi, late and awkward, with happy eyes. At the end both narrow their eyes at the camera. The text stays: me pretending I didn't see someone I know.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "pretending-not-to-see",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.7 dBFS, LRA 2.0 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "vergüenza menor (fingir que no vi al conocido)",
+ "blanco": "Cella y quien también hace como que no la vio",
+ "destinatario": "the friend who crosses the street to skip a hello",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "sale_utc": "2026-11-23T03:00:00Z",
+ "clave": "2026-11-22|pretending-not-to-see"
+}

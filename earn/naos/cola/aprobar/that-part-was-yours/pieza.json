@@ -1,0 +1,53 @@
+{
+ "slug": "that-part-was-yours",
+ "titulo": "Handing the great idea back to its owner",
+ "clave": "2027-01-16|that-part-was-yours",
+ "caption": "Handing the great idea back to its owner\n\nThe group says great idea to whoever spoke last. My friend hands it back to its owner.\n\nSaying whose idea it was costs nothing, and it lets the person see their own work land.\n\nFor whoever gives the credit back out loud.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Saying whose idea it was costs nothing, and it lets the person see their own work land.\n\nFor whoever gives the credit back out loud.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A stairwell. A navy block figure on the right looks down with narrowed eyes. A ink-black block figure with white eyes on the left pulses, steps closer and a bubble says that was your idea. The navy one looks up with wide eyes and turns happy, and a bubble says you noticed! Both end with happy eyes. The text stays: me handing the credit back.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "that-part-was-yours",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -4.3 dBFS, LRA 3.7 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "devolver el credito de una idea a quien la tuvo",
+ "blanco": "Cella y quien se queda con el aplauso de otro",
+ "destinatario": "gives the credit back out loud",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "ene-b",
+ "sale_utc": "2027-01-16T15:15:00Z",
+ "tanda": "ene-s3 (junta-ene-s3, 2c, Reels de biblioteca)"
+}

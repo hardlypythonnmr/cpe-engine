@@ -1,0 +1,26 @@
+{
+ "slug": "take-a-turn-at-the-pot",
+ "issue": 77,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-20T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5d3d2e77d6275516bf1d6c1e86cc4c9aa99f6714de4fb7217f08c84d4b8be941",
+ "hashes": {
+  "short": "c0eac5da3aa283d2bf32ab843e23612198abb83912dd0afb52e5ac83e6ab75ca",
+  "reel": "02f0228773ce3dcfe186406e90a10911a9cf321ca9f740babcf1d3ec3706df9d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886937372,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-1411",
+ "caducado_utc": "2026-11-15T00:55:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1286
+}

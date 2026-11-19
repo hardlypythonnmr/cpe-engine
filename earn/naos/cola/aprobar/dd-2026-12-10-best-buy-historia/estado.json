@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-10-best-buy-historia",
+ "issue": 105,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T16:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "d54b74fd076582dac47f55ea86a5bccee46b6f275c00aa856afd34b02ff8c3d5",
+ "hashes": {
+  "historia": "e7eecb7ba43c30f50d2542d01d0700e621ea688cab93422f2279b2fba6679f94"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6890753742,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-c",
+ "aprobado_evento_utc": "2026-11-15T11:55:33Z",
+ "issue_n_system": 1478
+}

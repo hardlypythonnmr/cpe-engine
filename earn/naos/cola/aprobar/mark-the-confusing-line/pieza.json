@@ -1,0 +1,55 @@
+{
+ "slug": "mark-the-confusing-line",
+ "titulo": "A circle on line four",
+ "clave": "2027-01-28|mark-the-confusing-line",
+ "sale_utc": "2027-01-28T19:45:00Z",
+ "caption": "A circle on line four\n\n\"I'll skip it.\" \"Mark it.\" A circle and a yellow question mark landed on line four, and the page kept moving.\n\nA mark on the confusing line lets you keep reading, and it shows you exactly where to come back.\n\nFor whoever marks the line they didn't get and keeps going.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A mark on the confusing line lets you keep reading, and it shows you exactly where to come back.\n\nFor whoever marks the line they didn't get and keeps going.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and, at the right, a paper page titled Ch. 3 with six lines. A royal blue block figure with narrowed eyes says I'll skip it. A ink-black block figure with white eyes answers mark it, and a red circle is drawn around the fourth line while a yellow note with a question mark hops onto the edge of the page, with a small sparkle. The blue one's eyes go wide and says ...ok. I'll come back. Both end with happy eyes. The text stays: me marking the part I didn't get.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "mark-the-confusing-line",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "marcar la linea que no se entendio y seguir leyendo en vez de saltarsela",
+ "blanco": "Cella y quien se salta lo que no entiende",
+ "destinatario": "marks the line they didn't get and keeps going",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 27 al 31-ene (tanda ened, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "ened"
+}

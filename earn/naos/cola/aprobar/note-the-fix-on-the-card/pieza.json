@@ -1,0 +1,55 @@
+{
+ "slug": "note-the-fix-on-the-card",
+ "titulo": "A yellow note on the recipe card: pinch",
+ "clave": "2027-01-29|note-the-fix-on-the-card",
+ "sale_utc": "2027-01-29T13:30:00Z",
+ "caption": "A yellow note on the recipe card: pinch\n\nThe soup came out too salty. The recipe card got a yellow note that said pinch.\n\nA note on the card takes five seconds, and the next batch starts one step ahead of this one.\n\nFor whoever writes the fix on the recipe while it's fresh.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A note on the card takes five seconds, and the next batch starts one step ahead of this one.\n\nFor whoever writes the fix on the recipe while it's fresh.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a long counter. On it a recipe card titled Soup with three ticked boxes and one empty line, and a pot with steam at the right. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and a yellow note that says pinch drops onto the card, with a small sparkle above it. Its eyes turn happy with a pulse. The text stays: me writing down the fix.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "note-the-fix-on-the-card",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.3 dBFS, LRA 1.6 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "anotar en la receta lo que hay que corregir mientras se acuerda",
+ "blanco": "Cella y quien cocina la misma receta con el mismo error",
+ "destinatario": "writes the fix on the recipe while it's fresh",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 27 al 31-ene (tanda ened, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "ened"
+}

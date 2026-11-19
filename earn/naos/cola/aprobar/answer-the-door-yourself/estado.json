@@ -1,0 +1,26 @@
+{
+ "slug": "answer-the-door-yourself",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T23:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a1c2c9c31669c58ff710afe60a15fb5bcc748530e68f7fccf3f8147789e338b8",
+ "hashes": {
+  "short": "801f52ac074dd1119477214f458ad7ec4cc0e4f5d7eacaef676df08653c69e7e",
+  "reel": "53437f99fe77cbc296fd5c632f1c90d82313bbd7eb70020aa2fd0e262a91073a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886850849,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

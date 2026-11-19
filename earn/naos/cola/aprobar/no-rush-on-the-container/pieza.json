@@ -1,0 +1,54 @@
+{
+ "slug": "no-rush-on-the-container",
+ "titulo": "No rush on the container",
+ "clave": "2026-12-09|no-rush-on-the-container",
+ "caption": "No rush on the container\n\nNo rush on the container.\n\nA container still to return gives both of you an easy reason to see each other again.\n\nFor whoever lends the container with no due date.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "No rush on the container.\n\nA container still to return gives both of you an easy reason to see each other again.\n\nFor whoever lends the container with no due date.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a small food container on the floor between two small block figures with white eyes, an ink-black one on the left and a brick red one on the right. A bubble above the black one says take the rest and the container slides across the floor to the red one. The red one's eyes go wide and then happy and a bubble says thank you! Then it says I'll bring it back, and the black one answers no rush with happy eyes and a pulse. The text stays: me lending the container with no due date. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "no-rush-on-the-container",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.0 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "prestar el recipiente sin fecha de devolucion",
+ "blanco": "Cella (y quien presta el taper con comida)",
+ "destinatario": "whoever lends the container with no due date",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-09T13:45:00Z"
+}

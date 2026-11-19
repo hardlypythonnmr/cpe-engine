@@ -1,0 +1,83 @@
+{
+ "slug": "dd-2026-11-22-etsy-historia",
+ "titulo": "Etsy (Dec 2023): $576.9 million buying back its own stock, about 225 jobs planned cuts. The math.",
+ "clave": "2026-11-22|mercury|historia|2026-11-22-etsy-historia",
+ "sale_utc": "2026-11-22T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Dec 2023. Not today's news.\nEtsy, Dec 13, 2023 (Etsy, Form 8-K): \"better align Etsy’s workforce and cost structure with current business needs\"\nEtsy said in an SEC filing on Dec. 13, 2023 that its board approved a restructuring plan that cuts about 225 employees, 11% of its marketplace workforce. The buyback figure is from its 2023 Form 10-K.\n\nSame year: $576.9 million buying back its own stock, 2023, company-wide. $576,968 thousand of stock repurchased during 2023, company-wide (cash flow statement, Form 10-K, reported in thousands).\nThe math: $576.9 million in buybacks (2023) ÷ about 225 job cuts = about $2.5 million in buybacks per planned job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $576.968 million is Etsy's stock repurchases for all of 2023, company-wide. The 225 employees are about 11% of the marketplace workforce, per the filing, not the whole company. We are not saying one paid for the other.\n\nAligned with business needs. The buyback column was busy too. (Our take.)\n\nSources:\n- SEC EDGAR · Etsy, Dec 13, 2023: «approved a restructuring plan designed to increase Etsy’s operational efficiencies, reduce operating costs, and better align Etsy’s workforce and cost structure with current business needs, top strategic priorities and key growth opportunities» and «The Restructuring Plan includes an approximately 11% reduction of the Etsy marketplace workforce, which is approximately 225 employees» https://www.sec.gov/Archives/edgar/data/1370637/000137063723000091/etsy-20231212.htm\n- SEC EDGAR · Etsy, Feb 22, 2024: «Repurchase of stock ( 576,968 ) ( 425,727 ) ( 302,774 )» https://www.sec.gov/Archives/edgar/data/1370637/000137063724000013/etsy-20231231.htm",
+ "alt": "Paper-colored card. Etsy, Dec 13, 2023. A gray typewriter quote, \"better align Etsy’s workforce and cost structure with current business needs\", struck through with a dark red marker line. The struck quote is by Etsy, Form 8-K. Then the math in huge black letters, with the result on a yellow highlight: $576.9M ÷ 225 = about $2.5M, in buybacks, per planned job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib3-etsy-2023-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063723000091/etsy-20231212.htm",
+   "medio": "SEC EDGAR · Etsy",
+   "titulo": "Etsy Form 8-K, Item 2.05",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063724000013/etsy-20231231.htm",
+   "medio": "SEC EDGAR · Etsy",
+   "titulo": "Etsy Form 10-K",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "Etsy (Dec 2023): approved a restructuring plan, in stock buybacks per job cut",
+ "banco_archivo": {
+  "caso": "etsy-2023-layoffs",
+  "rotulo_fecha": "ARCHIVE · DEC 2023",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/etsy-2023-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-etsy-2023-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-etsy-2023-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Frase del 8-K; B (225) es el 11 % del marketplace, no toda la plantilla: la pantalla lo dice ('marketplace workforce') y la nota también; A de la tabla en miles."
+  ]
+ }
+}

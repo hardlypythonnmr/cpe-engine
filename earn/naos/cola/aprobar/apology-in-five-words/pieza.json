@@ -1,0 +1,53 @@
+{
+ "slug": "apology-in-five-words",
+ "titulo": "The three-paragraph apology",
+ "clave": "2026-12-03|apology-in-five-words",
+ "caption": "The three-paragraph apology\n\nCella wrote three paragraphs to say five words.\n\nAn apology lands best when it names what happened and stops, since extra explanation tends to sound like a defense.\n\nFor the friend who apologizes in one line.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella wrote three paragraphs to say five words.\n\nAn apology lands best when it names what happened and stops, since extra explanation tends to sound like a defense.\n\nFor the friend who apologizes in one line.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes stands on the left with typing dots above it, facing a counter that reads 148 words. Each time it narrows its eyes the counter drops: 96, 41, 12, 5. Then the dots vanish and its eyes turn happy with a pulse. The text changes from: me writing a three paragraph apology, to: sent: I was wrong. I'm sorry.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "apology-in-five-words",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pedir perdon corto (nombrar lo que paso y parar)",
+ "blanco": "Cella y quien se disculpa con tres parrafos",
+ "destinatario": "the friend who apologizes in one line",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Remate",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-03T16:15:00Z"
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-listening",
+ "titulo": "Three ways to listen",
+ "clave": "2026-12-15|three-kinds-of-listening",
+ "sale_utc": "2026-12-16T02:00:00Z",
+ "caption": "Three ways to listen\n\nI used to fix everything a friend told me. Then I started saying go on.\n\nPeople who vent often want company in the problem more than a solution, and a short go on tends to give them that.\n\nFor whoever lets the other person keep talking.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "People who vent often want company in the problem more than a solution, and a short go on tends to give them that.\n\nFor whoever lets the other person keep talking.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a royal blue figure that says rough day. in each of three labeled scenes. The nodder: a teal figure stares at a phone and mutters mm-hm. The fixer: a brown figure says just quit. and the blue one looks down. The stayer: an ink-black figure leans toward the blue one and says go on., and the blue one's eyes turn happy. The text stays: three kinds of listening. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-listening",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "escuchar",
+ "blanco": "Cella (y quien arregla en vez de escuchar)",
+ "destinatario": "lets the other person keep talking",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the nodder",
+  "the fixer",
+  "the stayer"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "introducing-the-chair-es",
+ "titulo": "¿Comer de pie otra vez? Presentamos: la silla",
+ "clave": "2026-11-24|introducing-the-chair-es",
+ "sale_utc": "2026-11-24T04:30:00Z",
+ "caption": "¿Comer de pie otra vez? Presentamos: la silla\n\nPrecio: gratis.\n\nPara quien almuerza de pie en la cocina.\nLink en la bio.\nby NMR\n#animacion #humor #comida #cella",
+ "sintetico": false,
+ "alt": "Un video corto sin voz. Una cocina amarilla. Una figura pequeña de bloque, rojo tomate, con patas de puerta y ojos cansados medio cerrados, está detrás de un mesón con un plato con un solo bocado. Se inclina, se come el bocado, mastica, intenta sentarse en la nada y vuelve a quedar de pie, temblando un poco. Una silla entra desde la derecha con dos estrellas blancas de brillo; la figura camina hacia ella, se sube con ojos felices y da otro bocado. Salta una tercera estrella. En pantalla se quedan las palabras: ¿comer de pie otra vez? presentamos: la silla. precio: gratis.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "introducing-the-chair",
+  "version": 8
+ },
+ "descripcion": "",
+ "idioma": "es",
+ "gemela_de": "introducing-the-chair",
+ "tema_seo": "humor",
+ "tanda": "es-video (D-528), gemela de introducing-the-chair",
+ "revisiones": [
+  {
+   "que": "Raya larga",
+   "estado": "OK",
+   "nota": "sin raya larga ni media"
+  },
+  {
+   "que": "Cifras",
+   "estado": "OK",
+   "nota": "las cifras y años de la original están iguales, con sus fuentes"
+  },
+  {
+   "que": "SEO en español",
+   "estado": "OK",
+   "nota": "#animacion #humor #comida #cella"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "160 caracteres; empieza con el título (regla del Reel)"
+  },
+  {
+   "que": "Alt",
+   "estado": "OK",
+   "nota": "578 caracteres, escrito en español"
+  },
+  {
+   "que": "Forma",
+   "estado": "OK",
+   "nota": "12.00 s contra 12.00 s de la original; misma escena y mismo sonido (motor texto)"
+  },
+  {
+   "que": "Sonido",
+   "estado": "OK",
+   "nota": "el de la pieza aprobada, sin llamadas a ElevenLabs"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "las de la original (respeto.md, D-517, D-527): sin promesa de cura; lo sagrado sin burla; tú, español neutro latino (D-528)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "N mira la gemela en la tanda; para los mantras, un practicante revisa al mes (D-367)"
+  }
+ ],
+ "gemela_video": {
+  "motor": "texto",
+  "elevenlabs_llamadas": 0
+ }
+}

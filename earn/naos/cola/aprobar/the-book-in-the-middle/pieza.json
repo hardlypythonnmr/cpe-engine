@@ -1,0 +1,53 @@
+{
+ "slug": "the-book-in-the-middle",
+ "titulo": "The book in the middle",
+ "clave": "2026-12-05|the-book-in-the-middle",
+ "caption": "The book in the middle\n\nCella slid the book to the middle so they could both read it.\n\nReading side by side is one of the oldest ways to keep someone company.\n\nFor the friend who reads you the good parts.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella slid the book to the middle so they could both read it.\n\nReading side by side is one of the oldest ways to keep someone company.\n\nFor the friend who reads you the good parts.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A room with a window. A small amber block figure with white eyes on the left stands beside a closed book, while a royal blue figure on the right looks over with narrowed eyes. The black one leans and the book slides to the middle of the floor and opens. The blue one's eyes go wide and then happy with a pulse, a page turns, and the black one smiles.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "the-book-in-the-middle",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.1 dBFS, LRA 3.5 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "acercar lo que lees para leer juntas",
+ "blanco": "Cella y quien lee sola al lado",
+ "destinatario": "the friend who reads you the good parts",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-05T18:00:00Z"
+}

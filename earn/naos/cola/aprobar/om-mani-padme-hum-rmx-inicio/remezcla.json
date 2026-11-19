@@ -1,0 +1,38 @@
+{
+ "origen": "om-mani-padme-hum-sunday-karma",
+ "eje": "inicio",
+ "brazo": "B",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "starts at the breath before the fourth round (7.99 s) and runs to the end of round ten: 18.7 s instead of 27.2 s; image and lyric capsule stay in sync with the sound"
+ ],
+ "receta": {
+  "slug": "om-mani-padme-hum-rmx-inicio",
+  "fecha_et": "2026-11-20",
+  "et_preferida": "16:00",
+  "tramos": [
+   [
+    7.99,
+    26.68
+   ]
+  ],
+  "con_audio": true,
+  "fundido_final": 0.5,
+  "portada": 1.0,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 18.69,
+ "audio": {
+  "lufs": -13.9,
+  "pico_dbtp": -1.8
+ },
+ "huella": {
+  "dhash_media": 4.4,
+  "dhash_min": 1,
+  "umbral": 14,
+  "cambio_color": 11.0,
+  "distinta": false,
+  "lectura": "casi igual"
+ },
+ "elevenlabs_llamadas": 0
+}

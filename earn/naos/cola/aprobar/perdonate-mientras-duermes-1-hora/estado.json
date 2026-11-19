@@ -1,0 +1,23 @@
+{
+ "slug": "perdonate-mientras-duermes-1-hora",
+ "issue": 35,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T04:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "721a84d169cf1c4e9b44ee5745101c2898a65f9351fe53580dbfb4634268e04b",
+ "hashes": {
+  "short": "329df324dae81f0db90de37d8551cf637f4f0e6238b17e9790c69830d93fbb97"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6958471840,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dormir-es-21-23-nov",
+ "aprobado_evento_utc": "2026-11-17T20:33:23Z",
+ "issue_n_system": 1786
+}

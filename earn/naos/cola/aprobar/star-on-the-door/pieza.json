@@ -1,0 +1,49 @@
+{
+ "slug": "star-on-the-door",
+ "titulo": "A star on the door",
+ "caption": "A star on the door\n\nCella left a small star on the door and walked away.\n\nKindness tends to land harder than the giver expects: people underestimate how much a small, unexpected gesture means to the one who gets it.\n\nSend it to the friend who leaves small surprises without signing them.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Cella left a small star on the door and walked away.\n\nKindness tends to land harder than the giver expects: people underestimate how much a small, unexpected gesture means to the one who gets it.\n\nSend it to the friend who leaves small surprises without signing them.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A stairwell with a closed door on the right. A small ink-black block figure with white eyes walks up to it, glances left to check nobody is watching, then leans toward the door and a small golden star appears on it. Its eyes turn happy with a pulse. Then it tiptoes back to the left, looks over at the star one more time and smiles.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "star-on-the-door",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.7 dBFS, LRA 2.0 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "amabilidad (el gesto sin firma)",
+ "blanco": "Cella y quien deja sorpresas chicas",
+ "destinatario": "the friend who leaves small surprises without signing them",
+ "cara": "A",
+ "tipo": "NW",
+ "variante": "no-words",
+ "modo": "No words",
+ "experimento": false,
+ "sale_utc": "2026-11-30T23:00:00Z",
+ "clave": "2026-11-30|star-on-the-door"
+}

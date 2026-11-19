@@ -1,0 +1,55 @@
+{
+ "slug": "watch-them-to-the-corner",
+ "titulo": "Watching him to the corner",
+ "clave": "2026-12-13|watch-them-to-the-corner",
+ "sale_utc": "2026-12-13T15:20:00Z",
+ "caption": "Watching him to the corner\n\nHe says she can go inside. She stays on the step and watches him all the way to the corner.\n\nStanding there costs two minutes, and the last thing they see is someone still there.\n\nFor whoever waits until a friend turns the corner.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Standing there costs two minutes, and the last thing they see is someone still there.\n\nFor whoever waits until a friend turns the corner.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A street with an open door on the far left and a street sign on a pole that says Elm on the far right. Two block figures with white eyes stand together, one ink-black and one royal blue. The royal blue one says you can go in. The ink-black one says till the corner. The royal blue one strolls to the right toward the sign, the ink-black one stays and watches. At the corner the royal blue one turns around and both turn happy with a pulse. The text stays: me, watching till the corner.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "watch-them-to-the-corner",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "quedarse mirando hasta que el otro doble la esquina",
+ "blanco": "Cella y quien se mete a la casa antes de que el otro se vaya",
+ "destinatario": "waits until a friend turns the corner",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 10 al 13-dic (tanda dic-k, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-k"
+}

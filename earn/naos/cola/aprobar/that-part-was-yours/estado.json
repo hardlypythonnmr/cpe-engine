@@ -1,0 +1,26 @@
+{
+ "slug": "that-part-was-yours",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-16T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7abe76444500cd088540f47f0533615ff47a5765f8174f33a603b1c4cb980cc3",
+ "hashes": {
+  "short": "e44a551fd720c0df323c9308cdab8fa96ee4b909a2d19da99a9d86f3e0b7984e",
+  "reel": "ef5b50840fe2f02ba771876005a48e4ba775e3928df0ee3e8aa8c4608d062773"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893981360,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

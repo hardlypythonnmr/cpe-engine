@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-30-on-semiconductor-lamina",
+ "issue": 80,
+ "version": 5,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T20:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "15d9ac89ce6e0479ed1c464fe58655e87c080cbbeeb60a9a157032ae6a3cd0ff",
+ "hashes": {
+  "imagen": "6957d74863baf9ec6b4f8bd7a721fb00599bc46d873d2b8edb32ed92cb435cc9"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6914677574,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-d",
+ "caducado_utc": "2026-11-16T11:06:05Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:13Z",
+ "issue_n_system": 1334
+}

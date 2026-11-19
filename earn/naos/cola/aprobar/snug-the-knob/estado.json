@@ -1,0 +1,26 @@
+{
+ "slug": "snug-the-knob",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T21:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cf647d9ff19868f747507b9143b72e26513ec69087df3947ca46baae7e8a1186",
+ "hashes": {
+  "short": "198044a5450a3473e3133f8c1a5245e61de358e110118ada0f9b0e4dfd5c415e",
+  "reel": "14b61aac6d4e5885dbc9fb32dc71e0ca96ba3b50792b4bbe317ab5f59a6940f4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886859862,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

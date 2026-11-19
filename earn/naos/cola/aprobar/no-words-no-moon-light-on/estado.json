@@ -1,0 +1,25 @@
+{
+ "slug": "no-words-no-moon-light-on",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-07T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2208e51c334bf9d403ef3283722eeb6b6b3ba6a64162a59b7659ecafa8995314",
+ "hashes": {
+  "short": "e5e7863ec471e417bd48a3ae087812cf5086cefd65ad9fbc0454d07f0236c07c",
+  "reel": "907b4675424aa56afab2f89a8d2c99fc247d314233a5a48753f624a1c6b3c13e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886623398,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

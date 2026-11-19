@@ -1,0 +1,25 @@
+{
+ "slug": "ask-for-the-way",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T16:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "048d73f5b41e3f52902e709c2183469db94a6a43d008f767e4190c0eddac4fcd",
+ "hashes": {
+  "short": "479bdb271e0654ea5a26d269504084d6896f57af52731e4901460a17dca4bdae",
+  "reel": "f5b6484b08f225b45273dcd5dfc7113d79795cae613a8907c2dbad28c581bb35"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870895329,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-22-axalta-2023-record-and-cuts-explicador",
+ "titulo": "Axalta Coating Systems, Feb 2024: about $8.66M of 2023 net sales per job cut announced in 2024. Now the math.",
+ "clave": "2026-11-22|mercury|explicador|2026-11-22-axalta-2023-record-and-cuts-explicador",
+ "sale_utc": "2026-11-22T01:00:00Z",
+ "caption": "Axalta Coating Systems, Feb 2024: about $8.66M of 2023 net sales per job cut announced in 2024. Now the math.\n\nAxalta's release for full-year 2023 said the company achieved record sales; an 8-K filed on February 27, 2024 (event date February 26) reported a reduction in workforce of approximately 600 employees.\n\nFrom the archive: Feb 2024. Not today's news.\n\nThe math: $5,200,000,000 (net sales, full year 2023 (the year Axalta called a record for sales)) ÷ approximately 600 jobs = about $8,666,666 of 2023 net sales, the year Axalta called a record for sales, for every job cut announced in February 2024. We round down.\nAxalta called 2023 a record for sales. We count sales, not net profit. The 8-K was filed Feb 27, 2024; its event date is Feb 26. The 8-K says approximately 600 employees globally. Net sales are $5.2 billion as Axalta rounds them, so the result says about.\n\n(Our take.) Record, they said. Here is the per-job column.\n\nSources\nF1: Axalta Form 8-K, Exhibit 99.1: Fourth Quarter and Full Year 2023 Results, filed Feb 8, 2024 · https://www.sec.gov/Archives/edgar/data/1616862/000161686224000009/a1220238-kyearxendxex99.htm\nF2: Axalta Form 8-K, Item 2.05 (2024 Transformation Initiative), filed Feb 27, 2024 · https://www.sec.gov/Archives/edgar/data/1616862/000161686224000018/axta-20240226.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "Axalta's release for full-year 2023 said the company achieved record sales; an 8-K filed on February 27, 2024 (event date February 26) reported a reduction in workforce of approximately 600 employees.\n\nFrom the archive: Feb 2024. Not today's news.\n\nThe math: $5,200,000,000 (net sales, full year 2023 (the year Axalta called a record for sales)) ÷ approximately 600 jobs = about $8,666,666 of 2023 net sales, the year Axalta called a record for sales, for every job cut announced in February 2024. We round down.\nAxalta called 2023 a record for sales. We count sales, not net profit. The 8-K was filed Feb 27, 2024; its event date is Feb 26. The 8-K says approximately 600 employees globally. Net sales are $5.2 billion as Axalta rounds them, so the result says about.\n\n(Our take.) Record, they said. Here is the per-job column.\n\nSources\nF1: Axalta Form 8-K, Exhibit 99.1: Fourth Quarter and Full Year 2023 Results, filed Feb 8, 2024 · https://www.sec.gov/Archives/edgar/data/1616862/000161686224000009/a1220238-kyearxendxex99.htm\nF2: Axalta Form 8-K, Item 2.05 (2024 Transformation Initiative), filed Feb 27, 2024 · https://www.sec.gov/Archives/edgar/data/1616862/000161686224000018/axta-20240226.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.",
+ "alt": "Vertical video, 1:09, cobalt blue poster with white type and no narration. Axalta Coating Systems, Feb 2024: about $8.66M of 2023 net sales per job cut announced in 2024. Now the math.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2024-02-27T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "explicador",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1616862/000161686224000009/a1220238-kyearxendxex99.htm",
+   "medio": "SEC EDGAR · Axalta",
+   "titulo": "Axalta Form 8-K, Exhibit 99.1: Fourth Quarter and Full Year 2023 Results",
+   "hora_utc": "2024-02-08T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1616862/000161686224000018/axta-20240226.htm",
+   "medio": "SEC EDGAR · Axalta",
+   "titulo": "Axalta Form 8-K, Item 2.05 (2024 Transformation Initiative)",
+   "hora_utc": "2024-02-27T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "69.9 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

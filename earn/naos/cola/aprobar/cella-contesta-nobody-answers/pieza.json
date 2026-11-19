@@ -1,0 +1,61 @@
+{
+ "slug": "cella-contesta-nobody-answers",
+ "titulo": "What do you do when nobody answers? Cella answers",
+ "clave": "2026-11-21|casa-alcoba",
+ "sale_utc": "2026-11-22T01:15:00Z",
+ "caption": "What do you do when nobody answers? Cella answers\n\nCella answers. A little bell, one ding.\n\nCloser to yourself.\n\n#naos #behaviors",
+ "descripcion": "Cella answers. A little bell, one ding.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film on a flat deep indigo background in a bedroom at night. At the top, the question \"what do you do when nobody answers?\" A small doorway-shaped amber figure with white eyes stands beside a wooden table. On the table are a phone showing an empty chat bubble with three waiting dots, and a small golden desk bell. The words appear one line at a time: I set the phone down (she tips the phone onto its face). I ring the little bell (she presses the bell's red button, it chimes and little arcs shake beside it). The bell answers (it rings again by itself, and her eyes go wide). Ding. That counts (the bell rings once more, and she closes her eyes in a smile). The closing question: the last one who answered, or the next one? Then: Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Name the last person who did answer.",
+ "casa": {
+  "id": "cella-contesta-nobody-answers",
+  "version": 7
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "17.67 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 6 voice lines, 28 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.5 dBFS, LRA 3.7 LU; mono fold (0.5 L + 0.5 R) -17.1 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.5 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "elevenlabs mesa-maya eleven_v4, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Tipo nuevo (D-323): Cella contesta",
+   "estado": "OK",
+   "nota": "Cella contesta: the question on screen in the first 2 s, Cella does the action while the voice answers, closing question with two sides. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Sensitive (loneliness)",
+   "estado": "OK",
+   "nota": "no advice, no judgment, nothing that sounds like therapy: Cella says what she does with a bell, the bell answers, the close is a two-sided question. The pinned comment asks for a name, not a feeling."
+  },
+  {
+   "que": "Voice (final)",
+   "estado": "OK",
+   "nota": "ElevenLabs mesa-maya eleven_v4 (final voice, after N's OK on tanda v7-cm-2123), 122 characters billed (5 new takes, \"Closer to yourself.\" from cache); music, script, on-screen text and scene unchanged; the voice runs 0.26 s longer in the closing card so that segment was stretched (17.41 s to 17.67 s); limiter pass (lib/limita-pico.sh) leaves the true peak at -1.5 dBFS; no transcriber available, checked by per-line duration against the marks"
+  },
+  {
+   "que": "Timing notes",
+   "estado": "OK",
+   "nota": "I ring the little bell.: 16.4 car/s"
+  }
+ ]
+}

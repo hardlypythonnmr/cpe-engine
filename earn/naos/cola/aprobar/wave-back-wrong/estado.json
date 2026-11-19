@@ -1,0 +1,25 @@
+{
+ "slug": "wave-back-wrong",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "36af4d08360b66c0c614a4750f75ebf2b1eba0729e5bdcc0fe923e921df5a86e",
+ "hashes": {
+  "short": "f98314be2b3c91ab2fa10a1207ee8ab46ae64f2362266f20d8ff0fdfc4e0d364",
+  "reel": "afedaaeda34b208a70c1a242ef7449bedaa9af9085cee3fbee795ea73ceeca9e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863234196,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

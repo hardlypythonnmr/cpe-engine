@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-texting-back",
+ "titulo": "Three ways to text back",
+ "clave": "2026-12-17|three-kinds-of-texting-back",
+ "sale_utc": "2026-12-18T00:30:00Z",
+ "caption": "Three ways to text back\n\nI used to read a friend's message and answer it in my head. Then I started typing the real reply.\n\nA reply that says when and where tends to end the back and forth, while a bare k tends to start more of it.\n\nFor whoever answers the message instead of thinking about it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A reply that says when and where tends to end the back and forth, while a bare k tends to start more of it.\n\nFor whoever answers the message instead of thinking about it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table, a small phone buzzing on it and a royal blue figure waiting, in three labeled scenes. The ghost: a teal figure reads the phone and shuts its eyes without answering, and the blue one narrows its eyes. The k: a brown figure answers with a bubble that says k. and the blue one narrows its eyes. The whole reply: an ink-black figure answers see you at six. with happy eyes, and the blue one's eyes turn happy. The text stays: three kinds of texting back. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-texting-back",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "contestar un mensaje",
+ "blanco": "Cella (y quien deja el mensaje en visto)",
+ "destinatario": "answers the message instead of thinking about it",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the ghost",
+  "the k",
+  "the whole reply"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "turn-it-to-face-them",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-23T01:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a7e95e3274f2f6251fb4cbf51c2dc48b641963963d036c448fb1c5e783143555",
+ "hashes": {
+  "short": "c1df7c94bb85a306da00ddfb230e354971978b6c52413f7d027171f1dc0c3a01",
+  "reel": "dd34f78e523ce5886eaa42855f0c73018eebc0883fc6a9bb1cd44e62d315995c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886875664,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

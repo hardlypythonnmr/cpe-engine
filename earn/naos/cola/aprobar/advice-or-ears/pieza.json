@@ -1,0 +1,51 @@
+{
+ "slug": "advice-or-ears",
+ "titulo": "Advice, or just ears",
+ "clave": "2026-12-10|advice-or-ears",
+ "sale_utc": "2026-12-10T20:30:00Z",
+ "caption": "Advice, or just ears\n\n\"Rough day.\" \"Advice or just ears?\" \"Just ears.\" She asked first, so she gave the right kind of help.\n\nAsking what kind of help they want saves you from handing out the wrong kind.\n\nFor whoever asks whether you want advice or just ears.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Asking what kind of help they want saves you from handing out the wrong kind.\n\nFor whoever asks whether you want advice or just ears.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. A royal blue block figure on the right looks down with narrowed eyes and a bubble says rough day. A ink-black block figure with white eyes on the left opens its eyes wide and a bubble says advice or just ears? The blue one looks up with wide eyes and a bubble says just ears. Both end with happy eyes. The text stays: me asking what kind of help you want.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "advice-or-ears",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.3 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "preguntar si quieren consejo o solo que los escuchen",
+ "blanco": "Cella y quien suelta consejos sin que se los pidan",
+ "destinatario": "asks whether you want advice or just ears",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

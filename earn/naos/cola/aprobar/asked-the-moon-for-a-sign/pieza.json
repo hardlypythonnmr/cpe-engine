@@ -1,12 +1,12 @@
 {
  "slug": "asked-the-moon-for-a-sign",
  "titulo": "I asked the moon for a sign. It said go to bed.",
- "clave": "2026-11-18|etereo",
- "sale_utc": "2026-11-19T03:30:00Z",
- "caption": "I asked the moon for a sign. It said go to bed.\n\nCloser to yourself.\n\n#naos #moon",
- "descripcion": "I asked the moon for a sign. It said go to bed.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "clave": "2026-11-27|etereo",
+ "sale_utc": "2026-11-28T02:15:00Z",
+ "caption": "Asked the universe for a sign tonight? The moon already answered.\n\nThat's the real moon over New York tonight: a waning gibbous, three nights after the Beaver Moon. Waning gibbous means it's past full and a little smaller each night. Still bright, already letting go. In moon lore it's the phase for release and rest. In plain astronomy, it rose after dark and keeps climbing while you scroll.\n\nWhy do I overthink at night? It's quiet, you're tired, and every question feels bigger at this hour. It will still be there tomorrow, with more light on it.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#signfromtheuniverse #askingtheuniverse #waninggibbous #beavermoon #moonquotes #cantsleep #naos",
+ "descripcion": "Asked the universe for a sign tonight? The moon already answered.\n\nThat's the real moon over New York tonight: a waning gibbous, three nights after the Beaver Moon. Waning gibbous means it's past full and a little smaller each night. Still bright, already letting go. In moon lore it's the phase for release and rest. In plain astronomy, it rose after dark and keeps climbing while you scroll.\n\nWhy do I overthink at night? It's quiet, you're tired, and every question feels bigger at this hour. It will still be there tomorrow, with more light on it.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#signfromtheuniverse #askingtheuniverse #waninggibbous #beavermoon #moonquotes #cantsleep #naos",
  "sintetico": false,
- "alt": "A short looping video in flat colors with no voice: seen over the shoulder of a small round figure, a night window with the real moon of 2026-11-18 (60 percent lit) and a dark tree; the camera pushes in slowly. White words in the middle read: \"I asked the moon for a sign. It said go to bed.\"",
+ "alt": "Flat-color animated night scene with no voice. A small yellow figure with round eyes, in the bottom corner, looks up at a window. Through it, the real waning gibbous moon of Friday night, November 27, 2026 in New York, three nights after the Beaver Moon, shines beside a dark tree, a soft cloud and a few stars, and the camera pushes in slowly. White words read: I asked the moon for a sign. It said go to bed.",
  "datos_utc": "",
  "sin_cifras": true,
  "canales": [
@@ -16,7 +16,7 @@
  "portada": "portada.jpg",
  "seccion": "humanity",
  "casa": {
-  "id": "et-b-moon-sign",
+  "id": "et-b-moon-sign-v2",
   "version": 8
  },
  "filo": "V",
@@ -42,13 +42,13 @@
   {
    "que": "Moon",
    "estado": "OK",
-   "nota": "USNO 2026-11-18: 60 percent lit, waxing gibbous; the drawn moon is that one (release day)"
+   "nota": "USNO for New York: 2026-11-27 waning gibbous, 86 percent lit that day (77 percent on the 28th), about 83 percent at 21:15 local (ephem); full moon Nov 24 14:53 UT; moonrise 19:43, so the moon is up at release; lit side on the left (waning)"
   },
   {
-   "que": "Critic",
+   "que": "SEO copy",
    "estado": "OK",
-   "nota": "autocomprobación del constructor (hoja de contacto a 270 px, medir8); juez distinto pendiente"
+   "nota": "seo-maestro (19-nov), investigacion.md"
   }
  ],
- "tanda": "etereo-15-22-nov (D-339, D-342, D-359 a D-363; candidatas en earn/naos/empresa/etereo/2026-11-05-filo-15-22-nov.md)"
+ "comentario_fijado": "Be honest: what did you ask the universe for a sign about tonight?"
 }

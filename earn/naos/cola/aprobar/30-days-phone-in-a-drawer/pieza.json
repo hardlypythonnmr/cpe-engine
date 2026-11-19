@@ -1,0 +1,61 @@
+{
+ "slug": "30-days-phone-in-a-drawer",
+ "titulo": "Live Commentary: 30 Days With the Phone in a Drawer",
+ "clave": "2026-11-23|largo-la",
+ "sale_utc": "2026-11-23T22:00:00Z",
+ "caption": "YouTube only (a largo in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "For the friend who says \"I'm quitting next month.\"\n\nCella deletes her social apps and puts her phone in the kitchen drawer for 30 days. Her friends' group chat lives in one of those apps, so it goes too. Calls and texts are allowed, at the drawer. Two commentators call the month, every open counted, with four questions: Where does the time go? What does it cost? How big is the change? What comes back?\n\nIf your phone went in a drawer for 30 days, what would you miss first?\n\nChapters\n0:00 Day 30: the drawer\n1:10 Where does the time go?\n2:38 Week one, and a $102 experiment\n4:57 What does it cost?\n6:36 How big is the change?\n8:02 Day 20: she forgot\n10:09 What comes back?\n11:21 Full time\n\nThe study in this video: in a randomized experiment in the US in the fall of 2018, Hunt Allcott, Luca Braghieri, Sarah Eichmeyer and Matthew Gentzkow paid 580 Facebook users $102 to switch off Facebook (only Facebook) for four weeks, and compared them with 1,081 who kept using it. Only people who would switch it off for less than $102 took part, about 6 in 10 of those who signed up. More than 90% kept it off. They had reported about 75 minutes a day on Facebook before; switching it off freed up about an hour a day, which went to offline time, including time with friends and family; their overall measure of social interaction did not clearly change, and they used other social media less. They spent about 8 minutes a day less on news (15% less) and did worse on a news quiz. Their well-being measures improved a little; the researchers call the effect small, about a third of what comparing heavy and light users would suggest. Weeks later they said they used the Facebook app about 11 minutes a day less (22% less); nine weeks later, 5% still had it off, against 2.5% of the comparison group; about 80% said switching it off was good for them. After the four weeks, what they would want to be paid to stay off for another four weeks dropped by up to 14%; the researchers say this fits two explanations (the habit wears off, or people learned they liked the time more than expected) and cannot tell which. Most measures are self-reported. The study did not test switching off other apps, a month without all of them, or anyone like Cella. Cella's month is a story and her numbers are made up.\nAllcott, H., Braghieri, L., Eichmeyer, S., & Gentzkow, M. (2020). The welfare effects of social media. American Economic Review, 110(3), 629-676.\n\nMade with code and Claude. Crowd and music composed with code by NAOS. Voices by ElevenLabs.\nCloser to yourself.",
+ "sintetico": false,
+ "alt": "A 12-minute video in 16:9 narrated like a live sports broadcast by two commentators, a fast excited man and a calm, dry woman. Cella, a small doorway-shaped figure with two white eyes, puts her phone in the kitchen drawer for 30 days after six of the nine squares on her phone screen pop away. A scoreboard across the top reads DAY, TODAY, NO REASON and LIVE. The drawer opens and closes again and again: on day one with no reason, then for a text from her roommate Rina that says Bringing bread?; on day two eight times, one of them at 3:40 PM labeled bus time. A chart on the fridge counts the opens with no reason by week: W1 31, W2 13, W3 5, W4 1. Between the days, a sheet titled THE STUDY explains an experiment by Allcott and colleagues from 2018 that paid people to switch off Facebook for four weeks: about 1 hour a day freed, more time offline, some with friends, social life unclear, news 8 minutes less a day and fewer right on a news quiz, a little better but small, an average, and that people used it less after. Cella and Rina guess a giraffe's height at a taco dinner instead of looking it up; Cella talks 40 minutes with her mom; a rainy afternoon goes by in fast time; a yellow sheet titled MISSED lists the lake, the storm and Leo's birthday (almost); on a bad night the commentators go quiet and Cella and Rina sit together on a bench until Rina asks Tea?; on day 18 an app comes back for 25 minutes and is deleted again; on day 20 she forgets the phone is there. On day 28 her friend June's phone shows lake photos with Cella in them and the lake on the MISSED sheet is crossed out with went written next to it. On day 30 she keeps the group chat, June's dog photos and one app for 20 minutes after dinner, and leaves out scrolling in bed, checking who saw it and the app on the home screen; at night the phone goes back in the drawer. A sheet titled NOT TESTED lists quitting other apps, all apps for a month and anyone like Cella. The end card reads For the friend who says \"I'm quitting next month.\", The study: Allcott et al. and Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "largo",
+ "familia": "satira",
+ "titulo_ab": "One Month Off Social Media, With Live Commentary",
+ "comentario_fijado": "If your phone went in a drawer for 30 days, what would you miss first?",
+ "mecanica_crecimiento": "enviar: la tarjeta final dice For the friend who says / \"I'm quitting next month.\" (una vez, en pantalla y al principio de la descripción); la pregunta If your phone went in a drawer for 30 days, what would you miss first? va en la descripción y en el comentario fijado",
+ "guion": "empresa/youtube/largos/2026-11-04-rediseno-Lb-La/21-La-guion-recomendada.md",
+ "casa": {
+  "id": "la",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/la"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "727.60 s (12:08), 1920x1080 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 38.9 MB; voice: two commentators call it like a sports broadcast (ElevenLabs eleven_v4, saved voices m3-playbyplay and m3-analista-r2), 132 lines, 7557 characters, made before the build (la-voz.py, 0 new credits here); they read the phone and the speech bubbles out loud on purpose (D-344, D-354); fast stretches cut tight like a sports broadcast and slow ones keep their silence, the day 13 silence included (D-356, no atempo); whispers lifted a few dB over the even voice level (71-La-voz.md); names with the takes as recorded (Gentzkow in la05d for N to hear)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS integrated, true peak -1.3 dBFS, LRA 5.8 LU; the commentators sit in front and the crowd ducks 8 dB under them; crowd, referee whistle, stadium organ, drum and horns made with code (motor/sonido/estadio.py), quieter under the study and gone in the day 13 silence; music composed with code (motor/musica/midi.py: taco night in \"mesa juego\", days 26 to 30 in \"cocina ternura\", the ending in \"alcoba-noche noche\" that resolves on the tonic); rain, wall clock, night kitchen and a far city from motor/sonido/ambiente.py; phone buzz, knock and door from the NAOS sound library; the drawer, ticks and pops from code"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; reading type 84 px or larger in 1920 x 1080 (D-347; sizes used: 10 x 84 px, 167 x 88 px, 3 x 96 px, 3 x 104 px, 11 x 110 px, 1 x 120 px, 1 x 130 px, 8 x 150 px; revisar-medio.py: 0 sizes below 84); every reading line between y 36 (the scoreboard sits at y 36 like M6's) and y 950 (the sheets and the phone card end there; the bottom 12 % stays free for YouTube captions), x 96 to 1824, 5 words or fewer per line"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Allcott, Braghieri, Eichmeyer and Gentzkow (2020), AER 110(3) 629-676, doi 10.1257/aer.20190658, read in full text (NBER w25514) and checked by two judges against the published version (script 21-La-guion-recomendada.md, Teoría y fuente): every figure on screen (about 1 hour a day, 8 min less news, small effect) and the rest in the description with page numbers in the script"
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/la/dias/la/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "OK tras arreglos: juez distinto (D-294, 4-nov, empresa/youtube/largos/2026-11-04-rediseno-Lb-La/81-La-juez-video.md): \"va a tanda con arreglos\", nada alto; los 6 hechos y re-armados solo los tramos tocados: (1) la hoja THE STUDY entra con su primer renglón en la-14 y la-15 (ya no queda vacía 15 y 11,6 s); (2) día 13: knock-door a 0 dB, door-open-slow a -6 y la cocina de noche de -6 a -10; (3) portada sin nevera, plano más cerca y marcador en crema; (4) sin silencio digital: estadio desde 0,6 s en las tarjetas, desde 1,5 en la-02 y un murmullo bajo al final de la-10; (5) el calendario se llama CALENDAR y el aro sube; (6) medición de texto real en esta nota y el alt sin \"on the fridge\"; además \"25 minutes.\" 80 px a la izquierda (opcional c)"
+  }
+ ]
+}

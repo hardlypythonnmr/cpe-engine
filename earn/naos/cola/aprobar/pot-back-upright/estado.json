@@ -1,0 +1,26 @@
+{
+ "slug": "pot-back-upright",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T21:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2b104546d10d7402ace2f6a8c7632e09729876b69ce44bea024849ccfc08abd2",
+ "hashes": {
+  "short": "db83d6163e51791112de8ce17c03cbe58acaeca1db311aee49dee3c7cbd7563c",
+  "reel": "0b17c7fa45a8a3a6e93cc1bcaad4e664a7f5237cd1e91c5d6bb95e649897a39b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886861567,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

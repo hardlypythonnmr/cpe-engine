@@ -1,0 +1,68 @@
+{
+ "slug": "last-roll-split",
+ "titulo": "If someone sent you this, they would split the last roll with you",
+ "clave": "2026-11-26|last-roll-split",
+ "sale_utc": "2026-11-26T18:25:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A dining room. Two small block figures face each other across a table with one plate and one roll on it. Their eyes go wide, then both turn happy. Text: if someone sent you this they would split the last roll with you.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-23 (casa/lib/historias-1123-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "the person who would split the last roll with you",
+ "experimento": true,
+ "experimento_prueba": "AB idea-envio: para-enviar, par de going-home-seat-belt (misma franja, misma forma; lectura a 7 días el 2026-12-03)",
+ "ab": {
+  "prueba": "idea-envio",
+  "brazo": "para-enviar",
+  "par": "going-home-seat-belt",
+  "metricas": [
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T18:25:00Z",
+  "nota": "para-enviar = el destinatario está en pantalla (\"send this to...\" o \"if someone sent you this\"); normal = la idea se manda igual (destinatario en la ficha) pero la pantalla no lo dice"
+ },
+ "casa": {
+  "id": "last-roll-split",
+  "version": 8
+ },
+ "tono": "tender",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-23/hoja-historias.png"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "fixed in the 3rd pass: a plain golden roll replaces the cookies, then both figures turn happy; loudness -14.0 LUFS; the roll is never shown split in two, acceptable"
+  },
+  {
+   "que": "Builder fix after judge 2nd pass",
+   "estado": "OK",
+   "nota": "6-nov, builder: pan (prop \"pan\") sobre el plato, ya sin galletas. The 'Judge 2nd pass (D-294)' revision above is the judge's and is unchanged; it stays as the judge left it until the judge re-reads the piece."
+  },
+  {
+   "que": "Judge 3rd pass (D-294)",
+   "estado": "OK",
+   "nota": "a plain golden roll replaces the cookies, then both figures turn happy; loudness -14.0 LUFS; the roll is never shown split in two, acceptable"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-texting-back",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-18T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f37e7c42e2be4c14d6fb9988c3c4734d7ecb8caed72cb19598722c9c58ac606c",
+ "hashes": {
+  "short": "5aa1e2f897bef57de898ecbb1a3f29f0b1ff964d5d3d546e152e4e146fb40e26",
+  "reel": "b2b0caebf74d7f0bce84e01b9cf65d30c6b34f1859e6971070d1ce457c8608f2"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886946056,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

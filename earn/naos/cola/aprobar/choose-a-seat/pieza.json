@@ -1,0 +1,48 @@
+{
+ "slug": "choose-a-seat",
+ "titulo": "Me choosing a seat in an empty room",
+ "caption": "Me choosing a seat in an empty room\n\nMe choosing a seat in an empty room.\n\nWith every seat free, choosing gets harder, not easier. Take the first one that felt right: the fourth look rarely finds a better one.\n\nSend it to the friend who circles the whole room before sitting.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me choosing a seat in an empty room.\n\nWith every seat free, choosing gets harder, not easier. Take the first one that felt right: the fourth look rarely finds a better one.\n\nSend it to the friend who circles the whole room before sitting.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes walks along a row of three empty stools. It stops at the first stool, eyes wide, tilts, then walks on to the second, tilts the other way, then to the third and looks up. Finally it walks all the way back to the first stool, its eyes turn happy and it pulses, then it narrows its eyes at the camera. The text stays: me choosing a seat in an empty room.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "choose-a-seat",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.6 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "decisiones (elegir entre lo igual)",
+ "blanco": "Cella (y quien da la vuelta al cuarto antes de sentarse)",
+ "destinatario": "the friend who circles the whole room before sitting",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "sale_utc": "2026-11-30T01:30:00Z",
+ "clave": "2026-11-29|choose-a-seat"
+}

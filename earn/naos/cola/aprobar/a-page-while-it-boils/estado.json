@@ -1,0 +1,26 @@
+{
+ "slug": "a-page-while-it-boils",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T21:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0416ebcd7450f2ee3e261486290226dde3b0f118bebd03ac74af4cb02e150a5e",
+ "hashes": {
+  "short": "2e167f2f5c29abe6d327a043e66e24109baae5ec9e65b37c0558b399f0d842dc",
+  "reel": "d63b8517e0a194618f7d0c4364db67fb586ba9aabf5a9e00a66465c16ebb1e88"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886841667,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

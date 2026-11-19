@@ -1,0 +1,48 @@
+{
+ "slug": "why-did-i-come-here",
+ "titulo": "Me walking into the kitchen and forgetting why",
+ "caption": "Me walking into the kitchen and forgetting why\n\nMe walking into the kitchen and forgetting why.\n\nThe errand did not leave. It is waiting back in the other room, where you had the idea.\n\nSend it to the friend who has done this twice today.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me walking into the kitchen and forgetting why.\n\nThe errand did not leave. It is waiting back in the other room, where you had the idea.\n\nSend it to the friend who has done this twice today.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes walks from the left toward a tall fridge, stops in front of it and its eyes go wide, a question mark pops up above it, it looks up and tilts, then it walks back to the left, its eyes turn happy as if it remembered, and it walks to the fridge again with the same wide eyes and the same question mark. At the end it narrows its eyes at the camera. The text stays: me walking into the kitchen and forgetting why.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "why-did-i-come-here",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.52 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.6 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "memoria (olvidar a qué fue)",
+ "blanco": "Cella (y quien entra a un cuarto y olvida por qué)",
+ "destinatario": "the friend who does this twice a day",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "sale_utc": "2026-11-25T20:00:00Z",
+ "clave": "2026-11-25|why-did-i-come-here"
+}

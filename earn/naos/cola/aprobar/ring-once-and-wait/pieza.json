@@ -1,0 +1,55 @@
+{
+ "slug": "ring-once-and-wait",
+ "titulo": "Ring once and wait",
+ "clave": "2026-12-10|ring-once-and-wait",
+ "sale_utc": "2026-12-10T19:15:00Z",
+ "caption": "Ring once and wait\n\nThe second figure says to keep pressing the bell. She rings once and waits, and the door opens on its own time.\n\nRinging again and again only makes the wait feel longer, and the door was already on its way.\n\nFor whoever rings once and lets the door take its time.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Ringing again and again only makes the wait feel longer, and the door was already on its way.\n\nFor whoever rings once and lets the door take its time.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. The outside of a building with a closed cream door on the right and a small panel with an orange bell button beside it. Two block figures with white eyes stand on the left, one ink-black and one royal blue. The royal blue one says press it again. The ink-black one presses the button once, it lights up yellow, and then it waits. The royal blue one fidgets and says ten whole seconds. The door swings open onto warm light and both figures turn happy with a pulse. The text stays: me ringing once and waiting.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "ring-once-and-wait",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 0.9 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "tocar el timbre una sola vez y esperar a que abran",
+ "blanco": "Cella y quien toca el timbre cinco veces seguidas",
+ "destinatario": "rings once and lets the door take its time",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 10 al 13-dic (tanda dic-k, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-k"
+}

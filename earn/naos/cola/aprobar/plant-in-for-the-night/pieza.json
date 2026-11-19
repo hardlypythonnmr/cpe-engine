@@ -1,0 +1,55 @@
+{
+ "slug": "plant-in-for-the-night",
+ "titulo": "The plant in for the frost",
+ "clave": "2027-02-19|plant-in-for-the-night",
+ "sale_utc": "2027-02-19T13:35:00Z",
+ "caption": "The plant in for the frost\n\n\"It's fine out there.\" \"Frost tonight.\" The plant hopped in over the threshold and the door swung shut behind it.\n\nBringing a plant in takes ten seconds, and it is still alive when the cold night is over.\n\nFor whoever brings the plant in before the cold night.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Bringing a plant in takes ten seconds, and it is still alive when the cold night is over.\n\nFor whoever brings the plant in before the cold night.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a cream door standing open on the right, warm yellow light in the doorway and a green potted plant standing in it. A navy block figure with narrowed eyes in the middle says it's fine out there. A ink-black block figure with white eyes at the left answers frost tonight, and the plant hops in an arc out of the doorway onto the hall floor and the door swings shut behind it with a small sparkle above. The navy one says ...ok. in it goes. Both end with happy eyes. The text stays: me, bringing it in for the night.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "plant-in-for-the-night",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "meter la planta antes de una noche fria y cerrar la puerta",
+ "blanco": "Cella y quien dice que la planta esta bien afuera una noche mas",
+ "destinatario": "brings the plant in before the cold night",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 15 al 19-feb (tanda febd, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febd"
+}

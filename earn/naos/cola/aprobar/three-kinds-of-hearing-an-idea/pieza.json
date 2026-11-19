@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-hearing-an-idea",
+ "titulo": "Three replies to a new idea",
+ "clave": "2026-12-25|three-kinds-of-hearing-an-idea",
+ "sale_utc": "2026-12-25T13:00:00Z",
+ "caption": "Three replies to a new idea\n\nI used to answer a new idea with yes, but. Then I started saying tell me more.\n\nA but ends an idea before it has a shape, and a question lets the other person finish building it.\n\nFor whoever asks for more before judging.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A but ends an idea before it has a shape, and a question lets the other person finish building it.\n\nFor whoever asks for more before judging.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A terracotta room with a staircase on the right and a navy figure that says I have an idea. in each of three labeled scenes. The but: a teal figure says yes, but... and the navy one narrows its eyes. The shrug: a brown figure looks down and says sure, whatever. while the navy one looks away. The lean-in: an ink-black figure leans toward the navy one and says tell me more., and the navy one answers with happy eyes. The text stays: three kinds of hearing an idea. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-hearing-an-idea",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.5 dBFS, LRA 3.3 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "escuchar una idea",
+ "blanco": "Cella (y quien responde con un pero)",
+ "destinatario": "asks for more before judging",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the but",
+  "the shrug",
+  "the lean-in"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

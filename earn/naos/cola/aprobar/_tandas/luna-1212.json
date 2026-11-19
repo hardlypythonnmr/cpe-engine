@@ -1,0 +1,19 @@
+{
+ "nombre": "luna-1212",
+ "issue": 106,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "did-you-see-it"
+ ],
+ "comentario_vista_previa_id": 6894781564,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T13:07:50Z",
+ "aviso_utc": "2026-11-15T13:07:50Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T13:21:19Z",
+ "aprobadas": [
+  "did-you-see-it"
+ ],
+ "issue_n_system": 1527
+}

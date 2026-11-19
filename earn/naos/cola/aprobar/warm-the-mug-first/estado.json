@@ -1,0 +1,25 @@
+{
+ "slug": "warm-the-mug-first",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ba63cb3fbf6c1a308da1ad246d8c9f829dbe9106970dfbb33986b5ba33f91822",
+ "hashes": {
+  "short": "9476f950004dd52e0dc4861fd8e447a3a7a478192d10cc5d18af7048388581cc",
+  "reel": "4e05201ea763f179b39bed2820559e6178cc81af7e3a37d8b674e4a5a3bbf399"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870913443,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

@@ -1,0 +1,42 @@
+{
+ "slug": "pass-the-pie",
+ "titulo": "Pass the pie (Thanksgiving)",
+ "clave": "2026-11-26|pass-the-pie",
+ "sale_utc": "2026-11-26T22:40:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film with no voice, made for Stories. A pink dining room with a long dark table and three chairs. An ink-black block figure on the left leans in and slides a plate with one slice of dessert across the table to a cobalt blue figure on the right, whose eyes go happy. The third chair stays empty. The text stays on screen: if someone sent you this, save them a seat and a slice.",
+ "seccion": "humanity",
+ "fuente": "empresa/evolucion/2026-11-09-limite/opus/10/junta-1925.md y fiestas-salidas.md H08 (casa/lib/fiestas-1925-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "quien te sienta a su mesa este jueves",
+ "tono": "tender",
+ "sensible": true,
+ "casa": {
+  "id": "pass-the-pie",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, 12 en total; texto dentro de la banda de Stories (render.mjs --verifica)"
+  },
+  {
+   "que": "Respeto",
+   "estado": "OK",
+   "nota": "respeto.md aplicado: solo gratitud en actos (una rebanada que se pasa, una silla guardada); sin peregrinos, sin 'primer Thanksgiving', sin tocados, sin mitos de origen, sin imagenes de pueblos nativos; Thanksgiving es dia de duelo para algunos pueblos nativos (National Day of Mourning); SENSIBLE, va a la tanda de N"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa; sin raya larga; Cella sin manos; sin dato"
+  }
+ ]
+}

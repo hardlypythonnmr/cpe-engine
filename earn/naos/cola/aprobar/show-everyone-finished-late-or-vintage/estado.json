@@ -1,0 +1,24 @@
+{
+ "slug": "show-everyone-finished-late-or-vintage",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T04:26:00Z",
+ "datos_utc": "",
+ "hash_contenido": "567e84bd92a79c56d0b41b988b99cf42ffe41c0d0bf4608a92ccb0a7d769e32a",
+ "hashes": {
+  "reel": "998b270a63bb08a938c7f23973b705cb273c7be17e1a81c55e04394b3e54ff88"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887874539,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "huecos-17nov",
+ "caducado_utc": "2026-11-15T02:21:16Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "issue_n_system": 1034
+}

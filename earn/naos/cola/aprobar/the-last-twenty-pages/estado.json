@@ -1,0 +1,25 @@
+{
+ "slug": "the-last-twenty-pages",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fc4611b5bdc4c689ea4cc497265a3e723c93ec354418a86abff45cdf575ace5d",
+ "hashes": {
+  "short": "972eecda4d974351d3218bd08ffa13d8bdcd0cd7cf6875612cc94fe8f4326f69",
+  "reel": "3b77398400af66b7b5c74c5fa529baf13e6f7266534326d2ccd71a136428b6cb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870904003,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

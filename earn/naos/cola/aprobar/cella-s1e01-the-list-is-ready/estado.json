@@ -1,0 +1,25 @@
+{
+ "slug": "cella-s1e01-the-list-is-ready",
+ "issue": 111,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T23:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cd0a2e480905cbbc31d582bdb6f3702ebf8db121fafa4845a4dc2152478ef25b",
+ "hashes": {
+  "short": "039e8c071d207218f5fd57e61366c762fdfca709316c1346247a729895b44de6",
+  "reel": "683321da5d5a4e0e3c22ce0bec469a9883b8894bf033db95ea6c02488cb6b753"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6899369941,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "cella-s1e01-v2",
+ "aprobado_evento_utc": "2026-11-16T10:46:56Z",
+ "issue_n_system": 1658
+}

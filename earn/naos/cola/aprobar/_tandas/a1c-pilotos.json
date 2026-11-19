@@ -1,0 +1,23 @@
+{
+ "nombre": "a1c-pilotos",
+ "issue": 65,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "look-where-you-look",
+  "stopped-when-you-walked-in",
+  "moved-over-at-the-stove"
+ ],
+ "comentario_vista_previa_id": 6861498855,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T18:26:34Z",
+ "aviso_utc": "2026-11-13T18:26:38Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T19:14:29Z",
+ "aprobadas": [
+  "look-where-you-look",
+  "moved-over-at-the-stove",
+  "stopped-when-you-walked-in"
+ ],
+ "issue_n_system": 1161
+}

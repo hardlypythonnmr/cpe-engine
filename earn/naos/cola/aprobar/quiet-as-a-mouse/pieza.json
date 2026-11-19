@@ -1,0 +1,48 @@
+{
+ "slug": "quiet-as-a-mouse",
+ "titulo": "Me sneaking to the kitchen without a sound",
+ "caption": "Me sneaking to the kitchen without a sound\n\nMe sneaking to the kitchen without a sound.\n\nThe floor always knows. Walk close to the wall, where the boards are nailed down tighter, and it creaks less.\n\nSend it to the friend who raids the kitchen at midnight.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me sneaking to the kitchen without a sound.\n\nThe floor always knows. Walk close to the wall, where the boards are nailed down tighter, and it creaks less.\n\nSend it to the friend who raids the kitchen at midnight.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark bedroom. A small amber block figure with white eyes tiptoes to the right in tiny slow steps, swaying side to side, with narrowed eyes. Near the end its eyes turn happy as if it made it. In the last second the text changes from: me sneaking to the kitchen without a sound, to: the floor: creak. The figure freezes with wide eyes and trembles, then narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "quiet-as-a-mouse",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 3.8 LU; own music (motor/sonido midi, room alcoba-noche, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "noche (ir a la cocina sin hacer ruido)",
+ "blanco": "Cella (y quien camina de puntitas por su propia casa)",
+ "destinatario": "the friend who raids the kitchen at midnight",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-27T01:30:00Z",
+ "clave": "2026-11-26|quiet-as-a-mouse"
+}

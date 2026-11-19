@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-22-etsy-lamina",
+ "issue": 16,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T19:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "2a759c18d298cae275fd613b4aaa176ce0975152b4c4ba2771118cc459735844",
+ "hashes": {
+  "imagen": "609707539867d25ab804b7ba5a3169fb66ca150879651769bf668b306a54c244"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885950935,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z",
+ "issue_n_system": 1332
+}

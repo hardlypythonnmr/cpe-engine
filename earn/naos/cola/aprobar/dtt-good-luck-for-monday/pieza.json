@@ -1,0 +1,57 @@
+{
+ "slug": "dtt-good-luck-for-monday",
+ "titulo": "Sunday night: one line for the person with a big Monday",
+ "clave": "2027-01-03|casa-ventana",
+ "sale_utc": "2027-01-03T17:00:00Z",
+ "caption": "Sunday night: one line for the person with a big Monday\n\nSunday night. Dani starts a new job tomorrow, so Cella writes one line and sends it: good luck, Dani.\n\nFor whoever knows someone's Monday is a big one.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething",
+ "descripcion": "Sunday night. Dani starts a new job tomorrow, so Cella writes one line and sends it: good luck, Dani.\n\nFor whoever knows someone's Monday is a big one.\n\nNAOS · Choose friction. by NMR\n#naos #dothething #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background of a dark blue room. At the top, the words: Sunday night. Dani starts a new job tomorrow. A small doorway-shaped figure with white eyes stands to the left of a wall calendar page that says JAN and MON, and a plain dark phone with no face stands upright on a small table on the right. The words appear one line at a time: one line (typing dots pulse on the phone). Good luck, Dani (a blue message bubble with those words appears on the phone screen). I hit send (the bubble flies across to the calendar page). It lands on Monday (a red ring draws around MON and a star appears, her eyes close in a smile). The closing line: for whoever knows someone's Monday is big. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella sent one line tonight. Somebody has a big Monday.",
+ "casa": {
+  "id": "dtt-good-luck-for-monday",
+  "version": 7
+ },
+ "evolucion": "Dos apuestas (junta-ene-s1, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Semana sin largos ni medios (prueba 3a del acta).",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "18.91 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 29 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 3.7 LU; mono fold (0.5 L + 0.5 R) -17.0 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -0.9 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s1, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-ene-s1, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Semana sin largos ni medios (prueba 3a del acta)."
+  }
+ ]
+}

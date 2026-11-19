@@ -1,0 +1,24 @@
+{
+ "slug": "cella-s1e01-six-alarms",
+ "issue": 109,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T18:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9c65a24051cdc3bdeb414021ff5ef4a761f7b9e781ae7b37712705316440d191",
+ "hashes": {
+  "carrusel": "e3216d44a4145a8a11b320176c705a98a567a5de31ec80971f3cd1d3a2407126"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6898610722,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "cella-s1e01",
+ "caducado_utc": "2026-11-15T17:43:35Z",
+ "aprobado_evento_utc": "2026-11-16T10:47:16Z",
+ "issue_n_system": 1631
+}

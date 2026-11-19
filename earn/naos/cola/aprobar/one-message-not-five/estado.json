@@ -1,0 +1,26 @@
+{
+ "slug": "one-message-not-five",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T22:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d22da2328044a75d5f191658716b5100d41d41aa58711ee2d548836f1737466e",
+ "hashes": {
+  "short": "4761f2573177519271013f19d4f504d3f5941630ee43f945e7ee93850c5ffa2c",
+  "reel": "16dafcf9d68becc97b959e5bc4024ec1d9c0c7f8f7766381343440dbe49baab4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886799550,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

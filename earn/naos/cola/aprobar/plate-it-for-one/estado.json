@@ -1,0 +1,26 @@
+{
+ "slug": "plate-it-for-one",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7318bcc11f6806f74f442953d71a139e530ee12205420232738e5df9515acd46",
+ "hashes": {
+  "short": "e4c3bb301d912077226de35e30e6334d7f8551cc0bda59db8ee177f49f645551",
+  "reel": "75e00aa60a6e0dd8e26a42a4549f1fe2d90319a49c54da42af0088e876e232cb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886825287,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:36Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

@@ -1,0 +1,80 @@
+{
+ "slug": "last-slice-crime-or-right",
+ "titulo": "Taking the last slice without asking is a crime or a right?",
+ "clave": "2026-11-26|last-slice-crime-or-right",
+ "sale_utc": "2026-11-26T13:20:00Z",
+ "caption": "Is taking the last slice of pie without asking a crime or a right? Pick a side.\nCella has a lawyer.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "the image is split in two: A CRIME on the left with a sheet of paper, A RIGHT on the right with Cella in a crown under a spotlight. Taking the last slice without asking is. Left: A crime. Right: A right. Pick a side.",
+ "tipo_imagen": "F4 Elige · fiestas · jue 26-nov",
+ "aspecto": "1x1",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "P",
+ "experimento": true,
+ "experimento_prueba": "AB aspecto: 1x1, par de going-home-rest-or-rehearsal; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-03",
+ "ab": {
+  "prueba": "aspecto",
+  "brazo": "1x1",
+  "par": "going-home-rest-or-rehearsal",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T13:20:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-03T13:20:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-03T13:20:00Z"
+  }
+ ],
+ "blanco": "familia (arquetipo: el que se come el último pedazo)",
+ "mecanica_crecimiento": "comentar · destinatario: the one who always takes the last slice",
+ "destinatario": "the one who always takes the last slice",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

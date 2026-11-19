@@ -1,0 +1,49 @@
+{
+ "slug": "talking-over",
+ "titulo": "Me and my friend starting to talk at the same time",
+ "caption": "Me and my friend starting to talk at the same time\n\nMe and my friend starting to talk at the same time.\n\nNobody wins a tie, so the quickest fix is one clear go ahead, and then actually going quiet.\n\nSend it to the friend you keep talking over.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me and my friend starting to talk at the same time.\n\nNobody wins a tie, so the quickest fix is one clear go ahead, and then actually going quiet.\n\nSend it to the friend you keep talking over.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. Two small block figures with white eyes, an ink-black one on the left and a brick-red one on the right. In the very first frame both already have a speech bubble that says so. Both stop with wide eyes and glance at each other. The black one says you go, the red one says no, you. Then both start again with I and stop again. Finally both say never mind at exactly the same time and their eyes turn happy. At the end both narrow their eyes at the camera. The text stays: me and my friend starting to talk at the same time.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "talking-over",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.60 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.8 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "conversación (hablar los dos a la vez)",
+ "blanco": "Cella y quien empieza a hablar justo cuando ella",
+ "destinatario": "the friend you keep talking over",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "gancho": "accion-en-1s",
+ "sale_utc": "2026-11-30T20:00:00Z",
+ "clave": "2026-11-30|talking-over"
+}

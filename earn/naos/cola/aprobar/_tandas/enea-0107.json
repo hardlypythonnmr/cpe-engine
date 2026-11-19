@@ -1,0 +1,37 @@
+{
+ "nombre": "enea-0107",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "no-words-the-first-line-is-theirs",
+  "dtt-the-last-sheet",
+  "dtt-the-pen-that-works",
+  "dtt-good-luck-for-monday",
+  "dtt-the-squeak",
+  "dtt-the-cart-back-to-the-corral",
+  "door-what-changed-while-i-was-out",
+  "door-the-box-with-a-label",
+  "dtt-the-light-switch",
+  "no-words-no-moon-light-on"
+ ],
+ "comentario_vista_previa_id": 6886623954,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T00:31:04Z",
+ "aviso_utc": "2026-11-15T00:31:04Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "aprobadas": [
+  "door-the-box-with-a-label",
+  "door-what-changed-while-i-was-out",
+  "dtt-good-luck-for-monday",
+  "dtt-the-cart-back-to-the-corral",
+  "dtt-the-last-sheet",
+  "dtt-the-light-switch",
+  "dtt-the-pen-that-works",
+  "dtt-the-squeak",
+  "no-words-no-moon-light-on",
+  "no-words-the-first-line-is-theirs"
+ ],
+ "issue_n_system": 1408
+}

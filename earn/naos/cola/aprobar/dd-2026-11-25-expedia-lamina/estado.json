@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-25-expedia-lamina",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T20:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "856e8cb05f206f40c911ddf7ff93aee77bde4f5174583d58aad0987a54dfffc7",
+ "hashes": {
+  "imagen": "1510772f1e0d5807f68131cb365377f11b4e6f3d2f21fd140dcbecb380760542"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885959232,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

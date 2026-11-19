@@ -1,0 +1,55 @@
+{
+ "slug": "answer-on-top",
+ "titulo": "The yes goes on the top line",
+ "clave": "2027-02-09|answer-on-top",
+ "sale_utc": "2027-02-09T21:50:00Z",
+ "caption": "The yes goes on the top line\n\nThe page asked Tuesday and buried the yes at the bottom. A gold tab hopped up to the top line.\n\nThe answer first and the reasons after means the reader can stop the moment they have what they need.\n\nFor whoever puts the answer on top and the story under it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The answer first and the reasons after means the reader can stop the moment they have what they need.\n\nFor whoever puts the answer on top and the story under it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a paper titled Tue? with five lines and a gold tab that says yes sitting over its last line. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the gold tab hops up the page and lands under the title, with a small sparkle. Its eyes turn happy with a pulse. The text changes from: me: let me explain first, to: answer first. then why.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "answer-on-top",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "poner la respuesta arriba y la explicacion despues",
+ "blanco": "Cella y quien escribe tres parrafos antes de decir que si",
+ "destinatario": "puts the answer on top and the story under it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

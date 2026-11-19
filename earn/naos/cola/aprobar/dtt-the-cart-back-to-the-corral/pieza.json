@@ -1,0 +1,48 @@
+{
+ "slug": "dtt-the-cart-back-to-the-corral",
+ "titulo": "Take the cart back to the corral",
+ "clave": "2027-01-05|casa-mesa",
+ "sale_utc": "2027-01-05T15:15:00Z",
+ "caption": "Take the cart back to the corral\n\nA lone cart in the middle of the lot. Cella walks over and rolls it back to the corral where it lives.\n\nFor whoever returns the cart when nobody checks.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething #chooseFriction",
+ "descripcion": "A lone cart in the middle of the lot. Cella walks over and rolls it back to the corral where it lives.\n\nFor whoever returns the cart when nobody checks.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A pink wall and a floor. A small ink-black block figure with white eyes stands on the left, looking at a gray cart with a basket and two wheels in the middle of the floor. Its eyes go wide, it steps toward the cart and leans in, and the cart rolls to the right into a gray frame of poles that is its corral. A star appears above the corral and the figure's eyes close in a smile as it pulses. The text stays: 1 cart, 0 witnesses, back it goes. The last card: for whoever returns the cart when nobody checks, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "dtt-the-cart-back-to-the-corral",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 17 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "devolver el carrito al corral aunque nadie mire",
+ "blanco": "Cella (y quien devuelve el carrito sin que nadie lo revise)",
+ "destinatario": "whoever returns the cart when nobody checks",
+ "cara": "A",
+ "variante": "base",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "Do the thing (mudo)"
+}

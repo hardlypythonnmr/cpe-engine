@@ -1,0 +1,24 @@
+{
+ "slug": "om-shanti-shanti-shanti-1-hour-for-sleep",
+ "issue": 114,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "646ee0851313fb9ff74212506ba7d5422e4ad4a90901e4565e8b54e2dddc4b6b",
+ "hashes": {
+  "short": "67ec3cd2aaa12ce44bf7cadd6c674b97b454c1c20b20d6f7efb173c42302e696"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6966469416,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "largos-mantras-25-nov-2-dic",
+ "caducado_utc": "2026-11-18T01:44:16Z",
+ "aprobado_evento_utc": "2026-11-18T12:39:05Z",
+ "issue_n_system": 1779
+}

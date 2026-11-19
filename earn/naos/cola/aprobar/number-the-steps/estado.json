@@ -1,0 +1,26 @@
+{
+ "slug": "number-the-steps",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-24T13:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "75c4268ab37b282c267a1164efc3f794750171ab68e37764e178f6d15d800144",
+ "hashes": {
+  "short": "41d79ce706e9a261f3b658c477bc2ac5cfd8914f7885ee1c759e83e15c78ee0d",
+  "reel": "9557483e060c2a548605a799f057667b68f59c617c79365162e94b347b3f3b38"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886873139,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "let-the-bread-cool-l",
+ "issue": 74,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-14T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "bf615794540fe95416bacd8673cf2706ae6d259642f0a25689e7d7d34b4a9005",
+ "hashes": {
+  "short": "7bfeda5f8635a212270164d87ace4fc661b9d82453bcfda874de8aef8ee30a2c",
+  "reel": "b68ece55ac75a4ed579c879c23ec73927ae9611e5c15578d022b8b286d1af09e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6871174747,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "duracion-1411",
+ "aprobado_evento_utc": "2026-11-15T00:04:21Z",
+ "issue_n_system": 1259
+}

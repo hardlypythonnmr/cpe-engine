@@ -1,0 +1,48 @@
+{
+ "slug": "wave-back-wrong",
+ "titulo": "Me waving back at someone who wasn't waving at me",
+ "caption": "Me waving back at someone who wasn't waving at me\n\nMe waving back at someone who wasn't waving at me.\n\nIt happens to everyone. The fastest recovery is to keep going: nobody remembers it as long as you do.\n\nSend it to the friend who has waved at a stranger by mistake.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me waving back at someone who wasn't waving at me.\n\nIt happens to everyone. The fastest recovery is to keep going: nobody remembers it as long as you do.\n\nSend it to the friend who has waved at a stranger by mistake.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A staircase room. Two small block figures with white eyes, an ink-black one on the left and a navy one on the right. The navy one looks away to the right and says hi to someone out of view. The black one says hi back with a big sway, until the navy one turns to it with a question mark and narrowed eyes. The black one goes wide-eyed and looks away. It happens again, and again the black one answers and gets caught. At the end both narrow their eyes at the camera. The text stays: me waving back at someone who wasn't waving at me.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "wave-back-wrong",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.7 dBFS, LRA 2.0 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "vergüenza menor (el saludo que no era para ti)",
+ "blanco": "Cella (la que devuelve el saludo) y quien saludaba a otra persona",
+ "destinatario": "the friend who has waved at a stranger by mistake",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "sale_utc": "2026-11-29T00:00:00Z",
+ "clave": "2026-11-28|wave-back-wrong"
+}

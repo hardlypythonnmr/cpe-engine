@@ -1,0 +1,48 @@
+{
+ "slug": "dtt-the-light-switch",
+ "titulo": "Turn off the light in the empty room",
+ "clave": "2027-01-07|casa-alcoba",
+ "sale_utc": "2027-01-07T15:15:00Z",
+ "caption": "Turn off the light in the empty room\n\nOne lamp on, nobody in the room. Cella walks in and switches it off.\n\nFor whoever turns off the light in the room nobody is in.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething #chooseFriction",
+ "descripcion": "One lamp on, nobody in the room. Cella walks in and switches it off.\n\nFor whoever turns off the light in the room nobody is in.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A lavender room with an empty chair in the middle and a lit lamp on the right. A small ink-black block figure with white eyes walks in from the left and its eyes go wide. A bubble that says empty room appears and goes away. The figure leans toward the lamp and the lamp goes off. Its eyes close in a smile and it pulses. The text stays: 1 light on, 0 people in the room. The last card: for whoever turns off the light in the room nobody is in, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "dtt-the-light-switch",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 22 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.5 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "apagar la luz del cuarto donde no hay nadie",
+ "blanco": "Cella (y quien apaga la luz del cuarto vacio)",
+ "destinatario": "whoever turns off the light in the room nobody is in",
+ "cara": "A",
+ "variante": "base",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "Do the thing (mudo)"
+}

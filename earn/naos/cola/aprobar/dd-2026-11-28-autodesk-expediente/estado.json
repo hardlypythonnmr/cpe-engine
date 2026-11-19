@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-28-autodesk-expediente",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T21:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "81833c1627774052c4717b70872b50632e21a0dbaf719fcb234eb7d1d95f719e",
+ "hashes": {
+  "carrusel": "8a732e3839a86727571fb07e280156a5cc83c4a868165cd67e8ede9c6f7ef518"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885963340,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "maha-mantra-in-the-airport-line",
+ "issue": 63,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T00:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f64da6f8612dfb6193d9b95954ef2dd1dc358ccd301bea656858076153f493eb",
+ "hashes": {
+  "short": "e80c1bcca4931b2dff35eace7cfdbe5f1d2aa5179254e740f5884fbc674bf5fe",
+  "reel": "9b77908930731d2b6951c4ed9b0f4c0391de49ee6c3857f75ba5d176e8a9f774"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856872927,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "mantra-2225",
+ "aprobado_evento_utc": "2026-11-13T15:08:39Z",
+ "issue_n_system": 1093
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "note-by-hand",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d7a11892f893d3b394cef91b6907273b7193b869b8cb4738fbab2fb1fb2ab34c",
+ "hashes": {
+  "short": "b8b8e8bb16d5aa0217d49a0e65aa0a09593dfc6ac81f797349bfb1d4309d21dc",
+  "reel": "909578e862e7e190547bac9585134d79fad75f0b4bface1b5a3e344e07307e0b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870902326,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "set-out-two-mugs",
+ "titulo": "A second mug for whoever comes in next",
+ "clave": "2026-12-05|set-out-two-mugs",
+ "sale_utc": "2026-12-05T13:30:00Z",
+ "caption": "A second mug for whoever comes in next\n\nOne steaming mug on the counter, and a second one slid over beside it for whoever comes in next.\n\nA second mug takes five seconds to set out, and the person who walks in finds the morning already started.\n\nFor whoever sets out a second mug for whoever gets up next.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A second mug takes five seconds to set out, and the person who walks in finds the morning already started.\n\nFor whoever sets out a second mug for whoever gets up next.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a long counter. On it a cream mug with a terracotta band and steam, and a light blue mug at the far right end. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the light blue mug hops along the counter next to the first and starts to steam too. Its eyes turn happy with a pulse. The text stays: me setting out one for them too.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "set-out-two-mugs",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.4 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar una segunda taza servida para quien se levanta despues",
+ "blanco": "Cella y quien prepara solo la taza propia",
+ "destinatario": "sets out a second mug for whoever gets up next",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dicl, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicl"
+}

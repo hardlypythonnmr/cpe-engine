@@ -1,0 +1,49 @@
+{
+ "slug": "name-on-the-tip",
+ "titulo": "Me trying to remember a name",
+ "caption": "Me trying to remember a name\n\nMe trying to remember a name.\n\nA name stuck on the tip of your tongue usually surfaces by itself once you stop forcing it and think about something else.\n\nSend it to the friend who says it starts with an M.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me trying to remember a name.\n\nA name stuck on the tip of your tongue usually surfaces by itself once you stop forcing it and think about something else.\n\nSend it to the friend who says it starts with an M.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes stands on the left. A speech bubble says Mark? and it looks up with wide eyes. Then Matt? with a tilt, then Mike? with a tremble. It closes its eyes and a bubble says forget it. Suddenly its eyes go happy with a small pulse and the bubble says Mark! Then it settles back exactly where it started, so the film can repeat without a cut. The text stays: me trying to remember a name.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "name-on-the-tip",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.1 dBFS, LRA 3.7 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "memoria (el nombre que no sale)",
+ "blanco": "Cella (y quien casi recuerda el nombre)",
+ "destinatario": "the friend who says it starts with an M",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "bucle": "empalme",
+ "sale_utc": "2026-11-24T19:00:00Z",
+ "clave": "2026-11-24|name-on-the-tip"
+}

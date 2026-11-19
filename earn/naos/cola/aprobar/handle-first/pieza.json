@@ -1,0 +1,51 @@
+{
+ "slug": "handle-first",
+ "titulo": "The fork passed handle first",
+ "clave": "2026-12-12|handle-first",
+ "sale_utc": "2026-12-12T22:15:00Z",
+ "caption": "The fork passed handle first\n\nShe turned the fork around before she passed it, handle first, the way you do when you want the other person to take it easily.\n\nThe handle end toward them means they take it without thinking, and nobody grabs the wrong side.\n\nFor whoever hands things over handle first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The handle end toward them means they take it without thinking, and nobody grabs the wrong side.\n\nFor whoever hands things over handle first.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A room with a long table. A ink-black block figure with white eyes on the left and a royal blue one on the right. A fork stands upright between them, then tips over so the handle points to the blue one and slides across the table toward it. The blue one opens its eyes wide and both end with happy eyes and pulses.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "handle-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 2 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.3 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pasar un objeto con el mango hacia el otro",
+ "blanco": "Cella y quien le pasa lo filoso por la punta",
+ "destinatario": "hands things over handle first",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "No words",
+ "tanda_origen": "dic-h"
+}

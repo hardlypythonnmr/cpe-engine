@@ -1,0 +1,53 @@
+{
+ "slug": "per-my-last-email",
+ "titulo": "Send this to the one who says per my last email",
+ "clave": "2026-11-23|per-my-last-email",
+ "sale_utc": "2026-11-23T11:50:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A dining room. A small ink-black block figure with white eyes stands next to a table with one sheet of paper that says RE: RE: RE:. Text: send this to the one who says per my last email with a smile.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-23 (casa/lib/historias-1123-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "the coworker who writes 'per my last email'",
+ "experimento": true,
+ "experimento_prueba": "AB idea-envio: para-enviar, par de settled-on-the-couch (misma franja, misma forma; lectura a 7 días el 2026-12-01)",
+ "ab": {
+  "prueba": "idea-envio",
+  "brazo": "para-enviar",
+  "par": "settled-on-the-couch",
+  "metricas": [
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-01T11:50:00Z",
+  "nota": "para-enviar = el destinatario está en pantalla (\"send this to...\" o \"if someone sent you this\"); normal = la idea se manda igual (destinatario en la ficha) pero la pantalla no lo dice"
+ },
+ "casa": {
+  "id": "per-my-last-email",
+  "version": 8
+ },
+ "tono": "deadpan, vain",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-23/hoja-historias.png"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "crown-we-should-hang-out-receipt",
+ "issue": 108,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T17:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d9655b1654575389f29028c76793ef4bbbe6e13859199d19ca99af62c164d6d3",
+ "hashes": {
+  "short": "406c739be483fc37db43542f465d9307c3282300d03071cbe1aa39c0eca431c8",
+  "reel": "88f44cc550b36559638593d801b4e90018cadff58394bd90da851cda4e970886"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6895821111,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "piloto-corona-2428",
+ "aprobado_evento_utc": "2026-11-15T14:15:56Z",
+ "issue_n_system": 1555
+}

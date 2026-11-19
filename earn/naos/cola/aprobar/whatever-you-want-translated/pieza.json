@@ -1,0 +1,52 @@
+{
+ "slug": "whatever-you-want-translated",
+ "titulo": "“Whatever you want is fine,” translated. Cella answers",
+ "clave": "2026-12-01|whatever-you-want-translated",
+ "sale_utc": "2026-12-01T04:26:00Z",
+ "estado": "por-aprobar",
+ "caption": "“Whatever you want is fine,” translated. Cella answers.\nSay the thing. Choose friction.\nby NMR\n#whateveryouwant #relatable #cella",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A vertical video in flat colors, no voice, with soft music. A pink top half reads: What you say, “Whatever you want is fine.” A small round figure with white eyes stands on the dividing line. A mint panel rises below: What it means, I have an opinion. Please guess, with a small menu card. A red crown drops on the figure and the words are written: Say it. Choose friction.",
+ "formato": "F3 Traductor · Reel",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-huecos (huecos del 17-nov (decisión de N, 12-nov-2026))",
+ "hueco": "lun 30-nov",
+ "filo": "V",
+ "tema": "amistad y decisiones (arquetipo: el que dice lo que tú quieras)",
+ "destinatario": "the friend who says whatever you want",
+ "mecanica_crecimiento": "enviar · destinatario: the friend who says whatever you want",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-huecos/hojas/ and juez.md"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-359: archetypes only, no real person or protected group, no health, grief, loneliness or body; Cella without hands and never next to a black object"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words; 50 words or fewer; 3 hashtags; no comment bait"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice; own music (motor/musica/pulso.py) and own foley (numpy), 0 credits"
+  }
+ ]
+}

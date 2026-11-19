@@ -1,0 +1,26 @@
+{
+ "slug": "catch-them-up",
+ "issue": 93,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-02T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "19d6cfd0c4fd13d586012c4d8a482240f2c5976c39c1f76e899db678d3901c8c",
+ "hashes": {
+  "short": "7430ef210958b6c56440087bcf67fabd13fd51037f9c03100b6682fbb9cde012",
+  "reel": "67aad4a9ceb001b13b9995f092de2400d4dc2276c74fe25466b6d0f07e843618"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886894092,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0104",
+ "caducado_utc": "2026-11-15T00:52:08Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1370
+}

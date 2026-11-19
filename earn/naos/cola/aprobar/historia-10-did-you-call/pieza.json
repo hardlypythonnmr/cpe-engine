@@ -1,0 +1,25 @@
+{
+ "slug": "historia-10-did-you-call",
+ "titulo": "Did you call?",
+ "clave": "2026-10-29|1200h",
+ "sale_utc": "2026-11-22T04:30:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "seccion": "humanity",
+ "mecanica_crecimiento": "pregunta de seguimiento a quien vio Call, don't type; sticker de encuesta o pregunta puesto a mano (Yes, I called / Not yet)",
+ "alt": "NAOS story. Text on the image: Did you call? Whoever it was. However short.",
+ "fuente": "Grilla de Puertas, jue 29 Sleep: historia Did you call? (la 09 era noticia, D-263)",
+ "revisiones": [
+  {
+   "que": "render propio con el motor de historias del lote 01; contraste >= 4.5, texto fuera de 250 arriba y 340 abajo",
+   "estado": "OK",
+   "nota": "hueco libre bajo la linea (y 1100 a 1480) para el sticker manual"
+  }
+ ]
+}

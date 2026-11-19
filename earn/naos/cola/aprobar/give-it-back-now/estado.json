@@ -1,0 +1,26 @@
+{
+ "slug": "give-it-back-now",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-25T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "401c6baad7427cd5c6af03246dd8eb67e8238e9b3289b97b7bb5b8a76cabf8d8",
+ "hashes": {
+  "short": "62312fd114737f31aeff6f279c9dcb55fd228d565ff97ea6186059be29454ab6",
+  "reel": "0a381fcdf7be83b9c8031977d262c9fdc66da9721f1f843d25e07309317dc979"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886875256,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

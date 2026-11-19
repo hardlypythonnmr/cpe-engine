@@ -1,0 +1,48 @@
+{
+ "slug": "fifty-fifty-snack",
+ "titulo": "Me splitting the snack fifty fifty",
+ "caption": "Me splitting the snack fifty fifty\n\nMe splitting the snack fifty fifty.\n\nPeople forgive almost anything except the bigger half. Cut first, then let the other person choose.\n\nSend it to the friend who always keeps the bigger half.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me splitting the snack fifty fifty.\n\nPeople forgive almost anything except the bigger half. Cut first, then let the other person choose.\n\nSend it to the friend who always keeps the bigger half.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark room. Two small block figures with white eyes, an amber one on the left and a light blue one on the right. Between them sit one big bread roll and one tiny one, under the text fifty fifty. The amber one nudges the tiny roll across the floor to the blue one and keeps the big one. The blue one looks down at the tiny roll, narrows its eyes, then looks at the amber one, which looks very pleased. Then the big roll disappears and the blue one closes its eyes with a sigh. At the end both narrow their eyes at the camera. The text stays: me splitting the snack fifty fifty.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "fifty-fifty-snack",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.8 dBFS, LRA 3.7 LU; own music (motor/sonido midi, room alcoba-noche, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "compartir (la mitad más grande)",
+ "blanco": "Cella (la que reparte) y quien recibe la mitad chica",
+ "destinatario": "the friend who always keeps the bigger half",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "sale_utc": "2026-11-23T01:30:00Z",
+ "clave": "2026-11-22|fifty-fifty-snack"
+}

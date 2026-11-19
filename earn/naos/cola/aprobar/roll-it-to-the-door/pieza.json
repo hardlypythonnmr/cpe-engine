@@ -1,0 +1,55 @@
+{
+ "slug": "roll-it-to-the-door",
+ "titulo": "A rolled towel across the gap",
+ "clave": "2027-02-16|roll-it-to-the-door",
+ "sale_utc": "2027-02-16T18:35:00Z",
+ "caption": "A rolled towel across the gap\n\nA thin stream of cold ran along the floor from under the door. A rolled towel went across the gap and the stream stopped.\n\nA rolled towel at the foot of the door costs nothing and keeps the hallway draft out all winter.\n\nFor whoever rolls a towel against the gap under the door.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A rolled towel at the foot of the door costs nothing and keeps the hallway draft out all winter.\n\nFor whoever rolls a towel against the gap under the door.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a closed cream door on the right and a rolled terracotta towel with a dark band lying on the floor in the middle. Pale blue streaks of cold air blow left along the floor from under the door. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the towel hops in an arc to the foot of the door and lands across the gap. The streaks vanish and a small sparkle lights above. Its eyes turn happy with a pulse. The text stays: me, rolling it against the draft.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "roll-it-to-the-door",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "poner una toalla enrollada contra la rendija bajo la puerta",
+ "blanco": "Cella y quien deja pasar el aire frio por debajo de la puerta",
+ "destinatario": "rolls a towel against the gap under the door",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 15 al 19-feb (tanda febd, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febd"
+}

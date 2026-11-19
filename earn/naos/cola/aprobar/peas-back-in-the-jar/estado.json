@@ -1,0 +1,26 @@
+{
+ "slug": "peas-back-in-the-jar",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T16:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ba4a4ed8d098c9e9b630474c144ab67ce71a1b6b34db4e71dabaace3e3c2f650",
+ "hashes": {
+  "short": "f82ae6e0d3f7cb8eb35d6f47616b7ec17e951a6e8618c44a87cc7dc8c7748bbd",
+  "reel": "f296b2000c60f7ca2a8791a8c3344de78dad42e6265141b6d5c48ff27763135b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886864205,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

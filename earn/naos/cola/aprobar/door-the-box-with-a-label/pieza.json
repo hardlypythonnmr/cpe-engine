@@ -1,0 +1,57 @@
+{
+ "slug": "door-the-box-with-a-label",
+ "titulo": "Label the box before you shelve it for next year",
+ "clave": "2027-01-06|casa-mesa",
+ "sale_utc": "2027-01-06T17:00:00Z",
+ "caption": "Label the box before you shelve it for next year\n\nThe string of lights comes down, goes into one box, and gets a label for next year.\n\nFor whoever labels the box for next year.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #choosefriction",
+ "descripcion": "The string of lights comes down, goes into one box, and gets a label for next year.\n\nFor whoever labels the box for next year.\n\nNAOS · Choose friction. by NMR\n#naos #choosefriction #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background at a table. At the top, the words: 1 box. 1 label. For whoever writes it for next year. A small doorway-shaped figure with white eyes stands to the left. A string of six amber bulbs hangs across the top and an open cardboard box sits on the table at the right. The words appear one line at a time: the lights come down. Into the box (the bulbs drop one by one into the box). I label the lid (a white label that says lights, dec. slides onto the front of the box). See you next year (the flaps close and her eyes close in a smile). The closing line: for whoever labels the box for next year. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella labeled the box today. Somebody will thank her next year.",
+ "casa": {
+  "id": "door-the-box-with-a-label",
+  "version": 7
+ },
+ "evolucion": "Dos apuestas (junta-ene-s1, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Semana sin largos ni medios (prueba 3a del acta).",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "20.60 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 36 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 3.4 LU; mono fold (0.5 L + 0.5 R) -17.0 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -0.9 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s1, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-ene-s1, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Semana sin largos ni medios (prueba 3a del acta)."
+  }
+ ]
+}

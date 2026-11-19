@@ -1,0 +1,22 @@
+{
+ "slug": "last-slice-crime-or-right",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "62714c90b1ef1dbfb1f74e543787a9f6daff197161049f788f7ec308bc8c6637",
+ "hashes": {
+  "imagen": "2225d32a5fe3847dca805a53a629927416e8a30182eaf76acccd0f926d78ed5c"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681443763,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-following-up",
+ "titulo": "Three ways to follow up",
+ "clave": "2026-12-25|three-kinds-of-following-up",
+ "sale_utc": "2026-12-25T13:45:00Z",
+ "caption": "Three ways to follow up\n\nI used to ask a friend what's new. Then I started asking about the interview they had mentioned.\n\nA question that remembers a detail shows that you were listening the first time.\n\nFor whoever remembers the detail and asks.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A question that remembers a detail shows that you were listening the first time.\n\nFor whoever remembers the detail and asks.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A lavender room with a bed on the right and a plum figure that says hi! in each of three labeled scenes. The blank: a teal figure says so, what's new? and the plum one narrows its eyes. The vague: a brown figure looks down and says how's... things? while the plum one narrows its eyes. The callback: an ink-black figure says the interview! how'd it go?, and the plum one answers with wide, then happy eyes. The text stays: three kinds of following up. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-following-up",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "retomar lo que dijo el otro",
+ "blanco": "Cella (y quien pregunta 'qué hay de nuevo')",
+ "destinatario": "remembers the detail and asks",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the blank",
+  "the vague",
+  "the callback"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

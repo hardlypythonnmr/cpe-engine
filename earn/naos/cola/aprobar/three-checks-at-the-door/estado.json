@@ -1,0 +1,26 @@
+{
+ "slug": "three-checks-at-the-door",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "bd71c15c08cc1344fd342ff4f98afd68bf4277477ede065cee391c6a4af1881d",
+ "hashes": {
+  "short": "f8329646d8d4756c6c1fcb7d6c7d366cb10ab1f21e27c5cb6f1e4c5b8d6062d5",
+  "reel": "b22945005a6ac63623a4617b92e6b3b53bb2b18e56057c45212f50e89b502e67"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886840486,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

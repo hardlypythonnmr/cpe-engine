@@ -1,0 +1,25 @@
+{
+ "slug": "leftover-claim",
+ "issue": 62,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T14:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6562184d8e29e0979bb945cb9019476768c7361eb1bfd94ec78188a43dd1e8a8",
+ "hashes": {
+  "short": "af51f4fe1a33c17aac4176c2d25be1053115f269e60bfd59d144d0cc927f945f",
+  "reel": "a0417510f742ff7f96dedf6a3db072e5817eacf41ad85245ffba60c4236912bf"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856842143,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "v7-cm-2425",
+ "aprobado_evento_utc": "2026-11-13T15:06:03Z",
+ "issue_n_system": 1091
+}

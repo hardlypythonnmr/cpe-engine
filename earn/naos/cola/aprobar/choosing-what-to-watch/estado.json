@@ -1,0 +1,24 @@
+{
+ "slug": "choosing-what-to-watch",
+ "issue": 7,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d6a4c882c59b42e62f1c28090eaf3e611948ceaa7ab25f485b927da99e0f6475",
+ "hashes": {
+  "imagen": "9e82b1ad2be54d8416ea88d0ce4ef963db451d148d12dcd98518b4896d07978a"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6886294763,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 963
+}

@@ -1,0 +1,31 @@
+{
+ "origen": "om-mani-padme-hum-sunday-karma",
+ "eje": "color",
+ "brazo": "C",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "evening grade over the whole frame: darker and bluer sky and hall; robes keep their hue, lyric capsule stays readable"
+ ],
+ "receta": {
+  "slug": "om-mani-padme-hum-rmx-color",
+  "fecha_et": "2026-11-22",
+  "et_preferida": "16:00",
+  "grado": "colorbalance=rs=-0.15:gs=-0.05:bs=0.30:rm=-0.08:bm=0.18,eq=brightness=-0.16:saturation=0.8:gamma=0.85",
+  "portada": 1.0,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 27.2,
+ "audio": {
+  "lufs": -14.0,
+  "pico_dbtp": -2.0
+ },
+ "huella": {
+  "dhash_media": 5.8,
+  "dhash_min": 2,
+  "umbral": 14,
+  "cambio_color": 54.4,
+  "distinta": false,
+  "lectura": "misma forma, otro color"
+ },
+ "elevenlabs_llamadas": 0
+}

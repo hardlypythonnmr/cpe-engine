@@ -1,0 +1,48 @@
+{
+ "slug": "dtt-the-dates-in-the-shared-calendar",
+ "titulo": "Put your away dates in the shared calendar first",
+ "clave": "2027-01-12|casa-mesa",
+ "sale_utc": "2027-01-12T15:15:00Z",
+ "caption": "Put your away dates in the shared calendar first\n\nCella writes her away dates into the shared calendar before anyone has to ask.\n\nFor whoever puts the dates in before being asked.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething #chooseFriction",
+ "descripcion": "Cella writes her away dates into the shared calendar before anyone has to ask.\n\nFor whoever puts the dates in before being asked.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a pink wall. A small ink-black block figure with white eyes stands on the left and a royal blue one stands on the right looking away. Between them on the floor, a plain calendar block reads jan 18, then changes to 18 - 22. A yellow square note pops up on top of it with a bubble that says away. The blue figure turns, its eyes go wide and then close in a smile and it pulses. Both lean in slightly toward each other and the black one smiles. The text stays: 5 days away, on the calendar first. The last card: for whoever puts the dates in before being asked, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "dtt-the-dates-in-the-shared-calendar",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 18 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "poner las fechas fuera en el calendario compartido antes de que se pidan",
+ "blanco": "Cella (y quien anota sus fechas antes de que se lo pidan)",
+ "destinatario": "whoever puts the dates in before being asked",
+ "cara": "A",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "Do the thing (mudo)"
+}

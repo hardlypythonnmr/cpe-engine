@@ -1,0 +1,56 @@
+{
+ "slug": "check-it-off-on-paper-c",
+ "titulo": "Checking it off on paper",
+ "clave": "2026-12-17|check-it-off-on-paper-c",
+ "caption": "Checking it off on paper\n\nChecking it off on paper.\n\nWriting a task by hand slows you just enough to remember it, and the tick on the page is a small finish line.\n\nFor whoever keeps the whole list in their head.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Checking it off on paper.\n\nWriting a task by hand slows you just enough to remember it, and the tick on the page is a small finish line.\n\nFor whoever keeps the whole list in their head.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. A small ink-black block figure with white eyes stands on the left, and a paper checklist on a clipboard stands on the right with three empty lines. A speech bubble says my list. Then dishes, and a green tick appears on the first line. Then plants, and the second tick. Then mail, and the third tick. Then all done with happy eyes and a pulse. The text stays: me checking things off on paper. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "check-it-off-on-paper-c",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "tachar la lista a mano, en papel",
+ "blanco": "Cella (y quien guarda la lista de pendientes en la cabeza)",
+ "destinatario": "whoever keeps the whole list in their head",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": "duracion-1411",
+ "brazo": "corto",
+ "escena": "check-it-off-on-paper",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante); experimento duracion-1411: cada escena tiene un corte corto (-c) y uno largo (-l), publicar solo uno por escena por ronda"
+ },
+ "sale_utc": "2026-12-17T13:45:00Z"
+}

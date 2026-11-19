@@ -1,0 +1,25 @@
+{
+ "slug": "say-it-another-way",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T15:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "262d4e34a23b4871702b131a059ad120575453c4ca30a8a0735b4264cf7cf7ea",
+ "hashes": {
+  "short": "7d3c435c08b0187df5f45788f463c2cc90dc092bf2841de25d1678717d490372",
+  "reel": "75ce9c088240cb950d8d251dc72c4a0acecc3501e49586edb93e8ed25c0fe6f6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870904427,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

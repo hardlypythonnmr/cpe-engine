@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-06-verizon-historia",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T16:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "83e2956873d127aabac2538a0014d921f65c2f31b25def766c5bf7abf6cbd874",
+ "hashes": {
+  "historia": "69652ae123dbf15ee9b87049737826a2e3fa5fc1b5a9d4ff7f6ab3175d44933a"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6914691071,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

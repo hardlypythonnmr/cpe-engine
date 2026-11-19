@@ -1,0 +1,22 @@
+{
+ "slug": "before-you-go-home-checks",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f651236ea4ecc749c464ca7c346023f9d9feaa84cb68054b4eac466c72fd5c7d",
+ "hashes": {
+  "carrusel": "cfd9faca3627c16fd2bef0a6ff22ce0886b5c7c1000f3e9d9091d79c0dc7d191"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6681440896,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

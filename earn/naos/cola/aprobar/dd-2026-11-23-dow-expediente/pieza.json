@@ -1,0 +1,89 @@
+{
+ "slug": "dd-2026-11-23-dow-expediente",
+ "titulo": "Dow (Jan 2023): $2.5 billion to shareholders, about 2,000 jobs announced cuts. The math.",
+ "clave": "2026-11-23|mercury|expediente|2026-11-23-dow-expediente",
+ "sale_utc": "2026-11-23T21:00:00Z",
+ "caption": "From the archive: Jan 2023. Not today's news.\nDow, Jan 26, 2023 (Dow Inc., announcement): \"optimize the Company’s cost structure in response to near-term macroeconomic uncertainty\"\nDow said in an announcement on Jan. 26, 2023 that it would take a global workforce reduction of approximately 2,000 roles. The shareholder figure is from Dow's 2023 Form 10-K.\n\nSame year: $2.5 billion to shareholders, 2023, company-wide. $1,972 million of dividends plus $625 million of stock repurchased during 2023, company-wide (Form 10-K).\nThe math: $2.5 billion to shareholders (2023) ÷ about 2,000 job cuts = about $1.2 million to shareholders per job cut.\nThis is a ratio, not a payment and not a cause: the total returned to shareholders divided by the job count. The $2.597 billion adds the $1,972 million of dividends and the $625 million of stock repurchases Dow reports for 2023, company-wide. The 2,000 roles are the announced plan. We are not saying one paid for the other.\n\nCost structure, optimized. Shareholder column, noted. (Our take.)\n\nFor someone whose employer once optimized its cost structure.\n\nSources: SEC EDGAR · Dow, Jan 26, 2023; SEC EDGAR · Dow, Jan 31, 2024.\n\nSwipe: the sentence, the number, the math, our take.\n\nLink in bio.",
+ "descripcion": "From the archive: Jan 2023. Not today's news.\nDow, Jan 26, 2023 (Dow Inc., announcement): \"optimize the Company’s cost structure in response to near-term macroeconomic uncertainty\"\nDow said in an announcement on Jan. 26, 2023 that it would take a global workforce reduction of approximately 2,000 roles. The shareholder figure is from Dow's 2023 Form 10-K.\n\nSame year: $2.5 billion to shareholders, 2023, company-wide. $1,972 million of dividends plus $625 million of stock repurchased during 2023, company-wide (Form 10-K).\nThe math: $2.5 billion to shareholders (2023) ÷ about 2,000 job cuts = about $1.2 million to shareholders per job cut.\nThis is a ratio, not a payment and not a cause: the total returned to shareholders divided by the job count. The $2.597 billion adds the $1,972 million of dividends and the $625 million of stock repurchases Dow reports for 2023, company-wide. The 2,000 roles are the announced plan. We are not saying one paid for the other.\n\nCost structure, optimized. Shareholder column, noted. (Our take.)\n\nSources:\n- SEC EDGAR · Dow, Jan 26, 2023: «The proactive actions will further optimize the Company’s cost structure in response to near-term macroeconomic uncertainty, while maintaining its long-term competitiveness across the economic cycle.» and «a global workforce reduction of approximately 2,000 roles» https://www.sec.gov/Archives/edgar/data/1751788/000175178823000006/dow-20230125.htm\n- SEC EDGAR · Dow, Jan 31, 2024: «In 2023, Dow Inc. declared and paid dividends to common stockholders of $2.80 per share ($1,972 million). In 2023, Dow Inc. repurchased $625 million of the Company's common stock.» https://www.sec.gov/Archives/edgar/data/1751788/000175178824000010/dow-20231231.htm",
+ "alt": "Five paper-colored cards. 1: Dow, Jan 26, 2023, the quote \"optimize the Company’s cost structure in response to near-term macroeconomic uncertainty\" struck through in dark red, and the words Then the math. 2: the full sentence with its context and source. 3: the number, $2.5 billion to shareholders, 2023, company-wide. 4: the division, ending in $1.2 million to shareholders, per job cut, on a yellow highlight. 5: our take: \"Cost structure, optimized. Shareholder column, noted.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "expediente",
+ "formato": "carrusel",
+ "origen": "c2/linea/biblioteca/bib3-dow-2023-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178823000006/dow-20230125.htm",
+   "medio": "SEC EDGAR · Dow",
+   "titulo": "Dow Form 8-K, items 2.05 and 8.01",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178824000010/dow-20231231.htm",
+   "medio": "SEC EDGAR · Dow",
+   "titulo": "Dow Form 10-K for 2023",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "tipo": "carrusel",
+ "lado": "empleado",
+ "tema": "Dow (Jan 2023): cutting about 2,000 roles, to shareholders per job cut",
+ "banco_archivo": {
+  "caso": "dow-2023-layoffs",
+  "rotulo_fecha": "ARCHIVE · JAN 2023",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/dow-2023-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-dow-2023-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-dow-2023-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "A suma dividendos ($1,972M) y recompras ($625M) de la misma oración del 10-K y se rotula 'to shareholders'; B about 2,000 roles; el desglose lo dice."
+  ]
+ }
+}

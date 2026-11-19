@@ -1,0 +1,25 @@
+{
+ "slug": "dtt-the-three-line-handoff",
+ "issue": 99,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-12T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9824c78870e8bb68b3992291786aa693ddf86a7cddb0ab06e93641627bc96e53",
+ "hashes": {
+  "short": "a8500721c662a13628484e6bbe1134779bc8518369c9ffc6850e8c262c3c8b5f",
+  "reel": "8ee6f680d012bbafe82b54ae5b9000548a25e13b451a1eaee5fbf6ec62312b76"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886629378,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "issue_n_system": 1409
+}

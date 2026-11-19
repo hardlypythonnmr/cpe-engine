@@ -1,0 +1,22 @@
+{
+ "slug": "family-table-sit-next",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "de838e72eb4570e2bfc217894c1033c59fd4a6651265641ef4cae73406aa664c",
+ "hashes": {
+  "historia": "83eb980f974c448d0c3a65b2d2adaf4f5ec64f4e0f7ea9673f9922b651e9fa74"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681433892,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

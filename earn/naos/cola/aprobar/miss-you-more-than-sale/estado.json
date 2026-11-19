@@ -1,0 +1,22 @@
+{
+ "slug": "miss-you-more-than-sale",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8f73771a5182bad769ea01f7ef85553cbdc67b4b6054b0dc73b45f56ab7e4ba6",
+ "hashes": {
+  "historia": "0d138e247cd80ee7294e4a5461a8bd4ad6190465fe71b4a28cdc2056ad737357"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681471886,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

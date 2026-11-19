@@ -1,0 +1,43 @@
+{
+ "origen": "dd-2026-11-14-alphabet-tachon-q",
+ "eje": "color",
+ "brazo": "C",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "paper from warm #F2ECE5 to cold grey-blue #D9E4EC; type, strike and highlight untouched",
+  "3 % closer (both DD arms), no words cut"
+ ],
+ "receta": {
+  "slug": "dd-2026-11-23-alphabet-tachon-q-rmx-frio",
+  "fecha_et": "2026-11-23",
+  "et_preferida": "12:30",
+  "campo": [
+   [
+    "#F2ECE5",
+    "#D9E4EC"
+   ]
+  ],
+  "encuadre": {
+   "zoom": 1.03,
+   "cx": 0.5,
+   "cy": 0.5,
+   "deriva": 0
+  },
+  "portada": 6.5,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 19.77,
+ "audio": {
+  "lufs": -15.4,
+  "pico_dbtp": -5.0
+ },
+ "huella": {
+  "dhash_media": 1.6,
+  "dhash_min": 0,
+  "umbral": 14,
+  "cambio_color": 15.6,
+  "distinta": false,
+  "lectura": "casi igual"
+ },
+ "elevenlabs_llamadas": 0
+}

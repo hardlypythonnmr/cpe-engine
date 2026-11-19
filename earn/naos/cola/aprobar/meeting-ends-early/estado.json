@@ -1,0 +1,26 @@
+{
+ "slug": "meeting-ends-early",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T20:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "dad5d42996543097544da6d57231cef2e33cc0d4609e66942a570157e9389e51",
+ "hashes": {
+  "short": "f303d09a2e3aea86e10466bc16dae4733dd35f6fa049764090d60163000afe6f",
+  "reel": "825041f67ee67126381d7db3173e800ace846378f61f058f95b35437d4c5437e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886813590,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

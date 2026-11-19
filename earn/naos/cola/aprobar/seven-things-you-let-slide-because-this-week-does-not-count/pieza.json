@@ -1,0 +1,132 @@
+{
+ "slug": "seven-things-you-let-slide-because-this-week-does-not-count",
+ "titulo": "Seven Things You Let Slide Because This Week Does Not Count",
+ "clave": "2026-12-27|largo-the-long-one-5",
+ "sale_utc": "2026-12-27T20:00:00Z",
+ "caption": "Seven Things You Let Slide Because This Week Does Not Count\n\nCella is a small black rectangle with a crown, and she is letting seven things slide in the week that does not count. YouTube long video, 16:9. No Short and no Reel in this package.",
+ "descripcion": "NAOS. Choose friction.\n\nThe week from the twenty-fifth to the first has no deadlines, so a message, a favor, a borrowed thing, a vague yes, a decision, a list item and a small apology all slide. Cella goes through the seven, what each one costs the person on the other end, and a fix that takes ten minutes. Where there is a study it goes on the record; the rest is Cella's opinion. For whoever is holding something for January.\n\n0:00 The week that does not count\n0:47 1 · The message\n1:40 2 · The favor\n2:26 3 · The borrowed thing\n3:12 4 · The vague yes\n3:58 5 · The decision\n4:41 6 · The list\n5:39 7 · The apology\n6:35 The drawer, checked\n\nWhat the research says (so you can check us):\nMasicampo EJ, Baumeister RF. (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667-683. https://doi.org/10.1037/a0024192\n\nThe voice describes this single study as: unfinished goals kept intruding on thoughts during unrelated tasks, and writing a specific plan made those intrusions go away in the study.\n\n#selfawareness #habits #NAOS",
+ "sintetico": false,
+ "alt": "A 8-minute video in 16:9 about seven things that slide in the week from Christmas to New Year. Cella, a small blocky black figure with two round white eyes and a crown, stands in colored rooms while on-screen cards give each thing: the message, the favor, the borrowed thing, the vague yes, the decision, the list and the apology. Each part says it does not count this week, shows what the person on the other end is waiting for, and ends with a ten-minute fix on a three-row card. One study, Masicampo and Baumeister 2011, appears with an ON THE RECORD stamp; everything else is Cella's opinion. In the last part a 30-second clock runs while Cella waits for the oldest of the seven to be written on a scrap of paper with a date. The thumbnail shows Cella large with a red crown on an amber field, the words This week does not count, and a big 7 on a calendar card.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "largo",
+ "familia": "explicador",
+ "linea": "the-long-one",
+ "sensible": false,
+ "destinatario": "Whoever is holding something for January.",
+ "titulo_ab": "Seven Small Things the Week After Christmas Hides",
+ "mecanica_crecimiento": "ninguna: sin pedido (regla 8); la tarjeta final nombra a una persona, For whoever is holding something for January. (una vez, en pantalla y en la voz)",
+ "capitulos": [
+  {
+   "inicio": "0:00",
+   "titulo": "The week that does not count"
+  },
+  {
+   "inicio": "0:47",
+   "titulo": "1 · The message"
+  },
+  {
+   "inicio": "1:40",
+   "titulo": "2 · The favor"
+  },
+  {
+   "inicio": "2:26",
+   "titulo": "3 · The borrowed thing"
+  },
+  {
+   "inicio": "3:12",
+   "titulo": "4 · The vague yes"
+  },
+  {
+   "inicio": "3:58",
+   "titulo": "5 · The decision"
+  },
+  {
+   "inicio": "4:41",
+   "titulo": "6 · The list"
+  },
+  {
+   "inicio": "5:39",
+   "titulo": "7 · The apology"
+  },
+  {
+   "inicio": "6:35",
+   "titulo": "The drawer, checked"
+  }
+ ],
+ "guion": "empresa/evolucion/2026-11-09-limite/opus/9/linea-largos/largos/seven-things-you-let-slide-because-this-week-does-not-count/guion-v2.md",
+ "casa": {
+  "id": "largo-7-things",
+  "version": 1,
+  "produccion": "empresa/evolucion/2026-11-09-limite/opus/9/linea-largos/largos/seven-things-you-let-slide-because-this-week-does-not-count/ensayo"
+ },
+ "evolucion": "Cierre con persona, sin pedido (regla 8 de la casa): la tarjeta final nombra a quien sostiene algo para enero y no pide guardar, comentar, compartir, enviar ni seguir; no lleva comentario fijado. El largo queda fuera de los brazos de la prueba 3b del acta de la semana (esa prueba es de Shorts y Reels). Se lee a 48 h y a 7 días como los otros largos: retención, vistas comprometidas y suscriptores por pieza; con 14 seguidores valen números absolutos.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "500.0 s (8:20), 1280x720, 24 fps, H.264 + AAC stereo 44.1 kHz, 12.8 MB (under 30 MB); within the 8:00 to 10:00 asked and above the 8:00 floor of D-495"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.1 LUFS integrated, true peak -1.8 dBFS after AAC; the music bed (midi:alcoba:calma + cuarto-reloj, motor/sonido/fondo.py, 0 credits) ducks under the voice and comes up in the 30-second pause"
+  },
+  {
+   "que": "Form (producir_formato.py)",
+   "estado": "OK",
+   "nota": "forma 3.0 de 3: duracion pasa, oracion_larga pasa, apertura pasa, situacion_antes_del_dato pasa, aviso_mudo pasa, cierre_retoma pasa, rachas pasa, capitulos pasa"
+  },
+  {
+   "que": "Chapters",
+   "estado": "OK",
+   "nota": "from the render with the Kokoro voice, card start of each part, 0:00 first, all at least 10 s; redo capitulos.txt after the ElevenLabs voice"
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro af_nicole:.6+af_heart:.4 at 0.93 (0 credits); the final voice is ElevenLabs mesa-maya (eleven_v4) only after N's OK, with `aprobar.py version`"
+  },
+  {
+   "que": "Voice cost (ElevenLabs, estimate)",
+   "estado": "AVISO",
+   "nota": "5609 characters x 0.45 = 2524 credits for one take, 3365 with a third as spare, 5048 worst case (two full takes); suggested cap 3400. The largos pool was already over its share at the last reading (13-nov); N moves the pool or accepts the warning (voz-costo.md)."
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 study (Masicampo and Baumeister 2011) checked by Crossref (journal, volume, pages) and OpenAlex (abstract) on 14-nov (citas.md); article not opened in full; the voice gives no effect sizes and says 'went away in the study'; the rest is Cella's opinion and is said as hers"
+  },
+  {
+   "que": "Claims",
+   "estado": "OK",
+   "nota": "conduct only: no sleep, body, health, diet or exercise (the VP's guard), SENSIBLE: no (sensible.md); no health, money or law advice; no real person, no brand; the numbers Cella says (eleven messages, nine people, four minutes) are the character's own and are not data"
+  },
+  {
+   "que": "Copy",
+   "estado": "OK",
+   "nota": "no long dashes; description starts with 'NAOS. Choose friction.'; titles of 60 characters or less (ficha/titulos.md); no ask to save, comment, share, send or follow (rule 8); the lema is Choose friction."
+  },
+  {
+   "que": "Cover",
+   "estado": "OK",
+   "nota": "1280x720 PNG (miniatura.png) and the same as JPG (portada.jpg): Cella large with the crown on amber, the words This week does not count, a big 7 on a calendar card"
+  },
+  {
+   "que": "Cold reader (naos-personas-sinteticas)",
+   "estado": "OK",
+   "nota": "lector frío (naos-personas-sinteticas, oficio 2) en 1 ronda y 1 vuelta de corrección, 14-nov; entendió el largo (siete cosas que se dejan pasar entre Navidad y Año Nuevo, un arreglo de diez minutos cada una, anotar la más antigua con una fecha) y su única fuente (Masicampo y Baumeister 2011); corregido: 'Each of those nine' para que no choque con las nueve personas, 'A week that does not count for Cella still counts for whoever is waiting' en lugar de la frase abstracta; quedan a juicio de N el cierre de casa 'Choose friction.', el gancho sin cifra en los primeros 3 s (la voz presenta a Cella y la pantalla dice 7 things, 1 week) y el tono, que el lector sintió amable y no filoso"
+  },
+  {
+   "que": "Evolution (junta-dic-s4, section 3)",
+   "estado": "OK",
+   "nota": "Cierre con persona, sin pedido (regla 8 de la casa): la tarjeta final nombra a quien sostiene algo para enero y no pide guardar, comentar, compartir, enviar ni seguir; no lleva comentario fijado. El largo queda fuera de los brazos de la prueba 3b del acta de la semana (esa prueba es de Shorts y Reels). Se lee a 48 h y a 7 días como los otros largos: retención, vistas comprometidas y suscriptores por pieza; con 14 seguidores valen números absolutos."
+  }
+ ]
+}

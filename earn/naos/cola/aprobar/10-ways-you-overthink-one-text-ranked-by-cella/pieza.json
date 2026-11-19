@@ -1,0 +1,121 @@
+{
+ "slug": "10-ways-you-overthink-one-text-ranked-by-cella",
+ "titulo": "10 ways you overthink one text, ranked by Cella",
+ "clave": "2026-11-17|largo-the-long-one-2",
+ "sale_utc": "2026-11-22T12:30:00Z",
+ "caption": "10 ways you overthink one text, ranked by Cella\n\nCella ranks 10 ways you overthink one text, by the minutes they eat. One \"ok.\" with a period, 6:47 pm to 11:03 pm. YouTube long video, 16:9. No Short and no Reel in this package.",
+ "descripcion": "NAOS. Choose friction.\n\nCella ranks 10 ways you overthink one text, by the minutes they eat. One \"ok.\" with a period, 6:47 pm to 11:03 pm. Send it to the friend who answers with a period.\n\n0:00 The text\n0:29 #10 The reread (6:47 pm)\n1:06 #9 The tone expert (6:49 pm)\n1:47 #8 The poll (6:53 pm)\n2:27 #7 The detective (7:01 pm)\n3:00 #6 The rehearsal (7:13 pm)\n3:36 #5 The drafts (7:31 pm)\n4:17 #4 Too many replies (7:56 pm)\n4:58 #3 The spotlight (8:29 pm)\n5:39 #2 The waiting game (9:11 pm)\n6:16 #1 The audit (10:03 pm)\n7:01 #0 The plan (10:58 pm)\n7:46 The last line (11:03 pm)\n\nYou'll recognize at least three.\n\nWhat the research says (so you can check us):\nReading tone in email: Kruger, Epley, Parker & Ng (2005). Egocentrism over e-mail: Can we communicate as well as we think? Journal of Personality and Social Psychology, 89(6), 925-936.\nThe spotlight effect: Gilovich, Medvec & Savitsky (2000). The spotlight effect in social judgment. Journal of Personality and Social Psychology, 78(2), 211-222.\nToo many options: Iyengar & Lepper (2000). When choice is demotivating. Journal of Personality and Social Psychology, 79(6), 995-1006.\nMaking a plan: Masicampo & Baumeister (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667-683.\n\nThis is satire about habits, and a habit is not a diagnosis. If your head feels louder than a habit, talk to someone you trust.\n\n#overthinking #selfawareness #NAOS",
+ "sintetico": false,
+ "alt": "An 8-minute video in 16:9 about one evening, from 6:47 pm to 11:03 pm. Cella, a small blocky black figure with two round white eyes and a red crown, stands in colored rooms. A friend named Mina answers a dinner invitation with one word: ok, with a period. Eleven chapters, from #10 to #0: in each one a question with four answer cards A to D, a poll, a chat or two clocks, and Cella picks. A dotted draft box on the floor stays empty until the last scene, where Cella sends the honest line and the words Choose friction. appear. The thumbnail shows Cella large with her red crown on a mint field, the words You overthink one text, Ranked by Cella, a yellow Dinner Saturday? bubble, 4:16, and a big white ok. with a red period.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "largo",
+ "familia": "noche",
+ "linea": "the-long-one",
+ "comentario_fijado": "How many times did you reread it before you answered? Be honest, we won't tell.",
+ "titulo_ab": "One \"ok.\" cost Cella 4 hours and 16 minutes",
+ "capitulos": [
+  {
+   "inicio": "0:00",
+   "titulo": "The text"
+  },
+  {
+   "inicio": "0:29",
+   "titulo": "#10 The reread (6:47 pm)"
+  },
+  {
+   "inicio": "1:06",
+   "titulo": "#9 The tone expert (6:49 pm)"
+  },
+  {
+   "inicio": "1:47",
+   "titulo": "#8 The poll (6:53 pm)"
+  },
+  {
+   "inicio": "2:27",
+   "titulo": "#7 The detective (7:01 pm)"
+  },
+  {
+   "inicio": "3:00",
+   "titulo": "#6 The rehearsal (7:13 pm)"
+  },
+  {
+   "inicio": "3:36",
+   "titulo": "#5 The drafts (7:31 pm)"
+  },
+  {
+   "inicio": "4:17",
+   "titulo": "#4 Too many replies (7:56 pm)"
+  },
+  {
+   "inicio": "4:58",
+   "titulo": "#3 The spotlight (8:29 pm)"
+  },
+  {
+   "inicio": "5:39",
+   "titulo": "#2 The waiting game (9:11 pm)"
+  },
+  {
+   "inicio": "6:16",
+   "titulo": "#1 The audit (10:03 pm)"
+  },
+  {
+   "inicio": "7:01",
+   "titulo": "#0 The plan (10:58 pm)"
+  },
+  {
+   "inicio": "7:46",
+   "titulo": "The last line (11:03 pm)"
+  }
+ ],
+ "guion": "empresa/evolucion/2026-11-09-limite/opus/8/naos-largo-2/guion-v2.md",
+ "casa": {
+  "id": "largo-2",
+  "version": 2,
+  "produccion": "empresa/evolucion/2026-11-09-limite/opus/8/naos-largo-2/ensayo"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "508.0 s (8:28), 1920x1080, 24 fps, H.264 + AAC 48 kHz, -16.0 LUFS integrated, true peak -1.9 dBFS (medidas.json). Above the 8:00 floor of D-495"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "mesa-maya (ElevenLabs eleven_v4), final take, 2,088 credits; Cella checked with faster-whisper: heard as Cella/Sella/Seller (S sound), a few as Chella (g1 retaken once); 'Choose friction.' spoken, natural"
+  },
+  {
+   "que": "Chapters",
+   "estado": "OK",
+   "nota": "from timeline.js with the final voice, card start of each chapter, floored to the second; 0:00 first, all at least 10 s"
+  },
+  {
+   "que": "Cover",
+   "estado": "OK",
+   "nota": "1280x720 PNG (miniatura.png) and the same as JPG (portada.jpg): Cella large with the crown, mint field, no black next to her, upright, white eyes without iris"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Kruger et al. 2005, Gilovich et al. 2000, Iyengar & Lepper 2000, Masicampo & Baumeister 2011 checked 12-nov in Crossref, PubMed and Europe PMC; no number in the description"
+  },
+  {
+   "que": "Claims",
+   "estado": "OK",
+   "nota": "satire about habits, no diagnosis, no health advice; help line kept"
+  },
+  {
+   "que": "Copy",
+   "estado": "OK",
+   "nota": "no long dashes; the old line does not appear"
+  }
+ ],
+ "sale_alterna_utc": "2026-11-19T12:30:00Z"
+}

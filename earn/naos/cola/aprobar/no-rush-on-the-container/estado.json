@@ -1,0 +1,25 @@
+{
+ "slug": "no-rush-on-the-container",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "79afe2244a9a9ddff4b2c79bc46a5e779aca71b6fc378a7ca990c900c620f8a6",
+ "hashes": {
+  "short": "db9605003ed033e5ed342f14ec96251a58597fce37582ea3c1432825c4c8f345",
+  "reel": "c99ecf0c40746f2a5bc1893aa4de27732889e8732b2b082e933493f9706cdaf5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870918052,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

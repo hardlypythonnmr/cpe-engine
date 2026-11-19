@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-how-are-you",
+ "titulo": "Three answers to how are you",
+ "clave": "2026-12-15|three-kinds-of-how-are-you",
+ "sale_utc": "2026-12-16T00:30:00Z",
+ "caption": "Three answers to how are you\n\nI used to answer how are you with fine on autopilot. Then I started saying how I actually was.\n\nFine is usually a reflex, and a slightly more honest answer tends to give the other person something to answer back to.\n\nFor whoever answers how are you with something true.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Fine is usually a reflex, and a slightly more honest answer tends to give the other person something to answer back to.\n\nFor whoever answers how are you with something true.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a royal blue figure that asks how are you? in each of three labeled scenes. The reflex: a teal figure says fine. The shield: a brown figure trembles and says busy, busy! The real one: an ink-black figure says tired, but good. with happy eyes, and the blue one's eyes turn happy too. The text stays: three kinds of how are you. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-how-are-you",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "contestar how are you",
+ "blanco": "Cella (y quien responde fine sin pensar)",
+ "destinatario": "answers how are you with something true",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the reflex",
+  "the shield",
+  "the real one"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

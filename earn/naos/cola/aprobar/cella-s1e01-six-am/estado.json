@@ -1,0 +1,26 @@
+{
+ "slug": "cella-s1e01-six-am",
+ "issue": 109,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T22:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d058473b4eb2846cafb0c6ee6a2fee75a1beb26598bfcd395993cdf0493370ea",
+ "hashes": {
+  "short": "1ff90f5578a03512afe24db3cfdf6060f1422bb221a65cb7b379245efe99a96b",
+  "reel": "af502618b313fd926f44bbd242cba3513acf36ccba01705222792e856f05fb20"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6898610239,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "cella-s1e01",
+ "caducado_utc": "2026-11-15T17:43:35Z",
+ "aprobado_evento_utc": "2026-11-16T10:47:16Z",
+ "issue_n_system": 1631
+}

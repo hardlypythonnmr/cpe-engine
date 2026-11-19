@@ -1,0 +1,77 @@
+{
+ "slug": "no-hands-we-bump-es",
+ "titulo": "Sin manos. Chocamos.",
+ "clave": "2026-11-23|no-hands-we-bump-es",
+ "sale_utc": "2026-11-23T20:35:00Z",
+ "caption": "Sin manos. Chocamos.\n\nPara quien te saluda con todo el cuerpo.\nLink en la bio.\nby NMR\n#animacion #humor #amistad #cella",
+ "sintetico": false,
+ "alt": "Un video corto sin voz. Un cuarto rosado. Dos figuras pequeñas de bloque con patas de puerta y ojos blancos, una tinta y una azul cobalto, se miran los costados donde irían las manos y luego se miran entre ellas. Caminan juntas y se chocan suave con el cuerpo, con ojos felices. Retroceden, se vuelven a chocar con impulso, saltan una vez juntas y vuelven a su lugar. En pantalla se quedan las palabras: Sin manos. Chocamos.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "no-hands-we-bump",
+  "version": 8
+ },
+ "descripcion": "",
+ "idioma": "es",
+ "gemela_de": "no-hands-we-bump",
+ "tema_seo": "humor",
+ "tanda": "es-video (D-528), gemela de no-hands-we-bump",
+ "revisiones": [
+  {
+   "que": "Raya larga",
+   "estado": "OK",
+   "nota": "sin raya larga ni media"
+  },
+  {
+   "que": "Cifras",
+   "estado": "OK",
+   "nota": "las cifras y años de la original están iguales, con sus fuentes"
+  },
+  {
+   "que": "SEO en español",
+   "estado": "OK",
+   "nota": "#animacion #humor #amistad #cella"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "119 caracteres; empieza con el título (regla del Reel)"
+  },
+  {
+   "que": "Alt",
+   "estado": "OK",
+   "nota": "424 caracteres, escrito en español"
+  },
+  {
+   "que": "Forma",
+   "estado": "OK",
+   "nota": "8.00 s contra 8.00 s de la original; misma escena y mismo sonido (motor texto)"
+  },
+  {
+   "que": "Sonido",
+   "estado": "OK",
+   "nota": "el de la pieza aprobada, sin llamadas a ElevenLabs"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "las de la original (respeto.md, D-517, D-527): sin promesa de cura; lo sagrado sin burla; tú, español neutro latino (D-528)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "N mira la gemela en la tanda; para los mantras, un practicante revisa al mes (D-367)"
+  }
+ ],
+ "gemela_video": {
+  "motor": "texto",
+  "elevenlabs_llamadas": 0
+ }
+}

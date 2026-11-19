@@ -1,0 +1,66 @@
+{
+ "slug": "task-label-intended-vs-did",
+ "titulo": "Cella, with a task",
+ "clave": "2026-11-22|task-label-intended-vs-did",
+ "sale_utc": "2026-11-22T09:23:00Z",
+ "caption": "Some tasks are easier to look at than to start.\nA 2013 review in Social and Personality Psychology Compass argues that procrastination often happens when a task feels unpleasant, and that it has a lot to do with feeling better right now. Source: Sirois and Pychyl 2013, Social and Personality Psychology Compass, https://doi.org/10.1111/spc3.12011\nFor whoever has a task they keep not starting.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Label. Intended: start the task. Instead: open the phone. The delay: on purpose. The task: still open.",
+ "tipo_imagen": "F7 Etiqueta · atencion y pantallas · dom 22-nov",
+ "aspecto": "1x1",
+ "seccion": "humanity",
+ "tanda": "tendencia-2123 (D-511)",
+ "tendencia": {
+  "cazador": "2026-11-17",
+  "candidata": 1,
+  "plan": "B",
+  "patron": "atencion y pantallas",
+  "estudio_doi": "10.1111/spc3.12011",
+  "estudio_cazador_doi": "10.4236/psych.2014.513160",
+  "gancho": "solo la fecha; sin persona ni marca"
+ },
+ "filo": "V",
+ "experimento": false,
+ "blanco": "empezar tarde, mirando el telefono (candidata 1 del cazador, 17-nov, plan B)",
+ "mecanica_crecimiento": "enviar · destinatario: whoever has a task they keep not starting",
+ "destinatario": "whoever has a task they keep not starting",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada y leída a tamaño completo por el constructor (constructor, 17-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) y D-359: arquetipos, sin persona real ni marca ni grupo protegido; sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas, sin hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "una url, el doi del estudio citado"
+  },
+  {
+   "que": "Verificador",
+   "estado": "OK",
+   "nota": "OpenAlex 17-nov: 10.1111/spc3.12011 = Sirois y Pychyl 2013, Soc Personal Psychol Compass; resumen: tareas 'aversive', 'great deal to do with short-term mood repair', consecuencias negativas para el yo futuro. 10.4236/psych.2014.513160 = Rozental y Carlbring 2014, Psychology; resumen: procrastinar es retrasar 'voluntarily' una accion 'despite being worse off as a result of that delay' (sostiene 'on purpose' y 'worse off'). Los dos doi de tendencia existen y corresponden."
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "Segunda lectura: 'The task: still open' es conducta sin juicio, raya corta (560-900), sin corona, Cella mayor y sin manos; mejora menor: los ojos miran al frente, no claramente a la tarjeta"
+  }
+ ]
+}

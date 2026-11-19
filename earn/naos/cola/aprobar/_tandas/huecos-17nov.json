@@ -1,0 +1,34 @@
+{
+ "nombre": "huecos-17nov",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "dishes-and-no-hands",
+  "notes-app-four-hundred-ideas",
+  "voice-message-gift-or-threat",
+  "five-minutes-away-translated",
+  "one-search-two-hours-bees",
+  "which-tab-is-yours",
+  "before-you-do-it-yourself-checks",
+  "show-everyone-finished-late-or-vintage",
+  "whatever-you-want-translated"
+ ],
+ "comentario_vista_previa_id": 6887875323,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-12T15:38:44Z",
+ "aviso_utc": "2026-11-15T02:21:42Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "aprobadas": [
+  "before-you-do-it-yourself-checks",
+  "dishes-and-no-hands",
+  "five-minutes-away-translated",
+  "notes-app-four-hundred-ideas",
+  "one-search-two-hours-bees",
+  "show-everyone-finished-late-or-vintage",
+  "voice-message-gift-or-threat",
+  "whatever-you-want-translated",
+  "which-tab-is-yours"
+ ],
+ "issue_n_system": 1034
+}

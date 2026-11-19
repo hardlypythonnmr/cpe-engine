@@ -1,0 +1,95 @@
+{
+ "slug": "cella-rates-cyber-monday",
+ "titulo": "Cella rates Cyber Monday",
+ "clave": "2026-11-30|cella-rates-cyber-monday",
+ "sale_utc": "2026-11-30T15:50:00Z",
+ "caption": "Cella rates Cyber Monday: the 47 emails, the free shipping, the “last chance.”\nSend it to your inbox’s biggest victim.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella in a crown under a spotlight next to a big review card. Send · 5 reviews. Cella rates Cyber Monday. The emails, the sales, the “last chance.”",
+  "2": "split in two colors: the thing on top, cella's review below. The thing: The 47 emails. Cella's review: 0/5. Arrived before breakfast.",
+  "3": "split in two colors: the thing on top, cella's review below. The thing: Free shipping. Cella's review: 3/5. After a minimum purchase.",
+  "4": "split in two colors: the thing on top, cella's review below. The thing: “Last chance” Cella's review: 1/5. It was not.",
+  "5": "split in two colors: the thing on top, cella's review below. The thing: My cart. Cella's review: 4/5. Full of future regret.",
+  "6": "split in two colors: the thing on top, cella's review below. The thing: Cella. Cella's review: 5/5. Bought nothing. Feels powerful.",
+  "7": "five reviews as a list. The cheat sheet. Cyber Monday, reviewed: Send it to your inbox's biggest victim. 1. 47 emails 0/5 2. Free shipping 3/5 3. “Last chance” 1/5 4. My cart 4/5 5. Cella 5/5."
+ },
+ "tipo_carrusel": "F11 Reseñas · trabajo · lun 30-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "C",
+ "experimento": true,
+ "experimento_prueba": "AB carrusel-musica: sin-musica, par de cella-rates-the-holiday-weekend; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-07",
+ "ab": {
+  "prueba": "carrusel-musica",
+  "brazo": "sin-musica",
+  "par": "cella-rates-the-holiday-weekend",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-07T15:50:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-07T15:50:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-07T15:50:00Z"
+  }
+ ],
+ "blanco": "consumo y trabajo",
+ "mecanica_crecimiento": "enviar · destinatario: the friend whose inbox is on fire",
+ "destinatario": "the friend whose inbox is on fire",
+ "eco": "D-376 · A/B carrusel con música",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

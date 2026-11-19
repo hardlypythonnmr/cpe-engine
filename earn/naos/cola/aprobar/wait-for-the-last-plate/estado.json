@@ -1,0 +1,26 @@
+{
+ "slug": "wait-for-the-last-plate",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b5b1eb6ee54b0dacf89a1add1d4c85797da8ead30dbad304cbf3df055cb290a1",
+ "hashes": {
+  "short": "1a0ba9c235faaf5338aed9043a87841034d273743d885398ad9d43d882da3d52",
+  "reel": "3d730617c0c798c64915fadda01112c07bd2ef624698ad15c1457c5a23641b89"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886798376,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

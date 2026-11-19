@@ -1,0 +1,29 @@
+{
+ "nombre": "llenado-2730",
+ "issue": 70,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "let-them-finish",
+  "water-the-droopy-plant",
+  "lamp-for-the-squint",
+  "straighten-the-chairs",
+  "until-the-door-closes",
+  "star-on-the-door"
+ ],
+ "comentario_vista_previa_id": 6866438490,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T22:25:27Z",
+ "aviso_utc": "2026-11-13T22:25:27Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T22:32:12Z",
+ "aprobadas": [
+  "lamp-for-the-squint",
+  "let-them-finish",
+  "star-on-the-door",
+  "straighten-the-chairs",
+  "until-the-door-closes",
+  "water-the-droopy-plant"
+ ],
+ "issue_n_system": 1215
+}

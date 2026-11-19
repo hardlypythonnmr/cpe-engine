@@ -1,0 +1,55 @@
+{
+ "slug": "dab-the-stain",
+ "titulo": "Dabbing the drop before it sets",
+ "clave": "2026-12-06|dab-the-stain",
+ "sale_utc": "2026-12-07T02:00:00Z",
+ "caption": "Dabbing the drop before it sets\n\n\"It'll dry. Who'll see?\" \"Dab it now.\" The drop was gone before it set.\n\nA fresh drop comes out in a minute, and the same drop a week later stays for good.\n\nFor whoever dabs the stain while it is still fresh.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A fresh drop comes out in a minute, and the same drop a week later stays for good.\n\nFor whoever dabs the stain while it is still fresh.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a big tan coat standing open on the right with a dark brown drop on its front and a pale blue cloth on the floor beside it. A plum block figure with narrowed eyes in the middle says it'll dry. who'll see? A ink-black block figure with white eyes at the left answers dab it now, and the cloth hops up and dabs the drop twice until it fades away. The plum one's eyes go wide and says ...it's gone. Both end with happy eyes. The text stays: me, dabbing it now.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "dab-the-stain",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.7 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "limpiar la mancha apenas cae en vez de esperar a que seque",
+ "blanco": "Cella y quien deja la mancha para despues",
+ "destinatario": "dabs the stain while it is still fresh",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 y 11 al 13-dic (tanda dicn, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicn"
+}

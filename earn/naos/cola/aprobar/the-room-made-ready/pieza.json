@@ -1,0 +1,53 @@
+{
+ "slug": "the-room-made-ready",
+ "titulo": "The room made ready",
+ "clave": "2026-12-06|the-room-made-ready",
+ "caption": "The room made ready\n\nCella made the room ready before the guest arrived.\n\nA lamp on and a made bed before they walk in tells a guest they were expected, which matters more than anything in the room.\n\nFor the friend who makes the guest bed a day early.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella made the room ready before the guest arrived.\n\nA lamp on and a made bed before they walk in tells a guest they were expected, which matters more than anything in the room.\n\nFor the friend who makes the guest bed a day early.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A bedroom with a bed and a lamp. A small ink-black block figure with white eyes pushes a folded blanket across the floor and lays it on the bed, then lights the lamp with a happy pulse. A royal blue figure walks in from the right. Its eyes go wide and then happy, and the black one smiles.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "the-room-made-ready",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.6 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "preparar el cuarto para quien llega",
+ "blanco": "Cella y quien llega a un cuarto que ya lo esperaba",
+ "destinatario": "the friend who makes the guest bed a day early",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-06T18:00:00Z"
+}

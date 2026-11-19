@@ -1,0 +1,25 @@
+{
+ "slug": "let-the-silence-sit",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T15:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "38989035d3fec5d8d51bdda863616faf245964624f3c22ef0dc5792ae3bf12c0",
+ "hashes": {
+  "short": "d58c3cda87fb4c37b52b345804bdf129e120f8da23135c5eba0b5d01a4323ff2",
+  "reel": "5c9a7b67a4ac1db022e6207d7b1ae5ce9d953144c0aec24189fbac04af393666"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870894830,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

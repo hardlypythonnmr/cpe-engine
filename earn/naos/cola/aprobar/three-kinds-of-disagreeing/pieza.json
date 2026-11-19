@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-disagreeing",
+ "titulo": "Three ways to disagree politely",
+ "clave": "2026-12-18|three-kinds-of-disagreeing",
+ "sale_utc": "2026-12-19T00:30:00Z",
+ "caption": "Three ways to disagree politely\n\nI used to nod along to opinions I did not share. Then I started saying not my favorite.\n\nA small, plain disagreement tends to land better than people expect, and it keeps the nodding from piling up.\n\nFor whoever disagrees kindly instead of nodding along.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A small, plain disagreement tends to land better than people expect, and it keeps the nodding from piling up.\n\nFor whoever disagrees kindly instead of nodding along.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a royal blue figure that says loved that movie. with happy eyes, in three labeled scenes. The nodder: a teal figure says yeah, totally. while narrowing its eyes and trembling. The takedown: a brown figure says that was awful. and the blue one looks down. The plain view: an ink-black figure leans in and says not my favorite., and ends with happy eyes. The text stays: three kinds of disagreeing. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-disagreeing",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "estar en desacuerdo",
+ "blanco": "Cella (y quien asiente aunque piense distinto)",
+ "destinatario": "disagrees kindly instead of nodding along",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the nodder",
+  "the takedown",
+  "the plain view"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

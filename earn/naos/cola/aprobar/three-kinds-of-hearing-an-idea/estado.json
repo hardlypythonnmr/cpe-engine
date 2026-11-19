@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-hearing-an-idea",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-25T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8bf4cd4a95156e93daa8d6db90dbef159c6d8db604fadbfe5117a02ed6d1bde2",
+ "hashes": {
+  "short": "da17ffa1ea1888871fa0bf6da8f96aa6716344bf912b9f3d42577a211dd1cc02",
+  "reel": "96807f95d1cde67fa1403c47196ba1038b65180a3eba827895d7c6377b2a761f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886953730,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

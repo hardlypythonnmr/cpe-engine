@@ -1,0 +1,25 @@
+{
+ "slug": "wanted-tupperware",
+ "issue": 20,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T16:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7d0c2baa8c5e5fbcf9f92fe55fac228841ec389fe8f71c075b376ca6b873922a",
+ "hashes": {
+  "short": "f398e864d21d88cb61dc10b6e4ea1ea68e1b56a2fb98c5ed04fd897072ec44fd",
+  "reel": "f94f7e4aa6eabb140f17b636e652fe1bd6eb69d9d97c5969004becdd1d679d2a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894743760,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "reprog-1511",
+ "aprobado_evento_utc": "2026-11-15T13:05:52Z",
+ "issue_n_system": 1525
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-02-workday-lamina",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T20:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "9f6260d770315ec9e4e73dce6ea86a719eb243b8cf20f5e519ff01917e25f4eb",
+ "hashes": {
+  "imagen": "81b75365e13beefe276a66af3c01885b5d0814d08fd386f6292921d737c73122"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6890741081,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

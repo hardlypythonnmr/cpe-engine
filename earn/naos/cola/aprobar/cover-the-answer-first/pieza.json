@@ -1,0 +1,55 @@
+{
+ "slug": "cover-the-answer-first",
+ "titulo": "A blue card over the answer",
+ "clave": "2027-01-31|cover-the-answer-first",
+ "sale_utc": "2027-01-31T14:30:00Z",
+ "caption": "A blue card over the answer\n\nA blue card covered the answer. She guessed first, and when it lifted the word was dog.\n\nA guess before the answer is where the memory gets made, even when the guess is wrong.\n\nFor whoever guesses first and checks after.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A guess before the answer is where the memory gets made, even when the guess is wrong.\n\nFor whoever guesses first and checks after.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a cream flash card that says perro and, beside it, a second card hidden under a blue cover with a question mark. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the blue cover lifts away to show the word dog, with a small sparkle. Its eyes turn happy with a pulse. The text stays: me guessing before I flip.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cover-the-answer-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "adivinar la palabra antes de mirar la respuesta de la tarjeta",
+ "blanco": "Cella y quien lee la respuesta antes de intentar",
+ "destinatario": "guesses first and checks after",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 27 al 31-ene (tanda ened, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "ened"
+}

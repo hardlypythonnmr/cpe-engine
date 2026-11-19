@@ -1,0 +1,26 @@
+{
+ "slug": "asked-once-fine",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-18T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e8f03f92110a22869cda0ba7e46c2e89952e0ed2d111399d82c5a97229863f41",
+ "hashes": {
+  "short": "0f23f247e3bbe25f7e886426b38e0de19bc18bb79c4d423df09c172af9640385",
+  "reel": "2bbbbc43538bbe984eb27fc6c7795867da9431b74903301c9619f6ef6443c644"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886964160,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

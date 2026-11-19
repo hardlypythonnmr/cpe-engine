@@ -1,0 +1,31 @@
+{
+ "nombre": "caidos-b-11-nov",
+ "issue": 58,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "om-mani-padme-hum-16-seconds",
+  "movies-alone",
+  "cella-contesta-one-chair",
+  "a-favorite-tree",
+  "brunch-staff-unpaid",
+  "maha-mantra-kirtan-karma-brunch",
+  "eau-de-domingo",
+  "om-mani-padme-hum-sunday-karma"
+ ],
+ "comentario_vista_previa_id": 6739902007,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-09T12:20:01Z",
+ "aprobado_evento_utc": "2026-11-09T12:57:18Z",
+ "aprobadas": [
+  "a-favorite-tree",
+  "brunch-staff-unpaid",
+  "cella-contesta-one-chair",
+  "eau-de-domingo",
+  "maha-mantra-kirtan-karma-brunch",
+  "movies-alone",
+  "om-mani-padme-hum-16-seconds",
+  "om-mani-padme-hum-sunday-karma"
+ ],
+ "issue_n_system": 987
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "bookmark-not-the-fold",
+ "titulo": "A bookmark instead of the folded corner",
+ "clave": "2026-12-04|bookmark-not-the-fold",
+ "sale_utc": "2026-12-04T19:00:00Z",
+ "caption": "A bookmark instead of the folded corner\n\nShe stops mid-fold, finds a bookmark in the drawer and uses it. The corner stays flat.\n\nA bookmark is ten seconds to find, and a folded page is permanent.\n\nFor whoever finds a bookmark instead of folding the corner.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A bookmark is ten seconds to find, and a folded page is permanent.\n\nFor whoever finds a bookmark instead of folding the corner.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a thick blue book standing on the right and an ink-black block figure with white eyes at the left, trembling with narrowed eyes. Its eyes go wide, it walks to the book, the book opens and a page turns. A small orange bookmark pops up from between the pages and its eyes turn happy with a pulse. The text changes from: me, folding the corner is fine, to: found a bookmark. page is flat.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "bookmark-not-the-fold",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.5 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "buscar un marcador en vez de doblar la esquina de la pagina",
+ "blanco": "Cella y quien dobla las paginas de sus libros",
+ "destinatario": "finds a bookmark instead of folding the corner",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 1 al 6-dic (tanda dic-g, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-g"
+}

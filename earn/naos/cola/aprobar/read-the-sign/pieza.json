@@ -1,0 +1,51 @@
+{
+ "slug": "read-the-sign",
+ "titulo": "The door marked pull, pushed three times",
+ "clave": "2026-12-20|read-the-sign",
+ "sale_utc": "2026-12-20T21:45:00Z",
+ "caption": "The door marked pull, pushed three times\n\nMy brother pushed the door marked pull three times. Now he reads the sign first.\n\nA sign is cheap to read and costly to ignore, and one glance usually spares the second and third try.\n\nFor whoever reads the sign before pushing the door.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A sign is cheap to read and costly to ignore, and one glance usually spares the second and third try.\n\nFor whoever reads the sign before pushing the door.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right and a small sign on it that says PULL. A ink-black block figure with white eyes walks up and pushes the door three times with a knock, backing off with narrowed eyes each time. Then it looks up at the sign, steps back, and the door opens. Its eyes turn happy with a pulse as it walks to the doorway. The text changes from: me pushing the door that says pull, to: read the sign. it opened.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "read-the-sign",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.7 dBFS, LRA 3.5 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "leer el aviso (la puerta que dice pull)",
+ "blanco": "Cella y quien empuja la puerta que se jala",
+ "destinatario": "reads the sign before pushing the door",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Cella con música",
+ "tanda_origen": "relleno-1411"
+}

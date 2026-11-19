@@ -1,0 +1,22 @@
+{
+ "slug": "cella-rates-cyber-monday",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5c74164f9577a5e2766a9457bb5eb894d3e00cf03c49aab22d472caeecb1dea0",
+ "hashes": {
+  "carrusel": "0db3629e42e6881c034b5fdf88841372e6759f19ffaae59ab47202f6ca937527"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6681470501,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

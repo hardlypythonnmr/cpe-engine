@@ -1,0 +1,55 @@
+{
+ "slug": "wifi-on-a-card",
+ "titulo": "The Wi-Fi password on the card",
+ "clave": "2027-02-13|wifi-on-a-card",
+ "sale_utc": "2027-02-13T13:50:00Z",
+ "caption": "The Wi-Fi password on the card\n\nA card said Wi-Fi and nothing else. A gold note with the password hopped onto it before anyone asked.\n\nThe password on a card takes ten seconds to write, and the first thing a guest gets is the answer.\n\nFor whoever writes the wifi on a card before anyone asks.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The password on a card takes ten seconds to write, and the first thing a guest gets is the answer.\n\nFor whoever writes the wifi on a card before anyone asks.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a paper card that says Wi-Fi with two blank lines. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and a gold note that says oak42 hops in an arc onto the card, with a small sparkle. Its eyes turn happy with a pulse. The text stays: me writing the wifi before they ask.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "wifi-on-a-card",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar la clave del wifi escrita en una tarjeta antes de que la pidan",
+ "blanco": "Cella y quien deja que el visitante tenga que preguntar la clave",
+ "destinatario": "writes the wifi on a card before anyone asks",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

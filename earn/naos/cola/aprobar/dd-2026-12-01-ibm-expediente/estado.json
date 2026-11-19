@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-01-ibm-expediente",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T21:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "6ea0d5f5fe26be54bc19fbd26400bf8db2ba224d35dd121d9a997951407eb2b9",
+ "hashes": {
+  "carrusel": "0ca72cb8f0acdc39a20320631925d4a092ce278f1e422c082c92b57c4f9bb846"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6890739556,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

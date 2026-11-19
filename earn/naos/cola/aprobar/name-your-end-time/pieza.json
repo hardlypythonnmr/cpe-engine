@@ -1,0 +1,55 @@
+{
+ "slug": "name-your-end-time",
+ "titulo": "Naming ten as the end time",
+ "clave": "2026-12-10|name-your-end-time",
+ "sale_utc": "2026-12-10T21:45:00Z",
+ "caption": "Naming ten as the end time\n\nStay as long as you like, the host says, and he means it so much that he can't relax. She names ten, and he can.\n\nSaying when you will leave takes one sentence, and the host stops guessing how long the evening is.\n\nFor whoever tells the host when they plan to leave.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Saying when you will leave takes one sentence, and the host stops guessing how long the evening is.\n\nFor whoever tells the host when they plan to leave.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a big clock in the middle that says now. A royal blue block figure with wide white eyes on the left fidgets and says stay as long as you like! A ink-black block figure with white eyes on the right says I'll head out at ten. The clock changes to 10:00, the royal blue one stops fidgeting and says perfect. thank you! and both turn happy with a pulse. The text stays: me, naming my end time.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "name-your-end-time",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "decirle al anfitrion a que hora uno piensa irse",
+ "blanco": "Cella y quien deja al anfitrion sin saber cuanto va a durar la visita",
+ "destinatario": "tells the host when they plan to leave",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 7 al 10-dic (tanda dicm, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicm"
+}

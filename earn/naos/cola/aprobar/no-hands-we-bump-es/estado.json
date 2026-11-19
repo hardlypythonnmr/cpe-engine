@@ -1,0 +1,23 @@
+{
+ "slug": "no-hands-we-bump-es",
+ "issue": 115,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T20:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5a0705ab1cbabc25e13d35e74a54a209b63b4f36431405d4bcff762b7a808d6f",
+ "hashes": {
+  "reel": "6e4776955a9a3e9d36accbf048acf8f6148024862f86fde26da7e5de0ea57373"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957410134,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "es-video-22-23-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:12Z",
+ "issue_n_system": 1781
+}

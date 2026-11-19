@@ -1,0 +1,26 @@
+{
+ "slug": "out-while-its-warm",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-18T13:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "65b003cb57bf1af7fd2f15bc84cb55a23e3aa5cb35df2a7a967616314716576a",
+ "hashes": {
+  "short": "f8f6fa0777185bc0148cd14e017154f79d5a2c561cb1c434fefeb4c127a55f72",
+  "reel": "9fcae5efd1d16ef9bc26fdd3d0bda8e4f6bc1ae09a5df8bfef3f99acb35839fa"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886926625,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

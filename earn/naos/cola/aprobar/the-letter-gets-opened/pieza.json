@@ -1,0 +1,56 @@
+{
+ "slug": "the-letter-gets-opened",
+ "titulo": "The envelope on the table, four days",
+ "clave": "2027-02-08|the-letter-gets-opened",
+ "caption": "The envelope on the table, four days\n\nThe envelope sat on the table for four days. Opening it took ten seconds and it was fine.\n\nPutting it off usually costs more than the thing itself, and the weight lifts the moment it is open.\n\nFor whoever finally opens the envelope.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Putting it off usually costs more than the thing itself, and the weight lifts the moment it is open.\n\nFor whoever finally opens the envelope.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A room with a table and a closed envelope standing on it at the right. A ink-black block figure with white eyes on the left trembles with narrowed eyes, then its eyes go wide and it walks to the envelope. The flap lifts, a sheet slides up with a green check mark on it, and its eyes turn happy with a pulse.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "the-letter-gets-opened",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 2 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.3 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "abrir el sobre que llevaba dias en la mesa",
+ "blanco": "Cella y quien deja el sobre sin abrir por miedo",
+ "destinatario": "finally opens the envelope",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "usada",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (febrero de 2027, tanda feb-a) · Opus 14, 14-nov: programada 2027-02-08T22:15:00Z (lote feb-0108)"
+ },
+ "tanda_origen": "feb-a",
+ "sale_utc": "2027-02-08T22:15:00Z"
+}

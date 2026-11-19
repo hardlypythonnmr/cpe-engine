@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-correcting-someone",
+ "titulo": "Three ways to say it's Friday",
+ "clave": "2026-12-22|three-kinds-of-correcting-someone",
+ "sale_utc": "2026-12-22T13:45:00Z",
+ "caption": "Three ways to say it's Friday\n\nI used to let a wrong day slide to avoid a fuss. Then I started saying Friday, I think.\n\nA small mistake caught early costs one sentence, and the same mistake caught late can cost a whole plan.\n\nFor whoever fixes a small mistake gently.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A small mistake caught early costs one sentence, and the same mistake caught late can cost a whole plan.\n\nFor whoever fixes a small mistake gently.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A lavender room with a bed on the right and a plum figure that says see you Thursday! in each of three labeled scenes. The nod: a teal figure says yep, bye! and looks down, trembling. The gotcha: a brown figure squints and says wrong. Friday. while the plum one looks away. The soft fix: an ink-black figure tilts its head and says Friday, I think., and the plum one answers with happy eyes. The text stays: three kinds of correcting someone. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-correcting-someone",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "corregir a alguien",
+ "blanco": "Cella (y quien deja pasar el error)",
+ "destinatario": "fixes a small mistake gently",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the nod",
+  "the gotcha",
+  "the soft fix"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

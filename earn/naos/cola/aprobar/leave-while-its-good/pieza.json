@@ -1,0 +1,55 @@
+{
+ "slug": "leave-while-its-good",
+ "titulo": "Leaving while the evening is good",
+ "clave": "2026-12-10|leave-while-its-good",
+ "sale_utc": "2026-12-11T01:15:00Z",
+ "caption": "Leaving while the evening is good\n\nThe evening was still going well, so she left. The host asked her to stay and then asked her back.\n\nLeaving while it is good costs the last half hour, and the host remembers the whole thing as good.\n\nFor whoever leaves a friend's house while the evening is still good.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Leaving while it is good costs the last half hour, and the host remembers the whole thing as good.\n\nFor whoever leaves a friend's house while the evening is still good.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a closed cream door on the right. Two block figures with white eyes stand together, one ink-black and one royal blue, both smiling. The ink-black one walks toward the door and a bubble says heading out! The royal blue one opens its eyes wide and says already? stay! The ink-black one answers next time. loved it., the door swings open to warm yellow light, and the figure walks into the doorway. Both turn happy with a pulse. The text changes from me: stay till it fades, to left while it was good. they asked me back.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "leave-while-its-good",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 16 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.1 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "irse de la casa de un amigo cuando la noche todavia va bien",
+ "blanco": "Cella y quien se queda hasta que la visita se apaga",
+ "destinatario": "leaves a friend's house while the evening is still good",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 7 al 10-dic (tanda dicm, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicm"
+}

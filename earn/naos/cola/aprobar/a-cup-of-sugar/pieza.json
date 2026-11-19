@@ -1,0 +1,51 @@
+{
+ "slug": "a-cup-of-sugar",
+ "titulo": "A cup of sugar, and the neighbor lights up",
+ "clave": "2026-12-07|a-cup-of-sugar",
+ "sale_utc": "2026-12-07T22:20:00Z",
+ "caption": "A cup of sugar, and the neighbor lights up\n\n\"Got a cup of sugar?\" The neighbor lit up like she had been hoping to be asked.\n\nA small favor asked next door says I trust you, and most neighbors are glad to hear it.\n\nFor whoever knocks to ask the neighbor for one small thing.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A small favor asked next door says I trust you, and most neighbors are glad to hear it.\n\nFor whoever knocks to ask the neighbor for one small thing.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right. A ink-black block figure with white eyes walks up from the left and a bubble says a cup of sugar? A royal blue block figure standing in front of the door opens its eyes wide and a bubble says oh, of course! Both end with happy eyes. The text stays: me asking the neighbor for one small thing.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "a-cup-of-sugar",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.2 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pedirle al vecino una sola cosa chica (una taza de azucar)",
+ "blanco": "Cella y quien no le pide nada al vecino",
+ "destinatario": "knocks to ask the neighbor for one small thing",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

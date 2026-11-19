@@ -1,0 +1,49 @@
+{
+ "slug": "locked-it-twice",
+ "titulo": "Me checking the door again",
+ "caption": "Me checking the door again\n\nMe checking the door again.\n\nSay \"locked\" out loud while you do it: a check you actually noticed is easier to remember later.\n\nSend it to the friend who walks back to try the handle once more.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me checking the door again.\n\nSay \"locked\" out loud while you do it: a check you actually noticed is easier to remember later.\n\nSend it to the friend who walks back to try the handle once more.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right. A small ink-black block figure with white eyes walks up to the door, gives it a small shake, a speech bubble says locked and its eyes turn happy. It walks back, stops with wide eyes and a bubble says did I? and walks to the door again, shakes it, and this time the bubble says locked with a bigger happy pulse. It walks back to exactly where it started, so the film can repeat without a cut. The text stays: me checking the door again.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "locked-it-twice",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 5 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 3.4 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "salir de casa (comprobar la puerta otra vez)",
+ "blanco": "Cella (y quien vuelve a probar la manija)",
+ "destinatario": "the friend who walks back to try the handle once more",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "bucle": "empalme",
+ "sale_utc": "2026-11-30T15:00:00Z",
+ "clave": "2026-11-30|locked-it-twice"
+}

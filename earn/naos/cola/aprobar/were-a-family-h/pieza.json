@@ -1,0 +1,38 @@
+{
+ "slug": "were-a-family-h",
+ "titulo": "Stories echo: Your boss says “we're a family.” Sweet or run?",
+ "clave": "2026-11-26|were-a-family-h",
+ "sale_utc": "2026-11-26T14:30:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "split image: SWEET on lilac with a contract on the floor, RUN on red with Cella in a crown walking toward a door. When your boss says “we're a family,” Left: Sweet. Right: Run. Pick a side.",
+ "seccion": "humanity",
+ "fuente": "eco-historia: regla de N del 13-nov-2026; copia de were-a-family",
+ "sticker": "ninguno",
+ "tipo": "historia",
+ "origen": "were-a-family",
+ "eco_historia": {
+  "origen": "were-a-family",
+  "tipo": "imagen",
+  "regla": "N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#943, 2026-11-05T02:19:33Z",
+  "issue_origen": "943",
+  "hash_origen": "a839f2d8d8856ba77890a316a8197c78b7b2de8e2c5e407c6f6b241cc43e5439",
+  "publicado_origen_utc": "2026-11-13T13:00:24Z",
+  "creada_utc": "2026-11-13T16:22:35Z",
+  "sale_dia_ny": "2026-11-26"
+ },
+ "revisiones": [
+  {
+   "que": "Same content",
+   "estado": "OK",
+   "nota": "the approved imagen of were-a-family, whole and centered, no new text (N's rule, 13-nov-2026)"
+  }
+ ]
+}

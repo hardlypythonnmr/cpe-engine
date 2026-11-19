@@ -1,0 +1,22 @@
+{
+ "slug": "candle-is-self-care",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "809cc2f3f1c0177496a192333a7187dc78d7726005abd712293998309a89dbb6",
+ "hashes": {
+  "historia": "066fd0fa30ee9bcb4ecb7c26955448365f72ef3c8de4664bfd4ba13e2d82b9df"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681453916,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

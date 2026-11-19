@@ -1,0 +1,22 @@
+{
+ "slug": "last-roll-split",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9860d0115d7ba2570c54a177b7940b67c18bb9f79c78f148084bf1ab08b26e44",
+ "hashes": {
+  "historia": "1002b0f3a39e2453c4b6f55577049eb91d37b74459dd7f3268b30f4c0a84842d"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681446636,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

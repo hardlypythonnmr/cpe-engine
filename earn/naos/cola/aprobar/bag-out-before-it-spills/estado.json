@@ -1,0 +1,26 @@
+{
+ "slug": "bag-out-before-it-spills",
+ "issue": 93,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-04T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1396f349373890e45a796ac95dc97e421af550621bc2d49abadb8413f6575608",
+ "hashes": {
+  "short": "8edf6e4dfd9685fb7735563880703c2ca97a77742c36a987d6acc5e58ed01b2f",
+  "reel": "a2723a3b5121bd6eaecbc023bec097ccfc871d29c07fadea5be7087c41f057cc"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886896224,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0104",
+ "caducado_utc": "2026-11-15T00:52:08Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1370
+}

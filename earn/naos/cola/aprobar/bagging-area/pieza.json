@@ -1,0 +1,48 @@
+{
+ "slug": "bagging-area",
+ "titulo": "Me at self-checkout feeling like a pro",
+ "caption": "Me at self-checkout feeling like a pro\n\nMe at self-checkout feeling like a pro.\n\nThe machine weighs everything twice. If it complains, wait a second before you panic: it usually just heard the bag move.\n\nSend it to the friend who has been rescued by the self-checkout attendant.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me at self-checkout feeling like a pro.\n\nThe machine weighs everything twice. If it complains, wait a second before you panic: it usually just heard the bag move.\n\nSend it to the friend who has been rescued by the self-checkout attendant.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a paper bag at its right end. A small ink-black block figure with white eyes stands on the left and leans to slide three items across the table one by one, a bite, a bread roll and a tangerine, each one disappearing into the bag with a small beep above the table and a proud pulse. In the last second the text changes from: me at self-checkout being so efficient, to: unexpected item in the bagging area. The figure's eyes go wide as it looks down, trembling. It narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "bagging-area",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "tecnología cotidiana (el autopago)",
+ "blanco": "Cella (y quien se siente experta en el autopago)",
+ "destinatario": "the friend who has been rescued by the self-checkout attendant",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-23T14:00:00Z",
+ "clave": "2026-11-23|bagging-area"
+}

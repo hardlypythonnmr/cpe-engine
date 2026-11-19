@@ -1,0 +1,25 @@
+{
+ "slug": "the-usual",
+ "issue": 69,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4a1d6c704d81e7ad4ae9d04f288bed6fe838cab94722219d08721a4f0c71b587",
+ "hashes": {
+  "short": "1953fc5d3408f3c21bcc97fe0de5e828843d8999b2a7f9a99847fd114aee49b1",
+  "reel": "84ec3e78d2bcee95910083106c73f6e949000fcb7aee2ba854b2035cdc280d2c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866100628,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2125",
+ "aprobado_evento_utc": "2026-11-13T22:32:44Z",
+ "issue_n_system": 1212
+}

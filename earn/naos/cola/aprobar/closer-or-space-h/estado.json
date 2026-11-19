@@ -1,0 +1,26 @@
+{
+ "slug": "closer-or-space-h",
+ "issue": 4,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d0a6f10f63af7d9aa220dc4d1ebe868ef08116c26a59e2a440a8876cf1fa2a2e",
+ "hashes": {
+  "historia": "d966d708c9ea88814b4b3d44c08105005675943d3db8b1fc18a416f3f4ae2a84"
+ },
+ "canales": [
+  "historia"
+ ],
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aprobado_evento_utc": "2026-11-13T16:22:35Z",
+ "origen": "closer-or-space",
+ "eco_historia": {
+  "via": "eco-historia",
+  "cita": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#941, 2026-11-05T02:19:14Z; eco-historia (2026-11-13T16:22:35Z): copia en historia de closer-or-space, publicada 2026-11-11T13:09:30Z, misma imagen (huella 3b4901185b79459a); regla de N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "origen": "closer-or-space"
+ },
+ "issue_n_system": 941
+}

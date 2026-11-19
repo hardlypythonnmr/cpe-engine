@@ -1,0 +1,26 @@
+{
+ "slug": "pass-it-along",
+ "issue": 93,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-04T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "18c8f4b7a228159d53d948579fd3a86dc44d008fae20c2a4beb24c326b0c29bf",
+ "hashes": {
+  "short": "d43d13c51069854c8a1372796b01063c4253a599c55dd1f8b54ea53ecc8d8085",
+  "reel": "e361b79b269413923a538dad87f8933849109c9533236f60f7ecd8d6f43c9818"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886895700,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0104",
+ "caducado_utc": "2026-11-15T00:52:08Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1370
+}

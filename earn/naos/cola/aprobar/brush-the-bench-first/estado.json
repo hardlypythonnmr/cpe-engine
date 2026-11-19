@@ -1,0 +1,26 @@
+{
+ "slug": "brush-the-bench-first",
+ "issue": 86,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T00:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a851225d70fe99ca7516142547cf8bf8805c2e1ef4d62d1c2ac1ab0b5fd4a8fc",
+ "hashes": {
+  "short": "d7edf2da4827d4393e18b626b90df3939bbf490781c92a56cc62d66d0146b3b7",
+  "reel": "a9470af388e527edf1393a1a14956e690caf2e32c9dec7e61f46f845fb0a5b33"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886833512,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-k-1013",
+ "caducado_utc": "2026-11-15T00:47:23Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1351
+}

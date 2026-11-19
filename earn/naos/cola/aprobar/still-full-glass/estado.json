@@ -1,0 +1,25 @@
+{
+ "slug": "still-full-glass",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T15:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c79f17c0c58231a3b1b8a992aa8a78a0084d9964ad137783829fd8979dabc538",
+ "hashes": {
+  "short": "9c9dc86267cfeca85ad0cd366635b039f814a1fe28e84e52bec63ff781903864",
+  "reel": "519764025414712fbbbe60f28358bc361a9b6a46fe370663d4f30955cd4b672d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863850167,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

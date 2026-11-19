@@ -1,0 +1,38 @@
+{
+ "slug": "closer-or-space-h",
+ "titulo": "Stories echo: When it gets serious: closer or space?",
+ "clave": "2026-11-23|closer-or-space-h",
+ "sale_utc": "2026-11-23T23:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "split image: CLOSER on pink with Cella leaning toward the middle, SPACE on blue with Cella turned away. When things get serious, I need. Which one are you? Left: Closer. Right: Space. Which one are you?",
+ "seccion": "humanity",
+ "fuente": "eco-historia: regla de N del 13-nov-2026; copia de closer-or-space",
+ "sticker": "ninguno",
+ "tipo": "historia",
+ "origen": "closer-or-space",
+ "eco_historia": {
+  "origen": "closer-or-space",
+  "tipo": "imagen",
+  "regla": "N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#941, 2026-11-05T02:19:14Z",
+  "issue_origen": "941",
+  "hash_origen": "3b4901185b79459a5929db0277e4e42bcb6d6d581f3c6cd8bc0ff1e08df82ee3",
+  "publicado_origen_utc": "2026-11-11T13:09:30Z",
+  "creada_utc": "2026-11-13T16:22:35Z",
+  "sale_dia_ny": "2026-11-23"
+ },
+ "revisiones": [
+  {
+   "que": "Same content",
+   "estado": "OK",
+   "nota": "the approved imagen of closer-or-space, whole and centered, no new text (N's rule, 13-nov-2026)"
+  }
+ ]
+}

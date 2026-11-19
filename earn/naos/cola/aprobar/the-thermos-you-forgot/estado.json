@@ -1,0 +1,25 @@
+{
+ "slug": "the-thermos-you-forgot",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0f94de680a86996304544eb05c4f6a0acc9002f090b42ae299425948cd0b9c4e",
+ "hashes": {
+  "short": "4f8d70a747fc2debe6b94e474aba563ea1cd506d1b7f492525fb333b526750ff",
+  "reel": "c024c6a7601de3f6b45a8047b6b2a90afaadb67ea9e4c37c88377d469590f37c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870897507,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

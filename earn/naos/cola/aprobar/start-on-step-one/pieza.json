@@ -1,0 +1,55 @@
+{
+ "slug": "start-on-step-one",
+ "titulo": "Starting on step one",
+ "clave": "2027-01-31|start-on-step-one",
+ "sale_utc": "2027-01-31T19:30:00Z",
+ "caption": "Starting on step one\n\n\"Start at the top.\" \"Step one.\" The star hopped down to the bottom step and then climbed to the second.\n\nStarting on the first step is slower for ten minutes and faster for the rest of the month.\n\nFor whoever starts on the first step instead of the hard one.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Starting on the first step is slower for ten minutes and faster for the rest of the month.\n\nFor whoever starts on the first step instead of the hard one.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and, at the right, a staircase of three blue steps with a gold star on the top one. A royal blue block figure with narrowed eyes says start at the top. A ink-black block figure with white eyes answers start at step one, and the star hops down to the lowest step, then later climbs to the second. The blue one's eyes go wide and says ...ok. step two next. Both end with happy eyes. The text stays: me starting on step one.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "start-on-step-one",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "empezar por el primer escalon en vez de por el mas dificil",
+ "blanco": "Cella y quien quiere saltar directo a lo avanzado",
+ "destinatario": "starts on the first step instead of the hard one",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 27 al 31-ene (tanda ened, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "ened"
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "see-the-moon-v3",
+ "titulo": "If you're seeing this, go see the moon together",
+ "clave": "2026-11-24|casa-patio-noche",
+ "sale_utc": "2026-11-24T17:00:00Z",
+ "caption": "If you're seeing this, go see the moon together\n\nIf you're seeing this, go see the moon with someone you love.\n\nFor whoever this is.\n\n#Moon #FullMoon #CuteAnimation #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "If you're seeing this, go see the moon with someone you love.\n\nFor whoever this is.\n\n#Moon #FullMoon #CuteAnimation #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. Night sky on a flat dark-blue field with a large smooth moon, flat nebula shapes and twinkling stars; a short comet crosses once, low and to the left. Two small block figures with doorway legs and white eyes, one amber and one light blue, sit side by side on a low wall, looking up. Three lines stay on screen from the first frame: if you're seeing this, go see the moon, with someone you love. The two figures lean together with happy eyes.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "see-the-moon-v3",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -4.7 dBFS, LRA 2.5 LU; own music (motor/musica/pulso.py, mode cielo), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

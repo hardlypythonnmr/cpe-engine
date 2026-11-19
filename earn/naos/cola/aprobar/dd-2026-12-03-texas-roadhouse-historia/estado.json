@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-03-texas-roadhouse-historia",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T16:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "662cc19de95efc3f454080c426e6816b2807700eb4217a24d33b24dd0b8ecf20",
+ "hashes": {
+  "historia": "96e949489c8ece8fa447395d0c2f0b59de8d088fd006fc741f5cdd307090a871"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6890742181,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

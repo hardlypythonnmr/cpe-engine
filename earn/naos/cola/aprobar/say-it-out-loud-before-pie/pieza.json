@@ -1,0 +1,56 @@
+{
+ "slug": "say-it-out-loud-before-pie",
+ "titulo": "Before dessert, say one thank-you out loud",
+ "clave": "2026-11-24|casa-mesa",
+ "sale_utc": "2026-11-24T19:48:00Z",
+ "caption": "Before dessert, say one thank-you out loud\n\nBefore dessert, say one thank-you out loud. Then send it. Patience, pie. Send this to whoever gets your thank-you.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Before dessert, Cella says one thank-you out loud, then sends it. Say one thank-you out loud before dessert. Send this to whoever gets your thank-you.\n\nThe study: in three experiments, people wrote gratitude letters and then guessed how the receivers would feel. They underestimated how positive receivers would feel and overestimated how awkward it would be. The limit: the experiments were online and tested written letters, not a thank-you said out loud at a table. Cella's scene is a story, not a result.\nKumar, A., & Epley, N. (2018). Undervaluing gratitude: Expressers misunderstand the consequences of showing appreciation. Psychological Science, 29(9), 1423-1435. https://doi.org/10.1177/0956797618772506\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat pink background in a dining room. At the top, the question: what do you do before dessert? A small ink-black doorway-shaped figure with white eyes stands beside a wooden table with a steaming pie and a phone. The words appear one line at a time: I say one thank-you out loud (the figure bobs and a speech bubble says: thank you). Then I send it (it taps the phone and a little envelope arcs off to the right). Patience, pie (the pie jiggles and the figure holds up a palm, then smiles). The closing question: who gets my thank-you? Then: Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Who gets yours?",
+ "casa": {
+  "id": "say-it-out-loud-before-pie",
+  "version": 7
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "16.81 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 5 voice lines, 19 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-13.8 LUFS, true peak -1.5 dBFS, LRA 2.9 LU; mono fold (0.5 L + 0.5 R) -16.8 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.5 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Cella answers (D-323)",
+   "estado": "OK",
+   "nota": "the question on screen in the first 2 s, Cella does the action while the voice answers, closing question in two lines. Text written by the house; the study is only in the description."
+  },
+  {
+   "que": "Study",
+   "estado": "OK",
+   "nota": "Kumar & Epley 2018, Psychological Science 29(9), doi 10.1177/0956797618772506 (author names, year, journal and DOI checked on Crossref 13-nov): in three experiments people wrote gratitude letters and underestimated how positive recipients would feel and overestimated how awkward it would be. Limit: online experiments on written letters, not a spoken thank-you at a table. The video claims no number and no result; the study goes in the description."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); final voice is ElevenLabs mesa-maya only after N's OK, 99 characters of speech (about 45 credits at 0.45, about 89 with a spare take of each line)"
+  }
+ ]
+}

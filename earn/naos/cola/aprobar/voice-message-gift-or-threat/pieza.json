@@ -1,0 +1,52 @@
+{
+ "slug": "voice-message-gift-or-threat",
+ "titulo": "A 4-minute voice message: gift or threat? Cella answers",
+ "clave": "2026-11-25|voice-message-gift-or-threat",
+ "sale_utc": "2026-11-25T04:26:00Z",
+ "estado": "por-aprobar",
+ "caption": "A 4-minute voice message: gift or threat? Cella answers.\nShe said threat, then listened to all four minutes.\nby NMR\n#voicemessage #relatable #cella",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A vertical video in flat colors, no voice, with soft music. The title reads: A 4-minute voice message is. The screen splits in two: GIFT in mint with a gift box on the left, THREAT in coral with a voice-message bubble marked 4:00 on the right. A small round figure with white eyes walks to the THREAT side and a red crown drops on its head. Then the words are written: Cella says threat. Then listens to all four minutes.",
+ "formato": "F4 Elige · Reel",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-huecos (huecos del 17-nov (decisión de N, 12-nov-2026))",
+ "hueco": "mar 24-nov",
+ "filo": "V",
+ "tema": "amistad y mensajes (arquetipo: el que manda audios de 4 minutos)",
+ "destinatario": "the friend who sends 4-minute voice messages",
+ "mecanica_crecimiento": "enviar · destinatario: the friend who sends 4-minute voice messages",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-huecos/hojas/ and juez.md"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-359: archetypes only, no real person or protected group, no health, grief, loneliness or body; Cella without hands and never next to a black object"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words; 50 words or fewer; 3 hashtags; no comment bait"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice; own music (motor/musica/pulso.py) and own foley (numpy), 0 credits"
+  }
+ ]
+}

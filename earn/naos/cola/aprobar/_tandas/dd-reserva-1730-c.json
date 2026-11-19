@@ -1,0 +1,41 @@
+{
+ "nombre": "dd-reserva-1730-c",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-25-expedia-historia",
+  "dd-2026-11-25-expedia-lamina",
+  "dd-2026-11-25-expedia-expediente",
+  "dd-2026-11-26-tjx-companies-historia",
+  "dd-2026-11-26-tjx-companies-lamina",
+  "dd-2026-11-26-tjx-companies-expediente",
+  "dd-2026-11-27-lam-research-historia",
+  "dd-2026-11-27-lam-research-lamina",
+  "dd-2026-11-27-lam-research-expediente",
+  "dd-2026-11-28-autodesk-historia",
+  "dd-2026-11-28-autodesk-lamina",
+  "dd-2026-11-28-autodesk-expediente"
+ ],
+ "comentario_vista_previa_id": 6885963699,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T13:28:20Z",
+ "aviso_utc": "2026-11-14T23:34:20Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "aprobadas": [
+  "dd-2026-11-25-expedia-expediente",
+  "dd-2026-11-25-expedia-historia",
+  "dd-2026-11-25-expedia-lamina",
+  "dd-2026-11-26-tjx-companies-expediente",
+  "dd-2026-11-26-tjx-companies-historia",
+  "dd-2026-11-26-tjx-companies-lamina",
+  "dd-2026-11-27-lam-research-expediente",
+  "dd-2026-11-27-lam-research-historia",
+  "dd-2026-11-27-lam-research-lamina",
+  "dd-2026-11-28-autodesk-expediente",
+  "dd-2026-11-28-autodesk-historia",
+  "dd-2026-11-28-autodesk-lamina"
+ ],
+ "issue_n_system": 1333
+}

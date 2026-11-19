@@ -1,0 +1,55 @@
+{
+ "slug": "fill-the-pitcher",
+ "titulo": "The empty pitcher goes to the tap first",
+ "clave": "2026-12-02|fill-the-pitcher",
+ "sale_utc": "2026-12-02T19:00:00Z",
+ "caption": "The empty pitcher goes to the tap first\n\nHe pours the last glass and the pitcher is empty. It goes back to the tap before it goes back to the shelf.\n\nRefilling takes thirty seconds now, and an empty pitcher on the shelf is a small chore waiting for whoever is thirsty next.\n\nFor whoever puts the pitcher back full, not empty.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Refilling takes thirty seconds now, and an empty pitcher on the shelf is a small chore waiting for whoever is thirsty next.\n\nFor whoever puts the pitcher back full, not empty.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a tall glass pitcher on the right, almost empty, and a bubble that says empty. A ink-black block figure with white eyes walks up from the left with narrowed eyes, then its eyes go wide, it leans in and the water rises in the pitcher up to near the top. Its eyes turn happy with a pulse. The text stays: me filling it back up before I forget.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "fill-the-pitcher",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.3 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "volver a llenar la jarra apenas se vacia",
+ "blanco": "Cella y quien deja la jarra vacia en el estante",
+ "destinatario": "puts the pitcher back full, not empty",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 1 al 6-dic (tanda dic-g, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-g"
+}

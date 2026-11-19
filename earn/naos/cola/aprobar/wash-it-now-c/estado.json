@@ -1,0 +1,25 @@
+{
+ "slug": "wash-it-now-c",
+ "issue": 74,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-19T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ccca62e9c89203a2445534e3180362576e47426d569e25e00386114681f093f4",
+ "hashes": {
+  "short": "c383de1bf0679694f66595b34ac25cb6da5a3ec934855a0de0c97e90f58aab05",
+  "reel": "e1e35e0db691aed5d81554dcbef55831ea6c3e543812ba22970619b8463daa4a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6871179194,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "duracion-1411",
+ "aprobado_evento_utc": "2026-11-15T00:04:21Z",
+ "issue_n_system": 1259
+}

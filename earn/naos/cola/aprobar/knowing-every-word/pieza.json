@@ -1,0 +1,49 @@
+{
+ "slug": "knowing-every-word",
+ "titulo": "Me knowing every word of the song",
+ "caption": "Me knowing every word of the song\n\nMe knowing every word of the song.\n\nLyrics stick better when you sing them than when you read them. The second verse still needs practice.\n\nSend it to the friend who sings the chorus and hums the rest.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me knowing every word of the song.\n\nLyrics stick better when you sing them than when you read them. The second verse still needs practice.\n\nSend it to the friend who sings the chorus and hums the rest.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes is already swaying and singing in the very first frame, with speech bubbles that say la la la, oh oh oh, yeah yeah, la la la, each with a happy pulse. It grows a little taller with confidence. In the last second the text changes from: me knowing every word, to: the second verse: mm mm mm, and the bubble turns to mm mm mm. The figure's eyes go wide and it trembles, then it narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "knowing-every-word",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.6 dBFS, LRA 2.0 LU; own music (motor/sonido midi, room ventana, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "música (saberse la canción hasta la segunda estrofa)",
+ "blanco": "Cella (y quien se sabe el coro y tararea el resto)",
+ "destinatario": "the friend who sings the chorus and hums the rest",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "gancho": "accion-en-1s",
+ "sale_utc": "2026-11-25T03:00:00Z",
+ "clave": "2026-11-24|knowing-every-word"
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "read-the-recipe-to-the-end",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T16:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "07fd03d69e9aaacce4ae3c2835f816da8de07d336bc4cb72ed74662a9b2564b2",
+ "hashes": {
+  "short": "aa94bae60305c73dd2bed2160d479c80b13d28661d8d26496694cf614957d2a4",
+  "reel": "9658cd95ddd37e4a9ee20c2482841de50c3bff3bec89e08716a571ebf017201e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870903182,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

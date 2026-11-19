@@ -1,0 +1,55 @@
+{
+ "slug": "double-the-batch",
+ "titulo": "One pot, two dinners",
+ "clave": "2026-12-07|double-the-batch",
+ "sale_utc": "2026-12-07T15:15:00Z",
+ "caption": "One pot, two dinners. The second one cost almost nothing but the second container.\n\nDoubling the recipe adds five minutes tonight and takes a whole cooking night off the week.\n\nFor whoever cooks once and eats twice.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Doubling the recipe adds five minutes tonight and takes a whole cooking night off the week.\n\nFor whoever cooks once and eats twice.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a pot of soup steaming at the left and two empty containers waiting at the right. A ink-black block figure with white eyes walks toward the pot, its eyes go wide with a pulse, and two containers fill up one after the other and get their lids. A bubble says two dinners. Its eyes turn happy with a pulse. The text stays: me cooking once, eating twice.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "double-the-batch",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.3 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hacer el doble de la receta y guardar la mitad",
+ "blanco": "Cella y quien cocina de cero cada noche",
+ "destinatario": "cooks once and eats twice",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

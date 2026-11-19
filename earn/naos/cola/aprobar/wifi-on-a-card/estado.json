@@ -1,0 +1,26 @@
+{
+ "slug": "wifi-on-a-card",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-13T13:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b6064c6b0886bf36501260c4ab32076898101d02ff3abecc0ca8ac8bd9aff7c1",
+ "hashes": {
+  "short": "45a1de70cb59c58cb4da05ee261d11f89c17d2e2697d3030e89bc550e4c44f0c",
+  "reel": "0c5e505a26f618b289508b9a0a6e2f19a5e6fe66953626dbd1d0fb96442b333d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886916633,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

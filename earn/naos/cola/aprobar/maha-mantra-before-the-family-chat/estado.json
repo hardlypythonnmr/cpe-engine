@@ -1,0 +1,25 @@
+{
+ "slug": "maha-mantra-before-the-family-chat",
+ "issue": 63,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T00:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "88ca12e9692ea1360490758357d855c62ee238f3468f4acbd5a4be5b9986376c",
+ "hashes": {
+  "short": "2dfccb892f230f1b266a10679d2a0957eb8ffc70f93e3d1276d0a8741d299a5b",
+  "reel": "d0aa38b2fcdf0766716e5c64130cc7892aa70c3dd5a5a0088b7cc53d58ddeabb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856870689,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "mantra-2225",
+ "aprobado_evento_utc": "2026-11-13T15:08:39Z",
+ "issue_n_system": 1093
+}

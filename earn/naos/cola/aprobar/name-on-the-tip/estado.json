@@ -1,0 +1,25 @@
+{
+ "slug": "name-on-the-tip",
+ "issue": 69,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "07baed0d73e1457ddf87f3c0562fd018c19fcb3fa5ff7c315c4d9874f96ba8cf",
+ "hashes": {
+  "short": "8e1a177ed5bb78866f2b02d5b8f807e587d6b54dad4b1e2ae766c278280ff793",
+  "reel": "32253af5a6c0b3e63dad36f6f13e2b6a26a6543b8e19cf5ec821577d6e6261c5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866099976,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2125",
+ "aprobado_evento_utc": "2026-11-13T22:32:44Z",
+ "issue_n_system": 1212
+}

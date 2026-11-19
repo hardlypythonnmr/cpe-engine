@@ -1,0 +1,26 @@
+{
+ "slug": "book-by-the-chair",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c3e10497a60c2c1025092d1f217b8a9c2d46d3937adc8b5dcf08d97849ad0c93",
+ "hashes": {
+  "short": "e9548664b857194c40ce36a78e92847505cb6f851bce17e549b9e1755fd04a88",
+  "reel": "fc509e3fc7aad793953cfef7f704825d46ad828958f858c3569ef47e48475595"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886820966,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:35Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

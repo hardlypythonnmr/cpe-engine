@@ -1,0 +1,54 @@
+{
+ "slug": "the-bag-before-you-ask",
+ "titulo": "Taking the bag before they ask",
+ "clave": "2026-12-10|the-bag-before-you-ask",
+ "caption": "Taking the bag before they ask\n\nTaking the bag before they ask.\n\nPeople often turn help down when it is offered as a question and accept it when it simply arrives.\n\nFor whoever takes the heavy bag without a word.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #nowords #chooseFriction",
+ "descripcion": "Taking the bag before they ask.\n\nPeople often turn help down when it is offered as a question and accept it when it simply arrives.\n\nFor whoever takes the heavy bag without a word.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text on screen except the last card, with music. A kitchen. A small brick red block figure with white eyes leans on the left beside a heavy paper bag with narrowed eyes and a small tremble. A ink-black figure on the right sees it and walks over. The red one stands up straight, its eyes go wide and then happy and it pulses. The black one takes the bag and they walk to the right together, the bag between them, and the black one smiles. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "the-bag-before-you-ask",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 2 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.9 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "llevar la bolsa pesada antes de que la pidan",
+ "blanco": "Cella (y quien carga la bolsa del otro sin preguntar)",
+ "destinatario": "whoever takes the heavy bag without a word",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-10T13:00:00Z"
+}

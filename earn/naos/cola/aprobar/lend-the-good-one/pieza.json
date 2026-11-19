@@ -1,0 +1,55 @@
+{
+ "slug": "lend-the-good-one",
+ "titulo": "The good mug for the guest",
+ "clave": "2027-01-26|lend-the-good-one",
+ "sale_utc": "2027-01-26T16:15:00Z",
+ "caption": "The good mug for the guest\n\nThe grey mug was right there, closest to the guest. She swapped it for the good one, still steaming.\n\nWhat you lend says how much you wanted them to have it, and the good one costs you nothing extra.\n\nFor whoever lends the good one, not the spare.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "What you lend says how much you wanted them to have it, and the good one costs you nothing extra.\n\nFor whoever lends the good one, not the spare.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a long counter. On it a steaming cream mug on the left and a grey mug in the middle, and a brick-red block figure standing quietly at the far right end. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the two mugs swap places in the air, the steaming cream one landing next to the red figure, whose eyes turn happy. The black one's eyes turn happy with a pulse. The text changes from: me: they can have the old one, to: they get the good one.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "lend-the-good-one",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.3 dBFS, LRA 1.6 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "prestar la taza buena y no la de repuesto",
+ "blanco": "Cella y quien presta lo que le sobra en vez de lo mejor",
+ "destinatario": "lends the good one, not the spare",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

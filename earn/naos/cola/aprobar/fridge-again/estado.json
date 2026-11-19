@@ -1,0 +1,25 @@
+{
+ "slug": "fridge-again",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "431e3f77ca75711d5cc537def98e5c4c745d966e5fc4bb8a0a01ccdd181ba337",
+ "hashes": {
+  "short": "0163c613379638fd7884a3db0a3eba6a3718ebd9844c03de9e83012c42a85f23",
+  "reel": "b87c9113792dd92349cca27f0c4de06afdd1d836550ea4f548180bc85bf318bf"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861220866,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

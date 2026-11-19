@@ -1,0 +1,55 @@
+{
+ "slug": "got-it-reply",
+ "titulo": "Two words on the thread: got it",
+ "clave": "2026-12-03|got-it-reply",
+ "sale_utc": "2026-12-03T20:30:00Z",
+ "caption": "Two words on the thread: got it\n\nTwo words on the thread, and the three dots on the other end stopped waiting.\n\nA \"got it\" takes four seconds, and it saves the other person an hour of wondering.\n\nFor whoever answers got it so the other person can stop wondering.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A \"got it\" takes four seconds, and it saves the other person an hour of wondering.\n\nFor whoever answers got it so the other person can stop wondering.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a chat bubble with three pulsing dots, like someone waiting. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and a bubble that says got it. pops up, and the dots stop. Its eyes turn happy with a pulse. The text changes from: me, they can see I read it, to: got it. now they can stop guessing.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "got-it-reply",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 16 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "contestar got it para que el otro deje de preguntarse si llego",
+ "blanco": "Cella y quien deja a otro esperando una confirmacion",
+ "destinatario": "answers got it so the other person can stop wondering",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

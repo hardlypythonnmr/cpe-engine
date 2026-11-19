@@ -1,0 +1,26 @@
+{
+ "slug": "you-dropped-this",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-24T21:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "89392645aafa20ce48f4b1ddec16c8c4728f31f5a48dfc010bb7e4f65ad40c0a",
+ "hashes": {
+  "short": "ec5d81760fcf467f3f5ebfae781013bd9432d5ada8ca80cc5eab49f47d5dd73c",
+  "reel": "62f4457ac609215d1316f73500c95c39255fb58c2c7544af15bdf794d496bb03"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886874866,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

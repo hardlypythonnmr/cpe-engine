@@ -1,0 +1,55 @@
+{
+ "slug": "plate-it-for-one",
+ "titulo": "Dinner for one, on a plate",
+ "clave": "2026-12-08|plate-it-for-one",
+ "sale_utc": "2026-12-08T19:15:00Z",
+ "caption": "Dinner for one, on a plate\n\nDinner for one deserves a plate. It is two minutes of effort and the meal turns from fuel into dinner.\n\nA plate is a tiny decision that says this meal counts, even when nobody else is eating it.\n\nFor whoever plates the food even when it is just them.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A plate is a tiny decision that says this meal counts, even when nobody else is eating it.\n\nFor whoever plates the food even when it is just them.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a pot of food steaming on the right. A brick red block figure with narrowed eyes at the far left says just eat from the pot. A ink-black block figure with white eyes answers plate it, walks toward the middle and a plate with a serving of food appears while the steam stops. The red one's eyes go wide and says huh. that's nicer. Both end with happy eyes. The text stays: me plating it, even for one.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "plate-it-for-one",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.1 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "servir en un plato aunque se coma solo",
+ "blanco": "Cella y quien come directo de la olla",
+ "destinatario": "plates the food even when it is just them",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

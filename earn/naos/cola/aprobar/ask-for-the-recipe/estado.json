@@ -1,0 +1,26 @@
+{
+ "slug": "ask-for-the-recipe",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6f2e85e28b6dbfa178fb7b545fd9b9aced2e50ef9d7754057132d648bb68292b",
+ "hashes": {
+  "short": "6d4c11eb4593675164f78b7ff5cd24f44c8f760f5637b6b4fd02a9515e0683e5",
+  "reel": "7996a4e4f2a789c7ef1fb1b98620ad24b44eac33b993578c11383b801a2f6ba5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886802586,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

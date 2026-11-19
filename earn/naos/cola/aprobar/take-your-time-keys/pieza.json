@@ -1,0 +1,54 @@
+{
+ "slug": "take-your-time-keys",
+ "titulo": "Waiting while they find the keys",
+ "clave": "2026-12-08|take-your-time-keys",
+ "caption": "Waiting while they find the keys\n\nWaiting while they find the keys.\n\nBeing rushed makes a search slower, because pressure narrows attention.\n\nFor whoever says no rush at the door.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Waiting while they find the keys.\n\nBeing rushed makes a search slower, because pressure narrows attention.\n\nFor whoever says no rush at the door.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right looking down. The blue one pats around with a bubble that says keys?, then wallet?, then phone? while it trembles a little. The black one waits calmly with a bubble that says no rush. At last the blue one looks up with happy eyes and a bubble that says found! and both pulse. The text stays: me waiting while they find their keys. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "take-your-time-keys",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.8 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "esperar sin apurar mientras buscan las llaves",
+ "blanco": "Cella (y quien dice 'no rush' en la puerta)",
+ "destinatario": "whoever says no rush at the door",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-08T13:00:00Z"
+}

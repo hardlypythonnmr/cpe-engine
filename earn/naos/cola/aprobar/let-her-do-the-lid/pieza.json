@@ -1,0 +1,53 @@
+{
+ "slug": "let-her-do-the-lid",
+ "titulo": "Letting her do it",
+ "clave": "2026-12-04|let-her-do-the-lid",
+ "caption": "Letting her do it\n\nCella wanted to help with the lid and waited.\n\nPeople learn a small task faster when they finish it themselves, even if it takes a little longer.\n\nFor the friend who lets you do it yourself.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella wanted to help with the lid and waited.\n\nPeople learn a small task faster when they finish it themselves, even if it takes a little longer.\n\nFor the friend who lets you do it yourself.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A room with a table and an open food container. A royal blue figure on the right looks down with narrowed eyes and trembles as a lid wobbles above the container. A small ink-black figure with white eyes starts to step over, stops, and holds still. The lid finally clicks on, and both figures turn happy with a pulse.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "let-her-do-the-lid",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 2.5 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar que otra termine sola (esperar sin ayudar)",
+ "blanco": "Cella y quien se muerde las ganas de ayudar",
+ "destinatario": "the friend who lets you do it yourself",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-04T18:00:00Z"
+}

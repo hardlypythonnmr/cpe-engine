@@ -1,0 +1,22 @@
+{
+ "slug": "going-home-seat-belt",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d356f85f1fa29d94178e6994861c5c6f188462bffdb250d5b4993124abcefa13",
+ "hashes": {
+  "historia": "22e54dac999414a87a38912f5bb800d06f61c4a4cb3c4451ea7f850eb2cefca9"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681442254,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

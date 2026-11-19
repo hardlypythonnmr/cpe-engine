@@ -1,0 +1,49 @@
+{
+ "slug": "did-you-see-it",
+ "titulo": "Did you see it?",
+ "clave": "2026-11-12|did-you-see-it",
+ "sale_utc": "2026-12-12T22:45:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still image for Stories. A flat night sky with stars and a thin crescent moon low on the right, tilted like a smile. Two small block figures, amber and light blue, look at each other with happy eyes. The text: Did you see it? The moon was smiling.",
+ "seccion": "humanity",
+ "fuente": "empresa/estrategia/semanal/2026-11-09-grilla.md (casa/lib/semana-1109-piezas.py)",
+ "sticker": "pregunta",
+ "casa": {
+  "id": "did-you-see-it",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5, hasta 18 (D-308); texto en la banda de Stories 270 a 1330 (medir8)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa; sin raya larga"
+  },
+  {
+   "que": "Sticker",
+   "estado": "OK",
+   "nota": "pregunta concreta de la pieza: did you see it?"
+  },
+  {
+   "que": "Luna (D-307)",
+   "estado": "OK",
+   "nota": "Opus 16, 15-nov: reprogramada al 12-dic (N: 'Reprogramar todas'; mesa: 12-dic). ephem, NYC, 22:45Z: 13.1 % iluminada, creciente de la tarde, altura 15.7 grados, azimut 221.5; coincide con la creciente baja inclinada del dibujo. El alt no da fase ni hora."
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "cella-contesta-nobody-answers",
+ "issue": 61,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T01:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "87dc95993f2add9a6996ea1a52e9be446335d7e29e6f35d7bf8c59766552508f",
+ "hashes": {
+  "short": "94d87c9b19cde234e0dbc712ab9e9025533faf3f0fbc362080f8293c76333605",
+  "reel": "53511fa788d0842824285eb45c5703631e2248405a4c590c033fb250d039f620"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6857342577,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "v7-cm-2123",
+ "aprobado_evento_utc": "2026-11-13T15:28:22Z",
+ "issue_n_system": 1089
+}

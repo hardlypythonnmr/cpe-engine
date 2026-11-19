@@ -1,0 +1,25 @@
+{
+ "slug": "wobbly-chair-year",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T16:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5d2bdf5c528d0beacfec5a84f4b39db994f0d48b7b5e69ea8d1dfb92c18d5ff3",
+ "hashes": {
+  "short": "ab3553e4f8bea9271086823676461282b7d7ecdfe16eee2c7249010425b84ac9",
+  "reel": "a22496418fdf38bfcc69e93cf0e9da39725c29fdd0e920d7e1f5b1dcffbed794"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870897067,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

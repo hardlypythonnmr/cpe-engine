@@ -1,0 +1,26 @@
+{
+ "slug": "asked-twice-really",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-18T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3bcac37f7fcbf02a43c4b0c6d32239be64eb93d8f9f1b508af08ef80412a1497",
+ "hashes": {
+  "short": "6acafa59695fb8dc17881dd806f037767c21ca3d4fb002752b3eb466eafe161f",
+  "reel": "2d1410e0b8f30be22238be4b6cc5ea82932e28a5b518a276fae6d679de63f995"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886964555,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

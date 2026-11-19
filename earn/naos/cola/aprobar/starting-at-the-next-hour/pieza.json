@@ -1,0 +1,48 @@
+{
+ "slug": "starting-at-the-next-hour",
+ "titulo": "Me starting at 10:00",
+ "caption": "Me starting at 10:00\n\nMe starting at 10:00.\n\nA fresh start helps, but any moment you pick can be one, including this one.\n\nSend it to the friend who is waiting for a rounder number.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me starting at 10:00.\n\nA fresh start helps, but any moment you pick can be one, including this one.\n\nSend it to the friend who is waiting for a rounder number.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes stands on the left, ready, facing a digital clock on the right that reads 9:56. It watches the minutes tick, 9:57, 9:58, 9:59, and stretches tall each time. At 9:59 it glances away and its eyes close. The clock reaches 10:00 and then 10:01 while it is not looking. When it looks back its eyes go wide and it trembles. In the last seconds the text changes from: me starting at 10:00, to: it's 10:01. next hour then. It narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "starting-at-the-next-hour",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.80 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.8 dBFS, LRA 2.9 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hábitos (esperar la hora redonda para empezar)",
+ "blanco": "Cella (y quien espera un número redondo para empezar)",
+ "destinatario": "the friend who is waiting for a rounder number",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-29T03:00:00Z",
+ "clave": "2026-11-28|starting-at-the-next-hour"
+}

@@ -1,0 +1,49 @@
+{
+ "slug": "dtt-the-music-down",
+ "titulo": "Turn the music down before they speak",
+ "clave": "2027-01-17|casa-cocina",
+ "sale_utc": "2027-01-17T15:15:00Z",
+ "caption": "Turn the music down before they speak\n\nMusic is on. The other one leans in to say something, so Cella turns the volume down first.\n\nFor whoever turns the music down before the other person speaks.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething #chooseFriction",
+ "descripcion": "Music is on. The other one leans in to say something, so Cella turns the volume down first.\n\nFor whoever turns the music down before the other person speaks.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with an orange wall. A small ink-black block figure with white eyes stands on the left and a brick-red one stands on the right, with a dark speaker between them and yellow notes bobbing above it. The red figure leans in and its eyes go wide. The black figure looks at the speaker and the three yellow volume bars drop away one by one, the notes disappear, and a bubble from the red figure says got a sec. Both figures close their eyes in a smile and pulse and a star appears. The text stays: 1 song, turned down before they speak. The last card: for whoever turns the music down before the other person speaks, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "dtt-the-music-down",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 19 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.3 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "bajar la musica antes de que la otra persona hable",
+ "blanco": "Cella (y quien baja la musica antes de que la otra hable)",
+ "destinatario": "whoever turns the music down before the other person speaks",
+ "cara": "A",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "Do the thing (mudo)",
+ "gancho_brazo": "A"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "dab-the-stain",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "49e3e1654d165fb0669e03628b7b33680b626339bbc1c441b35f42dcf6fbb712",
+ "hashes": {
+  "short": "36b01c387d5db9004cb1fc286d0c1b260417590cf03def2c115ef9080f6c115b",
+  "reel": "56ab800194ef9f0d94361a9ab277c63f6fb4ade7d1a31c5d21f660d5d2bb51b5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886860333,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

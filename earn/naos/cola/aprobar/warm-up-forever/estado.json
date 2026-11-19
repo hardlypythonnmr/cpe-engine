@@ -1,0 +1,26 @@
+{
+ "slug": "warm-up-forever",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e2d2db3efbba2469e95e3c4972872ac85240eb098204680ef273116f4c2b49ea",
+ "hashes": {
+  "short": "459ec2391dbece551e9daf12af4be18e7d1320e07e705d38d29817dbf11a57a7",
+  "reel": "1a31b33a832d656b4bdeb1a0d0942b958a071c3111f03e26e38c3d36e2ab8cbb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870597977,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

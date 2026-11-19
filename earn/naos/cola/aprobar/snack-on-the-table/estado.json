@@ -1,0 +1,25 @@
+{
+ "slug": "snack-on-the-table",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T15:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "913bfdd0b0b2e06bc020f1e176bc118cff24980e07c582bd26ba4ce2504e6d7e",
+ "hashes": {
+  "short": "97b8062ef3a978906690fd4ddf7384292f19d5f1d5bfc356a84a80fd650ad6fd",
+  "reel": "7e90dc0d8c82305f6ea2ffa4bfd45c0c4e9d5fe604736bcf4a2355a2ef5f1ad6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870902774,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

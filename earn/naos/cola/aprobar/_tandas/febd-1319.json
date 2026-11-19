@@ -1,0 +1,41 @@
+{
+ "nombre": "febd-1319",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "wait-for-the-sign",
+  "water-on-first",
+  "half-the-blanket",
+  "one-more-minute",
+  "roll-it-to-the-door",
+  "cover-the-plant",
+  "close-it-behind-you",
+  "lid-on-the-mug",
+  "pour-it-while-hot",
+  "out-while-its-warm",
+  "bag-in-and-shut",
+  "blanket-on-the-seat"
+ ],
+ "comentario_vista_previa_id": 6886927826,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T16:52:02Z",
+ "aviso_utc": "2026-11-15T00:54:45Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "aprobadas": [
+  "bag-in-and-shut",
+  "blanket-on-the-seat",
+  "close-it-behind-you",
+  "cover-the-plant",
+  "half-the-blanket",
+  "lid-on-the-mug",
+  "one-more-minute",
+  "out-while-its-warm",
+  "pour-it-while-hot",
+  "roll-it-to-the-door",
+  "wait-for-the-sign",
+  "water-on-first"
+ ],
+ "issue_n_system": 1378
+}

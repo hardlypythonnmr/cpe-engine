@@ -1,0 +1,25 @@
+{
+ "slug": "warm-before-they-arrive",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7b4bed23121a820dcd3c71d806725bef4a3b73d68c369e53a9d2fdb9180d86b4",
+ "hashes": {
+  "short": "b5a0cac1c326163b665e4f5f1fbb6b02d45119c9cdafd7315ce384e085a1ea50",
+  "reel": "ca0b39c56d8381d2d02a4dc743ab78788001b31f77abb4431e184b3f23bda642"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870918998,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

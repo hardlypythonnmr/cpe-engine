@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-interrupting",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-21T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d884ef6dd3c16cc24af0e97220f50a26a17c2d9cec4f69abe9e94ee171c883d5",
+ "hashes": {
+  "short": "9ac2f937f4ea3ba674369f00c81f8a64d58b63c646cf3f0c308e5efad04a151b",
+  "reel": "3694c11316764e8abfd3c88b77f68cf6b1cda2c789618efb059696ec940550c3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886954168,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "leave-ten-early",
+ "titulo": "Leaving ten minutes early",
+ "clave": "2026-12-13|leave-ten-early",
+ "sale_utc": "2026-12-13T19:00:00Z",
+ "caption": "Leaving ten minutes early\n\nShe left ten minutes early. The train doors open as she arrives, and she walks in without running.\n\nTen minutes of margin is the whole difference between walking on and running for it.\n\nFor whoever leaves ten minutes before they have to.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Ten minutes of margin is the whole difference between walking on and running for it.\n\nFor whoever leaves ten minutes before they have to.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A platform in front of a metro car with a clock that says 8:50. A ink-black block figure with white eyes strolls calmly toward the sliding doors. The clock turns to 9:00 and the doors slide open just as it arrives, and its eyes turn happy with a pulse. The text changes from me: I'll make it, to left early, no running.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "leave-ten-early",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "salir diez minutos antes para llegar caminando al tren",
+ "blanco": "Cella y quien sale a la hora justa y llega corriendo",
+ "destinatario": "leaves ten minutes before they have to",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 10 al 13-dic (tanda dic-k, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-k"
+}

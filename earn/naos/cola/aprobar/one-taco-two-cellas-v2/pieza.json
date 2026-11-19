@@ -1,0 +1,40 @@
+{
+ "slug": "one-taco-two-cellas-v2",
+ "titulo": "For whoever gets the other half this Thursday",
+ "clave": "2026-11-24|casa-cocina",
+ "sale_utc": "2026-11-24T14:35:00Z",
+ "caption": "For whoever gets the other half this Thursday\n\nFor whoever gets the other half this Thursday.\n\nTacos?\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "For whoever gets the other half this Thursday.\n\nTacos?\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A kitchen on a flat amber field with a shelf of jars. Two small block figures with doorway legs and white eyes, one in ink and one in tomato red, stand on either side of a low table with a plate and a single taco. They push the plate back and forth, faster and faster, to the beat. Then a second taco pops onto the plate and both pairs of eyes grow wide. The sentence For whoever gets the other half this Thursday stays on screen the whole time; Tacos? appears near the end. The last card reads Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "one-taco-two-cellas-v2",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "15.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -5.0 dBFS, LRA 2.0 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

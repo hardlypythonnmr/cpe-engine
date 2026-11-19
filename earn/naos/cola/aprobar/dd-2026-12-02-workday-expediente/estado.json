@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-02-workday-expediente",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T21:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "a02b67d8e2b6c5afd0c1919df628ab17173e1c52046b356431cec879456b1a67",
+ "hashes": {
+  "carrusel": "e628f1ef10436186f36d27527f8514d8702c83011e61eec52c8862a4ff58cbb3"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6890741658,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

@@ -1,0 +1,100 @@
+{
+ "slug": "cella-rates-the-holiday-weekend",
+ "titulo": "Cella rates the holiday weekend",
+ "clave": "2026-11-29|cella-rates-the-holiday-weekend",
+ "sale_utc": "2026-11-29T15:50:00Z",
+ "caption": "Cella rates the holiday weekend, from leftovers to the drive home.\nSend it to someone dreading Monday.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.mp4",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Video with our own music, 6 seconds, slow push-in on the cover. Cella in a crown under a spotlight next to a big review card. Send · 5 reviews. Cella rates the holiday weekend. From leftovers to the drive home.",
+  "2": "split in two colors: the thing on top, cella's review below. The thing: Leftovers at midnight. Cella's review: 5/5. Better than the dinner.",
+  "3": "split in two colors: the thing on top, cella's review below. The thing: The drive back. Cella's review: 1/5. Nobody warned me about the traffic.",
+  "4": "split in two colors: the thing on top, cella's review below. The thing: “We should do this more” Cella's review: 2/5. Said every year. Never done.",
+  "5": "split in two colors: the thing on top, cella's review below. The thing: Sunday night. Cella's review: 1/5. Again. Same time.",
+  "6": "split in two colors: the thing on top, cella's review below. The thing: Cella. Cella's review: 5/5. Never left the couch.",
+  "7": "five reviews as a list. The cheat sheet. The weekend, reviewed: Send it to someone dreading Monday. 1. Leftovers 5/5 2. The drive back 1/5 3. “Do this more” 2/5 4. Sunday night 1/5 5. Cella 5/5."
+ },
+ "tipo_carrusel": "F11 Reseñas · familia · dom 29-nov",
+ "primer_cuadro": {
+  "tipo": "video",
+  "archivo": "1.mp4",
+  "musica": "motor/musica/pulso.py modo cielo, semilla 2901 (código propio, 0 créditos)"
+ },
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "C",
+ "experimento": true,
+ "experimento_prueba": "AB carrusel-musica: con-musica, par de cella-rates-cyber-monday; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-07",
+ "ab": {
+  "prueba": "carrusel-musica",
+  "brazo": "con-musica",
+  "par": "cella-rates-cyber-monday",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-07T15:50:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-07T15:50:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-07T15:50:00Z"
+  }
+ ],
+ "blanco": "familia y trabajo",
+ "mecanica_crecimiento": "enviar · destinatario: someone dreading Monday",
+ "destinatario": "someone dreading Monday",
+ "eco": "D-376 · A/B carrusel con música",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

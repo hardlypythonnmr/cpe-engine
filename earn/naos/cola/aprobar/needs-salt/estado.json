@@ -1,0 +1,25 @@
+{
+ "slug": "needs-salt",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "625e491b4a9e55729c84bfa26ebfc48897f286f355a0da068729d82b59941447",
+ "hashes": {
+  "short": "423bbe29ad7dfc1bae8a7031753b8bc411a09f4f82aecfcda7c34f8b317a4488",
+  "reel": "3a8e4493c6e5c19f086fd5ec2d58e289d660119c6923ab49f8113da3c67a178e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863841953,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-25-expedia-historia",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T16:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "6806954b953faf423311e250434f0a4ca7aff292e85a7309b307a9113562d50b",
+ "hashes": {
+  "historia": "3ead09028128b480aea878a3fa7034eb87b3113c2ade9e28b1bb9eb2d4e618a3"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885958825,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

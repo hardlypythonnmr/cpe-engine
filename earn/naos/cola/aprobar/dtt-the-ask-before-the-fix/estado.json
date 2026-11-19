@@ -1,0 +1,25 @@
+{
+ "slug": "dtt-the-ask-before-the-fix",
+ "issue": 99,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-11T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9138c449e3159162e47f285c96f9826e406896b83b84f8946a06fa52cbb33ded",
+ "hashes": {
+  "short": "49b9a6c26e4f8efc2e07c96c951902622540a7a17d0d9dd34588799bde43626a",
+  "reel": "c574cc642fbfa0b669c97f51bbadb71924d9425ae7e0e38d5374836689453ca9"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886628350,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "issue_n_system": 1409
+}

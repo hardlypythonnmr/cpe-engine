@@ -1,0 +1,95 @@
+{
+ "slug": "thanksgiving-plate-receipt",
+ "titulo": "Thanksgiving plate",
+ "clave": "2026-11-26|thanksgiving-plate-receipt",
+ "sale_utc": "2026-11-26T21:35:00Z",
+ "caption": "Your Thanksgiving plate, itemized like a receipt. Save it for seconds.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Receipt. Table: the big one. Thank you. Come again next year. Turkey, for show: 1 slice. Mashed potatoes: 3 scoops. “A taste” of pie: 2 slices. Gravy on everything: yes. Dignity: left at the door. TOTAL: 1 nap. A red stamp reads NO REGRETS.",
+ "tipo_imagen": "F9 Recibo · fiestas · jue 26-nov",
+ "aspecto": "4x5",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "AB aspecto: 4x5, par de family-dinner-receipt; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-03",
+ "ab": {
+  "prueba": "aspecto",
+  "brazo": "4x5",
+  "par": "family-dinner-receipt",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T21:35:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-03T21:35:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-03T21:35:00Z"
+  }
+ ],
+ "blanco": "familia (arquetipo: el plato que promete moderación)",
+ "mecanica_crecimiento": "enviar · destinatario: the friend who says “just a taste”",
+ "destinatario": "the friend who says “just a taste”",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "fixed in the 3rd pass: rows measure about 50 px, title on one line; alt mentions NO REGRETS"
+  },
+  {
+   "que": "Builder fix after judge 2nd pass",
+   "estado": "OK",
+   "nota": "6-nov, builder: filas a 50 px sin partir líneas, Cella visible, alt con NO REGRETS. The 'Judge 2nd pass (D-294)' revision above is the judge's and is unchanged; it stays as the judge left it until the judge re-reads the piece."
+  },
+  {
+   "que": "Judge 3rd pass (D-294)",
+   "estado": "OK",
+   "nota": "rows measure about 50 px, title on one line; alt mentions NO REGRETS"
+  }
+ ]
+}

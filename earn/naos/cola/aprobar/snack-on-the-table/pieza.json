@@ -1,0 +1,53 @@
+{
+ "slug": "snack-on-the-table",
+ "titulo": "Me setting out a snack for the table",
+ "clave": "2026-12-05|snack-on-the-table",
+ "caption": "Me setting out a snack for the table\n\nPeople eat what is within reach. A snack already on the table gets eaten far more than the one still in the cupboard.\n\nFor the friend who puts a plate on the table before anyone arrives.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "People eat what is within reach. A snack already on the table gets eaten far more than the one still in the cupboard.\n\nFor the friend who puts a plate on the table before anyone arrives.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. A small ink-black block figure with white eyes on the left and a royal blue one on the right looking down. A plate with a snack appears. The black one narrows its eyes as if working, says here. and the plate slides across the table to the blue one. The blue one looks up with wide eyes, then happy ones with a pulse, and a bubble says oh, thank you! The text stays: me setting out a snack for the table. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "snack-on-the-table",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hospitalidad (dejar el plato servido en la mesa)",
+ "blanco": "Cella y quien se sirve",
+ "destinatario": "the friend who puts a plate on the table before anyone arrives",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-05T15:30:00Z",
+ "pie": "More of this: link in bio."
+}

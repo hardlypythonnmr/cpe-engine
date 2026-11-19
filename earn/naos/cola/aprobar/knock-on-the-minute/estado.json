@@ -1,0 +1,26 @@
+{
+ "slug": "knock-on-the-minute",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-12T14:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4d38ab0c3cf695a8ba5c5b98c0eb8d8f3ca827b6e51de6caf9c86bc164435120",
+ "hashes": {
+  "short": "11481996191711abb557964d8a239a0d23c77cf93443885d58e868c92472c5fe",
+  "reel": "b1cb560b2bc59b28ad82a124f070534728527806a02caf28199d22ec063edc12"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886915428,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

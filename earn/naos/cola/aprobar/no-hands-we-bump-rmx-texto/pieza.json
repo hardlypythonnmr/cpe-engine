@@ -1,0 +1,70 @@
+{
+ "slug": "no-hands-we-bump-rmx-texto",
+ "titulo": "No hands. We bump.",
+ "clave": "2026-11-26|no-hands-we-bump-rmx-texto",
+ "sale_utc": "2026-11-26T20:50:00Z",
+ "caption": "No hands. We bump.\n\nNo hands. We bump.\n\nFor whoever you say hello to with your whole body.\n\n#CuteAnimation #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "No hands. We bump.\n\nFor whoever you say hello to with your whole body.\n\n#CuteAnimation #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A pink room. Two small block figures, one in ink and one in cobalt blue, look down at their own sides where hands would be, then at each other. They walk together and bump bodies softly, eyes happy, then bump again and go back to their places. The words For whoever you say hello to with your whole body stay on screen.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "no-hands-we-bump",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Remix",
+   "estado": "OK",
+   "nota": "D-531: same sound as no-hands-we-bump (no new ElevenLabs call); test axis texto, arm D (A = the original); changes: on-screen words: the approved caption line For whoever you say hello to with your whole body. in place of No hands. We bump."
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -6.4 dBFS, the original's mix untouched (only cut, reordered or faded)"
+  },
+  {
+   "que": "Repeat risk",
+   "estado": "AVISO",
+   "nota": "dHash best match 7.9 of 64 bits (threshold 14), colour change 6.1: casi igual (motor/remezcla/RIESGO.md)"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "remezcla": {
+  "origen": "no-hands-we-bump",
+  "eje": "texto",
+  "brazo": "D",
+  "control": "A = no-hands-we-bump",
+  "experimento": "rmx-2026-11-19",
+  "cambios": [
+   "on-screen words: the approved caption line For whoever you say hello to with your whole body. in place of No hands. We bump."
+  ],
+  "huella": {
+   "dhash_media": 7.9,
+   "dhash_min": 7,
+   "umbral": 14,
+   "cambio_color": 6.1,
+   "distinta": false,
+   "lectura": "casi igual"
+  },
+  "elevenlabs_llamadas": 0,
+  "decision": "D-531"
+ }
+}

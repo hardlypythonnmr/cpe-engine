@@ -1,0 +1,27 @@
+{
+ "nombre": "relleno-1411",
+ "issue": 77,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "hold-a-seat",
+  "walked-over",
+  "crooked-frame",
+  "read-the-sign",
+  "take-a-turn-at-the-pot"
+ ],
+ "comentario_vista_previa_id": 6886937774,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T05:03:28Z",
+ "aviso_utc": "2026-11-15T00:55:40Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "aprobadas": [
+  "crooked-frame",
+  "hold-a-seat",
+  "read-the-sign",
+  "take-a-turn-at-the-pot",
+  "walked-over"
+ ],
+ "issue_n_system": 1286
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "wrong-room-rmx-estilo",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T20:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f6c7249da626b7a03a3c9370bacaca7b61330af2cfc01ac6e858c2e632730c3f",
+ "hashes": {
+  "short": "27e6904feefc3a426390e143a1dcdc33eb1c10d631efb2506ef2d99e36160ff7",
+  "reel": "25dfabc724f838e09ea12364b96e82b0c51c3178fcebbdd64cca05787beeae77"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956594362,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

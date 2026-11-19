@@ -1,0 +1,22 @@
+{
+ "slug": "cella-rates-the-holiday-weekend",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "aa08660b7e737f8c87a21f0a145b5d6703ae3494fc75baae5663086647b6dc83",
+ "hashes": {
+  "carrusel": "37e7ded9a93c3ede2f8ae84fcd5cebf13e43b635727b4aeb872f23a6bc6d823a"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6681466247,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

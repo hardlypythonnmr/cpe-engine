@@ -1,0 +1,24 @@
+{
+ "slug": "sky-cried-in-public",
+ "issue": 7,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T03:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9508db7f966a235615436ce14119780ac19b66543d2e328c863da67955dfc885",
+ "hashes": {
+  "reel": "d24ae1857acd778234d61c8f08f5673c4f249d06e913318f3f66c7aa76e919ad"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886293829,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 963
+}

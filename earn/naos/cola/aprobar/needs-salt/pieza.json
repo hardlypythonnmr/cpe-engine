@@ -1,0 +1,49 @@
+{
+ "slug": "needs-salt",
+ "titulo": "Me tasting the soup for the fourth time",
+ "caption": "Me tasting the soup for the fourth time\n\nMe tasting the soup for the fourth time.\n\nSalt goes in easily and never comes out. Add a little, taste, then decide.\n\nSend it to the friend who keeps tasting until it is perfect.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me tasting the soup for the fourth time.\n\nSalt goes in easily and never comes out. Add a little, taste, then decide.\n\nSend it to the friend who keeps tasting until it is perfect.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A steaming pot sits on the right. A small ink-black block figure with white eyes walks to the pot in the first second, leans in to taste with a small pulse, and a speech bubble says more salt. It walks back, comes again, tastes, and the bubble says a bit more. The third time it tastes, its eyes turn happy and the bubble says perfect. Then it narrows its eyes at the camera. The text stays: me tasting the soup for the fourth time.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "needs-salt",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.60 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.3 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cocina (probar hasta que quede bien)",
+ "blanco": "Cella (y quien prueba la sopa una vez más)",
+ "destinatario": "the friend who keeps tasting until it is perfect",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "gancho": "accion-en-1s",
+ "sale_utc": "2026-11-28T17:00:00Z",
+ "clave": "2026-11-28|needs-salt"
+}

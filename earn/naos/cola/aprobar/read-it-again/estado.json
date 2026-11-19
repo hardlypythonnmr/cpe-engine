@@ -1,0 +1,26 @@
+{
+ "slug": "read-it-again",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8aaa8c1153b22e9f2b2a6d13af1e7d848ee2e50a7f3e19bcff886ed542091aee",
+ "hashes": {
+  "short": "bc38f056dbf267538a261e221284c3ff666834381ac526b6677b5115c54e7d10",
+  "reel": "aeddad49e1d4d559ee2a756923650fb3fb7446185aaf88ad29a78866f5646bab"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886826414,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:36Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

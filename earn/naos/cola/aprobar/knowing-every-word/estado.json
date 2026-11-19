@@ -1,0 +1,25 @@
+{
+ "slug": "knowing-every-word",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "97fbd9428a9ea0eb3803a2b2cc03bcd2d02f2194ef8e1e370ef62b2be4f687b3",
+ "hashes": {
+  "short": "221a3ae2cac04b343fc486a62b7ca3ef1b1584f3cba9f1f3e7756a93eb9cd079",
+  "reel": "e57fefdc78d4fa6bef0801ef3c4cc8891a6494a06bf0b4275b5e983437c33e89"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863846023,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

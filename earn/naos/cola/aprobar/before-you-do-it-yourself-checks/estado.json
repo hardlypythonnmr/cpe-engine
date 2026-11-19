@@ -1,0 +1,24 @@
+{
+ "slug": "before-you-do-it-yourself-checks",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T12:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2c11512b7965cf1c098336c7dc087e52b8a5e98201dbb5ed64964ca41c86bd3f",
+ "hashes": {
+  "carrusel": "c529bc4e762f96adbec561162ff9de26392c12f04e1f6b89ddce65f94c6b8ebc"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6887874143,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "huecos-17nov",
+ "caducado_utc": "2026-11-15T02:21:16Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "issue_n_system": 1034
+}

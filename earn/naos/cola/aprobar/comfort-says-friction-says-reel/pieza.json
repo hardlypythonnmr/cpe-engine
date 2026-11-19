@@ -1,0 +1,45 @@
+{
+ "slug": "comfort-says-friction-says-reel",
+ "titulo": "Comfort says one thing. Friction says another. Five December moments.",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "seccion": "humanity",
+ "filo": "V",
+ "blanco": "la salida fácil de cada día de diciembre",
+ "destinatario": "whoever picks comfort in December",
+ "mecanica_crecimiento": "enviar · destinatario: whoever picks comfort in December",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada, hoja de contacto leída a 390 px de ancho (Opus 11, 13-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "arquetipos, sin persona real ni marca ni grupo protegido; sin tema SENSIBLE (D-466); sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas; sin hashtags (D-376); el lema solo al cierre (D-409)"
+  }
+ ],
+ "caption": "Comfort says one thing. Friction says another. Five December moments.\nChoose friction.\nLink in bio.\nby NMR",
+ "canales": [
+  "reel"
+ ],
+ "formato": "reel",
+ "variante": "fijo-reel",
+ "experimento": "fijo-reel-1511",
+ "madre": "comfort-says-friction-says",
+ "laminas_madre": 7,
+ "duracion_s": 12.1,
+ "musica": "midi:mesa:calma",
+ "alt": "1: Cella with a crown under a spotlight. 5 pairs. Comfort says. Friction says. Five December moments, two answers each. 2: split in two colors: comfort says on top, friction says below. Comfort says: “A group text to everyone.” Friction says: One real line to one person. 3: split in two colors: comfort says on top, friction says below. Comfort says: “A gift card is fine.” Friction says: Remember one thing they said in March. 4: split in two colors: comfort says on top, friction says below. Comfort says: “I will go along with the plan.” Friction says: Say the one thing you would change. 5: split in two colors: comfort says on top, friction says below. Comfort says: “I will cancel at 6 p.m.” Friction says: Decide by Wednesday, not Saturday. 6: split in two colors: comfort says on top, friction says below. Comfort says: “Thanks, I owe you.” Friction says: Name what they did, out loud. 7: the five answers as a list. The cheat sheet. Friction says: For whoever picks comfort in December. Choose friction. 1. One real line 2. One thing they said 3. One thing to change 4. Decide by Wednesday 5. Name what they did.",
+ "tipo_madre": "F11 Reseñas · comodidad contra fricción · evergreen",
+ "sale_utc": "2026-12-23T19:45:00Z",
+ "clave": "2026-12-23|comfort-says-friction-says-reel",
+ "titulo_madre": "Comfort says, friction says"
+}

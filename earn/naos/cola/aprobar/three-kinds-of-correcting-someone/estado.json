@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-correcting-someone",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-22T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "671e78eb6ff33a20c731b33fc68343e70ebe5befc98e98dfbeb8ac1d851067fe",
+ "hashes": {
+  "short": "a526649695c48792ca532891227eb96c29297c257b63f6a199def8720c1df603",
+  "reel": "b7ccccd7f2461c38bdc531be268c2fd15154cd7f4d3f5105872b261f00f5e26e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886951883,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

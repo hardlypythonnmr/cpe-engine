@@ -1,0 +1,52 @@
+{
+ "slug": "show-everyone-finished-late-or-vintage",
+ "titulo": "Starting the show everyone finished two years ago: late or vintage? Cella answers",
+ "clave": "2026-11-30|show-everyone-finished-late-or-vintage",
+ "sale_utc": "2026-11-30T04:26:00Z",
+ "estado": "por-aprobar",
+ "caption": "Starting the show everyone finished two years ago: late or vintage? Cella answers.\nShe says vintage. She is on season one.\nby NMR\n#bingewatching #relatable #cella",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A vertical video in flat colors, no voice, with soft music. The title reads: Starting the show everyone finished two years ago is. The screen splits top and bottom: LATE in pink with a clock, VINTAGE in amber with an old television marked S1. A small round figure with white eyes jumps from the top to the bottom and a red crown drops on its head. Then the words are written: Cella says vintage. She is on season one.",
+ "formato": "F4 Elige · Reel",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-huecos (huecos del 17-nov (decisión de N, 12-nov-2026))",
+ "hueco": "dom 29-nov",
+ "filo": "P",
+ "tema": "entretenimiento (arquetipo: el que empieza la serie que todos ya terminaron)",
+ "destinatario": "the friend who is just starting that show",
+ "mecanica_crecimiento": "enviar · destinatario: the friend who is just starting that show",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-huecos/hojas/ and juez.md"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-359: archetypes only, no real person or protected group, no health, grief, loneliness or body; Cella without hands and never next to a black object"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words; 50 words or fewer; 3 hashtags; no comment bait"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice; own music (motor/musica/pulso.py) and own foley (numpy), 0 credits"
+  }
+ ]
+}

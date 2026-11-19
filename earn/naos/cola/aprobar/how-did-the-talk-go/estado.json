@@ -1,0 +1,26 @@
+{
+ "slug": "how-did-the-talk-go",
+ "issue": 101,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-20T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6319b7fb577c4d5c3ea38561390f0b2e293d47efa97d19eb1f823860ed3419c9",
+ "hashes": {
+  "short": "51d2c8dc73d4cd9f160afcfb5f1a9a017c9a8b8cd96c64a6a606eb37d57ea1ce",
+  "reel": "c1dbdc8ebb034182ac3ee103df1fe7b4b716c24402ac3cffee204209cc7c1594"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893998999,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enef-1821",
+ "caducado_utc": "2026-11-15T12:01:10Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1413
+}

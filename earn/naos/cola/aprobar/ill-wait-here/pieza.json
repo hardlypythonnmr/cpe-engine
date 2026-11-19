@@ -1,0 +1,55 @@
+{
+ "slug": "ill-wait-here",
+ "titulo": "I'll wait here",
+ "clave": "2026-12-12|ill-wait-here",
+ "caption": "I'll wait here\n\nI'll wait here.\n\nMost people assume the one who waits is more annoyed than they are, so a spoken no rush helps.\n\nFor whoever waits outside while someone runs in.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "I'll wait here.\n\nMost people assume the one who waits is more annoyed than they are, so a spoken no rush helps.\n\nFor whoever waits outside while someone runs in.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right . Two small block figures with white eyes, an ink-black one on the left and a royal blue one next to it. The black one says I'll wait here and the blue one says two minutes! and walks through the door, which opens and closes. The black one waits with narrowed eyes and a small shiver for a few seconds. The door opens, the blue one returns and says sorry! and the black one answers no rush with happy eyes and a pulse. Both end exactly where they started, so the loop is seamless. The text stays: me waiting while they run in for one thing.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "ill-wait-here",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "esperar afuera mientras el otro entra a un mandado",
+ "blanco": "Cella (y quien espera afuera con frio)",
+ "destinatario": "whoever waits outside while someone runs in",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "bucle": "empalme",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-12T13:00:00Z"
+}

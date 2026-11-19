@@ -1,0 +1,22 @@
+{
+ "slug": "become-a-person-later",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c22a4498f61e39849ae8bb6ae80b3d223c1cec03e90ab46f026abbb24de37f6a",
+ "hashes": {
+  "historia": "cd7bf59de581a094b3320f9c61ddbd8ed98f349f06b17532b2f2dffbc83af173"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681458583,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

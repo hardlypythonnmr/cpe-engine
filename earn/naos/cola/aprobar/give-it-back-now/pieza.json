@@ -1,0 +1,55 @@
+{
+ "slug": "give-it-back-now",
+ "titulo": "The book back before the week is out",
+ "clave": "2027-01-25|give-it-back-now",
+ "sale_utc": "2027-01-25T22:00:00Z",
+ "caption": "The book back before the week is out\n\n\"No rush. Keep it.\" \"Here. It's yours.\" The book was back on its side of the table before the week was out.\n\nNobody asks for a borrowed book back, and returning it before they have to is the favor.\n\nFor whoever gives back what they borrowed before anyone asks.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Nobody asks for a borrowed book back, and returning it before they have to is the favor.\n\nFor whoever gives back what they borrowed before anyone asks.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a tall blue book standing at the right. A royal blue block figure with narrowed eyes says no rush, keep it. A ink-black block figure with white eyes answers here, it's yours, and the book hops across the table and lands next to the blue one with a small sparkle. The blue one's eyes go wide and says ...thank you. Both end with happy eyes. The text stays: me giving it back now.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "give-it-back-now",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "devolver lo prestado ahora, sin esperar a que lo pidan",
+ "blanco": "Cella y quien se queda con lo prestado porque nadie lo reclama",
+ "destinatario": "gives back what they borrowed before anyone asks",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

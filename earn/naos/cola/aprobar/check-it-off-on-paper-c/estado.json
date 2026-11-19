@@ -1,0 +1,25 @@
+{
+ "slug": "check-it-off-on-paper-c",
+ "issue": 74,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-17T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8616d6fc492076bdbb9c2c727eecc03e3296dab5f30a85b493a7da15240b0b3b",
+ "hashes": {
+  "short": "645e8ae2ce5e8c50171640678f2549c09d2332034bafa3cd908d502a82cb5d65",
+  "reel": "01ddeeabecf001aaf8981590098dfe97e4383ce35d3071419ff5fe7337aadc43"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6871177404,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "duracion-1411",
+ "aprobado_evento_utc": "2026-11-15T00:04:21Z",
+ "issue_n_system": 1259
+}

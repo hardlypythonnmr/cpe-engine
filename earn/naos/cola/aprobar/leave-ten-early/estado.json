@@ -1,0 +1,26 @@
+{
+ "slug": "leave-ten-early",
+ "issue": 86,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a801ca301c55199f2eea17fb4ed9d91a934f4965828945afdf6a32cfdbb650f1",
+ "hashes": {
+  "short": "260b78620a675af7cb58e4ad37f1046d0b714fe0280f467b0672d0b2008cd4f9",
+  "reel": "09b7f8ca887d0537b552be749bb32bf4c0a62420d02abce49db5ad58a55b6551"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886835178,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-k-1013",
+ "caducado_utc": "2026-11-15T00:47:23Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1351
+}

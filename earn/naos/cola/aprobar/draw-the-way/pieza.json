@@ -1,0 +1,55 @@
+{
+ "slug": "draw-the-way",
+ "titulo": "Drawing the way to her place",
+ "clave": "2027-01-23|draw-the-way",
+ "sale_utc": "2027-01-23T14:10:00Z",
+ "caption": "Drawing the way to her place\n\nA small house, four dots and a star. The way to her place took less time to draw than to describe.\n\nA drawing of the route beats three sentences of left, right and the one with the tree.\n\nFor whoever draws the way instead of describing it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A drawing of the route beats three sentences of left, right and the one with the tree.\n\nFor whoever draws the way instead of describing it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a blank sheet of paper with a small orange square house at its bottom left. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and four grey dots appear one after another up the page, a trail leading away from the house, and a gold star lights at the end of the trail. Its eyes turn happy with a pulse. The text stays: me drawing the way, not describing it.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "draw-the-way",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dibujar el camino en un papel en vez de explicarlo con palabras",
+ "blanco": "Cella y quien da indicaciones largas que nadie retiene",
+ "destinatario": "draws the way instead of describing it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

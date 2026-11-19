@@ -1,0 +1,25 @@
+{
+ "slug": "tea-needs-three-minutes",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T16:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "efe87a9510d2c3b8841c10e8a552d6d01759b952c73e14cd9e6be3b89e191969",
+ "hashes": {
+  "short": "60321bfc9ba34f843796143f3d72d3f8d7947e0e5cdccae799dabe2b58a2dd39",
+  "reel": "47d8cdb1ae6efea0f6cadcacee40757983afe9f34b2494607af8e280c9b6336d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870901553,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

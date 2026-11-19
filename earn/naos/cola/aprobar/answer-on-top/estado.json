@@ -1,0 +1,26 @@
+{
+ "slug": "answer-on-top",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-09T21:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3fca24657b5aafee2ef91a9ec1beebf56513272ed36f0f1eb6854a15baa61654",
+ "hashes": {
+  "short": "cac669bf240316c045dc6d9f25d12c4aeeb992c1def2043cc3242fac7800306c",
+  "reel": "ac283c7b254a2135fc6a68ddd4bd582e41d9b3e6964385bbfe9d893fcad7a0a4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886911983,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

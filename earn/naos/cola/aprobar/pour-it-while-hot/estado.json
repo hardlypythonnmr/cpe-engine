@@ -1,0 +1,26 @@
+{
+ "slug": "pour-it-while-hot",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-17T21:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a4e7f762d6fddddc79bda55db45442dbe1fb198c7ebce8d729a43d87403e07ce",
+ "hashes": {
+  "short": "acdd92c45f8ae778aaf22d212ff9bb0b8370da9784425a8b2eef661b04a786de",
+  "reel": "f75830cce508ab68df5c638bd99b664a7ffafc0104b10d64f644b20c2f764981"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886926135,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

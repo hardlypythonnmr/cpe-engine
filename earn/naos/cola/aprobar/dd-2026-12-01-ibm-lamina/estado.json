@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-01-ibm-lamina",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T20:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "000c9c1edec864acee8587cad475b4676f9be46ed1593fa5ae49d7d5da46fb5a",
+ "hashes": {
+  "imagen": "8e16003ef728b89337f27aee9cf505b38f38beacb458600332dd3ad1f63e09d7"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6890738719,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

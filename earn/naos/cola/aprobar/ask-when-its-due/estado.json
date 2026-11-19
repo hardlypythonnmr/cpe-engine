@@ -1,0 +1,26 @@
+{
+ "slug": "ask-when-its-due",
+ "issue": 94,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-08T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0009ab5dd3139f0a9cbdacea40c95286d690bd965662e1125bb25c0250ef09b3",
+ "hashes": {
+  "short": "0be6867796723d3148e1b8279d0ad2ddada8c3fc46133127aa7a8a19202aa4c4",
+  "reel": "976fb66e3826fd376fdc831713be3e78b4f166623686b325f1798fb9122a3471"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886905363,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0508",
+ "caducado_utc": "2026-11-15T00:52:51Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1371
+}

@@ -1,0 +1,400 @@
+{
+ "id": "dtt-where-i-put-your-thing",
+ "canal": "naos",
+ "tipo": "V7",
+ "cuarto": "mesa",
+ "control": true,
+ "carpeta": "cola/aprobar/dtt-where-i-put-your-thing",
+ "sale_utc": "2027-01-18T17:00:00Z",
+ "material": {
+  "gancho": null,
+  "guion": [],
+  "formato": null,
+  "referencia": null,
+  "titulo": "Moved her book? Say exactly where you put it",
+  "caption": "Moved her book? Say exactly where you put it\n\nMaya's book was on the table. Cella moves it to shelf two and leaves a note: shelf two, left side.\n\nFor whoever says where they put it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething",
+  "alt": "A short film with a voice on a flat color background in a dining room. At the top, the words: Maya's book moved. Shelf 2, left. A small doorway-shaped figure with white eyes stands to the left of a table with a red book on it, and a second small figure of another color stands to the right under a wall shelf with two boards numbered 1 and 2 and a few books. The words appear one line at a time: Maya's book, on the table. I move it to shelf 2 (the book arcs up and settles at the left end of the lower board). I write down where (a note appears on the table that says shelf 2, left side). Now she knows (the second figure looks at the note, its eyes go wide and then close in a smile, a star appears). The closing line: for whoever says where they put it. Then: Choose friction.",
+  "canales": [
+   "short",
+   "reel"
+  ],
+  "texto_en_pantalla": null,
+  "primera_voz_s": 0.0,
+  "apertura_contacto": {
+   "fuente": "contacto.png (24 cuadros, tiempos aproximados)",
+   "dur": 3.0,
+   "t_primer_texto": null,
+   "palabras_primer_texto": 0,
+   "tinta_cuadro0": 0.122,
+   "cambio_0_15": 0.177,
+   "cambio_15_30": 0.228
+  },
+  "tira_apertura": null,
+  "dur": 19.457,
+  "racha_quieta_mayor": null,
+  "render_seg": null
+ },
+ "instrucciones": "Contesta cada pregunta con si o no y una evidencia de una linea (un enlace, una cifra o lo que se ve en la tira). Si no hay evidencia, la respuesta es no. Mira la tira de apertura antes de contestar V5, E1 y E2. Escribe tambien 'comparte': por que alguien la compartiria, en una linea con evidencia.",
+ "preguntas": [
+  {
+   "id": "V1",
+   "eje": "viralidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "Alguien puede nombrar a una persona concreta a quien enviarle esta pieza ('esto es para mi hermana', 'mi jefe', 'mi grupo')?"
+  },
+  {
+   "id": "V2",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "El primer giro de la pieza provoca una emocion de alta activacion (asombro, indignacion, ansiedad moderada, risa) y no tristeza o calma?"
+  },
+  {
+   "id": "V3",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "Hay una cifra, dato o giro sorprendente que se pueda repetir en una frase sin ver el video?"
+  },
+  {
+   "id": "V4",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "La historia mueve a la gente: es un atipico (el dato que no deberia estar ahi), una innovacion, algo de gran escala o grandeza, lo saturado o lo vacio, o tiene algo en juego (politica, plata, poder)? Lo obvio ('Diwali se mira en Diwali') puntua cero."
+  },
+  {
+   "id": "V5",
+   "eje": "viralidad",
+   "puntos": 1,
+   "tipo": "juicio",
+   "pregunta": "Se entiende con el sonido apagado y sin conocer el canal (texto o imagen cuentan la promesa)?"
+  },
+  {
+   "id": "E1",
+   "eje": "engagement",
+   "puntos": 3,
+   "tipo": "juicio",
+   "pregunta": "Entre 0 y 1,5 s pasa algo en pantalla (movimiento, cifra, rostro o figura, promesa escrita) y la primera palabra hablada llega antes de 1 s?"
+  },
+  {
+   "id": "E2",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "La promesa del gancho se cumple antes del final y el cierre da una razon para llegar hasta el ultimo segundo (giro, respuesta retenida, cifra al final)?"
+  },
+  {
+   "id": "E3",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El final enlaza con el inicio o invita a repetir (bucle) sin trampa?"
+  },
+  {
+   "id": "E4",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "Hay una postura, pregunta o dato discutible que invite a responder en comentarios?"
+  },
+  {
+   "id": "E5",
+   "eje": "engagement",
+   "puntos": 1,
+   "tipo": "juicio",
+   "pregunta": "El titulo y el gancho prometen solo lo que la pieza cumple, y la ultima oracion no es un aviso legal o formal (el aviso va dentro de una frase antes del climax y lo formal en la descripcion)?"
+  },
+  {
+   "id": "A1",
+   "eje": "alcance",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "Existe un precedente comparable (misma estructura, canal de tamano parecido) con al menos 3 veces la mediana de su canal, con numeros y enlace?"
+  },
+  {
+   "id": "A2",
+   "eje": "alcance",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "La pieza es un episodio de un formato con nombre y estructura reconocible, y tiene su propia historia (no una plantilla con otro dato)?"
+  },
+  {
+   "id": "A3",
+   "eje": "alcance",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El tema tiene demanda hoy en ingles (tendencia, busqueda o noticia con fecha del dia anotada) y la audiencia probable esta en paises de nivel alto (EE. UU., Reino Unido, Canada, Australia, Alemania)?"
+  },
+  {
+   "id": "A4",
+   "eje": "alcance",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "La pieza es original y nativa (hecha por nosotros, vertical, sin recorte de otro, con la etiqueta de IA si la plataforma la pide)?"
+  },
+  {
+   "id": "R1",
+   "eje": "rentabilidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "El costo de la pieza (USD-eq de Claude + creditos de voz + render) esta estimado con las cifras medidas y cabe en su tope por pieza?"
+  },
+  {
+   "id": "R2",
+   "eje": "rentabilidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "El canal tiene una ruta creible al umbral de pago de Shorts (10 M de vistas comprometidas en 90 dias) o un ingreso alterno con cifra (producto, afiliado, enlace)?"
+  },
+  {
+   "id": "R3",
+   "eje": "rentabilidad",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El tema cae en un rubro con RPM de Shorts medio o alto (finanzas, tecnologia e IA, salud) o con anunciantes que no limitan los anuncios (sin tragedia, sin politica caliente)?"
+  },
+  {
+   "id": "R4",
+   "eje": "rentabilidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "La serie cumple la politica de YouTube sobre contenido inautentico y sobre divulgacion de voz o imagen sintetica realista (sin personas reales, con casilla marcada si aplica)?"
+  }
+ ],
+ "piso": [
+  {
+   "id": "P1",
+   "regla": "Profundidad: debajo de la pieza hay algo cierto (conducta, mecanismo o dato con fuente) y la claridad manda sobre el filo."
+  },
+  {
+   "id": "P2",
+   "regla": "Respeto: toda tradicion se cuenta con su procedencia (de donde viene y quien lo dice); mantras oidos por N y cotejados por el juez de respeto."
+  },
+  {
+   "id": "P3",
+   "regla": "Linea de ayuda: toda pieza nueva sobre duelo, perdida, crisis o soledad dolorosa lleva linea de ayuda en caption o descripcion; lo programado sin ella es excepcion registrada."
+  },
+  {
+   "id": "P4",
+   "regla": "Protocolos de frio, calor, ayuno, carga y respiracion: completos, con fuentes verificables y sin prometer salud; la nota del lente de cumplimiento va en la tanda."
+  },
+  {
+   "id": "P5",
+   "regla": "Lo que rompe cualquier punto del piso no sale aunque puntue 10 en todos los ejes."
+  }
+ ],
+ "compuertas": [
+  {
+   "id": "C1",
+   "regla": "Contenido inautentico: cada pieza tiene su propia historia, enfoque o concepto; intros y outros compartidos solo si el grueso difiere. Sin 'mismo caso, mismo desenlace', sin texto desplazandose sin narrativa."
+  },
+  {
+   "id": "C2",
+   "regla": "Divulgacion de contenido alterado o sintetico: obligatoria si el contenido es realista (una persona real que parezca decir o hacer algo que no hizo, sucesos o lugares reales alterados, musica generada como foco). No obliga para contenido no realista (animacion), ni para guion, titulo o ayudas de produccion. Una voz de narrador sintetico que no imita a nadie queda fuera de la lista explicita, pero la lista 'no es exhaustiva': confirmar el caso de Mercury."
+  },
+  {
+   "id": "C3",
+   "regla": "Mercury: nunca salen solos resultados electorales, muertes y desastres, voces de personas reales, consejo medico, legal o financiero ni fuentes sin abrir; el borde rentable va en tema y tono, nunca en evadir detecciones."
+  }
+ ],
+ "datos": {
+  "tipo": "V7",
+  "cuarto": "mesa",
+  "alcance": {
+   "tipo": "V7",
+   "cuarto": "mesa",
+   "canal": "naos",
+   "plataformas": {
+    "IG": {
+     "v48": {
+      "nivel": "tipo y cuarto",
+      "n": 5,
+      "abierto": false,
+      "p25": 177.0,
+      "p50": 188.0,
+      "p75": 418.0,
+      "min": 156.0,
+      "max": 1357.0
+     },
+     "v7": {
+      "nivel": "tipo",
+      "n": 14,
+      "abierto": false,
+      "p25": 159.0,
+      "p50": 183.0,
+      "p75": 529.8,
+      "min": 122.0,
+      "max": 1586.0
+     }
+    },
+    "YT": {
+     "v48": {
+      "nivel": "tipo y cuarto",
+      "n": 5,
+      "abierto": false,
+      "p25": 30.0,
+      "p50": 64.0,
+      "p75": 127.0,
+      "min": 15.0,
+      "max": 1014.0
+     },
+     "v7": {
+      "nivel": "tipo y cuarto",
+      "n": 5,
+      "abierto": false,
+      "p25": 27.0,
+      "p50": 62.0,
+      "p75": 135.0,
+      "min": 14.0,
+      "max": 1020.0
+     }
+    }
+   },
+   "regla": "mediana y cuartiles del mismo tipo y cuarto; con menos de 5 comparables el rango se abre con la plataforma",
+   "nota_7d": "a 7 dias = corte entre 144 y 230 h; si la pieza ya era mas vieja al primer corte, ese corte (curvas planas); vistas = vistas del API, o alcance si faltan"
+  },
+  "retencion_3s": {
+   "IG": {
+    "plataforma": "IG",
+    "retencion_pct": {
+     "n": 0,
+     "aviso": "Instagram no guarda el Skip Rate en metricas-piezas.csv; solo tiempo medio (segundos)"
+    },
+    "base": "medicion/metricas-piezas.csv, columna retencion_pct (YouTube: 'siguio viendo' contra 'deslizo'; es la cifra de 3 s del panel)",
+    "tiempo_medio_s": {
+     "nivel": "tipo",
+     "n": 18,
+     "abierto": false,
+     "p25": 7.1,
+     "p50": 8.2,
+     "p75": 10.1,
+     "min": 6.2,
+     "max": 26.1
+    },
+    "juez_del_gancho": "medicion/ganadoras-0a3s.md esta vacia: el juez del gancho aun no tiene tabla propia que lo respalde; su 'pasa' ordena pero no mueve el numero"
+   },
+   "YT": {
+    "plataforma": "YT",
+    "retencion_pct": {
+     "nivel": "tipo",
+     "n": 18,
+     "abierto": false,
+     "p25": 61.2,
+     "p50": 63.5,
+     "p75": 81.1,
+     "min": 0.0,
+     "max": 98.35
+    },
+    "base": "medicion/metricas-piezas.csv, columna retencion_pct (YouTube: 'siguio viendo' contra 'deslizo'; es la cifra de 3 s del panel)",
+    "juez_del_gancho": "medicion/ganadoras-0a3s.md esta vacia: el juez del gancho aun no tiene tabla propia que lo respalde; su 'pasa' ordena pero no mueve el numero"
+   }
+  },
+  "costo": {
+   "tipo": "V7",
+   "canal": "naos",
+   "claude_usd_eq": {
+    "central": 25.5,
+    "min": 7.0,
+    "max": 25.5,
+    "atribuible_por_tipo": false,
+    "n": 25,
+    "base": "linea base del 21-oct: 25 Shorts (19 borradores y 6 finales), 58 M de tokens, 8,4 agentes; min = meta de D-284 (7)",
+    "fuente": "empresa/infraestructura/2026-10-21-workflows/diseno.md lineas 44 a 63"
+   },
+   "voz": {
+    "creditos": 58,
+    "usd": 0.0106,
+    "base": "51 filas TTS de la bolsa shorts (1.310 anotados a 1 por caracter) = 25,7 por fila x 0,45 = 11,6 reales; unas 5 lineas por pieza (patron de las filas del 3-nov)"
+   },
+   "render": {
+    "minutos": 0.5,
+    "usd_si_fuera_actions": 0.003,
+    "base": "short y casa: sin medir, supuesto 30 s (12 a 60 s por video de 10 s a 1080x1920); mercury 118,5 s medido; largo 25 a 35 min medido"
+   },
+   "efectivo_usd": 0.0106,
+   "efectivo_nota": "dinero que sale de verdad por pieza: voz (el render corre en el contenedor y Claude es suscripcion con tope)",
+   "total_usd_eq": {
+    "central": 25.51,
+    "min": 7.01,
+    "max": 25.51
+   },
+   "tope_usd_eq": 7.0,
+   "cabe_en_el_tope": false,
+   "medido_por_tipo": false
+  },
+  "rentabilidad": {
+   "tipo": "V7",
+   "canal": "naos",
+   "ingreso_directo_hoy_usd": 0.0,
+   "motivo": "el canal no esta en YPP (sin 1.000 suscriptores ni 10 M de vistas de Shorts en 90 dias)",
+   "costo_total_usd_eq": {
+    "central": 25.51,
+    "min": 7.01,
+    "max": 25.51
+   },
+   "costo_efectivo_usd": 0.0106,
+   "rpm_tema": {
+    "rubro": "Mayoria de los temas (mediana)",
+    "lo": 0.02,
+    "hi": 0.2,
+    "confianza": "media: 274 canales, 3.044 canal-mes, 13 rubros, API de YouTube, actualizado 17-sep-2026; no publica noticias, finanzas ni tecnologia",
+    "fuente": "https://air.io/en/air-data-findings/what-is-youtube-shorts-rpm-in-your-niche-in-2026"
+   },
+   "neto_hoy_usd_eq": -25.51,
+   "ingreso_si_ypp_por_pieza_usd": {
+    "rango": [
+     0.0012,
+     0.0124
+    ],
+    "base": "vistas YT a 7 dias (mediana 62.0) por 1.000 x RPM del tema (0.02 a 0.2); estimacion"
+   },
+   "neto_si_ypp_usd_eq": -25.5,
+   "vistas_90d_proyectadas": 12150,
+   "avance_umbral_shorts_pct": 0.121,
+   "ruta_credible": false,
+   "usd_eq_por_mil_vistas_7d": 104.1,
+   "umbrales": {
+    "hoy": "1.000 suscriptores y 4.000 horas publicas de largo en 12 meses, o 1.000 suscriptores y 10 M de vistas de Shorts en 90 dias",
+    "desde_2027_02_01": "entrada: 8.000 horas en 365 dias o 20 M de vistas de Shorts en 90 dias; canales ya dentro cobran la parte de Shorts solo con 10 M de vistas de Shorts en 90 dias (el largo sigue); terminos aceptados en Studio antes del 31-ene-2027",
+    "fuente": "https://support.google.com/youtube/answer/72851"
+   }
+  }
+ },
+ "comparte": {
+  "linea": "",
+  "evidencia": "",
+  "base": {
+   "n": 36,
+   "con_envios": 1,
+   "envios_por_mil_alcance_mediana": 0.0,
+   "envios_por_mil_alcance_media": 0.0,
+   "fuente": "medicion/metricas-piezas.csv (ultimo corte de cada pieza)"
+  }
+ },
+ "respuestas": {
+  "A1": {
+   "si": true,
+   "medido": true,
+   "evidencia": "the-umbrella-waits (IG): 1586 vistas a 7 dias = 8.7 veces la mediana del tipo (183, n=14); medicion/metricas-piezas.csv"
+  },
+  "R1": {
+   "si": false,
+   "medido": true,
+   "evidencia": "Claude 25.5 USD-eq (rango 7.0 a 25.5; promedio, no atribuible por tipo), tope 7.0; voz 58 creditos = 0.0106 USD"
+  },
+  "R2": {
+   "si": false,
+   "medido": true,
+   "evidencia": "vistas proyectadas a 90 dias 12150 = 0.121 % del umbral de 10 M; ingreso alterno con cifra: ninguno"
+  },
+  "R3": {
+   "si": false,
+   "medido": true,
+   "evidencia": "rubro 'Mayoria de los temas (mediana)': RPM 0.02 a 0.2 USD por 1.000 vistas (media: 274 canales, 3.044 canal-mes, 13 ); estimacion de terceros"
+  }
+ },
+ "piso_ok": {},
+ "compuertas_ok": {}
+}

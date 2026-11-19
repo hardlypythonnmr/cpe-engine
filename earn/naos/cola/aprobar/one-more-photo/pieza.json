@@ -1,0 +1,48 @@
+{
+ "slug": "one-more-photo",
+ "titulo": "Me taking just one more photo",
+ "caption": "Me taking just one more photo\n\nMe taking just one more photo.\n\nThe tenth photo is rarely better than the third. Pick one, put the phone away, and enjoy the person you just photographed.\n\nSend it to the friend who says one more and means ten.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me taking just one more photo.\n\nThe tenth photo is rarely better than the third. Pick one, put the phone away, and enjoy the person you just photographed.\n\nSend it to the friend who says one more and means ten.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark room. Two small block figures with white eyes, an amber one on the left and a light blue one on the right, with a small counter between them reading #1. The amber one pulses and a white star flashes between them like a camera flash, and the blue one blinks at every flash. The counter climbs to #2, #3, #4, #5 while the blue one gets sleepier, tilts, and finally falls asleep standing up. The amber one narrows its eyes at the camera. The text stays: me taking just one more photo.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "one-more-photo",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 1.9 LU; own music (motor/sonido midi, room alcoba-noche, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "fotos (una más)",
+ "blanco": "Cella (la fotógrafa) y quien posa",
+ "destinatario": "the friend who says one more and means ten",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "sale_utc": "2026-11-29T01:30:00Z",
+ "clave": "2026-11-28|one-more-photo"
+}

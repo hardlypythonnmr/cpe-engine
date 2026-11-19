@@ -1,0 +1,55 @@
+{
+ "slug": "cushion-for-the-hard-chair",
+ "titulo": "A cushion for the hard chair",
+ "clave": "2026-12-07|cushion-for-the-hard-chair",
+ "sale_utc": "2026-12-07T14:30:00Z",
+ "caption": "A cushion for the hard chair\n\nThe chair is hard and the visit will be long. She slid a cushion onto it, and the guest sat down and sighed.\n\nA cushion takes ten seconds to set out, and the guest sits there for the whole evening.\n\nFor whoever puts a cushion on the hard chair before the guest sits.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A cushion takes ten seconds to set out, and the guest sits there for the whole evening.\n\nFor whoever puts a cushion on the hard chair before the guest sits.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a tall black chair on the right. A ink-black block figure with white eyes walks up from the left, its eyes go wide, it leans, and a coral cushion hops up from the floor and lands on the chair seat. A blue diamond guest leaps over the chair back and settles on the cushion with a little bounce, and a bubble says ah. so soft. The figure's eyes turn happy with a pulse. The text stays: me making the chair kinder.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cushion-for-the-hard-chair",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ponerle un cojin a la silla dura antes de que se siente la visita",
+ "blanco": "Cella y quien deja a la visita en la silla mas dura de la casa",
+ "destinatario": "puts a cushion on the hard chair before the guest sits",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 7 al 10-dic (tanda dicm, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicm"
+}

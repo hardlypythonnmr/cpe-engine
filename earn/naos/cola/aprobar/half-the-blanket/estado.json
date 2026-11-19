@@ -1,0 +1,26 @@
+{
+ "slug": "half-the-blanket",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-15T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4285a7519c12aae525072d46996914fe96531960069bbb686347a219cf23914a",
+ "hashes": {
+  "short": "339731ae5e50bdf41b9e61f383fd4d72d7b2375e591be48aea992be9cd6c92b6",
+  "reel": "4ee1e7d2e2b36655aa4f4fe8b198f405708bab5fec699f87f9120afc78872b30"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886923596,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

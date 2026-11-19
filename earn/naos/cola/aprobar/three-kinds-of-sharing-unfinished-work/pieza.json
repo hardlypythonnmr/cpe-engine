@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-sharing-unfinished-work",
+ "titulo": "Three ways to show rough work",
+ "clave": "2026-12-26|three-kinds-of-sharing-unfinished-work",
+ "sale_utc": "2026-12-26T13:45:00Z",
+ "caption": "Three ways to show rough work\n\nI used to hide my work until it was polished. Then I started showing it rough.\n\nEarly eyes catch problems while they are still cheap to fix, and rough work invites a better kind of comment.\n\nFor whoever shows the work before it is ready.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Early eyes catch problems while they are still cheap to fix, and rough work invites a better kind of comment.\n\nFor whoever shows the work before it is ready.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A blue-gray room with a table and an orange book standing on it, and a blue figure that asks can I see? in each of three labeled scenes. The cover-up: a teal figure trembles and says it's nothing. while the blue one narrows its eyes. The apology: a brown figure looks down and says it's not good. The show: an ink-black figure says here. It's rough., the book opens, and the blue one answers with happy eyes. The text stays: three kinds of sharing unfinished work. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-sharing-unfinished-work",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "mostrar algo a medias",
+ "blanco": "Cella (y quien esconde lo que no está pulido)",
+ "destinatario": "shows the work before it is ready",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the cover-up",
+  "the apology",
+  "the show"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "mark-the-confusing-line",
+ "issue": 92,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-28T19:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6061125c0601d705e5d5152bde7217cc4e98335e7b4ae77c9e421f4ca0424ab0",
+ "hashes": {
+  "short": "ca5cfe97ce9d791b36b8b4c163a6c17f432b81a977f6baf2ae911262791913de",
+  "reel": "47d2c2e1e70b76d3098179b62d5db7e03f6aad947df302a0a4406dc6b5964285"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886882428,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "ened-2631",
+ "caducado_utc": "2026-11-15T00:51:16Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1367
+}

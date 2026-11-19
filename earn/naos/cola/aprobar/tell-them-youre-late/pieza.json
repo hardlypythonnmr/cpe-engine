@@ -1,0 +1,55 @@
+{
+ "slug": "tell-them-youre-late",
+ "titulo": "Ten minutes late, said in advance",
+ "clave": "2027-02-11|tell-them-youre-late",
+ "sale_utc": "2027-02-11T16:20:00Z",
+ "caption": "Ten minutes late, said in advance\n\nThe clock said one fifty. A small bubble that said ten minutes late hopped across, and the one waiting opened a book.\n\nSaying you'll be late before the time turns their wait into free time, and they pick what to do with it.\n\nFor whoever says they'll be late before the time comes.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Saying you'll be late before the time turns their wait into free time, and they pick what to do with it.\n\nFor whoever says they'll be late before the time comes.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table, a clock sign that says 1:50 in the middle and a closed teal book standing at the right. A ink-black block figure with narrowed white eyes hurries in from the left, its eyes go wide and a bubble that says 10 min late appears, hops across the room and lands above a royal blue block figure waiting at the right. The blue one's eyes go wide, then happy, and the book beside it opens, with a small sparkle. The text stays: me telling them before they wait.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "tell-them-youre-late",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "avisar que se va a llegar tarde antes de que llegue la hora",
+ "blanco": "Cella y quien deja al otro esperando sin saber",
+ "destinatario": "says they'll be late before the time comes",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

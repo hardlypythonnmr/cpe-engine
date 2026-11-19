@@ -1,0 +1,103 @@
+{
+ "slug": "holiday-group-chat-translated",
+ "titulo": "Holiday group chat, translated",
+ "clave": "2026-11-23|holiday-group-chat-translated",
+ "sale_utc": "2026-11-23T15:50:00Z",
+ "caption": "Holiday group chat, translated: four phrases and what they really mean.\nSave it for the next “who’s bringing what?”\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.mp4",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "Video with our own music, 6 seconds, slow push-in on the cover. Cella next to a big phone with a group chat. Save · 4 translations. Holiday group chat, translated. 4 phrases and what they really mean.",
+  "2": "split in two colors: what you say on top, what it means below. What you say: “Who's bringing what?” What it means: Nobody. It's you.",
+  "3": "split in two colors: what you say on top, what it means below. What you say: “I'll be there around 4.” What it means: 6:40. With excuses.",
+  "4": "split in two colors: what you say on top, what it means below. What you say: “Don't bring anything.” What it means: Bring something.",
+  "5": "split in two colors: what you say on top, what it means below. What you say: “We're keeping it small.” What it means: 31 people.",
+  "6": "four phrases as a list. The cheat sheet. The group chat, decoded: Send it to whoever runs the holiday chat. 1. Who's bringing: you 2. Around 4: 6:40 3. Bring nothing: bring something 4. Small: 31 people."
+ },
+ "tipo_carrusel": "F3 Traductor · fiestas · lun 23-nov",
+ "primer_cuadro": {
+  "tipo": "video",
+  "archivo": "1.mp4",
+  "musica": "motor/musica/pulso.py modo ternura, semilla 2301 (código propio, 0 créditos)"
+ },
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "AB carrusel-musica: con-musica, par de family-dinner-questions-translated; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-01",
+ "ab": {
+  "prueba": "carrusel-musica",
+  "brazo": "con-musica",
+  "par": "family-dinner-questions-translated",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-01T15:50:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-01T15:50:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-01T15:50:00Z"
+  }
+ ],
+ "blanco": "amistad y familia (arquetipo: el que organiza la cena en el chat)",
+ "mecanica_crecimiento": "guardar · destinatario: whoever runs the holiday group chat",
+ "destinatario": "whoever runs the holiday group chat",
+ "eco": "D-376 · A/B carrusel con música",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Builder note on Fix count",
+   "estado": "OK",
+   "nota": "6-nov, builder: this piece has no revision in Fix in pieza.json (all OK); the earlier 'Fix' count came from a preview made before the second pass. Judge revisions, if any, are untouched."
+  }
+ ]
+}

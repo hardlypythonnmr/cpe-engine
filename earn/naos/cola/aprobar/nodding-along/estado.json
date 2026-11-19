@@ -1,0 +1,25 @@
+{
+ "slug": "nodding-along",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T01:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7c8cadb8e72dbf957caa1802a21d83247167f9cbb880f151836e63a6bd32570e",
+ "hashes": {
+  "short": "f72e6b484c909a08a42b725cb81b2b7622f4c49d5e5d45d3b6aa88ee3106fdf0",
+  "reel": "0acb58f5f8f6544a8c7477f8acf4cfd817eaa1795c18149bc71f5f1bfe1016fa"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861215005,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

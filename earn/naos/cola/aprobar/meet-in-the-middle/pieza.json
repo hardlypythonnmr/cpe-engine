@@ -1,0 +1,51 @@
+{
+ "slug": "meet-in-the-middle",
+ "titulo": "Walking toward each other until they meet",
+ "clave": "2026-12-08|meet-in-the-middle",
+ "sale_utc": "2026-12-08T20:30:00Z",
+ "caption": "Walking toward each other until they meet\n\nNobody asked whose turn it was to travel. They walked toward each other until they met.\n\nMeeting halfway takes the same effort from both sides, and nobody has to keep count of who came last time.\n\nFor whoever meets them halfway.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Meeting halfway takes the same effort from both sides, and nobody has to keep count of who came last time.\n\nFor whoever meets them halfway.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A stairwell. A ink-black block figure with white eyes on the far left and a navy block figure on the far right walk toward each other at the same pace until they meet in the middle. Both open their eyes wide, pulse, and end with happy eyes.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "meet-in-the-middle",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 2 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -4.0 dBFS, LRA 3.3 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "encontrarse a mitad de camino en vez de que uno solo viaje",
+ "blanco": "Cella y quien siempre hace que el otro venga",
+ "destinatario": "meets them halfway",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "No words",
+ "tanda_origen": "dic-h"
+}

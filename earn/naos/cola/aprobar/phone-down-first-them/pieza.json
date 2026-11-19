@@ -1,0 +1,59 @@
+{
+ "slug": "phone-down-first-them",
+ "titulo": "Phone face down before the food comes",
+ "clave": "2026-12-15|phone-down-first-them",
+ "caption": "Phone face down before the food comes\n\nMy friend puts her phone face down before the food even comes. Then I did it too.\n\nResearch on conversations has found that a phone merely sitting on the table lowered how close people felt to each other.\n\nFor whoever waits for the other phone to go down first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Research on conversations has found that a phone merely sitting on the table lowered how close people felt to each other.\n\nFor whoever waits for the other phone to go down first.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right, each looking down at a phone standing on the table, both buzzing. The blue one looks up, and its phone lies face down with a small pulse. The black one looks over with wide eyes, then lays its own phone face down, and a bubble says me too. Both end with happy eyes and a pulse. The text stays: my friend putting their phone down first. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "phone-down-first-them",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.60 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 2.4 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "quien baja el celular primero en la mesa",
+ "blanco": "Cella (y quien baja el celular antes que nadie)",
+ "destinatario": "waits for the other phone to go down first",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "una-variable-1411",
+ "variante": "una-variable",
+ "par": "phones-down",
+ "lado": "b",
+ "cambia": "la primera en bajar el celular es la otra (B); Cella (A) la sigue",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-15T21:45:00Z",
+ "brazo": "b",
+ "escena": "phones-down"
+}

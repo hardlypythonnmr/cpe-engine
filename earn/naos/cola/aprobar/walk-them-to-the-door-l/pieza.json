@@ -1,0 +1,56 @@
+{
+ "slug": "walk-them-to-the-door-l",
+ "titulo": "Walking them to the door",
+ "clave": "2026-12-15|walk-them-to-the-door-l",
+ "caption": "Walking them to the door\n\nWalking them to the door.\n\nPeople remember how a visit ends more than the middle, so a few extra steps to the door can shape the whole evening.\n\nFor whoever walks the guest all the way out.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Walking them to the door.\n\nPeople remember how a visit ends more than the middle, so a few extra steps to the door can shape the whole evening.\n\nFor whoever walks the guest all the way out.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right. Two small block figures with white eyes, an ink-black one on the left and a royal blue one next to it. The black one says I'll walk you. The blue one says you don't have to, then the black one says I want to, and both walk toward the door together. The door opens, the blue one walks out as the black one says careful out there, and the door closes. The black one is left with happy eyes and a pulse. The text stays: me walking them to the door. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "walk-them-to-the-door-l",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "15.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.2 dBFS, LRA 1.3 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "acompanar al otro hasta la puerta",
+ "blanco": "Cella (y quien lleva a la visita hasta la puerta)",
+ "destinatario": "whoever walks the guest all the way out",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": "duracion-1411",
+ "brazo": "largo",
+ "escena": "walk-them-to-the-door",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante); experimento duracion-1411: cada escena tiene un corte corto (-c) y uno largo (-l), publicar solo uno por escena por ronda"
+ },
+ "sale_utc": "2026-12-15T13:00:00Z"
+}

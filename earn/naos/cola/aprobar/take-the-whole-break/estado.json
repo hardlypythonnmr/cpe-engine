@@ -1,0 +1,26 @@
+{
+ "slug": "take-the-whole-break",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a2553dfa320ddb84212e881cdb5e797c9fb1836dc5b572ccd98aab91bb7738ba",
+ "hashes": {
+  "short": "e074b0156283a3ecf8876dba9781bc3e17db472204bd51062b11b3847d39f6c5",
+  "reel": "78f192add2b9a2497143c2a7d4284d156a2f2ef2bcca02c54189ef7466c11f7a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886816078,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

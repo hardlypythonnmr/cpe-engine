@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-accepting-an-offer",
+ "titulo": "Three ways to take the tea",
+ "clave": "2026-12-23|three-kinds-of-accepting-an-offer",
+ "sale_utc": "2026-12-23T13:45:00Z",
+ "caption": "Three ways to take the tea\n\nI used to wave off every cup of tea I was offered. Then I started saying yes, please.\n\nTurning down a small offer can feel polite, but accepting it gives the other person a chance to be kind.\n\nFor whoever says yes to a small offer.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Turning down a small offer can feel polite, but accepting it gives the other person a chance to be kind.\n\nFor whoever says yes to a small offer.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a green wall and a table, and a blue figure that asks want some tea? in each of three labeled scenes, with an orange mug on the table beside them. The no-thanks: a purple figure says oh no, I'm fine. and the blue one narrows its eyes. The bother: a brown figure trembles and says oh, don't bother. while the blue one looks down. The yes: an ink-black figure tilts its head and says yes, please., steam rises from the mug and both figures have happy eyes. The text stays: three kinds of accepting an offer. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-accepting-an-offer",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "aceptar un ofrecimiento",
+ "blanco": "Cella (y quien rechaza por cortesía)",
+ "destinatario": "says yes to a small offer",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the no-thanks",
+  "the bother",
+  "the yes"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

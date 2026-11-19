@@ -1,0 +1,55 @@
+{
+ "slug": "square-the-pile",
+ "titulo": "One tap each and it's a stack",
+ "clave": "2026-12-03|square-the-pile",
+ "sale_utc": "2026-12-04T00:00:00Z",
+ "caption": "One tap each and it's a stack\n\nThree sheets, three angles. One tap each and it becomes a stack you can pick up in one go.\n\nSquaring the pile takes five seconds, and the next hunt for the one sheet takes much longer.\n\nFor whoever squares the pile of papers before leaving the desk.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Squaring the pile takes five seconds, and the next hunt for the one sheet takes much longer.\n\nFor whoever squares the pile of papers before leaving the desk.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and three sheets of paper lying crooked on the right: cream, light blue and tan. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the three sheets straighten one after another into a neat stack. Its eyes turn happy with a pulse. The text stays: me squaring the pile.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "square-the-pile",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "alinear la pila de papeles antes de irse del escritorio",
+ "blanco": "Cella y quien busca la hoja entre la pila torcida",
+ "destinatario": "squares the pile of papers before leaving the desk",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

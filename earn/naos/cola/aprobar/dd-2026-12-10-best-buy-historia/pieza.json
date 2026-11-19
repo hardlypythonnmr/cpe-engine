@@ -1,0 +1,74 @@
+{
+ "slug": "dd-2026-12-10-best-buy-historia",
+ "titulo": "Best Buy (Apr 2026): $17.3 million CEO total pay, $32,018 median pay. The math.",
+ "clave": "2026-12-10|mercury|historia|2026-12-10-best-buy-historia",
+ "sale_utc": "2026-12-10T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Apr 2026. Not today's news.\nBest Buy, Apr 30, 2026 (Best Buy, proxy statement): \"Support for our employees continues to be a key focus\"\nBest Buy's proxy statement, filed April 30, 2026, reported total compensation of $17,346,126 for its CEO and $32,018 for its median employee for fiscal 2026.\n\nSame proxy: $17.3 million CEO total pay, fiscal 2026. The total compensation of the CEO for fiscal 2026 (the year that ended Jan. 31, 2026), as reported in the proxy; mostly stock awards, not cash.\nThe math: $17.3 million CEO total pay (2026) ÷ $32,018 median pay = about 541 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Best Buy's own figure is about 542 to 1. Most of the CEO's total is stock awards, not cash. Best Buy's fiscal 2026 ended Jan. 31, 2026. We are not saying anyone is paid too much or too little.\n\nSupport for employees, a key focus. Here is the pay ratio. (Our take.)\n\nSources:\n- SEC EDGAR · Best Buy, Apr 30, 2026: «Support for our employees continues to be a key focus.» and «annual total compensation was $17,346,126» and «Our median employee’s annual total compensation for fiscal 2026 was $32,018.» https://www.sec.gov/Archives/edgar/data/764478/000114036126018265/ny20063180x1_def14a.htm",
+ "alt": "Paper-colored card. Best Buy, Apr 30, 2026. A gray typewriter quote, \"Support for our employees continues to be a key focus\", struck through with a dark red marker line. The struck quote is by Best Buy, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $17.3M ÷ $32,018 = about 541, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib5-best-buy-2026-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/764478/000114036126018265/ny20063180x1_def14a.htm",
+   "medio": "SEC EDGAR · Best Buy",
+   "titulo": "Best Buy proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "Best Buy (Apr 2026): CEO pay ratio, 541 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "best-buy-2026-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · APR 2026",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/best-buy-2026-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-best-buy-2026-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-best-buy-2026-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: The total compensation of the CEO for fiscal 2026 (the year that ended Jan. 31, 2026), as reported in the proxy; mostly stock awards, not cash.)."
+  ]
+ }
+}

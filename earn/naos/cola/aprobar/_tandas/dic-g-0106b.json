@@ -1,0 +1,31 @@
+{
+ "nombre": "dic-g-0106b",
+ "issue": 81,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "two-columns",
+  "fill-the-pitcher",
+  "unpack-today",
+  "date-on-the-lid",
+  "bookmark-not-the-fold",
+  "two-trips",
+  "prep-before-the-heat"
+ ],
+ "comentario_vista_previa_id": 6886794701,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T13:52:26Z",
+ "aviso_utc": "2026-11-15T00:44:29Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "aprobadas": [
+  "bookmark-not-the-fold",
+  "date-on-the-lid",
+  "fill-the-pitcher",
+  "prep-before-the-heat",
+  "two-columns",
+  "two-trips",
+  "unpack-today"
+ ],
+ "issue_n_system": 1341
+}

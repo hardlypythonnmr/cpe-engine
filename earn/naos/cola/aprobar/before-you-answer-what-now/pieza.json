@@ -1,0 +1,93 @@
+{
+ "slug": "before-you-answer-what-now",
+ "titulo": "Before you answer “so, what are you up to now?”",
+ "clave": "2026-11-26|before-you-answer-what-now",
+ "sale_utc": "2026-11-26T15:50:00Z",
+ "caption": "Before you answer “so, what are you up to now?”: four checks for the holiday table.\nSave it for the pie.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "two Cellas facing each other. Save for the pie · 4 checks. Before you answer “so, what are you up to now?” 4 checks for the holiday table.",
+  "2": "a big number 1 and a small Cella in the corner. A question is not a summons. Check 1. Do I owe them an answer?",
+  "3": "a big number 2 and a small Cella in the corner. Say that one. Skip the apology. Check 2. What is the one true sentence?",
+  "4": "a big number 3 and a small Cella in the corner. “And you? How's the knee?” Check 3. Can I turn it around?",
+  "5": "a big number 4 and a small Cella in the corner. Eat. Chewing is a pause. Check 4. Is the pie close?",
+  "6": "the four checks as a list. The cheat sheet. At the table: Send it to the one next to you at the table. 1. I owe no summary 2. One true sentence 3. Ask them back 4. Pie is a pause."
+ },
+ "tipo_carrusel": "F2 Antes de · familia · jue 26-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "P",
+ "experimento": true,
+ "experimento_prueba": "AB carrusel-musica: sin-musica, par de before-you-go-home-checks; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-03",
+ "ab": {
+  "prueba": "carrusel-musica",
+  "brazo": "sin-musica",
+  "par": "before-you-go-home-checks",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T15:50:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-03T15:50:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-03T15:50:00Z"
+  }
+ ],
+ "blanco": "familia (arquetipo: el pariente que pregunta qué haces ahora)",
+ "mecanica_crecimiento": "guardar · destinatario: the person sitting next to you at the table",
+ "destinatario": "the person sitting next to you at the table",
+ "eco": "D-376 · A/B carrusel con música",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

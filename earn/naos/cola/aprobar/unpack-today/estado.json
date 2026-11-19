@@ -1,0 +1,26 @@
+{
+ "slug": "unpack-today",
+ "issue": 81,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e0b71f6b59f3c5a65bf15e5cb0ec48930fb887e675d5a8553370af0391f32f74",
+ "hashes": {
+  "short": "44ec49f0bf6750fe11717a4bb8863523931b5721335bc031fb288bcfeceb6be9",
+  "reel": "d9ed974154dad9c881f786730d9857c0189c46aef170ab2dfe659f6d4e346ae3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886792777,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-g-0106b",
+ "caducado_utc": "2026-11-15T00:44:09Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1341
+}

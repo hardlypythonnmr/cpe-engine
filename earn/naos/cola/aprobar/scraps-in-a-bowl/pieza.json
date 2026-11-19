@@ -1,0 +1,55 @@
+{
+ "slug": "scraps-in-a-bowl",
+ "titulo": "Peels in a bowl, one walk at the end",
+ "clave": "2026-12-09|scraps-in-a-bowl",
+ "sale_utc": "2026-12-10T00:30:00Z",
+ "caption": "Peels in a bowl, one walk at the end\n\nThe peels go into a bowl on the counter, not on a trip to the bin every thirty seconds. One walk at the end.\n\nSetting the bowl down first takes five seconds, and the counter stays clear while you cook.\n\nFor whoever puts a bowl out for the scraps before they start cooking.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Setting the bowl down first takes five seconds, and the counter stays clear while you cook.\n\nFor whoever puts a bowl out for the scraps before they start cooking.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a large orange on the right. A ink-black block figure with trembling narrowed eyes walks in from the left, its eyes go wide, and a bowl appears on the counter in the middle. Three orange peels hop into the bowl one after another. Its eyes turn happy with a pulse. The text changes from: me, I'll bin it all later, to: bowl first. one trip.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "scraps-in-a-bowl",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.4 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "poner un bowl para los restos antes de empezar a cortar",
+ "blanco": "Cella y quien cocina entre peladuras",
+ "destinatario": "puts a bowl out for the scraps before they start cooking",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

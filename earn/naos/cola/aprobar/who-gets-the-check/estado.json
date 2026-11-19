@@ -1,0 +1,26 @@
+{
+ "slug": "who-gets-the-check",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e7ca018d80e8beef6c83efe648fe0061d771c52c85fb8e9f4085b5096b9f598b",
+ "hashes": {
+  "short": "80e41c3a47d92ae54ac4a659f4da6c6b147d0d986271972071215db43c3748b0",
+  "reel": "d8df718131b7193223db5df4a8ca613feb77c75be8d069a9e7ef5b0b62686bbf"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870597459,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

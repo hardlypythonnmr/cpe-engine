@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-07-aramark-expediente",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T21:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "3d5016256de64ff394836827dca52556f2791a2ab53e7bd4f1855b13a9ef7091",
+ "hashes": {
+  "carrusel": "555acf07acf520dc9583def3d1408a1b69b029c6d5f9eabd247cc28c1d6b5895"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6914695272,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

@@ -1,0 +1,21 @@
+{
+ "nombre": "cella-s1e03",
+ "issue": 112,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "cella-s1e03-takeout",
+  "cella-s1e03-the-receipt"
+ ],
+ "comentario_vista_previa_id": 6899765568,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T19:12:35Z",
+ "aviso_utc": "2026-11-15T19:12:35Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-16T10:47:36Z",
+ "aprobadas": [
+  "cella-s1e03-takeout",
+  "cella-s1e03-the-receipt"
+ ],
+ "issue_n_system": 1665
+}

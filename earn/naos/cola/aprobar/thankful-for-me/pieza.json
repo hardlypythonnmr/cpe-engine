@@ -1,0 +1,48 @@
+{
+ "slug": "thankful-for-me",
+ "titulo": "Thanksgiving is Thursday: three things you're thankful for",
+ "clave": "2026-11-23|casa-mesa",
+ "sale_utc": "2026-11-23T17:00:00Z",
+ "caption": "Thanksgiving is Thursday: three things you're thankful for\n\nThanksgiving is Thursday. Say three things you're thankful for. \"Me\" counts once.\n\nCella got three. The pie went to the quiet one. Send this to someone at your table.\n\n#Thanksgiving #Friendsgiving #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Thanksgiving is Thursday. Say three things you're thankful for. \"Me\" counts once.\n\nCella got three. The pie went to the quiet one. Send this to someone at your table.\n\n#Thanksgiving #Friendsgiving #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A pink dining room with a table and a slice of pie. A small ink-black block figure with white eyes stands proud, and a counter in the corner reads THANKFUL FOR ME and ticks 1, 2, 3 with three bright chimes. A royal blue figure on the right narrows its eyes, then pushes the slice of pie across the table toward itself. The first figure's eyes go wide, then narrow. The text stays: if someone sent you this: Thursday you say three things you're thankful for. 'Me' counts once.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "thankful-for-me",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.52 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 15 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.6 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room mesa, mood ternura, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "FIESTA",
+ "filo": "C",
+ "tema": "Thanksgiving y vanidad",
+ "blanco": "Cella (agradecida de sí misma)",
+ "destinatario": "whoever hosts the table on Thursday",
+ "cara": "B",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

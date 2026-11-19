@@ -1,0 +1,39 @@
+{
+ "nombre": "dicl-0205",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "three-checks-at-the-door",
+  "book-the-slot",
+  "a-page-while-it-boils",
+  "lunch-in-the-bag",
+  "in-the-way-of-the-door",
+  "fill-in-todays-dot",
+  "fresh-page-for-today",
+  "leave-a-gap",
+  "set-out-two-mugs",
+  "count-down-then-go",
+  "throw-away-draft-one"
+ ],
+ "comentario_vista_previa_id": 6886846542,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T15:07:22Z",
+ "aviso_utc": "2026-11-15T00:48:28Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "aprobadas": [
+  "a-page-while-it-boils",
+  "book-the-slot",
+  "count-down-then-go",
+  "fill-in-todays-dot",
+  "fresh-page-for-today",
+  "in-the-way-of-the-door",
+  "leave-a-gap",
+  "lunch-in-the-bag",
+  "set-out-two-mugs",
+  "three-checks-at-the-door",
+  "throw-away-draft-one"
+ ],
+ "issue_n_system": 1362
+}

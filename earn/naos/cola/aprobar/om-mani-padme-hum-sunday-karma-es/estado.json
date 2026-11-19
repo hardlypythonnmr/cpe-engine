@@ -1,0 +1,23 @@
+{
+ "slug": "om-mani-padme-hum-sunday-karma-es",
+ "issue": 115,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T11:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "949c77b501e806c55cebdda076ae2a359704859ecbf52466170ce61f5cc5f92a",
+ "hashes": {
+  "reel": "49d5e0bb929b27e0188ae6d2e262cc1272cdbfc2576e2988c199d54d8b9d31cd"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957408311,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "es-video-22-23-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:12Z",
+ "issue_n_system": 1781
+}

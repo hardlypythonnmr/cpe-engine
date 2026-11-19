@@ -1,0 +1,23 @@
+{
+ "slug": "dtt-the-dates-in-the-shared-calendar",
+ "issue": 99,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-12T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6aa6aba66c736a18a6a6c3243d83f835c32fe1307f40cdcb8bd1a75e4ec12117",
+ "hashes": {
+  "reel": "97f765819cba3fa4f07b578fe60ecf71053f7b3a1b13aa787468d2ab845efe8a"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886628900,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "issue_n_system": 1409
+}

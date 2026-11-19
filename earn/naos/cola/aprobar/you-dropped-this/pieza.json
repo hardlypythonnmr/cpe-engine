@@ -1,0 +1,55 @@
+{
+ "slug": "you-dropped-this",
+ "titulo": "You dropped this",
+ "clave": "2027-01-24|you-dropped-this",
+ "sale_utc": "2027-01-24T21:00:00Z",
+ "caption": "\"You dropped this!\" The notebook hopped across the floor and was back with its owner before he reached the door.\n\nCalling out what someone dropped takes one breath, and they walk on without ever missing it.\n\nFor whoever calls out what someone dropped.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Calling out what someone dropped takes one breath, and they walk on without ever missing it.\n\nFor whoever calls out what someone dropped.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a closed cream door at the far right. A royal blue block figure walks away to the right and a flat orange notebook falls from it to the floor behind it. A ink-black block figure with white eyes at the left says you dropped this. The blue one stops by the door and turns around, its eyes go wide, the notebook hops in an arc across the floor to land at its feet with a small sparkle, and it says oh! thanks. The black one answers any time. Both end with happy eyes. The text stays: me calling out what they dropped.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "you-dropped-this",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "avisarle a alguien lo que se le cayo y devolverselo",
+ "blanco": "Cella y quien ve caer algo y deja que el otro siga caminando",
+ "destinatario": "calls out what someone dropped",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

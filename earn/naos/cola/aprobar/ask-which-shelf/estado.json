@@ -1,0 +1,26 @@
+{
+ "slug": "ask-which-shelf",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-22T18:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "91527c6dcae5a5391b678113db9cdc4f75f8af92cc0c40ecd250066512fc0c0c",
+ "hashes": {
+  "short": "32aa2f8ab55d6d17d5e513f45f2fbb35476f92af611c7f23061f0a97c566df8b",
+  "reel": "b8ecbaad34cb020dbeccd9f5173460340c1107ce306a0e805e3650f74f89265f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886874028,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-27-lam-research-expediente",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T21:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "a9caf4c39b6374c87348d1fa54e52a9164dcf3f5bbc4a49e4aa4a940a020fd2a",
+ "hashes": {
+  "carrusel": "6da089ecc6e3b9b89acae4847b0a5e8869f78ba2b502f6aba1f02972dac62169"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885962202,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

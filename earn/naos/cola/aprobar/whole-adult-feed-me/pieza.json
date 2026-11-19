@@ -1,0 +1,86 @@
+{
+ "slug": "whole-adult-feed-me",
+ "titulo": "I'm a whole adult. Please feed me.",
+ "clave": "2026-11-25|whole-adult-feed-me",
+ "sale_utc": "2026-11-25T21:35:00Z",
+ "caption": "Why adults turn into kids the second they walk into their parents’ house: one line.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Cella with a crown under a spotlight beside a white plate and a black fork. I'm a whole adult. Please feed me.",
+ "tipo_imagen": "F5 Una linea · familia · mié 25-nov",
+ "aspecto": "4x5",
+ "formato": "una-linea",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "C",
+ "experimento": true,
+ "experimento_prueba": "AB aspecto: 4x5, par de pre-celebrating-not-unproductive; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-02",
+ "ab": {
+  "prueba": "aspecto",
+  "brazo": "4x5",
+  "par": "pre-celebrating-not-unproductive",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-02T21:35:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-02T21:35:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-02T21:35:00Z"
+  }
+ ],
+ "blanco": "familia (arquetipo: el adulto que vuelve a casa)",
+ "mecanica_crecimiento": "enviar · destinatario: the friend who regresses at the front door",
+ "destinatario": "the friend who regresses at the front door",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "plate and fork read as food; Cella still small but the line carries; alt still generic, name the plate when convenient"
+  }
+ ]
+}

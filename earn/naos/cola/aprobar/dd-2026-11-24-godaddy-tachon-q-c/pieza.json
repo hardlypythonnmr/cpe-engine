@@ -1,0 +1,92 @@
+{
+ "slug": "dd-2026-11-24-godaddy-tachon-q-c",
+ "titulo": "GoDaddy (Feb 2023): $1.27 billion in buybacks, about 550 jobs cut. The math.",
+ "clave": "2026-11-24|mercury|tachon|2026-11-24-godaddy-tachon-q-c",
+ "sale_utc": "2026-11-24T17:00:00Z",
+ "caption": "GoDaddy (Feb 2023): $1.27 billion in buybacks, about 550 jobs cut. The math.\n\nFrom the archive: Feb 2023. Not today's news.\nGoDaddy, Feb 14, 2023 (GoDaddy, Form 8-K (Item 2.05)): \"to reduce future operating expenses and improve cash flows of the Company through a combination of a reduction in force and a rationalization of its portfolio\"\nGoDaddy's Form 8-K, filed Feb 14, 2023, reports an authorized restructuring plan and a reduction in its current workforce of approximately 550 employees, roughly 8% of its employees.\n\nSame year: $1.27 billion in buybacks, 2023, company-wide. $1,270.2 million paid to repurchase Class A common stock in 2023, company-wide (cash flow statement, in millions); GoDaddy pays no dividend.\nThe math: $1.27 billion in buybacks (2023) ÷ about 550 job cuts = about $2.3 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.27 billion is GoDaddy's total spent on buybacks in 2023, company-wide, from its 10-K cash flow statement. GoDaddy pays no dividend. We are not saying one paid for the other.\n\nA ratio, not a cause. GoDaddy has not linked the buybacks to the cuts.\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: SEC EDGAR · GoDaddy, Feb 14, 2023; SEC EDGAR · GoDaddy, Feb 29, 2024.\n\nLink in bio.",
+ "descripcion": "From the archive: Feb 2023. Not today's news.\nGoDaddy, Feb 14, 2023 (GoDaddy, Form 8-K (Item 2.05)): \"to reduce future operating expenses and improve cash flows of the Company through a combination of a reduction in force and a rationalization of its portfolio\"\nGoDaddy's Form 8-K, filed Feb 14, 2023, reports an authorized restructuring plan and a reduction in its current workforce of approximately 550 employees, roughly 8% of its employees.\n\nSame year: $1.27 billion in buybacks, 2023, company-wide. $1,270.2 million paid to repurchase Class A common stock in 2023, company-wide (cash flow statement, in millions); GoDaddy pays no dividend.\nThe math: $1.27 billion in buybacks (2023) ÷ about 550 job cuts = about $2.3 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.27 billion is GoDaddy's total spent on buybacks in 2023, company-wide, from its 10-K cash flow statement. GoDaddy pays no dividend. We are not saying one paid for the other.\n\nA ratio, not a cause. GoDaddy has not linked the buybacks to the cuts.\n\nSources:\n- SEC EDGAR · GoDaddy, Feb 14, 2023: «authorized a restructuring plan (the “Plan”) to reduce future operating expenses and improve cash flows of the Company through a combination of a reduction in force and a rationalization of its portfolio.» and «the Company announced a reduction in its current workforce of approximately 550 employees, representing roughly 8% of the Company’s employees.» https://www.sec.gov/Archives/edgar/data/1609711/000160971123000028/gddy-20230208.htm\n- SEC EDGAR · GoDaddy, Feb 29, 2024: «Repurchases of Class A common stock ( 1,270.2 ) ( 1,294.6 ) ( 526.0 )» https://www.sec.gov/Archives/edgar/data/1609711/000160971124000022/gddy-20231231.htm\n\nSynthetic voice.",
+ "alt": "Paper-colored card. GoDaddy, Feb 14, 2023. A gray typewriter quote, \"to reduce future operating expenses and improve cash flows of the Company through a combination of a reduction in force and a rationalization of its portfolio\", struck through with a dark red marker line. The struck quote is by GoDaddy, Item 2.05. Then the math in huge black letters, with the result on a yellow highlight: $1.27B ÷ 550 = about $2.3M, in buybacks, per job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/prueba-ac/godaddy/tachon-C",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971123000028/gddy-20230208.htm",
+   "medio": "SEC EDGAR · GoDaddy",
+   "titulo": "GoDaddy Form 8-K (Item 2.05), February 2023",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971124000022/gddy-20231231.htm",
+   "medio": "SEC EDGAR · GoDaddy",
+   "titulo": "GoDaddy Form 10-K for 2023",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "31.242 s; strike at 0.3 s, number at 15.79 s"
+  }
+ ],
+ "estilo": "papel",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "GoDaddy. Filed February 14, 2023. It says: \"to reduce future operating expenses and improve cash flows of the Company through a combination of a reduction in force and a rationalization of its portfolio.\" About 550 employees. $1.27 billion in buybacks in 2023. That is about $2.3 million per job cut. A ratio, not a cause. A ratio, not a cause. GoDaddy has not linked the buybacks to the cuts. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "GoDaddy. Filed February 14, 2023. It says: \"to reduce future operating expenses and improve cash flows of the Company through a combination of a reduction in force and a rationalization of its portfolio.\""
+  },
+  {
+   "papel": "gancho",
+   "voz": "About 550 employees. $1.27 billion in buybacks in 2023."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "That is about $2.3 million per job cut. A ratio, not a cause."
+  },
+  {
+   "papel": "giro",
+   "voz": "A ratio, not a cause. GoDaddy has not linked the buybacks to the cuts."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "nota_prueba": "Prueba A contra C. Cambio frente al plan (16 a 20 s): A usa la misma linea de tiempo que C de su empresa, en silencio (unos 29 a 31 s), para que solo cambie la voz. El cierre en pantalla es neutro y igual en A y C."
+}

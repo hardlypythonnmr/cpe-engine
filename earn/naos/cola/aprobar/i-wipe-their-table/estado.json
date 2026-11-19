@@ -1,0 +1,26 @@
+{
+ "slug": "i-wipe-their-table",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-19T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "27046d79cf554fa1de5cdd407e41b45724fc23429bc44929a80ff14b269e22b7",
+ "hashes": {
+  "short": "b9e6d82d3dede10ce609880c7fc823756b027d60c26c7f7726efec5d428e0bf1",
+  "reel": "9a07854182820a49246fb82b0565c9cab34afb71321df536037fee6b7d58bc0f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886964909,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

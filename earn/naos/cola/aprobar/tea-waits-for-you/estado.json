@@ -1,0 +1,26 @@
+{
+ "slug": "tea-waits-for-you",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-14T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "04158767b576cd4f526963301fc047bdd897264ddb28fda4ddb038a11bae9f4a",
+ "hashes": {
+  "short": "5b92a548839e748cc94cb6ad0b6f1f2784621799bc3085df42ec13d026e131ca",
+  "reel": "65a8fda98a57b769e9234bde1a7043b292cf7d1f9b92ab86a8b9e40a93f8f4a6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886961056,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

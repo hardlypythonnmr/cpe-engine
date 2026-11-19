@@ -1,0 +1,25 @@
+{
+ "slug": "a-book-with-a-star",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2ee63c601ab0d0cc7b041b42cacb1c9300fe3223e12e9d40854dd697d7c57c4b",
+ "hashes": {
+  "short": "d18f5324e05f31faa41fac6d5431a9e5acd1da0930feaab39597ff1d48068561",
+  "reel": "fc775079b8fc58770ae8101ee15802461ab39cbc1af4a99bd7d53cc57fe691a6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870917087,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

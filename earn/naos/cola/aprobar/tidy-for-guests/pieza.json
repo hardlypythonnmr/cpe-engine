@@ -1,0 +1,48 @@
+{
+ "slug": "tidy-for-guests",
+ "titulo": "Me tidying up before guests arrive",
+ "caption": "Me tidying up before guests arrive\n\nMe tidying up before guests arrive.\n\nFour things, one door, zero guests who will open it. It counts as clean until somebody needs a coat.\n\nSend it to the friend whose closet is a plot twist.\n\n#Cella #home\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me tidying up before guests arrive.\n\nFour things, one door, zero guests who will open it. It counts as clean until somebody needs a coat.\n\nSend it to the friend whose closet is a plot twist.\n\n#Cella #home\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a closed door on the right. A small ink-black block figure with white eyes stands on the left. One by one a plate, a glass, a bite and a frame slide across the floor and vanish behind the door while the figure leans toward them. Then its eyes turn happy and it pulses proudly. In the last second the text changes from: me tidying up before guests arrive, to: don't open it, while the door shakes and the figure's eyes go wide. It narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "tidy-for-guests",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.52 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.2 LUFS, true peak -2.0 dBFS, LRA 3.4 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hospitalidad (ordenar escondiendo)",
+ "blanco": "Cella (y quien ordena metiéndolo todo en un cuarto)",
+ "destinatario": "the friend whose closet is a plot twist",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-27T23:00:00Z",
+ "clave": "2026-11-27|tidy-for-guests"
+}

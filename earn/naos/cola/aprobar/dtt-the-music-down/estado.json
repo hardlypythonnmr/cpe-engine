@@ -1,0 +1,24 @@
+{
+ "slug": "dtt-the-music-down",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-17T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1a6b740d846f6d0a10efd57f399638cf9bf0ca0fe2d9ddad16e58e7eddc61b49",
+ "hashes": {
+  "reel": "399f2dd116e8a0c64472506e07e2035549a2bac560789b7ac3e6d442ecbde7de"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893982145,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

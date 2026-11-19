@@ -1,0 +1,49 @@
+{
+ "slug": "until-the-door-closes",
+ "titulo": "Cella stays until the door closes",
+ "caption": "Cella stays until the door closes\n\nCella stayed at the door until the other one was gone.\n\nPeople remember a visit mostly by how it ended, so the last few seconds count for more than their length suggests.\n\nSend it to the friend who waves from the window until you turn the corner.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Cella stayed at the door until the other one was gone.\n\nPeople remember a visit mostly by how it ended, so the last few seconds count for more than their length suggests.\n\nSend it to the friend who waves from the window until you turn the corner.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. An entryway with a door on the right. Two small block figures with white eyes, an ink-black one on the left and a royal blue one next to it, pulse a happy goodbye. The door opens and warm light shows. They walk to the door together, the blue one looks back with happy eyes, then walks out of the frame. The black one keeps watching the open door, walks over and eases it shut, and its eyes turn happy with a small pulse.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "until-the-door-closes",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "13.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 1.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "despedirse (quedarse hasta que la otra se va)",
+ "blanco": "Cella y quien se despide en la puerta",
+ "destinatario": "the friend who waves from the window until you turn the corner",
+ "cara": "A",
+ "tipo": "NW",
+ "variante": "no-words",
+ "modo": "No words",
+ "experimento": false,
+ "sale_utc": "2026-11-30T14:00:00Z",
+ "clave": "2026-11-30|until-the-door-closes"
+}

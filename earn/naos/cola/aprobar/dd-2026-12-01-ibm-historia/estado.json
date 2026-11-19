@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-01-ibm-historia",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T16:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "3d47607ccafbb8d53a0d86d508d96e3eb976801b37e3c13b2b884e731fe35e38",
+ "hashes": {
+  "historia": "38a03d7713f29e5c3f81bafe4e67efb56f90966cb9efbdbbeb7ad68bab9a35f2"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6890737979,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

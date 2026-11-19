@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-hello",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-20T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f050f258d461b72527076de67b4d05db2f6b3e3a0bfd9bce757d5e62e23e8bea",
+ "hashes": {
+  "short": "247617e1995f2bcdc8c640829d3f4eb23a0682283bb82822c5faf9aff388e147",
+  "reel": "3f27c1938957cbcc39da533514a21363530bf216d7ececae9182e4634f66e713"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886944106,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

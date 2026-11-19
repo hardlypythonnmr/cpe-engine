@@ -1,0 +1,26 @@
+{
+ "slug": "one-more-minute",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-16T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "77bc7b416cc156ec552ff3d4a5e904557f03738ff7f1fc82f1cce18a64f92a47",
+ "hashes": {
+  "short": "2694ae5c8be02b7d3744e644e86e918fa29281a474887d4f4b8027ec234e679e",
+  "reel": "f9292cef6d2342092b1d9652b17822d20b933942c31dba57bac0c3274644c3ca"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886924024,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "no-words-the-note-in-the-middle",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-14T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6b770b8e3ee69d7d76b331ee2de12455e920cdd8f0250a2238e85229e9ff7875",
+ "hashes": {
+  "short": "150553727e51c55f3f6feb24106e95bfc611d67da385494e5cac87e17dafcdd3",
+  "reel": "5cc4a4910c53fa52c8d2f379ed7ad02a547c8235311737ecb135abef4338a934"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893979818,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

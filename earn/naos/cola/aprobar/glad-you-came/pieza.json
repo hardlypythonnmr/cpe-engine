@@ -1,0 +1,53 @@
+{
+ "slug": "glad-you-came",
+ "titulo": "Glad you came, to the one running late",
+ "clave": "2027-01-18|glad-you-came",
+ "caption": "Glad you came, to the one running late\n\nSorry I'm late, I said. Glad you came, my friend said. Now I answer apologies the same way.\n\nAn apology for lateness asks to be forgiven, and a welcome tells the person the wait was worth it.\n\nFor whoever answers sorry I'm late with glad you came.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "An apology for lateness asks to be forgiven, and a welcome tells the person the wait was worth it.\n\nFor whoever answers sorry I'm late with glad you came.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the left. A ink-black block figure with white eyes waits in the middle while a royal blue figure walks in from the right with narrowed eyes, and a bubble says sorry I'm late! The black one's eyes go wide and a bubble says glad you came. The blue one's eyes turn happy and then the black one's do too. The text stays: me saying glad you came, not why so late.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "glad-you-came",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.2 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "recibir al que llega tarde con alegria (y no con reproche)",
+ "blanco": "Cella y quien pide perdon por llegar tarde",
+ "destinatario": "answers sorry I'm late with glad you came",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "ene-a",
+ "sale_utc": "2027-01-18T15:15:00Z",
+ "tanda": "ene-s3 (junta-ene-s3, 2c, Reels de biblioteca)"
+}

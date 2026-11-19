@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-03-texas-roadhouse-lamina",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T20:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "165b5c3f4dd013cf6d544cca70b4cfc6bbb5d20d0c2c79f8542acc8663752272",
+ "hashes": {
+  "imagen": "6c36340e2ba4142163548387f411949bc9cfce10f7254598023bb172ec7ea879"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6890742768,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

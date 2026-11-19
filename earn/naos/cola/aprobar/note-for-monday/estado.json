@@ -1,0 +1,26 @@
+{
+ "slug": "note-for-monday",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "59d281414e2369281bfc073f4d297c84197ab790e933f26a0334cc923567fc79",
+ "hashes": {
+  "short": "b4cbdf828bd4d36595aefb9d4d38f1b41d1ec0b0360fde248c20cdf5c31ccf5e",
+  "reel": "a7e71fc242c8f94edc522bb62eac9b40a74ff4cfe2b37878bca2fcf4f7e55038"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886814686,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

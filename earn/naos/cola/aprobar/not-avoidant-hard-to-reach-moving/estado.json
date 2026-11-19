@@ -1,0 +1,25 @@
+{
+ "slug": "not-avoidant-hard-to-reach-moving",
+ "issue": 108,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "bbcf4890c90ebd5a8a967553c7f736936f885aade9e06e5f4dc333070194b086",
+ "hashes": {
+  "short": "e5f1f962706c7d868016353ffd1ab66636f09d2cff950d8b94dd03f12e5ba69e",
+  "reel": "8adc27b04978b6f6d1a00c071626885520eab7c973504db8bd712934d42cf174"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6895819431,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "piloto-corona-2428",
+ "aprobado_evento_utc": "2026-11-15T14:15:56Z",
+ "issue_n_system": 1555
+}

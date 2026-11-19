@@ -1,0 +1,41 @@
+{
+ "slug": "overthink-extremely-well",
+ "titulo": "I overthink the way I do everything. Extremely well.",
+ "clave": "2026-11-22|overthink-extremely-well",
+ "sale_utc": "2026-11-22T21:35:00Z",
+ "caption": "I overthink the way I do everything. Extremely well.\nIt’s a gift. It has no off switch.\nby NMR\n#overthinking #relatable #selfawareness",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "dark blue field, Cella in a crown under a spotlight with two thought bubbles. I overthink the way I do everything. Extremely well.",
+ "tipo_imagen": "F5 Una linea · sobrepensar · dom 22-nov",
+ "formato": "una-linea",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "C",
+ "experimento": false,
+ "blanco": "citas y amistad",
+ "mecanica_crecimiento": "enviar · destinatario: the friend who rewrites a text six times",
+ "eco": "C01",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "peas-back-in-the-jar",
+ "titulo": "Five peas back in the jar",
+ "clave": "2026-12-13|peas-back-in-the-jar",
+ "sale_utc": "2026-12-13T16:10:00Z",
+ "caption": "Five peas back in the jar\n\nFive peas rolled off the counter. All five went back in the jar before dinner.\n\nA pea under the fridge is still there at spring cleaning, and the jar was right there.\n\nFor whoever picks up what spilled right away, while it is still within reach.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A pea under the fridge is still there at spring cleaning, and the jar was right there.\n\nFor whoever picks up what spilled right away, while it is still within reach.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a big clear jar on the right and five green peas scattered on the floor at the middle. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the peas hop one after another in small arcs into the jar. Its eyes turn happy with a pulse. The text changes from: me: I'll get them later, to: got them all. none lost.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "peas-back-in-the-jar",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.4 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "recoger lo que se cayo apenas se cae, mientras esta a la mano",
+ "blanco": "Cella y quien deja las arvejas rodando debajo de la nevera",
+ "destinatario": "picks up what spilled right away, while it is still within reach",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 y 11 al 13-dic (tanda dicn, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicn"
+}

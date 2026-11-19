@@ -1,0 +1,55 @@
+{
+ "slug": "wait-for-the-last-tick",
+ "titulo": "Three dots over her head, then two minutes",
+ "clave": "2027-02-10|wait-for-the-last-tick",
+ "sale_utc": "2027-02-10T18:00:00Z",
+ "caption": "Three dots over her head, then two minutes\n\nShe stood with three dots over her head while the boxes ticked. When the last one landed she asked for two minutes, and got them.\n\nWaiting for the last box is a pause you can see, and asking for two minutes beats asking for a moment.\n\nFor whoever waits for a stopping point and asks for a number of minutes.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Waiting for the last box is a pause you can see, and asking for two minutes beats asking for a moment.\n\nFor whoever waits for a stopping point and asks for a number of minutes.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a paper titled Notes with four boxes. A royal blue block figure with narrowed eyes stands by the paper and the boxes tick one after another, while an ink-black block figure with white eyes waits at the left with a small three-dot bubble over its head. When the fourth box is ticked the dots turn into a bubble that says got two minutes, the blue one's eyes go wide and it answers sure, with a small sparkle over the paper. Both end with happy eyes. The text stays: me waiting for the last box.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "wait-for-the-last-tick",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "esperar a que el otro llegue a un punto y pedirle un numero de minutos en vez de interrumpirlo",
+ "blanco": "Cella y quien interrumpe a mitad de la tarea del otro",
+ "destinatario": "waits for a stopping point and asks for a number of minutes",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

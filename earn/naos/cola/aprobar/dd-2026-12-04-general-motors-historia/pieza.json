@@ -1,0 +1,74 @@
+{
+ "slug": "dd-2026-12-04-general-motors-historia",
+ "titulo": "General Motors (Apr 2026): $29.8 million CEO total pay, $89,785 median pay. The math.",
+ "clave": "2026-12-04|mercury|historia|2026-12-04-general-motors-historia",
+ "sale_utc": "2026-12-04T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Apr 2026. Not today's news.\nGeneral Motors, Apr 20, 2026 (General Motors): \"we invest in our employees with market-competitive pay and benefits\"\nGeneral Motors' proxy statement, filed April 20, 2026, reported total compensation of $29,895,868 for its CEO and $89,785 for its median employee for 2025.\n\nSame proxy: $29.8 million CEO total pay, 2025. The total compensation of the CEO for 2025, as reported in the proxy's Summary Compensation Table; the median employee comes from a global workforce of 155,000 (94,000 in the U.S.).\nThe math: $29.8 million CEO total pay (2025) ÷ $89,785 median pay = about 332 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; GM's own figure is 333 to 1. Per the proxy, the median employee comes from a global workforce of 155,000, of whom 94,000 are in the U.S. and 61,000 are not. We are not saying anyone is paid too much or too little.\n\nMarket-competitive pay. Here is the pay ratio. (Our take.)\n\nSources:\n- SEC EDGAR · General Motors, Apr 20, 2026: «At GM, we believe that fair and equitable pay is an essential element of any successful organization, and we invest in our employees with market-competitive pay and benefits.» and «Our CEO, who leads our global workforce of 155,000 employees (94,000 located in the United States and 61,000 non-U.S. employees) as of December 31, 2025, earned $29,895,868» and «Based on our calculation, we can reasonably estimate that our median employee earned $89,785 in 2025.» https://www.sec.gov/Archives/edgar/data/1467858/000146785826000022/gm-20260420.htm",
+ "alt": "Paper-colored card. General Motors, Apr 20, 2026. A gray typewriter quote, \"we invest in our employees with market-competitive pay and benefits\", struck through with a dark red marker line. The struck quote is by General Motors, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $29.8M ÷ $89,785 = about 332, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib5-general-motors-2025-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000022/gm-20260420.htm",
+   "medio": "SEC EDGAR · General Motors",
+   "titulo": "General Motors proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T19:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "General Motors (Apr 2026): CEO pay ratio, 332 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "general-motors-2025-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · APR 2026",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/general-motors-2025-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-general-motors-2025-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-general-motors-2025-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: The total compensation of the CEO for 2025, as reported in the proxy's Summary Compensation Table; the median employee comes from a global workforce of 155,000 )."
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-22-etsy-expediente",
+ "issue": 16,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T20:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "271fdad18712bd09da8bd213d6ff304323322170b4e1720f95cb439a7ed0e726",
+ "hashes": {
+  "carrusel": "9ad663799c4c9ca26b2e3f6373cb1c6ffd20339049a2815551b38be541b167b2"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885951372,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z",
+ "issue_n_system": 1332
+}

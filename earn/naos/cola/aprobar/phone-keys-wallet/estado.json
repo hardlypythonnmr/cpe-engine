@@ -1,0 +1,25 @@
+{
+ "slug": "phone-keys-wallet",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T15:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "28367813ce6d90765df9b64d906282ee2559e3b128ae1ebe0d2f2ec5ef2ede11",
+ "hashes": {
+  "short": "a59e6e8977e58b8384273c5fe303d202e72a3a3a9928742f90c2917fb83684fc",
+  "reel": "d2198c8c3db36e4342248c1242a2e6befdc50435f6cf853feb345999c21985b6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863844393,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

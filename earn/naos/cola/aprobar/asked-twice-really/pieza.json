@@ -1,0 +1,59 @@
+{
+ "slug": "asked-twice-really",
+ "titulo": "The second ask after fine",
+ "clave": "2026-12-18|asked-twice-really",
+ "caption": "The second ask after fine\n\nMy aunt asks how the trip was, hears fine, and asks again. Then she got the whole story.\n\nFine is often a reflex, not an answer, and the second ask is where the real one tends to show up.\n\nFor whoever asks one more time after fine.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Fine is often a reflex, not an answer, and the second ask is where the real one tends to show up.\n\nFor whoever asks one more time after fine.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right. A bubble from the black one says how was the trip? and the blue one answers fine. The black one tilts and asks again, really? The blue one's eyes go wide, it pulses and says so, listen, then its eyes turn happy and the black one's do too. The text stays: me asking again after fine. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "asked-twice-really",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "preguntar una vez o dos",
+ "blanco": "Cella (y quien acepta el 'fine' a la primera)",
+ "destinatario": "asks one more time after fine",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "una-variable-1411",
+ "variante": "una-variable",
+ "par": "ask-twice",
+ "lado": "b",
+ "cambia": "A pregunta una segunda vez ('really?') y B cuenta de verdad",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-18T23:45:00Z",
+ "brazo": "b",
+ "escena": "ask-twice"
+}

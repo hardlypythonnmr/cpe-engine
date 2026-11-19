@@ -1,0 +1,55 @@
+{
+ "slug": "flip-the-record",
+ "titulo": "Six seconds to flip the record",
+ "clave": "2026-12-07|flip-the-record",
+ "sale_utc": "2026-12-08T00:45:00Z",
+ "caption": "Six seconds to flip the record\n\nThe record ends and the room goes quiet. Turning it over takes six seconds, and there is a whole other side.\n\nThe silence after side one is the moment most evenings quietly change, and a flip keeps the music in the room.\n\nFor whoever flips the record instead of letting the music end.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The silence after side one is the moment most evenings quietly change, and a flip keeps the music in the room.\n\nFor whoever flips the record instead of letting the music end.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a big black record standing on the floor at the right, an orange label in its middle. A ink-black block figure with white eyes trembles with narrowed eyes, then its eyes go wide, it walks closer and the record hops up and lands again with a blue label instead. Its eyes turn happy with a pulse. The text changes from: side one ended. that's it., to: flipped it. side two.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "flip-the-record",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.5 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dar vuelta al disco en vez de dejar que la musica se acabe",
+ "blanco": "Cella y quien deja que el disco termine en silencio",
+ "destinatario": "flips the record instead of letting the music end",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

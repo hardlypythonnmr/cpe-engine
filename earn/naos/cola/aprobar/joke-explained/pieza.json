@@ -1,0 +1,48 @@
+{
+ "slug": "joke-explained",
+ "titulo": "Me explaining my own joke",
+ "caption": "Me explaining my own joke\n\nMe explaining my own joke.\n\nExplaining a joke rarely makes it funnier. Say it once, enjoy your own smile, and move on.\n\nSend it to the friend who says get it after every joke.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me explaining my own joke.\n\nExplaining a joke rarely makes it funnier. Say it once, enjoy your own smile, and move on.\n\nSend it to the friend who says get it after every joke.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right. The black one says so I said, then boom, with a proud pulse. The blue one answers mm with narrowed eyes. The black one asks get it, the blue one says yeah, flatly. The black one starts to explain with because, and the blue one slowly closes its eyes and tilts. At the end both narrow their eyes at the camera. The text stays: me explaining my own joke.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "joke-explained",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 5 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 2.0 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "humor (explicar el chiste)",
+ "blanco": "Cella (la que explica) y quien responde con un mm",
+ "destinatario": "the friend who says get it after every joke",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "sale_utc": "2026-11-29T20:00:00Z",
+ "clave": "2026-11-29|joke-explained"
+}

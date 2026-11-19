@@ -1,0 +1,24 @@
+{
+ "slug": "one-trash-night-in-seven-takes",
+ "issue": 102,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-17T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "dcb820d8b95c793aad74d8ef1e8a56b67042d043434d86682225998b94e14149",
+ "hashes": {
+  "short": "5d8093addc3c31093575398dd4d05c2c4f6280270d79ae73c652638c17f35e1b"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888397249,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "issue_n_system": 1415
+}

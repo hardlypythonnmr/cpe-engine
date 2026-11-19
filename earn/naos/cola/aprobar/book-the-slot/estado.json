@@ -1,0 +1,26 @@
+{
+ "slug": "book-the-slot",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T19:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fb955ed1f0efe73670af0be9ee83f1c36bc9a3ac305ceebc29cbb437c446d3cb",
+ "hashes": {
+  "short": "bf373e269b1df5ba3fe44a987723782260f0d8978b9311eeeea6e755e4dac591",
+  "reel": "d74a04ba4af7e9a4ab49a6d3b9ff1490844765f2c1f538c07a8d7359443442f1"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886841054,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

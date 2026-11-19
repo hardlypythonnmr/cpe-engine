@@ -1,0 +1,34 @@
+{
+ "slug": "red-dot-alarm-clock",
+ "titulo": "The red dot is a tiny alarm clock.",
+ "clave": "2026-10-29|red-dot-alarm-clock",
+ "sale_utc": "2026-11-23T04:30:00Z",
+ "caption": "First thing after waking up: who goes first, you or the red dot?\nWhen my eyes open: feet on the floor. The phone gets the second minute.\nIf standing up makes you dizzy, go slowly: lying, then sitting, then standing.\nSend it to the one who wakes up before the alarm.\nThe tool is on the page: link in bio.\nby NMR\n#firstthingafterwakingup #morningwithoutphone #sleepinertia #naos",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "First thing after waking up: a phone on the nightstand with a coral dot shaped like a small alarm clock, and Cella sitting up in bed with her feet already on the floor. 06:31. The red dot is a tiny alarm clock. When my eyes open: feet on the floor. The phone gets the second minute.",
+ "seccion": "humanity",
+ "tipo_imagen": "C1 The Dot · puerta Sleep well · jue 29 13:00 ET (12:00 Medellin)",
+ "revisiones": [
+  {
+   "que": "Contrast",
+   "estado": "OK",
+   "nota": "18.91:1 min"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sello.md: no person, group, faith, body or suffering; no health promises; no risk-3 ideas"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in piece (medidor.json)"
+  }
+ ]
+}

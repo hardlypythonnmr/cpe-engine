@@ -1,0 +1,47 @@
+{
+ "slug": "nodding-along",
+ "titulo": "Me nodding like I'm listening",
+ "clave": "2026-11-25|nodding-along",
+ "caption": "Me nodding like I'm listening\n\nMe nodding like I'm listening.\n\nThe nod says I am here while the rest of you is somewhere else. They can tell.\n\nNext time: say \"sorry, I drifted, say that again.\" It lands better than the nod.\n\n#Cella #listening\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me nodding like I'm listening.\n\nThe nod says I am here while the rest of you is somewhere else. They can tell.\n\nNext time: say \"sorry, I drifted, say that again.\" It lands better than the nod.\n\n#Cella #listening\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark blue room with a window. Two small block figures with white eyes face each other, an amber one on the left and a light blue one on the right. The blue one pulses again and again as if talking while the amber one nods, then looks up, then drifts into a half-closed squint but keeps nodding. When the blue one stops, the amber one's eyes go wide and it trembles, then narrows its eyes at the camera. The text stays: me nodding like I'm listening.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "nodding-along",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 5 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "atención en la conversación",
+ "blanco": "Cella (y quien asiente sin escuchar)",
+ "destinatario": "the friend whose story you lost at so anyway",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": false,
+ "sale_utc": "2026-11-26T01:30:00Z"
+}

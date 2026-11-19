@@ -1,0 +1,24 @@
+{
+ "slug": "full-tomorrow",
+ "issue": 9,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T19:48:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7906ef56922f27db82bed59917081d9e52c162041ff0d290221a59607377ade7",
+ "hashes": {
+  "short": "2f629a6e4b8a973c6d63f852bd33e89f7ebf852d7cdc10f3b672fcb1959b9140",
+  "reel": "dde98cdbcdf12d32f610fe01b858ef7ae4999760684fad05691b679e87f9478f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668679841,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z",
+ "issue_n_system": 966
+}

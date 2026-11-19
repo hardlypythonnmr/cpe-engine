@@ -1,0 +1,26 @@
+{
+ "slug": "fresh-page-for-today",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5d74fdd4fc699977b74b085669eee671c605c8e2b6cdf7602c820368b91c3f6d",
+ "hashes": {
+  "short": "14f2459f12e541190fcbe2a4a61771ab180c6f775cae57e0e9c464054fbbfe9e",
+  "reel": "b964ef18ff6a22fe3f731d7d65f9b6a701726bc3698a196bdd4d42fa6ce7c820"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886843900,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

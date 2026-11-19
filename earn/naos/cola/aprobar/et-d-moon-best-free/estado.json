@@ -1,0 +1,22 @@
+{
+ "slug": "et-d-moon-best-free",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c89249c99d4c8c1f2e88f28ef6b3a5d769ef88e67527acd2a2b67186fbbb5a59",
+ "hashes": {
+  "reel": "5f59eb783ecd161beccbbbc8e316d1b2b52708d23fc84cf0c262d272e01b48de"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681455413,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

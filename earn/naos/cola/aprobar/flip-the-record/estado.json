@@ -1,0 +1,26 @@
+{
+ "slug": "flip-the-record",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T00:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "017e2653c25c376c9d43172036336185400aea7533687cdd1ebccaf2680b20d0",
+ "hashes": {
+  "short": "81cc8a8ddf5c2054a823adc77b2ce4c0f4ef4e8b45f7813c1c57b3c3ab3f44db",
+  "reel": "7cbc7bd78b02b2ba6db12a0e09958f965f6b327d5aba6cba385be19f55755860"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886824123,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:36Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

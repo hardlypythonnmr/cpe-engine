@@ -1,0 +1,48 @@
+{
+ "slug": "deep-breath-then-answer",
+ "titulo": "Me taking a breath before I answer the call",
+ "caption": "Me taking a breath before I answer the call\n\nMe taking a breath before I answer the call.\n\nOne slow breath out before you answer steadies your voice. Three rings is nothing.\n\nSend it to the friend who lets it ring twice just to get ready.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me taking a breath before I answer the call.\n\nOne slow breath out before you answer steadies your voice. Three rings is nothing.\n\nSend it to the friend who lets it ring twice just to get ready.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A phone on the right rings and vibrates. A small amber block figure with white eyes on the left looks at it with wide eyes, then slowly fills with a breath and lets it out with its eyes closed. The phone rings again and it does it again. The third time, its eyes turn happy, it walks toward the phone and a speech bubble says hello, then it narrows its eyes at the camera. The text stays: me taking a breath before I answer the call.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "deep-breath-then-answer",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.1 dBFS, LRA 3.6 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "calma (un respiro antes de contestar)",
+ "blanco": "Cella (y quien deja sonar el teléfono para prepararse)",
+ "destinatario": "the friend who lets it ring twice just to get ready",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "sale_utc": "2026-11-26T03:00:00Z",
+ "clave": "2026-11-25|deep-breath-then-answer"
+}

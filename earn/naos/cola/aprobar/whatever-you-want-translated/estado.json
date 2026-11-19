@@ -1,0 +1,24 @@
+{
+ "slug": "whatever-you-want-translated",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T04:26:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6df0e872875dfcc92a286b7f0b8079331cbd70236cddc90b04cae0995617ed03",
+ "hashes": {
+  "reel": "95d303f92833da7b7666cd4da31da8c2089042cc5683795f72f8b3b35e248c8e"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887874924,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "huecos-17nov",
+ "caducado_utc": "2026-11-15T02:21:16Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "issue_n_system": 1034
+}

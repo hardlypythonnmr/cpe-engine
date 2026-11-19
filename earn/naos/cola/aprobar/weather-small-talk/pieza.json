@@ -1,0 +1,48 @@
+{
+ "slug": "weather-small-talk",
+ "titulo": "Me making small talk about the weather",
+ "caption": "Me making small talk about the weather\n\nMe making small talk about the weather.\n\nIt is never about the weather. It is a tiny way of saying I am here and I am friendly. Awkward still counts.\n\nSend it to the friend who always opens with the weather.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me making small talk about the weather.\n\nIt is never about the weather. It is a tiny way of saying I am here and I am friendly. Awkward still counts.\n\nSend it to the friend who always opens with the weather.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A staircase room. Two small block figures with white eyes, an ink-black one on the left and a navy one on the right, face each other. The black one says nice weather in a speech bubble and the navy one answers yeah. The black one adds might rain and the navy one answers mhm. Then both look away in silence and, at the end, narrow their eyes at the camera. The text stays: me making small talk about the weather.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "weather-small-talk",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -5.2 dBFS, LRA 2.8 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "conversación (el clima como salvavidas)",
+ "blanco": "Cella (la que llena el silencio) y quien responde con una palabra",
+ "destinatario": "the friend who always opens with the weather",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "sale_utc": "2026-11-26T02:30:00Z",
+ "clave": "2026-11-25|weather-small-talk"
+}

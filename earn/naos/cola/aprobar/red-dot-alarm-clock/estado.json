@@ -1,0 +1,32 @@
+{
+ "slug": "red-dot-alarm-clock",
+ "issue": 45,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T04:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2e836c03257a3fe5466756c5b01841b8cd4a4b9123d3c5d804eeb9d2624c5c29",
+ "hashes": {
+  "imagen": "4454687391f731ea132229c8e55c82936cf12ae695fc7da9926825dd8fdce424"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6364498314,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aviso_utc": "2026-10-23T12:07:10Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-23T12:23:43Z",
+ "reprogramaciones": 1,
+ "reprogramada": {
+  "por": "D-512",
+  "utc": "2026-11-13T17:00:04Z",
+  "de_sale_utc": "2026-10-29T17:00:00Z",
+  "a_sale_utc": "2026-11-23T04:30:00Z",
+  "version_origen": 1,
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#810, 2026-10-23T12:23:43Z"
+ },
+ "issue_n_system": 810
+}

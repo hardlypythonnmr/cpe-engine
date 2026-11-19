@@ -1,0 +1,26 @@
+{
+ "slug": "early-worth-the-wait",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-17T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1a1f9fa7017631b4b97ad141d4d38f07a5b500b25347daa06a1ca16000a02711",
+ "hashes": {
+  "short": "905a4a72840845574668e25453da63454279287357a4e9e29b71e7a3bbe3e66d",
+  "reel": "8ae7429185f33b2117c52a42c52c946f2c18aa5c41a13b63c12df3a34f5c63a1"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886963733,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

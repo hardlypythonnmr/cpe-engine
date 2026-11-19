@@ -1,0 +1,25 @@
+{
+ "slug": "cella-s1e03-takeout",
+ "issue": 112,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-15T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a04fbf0a630ca97148607f11fb69f555bf98f288f79bad2fefe24c473c1aa82e",
+ "hashes": {
+  "short": "ff6ea2c425a5a074a347c7b754f3e4564b299db14c925868ef3fa22433ea9d54",
+  "reel": "28303a55f4d61630ed06f54e83d45db2a5169c3caa6b52eee4b0cdd9cc85dd28"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6899764478,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "cella-s1e03",
+ "aprobado_evento_utc": "2026-11-16T10:47:36Z",
+ "issue_n_system": 1665
+}

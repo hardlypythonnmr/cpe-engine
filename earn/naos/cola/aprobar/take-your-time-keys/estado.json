@@ -1,0 +1,25 @@
+{
+ "slug": "take-your-time-keys",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4a472fd31f7e44385190979e8499a00e025cdc668d3e07f17c437aa941c5191b",
+ "hashes": {
+  "short": "2bd8367e5b47d07a8129b72e04aa4542fa453ed5ea181fec7d817d13ab4b521c",
+  "reel": "90c6d50a5526f504a2ab2760ab63cd595b5842d7d48a7daca812f301d70cbda0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870913956,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

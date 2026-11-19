@@ -1,0 +1,223 @@
+{
+ "id": "cella-s1e01-the-list-is-ready",
+ "canal": "naos",
+ "tipo": "sin-tipo",
+ "cuarto": "alcoba",
+ "control": true,
+ "carpeta": "cola/aprobar/cella-s1e01-the-list-is-ready",
+ "sale_utc": "2026-12-01T23:30:00Z",
+ "material": {
+  "gancho": null,
+  "guion": [],
+  "formato": null,
+  "referencia": null,
+  "titulo": "Tomorrow, 5K, new scarf",
+  "caption": "Tomorrow, 5K, new scarf\n\nMy plan was flawless and my door was just a door.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#procrastination #cella",
+  "alt": "A short film with no voice, with music. A lavender room at 11:00 p.m. Cella, a black doorway-shaped figure with white eyes, stands facing a bare wall on a round warm rug, wearing a brand-new scarf whose hanging end carries the price tag. A lit floor lamp with a yellow shade stands behind her on the left, a window is on the wall, and a pair of white sneakers waits by a closed white door with a dark frame on the right. Text: Tomorrow I run 5K in my new scarf. Where Cella looks, neat paper strips appear on the wall one by one, then over the window, each with two grey lines that cannot be read; one big strip on the door reads Tomorrow. Text: Nothing in here is late. Black checkmarks fill the strips one by one and a big black stamp with a check lands, tilted, on the last. Text: Reviewed and approved by me. The wall clock jumps to 6:00 a.m., a calendar sheet falls, the strip on the door drops to a small pile of strips at its foot and an identical Tomorrow. strip takes its place. A second Cella, the same black figure with a small red crown, slides in from the left a short distance from her, tilts the crown toward the pile for two seconds and slides out while Cella keeps looking at the door. Text: Ready. Cella leans against the door and pushes; the word Ready. falls off the bottom of the screen, the strips slide off the walls into a heap on the floor, the door swings open on a rectangle of warm dawn light, and one sneaker hops onto the threshold and stays there, still, for a moment. Cella walks into the doorway: first half of her is still against the lavender wall and half in the light, then she stands entirely in the dawn light, smaller, in her scarf, looks back once, and walks away until she is tiny in the bright doorway. The room is left empty: the door open on the light, the lamp lit, the fallen strips on the floor, and one strip lifts in the draft from the door. Text: Starting tomorrow?",
+  "canales": [
+   "short",
+   "reel"
+  ],
+  "texto_en_pantalla": [
+   "Tomorrow I run 5K / in my new scarf.",
+   "Nothing in here / is late.",
+   "Reviewed and / approved by me.",
+   "Ready.",
+   "Starting / tomorrow?"
+  ],
+  "primera_voz_s": null,
+  "apertura_contacto": {
+   "fuente": "contacto.png (24 cuadros, tiempos aproximados)",
+   "dur": 52,
+   "t_primer_texto": 0,
+   "palabras_primer_texto": 9,
+   "tinta_cuadro0": 0.301,
+   "cambio_0_15": 0.106,
+   "cambio_15_30": 0.0
+  },
+  "tira_apertura": null,
+  "dur": 52.0,
+  "racha_quieta_mayor": null,
+  "render_seg": null
+ },
+ "instrucciones": "Contesta cada pregunta con si o no y una evidencia de una linea (un enlace, una cifra o lo que se ve en la tira). Si no hay evidencia, la respuesta es no. Mira la tira de apertura antes de contestar V5, E1 y E2. Escribe tambien 'comparte': por que alguien la compartiria, en una linea con evidencia.",
+ "preguntas": [
+  {
+   "id": "V1",
+   "eje": "viralidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "Alguien puede nombrar a una persona concreta a quien enviarle esta pieza ('esto es para mi hermana', 'mi jefe', 'mi grupo')?"
+  },
+  {
+   "id": "V2",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "El primer giro de la pieza provoca una emocion de alta activacion (asombro, indignacion, ansiedad moderada, risa) y no tristeza o calma?"
+  },
+  {
+   "id": "V3",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "Hay una cifra, dato o giro sorprendente que se pueda repetir en una frase sin ver el video?"
+  },
+  {
+   "id": "V4",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "La historia mueve a la gente: es un atipico (el dato que no deberia estar ahi), una innovacion, algo de gran escala o grandeza, lo saturado o lo vacio, o tiene algo en juego (politica, plata, poder)? Lo obvio ('Diwali se mira en Diwali') puntua cero."
+  },
+  {
+   "id": "V5",
+   "eje": "viralidad",
+   "puntos": 1,
+   "tipo": "juicio",
+   "pregunta": "Se entiende con el sonido apagado y sin conocer el canal (texto o imagen cuentan la promesa)?"
+  },
+  {
+   "id": "E1",
+   "eje": "engagement",
+   "puntos": 3,
+   "tipo": "juicio",
+   "pregunta": "Entre 0 y 1,5 s pasa algo en pantalla (movimiento, cifra, rostro o figura, promesa escrita) y la primera palabra hablada llega antes de 1 s?"
+  },
+  {
+   "id": "E2",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "La promesa del gancho se cumple antes del final y el cierre da una razon para llegar hasta el ultimo segundo (giro, respuesta retenida, cifra al final)?"
+  },
+  {
+   "id": "E3",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El final enlaza con el inicio o invita a repetir (bucle) sin trampa?"
+  },
+  {
+   "id": "E4",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "Hay una postura, pregunta o dato discutible que invite a responder en comentarios?"
+  },
+  {
+   "id": "E5",
+   "eje": "engagement",
+   "puntos": 1,
+   "tipo": "juicio",
+   "pregunta": "El titulo y el gancho prometen solo lo que la pieza cumple, y la ultima oracion no es un aviso legal o formal (el aviso va dentro de una frase antes del climax y lo formal en la descripcion)?"
+  },
+  {
+   "id": "A1",
+   "eje": "alcance",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "Existe un precedente comparable (misma estructura, canal de tamano parecido) con al menos 3 veces la mediana de su canal, con numeros y enlace?"
+  },
+  {
+   "id": "A2",
+   "eje": "alcance",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "La pieza es un episodio de un formato con nombre y estructura reconocible, y tiene su propia historia (no una plantilla con otro dato)?"
+  },
+  {
+   "id": "A3",
+   "eje": "alcance",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El tema tiene demanda hoy en ingles (tendencia, busqueda o noticia con fecha del dia anotada) y la audiencia probable esta en paises de nivel alto (EE. UU., Reino Unido, Canada, Australia, Alemania)?"
+  },
+  {
+   "id": "A4",
+   "eje": "alcance",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "La pieza es original y nativa (hecha por nosotros, vertical, sin recorte de otro, con la etiqueta de IA si la plataforma la pide)?"
+  },
+  {
+   "id": "R1",
+   "eje": "rentabilidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "El costo de la pieza (USD-eq de Claude + creditos de voz + render) esta estimado con las cifras medidas y cabe en su tope por pieza?"
+  },
+  {
+   "id": "R2",
+   "eje": "rentabilidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "El canal tiene una ruta creible al umbral de pago de Shorts (10 M de vistas comprometidas en 90 dias) o un ingreso alterno con cifra (producto, afiliado, enlace)?"
+  },
+  {
+   "id": "R3",
+   "eje": "rentabilidad",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El tema cae en un rubro con RPM de Shorts medio o alto (finanzas, tecnologia e IA, salud) o con anunciantes que no limitan los anuncios (sin tragedia, sin politica caliente)?"
+  },
+  {
+   "id": "R4",
+   "eje": "rentabilidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "La serie cumple la politica de YouTube sobre contenido inautentico y sobre divulgacion de voz o imagen sintetica realista (sin personas reales, con casilla marcada si aplica)?"
+  }
+ ],
+ "piso": [
+  {
+   "id": "P1",
+   "regla": "Profundidad: debajo de la pieza hay algo cierto (conducta, mecanismo o dato con fuente) y la claridad manda sobre el filo."
+  },
+  {
+   "id": "P2",
+   "regla": "Respeto: toda tradicion se cuenta con su procedencia (de donde viene y quien lo dice); mantras oidos por N y cotejados por el juez de respeto."
+  },
+  {
+   "id": "P3",
+   "regla": "Linea de ayuda: toda pieza nueva sobre duelo, perdida, crisis o soledad dolorosa lleva linea de ayuda en caption o descripcion; lo programado sin ella es excepcion registrada."
+  },
+  {
+   "id": "P4",
+   "regla": "Protocolos de frio, calor, ayuno, carga y respiracion: completos, con fuentes verificables y sin prometer salud; la nota del lente de cumplimiento va en la tanda."
+  },
+  {
+   "id": "P5",
+   "regla": "Lo que rompe cualquier punto del piso no sale aunque puntue 10 en todos los ejes."
+  }
+ ],
+ "compuertas": [
+  {
+   "id": "C1",
+   "regla": "Contenido inautentico: cada pieza tiene su propia historia, enfoque o concepto; intros y outros compartidos solo si el grueso difiere. Sin 'mismo caso, mismo desenlace', sin texto desplazandose sin narrativa."
+  },
+  {
+   "id": "C2",
+   "regla": "Divulgacion de contenido alterado o sintetico: obligatoria si el contenido es realista (una persona real que parezca decir o hacer algo que no hizo, sucesos o lugares reales alterados, musica generada como foco). No obliga para contenido no realista (animacion), ni para guion, titulo o ayudas de produccion. Una voz de narrador sintetico que no imita a nadie queda fuera de la lista explicita, pero la lista 'no es exhaustiva': confirmar el caso de Mercury."
+  },
+  {
+   "id": "C3",
+   "regla": "Mercury: nunca salen solos resultados electorales, muertes y desastres, voces de personas reales, consejo medico, legal o financiero ni fuentes sin abrir; el borde rentable va en tema y tono, nunca en evadir detecciones."
+  }
+ ],
+ "datos": {},
+ "comparte": {
+  "linea": "",
+  "evidencia": "",
+  "base": {
+   "n": 46,
+   "con_envios": 8,
+   "envios_por_mil_alcance_mediana": 0.0,
+   "envios_por_mil_alcance_media": 6.7,
+   "fuente": "medicion/metricas-piezas.csv (ultimo corte de cada pieza)"
+  }
+ },
+ "respuestas": {},
+ "piso_ok": {},
+ "compuertas_ok": {}
+}

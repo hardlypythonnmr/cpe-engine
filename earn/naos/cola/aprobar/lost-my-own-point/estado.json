@@ -1,0 +1,25 @@
+{
+ "slug": "lost-my-own-point",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T15:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "780443dd0e5eae376b6b5f607b749752da3928e7d93c938609a4733897f37af7",
+ "hashes": {
+  "short": "0fe56e99c4bbb0b6561fddb5afd9ac78afce5930798d926f7e216acaed4e949c",
+  "reel": "c2cfa11b26438d10bb164702f0b3429f9a06f996cea358f232b85b9f2e6dab10"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863849336,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

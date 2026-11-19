@@ -1,0 +1,53 @@
+{
+ "slug": "read-the-steps-first",
+ "titulo": "Me reading the steps first",
+ "clave": "2026-12-02|read-the-steps-first",
+ "caption": "Me reading the steps first\n\nMistakes in a build pile up in the early steps, and one read-through catches most of them before they are glued in.\n\nFor the friend who builds the shelf first and finds the manual after.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "Mistakes in a build pile up in the early steps, and one read-through catches most of them before they are glued in.\n\nFor the friend who builds the shelf first and finds the manual after.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a front door. A small ink-black block figure with white eyes stands on the left with a closed book standing on the floor on the right. A speech bubble says how hard can it be? It narrows its eyes, walks over and leans toward the book, which opens and turns pages while bubbles say step one... and oh, step four! Its eyes go wide, then happy with a pulse. The text stays: me reading the steps first. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "read-the-steps-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.8 dBFS, LRA 2.8 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hacer las cosas bien (leer los pasos antes de armar)",
+ "blanco": "Cella (y quien arma sin manual)",
+ "destinatario": "the friend who builds the shelf first and finds the manual after",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-02T13:00:00Z",
+ "pie": "More of this: link in bio."
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "om-mani-padme-hum-before-sunday-dread",
+ "issue": 63,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "38e4cbdbc80a03c44eef1140a231b2a697612eeac3bc5f32b900bf2634e8e777",
+ "hashes": {
+  "reel": "fdfe250461c9c508cfd468b66dd9d2a6a70293893b4985bc92ba9d7a7c6810bc"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856869559,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "mantra-2225",
+ "aprobado_evento_utc": "2026-11-13T15:08:39Z",
+ "issue_n_system": 1093
+}

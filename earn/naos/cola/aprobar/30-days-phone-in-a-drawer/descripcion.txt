@@ -1,0 +1,21 @@
+For the friend who says "I'm quitting next month."
+
+Cella deletes her social apps and puts her phone in the kitchen drawer for 30 days. Her friends' group chat lives in one of those apps, so it goes too. Calls and texts are allowed, at the drawer. Two commentators call the month, every open counted, with four questions: Where does the time go? What does it cost? How big is the change? What comes back?
+
+If your phone went in a drawer for 30 days, what would you miss first?
+
+Chapters
+0:00 Day 30: the drawer
+1:10 Where does the time go?
+2:38 Week one, and a $102 experiment
+4:57 What does it cost?
+6:36 How big is the change?
+8:02 Day 20: she forgot
+10:09 What comes back?
+11:21 Full time
+
+The study in this video: in a randomized experiment in the US in the fall of 2018, Hunt Allcott, Luca Braghieri, Sarah Eichmeyer and Matthew Gentzkow paid 580 Facebook users $102 to switch off Facebook (only Facebook) for four weeks, and compared them with 1,081 who kept using it. Only people who would switch it off for less than $102 took part, about 6 in 10 of those who signed up. More than 90% kept it off. They had reported about 75 minutes a day on Facebook before; switching it off freed up about an hour a day, which went to offline time, including time with friends and family; their overall measure of social interaction did not clearly change, and they used other social media less. They spent about 8 minutes a day less on news (15% less) and did worse on a news quiz. Their well-being measures improved a little; the researchers call the effect small, about a third of what comparing heavy and light users would suggest. Weeks later they said they used the Facebook app about 11 minutes a day less (22% less); nine weeks later, 5% still had it off, against 2.5% of the comparison group; about 80% said switching it off was good for them. After the four weeks, what they would want to be paid to stay off for another four weeks dropped by up to 14%; the researchers say this fits two explanations (the habit wears off, or people learned they liked the time more than expected) and cannot tell which. Most measures are self-reported. The study did not test switching off other apps, a month without all of them, or anyone like Cella. Cella's month is a story and her numbers are made up.
+Allcott, H., Braghieri, L., Eichmeyer, S., & Gentzkow, M. (2020). The welfare effects of social media. American Economic Review, 110(3), 629-676.
+
+Made with code and Claude. Crowd and music composed with code by NAOS. Voices by ElevenLabs.
+Closer to yourself.

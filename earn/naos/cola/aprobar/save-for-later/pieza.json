@@ -1,0 +1,48 @@
+{
+ "slug": "save-for-later",
+ "titulo": "Me saving articles to read later",
+ "caption": "Me saving articles to read later\n\nMe saving articles to read later.\n\nSaving feels like doing: it rewards you before you have read a word. Open one now, or let the pile go.\n\nSend it to the friend with a hundred tabs saved for later.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me saving articles to read later.\n\nSaving feels like doing: it rewards you before you have read a word. Open one now, or let the pile go.\n\nSend it to the friend with a hundred tabs saved for later.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. A small ink-black block figure with white eyes stands on the left, facing a digital counter on the right that reads 3 saved. Each time a bubble says saved!, this too! or and this! the counter jumps, 12, 47, 98, 212, and the figure stretches tall with happy eyes and a pulse. In the last seconds the text changes from: me saving articles to read later, to: saved: 212. read: 0. Its eyes go wide and it trembles, then it narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "save-for-later",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 1.8 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hábitos digitales (guardar para leer después)",
+ "blanco": "Cella (y quien guarda más de lo que lee)",
+ "destinatario": "the friend with a hundred tabs saved for later",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-25T23:00:00Z",
+ "clave": "2026-11-25|save-for-later"
+}

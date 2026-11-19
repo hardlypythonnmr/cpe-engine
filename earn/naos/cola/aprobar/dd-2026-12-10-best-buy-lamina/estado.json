@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-10-best-buy-lamina",
+ "issue": 105,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T20:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "02b1d1ac6fad8f570e9b4f35e7feaa5d07d27da372e576fca11ff7cd6d3b2da1",
+ "hashes": {
+  "imagen": "10b551d30e73e8cae8389746b8315d7758ed2afee3009539e4ef8d13b9684a54"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6890754150,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-c",
+ "aprobado_evento_utc": "2026-11-15T11:55:33Z",
+ "issue_n_system": 1478
+}

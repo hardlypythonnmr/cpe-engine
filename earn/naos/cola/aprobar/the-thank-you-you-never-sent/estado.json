@@ -1,0 +1,24 @@
+{
+ "slug": "the-thank-you-you-never-sent",
+ "issue": 14,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T20:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "53242017ffe863345e346ce817460e05b18a750cf9ebfda0da75132bebf321b1",
+ "hashes": {
+  "short": "1993eab867046b601c63191f3f88e9d1adb5d88d67df38a0b7866b61dd8c6773"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6860622830,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "lote-2326",
+ "caducado_utc": "2026-11-13T17:49:25Z",
+ "aprobado_evento_utc": "2026-11-13T19:14:09Z",
+ "issue_n_system": 1125
+}

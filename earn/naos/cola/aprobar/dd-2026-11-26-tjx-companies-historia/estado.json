@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-26-tjx-companies-historia",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T16:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "d33afeb2788b2e82ad1796ff8723be126c4e0163494d4428c7c74f96b9ae457e",
+ "hashes": {
+  "historia": "ba21b0ac5f529b31404a435548504db6d2a49c5e7ee7d540c7fe92b60e9e07ca"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885960100,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

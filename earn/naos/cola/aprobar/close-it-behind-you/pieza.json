@@ -1,0 +1,55 @@
+{
+ "slug": "close-it-behind-you",
+ "titulo": "Close it behind you",
+ "clave": "2027-02-17|close-it-behind-you",
+ "sale_utc": "2027-02-17T13:20:00Z",
+ "caption": "\"Just a second.\" \"Close it behind you.\" The cold stopped coming in the moment the door clicked.\n\nA door left open for one second lets the whole hallway cool, and closing it takes less than that.\n\nFor whoever closes the door behind them, even for a second.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A door left open for one second lets the whole hallway cool, and closing it takes less than that.\n\nFor whoever closes the door behind them, even for a second.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a cream door standing open on the right with warm light in it and pale blue streaks of cold air blowing left into the room. A plum block figure with narrowed eyes in the middle says just a second. A ink-black block figure with white eyes at the left answers close it behind you, and the plum one walks to the door and swings it shut, and the streaks vanish. It says ...warmer already. Both end with happy eyes. The text stays: me closing it behind me.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "close-it-behind-you",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cerrar la puerta detras de uno aunque sea por un segundo",
+ "blanco": "Cella y quien deja la puerta abierta porque ya vuelve",
+ "destinatario": "closes the door behind them, even for a second",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 15 al 19-feb (tanda febd, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febd"
+}

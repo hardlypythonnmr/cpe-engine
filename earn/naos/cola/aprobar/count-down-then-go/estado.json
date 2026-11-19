@@ -1,0 +1,26 @@
+{
+ "slug": "count-down-then-go",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1ad904642dd477e3692c5b190bb6a9dddf2ab69b8f806e7f10a6322e17f932f3",
+ "hashes": {
+  "short": "6195f98d555bb6f56c3d6a5d855b6749bf7cfa4d7c4c8f1dc09a62c6de3fcb91",
+  "reel": "eaefcfdbe40063228c0dce6aa50439ddc2e60331c5c9298d25c057d4aecb1903"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886845549,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

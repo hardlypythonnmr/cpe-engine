@@ -1,0 +1,71 @@
+{
+ "slug": "wrong-room-rmx-estilo",
+ "titulo": "Forgot why I came up: stop, say what for, one step down",
+ "clave": "2026-11-24|wrong-room-rmx-estilo",
+ "sale_utc": "2026-11-24T20:35:00Z",
+ "caption": "Forgot why I came up: stop, say what for, one step down\n\nI forgot why I came up. If I forget why I came, I stop and say what for: a slow in, a rest on the landing, one step down. Wrong room. For whoever stands in doorways like this.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "I forgot why I came up. If I forget why I came, I stop and say what for: a slow in, a rest on the landing, one step down. Wrong room. For whoever stands in doorways like this.\n\nWhen do I forget why I came up? Just the situation, a few words.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": true,
+ "alt": "A short film with only words on a deep indigo field, timed to the voice. I forgot why I came up. If I forget why I came, I stop and say what for. In. Landing. One step. Wrong room. When do I forget why I came up? Closer to your stairs. Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "When do I forget why I came up? Just the situation, a few words. The rest stays private.",
+ "casa": {
+  "id": "c6-escaleras-v7",
+  "version": 7
+ },
+ "revisiones": [
+  {
+   "que": "Remix",
+   "estado": "OK",
+   "nota": "D-531: same sound as wrong-room (no new ElevenLabs call); test axis estilo, arm D (A = the original); changes: no house image: words only on an indigo field (#2B2F66), each line on screen while the voice says it; same voice track"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "20.60 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, the original's mix untouched (only cut, reordered or faded)"
+  },
+  {
+   "que": "Repeat risk",
+   "estado": "OK",
+   "nota": "dHash best match 24.1 of 64 bits (threshold 14), colour change 98.0: distinta en forma (motor/remezcla/RIESGO.md)"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "elevenlabs mesa-maya eleven_v4, each line its own take so the marks stay exact; no atempo; breath bed from aire.py under the voice"
+  }
+ ],
+ "remezcla": {
+  "origen": "wrong-room",
+  "eje": "estilo",
+  "brazo": "D",
+  "control": "A = wrong-room",
+  "experimento": "rmx-2026-11-19",
+  "cambios": [
+   "no house image: words only on an indigo field (#2B2F66), each line on screen while the voice says it; same voice track"
+  ],
+  "huella": {
+   "dhash_media": 24.1,
+   "dhash_min": 21,
+   "umbral": 14,
+   "cambio_color": 98.0,
+   "distinta": true,
+   "lectura": "distinta en forma"
+  },
+  "elevenlabs_llamadas": 0,
+  "decision": "D-531"
+ }
+}

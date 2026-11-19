@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-03-texas-roadhouse-expediente",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T21:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "fa45dd2fdfbe8995e06574d3757c1a1d5e8cb68fa6c6f95e978fed32e492cd4d",
+ "hashes": {
+  "carrusel": "c4b16c28bc5b854a2010b64598785ee6519ae0f5271d70e1e1b893f7ee1115d5"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6890743281,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "say-it-out-loud-before-pie",
+ "issue": 62,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T19:48:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a975185855e1ed795dde4849eb49349913fea4c4eb5e0a414cb5fecf5252997e",
+ "hashes": {
+  "short": "d12a1e05a0eec979824afd50e671e2041d16ee9b8a3780df91ad3e03ba77abeb",
+  "reel": "61353ee1143c03f04ba78abdecbcfc17ed262e1a559a52076881777a00982ec3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856841019,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "v7-cm-2425",
+ "aprobado_evento_utc": "2026-11-13T15:06:03Z",
+ "issue_n_system": 1091
+}

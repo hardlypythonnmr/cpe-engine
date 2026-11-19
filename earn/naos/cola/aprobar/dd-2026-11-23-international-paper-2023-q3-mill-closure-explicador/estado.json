@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-23-international-paper-2023-q3-mill-closure-explicador",
+ "issue": 113,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T01:00:00Z",
+ "datos_utc": "2023-10-26T00:00:00Z",
+ "hash_contenido": "0809392996d2c4f2ec992f25b28b358fdf07254217060b4954f113d5c8de09a4",
+ "hashes": {
+  "short": "499dd2393cbadab2ae94f8ef26023ee6402b2144c0eb6cca2ad8cd36f753288e",
+  "reel": "ce13a40d554b27873c05011f2e7ee1ad680ece26c0a03d8722e7f129658e18f7"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6937510019,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-b",
+ "aprobado_evento_utc": "2026-11-17T03:42:28Z",
+ "issue_n_system": 1742
+}

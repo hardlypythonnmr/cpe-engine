@@ -1,0 +1,26 @@
+{
+ "slug": "show-the-finished-one",
+ "issue": 92,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-26T21:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f8a586a26f202f5cb8e2b69b8a4054a9831d63d77b084fc13c8e459b931fd6af",
+ "hashes": {
+  "short": "cfcb27ec9e295935cea977935c1daafe6d68999d3f09daec9513d77880486253",
+  "reel": "0a377b5b9710bde2f1295eb205772514799fc9041e9dea8d74e1a50ac9fac58f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886881112,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "ened-2631",
+ "caducado_utc": "2026-11-15T00:51:16Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1367
+}

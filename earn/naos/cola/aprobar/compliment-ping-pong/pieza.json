@@ -1,0 +1,49 @@
+{
+ "slug": "compliment-ping-pong",
+ "titulo": "Me and a compliment I can't take",
+ "caption": "Me and a compliment I can't take\n\nMe and a compliment I can't take.\n\nA plain thank you lands better than a deflection: brushing it off quietly tells the giver they were wrong.\n\nSend it to the friend who answers every compliment with this old thing.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me and a compliment I can't take.\n\nA plain thank you lands better than a deflection: brushing it off quietly tells the giver they were wrong.\n\nSend it to the friend who answers every compliment with this old thing.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A staircase room. Two small block figures with white eyes, an ink-black one on the left and a navy one on the right. The black one says nice jacket! The navy one looks down and says this old thing? The black one insists no, it's great, and the navy one smiles and says you look great too. Finally the black one says thank you! and both settle back exactly as they started, so the film repeats without a cut. The text stays: me and a compliment I can't take.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "compliment-ping-pong",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "conversación (recibir un cumplido sin quitarle valor)",
+ "blanco": "Cella y quien responde a todo cumplido con 'esto es viejo'",
+ "destinatario": "the friend who answers every compliment with this old thing",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "bucle": "empalme",
+ "sale_utc": "2026-11-27T03:00:00Z",
+ "clave": "2026-11-26|compliment-ping-pong"
+}

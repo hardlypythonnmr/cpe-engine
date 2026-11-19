@@ -1,0 +1,25 @@
+{
+ "slug": "recalculating",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T01:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4617688b89a8de14de06bb7d9b625541bb97ef87e73c9e9f8567fdc66287c7d4",
+ "hashes": {
+  "short": "61d7707a6b2c8fc3d1af23f5c6bc960f6c4c6d75ab253afd99170e82515693e8",
+  "reel": "f5c23529282eb81b05350b9e07a52868023ed050de3e079b2f9499ef9e797fce"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863241908,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

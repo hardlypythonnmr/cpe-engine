@@ -1,0 +1,26 @@
+{
+ "slug": "roll-it-to-the-door",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-16T18:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5ad5305cb413e675e484e2d5ec01d121543b3e3aaab94f36a737a91560aa8fe7",
+ "hashes": {
+  "short": "5b8ec8c2869c959e6e2b8d120614cc4e4a24707f9bd5c66a58f0285e1066a6d8",
+  "reel": "24f2b08c9f70ad9d078cac363ec96370102a52cef83e445483971b5d5b3234a5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886924433,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

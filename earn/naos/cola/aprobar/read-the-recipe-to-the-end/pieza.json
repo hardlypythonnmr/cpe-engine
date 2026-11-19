@@ -1,0 +1,53 @@
+{
+ "slug": "read-the-recipe-to-the-end",
+ "titulo": "The recipe, step one",
+ "clave": "2026-12-05|read-the-recipe-to-the-end",
+ "caption": "The recipe, step one\n\nCella started the recipe at step one and kept going.\n\nReading a recipe to the end first catches the steps that need time, like an overnight rest or a hot oven.\n\nFor the friend who reads the whole recipe first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella started the recipe at step one and kept going.\n\nReading a recipe to the end first catches the steps that need time, like an overnight rest or a hot oven.\n\nFor the friend who reads the whole recipe first.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands beside a pot and a recipe card with five lines. Four lines get checked off one by one, each with a happy pulse. The fifth line stays blank. At the end its eyes go wide and it trembles. The text changes from: me starting the recipe at step one, to: step 5: rest overnight. it is 6 pm.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "read-the-recipe-to-the-end",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 15 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.7 dBFS, LRA 2.6 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "leer la receta completa antes de empezar",
+ "blanco": "Cella y quien empieza por el paso uno",
+ "destinatario": "the friend who reads the whole recipe first",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Remate",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-05T16:15:00Z"
+}

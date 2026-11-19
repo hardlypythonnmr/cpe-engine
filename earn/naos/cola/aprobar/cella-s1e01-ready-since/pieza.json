@@ -1,0 +1,61 @@
+{
+ "slug": "cella-s1e01-ready-since",
+ "titulo": "The list is ready, in seven slides",
+ "clave": "2026-12-02|cella-s1e01-ready-since",
+ "sale_utc": "2026-12-02T17:30:00Z",
+ "caption": "I was prepared for all of it except the five kilometers.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella at 11:00 p.m. in a brand-new scarf with the price tag hanging from its end, facing a wall half covered in neat paper strips, in the same room as the second slide: a floor lamp, a wall clock, a white door with a pair of sneakers by it",
+  "2": "the same room twice, 11:00 p.m. above and 6:00 a.m. below: a door with the same big paper strip reading Tomorrow., a window covered in strips, a small pile of fallen strips at the foot of the door, and Cella looking at the door; in the top room a second black Cella with a small red crown stands a short distance from her and tilts the crown toward the pile",
+  "3": "a question set at title size with three plain answers, and in a row on the floor a pair of sneakers, a packed backpack and a folded new scarf with its tag, with Cella standing beside them",
+  "4": "Cella leans her whole body against a white door and pushes it open onto warm dawn light; a sneaker has crossed the threshold and rests on the sill, and the paper strip that was on the door peels away",
+  "5": "Cella outdoors in warm dawn light, in her scarf, standing on the doormat with a sneaker beside her; behind her the open door shows the lavender room, with its lit lamp and the heap of fallen paper strips",
+  "6": "a long list in monospace hanging from a door above Cella, who looks at it; the last line, Steps: 1, is in bold",
+  "7": "the empty room seen from inside: the door open on warm dawn light with a tiny Cella far outside in it, the lamp still lit, a heap of paper strips and one strip reading Tomorrow. on the floor, and a sneaker on the sill"
+ },
+ "tipo_carrusel": "Episodio 1 v2 de la historia de Cella · empezar · mie 2-dic",
+ "seccion": "humanity",
+ "tanda": "historia-cella-t1-e01-v2",
+ "filo": "medio",
+ "experimento": false,
+ "blanco": "empezar con un plan perfecto",
+ "mecanica_crecimiento": "enviar · destinatario: the person in the chat whose perfect list has been ready for months",
+ "destinatario": "the person in the chat whose perfect list has been ready for months",
+ "eco": "historia-cella-s1e01-v2",
+ "episodio": "s1e01-v2",
+ "temporada": 1,
+ "sombra": "proyeccion",
+ "x5": "Ready since when?",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada y leida a tamano completo por el constructor (Opus 18, 15-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin persona real, sin tradicion, sin salud; Cella sin manos; la sombra con corona #A8362A, sin voz, una sola vez; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "11 palabras del guion mas el lema (D-378); sin hashtags (D-376)"
+  }
+ ]
+}

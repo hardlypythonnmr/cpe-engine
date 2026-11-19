@@ -1,0 +1,26 @@
+{
+ "slug": "frame-the-doodle",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T20:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ed989d451355beb81f9d5dff3b2923d0cab418daa1ea14b7829a19a8fbb37f3e",
+ "hashes": {
+  "short": "7e58fed63e18cdb43ae4f252953a6a8e5a6262cdcb993ed8c66d8972ff285829",
+  "reel": "f7fb618256134d993c83e93e008c1207e8a15c673d2dbaa99b7aa1b696135ab8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886826933,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:36Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

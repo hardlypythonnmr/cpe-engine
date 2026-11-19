@@ -1,0 +1,22 @@
+{
+ "slug": "et-a-tree-no-weekend-plans",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "277802bc9b25bf1e1a9fca22c42e36edee85f5c5c5f30630d5e844d8533ad021",
+ "hashes": {
+  "reel": "b7275402d27ecf82ec06d9c81c67ca3f5fe05e007261ff42015ab0123d09e246"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681460016,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

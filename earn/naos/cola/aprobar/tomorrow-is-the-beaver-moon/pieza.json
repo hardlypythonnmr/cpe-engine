@@ -1,0 +1,40 @@
+{
+ "slug": "tomorrow-is-the-beaver-moon",
+ "titulo": "Tomorrow is the Beaver Moon",
+ "clave": "2026-11-23|tomorrow-is-the-beaver-moon",
+ "sale_utc": "2026-11-23T10:15:00Z",
+ "caption": "Tomorrow is the Beaver Moon, full at 14:53 UTC on November 24. Six things to set down before then.\n\nSave this. Comment \"release\" and say one to the window tomorrow night.\n\nLink in bio.\nby NMR\n#fullmoon #beavermoon #release #naos",
+ "descripcion": "",
+ "sintetico": false,
+ "linea": "afirmaciones",
+ "sin_cifras": false,
+ "cifras_fijas": true,
+ "datos_utc": "2026-11-17T12:00:00Z",
+ "fuente_cifras": "ephem next_full_moon('2026/11/17') = 2026-11-24 14:53:29 UTC; 'Beaver Moon' is the traditional name of the November full moon (Farmers' Almanac)",
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg",
+  "8.jpg",
+  "9.jpg"
+ ],
+ "alt": {
+  "1": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes looking up. The slide reads: Tomorrow is the Beaver Moon. Full at 14:53 UTC on November 24. Six things to set down first.",
+  "2": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: The name Named in the Farmers' Almanac for the beavers settling in for winter. Settle in. Set the rest down.",
+  "3": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: Release · replays Replays I let the conversation end where it ended.",
+  "4": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: Release · perfect Perfect I release perfect. Good is already here.",
+  "5": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: Release · hurry Hurry I put hurry down. The moon is never rushed.",
+  "6": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: Release · old yeses Old yeses I release every yes I gave to be liked.",
+  "7": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: Release · the scoreboard Scoreboard I release the scoreboard. I am not in a race.",
+  "8": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes closed. The slide reads: Release · permission Permission I release asking permission to take up space.",
+  "9": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: Six to set down. I let the conversation end. I release perfect. I put hurry down. I release every old yes. I release the scoreboard. I take up space. Save this. Say them to the window tomorrow night."
+ },
+ "revisiones": []
+}

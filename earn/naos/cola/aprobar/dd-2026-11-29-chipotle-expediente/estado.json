@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-29-chipotle-expediente",
+ "issue": 80,
+ "version": 5,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T20:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "e802ee9fcc1b599209dbef77b82b9b37f9930511b90a7de55df438a3e0fe790c",
+ "hashes": {
+  "carrusel": "d79e506fcc4f5c1ea281db7aa3af309166ceafb3f61aa3e918fb02f78afc4395"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6914676009,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-d",
+ "caducado_utc": "2026-11-16T11:06:05Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:13Z",
+ "issue_n_system": 1334
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "the-room-made-ready",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f6c716325a506fa9f9a11f90f419b7838dab40fea4377002db48d45a2a5283b8",
+ "hashes": {
+  "short": "6a8d006f1dcb91fb74d17422d9982a11dcd370aff526e610a69e112c05707f59",
+  "reel": "7b0ff03390a698aab58610f2d6361a199a2b9b4d6047c77ddc081baf56e8d9f4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870905267,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "one-ordinary-workday-in-seven-small-frictions",
+ "issue": 102,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-10T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1cee0cb107eb715470dd7472472435eef8e1d5529c8960cb4c4ee7819cfade4c",
+ "hashes": {
+  "short": "cdcc43665768452cb1e5f15b67bdd9df30d6a1ae08c4044908d4b1afc96bbb8b"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888395622,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "issue_n_system": 1415
+}

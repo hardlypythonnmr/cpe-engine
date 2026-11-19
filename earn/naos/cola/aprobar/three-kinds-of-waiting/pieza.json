@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-waiting",
+ "titulo": "Three ways to wait for a friend",
+ "clave": "2026-12-14|three-kinds-of-waiting",
+ "sale_utc": "2026-12-15T02:00:00Z",
+ "caption": "Three ways to wait for a friend\n\nI used to wait for friends with my face in my phone. Then I started just being there when they arrived.\n\nWhen someone arrives, the first few seconds of how they are met set the tone for the rest of the visit.\n\nFor whoever is calm while someone is late.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "When someone arrives, the first few seconds of how they are met set the tone for the rest of the visit.\n\nFor whoever is calm while someone is late.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and an orange mug on it, and a royal blue figure that walks in from the right, late, in each of three labeled scenes. The scroller: a teal figure looks down at a buzzing phone and the blue one says sorry, late! The sigher: a brown figure narrows its eyes and trembles, and says finally. The one who stays: an ink-black figure with happy eyes sits by a steaming mug and says no rush. The text stays: three kinds of waiting. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-waiting",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "esperar a alguien",
+ "blanco": "Cella (y quien espera con cara de reloj)",
+ "destinatario": "is calm while someone is late",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the scroller",
+  "the sigher",
+  "the one who stays"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

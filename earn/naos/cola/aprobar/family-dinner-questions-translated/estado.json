@@ -1,0 +1,22 @@
+{
+ "slug": "family-dinner-questions-translated",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "efec8a4201b8d6c47125fdd949319bd2c4a64691513545d4f1cfda6a95d7eaee",
+ "hashes": {
+  "carrusel": "adbefca58e220e9c34f89ffb9016bc53b9f06bff33d7c85704d191b5c16adb2e"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6681432454,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

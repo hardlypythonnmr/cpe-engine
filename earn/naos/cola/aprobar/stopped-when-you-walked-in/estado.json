@@ -1,0 +1,25 @@
+{
+ "slug": "stopped-when-you-walked-in",
+ "issue": 65,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2c7903a2243298df5ac8f017ac617e4b7781f41c9dbd8dd4ac5e7c9495c6c166",
+ "hashes": {
+  "short": "cd516fc84c9d1251c6b19c6706b951e7b068510688e0da2a34a48827472c7c85",
+  "reel": "a31e030baa5ae27fc45ffbd8819d8c0104d7802037de2f8fb53f38cc963ace24"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861497238,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "a1c-pilotos",
+ "aprobado_evento_utc": "2026-11-13T19:14:29Z",
+ "issue_n_system": 1161
+}

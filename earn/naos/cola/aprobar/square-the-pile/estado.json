@@ -1,0 +1,26 @@
+{
+ "slug": "square-the-pile",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b2a7cb374a4df5d2d02096af8887515101a165cb9d46737efaf4958de0292fdc",
+ "hashes": {
+  "short": "2ad441d830e047544756879dae88aa82c08172f4887c956f3075683678303efe",
+  "reel": "5b477c8c0807ae55d733835cb2f903bd5438c318fc7d7d73bf4691d88a5ea2ef"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886815585,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

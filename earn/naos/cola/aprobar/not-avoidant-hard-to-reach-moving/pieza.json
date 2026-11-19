@@ -1,0 +1,43 @@
+{
+ "slug": "not-avoidant-hard-to-reach-moving",
+ "titulo": "Not avoidant. Just very, very hard to reach.",
+ "clave": "2026-11-24|casa-puerta",
+ "sale_utc": "2026-11-24T22:15:00Z",
+ "caption": "Not avoidant. Just very, very hard to reach.\n\nNot avoidant. Just very, very hard to reach.\nOffice hours: never.\n\nCloser to yourself.\n\nMore of this: link in bio.\n\n#avoidant #attachmentstyles #relatable",
+ "descripcion": "Not avoidant. Just very, very hard to reach.\nOffice hours: never.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. Mint green background. Cella wears a small red crown and stands on top of a very tall, thin indigo column inside a white circle of light, looking down to her left. A second Cella of the same size stands on the floor at the left with a cardboard phone at her side. Big text at the top: Not avoidant. Just very, very hard to reach. The small Cella lifts the phone and a speech bubble that says ring floats up beside the column, then goes flat. A second bubble rises higher and goes flat. The crowned Cella glances down at it and straightens her crown. A third bubble rises almost to her and stops still, a hand's width away; she lowers her eyelids. The bubble sinks. The small Cella puts the phone on the floor and sits down. Both look at the camera: Hard to reach?",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "not-avoidant-hard-to-reach-moving",
+  "version": 8
+ },
+ "filo": "C",
+ "experimento": "storytelling-piloto-1511",
+ "envio": "the friend who answers once a week",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -4.9 dBFS, LRA 1.3 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

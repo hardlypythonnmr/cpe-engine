@@ -1,0 +1,26 @@
+{
+ "slug": "take-a-line",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-25T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "49bd86e99f8646d9595467aa06033ef2339a09f8acb1ab346da07d778e8f54b1",
+ "hashes": {
+  "short": "937356e9f8a7fcd130081b4a32366b3cb2fb79599ec973353a5c255ba705e8c5",
+  "reel": "3ced78211a6461d2df80406c3b8aa22e363d9d767ddad13d4f1671f990448f35"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886872692,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "agenda-first",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "75869547c65636386e638bd01aa5006cc8cf4e3ee2666934194729a59cfc4329",
+ "hashes": {
+  "short": "f8bf1d51ce08f966eb219531312f753c78e25e9be169a63d3e33a892d18a811d",
+  "reel": "16f56855bc6ce44c274385ac89df4a6413d0a494992971b19d5c90374c6a3efb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886811188,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

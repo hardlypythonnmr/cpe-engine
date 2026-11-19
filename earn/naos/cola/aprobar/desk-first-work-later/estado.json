@@ -1,0 +1,26 @@
+{
+ "slug": "desk-first-work-later",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4e365ec0a16be7b9ff792c2ae8352b19256184581245e1c20eee004adebcc1e2",
+ "hashes": {
+  "short": "c2218972b598c56bb0f9df18117ed4191b0faa897bd6e468e8155b5592da39ee",
+  "reel": "65dc428caa92829ab73cf3b870c02fd7b95c1a8f4b3df19f302f60d6167cf4c9"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870595744,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

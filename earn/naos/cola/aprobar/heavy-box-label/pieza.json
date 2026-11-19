@@ -1,0 +1,55 @@
+{
+ "slug": "heavy-box-label",
+ "titulo": "One word on the heavy box",
+ "clave": "2027-01-26|heavy-box-label",
+ "sale_utc": "2027-01-26T14:00:00Z",
+ "caption": "One word on the heavy box\n\nThe box looked light and wasn't. One word on a label, and whoever lifted it next knew.\n\nA label costs three seconds, and the next person to lift it won't have to find out the hard way.\n\nFor whoever writes heavy on the box for whoever lifts it next.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A label costs three seconds, and the next person to lift it won't have to find out the hard way.\n\nFor whoever writes heavy on the box for whoever lifts it next.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a big brown cardboard box, and a cream label that says heavy floating above it, tilted. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the label slides down onto the front of the box, which settles with a little wobble. Its eyes turn happy with a pulse. The text stays: me labeling it for whoever lifts it next.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "heavy-box-label",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ponerle un rotulo de pesado a la caja para quien la levante despues",
+ "blanco": "Cella y quien deja la caja sin avisar lo que pesa",
+ "destinatario": "writes heavy on the box for whoever lifts it next",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

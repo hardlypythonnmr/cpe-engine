@@ -1,0 +1,26 @@
+{
+ "slug": "locked-it-twice",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T15:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a61508a2a8cf611020b35aa0736650febc4fd1457f1907aac3a0c58c6827eae0",
+ "hashes": {
+  "short": "58fc1d481b3e381b572cb079f368bd9268e21d09fc44db44d100f91b9eb7debd",
+  "reel": "72b8d4eae405f539b13c9ccbb2317d5827a777ea78978977043109c698538149"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870593200,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

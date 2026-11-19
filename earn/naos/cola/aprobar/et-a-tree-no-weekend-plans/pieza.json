@@ -1,0 +1,72 @@
+{
+ "slug": "et-a-tree-no-weekend-plans",
+ "titulo": "This tree has no weekend plans. Looks fine to me.",
+ "clave": "2026-11-28|etereo",
+ "sale_utc": "2026-11-29T03:41:00Z",
+ "caption": "Why an empty Saturday is not a problem to fix: a tree with no plans.\n\nThis tree has no weekend plans. Looks fine to me.\n\nCloser to yourself.",
+ "descripcion": "",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: a small round figure looks straight at the camera in a dark blue room, then the camera whips to the window and slowly zooms in on a big tree at dusk. White words in the middle read: \"This tree has no weekend plans. Looks fine to me.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-a-tree-no-weekend-plans",
+  "version": 8
+ },
+ "filo": "P",
+ "envio": "someone embarrassed by an empty Saturday",
+ "destinatario": "someone embarrassed by an empty Saturday",
+ "experimento": true,
+ "experimento_prueba": "AB caption-tema: explícito, sin hashtags (D-376); control: etéreos del 15 al 22-nov (caption poético, con hashtags); lectura a 7 días el 2026-12-06",
+ "ab": {
+  "prueba": "caption-tema",
+  "brazo": "explicito",
+  "par": null,
+  "control": "etéreos del 15 al 22-nov (caption poético)",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-06T03:41:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "etéreos del 15 al 22-nov (con #naos y el del tema)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-06T03:41:00Z"
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.0 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "et-a-tree-no-weekend-plans: 8.00 s, -14.0 LUFS, pico -3.9 dBFS, texto 513 a 768 px (banda 168-1330, avisos 0), bucle: 26124 px con dif>24 y media 1.48/255; own music (motor/musica and motor/sonido, 0 credits), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, frame 0 readable without sound"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  }
+ ]
+}

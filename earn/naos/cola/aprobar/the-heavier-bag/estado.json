@@ -1,0 +1,25 @@
+{
+ "slug": "the-heavier-bag",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T15:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "52f5dc3e49726c7a2ee251229dac570690d58d6e9990df93b1b2611be3d555d4",
+ "hashes": {
+  "short": "8fa7fa9e22158a97879d773643d898a9a983859dec96752e6c4cf935d7c39b32",
+  "reel": "63ce24dae3a3c74f9cae8f1fc55171e033554c1b7b9f1d66dd01277fdc2acd86"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870901105,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

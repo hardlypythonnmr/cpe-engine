@@ -1,0 +1,25 @@
+{
+ "slug": "stop-the-beep",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "189f8354aaf131a3208e40786cba45c17f629b0127daad51f27272dc5ffa1b6a",
+ "hashes": {
+  "short": "86c35faf2457f624e4919017ade37f69ac44504e9173a25ec487c26f4e1d50f4",
+  "reel": "73a36009498f9efa17314596438a13f1417a7b4838069f664c9750de8331eb07"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863233443,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

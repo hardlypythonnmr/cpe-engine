@@ -1,0 +1,26 @@
+{
+ "slug": "ask-how-they-take-it",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T21:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "984d8517d5f10c32604ca57602dd6a70899fefea93d31efa81241aa89c0cba35",
+ "hashes": {
+  "short": "78b4653ff1edb9adc740e1e3601252217d759a728728cbce31a19002ac078b46",
+  "reel": "29a3b0285fbcc8fe857697b6d4ef1c72adba079688d668bfc660fc33bb6708de"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886851387,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

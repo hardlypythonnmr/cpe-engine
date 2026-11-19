@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-06-verizon-lamina",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T19:30:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "eb9d8389c1477f2ad03221ccf2fc0da211e362cae4277a1ba10930c5839e1d5e",
+ "hashes": {
+  "imagen": "415d9700122f6030953c8bad0660dff34f95b39ad7fc9a5cd7543a7b90c3afd8"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6914691934,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "bag-in-and-shut",
+ "titulo": "The bag inside, the door shut",
+ "clave": "2027-02-18|bag-in-and-shut",
+ "sale_utc": "2027-02-18T18:25:00Z",
+ "caption": "The bag inside, the door shut\n\nThe bag was waiting on the doorstep. One hop inside, the door shut, and the hallway never felt the cold.\n\nA bag brought in right away takes ten seconds, and the door is open for only two of them.\n\nFor whoever brings it in right away and shuts the door.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A bag brought in right away takes ten seconds, and the door is open for only two of them.\n\nFor whoever brings it in right away and shuts the door.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a closed cream door on the right. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the door swings open onto warm light and a brown paper grocery bag with an orange sticking out of it standing on the step. The bag hops in an arc onto the hall floor and the door swings shut behind it with a small sparkle above. Its eyes turn happy with a pulse. The text stays: me, bringing it in and shutting the door.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "bag-in-and-shut",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "meter la bolsa de la entrada enseguida y volver a cerrar la puerta",
+ "blanco": "Cella y quien deja la puerta abierta mientras entra las cosas de a poco",
+ "destinatario": "brings it in right away and shuts the door",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 15 al 19-feb (tanda febd, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febd"
+}

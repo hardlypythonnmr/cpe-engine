@@ -1,0 +1,64 @@
+{
+ "slug": "door-trash-night-take-one",
+ "titulo": "One bag by the door: who says it first?",
+ "clave": "2027-01-17|casa-puerta",
+ "sale_utc": "2027-01-17T17:00:00Z",
+ "caption": "One bag by the door: who says it first?\n\nOne full bag by the door. Three of us walk past it, and nobody says anything. Then Cella says it, and takes the bag down.\n\nFor whoever says it first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #choosefriction",
+ "descripcion": "One full bag by the door. Three of us walk past it, and nobody says anything. Then Cella says it, and takes the bag down.\n\nFor whoever says it first.\n\nNAOS · Choose friction. by NMR\n#naos #choosefriction #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background in an entryway. At the top, the words: 1 bag by the door. For whoever says I'll take it out. Three small doorway-shaped figures with white eyes stand in a row on the left, each a different color, and a full black trash bag sits by a closed door on the right. The words appear one line at a time: it's full. Three of us walk past (each figure steps toward the bag, then turns away and a small glowing phone appears in front of it). Nobody says it (three empty speech bubbles with dots). I'll take it out (the nearest figure says it in a speech bubble, leans in, the door swings open and the bag slides out through it). The other two smile and a star appears. The closing line: for whoever says it first. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella said it first. Somebody else was about to.",
+ "casa": {
+  "id": "door-trash-night-take-one",
+  "version": 7
+ },
+ "evolucion": "Tres apuestas (junta-ene-s3, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. (c) Hora (apuesta 3a): tres Shorts a las 23:00Z contra tres a las 17:00Z; sin el si de N salen todos a las 17:00Z y el campo apuesta_hora de pieza.json dice cual es el brazo.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "20.27 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 33 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 3.8 LU; mono fold (0.5 L + 0.5 R) -17.0 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.0 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s3, section 3)",
+   "estado": "OK",
+   "nota": "Tres apuestas (junta-ene-s3, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. (c) Hora (apuesta 3a): tres Shorts a las 23:00Z contra tres a las 17:00Z; sin el si de N salen todos a las 17:00Z y el campo apuesta_hora de pieza.json dice cual es el brazo."
+  }
+ ],
+ "gancho_brazo": "A",
+ "apuesta_hora": {
+  "eje": "hora (junta-ene-s3, 3a)",
+  "brazo": "17:00Z",
+  "sale_utc_sin_si": "2027-01-17T17:00:00Z",
+  "nota": "control de 17:00Z de la apuesta de la hora."
+ }
+}

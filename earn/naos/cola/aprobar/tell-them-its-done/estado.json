@@ -1,0 +1,26 @@
+{
+ "slug": "tell-them-its-done",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-24T16:05:00Z",
+ "datos_utc": "",
+ "hash_contenido": "47a3ab7b5392377ab22754cdc0d671984c61a91714ce162ac2e105c0a5ecc8da",
+ "hashes": {
+  "short": "d64272b34419a3ecfeba52cb91be44d5bbfc4f087fd1712be4e882066caa1e42",
+  "reel": "f87ae26353e889c6472f136f1e64783b0447d05e5f5f17c7816f3e08f6526368"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886876118,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

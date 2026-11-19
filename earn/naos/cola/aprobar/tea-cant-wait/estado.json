@@ -1,0 +1,26 @@
+{
+ "slug": "tea-cant-wait",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-14T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0447494d8deb30c92bdf245d8c25695b3f87e8f51eb380870c9eb46a03926024",
+ "hashes": {
+  "short": "7304af8343893398aa55c49f48be9c19d6b66de59090f42dcb7178beb4892e15",
+  "reel": "e03318a27b5e25dcf51cea4085df869145b628c0b35520f043711511ae5be30e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886961428,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

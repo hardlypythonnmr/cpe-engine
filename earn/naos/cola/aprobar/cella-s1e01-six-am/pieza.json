@@ -1,0 +1,42 @@
+{
+ "slug": "cella-s1e01-six-am",
+ "titulo": "Day one, 6:00 a.m.",
+ "clave": "2026-12-01|casa-alcoba",
+ "sale_utc": "2026-12-08T22:30:00Z",
+ "caption": "Day one, 6:00 a.m.\nThe shoes waited by the door. So did the coffee.\nHow many snoozes?\n\nChoose friction.\n\nMore of this: link in bio.\n\n#relatable #mornings #cella",
+ "descripcion": "Day one of the routine began at 6:00 a.m.\nThe shoes waited by the door. So did the coffee.\nHow many snoozes?\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A lavender bedroom. A round warm bed, and Cella, a black doorway-shaped figure with white eyes, peeks out over a green blanket. A red alarm clock with two bells rings and bounces on a small table on the left. A cup of coffee steams on a shelf above it, a wall clock says 6:00, and a pair of white sneakers waits by a door on the right. Text: 6:00 a.m. Day one. Cella leans toward a cold tiled floor with a thin line of warm light, then toward the warm bed. Text: Five more minutes. A second Cella, the same black figure with a red crown, steps in from the right edge a short distance from her, tilts the crown toward the bed, then leaves; Cella looks at the cold floor, then back at the bed, and only glances sideways after the other one is gone. Cella rolls onto her side, one soft black rounded block with white eyes sunk in the bed, and covers the alarm clock with her body. Text: Resting. I'm great at it. The wall clock jumps to 9:00 and 11:40 and sunlight crosses the room. At 6:12 p.m. the light is orange. Cella stands by the table, the coffee has stopped steaming and the sneakers have not moved; a huge cold cup rises in front of her and she peeks over its rim. Text: Even the coffee gave up on me. Morning again: the wall clock says 6:00 a.m., the alarm rings and bounces, the cup steams, Cella blinks and looks left. Text: How many snoozes?",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cella-s1e01-six-am",
+  "version": 8
+ },
+ "filo": "medio",
+ "envio": "the friend with five alarms",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "50.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 22 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.5 dBFS, LRA 2.0 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "notes-app-four-hundred-ideas",
+ "titulo": "Your notes app: 400 ideas, one grocery list.",
+ "clave": "2026-11-22|notes-app-four-hundred-ideas",
+ "sale_utc": "2026-11-22T22:20:00Z",
+ "estado": "por-aprobar",
+ "caption": "Your notes app: 400 ideas, one grocery list. Cella respects the list.\nby NMR\n#notesapp #relatable #cella",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Cella with a crown under a spotlight, large, beside a lavender phone. Your notes app: 400 ideas, one grocery list.",
+ "tipo_imagen": "F5 Una linea · autoayuda y hábitos (arquetipo: el que anota todo y no hace nada) · dom 22-nov",
+ "aspecto": "4x5",
+ "formato": "una-linea",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-huecos (huecos del 17-nov (decisión de N, 12-nov-2026))",
+ "hueco": "dom 22-nov",
+ "filo": "C",
+ "tema": "autoayuda y hábitos (arquetipo: el que anota todo y no hace nada)",
+ "destinatario": "the friend with 400 notes and one grocery list",
+ "mecanica_crecimiento": "enviar · destinatario: the friend with 400 notes and one grocery list",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-huecos/hojas/ and juez.md"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-359: archetypes only, no real person or protected group, no health, grief, loneliness or body; Cella without hands and never next to a black object"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words; 50 words or fewer; 3 hashtags; no comment bait"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

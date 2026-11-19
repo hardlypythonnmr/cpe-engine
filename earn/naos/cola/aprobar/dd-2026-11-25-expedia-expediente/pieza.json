@@ -1,0 +1,89 @@
+{
+ "slug": "dd-2026-11-25-expedia-expediente",
+ "titulo": "Expedia (Feb 2024): $1.8 billion buying back its own stock, about 1,500 jobs planned cuts. The math.",
+ "clave": "2026-11-25|mercury|expediente|2026-11-25-expedia-expediente",
+ "sale_utc": "2026-11-25T21:00:00Z",
+ "caption": "From the archive: Feb 2024. Not today's news.\nExpedia, Feb 26, 2024 (Expedia Group, Form 8-K): \"restructuring actions to recalibrate resources\"\nExpedia Group said in an SEC filing on Feb. 26, 2024 that it committed to restructuring actions, including a workforce reduction impacting approximately 1,500 employees. The buyback figure is from its 2024 Form 10-K.\n\nSame year: $1.8 billion buying back its own stock, 2024, company-wide. $1.8 billion of cash paid to acquire shares during 2024, company-wide (Form 10-K).\nThe math: $1.8 billion in buybacks (2024) ÷ about 1,500 job cuts = about $1.2 million in buybacks per planned job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.8 billion is the cash Expedia reports paying to acquire shares in 2024, company-wide, rounded by the company. The 1,500 employees are the filing's estimate. We are not saying one paid for the other.\n\nResources recalibrated. Here is the buyback column. (Our take.)\n\nFor someone whose employer once recalibrated its resources.\n\nSources: SEC EDGAR · Expedia, Feb 26, 2024; SEC EDGAR · Expedia, Feb 7, 2025.\n\nSwipe: the sentence, the number, the math, our take.\n\nLink in bio.",
+ "descripcion": "From the archive: Feb 2024. Not today's news.\nExpedia, Feb 26, 2024 (Expedia Group, Form 8-K): \"restructuring actions to recalibrate resources\"\nExpedia Group said in an SEC filing on Feb. 26, 2024 that it committed to restructuring actions, including a workforce reduction impacting approximately 1,500 employees. The buyback figure is from its 2024 Form 10-K.\n\nSame year: $1.8 billion buying back its own stock, 2024, company-wide. $1.8 billion of cash paid to acquire shares during 2024, company-wide (Form 10-K).\nThe math: $1.8 billion in buybacks (2024) ÷ about 1,500 job cuts = about $1.2 million in buybacks per planned job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.8 billion is the cash Expedia reports paying to acquire shares in 2024, company-wide, rounded by the company. The 1,500 employees are the filing's estimate. We are not saying one paid for the other.\n\nResources recalibrated. Here is the buyback column. (Our take.)\n\nSources:\n- SEC EDGAR · Expedia, Feb 26, 2024: «committed to restructuring actions to recalibrate resources in light of the Company’s organizational and technological transformation.» and «a workforce reduction impacting approximately 1,500 employees» https://www.sec.gov/Archives/edgar/data/1324424/000132442424000009/expe-20240222.htm\n- SEC EDGAR · Expedia, Feb 7, 2025: «Cash used in financing activities in 2024 primarily included $1.8 billion of cash paid to acquire shares» https://www.sec.gov/Archives/edgar/data/1324424/000132442425000008/expe-20241231.htm",
+ "alt": "Five paper-colored cards. 1: Expedia, Feb 26, 2024, the quote \"restructuring actions to recalibrate resources\" struck through in dark red, and the words Then the math. 2: the full sentence with its context and source. 3: the number, $1.8 billion buying back its own stock, 2024, company-wide. 4: the division, ending in $1.2 million in buybacks, per planned job cut, on a yellow highlight. 5: our take: \"Resources recalibrated. Here is the buyback column.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "expediente",
+ "formato": "carrusel",
+ "origen": "c2/linea/biblioteca/bib3-expedia-2024-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442424000009/expe-20240222.htm",
+   "medio": "SEC EDGAR · Expedia",
+   "titulo": "Expedia Group Form 8-K, item 2.05",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442425000008/expe-20241231.htm",
+   "medio": "SEC EDGAR · Expedia",
+   "titulo": "Expedia Group Form 10-K for 2024",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "tipo": "carrusel",
+ "lado": "empleado",
+ "tema": "Expedia (Feb 2024): cutting about 1,500 jobs, in stock buybacks per job cut",
+ "banco_archivo": {
+  "caso": "expedia-2024-layoffs",
+  "rotulo_fecha": "ARCHIVE · FEB 2024",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/expedia-2024-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-expedia-2024-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-expedia-2024-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "A es la cifra redondeada por la propia empresa ($1.8 mil millones de efectivo para adquirir acciones); B about 1,500; la frase se muestra recortada pero literal."
+  ]
+ }
+}

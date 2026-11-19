@@ -1,0 +1,56 @@
+{
+ "slug": "catch-them-up",
+ "titulo": "The whole situation in one line",
+ "clave": "2027-02-02|catch-them-up",
+ "caption": "She walked in ten minutes late. Someone gave her the whole situation in one line, and she sat down already in it.\n\nA one-line recap lets a latecomer join the thread instead of guessing at it.\n\nFor whoever catches the latecomer up.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A one-line recap lets a latecomer join the thread instead of guessing at it.\n\nFor whoever catches the latecomer up.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A stairwell. A ink-black block figure with white eyes waits on the left while a royal blue block figure walks in from the right. A bubble from the black one says we're on page three. The blue one opens its eyes wide and a bubble says thanks, I'm in! Both end with happy eyes. The text stays: me catching you up.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "catch-them-up",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -4.3 dBFS, LRA 3.4 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ponerle al dia en una frase a quien llega tarde",
+ "blanco": "Cella y quien llega tarde y tiene que adivinar",
+ "destinatario": "catches the latecomer up",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "usada",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (febrero de 2027, tanda feb-b) · Opus 14, 14-nov: programada 2027-02-02T22:15:00Z (lote feb-0108)"
+ },
+ "tanda_origen": "feb-b",
+ "sale_utc": "2027-02-02T22:15:00Z"
+}

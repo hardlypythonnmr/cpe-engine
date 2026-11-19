@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-04-general-motors-lamina",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T19:30:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "95f9d5326fb1dca3da98f71b3d8b48db113622d542f401181efe1f83997e9838",
+ "hashes": {
+  "imagen": "7d88c1a7a0885d3f49ca265bea1532f43c51d41da5956057d690760bfa25da7b"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6890744319,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

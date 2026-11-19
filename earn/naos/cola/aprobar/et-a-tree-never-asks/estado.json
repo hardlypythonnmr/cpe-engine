@@ -1,0 +1,22 @@
+{
+ "slug": "et-a-tree-never-asks",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "07b7722ad47fdcc1c99d7c3d52b8da39a08f693a66315b9ed62f1cf55ed713e8",
+ "hashes": {
+  "reel": "ebd9a5b5fec3528b268cc30f68ae02e83df531b22ae666fce53ed3013ea1bf72"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681434635,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

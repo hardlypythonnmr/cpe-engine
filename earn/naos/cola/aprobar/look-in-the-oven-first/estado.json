@@ -1,0 +1,26 @@
+{
+ "slug": "look-in-the-oven-first",
+ "issue": 94,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-05T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7651dda86bfb4a3872dd5d6592134649cf19485e8b7d829df639b7aeb45d2b9f",
+ "hashes": {
+  "short": "1b3c054ed7651f7637b7239f0ab64912555cbee9d9cca52979c53bc39a96eb46",
+  "reel": "c09d5d2fef0b8ad165b8cedc7d287f3c3991273399bcd7b8c6bb6d7b82514e79"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886902909,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0508",
+ "caducado_utc": "2026-11-15T00:52:51Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1371
+}

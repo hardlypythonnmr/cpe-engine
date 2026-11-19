@@ -1,0 +1,54 @@
+{
+ "slug": "first-line-out",
+ "titulo": "Me deleting my first sentence",
+ "clave": "2026-12-01|first-line-out",
+ "caption": "Me deleting my first sentence\n\nThe opening line of a message is often the writer clearing their throat. Cut it and the rest usually reads clearer.\n\nFor the friend whose texts always start with sorry, random, but.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "The opening line of a message is often the writer clearing their throat. Cut it and the rest usually reads clearer.\n\nFor the friend whose texts always start with sorry, random, but.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. A small ink-black block figure with white eyes stands on the left. A speech bubble says sorry, random, but and the words are deleted from the end, one by one, until only sorry is left and then nothing. Then a new bubble says dinner Friday? and the figure's eyes go happy with a small pulse. It looks at the camera, then settles back exactly where it started, so the film can repeat without a cut. The text stays: me deleting my first sentence.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "first-line-out",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 5 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "escribir (borrar la frase de calentamiento)",
+ "blanco": "Cella (y quien abre cada mensaje pidiendo perdón)",
+ "destinatario": "the friend whose texts always start with sorry, random, but",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "bucle": "empalme",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-01T13:00:00Z",
+ "pie": "More of this: link in bio."
+}

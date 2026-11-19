@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-telling-a-story",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-23T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "00c2099dfe9af99756a37ccd047fd83240a6d80f986bfe0b897c2f53249f6540",
+ "hashes": {
+  "short": "47eb8f0c9c439ab17f5794ac49e661f4ab8de49caa771740ce51005c5eed4908",
+  "reel": "647b432e6e82b811897ac4f1fab1c95cb712544541082d68b81b93ca1a623482"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886955822,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

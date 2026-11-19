@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-not-knowing",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-21T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6432b98620859c785519cae2e3d3bd67642935ccaf648030fc2b4b2fc8e5ddf3",
+ "hashes": {
+  "short": "fba8cb005a2ffa31011d01c9050160010653929e755f4340caededd71a02fdd8",
+  "reel": "7a13334011bf01a9430c9203ee29309fc7fca47bd1751caaa7a605d9f36fe22c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886954553,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

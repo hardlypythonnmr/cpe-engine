@@ -1,0 +1,42 @@
+{
+ "slug": "cella-s1e03-takeout",
+ "titulo": "I planned 7 flawless dinners",
+ "clave": "2026-12-15|casa-cocina",
+ "sale_utc": "2026-12-15T22:15:00Z",
+ "caption": "I planned 7 flawless dinners\n\nI'm basically a regular everywhere that delivers.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#mealprep #cella",
+ "descripcion": "I'm basically a regular everywhere that delivers.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An amber kitchen on a Sunday night. Cella, a black doorway-shaped figure with white eyes, stands in the middle with a long list stuck to her body. On the wall above her hangs the budget sheet, in monospace, reading Food: $200; a shelf holds seven identical lidded boxes in a row; a phone leans on the floor showing a chef hat and a full level bar. Two closed doors flank her: a low wooden door on the left and a wide, padded red door on the right. Text: I planned 7 flawless dinners. Both doors open. Through the wooden one: a cold stove with a pan, a cutting board with an untouched tomato and onion. Through the red one: a warm paper bag and a coffee cup peek out. Cella looks at the wooden door, back to the padded one, leans toward it and rests her body on the phone. Text: I'm too brilliant to chop tonight. A wall calendar flips its pages quickly, and with every page one more paper bag lands in a tidy block of five rows of five beside the red door: 25. A long receipt slides out of the phone and sticks to Cella, who looks at it sideways: Month: $410, below the sheet that says Food: $200. Text: Takeout this week?",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cella-s1e03-takeout",
+  "version": 8
+ },
+ "filo": "medio",
+ "envio": "the friend whose Sunday meal prep ends in takeout",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "17.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.1 dBFS, LRA 2.3 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

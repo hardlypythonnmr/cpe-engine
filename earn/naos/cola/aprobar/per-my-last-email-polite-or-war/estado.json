@@ -1,0 +1,22 @@
+{
+ "slug": "per-my-last-email-polite-or-war",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fc5bdc9857ec8db247ce053540dba28d9f4a0a6e59caa676bbbbae8dfd1be30d",
+ "hashes": {
+  "imagen": "bb0d6347e9149af538b8134232abf10f75d41513178746bb93d1925d3bda6f8e"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681426653,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

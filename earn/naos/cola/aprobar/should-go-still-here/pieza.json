@@ -1,0 +1,54 @@
+{
+ "slug": "should-go-still-here",
+ "titulo": "I should go. Still here",
+ "clave": "2026-12-13|should-go-still-here",
+ "caption": "I should go. Still here\n\nI should go. Still here.\n\nAfter a conversation, people tend to underestimate how much the other person enjoyed it, so staying a little longer is rarely the imposition it feels like.\n\nFor whoever stays for one more story.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "I should go. Still here.\n\nAfter a conversation, people tend to underestimate how much the other person enjoyed it, so staying a little longer is rarely the imposition it feels like.\n\nFor whoever stays for one more story.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right. The black one says I should go, the blue one says stay!, the black one says one more story, then I really should go, and the blue one says one more! Both end with happy eyes. In the last seconds the text changes from: me saying I should go, to: 11:40. still here.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "should-go-still-here",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 1.9 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "quedarse un rato mas con alguien",
+ "blanco": "Cella (y quien dice 'I should go' y se queda)",
+ "destinatario": "whoever stays for one more story",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-13T13:00:00Z"
+}

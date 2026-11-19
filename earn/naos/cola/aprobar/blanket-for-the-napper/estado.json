@@ -1,0 +1,25 @@
+{
+ "slug": "blanket-for-the-napper",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e5a2079cd607bba92974566ad129843cf18ccf408367fbc2b97b842af6342f46",
+ "hashes": {
+  "short": "1f3b667de3696c3678073242cebcb611adccebb9b2ef4ffc71e97e15c9d19d62",
+  "reel": "9843f893bf8c4adfd53daaa48a74caed8431312cbbfb691aefbd1d3e8e0f4ab8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870895773,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

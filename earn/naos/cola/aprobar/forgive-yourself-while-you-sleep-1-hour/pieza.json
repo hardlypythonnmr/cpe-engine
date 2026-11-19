@@ -1,0 +1,96 @@
+{
+ "slug": "forgive-yourself-while-you-sleep-1-hour",
+ "titulo": "Forgive Yourself While You Sleep | 1 Hour Affirmations, Rain",
+ "clave": "2026-11-23|afirmaciones-dormir-perdonarte",
+ "sale_utc": "2026-11-23T02:30:00Z",
+ "caption": "Forgive Yourself While You Sleep | 1 Hour Affirmations, Rain\n\nOne hour of self-forgiveness affirmations for sleep, with rain. The screen goes dark after the first round. YouTube long video, 16:9. No Reel cut in this package.\n\nby NMR",
+ "descripcion": "One hour of self-forgiveness affirmations for sleep, with rain. A soft, slow voice says thirty first-person affirmations for forgiving yourself (\"I forgive myself for what I didn't know then\", \"I did the best I could with what I had\", \"I let today be over\"), each one two or three times with long pauses, so you can repeat them in your head or just let them wash over you. Voice, music and picture made with code by NAOS, no samples.\n\nFor the first 10 minutes each affirmation appears on screen while it is said. Then the picture goes dark, the affirmations come back in a new order, a little slower each round, and after 30 minutes the voice slowly gets quieter until nothing is left but the rain. Put it on, turn the brightness down, and let it run.\n\nBackground: steady rain, a few closer drops and a low rumble.\n\nWays to use it: in bed with the screen turned away; on a speaker at low volume (it is mixed quieter than our daytime videos); or on the nights your mind keeps talking to you. It is a video, not a treatment: if sleep or how you feel is hard every night, talk to someone you trust or a doctor.\n\nChapters\n0:00 Round 1: thirty affirmations, the words on screen\n9:50 Round 2: the same affirmations in a new order, slower\n20:34 Round 3: the same affirmations in a new order, slower\n32:18 Round 4: the same affirmations in a new order, slower, the voice getting quieter\n45:02 Round 5: the same affirmations in a new order, slower, the voice getting quieter\n58:44 Closing line, then only the rain\n\nVoice: synthetic (ElevenLabs), a woman's voice. The affirmations are written by NAOS. Corrections welcome.\nNAOS · Closer to yourself. by NMR\n#affirmations #sleep #selfforgiveness",
+ "tipo": "AFIRMACIONES",
+ "sintetico": false,
+ "alt": "A film of one hour, 16:9, made for sleep. Under a starry night sky with the real moon of the night, a small yellow figure in a blue nightcap with closed eyes breathes slowly beside a little house with lit windows; fine rain falls across the whole picture. For the first 10 minutes each affirmation appears in large serif letters at the bottom while a woman's synthetic voice says it slowly; then the picture darkens and only the voice and the rain remain. The cover shows the night scene with the words \"Forgive yourself\" in large yellow letters and \"while you sleep · 1 hour\" under it.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "largo",
+ "linea": "afirmaciones",
+ "familia": "dormir",
+ "capitulos": [
+  {
+   "inicio": "0:00",
+   "titulo": "Round 1: thirty affirmations, the words on screen"
+  },
+  {
+   "inicio": "9:50",
+   "titulo": "Round 2: the same affirmations in a new order, slower"
+  },
+  {
+   "inicio": "20:34",
+   "titulo": "Round 3: the same affirmations in a new order, slower"
+  },
+  {
+   "inicio": "32:18",
+   "titulo": "Round 4: the same affirmations in a new order, slower, the voice getting quieter"
+  },
+  {
+   "inicio": "45:02",
+   "titulo": "Round 5: the same affirmations in a new order, slower, the voice getting quieter"
+  },
+  {
+   "inicio": "58:44",
+   "titulo": "Closing line, then only the rain"
+  }
+ ],
+ "titulo_ab": "Self-Forgiveness Affirmations for Sleep | 1 Hour with Rain",
+ "comentario_fijado": "What are you putting down tonight? One word is enough.",
+ "mecanica_crecimiento": "guardar para la noche; envío: the friend who keeps replaying one mistake",
+ "envio": "the friend who keeps replaying one mistake",
+ "experimento": true,
+ "experimento_prueba": "largos de afirmaciones para dormir (ENCARGO 17-nov): tres temas con tres fondos la misma semana; lectura a 7 y 14 días de vistas, minutos vistos y duración media contra los largos de mantras",
+ "casa": {
+  "id": "afirmaciones-dormir-perdonarte",
+  "version": 8,
+  "produccion": "empresa/afirmaciones/dormir"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "3600.08 s, 1920x1080, 24 fps, H.264 + AAC stereo 48 kHz, 200.5 MB; 5 rounds, 348 spoken lines from 96 takes (3 per line)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-18.2 LUFS integrated (sleep target -18, like the sleep mantras), true peak -1.5 dBTP, LRA 11.6 LU (ffmpeg ebur128, peak=true, on the video's audio); voice -12 dB from minute 30 to 60"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "dormir-mujer (new ElevenLabs voice designed for sleep), eleven_v4, 3 takes per line so the repeats are not identical; slowed to 0.87 with rubberband (formants kept), slower and calmer. N to listen"
+  },
+  {
+   "que": "Background",
+   "estado": "OK",
+   "nota": "lluvia: own, made with code (motor/fondo.py), seamless 5-minute loop, no third-party samples"
+  },
+  {
+   "que": "Text on screen",
+   "estado": "OK",
+   "nota": "Newsreader 96 px in the dark band at the bottom, until 10:40; then an 8 s fade to the dark loop"
+  },
+  {
+   "que": "Claims",
+   "estado": "OK",
+   "nota": "no promise of sleep, health or cure; the description says it is a video, not a treatment, and points to someone you trust or a doctor; 432 Hz and delta named as what they are, without a promise (D-527)"
+  },
+  {
+   "que": "Repetition",
+   "estado": "OK",
+   "nota": "one scene for the whole hour (ENCARGO); the voice changes order and take every round; the picture is a 32 s loop. N to watch for the repetitive-content risk at the first reading"
+  }
+ ]
+}

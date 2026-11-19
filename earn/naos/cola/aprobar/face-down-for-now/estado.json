@@ -1,0 +1,23 @@
+{
+ "slug": "face-down-for-now",
+ "issue": 26,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T08:51:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1204fa1a481c766fde4eeb46a5500659c04fc83cd80a576b8cb6d5066b7197e6",
+ "hashes": {
+  "historia": "71c9c9df2395ffff84ec7207d2fab65eea6add4f57c4a2fef6bc72bcc0fed264"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6951734528,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17-tendencia",
+ "aprobado_evento_utc": "2026-11-17T16:47:28Z",
+ "issue_n_system": 1760
+}

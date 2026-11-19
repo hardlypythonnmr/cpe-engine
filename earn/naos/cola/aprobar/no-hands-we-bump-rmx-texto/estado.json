@@ -1,0 +1,25 @@
+{
+ "slug": "no-hands-we-bump-rmx-texto",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T20:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "414ba90d0b79e8684ae2fd40f87683d5553b7464e6a7cfc310c95363991e2851",
+ "hashes": {
+  "short": "aa45c63e064850a7b5010bfe10dc7ac3aac7ce2c6589156f2e26354ced9017c4",
+  "reel": "e7fc2c07c2b9cc4c7a8f42c287acc7eb53b52eb9ab8d2fe6f5442e4f06838405"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956597096,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "house-gossip-moon-fasting-week",
+ "issue": 117,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T21:30:00Z",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "hash_contenido": "86eddbf4c2b62259fa2f00e411ad8b4e639ee7f717b3c6729a5f3f869a4ce50a",
+ "hashes": {
+  "short": "08f9ba7711fd7d7c93866b215174f15b6f81dc966907d02f4c1bd744077df2f5"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016191774,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "historias-c4-1119",
+ "aprobado_evento_utc": "2026-11-19T17:06:39Z",
+ "issue_n_system": 1813
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "om-namah-shivaya-108-times-sing-along",
+ "issue": 114,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T12:47:00Z",
+ "datos_utc": "",
+ "hash_contenido": "87aae18a885613906a9cf9653e25356cfae7f10884d9d627cb8f3658286dc8c5",
+ "hashes": {
+  "short": "61b99a2e09eb0ac519a3268a54614a50e35a738469d986e5703c276b4f79de78"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6966468186,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "largos-mantras-25-nov-2-dic",
+ "caducado_utc": "2026-11-18T01:44:16Z",
+ "aprobado_evento_utc": "2026-11-18T12:39:05Z",
+ "issue_n_system": 1779
+}

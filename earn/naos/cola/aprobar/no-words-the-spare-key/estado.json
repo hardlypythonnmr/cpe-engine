@@ -1,0 +1,25 @@
+{
+ "slug": "no-words-the-spare-key",
+ "issue": 99,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-09T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0545f8a35c0a1fa1945a87446808b123ff9adf90e5a607223c1b1dd6ee6c86aa",
+ "hashes": {
+  "short": "8724ada2d2c828158197b18a95b5a04012b7a4e2c198d4ad35b405c00778de38",
+  "reel": "6f199724709f5dfb6db808dc19786008cd2ad612db00dd976a2df79c7f74a6ff"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886626124,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "issue_n_system": 1409
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "tell-them-its-done",
+ "titulo": "One short message: it's done",
+ "clave": "2027-01-24|tell-them-its-done",
+ "sale_utc": "2027-01-24T16:05:00Z",
+ "caption": "One short message: it's done\n\nThe job was done and nobody knew. One short message flew over, and the phone lit up on the other end.\n\nTelling someone it's finished takes five seconds, and they can stop wondering and move on.\n\nFor whoever tells them it's done instead of hoping they notice.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Telling someone it's finished takes five seconds, and they can stop wondering and move on.\n\nFor whoever tells them it's done instead of hoping they notice.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a phone standing on the right. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide and a small bubble that says done appears near it, hops across the table and lands above the phone. The phone buzzes and rings out, and the figure's eyes turn happy with a pulse. The text changes from: me: it's done. they'll notice, to: me: it's done. told them.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "tell-them-its-done",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "avisar que ya terminaste en vez de esperar a que se den cuenta",
+ "blanco": "Cella y quien termina y no le dice a nadie",
+ "destinatario": "tells them it's done instead of hoping they notice",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

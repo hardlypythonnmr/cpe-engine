@@ -1,0 +1,26 @@
+{
+ "slug": "coaster-first",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T02:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "dcb154ebbd652fcf1afbd48435c8904a12a8307d1e9616ef188eaa51182f4efc",
+ "hashes": {
+  "short": "fc563751f29032f3400417a444f18f4f42eacb5c84fd451d12e70b07afce0733",
+  "reel": "575dd7f97da60d47d63c4dc768674b88b7f5c8c8047819757ebb72c10ada6b26"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886852290,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

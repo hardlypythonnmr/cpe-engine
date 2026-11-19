@@ -1,0 +1,26 @@
+{
+ "slug": "read-the-sign",
+ "issue": 77,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-20T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2519abb1d5344c57d617b0e6c83bd34f25fb1ba85f3222f4df8fe9dec96c690f",
+ "hashes": {
+  "short": "10b64ae27900f25c70e8344f7e79eebb3159f3689fb668e5c18ff0a2aa460eb4",
+  "reel": "87571fd327f32d1653e5376218809ea71a2a2b1c41666e6049bd282e6c8df322"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886936987,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-1411",
+ "caducado_utc": "2026-11-15T00:55:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1286
+}

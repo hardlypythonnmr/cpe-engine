@@ -1,0 +1,25 @@
+{
+ "slug": "no-hands-we-bump-rmx-color",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T04:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8c2ea8917334f988d3e6429b1e0e03d150dd9dc1e374b158461f91a86d1e9801",
+ "hashes": {
+  "short": "8d3c5303807ecd6d784aea5cb67e4fdd4e833b0668dd096eebf7ed12ff953855",
+  "reel": "28e1ea2c98d42d05b38ac8333c68c48270d451a9ec8b061d66365276ca408e29"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956593394,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

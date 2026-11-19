@@ -1,0 +1,22 @@
+{
+ "slug": "before-you-answer-what-now",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e52ace52ba5ef37353ee318661533cbd99dbc4ff7cf4501b2497ba30b8422e84",
+ "hashes": {
+  "carrusel": "00a25df207d7f6d5077d3f0840f53ebcdad835ef602fdae0b729cdfed8e51a7e"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6681445296,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

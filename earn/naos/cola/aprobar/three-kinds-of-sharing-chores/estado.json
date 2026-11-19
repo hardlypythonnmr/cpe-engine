@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-sharing-chores",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-24T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "937040b07e9f4c8e26b750f1a81294ad9787f6a6afb36ef5868786b5b226fff0",
+ "hashes": {
+  "short": "b4e2105f1d81210532cc924bb0934fe6cac4aff63b824de798af348598a57f4f",
+  "reel": "abf34dc32c87473051f3b2b3f3a445294a2ea22bb8cfe997ba16daed97704509"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886954992,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

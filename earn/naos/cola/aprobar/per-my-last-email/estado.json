@@ -1,0 +1,22 @@
+{
+ "slug": "per-my-last-email",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "03755f2d34d9a4addf9a48941ca4b3602ba8aa89150d6489b9ca5f5ffb33afee",
+ "hashes": {
+  "historia": "60eefab0fabdf3306ce04c7a4559d96b3238cf2e6d36fc678650d597bbc28a90"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681428773,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "ten-minute-nap",
+ "titulo": "Me taking a ten minute nap",
+ "caption": "Me taking a ten minute nap\n\nMe taking a ten minute nap.\n\nA nap past about 30 minutes often leaves you groggier than before. Short and early in the afternoon works best.\n\nSend it to the friend whose ten-minute nap eats the afternoon.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me taking a ten minute nap.\n\nA nap past about 30 minutes often leaves you groggier than before. Short and early in the afternoon works best.\n\nSend it to the friend whose ten-minute nap eats the afternoon.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom. A small ink-black block figure with white eyes stands on the left, closes its eyes and starts to doze, sinking a little more each time a digital clock on the right jumps from 2:00 to 2:10, 2:50, 3:30, 4:10 and 5:00, with little zz bubbles. In the last seconds the text changes from: me taking a ten minute nap, to: ten minutes ago: three hours. Its eyes snap wide open and it trembles, then it narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "ten-minute-nap",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.7 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hábitos (la siesta de diez minutos)",
+ "blanco": "Cella (y quien duerme diez minutos y se despierta a las cinco)",
+ "destinatario": "the friend whose ten-minute nap eats the afternoon",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-24T14:00:00Z",
+ "clave": "2026-11-24|ten-minute-nap"
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "deep-breath-then-answer",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ec5e3283ffbe1094a884b9c7de6bc659c1bc7c1975f680d3b1a80b38b3e5252d",
+ "hashes": {
+  "short": "dfe9bc4029febe105d4f4497e21e82e02f4641b8ddfaca55218688dd40657290",
+  "reel": "962c6e539c68e8436aee93aefd442143e743587ad838aca520c34c78fbb29b2a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863846841,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

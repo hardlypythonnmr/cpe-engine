@@ -1,0 +1,26 @@
+{
+ "slug": "slow-it-down-to-sixty",
+ "issue": 92,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-30T21:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b16ccc347890df00cb6ed5fad23f28d4aa04c711627b551696ace6c6907d2fb0",
+ "hashes": {
+  "short": "c594a8eb7eb3f9a95b82c7864c338856e1605b46117f91dde190fdd83ce1a0b8",
+  "reel": "a937f0ebbb1a52cf7aafc6ed76898e2f7019849363889e6d4b5eb70e0579e853"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886884527,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "ened-2631",
+ "caducado_utc": "2026-11-15T00:51:16Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1367
+}

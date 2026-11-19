@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-24-dollar-general-2024-store-closures-explicador",
+ "issue": 113,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T01:00:00Z",
+ "datos_utc": "2025-03-13T00:00:00Z",
+ "hash_contenido": "c29d130e727de7d377405401f1b469cc37b4397f57b94f8ad32b5d855e01d353",
+ "hashes": {
+  "short": "fe2adc93d38784db061e33217a16082761061b54f99e7275b65ff853a8a72096",
+  "reel": "c9a1b04b01e92bcf0da7dd7c270741ddec7ddc98742c0f7b63c1833be9cf7e73"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6937511734,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-b",
+ "aprobado_evento_utc": "2026-11-17T03:42:28Z",
+ "issue_n_system": 1742
+}

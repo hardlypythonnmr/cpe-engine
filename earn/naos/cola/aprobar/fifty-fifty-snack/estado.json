@@ -1,0 +1,25 @@
+{
+ "slug": "fifty-fifty-snack",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T01:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "415df0adc067a0958597ad15de49d00f9914b96df9924376e5461ec2434f77c8",
+ "hashes": {
+  "short": "1088aa1a36bb7006e43f35451738a8dff5f65b32f9f7e6769277a8b5f9cef6aa",
+  "reel": "06b97174752aa9bc3281e55536afcffa8bf1b1d1b23fa410d63a542024e87b48"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863238830,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

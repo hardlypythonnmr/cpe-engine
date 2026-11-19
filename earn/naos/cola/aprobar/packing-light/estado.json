@@ -1,0 +1,25 @@
+{
+ "slug": "packing-light",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "78d89c9967ca4de87f09e2a2a8af12eeff5b54ace24c10f502966eb8360918b6",
+ "hashes": {
+  "short": "8b28fc183cd61d42809e82c43ee93c5e1bba31aae2fcf6477e1d4cf1bf51d862",
+  "reel": "e5e5ffe3cf98a52cd7c92171d5e5eb419143453be6f2b837ab4d25373b3093f6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863848466,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

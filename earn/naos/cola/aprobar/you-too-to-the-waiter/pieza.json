@@ -1,0 +1,48 @@
+{
+ "slug": "you-too-to-the-waiter",
+ "titulo": "Me telling the waiter you too",
+ "caption": "Me telling the waiter you too\n\nMe telling the waiter you too.\n\nStock replies run on autopilot, so the slip is normal. Everyone has told a waiter to enjoy it too.\n\nSend it to the friend who says you too to the wrong thing.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me telling the waiter you too.\n\nStock replies run on autopilot, so the slip is normal. Everyone has told a waiter to enjoy it too.\n\nSend it to the friend who says you too to the wrong thing.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right. The blue one, the waiter, says enjoy! with a happy pulse. The black one answers you too! and a second later its eyes go wide and it trembles as it realizes. It says wait... and the blue one answers you too! right back. Both laugh with happy eyes and a bubble that says ha ha. At the end both narrow their eyes at the camera. The text stays: me telling the waiter you too.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "you-too-to-the-waiter",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 1.9 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "vergüenza menor (decirle you too al mesero)",
+ "blanco": "Cella y quien le contesta lo mismo al mesero",
+ "destinatario": "the friend who says you too to the wrong thing",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "sale_utc": "2026-11-28T03:00:00Z",
+ "clave": "2026-11-27|you-too-to-the-waiter"
+}

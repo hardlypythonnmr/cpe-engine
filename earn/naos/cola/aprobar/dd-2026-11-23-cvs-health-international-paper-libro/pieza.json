@@ -1,0 +1,95 @@
+{
+ "slug": "dd-2026-11-23-cvs-health-international-paper-libro",
+ "titulo": "CVS Health and International Paper: a quarter's net income next to a closing plan",
+ "clave": "2026-11-23|mercury|libro|2026-11-23-cvs-health-international-paper-libro",
+ "sale_utc": "2026-11-23T03:30:00Z",
+ "caption": "CVS Health and International Paper: a quarter's net income next to a closing plan\n\nFrom the archive: 2021 to 2023.\n\nCVS Health, Nov 17, 2021\nThe math: $1.598 billion (net income attributable to CVS Health, Q3 2021) ÷ about 900 (stores in the plan the board authorized, 8-K Nov 2021) = about $1.77 million of Q3 2021 net income per store in the Nov 2021 plan\n\nInternational Paper, Oct 17, 2023\nThe math: $165 million (net earnings, Q3 2023) ÷ about 565 (employees the Orange mill closure is expected to reduce, 8-K Oct 2023) = about $292,035 of Q3 2023 net earnings per employee in the Oct 2023 plan\n\nStrong. As expected. Here is the quarter column. (Our take.)\n\nSources: CVS Health, Form 8-K, filed Nov 3, 2021; CVS Health, Form 8-K, filed Nov 18, 2021; International Paper, Form 8-K, filed Oct 26, 2023; International Paper, Form 8-K, filed Oct 18, 2023.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "",
+ "alt": "Slide 1 of 6. Cobalt blue poster with white type. At the top, the date: Archive · 2021 to 2023. Title: \"CVS Health and International Paper: a quarter's net income next to a closing plan\" Above the giant figure, the company: CVS Health and what the figure measures: Q3 2021 net income per store in the Nov 2021 plan. The figure, about $1.77M, fills the width at the bottom.",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2023-10-26T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "libro",
+ "formato": "carrusel",
+ "origen": "libro",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480321000033/cvs_ex99x1q3-21.htm",
+   "medio": "SEC EDGAR · CVS Health · Form 8-K",
+   "titulo": "CVS Health, Form 8-K, filed Nov 3, 2021",
+   "hora_utc": "2021-11-03T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/64803/000094787121001217/ss621297_8k.htm",
+   "medio": "SEC EDGAR · CVS Health · Form 8-K",
+   "titulo": "CVS Health, Form 8-K, filed Nov 18, 2021",
+   "hora_utc": "2021-11-18T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143423000047/nextgenip-20230930ex991.htm",
+   "medio": "SEC EDGAR · International Paper · Form 8-K",
+   "titulo": "International Paper, Form 8-K, filed Oct 26, 2023",
+   "hora_utc": "2023-10-26T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://www.sec.gov/Archives/edgar/data/51434/000119312523258136/d489478d8k.htm",
+   "medio": "SEC EDGAR · International Paper · Form 8-K",
+   "titulo": "International Paper, Form 8-K, filed Oct 18, 2023",
+   "hora_utc": "2023-10-18T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "4 cited filings, named with form and date"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about when it is not exact"
+  },
+  {
+   "que": "Slides",
+   "estado": "OK",
+   "nota": "6 slides 1080x1350, converted from PNG to JPEG for Instagram"
+  }
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt_laminas": [
+  "Slide 1 of 6. Cobalt blue poster with white type. At the top, the date: Archive · 2021 to 2023. Title: \"CVS Health and International Paper: a quarter's net income next to a closing plan\" Above the giant figure, the company: CVS Health and what the figure measures: Q3 2021 net income per store in the Nov 2021 plan. The figure, about $1.77M, fills the width at the bottom.",
+  "Slide 2 of 6. Cobalt blue poster with white type. CVS Health, Nov 17, 2021. The count in one line: $1.598 billion (net income attributable to CVS Health, Q3 2021) divided by about 900 (stores in the plan the board authorized, 8-K Nov 2021) equals about $1.77 million of Q3 2021 net income per store in the Nov 2021 plan. The literal sentence: \"CVS Health reports strong third quarter results\" Form 8-K, filed Nov 3, 2021. A giant about $1.77M fills the width at the bottom.",
+  "Slide 3 of 6. Cobalt blue poster with white type. International Paper, Oct 17, 2023. The count in one line: $165 million (net earnings, Q3 2023) divided by about 565 (employees the Orange mill closure is expected to reduce, 8-K Oct 2023) equals about $292,035 of Q3 2023 net earnings per employee in the Oct 2023 plan. The literal sentence: \"Our third quarter results came in as expected\" Form 8-K, filed Oct 26, 2023. A giant about $292,035 fills the width at the bottom.",
+  "Slide 4 of 6. Cobalt blue poster with white type. Title: How we count. For each company, the number A and the number B from its filing (shortened, never rounded up), with the form and the date, and the rule: each result is divided and never rounded up; anything approximate says about.",
+  "Slide 5 of 6. Cobalt blue poster with white type. Title: What this does not say. The two numbers are from different dates. We say which quarter and which 8-K for each. CVS Health's board authorized a plan to close approximately 900 stores over three years. The 8-K says it may change. No store is counted as closed. International Paper's 565 is the Orange mill only. The 8-K also names other jobs, which we do not count. A job in a plan is not a named person. Our take: Strong. As expected. Here is the quarter column.",
+  "Slide 6 of 6. Cobalt blue poster with white type. Title: Sources. One line per filing: company, form and filing date. A giant call to action fills the width at the bottom: Save this."
+ ]
+}

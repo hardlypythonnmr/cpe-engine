@@ -1,0 +1,26 @@
+{
+ "slug": "fill-the-pitcher",
+ "issue": 81,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e8494edac98861937ddce92c49c177c0e242cfe392f53b9e539a9b06342c26f6",
+ "hashes": {
+  "short": "6c243736d8e454ad4cb3451e706c17c21eb63bf4d7dd71d2d2a7a7d3162ea9af",
+  "reel": "3fd8c6fe2732c06f01c0849d769d762f31160bcf4ef57a5008c30c09e4f2d0c5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886792386,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-g-0106b",
+ "caducado_utc": "2026-11-15T00:44:09Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1341
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "om-mani-padme-hum-rmx-orden",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T20:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7ce6a1cd9eea8b0232d549a1ce135b311e8a6fd4795f2abcccfe215e0b99e39e",
+ "hashes": {
+  "reel": "c38900765bbdf9766dbee9d82aded424c9628444cc4563ad6ef3ff3cbd7a49d4"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956598980,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

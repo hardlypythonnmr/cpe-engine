@@ -1,0 +1,24 @@
+{
+ "slug": "voice-message-gift-or-threat",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T04:26:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7dbd5a97024700658155fa040d240b85145f149baf221b31915c787d1e8b72f4",
+ "hashes": {
+  "reel": "4ec40d809dab48821200ae88e4ff8035959e6a91727539f9745e33f504627b08"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887872567,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "huecos-17nov",
+ "caducado_utc": "2026-11-15T02:21:16Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "issue_n_system": 1034
+}

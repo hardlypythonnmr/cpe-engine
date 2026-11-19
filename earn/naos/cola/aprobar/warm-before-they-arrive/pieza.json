@@ -1,0 +1,54 @@
+{
+ "slug": "warm-before-they-arrive",
+ "titulo": "Warm before they arrive",
+ "clave": "2026-12-11|warm-before-they-arrive",
+ "caption": "Warm before they arrive\n\nWarming the room before they arrive.\n\nWarm-toned light makes a room feel warmer than it measures.\n\nFor whoever turns on the lamp before the guest arrives.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #nowords #chooseFriction",
+ "descripcion": "Warming the room before they arrive.\n\nWarm-toned light makes a room feel warmer than it measures.\n\nFor whoever turns on the lamp before the guest arrives.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text on screen except the last card, with music. A dim room with a window. A small amber block figure with white eyes on the left leans toward a table lamp and it lights up, and a warm glow fills the room. It leans again toward a mug next to the lamp and steam begins to rise. A light blue figure walks in from the right with narrowed, tired eyes, sees the glow and the steam, and its eyes go wide and then happy and it pulses. The amber one smiles. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "warm-before-they-arrive",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 2 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.1 dBFS, LRA 3.8 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "calentar el cuarto antes de que llegue el otro",
+ "blanco": "Cella (y quien enciende la lampara antes de que llegue la visita)",
+ "destinatario": "whoever turns on the lamp before the guest arrives",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-11T13:45:00Z"
+}

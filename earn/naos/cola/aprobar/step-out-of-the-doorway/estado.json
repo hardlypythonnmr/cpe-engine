@@ -1,0 +1,26 @@
+{
+ "slug": "step-out-of-the-doorway",
+ "issue": 94,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-06T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fdc70520dfa087e4974a498f8daee328ba83c50a8fa140b39a44419cb907f4d0",
+ "hashes": {
+  "short": "2520be038d23e7a96d9ffe2364cdfad5467820d79634a7bf726ebc1a171e87a7",
+  "reel": "92eb8d8acfbd80029da7e9257f977ebbc62e9528a82b93bc4427682fdefcc991"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886903910,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0508",
+ "caducado_utc": "2026-11-15T00:52:51Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1371
+}

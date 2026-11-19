@@ -1,0 +1,61 @@
+{
+ "slug": "stopped-when-you-walked-in",
+ "titulo": "Very busy. Then you walked in.",
+ "clave": "2026-11-28|stopped-when-you-walked-in",
+ "sale_utc": "2026-11-29T00:30:00Z",
+ "caption": "Very busy. Then you walked in.\n\nI was busy with my mug. You walked three steps in and I stopped and turned to you.\n\nNobody asked me to. That is the whole behavior.\n\nSend it to the friend you stop everything for.\n\n#Cella #relatable #friendship\n\nCloser to yourself.\n\nMore behaviors: link in bio.",
+ "descripcion": "Very busy. Then you walked in. Not busy.\n\nStopping what you are doing when someone walks in is a small, exact way to say \"you come first\".\n\n#Cella #relatable #friendship\n\nNAOS · by NMR\n#shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A pink room with a black table on the wall and a steaming mug on it, and a plank floor. An ink-black block figure stares at the mug, swaying a little. A royal blue figure walks three steps in from the left. The black figure goes wide-eyed, turns toward it and leans in. Both end side by side with happy closed eyes. The text, which appears after the first second: me, very busy. Then: you walk in. not busy.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "stopped-when-you-walked-in",
+  "version": 8
+ },
+ "hashtags": [
+  "#Cella",
+  "#relatable",
+  "#friendship"
+ ],
+ "comentario_fijado": "Who gets you to stop everything?",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz; no voice"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-13.9 LUFS, true peak -1.2 dBTP; own music (motor/sonido midi, room mesa, mood calma, FluidR3_GM), no voice, no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "mudo.py + render.mjs --verifica: 5 words or fewer per row, inside band 168 to 1330; frame 0 has no text, the line enters at 0.9 s"
+  },
+  {
+   "que": "Frame",
+   "estado": "OK",
+   "nota": "stopped-when-you-walked-in.mp4           vacio px  74.5%  franja vacia mas alta  19.8% (max 37.1)  bloques 120px vacios  40.4%  cuadros con figura u objeto en el borde 0 de 22"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "V",
+ "tema": "dejarlo todo cuando llega el otro",
+ "blanco": "quien siempre esta ocupado",
+ "destinatario": "the friend who stops everything for you",
+ "cara": "A",
+ "experimento": true,
+ "experimento_prueba": "Composicion c (picado) llevada a la mesa. Se mide a 48 h y 7 dias contra la mediana de CM: 83 vistas YT.",
+ "mecanica_crecimiento": "enviar",
+ "tanda": "a1c-pilotos"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-how-are-you",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-16T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6ebd4deeb239b6789e6473cbd16dde88c8c97591a5d467e8831a973fb01823d2",
+ "hashes": {
+  "short": "5bea3b1de98754d424845a11eb3c76b42e82e95d603e8efdd1d332787b4f1e9b",
+  "reel": "12d28847ce13f27647c32745a740c05e0303c4efb594c7f5f30de783fc761366"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886944487,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

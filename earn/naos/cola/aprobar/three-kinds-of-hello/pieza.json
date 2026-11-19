@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-hello",
+ "titulo": "Three kinds of hello",
+ "clave": "2026-12-19|three-kinds-of-hello",
+ "sale_utc": "2026-12-20T02:00:00Z",
+ "caption": "Three kinds of hello\n\nI used to greet people with a nod and keep moving. Then I started stopping to say hello.\n\nThe first seconds of a meeting tend to set its tone, and a greeting that stops moving for a moment is easy to remember.\n\nFor whoever stops for a proper hello.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The first seconds of a meeting tend to set its tone, and a greeting that stops moving for a moment is easy to remember.\n\nFor whoever stops for a proper hello.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a royal blue figure on the left, in three labeled scenes. The nod: a teal figure gives a small nod and the blue one narrows its eyes. The drive-by: a brown figure says hey. while looking down. The whole hello: an ink-black figure walks over, pulses and says good to see you., and both end with happy eyes. The text stays: three kinds of hello. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-hello",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.4 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "saludar",
+ "blanco": "Cella (y quien saluda de pasada)",
+ "destinatario": "stops for a proper hello",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the nod",
+  "the drive-by",
+  "the whole hello"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

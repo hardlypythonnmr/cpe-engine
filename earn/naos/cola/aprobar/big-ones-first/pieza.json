@@ -1,0 +1,55 @@
+{
+ "slug": "big-ones-first",
+ "titulo": "Big boxes on the bottom",
+ "clave": "2026-12-08|big-ones-first",
+ "sale_utc": "2026-12-09T01:15:00Z",
+ "caption": "Big boxes on the bottom\n\nThe big box goes on the bottom. Three sizes, one tower, and it stays up.\n\nStacking by size is the cheapest kind of order, and it works with boxes, books, bowls and everything in a cupboard.\n\nFor whoever stacks the big one on the bottom.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Stacking by size is the cheapest kind of order, and it works with boxes, books, bowls and everything in a cupboard.\n\nFor whoever stacks the big one on the bottom.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A table with three squares scattered on it: a big orange one at the middle, a medium blue one and a small yellow one at the right. A ink-black block figure with wide white eyes walks in from the left and leans. The blue square slides over onto the orange one, then the yellow square slides on top of the blue one, making a steady tower. Its eyes turn happy with a pulse.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "big-ones-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 2 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "apilar lo grande abajo y lo chico arriba",
+ "blanco": "Cella y quien apila lo que sea al azar",
+ "destinatario": "stacks the big one on the bottom",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

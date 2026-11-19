@@ -1,0 +1,55 @@
+{
+ "slug": "read-it-again",
+ "titulo": "The favorite book, read twice",
+ "clave": "2026-12-09|read-it-again",
+ "sale_utc": "2026-12-09T15:15:00Z",
+ "caption": "The favorite book, read twice\n\nA favorite book read twice is a different book. The second time through, the lines you skipped start to show.\n\nKnowing how it ends is the reason to go back, because the second pass is slower and the ending doesn't change.\n\nFor whoever opens the same book again.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Knowing how it ends is the reason to go back, because the second pass is slower and the ending doesn't change.\n\nFor whoever opens the same book again.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a thick blue book standing on the right. A plum block figure with narrowed eyes at the left says you know the ending. A ink-black block figure with white eyes answers again, the book opens and the pages turn one after another, and a star pops up above it. The plum one's eyes go wide and says I missed that line. Both end with happy eyes. The text stays: me, reading it again.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "read-it-again",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.6 dBFS, LRA 0.9 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "volver a leer el libro que ya se leyo",
+ "blanco": "Cella y quien cree que un libro ya no tiene mas",
+ "destinatario": "opens the same book again",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

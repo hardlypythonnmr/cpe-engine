@@ -1,0 +1,26 @@
+{
+ "slug": "big-ones-first",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T01:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3ffc3e735f601ffc543987c79c7825d1476c9709277290300942d5bd14839731",
+ "hashes": {
+  "short": "731b85f48d6c4f274cdd08964cb4141738a9c6341369ad71cc20ef6bc53fe211",
+  "reel": "153feac5a7ac0d112bbe82ea6ad1ee0030e47c63e8bf05df51ab8eb5215b5fdc"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886825881,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:36Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

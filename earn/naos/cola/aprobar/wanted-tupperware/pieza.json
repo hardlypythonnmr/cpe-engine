@@ -1,0 +1,60 @@
+{
+ "slug": "wanted-tupperware",
+ "titulo": "Wanted: whoever still has my tupperware",
+ "clave": "2026-11-10|casa-puerta",
+ "sale_utc": "2026-11-24T16:30:00Z",
+ "caption": "Wanted: whoever still has my tupperware\n\nWanted: whoever still has my tupperware, since March.\n\nFor whoever has one of yours.\n\n#Cella #tupperware\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Wanted: whoever still has my tupperware, since March.\n\nFor whoever has one of yours.\n\n#Cella #tupperware\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A pink entryway with a door that has a paper wanted notice on it. A small cobalt block figure with white eyes nudges a lidless plastic food container a little toward the door, knocks, and waits with wide eyes. The door opens; an ink-black figure behind it smiles and tosses a blue lid, which lands right on the container. They both pulse with happy eyes and lean toward each other. The text stays: wanted: whoever still has my tupperware since March.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "wanted-tupperware",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -5.5 dBFS, LRA 1.7 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "G1 (grilla mar 10), hermana de I04"
+  },
+  {
+   "que": "Conditional",
+   "estado": "OK",
+   "nota": "sale solo si wanted-the-other-fork marca señal a 48 h (reservas.csv); si no, sale S05 spot-me, que no está construida: el cupo queda vacío"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov sobre contacto y cuadros (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  },
+  {
+   "que": "Alt (juez 3-nov)",
+   "estado": "OK",
+   "nota": "alt corregido a lo que se ve (juez distinto 3-nov)"
+  }
+ ]
+}

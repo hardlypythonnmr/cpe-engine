@@ -1,0 +1,25 @@
+{
+ "slug": "water-the-droopy-plant",
+ "issue": 70,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5b4c62e4d879a3f0f7e1290927c9c0a95256f3e19a27642db5374f3191282aa5",
+ "hashes": {
+  "short": "38c1973c5853b04899049b7b667bc37f37d571717127c27f08bbdbe87abe4262",
+  "reel": "738422cc8f6d764df0384e699c096f32a81b92839a0977abcba618caa6914e26"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866435062,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2730",
+ "aprobado_evento_utc": "2026-11-13T22:32:12Z",
+ "issue_n_system": 1215
+}

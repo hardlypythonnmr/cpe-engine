@@ -1,0 +1,43 @@
+{
+ "slug": "crown-we-should-hang-out-receipt",
+ "titulo": "We should hang out, itemized",
+ "clave": "2026-11-28|casa-puerta",
+ "sale_utc": "2026-11-28T17:40:00Z",
+ "caption": "We should hang out, itemized\n\nWe should hang out, itemized.\nSaid it: 5 times. Days proposed: 0.\nPick a day?\n\nCloser to yourself.\n\nMore of this: link in bio.\n\n#relatable #friendship #cella",
+ "descripcion": "We should hang out, itemized.\nSaid it: 5 times. Days proposed: 0.\nPick a day?\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A pink background. A small black receipt printer at the top prints a long white paper strip, one line at a time, while a Cella with a small red crown, standing in a white circle of light, reads it with her eyes. Title: RECEIPT, We should hang out. Lines: Said it: 5 times. Days proposed: 0. Calendars opened: 0. Sincerity: 100%. At the last line she leans back, offended and proud. TOTAL: 1 coffee, someday, in bigger letters, and a red stamp says PENDING at the top right corner of the paper. A second, indigo Cella, who has been lifting a cardboard phone at her side, leans into a paper cup and slides it along the floor until it sits next to the crowned Cella. Both look at the camera: Pick a day?",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "crown-we-should-hang-out-receipt",
+  "version": 8
+ },
+ "filo": "C",
+ "experimento": "storytelling-piloto-1511",
+ "envio": "the friend you keep telling \"we should hang out\"",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 24 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.2 LUFS, true peak -1.2 dBFS, LRA 1.3 LU; own music (motor/musica/pulso.py, mode tape), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

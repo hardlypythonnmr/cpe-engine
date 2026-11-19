@@ -1,0 +1,32 @@
+{
+ "slug": "story-jaw-blank",
+ "issue": 47,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T01:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d0b296eae4dc7c4aa574a0e87900cb7f7e7375aa1041c8a2792a3ada56016776",
+ "hashes": {
+  "historia": "552b90fb032018c79165336cb572cdcc688df43e5a8fa18cf68fcd9b504a6c54"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6481370486,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aviso_utc": "2026-10-28T21:41:30Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-28T22:27:24Z",
+ "reprogramaciones": 1,
+ "reprogramada": {
+  "por": "D-512",
+  "utc": "2026-11-13T17:00:04Z",
+  "de_sale_utc": "2026-10-29T17:00:00Z",
+  "a_sale_utc": "2026-11-24T01:30:00Z",
+  "version_origen": 1,
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#845, 2026-10-28T22:27:24Z"
+ },
+ "issue_n_system": 845
+}

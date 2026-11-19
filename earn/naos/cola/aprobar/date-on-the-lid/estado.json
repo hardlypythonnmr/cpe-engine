@@ -1,0 +1,26 @@
+{
+ "slug": "date-on-the-lid",
+ "issue": 81,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0e0897e744fa7032ef607babcef85eadc4ca4153e1e8ede2080e43da244c2d66",
+ "hashes": {
+  "short": "e9ae58f9e5683faff3e99828f51ab60122c162105231ae1cdeb835c85bbd6939",
+  "reel": "9122563a81f473f2be53a21c9eea8b8cdfecd77c3b429fc6856bfd102a879c67"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886793172,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-g-0106b",
+ "caducado_utc": "2026-11-15T00:44:09Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1341
+}

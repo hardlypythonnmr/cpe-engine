@@ -1,0 +1,24 @@
+{
+ "slug": "lokah-samastah-16-minutes-for-study",
+ "issue": 114,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "543fb0797744bfce6a9984dbf256bcddb96fe0bddd8e3b73d846a3fdf5626c00",
+ "hashes": {
+  "short": "7e0eefe4546a05c1326bd7f793e0f89e66224c768f646108314de6d6497b48e4"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6966468830,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "largos-mantras-25-nov-2-dic",
+ "caducado_utc": "2026-11-18T01:44:16Z",
+ "aprobado_evento_utc": "2026-11-18T12:39:05Z",
+ "issue_n_system": 1779
+}

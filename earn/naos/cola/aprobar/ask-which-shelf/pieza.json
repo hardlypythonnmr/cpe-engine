@@ -1,0 +1,55 @@
+{
+ "slug": "ask-which-shelf",
+ "titulo": "The top shelf, asked first",
+ "clave": "2027-01-22|ask-which-shelf",
+ "sale_utc": "2027-01-22T18:20:00Z",
+ "caption": "The top shelf, asked first\n\n\"Which shelf?\" \"The top one.\" The container went up where it lived, and not one wrong guess.\n\nAsking where it goes takes three words, and the dish doesn't have to be moved twice.\n\nFor whoever asks where it goes instead of guessing.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Asking where it goes takes three words, and the dish doesn't have to be moved twice.\n\nFor whoever asks where it goes instead of guessing.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with two shelves on the right, one high and one low, and a plastic food container on the floor under them. A ink-black block figure with narrowed white eyes asks which shelf. A brick-red block figure beside it answers the top one, and the container hops up past the low shelf and settles on the high one. The black one says ...top. got it. Both end with happy eyes. The text stays: me asking where it goes.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "ask-which-shelf",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.1 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "preguntar a que estante va en vez de adivinar",
+ "blanco": "Cella y quien guarda lo del otro donde le parece",
+ "destinatario": "asks where it goes instead of guessing",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

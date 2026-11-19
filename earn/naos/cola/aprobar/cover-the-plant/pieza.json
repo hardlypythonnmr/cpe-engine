@@ -1,0 +1,55 @@
+{
+ "slug": "cover-the-plant",
+ "titulo": "A cloth over the plant for one cold night",
+ "clave": "2027-02-16|cover-the-plant",
+ "sale_utc": "2027-02-16T22:10:00Z",
+ "caption": "A cloth over the plant for one cold night\n\nA cloth went over the plant for one cold night, and in the morning it was still standing.\n\nA cloth over a plant for one frosty night costs a minute, and the plant is alive in the morning.\n\nFor whoever covers the plant before a frost.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A cloth over a plant for one frosty night costs a minute, and the plant is alive in the morning.\n\nFor whoever covers the plant before a frost.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A plain room with a green potted plant at the right and a cream cloth lying folded in the middle. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the cloth flips up in an arc and settles over the plant, with the tips of the leaves peeking out and a small sparkle above. Its eyes turn happy with a pulse. The text changes from: me: it's only one cold night, to: covered it. frost tonight.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cover-the-plant",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cubrir la planta con un pano antes de una noche de helada",
+ "blanco": "Cella y quien deja la planta sin abrigo una noche fria",
+ "destinatario": "covers the plant before a frost",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 15 al 19-feb (tanda febd, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febd"
+}

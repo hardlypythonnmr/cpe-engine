@@ -1,0 +1,55 @@
+{
+ "slug": "knock-on-the-minute",
+ "titulo": "Knocking at two on the dot",
+ "clave": "2027-02-12|knock-on-the-minute",
+ "sale_utc": "2027-02-12T14:30:00Z",
+ "caption": "Knocking at two on the dot\n\nThe clock said one fifty-two and she waited. At two on the dot she knocked, and the door was already open to her.\n\nShowing up when you said, and not ten minutes before, gives the host the time to get ready.\n\nFor whoever knocks at the time they were told, not before.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Showing up when you said, and not ten minutes before, gives the host the time to get ready.\n\nFor whoever knocks at the time they were told, not before.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a closed cream door at the right and a clock sign that says 1:52 hanging in the middle. A ink-black block figure walks up from the left and stops to wait. The sign counts to 1:58 and 2:00, the figure's eyes go wide, it steps up to the door, knocks twice and the door swings open onto warm light, with a small sparkle. Its eyes turn happy with a pulse. The text stays: me waiting for two to knock.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "knock-on-the-minute",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "esperar a la hora acordada para tocar en vez de llegar antes de tiempo",
+ "blanco": "Cella y quien llega diez minutos antes y encuentra al anfitrion sin estar listo",
+ "destinatario": "knocks at the time they were told, not before",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

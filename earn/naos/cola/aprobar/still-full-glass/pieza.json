@@ -1,0 +1,48 @@
+{
+ "slug": "still-full-glass",
+ "titulo": "Me drinking more water starting today",
+ "caption": "Me drinking more water starting today\n\nMe drinking more water starting today.\n\nPeople drink what is in front of them. Put the glass where you sit, not where you pass.\n\nSend it to the friend whose glass is always still full.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me drinking more water starting today.\n\nPeople drink what is in front of them. Put the glass where you sit, not where you pass.\n\nSend it to the friend whose glass is always still full.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. A full glass of water sits on the table on the right under a small clock that reads 9:00. A small ink-black block figure with white eyes glances at it with a happy pulse each time the clock moves on, 11:00, 1:00, 3:00, 5:00, and wanders off again. In the last second the text changes from: me drinking more water starting today, to: the glass: still full. The figure's eyes go wide and it trembles. It narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "still-full-glass",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hábitos (tomar más agua desde hoy)",
+ "blanco": "Cella (y quien llena el vaso y lo deja intacto)",
+ "destinatario": "the friend whose glass is always still full",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-28T15:00:00Z",
+ "clave": "2026-11-28|still-full-glass"
+}

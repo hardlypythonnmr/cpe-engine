@@ -1,0 +1,55 @@
+{
+ "slug": "match-the-lids",
+ "titulo": "The lids swapped, and both close",
+ "clave": "2026-12-12|match-the-lids",
+ "sale_utc": "2026-12-12T15:45:00Z",
+ "caption": "The lids swapped, and both close\n\nThe small lid sat on the big box and the big lid on the small one. Swapped, both of them closed.\n\nA lid that almost fits lets the air in, and swapping two lids takes less time than the first look.\n\nFor whoever swaps the mismatched lids so each box closes properly.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A lid that almost fits lets the air in, and swapping two lids takes less time than the first look.\n\nFor whoever swaps the mismatched lids so each box closes properly.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a big clear container and a small one on the right, each wearing the wrong lid: a small lid sits on the big container and a big lid hangs over the small one. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the two lids hop across each other and land on the right containers. Its eyes turn happy with a pulse. The text changes from: me: close enough, to: matched them. nothing leaks.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "match-the-lids",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.3 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cambiar las tapas que no son para que cada taper cierre bien",
+ "blanco": "Cella y quien cierra con la tapa que casi sirve",
+ "destinatario": "swaps the mismatched lids so each box closes properly",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 y 11 al 13-dic (tanda dicn, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicn"
+}

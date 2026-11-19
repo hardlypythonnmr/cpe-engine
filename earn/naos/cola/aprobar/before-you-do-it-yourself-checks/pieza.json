@@ -1,0 +1,58 @@
+{
+ "slug": "before-you-do-it-yourself-checks",
+ "titulo": "Before you say “I’ll just do it myself”: 3 checks",
+ "clave": "2026-11-29|before-you-do-it-yourself-checks",
+ "sale_utc": "2026-11-29T12:35:00Z",
+ "estado": "por-aprobar",
+ "caption": "Before you say “I’ll just do it myself”: 3 checks. Save it for the next time you are about to do it all. Cella asked first.\nLink in bio.\nby NMR\n#delegate #relatable #cella",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "alt": {
+  "1": "Cella with a crown under a spotlight, large. Save · 3 checks. Before you say “I’ll just do it myself” 3 checks first.",
+  "2": "a big number 1 and a small Cella in the corner. Check 1. Is it really faster? Today, yes. Next month, you’re still doing it.",
+  "3": "a big number 2 and a small Cella in the corner. Check 2. Will you resent it by 4 PM? If yes, you already know the answer.",
+  "4": "a big number 3 and a small Cella in the corner. Check 3. Did you ask out loud? A hint is not a request.",
+  "5": "a numbered list and a small Cella in the corner. Save this. Before you do it all yourself. Send it to someone who does it all. Choose friction. 1. Ask once, out loud. 2. Name the deadline. 3. Let it be done differently."
+ },
+ "tipo_carrusel": "F2 Antes de · trabajo y autoayuda (arquetipo: el que lo hace todo solo) · dom 29-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-huecos (huecos del 17-nov (decisión de N, 12-nov-2026))",
+ "hueco": "dom 29-nov",
+ "filo": "V",
+ "tema": "trabajo y autoayuda (arquetipo: el que lo hace todo solo)",
+ "destinatario": "someone who does it all",
+ "mecanica_crecimiento": "guardar · destinatario: someone who does it all",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-huecos/hojas/ and juez.md"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-359: archetypes only, no real person or protected group, no health, grief, loneliness or body; Cella without hands and never next to a black object"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words; 50 words or fewer; 3 hashtags; no comment bait; footer per fallas_de (carousel)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

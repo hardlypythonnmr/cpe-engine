@@ -1,0 +1,26 @@
+{
+ "slug": "meet-in-the-middle",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T20:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "07d3c63884d8822b54e19fa50276e4b64ef2ee74aa45c5f8cceea3be4b4023aa",
+ "hashes": {
+  "short": "1c1949d01955448c43588ea6059f19df7e8f2659999adb25471c91470c118f0d",
+  "reel": "aa247463146521a01306f3c4c97b3d5e8f1db2cf5b43c86da7fa00f71af15fa1"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886798749,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

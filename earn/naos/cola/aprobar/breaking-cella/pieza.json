@@ -1,0 +1,49 @@
+{
+ "slug": "breaking-cella",
+ "titulo": "Breaking: local Cella says 'I'm fine' for the ninth time",
+ "clave": "2026-11-22|casa-mesa",
+ "sale_utc": "2026-11-22T20:25:00Z",
+ "caption": "Breaking: local Cella says 'I'm fine' for the ninth time\n\nBREAKING: local Cella says \"I'm fine\" for the ninth time today. Experts: no.\n\nA news show from the NAOS house, fiction only. If it sounds like you, you can say it out loud: I'm not fine yet.\n\n#Cella #breakingnews\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "BREAKING: local Cella says \"I'm fine\" for the ninth time today. Experts: no.\n\nA news show from the NAOS house, fiction only. If it sounds like you, you can say it out loud: I'm not fine yet.\n\n#Cella #breakingnews\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, a parody newscast from the NAOS house. A pink room with a news desk. A red label flashes BREAKING and another says LIVE. A small ink-black block figure with white eyes sits at the desk smiling, then narrows its eyes, then smiles again with a tremble. A royal blue figure walks in from off-screen on the right with a label that says EXPERT: SHE IS NOT FINE, and looks at the camera. The anchor's eyes go wide, then narrow. The text stays: breaking: local Cella says 'i'm fine' for the ninth time. Experts: no.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "breaking-cella",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.9 dBFS, LRA 2.4 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "V",
+ "tema": "negar lo que sientes",
+ "blanco": "Cella (y quien dice 'estoy bien' por novena vez)",
+ "destinatario": "the friend who says 'I'm fine' on repeat",
+ "cara": "A",
+ "experimento": true,
+ "experimento_prueba": "noticiero de ficción de la casa (D-318): rótulos BREAKING, LIVE y EXPERT sobre una escena de Cella; mide si el género prestado retiene",
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-saying-no",
+ "titulo": "Three ways to say no",
+ "clave": "2026-12-17|three-kinds-of-saying-no",
+ "sale_utc": "2026-12-18T02:00:00Z",
+ "caption": "Three ways to say no\n\nI used to say yes to everything and resent it by Saturday. Then I started saying I can't this week.\n\nA clear no, said early, tends to cost the other person less than a yes that turns into a cancelled plan.\n\nFor whoever says a clear no and keeps it kind.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A clear no, said early, tends to cost the other person less than a yes that turns into a cancelled plan.\n\nFor whoever says a clear no and keeps it kind.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a royal blue figure that says need you Saturday., in three labeled scenes. The auto-yes: a teal figure says sure, sure! with wide eyes and trembling. The ghost: a brown figure looks down and shuts its eyes without answering, and the blue one narrows its eyes. The clear no: an ink-black figure leans in and says can't this week., and the blue one nods with happy eyes. The text stays: three kinds of saying no. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-saying-no",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "decir que no",
+ "blanco": "Cella (y quien dice que si y lo lamenta)",
+ "destinatario": "says a clear no and keeps it kind",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the auto-yes",
+  "the ghost",
+  "the clear no"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

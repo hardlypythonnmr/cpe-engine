@@ -1,0 +1,75 @@
+{
+ "slug": "dd-2026-12-01-ibm-lamina",
+ "titulo": "IBM (Mar 2026): $37.9 million CEO total pay, $49,630 median pay. The math.",
+ "clave": "2026-12-01|mercury|lamina|2026-12-01-ibm-lamina",
+ "sale_utc": "2026-12-01T20:00:00Z",
+ "caption": "From the archive: Mar 2026. Not today's news.\nIBM, Mar 10, 2026 (IBM, proxy statement): \"goals focused on employee engagement and talent retention\"\nIBM's proxy statement, filed March 10, 2026, reported total compensation of $37,989,685 for its CEO and $49,630 for its median employee for 2025.\n\nSame proxy: $37.9 million CEO total pay, 2025. The total compensation of the CEO for 2025, as reported in the proxy's Summary Compensation Table; mostly stock and option awards, not cash.\nThe math: $37.9 million CEO total pay (2025) ÷ $49,630 median pay = about 765 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; IBM's own figure is 765 to 1. Most of the CEO's total is stock and option awards, not cash. Per the proxy, the median employee was picked from IBM employees using annual base pay, with foreign currencies converted to U.S. dollars. We are not saying anyone is paid too much or too little.\n\nEngagement and retention. Here is the pay ratio. (Our take.)\n\nFor someone who has read about employee engagement and talent retention.\n\nSources: SEC EDGAR · IBM, Mar 10, 2026.\n\nLink in bio.",
+ "descripcion": "From the archive: Mar 2026. Not today's news.\nIBM, Mar 10, 2026 (IBM, proxy statement): \"goals focused on employee engagement and talent retention\"\nIBM's proxy statement, filed March 10, 2026, reported total compensation of $37,989,685 for its CEO and $49,630 for its median employee for 2025.\n\nSame proxy: $37.9 million CEO total pay, 2025. The total compensation of the CEO for 2025, as reported in the proxy's Summary Compensation Table; mostly stock and option awards, not cash.\nThe math: $37.9 million CEO total pay (2025) ÷ $49,630 median pay = about 765 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; IBM's own figure is 765 to 1. Most of the CEO's total is stock and option awards, not cash. Per the proxy, the median employee was picked from IBM employees using annual base pay, with foreign currencies converted to U.S. dollars. We are not saying anyone is paid too much or too little.\n\nEngagement and retention. Here is the pay ratio. (Our take.)\n\nSources:\n- SEC EDGAR · IBM, Mar 10, 2026: «The Talent initiatives for 2025 included goals focused on employee engagement and talent retention.» and «This ratio is based on annual total compensation of $37,989,685 for the Chairman, President and CEO (as reported in the Summary Compensation Table) and $49,630 for the median employee.» https://www.sec.gov/Archives/edgar/data/51143/000005114326000025/ibm-20260306.htm",
+ "alt": "Paper-colored card. IBM, Mar 10, 2026. A gray typewriter quote, \"goals focused on employee engagement and talent retention\", struck through with a dark red marker line. The struck quote is by IBM, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $37.9M ÷ $49,630 = about 765, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/biblioteca/bib5-ibm-2025-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000025/ibm-20260306.htm",
+   "medio": "SEC EDGAR · IBM",
+   "titulo": "IBM proxy statement (DEF 14A), pay ratio",
+   "hora_utc": "2026-11-15T19:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg",
+ "tipo": "imagen",
+ "lado": "empleado",
+ "tema": "IBM (Mar 2026): CEO pay ratio, 765 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "ibm-2025-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · MAR 2026",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/ibm-2025-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-ibm-2025-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-ibm-2025-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: The total compensation of the CEO for 2025, as reported in the proxy's Summary Compensation Table; mostly stock and option awards, not cash.)."
+  ]
+ },
+ "aspecto": "4x5"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "start-on-the-minute",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-09T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1820164e3f7d121dd6b764c5b27d16f7ca3211501b28d9bde15ee84da59114eb",
+ "hashes": {
+  "short": "569b2f5eefe71326bb4ecfc8d151f651cf0630b4fdb49b8f9384f94e90469edf",
+  "reel": "4066970f72c986279986d1d2780b92af52a9c63d87ff47b6d78e602d008eef35"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886911425,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

@@ -1,0 +1,84 @@
+{
+ "slug": "dd-2026-12-06-verizon-lamina",
+ "titulo": "Verizon (Nov 2025): $11.48 billion in dividends, more than 13,000 jobs announced cuts. The math.",
+ "clave": "2026-12-06|mercury|lamina|2026-12-06-verizon-lamina",
+ "sale_utc": "2026-12-06T19:30:00Z",
+ "caption": "From the archive: Nov 2025. Not today's news.\nVerizon, Nov 20, 2025 (Verizon, Form 8-K): \"its previously announced plan to reduce its cost structure\"\nVerizon said in an SEC filing on Nov. 20, 2025 that its workforce reduction would include the elimination of over 13,000 positions. The dividend figure is from Verizon's 2025 Form 10-K.\n\nSame year: $11.48 billion in dividends, 2025, company-wide. $11,481 million of dividends paid in 2025, company-wide (cash flow statement, Form 10-K, in millions; columns are 2025, 2024, 2023); Verizon reports no buybacks in this line.\nThe math: $11.48 billion in dividends (2025) ÷ more than 13,000 job cuts = about $883,153 in dividends per announced job cut.\nThis is a ratio, not a payment and not a cause: the dividends paid divided by the job count. The $11.481 billion is the dividends Verizon paid in 2025, company-wide; it is not buybacks. The filing says \"over 13,000\" positions, so the real figure per cut is a little lower than the result. We are not saying one paid for the other.\n\nReducing the cost structure. Here is the dividend column. (Our take.)\n\nFor someone whose employer once planned to reduce its cost structure.\n\nSources: SEC EDGAR · Verizon, Nov 20, 2025; SEC EDGAR · Verizon, Feb 17, 2026.\n\nLink in bio.",
+ "descripcion": "From the archive: Nov 2025. Not today's news.\nVerizon, Nov 20, 2025 (Verizon, Form 8-K): \"its previously announced plan to reduce its cost structure\"\nVerizon said in an SEC filing on Nov. 20, 2025 that its workforce reduction would include the elimination of over 13,000 positions. The dividend figure is from Verizon's 2025 Form 10-K.\n\nSame year: $11.48 billion in dividends, 2025, company-wide. $11,481 million of dividends paid in 2025, company-wide (cash flow statement, Form 10-K, in millions; columns are 2025, 2024, 2023); Verizon reports no buybacks in this line.\nThe math: $11.48 billion in dividends (2025) ÷ more than 13,000 job cuts = about $883,153 in dividends per announced job cut.\nThis is a ratio, not a payment and not a cause: the dividends paid divided by the job count. The $11.481 billion is the dividends Verizon paid in 2025, company-wide; it is not buybacks. The filing says \"over 13,000\" positions, so the real figure per cut is a little lower than the result. We are not saying one paid for the other.\n\nReducing the cost structure. Here is the dividend column. (Our take.)\n\nSources:\n- SEC EDGAR · Verizon, Nov 20, 2025: «in connection with its plans to reduce its workforce as it implements its previously announced plan to reduce its cost structure» and «the elimination of over 13,000 positions» https://www.sec.gov/Archives/edgar/data/732712/000073271225000119/vz-20251120.htm\n- SEC EDGAR · Verizon, Feb 17, 2026: «Dividends paid (11,481) (11,249) (11,025)» https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm",
+ "alt": "Paper-colored card. Verizon, Nov 20, 2025. A gray typewriter quote, \"its previously announced plan to reduce its cost structure\", struck through with a dark red marker line. The struck quote is by Verizon, Form 8-K. Then the math in huge black letters, with the result on a yellow highlight: $11.48B ÷ 13,000 = about $883,153, in dividends, per announced job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/biblioteca/bib5-verizon-2025-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271225000119/vz-20251120.htm",
+   "medio": "SEC EDGAR · Verizon",
+   "titulo": "Verizon Form 8-K (Item 2.05), Nov. 20, 2025",
+   "hora_utc": "2026-11-14T04:02:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm",
+   "medio": "SEC EDGAR · Verizon",
+   "titulo": "Verizon Form 10-K for 2025",
+   "hora_utc": "2026-11-14T04:02:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg",
+ "tipo": "imagen",
+ "lado": "empleado",
+ "tema": "Verizon (Nov 2025): cutting over 13,000 positions, dividends per job cut",
+ "banco_archivo": {
+  "caso": "verizon-2025-layoffs",
+  "rotulo_fecha": "ARCHIVE · NOV 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/verizon-2025-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-verizon-2025-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-verizon-2025-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: )."
+  ]
+ },
+ "aspecto": "4x5"
+}

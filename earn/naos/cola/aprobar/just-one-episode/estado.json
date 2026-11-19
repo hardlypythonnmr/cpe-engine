@@ -1,0 +1,25 @@
+{
+ "slug": "just-one-episode",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "16bf80734206daf7f5bcf3011a8d5158199ee73bd99db862fc4da3cbe07c028d",
+ "hashes": {
+  "short": "9563de243527f8024a1d4fccceec574b5a81493a272e5e32b5931b6bce56fd42",
+  "reel": "92bd95cb9a7ded9c7a18825298386181194ca0282669d183b2bd508cadf31ffc"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863843646,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

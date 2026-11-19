@@ -1,0 +1,51 @@
+{
+ "slug": "cancel-with-time-to-spare",
+ "titulo": "Canceling Tuesday for a Saturday plan",
+ "clave": "2026-12-10|cancel-with-time-to-spare",
+ "sale_utc": "2026-12-10T18:00:00Z",
+ "caption": "Canceling Tuesday for a Saturday plan\n\nShe canceled on Tuesday for a Saturday plan, and her friend thanked her.\n\nA cancellation with days to spare lets the other person use the time, and it lands softer than the same news an hour out.\n\nFor whoever cancels with time to spare.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A cancellation with days to spare lets the other person use the time, and it lands softer than the same news an hour out.\n\nFor whoever cancels with time to spare.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a small phone standing on the right. A ink-black block figure with white eyes and narrowed eyes walks up from the left and a bubble says can't do Saturday. The phone vibrates and a bubble says thanks for telling me! The figure opens its eyes wide, then its eyes turn happy with a pulse. The text changes from: me canceling an hour before, to: told them days ahead. they were glad.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cancel-with-time-to-spare",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.5 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cancelar un plan con tiempo en vez de a ultima hora",
+ "blanco": "Cella y quien cancela cuando ya es tarde",
+ "destinatario": "cancels with time to spare",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

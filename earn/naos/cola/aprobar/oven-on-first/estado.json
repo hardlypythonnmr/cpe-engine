@@ -1,0 +1,26 @@
+{
+ "slug": "oven-on-first",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-15T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c0ce03629851d059300b713c0a6949499a95770c379f3dcf2e3f47b5f1467ff5",
+ "hashes": {
+  "short": "c2eb1019f98aff49351757b61d229529358927ffe5f17b2933764462e5422d00",
+  "reel": "cc9911f0375fa4c86432e3462c8849e577754b0c85feb3b37b6e148e2aba763f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893980606,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "the-heavier-bag",
+ "titulo": "Me taking the heavier bag",
+ "clave": "2026-12-04|the-heavier-bag",
+ "caption": "Me taking the heavier bag\n\nA specific offer, like I'll take that one, gets accepted far more often than a general are you okay with that?\n\nFor the friend who always ends up carrying the heavy one.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "A specific offer, like I'll take that one, gets accepted far more often than a general are you okay with that?\n\nFor the friend who always ends up carrying the heavy one.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes on the left and a light blue one on the right with narrowed eyes, leaning under a paper bag between them. The bubble says huh, heavy... Then the black one says I'll take that one and slides the bag across the floor to itself. The light blue one stands up straight, its eyes go happy with a pulse and a bubble says thanks! The text stays: me taking the heavier bag. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "the-heavier-bag",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.2 dBFS, LRA 2.6 LU; own music (motor/sonido midi, room ventana, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ayudar con algo concreto (cargar la bolsa más pesada)",
+ "blanco": "Cella y quien carga de más",
+ "destinatario": "the friend who always ends up carrying the heavy one",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-04T15:30:00Z",
+ "pie": "More of this: link in bio."
+}

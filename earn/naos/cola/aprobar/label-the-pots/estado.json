@@ -1,0 +1,26 @@
+{
+ "slug": "label-the-pots",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "07bd0977b89a66a7cc8f9e09c346ecfacd5bf80aa219740aaad8fd0bda468bd2",
+ "hashes": {
+  "short": "3748ae40008f5838241609ef148db56cf98a1df69801e32d52797e2423eb5e2c",
+  "reel": "f042a89db32548878fc0123f4c370094b88afcce40c7abbbd6314d4b97b11c59"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886824797,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:36Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

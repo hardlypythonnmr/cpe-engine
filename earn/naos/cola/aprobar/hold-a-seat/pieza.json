@@ -1,0 +1,51 @@
+{
+ "slug": "hold-a-seat",
+ "titulo": "A book on the seat until you arrive",
+ "clave": "2026-11-28|hold-a-seat",
+ "sale_utc": "2026-11-28T14:10:00Z",
+ "caption": "A book on the seat until you arrive\n\nMy coworker holds the seat next to hers with a book until I arrive. Then I started holding hers.\n\nA seat held with a book says someone was expected, and that is often the warmest part of arriving.\n\nFor whoever keeps the next seat free.\n\nCloser to yourself.\n\nMore of this: link in bio.\n\n#naos #behaviors",
+ "descripcion": "A seat held with a book says someone was expected, and that is often the warmest part of arriving.\n\nFor whoever keeps the next seat free.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window and two chairs, a book resting on the chair on the right and an amber block figure with white eyes standing on the left. Its eyes go wide and it pulses as a sky blue figure walks in from the right. A bubble says it's yours. and the book drops to the floor. The blue one steps to the chair, its eyes turn happy and a bubble says you're the best. The text stays: me holding you a seat.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "hold-a-seat",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 5 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "guardar un lugar para quien llega (el libro en la silla)",
+ "blanco": "Cella (y quien guarda el asiento de al lado)",
+ "destinatario": "keeps the next seat free",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "modo": "Cella con música",
+ "tanda_origen": "relleno-1411"
+}

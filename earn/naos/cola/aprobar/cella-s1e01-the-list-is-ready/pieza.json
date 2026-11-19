@@ -1,0 +1,42 @@
+{
+ "slug": "cella-s1e01-the-list-is-ready",
+ "titulo": "Tomorrow, 5K, new scarf",
+ "clave": "2026-12-01|casa-alcoba-the-list-is-ready",
+ "sale_utc": "2026-12-01T23:30:00Z",
+ "caption": "Tomorrow, 5K, new scarf\n\nMy plan was flawless and my door was just a door.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#procrastination #cella",
+ "descripcion": "My plan was flawless and my door was just a door.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A lavender room at 11:00 p.m. Cella, a black doorway-shaped figure with white eyes, stands facing a bare wall on a round warm rug, wearing a brand-new scarf whose hanging end carries the price tag. A lit floor lamp with a yellow shade stands behind her on the left, a window is on the wall, and a pair of white sneakers waits by a closed white door with a dark frame on the right. Text: Tomorrow I run 5K in my new scarf. Where Cella looks, neat paper strips appear on the wall one by one, then over the window, each with two grey lines that cannot be read; one big strip on the door reads Tomorrow. Text: Nothing in here is late. Black checkmarks fill the strips one by one and a big black stamp with a check lands, tilted, on the last. Text: Reviewed and approved by me. The wall clock jumps to 6:00 a.m., a calendar sheet falls, the strip on the door drops to a small pile of strips at its foot and an identical Tomorrow. strip takes its place. A second Cella, the same black figure with a small red crown, slides in from the left a short distance from her, tilts the crown toward the pile for two seconds and slides out while Cella keeps looking at the door. Text: Ready. Cella leans against the door and pushes; the word Ready. falls off the bottom of the screen, the strips slide off the walls into a heap on the floor, the door swings open on a rectangle of warm dawn light, and one sneaker hops onto the threshold and stays there, still, for a moment. Cella walks into the doorway: first half of her is still against the lavender wall and half in the light, then she stands entirely in the dawn light, smaller, in her scarf, looks back once, and walks away until she is tiny in the bright doorway. The room is left empty: the door open on the light, the lamp lit, the fallen strips on the floor, and one strip lifts in the draft from the door. Text: Starting tomorrow?",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cella-s1e01-the-list-is-ready",
+  "version": 8
+ },
+ "filo": "medio",
+ "envio": "the friend whose starting tomorrow is months old",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "52.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 21 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 1.8 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

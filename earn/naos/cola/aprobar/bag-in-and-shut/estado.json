@@ -1,0 +1,26 @@
+{
+ "slug": "bag-in-and-shut",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-18T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3fa2faa1fa767ea86e06471a96e39e8cc6a277d2252faf1b36f2581bce4fe425",
+ "hashes": {
+  "short": "51682ad853c9cda9394185f6fce3d843a31b7d74e534b5fda6f9c5fe77f0753d",
+  "reel": "2eb1f09a0089832d5a253412929ab34117b93c529b64a6731347f7e4abc3338e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886927002,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "crooked-frame",
+ "issue": 77,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-20T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "94eb51007d51d87c613e7798ad7a9de9e5761c80c7f6315d538857f5ad3e308d",
+ "hashes": {
+  "short": "dec4c0cd9b19cca9300c0d01b96e8f72aa6512d6f5265691ae2f6343447afb2b",
+  "reel": "3ba6742f8bc5d6e7101c0311a9dff5dbabe744e5da992793a28f4cae6bc8f8a7"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886936635,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-1411",
+ "caducado_utc": "2026-11-15T00:55:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1286
+}

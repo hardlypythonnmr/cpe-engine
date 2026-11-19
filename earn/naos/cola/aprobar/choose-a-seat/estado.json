@@ -1,0 +1,25 @@
+{
+ "slug": "choose-a-seat",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T01:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "80735356449b5ffee1248aaf3864de1dff04e49dd1a9a7a1c305ec95435a78ae",
+ "hashes": {
+  "short": "1df391e73b0ec19995d5746ee47b72a1ed4024583fc74e04facf269538d5ec9b",
+  "reel": "3df7d8e950735efb50eb3590c27db539ae49aa5de5bb1f2be491b69c7d5cba76"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863238127,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

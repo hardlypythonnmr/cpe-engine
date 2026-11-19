@@ -1,0 +1,22 @@
+{
+ "slug": "et-c-rain-zero-emails",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "17c3dce667195cfbfff3b380dc9048ef1ef7c190b13a4aa5c37feaad5303468f",
+ "hashes": {
+  "reel": "8c58a2f9711934791ec1a2b432ce947dc236dd52f8c756c270f4d463b83d6473"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681468408,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

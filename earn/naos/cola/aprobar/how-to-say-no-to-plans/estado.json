@@ -1,0 +1,22 @@
+{
+ "slug": "how-to-say-no-to-plans",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d1254ec8badf4e2cfb65e4f075f631350da95426ad286755876d0b64289e0c95",
+ "hashes": {
+  "carrusel": "6bc66b3de64c6d8ac4ce76378c1d00b50453ef967e0d631350eb837e17886229"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6681453269,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

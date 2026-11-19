@@ -1,0 +1,54 @@
+{
+ "slug": "socks-before-the-dial",
+ "titulo": "Socks before the dial",
+ "clave": "2026-12-09|socks-before-the-dial",
+ "caption": "Socks before the dial\n\nSocks before the dial.\n\nHands and feet are the first to feel the cold, so covering them can warm you faster than a warmer room.\n\nFor whoever reaches for the thermostat before the socks.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Socks before the dial.\n\nHands and feet are the first to feel the cold, so covering them can warm you faster than a warmer room.\n\nFor whoever reaches for the thermostat before the socks.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes stands on the left, shivering a little, facing a digital display on the right that climbs from 64 to 72 degrees. Each time it narrows its eyes and a bubble says brr, a bit more, just a bit or more. At the end it looks down at its feet with wide eyes. In the last seconds the text changes from: me turning up the heat instead of putting on socks, to: dial: 72. socks: in the drawer.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "socks-before-the-dial",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 16 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "subir la calefaccion antes de ponerse medias",
+ "blanco": "Cella (y quien sube el termostato antes que ponerse medias)",
+ "destinatario": "whoever reaches for the thermostat before the socks",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-09T13:00:00Z"
+}

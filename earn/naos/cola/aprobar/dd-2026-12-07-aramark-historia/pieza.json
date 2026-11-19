@@ -1,0 +1,74 @@
+{
+ "slug": "dd-2026-12-07-aramark-historia",
+ "titulo": "Aramark (Dec 2025): $14.5 million CEO total pay, $17,573 median pay. The math.",
+ "clave": "2026-12-07|mercury|historia|2026-12-07-aramark-historia",
+ "sale_utc": "2026-12-07T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Dec 2025. Not today's news.\nAramark, Dec 22, 2025 (Aramark, proxy statement): \"our commitment to a people-first culture and operational excellence across the industry\"\nAramark's proxy statement, filed December 22, 2025, reported total compensation of $14,542,376 for its CEO and $17,573 for its median employee for fiscal 2025.\n\nSame proxy: $14.5 million CEO total pay, fiscal 2025. The total compensation of the CEO for fiscal 2025, as reported in the proxy's Summary Compensation Table; mostly stock and option awards, not cash.\nThe math: $14.5 million CEO total pay (2025) ÷ $17,573 median pay = about 827 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Aramark's own figure is 828 to 1. Most of the CEO's total is stock and option awards, not cash. Per the proxy, the median employee is a full-time U.S. food service worker, identified in fiscal 2024 and kept for fiscal 2025. We are not saying anyone is paid too much or too little.\n\nA people-first culture. Here is the pay ratio. (Our take.)\n\nSources:\n- SEC EDGAR · Aramark, Dec 22, 2025: «Our Healthcare+ business was named one of the Best Places to Work by Modern Healthcare for a second consecutive year, recognizing our commitment to a people-first culture and operational excellence across the industry.» and «The total compensation of the CEO for fiscal 2025 in the Summary Compensation Table is $14,542,376.» and «We calculated the fiscal 2025 total annual compensation of our median employee to be $17,573 using the same methodology we used for our named executive officers as set forth in the Summary Compensation Table.» https://www.sec.gov/Archives/edgar/data/1584509/000158450925000256/cik0-20251222.htm",
+ "alt": "Paper-colored card. Aramark, Dec 22, 2025. A gray typewriter quote, \"our commitment to a people-first culture and operational excellence across the industry\", struck through with a dark red marker line. The struck quote is by Aramark, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $14.5M ÷ $17,573 = about 827, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib5-aramark-2025-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1584509/000158450925000256/cik0-20251222.htm",
+   "medio": "SEC EDGAR · Aramark",
+   "titulo": "Aramark proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T19:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "Aramark (Dec 2025): CEO pay ratio, 827 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "aramark-2025-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · DEC 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/aramark-2025-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-aramark-2025-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-aramark-2025-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: The total compensation of the CEO for fiscal 2025, as reported in the proxy's Summary Compensation Table; mostly stock and option awards, not cash.)."
+  ]
+ }
+}

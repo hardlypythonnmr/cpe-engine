@@ -1,0 +1,25 @@
+{
+ "slug": "crown-hold-the-door",
+ "issue": 108,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T17:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "52e3f4a0650fb7c3a47b4e9f401ccd46cc5f61e6de723d8b6476fef13c7647b5",
+ "hashes": {
+  "short": "f00acdbf752bea8bc6aee48c231381c1183129a35f15cb490d0851c81a749fc6",
+  "reel": "44259779c00fb337dceaf3df418978018e1dac7908cdaf075f498ea5a5c327d0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6895820338,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "piloto-corona-2428",
+ "aprobado_evento_utc": "2026-11-15T14:15:56Z",
+ "issue_n_system": 1555
+}

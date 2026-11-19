@@ -1,0 +1,55 @@
+{
+ "slug": "edges-first",
+ "titulo": "Edges first, and the middle stops being a guess",
+ "clave": "2026-12-06|edges-first",
+ "sale_utc": "2026-12-06T19:00:00Z",
+ "caption": "Edges first, and the middle stops being a guess\n\nNine pieces, one board. The edge goes down first and the middle stops being a guess.\n\nThe border is the cheap part of a puzzle, and it is also what makes the rest fit.\n\nFor whoever builds the edge of the puzzle first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The border is the cheap part of a puzzle, and it is also what makes the rest fit.\n\nFor whoever builds the edge of the puzzle first.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A table with a cream puzzle board on the right. A royal blue block figure with narrowed eyes says start in the middle. A ink-black block figure with white eyes answers edges first, and eight colored pieces appear one by one around the border of the board. The last dark piece drops into the middle and the blue one says huh. it fits. Both end with happy eyes. The text stays: me doing the edges first.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "edges-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "armar primero el borde del rompecabezas",
+ "blanco": "Cella y quien empieza el rompecabezas por el medio",
+ "destinatario": "builds the edge of the puzzle first",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

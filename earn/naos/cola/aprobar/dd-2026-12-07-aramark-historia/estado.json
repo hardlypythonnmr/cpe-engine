@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-07-aramark-historia",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T16:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "45d26f7f0422bd01d0bca75a603d5c583242e2ffbf95a716c1b109925c2abce0",
+ "hashes": {
+  "historia": "3387ce17d484ff57abf04c066ea45c0cec1d9fdb278ae621333ff4d5ea13c8e5"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6914693625,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

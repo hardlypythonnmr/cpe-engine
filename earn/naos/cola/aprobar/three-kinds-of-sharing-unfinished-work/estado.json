@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-sharing-unfinished-work",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-26T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8c2030e435ad33e425d82beaabec4dcb13bdea890eafdedb7d88f4e86f49adcb",
+ "hashes": {
+  "short": "eb38b68ff6c0f69b79fea927a43bb40b0eca781d6ada6ee671897b558500c739",
+  "reel": "18198b76235a01da33753efb089851b00269c5c5f01a7c778a7c1ebe08c6f68c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886955414,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

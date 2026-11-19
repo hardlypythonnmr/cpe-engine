@@ -1,0 +1,26 @@
+{
+ "slug": "swap-the-time-slots",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-12T18:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1dd7ff6744e5758ce75bab6705c3c86fca79b1b32b4b8f300a16c4e2cfb200f0",
+ "hashes": {
+  "short": "9d43fe58aa627b092e73ac49b1fffdd7769608aaed8c11677e306450272485b8",
+  "reel": "f87381b19841ba3c65be2487b6cecccbac9dd17963b18ed27679c7f2f4b82511"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886916020,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "straighten-the-chairs",
+ "issue": 70,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "66ef60f97991646e36ea942173dae994d69b612a20e52fbd09e9fa2e03979cb4",
+ "hashes": {
+  "short": "1cdbcc3031b21eff90cc6a5e755883692267ffbd9e891932b5c7d15e9f436486",
+  "reel": "f53dbb4e5192de96915184b7aa81c28210051c11e969cddd294306d0954eaebb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866436380,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2730",
+ "aprobado_evento_utc": "2026-11-13T22:32:12Z",
+ "issue_n_system": 1215
+}

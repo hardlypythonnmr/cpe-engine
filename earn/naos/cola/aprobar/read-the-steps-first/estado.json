@@ -1,0 +1,25 @@
+{
+ "slug": "read-the-steps-first",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "727609353facb850f6a92d0151b001c07c418098f67f20dcdb2e988013fc36d8",
+ "hashes": {
+  "short": "bcb654e43ce17e797a6fb11484ec8718268ea17f9dbe83fdb7ff0275e686e32f",
+  "reel": "6b47422cf3261b1fc86cf2108c0d2b3929e51453e22b1711caa4799402b5ec42"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870896189,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "bed-by-ten",
+ "titulo": "Me going to bed early tonight",
+ "caption": "Me going to bed early tonight\n\nMe going to bed early tonight.\n\nIt was 9:58 and the plan was real. Then three more minutes became three hours.\n\nNext time: put the phone to charge across the room before you sit down.\n\n#Cella #bedtime\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me going to bed early tonight.\n\nIt was 9:58 and the plan was real. Then three more minutes became three hours.\n\nNext time: put the phone to charge across the room before you sit down.\n\n#Cella #bedtime\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom. A small ink-black block figure with white eyes sits on a bed looking down, with a digital clock on the wall reading 9:58. The clock creeps to 10:01, 10:04, 10:07 while the figure pulses softly and sways. In the last second the clock jumps to 1:07 and the text changes from: me going to bed early tonight, to: it's 1:07 AM. The figure's eyes go wide, then it narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "bed-by-ten",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.52 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.6 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "sueño (la hora de dormir que se corre)",
+ "blanco": "Cella (y quien se acuesta temprano a las 2)",
+ "destinatario": "the friend who says early night every night",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-24T02:30:00Z",
+ "clave": "2026-11-23|bed-by-ten"
+}

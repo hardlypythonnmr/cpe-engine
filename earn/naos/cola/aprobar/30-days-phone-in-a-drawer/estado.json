@@ -1,0 +1,22 @@
+{
+ "slug": "30-days-phone-in-a-drawer",
+ "issue": 51,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "80b73312c9653ef0c9538186ac84af2f358800b4396ae59201cd222bdb0f3920",
+ "hashes": {
+  "short": "4549e8b5a5dad18fdb92df1e67476c19cb4f3bc1796aa646d27cc9b870a481b0"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6645573171,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "la-30-days-drawer",
+ "aprobado_evento_utc": "2026-11-05T01:20:23Z",
+ "issue_n_system": 936
+}

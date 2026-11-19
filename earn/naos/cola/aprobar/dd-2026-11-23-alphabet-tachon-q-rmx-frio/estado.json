@@ -1,0 +1,29 @@
+{
+ "slug": "dd-2026-11-23-alphabet-tachon-q-rmx-frio",
+ "issue": 32,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T17:45:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "1ba7dcf77b22ac2987be8bc119241a11ba0d5fe0161b91ca329d897709c54710",
+ "hashes": {
+  "short": "3236197433a64accc42de9b031b482d62259d41e1d88dc453ad195af6c20c919",
+  "reel": "d13aaf2147b4adf7d6217a5ae69f70712c9bb5b23e2c0640b314b76033a603d0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956700586,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-remezcla-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:10:03Z",
+ "veto_hasta_utc": "2026-11-17T19:10:03Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-24T05:45:00Z",
+ "issue_n_system": 1776
+}

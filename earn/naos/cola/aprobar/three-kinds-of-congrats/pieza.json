@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-congrats",
+ "titulo": "Three ways to say congrats",
+ "clave": "2026-12-18|three-kinds-of-congrats",
+ "sale_utc": "2026-12-19T02:00:00Z",
+ "caption": "Three ways to say congrats\n\nI used to answer a friend's good news by steering to my own. Then I started saying so proud of you.\n\nPeople tend to remember the first reaction to their good news, so a plain and warm one counts for a lot.\n\nFor whoever celebrates the news before anything else.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "People tend to remember the first reaction to their good news, so a plain and warm one counts for a lot.\n\nFor whoever celebrates the news before anything else.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a royal blue figure that says I got the job. with happy eyes, in three labeled scenes. The one-up: a teal figure says me too! and the blue one narrows its eyes. The flat one: a brown figure says cool. with narrowed eyes and the blue one looks down. The cheer: an ink-black figure stretches up and says so proud of you., and both end with happy eyes and a pulse. The text stays: three kinds of congrats. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-congrats",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "felicitar a alguien",
+ "blanco": "Cella (y quien devuelve la noticia a lo suyo)",
+ "destinatario": "celebrates the news before anything else",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the one-up",
+  "the flat one",
+  "the cheer"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

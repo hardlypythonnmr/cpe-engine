@@ -1,0 +1,26 @@
+{
+ "slug": "handle-first",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "35e78ef04819213a3f12c1c5e3cd61a7a839d2af6acb35f1ea7508fe1b579afb",
+ "hashes": {
+  "short": "69a5090598643fcad931b198889d98357f4c3fbc37f4feb8eaa8f28ef8471853",
+  "reel": "d6e8606396e5244a8105ded88471663ee035fa5c8d135996df8c52063ccba153"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886802158,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "dd-2026-12-09-las-vegas-sands-historia",
+ "titulo": "Las Vegas Sands (Apr 2026): $31.1 million CEO total pay, $40,215 median pay. The math.",
+ "clave": "2026-12-09|mercury|historia|2026-12-09-las-vegas-sands-historia",
+ "sale_utc": "2026-12-09T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Apr 2026. Not today's news.\nLas Vegas Sands, Apr 1, 2026 (Las Vegas Sands): \"Our Team Members, patrons, suppliers and partners are instrumental\"\nLas Vegas Sands' proxy statement, filed April 1, 2026, reported total compensation of $31,109,661 for its CEO and $40,215 for its median employee for 2025.\n\nSame proxy: $31.1 million CEO total pay, 2025. The total compensation of the CEO for 2025, as reported in the proxy; it includes the added value of stock awards modified to speed up their vesting.\nThe math: $31.1 million CEO total pay (2025) ÷ $40,215 median pay = about 773 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Las Vegas Sands' own figure is 774 to 1. The CEO's total includes the added value of stock awards modified to speed up their vesting when the CEO moved to a new role; without that change the proxy gives 535 to 1. Per the proxy, the median employee is a full-time employee in Macao, and 98% of the company's employees work outside the U.S. We are not saying anyone is paid too much or too little.\n\nTeam Members, instrumental. Here is the pay ratio. (Our take.)\n\nSources:\n- SEC EDGAR · Las Vegas Sands, Apr 1, 2026: «Our Team Members, patrons, suppliers and partners are instrumental in optimizing contributions to a thriving hospitality and tourism industry in our local regions.» and «CEO Annual Total Compensation* $ 31,109,661 Median Employee Annual Total Compensation $ 40,215 CEO to Median Employee Pay Ratio 774 :1» https://www.sec.gov/Archives/edgar/data/1300514/000130051426000031/lvs-20260401.htm",
+ "alt": "Paper-colored card. Las Vegas Sands, Apr 1, 2026. A gray typewriter quote, \"Our Team Members, patrons, suppliers and partners are instrumental\", struck through with a dark red marker line. The struck quote is by Las Vegas Sands, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $31.1M ÷ $40,215 = about 773, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib5-las-vegas-sands-2025-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000031/lvs-20260401.htm",
+   "medio": "SEC EDGAR · Las Vegas Sands",
+   "titulo": "Las Vegas Sands proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T19:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "Las Vegas Sands (Apr 2026): CEO pay ratio, 773 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "las-vegas-sands-2025-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · APR 2026",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/las-vegas-sands-2025-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-las-vegas-sands-2025-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-las-vegas-sands-2025-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: The total compensation of the CEO for 2025, as reported in the proxy; it includes the added value of stock awards modified to speed up their vesting.)."
+  ],
+  "aviso_para_N": "AVISO PARA N: el proxy de Las Vegas Sands dice que la paga del CEO de 2025 incluye el valor añadido de acciones modificadas para acelerar su consolidación al cambiar de cargo, y que sin ese cambio la proporción sería 535 a 1 (la lámina trae 773, la de la cuenta). El empleado mediano trabaja en Macao (98 % de la plantilla está fuera de EE. UU.). Los dos matices van en la descripción y en la tarjeta 3 del expediente; la lámina no los trae."
+ }
+}

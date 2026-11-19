@@ -1,0 +1,26 @@
+{
+ "slug": "no-words-half-the-bags",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-15T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a1c16a5ec9be7553340a2c1fb20c54e467c543da52c7f530529c5b102d005059",
+ "hashes": {
+  "short": "8d1e481f0bbdf91e7e2f17001bdb54c4392bc53d5de6bb2cbc21ad9ce629b71d",
+  "reel": "d9de3c47d600fafd67acaac938f1a4c9c2f3ac28a124094cfda23e47b8c0d7f0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893980995,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

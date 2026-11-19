@@ -1,0 +1,48 @@
+{
+ "slug": "phone-keys-wallet",
+ "titulo": "Me patting my pockets before I leave",
+ "caption": "Me patting my pockets before I leave\n\nMe patting my pockets before I leave.\n\nSay the list out loud once at the door: three words, two seconds, and no trip back inside.\n\nSend it to the friend who does the pocket check every time.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me patting my pockets before I leave.\n\nSay the list out loud once at the door: three words, two seconds, and no trip back inside.\n\nSend it to the friend who does the pocket check every time.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway. A small ink-black block figure with white eyes stands on the left and gives itself a quick pat, left and right, then a speech bubble says phone and its eyes turn happy. It pats again, bubble: keys. Again, bubble: wallet. After the third check it pulses and walks forward, ready to go, then narrows its eyes at the camera. The text stays: me patting my pockets before I leave.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "phone-keys-wallet",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.7 dBFS, LRA 3.6 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "salir de casa (el chequeo de bolsillos)",
+ "blanco": "Cella (y quien se palpa los bolsillos antes de salir)",
+ "destinatario": "the friend who does the pocket check every time",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "sale_utc": "2026-11-26T15:00:00Z",
+ "clave": "2026-11-26|phone-keys-wallet"
+}

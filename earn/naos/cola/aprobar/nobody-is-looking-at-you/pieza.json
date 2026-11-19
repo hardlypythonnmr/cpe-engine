@@ -1,0 +1,62 @@
+{
+ "slug": "nobody-is-looking-at-you",
+ "titulo": "Nobody Is Looking at You: The Spotlight Effect, Live From a Thanksgiving Party",
+ "clave": "2026-11-25|medio-m13",
+ "sale_utc": "2026-11-25T22:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "Why it feels like everyone noticed your mistake: the spotlight effect, live from a Thanksgiving party. Cella says \"you too\" to \"so glad you came\" and spends two hours sure the whole room is talking about it. Then the reality cam shows what everyone was actually thinking.\n\nFor the friend still replaying something they said in 2019.\n\nChapters\n0:00 Live from the party\n0:37 Part 1: The arrival\n1:47 Part 2: The study\n2:51 Part 3: Reality cam\n3:44 Part 4: The test\n\nThe study: Gilovich, T., Medvec, V. H., & Savitsky, K. (2000). The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance. Journal of Personality and Social Psychology, 78(2), 211-222. https://doi.org/10.1037/0022-3514.78.2.211 (PubMed 10707330)\nStudents who wore a T-shirt with an embarrassing image overestimated how many observers could recall what was on it; in group discussions, people overestimated how much their own comments, good and bad, stood out. The authors explain it as anchoring on our own rich experience and not adjusting enough for what others see. The mask test in the video is Cella's, not the study's.\n\nThe party and its guests are made up.\nVoices: synthetic (ElevenLabs). Music and sounds made with code by NAOS.\nCloser to yourself.",
+ "sintetico": false,
+ "alt": "A 5-minute video in 16:9 hosted like a red carpet by a bright, excited presenter, with Cella's vain inner voice whispering. At a night party in a living room with a door, a window and a plate of potatoes, Cella, a small amber doorway-shaped figure with two white eyes, walks in through camera flashes under LIVE FROM THE PARTY. Four part cards: The arrival, The study, Reality cam, The test. The host says Happy Thanksgiving! So glad you came! and Cella answers You too! A spotlight circle follows her and narrows while a clock reads MINUTE 12, MINUTE 40, HOUR 2 and a SPOTLIGHT bar fills; the potatoes stay untouched. A sheet explains a 2000 Cornell study: people wearing an embarrassing T-shirt guessed way too high how many people could recall what was on it. On the reality cam, in grey, each guest thinks about themselves: Did the turkey dry out?, Did anyone see me take three rolls?, Something in my teeth?, I said you too to the waiter. Five yellow rings, SPOTLIGHTS: 5. Cella wears a party mask on her forehead for an hour: NOTICED BY: 1 (DOG). She walks to the potatoes and the host's sign-off gets her You too. Final cards: For the friend still replaying something from 2019., the study and Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "satira",
+ "titulo_ab": "She Said \"You Too\" at Thanksgiving and Thought Everyone Noticed",
+ "comentario_fijado": "What's the 'you too' you're still replaying? Year included.",
+ "mecanica_crecimiento": "enviar: la tarjeta final dice For the friend still replaying something from 2019. (una vez, en pantalla y en la segunda línea de la descripción)",
+ "guion": "empresa/youtube/medios/2026-11-06-medios-nuevos/m13-spotlight.md",
+ "casa": {
+  "id": "m13",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m13"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "302.80 s (5:03), 1920x1080 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 23.0 MB; voice: a red-carpet host and Cella's inner voice (ElevenLabs eleven_v4, saved voices mesa-moderadora and brief-mujer-v2), 53 lines, 3317 characters; the study is said with what it measured and nothing more (D-341)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS integrated, true peak -2.8 dBFS, LRA 7.2 LU; music composed with code (motor/musica/midi.py); camera clicks, crowd and laughs from code (motor/sonido/estadio.py); door, steps and an audience ooh from the NAOS sound library"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 358 and 578 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Gilovich, Medvec and Savitsky 2000, JPSP 78(2) 211-222, doi 10.1037/0022-3514.78.2.211, PubMed 10707330, abstract checked (T-shirt studies 1 and 2, group discussion study 3, anchoring and adjustment); the exact percentages of study 1 were not checked against the full text, so the video says only that wearers guessed way too high"
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m13/dias/m13/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ],
+ "decision": "D-376"
+}

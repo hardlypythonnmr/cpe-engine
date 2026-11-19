@@ -1,0 +1,25 @@
+{
+ "slug": "one-taco-two-cellas-v2",
+ "issue": 62,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T14:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f609fdf0adbf5d479da465f05c01f65c7e326be59ff20a39aac7e10abccf7dad",
+ "hashes": {
+  "short": "bfe9cfb0d53f7a4d3a644798fa997b70828b9de8bfdcafa9304b1e39ff0228cb",
+  "reel": "8f18745dd9fc8a9588eae6d162965d6d678aac949534d21591c03ed658c9af71"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856838496,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "v7-cm-2425",
+ "aprobado_evento_utc": "2026-11-13T15:06:03Z",
+ "issue_n_system": 1091
+}

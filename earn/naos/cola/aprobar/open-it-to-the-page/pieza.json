@@ -1,0 +1,55 @@
+{
+ "slug": "open-it-to-the-page",
+ "titulo": "The book opened to page forty-two",
+ "clave": "2027-02-10|open-it-to-the-page",
+ "sale_utc": "2027-02-10T14:10:00Z",
+ "caption": "The book opened to page forty-two\n\nThe book was closed. She opened it, turned three pages and left a gold tab on page forty-two.\n\nA book left open at the right page saves the next reader the hunt, and they start reading at once.\n\nFor whoever opens the book to the page the next person needs.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A book left open at the right page saves the next reader the hunt, and they start reading at once.\n\nFor whoever opens the book to the page the next person needs.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a closed teal book standing up. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the book opens, three pages turn one after another and a gold tab that says p. 42 pops onto the top of the page, with a small sparkle. Its eyes turn happy with a pulse. The text stays: me opening it to their page.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "open-it-to-the-page",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar el libro abierto en la pagina que el otro necesita",
+ "blanco": "Cella y quien deja el libro cerrado para que el otro lo busque",
+ "destinatario": "opens the book to the page the next person needs",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "calendar-busy-soul-buffering",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "57a86e4234e1f08949df0b55f1253b256577bdf868ef0fa611a96601f4cda583",
+ "hashes": {
+  "historia": "65f304eb2ca4e8b6c28d096d7963965f8c3ca6b45a54d5f048fa35a53ba14662"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681429536,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

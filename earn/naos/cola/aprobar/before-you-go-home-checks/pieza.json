@@ -1,0 +1,103 @@
+{
+ "slug": "before-you-go-home-checks",
+ "titulo": "Before you go home for the holidays: 4 checks",
+ "clave": "2026-11-25|before-you-go-home-checks",
+ "sale_utc": "2026-11-25T15:50:00Z",
+ "caption": "Before you go home for the holidays: four checks to protect your peace.\nSave it for the airport.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.mp4",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "Video with our own music, 6 seconds, slow push-in on the cover. two Cellas with a space between them. Save for the airport · 4 checks. Before you go home for the holidays. 4 checks to protect your peace.",
+  "2": "a big number 1 and a small Cella in the corner. Decide it before you land. Check 1. Pick one topic you won't discuss.",
+  "3": "a big number 2 and a small Cella in the corner. “I'll help in the kitchen.” Check 2. Have an exit line ready.",
+  "4": "a big number 3 and a small Cella in the corner. Pie, wine, or your sense of humor. Check 3. Bring one small thing.",
+  "5": "a big number 4 and a small Cella in the corner. Tired people say true things. Check 4. Sleep before, not during.",
+  "6": "the four checks as a list. The cheat sheet. Before you go home: Cella goes home as the guest of honor, not a guest. Send this to someone flying tonight. 1. One topic off the table 2. An exit line 3. One small thing to bring 4. Sleep first."
+ },
+ "tipo_carrusel": "F2 Antes de · familia · mié 25-nov",
+ "primer_cuadro": {
+  "tipo": "video",
+  "archivo": "1.mp4",
+  "musica": "motor/musica/pulso.py modo calma, semilla 2501 (código propio, 0 créditos)"
+ },
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "AB carrusel-musica: con-musica, par de before-you-answer-what-now; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-03",
+ "ab": {
+  "prueba": "carrusel-musica",
+  "brazo": "con-musica",
+  "par": "before-you-answer-what-now",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T15:50:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-03T15:50:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-03T15:50:00Z"
+  }
+ ],
+ "blanco": "familia",
+ "mecanica_crecimiento": "guardar · destinatario: someone flying home tonight",
+ "destinatario": "someone flying home tonight",
+ "eco": "D-376 · A/B carrusel con música",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "slide 6 now has the Cella line (\"guest of honor, not a guest\") and a crowned Cella; text sizes fine"
+  }
+ ]
+}

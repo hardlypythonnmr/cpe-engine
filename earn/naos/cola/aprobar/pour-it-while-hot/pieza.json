@@ -1,0 +1,55 @@
+{
+ "slug": "pour-it-while-hot",
+ "titulo": "Soup poured while it's steaming",
+ "clave": "2027-02-17|pour-it-while-hot",
+ "sale_utc": "2027-02-17T21:50:00Z",
+ "caption": "Soup poured while it's steaming\n\nThe soup was steaming and the mug was empty. Poured now, it was hot to the last sip.\n\nSoup poured while it steams is hot to the bottom of the mug, and soup poured later is not.\n\nFor whoever pours it while it is still hot, not later.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Soup poured while it steams is hot to the bottom of the mug, and soup poured later is not.\n\nFor whoever pours it while it is still hot, not later.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a long counter. At the right a soup pot with steam and, at the middle, an empty cream mug. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the mug hops in an arc to the pot, the lid lifts, and the mug lands steaming. Its eyes turn happy with a pulse. The text changes from: me: I'll pour it later, to: poured it hot. right now.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "pour-it-while-hot",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.4 dBFS, LRA 1.6 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "servir la sopa apenas esta caliente en vez de dejarlo para despues",
+ "blanco": "Cella y quien sirve cuando ya se enfrio",
+ "destinatario": "pours it while it is still hot, not later",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 15 al 19-feb (tanda febd, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febd"
+}

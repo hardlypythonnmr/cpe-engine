@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-09-las-vegas-sands-expediente",
+ "issue": 105,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T21:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "1c9c21508462143219d38aa8addea9b96d9e2b85a1ec00ff1bd1fd511cb67557",
+ "hashes": {
+  "carrusel": "507ef464176c795cc7496e462837f05db214a8ef63ded411b9415a0d3d65b00b"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6890753277,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-c",
+ "aprobado_evento_utc": "2026-11-15T11:55:33Z",
+ "issue_n_system": 1478
+}

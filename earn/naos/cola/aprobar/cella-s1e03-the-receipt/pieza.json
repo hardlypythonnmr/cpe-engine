@@ -1,0 +1,61 @@
+{
+ "slug": "cella-s1e03-the-receipt",
+ "titulo": "The coffee receipt, in seven slides",
+ "clave": "2026-12-15|cella-s1e03-the-receipt",
+ "sale_utc": "2026-12-15T17:30:00Z",
+ "caption": "I did plan it beautifully, which I think should count.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella on a Sunday in an amber kitchen between two doors: a low wooden one, open, with a cold stove, a cold pan and a tomato on an untouched cutting board, and a wide padded red one, ajar, with a warm paper bag and a coffee cup peeking out; a long list is stuck to her body, a blank budget sheet hangs on the wall, seven lidded boxes sit in a row on a shelf, and on the floor a big phone shows a chef hat and a full level bar",
+  "2": "a big monospace budget sheet on the wall reading Food budget: $200, a fridge with the long list stuck on it, a phone leaning on the floor showing a chef hat and a full bar, Cella looking at it; at the left edge of the frame a second, black Cella of the same size with a small red crown tilts the crown toward the phone, and she does not see it",
+  "3": "a question set at title size, Tuesday, 7 p.m., I'm; below it, over a low wooden door, the word Chopping struck through with a line, and over a wide padded red door the word Negotiating; Cella stands between the two doors facing the red one, a cutting board with a tomato at the foot of the wooden door and a paper bag at the foot of the red one",
+  "4": "Cella leans through the open wide padded red door, a warm paper bag and a coffee cup wrapped around her side, the phone lying on the floor under her body; behind her the low wooden door stands open on a lit kitchen with a cold stove and empty boxes",
+  "5": "the same kitchen at the end of the month: the list on the fridge without a single check, the seven lidded boxes still sealed on their shelf, the budget sheet untouched, the wall calendar crossed out to the end, and beside the wide red door a block of 25 paper bags in five rows of five; Cella stands as she did on Sunday",
+  "6": "a long receipt in monospace stuck to Cella, who looks at it sideways: Dinners planned 28, Dinners cooked 3, Dinners ordered 25, Coffees bought 15, Month $410 in bold",
+  "7": "at title size, side by side, the budget sheet reading Food: $200 and the receipt reading Month: $410; below, Cella stands in front of the fridge where the list is intact with the receipt stuck on top, the seven clean boxes on their shelf, a block of 25 bags by the wide red door and a coffee cup on its threshold"
+ },
+ "tipo_carrusel": "Episodio 3 de la historia de Cella · el plan perfecto · mar 15-dic",
+ "seccion": "humanity",
+ "tanda": "historia-cella-t1-e03",
+ "filo": "medio",
+ "experimento": false,
+ "blanco": "el plan perfecto contra lo que se pidio",
+ "mecanica_crecimiento": "enviar · destinatario: the person in the chat who meal-preps on Sundays",
+ "destinatario": "the person in the chat who meal-preps on Sundays",
+ "eco": "historia-cella-s1e03",
+ "episodio": "s1e03",
+ "temporada": 1,
+ "sombra": "proyeccion",
+ "x5": "Prepped, then ordered?",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada y leida a tamano completo por el constructor (Opus 18, 15-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin persona real, sin tradicion, sin salud ni consejo de plata (cifras de ficcion); Cella sin manos; la sombra con corona #A8362A, sin voz, una sola vez (lamina 2); sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "10 palabras del guion mas el lema (D-378); sin hashtags (D-376)"
+  }
+ ]
+}

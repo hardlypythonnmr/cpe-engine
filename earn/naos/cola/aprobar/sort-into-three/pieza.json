@@ -1,0 +1,55 @@
+{
+ "slug": "sort-into-three",
+ "titulo": "A pile split into three colors",
+ "clave": "2026-12-07|sort-into-three",
+ "sale_utc": "2026-12-07T19:45:00Z",
+ "caption": "A pile split into three colors\n\nA pile looks like one problem until you split it. Three colors, three piles, and the middle of it is finally visible.\n\nSorting takes two minutes, and the sorted pile stops being a thing you avoid.\n\nFor whoever splits the pile into three before tackling it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Sorting takes two minutes, and the sorted pile stops being a thing you avoid.\n\nFor whoever splits the pile into three before tackling it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom. A tall mixed pile of six colored shapes sits at the far right. A plum block figure with narrowed eyes at the left says it's all one pile. A ink-black block figure with white eyes answers three piles, and the shapes slide out of the pile into three neat stacks on the floor, one orange, one yellow and one blue. The plum one's eyes go wide and says oh. now I see it. Both end with happy eyes. The text stays: me splitting the pile first.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "sort-into-three",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.6 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "separar el monton en tres antes de ordenarlo",
+ "blanco": "Cella y quien mira un monton y se rinde",
+ "destinatario": "splits the pile into three before tackling it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

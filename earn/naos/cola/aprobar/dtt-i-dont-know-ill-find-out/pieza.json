@@ -1,0 +1,65 @@
+{
+ "slug": "dtt-i-dont-know-ill-find-out",
+ "titulo": "I don't know, I'll find out: then come back with it",
+ "clave": "2027-01-20|casa-ventana",
+ "sale_utc": "2027-01-20T17:00:00Z",
+ "caption": "I don't know, I'll find out: then come back with it\n\nLena asks if the room is booked until four. Cella doesn't know, so she says so, goes to find out, and comes back with the answer.\n\nFor whoever says I don't know, I'll find out.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #choosefriction",
+ "descripcion": "Lena asks if the room is booked until four. Cella doesn't know, so she says so, goes to find out, and comes back with the answer.\n\nFor whoever says I don't know, I'll find out.\n\nNAOS · Choose friction. by NMR\n#naos #choosefriction #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background in a room with a window. At the top, the words: Lena: booked until 4? For whoever says I don't know, I'll find out. A small doorway-shaped figure with white eyes stands to the left and a second small figure of another color stands to the right, with a white sign between them that says room 4, until ?. The words appear one line at a time: Lena asks, booked until 4? (the second figure asks in a speech bubble). I don't know (the first figure answers in a bubble). I'll find out (it walks off to the left and leaves the frame, the second figure waits with a bubble of dots). Back, until 5 (the first figure walks back in and the sign now says until 5, a star appears and both smile). The closing line: for whoever comes back with the answer. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella didn't know, so she found out. Somebody got the answer.",
+ "casa": {
+  "id": "dtt-i-dont-know-ill-find-out",
+  "version": 7
+ },
+ "evolucion": "Tres apuestas (junta-ene-s3, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. (c) Hora (apuesta 3a): tres Shorts a las 23:00Z contra tres a las 17:00Z; sin el si de N salen todos a las 17:00Z y el campo apuesta_hora de pieza.json dice cual es el brazo.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "23.10 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 41 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 4.1 LU; mono fold (0.5 L + 0.5 R) -17.0 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -0.9 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s3, section 3)",
+   "estado": "OK",
+   "nota": "Tres apuestas (junta-ene-s3, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. (c) Hora (apuesta 3a): tres Shorts a las 23:00Z contra tres a las 17:00Z; sin el si de N salen todos a las 17:00Z y el campo apuesta_hora de pieza.json dice cual es el brazo."
+  }
+ ],
+ "gancho_brazo": "A",
+ "apuesta_hora": {
+  "eje": "hora (junta-ene-s3, 3a)",
+  "brazo": "23:00Z",
+  "sale_utc_sin_si": "2027-01-20T17:00:00Z",
+  "sale_utc_con_si": "2027-01-20T23:00:00Z",
+  "nota": "brazo 23:00Z de la apuesta: sale a las 17:00Z mientras N no diga que si a la prueba de S1; con el si, aprobar.py reprogramar a sale_utc_con_si (el Reel espejo sigue a las 18:30Z)."
+ }
+}

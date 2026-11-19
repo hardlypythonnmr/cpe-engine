@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-not-knowing",
+ "titulo": "Three ways to say I don't know",
+ "clave": "2026-12-21|three-kinds-of-not-knowing",
+ "sale_utc": "2026-12-21T13:45:00Z",
+ "caption": "Three ways to say I don't know\n\nI used to answer every question with a confident guess. Then I started saying I don't know.\n\nA confident guess can send someone the wrong way, while an honest I don't know leaves room to find out together.\n\nFor whoever says I don't know out loud.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A confident guess can send someone the wrong way, while an honest I don't know leaves room to find out together.\n\nFor whoever says I don't know out loud.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a shelf of jars and a brick-red figure that asks is it Tuesday? in each of three labeled scenes. The bluff: a teal figure says definitely. with wide eyes. The brush-off: a brown figure says ask someone else. and looks down. The plain one: an ink-black figure tilts its head and says I don't know., and the red one answers with happy eyes. The text stays: three kinds of not knowing. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-not-knowing",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.8 dBFS, LRA 2.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "no saber",
+ "blanco": "Cella (y quien adivina con seguridad)",
+ "destinatario": "says I don't know out loud",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the bluff",
+  "the brush-off",
+  "the plain one"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "fill-in-todays-dot",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2eb9dcba38a7473d851fdf19a830baf8aceace043292d296dcf3c8d07007ac50",
+ "hashes": {
+  "short": "e5b57863ba09b2af2da8598e3c25fc4331868467505f7f683dc4e97de7e068e6",
+  "reel": "58f67f3011b36aa93762a556b21e11f233721fdd7f28aafec1f3a77d49a3434c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886843335,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

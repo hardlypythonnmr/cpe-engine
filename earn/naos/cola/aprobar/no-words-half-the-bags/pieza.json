@@ -1,0 +1,62 @@
+{
+ "slug": "no-words-half-the-bags",
+ "titulo": "Two heavy bags, and someone meets her halfway",
+ "clave": "2027-01-15|casa-escaleras",
+ "sale_utc": "2027-01-15T23:00:00Z",
+ "caption": "Two heavy bags, and someone meets her halfway\n\nJan 15, first quarter at 20:34 UTC: tonight the moon is 51% lit, half and half. Cella carries two heavy bags up the stairs and someone meets her halfway and takes one.\n\nFor whoever meets you halfway on the stairs.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #nowords #firstquarter",
+ "descripcion": "Jan 15, first quarter at 20:34 UTC: tonight the moon is 51% lit, half and half. Cella carries two heavy bags up the stairs and someone meets her halfway and takes one.\n\nFor whoever meets you halfway on the stairs.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A stairwell at night in a dark blue room. A small amber block figure with white eyes starts at the bottom left with two brown bags and climbs two steps. A small light-blue figure with white eyes waits at the top and comes down one step to meet it. It takes one of the bags, and both climb on, each with one bag. A window on the left shows stars and a moon lit exactly on its right half. Both smile and pulse. The text stays: 2 bags up the stairs, and someone halfway. The last card: for whoever meets you halfway on the stairs, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella carried two bags up. Somebody met her halfway and took one.",
+ "casa": {
+  "id": "no-words-half-the-bags",
+  "version": 8
+ },
+ "evolucion": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 18 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.5 dBFS, LRA 3.9 LU; own music (motor/musica/pulso.py, mode cielo), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s3, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud. Semana ene-s3: apuesta de la hora (3a del acta): este Short no forma parte de la apuesta: sale a las 23:00Z por la fase de la luna."
+  }
+ ],
+ "filo": "V",
+ "tema": "cuarto creciente: alguien te encuentra a mitad de la escalera y carga una bolsa",
+ "blanco": "Cella (y quien te encuentra a mitad de camino)",
+ "destinatario": "whoever meets you halfway on the stairs",
+ "cara": "A",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "tipo": "LUNA",
+ "modo": "No words",
+ "apuesta_hora": {
+  "eje": "hora (junta-ene-s3, 3a)",
+  "brazo": "fuera",
+  "sale_utc_sin_si": "2027-01-15T23:00:00Z",
+  "nota": "luna del cuarto creciente: sale a las 23:00Z por la fase, fuera de la apuesta."
+ }
+}

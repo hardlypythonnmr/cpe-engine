@@ -1,0 +1,92 @@
+{
+ "slug": "dd-2026-12-04-textron-tachon-q-a",
+ "titulo": "Textron (Nov 2023): $1.168 billion in buybacks, about 725 positions cut. The math.",
+ "clave": "2026-12-04|mercury|tachon|2026-12-04-textron-tachon-q-a",
+ "sale_utc": "2026-12-04T17:00:00Z",
+ "caption": "Textron (Nov 2023): $1.168 billion in buybacks, about 725 positions cut. The math.\n\nFrom the archive: Nov 2023. Not today's news.\nTextron, Nov 28, 2023 (Textron, Form 8-K (Item 2.05)): \"reduce operating expenses through headcount reductions at the Industrial, Bell and Textron Systems segments\"\nTextron's Form 8-K, filed Nov 28, 2023, says its plan will reduce operating expenses through headcount reductions, approximately 725 positions across the impacted segments, 2% of its global workforce.\n\nSame year: $1.168 billion in buybacks, 2023, company-wide. $1,168 million of share repurchases in 2023, company-wide (MD&A of the 10-K).\nThe math: $1.168 billion in buybacks (2023) ÷ about 725 job cuts = about $1.6 million in buybacks per position cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.168 billion is Textron's share repurchases in 2023, company-wide, from its 10-K. Textron's dividend ($16 million in 2023) is left out. We are not saying one paid for the other.\n\nA ratio, not a cause. Textron has not linked the buybacks to the cuts.\n\nSend this to someone who has been through a round of cuts. Sources: SEC EDGAR · Textron, Nov 28, 2023; SEC EDGAR · Textron, Feb 12, 2024.\n\nLink in bio.",
+ "descripcion": "From the archive: Nov 2023. Not today's news.\nTextron, Nov 28, 2023 (Textron, Form 8-K (Item 2.05)): \"reduce operating expenses through headcount reductions at the Industrial, Bell and Textron Systems segments\"\nTextron's Form 8-K, filed Nov 28, 2023, says its plan will reduce operating expenses through headcount reductions, approximately 725 positions across the impacted segments, 2% of its global workforce.\n\nSame year: $1.168 billion in buybacks, 2023, company-wide. $1,168 million of share repurchases in 2023, company-wide (MD&A of the 10-K).\nThe math: $1.168 billion in buybacks (2023) ÷ about 725 job cuts = about $1.6 million in buybacks per position cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.168 billion is Textron's share repurchases in 2023, company-wide, from its 10-K. Textron's dividend ($16 million in 2023) is left out. We are not saying one paid for the other.\n\nA ratio, not a cause. Textron has not linked the buybacks to the cuts.\n\nSources:\n- SEC EDGAR · Textron, Nov 28, 2023: «The plan will reduce operating expenses through headcount reductions at the Industrial, Bell and Textron Systems segments.» and «Collectively, these actions are expected to result in the reduction of approximately 725 positions across the impacted segments, representing 2% of our global workforce.» https://www.sec.gov/Archives/edgar/data/217346/000021734623000041/txt-20231128.htm\n- SEC EDGAR · Textron, Feb 12, 2024: «Cash flows used by financing activities in 2023 included $1,168 million of share repurchases, partially offset by $348 million of net proceeds from the issuance of long-term debt.» https://www.sec.gov/Archives/edgar/data/217346/000021734624000017/txt-20231230.htm",
+ "alt": "Paper-colored card. Textron, Nov 28, 2023. A gray typewriter quote, \"reduce operating expenses through headcount reductions at the Industrial, Bell and Textron Systems segments\", struck through with a dark red marker line. The struck quote is by Textron, Items 2.05 and 2.06. Then the math in huge black letters, with the result on a yellow highlight: $1.168B ÷ 725 = about $1.6M, in buybacks, per position cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/prueba-ac/textron/tachon-A",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734623000041/txt-20231128.htm",
+   "medio": "SEC EDGAR · Textron",
+   "titulo": "Textron Form 8-K (Items 2.05 and 2.06), November 2023",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734624000017/txt-20231230.htm",
+   "medio": "SEC EDGAR · Textron",
+   "titulo": "Textron Form 10-K for 2023",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "29.891 s; strike at 0.3 s, number at 13.85 s"
+  }
+ ],
+ "estilo": "papel",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Textron. Filed November 28, 2023. It says: \"The plan will reduce operating expenses through headcount reductions at the Industrial, Bell and Textron Systems segments.\" About 725 positions. $1.168 billion in share repurchases in 2023. That is about $1.6 million per position cut. A ratio, not a cause. A ratio, not a cause. Textron has not linked the buybacks to the cuts. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "Textron. Filed November 28, 2023. It says: \"The plan will reduce operating expenses through headcount reductions at the Industrial, Bell and Textron Systems segments.\""
+  },
+  {
+   "papel": "gancho",
+   "voz": "About 725 positions. $1.168 billion in share repurchases in 2023."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "That is about $1.6 million per position cut. A ratio, not a cause."
+  },
+  {
+   "papel": "giro",
+   "voz": "A ratio, not a cause. Textron has not linked the buybacks to the cuts."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "nota_prueba": "Prueba A contra C. Cambio frente al plan (16 a 20 s): A usa la misma linea de tiempo que C de su empresa, en silencio (unos 29 a 31 s), para que solo cambie la voz. El cierre en pantalla es neutro y igual en A y C."
+}

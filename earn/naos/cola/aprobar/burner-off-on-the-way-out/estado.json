@@ -1,0 +1,26 @@
+{
+ "slug": "burner-off-on-the-way-out",
+ "issue": 94,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-07T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "77977208bd6eacf195b2655910d56db7327c564b27ffd89334f6c078f925a475",
+ "hashes": {
+  "short": "e87149e1e72b04847e3c0496ac25408b239f4c5001b902885ae7afd53ce4de6c",
+  "reel": "07a3b3fe9b916b80e76a4a27a4896280f1b7c6ce01ccf7d114092d8519314296"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886904801,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0508",
+ "caducado_utc": "2026-11-15T00:52:51Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1371
+}

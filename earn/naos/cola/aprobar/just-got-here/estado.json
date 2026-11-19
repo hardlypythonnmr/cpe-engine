@@ -1,0 +1,26 @@
+{
+ "slug": "just-got-here",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-17T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3ba335805e38b830bee52188c1bc3d8c6fb92c73f719a4b5f36f5e2d2e5cc9b3",
+ "hashes": {
+  "short": "9ca97ac56dd517d6e7e97fc35a199daa1ea1f8e6ba09e6135f68690c944694b7",
+  "reel": "75682c486834c02b9e68524f09ba12047f1de454886201e87537072e6b495e52"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886963361,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "take-the-whole-break",
+ "titulo": "All fifteen minutes of the break",
+ "clave": "2026-12-05|take-the-whole-break",
+ "sale_utc": "2026-12-06T00:00:00Z",
+ "caption": "All fifteen minutes of the break\n\nFifteen minutes, all fifteen. The screen waited, and the next task came in sharper.\n\nA short break is a short break only if it ends on its own, and the cup finishes warm.\n\nFor whoever takes the whole break and leaves the screen alone.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A short break is a short break only if it ends on its own, and the cup finishes warm.\n\nFor whoever takes the whole break and leaves the screen alone.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table, a small computer screen at the right, a clock in the middle that says 15:00 and a steaming mug at the left. A ink-black block figure with narrowed white eyes trembles in the middle looking toward the screen, then its eyes go wide and it turns and walks to the mug while the clock counts down to 0:00. Its eyes turn happy with a pulse. The text changes from: me, five minutes is plenty, to: took all fifteen. came back sharp.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "take-the-whole-break",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "tomar el descanso completo y dejar la pantalla quieta",
+ "blanco": "Cella y quien corta el descanso a la mitad",
+ "destinatario": "takes the whole break and leaves the screen alone",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

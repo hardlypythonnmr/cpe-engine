@@ -1,0 +1,61 @@
+{
+ "slug": "the-thank-you-you-never-sent",
+ "titulo": "Grading 6 Drafts of a Thank-You You Never Sent",
+ "clave": "2026-11-23|medio-m14",
+ "sale_utc": "2026-11-23T20:50:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "Cella has a thank-you in her drafts folder. It is three weeks old and she has never sent it. So she grades six drafts of a thank-you message with a rubric of her own, stops for what two studies found about gratitude, and then sends hers.\n\nFor the person you owe one.\n\nChapters\n0:00 The drafts folder\n0:36 Part 1: The first three\n1:52 Part 2: The study\n3:08 Part 3: The last three\n4:34 Part 4: The send\n\nThe studies\nKumar, A., & Epley, N. (2018). Undervaluing gratitude: Expressers misunderstand the consequences of showing appreciation. Psychological Science, 29(9), 1423-1435. https://doi.org/10.1177/0956797618772506\nIn three experiments, participants wrote gratitude letters and predicted how surprised, happy and awkward the readers would feel; the readers then reported how it actually felt. Writers underestimated how surprised the readers would be about why they were grateful, overestimated how awkward the readers would feel, and underestimated how positive the readers would feel. Those guesses were correlated with how willing people were to express gratitude. The summary gives the direction of each gap, not its size, so the video gives no numbers. Limit: online experiments with written letters; spoken thanks, texts and the drafts in this video were not tested.\n\nAlgoe, S. B., & Haidt, J. (2009). Witnessing excellence in action: the \"other-praising\" emotions of elevation, gratitude, and admiration. The Journal of Positive Psychology, 4(2), 105-127. https://doi.org/10.1080/17439760802650519\nStudies using recall, video induction, event-contingent diary and letter-writing methods suggest that gratitude motivates improved relationships with benefactors, while admiration motivates self-improvement.\n\nThe rubric (names it, says what it did, could be sent tonight) and the scores are Cella's, not the studies'. The test at the end, one friend's reply, is not data.\n\nThe drafts and the people in them are made up.\nVoices: synthetic. Music and sounds made with code by NAOS.\nCloser to yourself.",
+ "sintetico": false,
+ "alt": "A 6-minute video in 16:9. At night, Cella, a small amber doorway-shaped figure with two white eyes, sits on a bench next to a lamp and grades six drafts of a thank-you message with her own rubric on a sheet: names it, what it did, send tonight. Four part cards: The first three, The study, The last three, The send. Draft 1, Thanks for everything., scores 1 of 3. Draft 2, an apology with the thanks buried in it, scores 2 of 3. Draft 3, a poem about a beacon, scores 0 of 3. A sheet explains a 2018 study by Kumar and Epley: people wrote gratitude letters, guessed how readers would feel, and guessed too low on surprise and positive feeling and too high on awkwardness; a note says directions only, no sizes; a red card says limit: online experiments, written letters; Cella concludes the writers expected more awkwardness than the readers felt. Draft 4, a thank-you with a favor attached, scores 1 of 3. Draft 5, thanks for soup left on a porch, scores 3 of 3, then a sheet cites Algoe and Haidt, 2009: gratitude, the helper. Draft 6, Cella's own, to Maya, scores 3 of 3 and a red mark says 4, sent: no, 3 weeks unsent. Cella guesses Maya's reaction as 8 of 10 awkward and 2 of 10 surprised, sends it, and Maya's reply gives 1 of 10 awkward and 9 of 10 surprised, with the line one friend, not data. Closing: the lines name it, say what it did, send it over the card For the person you owe one., with a small footer, Kumar and Epley 2018, online, written letters, and a last card, Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "satira",
+ "titulo_ab": "Cella Graded 6 Thank-You Texts. Hers Scored 3 out of 3 and Was Never Sent",
+ "comentario_fijado": "Name the person you owe a thank-you. Don't write it here, send it.",
+ "mecanica_crecimiento": "enviar y nombrar un acto: la tarjeta final dice For the person you owe one. (una vez, en pantalla y en la segunda línea de la descripción) y el comentario fijado pide nombrar a quién se le debe uno",
+ "guion": "empresa/youtube/medios/2026-11-23-m14/m14-thank-you.md",
+ "casa": {
+  "id": "m14",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m14"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "345.10 s (5:45), 1920x1080 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 7.7 MB; voice: Cella grading and the voice that reads each draft (ElevenLabs eleven_v4, saved voices brief-mujer-v2 and mesa-maya), 44 lines, 4085 characters; the studies are said with what they measured and nothing more (D-341)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.5 LUFS integrated, true peak -1.4 dBFS, LRA 5.3 LU; music composed with code (motor/musica/midi.py); paper, clicks and stamps from code (the same sound kit as M12 and M13)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 134 and 895 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Kumar and Epley 2018, Psychological Science 29(9) 1423-1435, doi 10.1177/0956797618772506, abstract checked on Crossref on 2026-11-13 (three experiments, written letters, online; surprise and positive feeling underestimated, awkwardness overestimated, guesses correlated with willingness to express gratitude). Algoe and Haidt 2009, J Positive Psychology 4(2) 105-127, doi 10.1080/17439760802650519, abstract checked on Europe PMC the same day (recall, video, diary and letter-writing methods; gratitude motivates improved relationships with benefactors, admiration self-improvement). The rubric, the scores and Maya's reply are Cella's and made up, and the video says so. Limit said on screen: online experiments with written letters. No example of a person who died."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m14/dias/m14/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "et-b-moon-thank-yourself",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "355a24b492e7958a5050f0d69e562736274a2c315ece0f81f3c1a7eed4b664e0",
+ "hashes": {
+  "reel": "0eab547de71863950b8f9e509dc47fd06c6da8c414f1bfd67885eb0f192608d0"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681447290,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

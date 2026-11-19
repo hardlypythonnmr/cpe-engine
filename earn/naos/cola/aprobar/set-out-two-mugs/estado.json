@@ -1,0 +1,26 @@
+{
+ "slug": "set-out-two-mugs",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9e4225a3b0667d8378dd81e3700ef35e92f683173ea545ae56fe7bca7d107bcf",
+ "hashes": {
+  "short": "744a85bd4f557a65880af2cdd5aa55c8f16b63725e33df7413237086a0c86f73",
+  "reel": "254ac6695aeabf90a5795205622655dc7f17213530bcf6268b36a00ac2f22769"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886845016,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

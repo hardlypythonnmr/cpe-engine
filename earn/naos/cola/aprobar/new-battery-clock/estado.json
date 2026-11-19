@@ -1,0 +1,26 @@
+{
+ "slug": "new-battery-clock",
+ "issue": 89,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-14T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4dfe468afd738b450b6ac17ff7f04d47ffce4dd9300ce7f88ffb954c4f512cad",
+ "hashes": {
+  "short": "b1126e08e658dcbcac84fdfad015c1c9e618ddf3fba5718fd2493bf096051ea4",
+  "reel": "5e359824b2af62d0609b8c6dae70ab963555838b2c2b5bda7ec1e7d9765a1535"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886868287,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613-b",
+ "caducado_utc": "2026-11-15T00:50:10Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1359
+}

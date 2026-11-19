@@ -1,0 +1,26 @@
+{
+ "slug": "towel-on-the-pot",
+ "issue": 97,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-19T18:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "80f5de50653a60b5fada8279c093d2b9dbbe278397f7f773ceaec6ca81188efe",
+ "hashes": {
+  "short": "23c94fdaa278f28ed95e5e0197329c5a33001414e6e6a2423d7063f9fab423d8",
+  "reel": "0a0622839bf4af958228c9d254ef1065a02c490c98c460dc9af3650005818c3a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886931833,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319-b",
+ "caducado_utc": "2026-11-15T00:54:59Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1379
+}

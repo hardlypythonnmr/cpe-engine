@@ -1,0 +1,58 @@
+{
+ "slug": "seventy-percent-me",
+ "titulo": "Black Friday: 70% off the version of me I keep buying",
+ "clave": "2026-11-27|seventy-percent-me",
+ "sale_utc": "2026-11-27T18:25:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A dining room. A small ink-black block figure with white eyes looks at a speech bubble that says -70%; its eyes go wide, then happy, then sleepy. Text: black friday: 70% off the version of me i keep buying.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-23 (casa/lib/historias-1123-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "anyone shopping for a better self",
+ "experimento": true,
+ "experimento_prueba": "AB idea-envio: normal, par de cancel-and-call (misma franja, misma forma; lectura a 7 días el 2026-12-05)",
+ "ab": {
+  "prueba": "idea-envio",
+  "brazo": "normal",
+  "par": "cancel-and-call",
+  "metricas": [
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-05T18:25:00Z",
+  "nota": "para-enviar = el destinatario está en pantalla (\"send this to...\" o \"if someone sent you this\"); normal = la idea se manda igual (destinatario en la ficha) pero la pantalla no lo dice"
+ },
+ "casa": {
+  "id": "seventy-percent-me",
+  "version": 8
+ },
+ "tono": "honest, vain",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-23/hoja-historias.png"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "the -70% bubble now points at the figure; eyes go wide, happy, sleepy (3 micro-events); loudness -14.0 LUFS, peak -3.8 dBTP"
+  }
+ ]
+}

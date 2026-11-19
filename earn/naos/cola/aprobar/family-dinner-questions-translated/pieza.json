@@ -1,0 +1,93 @@
+{
+ "slug": "family-dinner-questions-translated",
+ "titulo": "Family dinner questions, translated",
+ "clave": "2026-11-24|family-dinner-questions-translated",
+ "sale_utc": "2026-11-24T15:50:00Z",
+ "caption": "Family dinner questions, translated: four things relatives say and what they mean.\nSend it to the cousin who gets it.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "Cella next to a big dark document. Send · 4 translations. Family dinner questions, translated. What they ask and what they mean.",
+  "2": "split in two colors: what you say on top, what it means below. What you say: “So, what do you do now?” What it means: Say a job I understand.",
+  "3": "split in two colors: what you say on top, what it means below. What you say: “You look different.” What it means: I have thoughts about your hair.",
+  "4": "split in two colors: what you say on top, what it means below. What you say: “Seeing anyone?” What it means: I have no stories of my own.",
+  "5": "split in two colors: what you say on top, what it means below. What you say: “We just worry.” What it means: We will keep asking.",
+  "6": "four phrases as a list. The cheat sheet. Dinner, decoded: Send it to the cousin who gets it. 1. What do you do: say a job 2. Look different: hair 3. Seeing anyone: no stories 4. We worry: we'll ask."
+ },
+ "tipo_carrusel": "F3 Traductor · familia · mar 24-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "AB carrusel-musica: sin-musica, par de holiday-group-chat-translated; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-01",
+ "ab": {
+  "prueba": "carrusel-musica",
+  "brazo": "sin-musica",
+  "par": "holiday-group-chat-translated",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-01T15:50:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-01T15:50:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-01T15:50:00Z"
+  }
+ ],
+ "blanco": "familia (arquetipo: el pariente que pregunta)",
+ "mecanica_crecimiento": "enviar · destinatario: the cousin who survives the same table",
+ "destinatario": "the cousin who survives the same table",
+ "eco": "D-376 · A/B carrusel con música",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

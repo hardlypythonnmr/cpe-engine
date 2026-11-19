@@ -1,0 +1,25 @@
+{
+ "slug": "top-shelf-for-her",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "03c785631bc715b6757ae2ee4d09289109e09cd3c63cfe6f6986ef90cdc84cce",
+ "hashes": {
+  "short": "f6d8f8034deaea94307f0a2b9e5725f1e00f851f085e18c89eb78572d4ff24d3",
+  "reel": "4c0bdcafaf5eb20abb2985ed914e0887a017ec7dbb79b397d98168332b0e6b33"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870899323,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

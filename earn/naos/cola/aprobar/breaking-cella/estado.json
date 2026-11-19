@@ -1,0 +1,24 @@
+{
+ "slug": "breaking-cella",
+ "issue": 9,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T20:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c27d1b068a96fe1e74df5e49e58e6807385f016f10d1a930a7fe816cb264f97c",
+ "hashes": {
+  "short": "2be10c3b442e9e510f0811e71a656318d6ff8232933faa66f51780d3ee4b1394",
+  "reel": "2b398e0ce4a0e4e8cb5a2a00d721c6cddf4a6a1500256f5d8c2249d2ace063d6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668677419,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z",
+ "issue_n_system": 966
+}

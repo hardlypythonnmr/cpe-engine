@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-27-lam-research-lamina",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T19:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "b29783851d558ee1ac4874accf6ca21eba0bc6c8ba175b6868a93546ca9b6d82",
+ "hashes": {
+  "imagen": "50b7bd48a0a1b62c4856715a1e1c0eb490320a207c05fa4e7b57e50136cc3204"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885961784,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

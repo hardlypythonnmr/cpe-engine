@@ -1,0 +1,26 @@
+{
+ "slug": "phone-down-first-me",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-15T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f5b43de806fe6340e153bb31012142d971161f643e93f947d4d7da62edd37433",
+ "hashes": {
+  "short": "83cd065ce42711c2d6463a5d2875d17ee4dbbcae962289a08fd20b4228c170bd",
+  "reel": "063ce8d91b86b9ecbfad4cf9b2f98b94fe829d4f993a728c802a3a053ab4b802"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886961799,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

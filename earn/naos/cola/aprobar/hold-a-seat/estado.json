@@ -1,0 +1,26 @@
+{
+ "slug": "hold-a-seat",
+ "issue": 77,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T14:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "22643f05fb31e5a37f27f4d7fbe936a31ed74e7af841254f0bf0633505d5cb91",
+ "hashes": {
+  "short": "2898aa199910b6a4f419b73cfb9f0155186606c0260c2d22084cca33ea30d83c",
+  "reel": "b35cfd69e1f5a2eaa8a918bbd2c44a549e4c4d773dc197b5d59cd2becf1f738d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886935835,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-1411",
+ "caducado_utc": "2026-11-15T00:55:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1286
+}

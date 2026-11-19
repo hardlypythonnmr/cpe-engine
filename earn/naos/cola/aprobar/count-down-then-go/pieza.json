@@ -1,0 +1,55 @@
+{
+ "slug": "count-down-then-go",
+ "titulo": "Three, two, one, instead of when I'm ready",
+ "clave": "2026-12-05|count-down-then-go",
+ "sale_utc": "2026-12-05T19:15:00Z",
+ "caption": "Three, two, one, instead of when I'm ready\n\n\"When I'm ready.\" \"Three, two, one.\" The clock said go, and the first box got ticked before the readiness showed up.\n\nReady rarely arrives on its own, and a countdown gets you moving without waiting for it.\n\nFor whoever counts down from three instead of waiting to feel ready.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Ready rarely arrives on its own, and a countdown gets you moving without waiting for it.\n\nFor whoever counts down from three instead of waiting to feel ready.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table, a big computer screen on the right with the title task and three lines, and a clock above it that shows a question mark. A royal blue block figure with narrowed eyes says when I'm ready. A ink-black block figure with white eyes answers three, two, one, and the clock counts 3, 2, 1 and then shows go, and two boxes on the screen get ticked. The blue one's eyes go wide and says ...ok. starting. Both end with happy eyes. The text stays: me: three, two, one, go.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "count-down-then-go",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "contar hasta tres para arrancar en vez de esperar a sentirse listo",
+ "blanco": "Cella y quien arranca cuando se sienta listo",
+ "destinatario": "counts down from three instead of waiting to feel ready",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dicl, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicl"
+}

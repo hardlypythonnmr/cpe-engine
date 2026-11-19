@@ -1,0 +1,55 @@
+{
+ "slug": "ask-in-the-subject",
+ "titulo": "The question in the subject line",
+ "clave": "2026-12-04|ask-in-the-subject",
+ "sale_utc": "2026-12-04T20:30:00Z",
+ "caption": "The question in the subject line\n\nThe subject said hi. Then it said yes or no, and the answer came back before lunch.\n\nA subject line with the ask in it takes ten seconds to write, and it gets opened first.\n\nFor whoever puts the ask in the subject line.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A subject line with the ask in it takes ten seconds to write, and it gets opened first.\n\nFor whoever puts the ask in the subject line.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a big computer screen on the right with an email whose subject says hi. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it walks to the screen and the subject changes to yes or no? with a small sparkle over it. Its eyes turn happy with a pulse. The text changes from: me, hi is a fine subject, to: yes or no. by Thursday.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "ask-in-the-subject",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "poner lo que se pide en el asunto del correo",
+ "blanco": "Cella y quien manda un asunto que no dice nada",
+ "destinatario": "puts the ask in the subject line",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

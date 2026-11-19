@@ -1,0 +1,22 @@
+{
+ "slug": "seventy-percent-me",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "47e60753dbc7e9d3d62f81c48b4bfdb382feababd9ce413362a7e6bc2d3662d1",
+ "hashes": {
+  "historia": "3d1487653a38d0871f508f9fcb366480297d31801b85352c7875faefab566baa"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681454638,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

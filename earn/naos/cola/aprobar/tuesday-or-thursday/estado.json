@@ -1,0 +1,26 @@
+{
+ "slug": "tuesday-or-thursday",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-25T18:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6d1c400d0a9b0bbdb96d7de62f0a18758f61658be633529e2933bf4c6fcc83c9",
+ "hashes": {
+  "short": "bf188ce40a529034b856314ff4739ddc64abd47982083de6d1a0ff65e2ba4f51",
+  "reel": "e68169543471ab03e1e8a97596652e0be209f58164b34db294467fc397c036ae"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886876536,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "name-the-file",
+ "titulo": "A file name that says what it is",
+ "clave": "2026-12-02|name-the-file",
+ "sale_utc": "2026-12-02T14:00:00Z",
+ "caption": "A file name that says what it is\n\nFour files called final, and nobody knows which one. This one got a name that says what it is.\n\nRenaming takes ten seconds, and it ends the hunt for the real one.\n\nFor whoever names the file for what it is, not final_v7.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Renaming takes ten seconds, and it ends the hunt for the real one.\n\nFor whoever names the file for what it is, not final_v7.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a big computer screen on the right that shows a file called final_v7, and a bubble that asks which one is final. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the file name on the screen changes to dec-report. Its eyes turn happy with a pulse. The text stays: me naming it for what it is.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "name-the-file",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ponerle al archivo un nombre que dice lo que es en vez de final_v7",
+ "blanco": "Cella y quien guarda todo como final",
+ "destinatario": "names the file for what it is, not final_v7",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

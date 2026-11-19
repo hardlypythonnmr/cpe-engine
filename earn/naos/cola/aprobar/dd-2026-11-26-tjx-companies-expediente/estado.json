@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-26-tjx-companies-expediente",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T21:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "7a3039a8fbbf4d0dba9e3d76a874f1c8436a2ddd43b7cf76ce1e63d8cb42bccf",
+ "hashes": {
+  "carrusel": "126a088a44c521edac788d791440de556af08bc3b2f3c6d7c525fc656aab5b1a"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885960968,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

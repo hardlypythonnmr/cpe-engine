@@ -1,0 +1,22 @@
+{
+ "slug": "settling-down-caring-or-rude",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b23fe7f5e305ea2ddbe81c7b862f89b19529a21c0f4ca37a3b2538dd64c7c484",
+ "hashes": {
+  "imagen": "a7a256560457fef330ab9f70d639b1cb076488eb9bc3feced09721f05d93868c"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681431014,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

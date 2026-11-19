@@ -1,0 +1,55 @@
+{
+ "slug": "log-off-at-six",
+ "titulo": "Closing the laptop at six",
+ "clave": "2026-12-05|log-off-at-six",
+ "sale_utc": "2026-12-05T20:30:00Z",
+ "caption": "Closing the laptop at six\n\n\"One more email.\" \"Six. Closing.\" The screen went dark and nothing fell apart overnight.\n\nThe email at six past six is almost always the same one you'd answer at nine, with a fresher head.\n\nFor whoever closes the laptop at the hour they said they would.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The email at six past six is almost always the same one you'd answer at nine, with a fresher head.\n\nFor whoever closes the laptop at the hour they said they would.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table, a digital clock in the middle that says 5:58 and a big computer screen on the right with an inbox. A royal blue block figure with narrowed eyes says one more email. A ink-black block figure with white eyes answers six. closing. The clock turns to 6:00 and the screen goes away. The blue one's eyes go wide and says ...it can wait. Both end with happy eyes. The text stays: me, closing at six.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "log-off-at-six",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cerrar la computadora a la hora que uno dijo que cerraba",
+ "blanco": "Cella y quien contesta un correo mas a las seis",
+ "destinatario": "closes the laptop at the hour they said they would",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

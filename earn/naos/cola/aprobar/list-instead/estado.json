@@ -1,0 +1,25 @@
+{
+ "slug": "list-instead",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "60f95e3ab585bfe66978b2a823cefb2b3fc4f08bec1c093199eef49907da3013",
+ "hashes": {
+  "short": "bf301a8a6626888a38e1b89aabc4ce0261527b2197731ddedf83bdf540ae9162",
+  "reel": "fcce68b1914bdf3cc8ba07d1f7486fbda63d69686fbfd31cbaf951526b3c945e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861217404,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

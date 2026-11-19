@@ -1,0 +1,51 @@
+{
+ "slug": "side-by-side",
+ "titulo": "Next to him, it became a plan",
+ "clave": "2026-12-12|side-by-side",
+ "sale_utc": "2026-12-12T18:00:00Z",
+ "caption": "Next to him, it became a plan\n\nAcross the table it was a negotiation. Next to him it became a plan.\n\nSitting on the same side points you both at the problem instead of at each other.\n\nFor whoever moves to your side of the table.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Sitting on the same side points you both at the problem instead of at each other.\n\nFor whoever moves to your side of the table.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a clipboard with a page standing in the middle. A royal blue block figure on the right looks down with narrowed eyes. A ink-black block figure with white eyes on the left says let's look together. in a bubble, walks around to the blue one's side and the page slides over between them. The blue one looks up with wide eyes and a bubble says okay, show me. Both end with happy eyes. The text stays: me moving to their side of the table.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "side-by-side",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cambiarse al lado del otro de la mesa para mirar el papel juntos",
+ "blanco": "Cella y quien discute de frente con el otro",
+ "destinatario": "moves to your side of the table",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

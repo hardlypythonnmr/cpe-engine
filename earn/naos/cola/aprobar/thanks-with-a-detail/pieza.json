@@ -1,0 +1,53 @@
+{
+ "slug": "thanks-with-a-detail",
+ "titulo": "Me adding one detail to thanks",
+ "clave": "2026-12-03|thanks-with-a-detail",
+ "caption": "Me adding one detail to thanks\n\nA thank-you with one specific thing in it lands warmer than a bigger, vaguer one. The detail shows you were paying attention.\n\nFor the teacher who remembers what you said in March.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "A thank-you with one specific thing in it lands warmer than a bigger, vaguer one. The detail shows you were paying attention.\n\nFor the teacher who remembers what you said in March.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes stands on the left. A bubble says thanks! and it walks to the right, then stops, turns back and walks home to the left with wide eyes. A new bubble says that call helped and its eyes go happy with a pulse and a small stretch. The text stays: me adding one detail to thanks. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "thanks-with-a-detail",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "gratitud (agradecer con un detalle)",
+ "blanco": "Cella (y quien agradece sin decir qué ayudó)",
+ "destinatario": "the teacher who remembers what you said in March",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-03T13:00:00Z",
+ "pie": "More of this: link in bio."
+}

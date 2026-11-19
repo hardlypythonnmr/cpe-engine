@@ -1,0 +1,55 @@
+{
+ "slug": "fill-in-todays-dot",
+ "titulo": "Coloring in today's dot",
+ "clave": "2026-12-03|fill-in-todays-dot",
+ "sale_utc": "2026-12-03T21:45:00Z",
+ "caption": "Coloring in today's dot\n\nFour gold dots in a row and one grey. She colored in today's, and the row was one day longer.\n\nColoring one dot takes two seconds, and a row of them is proof you can see from across the room.\n\nFor whoever colors in today's dot before the day gets going.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Coloring one dot takes two seconds, and a row of them is proof you can see from across the room.\n\nFor whoever colors in today's dot before the day gets going.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. Across the top a row of five round dots: four gold and one grey at the right end. A ink-black block figure with white eyes walks along under the row to the grey dot, its eyes go wide, it leans toward it and the grey dot turns gold with a small sparkle over it. Its eyes turn happy with a pulse. The text stays: me coloring in today's dot.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "fill-in-todays-dot",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.4 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pintar el punto de hoy en una fila de dias antes de empezar",
+ "blanco": "Cella y quien lleva la cuenta de los dias en la cabeza",
+ "destinatario": "colors in today's dot before the day gets going",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dicl, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicl"
+}

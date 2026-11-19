@@ -1,0 +1,74 @@
+{
+ "slug": "dd-2026-12-08-home-depot-historia",
+ "titulo": "The Home Depot (Apr 2026): $16.1 million CEO total pay, $37,881 median pay. The math.",
+ "clave": "2026-12-08|mercury|historia|2026-12-08-home-depot-historia",
+ "sale_utc": "2026-12-08T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Apr 2026. Not today's news.\nThe Home Depot, Apr 7, 2026 (The Home Depot): \"Throughout the year, we continued to invest in our associates\"\nThe Home Depot's proxy statement, filed April 7, 2026, reported total compensation of $16,191,127 for its CEO and $37,881 for its median-paid associate for fiscal 2025.\n\nSame proxy: $16.1 million CEO total pay, fiscal 2025. The total compensation of the CEO for fiscal 2025, as reported in the proxy's Summary Compensation Table; mostly stock awards, not cash.\nThe math: $16.1 million CEO total pay (2025) ÷ $37,881 median pay = about 427 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Home Depot's own figure is 427 to 1. Most of the CEO's total is stock awards, not cash. Per the proxy, the median associate is an hourly employee in the U.S. We are not saying anyone is paid too much or too little.\n\nInvesting in associates. Here is the pay ratio. (Our take.)\n\nSources:\n- SEC EDGAR · The Home Depot, Apr 7, 2026: «Throughout the year, we continued to invest in our associates.» and «The annual total compensation of our CEO for Fiscal 2025 was $16,191,127» and «The annual total compensation of our median-paid associate, other than our CEO, was $37,881» https://www.sec.gov/Archives/edgar/data/354950/000035495026000090/hd-20260406.htm",
+ "alt": "Paper-colored card. The Home Depot, Apr 7, 2026. A gray typewriter quote, \"Throughout the year, we continued to invest in our associates\", struck through with a dark red marker line. The struck quote is by The Home Depot, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $16.1M ÷ $37,881 = about 427, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib5-home-depot-2025-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000090/hd-20260406.htm",
+   "medio": "SEC EDGAR · The Home Depot",
+   "titulo": "The Home Depot proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "The Home Depot (Apr 2026): CEO pay ratio, 427 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "home-depot-2025-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · APR 2026",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/home-depot-2025-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-home-depot-2025-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-home-depot-2025-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: The total compensation of the CEO for fiscal 2025, as reported in the proxy's Summary Compensation Table; mostly stock awards, not cash.)."
+  ]
+ }
+}

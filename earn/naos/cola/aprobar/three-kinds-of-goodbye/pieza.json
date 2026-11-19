@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-goodbye",
+ "titulo": "Three kinds of goodbye",
+ "clave": "2026-12-14|three-kinds-of-goodbye",
+ "sale_utc": "2026-12-15T00:30:00Z",
+ "caption": "Three kinds of goodbye\n\nI used to slip out of every visit without a word. Then I started turning around at the door.\n\nHow a visit ends tends to color how it is remembered, so the last few seconds do a lot of the work.\n\nFor whoever turns around at the door to say goodbye.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "How a visit ends tends to color how it is remembered, so the last few seconds do a lot of the work.\n\nFor whoever turns around at the door to say goodbye.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right and a royal blue figure on the left. Three short scenes, each labeled. The vanish: a teal figure walks out of the door without a word. The shout: a brown figure shouts bye! only after its back is turned. The turn: an ink-black figure walks to the door, turns around with a pulse and says bye!, and the blue one answers with happy eyes. The text stays: three kinds of goodbye. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-goodbye",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "el adios",
+ "blanco": "Cella (y quien se va sin despedirse)",
+ "destinatario": "turns around at the door to say goodbye",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the vanish",
+  "the shout",
+  "the turn"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "leave-while-its-good",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T01:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d87cbda784791986f34c56750adb62dd78c09fa4d0d8cc11f97744acfb96294f",
+ "hashes": {
+  "short": "97bd65821ac28fc04ef9699bd0ac3582e5f6f6f9270fa794ce4a4bf580711b50",
+  "reel": "6e85a841cf3a73cf11d935d23833df21cc4c79c0ad059d62409f3167bd143149"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886853353,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

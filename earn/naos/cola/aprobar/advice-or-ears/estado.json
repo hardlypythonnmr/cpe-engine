@@ -1,0 +1,26 @@
+{
+ "slug": "advice-or-ears",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T20:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0ccd5da585a4392e70280ab10506d8ae99aca8f9d09c712546a19884676396e4",
+ "hashes": {
+  "short": "ee28d9ef7f82f8c6d346cdddb74d51fecb6f44d759367e5190d2491f96e14376",
+  "reel": "0cd691d5186a633fb4056b8153597d16301953458f98fe76c031d4c2c637a75a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886800383,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

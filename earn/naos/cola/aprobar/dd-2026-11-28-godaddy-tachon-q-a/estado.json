@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-28-godaddy-tachon-q-a",
+ "issue": 110,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T17:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "1a1250cc4c6056f640970c221991b362c066b4986d7ed977d68a8c9ecf4505ae",
+ "hashes": {
+  "short": "0396a8912a38dfa25ce241cebc9884a069739a509f19fbadd4f95f21e18a40fb",
+  "reel": "287c7d437da06496f4315e1478b026790fe6113288d93eda0efcb64bec8ae01f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6899367688,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-prueba-ac",
+ "aprobado_evento_utc": "2026-11-16T10:47:56Z",
+ "issue_n_system": 1656
+}

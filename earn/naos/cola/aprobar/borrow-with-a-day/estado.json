@@ -1,0 +1,26 @@
+{
+ "slug": "borrow-with-a-day",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T18:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d96c3c36203513ae1008ef0c072e982d54365b115491ba920493794ebdb15c3e",
+ "hashes": {
+  "short": "caa55001656f4d5240de9415a507ab1f8d6da34b538ae8baf86e513539fec1ce",
+  "reel": "5272a5b79f84c8c9804d0805cd37c1147dbb24fd871bbbe293c97922137d16ac"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886851824,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

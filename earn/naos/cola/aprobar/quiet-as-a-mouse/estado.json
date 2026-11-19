@@ -1,0 +1,25 @@
+{
+ "slug": "quiet-as-a-mouse",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T01:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1660cc3fcb84cf86ab5b21c942044f23f32a2939d928aa5d8bc0644adfdc2727",
+ "hashes": {
+  "short": "e9f0ba2ac91097b95cee2cc61bc8b5c9257fd2935046f43635c077ecc4018fcf",
+  "reel": "b11ef4ee17c4813f79e769c08b5a549444d3ff9348febeef2185f9e337b07674"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863237347,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

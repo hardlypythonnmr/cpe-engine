@@ -1,0 +1,25 @@
+{
+ "slug": "let-her-do-the-lid",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1d39b2a51bd6cf18c0e3378a5e0c3b315f133f48d13a772424e0f6b06dd36f5b",
+ "hashes": {
+  "short": "512830a7cbfba9b3f28c5279e665f84c93ad8a5457118345c53cf046cb11cd17",
+  "reel": "37003b46a8db4d8e9235f93e618365eb2fe6317a35121b39d1afd0893038cb66"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870901956,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

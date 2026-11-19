@@ -1,0 +1,55 @@
+{
+ "slug": "lunch-in-the-bag",
+ "titulo": "Lunch in the bag before the coat",
+ "clave": "2026-12-03|lunch-in-the-bag",
+ "sale_utc": "2026-12-03T13:30:00Z",
+ "caption": "Lunch in the bag before the coat\n\nThe lunch went into the bag before the coat went on. One thing less to think about at the door.\n\nPacking lunch takes a minute in the morning, and it takes one decision off the rest of the day.\n\nFor whoever packs the lunch before leaving the kitchen.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Packing lunch takes a minute in the morning, and it takes one decision off the rest of the day.\n\nFor whoever packs the lunch before leaving the kitchen.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a long counter. On it a food container with a lid at the middle and a paper bag at the right end. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the container hops in an arc into the bag and sticks out of the top. Its eyes turn happy with a pulse. The text changes from: me: lunch can wait, to: packed it. one less thing.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "lunch-in-the-bag",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.3 dBFS, LRA 1.6 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "guardar el almuerzo en la bolsa antes de salir de la cocina",
+ "blanco": "Cella y quien deja el almuerzo para despues y sale sin el",
+ "destinatario": "packs the lunch before leaving the kitchen",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dicl, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicl"
+}

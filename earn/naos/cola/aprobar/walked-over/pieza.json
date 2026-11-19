@@ -1,0 +1,51 @@
+{
+ "slug": "walked-over",
+ "titulo": "A long message to the next desk, then a walk",
+ "clave": "2026-12-20|walked-over",
+ "sale_utc": "2026-12-20T13:00:00Z",
+ "caption": "A long message to the next desk, then a walk\n\nMy coworker typed a long message to the desk beside hers. Then she just walked over.\n\nA question that takes a paragraph to type often takes one sentence to ask in person.\n\nFor whoever walks over instead of typing.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A question that takes a paragraph to type often takes one sentence to ask in person.\n\nFor whoever walks over instead of typing.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. A ink-black block figure with white eyes stands on the left and three times typing dots appear over it and vanish, each time with narrowed eyes. A royal blue figure on the right keeps looking down. Then the black one's eyes go wide, it walks over, the blue one looks up and says oh, easy., and both end with happy eyes. The text changes from: me typing a long message to the next desk, to: walked over. answered right there.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "walked-over",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "preguntar en persona (cruzar la sala en vez de escribir)",
+ "blanco": "Cella y quien le escribe a quien tiene al lado",
+ "destinatario": "walks over instead of typing",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Cella con música",
+ "tanda_origen": "relleno-1411"
+}

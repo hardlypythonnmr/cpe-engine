@@ -1,0 +1,26 @@
+{
+ "slug": "hang-the-towel",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T14:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c9b40cec69c47cc36d177909fe787dd181edfc109614409a925412a274bdb90e",
+ "hashes": {
+  "short": "953bda75ad8dae07cafcd4f19b704fba9f80c49a2bfbb73e179e3d002a01415b",
+  "reel": "defb92afac4e8231fa1b9561788ac9f69061a2cd2063d2d9aef7313d59721a0e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886862478,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

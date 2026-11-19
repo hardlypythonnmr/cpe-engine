@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-22-axalta-coating-systems-zoominfo-libro",
+ "issue": 23,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T03:30:00Z",
+ "datos_utc": "2026-05-11T00:00:00Z",
+ "hash_contenido": "7c5769f0f127826e188cd94ec65d74518a47f33eabb749869504c1be0a45e0f3",
+ "hashes": {
+  "carrusel": "aa4b4d2951b265576e970984ab9421b98fc4ca9bde98e8961bea06b92aa361ca"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6937506541,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-a",
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z",
+ "issue_n_system": 1741
+}

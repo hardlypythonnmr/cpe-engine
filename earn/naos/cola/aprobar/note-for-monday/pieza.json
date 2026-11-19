@@ -1,0 +1,55 @@
+{
+ "slug": "note-for-monday",
+ "titulo": "A sticky note for Monday at 4:58",
+ "clave": "2026-12-05|note-for-monday",
+ "sale_utc": "2026-12-05T14:00:00Z",
+ "caption": "A sticky note for Monday at 4:58\n\nAt 4:58 on Friday she leaves one sticky note: the first step. Monday morning already has a start.\n\nThe note takes thirty seconds on Friday, and Monday skips the cold start.\n\nFor whoever leaves the first step on a note before leaving the desk.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The note takes thirty seconds on Friday, and Monday skips the cold start.\n\nFor whoever leaves the first step on a note before leaving the desk.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a digital clock on the right that says FRI 4:58. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and a yellow sticky note pops up in the air at the middle. The clock flips to MON 9:00, the note is still there and the figure's eyes turn happy with a pulse. The text stays: me leaving the first step for Monday.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "note-for-monday",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar en una nota el primer paso del lunes antes de irse del escritorio",
+ "blanco": "Cella y quien arranca el lunes en frio",
+ "destinatario": "leaves the first step on a note before leaving the desk",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

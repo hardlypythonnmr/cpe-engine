@@ -1,0 +1,26 @@
+{
+ "slug": "tape-the-tear",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T16:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "361b1521fbbe6b99e49a5fd275d3dde17479f75e53be5c4714580677588dbc8b",
+ "hashes": {
+  "short": "d412c4f8a68d186bd63b86c77f3656a59f07c575f5ada04aab5a2dfdb123a419",
+  "reel": "3a5c40d703f053976e8275f92173e6df5fd021d18e4058c32945166996ea8eeb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886861166,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

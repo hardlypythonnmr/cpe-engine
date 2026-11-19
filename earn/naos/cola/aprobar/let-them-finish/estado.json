@@ -1,0 +1,25 @@
+{
+ "slug": "let-them-finish",
+ "issue": 70,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cca6fde0908efd55e3cdc16b7d443bfe142f9e0bf3e6ddbfbb181dfbc21ffc67",
+ "hashes": {
+  "short": "38defa9a0a433053606670ca7a68a4247066aecd047563e4e04010b586ff6f94",
+  "reel": "9c2ed5d27ef3a16b0959ce1690b069d98f97ae4beded56b328d6ec77982421a8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866434404,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2730",
+ "aprobado_evento_utc": "2026-11-13T22:32:12Z",
+ "issue_n_system": 1215
+}

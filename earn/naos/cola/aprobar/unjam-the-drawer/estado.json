@@ -1,0 +1,26 @@
+{
+ "slug": "unjam-the-drawer",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6a181ae22f61ffcfbd56437d2ceeba88cce0e04950b7fc5bc099551537965a2b",
+ "hashes": {
+  "short": "bc39b5754478bfa0da259ce092db87dd6dc8f3124ddda47e71c7f3a27f4f6199",
+  "reel": "c1931cecdf1e3f9d6b6541af288a76c4b4d201c6fa3113439d6e62ba8ab0ef45"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886863784,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

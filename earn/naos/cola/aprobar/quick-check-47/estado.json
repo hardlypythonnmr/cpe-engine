@@ -1,0 +1,24 @@
+{
+ "slug": "quick-check-47",
+ "issue": 9,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6c3ba20c94397edf6eafd58352e2d6a02d8318ef3f7644d2249a8082f33d0c4a",
+ "hashes": {
+  "short": "543c241995b1e2806d9472a53cea4a35382bb87f516b2d0c22d86ea28d8641f0",
+  "reel": "e349445556712e396c73c785c437f4e8625539f743a11d494235da7a9494540b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668676216,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z",
+ "issue_n_system": 966
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "star-on-the-door",
+ "issue": 70,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "10cbd444718a48c232850e53215d15d6d4f386c9ff6c6bf7dab0ef4e067687a9",
+ "hashes": {
+  "short": "a9c0341709ea7e319719069c367ac727dd364b0128d6f6893e370668b9f48d18",
+  "reel": "1c5feb16c2b1272d68da399eb7c982acf319c65ed1538022007b4feb43d02742"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866437737,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2730",
+ "aprobado_evento_utc": "2026-11-13T22:32:12Z",
+ "issue_n_system": 1215
+}

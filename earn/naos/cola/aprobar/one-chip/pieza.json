@@ -1,0 +1,47 @@
+{
+ "slug": "one-chip",
+ "titulo": "Me having just one",
+ "clave": "2026-11-28|one-chip",
+ "caption": "Me having just one\n\nMe having \"just one.\"\n\n\"Just one\" is not a number. It is a negotiation, and the plate lost.\n\nSend it to the friend who opens the bag \"just to see.\"\n\n#Cella #snacks\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me having \"just one.\"\n\n\"Just one\" is not a number. It is a negotiation, and the plate lost.\n\nSend it to the friend who opens the bag \"just to see.\"\n\n#Cella #snacks\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a table. A small ink-black block figure with white eyes stands on the left looking at a plate with four little bites. One by one the bites vanish with soft pops while the figure leans in, content. After the fourth, its eyes go wide and then it narrows its eyes at the camera, next to an empty plate. The text stays: me having just one, there were four.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "one-chip",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "promesas chicas (solo uno)",
+ "blanco": "Cella (y quien dice solo uno)",
+ "destinatario": "the friend who opens the bag just to see",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": false,
+ "sale_utc": "2026-11-28T20:00:00Z"
+}

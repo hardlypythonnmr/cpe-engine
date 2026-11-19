@@ -1,0 +1,25 @@
+{
+ "slug": "the-dumb-question",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c5aba5269addc26ced169c181fd828ad2d8e4912ba44cf69c0ceec4d2ee2f616",
+ "hashes": {
+  "short": "f57e7a10089e0a49a104a13f5b2d50b5672fb2e36f924306afb240e52a903dd7",
+  "reel": "d733efdeb7e0b74a2b59304ed9bb64d37b914382fa4bdb5154e75ad609354fe8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870900675,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

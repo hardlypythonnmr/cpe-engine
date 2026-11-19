@@ -1,0 +1,55 @@
+{
+ "slug": "date-on-the-lid",
+ "titulo": "The date on the lid answers it",
+ "clave": "2026-12-04|date-on-the-lid",
+ "sale_utc": "2026-12-04T12:00:00Z",
+ "caption": "The date on the lid answers it\n\n\"Is this still good?\" \"It says Monday on the lid.\" The question answered itself.\n\nWriting the day on the lid takes four seconds, and it ends the Thursday guessing game.\n\nFor whoever puts the day on the lid before it goes in the fridge.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Writing the day on the lid takes four seconds, and it ends the Thursday guessing game.\n\nFor whoever puts the day on the lid before it goes in the fridge.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a food container with a blue lid standing on the right. A ink-black block figure with white eyes walks up from the left, its eyes go wide, it leans in and a small paper label that says MON pops onto the lid. Its eyes turn happy with a pulse. The text stays: me writing the day on it.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "date-on-the-lid",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.4 dBFS, LRA 1.6 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "anotar el dia en la tapa de lo que se guarda",
+ "blanco": "Cella y quien no sabe de cuando es lo que sobro",
+ "destinatario": "puts the day on the lid before it goes in the fridge",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 1 al 6-dic (tanda dic-g, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-g"
+}

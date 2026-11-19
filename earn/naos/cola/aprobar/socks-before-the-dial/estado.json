@@ -1,0 +1,25 @@
+{
+ "slug": "socks-before-the-dial",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "558eee74a424f0f69398ce07bc4e51bda7b6b2e66883073fc21d8e068827ef2e",
+ "hashes": {
+  "short": "08e72a1b739d525b5aa24f7e972499d7d9ceb0fa4ea2d47fa5cf3b960cf8770c",
+  "reel": "be4ae147f79f1cee944ba7e6c5a14ad79ccb68724a3faf3441333eb81dd3c8d8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870914507,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

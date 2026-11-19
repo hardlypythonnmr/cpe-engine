@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-29-chipotle-lamina",
+ "issue": 80,
+ "version": 5,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T19:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "f448c88238517116e0eee9bd2543c367ca98a2e8cc04faebdb5812f77c812a67",
+ "hashes": {
+  "imagen": "f0c799ca92bbb0312e2dd147450a6b44844347b49d20f991c66406067a48c15b"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6914675175,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-d",
+ "caducado_utc": "2026-11-16T11:06:05Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:13Z",
+ "issue_n_system": 1334
+}

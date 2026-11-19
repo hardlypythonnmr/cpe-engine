@@ -1,0 +1,56 @@
+{
+ "slug": "bag-out-before-it-spills",
+ "titulo": "The bag out before it spills",
+ "clave": "2027-02-04|bag-out-before-it-spills",
+ "caption": "The bag out before it spills\n\nThe trash was full, and it would have held one more day. She took it out anyway, before it spilled.\n\nA bag taken out while it still holds is an easy job, and one that spilled is a long one.\n\nFor whoever takes the trash out before it spills.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A bag taken out while it still holds is an easy job, and one that spilled is a long one.\n\nFor whoever takes the trash out before it spills.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a full gray trash bag standing on the right. A ink-black block figure with white eyes walks up from the left, its eyes go wide, it leans in and the bag slides out of the frame to the right. A bubble says taking it out. Its eyes turn happy with a pulse. The text changes from: me, the bag's full but it'll hold, to: took it out. nothing spilled.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "bag-out-before-it-spills",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "sacar la basura antes de que se desborde",
+ "blanco": "Cella y quien aguanta una bolsa llena un dia mas",
+ "destinatario": "takes the trash out before it spills",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "usada",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (febrero de 2027, tanda feb-b) · Opus 14, 14-nov: programada 2027-02-04T22:15:00Z (lote feb-0108)"
+ },
+ "tanda_origen": "feb-b",
+ "sale_utc": "2027-02-04T22:15:00Z"
+}

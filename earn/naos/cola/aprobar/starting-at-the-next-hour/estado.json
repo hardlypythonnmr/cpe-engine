@@ -1,0 +1,26 @@
+{
+ "slug": "starting-at-the-next-hour",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8a65c946d24888e27ae06968caae0b7d323fe6c7f320e245d718e9774d1e5595",
+ "hashes": {
+  "short": "d72ab3b4a64c2beb3387fb7761354e38b21eeb2ed16b90d75b59b31fb7ef0a54",
+  "reel": "21c393763773735e67b0c478d76fedfdd7e7598ae83ebcc2fd66e64d54af5b91"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870594255,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

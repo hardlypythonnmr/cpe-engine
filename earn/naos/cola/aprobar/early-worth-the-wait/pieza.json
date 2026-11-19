@@ -1,0 +1,59 @@
+{
+ "slug": "early-worth-the-wait",
+ "titulo": "Ten minutes early, and saying so",
+ "clave": "2026-12-17|early-worth-the-wait",
+ "caption": "Ten minutes early, and saying so\n\nMy friend is always ten minutes early and tells me so. Then I stopped being late.\n\nSaying how long you waited, kindly, tells people their time mattered to you.\n\nFor whoever says out loud that the wait was worth it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Saying how long you waited, kindly, tells people their time mattered to you.\n\nFor whoever says out loud that the wait was worth it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right and a small digital clock that reads 4:50, then 4:55, then 5:00. A small ink-black block figure with white eyes waits on the left. At 5:00 the door opens and a royal blue figure walks in with happy eyes and a bubble that says hi! on time! The black one's eyes go wide, then happy, and a bubble says worth the wait. Both pulse. The text stays: me ten minutes early and admitting it. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "early-worth-the-wait",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "la frase al llegar despues de esperar",
+ "blanco": "Cella (y quien llega diez minutos antes)",
+ "destinatario": "says out loud that the wait was worth it",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "una-variable-1411",
+ "variante": "una-variable",
+ "par": "early-arrival",
+ "lado": "b",
+ "cambia": "lo que dice A al llegar B: 'worth the wait.'",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-17T21:45:00Z",
+ "brazo": "b",
+ "escena": "early-arrival"
+}

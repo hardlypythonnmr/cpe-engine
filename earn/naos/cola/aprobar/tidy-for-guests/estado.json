@@ -1,0 +1,25 @@
+{
+ "slug": "tidy-for-guests",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "171c1e5a7055352ee03700be307024b7b9633e17135d2bde4319c2771dc76df6",
+ "hashes": {
+  "short": "00a37f7795e6c8928ef9b679a96ace23363af30a81a214753141f6438a64559b",
+  "reel": "830d4f3373c1c4fbadf40b79647d8e7b7f2eb34c432a828f97f8bf17ca2817b5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861218532,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

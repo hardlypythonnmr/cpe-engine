@@ -1,0 +1,26 @@
+{
+ "slug": "water-on-first",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-15T18:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "57276c3863c8f11f98568ac00e88e906b8f561657e5c7253c12e20931ce44c9f",
+ "hashes": {
+  "short": "4f97f394e1cc9604f771f23f26e19528fd0995f0176c4ebeb34f37db44cf215d",
+  "reel": "b0dd3fab85a234649469f8595c381a58205f29d3be65bf54810d65ddf30acc99"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886923110,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

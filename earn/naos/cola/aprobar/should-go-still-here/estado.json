@@ -1,0 +1,25 @@
+{
+ "slug": "should-go-still-here",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f15972e65472a7fecbebc25a7500308aac55ecc966f27dc0f4ddbc97c31c6782",
+ "hashes": {
+  "short": "463d8973821296d2fa0d9e09c8a59951f3888e2d00c999c40d02a819179c540d",
+  "reel": "6e38a677d04a0b4091b507b06a301eed245e71467e724da2b91119fd3cf1d858"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870916557,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

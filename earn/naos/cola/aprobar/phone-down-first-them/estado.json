@@ -1,0 +1,26 @@
+{
+ "slug": "phone-down-first-them",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-15T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b8ab6f135565bb02e663b46ef86c36b9abfb7f2abedba847159d3d086788f7f0",
+ "hashes": {
+  "short": "eb04a784df2c47687399cdf4d15317b25542fa2e3208f85eb0d28bcb30b7f782",
+  "reel": "26c7c30b0fe7b2021f84e4f9ffdcd20f7bdc3915e6f97b5b8500abaf284a0fe7"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886962194,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

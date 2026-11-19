@@ -1,0 +1,26 @@
+{
+ "slug": "lunch-in-the-bag",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3c9dccb21f594f71d25acd76684b2aacc6033109df7db51438812248ce8cf56a",
+ "hashes": {
+  "short": "32aadeb3e8fedee051efb0250763d7c9bd132cba26f1bd3b054f2bdbc8650295",
+  "reel": "132e4327d44f59b01b79f1beb2f7d2cebf2d1337e19ad07afd5e40a669512b9d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886842229,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

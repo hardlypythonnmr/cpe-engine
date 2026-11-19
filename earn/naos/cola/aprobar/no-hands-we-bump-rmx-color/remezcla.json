@@ -1,0 +1,40 @@
+{
+ "origen": "no-hands-we-bump",
+ "eje": "color",
+ "brazo": "B",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "field from pink #EC98A5 to mint #7FCDAE and its floor to a darker mint; both Cellas and the words untouched"
+ ],
+ "receta": {
+  "slug": "no-hands-we-bump-rmx-color",
+  "fecha_et": "2026-11-19",
+  "et_preferida": "16:30",
+  "campo": [
+   [
+    "#EC98A5",
+    "#7FCDAE"
+   ],
+   [
+    "#C8838C",
+    "#5FA98C"
+   ]
+  ],
+  "portada": 0.3,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 8.0,
+ "audio": {
+  "lufs": -16.0,
+  "pico_dbtp": -6.4
+ },
+ "huella": {
+  "dhash_media": 27.1,
+  "dhash_min": 24,
+  "umbral": 14,
+  "cambio_color": 50.1,
+  "distinta": true,
+  "lectura": "distinta en forma"
+ },
+ "elevenlabs_llamadas": 0
+}

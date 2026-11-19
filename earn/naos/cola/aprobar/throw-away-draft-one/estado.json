@@ -1,0 +1,26 @@
+{
+ "slug": "throw-away-draft-one",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ff08f46c5134a17156255d39ac480765b67c6cd7b23deb8ebca3c3641f384d0b",
+ "hashes": {
+  "short": "07de2c578f67cbd5e7a3a0d28e9ac4abd83cb2f97cb454fbb540063dd456cbfd",
+  "reel": "7b60d4137b4b8f6d189f6a772854bc2491561bb2969ae4abcd2c0c201fec47b9"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886846052,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

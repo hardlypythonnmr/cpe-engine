@@ -1,0 +1,22 @@
+{
+ "slug": "family-dinner-receipt",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e594656ec7f51c6e5010b4ed65738e580639c6162557f1b961b7b24373f98166",
+ "hashes": {
+  "imagen": "65b559cc381ffba688c51fe505703927d781fe7d2f3fab455f4cce78b91e7cb4"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681431753,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

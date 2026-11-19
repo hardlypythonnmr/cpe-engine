@@ -1,0 +1,49 @@
+{
+ "slug": "dtt-the-time-zone-in-the-invite",
+ "titulo": "Put their time zone in the invite too",
+ "clave": "2027-01-21|casa-mesa",
+ "sale_utc": "2027-01-21T15:15:00Z",
+ "caption": "Put their time zone in the invite too\n\nCella sends a meeting time as 3 PM ET, then adds the other person's time right under it: 12 PM PT.\n\nFor whoever writes the time in their time zone too.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething #chooseFriction",
+ "descripcion": "Cella sends a meeting time as 3 PM ET, then adds the other person's time right under it: 12 PM PT.\n\nFor whoever writes the time in their time zone too.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a pink wall. A small ink-black block figure with white eyes stands on the left and a royal blue one stands on the right looking away. Between them on the floor, a plain white block reads 3 pm et. A second block pops up right above it and reads 12 pm pt. The royal blue figure turns, its eyes go wide and then close in a smile and it pulses. Both lean in slightly toward each other and a star appears. The text stays: 1 meeting, 2 time zones. The last card: for whoever writes the time in their time zone too, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "dtt-the-time-zone-in-the-invite",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 17 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "poner en la invitacion tambien la hora de la otra persona",
+ "blanco": "Cella (y quien escribe la hora en la zona de la otra persona)",
+ "destinatario": "whoever writes the time in their time zone too",
+ "cara": "A",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "Do the thing (mudo)",
+ "gancho_brazo": "A"
+}

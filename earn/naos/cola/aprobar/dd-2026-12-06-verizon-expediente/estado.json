@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-06-verizon-expediente",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T20:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "8f69feab70fc0eb9ffa556e4a08a357b2102c3c99f6dba341bcdc5bac3256955",
+ "hashes": {
+  "carrusel": "81aa478af4d0322f66d61945d168c3e259833ebda3cdc4dbe4f7f2b84af4951b"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6914692774,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

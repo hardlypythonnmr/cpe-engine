@@ -1,0 +1,55 @@
+{
+ "slug": "one-task-at-a-time",
+ "titulo": "Four sticky notes into the drawer",
+ "clave": "2026-12-04|one-task-at-a-time",
+ "sale_utc": "2026-12-05T00:00:00Z",
+ "caption": "Four sticky notes into the drawer\n\nFive sticky notes, five tasks. Four went into the drawer for now, and the one left got finished.\n\nOne task in sight gets done in twenty minutes, and five in sight get started and abandoned.\n\nFor whoever keeps one task on the desk and puts the rest away.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "One task in sight gets done in twenty minutes, and five in sight get started and abandoned.\n\nFor whoever keeps one task on the desk and puts the rest away.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and five sticky notes spread on the right: yellow, orange and light blue. A royal blue block figure with narrowed eyes says do all five at once. A ink-black block figure with white eyes answers just this one, and four of the notes disappear one by one while the last slides to the middle and a small sparkle appears on it. The blue one's eyes go wide and says ...huh. it's done. Both end with happy eyes. The text stays: me, one at a time.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "one-task-at-a-time",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar una sola tarea a la vista y guardar las otras",
+ "blanco": "Cella y quien empieza cinco cosas a la vez",
+ "destinatario": "keeps one task on the desk and puts the rest away",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dic-i, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-i"
+}

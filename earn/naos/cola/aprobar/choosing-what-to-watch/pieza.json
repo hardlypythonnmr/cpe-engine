@@ -1,0 +1,41 @@
+{
+ "slug": "choosing-what-to-watch",
+ "titulo": "Picking a show, drawn to scale",
+ "clave": "2026-11-22|choosing-what-to-watch",
+ "sale_utc": "2026-11-22T13:20:00Z",
+ "caption": "Picking a show, drawn to scale. Feelings only, no data was harmed.\nCella watched three trailers and went to bed.\nLink in bio.\nby NMR\n#streaming #sundaynight #relatable",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "a bar chart: a long red bar for choosing what to watch and a short blue bar for watching it; Cella in a crown stands at the bottom. Picking a show, drawn to scale. Feelings only. Cella watched three trailers and went to bed.",
+ "tipo_imagen": "F6 A escala · habitos · dom 22-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "Dibujo a escala (segunda vez): una barra contra otra sobre elegir qué ver. Mide si el formato se repite en envíos o se agota al segundo.",
+ "blanco": "bienestar y autoayuda",
+ "mecanica_crecimiento": "enviar · destinatario: whoever has scrolled the menu for 40 minutes",
+ "eco": "C03 · experimento: dibujo a escala",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

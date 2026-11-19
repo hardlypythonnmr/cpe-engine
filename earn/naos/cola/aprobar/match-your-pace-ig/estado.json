@@ -1,0 +1,24 @@
+{
+ "slug": "match-your-pace-ig",
+ "issue": 14,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T01:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6ec0be87367901b589d90ad49771f52049f4751196e62fbd0e109fa06794b360",
+ "hashes": {
+  "reel": "1a090316d6f53410f8fe752a9a182b8e7bccc7fac556ca4b94f2379250f39c6f"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6860625985,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "lote-2326",
+ "caducado_utc": "2026-11-13T17:49:25Z",
+ "aprobado_evento_utc": "2026-11-13T19:14:09Z",
+ "issue_n_system": 1125
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "the-last-twenty-pages",
+ "titulo": "Me finishing the last twenty pages",
+ "clave": "2026-12-06|the-last-twenty-pages",
+ "caption": "Me finishing the last twenty pages\n\nThe slump is usually in the middle. Endings tend to go faster than the stretch right before them makes you expect.\n\nFor the friend with a bookmark stuck at page 280.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "The slump is usually in the middle. Endings tend to go faster than the stretch right before them makes you expect.\n\nFor the friend with a bookmark stuck at page 280.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands on the left, leaning toward a book on the right that opens and turns pages one after another. A bubble says ugh, the middle and its eyes narrow. Then the pages turn faster, a bubble says wait... and its eyes go wide. A last bubble says the end! and its eyes go happy with a pulse. The text stays: me finishing the last twenty pages. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "the-last-twenty-pages",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.2 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "terminar lo empezado (las últimas páginas del libro)",
+ "blanco": "Cella (y quien deja el libro al 90 por ciento)",
+ "destinatario": "the friend with a bookmark stuck at page 280",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-06T13:00:00Z",
+ "pie": "More of this: link in bio."
+}

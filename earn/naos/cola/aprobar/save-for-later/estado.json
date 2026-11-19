@@ -1,0 +1,25 @@
+{
+ "slug": "save-for-later",
+ "issue": 69,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4739e65a08e5518707c6bd9dc6179c73ba764e60ceb17f2f042cce8844e073e4",
+ "hashes": {
+  "short": "39fe9dd25e165bd9cb34be337e25c7b84b742e8c128ca406b6a312876cdf9ca8",
+  "reel": "095f90231f6c520abb22c8d2e85f3d1891e25958608fc479dfb7790f3083d0f3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866098604,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2125",
+ "aprobado_evento_utc": "2026-11-13T22:32:44Z",
+ "issue_n_system": 1212
+}

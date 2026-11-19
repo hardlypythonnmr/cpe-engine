@@ -1,0 +1,48 @@
+{
+ "slug": "mirror-last-look",
+ "titulo": "Me taking one last look in the mirror",
+ "caption": "Me taking one last look in the mirror\n\nMe taking one last look in the mirror.\n\nThe third look checks nothing new. The first one already told you, so the second is just nerves.\n\nSend it to the friend who does the last look three times.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me taking one last look in the mirror.\n\nThe third look checks nothing new. The first one already told you, so the second is just nerves.\n\nSend it to the friend who does the last look three times.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a tall mirror in the middle. A small ink-black block figure with white eyes walks to the mirror, tilts and looks up, and its eyes turn happy. It starts to leave to the left, stops with wide eyes, and walks back for another look. It does it a third time. At the end it narrows its eyes at the camera. The text stays: me taking one last look in the mirror.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "mirror-last-look",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.7 dBFS, LRA 3.6 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "salir de casa (el último vistazo)",
+ "blanco": "Cella (y quien se mira una última vez tres veces)",
+ "destinatario": "the friend who does the last look three times",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "sale_utc": "2026-11-28T01:30:00Z",
+ "clave": "2026-11-27|mirror-last-look"
+}

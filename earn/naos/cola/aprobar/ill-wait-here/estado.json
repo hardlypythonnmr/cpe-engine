@@ -1,0 +1,25 @@
+{
+ "slug": "ill-wait-here",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4264bca8840f2dbf4cc8ec6a14ae5a4ea8186a06c6cdb9fd2b8529825899752b",
+ "hashes": {
+  "short": "fba174adfe82d68aaff89003648641b3bc0c27aed41f090d53f57fab4fb7469d",
+  "reel": "fd060c16b9b57cd5987899092fb41d79294acc283cd3fb276bb5d972d4c6c834"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870916089,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

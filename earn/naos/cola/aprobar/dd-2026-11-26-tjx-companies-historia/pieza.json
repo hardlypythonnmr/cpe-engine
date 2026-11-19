@@ -1,0 +1,74 @@
+{
+ "slug": "dd-2026-11-26-tjx-companies-historia",
+ "titulo": "TJX Companies (May 2025): $23.4 million CEO total pay, $15,002 median pay. The math.",
+ "clave": "2026-11-26|mercury|historia|2026-11-26-tjx-companies-historia",
+ "sale_utc": "2026-11-26T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: May 2025. Not today's news.\nTJX Companies, May 1, 2025 (TJX, proxy statement): \"We focus our efforts on supporting our Associates\"\nTJX's proxy statement, filed May 1, 2025, reported total compensation of $23,482,528 for its CEO and $15,002 for its median employee for FY25, the fiscal year that ended Feb. 1, 2025.\n\nSame proxy: $23.4 million CEO total pay, fiscal 2025. The total compensation of the CEO for FY25 (the fiscal year that ended Feb. 1, 2025), as reported in the proxy's Summary Compensation Table.\nThe math: $23.4 million CEO total pay (2025) ÷ $15,002 median pay = about 1,565 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; TJX's own figure is 1,565 to 1. Per the proxy, the median employee comes from all employees worldwide, part-time and temporary included. We are not saying anyone is paid too much or too little.\n\nSupporting our Associates. The ratio is next. (Our take.)\n\nSources:\n- SEC EDGAR · TJX, May 1, 2025: «We focus our efforts on supporting our Associates, giving back to the communities in which we operate, mitigating our impact on the environment, and operating our business with integrity.» and «Our CEO’s annual total compensation for FY25, as reported in the “Total” column of the Summary Compensation Table above, was $23,482,528» and «In accordance with SEC rules, the median of the annual total compensation of all employees (other than the CEO) was estimated to be $15,002 for FY25» https://www.sec.gov/Archives/edgar/data/109198/000010919825000024/tjx-20250501.htm",
+ "alt": "Paper-colored card. TJX Companies, May 1, 2025. A gray typewriter quote, \"We focus our efforts on supporting our Associates\", struck through with a dark red marker line. The struck quote is by TJX, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $23.4M ÷ $15,002 = about 1,565, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib4-tjx-2025-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/109198/000010919825000024/tjx-20250501.htm",
+   "medio": "SEC EDGAR · TJX",
+   "titulo": "TJX proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "TJX Companies (May 2025): CEO pay ratio, 1,565 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "tjx-2025-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · MAY 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/tjx-2025-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib4-tjx-2025-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 4 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib4-tjx-2025-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra (proxy, Summary Compensation Table) y que el empleado mediano es un cálculo de la empresa; lo que la fuente aclara del mediano (tiempo parcial, global) queda en la nota cuando aplica."
+  ]
+ }
+}

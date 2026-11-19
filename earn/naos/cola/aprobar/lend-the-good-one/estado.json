@@ -1,0 +1,26 @@
+{
+ "slug": "lend-the-good-one",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-26T16:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a71b144b265f737c36d670af2ee0f82ff422698d04dce453dabc9a19819e3de6",
+ "hashes": {
+  "short": "bcc31c104b33ba20f0e738a2a6aa93b5b4cb21fedca2dfc5ab6abb6d504e3846",
+  "reel": "7eb3d1d6e10e902688afc67f249a3b67d5d832e6dcd1dfba2a93c3249bb2c3f2"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886876988,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

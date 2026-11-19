@@ -1,0 +1,49 @@
+{
+ "slug": "who-gets-the-check",
+ "titulo": "Me and my friend and the check",
+ "caption": "Me and my friend and the check\n\nMe and my friend and the check.\n\nTaking turns paying keeps things even without anyone counting. Whoever pays today picks the place next time.\n\nSend it to the friend who grabs the check first.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me and my friend and the check.\n\nTaking turns paying keeps things even without anyone counting. Whoever pays today picks the place next time.\n\nSend it to the friend who grabs the check first.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. Two small block figures with white eyes, an ink-black one on the left and a brick-red one on the right, and a small yellow card on the floor between them. The black one says I got it! and the card slides toward it. The red one says no, I got it! and the card slides to the red one. They trade my treat! and you get next one, and finally the black one says deal! with a happy pulse as the card settles in the middle where it started, so the film repeats without a cut. The text stays: me and my friend and the check.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "who-gets-the-check",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.6 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "amistad (quién paga la cuenta)",
+ "blanco": "Cella y quien también quiere pagar",
+ "destinatario": "the friend who grabs the check first",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "bucle": "empalme",
+ "sale_utc": "2026-11-25T14:00:00Z",
+ "clave": "2026-11-25|who-gets-the-check"
+}

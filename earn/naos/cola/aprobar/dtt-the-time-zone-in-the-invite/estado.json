@@ -1,0 +1,24 @@
+{
+ "slug": "dtt-the-time-zone-in-the-invite",
+ "issue": 101,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-21T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "100a71cd46cef396df1c3531d1f25e7b4442327caca38e521d74e20dc7075b6f",
+ "hashes": {
+  "reel": "cc84eee00d4dd539b58585608dce7b3789756635ebc7ca263d5520fc00c6fc9e"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893999922,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enef-1821",
+ "caducado_utc": "2026-11-15T12:01:10Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1413
+}

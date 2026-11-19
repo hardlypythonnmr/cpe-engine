@@ -1,0 +1,23 @@
+{
+ "slug": "before-6-am-by-cella-control",
+ "issue": 116,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T15:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d7e7731d9273aaa2a3bf9b4124403a3c9886ee874f0edcf1eca198b6abed66c5",
+ "hashes": {
+  "short": "67975866f8b2a56f394a9fd4f76da001366c23c600876a35766c45eaf0a587c1"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6988525337,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1118",
+ "aprobado_evento_utc": "2026-11-18T19:03:43Z",
+ "issue_n_system": 1795
+}

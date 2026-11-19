@@ -1,0 +1,23 @@
+{
+ "slug": "did-you-see-it",
+ "issue": 106,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T22:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9b59d40f676a9feb0585f6eca4d5636d9b71292353ccfad93990b1a40bb1ead1",
+ "hashes": {
+  "historia": "b673d5741224df3cc85bd08a90327ecdff73d38b4db2a79826981fb6d25f2dfc"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6894781150,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "luna-1212",
+ "aprobado_evento_utc": "2026-11-15T13:21:19Z",
+ "issue_n_system": 1527
+}

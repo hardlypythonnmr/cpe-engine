@@ -1,0 +1,56 @@
+{
+ "slug": "is-now-a-good-time",
+ "titulo": "Give me five, then I'll come back",
+ "clave": "2027-02-03|is-now-a-good-time",
+ "caption": "Give me five, then I'll come back\n\n\"Good time to talk?\" \"Give me five!\" \"I'll come back.\" Nobody got interrupted.\n\nAsking whether it is a good time takes ten seconds and protects the other person's focus.\n\nFor whoever asks if it is a good time first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Asking whether it is a good time takes ten seconds and protects the other person's focus.\n\nFor whoever asks if it is a good time first.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway. A royal blue block figure on the right trembles with narrowed eyes, busy. A ink-black block figure with white eyes walks up from the left and a bubble says good time to talk? The blue one opens its eyes wide and a bubble says give me five! The black one says I'll come back, turns and walks off to the left. Both end with happy eyes. The text stays: me checking it is a good time.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "is-now-a-good-time",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.2 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "preguntar si es buen momento antes de interrumpir",
+ "blanco": "Cella y quien interrumpe a quien esta concentrado",
+ "destinatario": "asks if it is a good time first",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "usada",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (febrero de 2027, tanda feb-b) · Opus 14, 14-nov: programada 2027-02-03T22:15:00Z (lote feb-0108)"
+ },
+ "tanda_origen": "feb-b",
+ "sale_utc": "2027-02-03T22:15:00Z"
+}

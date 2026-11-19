@@ -1,0 +1,23 @@
+{
+ "slug": "7-fixes-you-keep-skipping-reel",
+ "issue": 17,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-20T19:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f13227a2b67820fd7f5f3b2b7ee94b525b33040530680bf421062110b8ed0542",
+ "hashes": {
+  "reel": "8d8e2d0d1c1283df2cb37ce13be56edd921d47f272879d727d6f63b2200dfead"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887855733,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "fijo-reel-1511",
+ "aprobado_evento_utc": "2026-11-15T11:55:30Z",
+ "issue_n_system": 1448
+}

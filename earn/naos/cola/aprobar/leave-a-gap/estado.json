@@ -1,0 +1,26 @@
+{
+ "slug": "leave-a-gap",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T21:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c7872ac3a7aba69117f7b3a973ecef7d6e2624d492c56d48eb4722decedd1c93",
+ "hashes": {
+  "short": "707c341565c0328c50aa91ce5fa0fe4f221c6078446f4cb46062dea86636f3c9",
+  "reel": "7186915d97abdcd88876146f22486436854f332336316dc5079b20d58fe00f5c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886844480,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

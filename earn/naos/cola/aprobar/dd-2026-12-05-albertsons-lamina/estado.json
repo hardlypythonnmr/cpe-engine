@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-05-albertsons-lamina",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T20:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "957ebc837e620cc825bc6fd76427e8d895dac1a65fe7072f2f2bf1ead21eeaa0",
+ "hashes": {
+  "imagen": "6375023e72204db758b8d49079d0e5d00c57b8289239847dd88fe1e2fe878331"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6914689526,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

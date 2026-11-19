@@ -1,0 +1,55 @@
+{
+ "slug": "walk-instead-of-waiting",
+ "titulo": "Fourteen minutes to wait. Nine to walk",
+ "clave": "2026-12-12|walk-instead-of-waiting",
+ "sale_utc": "2026-12-12T19:00:00Z",
+ "caption": "Fourteen minutes to wait. Nine to walk\n\nThe bus sign says fourteen minutes. The walk is nine. She starts walking and the second figure gets up to follow.\n\nWalking takes less than waiting here, and you are already moving when the bus would have shown up.\n\nFor whoever walks when the bus is farther than the walk.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Walking takes less than waiting here, and you are already moving when the bus would have shown up.\n\nFor whoever walks when the bus is farther than the walk.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A street with a bench on the left and a sign on a pole that says 14 min. A royal blue block figure with white eyes sits on the bench and says just wait for it. A ink-black block figure with white eyes stands beside the sign, then a green sign that says 9 min pops up on the far right. The ink-black one walks to it and the royal blue one stands up, says fine, wait for me, and follows. Both turn happy. The text stays: me walking, not waiting.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "walk-instead-of-waiting",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "caminar en vez de esperar un bus que tarda mas que el trayecto a pie",
+ "blanco": "Cella y quien espera el bus aunque a pie llegaria antes",
+ "destinatario": "walks when the bus is farther than the walk",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 10 al 13-dic (tanda dic-k, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-k"
+}

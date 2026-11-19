@@ -1,0 +1,51 @@
+{
+ "slug": "ask-for-the-recipe",
+ "titulo": "Can I get the recipe, five words",
+ "clave": "2026-12-13|ask-for-the-recipe",
+ "sale_utc": "2026-12-13T18:00:00Z",
+ "caption": "Can I get the recipe, five words\n\n\"Can I get the recipe?\" It is the nicest thing you can say about a dish, and it takes five words.\n\nAsking for the recipe tells the cook the food worked, and it is easier to say than a speech.\n\nFor whoever asks for the recipe.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Asking for the recipe tells the cook the food worked, and it is easier to say than a speech.\n\nFor whoever asks for the recipe.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a plate holding a bite of food in the middle. A ink-black block figure with white eyes walks to the plate, the food disappears, its eyes go wide and a bubble says can I get the recipe? A royal blue block figure on the right opens its eyes wide and then happy ones and a bubble says I'll show you. Both end with happy eyes. The text stays: me asking for the recipe.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "ask-for-the-recipe",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.2 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pedirle la receta a quien cocino",
+ "blanco": "Cella y quien elogia la comida solo con la cara",
+ "destinatario": "asks for the recipe",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

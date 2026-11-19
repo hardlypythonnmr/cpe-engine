@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-waiting",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-15T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ed81fed5c9d82a3e1810e85b17411d3268cfb61ae41d2e0a65c527ab97936790",
+ "hashes": {
+  "short": "f78e0ffebb35d0d4bb7cd272ae0ec8d5754065a5ab801662a374c2ba4d0da8a3",
+  "reel": "00513449eb2955e94a06dc74341dc631667f9841381598fe17a20337ad055de6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886946490,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

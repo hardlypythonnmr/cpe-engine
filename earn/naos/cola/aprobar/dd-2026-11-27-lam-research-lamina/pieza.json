@@ -1,0 +1,84 @@
+{
+ "slug": "dd-2026-11-27-lam-research-lamina",
+ "titulo": "Lam Research (Jan 2023): $2 billion buying back its own stock, about 1,300 positions. The math.",
+ "clave": "2026-11-27|mercury|lamina|2026-11-27-lam-research-lamina",
+ "sale_utc": "2026-11-27T19:00:00Z",
+ "caption": "From the archive: Jan 2023. Not today's news.\nLam Research, Jan 25, 2023 (Lam Research, Form 8-K): \"better align the Company’s cost structure with its outlook for the current economic environment\"\nLam Research said in an SEC filing on Jan. 25, 2023 that it commenced a workforce reduction of approximately 1,300 employee positions. The buyback figure is from its fiscal 2023 Form 10-K.\n\nSame fiscal year: $2 billion buying back its own stock, fiscal 2023. $2,017,012 thousand of treasury stock purchases in fiscal 2023 (year ended June 25, 2023), company-wide (cash flow statement, Form 10-K, reported in thousands).\nThe math: $2 billion in buybacks (2023) ÷ about 1,300 job cuts = about $1.5 million in buybacks per planned position cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $2.017 billion is Lam Research's treasury stock purchases for fiscal 2023 (July 2022 to June 2023), company-wide. The 1,300 positions, about 7% of employees, are the filing's estimate. We are not saying one paid for the other.\n\nAligned with the outlook. The buyback had its own column. (Our take.)\n\nFor someone whose employer once aligned its cost structure.\n\nSources: SEC EDGAR · Lam Research, Jan 25, 2023; SEC EDGAR · Lam Research, Aug 15, 2023.\n\nLink in bio.",
+ "descripcion": "From the archive: Jan 2023. Not today's news.\nLam Research, Jan 25, 2023 (Lam Research, Form 8-K): \"better align the Company’s cost structure with its outlook for the current economic environment\"\nLam Research said in an SEC filing on Jan. 25, 2023 that it commenced a workforce reduction of approximately 1,300 employee positions. The buyback figure is from its fiscal 2023 Form 10-K.\n\nSame fiscal year: $2 billion buying back its own stock, fiscal 2023. $2,017,012 thousand of treasury stock purchases in fiscal 2023 (year ended June 25, 2023), company-wide (cash flow statement, Form 10-K, reported in thousands).\nThe math: $2 billion in buybacks (2023) ÷ about 1,300 job cuts = about $1.5 million in buybacks per planned position cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $2.017 billion is Lam Research's treasury stock purchases for fiscal 2023 (July 2022 to June 2023), company-wide. The 1,300 positions, about 7% of employees, are the filing's estimate. We are not saying one paid for the other.\n\nAligned with the outlook. The buyback had its own column. (Our take.)\n\nSources:\n- SEC EDGAR · Lam Research, Jan 25, 2023: «the Company commenced a workforce reduction that is intended to better align the Company’s cost structure with its outlook for the current economic environment and future business opportunities» and «The Company expects the Restructuring Plan to entail a workforce reduction of approximately 1,300 employee positions» https://www.sec.gov/Archives/edgar/data/707549/000070754923000005/lrcx-20230123.htm\n- SEC EDGAR · Lam Research, Aug 15, 2023: «Treasury stock purchases ( 2,017,012 ) ( 3,865,663 ) ( 2,697,704 )» https://www.sec.gov/Archives/edgar/data/707549/000070754923000102/lrcx-20230625.htm",
+ "alt": "Paper-colored card. Lam Research, Jan 25, 2023. A gray typewriter quote, \"better align the Company’s cost structure with its outlook for the current economic environment\", struck through with a dark red marker line. The struck quote is by Lam Research, Form 8-K. Then the math in huge black letters, with the result on a yellow highlight: $2B ÷ 1,300 = about $1.5M, in buybacks, per planned position cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/biblioteca/bib3-lam-research-2023-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754923000005/lrcx-20230123.htm",
+   "medio": "SEC EDGAR · Lam Research",
+   "titulo": "Lam Research Form 8-K, Item 2.05",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754923000102/lrcx-20230625.htm",
+   "medio": "SEC EDGAR · Lam Research",
+   "titulo": "Lam Research Form 10-K",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg",
+ "tipo": "imagen",
+ "lado": "empleado",
+ "tema": "Lam Research (Jan 2023): began a workforce reduction, in stock buybacks per job cut",
+ "banco_archivo": {
+  "caso": "lam-research-2023-layoffs",
+  "rotulo_fecha": "ARCHIVE · JAN 2023",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/lam-research-2023-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-lam-research-2023-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-lam-research-2023-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Frase del propio 8-K; A de la tabla en miles del 10-K fiscal 2023, B 'approximately 1,300 positions' (about); el recorte empezó dentro del año fiscal."
+  ]
+ },
+ "aspecto": "4x5"
+}

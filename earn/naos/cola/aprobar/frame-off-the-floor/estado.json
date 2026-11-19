@@ -1,0 +1,26 @@
+{
+ "slug": "frame-off-the-floor",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T21:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4dc6f1ce00c205f019743b90a2717b343b28611f0072592bdad02b08540b1d2e",
+ "hashes": {
+  "short": "8445854c84cf29ad5f8e3e11298e04808215deaff49b97be84133db53b43ecb5",
+  "reel": "a9e02280c2bc5e8364b9b1eeae385c39e43ffcd513d1aff90be69a36f121110c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886864597,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

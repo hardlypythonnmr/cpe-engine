@@ -1,0 +1,25 @@
+{
+ "slug": "first-five-minutes",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e5e4a94a1e4140d75ec8577b61d08eaa367678f0cff781811adf18d0ced02056",
+ "hashes": {
+  "short": "3c1469af42c43b4cb39a2df0ed24f013d143fe5730523cbf0f76d1b439305c8c",
+  "reel": "c34545ecfa399323b55d8143c1ad586c68fb37cd383daf954bfb991cfff8c449"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870918509,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

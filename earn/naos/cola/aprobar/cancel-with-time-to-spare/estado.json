@@ -1,0 +1,26 @@
+{
+ "slug": "cancel-with-time-to-spare",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "84e70a94a1daf7704c719391d60b7ff88163b231f69c4c8111002b8598868016",
+ "hashes": {
+  "short": "8aae4e80e40276eb02d46c1c9de269ad99cb11b9177f6d84d476987e199295c7",
+  "reel": "7b6c983948c33091ac48ac5b738afee462065df8d678b2a4a499da917fee3714"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886799975,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

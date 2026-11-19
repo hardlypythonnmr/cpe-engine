@@ -1,0 +1,26 @@
+{
+ "slug": "dtt-the-aux-cord-theirs",
+ "issue": 101,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-21T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1c98a3a45d77b7f666d9f46fa0c0e7144d2e510b781c5def0135cebb45272f37",
+ "hashes": {
+  "short": "abe79f61d33982a01353e22d69328a015d1124e631a599c2725fadb4896c8887",
+  "reel": "26e7eb7502f0f69e384fbf054e9d67bfaacd66f46b126da2ef73e04f64c84701"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894000438,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enef-1821",
+ "caducado_utc": "2026-11-15T12:01:10Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1413
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-22-etsy-historia",
+ "issue": 16,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T16:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "77003a0194005469608007340b77e175b3e8968591c0cccc7a798f7f566f12f3",
+ "hashes": {
+  "historia": "8b9a75248b059fcdb562b06e3cc245944e5c8cbd5ff9e90da6b3f10bca9b7353"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885950469,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z",
+ "issue_n_system": 1332
+}

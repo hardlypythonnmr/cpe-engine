@@ -1,0 +1,54 @@
+{
+ "slug": "let-the-soup-simmer",
+ "titulo": "Letting the soup simmer",
+ "clave": "2026-12-08|let-the-soup-simmer",
+ "caption": "Letting the soup simmer\n\nLetting the soup take its time.\n\nSlow, gentle heat softens the tough bits and gives flavors time to blend, which a hard boil cannot do.\n\nFor whoever turns the flame up to hurry the soup.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Letting the soup take its time.\n\nSlow, gentle heat softens the tough bits and gives flavors time to blend, which a hard boil cannot do.\n\nFor whoever turns the flame up to hurry the soup.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a pot on the right giving off steam. A small ink-black block figure with white eyes stands on the left. A bubble says ready? with wide eyes. Then not yet with a tilt. Then smells good. Then five more with narrowed eyes. Then now! and its eyes turn happy with a pulse. The text stays: me letting the soup take its time. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "let-the-soup-simmer",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.1 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar que la sopa tome su tiempo",
+ "blanco": "Cella (y quien sube el fuego para apurar la sopa)",
+ "destinatario": "whoever turns the flame up to hurry the soup",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-08T13:45:00Z"
+}

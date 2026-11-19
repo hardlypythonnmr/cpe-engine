@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-10-best-buy-expediente",
+ "issue": 105,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T21:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "7d5bb9377706bc5d4e4167ff9e51ce21d7f5ee436279d47eff1d25612ccadd87",
+ "hashes": {
+  "carrusel": "f6b88689f98949203458765cce5cc38454ac636b005ded9a649ad84975b899a5"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6890754613,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-c",
+ "aprobado_evento_utc": "2026-11-15T11:55:33Z",
+ "issue_n_system": 1478
+}

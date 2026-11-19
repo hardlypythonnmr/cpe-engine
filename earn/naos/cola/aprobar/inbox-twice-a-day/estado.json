@@ -1,0 +1,26 @@
+{
+ "slug": "inbox-twice-a-day",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4bd3e02a8bbccc0305be2c3bd67aa82c44b837a9e76ce307f7301b2ee89d29ae",
+ "hashes": {
+  "short": "e47f4724df48a86b9678cd66d6079a8829215ac79b8bad71b4cdba2e8fe5ea10",
+  "reel": "4bff32169d40e4d0fc9d30380c2623d304c4a959fbbfad08cc7127a14ed31b2d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886812661,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

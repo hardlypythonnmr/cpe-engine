@@ -1,0 +1,22 @@
+{
+ "slug": "cancel-and-call",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ffd58e8a5c4ec187b08d854f924736a1ad096fa006c618eb919455bcb122c8d5",
+ "hashes": {
+  "historia": "1fef6511a39fd96411fdf29723233f1920c9ad15328495d72f4daea415ba0355"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681459279,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

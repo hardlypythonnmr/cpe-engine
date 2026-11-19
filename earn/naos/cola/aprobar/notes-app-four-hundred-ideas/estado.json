@@ -1,0 +1,24 @@
+{
+ "slug": "notes-app-four-hundred-ideas",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T22:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "64740564eaeb9eac0c0b00d2ef94772460851cebc006f17b11d905d78034a75d",
+ "hashes": {
+  "imagen": "ec83e2cd747f7f981362ba2e69acdaac3af980c34656fada3b153ea06a30a883"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6887872186,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "huecos-17nov",
+ "caducado_utc": "2026-11-15T02:21:16Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "issue_n_system": 1034
+}

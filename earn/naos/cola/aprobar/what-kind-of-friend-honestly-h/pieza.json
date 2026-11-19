@@ -1,0 +1,38 @@
+{
+ "slug": "what-kind-of-friend-honestly-h",
+ "titulo": "Stories echo: What kind of friend are you? Honestly.",
+ "clave": "2026-11-25|what-kind-of-friend-honestly-h",
+ "sale_utc": "2026-11-25T17:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "four colored cards labeled A to D. What kind of friend are you? Honestly. Everyone's been A at least once. A: Replies in 3 days: “omg sorry”. B: Only texts when something's wrong. C: Plans everything. Resents everyone. D: Says little. Always shows up.",
+ "seccion": "humanity",
+ "fuente": "eco-historia: regla de N del 13-nov-2026; copia de what-kind-of-friend-honestly",
+ "sticker": "ninguno",
+ "tipo": "historia",
+ "origen": "what-kind-of-friend-honestly",
+ "eco_historia": {
+  "origen": "what-kind-of-friend-honestly",
+  "tipo": "imagen",
+  "regla": "N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#943, 2026-11-05T02:19:33Z",
+  "issue_origen": "943",
+  "hash_origen": "fcde142c55e209989529942fd37ceaa0518ea7d7550e8927e5e73a355ef2aaf1",
+  "publicado_origen_utc": "2026-11-12T13:14:53Z",
+  "creada_utc": "2026-11-13T16:22:35Z",
+  "sale_dia_ny": "2026-11-25"
+ },
+ "revisiones": [
+  {
+   "que": "Same content",
+   "estado": "OK",
+   "nota": "the approved imagen of what-kind-of-friend-honestly, whole and centered, no new text (N's rule, 13-nov-2026)"
+  }
+ ]
+}

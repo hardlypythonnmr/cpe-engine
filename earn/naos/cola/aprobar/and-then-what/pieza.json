@@ -1,0 +1,53 @@
+{
+ "slug": "and-then-what",
+ "titulo": "Me asking and then what",
+ "clave": "2026-12-03|and-then-what",
+ "caption": "Me asking and then what\n\nPeople who ask a second question get rated as better listeners, and as better company.\n\nFor the friend who always asks and then what happened.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "People who ask a second question get rated as better listeners, and as better company.\n\nFor the friend who always asks and then what happened.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. Two small block figures with white eyes, an amber one on the left and a light blue one on the right. The blue one starts a story with a bubble so I got there... The amber one tilts in with wide eyes and a bubble says and then? The blue one lights up, eyes happy, and says the door was locked! The amber one answers no way! with a pulse. The text stays: me asking and then what.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "and-then-what",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.0 dBFS, LRA 2.6 LU; own music (motor/sonido midi, room ventana, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "escuchar (la segunda pregunta)",
+ "blanco": "Cella y quien cuenta una historia",
+ "destinatario": "the friend who always asks and then what happened",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-03T15:30:00Z",
+ "pie": "More of this: link in bio."
+}

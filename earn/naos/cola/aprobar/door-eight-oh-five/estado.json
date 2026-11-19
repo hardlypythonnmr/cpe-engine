@@ -1,0 +1,25 @@
+{
+ "slug": "door-eight-oh-five",
+ "issue": 99,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-10T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2ba05be280443a1fd5c821dc82d2a9aaa21bd0689a972fa733e2243c9dceb0cf",
+ "hashes": {
+  "short": "30f9d0c24dad90ebf7110d4940fa932bde03c814643ff73582a466f7adf9cc37",
+  "reel": "fdba1dfcd25920afa80cbe99152d73bd8368ebc7f5d32c38b11f3d66037122f6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886627123,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "issue_n_system": 1409
+}

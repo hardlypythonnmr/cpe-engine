@@ -1,0 +1,26 @@
+{
+ "slug": "bookend-the-books",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1f6c4c88aa0b7567325bdb0c0e61a4bbbf139df8c27f8feb835b960a8eb9572f",
+ "hashes": {
+  "short": "bad2c474d5c50f3c93b166314404bd1479aabb507b06a40eeb756bb00035a5f5",
+  "reel": "fe6685dca5943cf52d452851a81cb5cb05f22c5f9ff82f308082949c0464e16a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886863353,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

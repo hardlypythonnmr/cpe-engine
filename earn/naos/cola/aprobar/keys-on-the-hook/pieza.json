@@ -1,0 +1,56 @@
+{
+ "slug": "keys-on-the-hook",
+ "titulo": "The keys have one home. A hook",
+ "clave": "2027-02-01|keys-on-the-hook",
+ "caption": "The keys have one home. A hook\n\nThe keys have one home in our house, and it is a hook. Nobody has hunted for them in years.\n\nA hook costs one second at the door and saves the search when you are already late.\n\nFor whoever hangs the keys the second they walk in.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A hook costs one second at the door and saves the search when you are already late.\n\nFor whoever hangs the keys the second they walk in.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a small wooden board and a single hook on the right. A ink-black block figure with white eyes walks in from the left, its eyes go wide, it leans and a ring of two keys flies over in an arc and lands on the hook, swinging. Its eyes turn happy with a pulse. The text stays: me hanging the keys the second I'm in.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "keys-on-the-hook",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "colgar las llaves en el gancho apenas uno entra",
+ "blanco": "Cella (y quien busca las llaves ya tarde)",
+ "destinatario": "hangs the keys the second they walk in",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "usada",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (febrero de 2027, tanda feb-a) · Opus 14, 14-nov: programada 2027-02-01T13:30:00Z (lote feb-0108)"
+ },
+ "tanda_origen": "feb-a",
+ "sale_utc": "2027-02-01T13:30:00Z"
+}

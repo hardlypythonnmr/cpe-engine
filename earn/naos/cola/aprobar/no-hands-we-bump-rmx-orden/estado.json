@@ -1,0 +1,25 @@
+{
+ "slug": "no-hands-we-bump-rmx-orden",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T20:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d14d98a3d44b9fe8906c212a8b0617c90b73ffbbab36d427915358db21123268",
+ "hashes": {
+  "short": "cbbbd2bc9629979a34287280ca0148af59ff1b8df3798160ccce4e5eba13c1e3",
+  "reel": "67fe1c3d3e89e90933c1b1ecd60a44b186a63e759c4d8db6e9c91550dc892ee8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956596214,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

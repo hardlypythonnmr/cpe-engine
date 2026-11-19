@@ -1,0 +1,22 @@
+{
+ "slug": "et-b-moon-no-email",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "55b43220396beffb160c3c7954a9a27c6f59469a3ae9e8c3429ddcd5b18af30b",
+ "hashes": {
+  "reel": "cb003f73c882cbb01a7e738459e1085f070df78bd3cfe95b533f36bc885afc37"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681472604,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

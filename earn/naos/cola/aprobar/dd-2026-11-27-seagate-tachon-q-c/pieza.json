@@ -1,0 +1,92 @@
+{
+ "slug": "dd-2026-11-27-seagate-tachon-q-c",
+ "titulo": "Seagate (Jun 2020): $1.523 billion to shareholders, about 500 jobs cut. The math.",
+ "clave": "2026-11-27|mercury|tachon|2026-11-27-seagate-tachon-q-c",
+ "sale_utc": "2026-11-27T17:00:00Z",
+ "caption": "Seagate (Jun 2020): $1.523 billion to shareholders, about 500 jobs cut. The math.\n\nFrom the archive: Jun 2020. Not today's news.\nSeagate, Jun 2, 2020 (Seagate, Form 8-K (Item 2.05)): \"long-term strategy to drive operational efficiencies, reduce its cost structure, and invest in future opportunities\"\nSeagate's Form 8-K, filed Jun 2, 2020, says it committed to a restructuring plan to reduce its headcount worldwide by approximately 500 employees across 12 countries, about 1% of global headcount.\n\nFiscal 2020: $1.523 billion to shareholders, dividends + buybacks. $673 million of dividends plus $850 million of repurchases of ordinary shares in fiscal 2020, company-wide (cash flow statement, in millions).\nThe math: $1.523 billion to shareholders (2020) ÷ about 500 job cuts = about $3.05 million to shareholders per job cut.\nThis is a ratio, not a payment and not a cause: the total returned to shareholders divided by the job count. The 8-K says the plan consolidates Seagate's Minnesota facilities into one location and that adopting it \"is not due to recent, near-term market and economic conditions\". It expects total pre-tax charges of approximately $74 million. The $1.523 billion is the whole company's cash paid in fiscal 2020 (ended Jul 3, 2020): $673 million in dividends and $850 million in buybacks. It is a company-wide figure, not a number from the plan. We are not saying one paid for the other.\n\nA ratio, not a cause. Seagate has not linked the dividends and buybacks to the cuts.\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: SEC EDGAR · Seagate, Jun 2, 2020; SEC EDGAR · Seagate, Aug 7, 2020.\n\nLink in bio.",
+ "descripcion": "From the archive: Jun 2020. Not today's news.\nSeagate, Jun 2, 2020 (Seagate, Form 8-K (Item 2.05)): \"long-term strategy to drive operational efficiencies, reduce its cost structure, and invest in future opportunities\"\nSeagate's Form 8-K, filed Jun 2, 2020, says it committed to a restructuring plan to reduce its headcount worldwide by approximately 500 employees across 12 countries, about 1% of global headcount.\n\nFiscal 2020: $1.523 billion to shareholders, dividends + buybacks. $673 million of dividends plus $850 million of repurchases of ordinary shares in fiscal 2020, company-wide (cash flow statement, in millions).\nThe math: $1.523 billion to shareholders (2020) ÷ about 500 job cuts = about $3.05 million to shareholders per job cut.\nThis is a ratio, not a payment and not a cause: the total returned to shareholders divided by the job count. The 8-K says the plan consolidates Seagate's Minnesota facilities into one location and that adopting it \"is not due to recent, near-term market and economic conditions\". It expects total pre-tax charges of approximately $74 million. The $1.523 billion is the whole company's cash paid in fiscal 2020 (ended Jul 3, 2020): $673 million in dividends and $850 million in buybacks. It is a company-wide figure, not a number from the plan. We are not saying one paid for the other.\n\nA ratio, not a cause. Seagate has not linked the dividends and buybacks to the cuts.\n\nSources:\n- SEC EDGAR · Seagate, Jun 2, 2020: «committed to a restructuring plan (the “ Plan ”) consistent with its long-term strategy to drive operational efficiencies, reduce its cost structure, and invest in future opportunities.» and «reduce its headcount worldwide by approximately 500 employees across 12 countries (or approximately 1% of global headcount)» https://www.sec.gov/Archives/edgar/data/1137789/000119312520157932/d894089d8k.htm\n- SEC EDGAR · Seagate, Aug 7, 2020: «Dividends to shareholders ( 673 ) ( 713 ) ( 726 ) Repurchases of ordinary shares ( 850 )» https://www.sec.gov/Archives/edgar/data/1137789/000113778920000057/stx-20200703.htm\n\nSynthetic voice.",
+ "alt": "Paper-colored card. Seagate, Jun 2, 2020. A gray typewriter quote, \"long-term strategy to drive operational efficiencies, reduce its cost structure, and invest in future opportunities\", struck through with a dark red marker line. The struck quote is by Seagate Technology, Item 2.05. Then the math in huge black letters, with the result on a yellow highlight: $1.523B ÷ 500 = about $3.05M, to shareholders, per job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/prueba-ac/seagate/tachon-C",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1137789/000119312520157932/d894089d8k.htm",
+   "medio": "SEC EDGAR · Seagate",
+   "titulo": "Seagate Form 8-K (Item 2.05), June 2020",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778920000057/stx-20200703.htm",
+   "medio": "SEC EDGAR · Seagate",
+   "titulo": "Seagate Form 10-K for fiscal 2020",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "30.347 s; strike at 0.3 s, number at 11.82 s"
+  }
+ ],
+ "estilo": "papel",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Seagate. Filed June 2, 2020. It says: \"consistent with its long-term strategy to drive operational efficiencies, reduce its cost structure, and invest in future opportunities.\" About 500 employees. $1.523 billion in dividends and buybacks, fiscal 2020. That is about $3 million per job cut. A ratio, not a cause. A ratio, not a cause. Seagate has not linked the dividends and buybacks to the cuts. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "Seagate. Filed June 2, 2020. It says: \"consistent with its long-term strategy to drive operational efficiencies, reduce its cost structure, and invest in future opportunities.\""
+  },
+  {
+   "papel": "gancho",
+   "voz": "About 500 employees. $1.523 billion in dividends and buybacks, fiscal 2020."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "That is about $3 million per job cut. A ratio, not a cause."
+  },
+  {
+   "papel": "giro",
+   "voz": "A ratio, not a cause. Seagate has not linked the dividends and buybacks to the cuts."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "nota_prueba": "Prueba A contra C. Cambio frente al plan (16 a 20 s): A usa la misma linea de tiempo que C de su empresa, en silencio (unos 29 a 31 s), para que solo cambie la voz. El cierre en pantalla es neutro y igual en A y C."
+}

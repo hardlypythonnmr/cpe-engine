@@ -1,0 +1,26 @@
+{
+ "slug": "wait-for-the-sign",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-13T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2cf6f865c20846b45fdebee7ab17e60988d8d581dc74a2ac063ea63ecf0f5640",
+ "hashes": {
+  "short": "b0f979f101f6e5cf17ba7bacc0be3477c8a9f46facc7171792cbbe43c988ff6b",
+  "reel": "bd682925001cba4c5ec0be6309c4730ec2431177416586f5028a14b90dbf4902"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886922620,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

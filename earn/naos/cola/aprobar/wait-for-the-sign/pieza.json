@@ -1,0 +1,55 @@
+{
+ "slug": "wait-for-the-sign",
+ "titulo": "Waiting for the sign to turn free",
+ "clave": "2027-02-13|wait-for-the-sign",
+ "sale_utc": "2027-02-13T21:35:00Z",
+ "caption": "Waiting for the sign to turn free\n\nThe sign on the door said busy. She stood by and waited, and the moment it turned to free she went in.\n\nWaiting for the sign to turn costs a minute, and it gives the person inside their whole meeting.\n\nFor whoever waits for the busy sign to turn before going in.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Waiting for the sign to turn costs a minute, and it gives the person inside their whole meeting.\n\nFor whoever waits for the busy sign to turn before going in.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a closed cream door at the right and a coral sign on it that says busy. A ink-black block figure walks up from the left and stands waiting with a calm pulse. The sign flips to a green one that says free, the figure's eyes go wide, it steps up to the door and the door swings open onto warm light, with a small sparkle. Its eyes turn happy with a pulse. No text on screen.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "wait-for-the-sign",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 2 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "esperar a que el letrero de la puerta diga libre antes de entrar",
+ "blanco": "Cella y quien entra a una reunion que sigue en marcha",
+ "destinatario": "waits for the busy sign to turn before going in",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

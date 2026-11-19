@@ -1,0 +1,26 @@
+{
+ "slug": "bag-off-the-seat",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-10T22:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6eb67fcb67b348ce1dcb870f87fd96dd34be3580c4a150484d3f8cf8921bed51",
+ "hashes": {
+  "short": "c5dbc95777bc36f954512f6942c4698bc239345d4c7aea5b8b6075814d13e158",
+  "reel": "aa8bbb4eb5aed08cc741214ae2b37eabf0a63418faaf625e28533020cd79c856"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886913700,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

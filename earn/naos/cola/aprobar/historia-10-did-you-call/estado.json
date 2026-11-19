@@ -1,0 +1,32 @@
+{
+ "slug": "historia-10-did-you-call",
+ "issue": 43,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T04:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7565b4cfc867f079f0e1d47fdfa91c3b6b7f76318b526942f49f6f4d787acae9",
+ "hashes": {
+  "historia": "1e83bbd6e34352fc0ab8a452685a3016159294fa735ef98ed48a24fc81360e84"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6329463617,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aviso_utc": "2026-10-22T00:13:29Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-22T01:10:39Z",
+ "reprogramaciones": 1,
+ "reprogramada": {
+  "por": "D-512",
+  "utc": "2026-11-13T17:00:04Z",
+  "de_sale_utc": "2026-10-29T16:00:00Z",
+  "a_sale_utc": "2026-11-22T04:30:00Z",
+  "version_origen": 1,
+  "cita_origen": "ok de @hardlypythonnmr en hardlypythonnmr/n-system#690, 2026-10-22T01:10:39Z"
+ },
+ "issue_n_system": 690
+}

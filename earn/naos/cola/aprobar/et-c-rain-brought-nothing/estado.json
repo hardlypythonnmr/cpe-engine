@@ -1,0 +1,22 @@
+{
+ "slug": "et-c-rain-brought-nothing",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e1f0371e20c199bb8c6410ba31ddb53aa087b1a7e1f840e65551c6915fe5fb5c",
+ "hashes": {
+  "reel": "8950da091f8a93826b8c0b26552c44c1c7c9e324e8849387991b22e7152d49e2"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681442957,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

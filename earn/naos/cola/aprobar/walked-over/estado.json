@@ -1,0 +1,26 @@
+{
+ "slug": "walked-over",
+ "issue": 77,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-20T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "11134e9f8ba5ef6e59ed9b52ffc4194a0dc178dd8d7fcba98ccebf1ccf92283c",
+ "hashes": {
+  "short": "9c778846e0ef0465a9664d5b86b6bcb10c411b30763b379c512ddc9fef2e8b4f",
+  "reel": "e67e12fc07f1f969d3f7dba243611fd9cfcc2f2e17a13ce85505732a9822d8be"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886936249,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-1411",
+ "caducado_utc": "2026-11-15T00:55:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1286
+}

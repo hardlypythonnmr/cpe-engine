@@ -1,0 +1,25 @@
+{
+ "slug": "walk-at-their-pace-l",
+ "issue": 74,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-18T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3c530c923fe9f7c12a7a3affc0ead55f712313af33879f6f2d8f12386c68bcc0",
+ "hashes": {
+  "short": "1f861c5478098572111622d110531d290c47a201cab1ed50992ea3f9cbb79077",
+  "reel": "e7620c5e7ddecbde93a9c66bc75713e3d93f6f3ba36b15f0ff5c47cd6f5b3eef"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6871178353,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "duracion-1411",
+ "aprobado_evento_utc": "2026-11-15T00:04:21Z",
+ "issue_n_system": 1259
+}

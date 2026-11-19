@@ -1,0 +1,26 @@
+{
+ "slug": "jacket-before-the-door",
+ "issue": 94,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-06T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ec80e3da6ddd3a4112f339e62748a1d0821022ecc0ab0ff84e5d9b76cf3884f4",
+ "hashes": {
+  "short": "8c73ac183f0b9ccc54edad66ddf88408eab667f059b1ea0c5848ab69df07c39d",
+  "reel": "f53c61286e35d2e9b2d8f47fc7c91a510307ff04826d2c114a481f14b7ebb53c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886903433,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0508",
+ "caducado_utc": "2026-11-15T00:52:51Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1371
+}

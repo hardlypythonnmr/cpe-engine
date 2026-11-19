@@ -1,0 +1,24 @@
+{
+ "slug": "dreading-monday-together",
+ "issue": 7,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "210c496bdcb3ec3981b2260cc0c5eef688144bd480d7e1aaf49207c4463b70c4",
+ "hashes": {
+  "historia": "8bd56d088a4d3d570d574e91eca7fb8ba6995cafe3f9dc9302e366599ba4809f"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6886295706,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 963
+}

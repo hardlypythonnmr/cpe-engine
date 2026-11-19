@@ -1,0 +1,26 @@
+{
+ "slug": "side-by-side",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1be7691c97be177637375f17bf6fd39b6283f3536b27986a8fd87436b44e33cc",
+ "hashes": {
+  "short": "c46842820c85184a602a594e12b2af5dc96e79944ef3dbf21c928547c2efbabe",
+  "reel": "9f4583f1e3bd2ee28dc8d9936633013e34545ab41e91ef58f93977068bcce51e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886801714,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

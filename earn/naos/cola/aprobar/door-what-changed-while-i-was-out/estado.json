@@ -1,0 +1,25 @@
+{
+ "slug": "door-what-changed-while-i-was-out",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-05T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "dc9b015120cd3924569cf6a4062c5eaae32277291fdcf652fb4283248d4815f8",
+ "hashes": {
+  "short": "add2c89765e63ae8a3381ed205adfb6726b39ef3478963d33ea710df8383796d",
+  "reel": "6f003aa515e29f65280381a5eb02f89cee9533ef9c210186b5926b2e76832faf"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886621762,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "no-words-the-first-line-is-theirs",
+ "titulo": "Jan 1: the first name on the calendar is a friend's",
+ "clave": "2027-01-01|casa-mesa",
+ "sale_utc": "2027-01-01T17:00:00Z",
+ "caption": "Jan 1: the first name on the calendar is a friend's\n\nJan 1. A new calendar goes up, and before Cella writes anything of her own she puts a friend into the first free Saturday.\n\nFor whoever puts someone else on the calendar first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #nowords #chooseFriction",
+ "descripcion": "Jan 1. A new calendar goes up, and before Cella writes anything of her own she puts a friend into the first free Saturday.\n\nFor whoever puts someone else on the calendar first.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a pink wall. A small ink-black block figure with white eyes stands on the left and a royal blue one stands on the right looking away. Between them on the floor, a plain calendar block reads jan 1, then flips to sat 2. A royal blue square note pops up on top of it. The royal blue figure turns, its eyes go wide and then close in a smile and it pulses. Both lean in slightly toward each other and the black one smiles. The text stays: jan 1, the first name on it is theirs. The last card: for whoever puts someone else on the calendar first, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella wrote a friend in first this year. Somebody got the first Saturday.",
+ "casa": {
+  "id": "no-words-the-first-line-is-theirs",
+  "version": 8
+ },
+ "evolucion": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 20 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s1, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud. Semana ene-s1: sin largos ni medios (prueba 3a del acta)."
+  }
+ ],
+ "filo": "V",
+ "tema": "el primer nombre del calendario nuevo es el de una amiga",
+ "blanco": "Cella (y quien pone a otra persona en el calendario primero)",
+ "destinatario": "whoever puts someone else on the calendar first",
+ "cara": "A",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "No words"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "om-mani-padme-hum-rmx-color",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T00:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b6e3be935be591c3393045c407319eec9183ad8ed6ff8b8ae58249c149b8daaa",
+ "hashes": {
+  "reel": "d6c4d1937882c366fc5ce9d6dd142540456f184b20eea4221c74ed8514218db4"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956598025,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

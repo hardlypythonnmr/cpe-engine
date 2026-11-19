@@ -1,0 +1,42 @@
+{
+ "slug": "the-sky-posts-once",
+ "titulo": "The sky posts once a night. No notification.",
+ "clave": "2026-10-25|the-sky-posts-once",
+ "sale_utc": "2026-11-29T14:30:00Z",
+ "caption": "Confession: some nights the only light we look at is a screen.\nWhen I step outside after dark, I look up once. One breath, eyes up.\nSource: US Naval Observatory, full moon 26 October 2026, 04:12 UTC (23:12 Sunday in Colombia). https://aa.usno.navy.mil/data/MoonPhases\nFor the one who always points at the moon.\nNot while driving or crossing a street.\nThe tool is on the page: link in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": "1: On black, a phone stands plugged in at the left with a small dot on its corner; its cable runs off the right edge. The sky posts once a night. No notification. Seven slides. Keep the last one. 2: The cable keeps running across a deep blue field. Tonight the moon is full. It asks for nothing: no tap, no streak, no reply. 3: The cable passes under a window. The phone lights up, buzzes, keeps score. The sky opens every night and never sends a reminder. 4: The cable ends at a door. When you step outside after dark. 5: The plug lies on the floor; Cella stands outside looking up at a round moon. Look up once. One breath, eyes up. Clouds count too. 6: Cella with eyes closed under the moon. What did you notice first? US Naval Observatory: full moon 26 October, 04:12 UTC, Sunday night in the Americas. 7: A framed card on white, with the moon where the phone's dot was on the first slide. When you step outside after dark: look up once. For the one who always points at the moon. Not while driving or crossing a street.",
+ "seccion": "humanity",
+ "tipo_carrusel": "A Cadena y llave (7 laminas) · puerta The Divine · dom 25 11:00 ET (10:00 Medellin)",
+ "revisiones": [
+  {
+   "que": "Contrast",
+   "estado": "OK",
+   "nota": "5.1-5.3:1 min (calculated after pie opacity 0.85, not re-measured)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sello.md: no person, group, faith, body or suffering; no health promises; no risk-3 ideas"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "urls 200/302 per medidor.json"
+  }
+ ]
+}

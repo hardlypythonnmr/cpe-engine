@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-04-general-motors-historia",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T16:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "eab22fb4a81a947a443e977008dbe7df6718b3fac9e889daa1cb4ade4254733e",
+ "hashes": {
+  "historia": "5c7206b3ea3c1d2d377ed2841c50e5fd5a1286eb26580dfe079c4142760c7dee"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6890743812,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "nobody-is-looking-at-you",
+ "issue": 10,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "efbfa7492f798628f04d9414a275df460a97a3c41ddbcea79bb2e65bbebbb5a8",
+ "hashes": {
+  "short": "400318c0866426cd687ea3e5ef3d1c9e9413fa0ba1e33bff5b1b401e60ad93fa"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6678372644,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "medios-15-25-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:49Z",
+ "issue_n_system": 976
+}

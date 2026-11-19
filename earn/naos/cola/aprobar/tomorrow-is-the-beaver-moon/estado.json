@@ -1,0 +1,23 @@
+{
+ "slug": "tomorrow-is-the-beaver-moon",
+ "issue": 24,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T10:15:00Z",
+ "datos_utc": "2026-11-17T12:00:00Z",
+ "hash_contenido": "a80123128434a17f00e5e56f344e262c9ece78f7b69cbc11dbdd2519ca04c556",
+ "hashes": {
+  "carrusel": "9f0b1e7fc914ca12c847845f4eb3f46b9033065ad233f61841427bbac365ca5b"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6946951379,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z",
+ "issue_n_system": 1751
+}

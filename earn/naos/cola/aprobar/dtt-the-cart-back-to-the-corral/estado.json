@@ -1,0 +1,23 @@
+{
+ "slug": "dtt-the-cart-back-to-the-corral",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-05T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0d15cd9d7175f3079dcb1f5d3365fc4fcf2a3adc86382c64c2d7a1f0e95f0288",
+ "hashes": {
+  "reel": "d023965596fa959c42966deb1297eccfb065cc61599c84a1410826b4cedb2900"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886621244,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

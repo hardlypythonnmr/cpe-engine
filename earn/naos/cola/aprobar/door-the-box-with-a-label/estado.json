@@ -1,0 +1,25 @@
+{
+ "slug": "door-the-box-with-a-label",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-06T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ee0673e9e253dd8ee5f4681b4a5a99004468bff3ba1c6b663a6adb0106456885",
+ "hashes": {
+  "short": "e383bf51d6f98319fceff3402f32885678a89350f06f883d3d598024cc6097ab",
+  "reel": "beac1803f87d4806979c0ef9a13e849c3506300c048705a25a892555610dea37"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886622291,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

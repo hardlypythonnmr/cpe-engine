@@ -1,0 +1,26 @@
+{
+ "slug": "posture-reset",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-01T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "06021a2665ab123b1dcc70d7c1102d34d682427db79b91faa96c443fa71e3baf",
+ "hashes": {
+  "short": "d39c075fee1a525711bd874c1fad8089bf54a1f228afedca974c5c8343f754cb",
+  "reel": "63b6b1dffb98b0c363e952960a60a93ff0a5cd1042c2c9e50dc2b268684267ec"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870594825,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

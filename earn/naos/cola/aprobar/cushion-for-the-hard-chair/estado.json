@@ -1,0 +1,26 @@
+{
+ "slug": "cushion-for-the-hard-chair",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T14:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6951069c90972a958b454c8840641655502495a3b2d939515edc7c2192d013a9",
+ "hashes": {
+  "short": "f59f7ec7b7f32f828315a826fb88c5ac283914baa01d0d45d5bb8f1db9e62426",
+  "reel": "b2c4bf4be01d2f28b91635d1ed4786f32ea31843137ca8aad81a0369c2863701"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886852811,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

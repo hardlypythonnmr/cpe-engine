@@ -1,0 +1,26 @@
+{
+ "slug": "close-it-at-three",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-11T13:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c4eff88506450ae6165f4058f7cac7b8aa98ccf42460e02898ba8545891be8b1",
+ "hashes": {
+  "short": "79b031dd2c0c2a45495dfed0997a7008b650c76209490e9d974875e99b3795b3",
+  "reel": "ba36ac074e5763b888cb159da7ebe4f648d4af592511e474d6146835f676f4e3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886914246,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

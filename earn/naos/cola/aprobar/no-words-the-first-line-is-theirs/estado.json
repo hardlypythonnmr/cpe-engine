@@ -1,0 +1,25 @@
+{
+ "slug": "no-words-the-first-line-is-theirs",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-01T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c953487b516b628a7aa93a97aa1849037deadc56f3cc0e98ee966bea8819f081",
+ "hashes": {
+  "short": "d91835b1fe170c770696c13639c5280879aceab00f4a21cc994b9f5f090bd66a",
+  "reel": "cab171ac3fdc2430e25ea700c2e04142878f25b0f65905c6f9d9f62f85775333"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886618751,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

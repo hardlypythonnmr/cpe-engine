@@ -1,0 +1,26 @@
+{
+ "slug": "door-trash-night-take-one",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-17T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5a04ca7e85aefb4da2113b46846382363a5f35d94e5950b007a6d6eb643cc52f",
+ "hashes": {
+  "short": "c3c1cde954f9340f0a308a6ce5982c52cf3500ef4f340cd7826eab506d626004",
+  "reel": "f6912eb0618d6ac1a635b6f9d347b9bec9308af7280920fe663a3a1756c0fa6f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893982510,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

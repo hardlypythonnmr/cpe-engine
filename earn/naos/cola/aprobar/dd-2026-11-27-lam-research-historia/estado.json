@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-27-lam-research-historia",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T16:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "f83a3aa555b2f7f00a2ebdfbeb33eed8852c433296f5c1d53d6f2035d0192b87",
+ "hashes": {
+  "historia": "b0d6e2e6874ea95b64edf54c337dd92725789218450e5842416fc5dfc7e546c5"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885961363,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "see-the-moon-v3",
+ "issue": 62,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "84ac40413008f662fe31b62967319203899dd1a8168593f40eedbe9045103921",
+ "hashes": {
+  "short": "177ece9ba221371579c5bb188827183caa924f114179ff40af56921234fe30d9",
+  "reel": "43317d4096db9a0aeaa3a89fc1c2b1133bcd0086e23abcfd15f8c6b243966a85"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856839787,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "v7-cm-2425",
+ "aprobado_evento_utc": "2026-11-13T15:06:03Z",
+ "issue_n_system": 1091
+}

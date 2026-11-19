@@ -1,0 +1,57 @@
+{
+ "slug": "door-what-changed-while-i-was-out",
+ "titulo": "Back after two weeks? Ask one thing: what changed",
+ "clave": "2027-01-05|casa-cocina",
+ "sale_utc": "2027-01-05T17:00:00Z",
+ "caption": "Back after two weeks? Ask one thing: what changed\n\nTwo weeks away. Cella comes back and asks only one thing: what changed? A new lamp. Now she sees it.\n\nFor whoever asked the one question.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #choosefriction",
+ "descripcion": "Two weeks away. Cella comes back and asks only one thing: what changed? A new lamp. Now she sees it.\n\nFor whoever asked the one question.\n\nNAOS · Choose friction. by NMR\n#naos #choosefriction #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background in a kitchen. At the top, the words: 2 weeks away. For whoever came back and did not ask. A small doorway-shaped figure with white eyes walks in from the left toward a table with a potted plant. The words appear one line at a time: I am back. What changed (a speech bubble above her). A new lamp (a reply bubble from the right, and a yellow lamp pops onto the table with a warm glow). Now I see it (her eyes close in a smile). The closing line: for whoever asked the one question. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella asked what changed. Somebody told her about the lamp.",
+ "casa": {
+  "id": "door-what-changed-while-i-was-out",
+  "version": 7
+ },
+ "evolucion": "Dos apuestas (junta-ene-s1, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Semana sin largos ni medios (prueba 3a del acta).",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "18.74 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 31 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-13.9 LUFS, true peak -1.0 dBFS, LRA 3.7 LU; mono fold (0.5 L + 0.5 R) -16.9 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.0 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s1, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-ene-s1, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Semana sin largos ni medios (prueba 3a del acta)."
+  }
+ ]
+}

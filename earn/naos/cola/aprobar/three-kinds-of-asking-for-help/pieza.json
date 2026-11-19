@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-asking-for-help",
+ "titulo": "Three ways to ask for a hand",
+ "clave": "2026-12-16|three-kinds-of-asking-for-help",
+ "sale_utc": "2026-12-17T02:00:00Z",
+ "caption": "Three ways to ask for a hand\n\nI used to sigh at a heavy load until someone offered. Then I started saying I needed help.\n\nPeople are often glad to help and unsure whether to offer, so a clear ask tends to take the guessing out for both.\n\nFor whoever says what help is needed.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "People are often glad to help and unsure whether to offer, so a clear ask tends to take the guessing out for both.\n\nFor whoever says what help is needed.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a royal blue figure, in three labeled scenes. The hint: a teal figure trembles and says this is heavy... while the blue one looks away. The retreat: a brown figure says sorry, never mind. and shuts its eyes. The plain ask: an ink-black figure says I need help., and the blue one walks over, and both end with happy eyes. The text stays: three kinds of asking for help. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-asking-for-help",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pedir ayuda",
+ "blanco": "Cella (y quien insinua en vez de pedir)",
+ "destinatario": "says what help is needed",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the hint",
+  "the retreat",
+  "the plain ask"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

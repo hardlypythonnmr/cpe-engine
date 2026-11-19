@@ -1,0 +1,55 @@
+{
+ "slug": "pin-where-you-are-first",
+ "titulo": "A red pin where she stands",
+ "clave": "2027-01-27|pin-where-you-are-first",
+ "sale_utc": "2027-01-27T21:45:00Z",
+ "caption": "A red pin where she stands\n\nThe map had a star and no start. A red pin dropped where she stood, and the route showed.\n\nFinding where you are comes before finding the way, and the route draws itself from there.\n\nFor whoever finds where they are on the map before the way.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Finding where you are comes before finding the way, and the route draws itself from there.\n\nFor whoever finds where they are on the map before the way.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a paper map with a gold star near its top corner and a coral pin hanging above it. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the pin drops onto the bottom corner of the map, and three gold dots appear one by one on the way to the star. Its eyes turn happy with a pulse. The text changes from: me: it's that way, somewhere, to: start from where I am.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "pin-where-you-are-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ubicar primero donde se esta en el mapa antes de buscar el camino",
+ "blanco": "Cella y quien mira el destino sin saber donde esta parado",
+ "destinatario": "finds where they are on the map before the way",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 27 al 31-ene (tanda ened, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "ened"
+}

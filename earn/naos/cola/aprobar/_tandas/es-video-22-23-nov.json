@@ -1,0 +1,25 @@
+{
+ "nombre": "es-video-22-23-nov",
+ "issue": 115,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "om-mani-padme-hum-sunday-karma-es",
+  "maha-mantra-fast-third-coffee-es",
+  "no-hands-we-bump-es",
+  "introducing-the-chair-es"
+ ],
+ "comentario_vista_previa_id": 6957411925,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T18:39:53Z",
+ "aviso_utc": "2026-11-17T18:39:59Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T18:55:12Z",
+ "aprobadas": [
+  "introducing-the-chair-es",
+  "maha-mantra-fast-third-coffee-es",
+  "no-hands-we-bump-es",
+  "om-mani-padme-hum-sunday-karma-es"
+ ],
+ "issue_n_system": 1781
+}

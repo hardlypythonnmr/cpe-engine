@@ -1,0 +1,62 @@
+{
+ "slug": "door-eight-oh-five",
+ "titulo": "Say good morning before you open the laptop",
+ "clave": "2027-01-10|casa-cocina",
+ "sale_utc": "2027-01-10T17:00:00Z",
+ "caption": "Say good morning before you open the laptop\n\n8:05. The laptop is still shut. Cella says good morning to the one next to her first, and only then opens it.\n\nFor whoever looks up first.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #choosefriction",
+ "descripcion": "8:05. The laptop is still shut. Cella says good morning to the one next to her first, and only then opens it.\n\nFor whoever looks up first.\n\nNAOS · Choose friction. by NMR\n#naos #choosefriction #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background in a kitchen. At the top, the words: 8:05. For whoever says good morning before opening the laptop. A small doorway-shaped figure with white eyes stands to the left and a second small figure of another color stands to the right, with a small table between them holding a closed laptop and a white pill that says 8:05. The words appear one line at a time: 8:05. Laptop still shut. Good morning (a speech bubble from the first figure, the second turns to look and answers with a bubble that says morning). Now I open it (the laptop lid swings up and a star appears, both figures smile). The closing line: for whoever looks up first. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella said good morning first today. Somebody said it right back.",
+ "casa": {
+  "id": "door-eight-oh-five",
+  "version": 7
+ },
+ "evolucion": "Tres apuestas (junta-ene-s2, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Hora (apuesta 3a): los Shorts de las 23:00Z contra los de 17:00Z de la misma semana.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "21.04 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 31 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 4.0 LU; mono fold (0.5 L + 0.5 R) -17.0 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.0 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s2, section 3)",
+   "estado": "OK",
+   "nota": "Tres apuestas (junta-ene-s2, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Hora (apuesta 3a): los Shorts de las 23:00Z contra los de 17:00Z de la misma semana."
+  },
+  {
+   "que": "Timing notes",
+   "estado": "OK",
+   "nota": "Eight oh five. For whoever s: 16.1 car/s"
+  }
+ ]
+}

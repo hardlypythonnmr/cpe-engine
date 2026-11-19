@@ -1,0 +1,22 @@
+{
+ "slug": "who-approved-monday",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7e5f99e3015bd35a4c8ea4d2d5b84f63b42622d8c725f34d5c2a7c160eff5bbf",
+ "hashes": {
+  "historia": "2dcf4b80d946486132f450722d092276aa1b57bb357cf9332e0c6cc3bd227089"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681467645,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

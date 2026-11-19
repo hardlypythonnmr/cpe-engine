@@ -1,0 +1,53 @@
+{
+ "slug": "blanket-for-the-napper",
+ "titulo": "The blanket for the napper",
+ "clave": "2026-12-01|blanket-for-the-napper",
+ "caption": "The blanket for the napper\n\nCella put a blanket over the napper and turned off the lamp.\n\nBody temperature drops during sleep, which is why a light cover feels so good to someone who dozed off.\n\nFor the friend who covers whoever falls asleep on the couch.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella put a blanket over the napper and turned off the lamp.\n\nBody temperature drops during sleep, which is why a light cover feels so good to someone who dozed off.\n\nFor the friend who covers whoever falls asleep on the couch.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A dim room with a bed and a lamp. A light blue block figure sits asleep on the bed with closed eyes. A small amber figure with white eyes notices, pushes a folded blanket across the floor and lays it over the sleeper, then switches off the lamp and tiptoes back, its eyes turning happy.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "blanket-for-the-napper",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.8 dBFS, LRA 3.6 LU; own music (motor/sonido midi, room alcoba-noche, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cuidar a quien se durmio (la manta y la lampara)",
+ "blanco": "Cella y quien se queda dormido en el sillon",
+ "destinatario": "the friend who covers whoever falls asleep on the couch",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-01T18:00:00Z"
+}

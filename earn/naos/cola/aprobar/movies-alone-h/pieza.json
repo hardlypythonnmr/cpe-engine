@@ -1,0 +1,38 @@
+{
+ "slug": "movies-alone-h",
+ "titulo": "Stories echo: Going to the movies alone: iconic or weird?",
+ "clave": "2026-11-23|movies-alone-h",
+ "sale_utc": "2026-11-23T01:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "split image: ICONIC on purple with Cella in a crown and a popcorn bucket, WEIRD on mint, empty. Going to the movies alone is. Left: Iconic. Right: Weird. Pick a side.",
+ "seccion": "humanity",
+ "fuente": "eco-historia: regla de N del 13-nov-2026; copia de movies-alone",
+ "sticker": "ninguno",
+ "tipo": "historia",
+ "origen": "movies-alone",
+ "eco_historia": {
+  "origen": "movies-alone",
+  "tipo": "imagen",
+  "regla": "N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#987, 2026-11-09T12:57:18Z",
+  "issue_origen": "987",
+  "hash_origen": "2e86adbd8ee2b6f5948ffb86b00557e6018cec95ee7d61015c633cefdbeae03d",
+  "publicado_origen_utc": "2026-11-11T12:14:36Z",
+  "creada_utc": "2026-11-13T16:22:35Z",
+  "sale_dia_ny": "2026-11-22"
+ },
+ "revisiones": [
+  {
+   "que": "Same content",
+   "estado": "OK",
+   "nota": "the approved imagen of movies-alone, whole and centered, no new text (N's rule, 13-nov-2026)"
+  }
+ ]
+}

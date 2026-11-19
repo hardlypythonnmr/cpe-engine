@@ -1,0 +1,26 @@
+{
+ "slug": "what-kind-of-friend-honestly-h",
+ "issue": 52,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0382df92934c2e29466b8888fed96bf5ede26024429bc0cf93e51d5b4ad9b0e5",
+ "hashes": {
+  "historia": "0888cb63e0027b1c086d5748d0db48833fe3691559714fc582af60634a2700fb"
+ },
+ "canales": [
+  "historia"
+ ],
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aprobado_evento_utc": "2026-11-13T16:22:35Z",
+ "origen": "what-kind-of-friend-honestly",
+ "eco_historia": {
+  "via": "eco-historia",
+  "cita": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#943, 2026-11-05T02:19:33Z; eco-historia (2026-11-13T16:22:35Z): copia en historia de what-kind-of-friend-honestly, publicada 2026-11-12T13:14:53Z, misma imagen (huella fcde142c55e20998); regla de N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "origen": "what-kind-of-friend-honestly"
+ },
+ "issue_n_system": 943
+}

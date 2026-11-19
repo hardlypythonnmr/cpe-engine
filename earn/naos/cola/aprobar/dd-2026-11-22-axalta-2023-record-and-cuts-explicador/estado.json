@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-22-axalta-2023-record-and-cuts-explicador",
+ "issue": 23,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T01:00:00Z",
+ "datos_utc": "2024-02-27T00:00:00Z",
+ "hash_contenido": "b81948481cfebf1cbf240367635fdb0a10bc3bc87782b92ee9c4db5f999941bd",
+ "hashes": {
+  "short": "43469e2e115d9f437f70722f10216ceaf5bb5a0938e6deee858021aea85a8495",
+  "reel": "11f8183b2dc84a7c0e6505aefc5c1eebce9ab838d104fafb2b4fa9d0a803186b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6937505725,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-a",
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z",
+ "issue_n_system": 1741
+}

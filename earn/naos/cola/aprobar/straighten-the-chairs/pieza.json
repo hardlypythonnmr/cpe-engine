@@ -1,0 +1,49 @@
+{
+ "slug": "straighten-the-chairs",
+ "titulo": "Cella straightens the chairs",
+ "caption": "Cella straightens the chairs\n\nCella straightened two chairs nobody asked her to.\n\nA tidy space tends to stay tidy: people are more careful in a room that was left in order.\n\nSend it to the friend who leaves a room better than they found it.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Cella straightened two chairs nobody asked her to.\n\nA tidy space tends to stay tidy: people are more careful in a room that was left in order.\n\nSend it to the friend who leaves a room better than they found it.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A room with a small table and a chair on each side, both standing crooked. A small ink-black block figure with white eyes stands on the far left with narrowed eyes. It leans toward the left chair and the chair snaps upright, then toward the right chair and that one straightens too. Each time its eyes turn happy with a small pulse, and at the end it pulses with happy eyes and looks to the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "straighten-the-chairs",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cuidar el lugar (dejarlo en orden para quien llega después)",
+ "blanco": "Cella y quien deja un cuarto mejor de como lo encontró",
+ "destinatario": "the friend who leaves a room better than they found it",
+ "cara": "A",
+ "tipo": "NW",
+ "variante": "no-words",
+ "modo": "No words",
+ "experimento": false,
+ "sale_utc": "2026-11-28T19:00:00Z",
+ "clave": "2026-11-28|straighten-the-chairs"
+}

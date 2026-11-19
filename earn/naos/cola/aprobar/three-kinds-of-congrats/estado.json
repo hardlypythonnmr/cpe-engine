@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-congrats",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-19T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0bf33ca53be4966171f82ced44fd08b8e1b64057ea4f15e28ac2a52eb77a7478",
+ "hashes": {
+  "short": "151ea010e5846a22e3ed8e1efcef755147f2f171ede58e7904f9f7b7307f39af",
+  "reel": "2e4b29358aa4cbf76fd715132890ab77216a939db9134a15cab6dcba22f14c1d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886942617,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

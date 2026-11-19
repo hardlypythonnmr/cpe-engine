@@ -1,0 +1,26 @@
+{
+ "slug": "no-words-paused-until-they-are-back",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-16T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9c11a014d327a66e2f60ffef0ffcc8872e32a4413919c71d4c980a6dc82f5b47",
+ "hashes": {
+  "short": "d7f3e862eff5fd4a5930fc1d1d903a8c61a74396b5424ad008be0b4b32476c2f",
+  "reel": "eef905d0452947702225c5e16696eb5ee85722edbce5921dab6b29fda06cd4a4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893981741,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

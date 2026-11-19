@@ -1,0 +1,62 @@
+{
+ "slug": "dtt-the-three-line-handoff",
+ "titulo": "Handing off a task? Leave three lines",
+ "clave": "2027-01-12|casa-mesa",
+ "sale_utc": "2027-01-12T17:00:00Z",
+ "caption": "Handing off a task? Leave three lines\n\nCella hands off a task and leaves three lines on a card: where she stopped, what comes next, and who to ask.\n\nFor whoever picks up where you stopped.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething",
+ "descripcion": "Cella hands off a task and leaves three lines on a card: where she stopped, what comes next, and who to ask.\n\nFor whoever picks up where you stopped.\n\nNAOS · Choose friction. by NMR\n#naos #dothething #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background at a table. At the top, the words: 3 lines for whoever picks up where you stopped. A small doorway-shaped figure with white eyes stands to the left, a second small figure of another color stands to the right and a white card stands on the table between them. The words appear one line at a time: I leave three lines. Where I stopped (the first line writes itself on the card). What comes next (the second line). Who to ask (the third line, then the card floats over to the second figure, whose eyes go wide and then smile, and a star appears). The closing line: for whoever picks up where you stopped. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella left three lines on a card. Somebody picked the task up easily.",
+ "casa": {
+  "id": "dtt-the-three-line-handoff",
+  "version": 7
+ },
+ "evolucion": "Tres apuestas (junta-ene-s2, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Hora (apuesta 3a): los Shorts de las 23:00Z contra los de 17:00Z de la misma semana.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "19.70 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 31 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-13.6 LUFS, true peak -1.0 dBFS, LRA 3.8 LU; mono fold (0.5 L + 0.5 R) -16.6 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.0 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s2, section 3)",
+   "estado": "OK",
+   "nota": "Tres apuestas (junta-ene-s2, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. Hora (apuesta 3a): los Shorts de las 23:00Z contra los de 17:00Z de la misma semana."
+  },
+  {
+   "que": "Timing notes",
+   "estado": "OK",
+   "nota": "Three lines for whoever pick: 19.0 car/s"
+  }
+ ]
+}

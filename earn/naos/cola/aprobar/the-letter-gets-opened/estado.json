@@ -1,0 +1,26 @@
+{
+ "slug": "the-letter-gets-opened",
+ "issue": 94,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-08T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "57d3bbcd91735069b4b032b489de30455cc33766907f330f792f29ea9541ac22",
+ "hashes": {
+  "short": "8a2193cd4479011a52e2f62a7ebc039627d838695a1b0453e8cfaa04b26c5b1f",
+  "reel": "dc41522b882566ad6ce47f27fd21110d0bf9790c58481925b9819e40064c1579"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886905833,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0508",
+ "caducado_utc": "2026-11-15T00:52:51Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1371
+}

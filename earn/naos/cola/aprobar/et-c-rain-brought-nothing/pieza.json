@@ -1,0 +1,77 @@
+{
+ "slug": "et-c-rain-brought-nothing",
+ "titulo": "The rain brought nothing to dinner. Still welcome.",
+ "clave": "2026-11-25|etereo",
+ "sale_utc": "2026-11-26T03:41:00Z",
+ "caption": "You don't have to bring anything to belong at the table: rain at the window, Thanksgiving eve.\n\nThe rain brought nothing to dinner. Still welcome.\n\nCloser to yourself.",
+ "descripcion": "",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: a big tree in the rain fills the frame and the camera zooms in slowly; then it pulls back to show a window and a small round figure sitting on the sill, watching, and it smiles. White words in the middle read: \"The rain brought nothing to dinner. Still welcome.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-c-rain-brought-nothing",
+  "version": 8
+ },
+ "filo": "V",
+ "envio": "someone dreading showing up empty-handed to a holiday dinner",
+ "destinatario": "someone dreading showing up empty-handed to a holiday dinner",
+ "experimento": true,
+ "experimento_prueba": "AB caption-tema: explícito, sin hashtags (D-376); control: etéreos del 15 al 22-nov (caption poético, con hashtags); lectura a 7 días el 2026-12-03",
+ "ab": {
+  "prueba": "caption-tema",
+  "brazo": "explicito",
+  "par": null,
+  "control": "etéreos del 15 al 22-nov (caption poético)",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T03:41:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "etéreos del 15 al 22-nov (con #naos y el del tema)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-03T03:41:00Z"
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.0 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "et-c-rain-brought-nothing: 12.00 s, -14.4 LUFS, pico real -1.9 dBFS (limiter), texto 733 a 988 px (banda 168-1330, avisos 0), bucle: 23643 px con dif>24 y media 1.02/255; own music (motor/musica and motor/sonido, 0 credits), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, frame 0 readable without sound"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "peak -1.9 dBTP (was -0.6), -14.4 LUFS; text has a dark shade and reads at 360 px; figure enters about s 6 and smiles"
+  }
+ ]
+}

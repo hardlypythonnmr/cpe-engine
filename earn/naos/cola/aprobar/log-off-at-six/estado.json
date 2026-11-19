@@ -1,0 +1,26 @@
+{
+ "slug": "log-off-at-six",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T20:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "16494b1a6a6e81850c8b39bc95f096f8cda86d1bcdc9a53dee9714f700835bc1",
+ "hashes": {
+  "short": "7f48a109d5114f4f35da42af7b5ce12796c3228dc6b4dc0584011d65df71cddd",
+  "reel": "76e40a8941be234692b70d8c13a06c8b73a006bc49a666b8eb93a86c6a0c0c54"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886813055,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

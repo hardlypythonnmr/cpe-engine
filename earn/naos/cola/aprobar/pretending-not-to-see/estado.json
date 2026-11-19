@@ -1,0 +1,25 @@
+{
+ "slug": "pretending-not-to-see",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1dcb4f559d7e96bb8d77614f5661673e710d0f11544e33e86321d1e712b26afb",
+ "hashes": {
+  "short": "a8610e4e26bdb43e3496b82333fefc06cac2572e3d990066a991f324ccd40e62",
+  "reel": "d4397585a70f5175013f62818b02797f700dfc39c016f8e145df5b4ad4973259"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863847680,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "om-mani-padme-hum-rmx-inicio",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T12:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9dec60b55e76e232d1c611aa34cfe4d7741cb33f88be0bd1c46c8345f3e9b618",
+ "hashes": {
+  "reel": "82511c5cb74664004e9c9b4c1ffe96feb3d8e079ad938b4b6c4afd18062a8243"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956595301,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

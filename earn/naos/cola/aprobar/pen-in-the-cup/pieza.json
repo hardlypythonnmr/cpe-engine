@@ -1,0 +1,55 @@
+{
+ "slug": "pen-in-the-cup",
+ "titulo": "The pen back in its cup",
+ "clave": "2026-12-11|pen-in-the-cup",
+ "sale_utc": "2026-12-11T15:00:00Z",
+ "caption": "The pen rolled off the desk twice this week. Today it went back in its cup.\n\nA pen with a home is found in one glance, and a pen without one is found never.\n\nFor whoever puts the pen back in its cup after using it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A pen with a home is found in one glance, and a pen without one is found never.\n\nFor whoever puts the pen back in its cup after using it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table, a blue pen lying flat at the middle and a big cream mug with a terracotta band on the right. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the pen hops in an arc and drops into the mug, standing upright with its tip above the rim. Its eyes turn happy with a pulse. The text stays: me, pen back in its cup.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "pen-in-the-cup",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "devolver el lapicero al vaso donde vive",
+ "blanco": "Cella y quien busca el lapicero que rodo",
+ "destinatario": "puts the pen back in its cup after using it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 y 11 al 13-dic (tanda dicn, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicn"
+}

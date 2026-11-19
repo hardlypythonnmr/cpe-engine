@@ -1,0 +1,97 @@
+{
+ "slug": "dd-2026-11-24-carter-s-denny-s-dollar-general-libro",
+ "titulo": "Dollar General, Denny's and Carter's: a reported number next to a closing plan",
+ "clave": "2026-11-24|mercury|libro|2026-11-24-carter-s-denny-s-dollar-general-libro",
+ "sale_utc": "2026-11-24T03:30:00Z",
+ "caption": "Dollar General, Denny's and Carter's: a reported number next to a closing plan\n\nFrom the archive: 2024 to 2025.\n\nCarter's, Oct 27, 2025\nThe math: $47.2 million (dividends paid, first three quarters of fiscal 2025) ÷ about 150 (stores in the plan over three years, Oct 2025) = about $314,666 of three quarters of dividends per store in the Oct 2025 plan\n\nDenny's, Jan 13, 2025\nThe math: $11.2 million (allocated to share repurchases, fiscal 2024) ÷ 88 (Denny's restaurants closed in fiscal 2024; 87 were franchised) = about $127,272 of fiscal 2024 repurchases per restaurant closed\n\nDollar General, Mar 13, 2025\nThe math: $1.12 billion (net income, fiscal 2024) ÷ 141 (stores in the closing plan of Mar 2025 (96 Dollar General, 45 pOpshelf)) = about $7.98 million of fiscal 2024 net income per store in the Mar 2025 plan\n\nClosing, closure, closures. Here is the closings column. (Our take.)\n\nSources: Carter's, Form 8-K, filed Oct 27, 2025; Denny's, Form 8-K, filed Jan 13, 2025; Denny's, Form 8-K, filed Feb 12, 2025; Dollar General, Form 8-K, filed Mar 13, 2025.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "",
+ "alt": "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2024 to 2025. Title: \"Dollar General, Denny's and Carter's: a reported number next to a closing plan\" Above the giant figure, the company: Dollar General and what the figure measures: fiscal 2024 net income per store in the Mar 2025 plan. The figure, about $7.98M, fills the width at the bottom.",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2025-10-27T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "libro",
+ "formato": "carrusel",
+ "origen": "libro",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060822/000106082225000157/cri-ex991q32025.htm",
+   "medio": "SEC EDGAR · Carter's · Form 8-K",
+   "titulo": "Carter's, Form 8-K, filed Oct 27, 2025",
+   "hora_utc": "2025-10-27T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/852772/000085277225000016/q42024pre-releaseearningsp.htm",
+   "medio": "SEC EDGAR · Denny's · Form 8-K",
+   "titulo": "Denny's, Form 8-K, filed Jan 13, 2025",
+   "hora_utc": "2025-01-13T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/852772/000085277225000044/q42024ex991earningspressre.htm",
+   "medio": "SEC EDGAR · Denny's · Form 8-K",
+   "titulo": "Denny's, Form 8-K, filed Feb 12, 2025",
+   "hora_utc": "2025-02-12T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465925023210/tm258818d1_ex99.htm",
+   "medio": "SEC EDGAR · Dollar General · Form 8-K",
+   "titulo": "Dollar General, Form 8-K, filed Mar 13, 2025",
+   "hora_utc": "2025-03-13T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "4 cited filings, named with form and date"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about when it is not exact"
+  },
+  {
+   "que": "Slides",
+   "estado": "OK",
+   "nota": "7 slides 1080x1350, converted from PNG to JPEG for Instagram"
+  }
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt_laminas": [
+  "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2024 to 2025. Title: \"Dollar General, Denny's and Carter's: a reported number next to a closing plan\" Above the giant figure, the company: Dollar General and what the figure measures: fiscal 2024 net income per store in the Mar 2025 plan. The figure, about $7.98M, fills the width at the bottom.",
+  "Slide 2 of 7. Cobalt blue poster with white type. Carter's, Oct 27, 2025. The count in one line: $47.2 million (dividends paid, first three quarters of fiscal 2025) divided by about 150 (stores in the plan over three years, Oct 2025) equals about $314,666 of three quarters of dividends per store in the Oct 2025 plan. The literal sentence: \"closing low-margin retail stores, right-sizing our organization, and honing product choices\" Form 8-K, filed Oct 27, 2025. A giant about $314,666 fills the width at the bottom.",
+  "Slide 3 of 7. Cobalt blue poster with white type. Denny's, Jan 13, 2025. The count in one line: $11.2 million (allocated to share repurchases, fiscal 2024) divided by 88 (Denny's restaurants closed in fiscal 2024; 87 were franchised) equals about $127,272 of fiscal 2024 repurchases per restaurant closed. The literal sentence: \"planned acceleration of lower volume restaurant closures\" Form 8-K, filed Jan 13, 2025. A giant about $127,272 fills the width at the bottom.",
+  "Slide 4 of 7. Cobalt blue poster with white type. Dollar General, Mar 13, 2025. The count in one line: $1.12 billion (net income, fiscal 2024) divided by 141 (stores in the closing plan of Mar 2025 (96 Dollar General, 45 pOpshelf)) equals about $7.98 million of fiscal 2024 net income per store in the Mar 2025 plan. The literal sentence: \"identifying stores for closure or re-bannering based on an evaluation of individual store performance\" Form 8-K, filed Mar 13, 2025. A giant about $7.98M fills the width at the bottom.",
+  "Slide 5 of 7. Cobalt blue poster with white type. Title: How we count. For each company, the number A and the number B from its filing (shortened, never rounded up), with the form and the date, and the rule: each result is divided and never rounded up; anything approximate says about.",
+  "Slide 6 of 7. Cobalt blue poster with white type. Title: What this does not say. Dollar General: 141 is 96 Dollar General and 45 pOpshelf stores in its plan. Its fiscal 2024 ended before the closings are planned, in the first quarter of fiscal 2025. Denny's: 87 of the 88 restaurants closed in fiscal 2024 were franchised. One was company-owned. Its $11.2 million is what the company says it allocated to repurchases. Carter's: the $47.2 million in dividends covers three quarters. Its approximately 150 stores are a plan over three years. Our take: Closing, closure, closures. Here is the closings column.",
+  "Slide 7 of 7. Cobalt blue poster with white type. Title: Sources. One line per filing: company, form and filing date. A giant call to action fills the width at the bottom: Save this."
+ ]
+}

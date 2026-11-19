@@ -1,0 +1,26 @@
+{
+ "slug": "you-too-to-the-waiter",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T03:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e04fd475a1f04afff862830c81a404a5e670c7e0376eef223ab1aa60096bbadd",
+ "hashes": {
+  "short": "3e503f24d4b1f1d17e3346c538e00ed8c6a738b90d3825ae00be34681ba947c2",
+  "reel": "005d86cb68eb64009f2fac523dce187f527b3ec9e26c68f134819c66ec050cd3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870593742,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

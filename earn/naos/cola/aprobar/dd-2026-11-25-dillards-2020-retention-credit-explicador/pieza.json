@@ -1,0 +1,57 @@
+{
+ "slug": "dd-2026-11-25-dillards-2020-retention-credit-explicador",
+ "titulo": "Dillard's, Jan 2021: stock buybacks about 16 times the retention credit. Do the math.",
+ "clave": "2026-11-25|mercury|explicador|2026-11-25-dillards-2020-retention-credit-explicador",
+ "sale_utc": "2026-11-25T01:00:00Z",
+ "caption": "Dillard's, Jan 2021: stock buybacks about 16 times the retention credit. Do the math.\n\nDillard's. Stock buybacks, fiscal 2020: $102.8 million. Payroll expense and related benefits reduced by the employee retention credit under the CARES Act: $6.1 million.\n\nFrom the archive: Jan 2021. Not today's news.\n\nThe math: $102,879,000 (treasury stock purchased, fiscal 2020) ÷ $6,100,000 (payroll expense reduced by the employee retention credit, fiscal 2020) = about 16 times the retention credit. We round down.\nBoth numbers come from one 10-K, for the same fiscal year. The 10-K calls it the employee retention credit available under the CARES Act. Both numbers are Dillard's own, for fiscal 2020, which ended January 30, 2021. The company rounds the credit.\n\n(Our take.) Two lines, one 10-K. Read them side by side.\n\nSources\nF1: Dillard's Form 10-K for fiscal 2020, filed Mar 29, 2021 · https://www.sec.gov/Archives/edgar/data/28917/000002891721000066/dds-20210130.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "Dillard's. Stock buybacks, fiscal 2020: $102.8 million. Payroll expense and related benefits reduced by the employee retention credit under the CARES Act: $6.1 million.\n\nFrom the archive: Jan 2021. Not today's news.\n\nThe math: $102,879,000 (treasury stock purchased, fiscal 2020) ÷ $6,100,000 (payroll expense reduced by the employee retention credit, fiscal 2020) = about 16 times the retention credit. We round down.\nBoth numbers come from one 10-K, for the same fiscal year. The 10-K calls it the employee retention credit available under the CARES Act. Both numbers are Dillard's own, for fiscal 2020, which ended January 30, 2021. The company rounds the credit.\n\n(Our take.) Two lines, one 10-K. Read them side by side.\n\nSources\nF1: Dillard's Form 10-K for fiscal 2020, filed Mar 29, 2021 · https://www.sec.gov/Archives/edgar/data/28917/000002891721000066/dds-20210130.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.",
+ "alt": "Vertical video, 1:01, cobalt blue poster with white type and no narration. Dillard's, Jan 2021: stock buybacks about 16 times the retention credit. Do the math.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2021-03-29T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "explicador",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891721000066/dds-20210130.htm",
+   "medio": "SEC EDGAR · Dillard's",
+   "titulo": "Dillard's Form 10-K for fiscal 2020",
+   "hora_utc": "2021-03-29T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "61.4 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

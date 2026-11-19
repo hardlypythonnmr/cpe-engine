@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-07-aramark-lamina",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T20:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "f828cf0de213476bb9a03b46b51fd1bd4065cca4d688ac454b09958020dab20a",
+ "hashes": {
+  "imagen": "53d18d4412ca4bf60cd2590569764b32e55352c3af4018b1ea3a455d54aca7ec"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6914694489,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

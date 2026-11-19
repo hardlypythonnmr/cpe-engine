@@ -1,0 +1,26 @@
+{
+ "slug": "name-your-end-time",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d1f51dfdec877eb52a50fa7d75e7d544022c73625d330227a6ce66ba34cee23e",
+ "hashes": {
+  "short": "86070add2fc4106faf279fde79fdfa27dc92abe7a3970f748a48ef6a4878ae07",
+  "reel": "70b6699efb84d5829c8a16c2f94c7c61760104a5da08e25c8dd4bbfb77143624"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886853859,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

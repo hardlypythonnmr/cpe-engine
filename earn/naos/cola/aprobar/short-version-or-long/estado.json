@@ -1,0 +1,26 @@
+{
+ "slug": "short-version-or-long",
+ "issue": 94,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-05T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "93c639722d663fc38ecf510bf40e88ccda4c5d945c2b02a8d2e891be882c53f4",
+ "hashes": {
+  "short": "42165cf424c211a74764fe64d3ef4d0bc8130418c51424e1f677ba5ed8ebd8fb",
+  "reel": "514646177820daacb7a7789e67e15a952ec9c2ddf5a33d5bc34651e0633b23b3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886902407,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0508",
+ "caducado_utc": "2026-11-15T00:52:51Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1371
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "cella-reviews-sunday",
+ "titulo": "Cella reviews Sunday night",
+ "clave": "2026-11-22|cella-reviews-sunday",
+ "sale_utc": "2026-11-22T15:50:00Z",
+ "caption": "Cella reviews Sunday night. One star.\nWould not recommend. Cella gets five. Send it to someone dreading Monday.\nLink in bio.\nby NMR\n#sundayscaries #relatable #review",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella in a crown under a spotlight next to a big review card. Send · 5 reviews. Cella reviews Sunday night. One star. Would not recommend.",
+  "2": "split in two colors: the thing on top, cella's review below. The thing: Sunday night. Cella's review: 1/5. Starts at 6 p.m. Ends in Monday.",
+  "3": "split in two colors: the thing on top, cella's review below. The thing: “Planning the week” Cella's review: 3/5. Great idea. Never read again.",
+  "4": "split in two colors: the thing on top, cella's review below. The thing: The 9 p.m. dread. Cella's review: 1/5. Arrives uninvited. Won't leave.",
+  "5": "split in two colors: the thing on top, cella's review below. The thing: Monday, in advance. Cella's review: 0/5. Hasn't happened. Already hated.",
+  "6": "split in two colors: the thing on top, cella's review below. The thing: Cella. Cella's review: 5/5. Would recommend to anyone.",
+  "7": "five reviews as a list. The cheat sheet. Sunday night, reviewed: Send it to someone who's dreading Monday. 1. Sunday night 1/5 2. Planning 3/5 3. 9 p.m. dread 1/5 4. Monday 0/5 5. Cella 5/5."
+ },
+ "tipo_carrusel": "F11 Reseñas · sobrepensar · dom 22-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "C",
+ "experimento": true,
+ "experimento_prueba": "Reseñas: Cella califica cosas de una a cinco estrellas. Prueba si calificar una experiencia compartida se manda más que traducir frases.",
+ "blanco": "citas y amistad",
+ "mecanica_crecimiento": "enviar · destinatario: someone dreading Monday",
+ "eco": "C01 · experimento: reseñas",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "turn-it-to-face-them",
+ "titulo": "The page turned to face them",
+ "clave": "2027-01-22|turn-it-to-face-them",
+ "sale_utc": "2027-01-23T01:00:00Z",
+ "caption": "The page turned to face them\n\n\"I can't read it.\" \"Turn it around.\" The page spun to face them, and the plan finally had a right way up.\n\nA page shown upside down explains nothing, and turning it toward them takes a second.\n\nFor whoever turns the page around so they can read it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A page shown upside down explains nothing, and turning it toward them takes a second.\n\nFor whoever turns the page around so they can read it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a sheet of paper standing upside down on the right, with the word plan upside down on it. A royal blue block figure with narrowed eyes says I can't read it. A ink-black block figure with white eyes answers turn it around, and the page spins to face them with the word plan the right way up and a small sparkle above. The blue one's eyes go wide and says ...oh. now I see. Both end with happy eyes. The text stays: me turning it to face them.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "turn-it-to-face-them",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "girar la hoja hacia la otra persona para que la pueda leer",
+ "blanco": "Cella y quien explica con la hoja puesta al reves",
+ "destinatario": "turns the page around so they can read it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

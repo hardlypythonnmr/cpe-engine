@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-23-cvs-health-international-paper-libro",
+ "issue": 113,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T03:30:00Z",
+ "datos_utc": "2023-10-26T00:00:00Z",
+ "hash_contenido": "ec75fe715de02c1019c895e3f53914096c113551a2f94920deab2262007b6da8",
+ "hashes": {
+  "carrusel": "367fd8dd5a6a66c3c0e58e3ff8d61d6684cf98d93197f11b3219f6b7df74a403"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6937509227,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-b",
+ "aprobado_evento_utc": "2026-11-17T03:42:28Z",
+ "issue_n_system": 1742
+}

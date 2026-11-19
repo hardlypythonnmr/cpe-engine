@@ -1,0 +1,55 @@
+{
+ "slug": "fresh-page-for-today",
+ "titulo": "A clean sheet for Tuesday",
+ "clave": "2026-12-04|fresh-page-for-today",
+ "sale_utc": "2026-12-04T13:30:00Z",
+ "caption": "A clean sheet for Tuesday\n\nMonday's page was full and checked. Tuesday got a clean sheet of its own.\n\nA new page for a new day takes two seconds, and yesterday's list stops following you around.\n\nFor whoever starts the day on a fresh page, not yesterday's.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A new page for a new day takes two seconds, and yesterday's list stops following you around.\n\nFor whoever starts the day on a fresh page, not yesterday's.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a used paper page titled Mon with four ticked boxes. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and a clean page titled Tue slides in from the right and lands on top of the old one, with a small sparkle above it. Its eyes turn happy with a pulse. The text stays: me: today gets a fresh page.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "fresh-page-for-today",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "empezar el dia en una pagina limpia en vez de seguir la de ayer",
+ "blanco": "Cella y quien arrastra la lista de ayer a hoy",
+ "destinatario": "starts the day on a fresh page, not yesterday's",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 2 al 5-dic (tanda dicl, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicl"
+}

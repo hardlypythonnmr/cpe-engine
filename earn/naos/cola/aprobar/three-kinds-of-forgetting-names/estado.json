@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-forgetting-names",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-20T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "eb69cbd87d3bb55f06335ff1775b78f82fc3948fec0679f4faeb66b5129d97c9",
+ "hashes": {
+  "short": "e70f625a9e02b7f93f7237bfb3bdc89d021c9f8fd1b0e2bde5f50786b9faa170",
+  "reel": "a868a97f18e5fbbaecd03cfa2087e8adfbc83300671d8b17dc6ca6bb88de2551"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886943373,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

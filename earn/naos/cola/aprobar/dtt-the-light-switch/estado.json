@@ -1,0 +1,23 @@
+{
+ "slug": "dtt-the-light-switch",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-07T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e4214fa0680df3aaca1202392646176d6cf86edff581eca29d8fdf47b358cdf7",
+ "hashes": {
+  "reel": "b4e9d4bc0fd67b9536431e465d3af5d6ed8e4148afb3f5fec64fdba4e2215c4d"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886622807,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

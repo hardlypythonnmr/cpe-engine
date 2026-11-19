@@ -1,0 +1,59 @@
+{
+ "slug": "tea-cant-wait",
+ "titulo": "Her tea drunk hot, mine left steaming",
+ "clave": "2026-12-14|tea-cant-wait",
+ "caption": "Her tea drunk hot, mine left steaming\n\nMy roommate drinks her tea the moment it's ready. Mine she leaves steaming until I'm home.\n\nA hot drink is at its warmest in the first minutes, so the quick sip is the hottest one.\n\nFor whoever drinks the tea hot and still keeps one warm.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A hot drink is at its warmest in the first minutes, so the quick sip is the hottest one.\n\nFor whoever drinks the tea hot and still keeps one warm.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands on the left, and two orange mugs with steam sit on the floor in the middle. A bubble says tea's ready. Then ahh, and the figure's eyes turn happy with a pulse as the steam over its own mug stops. The other mug keeps steaming. A brick red figure walks in from the right and a bubble says sorry, late! The black one says yours is hot and both pulse as the last steam stops. The text stays: me drinking my tea before you get here. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "tea-cant-wait",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.0 dBFS, LRA 2.4 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "esperar o no esperar para tomar el te",
+ "blanco": "Cella (y quien deja el te enfriarse por esperar a otra)",
+ "destinatario": "drinks the tea hot and still keeps one warm",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "una-variable-1411",
+ "variante": "una-variable",
+ "par": "tea-timing",
+ "lado": "b",
+ "cambia": "A toma su te en cuanto esta listo, sin esperar a B (el vapor de su taza se apaga a los 2,4 s)",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-14T23:45:00Z",
+ "brazo": "b",
+ "escena": "tea-timing"
+}

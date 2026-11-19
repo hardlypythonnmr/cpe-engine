@@ -1,0 +1,25 @@
+{
+ "slug": "where-to-eat",
+ "issue": 69,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b055be45de516b088d6c4a57fd739aa8dcb805be3e0ae1a4ce9bab0afa815368",
+ "hashes": {
+  "short": "ddb8b9901130fd41850e0ce2c86065e0ac3b32eab61f7d1e9e4c86154035599e",
+  "reel": "9d0341cce8db62103e77c4fb211c1f36ea5470011f648de1b18f70c7896fd643"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866097840,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2125",
+ "aprobado_evento_utc": "2026-11-13T22:32:44Z",
+ "issue_n_system": 1212
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "joke-explained",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a214fe2a27b6a33678eb5e007b70206dfe1b79ca4aa39326d741c89b0c6939bc",
+ "hashes": {
+  "short": "40f06370eb6eb7163aae7590ed7046b22e8319ef7aa2af71a43c4359e2df0092",
+  "reel": "d60f64408ed1fb97f1f182fb650d26c237cad53f9d8e97eb30799c2d0d1dc855"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863845198,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

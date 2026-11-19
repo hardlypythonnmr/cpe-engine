@@ -1,0 +1,26 @@
+{
+ "slug": "plant-in-for-the-night",
+ "issue": 97,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-19T13:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "56a24e15a3d186ecc2c7d406a1bb0d4d6f1206fd7e3b9bf9a54991e7494bff5e",
+ "hashes": {
+  "short": "4f29f94dbf95cda40c42ac6c94c585ed604e378660c314eb76568e7870f4260f",
+  "reel": "45577e6d08c264cd2e2b39877cd0cdccd95e07125ce02c30794357e1e5763bde"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886931328,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319-b",
+ "caducado_utc": "2026-11-15T00:54:59Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1379
+}

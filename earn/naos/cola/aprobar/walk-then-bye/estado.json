@@ -1,0 +1,26 @@
+{
+ "slug": "walk-then-bye",
+ "issue": 75,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-16T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "efe43cedbc37820b9bd983cda6949afbb8fb11b733fca967a86624ba94c9b12a",
+ "hashes": {
+  "short": "c25540b22d49f27dcba84c06e822330f27f68e9a37f930f08f051dd404f92c42",
+  "reel": "0a0ab8be683d87e228f5463d8d3e7cd35a554c63fa3254ee6436c6d8a3699286"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886962977,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "una-variable-1411",
+ "caducado_utc": "2026-11-15T00:57:41Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1262
+}

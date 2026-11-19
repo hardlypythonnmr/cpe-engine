@@ -1,0 +1,68 @@
+{
+ "slug": "candle-is-self-care",
+ "titulo": "Send this to the one who calls buying a candle self-care",
+ "clave": "2026-11-27|candle-is-self-care",
+ "sale_utc": "2026-11-27T11:50:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A yellow kitchen. A small ink-black block figure with white eyes stands near a table with a lit candle and a sheet of paper that says -70%. Text: send this to the one who calls buying a candle self-care.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-23 (casa/lib/historias-1123-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "the friend whose self-care arrives in a box",
+ "experimento": true,
+ "experimento_prueba": "AB idea-envio: para-enviar, par de become-a-person-later (misma franja, misma forma; lectura a 7 días el 2026-12-05)",
+ "ab": {
+  "prueba": "idea-envio",
+  "brazo": "para-enviar",
+  "par": "become-a-person-later",
+  "metricas": [
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-05T11:50:00Z",
+  "nota": "para-enviar = el destinatario está en pantalla (\"send this to...\" o \"if someone sent you this\"); normal = la idea se manda igual (destinatario en la ficha) pero la pantalla no lo dice"
+ },
+ "casa": {
+  "id": "candle-is-self-care",
+  "version": 8
+ },
+ "tono": "deadpan, vain",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-23/hoja-historias.png"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "fixed in the 3rd pass: lit candle on the table; alt names it"
+  },
+  {
+   "que": "Builder fix after judge 2nd pass",
+   "estado": "OK",
+   "nota": "6-nov, builder: alt reescrito: vela y hoja de -70 %. The 'Judge 2nd pass (D-294)' revision above is the judge's and is unchanged; it stays as the judge left it until the judge re-reads the piece."
+  },
+  {
+   "que": "Judge 3rd pass (D-294)",
+   "estado": "OK",
+   "nota": "lit candle on the table; alt names it"
+  }
+ ]
+}

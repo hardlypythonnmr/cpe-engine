@@ -1,0 +1,26 @@
+{
+ "slug": "tell-them-youre-late",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-11T16:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1a29a63ff182b00c602cc75a5e86b971e20c82b75cc007ff42498edb9cc817c7",
+ "hashes": {
+  "short": "cf5925cb7290abb2899788887c070bac813e10f13cd8614ee090caba1f83a8f6",
+  "reel": "9daac6e034c5ce66f6b0965ba1acdd23d50c83036833c81ddac1694197ea5581"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886914862,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

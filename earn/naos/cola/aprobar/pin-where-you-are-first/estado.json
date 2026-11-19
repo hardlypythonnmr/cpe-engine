@@ -1,0 +1,26 @@
+{
+ "slug": "pin-where-you-are-first",
+ "issue": 92,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-27T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2061b912ab094ad4f29d793629fa956b3ada16aae0ef1d81bf63c488e8ff9aa3",
+ "hashes": {
+  "short": "30eba537be4771b57792a1f39796d6434e549dd5fcd63fe6a9221f726aff0032",
+  "reel": "1024574c6fde55e921b24b705a1be3a3b0a03e807697f5065e264538f580f33a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886882026,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "ened-2631",
+ "caducado_utc": "2026-11-15T00:51:16Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1367
+}

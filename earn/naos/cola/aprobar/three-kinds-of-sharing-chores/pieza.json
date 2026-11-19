@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-sharing-chores",
+ "titulo": "Three ways to split the dishes",
+ "clave": "2026-12-24|three-kinds-of-sharing-chores",
+ "sale_utc": "2026-12-24T13:45:00Z",
+ "caption": "Three ways to split the dishes\n\nI used to say I'll do it all and sigh through the dishes. Then I started saying you wash, I dry.\n\nSplitting a chore out loud keeps it from turning into a quiet scoreboard, and it usually goes faster.\n\nFor whoever splits the chore out loud.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Splitting a chore out loud keeps it from turning into a quiet scoreboard, and it usually goes faster.\n\nFor whoever splits the chore out loud.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a shelf of jars and a brick-red figure that asks who's on dishes? in each of three labeled scenes. The dodge: a teal figure says not it! and looks away. The martyr: a brown figure squints, trembles and says I'll do it all. while the red one looks down. The split: an ink-black figure tilts its head and says you wash, I dry., and both figures have happy eyes. The text stays: three kinds of sharing chores. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-sharing-chores",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.8 dBFS, LRA 2.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "repartir una tarea",
+ "blanco": "Cella (y quien se escabulle o carga con todo)",
+ "destinatario": "splits the chore out loud",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the dodge",
+  "the martyr",
+  "the split"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

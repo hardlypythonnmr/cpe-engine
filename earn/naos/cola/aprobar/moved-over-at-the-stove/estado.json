@@ -1,0 +1,25 @@
+{
+ "slug": "moved-over-at-the-stove",
+ "issue": 65,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T23:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "bdc1c950f85bbc4f7ef83b42c454f3ad895f070f14da1c3ab9851c961529b531",
+ "hashes": {
+  "short": "dd69c6df8cd201295cb6d62ecb2e3dc661c16464c07acb9ea656b151f757cd79",
+  "reel": "fa36ab317119f63baab705a8d8a03d43e4815cd687e399491e34d60efb602c03"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861498028,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "a1c-pilotos",
+ "aprobado_evento_utc": "2026-11-13T19:14:29Z",
+ "issue_n_system": 1161
+}

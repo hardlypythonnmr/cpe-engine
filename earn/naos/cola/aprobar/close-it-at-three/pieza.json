@@ -1,0 +1,55 @@
+{
+ "slug": "close-it-at-three",
+ "titulo": "The book closes at three",
+ "clave": "2027-02-11|close-it-at-three",
+ "sale_utc": "2027-02-11T13:25:00Z",
+ "caption": "The book closes at three\n\nThe clock said two fifty-eight, then three. The book closed with the minute, and nobody stayed past it.\n\nClosing at the time you said gives everyone their next hour back, and it makes the next yes easier.\n\nFor whoever ends when they said they'd end.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Closing at the time you said gives everyone their next hour back, and it makes the next yes easier.\n\nFor whoever ends when they said they'd end.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a clock sign that says 2:58 and, beside it on the left, a big open book. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide and it leans in. The sign ticks to 2:59 and 3:00 and the book swings shut, with a small sparkle. Its eyes turn happy with a pulse. The text stays: me closing it at three.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "close-it-at-three",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cerrar a la hora que se dijo en vez de pasarse",
+ "blanco": "Cella y quien se pasa de la hora acordada",
+ "destinatario": "ends when they said they'd end",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

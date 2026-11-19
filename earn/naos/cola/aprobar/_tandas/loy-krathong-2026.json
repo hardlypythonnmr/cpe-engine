@@ -1,0 +1,19 @@
+{
+ "nombre": "loy-krathong-2026",
+ "issue": 107,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "loy-krathong-for-two"
+ ],
+ "comentario_vista_previa_id": 6894853904,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T13:13:55Z",
+ "aviso_utc": "2026-11-15T13:13:55Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T13:21:18Z",
+ "aprobadas": [
+  "loy-krathong-for-two"
+ ],
+ "issue_n_system": 1533
+}

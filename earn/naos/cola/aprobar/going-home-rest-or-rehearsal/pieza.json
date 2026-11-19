@@ -1,0 +1,85 @@
+{
+ "slug": "going-home-rest-or-rehearsal",
+ "titulo": "Going home for the holidays is rest or rehearsal?",
+ "clave": "2026-11-25|going-home-rest-or-rehearsal",
+ "sale_utc": "2026-11-25T13:20:00Z",
+ "caption": "Is going home for the holidays rest or rehearsal? Pick a side.\nCella is rehearsing.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "the image is split in two: REST on the left with a pillow, REHEARSAL on the right with Cella in a crown under a spotlight. Going home for the holidays is. Left: Rest. Right: Rehearsal. Pick a side.",
+ "tipo_imagen": "F4 Elige · familia · mié 25-nov",
+ "aspecto": "4x5",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "AB aspecto: 4x5, par de last-slice-crime-or-right; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-03",
+ "ab": {
+  "prueba": "aspecto",
+  "brazo": "4x5",
+  "par": "last-slice-crime-or-right",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T13:20:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-03T13:20:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-03T13:20:00Z"
+  }
+ ],
+ "blanco": "familia y autoayuda (arquetipo: el adulto que vuelve a ser hijo)",
+ "mecanica_crecimiento": "comentar · destinatario: the friend who flies home tonight",
+ "destinatario": "the friend who flies home tonight",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "REST now a pillow with zzz; alt names the pillow; no dead white band"
+  }
+ ]
+}

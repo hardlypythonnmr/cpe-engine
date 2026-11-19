@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-12-04-textron-tachon-q-a",
+ "issue": 110,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T17:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "c3a2addc959c9ec515601412e4d72a53402a1a01f98603426705241f94861d88",
+ "hashes": {
+  "short": "5ec733ec120b1f89e45d9dff19b6b621eb29702270b653f15b321777af863dc8",
+  "reel": "5d20478a1d64fde6368ea33813dabf462fa4382cb4409355b0e70837b3d1b0c2"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6899368577,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-prueba-ac",
+ "aprobado_evento_utc": "2026-11-16T10:47:56Z",
+ "issue_n_system": 1656
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-25-dillards-2020-retention-credit-explicador",
+ "issue": 113,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T01:00:00Z",
+ "datos_utc": "2021-03-29T00:00:00Z",
+ "hash_contenido": "55c1709468accd63e163b2e8ea35bd044f68ca6ba4c13654734d54cfd03b8737",
+ "hashes": {
+  "short": "cbeb027e5845e4ae8881a7d8bb331774f34e63d3d8350750a649ba79bb0954bf",
+  "reel": "667d24d862c2a920df0b043853c67f2e0fcf738f7162cc8cd532fe6079e63d80"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6937512545,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-b",
+ "aprobado_evento_utc": "2026-11-17T03:42:28Z",
+ "issue_n_system": 1742
+}

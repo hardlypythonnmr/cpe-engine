@@ -1,0 +1,55 @@
+{
+ "slug": "wipe-your-own-spill",
+ "titulo": "Wiping up her own spill",
+ "clave": "2026-12-08|wipe-your-own-spill",
+ "sale_utc": "2026-12-08T21:45:00Z",
+ "caption": "Wiping up her own spill\n\nThe guest tipped her mug and the host said to leave it. She wiped it up anyway, and the table was dry again.\n\nWiping your own spill takes ten seconds, and the host gets to stay in the conversation.\n\nFor whoever wipes up their own spill at a friend's table.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Wiping your own spill takes ten seconds, and the host gets to stay in the conversation.\n\nFor whoever wipes up their own spill at a friend's table.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark wooden table with a mug lying on its side and a blue puddle spreading beside it. A ink-black block figure with wide white eyes stands at the left and a royal blue one stands at the right. The royal blue one says leave it. I'll get it. The ink-black one says no, I've got it, and a cream cloth slides across the table while the puddle shrinks away and the mug tips back upright. Both turn happy with a pulse. The text stays: me, wiping up my own spill.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "wipe-your-own-spill",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "limpiar uno mismo lo que se derramo en la mesa del anfitrion",
+ "blanco": "Cella y quien deja que el anfitrion limpie lo que derramo",
+ "destinatario": "wipes up their own spill at a friend's table",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 7 al 10-dic (tanda dicm, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicm"
+}

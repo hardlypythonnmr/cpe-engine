@@ -1,0 +1,42 @@
+{
+ "slug": "exhibit-b-breath-skipped",
+ "issue": 44,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "59c3db4764526526f203cbbef9ceb750c5317717107a16d229b886e04bf215f4",
+ "hashes": {
+  "imagen": "bc1a81b53679afc7e26d7a93c8078f656f22098b61ab1a679d736c7cb7988c14"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6364491313,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aviso_utc": "2026-10-23T12:06:46Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-23T12:23:04Z",
+ "reprogramaciones": 1,
+ "reprogramada": {
+  "por": "D-512",
+  "utc": "2026-11-13T17:15:47Z",
+  "de_sale_utc": "2026-10-27T17:00:00Z",
+  "a_sale_utc": "2026-11-25T02:00:00Z",
+  "version_origen": 1,
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#805, 2026-10-23T12:23:04Z",
+  "ok_n": "Sí, las 3 (Recommended)",
+  "dia": "2026-11-24"
+ },
+ "fallos_previos": [
+  {
+   "reel_fallo_utc": "2026-10-27T17:00:09Z",
+   "reprogramada_utc": "2026-11-13T17:15:47Z",
+   "de_sale_utc": "2026-10-27T17:00:00Z",
+   "version": 1
+  }
+ ],
+ "issue_n_system": 805
+}

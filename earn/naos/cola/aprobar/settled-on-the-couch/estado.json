@@ -1,0 +1,22 @@
+{
+ "slug": "settled-on-the-couch",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "05b11cb7f843fc4ead6ed218e8209eff111eea40cbe451c8e84f97ce7da7eb03",
+ "hashes": {
+  "historia": "d6c31bd2d28bb1e469630773a28b973ea8e1152b2c029f6f2b995f0916c512d8"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681433141,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

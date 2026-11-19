@@ -1,0 +1,20 @@
+{
+ "slug": "full-moon-tonight",
+ "titulo": "Full moon tonight",
+ "clave": "2026-11-24|full-moon-tonight",
+ "sale_utc": "2026-11-24T11:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "linea": "afirmaciones",
+ "sin_cifras": false,
+ "cifras_fijas": true,
+ "datos_utc": "2026-11-17T12:00:00Z",
+ "fuente_cifras": "ephem next_full_moon('2026/11/17') = 2026-11-24 14:53:29 UTC; 'Beaver Moon' is the traditional name of the November full moon (Farmers' Almanac)",
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "Cella, a small figure made of white dots with two dark eyes and no hands, stands on a horizon of dots under a field of stars, eyes turned toward the text. The slide reads: Full moon tonight · 14:53 UTC Done Name one thing you are done carrying.",
+ "revisiones": []
+}

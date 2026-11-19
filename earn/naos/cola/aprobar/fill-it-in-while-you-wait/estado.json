@@ -1,0 +1,26 @@
+{
+ "slug": "fill-it-in-while-you-wait",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-09T13:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "20c9c2c0266d98e7e84a36f0cb3a7d028c43496e60a0764abb97fac28a76efb2",
+ "hashes": {
+  "short": "36695f3c0f5b1047be4e5601a60ba75be5d577aeaff7b36cc13923a6e30f2b12",
+  "reel": "0cc111e13003f2d914a7091f3a660855db9b2eda063ee901bb3371ae823d17d8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886910949,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

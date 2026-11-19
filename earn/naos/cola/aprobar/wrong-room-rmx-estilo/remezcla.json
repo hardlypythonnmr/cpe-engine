@@ -1,0 +1,142 @@
+{
+ "origen": "wrong-room",
+ "eje": "estilo",
+ "brazo": "D",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "no house image: words only on an indigo field (#2B2F66), each line on screen while the voice says it; same voice track"
+ ],
+ "receta": {
+  "slug": "wrong-room-rmx-estilo",
+  "fecha_et": "2026-11-23",
+  "et_preferida": "13:30",
+  "estilo": {
+   "fondo": "#2B2F66"
+  },
+  "portada": 1.0,
+  "alt": "A short film with only words on a deep indigo field, timed to the voice. I forgot why I came up. If I forget why I came, I stop and say what for. In. Landing. One step. Wrong room. When do I forget why I came up? Closer to your stairs. Closer to yourself.",
+  "textos": [
+   {
+    "txt": "I forgot why",
+    "t": 0.0,
+    "fin": 2.6,
+    "y": 760,
+    "tam": 120,
+    "color": "#F4F6F8"
+   },
+   {
+    "txt": "I came up.",
+    "t": 0.0,
+    "fin": 2.6,
+    "y": 900,
+    "tam": 120,
+    "color": "#F4F6F8"
+   },
+   {
+    "txt": "If I forget why I came,",
+    "t": 2.7,
+    "fin": 7.3,
+    "y": 700,
+    "tam": 92,
+    "color": "#F4F6F8"
+   },
+   {
+    "txt": "I stop and say",
+    "t": 4.6,
+    "fin": 7.3,
+    "y": 880,
+    "tam": 92,
+    "color": "#F6D365"
+   },
+   {
+    "txt": "what for.",
+    "t": 4.6,
+    "fin": 7.3,
+    "y": 990,
+    "tam": 92,
+    "color": "#F6D365"
+   },
+   {
+    "txt": "In.",
+    "t": 7.35,
+    "fin": 10.9,
+    "y": 640,
+    "tam": 130,
+    "color": "#F4F6F8"
+   },
+   {
+    "txt": "Landing.",
+    "t": 8.5,
+    "fin": 10.9,
+    "y": 820,
+    "tam": 130,
+    "color": "#F4F6F8",
+    "italica": true
+   },
+   {
+    "txt": "One step.",
+    "t": 9.35,
+    "fin": 10.9,
+    "y": 1000,
+    "tam": 130,
+    "color": "#F6D365"
+   },
+   {
+    "txt": "Wrong room.",
+    "t": 12.7,
+    "fin": 14.1,
+    "y": 860,
+    "tam": 150,
+    "color": "#F6D365"
+   },
+   {
+    "txt": "When do I forget",
+    "t": 14.2,
+    "fin": 16.8,
+    "y": 780,
+    "tam": 100,
+    "color": "#F4F6F8"
+   },
+   {
+    "txt": "why I came up?",
+    "t": 14.2,
+    "fin": 16.8,
+    "y": 910,
+    "tam": 100,
+    "color": "#F4F6F8"
+   },
+   {
+    "txt": "Closer to your stairs.",
+    "t": 16.9,
+    "fin": 20.6,
+    "y": 800,
+    "tam": 96,
+    "color": "#F4F6F8"
+   },
+   {
+    "txt": "Closer to yourself.",
+    "t": 18.65,
+    "fin": 20.6,
+    "y": 930,
+    "tam": 96,
+    "color": "#F6D365",
+    "italica": true
+   }
+  ],
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 20.6,
+ "audio": {
+  "lufs": -14.1,
+  "pico_dbtp": -1.4
+ },
+ "huella": {
+  "dhash_media": 24.1,
+  "dhash_min": 21,
+  "umbral": 14,
+  "cambio_color": 98.0,
+  "distinta": true,
+  "lectura": "distinta en forma"
+ },
+ "elevenlabs_llamadas": 0
+}

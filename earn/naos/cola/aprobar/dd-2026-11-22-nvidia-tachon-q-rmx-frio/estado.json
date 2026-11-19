@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-22-nvidia-tachon-q-rmx-frio",
+ "issue": 33,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T17:30:00Z",
+ "datos_utc": "2026-11-12T21:00:00Z",
+ "hash_contenido": "9b12c035431bb5ae5b4e448a52534cb192df9f88c0151fbafcd0c67626451b68",
+ "hashes": {
+  "short": "d15e16223181c3b7f03f8a4163dd3ea0d8f4b9b56cac3aca10cdcbc66ed11663",
+  "reel": "02bd676fb0f557e445b26470bbe5c44c35819f77b99868dcdf02786d6118a4c0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956720532,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-remezcla-nvidia",
+ "aprobado_evento_utc": "2026-11-17T18:55:11Z",
+ "issue_n_system": 1777
+}

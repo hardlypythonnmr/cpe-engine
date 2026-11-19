@@ -1,0 +1,26 @@
+{
+ "slug": "a-bigger-pot",
+ "issue": 93,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-03T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e0de92aae808e8db268fc1952442c869667d9ce2d3f70bac96b9284940ec17b3",
+ "hashes": {
+  "short": "392b10f7e057f8282e9c19120bc0a53a3beded87cccd37e51d4550abcf9b599c",
+  "reel": "04a8d3e6e82ec27e75dd9f7177176179dab75f42aa07779c102cb7f9197b4bf5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886894632,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0104",
+ "caducado_utc": "2026-11-15T00:52:08Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1370
+}

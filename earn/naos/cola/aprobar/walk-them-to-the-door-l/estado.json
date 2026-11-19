@@ -1,0 +1,25 @@
+{
+ "slug": "walk-them-to-the-door-l",
+ "issue": 74,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-15T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "67fe7e52b789acf777f2c156559da93d03c5ef1c1b58fe8add20a113760afeba",
+ "hashes": {
+  "short": "75f0774564ea984070258eb86d5122c74bb8fef6d11cbdd1fd0c0c0340faab33",
+  "reel": "a3df88a03a3efed0ab802639b3094fdb049e1ce650b6f0e66ad03c31264d9bf0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6871175160,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "duracion-1411",
+ "aprobado_evento_utc": "2026-11-15T00:04:21Z",
+ "issue_n_system": 1259
+}

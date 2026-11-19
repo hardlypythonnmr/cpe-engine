@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-09-las-vegas-sands-lamina",
+ "issue": 105,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T20:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "91ab895326741164da4a652d8e3a35b83a6d1ad8fcdd74c7a0cfb49572093019",
+ "hashes": {
+  "imagen": "d086363ae1443793bb1f673df8eaf88eb47e8bbe8defcabf50e329e5fe1c7da8"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6890752890,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-c",
+ "aprobado_evento_utc": "2026-11-15T11:55:33Z",
+ "issue_n_system": 1478
+}

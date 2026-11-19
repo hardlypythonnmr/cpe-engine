@@ -1,0 +1,51 @@
+{
+ "slug": "tried-your-tip",
+ "titulo": "Going back to say the tip worked",
+ "clave": "2026-12-09|tried-your-tip",
+ "sale_utc": "2026-12-09T18:00:00Z",
+ "caption": "Going back to say the tip worked\n\n\"I tried the ramen.\" \"And?\" \"Best bowl in months.\" Weeks after the tip, she went back to tell him.\n\nPeople rarely learn whether their tip worked, so telling them is a gift that costs one sentence.\n\nFor whoever tells them the tip was good.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "People rarely learn whether their tip worked, so telling them is a gift that costs one sentence.\n\nFor whoever tells them the tip was good.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A stairwell. A navy block figure on the right looks down. A ink-black block figure with white eyes walks over from the left and a bubble says I tried the ramen! The navy one looks up with wide eyes and a bubble says and? The black one answers with a bubble that says best bowl in months. Both end with happy eyes. The text stays: me reporting back on the tip.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "tried-your-tip",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -4.2 dBFS, LRA 3.5 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "contarle a alguien que su recomendacion funciono",
+ "blanco": "Cella y quien nunca supo si su consejo sirvio",
+ "destinatario": "tells them the tip was good",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

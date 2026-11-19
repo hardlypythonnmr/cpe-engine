@@ -1,0 +1,26 @@
+{
+ "slug": "cover-the-plant",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-16T22:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "53277daa237024444db6683d4dba4de33b7994d79b81863826b5b613ce097dc6",
+ "hashes": {
+  "short": "ca04364ff8dcf75819cdac5ce486c0a9878ae8a503f8c15d66a8a9d869bd10df",
+  "reel": "de5f0a9f948eb660dc79a19d18f60f98d70e793b356eaf600626838a100a2c7b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886924859,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

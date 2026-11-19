@@ -1,0 +1,55 @@
+{
+ "slug": "label-the-pots",
+ "titulo": "Three small notes on three green pots",
+ "clave": "2026-12-08|label-the-pots",
+ "sale_utc": "2026-12-08T15:15:00Z",
+ "caption": "Three small notes on three green pots\n\nThree green pots look the same on a table. Three small notes and nobody has to guess what needs what.\n\nA label takes ten seconds, and it keeps you from knowing 'the leafy one' for a year.\n\nFor whoever writes the name on each pot.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A label takes ten seconds, and it keeps you from knowing 'the leafy one' for a year.\n\nFor whoever writes the name on each pot.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A table with three leafy plants in an orange, a blue and a yellow pot. A ink-black block figure with white eyes walks in from the left, its eyes go wide, it leans, and a small note appears on each pot, reading mint, basil and dill. Its eyes turn happy with a pulse. The text stays: me naming each pot.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "label-the-pots",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ponerle nombre a cada maceta",
+ "blanco": "Cella y quien tiene plantas y no sabe cual es cual",
+ "destinatario": "writes the name on each pot",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "no-hands-for-two",
+ "issue": 49,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T16:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6b307b3b72a05dec117684e2a81fe32c46a371b5c70d0e4a5455a085aea249b0",
+ "hashes": {
+  "short": "826096d52efdc77014c216a9888f99d59bab641953afe88f2c7b63d0cc484f48",
+  "reel": "560340caa23f9a33f403657370c0a856456014b638ff638b78e27594eaff2ec4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894737244,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "caducado_utc": "2026-11-15T13:04:02Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:05:51Z",
+ "issue_n_system": 910
+}

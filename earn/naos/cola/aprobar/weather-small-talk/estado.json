@@ -1,0 +1,25 @@
+{
+ "slug": "weather-small-talk",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T02:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f73584b100e7d9ce4cda7509e59eedaf33a13dccbff2019272ac5af147af8cf2",
+ "hashes": {
+  "short": "1fbaab8e39f088f2324fbff99ccb7bf116897f7559ff7f5973b822c410252e55",
+  "reel": "290ee48dcda6b9a71e0f2b528d178573b289c540d01147eb454edf5e3346d25c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863236529,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

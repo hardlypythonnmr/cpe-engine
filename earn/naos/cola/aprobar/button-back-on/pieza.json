@@ -1,0 +1,55 @@
+{
+ "slug": "button-back-on",
+ "titulo": "The button back on, five minutes",
+ "clave": "2026-12-06|button-back-on",
+ "sale_utc": "2026-12-06T23:30:00Z",
+ "caption": "The button back on, five minutes\n\nThe coat has had a gap in its buttons since October. Putting it back is five minutes, and the coat is whole again.\n\nA loose button waits for a free evening that never comes, and the five minutes were always there.\n\nFor whoever puts the loose button back on.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A loose button waits for a free evening that never comes, and the five minutes were always there.\n\nFor whoever puts the loose button back on.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a big tan coat standing open on the right with two blue buttons down the front and a gap below them. A third blue button lies on the floor at the left. A ink-black block figure with white eyes trembles with narrowed eyes, then its eyes go wide, it walks closer and the button rolls across the floor and up onto the coat, filling the gap. Its eyes turn happy with a pulse. The text changes from: me, it's only a button, to: sewed it on. coat's whole.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "button-back-on",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.6 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "coser el boton que se solto",
+ "blanco": "Cella y quien deja el abrigo con un boton suelto",
+ "destinatario": "puts the loose button back on",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

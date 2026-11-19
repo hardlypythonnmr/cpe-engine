@@ -1,0 +1,61 @@
+{
+ "slug": "closer-or-space-both-sides",
+ "titulo": "Closer or Space? The Same Evening, From Both Sides",
+ "clave": "2026-11-16|medio-m8",
+ "sale_utc": "2026-11-22T22:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "One evening between Ari and Cella, seen twice. First from Ari's side, wanting to be closer. Then from Cella's side, needing space. Both have a reason.\n\nWhich side was easier to understand: Ari's or Cella's?\n\nIf you searched \"avoidant\" or \"why do I push my partner away\", this is one evening of what many people describe, told from both sides. Nobody in it gets a label or a diagnosis, and it isn't advice about anyone's relationship.\n\nChapters\n0:00 The hug at the door\n0:24 6:30 PM, Ari's side\n1:00 7:10 PM, Cella's side\n1:40 8:00 PM, Ari's side: the wedding\n2:08 8:00 PM, Cella's side\n2:45 9:15 PM, Ari's side: the bench\n3:23 9:15 PM, Cella's side\n4:00 10:00 PM, Ari's side: \"Can we talk?\"\n4:31 10:00 PM, Cella's side\n5:06 The circle\n5:35 What researchers describe\n7:00 What both of them did\n8:24 Which side was easier?\n\nThe middle of the video uses one idea from research on adult attachment, the study of how adults handle closeness in relationships. Researchers describe two responses people often show when closeness feels uncertain: moving closer and checking, or making space and handling it alone. They describe both as ways of trying to feel safe, often learned in earlier relationships, with temperament playing a part too. They measure them in degrees, with questionnaires on two scales: worry about being rejected, and discomfort with closeness. This research describes patterns across many people and says little about any one person, and its account of where these responses come from has only been tested in part. What Ari and Cella do at the end is our own small idea; these studies did not test it.\nMikulincer, M., Shaver, P. R., & Pereg, D. (2003). Attachment theory and affect regulation: The dynamics, development, and cognitive consequences of attachment-related strategies. Motivation and Emotion, 27(2), 77-102. https://doi.org/10.1023/A:1024515519160\nThe line of research on couples started with: Hazan, C., & Shaver, P. (1987). Romantic love conceptualized as an attachment process. Journal of Personality and Social Psychology, 52(3), 511-524.\n\nIf this is weighing on you, talk to someone now. Colombia 106 or 123 in immediate danger · US 988 · anywhere else: findahelpline.com\n\nMade with code and Claude. Narration by the NAOS voice (ElevenLabs). Music composed with code by NAOS. Sounds from our own library.\nCloser to yourself.",
+ "sintetico": false,
+ "alt": "A video of about 9 minutes in 16:9 with a warm woman's voice narrating in the third person. Two small doorway-shaped figures with white eyes live together in a dark blue apartment at night: Ari, light blue, always on the left, and Cella, amber, always on the right. It opens on a hug at the front door: Ari rushes in, Cella steps back, and the screen reads Ari wanted closer. and Cella wanted space. before a split screen. Then four moments of the same evening, each shown twice, first with a band reading ARI'S SIDE and then CELLA'S SIDE, with the time in the top right: the short hug at 7:10 PM, a dinner where Ari asks Come to my sister's wedding? It's in May. and Cella says Maybe. Let's see. and reaches for her phone, a bench at 9:15 PM where Ari keeps sliding closer and texts are we ok? from across the room and gets yeah. just tired, and 10:00 PM, when Ari asks Can we talk about us?, Cella says Not tonight. and a bedroom door closes. Speech goes in bubbles; thoughts go in cards headed INSIDE ARI or INSIDE CELLA, such as Did I do something? and I need ten quiet minutes before I can be close. A split screen shows the living room and the bedroom with the same door between them. A blackboard draws the circle: Ari comes closer, Cella feels crowded, Cella steps back, Ari feels alone, with an arrow back to the top. The voice then explains a 2003 review by Mikulincer, Shaver and Pereg, with key words on screen (Closer. Space. Both: trying to feel safe. Learned earlier. Two scales. No labels here.) and what the research does not know. In the end both write on their phones: Ari, I feel far from you tonight. I'd like ten minutes with you before bed., and Cella, I need an hour alone. You did nothing wrong. I'll come out at 11 to talk. At 11 Cella comes out and sits on the bench, then moves closer herself. It ends with For the person you share evenings like this with. and Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "pelicula",
+ "titulo_ab": "One Wants Closer, One Wants Space: One Evening, Seen Twice",
+ "comentario_fijado": "Which side was easier to understand: Ari's or Cella's?",
+ "mecanica_crecimiento": "enviar: la tarjeta final \"For the person you share evenings like this with.\" (una vez); la pregunta de dos lados, en la voz (s13a), la descripción y el comentario fijado",
+ "guion": "empresa/youtube/medios/M8-closer-or-space.md",
+ "casa": {
+  "id": "m8",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m8"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "524.70 s (8:45), 1920x1080 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 29.2 MB; voice: one narrator in the third person names each moment, says what each one feels, and tells the research out loud with its limits (NAOS voice mesa-maya, ElevenLabs eleven_v4, no direction tag), 59 lines, 4149 characters; quiet while bubbles, messages and INSIDE cards are read (narration: M8-narracion.md, D-340 and D-341)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS integrated, true peak -1.6 dBFS, LRA 5.1 LU; the narration sits in front and the music ducks 9 dB under it; music composed with code (motor/musica/midi.py, FluidSynth): Ari's side on the warm kitchen marimba, Cella's on the bedroom piano, both at once panned left and right in the split screens and the circle, Ari's music cut dry by the bedroom door, one shared piece from 11 PM to the end; a wall clock from motor/sonido/ambiente.py after the door closes; short effects from the NAOS sound library already in the bank (door, steps, phone buzz, spoon, water, candle, mug) and from code (tick, click, send, delete, cushion)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 128 and 391 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Mikulincer, Shaver and Pereg (2003) checked in Crossref (doi 10.1023/A:1024515519160) and against the full text (pp. 77, 79-80, 84-85, 95-98); Hazan and Shaver (1987) checked in Crossref (doi 10.1037/0022-3514.52.3.511); no study numbers are used"
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m8/dias/m8/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "OK with fixes: separate judge (claude -p, Opus, naos-arte-critico role, D-294) said ready with fixes; the high one (the circle named by the voice) and the cheap medium ones applied; empresa/youtube/medios/2026-11-04-juez-M8.md"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "bookmark-not-the-fold",
+ "issue": 81,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "56a198709e9aa536db6b51a6bf87c7226c0c7695afc24e730229fb3c40f532f0",
+ "hashes": {
+  "short": "c14ba765556a8d22a327f87f925b73a8df342204a338195de8552af6ac384f3f",
+  "reel": "40767ccad270e422cb9f98fc4357f1ab0e1afc6240c181f82f9ac2c1a43c9c10"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886793564,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-g-0106b",
+ "caducado_utc": "2026-11-15T00:44:09Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1341
+}

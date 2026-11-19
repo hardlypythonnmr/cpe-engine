@@ -1,0 +1,25 @@
+{
+ "slug": "dtt-the-squeak",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-04T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cb629d39d6d82b3b7b4e512fd593d46e91cb1f0ee2c044f3f16858b7eca9de40",
+ "hashes": {
+  "short": "1a9ad1f3a93047fad64bd9e55aa5d755cb6a3c18c98b4d1e807314792b956b4a",
+  "reel": "36914776bc38456c6456a9fdc88da17d16483a2b336a40fd937f5e42d0c8340d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886620792,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

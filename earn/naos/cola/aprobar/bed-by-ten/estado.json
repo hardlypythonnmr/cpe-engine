@@ -1,0 +1,25 @@
+{
+ "slug": "bed-by-ten",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T02:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "367f38145b6eb06554088ef4d2f10de42207099aa449a94525caeeb52615b8bf",
+ "hashes": {
+  "short": "045163198bbcf485322d624a9e6a2b7bee7c6267c8c4d50cfc75dcb80852ac40",
+  "reel": "75de6467f04b018c186e188cb7178ee0c7f6631fe160f6879f82aac914be3354"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861212529,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

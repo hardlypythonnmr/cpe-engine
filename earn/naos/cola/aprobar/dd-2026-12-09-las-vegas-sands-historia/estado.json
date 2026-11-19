@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-09-las-vegas-sands-historia",
+ "issue": 105,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T16:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "4cfad34fcebc7455192e5d9295127b445af3ba4c3fdc0f5515fd8b3386660ae7",
+ "hashes": {
+  "historia": "a9bb7681017deda7a00d2805b1aa36524b8d6fe62a14f6c74ac8b46054d5521c"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6890752489,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-c",
+ "aprobado_evento_utc": "2026-11-15T11:55:33Z",
+ "issue_n_system": 1478
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "and-then-what",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T15:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d4182b0e84ece34fc17b2133ab5d164e2c897f66d1cf263fb5d4a2a48a1d2c4c",
+ "hashes": {
+  "short": "214bc21f67c1c0d5d8594d87775252223b5f005a8aaf3ea780fde8e28a550fe3",
+  "reel": "38a20da204c140736c947fea0d0f6a0b396ea89d17bff1e754766f5e3f7bbbc5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870898414,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

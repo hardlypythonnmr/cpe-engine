@@ -1,0 +1,51 @@
+{
+ "slug": "take-the-call-outside",
+ "titulo": "Taking the call out of the room",
+ "clave": "2026-12-11|take-the-call-outside",
+ "sale_utc": "2026-12-11T20:30:00Z",
+ "caption": "Taking the call out of the room\n\nHer phone rang in the middle of lunch. She was already walking out of the room when she answered.\n\nA call taken in the hall costs ten steps, and the table keeps its conversation.\n\nFor whoever takes the call out of the room.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A call taken in the hall costs ten steps, and the table keeps its conversation.\n\nFor whoever takes the call out of the room.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and two plates with food on it on the right. A phone stands on the table and vibrates. A ink-black block figure with white eyes opens its eyes wide, picks the phone up with it and walks off the left side of the picture. A bubble from out of view says one sec! The figure walks back in with the phone and its eyes turn happy with a pulse. The text stays: me taking the call out of the room.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "take-the-call-outside",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "sacar la llamada del cuarto en vez de contestar en la mesa",
+ "blanco": "Cella (y quien contesta la llamada en medio del almuerzo)",
+ "destinatario": "takes the call out of the room",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

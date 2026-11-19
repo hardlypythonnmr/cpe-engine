@@ -1,0 +1,55 @@
+{
+ "slug": "back-for-the-gloves",
+ "titulo": "Going back for the gloves",
+ "clave": "2026-12-11|back-for-the-gloves",
+ "caption": "Going back for the gloves\n\nGoing back for the gloves.\n\nIn the cold the body protects its core first and lets the hands cool, so hands are usually the first part to feel it.\n\nFor whoever turns around for the gloves.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Going back for the gloves.\n\nIn the cold the body protects its core first and lets the hands cool, so hands are usually the first part to feel it.\n\nFor whoever turns around for the gloves.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a closed door on the right. A small ink-black block figure with white eyes says ready! with happy eyes and walks toward the door. It stops and a bubble says gloves? with wide eyes. Then it's fine. Then it shivers with narrowed eyes and a bubble says brr. It turns around and walks back to where it started, and a bubble says gloves! with happy eyes and a pulse. It settles exactly where it started, so the loop is seamless. The text stays: me going back for the gloves.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "back-for-the-gloves",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.7 dBFS, LRA 0.9 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "volver por los guantes",
+ "blanco": "Cella (y quien vuelve por lo que olvido)",
+ "destinatario": "whoever turns around for the gloves",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "bucle": "empalme",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-11T13:00:00Z"
+}

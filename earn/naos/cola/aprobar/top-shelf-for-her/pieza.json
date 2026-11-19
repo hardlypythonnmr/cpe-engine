@@ -1,0 +1,53 @@
+{
+ "slug": "top-shelf-for-her",
+ "titulo": "The top shelf",
+ "clave": "2026-12-03|top-shelf-for-her",
+ "caption": "The top shelf\n\nCella got the top shelf down for her.\n\nReaching from the floor with your weight over your feet is steadier than balancing on a chair.\n\nFor the friend who gets the top shelf for everyone.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella got the top shelf down for her.\n\nReaching from the floor with your weight over your feet is steadier than balancing on a chair.\n\nFor the friend who gets the top shelf for everyone.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A kitchen with a high shelf and a container on it. A royal blue figure on the right stretches up toward it and trembles, again and again, but cannot reach. A small ink-black figure with white eyes walks over, stretches tall, and the container comes down to the floor in front of the blue one. Both turn happy with a pulse.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "top-shelf-for-her",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "alcanzar lo de arriba para otra",
+ "blanco": "Cella y quien no llega al estante alto",
+ "destinatario": "the friend who gets the top shelf for everyone",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-03T18:00:00Z"
+}

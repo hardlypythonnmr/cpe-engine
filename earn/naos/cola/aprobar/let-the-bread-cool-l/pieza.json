@@ -1,0 +1,56 @@
+{
+ "slug": "let-the-bread-cool-l",
+ "titulo": "Letting the bread cool",
+ "clave": "2026-12-14|let-the-bread-cool-l",
+ "caption": "Letting the bread cool\n\nLetting the bread cool.\n\nBread keeps setting as it cools, so a loaf cut while it is hot turns gummy inside.\n\nFor whoever cuts the loaf while it is still hot.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Letting the bread cool.\n\nBread keeps setting as it cools, so a loaf cut while it is hot turns gummy inside.\n\nFor whoever cuts the loaf while it is still hot.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands on the left, and a steaming loaf of bread sits on the right. A speech bubble says fresh bread! with wide eyes and a pulse. Then cut it now? with a lean toward the loaf. Then wait with narrowed eyes. Then still warm as the steam thins out. Then now, with no steam left, and the figure's eyes turn happy with a pulse. The text stays: me waiting for the bread to cool. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "let-the-bread-cool-l",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "15.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.8 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar que el pan se enfrie antes de cortarlo",
+ "blanco": "Cella (y quien corta el pan caliente)",
+ "destinatario": "whoever cuts the loaf while it is still hot",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": "duracion-1411",
+ "brazo": "largo",
+ "escena": "let-the-bread-cool",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante); experimento duracion-1411: cada escena tiene un corte corto (-c) y uno largo (-l), publicar solo uno por escena por ronda"
+ },
+ "sale_utc": "2026-12-14T13:45:00Z"
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "face-down-for-now",
+ "titulo": "Phone face down. Just for now.",
+ "clave": "2026-11-23|face-down-for-now",
+ "sale_utc": "2026-11-23T08:51:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A yellow kitchen. A small block figure with white eyes stands on the left. A phone lies flat, face down, on a counter on the right. Text: phone face down. just for now.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-17-tendencia (casa/lib/historias-1117-tendencia-piezas.py)",
+ "tanda": "tendencia-2123 (D-511)",
+ "tendencia": {
+  "cazador": "2026-11-17",
+  "candidata": 1,
+  "plan": "B",
+  "patron": "atencion y pantallas",
+  "estudio_doi": "10.1111/spc3.12011",
+  "estudio_cazador_doi": "10.4236/psych.2014.513160",
+  "conducta": "dejar el telefono boca abajo",
+  "gancho": "solo la fecha; sin persona ni marca"
+ },
+ "sticker": "ninguno",
+ "casa": {
+  "id": "face-down-for-now",
+  "version": 8
+ },
+ "tono": "tender",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (cuadro renderizado leído)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin persona real ni marca; la noticia no aparece, solo el patrón; sin consejo ni promesa de salud; sin raya larga; Cella sin manos"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "frase de 2 renglones, 5 palabras o menos cada uno, leída en el cuadro renderizado (empresa/historias/2026-11-17-tendencia/dias/face-down-for-now/cuadros/t01.00.png)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "Frase 4+4 palabras dentro de la banda, conducta mostrada (teléfono plano boca abajo, Cella lo mira) sin juicio, sin persona ni marca, sin manos ni rayas largas; mejora: el estante con 4 rectángulos de colores puede leerse como más teléfonos o decoración suelta, y la cocina con teléfono cae el mismo 23-nov que 30-days-phone-in-a-drawer: distinguir el cuarto o el color si se puede"
+  }
+ ]
+}

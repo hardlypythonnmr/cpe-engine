@@ -1,0 +1,25 @@
+{
+ "slug": "why-did-i-come-here",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "bd73c9d15c84362e8e750e4ac9816019acf1acb46092c597bd578a1dc686245f",
+ "hashes": {
+  "short": "02c6a27e566793ea6558eee9fa331c78b6b0fe10eb7d9cc2287e4dea8104300d",
+  "reel": "cf5bf5d60116a5a3fa07fe569532935b53951201c8570edbe2a99432a4729a1e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861213704,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

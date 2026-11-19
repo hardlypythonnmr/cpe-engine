@@ -1,0 +1,26 @@
+{
+ "slug": "dtt-where-i-put-your-thing",
+ "issue": 101,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-18T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8b35e71312d807cdddab8dacce3c739d8e64104f2c84f07c1c488ab9fefbc18e",
+ "hashes": {
+  "short": "4695ff6226ad05115a7a42caa1e84a679d7d6bf2b40e0888050ce9fda6230a81",
+  "reel": "8aef7b8a2e03d7f1ea4f3fd58863affaa267db5b70b3570db71c8bffd0e44be8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893997111,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enef-1821",
+ "caducado_utc": "2026-11-15T12:01:10Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1413
+}

@@ -1,0 +1,45 @@
+{
+ "slug": "the-pie-has-a-seat",
+ "titulo": "Saving a seat for the pie",
+ "clave": "2026-11-23|casa-cocina",
+ "sale_utc": "2026-11-23T14:35:00Z",
+ "caption": "Saving a seat for the pie\n\nSaving a seat for the pie.\n\nFor whoever is bringing the pie.\n\nIt will be guarded until you arrive. Send it to them.\n\n#Cella #pie\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Saving a seat for the pie.\n\nFor whoever is bringing the pie.\n\nIt will be guarded until you arrive. Send it to them.\n\n#Cella #pie\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands on the left, looking at a steaming pie in a dish on a table. It walks up to the table and nudges the pie along the table in three little pushes, then the pie hops onto a chair at the end of the table. The chair gives a small wobble and a chime sounds, and the figure closes its eyes in a smile. Then it narrows its eyes and looks left and right as if guarding the pie, and ends smiling. The text stays: saving a seat for the pie. Later it adds: for whoever's bringing the pie.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "the-pie-has-a-seat",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.9 dBFS, LRA 2.8 LU; own music (motor/sonido midi, room cocina, mood ternura, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "CM",
+ "tema": "ternura y espera (el pastel que llega)",
+ "destinatario": "whoever is bringing the pie",
+ "cara": "A",
+ "experimento": false
+}

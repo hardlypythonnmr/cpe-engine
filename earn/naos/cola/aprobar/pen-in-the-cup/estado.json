@@ -1,0 +1,26 @@
+{
+ "slug": "pen-in-the-cup",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T15:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "10ce0ee3771d6024eb35f9466491f4c5aa3c8ab1e12b4bad83ea4f67ea548c17",
+ "hashes": {
+  "short": "7bc48c6e87deb1b1271beba6b79e0dc92aea8d523df51ff4b7408f7b368735b8",
+  "reel": "9f724e9e28e10d9fddf4420df8e3fdc4d91ae70a58e55be971d80fca80b5b5b4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886860737,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "miss-you-more-than-sale",
+ "titulo": "If someone sent you this, they miss you more than the sale",
+ "clave": "2026-11-30|miss-you-more-than-sale",
+ "sale_utc": "2026-11-30T18:25:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A pink entryway. A small ink-black block figure slips toward the door on the right; a light blue figure notices and follows. They meet with happy eyes. Text: if someone sent you this they miss you more than the sale.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-23 (casa/lib/historias-1123-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "the one you would pick over a 70 percent sale",
+ "experimento": true,
+ "experimento_prueba": "AB idea-envio: para-enviar, par de who-approved-monday (misma franja, misma forma; lectura a 7 días el 2026-12-07)",
+ "ab": {
+  "prueba": "idea-envio",
+  "brazo": "para-enviar",
+  "par": "who-approved-monday",
+  "metricas": [
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-07T18:25:00Z",
+  "nota": "para-enviar = el destinatario está en pantalla (\"send this to...\" o \"if someone sent you this\"); normal = la idea se manda igual (destinatario en la ficha) pero la pantalla no lo dice"
+ },
+ "casa": {
+  "id": "miss-you-more-than-sale",
+  "version": 8
+ },
+ "tono": "tender, flirty",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-23/hoja-historias.png"
+  }
+ ]
+}

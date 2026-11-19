@@ -1,0 +1,26 @@
+{
+ "slug": "were-a-family-h",
+ "issue": 52,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T14:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "964a09fb0db6b3f99cceabafc69b02bc3bc4209ea6c7a93d525f55dccc87f1d9",
+ "hashes": {
+  "historia": "f137f53a11ae25e06db883e034a780eacd51dffb6d42d7c9279d2a08d1716ed5"
+ },
+ "canales": [
+  "historia"
+ ],
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aprobado_evento_utc": "2026-11-13T16:22:35Z",
+ "origen": "were-a-family",
+ "eco_historia": {
+  "via": "eco-historia",
+  "cita": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#943, 2026-11-05T02:19:33Z; eco-historia (2026-11-13T16:22:35Z): copia en historia de were-a-family, publicada 2026-11-13T13:00:24Z, misma imagen (huella a839f2d8d8856ba7); regla de N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "origen": "were-a-family"
+ },
+ "issue_n_system": 943
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "scraps-in-a-bowl",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2c2f25c58a1f315ada6fe95346aae1b5be1ddfe0e0ca52c55e7a0f9d23a77929",
+ "hashes": {
+  "short": "c4bbd7185df5bb749635050202f2ef675d436f5c9e4e5b3915313c69f8df4aab",
+  "reel": "447261aa713090f92c8d0ae2d0e05f14b27d082b699c99cb15befec0df5f93a4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886827437,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:36Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

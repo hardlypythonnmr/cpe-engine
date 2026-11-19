@@ -1,0 +1,59 @@
+{
+ "slug": "i-wipe-their-table",
+ "titulo": "Wiping the table at someone else's place",
+ "clave": "2026-12-19|i-wipe-their-table",
+ "caption": "Wiping the table at someone else's place\n\nMy friend wipes the table before she leaves, even at my place. Then I stopped apologizing for the mess.\n\nClearing your own spot takes about ten seconds, and it is one of the things a host tends to notice.\n\nFor whoever wipes the table before leaving.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Clearing your own spot takes about ten seconds, and it is one of the things a host tends to notice.\n\nFor whoever wipes the table before leaving.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a few crumbs on it. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right. A bubble says thanks for dinner and the blue one answers anytime. The black one looks down, leans over the table, the crumbs vanish and a bubble says got them. The blue one's eyes go wide and then happy, the black one's too, and both pulse. The text stays: me wiping their table before I go. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "i-wipe-their-table",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 2.4 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "quien limpia las migas de la mesa",
+ "blanco": "Cella (y quien limpia la mesa antes de irse)",
+ "destinatario": "wipes the table before leaving",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "una-variable-1411",
+ "variante": "una-variable",
+ "par": "wipe-the-table",
+ "lado": "a",
+ "cambia": "limpia las migas Cella (A), la invitada",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-19T23:45:00Z",
+ "brazo": "a",
+ "escena": "wipe-the-table"
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "planner-in-november",
+ "titulo": "Bought a planner. It's November.",
+ "clave": "2026-11-22|casa-mesa",
+ "sale_utc": "2026-11-22T14:35:00Z",
+ "caption": "Bought a planner. It's November.\n\nBought a planner. It's November. This is the year I become a person who uses a planner.\n\nThe planner knows. Start with one line today.\n\n#Cella #newme\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Bought a planner. It's November. This is the year I become a person who uses a planner.\n\nThe planner knows. Start with one line today.\n\n#Cella #newme\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A pink dining room. A small ink-black block figure with white eyes proudly shows off a new planner on the table, stretching tall with chimes. A royal blue figure watches with wide eyes, then narrows them, then closes its eyes and dozes off standing. The ink-black figure's eyes go wide and it grows taller, triumphant, then narrows its eyes at the camera. The text stays: bought a planner. it's november. next year i will.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "planner-in-november",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.01 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.2 LUFS, true peak -2.1 dBFS, LRA 1.6 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "C",
+ "tema": "hábitos y renovación",
+ "blanco": "Cella (y quien compra la agenda en noviembre)",
+ "destinatario": "the friend who restarts every January",
+ "cara": "A",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

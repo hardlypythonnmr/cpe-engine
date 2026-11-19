@@ -1,0 +1,26 @@
+{
+ "slug": "fit-it-to-their-ten",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-13T16:05:00Z",
+ "datos_utc": "",
+ "hash_contenido": "74a8d8bf1342aa988490d702861e5a90c719515f5f61e71a895c0faddcbbff32",
+ "hashes": {
+  "short": "5172438f24920f9010b13139d7a45d5902d7d29599ad771767ebc70b3ac278b5",
+  "reel": "4d9422bc2b4f1674c844ec88bf84b4bfd2a1b315ffe3919241ae88decef8667e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886917263,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

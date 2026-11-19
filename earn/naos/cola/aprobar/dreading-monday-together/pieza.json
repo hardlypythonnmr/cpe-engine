@@ -1,0 +1,40 @@
+{
+ "slug": "dreading-monday-together",
+ "titulo": "If someone sent you this, they will dread Monday with you",
+ "clave": "2026-11-22|dreading-monday-together",
+ "sale_utc": "2026-11-22T18:25:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A dark blue room. Two small block figures sit side by side on a bench with a clock on the floor that reads 9:00 and then 9:01. They lean toward each other and their eyes turn happy. The text stays on screen: if someone sent you this, they will dread monday on the couch with you.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-15 (casa/lib/historias-1115-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "dreading-monday-together",
+  "version": 8
+ },
+ "tono": "tender",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-15/hoja-*.png"
+  }
+ ]
+}

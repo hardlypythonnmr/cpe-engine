@@ -1,0 +1,55 @@
+{
+ "slug": "prep-before-the-heat",
+ "titulo": "Everything chopped before the pot warms",
+ "clave": "2026-12-06|prep-before-the-heat",
+ "sale_utc": "2026-12-06T12:00:00Z",
+ "caption": "Everything chopped before the pot warms\n\nEverything is chopped and lined up before the pot gets warm. The cooking itself takes six minutes.\n\nPrepping first feels slow for two minutes, and then nothing burns while you hunt for the next thing.\n\nFor whoever lines everything up before turning on the heat.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Prepping first feels slow for two minutes, and then nothing burns while you hunt for the next thing.\n\nFor whoever lines everything up before turning on the heat.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a blue pot on the right. A brick red block figure with narrowed eyes stands at the far left and an ink-black one with white eyes next to it. A bubble says chop as you go. The black one answers everything first, and a potato, a loaf and a drop-shaped red vegetable appear in a row on the floor, then steam rises from the pot. The red one's eyes go wide. Both end with happy eyes. The text stays: me prepping first, then the heat.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "prep-before-the-heat",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.1 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "tener todo cortado y a mano antes de prender la hornilla",
+ "blanco": "Cella y quien corta mientras se quema",
+ "destinatario": "lines everything up before turning on the heat",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 1 al 6-dic (tanda dic-g, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-g"
+}

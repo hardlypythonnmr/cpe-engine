@@ -1,0 +1,25 @@
+{
+ "slug": "wrong-room-rmx-encuadre",
+ "issue": 31,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T12:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8be4180cf02b7b1cd2dad7baa32b02507cadac1680328eea32418b73fd65a608",
+ "hashes": {
+  "short": "f3ea90d726bd56e1f2b6943a8c92a7b48dd0b9c2bd46f95db3250402efd3d03c",
+  "reel": "eba83b2c054e2918512f3b5ff7adb9840e8b2d6c908f95db7f72dd53d378feae"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956592478,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
+}

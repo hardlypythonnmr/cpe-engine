@@ -1,0 +1,48 @@
+{
+ "slug": "stop-the-beep",
+ "titulo": "Me beating the timer before it beeps",
+ "caption": "Me beating the timer before it beeps\n\nMe beating the timer before it beeps.\n\nA fake deadline makes a dull wait feel shorter. You invented the race, so you always win it.\n\nSend it to the friend who stops the microwave at 0:01.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me beating the timer before it beeps.\n\nA fake deadline makes a dull wait feel shorter. You invented the race, so you always win it.\n\nSend it to the friend who stops the microwave at 0:01.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands on the left, looking at a small digital timer on the right that counts down 0:05, 0:04, 0:03, 0:02. The figure's eyes go wide and it walks toward the timer, faster at the end, and leans in right at 0:01 with a proud pulse and happy eyes. Then the timer resets to 0:05 and the figure does it all again. At the end it narrows its eyes at the camera. The text stays: me beating the timer before it beeps.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "stop-the-beep",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.3 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pequeñas carreras (parar el temporizador antes del pitido)",
+ "blanco": "Cella (y quien para el microondas en 0:01)",
+ "destinatario": "the friend who stops the microwave at 0:01",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "sale_utc": "2026-11-28T00:00:00Z",
+ "clave": "2026-11-27|stop-the-beep"
+}

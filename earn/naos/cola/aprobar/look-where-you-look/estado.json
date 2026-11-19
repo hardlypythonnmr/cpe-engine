@@ -1,0 +1,25 @@
+{
+ "slug": "look-where-you-look",
+ "issue": 65,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-27T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5a6344577b65a49479303a88bb4ad27bcefc6e681cb3550ccf3966d33d0aae14",
+ "hashes": {
+  "short": "8b274d9a533f4b91aa8d57b10ecc3d8af513a0688d7ed99b2eb074d8cbafa693",
+  "reel": "b0f106c3f4139963331e645f20273908b0e91b07f03f6897b06528de2cfd3129"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861496305,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "a1c-pilotos",
+ "aprobado_evento_utc": "2026-11-13T19:14:29Z",
+ "issue_n_system": 1161
+}

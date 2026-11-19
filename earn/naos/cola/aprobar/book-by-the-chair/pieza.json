@@ -1,0 +1,55 @@
+{
+ "slug": "book-by-the-chair",
+ "titulo": "Tomorrow's pages, waiting on the chair",
+ "clave": "2026-12-06|book-by-the-chair",
+ "sale_utc": "2026-12-06T14:00:00Z",
+ "caption": "Tomorrow's pages, waiting on the chair\n\nTomorrow's pages start tonight. The book is already on the chair, so reading is the easy option.\n\nA book on the shelf is a plan, and a book on the chair is an invitation that is hard to walk past.\n\nFor whoever puts the book on the chair before the evening starts.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A book on the shelf is a plan, and a book on the chair is an invitation that is hard to walk past.\n\nFor whoever puts the book on the chair before the evening starts.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a wooden chair on the right and a thick blue book lying on the floor at the left. A ink-black block figure with white eyes walks up with narrowed eyes, then its eyes go wide, it leans and the book slides across the floor and up onto the chair seat. A bubble says tonight., the book opens and a page turns. Its eyes turn happy with a pulse. The text stays: me leaving the book where I will sit.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "book-by-the-chair",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dejar el libro en la silla antes de que empiece la noche",
+ "blanco": "Cella y quien deja el libro lejos de donde se sienta",
+ "destinatario": "puts the book on the chair before the evening starts",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 al 9-dic (tanda dic-j, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-j"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "last-chance-is-me",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "004538a4a100cbcd6158af1d17d473c5cdda3e2b8d5aa2c3d49d9bd2608a325b",
+ "hashes": {
+  "historia": "aca288cbc3a704ca57fca6564b9164df372554358f4b80de851ed90aba0e8eb7"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681471190,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

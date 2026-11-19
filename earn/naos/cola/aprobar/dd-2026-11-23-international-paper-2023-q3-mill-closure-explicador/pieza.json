@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-23-international-paper-2023-q3-mill-closure-explicador",
+ "titulo": "International Paper, Oct 2023: about $292,035 of Q3 2023 net earnings per employee in the Oct 2023 plan. The math, done.",
+ "clave": "2026-11-23|mercury|explicador|2026-11-23-international-paper-2023-q3-mill-closure-explicador",
+ "sale_utc": "2026-11-23T01:00:00Z",
+ "caption": "International Paper, Oct 2023: about $292,035 of Q3 2023 net earnings per employee in the Oct 2023 plan. The math, done.\n\nOn October 26, 2023, International Paper reported third-quarter 2023 net earnings of $165 million. In an 8-K filed on October 18, 2023 (event date October 17), it said it plans to permanently close its containerboard mill in Orange, Texas, a closure it expects to reduce its workforce by approximately 565 employees.\n\nFrom the archive: Oct 2023. Not today's news.\n\nThe math: $165,000,000 (net earnings, third quarter 2023) ÷ approximately 565 employees = about $292,035 of third-quarter 2023 net earnings, for every employee the Orange mill closure announced in October 2023 is expected to remove. We round down.\nA is Q3 2023 net earnings, reported Oct 26, 2023. B is from an 8-K filed Oct 18, 2023 (event date Oct 17). The dates differ. B is the Orange, Texas mill only: approximately 565 employees. The 8-K names other jobs we do not count. A job in a plan is not a named person.\n\n(Our take.) As expected, they said. Here is the per-job column.\n\nSources\nF1: International Paper Form 8-K, Exhibit 99.1: third quarter 2023 results, filed Oct 26, 2023 · https://www.sec.gov/Archives/edgar/data/51434/000005143423000047/nextgenip-20230930ex991.htm\nF2: International Paper Form 8-K, Items 2.05 and 2.06 (mill closure), filed Oct 18, 2023 · https://www.sec.gov/Archives/edgar/data/51434/000119312523258136/d489478d8k.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "On October 26, 2023, International Paper reported third-quarter 2023 net earnings of $165 million. In an 8-K filed on October 18, 2023 (event date October 17), it said it plans to permanently close its containerboard mill in Orange, Texas, a closure it expects to reduce its workforce by approximately 565 employees.\n\nFrom the archive: Oct 2023. Not today's news.\n\nThe math: $165,000,000 (net earnings, third quarter 2023) ÷ approximately 565 employees = about $292,035 of third-quarter 2023 net earnings, for every employee the Orange mill closure announced in October 2023 is expected to remove. We round down.\nA is Q3 2023 net earnings, reported Oct 26, 2023. B is from an 8-K filed Oct 18, 2023 (event date Oct 17). The dates differ. B is the Orange, Texas mill only: approximately 565 employees. The 8-K names other jobs we do not count. A job in a plan is not a named person.\n\n(Our take.) As expected, they said. Here is the per-job column.\n\nSources\nF1: International Paper Form 8-K, Exhibit 99.1: third quarter 2023 results, filed Oct 26, 2023 · https://www.sec.gov/Archives/edgar/data/51434/000005143423000047/nextgenip-20230930ex991.htm\nF2: International Paper Form 8-K, Items 2.05 and 2.06 (mill closure), filed Oct 18, 2023 · https://www.sec.gov/Archives/edgar/data/51434/000119312523258136/d489478d8k.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.",
+ "alt": "Vertical video, 1:12, cobalt blue poster with white type and no narration. International Paper, Oct 2023: about $292,035 of Q3 2023 net earnings per employee in the Oct 2023 plan. The math, done.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2023-10-26T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "explicador",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143423000047/nextgenip-20230930ex991.htm",
+   "medio": "SEC EDGAR · International Paper",
+   "titulo": "International Paper Form 8-K, Exhibit 99.1: third quarter 2023 results",
+   "hora_utc": "2023-10-26T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/51434/000119312523258136/d489478d8k.htm",
+   "medio": "SEC EDGAR · International Paper",
+   "titulo": "International Paper Form 8-K, Items 2.05 and 2.06 (mill closure)",
+   "hora_utc": "2023-10-18T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "72.1 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

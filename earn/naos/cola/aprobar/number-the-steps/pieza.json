@@ -1,0 +1,55 @@
+{
+ "slug": "number-the-steps",
+ "titulo": "Fill, pod, go. Three numbered notes",
+ "clave": "2027-01-24|number-the-steps",
+ "sale_utc": "2027-01-24T13:15:00Z",
+ "caption": "Fill, pod, go. Three numbered notes by the machine, and the next person made their coffee without asking.\n\nSteps with numbers on them take a minute to write and save everyone the question afterward.\n\nFor whoever numbers the steps for whoever does it next.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Steps with numbers on them take a minute to write and save everyone the question afterward.\n\nFor whoever numbers the steps for whoever does it next.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a long counter and a cream mug at the right end. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and three yellow sticky notes pop up in a row on the wall, saying 1 fill, 2 pod and 3 go, one after another. Then the mug starts to steam and its eyes turn happy with a pulse. The text stays: me numbering the steps for the next person.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "number-the-steps",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.5 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "numerar los pasos en notas para quien lo haga despues",
+ "blanco": "Cella y quien explica de memoria y se olvida del paso dos",
+ "destinatario": "numbers the steps for whoever does it next",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

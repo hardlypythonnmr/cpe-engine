@@ -1,0 +1,25 @@
+{
+ "slug": "five-minutes-away",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "386f9c36ddc69dd8bd97c523756ae7b24ef43b2c30cc4b50f9f8ea5c34baa43e",
+ "hashes": {
+  "short": "7bf4ecb5baf5845e1c001aac129743476a2e023f622080849d2c310d7e7618be",
+  "reel": "84ea6f6727a2f062a0340eaf612b36d1354e0eed6248c53df797ab49999bc25a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861223374,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

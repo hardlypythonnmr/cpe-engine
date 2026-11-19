@@ -1,0 +1,25 @@
+{
+ "slug": "you-were-right",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T15:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0119f3d043b177d9be0b4acfcce8109091c11ad6879901b14cdc819d92d1fb98",
+ "hashes": {
+  "short": "d34a76ce44780848b56d7801c3cec26fea6e57b907d25623fc5586fea4666f13",
+  "reel": "71f3ffa740ae75225112cbd291f5e8d5ce220daf82de6837f24c4362d0c32a38"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870896642,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

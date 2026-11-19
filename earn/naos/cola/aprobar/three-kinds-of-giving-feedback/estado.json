@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-giving-feedback",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-24T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1ee2f8f112b43585b865aef57413e9edd6a6de7cb38a5e9c1f1f649642baea8f",
+ "hashes": {
+  "short": "aa93da8001ec1155f0e9d134cde7d2a0ac30bbe8e6575c20c21acafa1a0d1a42",
+  "reel": "4c074a7bc8487939a8cb33fbad46662864518bb8591bcfa4dadf9f26c4b5de35"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886953269,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

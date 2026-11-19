@@ -1,0 +1,26 @@
+{
+ "slug": "take-the-call-outside",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T20:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7cf9b74876a94faeedcdaaf7cc4a99b9bf9810907d282f5ef92ba6887783243a",
+ "hashes": {
+  "short": "a86e0736f508c32af012905e0b07e1871f05709a9ae9161f3ce678b122e3994f",
+  "reel": "4ac298fd1cae2d05eee0726ec833ce4956b692ef99f25865f91ea144ff5bf89a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886800856,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

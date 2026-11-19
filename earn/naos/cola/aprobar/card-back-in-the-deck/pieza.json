@@ -1,0 +1,55 @@
+{
+ "slug": "card-back-in-the-deck",
+ "titulo": "The missed card back in the deck",
+ "clave": "2027-01-29|card-back-in-the-deck",
+ "sale_utc": "2027-01-29T20:15:00Z",
+ "caption": "\"That one's too hard.\" \"Back in the deck.\" The missed card hopped onto the pile, and it would come around again.\n\nThe card you miss is the one the deck should keep showing you.\n\nFor whoever puts the missed card back in the deck.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "The card you miss is the one the deck should keep showing you.\n\nFor whoever puts the missed card back in the deck.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table, a stack of flash cards at the right and a pink card that says gato lying tilted on the floor beside it. A royal blue block figure with narrowed eyes says that one's too hard. A ink-black block figure with white eyes answers back in the deck, and the pink card hops in an arc and lands on top of the stack, with a small sparkle. The blue one's eyes go wide and says ...ok. it comes round. Both end with happy eyes. The text stays: me putting it back in.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "card-back-in-the-deck",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "devolver al mazo la tarjeta que se fallo en vez de descartarla",
+ "blanco": "Cella y quien aparta lo que le cuesta",
+ "destinatario": "puts the missed card back in the deck",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 27 al 31-ene (tanda ened, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "ened"
+}

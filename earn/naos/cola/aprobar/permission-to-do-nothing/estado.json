@@ -1,0 +1,22 @@
+{
+ "slug": "permission-to-do-nothing",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e4fb7ed9d02cbde79495c0824f1c1ca53df4ffe8c88b32bd325e8bb1e022c09d",
+ "hashes": {
+  "historia": "4dfdfd05f223f105492b12a3773e3214f92fc97ba8bf6e5225bc5a57b7dc6f21"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681466937,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "issue_n_system": 980
+}

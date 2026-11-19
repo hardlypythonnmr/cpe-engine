@@ -1,0 +1,24 @@
+{
+ "slug": "tired-of-monday",
+ "issue": 7,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "22ba3b22e6df78a63fff0f46c3dcf4736397ce74d3a09dbb306bd4675efff997",
+ "hashes": {
+  "historia": "1d2bdc988ea41e2b575a372a481540021a9a98e11ff70e3a8d6cfcbccb63732f"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6886294288,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 963
+}

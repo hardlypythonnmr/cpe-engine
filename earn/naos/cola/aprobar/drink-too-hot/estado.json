@@ -1,0 +1,26 @@
+{
+ "slug": "drink-too-hot",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0dc6cc4529e1461639dee2bffecb886089ccaac118de61e82a96b2cc77c69cb6",
+ "hashes": {
+  "short": "dce5aa8b0e8231379e36138983e349f92aa6e0c1c807fb28d5e89b2ecf24d7ed",
+  "reel": "297e1e81d5a31fac0a7930d5358fae7163f78aa89dbb291edb51ae221677ef56"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870597012,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2430",
+ "caducado_utc": "2026-11-14T02:58:12Z",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 1209
+}

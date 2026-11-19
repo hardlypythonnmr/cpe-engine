@@ -1,0 +1,49 @@
+{
+ "slug": "posture-reset",
+ "titulo": "Me fixing my posture again",
+ "caption": "Me fixing my posture again\n\nMe fixing my posture again.\n\nA reminder to sit up wears off in about a minute. Moving the screen or the chair is what lasts.\n\nFor the friend who sits up straight, then slowly melts.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me fixing my posture again.\n\nA reminder to sit up wears off in about a minute. Moving the screen or the chair is what lasts.\n\nFor the friend who sits up straight, then slowly melts.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes stands on the left. A speech bubble says posture! and it stretches tall with wide eyes, then happy eyes and a small pulse. Slowly it sags and tilts to one side with sleepy eyes. The bubble says posture! again, it snaps tall again, and then it slowly melts to the other side before settling back upright exactly where it started, so the film can repeat without a cut. The text stays: me fixing my posture again.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "posture-reset",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 5 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.1 dBFS, LRA 3.7 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hábitos (corregir la postura otra vez)",
+ "blanco": "Cella (y quien se endereza y se va hundiendo)",
+ "destinatario": "the friend who sits up straight, then slowly melts",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "bucle": "empalme",
+ "sale_utc": "2026-12-01T03:00:00Z",
+ "clave": "2026-11-30|posture-reset"
+}

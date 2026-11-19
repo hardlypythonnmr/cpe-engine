@@ -1,0 +1,26 @@
+{
+ "slug": "fill-theirs-first",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T22:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3f58baba5356c681d8f59f04bf8611cb66c8f53c9be6c158e4d5cd19b2b5d7a1",
+ "hashes": {
+  "short": "2a37676b3bb505ac9156343fc89f0146862120f2a13b50087780135b7787a5ed",
+  "reel": "d667d5ad02122c938486c44d23f81e7d525892ceb77126b9031ca9d540a83f54"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886801299,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

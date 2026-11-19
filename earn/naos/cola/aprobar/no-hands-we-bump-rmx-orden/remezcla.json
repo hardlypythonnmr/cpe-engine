@@ -1,0 +1,41 @@
+{
+ "origen": "no-hands-we-bump",
+ "eje": "orden",
+ "brazo": "C",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "scene order: opens on the bump (3.0 s to 8.0 s), then the look down and the walk (0 to 3.0 s); the music runs unchanged from 0"
+ ],
+ "receta": {
+  "slug": "no-hands-we-bump-rmx-orden",
+  "fecha_et": "2026-11-21",
+  "et_preferida": "16:30",
+  "tramos": [
+   [
+    3.0,
+    8.0
+   ],
+   [
+    0.0,
+    3.0
+   ]
+  ],
+  "con_audio": false,
+  "portada": 0.3,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 8.0,
+ "audio": {
+  "lufs": -16.0,
+  "pico_dbtp": -6.4
+ },
+ "huella": {
+  "dhash_media": 0.7,
+  "dhash_min": 0,
+  "umbral": 14,
+  "cambio_color": 9.6,
+  "distinta": false,
+  "lectura": "casi igual"
+ },
+ "elevenlabs_llamadas": 0
+}

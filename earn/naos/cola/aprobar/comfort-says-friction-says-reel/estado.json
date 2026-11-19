@@ -1,0 +1,23 @@
+{
+ "slug": "comfort-says-friction-says-reel",
+ "issue": 17,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-23T19:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4199419f746522393e471777e13c65277126b8bb71666f79881651afeffdb90e",
+ "hashes": {
+  "reel": "e4f042b1615fa7fad02cb85cad985d3aa07a6d6b6402db2953fb23424487f38c"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887856142,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "fijo-reel-1511",
+ "aprobado_evento_utc": "2026-11-15T11:55:30Z",
+ "issue_n_system": 1448
+}

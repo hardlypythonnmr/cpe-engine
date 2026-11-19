@@ -1,0 +1,55 @@
+{
+ "slug": "unpack-today",
+ "titulo": "Unpacking the bag today, not next week",
+ "clave": "2026-12-03|unpack-today",
+ "sale_utc": "2026-12-03T12:00:00Z",
+ "caption": "Unpacking the bag today, not next week\n\nA bag left packed for a week becomes the bag you live out of. Three things, one drawer, now.\n\nUnpacking is fifteen minutes today and a week of digging tomorrow.\n\nFor whoever unpacks the bag the day it comes home.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Unpacking is fifteen minutes today and a week of digging tomorrow.\n\nFor whoever unpacks the bag the day it comes home.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom with a blue bag on the floor at the right with three small things on top, and a dresser drawer above it. A plum block figure with narrowed eyes stands at the left and an ink-black one with white eyes next to it. A bubble says tomorrow. it's just a bag. The black one answers now, and the three things fly into the open drawer one by one. The plum one's eyes go wide. Both end with happy eyes. The text stays: me unpacking the same day.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "unpack-today",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.5 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "deshacer el bolso el mismo dia que se llega",
+ "blanco": "Cella y quien vive de un bolso a medio abrir",
+ "destinatario": "unpacks the bag the day it comes home",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 1 al 6-dic (tanda dic-g, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-g"
+}

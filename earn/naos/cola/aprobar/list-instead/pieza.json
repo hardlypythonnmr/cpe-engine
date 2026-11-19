@@ -1,0 +1,47 @@
+{
+ "slug": "list-instead",
+ "titulo": "Me writing the list instead of doing it",
+ "clave": "2026-11-27|list-instead",
+ "caption": "Me writing the list instead of doing it\n\nMe writing the list instead of doing it.\n\nSix sticky notes, zero things done, and a feeling of progress that is only ink.\n\nNext time: pick the smallest one and do it before the next note.\n\n#Cella #procrastination\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me writing the list instead of doing it.\n\nSix sticky notes, zero things done, and a feeling of progress that is only ink.\n\nNext time: pick the smallest one and do it before the next note.\n\n#Cella #procrastination\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A bedroom. A small ink-black block figure with white eyes stands on the left. Sticky notes pop onto the wall one by one, reading email, call, fix, reply, buy and plan, and each time the figure's eyes turn happy and it gives a little pulse. After the sixth note its eyes go wide, then it narrows its eyes at the camera. The text stays: me writing the list instead of doing it.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "list-instead",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.5 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "procrastinación (la lista como evasión)",
+ "blanco": "Cella (y quien escribe la lista en vez de hacerlo)",
+ "destinatario": "the friend with a very organized to-do list",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": false,
+ "sale_utc": "2026-11-27T17:00:00Z"
+}

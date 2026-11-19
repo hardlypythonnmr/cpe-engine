@@ -1,0 +1,25 @@
+{
+ "slug": "phone-in-another-room",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6bd48da071763aefa59bb2eb7fe8dda3d23edd0b2e8d308a47705bfe13e8e23f",
+ "hashes": {
+  "short": "38ad2db3a5cd8fdac848d6b16f2a31e1f6cdd36827c4218cf093bd6321814557",
+  "reel": "9cd190cad4e91e7c3aa09ebc7d1fd3a53c3610b4895d1b57e4b73baccc0cb047"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861222083,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

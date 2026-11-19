@@ -1,0 +1,48 @@
+{
+ "slug": "loy-krathong-for-two",
+ "titulo": "Floating a krathong for the full moon",
+ "clave": "2026-11-24|casa-patio-noche",
+ "sale_utc": "2026-11-24T12:30:00Z",
+ "caption": "Floating a krathong for the full moon\n\nLoy Krathong is a Thai festival held on the full moon of the 12th lunar month. People set a small boat of folded banana leaf, with a candle and flowers, on the water and make a wish. In Thai, loy means float and krathong means a small vessel. Happy Loy Krathong to everyone at the water this full moon. Corrections welcome.\n\nLeft or right?\n\nCloser to yourself.\n\nMore of this: link in bio.\n\n#LoyKrathong #Thailand #FullMoon #naos #cella",
+ "descripcion": "Loy Krathong is a Thai festival held on the full moon of the 12th lunar month. People set a small boat of folded banana leaf, with a candle and flowers, on the water and make a wish. In Thai, loy means float and krathong means a small vessel. Happy Loy Krathong to everyone at the water this full moon. Corrections welcome.\n\nLeft or right?\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark blue night with stars and a big full moon above a calm pond; the moon's reflection breaks into pale bars on the water. An amber block figure with white eyes stands on the bank at the left and a light blue one at the right. Each has set a small boat of banana leaf on the water: green folded leaf petals, three small flowers, three thin incense sticks and one lit candle. The amber one leans in and her boat drifts away from the bank, then the blue one leans and hers follows. The two boats glide slowly out over the water, bobbing, their candlelight shrinking as they go. The figures look at the moon, then at each other with happy eyes, and lean together. The words stay on screen: Loy Krathong, full moon night: a leaf boat, a wish. At the end a closing question appears: Left or right?",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "loy-krathong-for-two",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.5 dBFS, LRA 1.5 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "experimento": "pide-comentario-1511",
+ "brazo": "con",
+ "fuentes": [
+  "https://www.tatnews.org/2022/10/loi-krathong-festival-2022/",
+  "https://en.wikipedia.org/wiki/Loy_Krathong",
+  "https://www.tatnews.org/2026/11/loi-krathong-2026-lights-up-thailands-rivers-and-historic-cities/"
+ ],
+ "tipo": "FIESTA"
+}

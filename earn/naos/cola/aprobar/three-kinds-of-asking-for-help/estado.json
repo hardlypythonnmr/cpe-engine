@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-asking-for-help",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-17T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e742b671b31a0e54317eaffc4460beaab317ae9c0595496ba76bde15da2a37fb",
+ "hashes": {
+  "short": "a82168e324fe696ae0a8db14a889bfc5be6d2ceb503e53165ee42c6c5af3bf47",
+  "reel": "d61c4b9d39b0a9dd36ce3eaa08cb5385eb1c174df4bd82a8a492bf216648565b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886942252,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

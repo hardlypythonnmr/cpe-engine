@@ -1,0 +1,26 @@
+{
+ "slug": "one-task-at-a-time",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fd27d846e1f8c85c0d050aa725b3e776a36ac85d735113d8229efaa1286aa7b1",
+ "hashes": {
+  "short": "5cdbea9bf6029c43db7f486fa356b5879b592cf747b06a68a233c21aa3ceb3e1",
+  "reel": "277d1f09a10d341c0cacd70dbeaadfbf8693f77b2d7410730c25bf442abc6d4b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886815136,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

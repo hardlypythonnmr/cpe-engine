@@ -1,0 +1,21 @@
+{
+ "nombre": "febd-1319-b",
+ "issue": 97,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "plant-in-for-the-night",
+  "towel-on-the-pot"
+ ],
+ "comentario_vista_previa_id": 6886932246,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T16:52:11Z",
+ "aviso_utc": "2026-11-15T00:55:10Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "aprobadas": [
+  "plant-in-for-the-night",
+  "towel-on-the-pot"
+ ],
+ "issue_n_system": 1379
+}

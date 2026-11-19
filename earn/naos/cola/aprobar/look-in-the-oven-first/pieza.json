@@ -1,0 +1,56 @@
+{
+ "slug": "look-in-the-oven-first",
+ "titulo": "One look in the oven before preheating",
+ "clave": "2027-02-05|look-in-the-oven-first",
+ "caption": "One look in the oven before preheating\n\nShe was about to preheat. One look inside found last night's tray still sitting there.\n\nLooking takes two seconds, and it beats finding something in there at the wrong moment.\n\nFor whoever looks inside before turning it on.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Looking takes two seconds, and it beats finding something in there at the wrong moment.\n\nFor whoever looks inside before turning it on.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a tall oven on the right. A ink-black block figure with white eyes walks up from the left, its eyes go wide, it leans in and the oven door drops open. A flat tray is sitting inside and a bubble says forgot the tray. Its eyes turn happy with a pulse. The text changes from: me, the oven's obviously empty, to: looked first. the tray was in.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "look-in-the-oven-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.2 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "mirar dentro del horno antes de prenderlo",
+ "blanco": "Cella y quien prende el horno sin mirar",
+ "destinatario": "looks inside before turning it on",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "usada",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (febrero de 2027, tanda feb-b) · Opus 14, 14-nov: programada 2027-02-05T22:15:00Z (lote feb-0108)"
+ },
+ "tanda_origen": "feb-b",
+ "sale_utc": "2027-02-05T22:15:00Z"
+}

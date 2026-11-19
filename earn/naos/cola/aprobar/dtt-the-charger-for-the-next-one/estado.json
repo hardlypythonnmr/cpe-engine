@@ -1,0 +1,23 @@
+{
+ "slug": "dtt-the-charger-for-the-next-one",
+ "issue": 99,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-10T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "06a34bdab2140eb4b4ab238ef5f782e39f7e82a407e86c28f81e8add53a1cad1",
+ "hashes": {
+  "reel": "c3b2931663fd425137b46c6c4fd668d8170df54dd720171a781ab976d97672ce"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886626588,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "issue_n_system": 1409
+}

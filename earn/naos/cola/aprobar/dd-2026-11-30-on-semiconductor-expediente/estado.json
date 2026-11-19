@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-30-on-semiconductor-expediente",
+ "issue": 80,
+ "version": 5,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T21:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "4c9386c2dedbcdb0f261894c3a61a647533f6b557d80759700a2ceb5d0201a0a",
+ "hashes": {
+  "carrusel": "417c006a5a3a58c7d97ab44b49a1a1f8c9c9261ab7b246af3e656f2cde7986bb"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6914678382,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-d",
+ "caducado_utc": "2026-11-16T11:06:05Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:13Z",
+ "issue_n_system": 1334
+}

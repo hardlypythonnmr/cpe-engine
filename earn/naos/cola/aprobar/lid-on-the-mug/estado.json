@@ -1,0 +1,26 @@
+{
+ "slug": "lid-on-the-mug",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-17T18:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8dcaeeb3a708577711398591c84de99f34cd2b5080f3043442e528e3df333ff3",
+ "hashes": {
+  "short": "0238f16f1965e8c94c4223ff94540767cca5ea72f69726ce38fcdfae5e7ffab7",
+  "reel": "122422ddd9b8c746936b71d8fbb27a52955fb9013a7538d7c9a74030f23da827"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886925689,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

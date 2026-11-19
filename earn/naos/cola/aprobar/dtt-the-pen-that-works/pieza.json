@@ -1,0 +1,48 @@
+{
+ "slug": "dtt-the-pen-that-works",
+ "titulo": "Test the pen before you lend it",
+ "clave": "2027-01-03|casa-mesa",
+ "sale_utc": "2027-01-03T15:15:00Z",
+ "caption": "Test the pen before you lend it\n\nCella tries the pen on a sheet of paper first. It works, so it goes across to the other one.\n\nFor whoever checks the pen before lending it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #dothething #chooseFriction",
+ "descripcion": "Cella tries the pen on a sheet of paper first. It works, so it goes across to the other one.\n\nFor whoever checks the pen before lending it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a pink wall. A small ink-black block figure with white eyes stands on the left and a royal blue one stands on the right. A small yellow pen floats over to a sheet of paper standing between them and scribbles on it. A green check appears with a bubble that says it works. The pen then floats across to the royal blue figure, whose eyes go wide and then close in a smile, and a star appears above it. The black one smiles and pulses. The text stays: 1 pen, test it before you lend it. The last card: for whoever checks the pen before lending it, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "dtt-the-pen-that-works",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 18 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "probar el boligrafo antes de prestarlo",
+ "blanco": "Cella (y quien prueba el boligrafo antes de prestarlo)",
+ "destinatario": "whoever checks the pen before lending it",
+ "cara": "A",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "Do the thing (mudo)"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "quick-at-the-airport",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "14dd346e51c74daedc72276e947140b03bf0c6d2e8b8b75af075b1fcca4c14b4",
+ "hashes": {
+  "historia": "e7db0597e2242c250480e7d151d91fe146f14f9532c186a2adabbe291bab7395"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681441594,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

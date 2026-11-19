@@ -1,0 +1,23 @@
+{
+ "slug": "introducing-the-chair-es",
+ "issue": 115,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T04:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8d9cae68f722ff5711140be8f4401f7323caf306ffde589571aa9999bda3c8ad",
+ "hashes": {
+  "reel": "c20a11a616f2b6d70a1af92d2937225bbc1285f31e9cfafd0d16f16f454cdd3b"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957410978,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "es-video-22-23-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:12Z",
+ "issue_n_system": 1781
+}

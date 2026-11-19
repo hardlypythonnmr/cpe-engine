@@ -1,0 +1,22 @@
+{
+ "slug": "texts-to-say-you-miss-someone",
+ "issue": 56,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f82616d00fa313cf8dc877187852bbede17ab793ac57a7706b6479cf0b19f82c",
+ "hashes": {
+  "carrusel": "c96fa80e22bec6b0cbdc03166a2a58784c13478ed577f0a4b3d10847e1749c3e"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6681457856,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "issue_n_system": 979
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "dtt-the-last-sheet",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-02T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "459149cee2e36e75c32539cf33d5d93a89b1b87014f0cd5ed9a579d83bc10c62",
+ "hashes": {
+  "short": "86701a393a0176c3695249678597baae3dc78266b8e51508b31082220a12783c",
+  "reel": "f366c053defff52ed7298484185aeef6034722607a556f46847c321f2da39b6f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886619255,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

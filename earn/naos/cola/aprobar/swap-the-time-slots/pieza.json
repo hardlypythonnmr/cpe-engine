@@ -1,0 +1,55 @@
+{
+ "slug": "swap-the-time-slots",
+ "titulo": "Swap. Take my nine",
+ "clave": "2027-02-12|swap-the-time-slots",
+ "sale_utc": "2027-02-12T18:10:00Z",
+ "caption": "\"I can't do three.\" \"Swap. Take my nine.\" The two cards crossed in the air and each landed in the other's place.\n\nTrading for the slot that works for them costs you one inconvenient hour, and it saves them the whole day.\n\nFor whoever trades slots so the other person's time works out.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Trading for the slot that works for them costs you one inconvenient hour, and it saves them the whole day.\n\nFor whoever trades slots so the other person's time works out.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. A gold card that says 9:00 lies on the floor near an ink-black block figure at the left and a blue card that says 3:00 lies near a royal blue block figure at the right. The blue one with narrowed eyes says I can't do three. The black one answers swap, take my nine, and the two cards hop and cross in the air, each landing where the other was, with a small sparkle. The blue one's eyes go wide and it says ...ok. thank you! Both end with happy eyes. The text stays: me trading my time for theirs.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "swap-the-time-slots",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "cambiar el horario propio por el del otro cuando a el no le sirve",
+ "blanco": "Cella y quien deja que el otro se acomode a su horario",
+ "destinatario": "trades slots so the other person's time works out",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

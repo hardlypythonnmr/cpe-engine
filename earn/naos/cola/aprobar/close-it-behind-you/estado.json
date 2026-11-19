@@ -1,0 +1,26 @@
+{
+ "slug": "close-it-behind-you",
+ "issue": 96,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-17T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a76cdefb5990ef57149a7de0609210a050f9075be74d2a451dfbb2f925ab3d25",
+ "hashes": {
+  "short": "037a078a3203b40f9f9549e4be12ab54fbc38b6b9ef2fbd7b239914e7c84d044",
+  "reel": "6c0de8323bfb46cb05d1f1066e30a97647d1b09b2c5b5b3b96a3273c2919b0c1"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886925288,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febd-1319",
+ "caducado_utc": "2026-11-15T00:54:14Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1378
+}

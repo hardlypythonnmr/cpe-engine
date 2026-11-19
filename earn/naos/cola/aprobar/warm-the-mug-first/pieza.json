@@ -1,0 +1,55 @@
+{
+ "slug": "warm-the-mug-first",
+ "titulo": "Warming the mug first",
+ "clave": "2026-12-07|warm-the-mug-first",
+ "caption": "Warming the mug first\n\nWarming the mug first.\n\nA cup rinsed with hot water takes less heat from the tea, so the tea stays hot a little longer.\n\nFor whoever drinks the tea cold by the third sip.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Warming the mug first.\n\nA cup rinsed with hot water takes less heat from the tea, so the tea stays hot a little longer.\n\nFor whoever drinks the tea cold by the third sip.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands on the left, and a pale blue mug sits on the right. A speech bubble says tea time. Then rinse it first, and steam rises while the mug turns warm orange. Then wait for it with narrowed eyes, then tip it out as the steam stops. Then now the tea, with steam again, and still hot with happy eyes and a pulse. At the end the steam fades, the mug turns pale blue again and the figure settles exactly where it started, so the loop is seamless. The text stays: me warming the mug before the tea.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "warm-the-mug-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.9 dBFS, LRA 2.4 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "calentar la taza antes del te",
+ "blanco": "Cella (y quien se toma el te frio al tercer sorbo)",
+ "destinatario": "whoever drinks the tea cold by the third sip",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "bucle": "empalme",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-07T13:00:00Z"
+}

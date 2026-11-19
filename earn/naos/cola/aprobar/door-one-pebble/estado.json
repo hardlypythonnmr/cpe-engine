@@ -1,0 +1,25 @@
+{
+ "slug": "door-one-pebble",
+ "issue": 99,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-08T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "84ad8ea88ab3dd1f6dca766d196d67b14e0c20244cb4ea1ab04e3b131e84a3b9",
+ "hashes": {
+  "short": "01fe2d4102bbb1c0bbbbcd6fb3b3c701ef3193a9fde12ac1829b3d0d5ec45c60",
+  "reel": "decb1b419a8f743e1ebb35ac31e6d9aef41661be0d3014b3fb6ca7cf65c9d2e5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886625146,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "issue_n_system": 1409
+}

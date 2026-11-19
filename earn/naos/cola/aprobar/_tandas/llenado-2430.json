@@ -1,0 +1,39 @@
+{
+ "nombre": "llenado-2430",
+ "issue": 68,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "locked-it-twice",
+  "you-too-to-the-waiter",
+  "starting-at-the-next-hour",
+  "posture-reset",
+  "bye-bye-bye",
+  "desk-first-work-later",
+  "compliment-ping-pong",
+  "ten-minute-nap",
+  "drink-too-hot",
+  "who-gets-the-check",
+  "warm-up-forever"
+ ],
+ "comentario_vista_previa_id": 6870598493,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T21:55:48Z",
+ "aviso_utc": "2026-11-14T02:58:43Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "aprobadas": [
+  "bye-bye-bye",
+  "compliment-ping-pong",
+  "desk-first-work-later",
+  "drink-too-hot",
+  "locked-it-twice",
+  "posture-reset",
+  "starting-at-the-next-hour",
+  "ten-minute-nap",
+  "warm-up-forever",
+  "who-gets-the-check",
+  "you-too-to-the-waiter"
+ ],
+ "issue_n_system": 1209
+}

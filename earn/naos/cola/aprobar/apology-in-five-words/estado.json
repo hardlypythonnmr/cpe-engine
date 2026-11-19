@@ -1,0 +1,25 @@
+{
+ "slug": "apology-in-five-words",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T16:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fd9b9ecf1c7a216aa74652df39bb4ee26daf7c477e91283f8f0b7a0082cf8b9f",
+ "hashes": {
+  "short": "793b15dcf2b9f2cc0be8fda48f3104f1faf94f10b4c8ba5e50ff29544e523ff1",
+  "reel": "7b0e63614be31ed9560a0fbf6b38bd6fd66c8ef003169610e440dab5a9360877"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870898856,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

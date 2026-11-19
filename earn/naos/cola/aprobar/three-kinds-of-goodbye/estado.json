@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-goodbye",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-15T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "68b25cfc850730118dd0ae5fe1062556a228d7cebbd9ebe727e476fac8ec1b30",
+ "hashes": {
+  "short": "fb15a76f9f73a78e1400559b3d95ffb9aff9122a2461e655f83389aff9aaa724",
+  "reel": "c84e50ca68a59c49d4c4aeb7a66c721eee95e2ba5eb9276be9d77480ddca0f5e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886943733,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

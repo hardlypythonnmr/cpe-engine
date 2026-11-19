@@ -1,0 +1,25 @@
+{
+ "slug": "loy-krathong-for-two",
+ "issue": 107,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T12:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ae36ed04ae938d6cf2551b91d8c88223bbd157607616c492bfe492a54be88519",
+ "hashes": {
+  "short": "b806745b6997174c3189c249e9e3e70692cb243b357a88c85b38388977e4b259",
+  "reel": "3547357059ed18ac8ac6cbb145e25e8f25158b53704627dd9dfcf9bcf19c9e58"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894853457,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "loy-krathong-2026",
+ "aprobado_evento_utc": "2026-11-15T13:21:18Z",
+ "issue_n_system": 1533
+}

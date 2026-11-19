@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-08-home-depot-lamina",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T20:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "8f6b66543296aba353ae43242b49af56c0bb2f24c8a4ab156c393808129dfbc9",
+ "hashes": {
+  "imagen": "733ff3b19f1ad0ec74b96d6f489b32b7d3d31949c259b1ed9c7bae43e5fffb6f"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6914696875,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:46Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

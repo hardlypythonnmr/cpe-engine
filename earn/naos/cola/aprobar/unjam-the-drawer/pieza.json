@@ -1,0 +1,55 @@
+{
+ "slug": "unjam-the-drawer",
+ "titulo": "One fork wedged the drawer",
+ "clave": "2026-12-13|unjam-the-drawer",
+ "sale_utc": "2026-12-13T14:00:00Z",
+ "caption": "One fork wedged the drawer\n\nThe drawer stuck halfway all week. One fork had wedged the lid, and out it came.\n\nA drawer that sticks usually has one small thing in the way, and finding it takes ten seconds.\n\nFor whoever takes out what is jamming the drawer instead of forcing it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A drawer that sticks usually has one small thing in the way, and finding it takes ten seconds.\n\nFor whoever takes out what is jamming the drawer instead of forcing it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a counter on the right and a drawer in it that is stuck halfway open, with a silver fork wedged across the opening. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the fork lifts out and lands standing on the counter at the left while the drawer slides shut. Its eyes turn happy with a pulse. The text stays: me, finding what's stuck.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "unjam-the-drawer",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.3 dBFS, LRA 1.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "sacar lo que atasca el cajon en vez de forzarlo",
+ "blanco": "Cella y quien jala el cajon trabado sin mirar",
+ "destinatario": "takes out what is jamming the drawer instead of forcing it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 y 11 al 13-dic (tanda dicn, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicn"
+}

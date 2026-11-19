@@ -1,0 +1,26 @@
+{
+ "slug": "card-back-in-the-deck",
+ "issue": 92,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-29T20:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ab4746f5cd775b6eeefdb37e575ceff4a4306cc14ee68b22fc42981448143ce6",
+ "hashes": {
+  "short": "97e350b0671ce1bc0089b089607783f994541d6b98487dde30bbf1224b121333",
+  "reel": "84cfcd5479ab598a943cf0ce48c00244ecff936602a0dd9c8e99af1ab00fdcec"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886883288,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "ened-2631",
+ "caducado_utc": "2026-11-15T00:51:16Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1367
+}

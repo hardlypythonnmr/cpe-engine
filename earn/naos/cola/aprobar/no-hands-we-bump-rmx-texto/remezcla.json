@@ -1,0 +1,64 @@
+{
+ "origen": "no-hands-we-bump",
+ "eje": "texto",
+ "brazo": "D",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "on-screen words: the approved caption line For whoever you say hello to with your whole body. in place of No hands. We bump."
+ ],
+ "receta": {
+  "slug": "no-hands-we-bump-rmx-texto",
+  "fecha_et": "2026-11-23",
+  "et_preferida": "16:30",
+  "tapar": [
+   30,
+   370,
+   1020,
+   380,
+   "#EC98A5"
+  ],
+  "portada": 0.3,
+  "alt": "A short film with no voice. A pink room. Two small block figures, one in ink and one in cobalt blue, look down at their own sides where hands would be, then at each other. They walk together and bump bodies softly, eyes happy, then bump again and go back to their places. The words For whoever you say hello to with your whole body stay on screen.",
+  "textos": [
+   {
+    "txt": "For whoever you",
+    "t": 0,
+    "fin": 9,
+    "y": 400,
+    "tam": 112,
+    "color": "#0E1116"
+   },
+   {
+    "txt": "say hello to with",
+    "t": 0,
+    "fin": 9,
+    "y": 525,
+    "tam": 112,
+    "color": "#0E1116"
+   },
+   {
+    "txt": "your whole body.",
+    "t": 0,
+    "fin": 9,
+    "y": 650,
+    "tam": 112,
+    "color": "#0E1116"
+   }
+  ],
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 8.0,
+ "audio": {
+  "lufs": -16.0,
+  "pico_dbtp": -6.4
+ },
+ "huella": {
+  "dhash_media": 7.9,
+  "dhash_min": 7,
+  "umbral": 14,
+  "cambio_color": 6.1,
+  "distinta": false,
+  "lectura": "casi igual"
+ },
+ "elevenlabs_llamadas": 0
+}

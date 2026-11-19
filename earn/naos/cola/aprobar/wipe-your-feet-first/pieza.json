@@ -1,0 +1,55 @@
+{
+ "slug": "wipe-your-feet-first",
+ "titulo": "Wiping her feet before the clean house",
+ "clave": "2026-12-10|wipe-your-feet-first",
+ "sale_utc": "2026-12-10T15:15:00Z",
+ "caption": "Wiping her feet before the clean house\n\nIt rained all week. She wiped her feet on the mat until it was brown and then walked into the clean house.\n\nThirty seconds on the mat saves the host a mop, and nobody has to say anything.\n\nFor whoever wipes their feet at a friend's door before walking in.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Thirty seconds on the mat saves the host a mop, and nobody has to say anything.\n\nFor whoever wipes their feet at a friend's door before walking in.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with an open door on the right glowing warm yellow and a tan mat on the floor in front of it. A ink-black block figure with white eyes walks onto the mat and shuffles back and forth, small dust puffs pop up from its feet and a brown patch spreads across the mat. Then its eyes turn happy and it walks into the open doorway with a pulse. The text stays: me wiping my feet at their door.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "wipe-your-feet-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "limpiarse los pies en el tapete antes de entrar a la casa de un amigo",
+ "blanco": "Cella y quien entra con el barro de la calle",
+ "destinatario": "wipes their feet at a friend's door before walking in",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 7 al 10-dic (tanda dicm, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicm"
+}

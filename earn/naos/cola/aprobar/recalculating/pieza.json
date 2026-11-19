@@ -1,0 +1,48 @@
+{
+ "slug": "recalculating",
+ "titulo": "Me knowing exactly where I'm going",
+ "caption": "Me knowing exactly where I'm going\n\nMe knowing exactly where I'm going.\n\nA map is not a sense of direction. Check the first turn before you start walking, not after.\n\nSend it to the friend who is confidently going the wrong way.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me knowing exactly where I'm going.\n\nA map is not a sense of direction. Check the first turn before you start walking, not after.\n\nSend it to the friend who is confidently going the wrong way.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark room. A small amber block figure with white eyes strides to the right with growing confidence, stretching a little taller and pulsing with chimes that rise in pitch. In the last second the text changes from: me knowing exactly where I'm going, to: recalculating. The figure's eyes go wide, it trembles, then turns and walks back to the left. It narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "recalculating",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 1.8 LU; own music (motor/sonido midi, room alcoba-noche, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "orientación (ir seguro hacia donde no es)",
+ "blanco": "Cella (y quien camina con total seguridad al lado equivocado)",
+ "destinatario": "the friend who is confidently going the wrong way",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-12-01T01:30:00Z",
+ "clave": "2026-11-30|recalculating"
+}

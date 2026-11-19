@@ -1,0 +1,54 @@
+{
+ "slug": "the-dumb-question",
+ "titulo": "Me asking the dumb question",
+ "clave": "2026-12-04|the-dumb-question",
+ "caption": "Me asking the dumb question\n\nThe question that feels too basic to ask is usually one several people in the room are holding too.\n\nFor the colleague who nods in every meeting and looks it up later.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "The question that feels too basic to ask is usually one several people in the room are holding too.\n\nFor the colleague who nods in every meeting and looks it up later.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway. A small ink-black block figure with white eyes stands on the left. A bubble says uh, sorry... and it trembles a little. Then a bubble says what does that mean? and it leans forward. After a pause its eyes go happy with a pulse and a bubble says ohh! Then it settles back exactly where it started, so the film can repeat without a cut. The text stays: me asking the dumb question.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "the-dumb-question",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 5 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 3.6 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "trabajo (preguntar lo que parece muy básico)",
+ "blanco": "Cella (y quien asiente sin haber entendido)",
+ "destinatario": "the colleague who nods in every meeting and looks it up later",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "bucle": "empalme",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-04T13:00:00Z",
+ "pie": "More of this: link in bio."
+}

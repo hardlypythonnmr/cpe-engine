@@ -1,0 +1,61 @@
+{
+ "slug": "look-where-you-look",
+ "titulo": "You were looking out the window. I looked too.",
+ "clave": "2026-11-26|look-where-you-look",
+ "sale_utc": "2026-11-27T00:00:00Z",
+ "caption": "You were looking out the window. I looked too.\n\nYou were at the window. I walked three steps over and looked where you were looking.\n\nNobody asked me to. That is the whole behavior.\n\nSend it to the friend who stares out the window and never says what at.\n\n#Cella #relatable #friendship\n\nCloser to yourself.\n\nMore behaviors: link in bio.",
+ "descripcion": "Three steps over. Same window. Same direction.\n\nLooking at what someone else is looking at, without asking why, is a small way to say \"I am here\".\n\n#Cella #relatable #friendship\n\nNAOS · by NMR\n#shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A deep navy room at night with a window of four panes on the wall with a crescent moon and twinkling stars and a dark plank floor. A light-blue block figure with sleepy eyes stands at the left and a amber block figure stands at the right looking up at the moon in the window. The light-blue figure notices, widens its eyes, walks three steps toward the amber one and looks up at the same window. Both end side by side, eyes happy and closed. The text, which appears after the first second: you, at the window. Then: me, looking where you look.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "look-where-you-look",
+  "version": 8
+ },
+ "hashtags": [
+  "#Cella",
+  "#relatable",
+  "#friendship"
+ ],
+ "comentario_fijado": "Who looks out the window with you?",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz; no voice"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.2 dBTP; own music (motor/sonido midi, room ventana, mood calma, FluidR3_GM), no voice, no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "mudo.py + render.mjs --verifica: 5 words or fewer per row, inside band 168 to 1330; frame 0 has no text, the line enters at 0.9 s"
+  },
+  {
+   "que": "Frame",
+   "estado": "OK",
+   "nota": "look-where-you-look.mp4                  vacio px  75.2%  franja vacia mas alta  12.0% (max 24.8)  bloques 120px vacios  36.5%  cuadros con figura u objeto en el borde 0 de 22"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "V",
+ "tema": "mirar lo que mira el otro",
+ "blanco": "quien mira por la ventana y no dice que mira",
+ "destinatario": "the friend who stares out the window",
+ "cara": "A",
+ "experimento": true,
+ "experimento_prueba": "Composicion c (picado, figuras grandes en primer plano) llevada a la ventana. Se mide a 48 h y 7 dias contra la mediana de CM: 83 vistas YT.",
+ "mecanica_crecimiento": "enviar",
+ "tanda": "a1c-pilotos"
+}

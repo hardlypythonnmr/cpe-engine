@@ -1,0 +1,25 @@
+{
+ "slug": "bagging-area",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "291a0c82ec231fc3121894d5f47a2d9dffea939c2b92dab9b81ebee6bed852a0",
+ "hashes": {
+  "short": "43c2b970c89e3a32a738e51c33cb5869bcc2dad2f4ca34a8056773afce2daef8",
+  "reel": "f7392821bdf9d3c89cf55a5cf403c5582140e953dc4e11bd09ef5d6a61e553b5"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863239604,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

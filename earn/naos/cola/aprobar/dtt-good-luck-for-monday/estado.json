@@ -1,0 +1,25 @@
+{
+ "slug": "dtt-good-luck-for-monday",
+ "issue": 98,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-03T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "010d9effcae7b77fb83a41b833006b13ee42d62d049a29a9b7afde3322757bc4",
+ "hashes": {
+  "short": "c3bd81acdfbbca0d0f4abd0e7a69da7e7d53faf43e76a80fdc1416c8b87232de",
+  "reel": "9784b815e108b23920dab8b9d3526ed8102a45416f8ff0fb66f30dc0b1892dcb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886620323,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enea-0107",
+ "aprobado_evento_utc": "2026-11-15T11:55:29Z",
+ "issue_n_system": 1408
+}

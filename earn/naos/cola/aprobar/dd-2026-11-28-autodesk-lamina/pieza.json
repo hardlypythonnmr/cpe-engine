@@ -1,0 +1,84 @@
+{
+ "slug": "dd-2026-11-28-autodesk-lamina",
+ "titulo": "Autodesk (Jan 2026): $1.4 billion buying back its own stock, about 1,000 jobs being cut. The math.",
+ "clave": "2026-11-28|mercury|lamina|2026-11-28-autodesk-lamina",
+ "sale_utc": "2026-11-28T20:00:00Z",
+ "caption": "From the archive: Jan 2026. Not today's news.\nAutodesk, Jan 22, 2026 (Anagnost, email to employees): \"making the difficult decision to reduce the size of Autodesk's workforce by approximately 7% globally\"\nAutodesk's CEO emailed employees on Jan. 22, 2026 that the company was reducing its workforce by approximately 7% globally, around 1,000 roles. The buyback figure is from Autodesk's fiscal 2026 Form 10-K.\n\nSame fiscal year: $1.4 billion buying back its own stock, fiscal 2026. $1,402 million of common stock repurchased and retired in fiscal 2026 (year ended Jan. 31, 2026), company-wide (cash flow statement, Form 10-K; columns are 2026, 2025, 2024).\nThe math: $1.4 billion in buybacks (2026) ÷ about 1,000 job cuts = about $1.4 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.402 billion is Autodesk's stock repurchases for fiscal 2026 (February 2025 to January 2026), company-wide. The 1,000 roles are the email's own estimate, about 7% of the workforce. We are not saying one paid for the other.\n\nA difficult decision. Here is the buyback column. (Our take.)\n\nFor someone who has been told about a difficult decision.\n\nSources: SEC EDGAR · Autodesk, Jan 22, 2026; SEC EDGAR · Autodesk, Mar 3, 2026.\n\nLink in bio.",
+ "descripcion": "From the archive: Jan 2026. Not today's news.\nAutodesk, Jan 22, 2026 (Anagnost, email to employees): \"making the difficult decision to reduce the size of Autodesk's workforce by approximately 7% globally\"\nAutodesk's CEO emailed employees on Jan. 22, 2026 that the company was reducing its workforce by approximately 7% globally, around 1,000 roles. The buyback figure is from Autodesk's fiscal 2026 Form 10-K.\n\nSame fiscal year: $1.4 billion buying back its own stock, fiscal 2026. $1,402 million of common stock repurchased and retired in fiscal 2026 (year ended Jan. 31, 2026), company-wide (cash flow statement, Form 10-K; columns are 2026, 2025, 2024).\nThe math: $1.4 billion in buybacks (2026) ÷ about 1,000 job cuts = about $1.4 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $1.402 billion is Autodesk's stock repurchases for fiscal 2026 (February 2025 to January 2026), company-wide. The 1,000 roles are the email's own estimate, about 7% of the workforce. We are not saying one paid for the other.\n\nA difficult decision. Here is the buyback column. (Our take.)\n\nSources:\n- SEC EDGAR · Autodesk, Jan 22, 2026: «We are making the difficult decision to reduce the size of Autodesk's workforce by approximately 7% globally (around 1000 roles)» https://www.sec.gov/Archives/edgar/data/769397/000076939726000006/ceoemlfinal.htm\n- SEC EDGAR · Autodesk, Mar 3, 2026: «Repurchase and retirement of common stock (1,402) (852) (795)» https://www.sec.gov/Archives/edgar/data/769397/000076939726000015/adsk-20260131.htm",
+ "alt": "Paper-colored card. Autodesk, Jan 22, 2026. A gray typewriter quote, \"making the difficult decision to reduce the size of Autodesk's workforce by approximately 7% globally\", struck through with a dark red marker line. The struck quote is by Andrew Anagnost, president and CEO of Autodesk. Then the math in huge black letters, with the result on a yellow highlight: $1.4B ÷ 1,000 = about $1.4M, in buybacks, per job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/biblioteca/bib3-autodesk-2026-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000006/ceoemlfinal.htm",
+   "medio": "SEC EDGAR · Autodesk",
+   "titulo": "Andrew Anagnost's email to employees (Form 8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-14T04:02:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000015/adsk-20260131.htm",
+   "medio": "SEC EDGAR · Autodesk",
+   "titulo": "Autodesk Form 10-K for fiscal 2026",
+   "hora_utc": "2026-11-14T04:02:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg",
+ "tipo": "imagen",
+ "lado": "empleado",
+ "tema": "Autodesk (Jan 2026): cutting about 1,000 roles, in stock buybacks per job cut",
+ "banco_archivo": {
+  "caso": "autodesk-2026-layoffs",
+  "rotulo_fecha": "ARCHIVE · JAN 2026",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/autodesk-2026-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-autodesk-2026-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-autodesk-2026-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Año fiscal 2026 cerró el 31-ene-2026 y el correo es del 22-ene-2026: mismo año fiscal; B 'around 1000' (about)."
+  ]
+ },
+ "aspecto": "4x5"
+}

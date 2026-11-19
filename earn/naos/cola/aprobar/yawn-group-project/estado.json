@@ -1,0 +1,25 @@
+{
+ "slug": "yawn-group-project",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T19:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f398a3fcb27d31c7186cf9e089c10ade1ec418ff5d5ac91ea5b25c1aad069845",
+ "hashes": {
+  "short": "92e7738a6aa3287bdb64f1a762980533d274744a23e32341887833c53fea7f0e",
+  "reel": "1b7ff0f919c545c2cc06a811ca98f2521fe82fc628e62566d6b3a101e9bc63e6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861216262,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

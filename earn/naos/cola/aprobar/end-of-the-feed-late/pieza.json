@@ -1,0 +1,60 @@
+{
+ "slug": "end-of-the-feed-late",
+ "titulo": "End of the feed, night scroller. Nothing else to do but rest.",
+ "clave": "2026-11-12|casa-alcoba-noche",
+ "sale_utc": "2026-11-27T04:15:00Z",
+ "caption": "End of the feed, night scroller. Nothing else to do but rest.\n\nFor whoever is still up.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "For whoever is still up.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A dark blue bedroom at night with a bed, a wide window across the whole frame showing a flat night sky with twinkling stars, a small table lamp on a bedside table and, at the left, a blue screen that slowly fades. A small amber block figure with doorway legs and white eyes sits on the bed, stretches tall and yawns, then leans toward the lamp as it switches off with a click. It lowers its body, curls up a little and closes its eyes, breathing slowly. The words stay on screen: End of the feed, night scroller. Nothing else to do but rest.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "If this is weighing on you, don't carry it alone: talk to someone you trust or a mental health professional.\nIf you're thinking of hurting yourself, call a helpline now: Colombia 106 (Minsalud, 24 h) or 123 in immediate danger · Mexico 800 911 2000 (Linea de la Vida) · Spain 024 · US 988 (press 2 for Spanish) · Argentina 135 or (011) 5275-1135 · anywhere else: findahelpline.com",
+ "casa": {
+  "id": "end-of-the-feed-late",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -5.7 dBFS, LRA 4.6 LU; own music (motor/musica/pulso.py, mode cielo), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "tiro largo tiros-2026-11-03 (G2), hermana, ficha T-261103-05, idea I23"
+  },
+  {
+   "que": "Channels",
+   "estado": "OK",
+   "nota": "Reel (IG, destinatario: quien sigue deslizando de noche)"
+  },
+  {
+   "que": "Conditional",
+   "estado": "OK",
+   "nota": "sale solo si end-of-the-feed se escapa a 24 h (reservas.csv); si no, vence sin salir"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "critica-2 falla 1 [bloquea] arreglada 3-nov: sin luna (a las 10:00 ET es de día); 'night scroller' y 'For whoever is still up.' a las 10:00 ET quedan para signo-respeto (falla 11)"
+  }
+ ]
+}

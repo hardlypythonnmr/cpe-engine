@@ -1,0 +1,48 @@
+{
+ "slug": "quick-check-47",
+ "titulo": "That 'quick check' of the app was 47 minutes",
+ "clave": "2026-11-22|casa-alcoba",
+ "sale_utc": "2026-11-22T17:00:00Z",
+ "caption": "That 'quick check' of the app was 47 minutes\n\nThat \"quick check\" of the app was 47 minutes. The app says thanks.\n\nPut the phone down before you read this twice.\n\n#Cella #doomscrolling\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "That \"quick check\" of the app was 47 minutes. The app says thanks.\n\nPut the phone down before you read this twice.\n\n#Cella #doomscrolling\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A lavender bedroom. A small ink-black block figure with white eyes sits on a bed staring down at a phone while a small clock on the floor counts up, 9 min, 21 min, 34 min. Its eyes narrow as the minutes pass. At 47 min its eyes go wide and it looks at the camera, caught, then narrows them and looks back down at the phone. The text stays: if this found you: that quick check was 47 minutes. The app says thanks.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "quick-check-47",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.7 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "INV",
+ "filo": "V",
+ "tema": "redes sociales",
+ "blanco": "quien mira (y la app que se lo cobra)",
+ "destinatario": "the friend who just opens the app 'for a second'",
+ "cara": "A",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

@@ -1,0 +1,52 @@
+{
+ "slug": "one-search-two-hours-bees",
+ "titulo": "One search. Two hours. Bees. Cella answers",
+ "clave": "2026-11-28|one-search-two-hours-bees",
+ "sale_utc": "2026-11-28T04:26:00Z",
+ "estado": "por-aprobar",
+ "caption": "One search. Two hours. Bees. Cella answers.\nShe learned a lot about bees and she is not sorry.\nby NMR\n#rabbithole #relatable #cella",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A vertical video in flat colors, no voice, with soft music. Three big lines appear one after the other on a yellow field: One search. Two hours. Bees. A small round figure with white eyes stands under a white spotlight beside a phone that fills with honeycomb hexagons. A red crown drops on the figure and the words are written: Cella is not sorry.",
+ "formato": "F5 Una linea · Reel",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-huecos (huecos del 17-nov (decisión de N, 12-nov-2026))",
+ "hueco": "vie 27-nov",
+ "filo": "C",
+ "tema": "hábitos y distracción (arquetipo: el que buscó una sola cosa)",
+ "destinatario": "someone who looked one thing up",
+ "mecanica_crecimiento": "enviar · destinatario: someone who looked one thing up",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-huecos/hojas/ and juez.md"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-359: archetypes only, no real person or protected group, no health, grief, loneliness or body; Cella without hands and never next to a black object"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words; 50 words or fewer; 3 hashtags; no comment bait"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "7 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice; own music (motor/musica/pulso.py) and own foley (numpy), 0 credits"
+  }
+ ]
+}

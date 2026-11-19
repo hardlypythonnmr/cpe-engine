@@ -1,0 +1,26 @@
+{
+ "slug": "is-now-a-good-time",
+ "issue": 93,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-03T22:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b8477569f40af0f0bd859fd11233b87e406380078cfd29a42c9a5324f620ae31",
+ "hashes": {
+  "short": "88a8ee0e559351052a2030cc815b566102e08c4e5b76fffa7e6411634c397b37",
+  "reel": "784f49c6af78890621824b92217b843d278c54b22ed8088af36caf4133699e19"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886895222,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0104",
+ "caducado_utc": "2026-11-15T00:52:08Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1370
+}

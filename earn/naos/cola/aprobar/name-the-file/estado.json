@@ -1,0 +1,26 @@
+{
+ "slug": "name-the-file",
+ "issue": 84,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3038b346fdd3a49e0c46b79066330841c9fbc2e326b1d10dddd7ff716901b164",
+ "hashes": {
+  "short": "7f5bf9c76ebf4e03af82367c94629e49c00a703f0bc354c3c0897235b38db0fe",
+  "reel": "ddcca5f115c1e97b0b392c28051e53c8aa0aaa4d3a7c51e6dfc562e4b11a9d07"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886814189,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-i-0205",
+ "caducado_utc": "2026-11-15T00:45:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "issue_n_system": 1349
+}

@@ -1,0 +1,39 @@
+{
+ "nombre": "enee-1317",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "dtt-the-end-time-up-front",
+  "dtt-the-paper-in-the-printer",
+  "no-words-the-note-in-the-middle",
+  "the-meeting-or-the-message",
+  "oven-on-first",
+  "no-words-half-the-bags",
+  "that-part-was-yours",
+  "no-words-paused-until-they-are-back",
+  "dtt-the-music-down",
+  "door-trash-night-take-one",
+  "the-bin-night-receipt"
+ ],
+ "comentario_vista_previa_id": 6893983255,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T00:31:59Z",
+ "aviso_utc": "2026-11-15T12:00:05Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "aprobadas": [
+  "door-trash-night-take-one",
+  "dtt-the-end-time-up-front",
+  "dtt-the-music-down",
+  "dtt-the-paper-in-the-printer",
+  "no-words-half-the-bags",
+  "no-words-paused-until-they-are-back",
+  "no-words-the-note-in-the-middle",
+  "oven-on-first",
+  "that-part-was-yours",
+  "the-bin-night-receipt",
+  "the-meeting-or-the-message"
+ ],
+ "issue_n_system": 1411
+}

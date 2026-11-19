@@ -1,0 +1,25 @@
+{
+ "slug": "one-more-photo",
+ "issue": 66,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T01:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4af3b5f12edacd2ea1bd9b4cb6293c33226c243666fceb00368c3cd92b0af1bc",
+ "hashes": {
+  "short": "93b55beae0898b69eab4fe9e778dbb96f113b5126fb7183cdd33050cbe8eae63",
+  "reel": "2df45607ca259ce20120e85ca7b054d01ed0b9dc4b2ebe2b8944278186c4b0d8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863241152,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "issue_n_system": 1182
+}

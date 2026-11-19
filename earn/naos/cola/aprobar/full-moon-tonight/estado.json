@@ -1,0 +1,23 @@
+{
+ "slug": "full-moon-tonight",
+ "issue": 24,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T11:00:00Z",
+ "datos_utc": "2026-11-17T12:00:00Z",
+ "hash_contenido": "475022ba35f626a3f5ab650e3caf3a7f918587b6ef5f1e33787f0529980330eb",
+ "hashes": {
+  "historia": "096825bdc003f13f7e4ea72daaea63d18aa374282280a9a5f5e6be3542473406"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6946952939,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z",
+ "issue_n_system": 1751
+}

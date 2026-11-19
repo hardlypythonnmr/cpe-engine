@@ -1,0 +1,26 @@
+{
+ "slug": "ask-the-quiet-one",
+ "issue": 93,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-02T13:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d5914b1ce3033b5ff187e0fd4602c50d9dfbce3877a2e01db35b1403d7b85ecb",
+ "hashes": {
+  "short": "8bd568e5b0660ab28b9118686f6e34bbb7ecd8dc97e8f96666ddc313ed6c825e",
+  "reel": "20f920f8faa2cb88a30f018b1e221fc35e36c65095021c7322e661e9fddb2cda"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886893525,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "feb-0104",
+ "caducado_utc": "2026-11-15T00:52:08Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1370
+}

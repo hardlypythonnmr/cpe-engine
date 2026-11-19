@@ -1,0 +1,25 @@
+{
+ "slug": "back-for-the-gloves",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "eaaa2ab72e2198c1e5561b01ec18a4c17aea7f3a1b5895aceed99209d2be1e23",
+ "hashes": {
+  "short": "8f08e16e7d4829c03d821f56ba72ac3875a50a5aa97cf5c1e254e43cf5306748",
+  "reel": "d590b2deef83706101f1310e4701fd97a4f7d356419f66745d7a9b936caf970a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870915571,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

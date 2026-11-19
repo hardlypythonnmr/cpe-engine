@@ -1,0 +1,56 @@
+{
+ "slug": "no-words-the-note-in-the-middle",
+ "titulo": "The hard one goes in the middle of the list",
+ "clave": "2027-01-14|casa-alcoba",
+ "sale_utc": "2027-01-14T17:00:00Z",
+ "caption": "The hard one goes in the middle of the list\n\nThe task Cella has avoided longest sits at the edge of the list. She slides it to the middle where she can see it.\n\nFor whoever puts the hard one in the middle.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #nowords #chooseFriction",
+ "descripcion": "The task Cella has avoided longest sits at the edge of the list. She slides it to the middle where she can see it.\n\nFor whoever puts the hard one in the middle.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A lavender room. A small ink-black block figure with white eyes stands on the left beside a big sheet of paper standing on the floor. A yellow square note and a blue one sit on the sheet, and a bigger orange square note sits at its far right edge under a bubble that says the hard one. The bubble goes away. The figure walks closer and leans in, and the orange note slides to the middle of the sheet. A star appears and the figure's eyes close in a smile as it pulses. The text stays: 1 hard thing, moved to the middle. The last card: for whoever puts the hard one in the middle, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella moved the hard one to the middle today. Somebody does it too.",
+ "casa": {
+  "id": "no-words-the-note-in-the-middle",
+  "version": 8
+ },
+ "evolucion": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 18 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.3 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s2, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud. Semana ene-s2: apuesta de la hora (3a del acta)."
+  }
+ ],
+ "filo": "V",
+ "tema": "mover la tarea que mas se evita del borde al centro de la lista",
+ "blanco": "Cella (y quien pone la tarea dificil en el centro)",
+ "destinatario": "whoever puts the hard one in the middle",
+ "cara": "A",
+ "variante": "base",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "No words"
+}

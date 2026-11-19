@@ -1,0 +1,23 @@
+{
+ "slug": "cella-s1e01-ready-since",
+ "issue": 111,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T17:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f2c080eef8eebbb1df070f195288ec060465c0f7c157add783c8927b069dd233",
+ "hashes": {
+  "carrusel": "b1f28fd40700c2880416fa6bdc0fd2fca0576b4db26188563c0b8535e50e5807"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6899370426,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "cella-s1e01-v2",
+ "aprobado_evento_utc": "2026-11-16T10:46:56Z",
+ "issue_n_system": 1658
+}

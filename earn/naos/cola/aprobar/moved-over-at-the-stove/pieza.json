@@ -1,0 +1,61 @@
+{
+ "slug": "moved-over-at-the-stove",
+ "titulo": "Cooking alone, then you walked in. I moved over.",
+ "clave": "2026-11-30|moved-over-at-the-stove",
+ "sale_utc": "2026-11-30T23:30:00Z",
+ "caption": "Cooking alone, then you walked in. I moved over.\n\nI was at the stove by myself. You came in and I took two steps to the side so there was room for you.\n\nNobody asked me to. That is the whole behavior.\n\nSend it to whoever cooks next to you.\n\n#Cella #relatable #friendship\n\nCloser to yourself.\n\nMore behaviors: link in bio.",
+ "descripcion": "You walk in. I move over.\n\nMaking room at the stove without being asked is a small, exact way to say \"cook with me\".\n\n#Cella #relatable #friendship\n\nNAOS · by NMR\n#shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A warm yellow kitchen with a shelf of four jars on the wall, a counter with a steaming pot under it, and a plank floor. An ink-black block figure stands at the stove, swaying as if stirring. A brick-red figure walks three steps in from the left. The black figure looks at it, smiles and shuffles two steps to the right to make room. Both end side by side with happy closed eyes. The text, which appears after the first second: me, at the stove. Then: you walk in. I move over.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "moved-over-at-the-stove",
+  "version": 8
+ },
+ "hashtags": [
+  "#Cella",
+  "#relatable",
+  "#friendship"
+ ],
+ "comentario_fijado": "Who makes room for you in the kitchen?",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz; no voice"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.9 dBTP; own music (motor/sonido midi, room cocina, mood calma, FluidR3_GM), no voice, no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "mudo.py + render.mjs --verifica: 5 words or fewer per row, inside band 168 to 1330; frame 0 has no text, the line enters at 0.9 s"
+  },
+  {
+   "que": "Frame",
+   "estado": "OK",
+   "nota": "moved-over-at-the-stove.mp4              vacio px  70.8%  franja vacia mas alta  12.0% (max 24.3)  bloques 120px vacios  36.4%  cuadros con figura u objeto en el borde 0 de 22"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "V",
+ "tema": "hacerle sitio al lado",
+ "blanco": "quien cocina solo",
+ "destinatario": "the friend who cooks next to you",
+ "cara": "A",
+ "experimento": true,
+ "experimento_prueba": "Composicion c (picado) llevada a la cocina. Se mide a 48 h y 7 dias contra la mediana de CM: 83 vistas YT.",
+ "mecanica_crecimiento": "enviar",
+ "tanda": "a1c-pilotos"
+}

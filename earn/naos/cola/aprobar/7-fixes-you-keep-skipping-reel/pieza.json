@@ -1,0 +1,45 @@
+{
+ "slug": "7-fixes-you-keep-skipping-reel",
+ "titulo": "Seven small fixes you keep skipping, each under ten minutes. Pick one before dinner.",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "seccion": "humanity",
+ "filo": "V",
+ "blanco": "la cosa rota que se tolera por meses",
+ "destinatario": "whoever has a junk drawer",
+ "mecanica_crecimiento": "enviar · destinatario: whoever has a junk drawer",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada, hoja de contacto leída a 390 px de ancho (Opus 11, 13-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "arquetipos, sin persona real ni marca ni grupo protegido; sin tema SENSIBLE (D-466); sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas; sin hashtags (D-376); el lema solo al cierre (D-409)"
+  }
+ ],
+ "caption": "Seven small fixes you keep skipping, each under ten minutes. Pick one before dinner.\nChoose friction.\nLink in bio.\nby NMR",
+ "canales": [
+  "reel"
+ ],
+ "formato": "reel",
+ "variante": "fijo-reel",
+ "experimento": "fijo-reel-1511",
+ "madre": "7-fixes-you-keep-skipping",
+ "laminas_madre": 9,
+ "duracion_s": 15.5,
+ "musica": "midi:cocina:calma",
+ "alt": "1: Cella next to a small toolbox. 7 fixes. 7 fixes under ten minutes you keep skipping. Do one before dinner. 2: a big number 1 and a small Cella in the corner. One screwdriver. Two minutes. Check 1. The loose handle. 3: a big number 2 and a small Cella in the corner. One drop of oil. Check 2. The squeaky door. 4: a big number 3 and a small Cella in the corner. It has been dark for weeks. Check 3. The dead bulb. 5: a big number 4 and a small Cella in the corner. Fill it in before lunch. Check 4. The form with your name on it. 6: a big number 5 and a small Cella in the corner. Buy the new one today. Check 5. The charger that only works bent. 7: a big number 6 and a small Cella in the corner. Write what is inside. Check 6. The box with no label. 8: a big number 7 and a small Cella in the corner. Ten minutes. One drawer. Check 7. The drawer of unknowns. 9: the seven fixes as a list. The cheat sheet. Under ten minutes: For a drawer hoarder. Choose friction. 1. Tighten the handle 2. Oil the door 3. Change the bulb 4. Fill in the form 5. Replace the charger 6. Label the box 7. Empty one drawer.",
+ "tipo_madre": "F2 Antes de · arreglos pequenos aplazados · evergreen",
+ "sale_utc": "2026-12-20T19:45:00Z",
+ "clave": "2026-12-20|7-fixes-you-keep-skipping-reel",
+ "titulo_madre": "7 fixes under ten minutes you keep skipping"
+}

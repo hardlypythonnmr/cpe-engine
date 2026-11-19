@@ -1,0 +1,68 @@
+{
+ "slug": "become-a-person-later",
+ "titulo": "Saturday plan: become a person. Later.",
+ "clave": "2026-11-28|become-a-person-later",
+ "sale_utc": "2026-11-28T11:50:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A lavender bedroom. A small ink-black block figure with sleepy white eyes sits on the edge of the bed next to a clock on the floor that reads 11:40. Text: saturday plan: become a person. later.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-23 (casa/lib/historias-1123-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "anyone still in bed at noon",
+ "experimento": true,
+ "experimento_prueba": "AB idea-envio: normal, par de candle-is-self-care (misma franja, misma forma; lectura a 7 días el 2026-12-05)",
+ "ab": {
+  "prueba": "idea-envio",
+  "brazo": "normal",
+  "par": "candle-is-self-care",
+  "metricas": [
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-05T11:50:00Z",
+  "nota": "para-enviar = el destinatario está en pantalla (\"send this to...\" o \"if someone sent you this\"); normal = la idea se manda igual (destinatario en la ficha) pero la pantalla no lo dice"
+ },
+ "casa": {
+  "id": "become-a-person-later",
+  "version": 8
+ },
+ "tono": "honest, deadpan",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-23/hoja-historias.png"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "fixed in the 3rd pass: 11:40 now fits inside the clock face and clears the bed"
+  },
+  {
+   "que": "Builder fix after judge 2nd pass",
+   "estado": "OK",
+   "nota": "6-nov, builder: reloj de 340 px con 11:40 dentro del cuadro y lejos de la cama. The 'Judge 2nd pass (D-294)' revision above is the judge's and is unchanged; it stays as the judge left it until the judge re-reads the piece."
+  },
+  {
+   "que": "Judge 3rd pass (D-294)",
+   "estado": "OK",
+   "nota": "11:40 now fits inside the clock face and clears the bed"
+  }
+ ]
+}

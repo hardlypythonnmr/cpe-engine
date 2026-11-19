@@ -1,0 +1,74 @@
+{
+ "slug": "dd-2026-11-29-chipotle-historia",
+ "titulo": "Chipotle (Apr 2025): $19.1 million CEO total pay, $16,666 median pay. The math.",
+ "clave": "2026-11-29|mercury|historia|2026-11-29-chipotle-historia",
+ "sale_utc": "2026-11-29T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Apr 2025. Not today's news.\nChipotle, Apr 25, 2025 (Chipotle, proxy statement): \"At Chipotle, meeting the needs of our people is at the heart of our employee experience\"\nChipotle's proxy statement, filed April 25, 2025, reported total compensation of $19.14 million for its CEO and $16,666 for its median employee for 2024.\n\nSame proxy: $19.1 million CEO total pay, 2024. The total compensation of the CEO for 2024, as reported in the proxy's Summary Compensation Table; mostly stock awards, not cash.\nThe math: $19.1 million CEO total pay (2024) ÷ $16,666 median pay = about 1,148 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Chipotle's own figure is 1,148 to 1. Most of the CEO's total is stock awards, not cash. We are not saying anyone is paid too much or too little.\n\nThe heart of the experience. Then the ratio. (Our take.)\n\nSources:\n- SEC EDGAR · Chipotle, Apr 25, 2025: «At Chipotle, meeting the needs of our people is at the heart of our employee experience.» and «the annual total compensation of $19.14 million» and «an annual total compensation of our median employee for 2024 of $16,666» https://www.sec.gov/Archives/edgar/data/1058090/000114036125015614/ny20039347x771_def14a.htm",
+ "alt": "Paper-colored card. Chipotle, Apr 25, 2025. A gray typewriter quote, \"At Chipotle, meeting the needs of our people is at the heart of our employee experience\", struck through with a dark red marker line. The struck quote is by Chipotle, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $19.1M ÷ $16,666 = about 1,148, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/biblioteca/bib4-chipotle-2024-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1058090/000114036125015614/ny20039347x771_def14a.htm",
+   "medio": "SEC EDGAR · Chipotle",
+   "titulo": "Chipotle proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg",
+ "tipo": "historia",
+ "lado": "empleado",
+ "tema": "Chipotle (Apr 2025): CEO pay ratio, 1,148 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "chipotle-2024-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · APR 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/chipotle-2024-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib4-chipotle-2024-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 4 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib4-chipotle-2024-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra (proxy, Summary Compensation Table) y que el empleado mediano es un cálculo de la empresa; lo que la fuente aclara del mediano (tiempo parcial, global) queda en la nota cuando aplica."
+  ]
+ }
+}

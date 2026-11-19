@@ -1,0 +1,22 @@
+{
+ "slug": "closer-or-space-both-sides",
+ "issue": 50,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ab0488e722d0764dcc6d847a8e40b052def6c91e0f2618f65336fecea73b33d8",
+ "hashes": {
+  "short": "e23ac0f2b15e45b3b65b2085c9e8ec4e5443a9037fb4f9582031cf56efb93685"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6634320722,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "m8-closer-or-space",
+ "aprobado_evento_utc": "2026-11-04T15:15:52Z",
+ "issue_n_system": 929
+}

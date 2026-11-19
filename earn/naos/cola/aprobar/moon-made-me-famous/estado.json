@@ -1,0 +1,24 @@
+{
+ "slug": "moon-made-me-famous",
+ "issue": 53,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T03:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "509773ac37550e2ed461f2d1943ed29d85d5f206a99baa1320cd6a38d063b772",
+ "hashes": {
+  "reel": "a666d8fbdbcab9038b1063dd3727d33d630da74425541e948d2c6ed83198a338"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894679335,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z",
+ "issue_n_system": 960
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "open-it-to-the-page",
+ "issue": 95,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-02-10T14:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "90e22dd283be0ae66b133ab608bc1ca96338a344af46604fef9140feb8a45787",
+ "hashes": {
+  "short": "cf0e8bd21a488ac4eff006d407c2aeb2d9715d6f4e2b253a4cb72f59ba3f9cfb",
+  "reel": "1e85183c41f5f2a7e0b84256b4eb66247dc4c3bac43ab41c5b2f0be5699a3ceb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886912557,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "febc-0913",
+ "caducado_utc": "2026-11-15T00:53:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1377
+}

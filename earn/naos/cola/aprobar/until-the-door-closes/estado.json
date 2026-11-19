@@ -1,0 +1,25 @@
+{
+ "slug": "until-the-door-closes",
+ "issue": 70,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "52e2d8e7b0609682e2eb0f9fa93bd75748624cfa2bc91d413c0bb521166b17c6",
+ "hashes": {
+  "short": "baafa5297c436e742269619e387a31fc44eb1e0f4e52abf38cf6fd4b5bd27030",
+  "reel": "b086842ef940393eb1ff8ec5e081c91b28b0feb08fe413041eba06ef549e145a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866437048,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2730",
+ "aprobado_evento_utc": "2026-11-13T22:32:12Z",
+ "issue_n_system": 1215
+}

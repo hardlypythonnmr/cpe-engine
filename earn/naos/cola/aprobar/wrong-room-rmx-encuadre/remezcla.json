@@ -1,0 +1,36 @@
+{
+ "origen": "wrong-room",
+ "eje": "encuadre",
+ "brazo": "C",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "camera 8 % closer, anchored right so the question card stays whole (the stair rail loses a sliver on the left); colours and text untouched"
+ ],
+ "receta": {
+  "slug": "wrong-room-rmx-encuadre",
+  "fecha_et": "2026-11-21",
+  "et_preferida": "13:30",
+  "encuadre": {
+   "zoom": 1.08,
+   "cx": 0.537,
+   "cy": 0.5,
+   "deriva": 0
+  },
+  "portada": 0.6,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 20.6,
+ "audio": {
+  "lufs": -14.1,
+  "pico_dbtp": -1.4
+ },
+ "huella": {
+  "dhash_media": 13.5,
+  "dhash_min": 10,
+  "umbral": 14,
+  "cambio_color": 15.6,
+  "distinta": false,
+  "lectura": "casi igual"
+ },
+ "elevenlabs_llamadas": 0
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "no-hands-we-bump-rmx-color",
+ "titulo": "No hands. We bump.",
+ "clave": "2026-11-23|no-hands-we-bump-rmx-color",
+ "sale_utc": "2026-11-24T04:30:00Z",
+ "caption": "No hands. We bump.\n\nNo hands. We bump.\n\nFor whoever you say hello to with your whole body.\n\n#CuteAnimation #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "No hands. We bump.\n\nFor whoever you say hello to with your whole body.\n\n#CuteAnimation #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A pink room. Two small block figures with doorway legs and white eyes, one in ink and one in cobalt blue, look down at their own sides where hands would be, then at each other. They walk together and bump bodies softly, eyes happy. They back up, then bump again with a running start, hop once together, and go back to their places. The words No hands. We bump. stay on screen.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "no-hands-we-bump",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Remix",
+   "estado": "OK",
+   "nota": "D-531: same sound as no-hands-we-bump (no new ElevenLabs call); test axis color, arm B (A = the original); changes: field from pink #EC98A5 to mint #7FCDAE and its floor to a darker mint; both Cellas and the words untouched"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -6.4 dBFS, the original's mix untouched (only cut, reordered or faded)"
+  },
+  {
+   "que": "Repeat risk",
+   "estado": "OK",
+   "nota": "dHash best match 27.1 of 64 bits (threshold 14), colour change 50.1: distinta en forma (motor/remezcla/RIESGO.md)"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "remezcla": {
+  "origen": "no-hands-we-bump",
+  "eje": "color",
+  "brazo": "B",
+  "control": "A = no-hands-we-bump",
+  "experimento": "rmx-2026-11-19",
+  "cambios": [
+   "field from pink #EC98A5 to mint #7FCDAE and its floor to a darker mint; both Cellas and the words untouched"
+  ],
+  "huella": {
+   "dhash_media": 27.1,
+   "dhash_min": 24,
+   "umbral": 14,
+   "cambio_color": 50.1,
+   "distinta": true,
+   "lectura": "distinta en forma"
+  },
+  "elevenlabs_llamadas": 0,
+  "decision": "D-531"
+ }
+}

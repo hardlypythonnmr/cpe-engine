@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-05-albertsons-expediente",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T21:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "caadfbd3ab1c1ee4854b659f1e1805afcdd9f208bec0b0a2a1c8c2575b80e780",
+ "hashes": {
+  "carrusel": "a009f610b2ffdf3504168924cd3f4bb815f4b05182d115554ea88ee3f623627e"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6914690283,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

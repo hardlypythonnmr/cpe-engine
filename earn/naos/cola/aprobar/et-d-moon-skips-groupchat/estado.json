@@ -1,0 +1,22 @@
+{
+ "slug": "et-d-moon-skips-groupchat",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T03:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0895983089f5969ed1c0bc2d65891044c52e4b86c1df0184840c2e9171c436e4",
+ "hashes": {
+  "reel": "c6384f2e56fb84c182a4797bf1d546c9365a3adcd011511b3a1d606a003e6258"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6681430297,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

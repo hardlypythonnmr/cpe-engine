@@ -1,0 +1,89 @@
+{
+ "slug": "dd-2026-12-02-workday-expediente",
+ "titulo": "Workday (Feb 2025): $2.9 billion buying back its own stock, about 1,750 jobs being cut. The math.",
+ "clave": "2026-12-02|mercury|expediente|2026-12-02-workday-expediente",
+ "sale_utc": "2026-12-02T21:00:00Z",
+ "caption": "From the archive: Feb 2025. Not today's news.\nWorkday, Feb 5, 2025 (Eschenbach, to employees): \"we have made the difficult, but necessary, decision\"\nWorkday's CEO told employees on Feb. 5, 2025 that the company had decided to eliminate approximately 1,750 positions, 8.5% of its workforce. The buyback figure is from Workday's fiscal 2026 Form 10-K.\n\nSame fiscal year: $2.9 billion buying back its own stock, fiscal 2026. $2.9 billion of Class A stock repurchased in fiscal 2026 (February 2025 to January 2026), company-wide; the fiscal year began four days before the announcement (Form 10-K).\nThe math: $2.9 billion in buybacks (2026) ÷ about 1,750 job cuts = about $1.6 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $2.9 billion is Workday's Class A stock repurchases for fiscal 2026 (February 2025 to January 2026), company-wide, rounded by the company. That fiscal year began four days before the announcement, so part of the buyback came after it. The 1,750 positions are about 8.5% of the workforce, per the message. We are not saying one paid for the other.\n\nDifficult, but necessary. Here is the buyback column. (Our take.)\n\nFor someone who has been told a decision was difficult, but necessary.\n\nSources: SEC EDGAR · Workday, Feb 5, 2025; SEC EDGAR · Workday, Mar 1, 2026.\n\nSwipe: the sentence, the number, the math, our take.\n\nLink in bio.",
+ "descripcion": "From the archive: Feb 2025. Not today's news.\nWorkday, Feb 5, 2025 (Eschenbach, to employees): \"we have made the difficult, but necessary, decision\"\nWorkday's CEO told employees on Feb. 5, 2025 that the company had decided to eliminate approximately 1,750 positions, 8.5% of its workforce. The buyback figure is from Workday's fiscal 2026 Form 10-K.\n\nSame fiscal year: $2.9 billion buying back its own stock, fiscal 2026. $2.9 billion of Class A stock repurchased in fiscal 2026 (February 2025 to January 2026), company-wide; the fiscal year began four days before the announcement (Form 10-K).\nThe math: $2.9 billion in buybacks (2026) ÷ about 1,750 job cuts = about $1.6 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $2.9 billion is Workday's Class A stock repurchases for fiscal 2026 (February 2025 to January 2026), company-wide, rounded by the company. That fiscal year began four days before the announcement, so part of the buyback came after it. The 1,750 positions are about 8.5% of the workforce, per the message. We are not saying one paid for the other.\n\nDifficult, but necessary. Here is the buyback column. (Our take.)\n\nSources:\n- SEC EDGAR · Workday, Feb 5, 2025: «we have made the difficult, but necessary, decision to eliminate approximately 1,750 positions, or 8.5% of our current workforce» https://www.sec.gov/Archives/edgar/data/1327811/000132781125000030/wday-020525x991.htm\n- SEC EDGAR · Workday, Mar 1, 2026: «During fiscal 2026, we repurchased approximately 12.8 million shares of our Class A common stock for $2.9 billion» https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm",
+ "alt": "Five paper-colored cards. 1: Workday, Feb 5, 2025, the quote \"we have made the difficult, but necessary, decision\" struck through in dark red, and the words Then the math. 2: the full sentence with its context and source. 3: the number, $2.9 billion buying back its own stock, fiscal 2026. 4: the division, ending in $1.6 million in buybacks, per job cut, on a yellow highlight. 5: our take: \"Difficult, but necessary. Here is the buyback column.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "expediente",
+ "formato": "carrusel",
+ "origen": "c2/linea/biblioteca/bib5-workday-2025-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781125000030/wday-020525x991.htm",
+   "medio": "SEC EDGAR · Workday",
+   "titulo": "Carl Eschenbach's message to Workday employees (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm",
+   "medio": "SEC EDGAR · Workday",
+   "titulo": "Workday Form 10-K for the fiscal year ended Jan. 31, 2026",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "tipo": "carrusel",
+ "lado": "empleado",
+ "tema": "Workday (Feb 2025): cutting about 1,750 positions, buybacks per job cut",
+ "banco_archivo": {
+  "caso": "workday-2025-layoffs",
+  "rotulo_fecha": "ARCHIVE · FEB 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/workday-2025-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib5-workday-2025-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 5 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib5-workday-2025-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra y lo que la fuente aclara (matices en la nota y en la descripción: $2.9 billion of Class A stock repurchased in fiscal 2026 (February 2025 to January 2026), company-wide; the fiscal year began four days before the announcement )."
+  ]
+ }
+}

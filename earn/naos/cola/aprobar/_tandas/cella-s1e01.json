@@ -1,0 +1,21 @@
+{
+ "nombre": "cella-s1e01",
+ "issue": 109,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "cella-s1e01-six-am",
+  "cella-s1e01-six-alarms"
+ ],
+ "comentario_vista_previa_id": 6898611326,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T17:25:50Z",
+ "aviso_utc": "2026-11-15T17:43:44Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-16T10:47:16Z",
+ "aprobadas": [
+  "cella-s1e01-six-alarms",
+  "cella-s1e01-six-am"
+ ],
+ "issue_n_system": 1631
+}

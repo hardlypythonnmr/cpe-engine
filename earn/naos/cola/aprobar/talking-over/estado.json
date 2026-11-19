@@ -1,0 +1,25 @@
+{
+ "slug": "talking-over",
+ "issue": 67,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c2df54ba9378153fa1fc2f7e1082b5c5cd21f4cd00eb119685cc3f192e87b2f7",
+ "hashes": {
+  "short": "94e5af2865b89fb03d0ca42de8457c005384e6004bb65575a6e9a9c898a7a739",
+  "reel": "4da920285174f84c5fda7dd0385ce1fb4f7bc45bf95cc51fddc3d14d1bf04975"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6863842828,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2230b",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "issue_n_system": 1196
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "lend-the-big-pot",
+ "titulo": "Take mine. The bigger pot",
+ "clave": "2027-01-23|lend-the-big-pot",
+ "sale_utc": "2027-01-23T21:45:00Z",
+ "caption": "Take mine. The bigger pot\n\n\"I need a bigger pot.\" \"Take mine.\" It left the counter and was steaming at its new place before the sentence ended.\n\nA pot that sits in the cupboard all week is the one a neighbor needs on Saturday.\n\nFor whoever lends the big pot to whoever needs it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A pot that sits in the cupboard all week is the one a neighbor needs on Saturday.\n\nFor whoever lends the big pot to whoever needs it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen with a long counter on the right and a soup pot with a lid on it. A brick-red block figure with narrowed eyes says I need a bigger pot. A ink-black block figure with white eyes answers take mine, and the pot hops down off the counter and lands next to the red one, where it starts to steam. The red one's eyes go wide and says ...perfect. thanks. Both end with happy eyes. The text stays: me lending the big pot.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "lend-the-big-pot",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.1 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "prestar la olla grande a quien la necesita",
+ "blanco": "Cella y quien tiene la olla grande guardada y no la ofrece",
+ "destinatario": "lends the big pot to whoever needs it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

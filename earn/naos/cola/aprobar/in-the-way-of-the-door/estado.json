@@ -1,0 +1,26 @@
+{
+ "slug": "in-the-way-of-the-door",
+ "issue": 90,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f193eb3b195f1b1e1bde19e4f8a48371534eff5d7230d03c664e2141287994ed",
+ "hashes": {
+  "short": "6c6103bca73146657ce58ebe08e98439789e948459837d493f6e77a4e4e702ab",
+  "reel": "0571e58dfd17336af61444bf0c64c694efcf6f644f209eaa4d5e00caba5ad9f6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886842772,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicl-0205",
+ "caducado_utc": "2026-11-15T00:47:57Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "issue_n_system": 1362
+}

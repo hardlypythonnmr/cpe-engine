@@ -1,0 +1,96 @@
+{
+ "slug": "know-yourself-while-you-sleep-1-hour",
+ "titulo": "Know Yourself While You Sleep | 1 Hour Affirmations, Ocean",
+ "clave": "2026-11-22|afirmaciones-dormir-conocerte",
+ "sale_utc": "2026-11-22T02:15:00Z",
+ "caption": "Know Yourself While You Sleep | 1 Hour Affirmations, Ocean\n\nOne hour of self-knowledge affirmations for sleep, with ocean waves. The screen goes dark after the first round. YouTube long video, 16:9. No Reel cut in this package.\n\nby NMR",
+ "descripcion": "One hour of self-knowledge affirmations for sleep, with ocean waves. A soft, slow voice says thirty first-person affirmations for getting to know yourself (\"I notice what I feel, and I name it\", \"What I envy shows me what I want\", \"I am at home in myself\"), each one two or three times with long pauses, so you can repeat them in your head or just let them wash over you. Voice, music and picture made with code by NAOS, no samples.\n\nFor the first 10 minutes each affirmation appears on screen while it is said. Then the picture goes dark, the affirmations come back in a new order, a little slower each round, and after 30 minutes the voice slowly gets quieter until nothing is left but the ocean waves. Put it on, turn the brightness down, and let it run.\n\nBackground: ocean waves on a night shore, slow and uneven, like the real thing.\n\nWays to use it: in bed with the screen turned away; on a speaker at low volume (it is mixed quieter than our daytime videos); or on the nights your mind keeps talking to you. It is a video, not a treatment: if sleep or how you feel is hard every night, talk to someone you trust or a doctor.\n\nChapters\n0:00 Round 1: thirty affirmations, the words on screen\n9:16 Round 2: the same affirmations in a new order, slower\n19:27 Round 3: the same affirmations in a new order, slower\n30:36 Round 4: the same affirmations in a new order, slower, the voice getting quieter\n42:43 Round 5: the same affirmations in a new order, slower, the voice getting quieter\n55:48 Closing line, then only the ocean waves\n\nVoice: synthetic (ElevenLabs), a woman's voice. The affirmations are written by NAOS. Corrections welcome.\nNAOS · Closer to yourself. by NMR\n#affirmations #sleep #selfknowledge",
+ "tipo": "AFIRMACIONES",
+ "sintetico": false,
+ "alt": "A film of one hour, 16:9, made for sleep. Under a starry night sky with the real moon of the night, a small yellow figure in a blue nightcap with closed eyes breathes slowly beside a little house with lit windows; the ground is a night sea with slow waves and moonlight on the water. For the first 10 minutes each affirmation appears in large serif letters at the bottom while a woman's synthetic voice says it slowly; then the picture darkens and only the voice and the ocean waves remain. The cover shows the night scene with the words \"Know yourself\" in large yellow letters and \"while you sleep · 1 hour\" under it.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "largo",
+ "linea": "afirmaciones",
+ "familia": "dormir",
+ "capitulos": [
+  {
+   "inicio": "0:00",
+   "titulo": "Round 1: thirty affirmations, the words on screen"
+  },
+  {
+   "inicio": "9:16",
+   "titulo": "Round 2: the same affirmations in a new order, slower"
+  },
+  {
+   "inicio": "19:27",
+   "titulo": "Round 3: the same affirmations in a new order, slower"
+  },
+  {
+   "inicio": "30:36",
+   "titulo": "Round 4: the same affirmations in a new order, slower, the voice getting quieter"
+  },
+  {
+   "inicio": "42:43",
+   "titulo": "Round 5: the same affirmations in a new order, slower, the voice getting quieter"
+  },
+  {
+   "inicio": "55:48",
+   "titulo": "Closing line, then only the ocean waves"
+  }
+ ],
+ "titulo_ab": "Affirmations to Know Yourself Better | 1 Hour for Sleep, Ocean",
+ "comentario_fijado": "Which line felt the most true tonight? Write it here.",
+ "mecanica_crecimiento": "guardar para la noche; envío: the friend who is figuring themselves out",
+ "envio": "the friend who is figuring themselves out",
+ "experimento": true,
+ "experimento_prueba": "largos de afirmaciones para dormir (ENCARGO 17-nov): tres temas con tres fondos la misma semana; lectura a 7 y 14 días de vistas, minutos vistos y duración media contra los largos de mantras",
+ "casa": {
+  "id": "afirmaciones-dormir-conocerte",
+  "version": 8,
+  "produccion": "empresa/afirmaciones/dormir"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "3600.08 s, 1920x1080, 24 fps, H.264 + AAC stereo 48 kHz, 122.5 MB; 5 rounds, 338 spoken lines from 96 takes (3 per line)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-18.0 LUFS integrated (sleep target -18, like the sleep mantras), true peak -1.7 dBTP, LRA 15.5 LU (ffmpeg ebur128, peak=true, on the video's audio); voice -12 dB from minute 30 to 60"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "dormir-mujer (new ElevenLabs voice designed for sleep), eleven_v4, 3 takes per line so the repeats are not identical; slowed to 0.87 with rubberband (formants kept), slower and calmer. N to listen"
+  },
+  {
+   "que": "Background",
+   "estado": "OK",
+   "nota": "mar: own, made with code (motor/fondo.py), seamless 5-minute loop, no third-party samples"
+  },
+  {
+   "que": "Text on screen",
+   "estado": "OK",
+   "nota": "Newsreader 96 px in the dark band at the bottom, until 10:08; then an 8 s fade to the dark loop"
+  },
+  {
+   "que": "Claims",
+   "estado": "OK",
+   "nota": "no promise of sleep, health or cure; the description says it is a video, not a treatment, and points to someone you trust or a doctor; 432 Hz and delta named as what they are, without a promise (D-527)"
+  },
+  {
+   "que": "Repetition",
+   "estado": "OK",
+   "nota": "one scene for the whole hour (ENCARGO); the voice changes order and take every round; the picture is a 32 s loop. N to watch for the repetitive-content risk at the first reading"
+  }
+ ]
+}

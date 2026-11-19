@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-08-home-depot-historia",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T16:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "71d53362335d45110f30ae9ec7eec155769e128e53ed828f6d817d9929dd798b",
+ "hashes": {
+  "historia": "1341a4ed58a0e06c3451d2e13efe8437d9b50b06fa6709a761672dba28ed122a"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6914696082,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:45Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

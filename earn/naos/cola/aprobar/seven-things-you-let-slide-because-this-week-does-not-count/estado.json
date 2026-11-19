@@ -1,0 +1,24 @@
+{
+ "slug": "seven-things-you-let-slide-because-this-week-does-not-count",
+ "issue": 102,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-27T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "aed9ce77ac428259c352cd71f15398217b1099a91fbad762e393a9313e7b6e77",
+ "hashes": {
+  "short": "d647635f0d2039c7f7935cda5d6b63a8f7f3563d7a3aaab2e2fad288ef237ea7"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888393943,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "issue_n_system": 1415
+}

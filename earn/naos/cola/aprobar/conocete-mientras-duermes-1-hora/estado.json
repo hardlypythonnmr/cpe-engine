@@ -1,0 +1,23 @@
+{
+ "slug": "conocete-mientras-duermes-1-hora",
+ "issue": 35,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T04:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4bf8f7a9376fd8ae884e678f9eabf13e6a92c909dd0f3f245278a5f7ea568c6e",
+ "hashes": {
+  "short": "4520d83653ea70ecbef643510699ae07f544b74cf86c7e786bb54a794f4cb620"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6958470878,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dormir-es-21-23-nov",
+ "aprobado_evento_utc": "2026-11-17T20:33:23Z",
+ "issue_n_system": 1786
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "thankful-for-me",
+ "issue": 9,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4b4750af6d93eb1042ae95890aa0d269ee4f4ea191269600b3e4a20e396d67e0",
+ "hashes": {
+  "short": "d9dfc8b35a644dfdb5b171c32b67e142ff07f70df980a7bc552d71550e210b30",
+  "reel": "f4f35acca4341f2e4d29186a06ae1d0e0782e9b30a6a90d9eb00f780b1bf8125"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668678730,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z",
+ "issue_n_system": 966
+}

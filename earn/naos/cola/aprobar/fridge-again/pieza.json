@@ -1,0 +1,47 @@
+{
+ "slug": "fridge-again",
+ "titulo": "Me opening the fridge again like it restocked",
+ "clave": "2026-11-29|fridge-again",
+ "caption": "Me opening the fridge again like it restocked\n\nMe opening the fridge again like it restocked.\n\nSame shelf, same jar, same light. You are not checking the fridge, you are checking if something changed.\n\nSend it to the friend who refreshes everything.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me opening the fridge again like it restocked.\n\nSame shelf, same jar, same light. You are not checking the fridge, you are checking if something changed.\n\nSend it to the friend who refreshes everything.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A kitchen. A small ink-black block figure with white eyes stands on the left facing a tall fridge. The fridge door opens with a warm light and the figure's eyes turn happy, then the door closes and the figure sags a little. It happens a second time, then a third time with wide eyes, and at the end the figure narrows its eyes at the camera. The text stays: me opening the fridge again like it restocked.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "fridge-again",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hábitos de casa (revisar lo que no cambia)",
+ "blanco": "Cella (y quien abre la nevera otra vez)",
+ "destinatario": "the friend who refreshes everything",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": false,
+ "sale_utc": "2026-11-30T00:00:00Z"
+}

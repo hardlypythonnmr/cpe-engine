@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-24-carter-s-denny-s-dollar-general-libro",
+ "issue": 113,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T03:30:00Z",
+ "datos_utc": "2025-10-27T00:00:00Z",
+ "hash_contenido": "88fcc4da9ecf7607d880d02bb2a5479cd6f6fdf80b2b8940d157f11d544bd2bf",
+ "hashes": {
+  "carrusel": "20d2f5ee047bde6c16f2d2adce5dd924b8926cc5e19e6542a60e31fba3136a43"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6937510879,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-b",
+ "aprobado_evento_utc": "2026-11-17T03:42:28Z",
+ "issue_n_system": 1742
+}

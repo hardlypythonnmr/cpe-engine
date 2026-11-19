@@ -1,0 +1,53 @@
+{
+ "slug": "say-it-another-way",
+ "titulo": "Me explaining it a second time",
+ "clave": "2026-12-06|say-it-another-way",
+ "caption": "Me explaining it a second time\n\nA second explanation, given without the sigh, lands when it is built differently, not when it is said slower or louder.\n\nFor whoever taught you the same thing twice and never made it feel like twice.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction #habits",
+ "descripcion": "A second explanation, given without the sigh, lands when it is built differently, not when it is said slower or louder.\n\nFor whoever taught you the same thing twice and never made it feel like twice.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. Two small block figures with white eyes, an amber one on the left and a light blue one on the right. The amber one starts so you just... and the blue one tilts back with wide eyes and says huh? The amber one narrows its eyes for a moment, takes a breath with a small pulse and then says okay, another way. The blue one's eyes go happy with a pulse and it says ohh! The text stays: me explaining it a second time. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "say-it-another-way",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.9 dBFS, LRA 3.3 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "paciencia (explicarlo de otra manera)",
+ "blanco": "Cella y quien no entendió a la primera",
+ "destinatario": "whoever taught you the same thing twice",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; semana 1 de diciembre (1 al 6-dic); no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction."
+ },
+ "sale_utc": "2026-12-06T15:30:00Z",
+ "pie": "More of this: link in bio."
+}

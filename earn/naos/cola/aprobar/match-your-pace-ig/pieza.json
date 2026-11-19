@@ -1,0 +1,49 @@
+{
+ "slug": "match-your-pace-ig",
+ "titulo": "Walking ahead, then slowing down to match you",
+ "clave": "2026-11-21|casa-puerta-ig",
+ "sale_utc": "2026-11-22T01:00:00Z",
+ "caption": "Walking ahead, then slowing down to match you\n\nI was three steps ahead. You were not. So I came back one step and we got the same speed.\n\nNobody asked me to. That is the whole behavior.\n\nSend it to the friend who always walks a little behind you, or a little ahead.\n\n#Cella #relatable #friendship\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Three steps ahead. One step back. Same speed.\n\nSlowing down for someone without being asked is a small, exact way to say \"I am with you\".\n\n#Cella #relatable #friendship\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with music and one spoken take. A pink hallway with a white door and a wooden plank floor that fills the lower third. A small ink-black block figure with white eyes walks briskly to the right while a royal blue figure with sleepy eyes lags three steps behind. The camera follows along the floor. The ink-black figure stops, goes wide-eyed, steps back toward the blue one and drops low with the camera to the feet. Then the two walk side by side at the same slow speed, the camera pulling back, and both smile. The text, which appears after the first second: me, three steps ahead. Now one step. Same speed. Same film, 17 seconds. After the two walk side by side, a short spoken take says 'One step.' as the ink-black figure steps back. At the end both stand smiling by the door and the text reads: nobody asked me to.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "match-your-pace",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "17.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; one spoken take ('One step.'), 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.3 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room puerta, mood calma) and one voice take (mesa-maya, eleven_v4, from lib/cache-eleven, 0 credits) 4 dB under the music, music ducked 6 dB while it plays, no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word; frame 0 has no text on purpose (the line enters at 0.9 s); figures and door fully inside the frame"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "V",
+ "tema": "ir al paso del otro",
+ "blanco": "quien camina siempre adelante (Cella y quien mira)",
+ "destinatario": "the friend who walks too fast",
+ "cara": "A",
+ "mecanica_crecimiento": "enviar",
+ "comentario_fijado": "Who slows down for you?",
+ "experimento": true,
+ "experimento_prueba": "A1 (camera that follows Cella, plank floor, opening without 'if someone sent you this', text that enters at 0.9 s) and A2 (17 s Reel cut with the already paid take 'One step.' and a closing line; its 11 s silent Short twin is match-your-pace). Measured at 48 h and 7 days against the CM median: 118 reach on Instagram."
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "walk-at-their-pace-l",
+ "titulo": "Walking at their pace",
+ "clave": "2026-12-18|walk-at-their-pace-l",
+ "caption": "Walking at their pace\n\nWalking at their pace.\n\nPeople walking side by side fall into the same rhythm without noticing, and the match tends to make the talk feel closer.\n\nFor whoever slows down for the slow one.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Walking at their pace.\n\nPeople walking side by side fall into the same rhythm without noticing, and the match tends to make the talk feel closer.\n\nFor whoever slows down for the slow one.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. Two small block figures with white eyes, an amber one in the middle and a light blue one on the left. The amber one hurries ahead to the right, turns around with wide eyes and a bubble says ready. The blue one narrows its eyes and a bubble says slow today. The amber one walks back and a bubble says I'll slow down. Then both walk to the right together, slowly, with happy eyes and a pulse. The text stays: me walking at their pace. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "walk-at-their-pace-l",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "15.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.6 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ir al paso del otro",
+ "blanco": "Cella (y quien camina rapido y espera al lento)",
+ "destinatario": "whoever slows down for the slow one",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": "duracion-1411",
+ "brazo": "largo",
+ "escena": "walk-at-their-pace",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante); experimento duracion-1411: cada escena tiene un corte corto (-c) y uno largo (-l), publicar solo uno por escena por ronda"
+ },
+ "sale_utc": "2026-12-18T13:45:00Z"
+}

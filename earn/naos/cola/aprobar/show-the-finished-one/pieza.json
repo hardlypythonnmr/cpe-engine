@@ -1,0 +1,55 @@
+{
+ "slug": "show-the-finished-one",
+ "titulo": "The little house explains itself",
+ "clave": "2027-01-26|show-the-finished-one",
+ "sale_utc": "2027-01-26T21:30:00Z",
+ "caption": "The little house explains itself\n\nThree loose pieces and a lot of words. She put them together once, and the little house explained itself.\n\nSeeing the finished thing first makes every step after it make sense, and it takes ten seconds.\n\nFor whoever shows what it looks like finished before explaining the steps.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Seeing the finished thing first makes every step after it make sense, and it takes ten seconds.\n\nFor whoever shows what it looks like finished before explaining the steps.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right three loose pieces on the floor: a brown square, an orange triangle and a small yellow square. A ink-black block figure with narrowed white eyes trembles at the left, then its eyes go wide, it steps closer and the triangle hops on top of the brown square like a roof, then the small yellow square hops in front like a door, and a small sparkle appears above the little house. Its eyes turn happy with a pulse. The text changes from: me: let me explain the steps, to: here's how it ends.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "show-the-finished-one",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "mostrar primero como se ve terminado antes de explicar los pasos",
+ "blanco": "Cella y quien explica paso por paso sin mostrar a donde va",
+ "destinatario": "shows what it looks like finished before explaining the steps",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

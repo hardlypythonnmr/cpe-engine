@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-30-on-semiconductor-historia",
+ "issue": 80,
+ "version": 5,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-30T16:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "b52a5ab501010e0e4bf05d4615ee6fd46cfafa7488b0cb2d007321ac8dd00d07",
+ "hashes": {
+  "historia": "47e24b7dc107cde562d72c0aa8516241eecba697e34338bd8f740d9e36f03552"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6914676854,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-d",
+ "caducado_utc": "2026-11-16T11:06:05Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:13Z",
+ "issue_n_system": 1334
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "last-piece-in",
+ "issue": 92,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-30T15:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "451b28f5f121a45f840c163fac1b194c31cfd9c63f830067957713eae7cfc5d8",
+ "hashes": {
+  "short": "707150d53d416977a2c6cfb4ca2d3e159f8a970dd7a4321eae365cef0c087215",
+  "reel": "041fb9e4d1993827ba0cbc221c8289e093bcc56b2fbd6cd29a358f2352a1ecf7"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886884076,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "ened-2631",
+ "caducado_utc": "2026-11-15T00:51:16Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1367
+}

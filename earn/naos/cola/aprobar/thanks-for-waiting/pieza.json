@@ -1,0 +1,51 @@
+{
+ "slug": "thanks-for-waiting",
+ "titulo": "Thank you first. Sorry second",
+ "clave": "2026-12-13|thanks-for-waiting",
+ "sale_utc": "2026-12-13T22:20:00Z",
+ "caption": "Thank you first. Sorry second\n\nShe was ten minutes late. The first thing she said was thank you, not sorry.\n\nThanking someone for waiting tells them their time mattered, and it opens the visit warmer than an apology does.\n\nFor whoever says thanks for waiting before sorry.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Thanking someone for waiting tells them their time mattered, and it opens the visit warmer than an apology does.\n\nFor whoever says thanks for waiting before sorry.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway. A royal blue block figure with narrowed eyes waits on the right. A ink-black block figure with white eyes rushes in from the left and a bubble says thanks for waiting! The blue one opens its eyes wide and turns happy, and a bubble says of course! The black one's eyes turn happy with a pulse. The text changes from: me opening with sorry I'm late, to: said thanks for waiting. they smiled.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "thanks-for-waiting",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.8 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "agradecer la espera en vez de abrir con una disculpa",
+ "blanco": "Cella y quien llega tarde y se pasa pidiendo perdon",
+ "destinatario": "says thanks for waiting before sorry",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "tanda_origen": "dic-h"
+}

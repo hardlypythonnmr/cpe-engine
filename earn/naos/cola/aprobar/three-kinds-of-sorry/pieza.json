@@ -1,0 +1,56 @@
+{
+ "slug": "three-kinds-of-sorry",
+ "titulo": "Three ways to say sorry",
+ "clave": "2026-12-16|three-kinds-of-sorry",
+ "sale_utc": "2026-12-17T00:30:00Z",
+ "caption": "Three ways to say sorry\n\nI used to apologize with a but attached. Then I started saying I was wrong and stopping there.\n\nAn apology tends to land when it names the thing and stops, and to fall apart when it comes with a but.\n\nFor whoever says sorry and stops there.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "An apology tends to land when it names the thing and stops, and to fall apart when it comes with a but.\n\nFor whoever says sorry and stops there.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table and a royal blue figure, in three labeled scenes. The but: a teal figure says sorry, but... and the blue one narrows its eyes. The pass: a brown figure says sorry you're upset. and the blue one looks down. The plain one: an ink-black figure leans in and says I was wrong., and the blue one's eyes turn happy. The text stays: three kinds of sorry. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-sorry",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pedir perdon",
+ "blanco": "Cella (y quien pide perdon con un pero)",
+ "destinatario": "says sorry and stops there",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the but",
+  "the pass",
+  "the plain one"
+ ],
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

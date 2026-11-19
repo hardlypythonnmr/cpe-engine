@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-28-autodesk-lamina",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T20:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "f1bc997447772eb29c9de3274da7a4f4e2cc3d0925350fdadb4f672d585ff421",
+ "hashes": {
+  "imagen": "9556afbf1b240cdaa218f891acc3887e0414d513c270a0dd6dc3eae2acfb2037"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885962940,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "thanks-for-waiting",
+ "issue": 83,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T22:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "064ff7440412db2ea0892a037ab283afe3517555090901e28ce4e1ae212b7b75",
+ "hashes": {
+  "short": "594f5b706395220f520fd03f14072845206ac2c744120c9e8a49aa1d23536d1a",
+  "reel": "071babc37ab711bae4e0bbb02dca6dc4f05643a6506d1cfeb95408c9eb190347"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886806889,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713-b",
+ "caducado_utc": "2026-11-15T00:45:28Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:06Z",
+ "issue_n_system": 1343
+}

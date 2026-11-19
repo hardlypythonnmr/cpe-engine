@@ -1,0 +1,22 @@
+{
+ "slug": "thanksgiving-plate-receipt",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3a7d2d66eec7d847ef3eb49ff786c92261988a1cafee4f6ed99bb8019d725b63",
+ "hashes": {
+  "imagen": "d2cd27268c3e2feac2cc0f58e12fc6d9d26e866c6186db9baf2bb084a008caed"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681444501,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "same-line-again",
+ "titulo": "Me reading the same line for the fifth time",
+ "caption": "Me reading the same line for the fifth time\n\nMe reading the same line for the fifth time.\n\nThe eyes keep moving after the attention has left. Say that one line out loud once and it usually sticks.\n\nSend it to the friend who has been on page three all week.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me reading the same line for the fifth time.\n\nThe eyes keep moving after the attention has left. Say that one line out loud once and it usually sticks.\n\nSend it to the friend who has been on page three all week.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. A small ink-black block figure with white eyes stands on the left facing a large page on the right, and a small counter above the page reads x1. Its eyes sweep to the left and then slowly to the right along a line, then narrow, then it starts again, and the counter goes x2, x3, x4, x5. At the end its eyes go wide and it narrows its eyes at the camera. The text stays: me reading the same line for the fifth time.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "same-line-again",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "atención (leer sin leer)",
+ "blanco": "Cella (y quien relee la misma línea)",
+ "destinatario": "the friend who has been on page three all week",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "sale_utc": "2026-11-25T01:30:00Z",
+ "clave": "2026-11-24|same-line-again"
+}

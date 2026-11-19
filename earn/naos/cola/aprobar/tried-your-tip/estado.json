@@ -1,0 +1,26 @@
+{
+ "slug": "tried-your-tip",
+ "issue": 82,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-09T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9dc482e683d89ff5111d244d45d29a785196af82b7d43f709f5a32e7aba694e4",
+ "hashes": {
+  "short": "3efdada620c88dce119ce9f9aa250372e821e162f4a2cc7ce1ff02f2f99f02e8",
+  "reel": "b65c12ed2056e7c2ce084f495f568fdeefe10645bb955723b1d0006ca1f9cb07"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886799142,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-h-0713",
+ "caducado_utc": "2026-11-15T00:44:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:05Z",
+ "issue_n_system": 1342
+}

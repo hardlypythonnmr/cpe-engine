@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-giving-directions",
+ "titulo": "Three ways to point the way",
+ "clave": "2026-12-22|three-kinds-of-giving-directions",
+ "sale_utc": "2026-12-22T13:00:00Z",
+ "caption": "Three ways to point the way\n\nI used to point and say over there. Then I started giving a landmark and one turn.\n\nDirections stick when they name something you can see, and a landmark is easier to follow than a string of lefts and rights.\n\nFor whoever gives directions with a landmark.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Directions stick when they name something you can see, and a landmark is easier to follow than a string of lefts and rights.\n\nFor whoever gives directions with a landmark.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A terracotta room with a staircase on the right and a navy figure that asks the station? in each of three labeled scenes. The wave: a teal figure says over there. and the navy one narrows its eyes. The maze: a brown figure trembles and says left, right, left? and the navy one looks down. The landmark: an ink-black figure says past the bakery, turn left., and the navy one answers with happy eyes. The text stays: three kinds of giving directions. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-giving-directions",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.5 dBFS, LRA 3.3 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "dar indicaciones",
+ "blanco": "Cella (y quien señala con 'por allá')",
+ "destinatario": "gives directions with a landmark",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the wave",
+  "the maze",
+  "the landmark"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

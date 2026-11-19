@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-12-08-home-depot-expediente",
+ "issue": 104,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T21:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "fe71a57282678ab0aeb6fddf09ad94c5c00af58a01bfda0523b73a7a0298bfef",
+ "hashes": {
+  "carrusel": "38a40a8b495ac08192ccf435c19b03c8842807a6185081805b58e896dde68293"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6914697617,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-b",
+ "caducado_utc": "2026-11-16T11:06:46Z",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "issue_n_system": 1477
+}

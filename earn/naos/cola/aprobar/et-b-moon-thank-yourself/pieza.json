@@ -1,0 +1,82 @@
+{
+ "slug": "et-b-moon-thank-yourself",
+ "titulo": "I thanked the moon. It said: thank yourself, actually.",
+ "clave": "2026-11-26|etereo",
+ "sale_utc": "2026-11-27T03:41:00Z",
+ "caption": "Thanksgiving, pointed back at you: why the person you forget to thank is yourself.\n\nI thanked the moon. It said: thank yourself, actually.\n\nCloser to yourself.",
+ "descripcion": "",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: seen over the shoulder of a small round figure, a night window with the real moon of 2026-11-26 (91 percent lit at release time) and a dark tree; the camera pushes in slowly. White words in the middle read: \"I thanked the moon. It said: thank yourself, actually.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-b-moon-thank-yourself",
+  "version": 8
+ },
+ "filo": "C",
+ "envio": "the friend who thanks everyone but themselves",
+ "destinatario": "the friend who thanks everyone but themselves",
+ "experimento": true,
+ "experimento_prueba": "AB caption-tema: explícito, sin hashtags (D-376); control: etéreos del 15 al 22-nov (caption poético, con hashtags); lectura a 7 días el 2026-12-04; además: gratitud con giro vanidoso: la luna devuelve el agradecimiento a quien lo da; mide si el giro de autoelogio se envía más que el etéreo contemplativo",
+ "ab": {
+  "prueba": "caption-tema",
+  "brazo": "explicito",
+  "par": null,
+  "control": "etéreos del 15 al 22-nov (caption poético)",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-04T03:41:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "etéreos del 15 al 22-nov (con #naos y el del tema)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-04T03:41:00Z"
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "6.0 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "et-b-moon-thank-yourself: 6.00 s, -14.0 LUFS, pico -3.8 dBFS, texto 773 a 1028 px (banda 168-1330, avisos 0), bucle: 1059 px con dif>24 y media 0.26/255; own music (motor/musica and motor/sonido, 0 credits), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, frame 0 readable without sound"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Moon",
+   "estado": "OK",
+   "nota": "USNO 2026-11-26: 91 percent lit at 22:41 ET, waning gibbous; the drawn moon is that one (release day)"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "alt says 91 percent (ephem 90.6); duplicate experimento_prueba removed; peak -3.8 dBTP"
+  }
+ ]
+}

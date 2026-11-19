@@ -1,0 +1,26 @@
+{
+ "slug": "movies-alone-h",
+ "issue": 58,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T01:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6911f2cb644304601996f600a9de70f6f6c837a18df53f2d00e927ff5d9738da",
+ "hashes": {
+  "historia": "30dff148213b5b497412795893d97d8a0e1011cdb6594cacfeb43214fdbe191a"
+ },
+ "canales": [
+  "historia"
+ ],
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aprobado_evento_utc": "2026-11-13T16:22:35Z",
+ "origen": "movies-alone",
+ "eco_historia": {
+  "via": "eco-historia",
+  "cita": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#987, 2026-11-09T12:57:18Z; eco-historia (2026-11-13T16:22:35Z): copia en historia de movies-alone, publicada 2026-11-11T12:14:36Z, misma imagen (huella 2e86adbd8ee2b6f5); regla de N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "origen": "movies-alone"
+ },
+ "issue_n_system": 987
+}

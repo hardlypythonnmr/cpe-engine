@@ -1,0 +1,25 @@
+{
+ "slug": "let-the-soup-simmer",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T13:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1a0ccd0ed6eaa28d185b27b4267e9be2134ba0a52dd34393f5fe67d549ef1433",
+ "hashes": {
+  "short": "0c7afcbe853b06e67493829cd74f47440289a78969c95799ea3c290c247b8cfa",
+  "reel": "97c56a7508bacf430b0913d845f8e77ba7e979a4ef40542dcbd653c137be20cf"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870917579,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

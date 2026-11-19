@@ -1,0 +1,53 @@
+{
+ "slug": "ask-for-the-way",
+ "titulo": "Not asking for directions",
+ "clave": "2026-12-01|ask-for-the-way",
+ "caption": "Not asking for directions\n\nCella walked past the same person three times and still did not ask.\n\nPeople asked for directions almost always help, and far more often than the asker expects.\n\nFor the friend who would rather circle the block.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella walked past the same person three times and still did not ask.\n\nPeople asked for directions almost always help, and far more often than the asker expects.\n\nFor the friend who would rather circle the block.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway. A small ink-black block figure with white eyes walks back and forth across the room past a royal blue one that stands still on the right, watching. A clock above them counts the minutes up. The black one narrows its eyes each pass. At the end its eyes go wide and it trembles. The text changes from: me not asking for directions, to: asked: 10 seconds. found it: 2 minutes.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "ask-for-the-way",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.7 dBFS, LRA 3.5 LU; own music (motor/sonido midi, room puerta, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "pedir indicaciones (preguntar en vez de dar vueltas)",
+ "blanco": "Cella y quien prefiere dar vueltas a preguntar",
+ "destinatario": "the friend who would rather circle the block",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Remate",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-01T16:15:00Z"
+}

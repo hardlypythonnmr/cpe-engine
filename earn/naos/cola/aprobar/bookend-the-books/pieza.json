@@ -1,0 +1,55 @@
+{
+ "slug": "bookend-the-books",
+ "titulo": "One bookend for the tired books",
+ "clave": "2026-12-12|bookend-the-books",
+ "sale_utc": "2026-12-13T00:30:00Z",
+ "caption": "One bookend for the tired books\n\nThree books leaned like they were tired. One bookend at the end and they stood up.\n\nLeaning books warp their spines, and an end piece costs less than the next shelf of repairs.\n\nFor whoever gives the row of books a bookend so they stop leaning.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Leaning books warp their spines, and an end piece costs less than the next shelf of repairs.\n\nFor whoever gives the row of books a bookend so they stop leaning.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and three books leaning to the right in a row: blue, terracotta and green. A royal blue block figure with narrowed eyes says they'll lean fine. A ink-black block figure with white eyes answers give them an end, and a gray bookend slides in from the right and the three books straighten up one after another. The blue one's eyes go wide and says ...oh. they stand. Both end with happy eyes. The text stays: me, giving them an end.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "bookend-the-books",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ponerle un tope a los libros que se inclinan",
+ "blanco": "Cella y quien deja la fila de libros caerse de lado",
+ "destinatario": "gives the row of books a bookend so they stop leaning",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 6 y 11 al 13-dic (tanda dicn, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicn"
+}

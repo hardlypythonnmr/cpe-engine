@@ -1,0 +1,24 @@
+{
+ "slug": "cella-reviews-sunday",
+ "issue": 7,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ced6bec6ba97bb6c40e6fd7150b1424f8155c41c3d70573010818a186c9277c0",
+ "hashes": {
+  "carrusel": "ce710a996fa121e047bc0d1c44f9bc673c2335dda2b416ef553e1347144cffd3"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6886295199,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 963
+}

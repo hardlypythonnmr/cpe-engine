@@ -1,0 +1,26 @@
+{
+ "slug": "walk-instead-of-waiting",
+ "issue": 86,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "80f10c13f86af0d438f6e14131ba95fd9c204343ed2539ee130362a0f9bdbc8a",
+ "hashes": {
+  "short": "a6b824e19cd97cd24cf4d1f980e415c384b39cdbaa78ef7aaa597e5d5a3dab33",
+  "reel": "9c31b91c0e3ee97bd17ff6fc49c34fe1fbead880d8cc28d4fe334ddf3f49f633"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886834072,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-k-1013",
+ "caducado_utc": "2026-11-15T00:47:23Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1351
+}

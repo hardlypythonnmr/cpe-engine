@@ -1,0 +1,95 @@
+{
+ "slug": "dd-2026-11-22-axalta-coating-systems-zoominfo-libro",
+ "titulo": "Axalta and ZoomInfo: record-year sales or revenue next to the jobs in the cuts announced after",
+ "clave": "2026-11-22|mercury|libro|2026-11-22-axalta-coating-systems-zoominfo-libro",
+ "sale_utc": "2026-11-22T03:30:00Z",
+ "caption": "Axalta and ZoomInfo: record-year sales or revenue next to the jobs in the cuts announced after\n\nFrom the archive: 2023 to 2026.\n\nAxalta Coating Systems, Feb 26, 2024\nThe math: $5.2 billion (2023 net sales, its record-sales year) ÷ about 600 (jobs in the cut announced Feb 2024) = about $8.66 million of 2023 net sales per job cut announced in 2024\n\nZoomInfo, May 5, 2026\nThe math: $1.249 billion (2025 revenue, its record-revenue year) ÷ about 600 (jobs in the reduction of May 2026) = about $2.08 million of 2025 revenue per job in the reduction announced in 2026\n\nRecord, they said. Here is the per-job column. (Our take.)\n\nSources: Axalta Coating Systems, Form 8-K, filed Feb 8, 2024; Axalta Coating Systems, Form 8-K, filed Feb 27, 2024; ZoomInfo, Form 8-K, filed Feb 9, 2026; ZoomInfo, Form 8-K, filed May 11, 2026.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "",
+ "alt": "Slide 1 of 6. Cobalt blue poster with white type. At the top, the date: Archive · 2023 to 2026. Title: \"Axalta and ZoomInfo: record-year sales or revenue next to the jobs in the cuts announced after\" Above the giant figure, the company: Axalta Coating Systems and what the figure measures: 2023 net sales per job cut announced in 2024. The figure, about $8.66M, fills the width at the bottom.",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-05-11T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "libro",
+ "formato": "carrusel",
+ "origen": "libro",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1616862/000161686224000009/a1220238-kyearxendxex99.htm",
+   "medio": "SEC EDGAR · Axalta Coating Systems · Form 8-K",
+   "titulo": "Axalta Coating Systems, Form 8-K, filed Feb 8, 2024",
+   "hora_utc": "2024-02-08T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1616862/000161686224000018/axta-20240226.htm",
+   "medio": "SEC EDGAR · Axalta Coating Systems · Form 8-K",
+   "titulo": "Axalta Coating Systems, Form 8-K, filed Feb 27, 2024",
+   "hora_utc": "2024-02-27T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000004/zi-8kex991x20260209.htm",
+   "medio": "SEC EDGAR · ZoomInfo · Form 8-K",
+   "titulo": "ZoomInfo, Form 8-K, filed Feb 9, 2026",
+   "hora_utc": "2026-02-09T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/zi-20260505.htm",
+   "medio": "SEC EDGAR · ZoomInfo · Form 8-K",
+   "titulo": "ZoomInfo, Form 8-K, filed May 11, 2026",
+   "hora_utc": "2026-05-11T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "4 cited filings, named with form and date"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about when it is not exact"
+  },
+  {
+   "que": "Slides",
+   "estado": "OK",
+   "nota": "6 slides 1080x1350, converted from PNG to JPEG for Instagram"
+  }
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt_laminas": [
+  "Slide 1 of 6. Cobalt blue poster with white type. At the top, the date: Archive · 2023 to 2026. Title: \"Axalta and ZoomInfo: record-year sales or revenue next to the jobs in the cuts announced after\" Above the giant figure, the company: Axalta Coating Systems and what the figure measures: 2023 net sales per job cut announced in 2024. The figure, about $8.66M, fills the width at the bottom.",
+  "Slide 2 of 6. Cobalt blue poster with white type. Axalta Coating Systems, Feb 26, 2024. The count in one line: $5.2 billion (2023 net sales, its record-sales year) divided by about 600 (jobs in the cut announced Feb 2024) equals about $8.66 million of 2023 net sales per job cut announced in 2024. The literal sentence: \"achieved record sales and Adjusted EBITDA\" Form 8-K, filed Feb 8, 2024. A giant about $8.66M fills the width at the bottom.",
+  "Slide 3 of 6. Cobalt blue poster with white type. ZoomInfo, May 5, 2026. The count in one line: $1.249 billion (2025 revenue, its record-revenue year) divided by about 600 (jobs in the reduction of May 2026) equals about $2.08 million of 2025 revenue per job in the reduction announced in 2026. The literal sentence: \"we delivered record revenue, expanded profitability, and increased free cash flow\" Form 8-K, filed Feb 9, 2026. A giant about $2.08M fills the width at the bottom.",
+  "Slide 4 of 6. Cobalt blue poster with white type. Title: How we count. For each company, the number A and the number B from its filing (shortened, never rounded up), with the form and the date, and the rule: each result is divided and never rounded up; anything approximate says about.",
+  "Slide 5 of 6. Cobalt blue poster with white type. Title: What this does not say. We count only what each company called a record: sales for Axalta, revenue for ZoomInfo. Not net profit. The record year ended before the cuts were announced. ZoomInfo's 8-K says about one-fourth of its 600 roles are reallocated to or offset by hiring in different locations. Our take: Record, they said. Here is the per-job column.",
+  "Slide 6 of 6. Cobalt blue poster with white type. Title: Sources. One line per filing: company, form and filing date. A giant call to action fills the width at the bottom: Save this."
+ ]
+}

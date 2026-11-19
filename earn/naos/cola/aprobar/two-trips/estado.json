@@ -1,0 +1,26 @@
+{
+ "slug": "two-trips",
+ "issue": 81,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e1bdb9bea66d6a437283edb22eea42ab6c6cf293cc479add8be803da1ee26181",
+ "hashes": {
+  "short": "0c5bfd53c5f9c83354a4ca42c02feaf8b8cbc7a2c1db563bb36b870756c836d1",
+  "reel": "4711b327091fb9f56657038d1d3e036d8c84a895bbc06b815a21e581a300dccf"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886793939,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-g-0106b",
+ "caducado_utc": "2026-11-15T00:44:09Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1341
+}

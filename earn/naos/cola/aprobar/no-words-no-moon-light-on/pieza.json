@@ -1,0 +1,56 @@
+{
+ "slug": "no-words-no-moon-light-on",
+ "titulo": "No moon tonight: Cella leaves the porch light on",
+ "clave": "2027-01-07|casa-patio-noche",
+ "sale_utc": "2027-01-07T23:00:00Z",
+ "caption": "No moon tonight: Cella leaves the porch light on\n\nJan 7, new moon at 20:24 UTC: tonight the moon is 0.1% lit and the sky is dark. Cella turns on the porch light and leaves the door unlatched.\n\nFor whoever is coming home after dark.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #nowords #newmoon",
+ "descripcion": "Jan 7, new moon at 20:24 UTC: tonight the moon is 0.1% lit and the sky is dark. Cella turns on the porch light and leaves the door unlatched.\n\nFor whoever is coming home after dark.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A night patio under a dark blue sky full of stars and no moon. A small amber block figure with white eyes stands on the left and a door stands on the right. A square patch of warm light switches on next to the door and the figure's eyes go wide. It walks toward the door and leans in, and the door opens a crack with a thin line of warm light. The figure's eyes close in a smile and it pulses. The text stays: jan 7, no moon tonight, the porch light stays on. The last card: for whoever is coming home after dark, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella left the light on tonight. Somebody is coming home to it.",
+ "casa": {
+  "id": "no-words-no-moon-light-on",
+  "version": 8
+ },
+ "evolucion": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 19 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.0 dBFS, LRA 4.6 LU; own music (motor/musica/pulso.py, mode cielo), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s1, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud. Semana ene-s1: sin largos ni medios (prueba 3a del acta)."
+  }
+ ],
+ "filo": "V",
+ "tema": "luna nueva: dejar la luz del portal prendida y la puerta sin pestillo",
+ "blanco": "Cella (y quien llega a casa de noche)",
+ "destinatario": "whoever is coming home after dark",
+ "cara": "A",
+ "variante": "base",
+ "experimento": false,
+ "tipo": "LUNA",
+ "modo": "No words"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "ring-once-and-wait",
+ "issue": 86,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2f22eed1f53c6c1dc73dc88be560cc8b42bb361c10b789682623360714f28445",
+ "hashes": {
+  "short": "92625824281ab46b25f90873c6e9fe1e14dd1fe0ec7a0b9a749757eae00ec4c8",
+  "reel": "31fc5aa6ac28fc057ac2d26c3390cf70639efff2bed39015a35a601bbe5f2ab7"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886832528,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-k-1013",
+ "caducado_utc": "2026-11-15T00:47:23Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1351
+}

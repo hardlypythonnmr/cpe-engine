@@ -1,0 +1,55 @@
+{
+ "slug": "coaster-first",
+ "titulo": "The coaster goes under before the glass",
+ "clave": "2026-12-08|coaster-first",
+ "sale_utc": "2026-12-09T02:30:00Z",
+ "caption": "The coaster goes under before the glass\n\nA cold glass on a friend's wood table leaves a ring. A coaster went under it first.\n\nA coaster under the glass takes two seconds, and the host never finds the ring afterwards.\n\nFor whoever slides a coaster under the glass on a friend's table.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A coaster under the glass takes two seconds, and the host never finds the ring afterwards.\n\nFor whoever slides a coaster under the glass on a friend's table.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark wooden table with a tall glass of water on the right and a tan flat coaster at the left end. A ink-black block figure with white eyes walks up from the left, its eyes go wide, it leans, and the glass lifts a little while the coaster slides under it, then the glass settles onto the coaster. The figure's eyes turn happy with a pulse. The text stays: me, protecting their table.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "coaster-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "poner un posavasos bajo el vaso en la mesa de madera de un amigo",
+ "blanco": "Cella y quien deja el vaso mojado directo sobre la madera",
+ "destinatario": "slides a coaster under the glass on a friend's table",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 7 al 10-dic (tanda dicm, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dicm"
+}

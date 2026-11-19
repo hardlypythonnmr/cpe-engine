@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-sorry",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-17T00:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0716bc8ecbd86d4dfadca407de8b0e594ea90e8abf783243d32b052dd853d7d0",
+ "hashes": {
+  "short": "5d17f302f8687595371c1c2f305bb82d3f932eb39a4f6f311ebe00fe454f4bbc",
+  "reel": "f5c2619098bb0127e45331feaabd368f174159916fad77963988e219710918ff"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886945683,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

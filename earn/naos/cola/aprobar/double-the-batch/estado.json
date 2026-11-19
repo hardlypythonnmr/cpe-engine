@@ -1,0 +1,26 @@
+{
+ "slug": "double-the-batch",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-07T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4763a4a37e93781bc2f568fc5f7da3378b1d0839c2042dfb1a3ac7d810127cbc",
+ "hashes": {
+  "short": "912d8b9e873839b47446b4a444cf85f4562c6778d385cc7f860b5f4cfb53a3e0",
+  "reel": "0fc5b75d87c7e9b9f496ec0e61c1b4ee965629810dccedaa701dfeb1af00245d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886822751,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:35Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

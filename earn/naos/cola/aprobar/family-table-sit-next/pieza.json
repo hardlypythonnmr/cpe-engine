@@ -1,0 +1,53 @@
+{
+ "slug": "family-table-sit-next",
+ "titulo": "If someone sent you this, they will sit next to you at the awkward family table",
+ "clave": "2026-11-24|family-table-sit-next",
+ "sale_utc": "2026-11-24T18:25:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A dining room. Two small block figures sit side by side on a bench near a table. They blink slowly, lean toward each other and their eyes turn happy. Text: if someone sent you this they will sit next to you at the awkward family table.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-23 (casa/lib/historias-1123-piezas.py)",
+ "sticker": "ninguno",
+ "destinatario": "the one you want beside you at the family dinner",
+ "experimento": true,
+ "experimento_prueba": "AB idea-envio: para-enviar, par de calendar-busy-soul-buffering (misma franja, misma forma; lectura a 7 días el 2026-12-01)",
+ "ab": {
+  "prueba": "idea-envio",
+  "brazo": "para-enviar",
+  "par": "calendar-busy-soul-buffering",
+  "metricas": [
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-01T18:25:00Z",
+  "nota": "para-enviar = el destinatario está en pantalla (\"send this to...\" o \"if someone sent you this\"); normal = la idea se manda igual (destinatario en la ficha) pero la pantalla no lo dice"
+ },
+ "casa": {
+  "id": "family-table-sit-next",
+  "version": 8
+ },
+ "tono": "tender, weird",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-23/hoja-historias.png"
+  }
+ ]
+}

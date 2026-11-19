@@ -1,0 +1,22 @@
+{
+ "slug": "burnt-part-is-mine",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d58b8fe6ad495eb23c57b75d36af854fd54bc1f25cde903361169ec2153153ce",
+ "hashes": {
+  "historia": "10f36f8b7749d8c152332d54bbd3de07fe5099a07402a71c842272c5bf6937ee"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6681446016,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

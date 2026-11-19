@@ -1,0 +1,26 @@
+{
+ "slug": "note-on-the-door",
+ "issue": 86,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-11T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1484163a02e9d00cebb63b915df63abf39762113fc1d12cbb120845b65dea14c",
+ "hashes": {
+  "short": "98d636a9d16fee2c3ac19f4aac8ed2654d91ba866faebf6ba1011f2dd4dd8185",
+  "reel": "6a3acac59e412803462f23416449dba2e3caf16fc1c96805c0da5eb8699d354f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886833047,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-k-1013",
+ "caducado_utc": "2026-11-15T00:47:23Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1351
+}

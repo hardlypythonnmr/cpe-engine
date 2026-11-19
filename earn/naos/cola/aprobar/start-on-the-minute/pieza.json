@@ -1,0 +1,55 @@
+{
+ "slug": "start-on-the-minute",
+ "titulo": "It's two. We start",
+ "clave": "2027-02-09|start-on-the-minute",
+ "sale_utc": "2027-02-09T18:25:00Z",
+ "caption": "\"Wait for one more.\" \"It's two. We start.\" The clock hit two and the first box on the agenda ticked.\n\nStarting when you said respects everyone who came on time, and the late one catches up faster than you'd think.\n\nFor whoever starts on the minute for the ones who came on time.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Starting when you said respects everyone who came on time, and the late one catches up faster than you'd think.\n\nFor whoever starts on the minute for the ones who came on time.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a clock sign that says 1:59 over a paper agenda with three boxes. A royal blue block figure with narrowed eyes says wait for one more. A ink-black block figure with white eyes answers it's two, we start, the sign flips to 2:00 and the three boxes on the agenda tick one after another, with a small sparkle. The blue one's eyes go wide and says ...ok. starting. Both end with happy eyes. The text stays: me starting on the minute.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "start-on-the-minute",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.2 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "empezar a la hora dicha en vez de esperar a uno mas",
+ "blanco": "Cella y quien retrasa a los que si llegaron a tiempo",
+ "destinatario": "starts on the minute for the ones who came on time",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

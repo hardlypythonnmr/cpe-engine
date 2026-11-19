@@ -1,0 +1,25 @@
+{
+ "slug": "the-pie-has-a-seat",
+ "issue": 61,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T14:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "90f14f804ba7d6c3c33d3246ab25dd7d454ea170db6ca17e62fff26dbff62ee5",
+ "hashes": {
+  "short": "941989fdfa1ba7ddc70ca48aed174dce5f73a70df15c08fd4aa51df5a5db14b3",
+  "reel": "d95553e62064ac023f677236cea531e53c9f483b4018cf0a4f10fd0bdb314828"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6857343453,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "v7-cm-2123",
+ "aprobado_evento_utc": "2026-11-13T15:28:22Z",
+ "issue_n_system": 1089
+}

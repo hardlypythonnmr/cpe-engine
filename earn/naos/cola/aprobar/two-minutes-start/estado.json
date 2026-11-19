@@ -1,0 +1,23 @@
+{
+ "slug": "two-minutes-start",
+ "issue": 26,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T08:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3144dac8e44b4f61b14693f6aba431a08cb7516a87f2987abb2ad55e83ba46d1",
+ "hashes": {
+  "historia": "8b151afbccc1133bd52b3851811f83ed1719cf28018240907119e4218b723876"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6951732572,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17-tendencia",
+ "aprobado_evento_utc": "2026-11-17T16:47:28Z",
+ "issue_n_system": 1760
+}

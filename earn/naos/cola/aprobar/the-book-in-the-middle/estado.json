@@ -1,0 +1,25 @@
+{
+ "slug": "the-book-in-the-middle",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-05T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "225feaf9398a01955d683c8b118bb70724997710335e2b9c36507c562dca929d",
+ "hashes": {
+  "short": "6512394da84a7d63a061a6907e9f8530dd412a37ea7430c1ac95efba6b02f1c0",
+  "reel": "c6d20320aa7927d7cd7e3ef15d0db501189373944fabecc8622c9f6729917104"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870903609,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

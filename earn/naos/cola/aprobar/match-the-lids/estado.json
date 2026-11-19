@@ -1,0 +1,26 @@
+{
+ "slug": "match-the-lids",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T15:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8a8caea5ea7e679ef8a8b97f30905ffc4e8d22784a114975bcdcc635d6844ea8",
+ "hashes": {
+  "short": "b9ccaa36da7d4c284cc70a7c6a4ef84714fcdf0173de1664b33f2081d5a04e5d",
+  "reel": "eefd11b617c08cc18cf2df01e0947b32a1d05482f2cc5a0e1bdb0e96214a13b4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886862906,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

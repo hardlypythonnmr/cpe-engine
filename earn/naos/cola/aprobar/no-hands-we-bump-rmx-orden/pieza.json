@@ -1,0 +1,70 @@
+{
+ "slug": "no-hands-we-bump-rmx-orden",
+ "titulo": "No hands. We bump.",
+ "clave": "2026-11-25|no-hands-we-bump-rmx-orden",
+ "sale_utc": "2026-11-25T20:50:00Z",
+ "caption": "No hands. We bump.\n\nNo hands. We bump.\n\nFor whoever you say hello to with your whole body.\n\n#CuteAnimation #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "No hands. We bump.\n\nFor whoever you say hello to with your whole body.\n\n#CuteAnimation #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A pink room. Two small block figures with doorway legs and white eyes, one in ink and one in cobalt blue, look down at their own sides where hands would be, then at each other. They walk together and bump bodies softly, eyes happy. They back up, then bump again with a running start, hop once together, and go back to their places. The words No hands. We bump. stay on screen.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "no-hands-we-bump",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Remix",
+   "estado": "OK",
+   "nota": "D-531: same sound as no-hands-we-bump (no new ElevenLabs call); test axis orden, arm C (A = the original); changes: scene order: opens on the bump (3.0 s to 8.0 s), then the look down and the walk (0 to 3.0 s); the music runs unchanged from 0"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -6.4 dBFS, the original's mix untouched (only cut, reordered or faded)"
+  },
+  {
+   "que": "Repeat risk",
+   "estado": "AVISO",
+   "nota": "dHash best match 0.7 of 64 bits (threshold 14), colour change 9.6: casi igual (motor/remezcla/RIESGO.md)"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "remezcla": {
+  "origen": "no-hands-we-bump",
+  "eje": "orden",
+  "brazo": "C",
+  "control": "A = no-hands-we-bump",
+  "experimento": "rmx-2026-11-19",
+  "cambios": [
+   "scene order: opens on the bump (3.0 s to 8.0 s), then the look down and the walk (0 to 3.0 s); the music runs unchanged from 0"
+  ],
+  "huella": {
+   "dhash_media": 0.7,
+   "dhash_min": 0,
+   "umbral": 14,
+   "cambio_color": 9.6,
+   "distinta": false,
+   "lectura": "casi igual"
+  },
+  "elevenlabs_llamadas": 0,
+  "decision": "D-531"
+ }
+}

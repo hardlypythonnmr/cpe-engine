@@ -1,0 +1,25 @@
+{
+ "slug": "low-battery",
+ "issue": 69,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "74eff70f8082e770d25bf78056f4acfddc47de2cd5e60b9878769520663232ee",
+ "hashes": {
+  "short": "3b1d1c0fda86e5174cbdabe22a3789924e9c5e7f6295eae483dc0648948670c5",
+  "reel": "bfcf0572636807ccdb1bcb30c1ee7c053212534da3ee91c63cf4db91dddcd94a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866099270,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2125",
+ "aprobado_evento_utc": "2026-11-13T22:32:44Z",
+ "issue_n_system": 1212
+}

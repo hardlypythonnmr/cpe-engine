@@ -1,0 +1,57 @@
+{
+ "slug": "three-kinds-of-interrupting",
+ "titulo": "Three ways to cut in",
+ "clave": "2026-12-21|three-kinds-of-interrupting",
+ "sale_utc": "2026-12-21T13:00:00Z",
+ "caption": "Three ways to cut in\n\nI used to finish my friend's sentences for them. Then I started waiting for the end of the pause.\n\nA pause is often a person still thinking, and letting it run tends to bring out the part they were about to say.\n\nFor whoever waits out a pause before answering.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A pause is often a person still thinking, and letting it run tends to bring out the part they were about to say.\n\nFor whoever waits out a pause before answering.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a green wall and a table, and a blue figure that begins to speak in each of three labeled scenes. The cut-in: a purple figure jumps in with oh, me too! while the blue one narrows its eyes. The finisher: a brown figure completes the sentence with late. I know. and the blue one narrows its eyes again. The pause: an ink-black figure leans in and waits, with happy eyes, until the blue one finishes with found my keys. The text stays: three kinds of interrupting. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "three-kinds-of-interrupting",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "interrumpir",
+ "blanco": "Cella (y quien termina la frase del otro)",
+ "destinatario": "waits out a pause before answering",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "tres-clases-1411",
+ "variante": "tres-clases",
+ "clases": [
+  "the cut-in",
+  "the finisher",
+  "the pause"
+ ],
+ "tanda_origen": "tres-clases-2-1411",
+ "modo": "Cella con música",
+ "plantilla": "three-kinds"
+}

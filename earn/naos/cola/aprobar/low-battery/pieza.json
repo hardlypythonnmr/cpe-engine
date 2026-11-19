@@ -1,0 +1,48 @@
+{
+ "slug": "low-battery",
+ "titulo": "Me ignoring the low battery warning",
+ "caption": "Me ignoring the low battery warning\n\nMe ignoring the low battery warning.\n\nPhone batteries wear fastest near empty or full. Topping up a little and often is gentler than running one flat.\n\nSend it to the friend who lives at 1 percent.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Me ignoring the low battery warning.\n\nPhone batteries wear fastest near empty or full. Topping up a little and often is gentler than running one flat.\n\nSend it to the friend who lives at 1 percent.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a window. A small amber block figure with white eyes stands on the left, facing a digital counter on the right that falls from 20% to 12%, 7%, 3% and 1%. Each time it shrugs with sleepy eyes and a bubble says later, in a bit, almost or one sec. In the last seconds the text changes from: me ignoring the low battery warning, to: battery: 1%. charger: upstairs. Its eyes go wide and it trembles, then it narrows its eyes at the camera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "low-battery",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "hábitos (ignorar el aviso de batería baja)",
+ "blanco": "Cella (y quien vive al uno por ciento)",
+ "destinatario": "the friend who lives at 1 percent",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "sale_utc": "2026-11-25T19:00:00Z",
+ "clave": "2026-11-25|low-battery"
+}

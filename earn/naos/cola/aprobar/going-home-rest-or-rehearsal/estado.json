@@ -1,0 +1,22 @@
+{
+ "slug": "going-home-rest-or-rehearsal",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e8c0ce32c3d0fbd588ddb1258c7fa24bb336f41df40c5c3d2862359381b552d8",
+ "hashes": {
+  "imagen": "5b5e036f8131afbf0094e9658e473a4d9e6465dd767c6f98dde66207cf663a35"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681439333,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

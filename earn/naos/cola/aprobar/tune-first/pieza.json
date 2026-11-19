@@ -1,0 +1,55 @@
+{
+ "slug": "tune-first",
+ "titulo": "One check on the tuner",
+ "clave": "2027-01-27|tune-first",
+ "sale_utc": "2027-01-27T13:30:00Z",
+ "caption": "One check on the tuner. The dot slid, overshot and settled in the middle, and the song had been fine all along.\n\nTuning first takes ten seconds, and it tells you whether the wrong note is you or the string.\n\nFor whoever tunes up before blaming the song.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Tuning first takes ten seconds, and it tells you whether the wrong note is you or the string.\n\nFor whoever tunes up before blaming the song.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a cream bar with a gold diamond above its middle and a coral dot at its left end. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and the dot slides along the bar, overshoots, comes back and settles under the diamond, turning green with a small sparkle. Its eyes turn happy with a pulse. The text stays: me tuning before I play.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "tune-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "afinar el instrumento antes de tocar para saber si el error es de uno o de la cuerda",
+ "blanco": "Cella y quien culpa a la cancion en vez de afinar",
+ "destinatario": "tunes up before blaming the song",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 27 al 31-ene (tanda ened, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "ened"
+}

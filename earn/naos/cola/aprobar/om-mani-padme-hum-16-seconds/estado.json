@@ -1,0 +1,23 @@
+{
+ "slug": "om-mani-padme-hum-16-seconds",
+ "issue": 20,
+ "version": 4,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T02:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7af50f74ac4e43958c05ba669c2afeadae9cd36494b8b93a86c733c91c913605",
+ "hashes": {
+  "reel": "ed0e4976f383ac64e063979a466b10dae2fc2162d2a827acbeabb90d900ac664"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894744696,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "reprog-1511",
+ "aprobado_evento_utc": "2026-11-15T13:05:52Z",
+ "issue_n_system": 1525
+}

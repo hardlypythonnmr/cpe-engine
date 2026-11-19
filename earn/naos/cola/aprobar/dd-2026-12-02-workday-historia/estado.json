@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-02-workday-historia",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-02T16:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "7bfe886137cf1cf3da821fc1f9cf7ad86485b323070cf176d78c5ecba371761e",
+ "hashes": {
+  "historia": "c01396dab6304a5b691c454c30d1bae49d5958fcb6e7511b330f098f17ffa16e"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6890740395,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "thanks-with-a-detail",
+ "issue": 71,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ee53c087406ced9081a9228f531b9d7c42d826273a4d66bb74268b70e4ff1c90",
+ "hashes": {
+  "short": "544f8402ab7ab52b568b92ef0adda9ac7f6949f77692638aa978cabc44a2ec4b",
+  "reel": "2d4603eff848f2dd3addd0bd5c502fef4c162e6a45390e8af0e6bb44b8343970"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870897975,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0103",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "issue_n_system": 1249
+}

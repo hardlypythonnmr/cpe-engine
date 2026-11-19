@@ -1,0 +1,26 @@
+{
+ "slug": "wipe-your-own-spill",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-08T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f2e05043cc93d6ca144bdbd5b91ba847c70b0bafd742b587f14959ccbdb55595",
+ "hashes": {
+  "short": "b2c9edaa8cf89642ebb46d493e4a3087e2e4c8ce95dc7384a9861cd04606a6d3",
+  "reel": "0234dd94bf64b8efc5d688032a988d495b1107c79f60ff2a0a2958adf66e2069"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886854920,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

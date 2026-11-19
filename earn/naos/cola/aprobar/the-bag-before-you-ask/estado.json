@@ -1,0 +1,25 @@
+{
+ "slug": "the-bag-before-you-ask",
+ "issue": 73,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "122bc5774a86a4124cfb2cf779a2b39645bc16d6bb0304c7ff97d75cbe625374",
+ "hashes": {
+  "short": "f965977b2b525efe21301990da5d0ced21a05af1f37b58951caa5a21a0a51c4e",
+  "reel": "f04608d95f758dd96a600803a1a96f126d4443020d2fed311af45094e3dd6b2a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870915026,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0713",
+ "aprobado_evento_utc": "2026-11-15T00:04:30Z",
+ "issue_n_system": 1252
+}

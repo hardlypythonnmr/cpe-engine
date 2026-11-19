@@ -1,0 +1,61 @@
+{
+ "slug": "cella-s1e01-six-alarms",
+ "titulo": "The alarm of six, in seven slides",
+ "clave": "2026-12-02|cella-s1e01-six-alarms",
+ "sale_utc": "2026-12-09T18:40:00Z",
+ "caption": "Day one of the routine lasted until 6:05. The shoes waited by the door. So did the coffee. I’d call it a draft.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella tipping off a hill toward a warm cloud bed, the alarm ringing",
+  "2": "a bedroom at 6:00: Cella under a green blanket, an alarm clock, a steaming cup, sneakers by the door, and a second black Cella with a red crown tilting in from the right edge",
+  "3": "two questions with two or three answers each as plain lines, with Cella in a room beside a wall clock, a window and a door",
+  "4": "Cella lying on her side across the alarm clock, an empty rocky hill with a small light behind",
+  "5": "the same room at 11:40, light across the floor, Cella lying in the same shape",
+  "6": "a long receipt, with Cella looking at it from the side",
+  "7": "the room at 6:12 p.m. in orange light: Cella standing by the sneakers, the cup without steam"
+ },
+ "tipo_carrusel": "Episodio 1 de la historia de Cella · empezar · mie 2-dic",
+ "seccion": "humanity",
+ "tanda": "historia-cella-t1-e01",
+ "filo": "medio",
+ "experimento": false,
+ "blanco": "empezar una rutina",
+ "mecanica_crecimiento": "enviar · destinatario: the person in the chat who always says five more minutes",
+ "destinatario": "the person in the chat who always says five more minutes",
+ "eco": "historia-cella-s1e01",
+ "episodio": "s1e01",
+ "temporada": 1,
+ "sombra": "descuido",
+ "x5": "Who snoozes six times?",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada y leida a tamano completo por el constructor (Opus 17, 15-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin persona real, sin tradicion, sin salud; Cella sin manos; la sombra con corona #A8362A y sin voz; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "22 palabras del guion mas el lema (D-378); sin hashtags (D-376)"
+  }
+ ]
+}

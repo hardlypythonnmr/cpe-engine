@@ -1,0 +1,23 @@
+{
+ "slug": "cella-s1e03-the-receipt",
+ "issue": 112,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-15T17:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "47230b52a48e0107713e4fa7196ff0c995fbe7df1d6e42c10d580c3c400bd3cd",
+ "hashes": {
+  "carrusel": "89121e4f683f04ecd7fbd7600386e1a17b126af8913cebaac373a73e632efa18"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6899765018,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "cella-s1e03",
+ "aprobado_evento_utc": "2026-11-16T10:47:36Z",
+ "issue_n_system": 1665
+}

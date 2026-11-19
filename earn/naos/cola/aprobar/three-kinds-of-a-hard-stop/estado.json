@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-a-hard-stop",
+ "issue": 78,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-26T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fcb91a97e05f9acf3b0849ccf6cd63ac56683f654bd5a16b1d6767cced22b917",
+ "hashes": {
+  "short": "fb55f4d9957702d5a6c6f13a90a72fbb345c44b7842e09135f5abf380d83b5c4",
+  "reel": "5e1e3e8fcd2d94e5f3c5c5fbd406b84555b39d98afa95af63ffc28a65740d979"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886951139,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-2-1411",
+ "caducado_utc": "2026-11-15T00:56:50Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "issue_n_system": 1293
+}

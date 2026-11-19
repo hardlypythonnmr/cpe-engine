@@ -1,0 +1,26 @@
+{
+ "slug": "three-kinds-of-saying-no",
+ "issue": 76,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-18T02:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1e3591082822990be5cc21daa521825bd48b7a50049f76c281e40cc36a203e25",
+ "hashes": {
+  "short": "11f12fac75204506eb78b6b0d1da212333f60897807d69358b7632c5db5ad4d8",
+  "reel": "b17458f072edd7a9033087dbdfa354f9b844ab7d828b0efae94889fe4f8e7f5a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886945301,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tres-clases-1411",
+ "caducado_utc": "2026-11-15T00:56:00Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:09Z",
+ "issue_n_system": 1274
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "guessing-your-name",
+ "issue": 72,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T16:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "aca760246724360fc7566c5cd639eb26d6de3f66236f7b1659df6d9a9ecb6aa6",
+ "hashes": {
+  "short": "31f4898e0f911aed11659d76b3f652e7754e4a736f591cbb93eb065a40576284",
+  "reel": "011430165cb00ceae829b3bce737c66f3c2e1aa10a5a0f724e878eda57111353"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6870904855,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "relleno-dic-0406",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "issue_n_system": 1251
+}

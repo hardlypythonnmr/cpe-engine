@@ -1,0 +1,25 @@
+{
+ "slug": "watch-the-seedling-c",
+ "issue": 74,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-16T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "304af542a3a5a084d66bef9c12d0042840952cc3b18b4a50f85e08bd5ca219da",
+ "hashes": {
+  "short": "999beae2988368b8f83b659c7622c0d1663045c17c42f4dfd1679fbffeb6b42a",
+  "reel": "568a45c56ac92fb4f504b6a0562f981437e937c2e41dd7e1008d34278a6b4b40"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6871176107,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "duracion-1411",
+ "aprobado_evento_utc": "2026-11-15T00:04:21Z",
+ "issue_n_system": 1259
+}

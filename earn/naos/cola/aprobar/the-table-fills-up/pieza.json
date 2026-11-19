@@ -1,0 +1,48 @@
+{
+ "slug": "the-table-fills-up",
+ "titulo": "Thanksgiving: the table fills up (cute short)",
+ "clave": "2026-11-26|casa-mesa",
+ "sale_utc": "2026-11-26T17:00:00Z",
+ "caption": "Thanksgiving: the table fills up (cute short)\n\nSay it out loud this year. Send it to them.\n\nFor whoever sits you down at their table.\n\n#Thanksgiving #Friendsgiving #Grateful #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Say it out loud this year. Send it to them.\n\nFor whoever sits you down at their table.\n\n#Thanksgiving #Friendsgiving #Grateful #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A pink dining room with a long dark table and three chairs. Two small block figures with white eyes sit at the two ends, an ink-black one on the left and a cobalt blue one on the right, and each has a plate. They take turns leaning in and pushing small flat shapes (a yellow square, a blue circle, an orange triangle, a white diamond, a light blue drop, a red square) to the middle of the table until it is full. The third chair, behind the table, stays empty. Both figures lean toward each other with happy eyes. The text stays on screen: if you're seeing this, say thanks out loud to someone at your table.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "the-table-fills-up",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "14.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.5 dBFS, LRA 1.7 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Respeto",
+   "estado": "OK",
+   "nota": "respeto.md aplicado: solo gratitud en actos (la mesa que se llena, una silla guardada, pasar un plato); sin peregrinos, sin 'primer Thanksgiving', sin tocados, sin mitos de origen, sin imagenes de pueblos nativos; Thanksgiving es dia de duelo para algunos pueblos nativos (National Day of Mourning); SENSIBLE, va a la tanda de N; sin dato"
+  }
+ ],
+ "destinatario": "quien te sienta a su mesa este jueves",
+ "sensible": true,
+ "tono": "tender"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "not-avoidant-hard-to-reach-h",
+ "issue": 5,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T01:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3f35bc7cc794c7062ca6b900c1fa162732f78e37a74873f6bcc8932effb76552",
+ "hashes": {
+  "historia": "d7285ea81824c6e7dab8661f9e09675831b86846cc6b6ada04a7205cd0e9a249"
+ },
+ "canales": [
+  "historia"
+ ],
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aprobado_evento_utc": "2026-11-13T16:22:35Z",
+ "origen": "not-avoidant-hard-to-reach",
+ "eco_historia": {
+  "via": "eco-historia",
+  "cita": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#942, 2026-11-05T02:19:22Z; eco-historia (2026-11-13T16:22:35Z): copia en historia de not-avoidant-hard-to-reach, publicada 2026-11-11T22:09:27Z, misma imagen (huella 0869c92818ad38ec); regla de N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "origen": "not-avoidant-hard-to-reach"
+ },
+ "issue_n_system": 942
+}

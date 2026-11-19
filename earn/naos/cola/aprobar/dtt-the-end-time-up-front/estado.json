@@ -1,0 +1,26 @@
+{
+ "slug": "dtt-the-end-time-up-front",
+ "issue": 100,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-13T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "95680dea566cd9aa6b5aff2f9a42dcb18533e72304168d9230bc6fa62b0d863f",
+ "hashes": {
+  "short": "a66baf7d117572ff10f84220b3f455b921966661571bbad82edd9e7748fea8ab",
+  "reel": "09788bb11d63d6b5f94201b641bd553cb773e37982e84ae3b3bd23c31028580d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6893979048,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "issue_n_system": 1411
+}

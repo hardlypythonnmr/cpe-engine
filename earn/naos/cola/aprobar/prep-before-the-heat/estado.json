@@ -1,0 +1,26 @@
+{
+ "slug": "prep-before-the-heat",
+ "issue": 81,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0dfd9833d0404df43130693b73a5aed3f34d45e1322f05a5de9783396bf23132",
+ "hashes": {
+  "short": "633c687cf5b047e58ce4e9330ea92aa106bb0cb905719cf583edf72f86501ec6",
+  "reel": "4701cdf35190f0fb46050b399931fa5316a393e8cc84982f2dd2a81a3c6e2318"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886794338,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-g-0106b",
+ "caducado_utc": "2026-11-15T00:44:09Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:10Z",
+ "issue_n_system": 1341
+}

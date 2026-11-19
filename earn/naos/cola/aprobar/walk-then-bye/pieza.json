@@ -1,0 +1,59 @@
+{
+ "slug": "walk-then-bye",
+ "titulo": "Walking to the door, then turning to say bye",
+ "clave": "2026-12-16|walk-then-bye",
+ "caption": "Walking to the door, then turning to say bye\n\nMy uncle walks to the door first. Then he turns around to say goodbye.\n\nPeople tend to remember how an encounter ended more than how the middle went, so the last few seconds of a visit do a lot of the work.\n\nFor whoever turns around at the door to say goodbye.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "People tend to remember how an encounter ended more than how the middle went, so the last few seconds of a visit do a lot of the work.\n\nFor whoever turns around at the door to say goodbye.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. An entryway with a door on the right. Two small block figures with white eyes, an ink-black one near the middle and a royal blue one on the left. The black one walks quietly toward the door and, standing at it, turns around with a pulse and a bubble that says bye! The blue one answers bye! with happy eyes. Then the door opens and the black one walks out of the frame. The door closes and the blue one pulses. The text stays: me walking out then saying bye. The last card: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "walk-then-bye",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "el orden de despedirse y salir",
+ "blanco": "Cella (y quien se despide ya en la puerta)",
+ "destinatario": "turns around at the door to say goodbye",
+ "cara": "A",
+ "tipo": "CM",
+ "experimento": "una-variable-1411",
+ "variante": "una-variable",
+ "par": "goodbye-order",
+ "lado": "b",
+ "cambia": "Cella camina primero a la puerta y se despide ya en la puerta, volteando",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-16T23:45:00Z",
+ "brazo": "b",
+ "escena": "goodbye-order"
+}

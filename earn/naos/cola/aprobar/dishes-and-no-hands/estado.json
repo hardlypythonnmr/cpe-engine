@@ -1,0 +1,24 @@
+{
+ "slug": "dishes-and-no-hands",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T19:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9da46272a960e43d9e286d0be255fc8764b9784b73e4759bbdc2a0e0b164385d",
+ "hashes": {
+  "historia": "7de9a87025bb2336a06b1762ed8d381332786fcb6eb52bc9510df057fbf1b3f9"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6887871788,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "huecos-17nov",
+ "caducado_utc": "2026-11-15T02:21:16Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "issue_n_system": 1034
+}

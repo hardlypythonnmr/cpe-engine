@@ -1,0 +1,26 @@
+{
+ "slug": "wipe-your-feet-first",
+ "issue": 87,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-10T15:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d7b172cb4351bb4bebd1604366c2d67d5fb0600beb6d47a0f4e23732d0a101ec",
+ "hashes": {
+  "short": "1e8c8fe297b279c76e6ae7772aaf9a2c5bf94c71a777504ad506866e77f54e08",
+  "reel": "11bf22b2843b67fead5e80599d18d25b89438c4c9faf587767d185f4c3608e81"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886854391,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicm-0710",
+ "caducado_utc": "2026-11-15T00:48:43Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:13Z",
+ "issue_n_system": 1357
+}

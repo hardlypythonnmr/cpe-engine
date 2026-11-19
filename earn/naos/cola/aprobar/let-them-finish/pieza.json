@@ -1,0 +1,49 @@
+{
+ "slug": "let-them-finish",
+ "titulo": "Cella lets them finish",
+ "caption": "Cella lets them finish\n\nCella let them finish before she answered.\n\nWhen you rehearse your reply while someone is still talking, you miss the end of what they said, and the end is often the point.\n\nSend it to the friend who always lets you finish.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Cella let them finish before she answered.\n\nWhen you rehearse your reply while someone is still talking, you miss the end of what they said, and the end is often the point.\n\nSend it to the friend who always lets you finish.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A room with a table. Two small block figures with white eyes, an ink-black one on the left and a royal blue one on the right. Typing dots float above the blue one for a long time and it pulses as it talks. Twice a second set of dots starts above the black one, and each time the black one tilts forward and lets them vanish, holding its answer. When the blue one's dots stop, the black one's dots finally appear, and a small star shows above the blue one, whose eyes turn happy with a pulse. The black one smiles too.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "let-them-finish",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "escuchar (esperar a que la otra termine)",
+ "blanco": "Cella y quien habla sin que la interrumpan",
+ "destinatario": "the friend who always lets you finish",
+ "cara": "A",
+ "tipo": "NW",
+ "variante": "no-words",
+ "modo": "No words",
+ "experimento": false,
+ "sale_utc": "2026-11-27T14:00:00Z",
+ "clave": "2026-11-27|let-them-finish"
+}

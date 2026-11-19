@@ -1,0 +1,25 @@
+{
+ "slug": "lamp-for-the-squint",
+ "issue": 70,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "033c06e1f6e15c98531bd00396eccb0a6984cd1ebd91b48caca35b39cd28bd13",
+ "hashes": {
+  "short": "fc1807ea527892f1d44683e3c87e6218b24e99384af2e75fb2bd2e672ce2ac4b",
+  "reel": "3c64d52cbad1e05124299e1a06576e85b8bf650214de3a806a037946e02f8439"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6866435741,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-2730",
+ "aprobado_evento_utc": "2026-11-13T22:32:12Z",
+ "issue_n_system": 1215
+}

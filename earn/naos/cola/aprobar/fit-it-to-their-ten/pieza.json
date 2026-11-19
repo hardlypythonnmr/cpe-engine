@@ -1,0 +1,55 @@
+{
+ "slug": "fit-it-to-their-ten",
+ "titulo": "Just the first one, inside their ten",
+ "clave": "2027-02-13|fit-it-to-their-ten",
+ "sale_utc": "2027-02-13T16:05:00Z",
+ "caption": "Just the first one, inside their ten\n\n\"I have ten minutes.\" \"Just the first one.\" She circled the first line on the plan, and it got done inside the ten.\n\nFitting the ask to the minutes they have is kinder than a full list, and the first item still gets done.\n\nFor whoever fits the ask to the minutes the other person has.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Fitting the ask to the minutes they have is kinder than a full list, and the first item still gets done.\n\nFor whoever fits the ask to the minutes the other person has.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table. At the right a paper titled Plan with three lines and a small clock sign that says 10 min above it. A royal blue block figure with narrowed eyes says I have ten minutes. A ink-black block figure with white eyes answers just the first one, a red circle is drawn around the first line of the plan and its box ticks, with a small sparkle. The blue one's eyes go wide and says ...great. thanks! Both end with happy eyes. The text stays: me fitting it to their ten.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "fit-it-to-their-ten",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.4 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ajustar lo que se pide al tiempo que el otro tiene",
+ "blanco": "Cella y quien llega con la lista completa a quien tiene diez minutos",
+ "destinatario": "fits the ask to the minutes the other person has",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de febrero, 9 al 13-feb (tanda febc, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "febc"
+}

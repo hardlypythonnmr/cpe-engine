@@ -1,0 +1,23 @@
+{
+ "slug": "5-five-minute-frictions-reel",
+ "issue": 17,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-02T20:05:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c36e53da48079d7008616300ea3deb05212021de8281923f17dc17162a56e098",
+ "hashes": {
+  "reel": "e62a40fd0b9f32032d1189e7e918ef4118cc8131932b6bc21f7b6c744fbe4e6c"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887856534,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "fijo-reel-1511",
+ "aprobado_evento_utc": "2026-11-15T11:55:30Z",
+ "issue_n_system": 1448
+}

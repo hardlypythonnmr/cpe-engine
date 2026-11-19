@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-23-seagate-tachon-q-a",
+ "issue": 110,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T17:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "94f967cfc436aeee92553728c0d33f648fa80e0f3a69c62de0b6cf5c922aa4ea",
+ "hashes": {
+  "short": "48e206d201f5f35f55b1622d758c43d0fa9cf8f3cf9094a7bb1dc4ec9f828a56",
+  "reel": "5862d5a813ff017c1e079d4bfe3f5c0329320cc593860bf93548d0ede3d59efb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6899366340,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-prueba-ac",
+ "aprobado_evento_utc": "2026-11-16T10:47:56Z",
+ "issue_n_system": 1656
+}

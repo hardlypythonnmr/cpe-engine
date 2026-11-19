@@ -1,0 +1,26 @@
+{
+ "slug": "lend-the-big-pot",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-23T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4fcb2cb4b3e4dc8ced57c2dc77f7174f8a4d792cbd63a639911836d5e1f57303",
+ "hashes": {
+  "short": "e7cf347c0cda80f3d30b582cc9ec5a59978725d7721040e5333acc204df7e095",
+  "reel": "3c9a7d2ce84346593aa5940f23d9abd9535abe7054ff3f61e73797fc2ff94226"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886874447,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

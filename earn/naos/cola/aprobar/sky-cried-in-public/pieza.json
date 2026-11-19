@@ -1,0 +1,49 @@
+{
+ "slug": "sky-cried-in-public",
+ "titulo": "The sky cried in public today. Nobody called it dramatic.",
+ "clave": "2026-11-21|etereo",
+ "sale_utc": "2026-11-22T03:30:00Z",
+ "caption": "The sky cried in public today. Nobody called it dramatic.\n\nCloser to yourself.\n\n#naos #rain",
+ "descripcion": "The sky cried in public today. Nobody called it dramatic.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: a big tree in the rain fills the frame and the camera zooms in slowly; then it pulls back to show a window and a small round figure sitting on the sill, watching, and it smiles. White words in the middle read: \"The sky cried in public today. Nobody called it dramatic.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-c-sky-cried",
+  "version": 8
+ },
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "doble rasero del llanto: la lluvia llora en público sin que nadie la juzgue; prueba si un tema emocional con filo se manda más que los de pereza o vanidad",
+ "envio": "someone who apologized for crying in public",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.01 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.7 LUFS, true peak -1.2 dBFS, LRA 9.7 LU; own music (motor/sonido midi, room alcoba, mood ternura, seamless loop and open rain ambience 8 dB under), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "juez distinto (cola/imagenes-2026-11-16/juez.md): arreglo aplicado, sombra de texto más fuerte sobre la copa clara; pico -1,2 dBFS"
+  }
+ ],
+ "tanda": "etereo-15-22-nov (D-339, D-342, D-359 a D-363; candidatas en earn/naos/empresa/etereo/2026-11-05-filo-15-22-nov.md)"
+}

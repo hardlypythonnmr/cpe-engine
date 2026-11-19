@@ -1,0 +1,26 @@
+{
+ "slug": "the-table-fills-up",
+ "issue": 14,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "43a0b5d7bb5811457406b890dabdaef8c05fe1e736dbcd52934969cbb529658d",
+ "hashes": {
+  "short": "6b79c8b84e37cfdd0951100d9ff538c4809d8f9bb82e254a613c3489ce7e21eb",
+  "reel": "57b94b6b5ffcbe6a803273d97094c76c758640982522add307baa6ec8597de1d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6860623628,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "lote-2326",
+ "caducado_utc": "2026-11-13T17:49:25Z",
+ "aprobado_evento_utc": "2026-11-13T19:14:09Z",
+ "issue_n_system": 1125
+}

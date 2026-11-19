@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-25-expedia-expediente",
+ "issue": 79,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T21:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "ccbb553b138016f952365a6849a57b89fea39ca879eb8ed71c6326cee99687df",
+ "hashes": {
+  "carrusel": "0ec7ef86e975c37f898d38b863006a0e655792e2bea9e1c65f87f5c8b95cc5d8"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885959652,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-c",
+ "caducado_utc": "2026-11-14T23:33:50Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:33Z",
+ "issue_n_system": 1333
+}

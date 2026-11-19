@@ -1,0 +1,41 @@
+{
+ "nombre": "instagram-29-30-nov",
+ "issue": 57,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "sunday-dread-wrong-job-or-just-sunday",
+  "weekend-left-the-chat",
+  "cella-rates-the-holiday-weekend",
+  "permission-to-do-nothing",
+  "who-approved-monday",
+  "et-c-rain-zero-emails",
+  "last-chance-email-urgent-or-fake",
+  "cella-monday-warning-label",
+  "cella-rates-cyber-monday",
+  "last-chance-is-me",
+  "miss-you-more-than-sale",
+  "et-b-moon-no-email"
+ ],
+ "comentario_vista_previa_id": 6681473341,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-06T09:17:48Z",
+ "aviso_utc": "2026-11-06T09:17:52Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "aprobadas": [
+  "cella-monday-warning-label",
+  "cella-rates-cyber-monday",
+  "cella-rates-the-holiday-weekend",
+  "et-b-moon-no-email",
+  "et-c-rain-zero-emails",
+  "last-chance-email-urgent-or-fake",
+  "last-chance-is-me",
+  "miss-you-more-than-sale",
+  "permission-to-do-nothing",
+  "sunday-dread-wrong-job-or-just-sunday",
+  "weekend-left-the-chat",
+  "who-approved-monday"
+ ],
+ "issue_n_system": 980
+}

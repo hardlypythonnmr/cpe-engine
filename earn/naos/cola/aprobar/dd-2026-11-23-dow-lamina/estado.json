@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-23-dow-lamina",
+ "issue": 16,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T20:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "e6a61b86d14f77e393d42c0ba127c77c551f579cbe3814d50142ac9148129c14",
+ "hashes": {
+  "imagen": "8f9332601c87b4e480ba0ad01a86c1c62ea12a20fa10c21a420ae643e3d64f3c"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885952278,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z",
+ "issue_n_system": 1332
+}

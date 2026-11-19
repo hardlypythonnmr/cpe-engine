@@ -1,0 +1,26 @@
+{
+ "slug": "watch-them-to-the-corner",
+ "issue": 86,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-13T15:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ab35522d59866cb5d9d87095456c73cb59f5afc95596b4e8f23194564c0302a1",
+ "hashes": {
+  "short": "fbadb4871ff538c0137c18f180cf3c12156eb48df1874733ae3206a9175e104b",
+  "reel": "ebadd6fffdbf1d86fc4bb861c8b67f1a78bad68f216af29b2797afc90025865f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886834605,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-k-1013",
+ "caducado_utc": "2026-11-15T00:47:23Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "issue_n_system": 1351
+}

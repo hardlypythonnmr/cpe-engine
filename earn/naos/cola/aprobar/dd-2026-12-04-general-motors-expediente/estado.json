@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-12-04-general-motors-expediente",
+ "issue": 103,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T21:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "4196e0a79d5f3be8c0843ae6268a4dad5d8475340062ad671264fba8f13b37db",
+ "hashes": {
+  "carrusel": "70015233771cc19bb065be4b658cc9cf5572ed3c5a7eae46a3f31e0c4d0a6508"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6890744847,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-0110-a",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "issue_n_system": 1476
+}

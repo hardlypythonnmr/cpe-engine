@@ -1,0 +1,23 @@
+{
+ "slug": "om-mani-padme-hum-same-moon-no-reply",
+ "issue": 63,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T23:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0147d0c30a47661f4cf8c306ff940ed39b71df2869bbd6676859da9bf5731a89",
+ "hashes": {
+  "reel": "e79038172a1a5b1f60379aea64c904d805078db45ea817c766885e6fb1c6b0f0"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856871807,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "mantra-2225",
+ "aprobado_evento_utc": "2026-11-13T15:08:39Z",
+ "issue_n_system": 1093
+}

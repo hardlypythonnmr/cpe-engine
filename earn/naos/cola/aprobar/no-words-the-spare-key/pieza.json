@@ -1,0 +1,56 @@
+{
+ "slug": "no-words-the-spare-key",
+ "titulo": "A spare key on the hook, with a friend's initial",
+ "clave": "2027-01-09|casa-escaleras",
+ "sale_utc": "2027-01-09T23:00:00Z",
+ "caption": "A spare key on the hook, with a friend's initial\n\nOne spare key goes up on the hook, and its tag has someone else's initial on it.\n\nFor whoever keeps a spare key for someone.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #nowords #chooseFriction",
+ "descripcion": "One spare key goes up on the hook, and its tag has someone else's initial on it.\n\nFor whoever keeps a spare key for someone.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A coral room. A small ink-black block figure with white eyes stands on the left and a navy one stands on the right looking away. A small gold key lies on the floor between them. It floats up onto a short wooden shelf with a hook and hangs there, and a small white tag with the letter D pops up beside it. The navy figure turns, its eyes go wide and then close in a smile and it pulses. The black one smiles too. The text stays: 1 spare key, with a friend's initial. The last card: for whoever keeps a spare key for someone, Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella hung a spare key today. Somebody's initial is on the tag.",
+ "casa": {
+  "id": "no-words-the-spare-key",
+  "version": 8
+ },
+ "evolucion": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 17 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -5.2 dBFS, LRA 3.4 LU; own music (motor/sonido midi, room escaleras, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s2, section 3)",
+   "estado": "OK",
+   "nota": "Dos apuestas (junta-dic-s4, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168 (3-ene). (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 14 seguidores y la semana de fiestas no separa causa de temporada: lectura de orden de magnitud. Semana ene-s2: apuesta de la hora (3a del acta)."
+  }
+ ],
+ "filo": "V",
+ "tema": "una llave de repuesto con la inicial de otra persona",
+ "blanco": "Cella (y quien guarda una llave de repuesto para alguien)",
+ "destinatario": "whoever keeps a spare key for someone",
+ "cara": "A",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "tipo": "CM",
+ "modo": "No words"
+}

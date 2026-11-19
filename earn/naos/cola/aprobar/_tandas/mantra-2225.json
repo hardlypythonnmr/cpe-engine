@@ -1,0 +1,25 @@
+{
+ "nombre": "mantra-2225",
+ "issue": 63,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "om-mani-padme-hum-before-sunday-dread",
+  "maha-mantra-before-the-family-chat",
+  "om-mani-padme-hum-same-moon-no-reply",
+  "maha-mantra-in-the-airport-line"
+ ],
+ "comentario_vista_previa_id": 6856873999,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T15:06:12Z",
+ "aviso_utc": "2026-11-13T15:06:16Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T15:08:39Z",
+ "aprobadas": [
+  "maha-mantra-before-the-family-chat",
+  "maha-mantra-in-the-airport-line",
+  "om-mani-padme-hum-before-sunday-dread",
+  "om-mani-padme-hum-same-moon-no-reply"
+ ],
+ "issue_n_system": 1093
+}

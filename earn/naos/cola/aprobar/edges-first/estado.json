@@ -1,0 +1,26 @@
+{
+ "slug": "edges-first",
+ "issue": 85,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-06T19:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "2d824f93a5233e5cc4e6f12cd2c5053ba7d8c010b7d9feaed0fd699f80a319a8",
+ "hashes": {
+  "short": "8797b4cb3f3a29cb268dc47f9ce4f81b574f773d4e17dd36cf47a3388a6c315c",
+  "reel": "59efc3e677639775e408eb69be93ae76c21c4126a53e9e0d9bd6039c7cbee621"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886821500,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dic-j-0609",
+ "caducado_utc": "2026-11-15T00:46:35Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "issue_n_system": 1350
+}

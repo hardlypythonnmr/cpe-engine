@@ -1,0 +1,53 @@
+{
+ "slug": "guessing-your-name",
+ "titulo": "Guessing your name for a year",
+ "clave": "2026-12-06|guessing-your-name",
+ "caption": "Guessing your name for a year\n\nCella guessed how to say her name for a whole year.\n\nMost people would rather be asked how their name is said than hear it wrong for years.\n\nFor the friend who asks how to say it.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #chooseFriction",
+ "descripcion": "Cella guessed how to say her name for a whole year.\n\nMost people would rather be asked how their name is said than hear it wrong for years.\n\nFor the friend who asks how to say it.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a table. A small ink-black block figure with white eyes on the left tries three versions of a name in speech bubbles, one after another, while a royal blue figure on the right tilts and narrows its eyes politely each time. At the end the black one's eyes go wide and it trembles, and the blue one's eyes turn happy. The text changes from: me guessing your name for a year, to: asked once. said right ever since.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "guessing-your-name",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.0 dBFS, LRA 3.1 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "preguntar como se dice un nombre",
+ "blanco": "Cella y quien adivina un nombre en vez de preguntar",
+ "destinatario": "the friend who asks how to say it",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "modo": "Remate",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "sin fecha de salida; no se programa hasta que una ronda la use (cola/biblioteca/LEEME.md); pasa por la misma compuerta; lema Choose friction. (diciembre en adelante)"
+ },
+ "sale_utc": "2026-12-06T16:15:00Z"
+}

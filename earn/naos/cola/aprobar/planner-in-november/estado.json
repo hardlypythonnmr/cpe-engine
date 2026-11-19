@@ -1,0 +1,24 @@
+{
+ "slug": "planner-in-november",
+ "issue": 9,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T14:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "23dd4e202c38e8a17c06ecea1394512076cb36b405489c6423952d859fada1e4",
+ "hashes": {
+  "short": "5d1c5a5d7786d72fff50c31865b756be1cd4229e7eef49dc2b2487fabde4da70",
+  "reel": "9932afe176a83c7ca54ca1ecea451d31d9f463646c07338ca1e20ffe3e250c1c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668675099,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z",
+ "issue_n_system": 966
+}

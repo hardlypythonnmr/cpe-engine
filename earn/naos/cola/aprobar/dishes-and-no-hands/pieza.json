@@ -1,0 +1,46 @@
+{
+ "slug": "dishes-and-no-hands",
+ "titulo": "Cella is proud of you for doing the dishes.",
+ "clave": "2026-11-22|dishes-and-no-hands",
+ "sale_utc": "2026-11-22T19:10:00Z",
+ "estado": "por-aprobar",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "Cella large with a crown under a spotlight beside a neat stack of four colored plates. Cella is proud of you for doing the dishes. She has no hands. Respect.",
+ "tipo_historia": "Historia · Una linea · hogar y ternura (arquetipo: el que lava los platos al fin) · dom 22-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-huecos (huecos del 17-nov (decisión de N, 12-nov-2026))",
+ "hueco": "dom 22-nov",
+ "filo": "C",
+ "tema": "hogar y ternura (arquetipo: el que lava los platos al fin)",
+ "destinatario": "anyone with a clean kitchen at last",
+ "mecanica_crecimiento": "enviar · destinatario: anyone with a clean kitchen at last",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-huecos/hojas/ and juez.md"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-359: archetypes only, no real person or protected group, no health, grief, loneliness or body; Cella without hands and never next to a black object"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words; 50 words or fewer; 3 hashtags; no comment bait"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

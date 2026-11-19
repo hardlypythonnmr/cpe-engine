@@ -1,0 +1,25 @@
+{
+ "slug": "one-chip",
+ "issue": 64,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-28T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "215cbf7ea9675bcfee630d43c3382c0b6b1681ebc163a7eb0a0713ff0321d218",
+ "hashes": {
+  "short": "3a84f6005ed37f341f56d36d5509edc9b57dec308b867f3ef94195f2144e25e6",
+  "reel": "b51c2a21364ae5689e0aa62628229bd8bc8f107f9943367b311df826d5e93c80"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6861219730,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "llenado-1511",
+ "aprobado_evento_utc": "2026-11-13T19:14:22Z",
+ "issue_n_system": 1158
+}

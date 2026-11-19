@@ -1,0 +1,51 @@
+{
+ "slug": "take-a-turn-at-the-pot",
+ "titulo": "Taking over the stirring",
+ "clave": "2026-12-20|take-a-turn-at-the-pot",
+ "sale_utc": "2026-12-20T23:45:00Z",
+ "caption": "Taking over the stirring\n\nMy dad takes over the stirring the moment I look tired. Then I started doing it for him.\n\nTaking over a long, repetitive job for a few minutes is one of the easiest ways to give someone a real break.\n\nFor whoever takes a turn at the pot.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Taking over a long, repetitive job for a few minutes is one of the easiest ways to give someone a real break.\n\nFor whoever takes a turn at the pot.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A kitchen with a steaming pot in the middle. A brick red figure on the right stirs with a tired lean, eyes half closed. A ink-black block figure with white eyes walks in from the left, the brick red one steps aside and the black one takes its place and stirs. The brick red one's eyes turn happy with a pulse, and the black one's too.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "take-a-turn-at-the-pot",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.5 LU; own music (motor/sonido midi, room cocina, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "relevar a quien lleva rato (revolver la olla)",
+ "blanco": "Cella y quien relevó a otra en la olla",
+ "destinatario": "takes a turn at the pot",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "tanda_origen": "relleno-1411"
+}

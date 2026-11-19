@@ -1,0 +1,38 @@
+{
+ "slug": "not-avoidant-hard-to-reach-h",
+ "titulo": "Stories echo: Not avoidant. Just very, very hard to reach.",
+ "clave": "2026-11-25|not-avoidant-hard-to-reach-h",
+ "sale_utc": "2026-11-25T01:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "mint field, Cella in a crown on top of a tall column, a second small Cella looking up at her from the floor. Not avoidant. Just very, very hard to reach.",
+ "seccion": "humanity",
+ "fuente": "eco-historia: regla de N del 13-nov-2026; copia de not-avoidant-hard-to-reach",
+ "sticker": "ninguno",
+ "tipo": "historia",
+ "origen": "not-avoidant-hard-to-reach",
+ "eco_historia": {
+  "origen": "not-avoidant-hard-to-reach",
+  "tipo": "imagen",
+  "regla": "N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#942, 2026-11-05T02:19:22Z",
+  "issue_origen": "942",
+  "hash_origen": "0869c92818ad38ec266e4b26a66b7ec08db4a66684153c11751946f07551798d",
+  "publicado_origen_utc": "2026-11-11T22:09:27Z",
+  "creada_utc": "2026-11-13T16:22:35Z",
+  "sale_dia_ny": "2026-11-24"
+ },
+ "revisiones": [
+  {
+   "que": "Same content",
+   "estado": "OK",
+   "nota": "the approved imagen of not-avoidant-hard-to-reach, whole and centered, no new text (N's rule, 13-nov-2026)"
+  }
+ ]
+}

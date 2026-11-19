@@ -1,0 +1,55 @@
+{
+ "slug": "take-a-line",
+ "titulo": "The stairs finally got a name",
+ "clave": "2027-01-25|take-a-line",
+ "sale_utc": "2027-01-25T13:45:00Z",
+ "caption": "The stairs finally got a name\n\nMop and bins already had names. Stairs didn't. Now it did, and the list had no hole left.\n\nOn a shared list the empty line is the one nobody takes, and putting your name on it takes two seconds.\n\nFor whoever puts a name on the line nobody picked.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "On a shared list the empty line is the one nobody takes, and putting your name on it takes two seconds.\n\nFor whoever puts a name on the line nobody picked.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A hallway with a sign-up list of three cream rows on the right: mop with a gold dot, bins with a blue dot and stairs with no dot. A ink-black block figure with narrowed white eyes walks up from the left, its eyes go wide, it leans in and a black dot appears beside stairs and the whole row turns green. Its eyes turn happy with a pulse. The text stays: me taking the line nobody picked.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "take-a-line",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 8 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.6 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "ponerse en la linea que nadie tomo de la lista compartida del edificio",
+ "blanco": "Cella y quien espera a que otro se apunte en la lista",
+ "destinatario": "puts a name on the line nobody picked",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "base",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de enero, 22 al 26-ene (tanda enec, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "enec"
+}

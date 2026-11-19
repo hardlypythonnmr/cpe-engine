@@ -1,0 +1,55 @@
+{
+ "slug": "two-columns",
+ "titulo": "Two columns for every real decision",
+ "clave": "2026-12-01|two-columns",
+ "sale_utc": "2026-12-01T19:00:00Z",
+ "caption": "Two columns for every real decision\n\nMy friend runs a two-column list for every real decision. Then the tally says what the gut already knew.\n\nWriting it out takes two minutes, and the tally is hard to argue with.\n\nFor whoever writes the yes and no columns before deciding.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Writing it out takes two minutes, and the tally is hard to argue with.\n\nFor whoever writes the yes and no columns before deciding.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a long table and a sheet of paper on the right with two columns, YES and NO. A royal blue block figure with narrowed eyes in the middle says just go with your gut. A ink-black block figure with white eyes at the left answers paper first, and tally marks appear: three under YES and one under NO. The blue one's eyes go wide and says fine, it's a yes. Both end with happy eyes. The text stays: me making two columns.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "two-columns",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room mesa, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "escribir las columnas del si y el no antes de decidir",
+ "blanco": "Cella y quien decide a ojo lo que no es chico",
+ "destinatario": "writes the yes and no columns before deciding",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "dos-cellas",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 1 al 6-dic (tanda dic-g, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-g"
+}

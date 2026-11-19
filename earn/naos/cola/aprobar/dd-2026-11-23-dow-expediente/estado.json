@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-23-dow-expediente",
+ "issue": 16,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T21:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "2829e1d88295c0800116a0a756186ca4526f209f4fbf413768d497643b0965ea",
+ "hashes": {
+  "carrusel": "328d0510fb2d3b0d731a419fb5159d6f2932030d52d0139cca2ee510d34c542a"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885952691,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z",
+ "issue_n_system": 1332
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "crooked-frame",
+ "titulo": "The head tilt at the crooked frame",
+ "clave": "2026-12-20|crooked-frame",
+ "sale_utc": "2026-12-20T13:45:00Z",
+ "caption": "The head tilt at the crooked frame\n\nMy roommate tilts her head every time she passes the crooked frame. Then I straightened it.\n\nA frame that hangs a little off keeps tugging at the eye, and one nudge is usually all it takes.\n\nFor whoever fixes the small crooked thing on the way past.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "A frame that hangs a little off keeps tugging at the eye, and one nudge is usually all it takes.\n\nFor whoever fixes the small crooked thing on the way past.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A bedroom with a bed and an empty picture frame on the wall, hanging tilted. A plum figure on the right looks up at it with narrowed eyes and tilts its head, twice. A ink-black block figure with white eyes walks over, stretches up, and the frame swings level with a small knock. Both figures turn happy with a pulse.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "A small friction, chosen on purpose.",
+ "casa": {
+  "id": "crooked-frame",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.6 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room alcoba, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "arreglar lo chico que desentona (el cuadro torcido)",
+ "blanco": "Cella y quien se ladea para mirar el cuadro torcido",
+ "destinatario": "fixes the small crooked thing on the way past",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "no-words",
+ "experimento": false,
+ "modo": "No words",
+ "tanda_origen": "relleno-1411"
+}

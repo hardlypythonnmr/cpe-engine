@@ -1,0 +1,82 @@
+{
+ "slug": "et-d-moon-skips-groupchat",
+ "titulo": "The moon skipped the group chat again. Still invited.",
+ "clave": "2026-11-23|etereo",
+ "sale_utc": "2026-11-24T03:41:00Z",
+ "caption": "Why we forgive the friend who never replies to the group chat: the moon, for 12 seconds.\n\nThe moon skipped the group chat again. Still invited.\n\nCloser to yourself.",
+ "descripcion": "",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: no figure: a night sky with the real moon of 2026-11-23 (99 percent lit at release time), thin clouds and a dark tree; the camera zooms in very slowly. White words in the middle read: \"The moon skipped the group chat again. Still invited.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-d-moon-skips-groupchat",
+  "version": 8
+ },
+ "filo": "V",
+ "envio": "the friend who never replies and is always forgiven",
+ "destinatario": "the friend who never replies and is always forgiven",
+ "experimento": true,
+ "experimento_prueba": "AB caption-tema: explícito, sin hashtags (D-376); control: etéreos del 15 al 22-nov (caption poético, con hashtags); lectura a 7 días el 2026-12-01",
+ "ab": {
+  "prueba": "caption-tema",
+  "brazo": "explicito",
+  "par": null,
+  "control": "etéreos del 15 al 22-nov (caption poético)",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-01T03:41:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "etéreos del 15 al 22-nov (con #naos y el del tema)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-01T03:41:00Z"
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.0 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "et-d-moon-skips-groupchat: 12.00 s, -14.1 LUFS, pico real -2.1 dBFS (limiter), texto 866 a 1134 px (banda 168-1330, avisos 0), bucle: 310 px con dif>24 y media 0.26/255; own music (motor/musica and motor/sonido, 0 credits), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, frame 0 readable without sound"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Moon",
+   "estado": "OK",
+   "nota": "USNO 2026-11-23: 99 percent lit at 22:41 ET, waxing gibbous; the drawn moon is that one (release day)"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "peak -2.1 dBTP (was -0.99), -14.1 LUFS; alt says 99 percent, matches ephem at 22:41 ET"
+  }
+ ]
+}

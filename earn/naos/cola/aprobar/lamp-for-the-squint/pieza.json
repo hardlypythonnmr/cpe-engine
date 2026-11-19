@@ -1,0 +1,49 @@
+{
+ "slug": "lamp-for-the-squint",
+ "titulo": "Cella turns on the lamp",
+ "caption": "Cella turns on the lamp\n\nCella saw the squint and turned on the lamp.\n\nPeople rarely ask for the small thing. Doing it directly works better than \"need anything?\", which most of us wave away by reflex.\n\nSend it to the friend who notices before you ask.\n\n#Cella #habits\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Cella saw the squint and turned on the lamp.\n\nPeople rarely ask for the small thing. Doing it directly works better than \"need anything?\", which most of us wave away by reflex.\n\nSend it to the friend who notices before you ask.\n\n#Cella #habits\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice and no text, with music. A dim room with a window. A small light blue block figure stands on the right leaning over an open book on the floor with narrowed eyes. An amber figure on the left notices, leans toward a table lamp between them and the lamp lights up with a warm glow. The seated one's eyes go wide and then happy with a pulse, and the book's pages turn. The amber one smiles.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "lamp-for-the-squint",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 0 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 3.4 LU; own music (motor/sonido midi, room ventana, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "atención (ver que la otra entrecierra los ojos)",
+ "blanco": "Cella y quien lee con poca luz",
+ "destinatario": "the friend who notices before you ask",
+ "cara": "A",
+ "tipo": "NW",
+ "variante": "no-words",
+ "modo": "No words",
+ "experimento": false,
+ "sale_utc": "2026-11-28T23:00:00Z",
+ "clave": "2026-11-28|lamp-for-the-squint"
+}

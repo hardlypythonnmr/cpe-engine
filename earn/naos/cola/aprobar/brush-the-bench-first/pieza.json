@@ -1,0 +1,55 @@
+{
+ "slug": "brush-the-bench-first",
+ "titulo": "Brushing the bench before sitting",
+ "clave": "2026-12-11|brush-the-bench-first",
+ "sale_utc": "2026-12-12T00:15:00Z",
+ "caption": "Brushing the bench before sitting\n\nLeaves cover the bench at the stop. She clears the seat before she sits, and the next person gets it clean.\n\nClearing a bench takes ten seconds, and the next person who needs the seat gets it ready.\n\nFor whoever clears the bench before sitting down.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #cella #chooseFriction",
+ "descripcion": "Clearing a bench takes ten seconds, and the next person who needs the seat gets it ready.\n\nFor whoever clears the bench before sitting down.\n\nNAOS · Choose friction. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A street bench with three big leaves lying on the seat, one coral, one yellow and one tan. A ink-black block figure with white eyes walks up, its eyes go wide, it leans and the three leaves tumble off the bench one after another and land on the ground. It steps in front of the bench and sits down with happy eyes and a pulse. The text changes from me: it's just leaves, to brushed it off, sat down.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "brush-the-bench-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 11 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "filo": "V",
+ "tema": "limpiar la banca de la calle antes de sentarse",
+ "blanco": "Cella y quien se sienta sobre las hojas de la banca",
+ "destinatario": "clears the bench before sitting down",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "remate",
+ "experimento": false,
+ "receta": "CM corto",
+ "modo": "Cella con música",
+ "biblioteca": {
+  "estado": "reserva",
+  "nota": "relleno de diciembre, 10 al 13-dic (tanda dic-k, Opus 14); sale con sale_utc; pasa por la misma compuerta; lema Choose friction."
+ },
+ "tanda_origen": "dic-k"
+}

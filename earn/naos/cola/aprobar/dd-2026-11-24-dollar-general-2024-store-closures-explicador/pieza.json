@@ -1,0 +1,57 @@
+{
+ "slug": "dd-2026-11-24-dollar-general-2024-store-closures-explicador",
+ "titulo": "Dollar General, Mar 2025: about $7.98M of fiscal 2024 net income per store in the Mar 2025 plan. The math, done.",
+ "clave": "2026-11-24|mercury|explicador|2026-11-24-dollar-general-2024-store-closures-explicador",
+ "sale_utc": "2026-11-24T01:00:00Z",
+ "caption": "Dollar General, Mar 2025: about $7.98M of fiscal 2024 net income per store in the Mar 2025 plan. The math, done.\n\nOn March 13, 2025, Dollar General reported net income of $1,125,253 thousand for fiscal 2024 and said it plans to close 96 Dollar General stores and 45 pOpshelf stores in the first quarter of fiscal 2025.\n\nFrom the archive: Mar 2025. Not today's news.\n\nThe math: $1,125,253,000 (net income, fiscal 2024) ÷ 141 stores = about $7,980,517 of fiscal 2024 net income, for every store in the closing plan announced in March 2025. We round down.\nNet income is for fiscal 2024, which ended Jan 31, 2025. The closings are planned for the first quarter of fiscal 2025. 141 is 96 Dollar General stores and 45 pOpshelf stores in the company's plan. Six more pOpshelf stores are planned to be converted, not closed.\n\n(Our take.) Closure or re-bannering. Here is the closings column.\n\nSources\nF1: Dollar General Form 8-K, Exhibit 99.1: fourth quarter and fiscal 2024 results, filed Mar 13, 2025 · https://www.sec.gov/Archives/edgar/data/29534/000110465925023210/tm258818d1_ex99.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "On March 13, 2025, Dollar General reported net income of $1,125,253 thousand for fiscal 2024 and said it plans to close 96 Dollar General stores and 45 pOpshelf stores in the first quarter of fiscal 2025.\n\nFrom the archive: Mar 2025. Not today's news.\n\nThe math: $1,125,253,000 (net income, fiscal 2024) ÷ 141 stores = about $7,980,517 of fiscal 2024 net income, for every store in the closing plan announced in March 2025. We round down.\nNet income is for fiscal 2024, which ended Jan 31, 2025. The closings are planned for the first quarter of fiscal 2025. 141 is 96 Dollar General stores and 45 pOpshelf stores in the company's plan. Six more pOpshelf stores are planned to be converted, not closed.\n\n(Our take.) Closure or re-bannering. Here is the closings column.\n\nSources\nF1: Dollar General Form 8-K, Exhibit 99.1: fourth quarter and fiscal 2024 results, filed Mar 13, 2025 · https://www.sec.gov/Archives/edgar/data/29534/000110465925023210/tm258818d1_ex99.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.",
+ "alt": "Vertical video, 1:01, cobalt blue poster with white type and no narration. Dollar General, Mar 2025: about $7.98M of fiscal 2024 net income per store in the Mar 2025 plan. The math, done.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2025-03-13T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "explicador",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465925023210/tm258818d1_ex99.htm",
+   "medio": "SEC EDGAR · Dollar General",
+   "titulo": "Dollar General Form 8-K, Exhibit 99.1: fourth quarter and fiscal 2024 results",
+   "hora_utc": "2025-03-13T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "61.5 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

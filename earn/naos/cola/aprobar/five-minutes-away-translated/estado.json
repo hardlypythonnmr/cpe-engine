@@ -1,0 +1,24 @@
+{
+ "slug": "five-minutes-away-translated",
+ "issue": 59,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-26T04:26:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fb53893f1a4e71bac140d4bbd0dc76d057625d3f97a75f68860f41149593b38e",
+ "hashes": {
+  "reel": "2421f7612e362ad80b1def57f8406466960585d15ff8974226f2e076c69091ab"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887872961,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "huecos-17nov",
+ "caducado_utc": "2026-11-15T02:21:16Z",
+ "aprobado_evento_utc": "2026-11-15T02:22:51Z",
+ "issue_n_system": 1034
+}

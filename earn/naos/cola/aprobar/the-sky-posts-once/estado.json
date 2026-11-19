@@ -1,0 +1,34 @@
+{
+ "slug": "the-sky-posts-once",
+ "issue": 42,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-29T14:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "dd67122e06421c1fb206c5fb9ae4097582b1a94705aab53b6c46deee964d47cd",
+ "hashes": {
+  "carrusel": "0c3113a8c3c1d2449cb7bc4b23075e7b01a2be1a479e18c5bb11b9e2f31f2b86"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6329033039,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aviso_utc": "2026-10-21T23:41:16Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-22T00:08:00Z",
+ "reprogramaciones": 1,
+ "reprogramada": {
+  "por": "D-512",
+  "utc": "2026-11-13T17:15:01Z",
+  "de_sale_utc": "2026-10-25T15:00:00Z",
+  "a_sale_utc": "2026-11-29T14:30:00Z",
+  "version_origen": 1,
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#688, 2026-10-22T00:08:00Z",
+  "ok_n": "Sí, las 3 (Recommended)",
+  "dia": "2026-11-29"
+ },
+ "issue_n_system": 688
+}

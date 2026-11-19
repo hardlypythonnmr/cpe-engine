@@ -1,0 +1,64 @@
+{
+ "slug": "dtt-the-aux-cord-theirs",
+ "titulo": "Driving? Hand the aux cord to the passenger",
+ "clave": "2027-01-21|casa-cocina",
+ "sale_utc": "2027-01-21T17:00:00Z",
+ "caption": "Driving? Hand the aux cord to the passenger\n\nIn the car, Cella is driving. She hands the aux cord to the passenger, and the passenger picks the song.\n\nFor whoever lets the passenger pick.\n\nChoose friction.\n\nMore of this: link in bio.\n\n#naos #choosefriction",
+ "descripcion": "In the car, Cella is driving. She hands the aux cord to the passenger, and the passenger picks the song.\n\nFor whoever lets the passenger pick.\n\nNAOS · Choose friction. by NMR\n#naos #choosefriction #shorts",
+ "sintetico": false,
+ "alt": "A short film with a voice on a flat color background inside a car. At the top, the words: 1 aux cord. For whoever hands it to the passenger. Two small figures with white eyes sit side by side behind a dashboard, the black one at a steering wheel on the left and one of another color on the right, with clouds drifting by in the window. The words appear one line at a time: one aux cord. I'm driving. I hand it over (the cord with its plug slides across the console to the passenger). They pick the song (the passenger's eyes go wide, music notes float up, a star appears and both smile). The closing line: for whoever lets the passenger pick. Then: Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "Cella handed over the aux cord. Somebody picked the song.",
+ "casa": {
+  "id": "dtt-the-aux-cord-theirs",
+  "version": 7
+ },
+ "evolucion": "Tres apuestas (junta-ene-s3, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. (c) Hora (apuesta 3a): tres Shorts a las 23:00Z contra tres a las 17:00Z; sin el si de N salen todos a las 17:00Z y el campo apuesta_hora de pieza.json dice cual es el brazo.",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "19.81 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 7 voice lines, 31 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-13.9 LUFS, true peak -1.0 dBFS, LRA 4.1 LU; mono fold (0.5 L + 0.5 R) -17.0 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.0 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "kokoro bf_isabella:.55+af_nicole:.35+af_heart:.10, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Type: Do the thing / door (D-495)",
+   "estado": "OK",
+   "nota": "the fact on screen and in the voice from the first second (rule of 9-nov), Cella does one small thing while the voice says it, a named-person close, then the line of the house. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Voice (test)",
+   "estado": "OK",
+   "nota": "Kokoro test voice (0 credits); the final voice is ElevenLabs mesa-maya only after N's OK"
+  },
+  {
+   "que": "Evolution bet (junta-ene-s3, section 3)",
+   "estado": "OK",
+   "nota": "Tres apuestas (junta-ene-s3, seccion 3). (a) El cierre con persona, sin pedido: ninguna pieza pide guardar, comentar, compartir, enviar ni seguir (regla 8); el fijado es una frase de Cella que nombra al destinatario. Base de lectura: N2 16 % (14 de 88 Reels), 1,5 envios por 1.000 de alcance, mediana de alcance 117; con el mismo corte de la hora 168. (b) El destinatario como gancho: brazo A (abre con \"For whoever ...\" en el cuadro 0 y vuelve a cerrar) contra brazo B (solo cierra). Se mide a 48 h con medir.py (envios por 1.000 de alcance, vistas comprometidas) y a 7 dias con objetivos.py (N2, N4). Con 17 seguidores no separa causa de ruido: lectura de orden de magnitud. (c) Hora (apuesta 3a): tres Shorts a las 23:00Z contra tres a las 17:00Z; sin el si de N salen todos a las 17:00Z y el campo apuesta_hora de pieza.json dice cual es el brazo."
+  }
+ ],
+ "gancho_brazo": "A",
+ "apuesta_hora": {
+  "eje": "hora (junta-ene-s3, 3a)",
+  "brazo": "17:00Z",
+  "sale_utc_sin_si": "2027-01-21T17:00:00Z",
+  "nota": "control de 17:00Z de la apuesta de la hora."
+ }
+}

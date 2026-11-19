@@ -1,0 +1,22 @@
+{
+ "slug": "pre-celebrating-not-unproductive",
+ "issue": 54,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8398688e2a40155446ed5a6f1879a42ec4b25dfca9e8b262fae6f774a8dd1dc8",
+ "hashes": {
+  "imagen": "9c54d2b5946208a25bcab266f03a5dd0c55dfb2da6f8543c11560256fbd53366"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681427345,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-23-24-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "issue_n_system": 977
+}

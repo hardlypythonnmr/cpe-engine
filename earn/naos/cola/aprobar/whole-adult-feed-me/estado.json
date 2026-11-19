@@ -1,0 +1,22 @@
+{
+ "slug": "whole-adult-feed-me",
+ "issue": 55,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-25T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "24bedbcdd6d3205ae336367635efd5a2d91b2e58218b174b0f598fbdcabd8ef8",
+ "hashes": {
+  "imagen": "d548c94cd2519b3ac62bb500754efd2cdcaca39c07c26b6588cc651a1a379591"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681440073,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-25-26-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:13Z",
+ "issue_n_system": 978
+}

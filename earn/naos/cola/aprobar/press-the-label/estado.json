@@ -1,0 +1,26 @@
+{
+ "slug": "press-the-label",
+ "issue": 88,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-12T01:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "31978758241a77e06a39dbe6d74816e29450633007b037150fbc26f43fe659f9",
+ "hashes": {
+  "short": "25bd510717edd8c01b4e6b9c837676b22b64b0f7aed295c47e66badf4232db54",
+  "reel": "ed6ad65118f3cc7894117a1b1eac310143bd408a8e8a6400b380b7fc2ace4b8d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886862013,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dicn-0613",
+ "caducado_utc": "2026-11-15T00:49:24Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:02Z",
+ "issue_n_system": 1358
+}

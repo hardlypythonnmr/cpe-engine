@@ -1,0 +1,60 @@
+{
+ "slug": "no-hands-for-two",
+ "titulo": "Kitchen's ours.",
+ "clave": "2026-11-13|casa-cocina",
+ "sale_utc": "2026-11-25T16:30:00Z",
+ "caption": "Kitchen's ours.\n\nNo hands. Things come to me. I saved you half.\n\nKitchen's ours.\n\nFor whoever shares your kitchen.\n\n#CuteAnimation #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "No hands. Things come to me. I saved you half.\n\nKitchen's ours.\n\nFor whoever shares your kitchen.\n\n#CuteAnimation #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A bright orange kitchen with a long table and a small cup at the far end. A small ink-black block figure with doorway legs and white eyes stands at the left end of the table. A tangerine peeks in from the right edge, then rolls by itself along the table until it reaches the figure. The figure tilts its head, leans into the tangerine with its whole body, and the fruit pops open into two halves with the segments showing. The figure slides one half along the table toward the cup at the far end and keeps the other, smiling with happy eyes. The words appear one after another: No hands. Things come to me. I saved you half. Kitchen's ours.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "no-hands-for-two",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -4.0 dBFS, LRA 2.2 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "tiro largo tiros-2026-11-03 (G2), hermana, ficha T-261103-08, idea I01"
+  },
+  {
+   "que": "Channels",
+   "estado": "OK",
+   "nota": "Reel (IG, destinatario: quien comparte cocina contigo)"
+  },
+  {
+   "que": "Conditional",
+   "estado": "OK",
+   "nota": "sale solo si no-hands-things-come-to-me se escapa a 24 h (reservas.csv); si no, vence sin salir"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "critica-2 3-nov: pasa; quedó fuera de la tanda solo porque su padre no pasó la segunda mirada"
+  }
+ ]
+}

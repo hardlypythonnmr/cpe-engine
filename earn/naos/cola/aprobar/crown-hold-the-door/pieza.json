@@ -1,0 +1,43 @@
+{
+ "slug": "crown-hold-the-door",
+ "titulo": "Hold the door or let it close?",
+ "clave": "2026-11-26|casa-puerta",
+ "sale_utc": "2026-11-26T17:40:00Z",
+ "caption": "Hold the door or let it close?\n\nHold the door or let it close?\nOne Cella held it twice.\nHold it or not?\n\nCloser to yourself.\n\nMore of this: link in bio.\n\n#relatable #doors #cella",
+ "descripcion": "Hold the door or let it close?\nOne Cella held it twice.\nHold it or not?\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. Mint green background, split into two panels. Left panel, salmon, labeled HOLD IT: an indigo Cella leans her body against an open door while a yellow square walks past into it. Right panel, deep blue, labeled LET IT CLOSE: a Cella with a small red crown, standing in a white circle of light, next to a closed door. The indigo Cella lets her door swing shut with nobody waiting and looks over at the other panel. The crowned Cella leans into her door and opens it with her body, looks at the camera, and two squares marked 1 and 2 walk through, one after the other. A card appears: She held it twice. A speech bubble that says clap pops up above her and goes flat; she lowers her eyelids. Both look at the camera: Hold it or not?",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "crown-hold-the-door",
+  "version": 8
+ },
+ "filo": "C",
+ "experimento": "storytelling-piloto-1511",
+ "envio": "the friend who counts every door they held",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 13 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -4.4 dBFS, LRA 1.8 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ]
+}

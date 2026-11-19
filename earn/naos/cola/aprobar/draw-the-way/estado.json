@@ -1,0 +1,26 @@
+{
+ "slug": "draw-the-way",
+ "issue": 91,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2027-01-23T14:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "be78f2e40e27115ae3cf8b9f0fb23107f6b58c82dee05b368b1f32751cdb3521",
+ "hashes": {
+  "short": "9b27dec740255ec1a45f4e0b5795f8f396693a3904e30a27a2d76e42a2320b99",
+  "reel": "08a69f3d9f88bff2e35ade1ad9e2e9d0be94dad4a54553782afbe70ce23cd026"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886872211,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enec-2226",
+ "caducado_utc": "2026-11-15T00:50:31Z",
+ "aprobado_evento_utc": "2026-11-15T01:02:07Z",
+ "issue_n_system": 1366
+}

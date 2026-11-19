@@ -1,0 +1,100 @@
+{
+ "slug": "family-dinner-receipt",
+ "titulo": "Family dinner",
+ "clave": "2026-11-24|family-dinner-receipt",
+ "sale_utc": "2026-11-24T21:35:00Z",
+ "caption": "A receipt for dinner at your family’s, itemized by minute. Save it for the car ride home.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Receipt. Table: the long one. Thank you. Come again next year. Greet 11 people: 0:10. Explain your job: 0:25. “So, anyone special?”: 0:48. Hide in the bathroom: 1:05. TOTAL: 3 h. A red stamp reads SURVIVED.",
+ "tipo_imagen": "F9 Recibo · familia · mar 24-nov",
+ "aspecto": "1x1",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "AB aspecto: 1x1, par de thanksgiving-plate-receipt; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-03",
+ "ab": {
+  "prueba": "aspecto",
+  "brazo": "1x1",
+  "par": "thanksgiving-plate-receipt",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-03T21:35:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-03T21:35:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-03T21:35:00Z"
+  }
+ ],
+ "blanco": "familia (arquetipo: la cena obligatoria)",
+ "mecanica_crecimiento": "enviar · destinatario: the sibling who sits across from you",
+ "destinatario": "the sibling who sits across from you",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "fixed in the 3rd pass: rows measure about 50 px, title on one line, no orphan; SURVIVED stamp sits close above NAOS without touching it; alt mentions the stamp"
+  },
+  {
+   "que": "Builder fix after judge 2nd pass",
+   "estado": "OK",
+   "nota": "6-nov, builder: filas a 50 px, encabezado y subtítulo de una línea, alt con SURVIVED. The 'Judge 2nd pass (D-294)' revision above is the judge's and is unchanged; it stays as the judge left it until the judge re-reads the piece."
+  },
+  {
+   "que": "Builder note on Fix count",
+   "estado": "OK",
+   "nota": "6-nov, builder: this piece has no revision in Fix in pieza.json (all OK); the earlier 'Fix' count came from a preview made before the second pass. Judge revisions, if any, are untouched."
+  },
+  {
+   "que": "Judge 3rd pass (D-294)",
+   "estado": "OK",
+   "nota": "rows measure about 50 px, title on one line, no orphan; SURVIVED stamp sits close above NAOS without touching it; alt mentions the stamp"
+  }
+ ]
+}
