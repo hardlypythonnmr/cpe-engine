@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 comentarios.py ronda --publicar --abrir)",
+      "Bash(python3 comentarios.py ronda --marca dd --publicar --abrir)",
+      "Bash(python3 comentarios.py responder:*)",
+      "Bash(python3 comentarios.py silenciar:*)",
+      "Bash(python3 earn/naos/motor/aprobar/copia.py al-dia)",
+      "Bash(python3 earn/naos/motor/aprobar/copia.py guardar)",
+      "Bash(python3 programador.py --despachar)",
+      "Bash(python3 programador.py --subir-shorts)",
+      "Bash(python3 programador.py --aprobaciones)",
+      "Bash(bash earn/naos/empresa/mesa/fusionar.sh:*)",
+      "Bash(git -C /tmp/naos-main push origin HEAD:main)"
+    ],
+    "deny": [
+      "Bash(env:*)",
+      "Bash(printenv:*)",
+      "Bash(set:*)",
+      "Read(//proc/**)"
+    ]
+  }
+}

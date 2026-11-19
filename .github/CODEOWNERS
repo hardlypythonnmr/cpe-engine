@@ -28,3 +28,5 @@
 
 # Este mismo archivo
 /.github/CODEOWNERS                               @hardlypythonnmr
+/.claude/settings.json                            @hardlypythonnmr
+/.claude/agents/                                  @hardlypythonnmr
