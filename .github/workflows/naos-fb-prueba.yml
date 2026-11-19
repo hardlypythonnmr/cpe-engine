@@ -1,0 +1,57 @@
+# naos-fb-prueba: solo lee. Comprueba el token de Facebook Login de NAOS (N 19-nov: Página "Naos" y @naos.v3 en el portafolio
+# Difficult Decision). Dice qué nombres de secretos y variables existen (nunca su valor), qué permisos tiene el token, qué
+# Páginas ve y el ID de Instagram conectado a la Página de NAOS. No escribe nada.
+name: naos-fb-prueba
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Leer token, permisos y Páginas
+        env:
+          T1: ${{ secrets.NAOS_FB_TOKEN }}
+          T2: ${{ secrets.NAOS_FACEBOOK_TOKEN }}
+          T3: ${{ secrets.NAOS_FB_PAGE_TOKEN }}
+          T4: ${{ secrets.NAOS_PAGE_TOKEN }}
+          T5: ${{ secrets.NAOS_META_TOKEN }}
+          T6: ${{ secrets.NAOS_INSTAGRAM_FB_TOKEN }}
+          P1: ${{ vars.NAOS_FB_PAGE_ID || secrets.NAOS_FB_PAGE_ID }}
+          P2: ${{ vars.NAOS_PAGE_ID || secrets.NAOS_PAGE_ID }}
+          P3: ${{ vars.NAOS_FACEBOOK_PAGE_ID || secrets.NAOS_FACEBOOK_PAGE_ID }}
+          I1: ${{ vars.NAOS_FB_IG_USER_ID || secrets.NAOS_FB_IG_USER_ID }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          nombres = {"T1": "NAOS_FB_TOKEN", "T2": "NAOS_FACEBOOK_TOKEN", "T3": "NAOS_FB_PAGE_TOKEN", "T4": "NAOS_PAGE_TOKEN",
+                     "T5": "NAOS_META_TOKEN", "T6": "NAOS_INSTAGRAM_FB_TOKEN", "P1": "NAOS_FB_PAGE_ID", "P2": "NAOS_PAGE_ID",
+                     "P3": "NAOS_FACEBOOK_PAGE_ID", "I1": "NAOS_FB_IG_USER_ID"}
+          hay = {k: bool(os.environ.get(k, "").strip()) for k in nombres}
+          print("existen:", [nombres[k] for k in nombres if hay[k]] or "ninguno de los nombres probados")
+          tok = next((os.environ[k].strip() for k in ("T1", "T2", "T3", "T4", "T5", "T6") if hay[k]), "")
+          pag = next((os.environ[k].strip() for k in ("P1", "P2", "P3") if hay[k]), "")
+          def get(ruta, **p):
+              p["access_token"] = tok
+              try:
+                  with urllib.request.urlopen(f"https://graph.facebook.com/v23.0/{ruta}?" + urllib.parse.urlencode(p), timeout=30) as r:
+                      return json.loads(r.read())
+              except urllib.error.HTTPError as e:
+                  return {"error": json.loads(e.read() or b"{}").get("error", {}).get("message", str(e.code))}
+          if not tok:
+              raise SystemExit("sin token")
+          me = get("me", fields="id,name")
+          print("token de:", me.get("name") or me)
+          perms = get("me/permissions").get("data", [])
+          print("permisos concedidos:", sorted(p["permission"] for p in perms if p.get("status") == "granted"))
+          print("permisos no concedidos:", sorted(f"{p['permission']}={p.get('status')}" for p in perms if p.get("status") != "granted"))
+          cuentas = get("me/accounts", fields="id,name,instagram_business_account{id,username}").get("data", [])
+          for c in cuentas:
+              print("página:", c.get("id"), c.get("name"), "-> instagram:", c.get("instagram_business_account"))
+          if pag:
+              print("página de la variable:", pag, get(pag, fields="id,name,instagram_business_account{id,username}"))
+          if hay["I1"]:
+              print("NAOS_FB_IG_USER_ID existe; su cuenta:", get(os.environ["I1"].strip(), fields="id,username"))
+          PY
