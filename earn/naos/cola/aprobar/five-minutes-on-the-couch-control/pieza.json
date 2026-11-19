@@ -1,0 +1,71 @@
+{
+ "slug": "five-minutes-on-the-couch-control",
+ "titulo": "Me: just 5 more minutes on the couch",
+ "clave": "2026-11-23|five-minutes-on-the-couch-control",
+ "sale_utc": "2026-11-23T09:15:00Z",
+ "tipo": "CM",
+ "caption": "Just 5 more minutes on the couch. Then the clock got busy.\n18:00 to 21:15, one full procrastination spiral, and Cella (the little door of NAOS) is proud of every minute.\n#procrastination #couchrotting #procrastinationmeme\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "descripcion": "Just 5 more minutes on the couch. Then the clock got busy.\n18:00 to 21:15, one full procrastination spiral, and Cella (the little door of NAOS) is proud of every minute.\n#procrastination #couchrotting #procrastinationmeme\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "An 11-second vertical video with our own music and no voice. Cella, a small dark door-shaped character with white eyes and a flat red crown, stands and closes her eyes proudly while a big clock jumps from 18:00 to 21:15 under a ’just 5 minutes on the couch’ sticker.",
+ "comentario_fijado": "5 minutes on the couch. what time did yours actually end?",
+ "seccion": "humanity",
+ "formato": "short",
+ "filo": "V",
+ "modo": "Cella con música",
+ "receta": "lámina animada de Cella",
+ "junta": "crecimiento",
+ "apuesta": "remate-recibo",
+ "variante": "control",
+ "tanda": "crecimiento-1119",
+ "experimento": true,
+ "experimento_prueba": "control pareado de five-minutes-on-the-couch: mismo cuadro 0, misma escalera, música y hora UTC; sin recibo ni línea final. La única variable es el remate",
+ "nota_junta": "se cancela (no se publica) si five-minutes-on-the-couch va bajo 45 vistas a 48 h",
+ "texto_en_pantalla": [
+  "ME: 5 MINUTES ON THE COUCH",
+  "18:00",
+  "18:05",
+  "18:20",
+  "18:45",
+  "19:20",
+  "20:10",
+  "21:15"
+ ],
+ "copy": "seo-maestro (obligatorio desde el 19-nov)",
+ "casa": {
+  "id": "five-minutes-on-the-couch-control",
+  "version": 1,
+  "produccion": "n-system earn/naos/empresa/crecimiento/tandas/crecimiento-1119/_motor/tanda.py",
+  "especificacion": "n-system earn/naos/empresa/crecimiento/diario/2026-11-19.md"
+ },
+ "eco": "D-530 · junta de crecimiento del 19-nov (empresa/crecimiento/diario/2026-11-19.md en n-system)",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz; no voice"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own music, motor/musica/pulso.py mode lab, seed 1119, 112 bpm, normalized to -14 LUFS; 0 ElevenLabs credits"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, type 46 px or more (tanda.py revisar, _motor/medida.json)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-527: no mantra, nothing sacred, no health or cure promise, no advice; Cella without hands, flat red crown #A8362A"
+  }
+ ]
+}

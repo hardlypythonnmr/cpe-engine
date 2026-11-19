@@ -1,0 +1,71 @@
+{
+ "slug": "two-doors-vote",
+ "titulo": "Pick a door: A or B? Cella won’t peek",
+ "clave": "2026-11-24|two-doors-vote",
+ "sale_utc": "2026-11-24T10:00:00Z",
+ "tipo": "CM",
+ "caption": "Pick a door. Two shut doors, pink and violet, both knocking from the inside.\nCella stands between them and refuses to look.\nComment A or B. At 10 votes, the winner opens in the next Short.\n#pickadoor #whichdoorwouldyouchoose #wouldyourather\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "descripcion": "Pick a door. Two shut doors, pink and violet, both knocking from the inside.\nCella stands between them and refuses to look.\nComment A or B. At 10 votes, the winner opens in the next Short.\n#pickadoor #whichdoorwouldyouchoose #wouldyourather\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A 10-second vertical video with our own music and no voice. On a lime background, a pink door marked A and a violet door marked B shake as something knocks from inside, while Cella, a small dark door-shaped character with white eyes and a flat red crown, stands between them without peeking. Stickers read two doors, one opens; comment A or B; most votes opens next; she won’t peek.",
+ "comentario_fijado": "One letter: A or B. At 10 votes, the winning door opens in the next Short. Under 10, both stay shut. She’s fine with that.",
+ "seccion": "humanity",
+ "formato": "short",
+ "filo": "V",
+ "modo": "Cella con música",
+ "receta": "lámina animada de Cella",
+ "junta": "crecimiento",
+ "apuesta": "dos-puertas-voto",
+ "variante": "voto",
+ "tanda": "crecimiento-1119",
+ "experimento": true,
+ "experimento_prueba": "la audiencia elige el siguiente Short con un umbral público de 10 votos en el fijado; cuadro 0 sin texto (dos puertas que golpean). Votos válidos, vistas, suscriptores y visto medio en YouTube a 72 h",
+ "nota_junta": "el fijado se actualiza a diario solo con cuentas reales; a 10 votos se hace el final ganador (A: una Cella pequeña lisa sin corona, 'WHO ARE YOU.'; B: cuarto vacío con taburete y lámpara, 'JUST A TUESDAY.') y sale en 48 h; bajo 10, 'Both doors stay shut. She's fine with that.'",
+ "texto_en_pantalla": [
+  "",
+  "",
+  "TWO DOORS. ONE OPENS.",
+  "A",
+  "B",
+  "COMMENT A OR B.",
+  "MOST VOTES OPENS NEXT.",
+  "SHE WON'T PEEK."
+ ],
+ "copy": "seo-maestro (obligatorio desde el 19-nov)",
+ "casa": {
+  "id": "two-doors-vote",
+  "version": 1,
+  "produccion": "n-system earn/naos/empresa/crecimiento/tandas/crecimiento-1119/_motor/tanda.py",
+  "especificacion": "n-system earn/naos/empresa/crecimiento/diario/2026-11-19.md"
+ },
+ "eco": "D-530 · junta de crecimiento del 19-nov (empresa/crecimiento/diario/2026-11-19.md en n-system)",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz; no voice"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own music, motor/musica/pulso.py mode lab, seed 1119, 116 bpm, normalized to -14 LUFS; 0 ElevenLabs credits"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, type 46 px or more (tanda.py revisar, _motor/medida.json)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-527: no mantra, nothing sacred, no health or cure promise, no advice; Cella without hands, flat red crown #A8362A"
+  }
+ ]
+}
