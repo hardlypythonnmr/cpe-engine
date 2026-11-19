@@ -1,6 +1,6 @@
 {
  "nombre": "dd-2026-11-19-agente-b",
- "issue": 1803,
+ "issue": 38,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -27,5 +27,6 @@
   "dd-2026-11-19-starbucks-hist-video",
   "dd-2026-11-19-starbucks-lamina",
   "dd-2026-11-19-starbucks-tachon-q"
- ]
+ ],
+ "issue_n_system": 1803
 }

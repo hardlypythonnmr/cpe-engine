@@ -1,6 +1,6 @@
 {
  "nombre": "dd-reserva-1730-b",
- "issue": 1332,
+ "issue": 16,
  "version": 2,
  "estado": "aprobado",
  "piezas": [
@@ -36,5 +36,6 @@
   "dd-2026-11-24-marriott-expediente",
   "dd-2026-11-24-marriott-historia",
   "dd-2026-11-24-marriott-lamina"
- ]
+ ],
+ "issue_n_system": 1332
 }

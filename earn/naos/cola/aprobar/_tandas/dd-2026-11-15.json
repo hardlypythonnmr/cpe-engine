@@ -1,6 +1,6 @@
 {
  "nombre": "dd-2026-11-15",
- "issue": 1529,
+ "issue": 21,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -20,5 +20,6 @@
   "dd-2026-11-15-ebay-historia",
   "dd-2026-11-15-ebay-lamina",
   "dd-2026-11-15-ebay-tachon-q"
- ]
+ ],
+ "issue_n_system": 1529
 }

@@ -1,6 +1,6 @@
 {
  "slug": "apology-video-graded",
- "issue": 976,
+ "issue": 10,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T22:00:00Z",
@@ -17,5 +17,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": true,
  "tanda": "medios-15-25-nov",
- "aprobado_evento_utc": "2026-11-06T10:43:49Z"
+ "aprobado_evento_utc": "2026-11-06T10:43:49Z",
+ "issue_n_system": 976
 }

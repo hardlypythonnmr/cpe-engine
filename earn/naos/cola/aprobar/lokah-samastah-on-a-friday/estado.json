@@ -1,6 +1,6 @@
 {
  "slug": "lokah-samastah-on-a-friday",
- "issue": 1768,
+ "issue": 28,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-20T18:25:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "naos-2026-11-17-mantras",
- "aprobado_evento_utc": "2026-11-17T17:13:18Z"
+ "aprobado_evento_utc": "2026-11-17T17:13:18Z",
+ "issue_n_system": 1768
 }

@@ -1,6 +1,6 @@
 {
  "nombre": "fijo-reel-1511",
- "issue": 1448,
+ "issue": 17,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -20,5 +20,6 @@
   "7-fixes-you-keep-skipping-reel",
   "comfort-says-friction-says-reel",
   "dd-2026-11-13-meta-lamina-reel"
- ]
+ ],
+ "issue_n_system": 1448
 }

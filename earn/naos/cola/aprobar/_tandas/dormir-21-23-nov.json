@@ -1,6 +1,6 @@
 {
  "nombre": "dormir-21-23-nov",
- "issue": 1773,
+ "issue": 30,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -18,5 +18,6 @@
   "build-self-esteem-while-you-sleep-1-hour",
   "forgive-yourself-while-you-sleep-1-hour",
   "know-yourself-while-you-sleep-1-hour"
- ]
+ ],
+ "issue_n_system": 1773
 }

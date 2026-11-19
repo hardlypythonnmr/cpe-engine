@@ -1,6 +1,6 @@
 {
  "slug": "wrong-room-rmx-color",
- "issue": 1774,
+ "issue": 31,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T19:25:00Z",
@@ -20,5 +20,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "remezcla-21-27-nov",
- "aprobado_evento_utc": "2026-11-17T18:55:10Z"
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "issue_n_system": 1774
 }

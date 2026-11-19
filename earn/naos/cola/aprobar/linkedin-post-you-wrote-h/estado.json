@@ -1,6 +1,6 @@
 {
  "slug": "linkedin-post-you-wrote-h",
- "issue": 942,
+ "issue": 5,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-20T04:30:00Z",
@@ -21,5 +21,6 @@
   "via": "eco-historia",
   "cita": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#942, 2026-11-05T02:19:22Z; eco-historia (2026-11-13T16:22:35Z): copia en historia de linkedin-post-you-wrote, publicada 2026-11-10T13:19:18Z, misma imagen (huella ab89f9d7d2ece1b2); regla de N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
   "origen": "linkedin-post-you-wrote"
- }
+ },
+ "issue_n_system": 942
 }

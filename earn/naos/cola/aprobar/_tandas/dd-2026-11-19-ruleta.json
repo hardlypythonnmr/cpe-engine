@@ -1,6 +1,6 @@
 {
  "nombre": "dd-2026-11-19-ruleta",
- "issue": 1810,
+ "issue": 40,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -14,5 +14,6 @@
  "aprobado_evento_utc": "2026-11-19T16:42:37Z",
  "aprobadas": [
   "dd-2026-11-19-done-damages-ruleta-explicador"
- ]
+ ],
+ "issue_n_system": 1810
 }

@@ -1,6 +1,6 @@
 {
  "nombre": "crecimiento-1921",
- "issue": 1771,
+ "issue": 29,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -24,5 +24,6 @@
   "she-will-not-ask",
   "todays-affirmations-by-cella",
   "weekend-affirmations-by-cella"
- ]
+ ],
+ "issue_n_system": 1771
 }

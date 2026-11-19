@@ -1,0 +1,81 @@
+# NAOS: avisarle a N por GitHub lo que le toca (sesión 8, 16-oct-2026, N: "Sí, créala").
+# GitHub no le avisa a N de lo que hace su propio token (las sesiones y la anfitriona de rutinas escriben como N).
+# Lo que sí le llega al celular y al correo es lo que escribe un bot. Esta Action comenta como github-actions[bot]
+# con @mención a N en dos casos (N, 19-oct: "Solo 2 cosas, pero yo reviso antes de cerrar"):
+#   1. un issue recibe la etiqueta por-aprobar (pieza para aprobar; aprobar.py la pone al crear el issue);
+#   2. el issue fijo "Tu semana" recibe la etiqueta tu-semana (máx. 3 preguntas; la revisión semanal la quita y la pone cada lunes).
+# La bitácora de chequeos (#544) ya no avisa: se lee cuando N quiera.
+# Los comentarios del bot no disparan workflows (GITHUB_TOKEN), así que no hay bucles.
+# Seguridad: el texto de terceros nunca pasa por el shell; título y primera línea se leen con la API dentro de github-script.
+# Minutos: ~10 s por aviso; aprobaciones + un aviso semanal.
+# Un aviso por ráfaga (N, 15-nov: "Sí, uno por ráfaga (Recomendado)"; G5 de empresa/rendimiento/actions-menos.md):
+#   el job va en una sola cola (concurrency global). Mientras corre un aviso, GitHub guarda solo la última corrida en espera y
+#   cancela las de antes sin cobrarlas, así que una ráfaga de N tandas cuesta ~2 corridas y no N. Cada corrida busca las tandas
+#   con por-aprobar puesta después de su último aviso (6 h hacia atrás) y deja UN comentario con @mención en la más nueva, que
+#   enlaza todas. El marcador <!-- naos:aviso n1,n2 --> dice qué issues cubrió; uno viejo sin lista cubre su propio issue.
+#   Si una tanda vuelve a recibir por-aprobar (cambio de contenido), vuelve a avisar: cuenta la hora de la etiqueta.
+#   Si no queda nada por avisar, no comenta. "Tu semana" avisa como antes, uno por evento.
+name: naos-avisar
+on:
+  issues:
+    types: [labeled]
+permissions:
+  issues: write
+jobs:
+  avisar:
+    if: >-
+      ${{ !github.event.issue.pull_request &&
+      github.event_name == 'issues' &&
+      (github.event.label.name == 'por-aprobar' || github.event.label.name == 'tu-semana') }}
+    # Cola única: los jobs saltados (otras etiquetas) no entran; los que esperan se reemplazan por el último.
+    concurrency:
+      group: naos-avisar
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/github-script@v9
+        env:
+          APROBADOR: ${{ vars.NAOS_APROBADOR || github.repository_owner }}
+        with:
+          script: |
+            // Lógica de la ráfaga: earn/naos/motor/aprobar/prueba_avisar.py la corre con node y un github falso.
+            const quien = process.env.APROBADOR
+            const ev = context.payload
+            const { owner, repo } = context.repo
+            if (ev.label.name === 'tu-semana') {
+              await github.rest.issues.createComment({ owner, repo, issue_number: ev.issue.number,
+                body: `@${quien} Tu semana: ${ev.issue.title}\n\n<!-- naos:aviso -->` })
+              return
+            }
+            const desde = new Date(Date.now() - 6 * 3600 * 1000).toISOString()
+            // 1. Último aviso por issue (comentarios del repo con el marcador, 6 h)
+            const avisado = {}
+            const coms = await github.paginate(github.rest.issues.listCommentsForRepo,
+              { owner, repo, since: desde, sort: 'created', direction: 'asc', per_page: 100 })
+            for (const c of coms) {
+              const m = /<!-- naos:aviso(?: ([0-9,]+))? -->/.exec(c.body || '')
+              if (!m || !(c.user && c.user.type === 'Bot')) continue
+              const nums = m[1] ? m[1].split(',').map(Number) : [Number(c.issue_url.split('/').pop())]
+              for (const n of nums) if (!avisado[n] || avisado[n] < c.created_at) avisado[n] = c.created_at
+            }
+            // 2. Tandas abiertas con por-aprobar tocadas en 6 h, más la del evento
+            const abiertas = await github.paginate(github.rest.issues.listForRepo,
+              { owner, repo, state: 'open', labels: 'por-aprobar', since: desde, per_page: 100 })
+            const cand = new Map(abiertas.filter(i => !i.pull_request).map(i => [i.number, i]))
+            cand.set(ev.issue.number, ev.issue)
+            // 3. Pendiente = su última etiqueta por-aprobar es posterior a su último aviso
+            const pend = []
+            for (const [n, i] of cand) {
+              const evs = await github.paginate(github.rest.issues.listEvents, { owner, repo, issue_number: n, per_page: 100 })
+              const et = evs.filter(e => e.event === 'labeled' && e.label && e.label.name === 'por-aprobar')
+                .map(e => e.created_at).sort().pop() || i.created_at  // sin evento: cuenta la creación (nunca se queda sin aviso)
+              if (et && (!avisado[n] || avisado[n] < et)) pend.push({ n, titulo: i.title, et })
+            }
+            if (!pend.length) { core.info('nada por avisar: ya lo cubrió un aviso anterior'); return }
+            pend.sort((a, b) => (a.et < b.et ? -1 : a.et > b.et ? 1 : a.n - b.n))
+            const ult = pend[pend.length - 1]
+            const lista = pend.map(p => `- #${p.n} ${p.titulo}`).join('\n')
+            const que = pend.length === 1 ? `Pieza para aprobar: ${ult.titulo}` : `${pend.length} tandas para aprobar:\n${lista}`
+            await github.rest.issues.createComment({ owner, repo, issue_number: ult.n,
+              body: `@${quien} ${que}\n\n<!-- naos:aviso ${pend.map(p => p.n).join(',')} -->` })

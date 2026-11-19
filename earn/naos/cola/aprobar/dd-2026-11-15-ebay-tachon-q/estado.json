@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-15-ebay-tachon-q",
- "issue": 1529,
+ "issue": 21,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-15T17:00:00Z",
@@ -23,5 +23,6 @@
  "aprobado_evento_utc": "2026-11-15T13:21:17Z",
  "reel_fallo_utc": "2026-11-15T16:59:52Z",
  "short_bajado_utc": "2026-11-17T14:17:54Z",
- "short_bajado": "privado y sin fecha (ya era público: lo baja la palabra de N, bajar-shorts --publicos)"
+ "short_bajado": "privado y sin fecha (ya era público: lo baja la palabra de N, bajar-shorts --publicos)",
+ "issue_n_system": 1529
 }

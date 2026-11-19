@@ -1,6 +1,6 @@
 {
  "slug": "missed-the-deadline-texts-es",
- "issue": 1767,
+ "issue": 27,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T02:45:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "es-19-20-nov",
- "aprobado_evento_utc": "2026-11-17T16:48:14Z"
+ "aprobado_evento_utc": "2026-11-17T16:48:14Z",
+ "issue_n_system": 1767
 }

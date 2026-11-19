@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-19-done-damages-ruleta-explicador",
- "issue": 1810,
+ "issue": 40,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-19T17:30:00Z",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-19-ruleta",
- "aprobado_evento_utc": "2026-11-19T16:42:37Z"
+ "aprobado_evento_utc": "2026-11-19T16:42:37Z",
+ "issue_n_system": 1810
 }

@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-19-hp-inc-hist-numero",
- "issue": 1802,
+ "issue": 37,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-19T20:15:00Z",
@@ -20,5 +20,6 @@
  "tanda": "dd-2026-11-19-agente",
  "aprobacion": "agente",
  "aprobado_evento_utc": "2026-11-19T11:56:19Z",
- "veto_hasta_utc": "2026-11-19T12:56:19Z"
+ "veto_hasta_utc": "2026-11-19T12:56:19Z",
+ "issue_n_system": 1802
 }

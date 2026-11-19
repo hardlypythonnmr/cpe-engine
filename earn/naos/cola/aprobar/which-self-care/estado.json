@@ -1,6 +1,6 @@
 {
  "slug": "which-self-care",
- "issue": 962,
+ "issue": 6,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-19T13:20:00Z",
@@ -17,5 +17,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": true,
  "tanda": "instagram-19-20-nov",
- "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z",
+ "issue_n_system": 962
 }

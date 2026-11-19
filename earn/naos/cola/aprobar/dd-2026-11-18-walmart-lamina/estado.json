@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-18-walmart-lamina",
- "issue": 1331,
+ "issue": 15,
  "version": 3,
  "estado": "aprobado",
  "sale_utc": "2026-11-18T20:00:00Z",
@@ -20,5 +20,6 @@
  "tanda": "dd-reserva-1730-a",
  "caducado_utc": "2026-11-14T23:32:13Z",
  "aprobado_evento_utc": "2026-11-14T23:57:53Z",
- "reel_fallo_utc": "2026-11-18T20:01:49Z"
+ "reel_fallo_utc": "2026-11-18T20:01:49Z",
+ "issue_n_system": 1331
 }

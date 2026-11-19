@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-21-cleveland-cliffs-2022-burns-harbor-penal-explicador",
- "issue": 1741,
+ "issue": 23,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T01:00:00Z",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-ampliacion-a",
- "aprobado_evento_utc": "2026-11-17T03:42:08Z"
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z",
+ "issue_n_system": 1741
 }

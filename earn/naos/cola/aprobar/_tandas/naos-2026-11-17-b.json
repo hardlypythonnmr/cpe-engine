@@ -1,6 +1,6 @@
 {
  "nombre": "naos-2026-11-17-b",
- "issue": 1753,
+ "issue": 25,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -16,5 +16,6 @@
  "aprobadas": [
   "hare-krishna-on-a-thursday",
   "tao-chapter-one-on-a-saturday"
- ]
+ ],
+ "issue_n_system": 1753
 }

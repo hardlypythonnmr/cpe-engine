@@ -1,6 +1,6 @@
 {
  "nombre": "dd-2026-11-19-agente",
- "issue": 1802,
+ "issue": 37,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -35,5 +35,6 @@
   "dd-2026-11-19-molson-coors-historia",
   "dd-2026-11-19-molson-coors-lamina",
   "dd-2026-11-19-molson-coors-tachon-q"
- ]
+ ],
+ "issue_n_system": 1802
 }

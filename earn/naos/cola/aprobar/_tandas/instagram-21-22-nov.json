@@ -1,6 +1,6 @@
 {
  "nombre": "instagram-21-22-nov",
- "issue": 963,
+ "issue": 7,
  "version": 2,
  "estado": "aprobado",
  "piezas": [
@@ -36,5 +36,6 @@
   "tree-never-read-self-help",
   "which-group-chat-person",
   "world-hello-day"
- ]
+ ],
+ "issue_n_system": 963
 }

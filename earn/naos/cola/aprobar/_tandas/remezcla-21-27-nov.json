@@ -1,6 +1,6 @@
 {
  "nombre": "remezcla-21-27-nov",
- "issue": 1774,
+ "issue": 31,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -30,5 +30,6 @@
   "wrong-room-rmx-color",
   "wrong-room-rmx-encuadre",
   "wrong-room-rmx-estilo"
- ]
+ ],
+ "issue_n_system": 1774
 }

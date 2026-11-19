@@ -1,6 +1,6 @@
 {
  "nombre": "tendencia-1820",
- "issue": 1486,
+ "issue": 18,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -20,5 +20,6 @@
   "not-for-trade",
   "say-what-you-heard",
   "sorry-itemized-receipt"
- ]
+ ],
+ "issue_n_system": 1486
 }

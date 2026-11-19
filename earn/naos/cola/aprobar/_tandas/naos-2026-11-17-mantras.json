@@ -1,6 +1,6 @@
 {
  "nombre": "naos-2026-11-17-mantras",
- "issue": 1768,
+ "issue": 28,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -16,5 +16,6 @@
  "aprobadas": [
   "lokah-samastah-on-a-friday",
   "om-shanti-shanti-shanti-on-a-wednesday"
- ]
+ ],
+ "issue_n_system": 1768
 }

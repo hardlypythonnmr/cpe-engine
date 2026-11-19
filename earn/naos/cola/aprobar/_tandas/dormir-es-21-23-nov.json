@@ -1,6 +1,6 @@
 {
  "nombre": "dormir-es-21-23-nov",
- "issue": 1786,
+ "issue": 35,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -18,5 +18,6 @@
   "autoestima-mientras-duermes-1-hora",
   "conocete-mientras-duermes-1-hora",
   "perdonate-mientras-duermes-1-hora"
- ]
+ ],
+ "issue_n_system": 1786
 }

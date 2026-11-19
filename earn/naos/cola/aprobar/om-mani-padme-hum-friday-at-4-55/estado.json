@@ -1,6 +1,6 @@
 {
  "slug": "om-mani-padme-hum-friday-at-4-55",
- "issue": 1088,
+ "issue": 13,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T00:45:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "mantra-1921",
- "aprobado_evento_utc": "2026-11-13T15:00:56Z"
+ "aprobado_evento_utc": "2026-11-13T15:00:56Z",
+ "issue_n_system": 1088
 }

@@ -1,6 +1,6 @@
 {
  "slug": "groggy-has-a-name",
- "issue": 807,
+ "issue": 2,
  "version": 2,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T04:30:00Z",
@@ -27,5 +27,6 @@
   "a_sale_utc": "2026-11-21T04:30:00Z",
   "version_origen": 1,
   "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#807, 2026-10-23T12:23:35Z"
- }
+ },
+ "issue_n_system": 807
 }

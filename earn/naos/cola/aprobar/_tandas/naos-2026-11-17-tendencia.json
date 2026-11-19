@@ -1,6 +1,6 @@
 {
  "nombre": "naos-2026-11-17-tendencia",
- "issue": 1760,
+ "issue": 26,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -20,5 +20,6 @@
   "task-and-phone",
   "task-label-intended-vs-did",
   "two-minutes-start"
- ]
+ ],
+ "issue_n_system": 1760
 }

@@ -1,6 +1,6 @@
 {
  "nombre": "instagram-19-20-nov",
- "issue": 962,
+ "issue": 6,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -36,5 +36,6 @@
   "text-me-home",
   "water-retreat",
   "which-self-care"
- ]
+ ],
+ "issue_n_system": 962
 }

@@ -1,6 +1,6 @@
 {
  "nombre": "dd-remezcla-nvidia",
- "issue": 1777,
+ "issue": 33,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -16,5 +16,6 @@
  "aprobadas": [
   "dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
   "dd-2026-11-22-nvidia-tachon-q-rmx-frio"
- ]
+ ],
+ "issue_n_system": 1777
 }

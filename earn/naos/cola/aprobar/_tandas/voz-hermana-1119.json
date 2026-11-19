@@ -1,6 +1,6 @@
 {
  "nombre": "voz-hermana-1119",
- "issue": 1805,
+ "issue": 39,
  "version": 2,
  "estado": "por-aprobar",
  "piezas": [
@@ -20,5 +20,6 @@
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-19T15:39:22Z",
  "aviso_utc": "2026-11-19T16:58:15Z",
- "aviso_canal": "github"
+ "aviso_canal": "github",
+ "issue_n_system": 1805
 }

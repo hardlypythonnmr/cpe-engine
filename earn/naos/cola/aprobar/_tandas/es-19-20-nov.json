@@ -1,6 +1,6 @@
 {
  "nombre": "es-19-20-nov",
- "issue": 1767,
+ "issue": 27,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -20,5 +20,6 @@
   "missed-the-deadline-texts-es",
   "procrastination-laziness-or-fear-es",
   "which-self-care-es"
- ]
+ ],
+ "issue_n_system": 1767
 }

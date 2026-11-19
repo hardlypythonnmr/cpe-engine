@@ -1,6 +1,6 @@
 {
  "nombre": "dd-remezcla-agente",
- "issue": 1776,
+ "issue": 32,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -19,5 +19,6 @@
  "aprobadas": [
   "dd-2026-11-21-alphabet-tachon-q-rmx-tinta",
   "dd-2026-11-23-alphabet-tachon-q-rmx-frio"
- ]
+ ],
+ "issue_n_system": 1776
 }

@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-21-kroger-expediente",
- "issue": 1332,
+ "issue": 16,
  "version": 2,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T21:00:00Z",
@@ -19,5 +19,6 @@
  "datos_max_h": 0,
  "tanda": "dd-reserva-1730-b",
  "caducado_utc": "2026-11-14T23:33:00Z",
- "aprobado_evento_utc": "2026-11-14T23:58:12Z"
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z",
+ "issue_n_system": 1332
 }

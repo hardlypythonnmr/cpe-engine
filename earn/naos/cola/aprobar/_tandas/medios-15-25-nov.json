@@ -1,6 +1,6 @@
 {
  "nombre": "medios-15-25-nov",
- "issue": 976,
+ "issue": 10,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -20,5 +20,6 @@
   "gta-6-hype-explained",
   "nobody-is-looking-at-you",
   "venting-makes-anger-worse"
- ]
+ ],
+ "issue_n_system": 976
 }

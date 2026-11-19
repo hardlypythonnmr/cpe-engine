@@ -1,6 +1,6 @@
 {
  "nombre": "dd-hist-1511",
- "issue": 1495,
+ "issue": 19,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -20,5 +20,6 @@
   "dd-2026-11-15-alphabet-hist-numero",
   "dd-2026-11-15-alphabet-hist-siguiente",
   "dd-2026-11-15-alphabet-hist-video"
- ]
+ ],
+ "issue_n_system": 1495
 }

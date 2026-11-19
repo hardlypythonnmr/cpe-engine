@@ -1,6 +1,6 @@
 {
  "slug": "terms-of-being-my-friend",
- "issue": 963,
+ "issue": 7,
  "version": 2,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T15:50:00Z",
@@ -19,5 +19,6 @@
  "tanda": "instagram-21-22-nov",
  "caducado_utc": "2026-11-15T00:02:42Z",
  "datos_max_h": 12.0,
- "aprobado_evento_utc": "2026-11-15T00:04:27Z"
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "issue_n_system": 963
 }

@@ -1,6 +1,6 @@
 {
  "nombre": "naos-2026-11-17",
- "issue": 1751,
+ "issue": 24,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -30,5 +30,6 @@
   "todays-word-enough",
   "tomorrow-is-the-beaver-moon",
   "you-are-13-8-billion-years-old"
- ]
+ ],
+ "issue_n_system": 1751
 }

@@ -1,6 +1,6 @@
 {
  "nombre": "dd-reserva-1730-a",
- "issue": 1331,
+ "issue": 15,
  "version": 3,
  "estado": "aprobado",
  "piezas": [
@@ -36,5 +36,6 @@
   "dd-2026-11-20-southwest-airlines-expediente",
   "dd-2026-11-20-southwest-airlines-historia",
   "dd-2026-11-20-southwest-airlines-lamina"
- ]
+ ],
+ "issue_n_system": 1331
 }

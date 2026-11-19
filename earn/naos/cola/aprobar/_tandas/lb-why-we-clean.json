@@ -1,6 +1,6 @@
 {
  "nombre": "lb-why-we-clean",
- "issue": 934,
+ "issue": 3,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -14,5 +14,6 @@
  "aprobado_evento_utc": "2026-11-05T01:20:17Z",
  "aprobadas": [
   "why-we-clean-the-kitchen-instead"
- ]
+ ],
+ "issue_n_system": 934
 }

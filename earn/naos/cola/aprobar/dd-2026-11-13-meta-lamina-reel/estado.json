@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-13-meta-lamina-reel",
- "issue": 1448,
+ "issue": 17,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-20T20:00:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "fijo-reel-1511",
- "aprobado_evento_utc": "2026-11-15T11:55:30Z"
+ "aprobado_evento_utc": "2026-11-15T11:55:30Z",
+ "issue_n_system": 1448
 }

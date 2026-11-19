@@ -1,6 +1,6 @@
 {
  "slug": "rangoli-for-two",
- "issue": 1525,
+ "issue": 20,
  "version": 2,
  "estado": "aprobado",
  "sale_utc": "2026-11-19T12:35:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "reprog-1511",
- "aprobado_evento_utc": "2026-11-15T13:05:52Z"
+ "aprobado_evento_utc": "2026-11-15T13:05:52Z",
+ "issue_n_system": 1525
 }

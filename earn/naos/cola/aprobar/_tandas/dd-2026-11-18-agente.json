@@ -1,6 +1,6 @@
 {
  "nombre": "dd-2026-11-18-agente",
- "issue": 1789,
+ "issue": 36,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -37,5 +37,6 @@
   "dd-2026-11-18-apple-hist-video",
   "dd-2026-11-18-apple-lamina",
   "dd-2026-11-18-apple-tachon-q"
- ]
+ ],
+ "issue_n_system": 1789
 }

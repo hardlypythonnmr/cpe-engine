@@ -1,6 +1,6 @@
 {
  "slug": "weekend-affirmations-by-cella",
- "issue": 1771,
+ "issue": 29,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T19:25:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "crecimiento-1921",
- "aprobado_evento_utc": "2026-11-17T18:55:09Z"
+ "aprobado_evento_utc": "2026-11-17T18:55:09Z",
+ "issue_n_system": 1771
 }

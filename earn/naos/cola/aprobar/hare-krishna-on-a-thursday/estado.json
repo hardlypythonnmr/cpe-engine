@@ -1,6 +1,6 @@
 {
  "slug": "hare-krishna-on-a-thursday",
- "issue": 1753,
+ "issue": 25,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-19T18:40:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "naos-2026-11-17-b",
- "aprobado_evento_utc": "2026-11-17T12:07:36Z"
+ "aprobado_evento_utc": "2026-11-17T12:07:36Z",
+ "issue_n_system": 1753
 }

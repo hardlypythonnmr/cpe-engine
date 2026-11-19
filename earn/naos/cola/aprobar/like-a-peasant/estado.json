@@ -1,6 +1,6 @@
 {
  "slug": "like-a-peasant",
- "issue": 1805,
+ "issue": 39,
  "version": 2,
  "estado": "por-aprobar",
  "sale_utc": "2026-11-20T10:30:00Z",
@@ -19,5 +19,6 @@
  "datos_max_h": 12.0,
  "tanda": "voz-hermana-1119",
  "caducado_por": "version",
- "caducado_utc": "2026-11-19T16:57:45Z"
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "issue_n_system": 1805
 }

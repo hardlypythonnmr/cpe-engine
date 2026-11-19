@@ -1,6 +1,6 @@
 {
  "nombre": "hermanas-nobody-1911",
- "issue": 1691,
+ "issue": 22,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -18,5 +18,6 @@
   "nobody-saw-h1",
   "nobody-saw-h2",
   "nobody-saw-h3"
- ]
+ ],
+ "issue_n_system": 1691
 }

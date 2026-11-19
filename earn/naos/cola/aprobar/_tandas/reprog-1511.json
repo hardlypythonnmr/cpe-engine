@@ -1,6 +1,6 @@
 {
  "nombre": "reprog-1511",
- "issue": 1525,
+ "issue": 20,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -18,5 +18,6 @@
   "om-mani-padme-hum-16-seconds",
   "rangoli-for-two",
   "wanted-tupperware"
- ]
+ ],
+ "issue_n_system": 1525
 }

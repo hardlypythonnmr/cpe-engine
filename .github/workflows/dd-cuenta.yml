@@ -1,0 +1,58 @@
+# Difficult Decision: comprueba las llaves y encuentra el ID de la cuenta de Instagram (solo lee).
+# Se corre a mano: Actions > dd-cuenta > Run workflow. No publica, no escribe, no empuja.
+# Imprime qué secretos y variables DD_* existen (sí o no, nunca su valor) y el resultado de
+# `ig.py --marca mercury cuenta`, que con el token de usuario del sistema lista las cuentas de Instagram
+# y marca @difficultdecisionhq. El ID no es secreto: va en la variable DD_INSTAGRAM_USER_ID.
+name: dd-cuenta
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cuenta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      HAY_IG: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) != '' }}  # solo una bandera
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/aprobar/registro.py
+            /earn/naos/motor/instagram/ig.py
+            /earn/naos/motor/nombres_dd.py
+            /earn/naos/motor/instagram/token_estado.json
+            /earn/naos/motor/instagram/token_estado-mercury.json
+      - name: Qué llaves existen (sí o no)
+        env:
+          YT_ID: ${{ (secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID) != '' }}
+          YT_SECRET: ${{ (secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET) != '' }}
+          YT_REFRESH: ${{ (secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN) != '' }}
+          IG_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) != '' }}
+          IG_USER: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) != '' }}
+          PAGINA_TOKEN: ${{ (secrets.DD_PAGINA_TOKEN || secrets.MERCURY_PAGINA_TOKEN) != '' }}
+          PAGES_REPO: ${{ (vars.DD_PAGES_REPO || vars.MERCURY_PAGES_REPO) }}
+          PAGES_BASE: ${{ (vars.DD_PAGES_BASE || vars.MERCURY_PAGES_BASE) }}
+          PUBLICAR: ${{ (vars.DD_PUBLICAR || vars.MERCURY_PUBLICAR) }}
+        run: |
+          echo "DD_OAUTH_CLIENT_ID: $YT_ID"
+          echo "DD_OAUTH_CLIENT_SECRET: $YT_SECRET"
+          echo "DD_OAUTH_REFRESH_TOKEN: $YT_REFRESH"
+          echo "DD_INSTAGRAM_TOKEN: $IG_TOKEN"
+          echo "DD_INSTAGRAM_USER_ID: $IG_USER"
+          echo "DD_PAGINA_TOKEN: $PAGINA_TOKEN"
+          echo "DD_PAGES_REPO: ${PAGES_REPO:-(falta)}"
+          echo "DD_PAGES_BASE: ${PAGES_BASE:-(falta)}"
+          echo "DD_PUBLICAR: ${PUBLICAR:-(falta)}"
+      - name: ID de la cuenta de Instagram
+        if: ${{ env.HAY_IG == 'true' }}
+        env:
+          MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+        run: python3 earn/naos/motor/instagram/ig.py --marca mercury cuenta

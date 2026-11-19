@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-20-p3-netflix-bucle",
- "issue": 1815,
+ "issue": 41,
  "version": 1,
  "estado": "por-aprobar",
  "sale_utc": "2026-11-20T20:00:00Z",
@@ -19,5 +19,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-20-rediseno"
+ "tanda": "dd-2026-11-20-rediseno",
+ "issue_n_system": 1815
 }

@@ -1,6 +1,6 @@
 {
  "slug": "autoestima-mientras-duermes-1-hora",
- "issue": 1786,
+ "issue": 35,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-21T03:50:00Z",
@@ -18,5 +18,6 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "dormir-es-21-23-nov",
- "aprobado_evento_utc": "2026-11-17T20:33:23Z"
+ "aprobado_evento_utc": "2026-11-17T20:33:23Z",
+ "issue_n_system": 1786
 }

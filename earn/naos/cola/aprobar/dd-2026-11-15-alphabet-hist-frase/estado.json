@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-15-alphabet-hist-frase",
- "issue": 1495,
+ "issue": 19,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-15T17:45:00Z",
@@ -19,5 +19,6 @@
  "datos_max_h": 0,
  "tanda": "dd-hist-1511",
  "aprobado_evento_utc": "2026-11-15T12:02:31Z",
- "reel_fallo_utc": "2026-11-15T18:00:29Z"
+ "reel_fallo_utc": "2026-11-15T18:00:29Z",
+ "issue_n_system": 1495
 }

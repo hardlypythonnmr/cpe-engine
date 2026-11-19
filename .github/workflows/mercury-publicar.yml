@@ -1,0 +1,219 @@
+# Mercury: publicación sin sesión operadora (línea diaria, ESPEC.md; D-497, D-498; 11-nov-2026).
+# Corre el programador SOLO para las piezas de la marca mercury que ya tienen su fila de aprobación:
+#   1. YouTube: `programador.py --marca mercury --subir-shorts` sube los Shorts y los medios al canal de Mercury (subir.py
+#      --canal mercury, privado con fecha). El carril de cifra viva no cambia: el programador relee la cifra contra su fuente en la
+#      última hora y solo sube si da "igual".
+#   2. Instagram: `programador.py --marca mercury --despachar` dispara naos-reel.yml con cada Reel, imagen, carrusel o historia de
+#      Mercury que sale en la ventana. naos-reel.yml elige el token por la marca de la pieza (MERCURY_INSTAGRAM_TOKEN).
+# Esta Action no aprueba nada. La compuerta sigue en subir.py y en ig.py: sin la fila de publicados.csv con la huella de esa
+#   pieza no sale nada. El token de NAOS (GOOGLE_OAUTH_*, INSTAGRAM_TOKEN) no entra aquí.
+# APAGADA POR DEFECTO. Corre solo si la variable de repo MERCURY_PUBLICAR vale on (da igual ON, On u on: GitHub compara sin
+#   distinguir mayúsculas). Sin la variable, con off o con cualquier otro valor, el job se salta entero y no gasta minutos.
+#   Encender: `gh variable set MERCURY_PUBLICAR --body on --repo hardlypythonnmr/n-system`. Apagar: lo mismo con off, o borrarla.
+#   La corrida en seco a mano (`-f seco=true`) corre aunque esté apagada: no sube, no despacha y no escribe.
+# Solo esta Action saca piezas de Mercury: la operadora (ronda.py) y la ronda sombra corren el programador con `--marca naos`.
+#   Antes de cada subida mira publicados.csv de origin/main (`--guarda-main`): si ese Short ya tiene url_short, no sube otra vez.
+# Sin secretos: el paso "Guarda" dice cuáles faltan y la corrida termina en verde sin tocar nada.
+#   YouTube pide MERCURY_OAUTH_CLIENT_ID, MERCURY_OAUTH_CLIENT_SECRET y MERCURY_OAUTH_REFRESH_TOKEN (secretos).
+#   Instagram pide MERCURY_INSTAGRAM_TOKEN (secreto) y el sitio aparte de Mercury: MERCURY_PAGES_REPO y MERCURY_PAGES_BASE
+#   (variables) y MERCURY_PAGINA_TOKEN (secreto). MERCURY_INSTAGRAM_USER_ID (variable, o DD_INSTAGRAM_USER_ID) es obligatorio desde el camino por graph.facebook.com (ig.py --marca mercury cuenta lo encuentra). Pasos: linea/SITIO-MERCURY.md
+# En seco: `gh workflow run mercury-publicar.yml -f seco=true`. No pide secretos, no llama a YouTube, no despacha y no escribe.
+# Disparo (Opus 9, 12-nov-2026, límite de minutos de Actions): antes corría con cron "28,58 * * * *", 48 corridas al día de ~1 min
+#   aunque no hubiera nada = ~1.440 min al mes, y el plan trae 2.000. Ahora NO tiene cron cada 30 minutos. La despiertan por
+#   workflow_dispatch, solo cuando hay una pieza de Mercury en ventana (un Reel, imagen, carrusel o historia por despachar, o un Short por
+#   subir; para el carril de cifra viva, dentro de su última hora): `programador.py --disparar-mercury`, que corren
+#     1. la operadora en cada ronda horaria (ronda.py, paso M; ronda.md), que no gasta minutos de Actions, y
+#     2. la ronda sombra (naos-ronda-sombra.yml, cada 3 h, solo si la operadora lleva 2 h o más callada).
+#   Respaldo con cron, solo 5 veces al día y justo antes de las horas de DD (14:00, 17:00, 18:30, 20:00 y 22:00 UTC, según
+#   canal-lucro/c2/LINEA.md; el carril de cifra viva sube el Short en la última hora antes de su hora): ~150 min al mes. Para quitarlo,
+#   borrar las líneas `cron`; la operadora y la sombra siguen. Un disparo sin nada que hacer cuesta ~1 min.
+# Minutos (n-system es privado): ya no ~1.440 al mes; ver earn/naos/empresa/evolucion/2026-11-09-limite/opus/9/minutos.md.
+#   Cada Reel despachado cuesta aparte en naos-reel.yml.
+# Seguridad: los slugs se validan antes de usarlos en el shell; el texto de las piezas nunca pasa por una expresión.
+# Pasos del dueño: earn/naos/empresa/duplicar/canal-lucro/mercury/linea/PUBLICAR.md
+name: mercury-publicar
+on:
+  # schedule: apagado en el arranque de naos-motor (paso 13); se enciende en el paso 16
+  # # Respaldo, justo antes de las horas de DD (UTC): 14:00 historia, 17:00 tachón 1 y expediente, 18:30 lámina, 20:00 actually said,
+  # # 22:00. La operadora (paso M) y la sombra ya la despiertan cuando hay algo en ventana; esto cubre una operadora caída.
+  # - cron: "58 13 * * *"
+  # - cron: "58 16 * * *"
+  # - cron: "28 18 * * *"
+  # - cron: "58 19 * * *"
+  # - cron: "58 21 * * *"
+  workflow_dispatch:
+    inputs:
+      seco:
+        description: "en seco: lista y revisa, no sube, no despacha, no escribe"
+        type: boolean
+        default: false
+permissions: {}
+concurrency: { group: mercury-publicar, cancel-in-progress: false }
+jobs:
+  publicar:
+    if: ${{ (vars.DD_PUBLICAR || vars.MERCURY_PUBLICAR) == 'on' || (github.event_name == 'workflow_dispatch' && inputs.seco == true) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write  # publicados.csv, cuota-yt-mercury.csv y decisiones-sistema.csv a main
+      actions: write   # disparar naos-reel.yml; apagar esta Action si no pudo guardar un Short subido
+      issues: write    # el comentario del carril de cifra viva en el issue de la tanda
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SECO: ${{ inputs.seco }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Guarda (qué llaves de Mercury existen)
+        id: guarda
+        env:
+          # Solo banderas: el valor de cada secreto vive únicamente en el paso que lo usa.
+          HAY_YT: ${{ (secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID) != '' && (secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET) != '' && (secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN) != '' }}
+          HAY_IG: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) != '' && (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) != '' }}
+          PAGES: ${{ (vars.DD_PAGES_BASE || vars.MERCURY_PAGES_BASE) }}
+          PAGES_REPO: ${{ (vars.DD_PAGES_REPO || vars.MERCURY_PAGES_REPO) }}
+          HAY_PAGINA: ${{ (secrets.DD_PAGINA_TOKEN || secrets.MERCURY_PAGINA_TOKEN) != '' }}
+        run: |
+          if [ "$SECO" = "true" ]; then
+            echo "En seco: no hacen falta secretos. No se sube, no se despacha y no se escribe nada."
+            { echo "yt=true"; echo "ig=true"; echo "algo=true"; } >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          yt=false; ig=false
+          if [ "$HAY_YT" = "true" ]; then yt=true; else
+            echo "::notice::YouTube de Mercury apagado: falta alguno de los secretos DD_OAUTH_CLIENT_ID, DD_OAUTH_CLIENT_SECRET, DD_OAUTH_REFRESH_TOKEN. No se sube nada."
+          fi
+          case "$PAGES" in https://*) pages=true;; *) pages=false;; esac
+          # El sitio aparte de Mercury: sin las tres cosas no se despacha nada (naos-reel.yml también se negaría).
+          case "$PAGES_REPO" in */*) ;; *) pages=false;; esac
+          [ "$HAY_PAGINA" = "true" ] || pages=false
+          if [ "$HAY_IG" = "true" ] && [ "$pages" = "true" ]; then ig=true; else
+            echo "::notice::Instagram de Mercury apagado: falta el secreto DD_INSTAGRAM_TOKEN, la variable DD_INSTAGRAM_USER_ID o algo del sitio de Mercury (variables DD_PAGES_REPO y DD_PAGES_BASE, secreto DD_PAGINA_TOKEN). No se despacha nada. Pasos: earn/naos/empresa/duplicar/canal-lucro/mercury/linea/SITIO-MERCURY.md"
+          fi
+          algo=false; if [ "$yt" = "true" ] || [ "$ig" = "true" ]; then algo=true; fi
+          [ "$algo" = "true" ] || echo "Mercury todavía no tiene llaves en este repo: la corrida termina aquí, en verde, sin hacer nada. Pasos: earn/naos/empresa/duplicar/canal-lucro/mercury/linea/PUBLICAR.md"
+          { echo "yt=$yt"; echo "ig=$ig"; echo "algo=$algo"; } >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v7
+        id: checkout
+        if: ${{ steps.guarda.outputs.algo == 'true' }}
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          # Lo que leen programador.py, subir.py y la compuerta. De la cola solo los json (pieza, estado, dictamen, vara,
+          # estético); el video y la portada se traen más abajo, solo de las piezas que suben en esta ronda.
+          sparse-checkout: |
+            /.gitattributes
+            /earn/naos/motor/*.py
+            /earn/naos/motor/aprobar/
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/youtube/
+            /earn/naos/motor/investigacion/yt.py
+            /earn/naos/medicion/
+            /earn/naos/cola/aprobar/_tandas/
+            /earn/naos/cola/aprobar/*/*.json
+      - name: LFS sin bajar nada
+        if: ${{ steps.guarda.outputs.algo == 'true' }}
+        # Con el filtro instalado y skip-smudge, ni el checkout ni un reset bajan videos, y `git add` no sube un binario por error.
+        run: git lfs install --local --skip-smudge
+      - name: Shorts y medios al canal de Mercury (YouTube)
+        id: shorts
+        if: ${{ steps.guarda.outputs.yt == 'true' }}
+        # Tope propio, menor que el del job: si este paso se cuelga, "Guardar en main" (always) todavía alcanza a correr y el
+        # url_short de lo que ya subió llega a main. Sin eso la ronda siguiente lo subiría otra vez.
+        timeout-minutes: 12
+        env:
+          MERCURY_OAUTH_CLIENT_ID: ${{ (secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID) }}  # solo en este paso
+          MERCURY_OAUTH_CLIENT_SECRET: ${{ (secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET) }}
+          MERCURY_OAUTH_REFRESH_TOKEN: ${{ (secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN) }}
+        run: |
+          set -o pipefail
+          P=earn/naos/motor/aprobar/programador.py
+          python3 "$P" --marca mercury --shorts > "$RUNNER_TEMP/tocan.txt"
+          if [ ! -s "$RUNNER_TEMP/tocan.txt" ]; then echo "Ningún Short ni medio de Mercury por subir en esta ronda."; exit 0; fi
+          # La carpeta entera de cada pieza que sube (portada y video); el video sale de LFS, uno por uno, como en naos-aprobar.
+          while IFS= read -r s; do
+            printf '%s' "$s" | grep -Eq '^[a-z0-9][a-z0-9-]{0,80}$' || { echo "::warning::slug raro, se salta"; continue; }
+            git sparse-checkout add "/earn/naos/cola/aprobar/$s/"
+            git ls-files -z -- "earn/naos/cola/aprobar/$s" | while IFS= read -r -d '' f; do
+              if head -c 40 "$f" | grep -q '^version https://git-lfs'; then
+                git lfs smudge -- "$f" < "$f" > "$f.lfs" && mv "$f.lfs" "$f" || { rm -f "$f.lfs"; echo "::warning::sin LFS: $f"; }
+              fi
+            done
+          done < "$RUNNER_TEMP/tocan.txt"
+          ARG=""; if [ "$SECO" = "true" ]; then ARG="--seco"; fi
+          # stdout: `short <slug> <url>`, AVISAR-N, BAJAR-SHORT, CIFRA-CAMBIO. stderr: AVISO y ERROR. Sale con 1 si hubo un ERROR.
+          python3 "$P" --marca mercury --subir-shorts --guarda-main $ARG 2>&1 | tee "$RUNNER_TEMP/shorts.txt"
+      - name: Guardar en main (publicados.csv, cuota de Mercury, fila de cifra viva)
+        id: guardar
+        if: ${{ always() && steps.guarda.outputs.yt == 'true' && steps.checkout.outcome == 'success' && inputs.seco != true }}
+        # Las mismas funciones de copia.py guardar (solo llena resultados en filas que main ya tiene; de decisiones-sistema.csv
+        # solo la fila de cifra viva publicada), con otro mensaje de commit: "operadora: registros" es el latido que mira la
+        # ronda sombra y esta Action no es la operadora. Sin rebase: cada vuelta parte de origin/main.
+        run: |
+          python3 - <<'PY'
+          import sys, time
+          sys.path.insert(0, "earn/naos/motor/aprobar")
+          import copia
+          guardadas = copia.capturar()
+          total = sum(len(v) for v in guardadas.values())
+          if not total:
+              print("OK nada nuevo en los registros")
+              sys.exit(0)
+          for intento in range(4):
+              copia.git("fetch", "-q", "--depth=1", "origin", "main")
+              copia.git("reset", "-q", "--hard", "origin/main")
+              if not copia.reponer(guardadas):
+                  if copia.DOBLES:  # main ya tenía OTRO url_short de la misma fila: hay dos videos en el canal
+                      print("::error::Short subido dos veces: " + " | ".join(copia.DOBLES) + ". Bajar a mano el segundo (Studio o subir.py --borrar).")
+                      sys.exit(1)
+                  print("OK las filas ya estaban en main")
+                  sys.exit(0)
+              rutas = [r for r, v in guardadas.items() if v]
+              copia.git("add", "--sparse", "--", *rutas)
+              copia.git("-c", "user.name=mercury-publicar", "-c", "user.email=mercury-publicar@users.noreply.github.com",
+                        "commit", "-q", "-m", "mercury: registros de la ronda (mercury-publicar)")
+              if copia.git("push", "-q", "origin", "HEAD:main", ok=False).returncode == 0:
+                  print(f"OK {total} fila(s) subidas a main")
+                  if copia.DOBLES:
+                      print("::error::Short subido dos veces: " + " | ".join(copia.DOBLES) + ". Bajar a mano el segundo (Studio o subir.py --borrar).")
+                  sys.exit(1 if copia.DOBLES else 0)
+              time.sleep(5 * (intento + 1))
+          sys.exit("FALLA no pude subir los registros a main tras 4 intentos")
+          PY
+      - name: Si no se pudo guardar, apagar esta Action (falla cerrada)
+        if: ${{ failure() && steps.guardar.outcome == 'failure' }}
+        # Un Short subido cuyo url_short no llegó a main se volvería a subir en la ronda siguiente (cada corrida parte de main).
+        # Se apaga el workflow entero; se vuelve a prender a mano cuando publicados.csv tenga ese url_short.
+        run: |
+          echo "::error::No se pudo guardar publicados.csv en main, o un Short subió dos veces (ver el paso anterior). mercury-publicar queda apagada para no repetir. Anotar a mano el url_short (ver el log del paso de YouTube), bajar el video repetido si lo hay, y prenderla: gh workflow enable mercury-publicar.yml"
+          gh workflow disable mercury-publicar.yml --repo "$GITHUB_REPOSITORY"
+      - name: Cierre automático de lo que ya salió (estado.json a main)
+        id: cierre
+        if: ${{ always() && steps.guarda.outputs.yt == 'true' && steps.checkout.outcome == 'success' && steps.guardar.outcome != 'failure' }}
+        # Los Shorts y medios que sube esta Action dejaban url_short en publicados.csv y la pieza seguía "aprobado": nadie llamaba a
+        # `aprobar.py cerrar`. cierre_auto.py --git sube antes los registros que falten (como "Guardar en main"), cierra con la misma
+        # función de aprobar.py (comenta y cierra el issue) y empuja cola/aprobar a main con "naos: cierre automático". Un Short
+        # programado con fecha futura o con el veto de N abierto no se cierra. Tope de 20 piezas por corrida; sin nada que cerrar
+        # termina en segundos. Si falla, la corrida sigue verde con un aviso: la ronda de la operadora (paso X) lo repite.
+        continue-on-error: true
+        timeout-minutes: 3
+        run: |
+          ARG=""; if [ "$SECO" = "true" ]; then ARG="--seco"; fi
+          python3 earn/naos/motor/aprobar/cierre_auto.py --git $ARG || echo "::warning::cierre_auto.py falló; no se cerró nada esta ronda (la operadora lo repite en su paso X)"
+      - name: Reel, imagen, carrusel e historia a la cuenta de Mercury (despacho a naos-reel.yml)
+        if: ${{ !cancelled() && steps.guarda.outputs.ig == 'true' && steps.checkout.outcome == 'success' }}
+        run: |
+          P=earn/naos/motor/aprobar/programador.py
+          if [ "$SECO" = "true" ]; then
+            echo "En seco. Se despacharía a naos-reel.yml (nada = nada que despachar):"
+            python3 "$P" --marca mercury
+            exit 0
+          fi
+          python3 "$P" --marca mercury --despachar
+      - name: Resumen
+        if: ${{ always() && steps.checkout.outcome == 'success' }}
+        run: |
+          [ -s "$RUNNER_TEMP/shorts.txt" ] || exit 0
+          { echo '```'; grep -E '^(short |AVISAR-N |BAJAR-SHORT |CIFRA-CAMBIO |ERROR )' "$RUNNER_TEMP/shorts.txt" | cut -c1-400 || true; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

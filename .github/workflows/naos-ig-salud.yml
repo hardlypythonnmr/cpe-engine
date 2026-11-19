@@ -1,0 +1,103 @@
+# NAOS: pulso diario del token de Instagram (informe 2026-10-18-instagram-api: el token del 16-oct murió sin aviso).
+# 12:30 UTC, antes de los Reels del día: `ig.py salud` comprueba que INSTAGRAM_TOKEN sirva, sea de naos.v3, el cupo de
+# publicaciones y el vencimiento (token_estado.json, sin el token). Sale con 1 si el token no sirve o vence en 10 días o menos.
+# Si falla, comenta en la bitácora (#544) como github-actions[bot] con @mención a N y la razón: los comentarios de un bot
+# no disparan naos-avisar (GITHUB_TOKEN no dispara workflows), por eso la mención va en el propio comentario.
+# Seguridad: la salida de ig.py (que incluye el texto de Meta) viaja en un archivo y se publica con --body-file; nunca
+# pasa por una expresión ni se evalúa en el shell. El token nunca se imprime.
+# Minutos: 1 corrida al día x ~1 min = ~31 min al mes (1,5 % de 2.000).
+# Mercury (11-nov-2026): si existe el secreto MERCURY_INSTAGRAM_TOKEN, el mismo job comprueba después la cuenta de Mercury con
+# `ig.py --marca mercury salud` (token_estado-mercury.json; MERCURY_INSTAGRAM_USER_ID es obligatorio con graph.facebook.com). Sin ese secreto el paso se
+# salta, deja un aviso en la corrida ("Mercury sin token") y nada cambia para NAOS: la corrida no queda en rojo por eso.
+# Si el token existe y falla, el aviso va a la misma bitácora y dice que es de Mercury.
+name: naos-ig-salud
+on:
+  # schedule: apagado en el arranque de naos-motor (paso 13); se enciende en el paso 16
+  # - cron: "30 12 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency: { group: naos-ig-salud, cancel-in-progress: false }
+jobs:
+  salud:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      BITACORA: "1"  # naos-motor#1 (C2; en n-system era la #544)
+      HAY_MERCURY: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) != '' }}  # solo una bandera
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false  # este job no empuja ni baja nada después (F3 CS-03)
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/aprobar/registro.py
+            /earn/naos/motor/instagram/ig.py
+            /earn/naos/motor/nombres_dd.py
+            /earn/naos/motor/instagram/token_estado.json
+            /earn/naos/motor/instagram/token_estado-mercury.json
+      - name: Salud del token
+        id: salud
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+        # Un error TRANSITORIO de Meta se reintenta una vez al minuto antes de avisar.
+        run: |
+          set -o pipefail
+          for i in 1 2; do
+            if python3 earn/naos/motor/instagram/ig.py salud 2>&1 | tee "$RUNNER_TEMP/salud.txt"; then exit 0; fi
+            grep -q "class TRANSITORIO\|could not reach" "$RUNNER_TEMP/salud.txt" || exit 1
+            sleep 60
+          done
+          exit 1
+      - name: Mercury sin token (aviso y sigue)
+        if: ${{ !cancelled() && env.HAY_MERCURY != 'true' }}
+        run: echo "::notice::Mercury todavía no tiene el secreto DD_INSTAGRAM_TOKEN. Su salud no se comprueba y esta corrida no falla por eso."
+      - name: Salud del token de Mercury
+        id: salud_mercury
+        # Corre aunque el de NAOS haya fallado: son dos cuentas. Solo entra el token de Mercury.
+        if: ${{ !cancelled() && env.HAY_MERCURY == 'true' }}
+        env:
+          MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
+        run: |
+          set -o pipefail
+          for i in 1 2; do
+            if python3 earn/naos/motor/instagram/ig.py --marca mercury salud 2>&1 | tee "$RUNNER_TEMP/salud-mercury.txt"; then exit 0; fi
+            grep -q "class TRANSITORIO\|could not reach" "$RUNNER_TEMP/salud-mercury.txt" || exit 1
+            sleep 60
+          done
+          exit 1
+      - name: Avisar a N en la bitácora
+        if: ${{ failure() && steps.salud.outcome == 'failure' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          APROBADOR: ${{ vars.NAOS_APROBADOR || github.repository_owner }}
+        run: |
+          python3 - "$RUNNER_TEMP/salud.txt" "$RUNNER_TEMP/aviso.md" <<'PY'
+          import os, sys
+          texto = open(sys.argv[1], encoding="utf-8", errors="replace").read().strip() or "no output"
+          run = f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+          cuerpo = (f"@{os.environ['APROBADOR']} Instagram token check failed. Reels cannot go out until this is fixed.\n\n"
+                    f"```\n{texto[-1500:].replace('```', chr(39) * 3)}\n```\n\nRun: {run}\n\n<!-- naos:ig-salud -->\n")
+          open(sys.argv[2], "w", encoding="utf-8").write(cuerpo)
+          PY
+          gh issue comment "$BITACORA" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/aviso.md"
+      - name: Avisar a N en la bitácora (Mercury)
+        if: ${{ failure() && steps.salud_mercury.outcome == 'failure' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          APROBADOR: ${{ vars.NAOS_APROBADOR || github.repository_owner }}
+        run: |
+          python3 - "$RUNNER_TEMP/salud-mercury.txt" "$RUNNER_TEMP/aviso-mercury.md" <<'PY'
+          import os, sys
+          texto = open(sys.argv[1], encoding="utf-8", errors="replace").read().strip() or "no output"
+          run = f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+          cuerpo = (f"@{os.environ['APROBADOR']} Mercury Instagram token check failed (secret MERCURY_INSTAGRAM_TOKEN). Mercury Reels, images, "
+                    f"carousels and stories cannot go out until this is fixed. NAOS is not affected.\n\n"
+                    f"```\n{texto[-1500:].replace('```', chr(39) * 3)}\n```\n\nRun: {run}\n\n<!-- naos:ig-salud-mercury -->\n")
+          open(sys.argv[2], "w", encoding="utf-8").write(cuerpo)
+          PY
+          gh issue comment "$BITACORA" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/aviso-mercury.md"

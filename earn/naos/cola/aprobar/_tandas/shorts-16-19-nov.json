@@ -1,6 +1,6 @@
 {
  "nombre": "shorts-16-19-nov",
- "issue": 965,
+ "issue": 8,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -32,5 +32,6 @@
   "not-labeling-it",
   "rehearsed-comeback-3am",
   "storm-out-charger"
- ]
+ ],
+ "issue_n_system": 965
 }

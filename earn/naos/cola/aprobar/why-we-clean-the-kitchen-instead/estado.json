@@ -1,6 +1,6 @@
 {
  "slug": "why-we-clean-the-kitchen-instead",
- "issue": 934,
+ "issue": 3,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-20T22:00:00Z",
@@ -17,5 +17,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": true,
  "tanda": "lb-why-we-clean",
- "aprobado_evento_utc": "2026-11-05T01:20:17Z"
+ "aprobado_evento_utc": "2026-11-05T01:20:17Z",
+ "issue_n_system": 934
 }

@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-19-five-below-2026-pay-ratio-reloj",
- "issue": 1783,
+ "issue": 34,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-19T15:00:00Z",
@@ -24,5 +24,6 @@
  "aprobado_evento_utc": "2026-11-17T18:49:52Z",
  "veto_hasta_utc": "2026-11-17T19:49:52Z",
  "carril": "d520",
- "veto_despues_utc": "2026-11-20T03:00:00Z"
+ "veto_despues_utc": "2026-11-20T03:00:00Z",
+ "issue_n_system": 1783
 }

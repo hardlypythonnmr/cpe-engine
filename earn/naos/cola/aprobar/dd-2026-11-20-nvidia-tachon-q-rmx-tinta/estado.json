@@ -1,6 +1,6 @@
 {
  "slug": "dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
- "issue": 1777,
+ "issue": 33,
  "version": 1,
  "estado": "aprobado",
  "sale_utc": "2026-11-20T17:30:00Z",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-remezcla-nvidia",
- "aprobado_evento_utc": "2026-11-17T18:55:11Z"
+ "aprobado_evento_utc": "2026-11-17T18:55:11Z",
+ "issue_n_system": 1777
 }

@@ -51,7 +51,7 @@ FRENO = REGISTROS[-1]
 DECISIONES = "earn/naos/medicion/decisiones-sistema.csv"
 BORRAR = "<<borrar>>"  # marca de "el freno se levantó"
 REPO = os.environ.get("GITHUB_REPOSITORY", "hardlypythonnmr/naos-motor")
-BITACORA = 544
+BITACORA = 1  # naos-motor#1 (C2; en n-system era la #544)
 N = "hardlypythonnmr"
 MARCAS = ("<<<<<<<", "=======", ">>>>>>>", "|||||||")  # restos de un conflicto: nunca son filas
 

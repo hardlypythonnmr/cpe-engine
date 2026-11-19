@@ -1,0 +1,554 @@
+# NAOS: publicador de Reels (decisión de N del 2026-10-18, literal: "GitHub Action publisher (Recommended)").
+# El Reel sale 4 minutos después de su Short, desde aquí y no desde una sesión: el token vive en el secreto INSTAGRAM_TOKEN
+# y los comentarios salen como github-actions[bot] (a N le llega el aviso, cosa que no pasa con su propio token).
+# Un solo camino de disparo (NAOS 4.1, 9-nov-2026): workflow_dispatch con el slug, por `gh workflow run naos-reel.yml -f slug=<slug>`
+#   o por la API (`programador.py --despachar`, que corren la operadora y la sombra). Se lanza entre 20 min antes y 3 h después de la
+#   hora del Short; si llega antes, sube el mp4 a Pages y duerme hasta la hora + 4 min. Si dos despachos llegan por el mismo slug, el
+#   grupo de concurrencia los pone en fila y el segundo ve url_reel en publicados.csv y sale sin publicar (accion_reel.py datos).
+#   Quitado en 4.1: el barrido de respaldo con cron (*/15 en las horas de la grilla, apagado por NAOS_REEL_BARRIDO). Era el tercer
+#   despachador, hacía lo mismo que el paso D de la operadora y la sombra, y no se podía prender sin gastar ~500 min al mes.
+#   Si hace falta de nuevo, se restaura desde git (commit anterior a NAOS 4.1) o se usa la sombra.
+# La compuerta de N no cambia: ig.py publicar se niega sin la fila de aprobación de N para ESE video y ese caption.
+# Seguridad: el texto de terceros (caption, título, cita, errores de Meta) nunca pasa por el shell ni por una expresión:
+#   accion_reel.py lo lee de los archivos y llama a ig.py y aprobar.py con listas de argumentos. Nunca se imprime un token.
+#   Permisos mínimos por job. Concurrencia por slug en el job `reel`: dos corridas del mismo Reel no se pisan, y la segunda ve url_reel y sale.
+# Minutos (n-system es privado; plan de 2.000 al mes): ver earn/naos/empresa/evolucion/2026-11-09-limite/opus/9/minutos.md. Opus 9, 12-nov:
+#   LFS por `git lfs smudge` (#1068) y ffmpeg solo si la pieza trae video. Un despacho repetido de una pieza ya publicada cuesta ~1 min.
+# Historias, carruseles e imágenes sueltas (decisión de N del 19-oct, literal: "Las historias se aprueban igual que lo demas"):
+#   el mismo despacho con el slug de una pieza con canales ["historia"], ["carrusel"] o ["imagen"]. accion_reel.py saca el tipo
+#   de pieza.json: verifica la fila de N con la huella de ese canal, sube las imágenes a assets/historias/<slug>/,
+#   assets/carruseles/<slug>/ o assets/imagenes/<slug>/ de naos, espera hasta sale_utc (sin los 4 min: no hay Short), publica con
+#   ig.py *-historia, *-carrusel o *-imagen y la cita de N y cierra con aprobar.py cerrar --historia/--carrusel/--imagen. El paso del Short no corre.
+# Secretos: INSTAGRAM_TOKEN (obligatorio; ver earn/naos/motor/instagram/LEEME.md), NAOS_PAGINA_TOKEN (ya existe: sube el
+#   mp4 a Pages y escribe el enlace en data/enlaces.json de la página), YOUTUBE_API_KEY (opcional: sin ella el Short se
+#   comprueba por oEmbed, que no distingue un video no listado).
+# Mercury (11-nov-2026): el mismo despacho sirve para una pieza con "marca": "mercury" (lo dispara mercury-publicar.yml). El paso
+#   "Marca de la pieza" la lee de pieza.json y solo entonces entra MERCURY_INSTAGRAM_TOKEN (secreto); ig.py publica en la cuenta
+#   de Mercury y comprueba que el token sea de ella. MERCURY_INSTAGRAM_USER_ID (variable, o DD_INSTAGRAM_USER_ID) es obligatorio desde el camino por graph.facebook.com (ig.py --marca mercury cuenta lo encuentra). Una pieza de Mercury sale
+#   solo si la variable MERCURY_PUBLICAR vale on (da igual ON, On u on); sin valor, con off o con otra cosa, no sale.
+# Sitio aparte de Mercury (decisión del dueño, 11-nov-2026: "Sitio aparte desde el día 1"): su video y sus imágenes van a OTRO
+#   repo de GitHub Pages, con la misma estructura (assets/reels/<slug>.mp4, assets/<historias|carruseles|imagenes>/<slug>/).
+#   Tres cosas: variable MERCURY_PAGES_REPO ("dueño/repo"), variable MERCURY_PAGES_BASE (https://<dueño>.github.io/<repo>/assets/reels)
+#   y secreto MERCURY_PAGINA_TOKEN (token fino con Contents: read and write solo en ese repo). Si falta una, el paso de los
+#   secretos se niega con su mensaje y no sale nada. Con una pieza de Mercury el repo de NAOS ni se baja: no queda camino por el
+#   que un archivo suyo termine ahí (la carpeta mercury/ dentro del sitio de NAOS se quitó). Pasos del dueño:
+#   earn/naos/empresa/duplicar/canal-lucro/mercury/linea/SITIO-MERCURY.md
+#   Para una pieza de NAOS no cambia nada: ni esas variables ni los secretos de Mercury entran a su corrida.
+# Varias piezas por corrida (13-nov-2026, rendimiento-lote): GitHub cobra cada corrida redondeada hacia arriba al minuto, y el
+#   checkout, ffmpeg, la espera de Pages y "Guardar en main" se pagaban una vez por pieza. El input `slugs` (lista separada por
+#   espacios, validada con la regla de slug) corre el job `lote`; `slug` sigue igual para una pieza sola y para Mercury
+#   (mercury-publicar.yml y la ronda sombra lo usan, sin cambios). programador.py agrupa en un solo despacho las piezas de NAOS
+#   cuya hora objetivo cae a menos de 90 s de la primera, hasta 4 (`--sin-lote` vuelve a un despacho por pieza; la ronda sombra lo usa).
+#   El job `lote` (lote_reel.py): un solo checkout, el LFS de cada pieza, ffmpeg una sola vez si alguna trae video, y las piezas en serie:
+#   `datos` (la compuerta de N, pieza por pieza), subida a Pages de todas sin esperar el despliegue (una sola espera), y por hora de
+#   salida: esperar, Short, reclamar, publicar y cerrar de cada una. Una pieza que falla se avisa en su issue (accion_reel.py fallo) y
+#   no frena a las otras; la corrida termina en rojo si alguna falló. Después de CADA pieza publicada se guarda en main y al final hay un
+#   "Guardar en main" más: los dos usan guardar_lote.sh (pieza por pieza, solo lo que exista, con reintento; una pieza sin carpeta o sin
+#   estado.json no corta el guardado de las demás).
+#   Solo NAOS: una pieza de Mercury en `slugs` se rechaza (necesita su sitio y sus secretos: va por `slug`).
+#   Dos publicaciones de la misma pieza: el grupo de concurrencia por slug sigue en el job `reel`, pero un lote no puede tenerlo con una
+#   lista. Dos guardas por pieza, las dos antes de publicar: (1) `datos` ve url_reel en publicados.csv y sale, como siempre; (2) `reclamar`
+#   crea la etiqueta reel-claim/<slug>-v<N> en el remoto (crearla es atómico: el servidor rechaza la segunda), tanto en el lote como en el
+#   despacho suelto. Si un suelto y un lote coinciden, publica el que reclama primero y el otro termina en verde sin publicar. El reclamo
+#   no se suelta (si salió, es la prueba; si falló, caduca a los 20 min y un reintento puede tomarlo, salvo que la pieza ya tenga url_reel
+#   en publicados.csv o estado publicado: entonces no se toma). En el lote el reclamo es estricto: si no se puede crear la etiqueta
+#   (ruleset o red) la pieza NO se publica y sale como fallo de infraestructura (la ronda siguiente la manda suelta, con su grupo de
+#   concurrencia por slug); el job `reel` suelto sigue abierto como antes. Nada de esto toca la compuerta de N.
+name: naos-reel
+# G4 (Rendimiento 7, 15-nov): el título de la corrida lleva el slug para que programador.py no redespache una pieza que ya tiene corrida viva.
+run-name: naos-reel ${{ inputs.slugs || inputs.slug }}
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "slug de la pieza (carpeta en earn/naos/cola/aprobar). Una sola pieza, o Mercury (mercury-publicar.yml y la ronda sombra lo usan)"
+        required: false
+        type: string
+      slugs:
+        description: "varias piezas de NAOS en una corrida: slugs separados por espacios (programador.py los agrupa). Si viene, slug se ignora"
+        required: false
+        type: string
+      subida_directa:
+        description: "Reels: subir el mp4 directo a Meta (subida reanudable) y a Pages DESPUES de publicar, sin esperar el despliegue. Apagado por defecto. Documentado solo para Facebook Login (Mercury); NAOS sigue en Pages. Antes de encenderlo: MARGEN_REEL de programador.py"
+        required: false
+        type: boolean
+        default: false
+permissions: {}
+jobs:
+  reel:
+    if: ${{ inputs.slugs == '' }}
+    # Concurrencia por slug (como siempre); el job del lote no puede usar este grupo con una lista: ver "reclamar" y el encabezado.
+    concurrency:
+      group: naos-reel-${{ inputs.slug }}
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write  # publicados.csv y estado.json a main
+      issues: write    # comentario en el issue de la pieza, etiqueta resp:n, cierre
+    env:
+      SLUG: ${{ inputs.slug }}
+      # vacío = todo por Pages, como siempre (accion_reel.py pagina, ig.py preparar). G15 (Rendimiento 9, 17-nov; N: "Sí, una pieza"):
+      # con el input encendido va "iglogin", que en DD (Facebook Login) hace lo mismo que "1" y deja probar una pieza de NAOS
+      # (Instagram Login, no documentado). Qué slugs llevan el input lo decide solo programador.py con subida-directa.txt.
+      NAOS_SUBIDA_DIRECTA: ${{ inputs.subida_directa && 'iglogin' || '' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      # Solo una bandera: el valor del token vive únicamente en el paso que lo usa (F3 CS-03).
+      HAY_TOKEN_PAGINA: ${{ secrets.NAOS_PAGINA_TOKEN != '' }}
+      NAOS_APROBADOR: ${{ vars.NAOS_APROBADOR || github.repository_owner }}
+      NAOS_PAGES_BASE: ${{ vars.NAOS_PAGES_BASE }}
+      MERCURY_PAGES_BASE: ${{ (vars.DD_PAGES_BASE || vars.MERCURY_PAGES_BASE) }}  # solo la leen las piezas de Mercury (accion_reel.py paginas_de)
+      MERCURY_PAGES_REPO: ${{ (vars.DD_PAGES_REPO || vars.MERCURY_PAGES_REPO) }}  # "dueño/repo" del sitio aparte de Mercury
+      HAY_TOKEN_PAGINA_MERCURY: ${{ (secrets.DD_PAGINA_TOKEN || secrets.MERCURY_PAGINA_TOKEN) != '' }}  # solo una bandera
+      MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
+      MERCURY_PUBLICAR: ${{ (vars.DD_PUBLICAR || vars.MERCURY_PUBLICAR) }}
+      NAOS_SIN_GIT: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Slug
+        # El slug llega por variable de entorno, nunca por una expresión dentro del script.
+        run: |
+          python3 -c 'import os,re,sys; s=os.environ["SLUG"]; sys.exit(0 if re.fullmatch(r"[a-z0-9][a-z0-9-]{0,80}", s) else "slug inválido")'
+          mkdir -p "$RUNNER_TEMP/reel"; echo "TRABAJO=$RUNNER_TEMP/reel" >> "$GITHUB_ENV"
+      - uses: actions/checkout@v7
+        id: checkout
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          # medicion/: la compuerta de la fila del VP (D-274) lee ahí el veto de N y las exclusiones (tipo, condicional)
+          sparse-checkout: |
+            /.gitattributes
+            /earn/naos/motor/aprobar/
+            /earn/naos/motor/separacion_ig.py
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/nombres_dd.py
+            /earn/naos/motor/kanban_sync.py
+            /earn/naos/motor/investigacion/yt.py
+            /earn/naos/cola/aprobar/${{ inputs.slug }}/
+            /earn/naos/medicion/decisiones-sistema.csv
+            /earn/naos/medicion/tipos.json
+            /earn/naos/medicion/reservas.csv
+      - name: Tanda de la pieza (para cerrar su issue cuando sale la última)
+        # aprobar.cerrar llama a cerrar_tanda_si_termino, que lee _tandas/<tanda>.json y el estado.json de cada pieza de la tanda.
+        # Sin esos archivos en el checkout leer_tanda daba None y el issue de la tanda quedaba abierto hasta el cierre de la
+        # ronda sombra (#1070, 14-nov). Se bajan solo esos archivos (unos KB), no toda la cola. Si falla, todo sigue como antes.
+        continue-on-error: true
+        run: |
+          tandas=$(python3 -c 'import json,sys
+          for s in sys.argv[1:]:
+              try:
+                  t = json.load(open(f"earn/naos/cola/aprobar/{s}/estado.json")).get("tanda")
+              except Exception:
+                  t = None
+              if t:
+                  print(f"earn/naos/cola/aprobar/_tandas/{t}.json")' "$SLUG" | sort -u)
+          [ -n "$tandas" ] || { echo "sin tanda"; exit 0; }
+          for t in $tandas; do git sparse-checkout add "/$t"; done
+          piezas=$(python3 -c 'import json,sys
+          for p in sys.argv[1:]:
+              try:
+                  for s in json.load(open(p))["piezas"]:
+                      print(f"/earn/naos/cola/aprobar/{s}/estado.json")
+              except Exception:
+                  pass' $tandas)
+          for e in $piezas; do git sparse-checkout add "$e"; done
+          echo "tanda(s): $tandas"
+      - name: LFS de la pieza
+        # cola/aprobar/*/video.mp4 va por LFS (.gitattributes): sin esto el checkout deja el puntero y no el video.
+        # Solo se baja el video de esta pieza, no todo el LFS del repo.
+        # Opus 9, 12-nov: `git lfs pull --include` tardaba ~9,5 de los ~12,5 min de cada corrida (run 43295572599): con
+        # filter blob:none recorre el árbol y baja de a uno los punteros de todo el LFS del repo. `git lfs smudge` con el puntero
+        # de cada archivo de la pieza baja solo ese objeto. Si algo falla, cae al pull de siempre.
+        run: |
+          git lfs install --local
+          set +e
+          ok=1
+          for f in "earn/naos/cola/aprobar/${SLUG}"/*; do
+            [ -f "$f" ] || continue
+            if head -c 200 "$f" | grep -q "^version https://git-lfs.github.com/spec/v1"; then
+              if git lfs smudge "$f" < "$f" > "$f.lfs.tmp" && [ -s "$f.lfs.tmp" ] && ! head -c 200 "$f.lfs.tmp" | grep -q "^version https://git-lfs"; then
+                mv "$f.lfs.tmp" "$f"
+              else
+                rm -f "$f.lfs.tmp"; ok=0
+              fi
+            fi
+          done
+          set -e
+          if [ "$ok" != 1 ]; then
+            echo "smudge falló en algún archivo: pull de siempre"
+            git lfs pull --include "earn/naos/cola/aprobar/${SLUG}/*"
+          fi
+          ls -la "earn/naos/cola/aprobar/${SLUG}/"
+      - name: ¿La pieza trae video? (si no, no se instala ffmpeg)
+        id: necesita
+        # Opus 9, 12-nov (límite de minutos): una imagen, un carrusel de JPEG o una historia JPEG no necesitan ffmpeg ni ffprobe; apt cuesta
+        # ~1 min por corrida. accion_reel.py lo decide por pieza.json (videos_de), igual que "sin-ffmpeg". Sin pieza.json, instala.
+        run: python3 earn/naos/motor/instagram/accion_reel.py necesita-ffmpeg "$SLUG" --dir "$TRABAJO" >> "$GITHUB_OUTPUT"
+      - name: ffmpeg y ffprobe (apt, sin binario de una release móvil)
+        id: ffmpeg
+        if: ${{ steps.necesita.outputs.ffmpeg != 'false' }}
+        # Antes iba ANTES del checkout (pausa 3.0, cadena-01 y D-311); ahora va después, para leer pieza.json. Sigue sin cortar aquí: apt con tope de tiempo (el espejo de Ubuntu se colgó
+        # el 22-oct) y tres intentos con apt-get update y pausa entre ellos (no después del último). Si aun así falla, NO corta aquí (el 4-nov se cortó
+        # ten-out-of-ten sin rastro y la aprobación venció): deja falta=true y el paso "Sin ffmpeg", ya con el checkout, decide.
+        # Antes había un respaldo que bajaba ffmpeg de la release 'latest' de BtbN sin hash; se quitó (F3 CS-01).
+        run: |
+          command -v ffprobe >/dev/null && exit 0
+          for i in 1 2 3; do
+            timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg >/dev/null 2>&1 && exit 0
+            echo "apt: intento $i sin ffmpeg" >&2
+            [ "$i" -lt 3 ] || break  # tras el tercero no hay update ni pausa: se rinde y deja el rastro
+            timeout 150 sudo apt-get update -qq >/dev/null 2>&1 || true
+            sleep $((i * 20))
+          done
+          echo "falta=true" >> "$GITHUB_OUTPUT"
+          echo "::warning::ffmpeg no se pudo instalar con apt (3 intentos)"
+      - name: Sin ffmpeg (corte con rastro, solo si la pieza trae video)
+        if: ${{ steps.ffmpeg.outputs.falta == 'true' }}
+        # Una historia, carrusel o imagen en JPEG no necesita ffmpeg y sigue. Con video: fila INFRA en errores.csv,
+        # infra.txt para `aplicar` (infra_fallo_utc en estado.json: programador.py lo vuelve a despachar en la ronda
+        # siguiente mientras la aprobación no venza) y aviso a N en el issue por "Avisar a N".
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py sin-ffmpeg "$SLUG" --dir "$TRABAJO" 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Marca de la pieza
+        id: marca
+        # naos o mercury, como la decide ig.py: lo que diga pieza.json o lo que la delate. Sin pieza.json queda naos y el paso
+        # "Aprobación de N" dice qué falta, como siempre.
+        run: |
+          python3 - <<'PY'
+          import json, os, sys
+          sys.path.insert(0, "earn/naos/motor/aprobar")
+          import registro
+          slug = os.environ["SLUG"]
+          try:
+              p = json.load(open(f"earn/naos/cola/aprobar/{slug}/pieza.json", encoding="utf-8"))
+          except (OSError, ValueError):
+              p = {}
+          marca = "mercury" if registro.marca_delatada(p, slug, registro.reglas_agente()) else registro.marca_de(p)
+          marca = marca if marca in ("naos", "mercury") else "naos"
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"marca={marca}\n")
+          print(f"marca: {marca}")
+          PY
+      - uses: actions/checkout@v7
+        # La página de NAOS. Con una pieza de Mercury no se baja: su archivo y su enlace nunca van ahí.
+        if: ${{ env.HAY_TOKEN_PAGINA == 'true' && steps.marca.outputs.marca != 'mercury' }}
+        with:
+          repository: hardlypythonnmr/naos
+          token: ${{ secrets.NAOS_PAGINA_TOKEN }}
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /data/enlaces.json
+            /data/semana.json
+            /assets/reels/${{ inputs.slug }}.mp4
+            /assets/historias/${{ inputs.slug }}/
+            /assets/carruseles/${{ inputs.slug }}/
+            /assets/imagenes/${{ inputs.slug }}/
+          path: naos-pagina
+      - name: Secreto INSTAGRAM_TOKEN
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          MARCA: ${{ steps.marca.outputs.marca }}
+          HAY_TOKEN_MERCURY: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) != '' }}
+        run: |
+          if [ "$MARCA" = "mercury" ]; then
+            # Sin distinguir mayúsculas, y apagado por defecto: solo "on" deja salir una pieza de Mercury.
+            llave="$(printf '%s' "$MERCURY_PUBLICAR" | tr '[:upper:]' '[:lower:]' | tr -d '[:space:]')"
+            if [ "$llave" != "on" ]; then
+              echo "Mercury publishing is switched off (repo variable DD_PUBLICAR is '${llave:-empty}', it has to be 'on'). Nothing went live." | tee -a "$TRABAJO/pasos.log"
+              exit 1
+            fi
+            if [ "$HAY_TOKEN_MERCURY" != "true" ]; then
+              echo "The repo secret DD_INSTAGRAM_TOKEN is missing (Settings > Secrets and variables > Actions > New repository secret). Nothing went live." | tee -a "$TRABAJO/pasos.log"
+              exit 1
+            fi
+            # Sitio aparte de Mercury: las tres cosas o nada. Sin ellas no se baja ningún repo y no se copia nada.
+            falta=""
+            printf '%s' "$MERCURY_PAGES_REPO" | grep -Eq '^[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9._-]+$' || falta="$falta variable MERCURY_PAGES_REPO (owner/repo of the Mercury Pages site);"
+            case "$MERCURY_PAGES_BASE" in https://*) ;; *) falta="$falta variable MERCURY_PAGES_BASE (https URL ending in /assets/reels);";; esac
+            [ "$HAY_TOKEN_PAGINA_MERCURY" = "true" ] || falta="$falta secret MERCURY_PAGINA_TOKEN (fine-grained token, Contents read and write on that repo only);"
+            if [ -n "$falta" ]; then
+              echo "The Mercury site is not set up. Missing:$falta Mercury files never go to the NAOS site. Nothing went live. Steps: earn/naos/empresa/duplicar/canal-lucro/mercury/linea/SITIO-MERCURY.md" | tee -a "$TRABAJO/pasos.log"
+              exit 1
+            fi
+            if [ "$(printf '%s' "$MERCURY_PAGES_REPO" | tr '[:upper:]' '[:lower:]')" = "hardlypythonnmr/naos" ]; then
+              echo "DD_PAGES_REPO points at the NAOS site repo. Mercury needs its own repo. Nothing went live." | tee -a "$TRABAJO/pasos.log"
+              exit 1
+            fi
+            exit 0
+          fi
+          if [ -z "$INSTAGRAM_TOKEN" ]; then
+            echo "The repo secret INSTAGRAM_TOKEN is missing (Settings > Secrets and variables > Actions > New repository secret)." | tee -a "$TRABAJO/pasos.log"
+            exit 1
+          fi
+      - uses: actions/checkout@v7
+        # El sitio aparte de Mercury, solo para una pieza de Mercury y después de que el paso anterior vio las tres cosas.
+        if: ${{ steps.marca.outputs.marca == 'mercury' }}
+        with:
+          repository: ${{ (vars.DD_PAGES_REPO || vars.MERCURY_PAGES_REPO) }}
+          token: ${{ (secrets.DD_PAGINA_TOKEN || secrets.MERCURY_PAGINA_TOKEN) }}
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /assets/reels/${{ inputs.slug }}.mp4
+            /assets/historias/${{ inputs.slug }}/
+            /assets/carruseles/${{ inputs.slug }}/
+            /assets/imagenes/${{ inputs.slug }}/
+          path: mercury-pagina
+      - name: Identidad de git
+        run: |
+          git config --global user.name "naos-reel"; git config --global user.email "naos-reel@users.noreply.github.com"
+      - name: Aprobación de N para este Reel (publicados.csv)
+        id: datos
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py datos "$SLUG" --dir "$TRABAJO" 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Video en GitHub Pages
+        if: ${{ steps.datos.outputs.ya == 'false' }}
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py pagina "$SLUG" --dir "$TRABAJO" --naos naos-pagina --sitio-marca mercury-pagina 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Esperar a la hora del Short + 4 min
+        if: ${{ steps.datos.outputs.ya == 'false' }}
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py esperar "$SLUG" --dir "$TRABAJO" 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: El Short es público en YouTube
+        if: ${{ steps.datos.outputs.ya == 'false' && steps.datos.outputs.tipo == '' }}  # historia, carrusel e imagen no tienen Short
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py short "$SLUG" --dir "$TRABAJO" 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Reclamar la publicación (una sola corrida por pieza, suelta o en lote)
+        id: reclamo
+        if: ${{ steps.datos.outputs.ya == 'false' }}
+        # Un despacho suelto y uno en lote no comparten grupo de concurrencia: la etiqueta reel-claim/<slug>-v<N> (crearla es atómico)
+        # decide cuál publica. Si no la consigue, esta corrida no publica y termina en verde. No cambia la compuerta de N.
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py reclamar "$SLUG" --dir "$TRABAJO" 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Preparar (FINISHED) y publicar con la cita de N
+        id: publicar
+        if: ${{ steps.datos.outputs.ya == 'false' && steps.reclamo.outputs.ocupada != 'true' }}
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}  # solo en este paso
+          # Solo si la pieza es de Mercury; ig.py lo compara con el de NAOS y se niega si son el mismo.
+          MERCURY_INSTAGRAM_TOKEN: ${{ steps.marca.outputs.marca == 'mercury' && (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) || '' }}
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py publicar "$SLUG" --dir "$TRABAJO" --naos naos-pagina 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Video a Pages después de publicar (solo con subida_directa)
+        if: ${{ steps.datos.outputs.ya == 'false' && steps.reclamo.outputs.ocupada != 'true' && steps.publicar.outcome == 'success' && inputs.subida_directa }}
+        continue-on-error: true  # el Reel ya salió: un fallo de Pages se anota (pages-pendiente.txt) y no pone la corrida en rojo
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py pagina-despues "$SLUG" --dir "$TRABAJO" --naos naos-pagina --sitio-marca mercury-pagina --sin-espera 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Cerrar la pieza (issue, enlaces.json)
+        if: ${{ steps.datos.outputs.ya == 'false' && steps.reclamo.outputs.ocupada != 'true' }}
+        # aprobar.py cerrar comenta "Live. Short: ... · Reel: ..." como github-actions[bot] y cierra el issue (N es
+        # el autor del issue: GitHub le avisa).
+        run: |
+          set -o pipefail
+          python3 earn/naos/motor/instagram/accion_reel.py cerrar "$SLUG" --dir "$TRABAJO" --naos naos-pagina 2>&1 | tee -a "$TRABAJO/pasos.log"
+      - name: Avisar a N en el issue si algo falló
+        if: ${{ failure() && steps.checkout.outcome == 'success' }}
+        run: |
+          python3 earn/naos/motor/instagram/accion_reel.py fallo "$SLUG" --dir "$TRABAJO" --log "$TRABAJO/pasos.log"
+      - name: Guardar en main (publicados.csv, estado.json, errores.csv)
+        if: ${{ always() && steps.checkout.outcome == 'success' }}
+        # Cada vuelta parte de main al día y vuelve a aplicar el resultado (idempotente), como naos-aprobar.
+        run: |
+          git config --global user.name "naos-reel"; git config --global user.email "naos-reel@users.noreply.github.com"  # por si "Identidad de git" no corrió (19-oct: falló el checkout de naos antes)
+          [ -f earn/naos/motor/instagram/errores.csv ] && cp earn/naos/motor/instagram/errores.csv "$TRABAJO/errores.csv"
+          for i in 1 2 3 4; do
+            git fetch -q --depth=1 origin main && git reset -q --hard origin/main
+            python3 earn/naos/motor/instagram/accion_reel.py aplicar "$SLUG" --dir "$TRABAJO" --errores "$TRABAJO/errores.csv" || exit 1
+            git add --sparse -- "earn/naos/cola/aprobar/$SLUG/estado.json" earn/naos/motor/instagram/publicados.csv
+            [ -f earn/naos/motor/instagram/errores.csv ] && git add --sparse earn/naos/motor/instagram/errores.csv
+            git diff --cached --quiet && exit 0
+            git commit -q -m "naos: Reel de $SLUG (naos-reel)"
+            git push -q origin HEAD:main && exit 0
+            sleep $((i*10))
+          done
+          exit 1
+      - name: Enlace en la página (data/enlaces.json de naos)
+        if: ${{ always() && env.HAY_TOKEN_PAGINA == 'true' && hashFiles('naos-pagina/data/enlaces.json') != '' }}
+        working-directory: naos-pagina
+        run: |
+          git config user.name "naos-reel"; git config user.email "naos-reel@users.noreply.github.com"
+          git add data/enlaces.json
+          git diff --cached --quiet && { echo "sin cambios"; exit 0; }
+          git commit -q -m "enlaces: Reel de $SLUG"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
+
+  lote:
+    # Varias piezas de NAOS en una corrida (programador.py las agrupa por ventana de hora). Se cobra por corrida y minuto: una sola
+    # para el checkout, ffmpeg, Pages y "Guardar en main". Las piezas van en serie y cada una con su compuerta, su espera y su aviso.
+    if: ${{ inputs.slugs != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write  # publicados.csv, estado.json y las etiquetas reel-claim a main
+      issues: write    # comentario en el issue de cada pieza, etiqueta resp:n, cierre
+    env:
+      SLUGS: ${{ inputs.slugs }}
+      NAOS_SUBIDA_DIRECTA: ${{ inputs.subida_directa && '1' || '' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      HAY_TOKEN_PAGINA: ${{ secrets.NAOS_PAGINA_TOKEN != '' }}
+      NAOS_APROBADOR: ${{ vars.NAOS_APROBADOR || github.repository_owner }}
+      NAOS_PAGES_BASE: ${{ vars.NAOS_PAGES_BASE }}
+      NAOS_SIN_GIT: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v7
+        id: checkout
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          # La carpeta de cada pieza se suma en el paso siguiente (los slugs llegan por variable de entorno, no por una expresión).
+          sparse-checkout: |
+            /.gitattributes
+            /earn/naos/motor/aprobar/
+            /earn/naos/motor/separacion_ig.py
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/nombres_dd.py
+            /earn/naos/motor/kanban_sync.py
+            /earn/naos/motor/investigacion/yt.py
+            /earn/naos/medicion/decisiones-sistema.csv
+            /earn/naos/medicion/tipos.json
+            /earn/naos/medicion/reservas.csv
+      - name: Slugs del lote
+        run: |
+          python3 earn/naos/motor/instagram/lote_reel.py validar
+          mkdir -p "$RUNNER_TEMP/reel"; echo "TRABAJO=$RUNNER_TEMP/reel" >> "$GITHUB_ENV"
+      - name: Carpeta de cada pieza
+        run: |
+          for s in $SLUGS_OK; do git sparse-checkout add "/earn/naos/cola/aprobar/$s/"; done
+      - name: Tanda de las piezas (para cerrar su issue cuando sale la última)
+        # aprobar.cerrar llama a cerrar_tanda_si_termino, que lee _tandas/<tanda>.json y el estado.json de cada pieza de la tanda.
+        # Sin esos archivos en el checkout leer_tanda daba None y el issue de la tanda quedaba abierto hasta el cierre de la
+        # ronda sombra (#1070, 14-nov). Se bajan solo esos archivos (unos KB), no toda la cola. Si falla, todo sigue como antes.
+        continue-on-error: true
+        run: |
+          tandas=$(python3 -c 'import json,sys
+          for s in sys.argv[1:]:
+              try:
+                  t = json.load(open(f"earn/naos/cola/aprobar/{s}/estado.json")).get("tanda")
+              except Exception:
+                  t = None
+              if t:
+                  print(f"earn/naos/cola/aprobar/_tandas/{t}.json")' $SLUGS_OK | sort -u)
+          [ -n "$tandas" ] || { echo "sin tanda"; exit 0; }
+          for t in $tandas; do git sparse-checkout add "/$t"; done
+          piezas=$(python3 -c 'import json,sys
+          for p in sys.argv[1:]:
+              try:
+                  for s in json.load(open(p))["piezas"]:
+                      print(f"/earn/naos/cola/aprobar/{s}/estado.json")
+              except Exception:
+                  pass' $tandas)
+          for e in $piezas; do git sparse-checkout add "$e"; done
+          echo "tanda(s): $tandas"
+      - name: LFS de las piezas
+        # Igual que en el despacho suelto (git lfs smudge del puntero de cada archivo de la pieza), una pieza tras otra.
+        run: |
+          git lfs install --local
+          for SLUG in $SLUGS_OK; do
+            set +e
+            ok=1
+            for f in "earn/naos/cola/aprobar/${SLUG}"/*; do
+              [ -f "$f" ] || continue
+              if head -c 200 "$f" | grep -q "^version https://git-lfs.github.com/spec/v1"; then
+                if git lfs smudge "$f" < "$f" > "$f.lfs.tmp" && [ -s "$f.lfs.tmp" ] && ! head -c 200 "$f.lfs.tmp" | grep -q "^version https://git-lfs"; then
+                  mv "$f.lfs.tmp" "$f"
+                else
+                  rm -f "$f.lfs.tmp"; ok=0
+                fi
+              fi
+            done
+            set -e
+            if [ "$ok" != 1 ]; then
+              echo "smudge falló en $SLUG: pull de siempre"
+              git lfs pull --include "earn/naos/cola/aprobar/${SLUG}/*" || true
+            fi
+          done
+      - name: ¿Alguna pieza trae video? (si no, no se instala ffmpeg)
+        id: necesita
+        run: python3 earn/naos/motor/instagram/lote_reel.py ffmpeg >> "$GITHUB_OUTPUT"
+      - name: ffmpeg y ffprobe (apt, una sola vez para todo el lote)
+        id: ffmpeg
+        if: ${{ steps.necesita.outputs.ffmpeg != 'false' }}
+        # Lo mismo que en el despacho suelto. Si apt falla no corta el lote: cada pieza con video corre "sin-ffmpeg" (fila INFRA y
+        # reintento de la ronda siguiente) y las piezas sin video (imágenes, historias en JPEG) siguen.
+        run: |
+          command -v ffprobe >/dev/null && exit 0
+          for i in 1 2 3; do
+            timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg >/dev/null 2>&1 && exit 0
+            echo "apt: intento $i sin ffmpeg" >&2
+            [ "$i" -lt 3 ] || break
+            timeout 150 sudo apt-get update -qq >/dev/null 2>&1 || true
+            sleep $((i * 20))
+          done
+          echo "falta=true" >> "$GITHUB_OUTPUT"
+          echo "::warning::ffmpeg no se pudo instalar con apt (3 intentos)"
+      - uses: actions/checkout@v7
+        # La página de NAOS (el lote es solo de NAOS: una pieza de Mercury se rechaza en el paso de las piezas).
+        if: ${{ env.HAY_TOKEN_PAGINA == 'true' }}
+        with:
+          repository: hardlypythonnmr/naos
+          token: ${{ secrets.NAOS_PAGINA_TOKEN }}
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /data/enlaces.json
+            /data/semana.json
+          path: naos-pagina
+      - name: Carpetas de las piezas en la página
+        if: ${{ env.HAY_TOKEN_PAGINA == 'true' }}
+        run: |
+          for s in $SLUGS_OK; do
+            git -C naos-pagina sparse-checkout add "/assets/reels/$s.mp4" "/assets/historias/$s/" "/assets/carruseles/$s/" "/assets/imagenes/$s/"
+          done
+      - name: Identidad de git
+        run: |
+          git config --global user.name "naos-reel"; git config --global user.email "naos-reel@users.noreply.github.com"
+      - name: Las piezas, en serie (compuerta, Pages, espera, reclamo, publicar y cerrar de cada una)
+        id: piezas
+        env:
+          # Solo en este paso; lote_reel.py lo pasa únicamente al subproceso de `publicar`.
+          INSTAGRAM_TOKEN_LOTE: ${{ secrets.INSTAGRAM_TOKEN }}
+          FFMPEG_FALTA: ${{ steps.ffmpeg.outputs.falta }}
+        run: python3 earn/naos/motor/instagram/lote_reel.py correr
+      - name: Guardar en main (publicados.csv, estado.json, errores.csv de todo el lote)
+        if: ${{ always() && steps.checkout.outcome == 'success' }}
+        # Un solo commit para todas las piezas, pieza por pieza y solo lo que exista (una pieza sin carpeta o sin estado.json no corta a las
+        # demás). Cada vuelta parte de main al día y vuelve a aplicar el resultado de cada una (idempotente). El mismo script guarda
+        # en main después de CADA pieza publicada (lote_reel.py), así lo publicado llega a main aunque la corrida muera a mitad.
+        run: bash earn/naos/motor/instagram/guardar_lote.sh $SLUGS_OK
+      - name: Enlaces en la página (data/enlaces.json de naos)
+        if: ${{ always() && env.HAY_TOKEN_PAGINA == 'true' && hashFiles('naos-pagina/data/enlaces.json') != '' }}
+        working-directory: naos-pagina
+        run: |
+          git config user.name "naos-reel"; git config user.email "naos-reel@users.noreply.github.com"
+          git add data/enlaces.json
+          git diff --cached --quiet && { echo "sin cambios"; exit 0; }
+          git commit -q -m "enlaces: Reels de $SLUGS_OK"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

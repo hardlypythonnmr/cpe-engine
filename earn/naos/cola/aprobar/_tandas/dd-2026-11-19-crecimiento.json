@@ -1,6 +1,6 @@
 {
  "nombre": "dd-2026-11-19-crecimiento",
- "issue": 1783,
+ "issue": 34,
  "version": 1,
  "estado": "aprobado",
  "piezas": [
@@ -27,5 +27,6 @@
   "dd-2026-11-20-coca-cola-2024-pay-ratio-reloj",
   "dd-2026-11-20-wayfair-2022-q2-workforce-cut-buscar",
   "dd-2026-11-21-coca-cola-2020-buyouts-adivina"
- ]
+ ],
+ "issue_n_system": 1783
 }

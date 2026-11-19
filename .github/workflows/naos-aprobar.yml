@@ -1,0 +1,115 @@
+# NAOS: aprobación de N desde el celular (OPS-06.1, D-228, D-234). Repo PRIVADO.
+# Solo dos disparos: un comentario de N en un issue de pieza, creado o editado (`ok`, o cualquier palabra de N, que frena), y el cierre de ese issue.
+#   Un comentario editado solo frena, con la hora de la edición; nunca aprueba (pausa 3.0, compuerta-07, C-08; lo aplica `aprobar.py`).
+# Sin cron. La reacción 👍 no dispara nada por sí sola: la ronda horaria de la operadora corre
+#   `programador.py --aprobaciones`, que lee cada issue en por-aprobar con `aprobar.py leer` y, si N ya aprobó, lanza este
+#   workflow por workflow_dispatch con el número del issue (NAOS 3.1, H6). El disparo no aprueba nada: `procesar` vuelve a
+#   leer el 👍 de N por la API y valida huella y hora, igual que con un comentario. El número se valida antes de usarlo.
+# Qué hace: aprobar.py procesar lee los comentarios y reacciones de N sobre la vista previa vigente, valida la huella
+# de la pieza y la hora, y escribe las filas de earn/naos/motor/instagram/publicados.csv. ig.py y subir.py no publican sin ellas.
+# Minutos (n-system es privado, 2.000 gratis al mes): checkout parcial ~5 s + lectura ~10 s + commit ~3 s + arranque ~10 s
+#   => ~1 minuto por comentario de N. 3 piezas por día x 2 comentarios x 31 = ~190 min al mes (9,5 %). Medir tras la semana 1.
+# Tandas (D-308): un issue de tanda lleva varias piezas; `procesar <issue>` reconoce el issue de la tanda (cola/aprobar/_tandas/<nombre>.json)
+#   y registra una fila por pieza y canal. No hace falta otro disparo: sus etiquetas son las mismas (por-aprobar, aprobado).
+#   El video.mp4 de cada pieza va por LFS (.gitattributes): sin bajarlo, la huella sale del puntero y la pieza parece cambiada.
+#   Por eso el paso "Identidad de git" instala LFS sin descargar (skip-smudge) y cada vuelta baja solo los videos de las piezas
+#   de ese issue (`aprobar.py piezas`).
+# Seguridad: el texto del comentario nunca pasa por el shell ni por una expresión; el script lo lee por la API.
+#   Aviso a N solo por GitHub (D-235): sin secretos de Telegram.
+#   Solo cuenta el usuario NAOS_APROBADOR (variable del repo; por defecto el dueño). Permisos mínimos.
+# Tanda del VP (D-274, D-322): nace aprobada por el VP con la etiqueta vp-aprobado. Un comentario de N en ella (`no <slug>` o
+#   cualquier otro, que frena) es su veto y dispara este workflow igual; `procesar` anota el veto en medicion/decisiones-sistema.csv,
+#   por eso el checkout trae earn/naos/medicion y el paso de guardar suma ese archivo. Sus 👎 y su 👍 los despacha la ronda horaria.
+# Carril de cifra viva (D-476) y carril de plantilla (D-505): después de `procesar` corre `agente.py bajar-vetados`, que pasa a
+#   privado el Short de Mercury que N vetó y sigue en YouTube (dentro de las 12 h), y ninguno más. Usa los secretos MERCURY_OAUTH_*; si faltan o falla, avisa y el veto queda igual.
+# Varios issues por corrida (13-nov-2026): la ronda horaria despachaba UN issue por vez porque este workflow tiene un solo grupo de
+#   concurrencia y GitHub deja un solo disparo en espera (un tercero cancela al segundo): con 5 tandas con 👍 la última tardaba 5 h
+#   (13-nov: 👍 a las 19:14Z a #1138, #985, #1125, #1158 y #1161; la ronda de las 19:57Z solo despachó #1161). Ahora `programador.py
+#   --aprobaciones` manda UN disparo con `issue="1138 985 1125 ..."` (hasta 8; el resto, en la ronda siguiente) y este workflow los
+#   procesa en serie (aprobar_varios.sh): por issue LFS de sus piezas, `procesar`, `bajar-vetados`, guardar en main con reintento
+#   (un commit por issue, así lo de los que salieron bien no se pierde) y avisos. Uno que falla no frena a los demás; la corrida
+#   termina en rojo si alguno falló, y el que falló comenta en su issue. Cada número se valida (solo dígitos, sin repetidos, máximo 8)
+#   y llega por variable de entorno, nunca por una expresión dentro de `run:`. La compuerta no cambia: `procesar` decide issue por
+#   issue y solo cuenta el 👍 de NAOS_APROBADOR. Los disparos por comentario y por cierre traen su número de siempre.
+#   Minutos: ~1 min por issue más ~25 s de checkout una vez (antes, 5 corridas = 5 checkouts); tope del job 30 min.
+name: naos-aprobar
+on:
+  issue_comment:
+    types: [created, edited]
+  issues:
+    types: [closed]
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "número del issue de pieza o tanda que ya tiene el 👍 de N, o hasta 8 separados por espacios (solo dígitos, sin repetidos)"
+        required: true
+permissions:
+  contents: write
+  issues: write
+jobs:
+  aprobar:
+    # Un issue (no un PR) con estado por-aprobar o aprobado; si es comentario, escrito por N.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (!github.event.issue.pull_request &&
+      (contains(github.event.issue.labels.*.name, 'por-aprobar') || contains(github.event.issue.labels.*.name, 'aprobado') ||
+       contains(github.event.issue.labels.*.name, 'vp-aprobado')) &&
+      (github.event_name == 'issues' ||
+       (github.event.comment.user.login == (vars.NAOS_APROBADOR || github.repository_owner) &&
+        !contains(github.event.comment.body, 'Generated by [Claude Code]') && !contains(github.event.comment.body, '<!-- naos:'))))
+    # C5 (naos-motor, P-A1): la concurrencia va en el job, como naos-avisar: un comentario de un extraño no entra al job
+    # (el if lo salta) y ya no cancela la corrida que espera con el ok de N.
+    concurrency:
+      group: naos-aprobar
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 30  # medido 3-nov: checkout 25-52 s; bajar 7 videos (58 MB, tanda de medios) 7 s; huellas < 1 s. Hasta 8 issues en serie (~1 min cada uno);
+    # aprobar_varios.sh no abre otro issue pasados 23 min (LIMITE_S) y cada issue ya queda en main al terminar, así que un corte no pierde lo hecho
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NAOS_APROBADOR: ${{ vars.NAOS_APROBADOR || github.repository_owner }}
+      NAOS_SIN_GIT: "1"  # el commit y el push los hace el paso "Guardar en main", con su identidad ya puesta
+      ISSUE: ${{ github.event.issue.number || inputs.issue }}  # uno, o hasta 8 separados por espacios (solo el disparo manual trae varios)
+      EVENTO: ${{ github.event_name }}
+      # Carril de cifra viva (D-476) y de plantilla (D-505): el veto de N baja el Short en esta misma corrida (agente.py bajar-vetados).
+      # Solo el canal de Mercury; el token de NAOS no entra a esta Action. Sin estos secretos el veto se registra igual.
+      MERCURY_OAUTH_CLIENT_ID: ${{ (secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID) }}
+      MERCURY_OAUTH_CLIENT_SECRET: ${{ (secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET) }}
+      MERCURY_OAUTH_REFRESH_TOKEN: ${{ (secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN) }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          # G8 (Rendimiento, 17-nov): antes el cono traía earn/naos/motor entero (~630 MB en el árbol; el checkout era 25 a 52 s
+          # de cada corrida). Ahora solo lo que corren aprobar.py y agente.py: los módulos sueltos de motor/, aprobar/, instagram/
+          # (ig.py, accion_reel.py), youtube/ (idiomas, canal) y lente/, la vara de kit/formatos, investigacion/yt.py, la cola de
+          # aprobar y medicion. No cambia qué lee `procesar` ni la compuerta: solo qué archivos bajan. motor/prueba_sparse.py
+          # vigila los imports; /.gitattributes va para que `git add` respete el filtro de LFS (skip-smudge, paso de abajo).
+          sparse-checkout: |
+            /.gitattributes
+            /earn/naos/motor/*.py
+            /earn/naos/motor/aprobar/
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/youtube/
+            /earn/naos/motor/lente/
+            /earn/naos/motor/kit/formatos/*.py
+            /earn/naos/motor/kit/formatos/*.json
+            /earn/naos/motor/investigacion/yt.py
+            /earn/naos/cola/aprobar/
+            /earn/naos/medicion/
+      - name: Identidad de git
+        # Antes de todo: la runner no trae identidad global y sin ella `git commit` falla con "Author identity unknown".
+        run: |
+          git config user.name "naos-aprobar"; git config user.email "naos-aprobar@users.noreply.github.com"
+          # LFS sin bajar nada al hacer checkout o reset: los videos se bajan por pieza, más abajo. Con el filtro instalado,
+          # `git add` vuelve a escribir el puntero y no sube el binario por error.
+          git lfs install --local --skip-smudge
+      - name: Validar los issues
+        run: bash earn/naos/motor/aprobar/aprobar_varios.sh validar
+      - name: Leer la respuesta de N y registrar en main, un issue tras otro
+        # Por cada issue, en serie: LFS de sus piezas, `procesar`, `bajar-vetados`, guardar en main con reintento y avisos.
+        # Uno que falla no frena a los demás; la corrida termina en rojo si alguno falló. Todo está en aprobar_varios.sh.
+        run: bash earn/naos/motor/aprobar/aprobar_varios.sh correr
