@@ -156,6 +156,8 @@ def paginas_de(pieza, slug):
         sys.exit(f"NO SE PUBLICA: {slug} es de la marca {marca} y la variable {var} apunta al sitio de NAOS ({BASE_PAGES}). "
                  f"{marca.capitalize()} va en un sitio aparte: su video no se copia a la página de NAOS. No salió nada.")
     repo_de_marca(marca, slug)
+    if not re.search(r"/assets/reels$", base):  # 19-nov: DD_PAGES_BASE llegó sin /assets/reels; los reels viven ahí igual
+        base += "/assets/reels"
     return marca, base, re.sub(r"/assets/reels/?$", "", base)
 
 
