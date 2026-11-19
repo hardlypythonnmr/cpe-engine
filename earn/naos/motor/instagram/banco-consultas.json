@@ -1,0 +1,12 @@
+{
+ "_nota": "Consultas del banco semanal de sonidos (mesa 19-nov: «más allá de lo que nos muestra», sin scraping de Instagram). banco_audio.py busca cada una en GET /ig_audio (original_sound) y suma los nombres de los rastreadores públicos de tendencias. Se editan a mano.",
+ "generos": ["phonk", "funk", "drill", "trap beat", "house", "techno", "afrobeat", "reggaeton beat", "amapiano", "drum and bass", "hip hop beat", "boom bap", "edm", "jersey club", "baile funk", "disco", "synthwave", "lofi beat", "rock instrumental", "orchestral epic"],
+ "animos": ["hype", "energetic", "epic", "intense", "suspense", "dramatic", "confident", "victory", "tension", "dark beat"],
+ "bpm": ["140 bpm", "150 bpm", "160 bpm", "128 bpm", "120 bpm"],
+ "palabras": ["beat", "instrumental", "remix", "sped up", "bass", "drop", "mix", "edit audio"],
+ "rastreadores": [
+  "https://metricool.com/trending-instagram-songs/",
+  "https://www.socialpilot.co/blog/instagram-reels-trends",
+  "https://buffer.com/resources/trending-audio-instagram/"
+ ]
+}

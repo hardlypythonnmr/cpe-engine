@@ -180,6 +180,8 @@ class Veto(unittest.TestCase):
     def test_sin_veto_sale_con_el_anunciado(self):
         self.pieza("a", "2026-11-20T15:00:00Z", {"audio_id": "9", "comentario": 1})
         self.assertEqual(self.para("a"), ("tendencia", ["--audio-id", "9"]))
+        self.pieza("v", "2026-11-20T15:00:00Z", {"audio_id": "9", "comentario": 1, "audio_vol": 90})
+        self.assertEqual(self.para("v"), ("tendencia", ["--audio-id", "9", "--audio-vol", "90"]))
 
     def test_con_veto_sale_propio(self):
         self.pieza("a", "2026-11-20T15:00:00Z", {"audio_id": "9", "comentario": 1})
@@ -210,13 +212,15 @@ class Veto(unittest.TestCase):
         with mock.patch.object(accion_reel, "grupo_audio", lambda s, c, h: real(s, c, h, self.AB)), \
                 contextlib.redirect_stdout(io.StringIO()):
             hechos = audio_aviso.avisar(self.cola, ahora, 6, elegir=lambda t, d, i: elegido, comentar=comentar,
-                                        duracion_de=lambda c, s: 30.0)
+                                        duracion_de=lambda c, s: 30.0, voz_de=lambda c, s: False)
         self.assertEqual(hechos, ["a"])
         self.assertEqual(comentarios[0][0], 34)
         self.assertIn("👎", comentarios[0][1])
         self.assertIn("reels/audio/9", comentarios[0][1])
         e = json.load(open(os.path.join(self.cola, "a", "estado.json")))
         self.assertEqual((e["audio_aviso"]["audio_id"], e["audio_aviso"]["comentario"]), ("9", 555))
+        self.assertEqual((e["audio_aviso"]["voz_video"], e["audio_aviso"]["audio_vol"]), (False, 90))
+        self.assertIn("al 90 %", comentarios[0][1])
 
     def test_vetado_lee_reacciones(self):
         import audio_aviso
@@ -225,6 +229,64 @@ class Veto(unittest.TestCase):
         def falla(m, r):
             raise OSError("red")
         self.assertIsNone(audio_aviso.vetado(1, "r", falla))
+
+
+class Banco(unittest.TestCase):
+    """Mesa 19-nov: banco semanal de 50 a 100 sonidos filtrados; cada pieza elige de ahí."""
+    HOY = dt.datetime(2026, 11, 20, 10, tzinfo=dt.timezone.utc)
+
+    def banco(self, fecha="2026-11-19T20:00:00Z"):
+        return {"fecha_utc": fecha, "sonidos": [
+            {"audio_id": "1", "ig_username": "politico", "duracion_ms": 60000, "ritmo": {}},
+            {"audio_id": "2", "ig_username": "a", "duracion_ms": 5000},
+            {"audio_id": "3", "ig_username": "b", "duracion_ms": 60000},
+            {"audio_id": "4", "ig_username": "c", "duracion_ms": 60000, "busqueda": "phonk"},
+            {"audio_id": "5", "ig_username": "d", "duracion_ms": 60000}]}
+
+    def test_elige_vivo_no_usado_ni_vetado(self):
+        def llamar(m, ruta, params, **k):
+            if ruta == "4":
+                raise err()  # ya no existe
+            return {}
+        a = ig.elegir_del_banco(20, {"politico"}, self.banco(), {"3"}, llamar, self.HOY)
+        self.assertEqual((a["audio_id"], a["busqueda"]), ("5", "banco:"))
+
+    def test_banco_viejo_no_sirve(self):
+        self.assertIsNone(ig.elegir_del_banco(20, set(), self.banco("2026-11-01T00:00:00Z"), (), lambda *a, **k: {}, self.HOY))
+
+    def test_elegir_audio_usa_el_banco_antes_que_buscar(self):
+        def llamar(m, ruta, params, **k):
+            self.assertNotEqual(ruta, "ig_audio")
+            return {}
+        b = self.banco(dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+        a = ig.elegir_audio("", 20, llamar=llamar, medir=lambda u: self.fail("midió"), vetadas=set(), banco=b)
+        self.assertEqual(a["audio_id"], "1")
+
+    def test_titulos_de_rastreadores(self):
+        import banco_audio
+        h = "<h2>#1.  Thriller – Michael Jackson</h2><h3>2. BEAUTY AND A BEAT X COLA (ALTÉGO MIX) — altego_music</h3>" \
+            "<h2>How to Find Trending Audio</h2><h3>1. Use Instagram’s Built-In Trending Leaderboard</h3>"
+        self.assertEqual(banco_audio.titulos_de_pagina(h), ["Thriller", "BEAUTY AND A BEAT X COLA (ALTÉGO MIX)"])
+
+    def test_armar(self):
+        import banco_audio
+        def llamar(m, ruta, params, **k):
+            if ruta != "ig_audio":
+                return {"download_url": "u" + ruta}
+            q = params.get("search_query", "")
+            base = {"": [{"audio_id": 1, "duration_in_ms": 30000, "download_url": "t1"}],
+                    "phonk": [{"audio_id": 1, "duration_in_ms": 30000, "download_url": "t1"},
+                              {"audio_id": 2, "duration_in_ms": 30000, "download_url": "voz"},
+                              {"audio_id": 3, "duration_in_ms": 9000, "download_url": "corto"},
+                              {"audio_id": 4, "duration_in_ms": 30000, "download_url": "p4", "ig_username": "Politico"}],
+                    "Thriller": [{"audio_id": 5, "duration_in_ms": 30000, "download_url": "t5"}]}
+            return {"audio": base.get(q, [])}
+        medidas = {"t1": med(0.5, 120), "voz": med(voz=True), "t5": med(0.7, 160)}
+        b = banco_audio.armar({"generos": ["phonk"], "rastreadores": ["x"]}, ["@politico"], llamar, medidas.get,
+                              bajar=lambda u: "<h2>1. Thriller – MJ</h2>", ahora=self.HOY)
+        self.assertEqual([s["audio_id"] for s in b["sonidos"]], ["5", "1"])
+        self.assertEqual((b["candidatos"], b["medidos"], b["pasan"], b["nombres_rastreadores"]), (3, 3, 2, ["Thriller"]))
+        self.assertEqual(b["sonidos"][0]["busqueda"], "Thriller")
 
 
 if __name__ == "__main__":

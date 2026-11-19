@@ -1,0 +1,52 @@
+# dd-audio-banco: banco semanal de sonidos del piloto de audio de DD (mesa 19-nov: «más allá de lo que nos muestra»).
+# Sin scraping de Instagram: tendencia de la Audio API, las consultas de banco-consultas.json y los títulos de los
+# rastreadores públicos de tendencias. Filtra (YAMNet sin voz hablada, golpe, 15 s o más, sin cuentas vetadas) y guarda los
+# 100 mejores en earn/naos/medicion/audio-banco.json. dd-audio-aviso elige de ahí (vigencia 10 días).
+name: dd-audio-banco
+on:
+  schedule:
+    - cron: "13 5 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dd-audio-banco
+jobs:
+  banco:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/aprobar/
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/investigacion/
+            /earn/naos/motor/*.py
+            /earn/naos/medicion/audio-banco.json
+      - name: Herramientas del filtro (ffmpeg, numpy, onnxruntime, YAMNet)
+        run: |
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
+          python3 -m pip install -q --user --break-system-packages numpy onnxruntime 2>/dev/null || python3 -m pip install -q --user numpy onnxruntime
+          curl -sSfL -o "$RUNNER_TEMP/yamnet.onnx" https://huggingface.co/zeropointnine/yamnet-onnx/resolve/ac2ca3bd45d12ec1f19f1144205ea529b4e9dedf/yamnet.onnx
+          echo "1510041dce24a2e9e84ec546807ac408ae496da6d1ed41bc3ccba649623f8e19  $RUNNER_TEMP/yamnet.onnx" | sha256sum -c -
+          echo "RITMO_YAMNET=$RUNNER_TEMP/yamnet.onnx" >> "$GITHUB_ENV"
+      - name: Armar el banco
+        env:
+          MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
+        run: python3 earn/naos/motor/instagram/banco_audio.py
+      - name: Guardar el banco
+        run: |
+          git config user.name "dd-audio-banco"; git config user.email "dd-audio-banco@users.noreply.github.com"
+          git add --sparse -- earn/naos/medicion/audio-banco.json
+          git diff --cached --quiet && { echo "nada que guardar"; exit 0; }
+          git commit -q -m "dd-audio-banco: $(date -u +%F)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*5))
+          done
+          exit 1

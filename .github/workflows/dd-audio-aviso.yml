@@ -36,6 +36,7 @@ jobs:
             /earn/naos/cola/aprobar/dd-*/estado.json
             /earn/naos/cola/aprobar/dd-*/pieza.json
             /earn/naos/cola/aprobar/dd-*/video.mp4
+            /earn/naos/medicion/audio-banco.json
       - name: Herramientas del filtro (ffmpeg, numpy, onnxruntime, YAMNet)
         run: |
           command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }

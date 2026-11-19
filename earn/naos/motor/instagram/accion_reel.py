@@ -598,7 +598,7 @@ def audio_para_publicar(slug, cola=COLA, vetado=None):
             return "propio-sin-lectura", []
         if v:
             return "propio-veto", []
-    return grupo, ["--audio-id", str(av["audio_id"])]
+    return grupo, ["--audio-id", str(av["audio_id"])] + (["--audio-vol", str(av["audio_vol"])] if av.get("audio_vol") else [])
 
 
 def audio_de_salida(grupo, out):

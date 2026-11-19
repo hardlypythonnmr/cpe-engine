@@ -54,11 +54,44 @@ def pendientes(cola, ahora, horas):
             yield os.path.basename(os.path.dirname(f)), e, sale
 
 
+VOL_CON_VOZ, VOL_SIN_VOZ = 25, 90  # mesa 19-nov: con voz al 25 %; sin voz (tweet, Receipt, ranking...) al 90 %
+
+
+def video_de(cola, slug):
+    p = accion_reel.leer_json(os.path.join(cola, slug, "pieza.json")) or {}
+    return os.path.join(cola, slug, p.get("video") or "video.mp4")
+
+
+def tiene_voz(cola, slug, clasificar=None):
+    """True si el audio propio del video trae voz hablada (YAMNet); sin poder medir, True (25 %: la voz, si la hay, se oye)."""
+    try:
+        import ritmo_audio
+        c = (clasificar or ritmo_audio.clasificar)(ritmo_audio.pcm(video_de(cola, slug), 60))
+    except Exception:  # noqa: BLE001
+        return True
+    if c is None:
+        return True
+    return c["habla"] > ritmo_audio.HABLA_MAX or c["habla_domina"] > ritmo_audio.HABLA_DOMINA_MAX
+
+
+def usados_recientes(cola, ahora, dias=7):
+    """audio_id anunciados en los últimos `dias` (para no repetir el mismo sonido en la semana)."""
+    out = set()
+    for f in glob.glob(os.path.join(cola, "*", "estado.json")):
+        try:
+            av = (json.load(open(f, encoding="utf-8")).get("audio_aviso") or {})
+            t = dt.datetime.fromisoformat(str(av.get("fecha_utc", "")).replace("Z", "+00:00"))
+        except (OSError, ValueError):
+            continue
+        if av.get("audio_id") and ahora - t <= dt.timedelta(days=dias):
+            out.add(str(av["audio_id"]))
+    return out
+
+
 def duracion(cola, slug, sin_dato=60.0):
     """Segundos del video. En el runner el mp4 llega como puntero de LFS: se baja solo ese. Sin dato, 60 s (pide un sonido
     largo: mejor sobrado que corto)."""
-    p = accion_reel.leer_json(os.path.join(cola, slug, "pieza.json")) or {}
-    v = os.path.join(cola, slug, p.get("video") or "video.mp4")
+    v = video_de(cola, slug)
     try:
         if os.path.getsize(v) < 1024 and open(v, "rb").read(30).startswith(b"version https://git-lfs"):
             subprocess.run(["git", "lfs", "pull", "--include", os.path.relpath(v, os.getcwd())], timeout=180, check=False)
@@ -67,29 +100,34 @@ def duracion(cola, slug, sin_dato=60.0):
     return accion_reel.duracion_s(v) or sin_dato
 
 
-def texto(slug, sale, a):
+def texto(slug, sale, a, vol=None):
     r = a.get("ritmo") or {}
     medida = f"golpe {r['pulso']:.2f}, ~{r['bpm']:.0f} BPM" if r.get("pulso") is not None else "elegido por N (audio_id)"
     return (f"🎵 **Sonido elegido** para `{slug}` (sale {sale:%Y-%m-%d %H:%M} UTC): **{a.get('title') or 'Original audio'}** "
-            f"de @{a.get('ig_username') or '?'} — {a.get('enlace')}\n\n{medida}. Piloto de audio DD (N 19-nov).\n\n"
+            f"de @{a.get('ig_username') or '?'} — {a.get('enlace')}\n\n{medida}"
+            + (f"; sonido al {vol} %" if vol else "") + ". Piloto de audio DD (N 19-nov).\n\n"
             f"👎 a este comentario antes de que salga para vetarlo: el Reel sale con su sonido propio. Sin 👎, sale con este.")
 
 
-def avisar(cola, ahora, horas=6, elegir=None, comentar=None, duracion_de=duracion, seco=False):
-    elegir = elegir or ig.elegir_audio
+def avisar(cola, ahora, horas=6, elegir=None, comentar=None, duracion_de=duracion, seco=False, voz_de=tiene_voz):
+    elegir = elegir or (lambda t, d, i: ig.elegir_audio(t, d, i, usados=usados))
+    usados = usados_recientes(cola, ahora)
     hechos = []
     for slug, e, sale in pendientes(cola, ahora, horas):
         grupo, tema, audio_id = accion_reel.grupo_audio(slug, cola, sale.astimezone(accion_reel.NY).date())
         if grupo != "tendencia":
             continue
         a = elegir(tema, duracion_de(cola, slug), audio_id)
-        aviso = {"fecha_utc": ahora.strftime("%Y-%m-%dT%H:%M:%SZ")}
+        voz = voz_de(cola, slug)
+        aviso = {"fecha_utc": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"), "voz_video": voz,
+                 "audio_vol": VOL_CON_VOZ if voz else VOL_SIN_VOZ}
         if not a:
             aviso["ninguno"] = True
         else:
             aviso.update({k: a.get(k) for k in ("audio_id", "ig_username", "title", "duracion_ms", "busqueda", "enlace", "ritmo")})
+            usados.add(str(a.get("audio_id")))
             if not seco and e.get("issue"):
-                aviso["comentario"] = comentar(e["issue"], texto(slug, sale, a))
+                aviso["comentario"] = comentar(e["issue"], texto(slug, sale, a, aviso["audio_vol"]))
         print(json.dumps({"slug": slug, **aviso}, ensure_ascii=False))
         if not seco:
             e["audio_aviso"] = aviso

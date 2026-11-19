@@ -1030,7 +1030,40 @@ def url_audio(a, llamar=None):
         return ""
 
 
-def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15, vetadas=None):
+BANCO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "medicion", "audio-banco.json")
+BANCO_VIGENCIA = 10  # días
+
+
+def elegir_del_banco(dur_s, vetadas, banco=None, usados=(), llamar=None, hoy=None):
+    """El primero del banco semanal (banco_audio.py, ya filtrado y ordenado) que alcance la duración, no esté vetado ni usado
+    en la última semana y siga vivo en Instagram (GET /{audio_id}). None si no hay banco vigente o nada sirve."""
+    if banco is None:
+        try:
+            with open(BANCO, encoding="utf-8") as f:
+                banco = json.load(f)
+        except (OSError, ValueError):
+            return None
+    try:
+        fecha = dt.datetime.fromisoformat(str(banco.get("fecha_utc", "")).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if (hoy or dt.datetime.now(dt.timezone.utc)) - fecha > dt.timedelta(days=BANCO_VIGENCIA):
+        return None
+    usados = {str(u) for u in usados}
+    for s in banco.get("sonidos", []):
+        if (str(s.get("audio_id")) in usados or str(s.get("ig_username", "")).lower() in vetadas
+                or (s.get("duracion_ms") or 0) < dur_s * 1000):
+            continue
+        try:
+            (llamar or llamar_crudo)("GET", str(s["audio_id"]), {}, anotar=False, crudo=True)
+        except ErrorMeta:
+            continue
+        return {k: s.get(k) for k in ("audio_id", "ig_username", "title", "duracion_ms", "enlace", "ritmo")} | {
+            "busqueda": "banco:" + str(s.get("busqueda", ""))}
+    return None
+
+
+def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15, vetadas=None, banco=None, usados=()):
     """Piloto de audio (N 19-nov: «Piloto medido», «Sonidos originales», «Filtro automático + veto»). Devuelve {audio_id,
     ig_username, title, duracion_ms, busqueda, enlace, ritmo} o None. Con audio_id, lo toma tal cual (GET /{audio_id}): ya
     pasó el filtro y el veto. Si no, junta los original_sound de la búsqueda por tema y de la tendencia, descarta los que no
@@ -1057,6 +1090,9 @@ def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15
         except (OSError, ValueError):
             vetadas = []
     vetadas = {str(v).lower().lstrip("@") for v in vetadas}
+    del_banco = elegir_del_banco(dur_s, vetadas, banco, usados, llamar)
+    if del_banco:
+        return del_banco
     mejor, mejor_p = None, -1.0
     lista = [a for a in candidatos_audio(tema, llamar)
              if (a.get("duration_in_ms") or 0) >= dur_s * 1000 and str(a.get("ig_username", "")).lower() not in vetadas]
@@ -1146,6 +1182,7 @@ def main():
     p.add_argument("--audio-id", default="", help="piloto de audio: este audio de la Audio API (audio_configuration)")
     p.add_argument("--audio-tema", default="", help="piloto de audio: busca un original_sound en tendencia por este tema")
     p.add_argument("--audio-dur", type=float, default=0, help="piloto de audio: segundos del video (el audio tiene que alcanzar)")
+    p.add_argument("--audio-vol", type=int, default=AUDIO_VOL, help="piloto de audio: volumen del sonido (25 con voz, 90 sin voz; mesa 19-nov)")
     p.add_argument("--ia", action="store_true", help="aviso de IA de la plataforma (is_ai_generated=true; N 19-nov: «Solo etiqueta de plataforma»)")
     rc = sub.add_parser("revisar-carrusel")
     rc.add_argument("urls", nargs="+")
@@ -1243,7 +1280,7 @@ def main():
         if a.audio_id or a.audio_tema:  # piloto de audio DD (N 19-nov); fuera de la huella como la portada: solo con la decisión de N
             elegido = elegir_audio(a.audio_tema, a.audio_dur, a.audio_id)
             if elegido:
-                extra["audio_configuration"] = json.dumps({"audio_id": elegido["audio_id"], "audio_volume": AUDIO_VOL,
+                extra["audio_configuration"] = json.dumps({"audio_id": elegido["audio_id"], "audio_volume": a.audio_vol,
                                                            "video_volume": VIDEO_VOL})
                 print("AUDIO " + json.dumps(elegido, ensure_ascii=False))
             else:
