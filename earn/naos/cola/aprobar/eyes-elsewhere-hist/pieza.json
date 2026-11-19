@@ -1,0 +1,31 @@
+{
+ "slug": "eyes-elsewhere-hist",
+ "titulo": "2 of us, 1 phone",
+ "clave": "2026-11-19|eyes-elsewhere-hist",
+ "sale_utc": "2026-11-19T01:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A vertical cut of the first 8 seconds of the video. A short film with no voice, with music. A sage-green room with a small side table at the left holding a phone. Two small block figures with white eyes, an ink-black one on the left and a cobalt one on the right, look at each other and pulse softly, the cobalt one tilting its head. The phone lights up with rings and buzzes, and the black one's eyes go wide and drift to it while the cobalt one tilts its head toward it. Then the black one looks back, its eyes turn happy, both pulse together, and it leans a little toward the cobalt one. The text: 2 of us, 1 phone, my eyes drift, and back.",
+ "seccion": "humanity",
+ "fuente": "motor/historia_corte.py (corte de eyes-elsewhere, 0 a 8.0 s)",
+ "sticker": "ninguno",
+ "deriva_de": "eyes-elsewhere",
+ "revisiones": [
+  {
+   "que": "Corte",
+   "estado": "OK",
+   "nota": "8.0 s desde 0 s de eyes-elsewhere, 1080x1920, audio original, sin pregunta nueva (la madre ya esta aprobada)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin pedir like, share ni follow; sin texto nuevo"
+  }
+ ]
+}
