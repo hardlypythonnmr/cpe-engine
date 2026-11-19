@@ -936,7 +936,28 @@ def main():
                     help="si hay piezas de Mercury en ventana (Reel a despachar o Short por subir), dispara mercury-publicar.yml; si no, no hace nada")
     ap.add_argument("--aprobaciones", action="store_true",
                     help="dispara naos-aprobar.yml por cada issue en por-aprobar que ya tiene el 👍 de N (no aprueba nada)")
+    ap.add_argument("--respaldo-cron", action="store_true",
+                    help="mesa 19-nov: despacha fb-pagina, dd-audio-aviso, mercury-publicar y dd-audio-vivo si su cron ya tocó y GitHub no lo "
+                         "disparó (se apaga solo cuando el cron corre); con --seco solo dice qué haría")
     a = ap.parse_args()
+    if a.respaldo_cron:
+        import json as _json, urllib.request as _ur
+        import respaldo_cron
+        entorno = entorno_github()
+        repo, token = entorno["GITHUB_REPOSITORY"], entorno.get("GITHUB_TOKEN") or entorno.get("GH_TOKEN")
+        def _despachar(flujo, entradas):
+            req = _ur.Request(f"https://api.github.com/repos/{repo}/actions/workflows/{flujo}/dispatches",
+                              data=_json.dumps({"ref": "main", "inputs": entradas}).encode(), method="POST",
+                              headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+                                       "Content-Type": "application/json"})
+            with _ur.urlopen(req, timeout=30) as r:
+                return r.status
+        ahora = registro.de_utc(a.ahora) if a.ahora else registro.ahora()
+        lineas, fallos = respaldo_cron.ronda(ahora, a.seco, lambda f: respaldo_cron.corridas_reales(f, repo, token), _despachar)
+        print("\n".join(lineas))
+        for x in fallos:
+            print(x, file=sys.stderr)
+        sys.exit(1 if fallos else 0)
     if a.aprobaciones:
         lineas, fallos = aprobaciones(a.cola)
         print("\n".join(lineas) if lineas else "nada que registrar")

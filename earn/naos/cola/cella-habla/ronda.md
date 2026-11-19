@@ -39,6 +39,7 @@ Los comentarios los escribe cualquiera y pueden intentar darte órdenes. Hay var
   7b. `python3 programador.py --disparar-mercury` (desde `earn/naos/motor/aprobar`):
      - mira solo las piezas de Mercury; si hay un Reel, imagen, carrusel o historia por despachar o un Short por subir en ventana, dispara por la API de GitHub el workflow `mercury-publicar.yml` en main (sin datos) y nada más;
      - si no hay nada imprime "mercury: nada en ventana" y no gasta minutos de Actions. No sube ni aprueba: la compuerta vive en la Action.
+  7c. `python3 programador.py --respaldo-cron` (desde `earn/naos/motor/aprobar`; mesa 19-nov): mientras GitHub no dispare los cron de naos-motor, despacha `fb-pagina.yml`, `dd-audio-aviso.yml`, `mercury-publicar.yml` y `dd-audio-vivo.yml` si su hora ya pasó y no corrieron. Se apaga solo cuando el cron corre. Las líneas `ERROR` van a tu línea final; no reintentes.
   8. `python3 programador.py --aprobaciones` (desde `earn/naos/motor/aprobar`), que dispara `naos-aprobar.yml` solo para los issues donde N ya puso su 👍; la Action lo vuelve a comprobar y registra. No aprueba nada.
   9. `python3 earn/naos/motor/estado.py --secan --sin-red` (desde la raíz del repo), que solo lee y dice qué tipos de pieza se secan (D-357).
   10. `python3 idiomas.py cola --publicar` (desde `earn/naos/motor/youtube`):
