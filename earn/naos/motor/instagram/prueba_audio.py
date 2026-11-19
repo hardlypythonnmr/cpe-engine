@@ -284,7 +284,8 @@ class Banco(unittest.TestCase):
         medidas = {"t1": med(0.5, 120), "voz": med(voz=True), "t5": med(0.7, 160)}
         b = banco_audio.armar({"generos": ["phonk"], "rastreadores": ["x"]}, ["@politico"], llamar, medidas.get,
                               bajar=lambda u: "<h2>1. Thriller – MJ</h2>", ahora=self.HOY)
-        self.assertEqual([s["audio_id"] for s in b["sonidos"]], ["5", "1"])
+        self.assertEqual([s["audio_id"] for s in b["sonidos"]], ["1", "5"])  # tendencia antes que el de más golpe
+        self.assertEqual([s["fuente"] for s in b["sonidos"]], ["tendencia", "rastreador"])
         self.assertEqual((b["candidatos"], b["medidos"], b["pasan"], b["nombres_rastreadores"]), (3, 3, 2, ["Thriller"]))
         self.assertEqual(b["sonidos"][0]["busqueda"], "Thriller")
 

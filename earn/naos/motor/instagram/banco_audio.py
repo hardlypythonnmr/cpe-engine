@@ -93,7 +93,11 @@ def armar(cfg, vetadas, llamar=None, medir=None, bajar=None, tope_medir=220, max
                           "duracion_ms": a.get("duration_in_ms"), "busqueda": a["busqueda"],
                           "enlace": a.get("on_platform_audio_preview_link") or f"https://www.instagram.com/reels/audio/{a['audio_id']}/",
                           "ritmo": m, "puntaje": round(ritmo_audio.puntaje(m), 3)})
-    filas.sort(key=lambda f: -f["puntaje"])
+    # N: «high beat and popular». La Audio API no da cuántos usan un sonido; lo que trae señal de popularidad es la
+    # tendencia y los nombres de los rastreadores. Van primero; dentro de cada fuente, por golpe × tempo.
+    for f in filas:
+        f["fuente"] = "tendencia" if f["busqueda"] == "tendencia" else ("rastreador" if f["busqueda"] in nombres else "consulta")
+    filas.sort(key=lambda f: (f["fuente"] == "consulta", -f["puntaje"]))
     ahora = ahora or dt.datetime.now(dt.timezone.utc)
     return {"fecha_utc": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"), "consultas": len(qs), "nombres_rastreadores": nombres,
             "candidatos": len(cand), "medidos": medidos, "pasan": len(filas), "sonidos": filas[:maximo]}
