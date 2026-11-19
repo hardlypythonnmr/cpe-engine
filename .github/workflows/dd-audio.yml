@@ -48,7 +48,8 @@ jobs:
                   except ig.ErrorMeta as e:
                       print(f"== {tipo} q={q!r}: ERROR {e.linea()}")
                       continue
-                  datos = d.get("data", []) if isinstance(d, dict) else []
+                  datos = (d.get("audio") or d.get("data") or []) if isinstance(d, dict) else []
+                  datos = datos.get("data", []) if isinstance(datos, dict) else datos
                   print(f"== {tipo} q={q!r}: {len(datos)} resultados; claves de la respuesta: {sorted(d) if isinstance(d, dict) else type(d).__name__}")
                   for a in datos[:5]:
                       print("  " + json.dumps(a, ensure_ascii=False)[:400])
