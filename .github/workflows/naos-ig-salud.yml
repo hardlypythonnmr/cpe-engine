@@ -12,8 +12,8 @@
 # Si el token existe y falla, el aviso va a la misma bitácora y dice que es de Mercury.
 name: naos-ig-salud
 on:
-  # schedule: apagado en el arranque de naos-motor (paso 13); se enciende en el paso 16
-  # - cron: "30 12 * * *"
+  schedule:
+    - cron: "30 12 * * *"
   workflow_dispatch:
 permissions:
   contents: read

@@ -25,8 +25,8 @@
 name: naos-ronda-sombra
 on:
   workflow_dispatch:
-  # schedule: apagado en el arranque de naos-motor (paso 13); se enciende en el paso 16
-  # - cron: "25 */3 * * *"  # N, 10-nov: "Cada 3 horas" (D-415)
+  schedule:
+    - cron: "25 */3 * * *"  # N, 10-nov: "Cada 3 horas" (D-415)
 permissions:
   contents: write  # el cierre automático (cola/aprobar/*/estado.json) a main
   actions: write   # solo para disparar naos-reel.yml

@@ -33,14 +33,14 @@
 # Pasos del dueño: earn/naos/empresa/duplicar/canal-lucro/mercury/linea/PUBLICAR.md
 name: mercury-publicar
 on:
-  # schedule: apagado en el arranque de naos-motor (paso 13); se enciende en el paso 16
-  # # Respaldo, justo antes de las horas de DD (UTC): 14:00 historia, 17:00 tachón 1 y expediente, 18:30 lámina, 20:00 actually said,
-  # # 22:00. La operadora (paso M) y la sombra ya la despiertan cuando hay algo en ventana; esto cubre una operadora caída.
-  # - cron: "58 13 * * *"
-  # - cron: "58 16 * * *"
-  # - cron: "28 18 * * *"
-  # - cron: "58 19 * * *"
-  # - cron: "58 21 * * *"
+  schedule:
+    # Respaldo, justo antes de las horas de DD (UTC): 14:00 historia, 17:00 tachón 1 y expediente, 18:30 lámina, 20:00 actually said,
+    # 22:00. La operadora (paso M) y la sombra ya la despiertan cuando hay algo en ventana; esto cubre una operadora caída.
+    - cron: "58 13 * * *"
+    - cron: "58 16 * * *"
+    - cron: "28 18 * * *"
+    - cron: "58 19 * * *"
+    - cron: "58 21 * * *"
   workflow_dispatch:
     inputs:
       seco:
