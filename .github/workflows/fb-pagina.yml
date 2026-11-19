@@ -1,0 +1,70 @@
+# fb-pagina: lleva a la Página de Facebook de cada marca lo que ya salió en Instagram con el 👍 de N (fb_ronda.py).
+# N 19-nov: NAOS publica sus estrategias y protocolos en Facebook (Página "Naos"); DD usa fb_pagina.py en un workflow.
+# Compuerta en fb_ronda.py: fila de N (no del VP ni del agente), ya salió en IG, huella igual a la aprobada, nunca dos veces,
+# tope de 30 posts por API en 24 h, cada marca en su Página. Cron cada 2 h, de verdad, solo lo de los últimos 3 días y hasta
+# 6 por ronda. A mano: en seco por defecto; slug = una pieza puntual (aunque sea vieja).
+name: fb-pagina
+on:
+  schedule:
+    - cron: "23 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      de_verdad:
+        description: "publica de verdad (sin esto, seco)"
+        type: boolean
+        default: false
+      marcas:
+        description: "dd, naos o dd naos"
+        type: string
+        default: "dd naos"
+      slug:
+        description: "una pieza puntual (opcional)"
+        type: string
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: fb-pagina
+jobs:
+  ronda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          lfs: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/
+            /earn/naos/cola/aprobar/
+      - name: Ronda de Facebook
+        env:
+          DD_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          NAOS_FB_TOKEN: ${{ secrets.NAOS_FB_TOKEN }}
+          NAOS_FB_PAGE_ID: ${{ vars.NAOS_FB_PAGE_ID || secrets.NAOS_FB_PAGE_ID }}
+          DD_PAGES_BASE: ${{ (vars.DD_PAGES_BASE || vars.MERCURY_PAGES_BASE) }}
+          DD_FB_PAGE_ID: ${{ vars.DD_FB_PAGE_ID }}
+          NAOS_PAGES_BASE: ${{ vars.NAOS_PAGES_BASE }}
+          DE_VERDAD: ${{ (github.event_name == 'schedule' || inputs.de_verdad) && '--de-verdad' || '' }}
+          MARCAS: ${{ inputs.marcas || 'dd naos' }}
+          SLUG: ${{ inputs.slug }}
+        run: |
+          args=""
+          for m in $MARCAS; do case "$m" in dd|naos) args="$args --marca $m";; *) echo "marca rara: $m"; exit 1;; esac; done
+          if [ -n "$SLUG" ]; then printf '%s' "$SLUG" | grep -Eq '^[a-z0-9][a-z0-9-]{0,80}$' || { echo "slug raro"; exit 1; }; args="$args --slug $SLUG"; fi
+          python3 earn/naos/motor/fb_ronda.py $args $DE_VERDAD
+      - name: Guardar fb-publicados.csv
+        if: always()
+        run: |
+          f=earn/naos/motor/instagram/fb-publicados.csv
+          git config user.name "fb-pagina"; git config user.email "fb-pagina@users.noreply.github.com"
+          git add --sparse -- "$f"
+          git diff --cached --quiet && { echo "nada que guardar"; exit 0; }
+          git commit -q -m "fb-pagina: $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*5))
+          done
+          exit 1
