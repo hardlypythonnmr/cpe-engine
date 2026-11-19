@@ -1,0 +1,85 @@
+{
+ "slug": "gossip-caved-at-7-16",
+ "titulo": "Broke Your Ekadashi Fast? Cella Caved at 7:16 pm",
+ "clave": "2026-12-04|gossip-caved-at-7-16",
+ "sale_utc": "2026-12-04T17:00:00Z",
+ "caption": "Broke Your Ekadashi Fast? Cella Caved at 7:16 pm\n\nBroke your Ekadashi fast? Cella did. Friday, Ekadashi itself. After the cleaning stage, at 7:15 pm, she walks to the fridge, opens it, and a piece of cheese just sticks to her. She has no hands, it's a whole thing. The cheese commits. She eats it. Caved at 7:16, and a neighbor wrote it on the moon calendar. (Cella's times are fiction.)\n\nWhat is Ekadashi? Ekadashi is a Hindu fast on the 11th day of each half of the lunar month, so it comes about twice a month. This one is Utpanna Ekadashi, on Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London).\n\nWhat can you eat on an Ekadashi fast? It depends on how you keep it. Some people take only water, some only fruit, some milk, and some eat one meal without grains. Some skip even water. It isn't for everyone.\n\nAnd what if your Ekadashi fast breaks? Traditions answer that differently, so ask your own family, temple or panchang (the Hindu almanac with the lunar dates). In Cella's story, nobody wins and everybody learns something, and the week isn't over yet.\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#ekadashi #ekadashifasting #utpannaekadashi #fasting #cartoon #naos",
+ "descripcion": "Broke Your Ekadashi Fast? Cella Caved at 7:16 pm\n\nBroke your Ekadashi fast? Cella did. Friday, Ekadashi itself. After the cleaning stage, at 7:15 pm, she walks to the fridge, opens it, and a piece of cheese just sticks to her. She has no hands, it's a whole thing. The cheese commits. She eats it. Caved at 7:16, and a neighbor wrote it on the moon calendar. (Cella's times are fiction.)\n\nWhat is Ekadashi? Ekadashi is a Hindu fast on the 11th day of each half of the lunar month, so it comes about twice a month. This one is Utpanna Ekadashi, on Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London).\n\nWhat can you eat on an Ekadashi fast? It depends on how you keep it. Some people take only water, some only fruit, some milk, and some eat one meal without grains. Some skip even water. It isn't for everyone.\n\nAnd what if your Ekadashi fast breaks? Traditions answer that differently, so ask your own family, temple or panchang (the Hindu almanac with the lunar dates). In Cella's story, nobody wins and everybody learns something, and the week isn't over yet.\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#ekadashi #ekadashifasting #utpannaekadashi #fasting #cartoon #naos",
+ "sintetico": true,
+ "alt": "A 35-second vertical cartoon about breaking an Ekadashi fast, voiced by two gossiping neighbors with burned-in subtitles. Night-blue kitchen under the header \"The House Gossip\" and the label \"Friday: Ekadashi\". A white band at the top reads \"Ekadashi: a Hindu fast on the 11th day of the moon\". Cella, a small dark doorway-shaped figure with white eyes and a red crown, stands by a tall white fridge that swings open with a glow; a yellow block of cheese appears stuck beside her. A moon calendar marked 11 hangs nearby, and a pink and a yellow neighbor bounce as they talk. It ends on a card: \"The whole moon fasting week: link in bio.\"",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "sin_cifras": false,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "comentario_fijado": "Ever broken a fast by accident? What got you: the cheese, the clock, or the cleaning stage?",
+ "seccion": "humanity",
+ "formato": "short",
+ "familia": "chisme",
+ "tipo": "CM",
+ "modo": "chisme con voz",
+ "mecanica_crecimiento": "puente al medio: tarjeta final 'The whole moon fasting week: link in bio.'",
+ "texto_en_pantalla": [
+  "The cleaning stage. Then seven fifteen p.m. She walks to the fridge.",
+  "No.",
+  "Opens it.",
+  "No.",
+  "And a piece of cheese just. Sticks to her.",
+  "Sticks to her?",
+  "She has no hands, it's a whole thing. The cheese commits. And she eats it.",
+  "Caved.",
+  "Caved at seven sixteen. I have it in writing. I wrote it on the moon calendar.",
+  "So who won?",
+  "Nobody won. That's the thing. Nobody won and everybody learned something.",
+  "I hate learning.",
+  "Ekadashi: a Hindu fast on the 11th day of the moon",
+  "The whole moon fasting week: link in bio."
+ ],
+ "casa": {
+  "id": "c4s-caved",
+  "version": 1,
+  "produccion": "empresa/estrategia/storytelling/voz-hermana/_motor (recorte_c4.py, proto.js c4v)",
+  "especificacion": "N 19-nov: el chisme es formato de Short, no de medio"
+ },
+ "datos": {
+  "ficha": "comites/2026-11-19-estrategias/fichas/ayuno-por-la-luna.md (commit 82e247328)"
+ },
+ "junta": "historias",
+ "experimento": true,
+ "experimento_prueba": "chisme como Short con puente al medio de la biblioteca ('link in bio'); envíos, guardados y clics al perfil a 72 h",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "35.0 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "ElevenLabs eleven_v3 lines already paid for C4 (Laura and Jessica); 0 new credits"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own dark march and Cella sting (sonido_propio.py), ducked under voice; -14 LUFS"
+  },
+  {
+   "que": "Subtitles",
+   "estado": "OK",
+   "nota": "burned in from frame 0, colored by speaker; text band 168 to 1330 px"
+  },
+  {
+   "que": "Facts",
+   "estado": "OK",
+   "nota": "Ekadashi facts from the library's verified sheet; Cella's hours marked as fiction; no health promise (D-527)"
+  },
+  {
+   "que": "SEO copy",
+   "estado": "OK",
+   "nota": "seo-maestro (19-nov), investigacion.md; each short leads with a different search term"
+  }
+ ]
+}

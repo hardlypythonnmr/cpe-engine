@@ -1,0 +1,82 @@
+{
+ "slug": "gossip-spite-pizza",
+ "titulo": "How to Break Ekadashi Fast: Pārana, Not Spite Pizza",
+ "clave": "2026-12-04|gossip-spite-pizza",
+ "sale_utc": "2026-12-04T22:00:00Z",
+ "caption": "How to Break Ekadashi Fast: Pārana, Not Spite Pizza\n\nHow to break the Ekadashi fast, according to the most adult person in the house. Most people cave, decide they're a failure and eat a whole pizza out of spite. Not Cella. She caved on Friday, and on Saturday morning she still got up and broke the fast properly. On time. With a spoon. Like a lady.\n\nEkadashi is a Hindu fast on the 11th day of each half of the lunar month, about twice a month. This one, Utpanna Ekadashi, falls on Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London).\n\nDo you break the Ekadashi fast the next day? Yes: the next morning, in a window called pārana, the formal breaking of the fast. For this Ekadashi, in New Delhi, pārana is Saturday, December 5, 6:59 to 9:04 am. It changes with where you live, so check your city in a local panchang (the Hindu almanac), like Cella did.\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#ekadashi #ekadashiparana #ekadashifasting #utpannaekadashi #cartoon #naos",
+ "descripcion": "How to Break Ekadashi Fast: Pārana, Not Spite Pizza\n\nHow to break the Ekadashi fast, according to the most adult person in the house. Most people cave, decide they're a failure and eat a whole pizza out of spite. Not Cella. She caved on Friday, and on Saturday morning she still got up and broke the fast properly. On time. With a spoon. Like a lady.\n\nEkadashi is a Hindu fast on the 11th day of each half of the lunar month, about twice a month. This one, Utpanna Ekadashi, falls on Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London).\n\nDo you break the Ekadashi fast the next day? Yes: the next morning, in a window called pārana, the formal breaking of the fast. For this Ekadashi, in New Delhi, pārana is Saturday, December 5, 6:59 to 9:04 am. It changes with where you live, so check your city in a local panchang (the Hindu almanac), like Cella did.\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#ekadashi #ekadashiparana #ekadashifasting #utpannaekadashi #cartoon #naos",
+ "sintetico": true,
+ "alt": "A 42-second vertical cartoon about how to break the Ekadashi fast, voiced by two gossiping neighbors with burned-in subtitles. Night-blue kitchen under the header \"The House Gossip\" and the label \"Saturday: breaking the fast\". A white band at the top reads \"Ekadashi: a Hindu fast on the 11th day of the moon\". Cella, a small dark doorway-shaped figure with a red crown, blinks slowly beside a closed white fridge and a moon calendar marked 11, while a pink and a yellow neighbor bounce as they talk. It ends on a card: \"The whole moon fasting week: link in bio.\"",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "sin_cifras": false,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "comentario_fijado": "After a slip, are you a spite pizza person or a pārana-with-a-spoon person? Be honest.",
+ "seccion": "humanity",
+ "formato": "short",
+ "familia": "chisme",
+ "tipo": "CM",
+ "modo": "chisme con voz",
+ "mecanica_crecimiento": "puente al medio: tarjeta final 'The whole moon fasting week: link in bio.'",
+ "texto_en_pantalla": [
+  "But here's what got me. Saturday.",
+  "The next day.",
+  "Most people, they cave, they say \"okay, I'm a failure,\" they eat a whole pizza out of spite.",
+  "Spite pizza. Classic.",
+  "Not Cella. Saturday morning she gets up and does the breaking of the fast properly. There's a window for it, it's called pārana. In New Delhi it's six fifty-nine to nine oh four in the morning. Different where you live, so she looked up hers.",
+  "So she failed and then did the ending right anyway.",
+  "On time. With a spoon. Like a lady.",
+  "That's honestly the most adult thing anyone in this house has done.",
+  "I was furious.",
+  "Ekadashi: a Hindu fast on the 11th day of the moon",
+  "The whole moon fasting week: link in bio."
+ ],
+ "casa": {
+  "id": "c4s-pizza",
+  "version": 1,
+  "produccion": "empresa/estrategia/storytelling/voz-hermana/_motor (recorte_c4.py, proto.js c4v)",
+  "especificacion": "N 19-nov: el chisme es formato de Short, no de medio"
+ },
+ "datos": {
+  "ficha": "comites/2026-11-19-estrategias/fichas/ayuno-por-la-luna.md (commit 82e247328)"
+ },
+ "junta": "historias",
+ "experimento": true,
+ "experimento_prueba": "chisme como Short con puente al medio de la biblioteca ('link in bio'); envíos, guardados y clics al perfil a 72 h",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "41.8 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "ElevenLabs eleven_v3 lines already paid for C4 (Laura and Jessica); 0 new credits"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own dark march and Cella sting (sonido_propio.py), ducked under voice; -14 LUFS"
+  },
+  {
+   "que": "Subtitles",
+   "estado": "OK",
+   "nota": "burned in from frame 0, colored by speaker; text band 168 to 1330 px"
+  },
+  {
+   "que": "Facts",
+   "estado": "OK",
+   "nota": "Ekadashi facts from the library's verified sheet; Cella's hours marked as fiction; no health promise (D-527)"
+  },
+  {
+   "que": "SEO copy",
+   "estado": "OK",
+   "nota": "seo-maestro (19-nov), investigacion.md; each short leads with a different search term"
+  }
+ ]
+}

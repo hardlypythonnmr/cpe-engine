@@ -1,0 +1,80 @@
+{
+ "slug": "gossip-doing-the-moon",
+ "titulo": "What Is Ekadashi? Cella Is Doing the Moon This Week",
+ "clave": "2026-12-04|gossip-doing-the-moon",
+ "sale_utc": "2026-12-04T19:45:00Z",
+ "caption": "What Is Ekadashi? Cella Is Doing the Moon This Week\n\nWhat is Ekadashi? Ask Cella. Monday morning, the whole house is in the kitchen, and she walks in with no breakfast, clears her throat like it's a press conference and says: \"This week I'm doing the moon.\" She has a moon calendar now. It's on the fridge. Facing the fridge. Like a warning.\n\nSo, what is Ekadashi? A Hindu fast on the 11th day of each half of the lunar month, so it comes about twice a month, and people have kept it for a very long time. This Friday's is Utpanna Ekadashi: Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London). People keep it in different ways: water only, fruit only, milk, or one meal without grains, and some skip even water. It isn't for everyone.\n\nWhen is the next Ekadashi? Mokshada Ekadashi, Saturday, December 19 in the US (Sunday, December 20 in Delhi and London).\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#ekadashi #utpannaekadashi #ekadashi2026 #moonfasting #cartoon #naos",
+ "descripcion": "What Is Ekadashi? Cella Is Doing the Moon This Week\n\nWhat is Ekadashi? Ask Cella. Monday morning, the whole house is in the kitchen, and she walks in with no breakfast, clears her throat like it's a press conference and says: \"This week I'm doing the moon.\" She has a moon calendar now. It's on the fridge. Facing the fridge. Like a warning.\n\nSo, what is Ekadashi? A Hindu fast on the 11th day of each half of the lunar month, so it comes about twice a month, and people have kept it for a very long time. This Friday's is Utpanna Ekadashi: Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London). People keep it in different ways: water only, fruit only, milk, or one meal without grains, and some skip even water. It isn't for everyone.\n\nWhen is the next Ekadashi? Mokshada Ekadashi, Saturday, December 19 in the US (Sunday, December 20 in Delhi and London).\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#ekadashi #utpannaekadashi #ekadashi2026 #moonfasting #cartoon #naos",
+ "sintetico": true,
+ "alt": "A 40-second vertical cartoon explaining what Ekadashi is, voiced by two gossiping neighbors with burned-in subtitles. Night-blue kitchen under the header \"The House Gossip\" and the label \"Monday: the announcement\". A white band at the top reads \"Ekadashi: a Hindu fast on the 11th day of the moon\". Cella, a small dark doorway-shaped figure with white eyes and a red crown, stands next to a closed white fridge and a moon calendar marked 11, while a pink and a yellow neighbor bounce as they talk. It ends on a card: \"The whole moon fasting week: link in bio.\"",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "sin_cifras": false,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "comentario_fijado": "Had you heard of Ekadashi before this? And who in your house would announce a fast like a press conference?",
+ "seccion": "humanity",
+ "formato": "short",
+ "familia": "chisme",
+ "tipo": "CM",
+ "modo": "chisme con voz",
+ "mecanica_crecimiento": "puente al medio: tarjeta final 'The whole moon fasting week: link in bio.'",
+ "texto_en_pantalla": [
+  "So Monday morning, the whole house is in the kitchen, and Cella walks in. No breakfast. Just stands there. Like a press conference.",
+  "Did she clear her throat?",
+  "She cleared her throat. She said, \"This week I'm doing the moon.\"",
+  "Doing the moon.",
+  "Doing the moon. Ekadashi. The eleventh day of the moon. It's a Hindu fast, people have done it for a very long time, and this Friday is one of them. Utpanna Ekadashi.",
+  "And she found this where?",
+  "She found a calendar. She has a moon calendar now. It's on the fridge. Facing the fridge. Like a warning.",
+  "Ekadashi: a Hindu fast on the 11th day of the moon",
+  "The whole moon fasting week: link in bio."
+ ],
+ "casa": {
+  "id": "c4s-moon",
+  "version": 1,
+  "produccion": "empresa/estrategia/storytelling/voz-hermana/_motor (recorte_c4.py, proto.js c4v)",
+  "especificacion": "N 19-nov: el chisme es formato de Short, no de medio"
+ },
+ "datos": {
+  "ficha": "comites/2026-11-19-estrategias/fichas/ayuno-por-la-luna.md (commit 82e247328)"
+ },
+ "junta": "historias",
+ "experimento": true,
+ "experimento_prueba": "chisme como Short con puente al medio de la biblioteca ('link in bio'); envíos, guardados y clics al perfil a 72 h",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "40.0 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "ElevenLabs eleven_v3 lines already paid for C4 (Laura and Jessica); 0 new credits"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own dark march and Cella sting (sonido_propio.py), ducked under voice; -14 LUFS"
+  },
+  {
+   "que": "Subtitles",
+   "estado": "OK",
+   "nota": "burned in from frame 0, colored by speaker; text band 168 to 1330 px"
+  },
+  {
+   "que": "Facts",
+   "estado": "OK",
+   "nota": "Ekadashi facts from the library's verified sheet; Cella's hours marked as fiction; no health promise (D-527)"
+  },
+  {
+   "que": "SEO copy",
+   "estado": "OK",
+   "nota": "seo-maestro (19-nov), investigacion.md; each short leads with a different search term"
+  }
+ ]
+}

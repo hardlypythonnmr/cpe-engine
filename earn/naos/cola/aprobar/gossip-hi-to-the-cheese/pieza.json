@@ -1,0 +1,88 @@
+{
+ "slug": "gossip-hi-to-the-cheese",
+ "titulo": "Fasting Cravings at Night: She Says Hi to the Cheese",
+ "clave": "2026-12-04|gossip-hi-to-the-cheese",
+ "sale_utc": "2026-12-04T14:45:00Z",
+ "caption": "Fasting Cravings at Night: She Says Hi to the Cheese\n\nFasting cravings at night, told as house gossip. It's hour twelve of Cella's closed eating window. She isn't eating. She's visiting the fridge. She opens the door, says \"hi\" to the cheese, out loud, and closes it. Hour fifteen: one more visit. Door closed again. The neighbors are furious that they now have to respect her.\n\nThis is the Wednesday of Cella's Ekadashi week. Ekadashi is a Hindu fast on the 11th day of each half of the lunar month, so it comes about twice a month. This one is Utpanna Ekadashi, on Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London). In the days before it, Cella eats inside a 10-hour eating window, last bite by 6 pm. An eating window is the hours of the day you allow yourself to eat; outside it, the kitchen is closed (in theory).\n\nHow long should your eating window be? Nobody has one magic number. Cella's 10 hours is NAOS's own guess, not from the studies. Two trials gave people 8 to 10 hours of eating for 12 weeks, and one of them found no extra benefit from the timing. So no promises here, just a fridge with a lot of visitors.\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#intermittentfasting #fastingcravings #ekadashi #cartoon #naos",
+ "descripcion": "Fasting Cravings at Night: She Says Hi to the Cheese\n\nFasting cravings at night, told as house gossip. It's hour twelve of Cella's closed eating window. She isn't eating. She's visiting the fridge. She opens the door, says \"hi\" to the cheese, out loud, and closes it. Hour fifteen: one more visit. Door closed again. The neighbors are furious that they now have to respect her.\n\nThis is the Wednesday of Cella's Ekadashi week. Ekadashi is a Hindu fast on the 11th day of each half of the lunar month, so it comes about twice a month. This one is Utpanna Ekadashi, on Friday, December 4, 2026 (Drik Panchang, New Delhi; also December 4 in New York, Los Angeles and London). In the days before it, Cella eats inside a 10-hour eating window, last bite by 6 pm. An eating window is the hours of the day you allow yourself to eat; outside it, the kitchen is closed (in theory).\n\nHow long should your eating window be? Nobody has one magic number. Cella's 10 hours is NAOS's own guess, not from the studies. Two trials gave people 8 to 10 hours of eating for 12 weeks, and one of them found no extra benefit from the timing. So no promises here, just a fridge with a lot of visitors.\n\nThe whole moon fasting week: link in bio. It's our longer video, \"Ekadashi Fasting: Rules, Science and a 12-Week Plan\".\n\nThis is Cella's story, not instructions.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#intermittentfasting #fastingcravings #ekadashi #cartoon #naos",
+ "sintetico": true,
+ "alt": "A 40-second vertical cartoon about fasting cravings at night, voiced by two gossiping neighbors with burned-in subtitles. Night-blue kitchen under the header \"The House Gossip\" and the label \"Wednesday: the fridge\". A white band at the top reads \"Ekadashi: a Hindu fast on the 11th day of the moon\". Cella, a small dark doorway-shaped figure with white eyes and a red crown, stands beside a tall white fridge that keeps opening, glowing, and closing again, next to a moon calendar marked 11. A pink neighbor and a yellow neighbor bounce as they talk. It ends on a card: \"The whole moon fasting week: link in bio.\"",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "sin_cifras": false,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "comentario_fijado": "Fasting cravings at night: what's the one thing in your fridge you'd say hi to? And how many times would you open the door before hour fifteen?",
+ "seccion": "humanity",
+ "formato": "short",
+ "familia": "chisme",
+ "tipo": "CM",
+ "modo": "chisme con voz",
+ "mecanica_crecimiento": "puente al medio: tarjeta final 'The whole moon fasting week: link in bio.'",
+ "texto_en_pantalla": [
+  "Hour twelve of the window being closed. She's standing in the kitchen.",
+  "Eating?",
+  "Not eating. Visiting the fridge.",
+  "Visiting.",
+  "She opens the door. She says hi to the cheese. She closes the door.",
+  "She says hi?",
+  "Out loud. \"Hi.\" To the cheese.",
+  "And the cheese?",
+  "The cheese is very supportive. The cheese has been through a lot.",
+  "That's a hostage situation.",
+  "And then. Hour fifteen. She opens the fridge one more time.",
+  "No.",
+  "And she closes it.",
+  "Stop.",
+  "Ugh. Now I have to respect her.",
+  "Ekadashi: a Hindu fast on the 11th day of the moon",
+  "The whole moon fasting week: link in bio."
+ ],
+ "casa": {
+  "id": "c4s-cheese",
+  "version": 1,
+  "produccion": "empresa/estrategia/storytelling/voz-hermana/_motor (recorte_c4.py, proto.js c4v)",
+  "especificacion": "N 19-nov: el chisme es formato de Short, no de medio"
+ },
+ "datos": {
+  "ficha": "comites/2026-11-19-estrategias/fichas/ayuno-por-la-luna.md (commit 82e247328)"
+ },
+ "junta": "historias",
+ "experimento": true,
+ "experimento_prueba": "chisme como Short con puente al medio de la biblioteca ('link in bio'); envíos, guardados y clics al perfil a 72 h",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "39.9 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "ElevenLabs eleven_v3 lines already paid for C4 (Laura and Jessica); 0 new credits"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own dark march and Cella sting (sonido_propio.py), ducked under voice; -14 LUFS"
+  },
+  {
+   "que": "Subtitles",
+   "estado": "OK",
+   "nota": "burned in from frame 0, colored by speaker; text band 168 to 1330 px"
+  },
+  {
+   "que": "Facts",
+   "estado": "OK",
+   "nota": "Ekadashi facts from the library's verified sheet; Cella's hours marked as fiction; no health promise (D-527)"
+  },
+  {
+   "que": "SEO copy",
+   "estado": "OK",
+   "nota": "seo-maestro (19-nov), investigacion.md; each short leads with a different search term"
+  }
+ ]
+}
