@@ -102,7 +102,7 @@ jobs:
       MERCURY_PAGES_REPO: ${{ (vars.DD_PAGES_REPO || vars.MERCURY_PAGES_REPO) }}  # "dueño/repo" del sitio aparte de Mercury
       HAY_TOKEN_PAGINA_MERCURY: ${{ (secrets.DD_PAGINA_TOKEN || secrets.MERCURY_PAGINA_TOKEN) != '' }}  # solo una bandera
       MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
-      MERCURY_PUBLICAR: ${{ (vars.DD_PUBLICAR || vars.MERCURY_PUBLICAR) }}
+      MERCURY_PUBLICAR: "off"  # PAUSA DD 19-nov 18:05Z: Meta 2207051 (Application request limit). Volver a ${{ (vars.DD_PUBLICAR || vars.MERCURY_PUBLICAR) }} pasada 1 h.
       NAOS_SIN_GIT: "1"
       PYTHONUNBUFFERED: "1"
     steps:
