@@ -79,12 +79,16 @@ class Seco(unittest.TestCase):
         self.assertFalse(c.call_args[0][0].seco)
 
     def test_textos_dentro_de_los_topes(self):
+        AVISO_PLATAFORMA = ("instagram_bio", "facebook_about")
         self.assertLessEqual(len(TEXTOS["youtube_descripcion"]), 1000)
         self.assertLessEqual(len(TEXTOS["facebook_about"]), 100)
         self.assertLessEqual(len(TEXTOS["instagram_bio"]), 150)
         for k in ("youtube_descripcion", "instagram_bio", "facebook_about", "facebook_description"):  # los campos que se publican (textos.json trae además notas y opciones)
             v = TEXTOS[k]
-            self.assertIn("Synthetic voice", v, k) if k != "facebook_description" else self.assertIn("Synthetic voice", v)
+            if k in AVISO_PLATAFORMA:  # N, 19-nov: en la bio el aviso de IA es "Solo etiqueta de plataforma"; va la bio exacta
+                self.assertEqual(v, TEXTOS["bio_definitiva"], k)
+            else:
+                self.assertIn("Synthetic voice", v, k)
             self.assertNotIn("—", v)
             self.assertNotIn("–", v)
 
