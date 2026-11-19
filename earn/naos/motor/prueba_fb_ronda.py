@@ -53,6 +53,20 @@ class Candidatos(Base):
         self.assertEqual([s for s, *_ in fr.candidatos(("naos",), filas, self.cola, self.fb, AHORA, 3, slug="naos-viejo")], ["naos-viejo"])
 
 
+class Ronda(Base):
+    def test_saltos_no_gastan_el_tope(self):
+        for i in range(3):
+            os.makedirs(os.path.join(self.cola, f"vacia-{i}"))
+            with open(os.path.join(self.cola, f"vacia-{i}", "pieza.json"), "w") as f:
+                json.dump({"caption": "x"}, f)
+        self.pieza("naos-ok")
+        filas = [fila(f"vacia-{i}", hace_h=10) for i in range(3)] + [fila("naos-ok", hace_h=1)]
+        out = io.StringIO()
+        with mock.patch.object(fr.registro, "leer", lambda r=None: filas), mock.patch.object(fr, "huella_de", lambda c, p, d: "H"):
+            hechos, fallas = fr.ronda(("naos",), self.cola, None, self.fb, 3, 1, False, None, AHORA, salida=lambda x: out.write(x + "\n"))
+        self.assertEqual(([h[0] for h in hechos], fallas), (["naos-ok"], []))
+
+
 class Una(Base):
     def correr(self, slug, marca="naos", h="H", de_verdad=False, http=None):
         self.pieza(slug)

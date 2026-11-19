@@ -191,7 +191,10 @@ def ronda(marcas, cola=None, publicados=None, fb=None, dias=3, maximo=6, de_verd
     lista = candidatos(marcas, registro.leer(publicados), cola, fb, ahora, dias, slug)
     salida(f"{len(lista)} pieza(s) por llevar a Facebook ({', '.join(marcas)}; últimos {dias} días)" + (f"; tope {maximo} por ronda" if len(lista) > maximo else ""))
     hechos, fallas = [], []
-    for s, canal, marca, fila in lista[:maximo]:
+    for s, canal, marca, fila in lista:
+        if len(hechos) + len(fallas) >= maximo:  # el tope cuenta lo que se intenta, no los saltos
+            salida(f"  tope de {maximo} por ronda: el resto va en la siguiente")
+            break
         try:
             hechos.append((s, una(s, canal, marca, fila, cola, fb, ahora, de_verdad, http, salida)))
         except Salto as e:
