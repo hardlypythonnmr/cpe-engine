@@ -1,0 +1,40 @@
+{
+ "nombre": "relleno-dic-0103",
+ "issue": 1249,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "first-line-out",
+  "let-the-silence-sit",
+  "ask-for-the-way",
+  "blanket-for-the-napper",
+  "read-the-steps-first",
+  "you-were-right",
+  "wobbly-chair-year",
+  "the-thermos-you-forgot",
+  "thanks-with-a-detail",
+  "and-then-what",
+  "apology-in-five-words",
+  "top-shelf-for-her"
+ ],
+ "comentario_vista_previa_id": 6870899780,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T03:22:50Z",
+ "aviso_utc": "2026-11-14T03:22:50Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T00:04:28Z",
+ "aprobadas": [
+  "and-then-what",
+  "apology-in-five-words",
+  "ask-for-the-way",
+  "blanket-for-the-napper",
+  "first-line-out",
+  "let-the-silence-sit",
+  "read-the-steps-first",
+  "thanks-with-a-detail",
+  "the-thermos-you-forgot",
+  "top-shelf-for-her",
+  "wobbly-chair-year",
+  "you-were-right"
+ ]
+}

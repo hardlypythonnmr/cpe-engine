@@ -1,0 +1,19 @@
+{
+ "nombre": "etereo-3-nov",
+ "issue": 919,
+ "version": 2,
+ "estado": "caducado",
+ "piezas": [
+  "we-live-far-apart"
+ ],
+ "comentario_vista_previa_id": 6625443063,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T22:36:00Z",
+ "aviso_utc": "2026-11-04T07:41:16Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-04T12:31:23Z",
+ "aprobadas": [
+  "we-live-far-apart"
+ ],
+ "cerrada": true
+}

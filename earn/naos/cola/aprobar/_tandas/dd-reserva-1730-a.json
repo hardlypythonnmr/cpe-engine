@@ -1,0 +1,40 @@
+{
+ "nombre": "dd-reserva-1730-a",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-17-microsoft-historia",
+  "dd-2026-11-17-microsoft-lamina",
+  "dd-2026-11-17-microsoft-expediente",
+  "dd-2026-11-18-walmart-historia",
+  "dd-2026-11-18-walmart-lamina",
+  "dd-2026-11-18-walmart-expediente",
+  "dd-2026-11-19-gap-historia",
+  "dd-2026-11-19-gap-lamina",
+  "dd-2026-11-19-gap-expediente",
+  "dd-2026-11-20-southwest-airlines-historia",
+  "dd-2026-11-20-southwest-airlines-lamina",
+  "dd-2026-11-20-southwest-airlines-expediente"
+ ],
+ "comentario_vista_previa_id": 6885945585,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T13:27:00Z",
+ "aviso_utc": "2026-11-14T23:32:46Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z",
+ "aprobadas": [
+  "dd-2026-11-17-microsoft-expediente",
+  "dd-2026-11-17-microsoft-historia",
+  "dd-2026-11-17-microsoft-lamina",
+  "dd-2026-11-18-walmart-expediente",
+  "dd-2026-11-18-walmart-historia",
+  "dd-2026-11-18-walmart-lamina",
+  "dd-2026-11-19-gap-expediente",
+  "dd-2026-11-19-gap-historia",
+  "dd-2026-11-19-gap-lamina",
+  "dd-2026-11-20-southwest-airlines-expediente",
+  "dd-2026-11-20-southwest-airlines-historia",
+  "dd-2026-11-20-southwest-airlines-lamina"
+ ]
+}

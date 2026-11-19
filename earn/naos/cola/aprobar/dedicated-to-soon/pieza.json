@@ -1,0 +1,89 @@
+{
+ "slug": "dedicated-to-soon",
+ "titulo": "Om Mani Padme Hum, Dedicated to “Soon”",
+ "clave": "2026-11-20|dedicated-to-soon",
+ "sale_utc": "2026-11-20T14:05:00Z",
+ "tipo": "MANTRA",
+ "caption": "Om Mani Padme Hum, Dedicated to “Soon”\n\nToday's mantra is dedicated to “soon.” Soon has no date. You know who keeps saying it. Send them this. Om Mani Padme Hum, sung sincerely.\n\nCloser to yourself.\n#mantra #ommanipadmehum #buddhism #naos\nLink in bio.",
+ "descripcion": "Today's mantra is dedicated to “soon.” Soon has no date. You know who keeps saying it. Send them this. Om Mani Padme Hum, sung sincerely.\n\nCella here, on a cushion, in front of a calendar that says soon in every square. I sang it straight. The forgiveness came after, and I'm generous like that. I'm an AI, and a gracious one.\n\nOṃ Maṇi Padme Hūṃ (sung Om Mani Peme Hung).\n\nWhat it is: Om Mani Padme Hum, the six-syllable mantra of Avalokiteshvara (Chenrezig), the bodhisattva of compassion, sung here by a woman lead singer and a women's chorus at a kirtan pace. Tibetans say it Om Mani Peme Hung, and that's how it is sung here.\n\nIn the tradition: the Dalai Lama explains the jewel, mani, as the compassionate method and the lotus, padme, as wisdom, and the last syllable, Hum, as the two held together.\n\nSources:\nTenzin Gyatso, the 14th Dalai Lama, On the meaning of Om Mani Padme Hum (sacred-texts.com/bud/tib/omph.htm).\nEncyclopedia of Religion, entry Om mani padme hum (the Tibetan pronunciation peme and hung).\n\nVoice and music: synthetic (ElevenLabs), AI voices and a band from takes NAOS already made; scene drawn by NAOS. Corrections from practitioners are welcome.\nNAOS · Closer to yourself. by NMR\n#mantra #ommanipadmehum #buddhism #shorts",
+ "sintetico": false,
+ "alt": "A 24-second vertical video. At the top, a flat blue sign reads “Dedicated to “soon.””. Below it, Cella, a small flat doorway-shaped character with two plain white eyes (no pupils), no hands and a flat red crown, sits on a cushion beside a wall calendar with the word soon handwritten in every square; a page falls off on each Hum, breathing with a sung Om Mani Padme Hum. The mantra's words light up one by one in a gold capsule. When the singing ends, the sign changes to “Forgiven. I'm generous like that.” and Cella's half-closed eyes open wide toward the camera, as if granting a favor. The bottom of the screen is left clear for the app.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "short",
+ "linea": "mantras",
+ "titulo_ab": "Om Mani Padme Hum, Eight Rounds Sung Sincerely by Women's Voices",
+ "comentario_fijado": "The longest “soon” you've waited on: weeks or months? No names.",
+ "junta": "crecimiento",
+ "apuesta": "dedicated-to",
+ "tanda": "crecimiento-1921",
+ "experimento": true,
+ "experimento_prueba": "cartel de dedicatoria en el cuadro 0 contra mantra corto sin cartel; envíos por lote a 48 h",
+ "destinatario": "El amigo o la amiga que siempre dice \"let's catch up soon\" y nunca pone fecha (arquetipo). Lo manda por DM quien lleva meses esperando.",
+ "mecanica_crecimiento": "enviar",
+ "cartel": {
+  "dedicatoria": "Dedicated to “soon.”",
+  "final": "Forgiven. I'm generous like that.",
+  "cambia_s": 21.45
+ },
+ "casa": {
+  "id": "dedicated-to-1",
+  "version": 1,
+  "produccion": "empresa/mantras/diarios/dedicatorias.py",
+  "especificacion": "empresa/crecimiento/2026-11-17-rediseno/apuesta-1.json"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "24.46 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; the sung stretch ends at 21.9 s (0.9 s fade), then 3 s of silence for Cella's line"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS integrated, true peak -3.5 dBTP (D-346); stretch of the approved ElevenLabs music piece k1-om-90 (om), rounds 1 to 8; no ElevenLabs credits spent"
+  },
+  {
+   "que": "Sign from frame 0",
+   "estado": "OK",
+   "nota": "flat #2B4CF0 sign at y 168 to 368 of 1920, 3 words, 66 px serif (band 168 to 1330, 28 px minimum, D-347); visible from frame 0; switches to Cella's line at 21.45 s, after the last sung word; the sign never covers the crown"
+  },
+  {
+   "que": "Lyrics stay sincere",
+   "estado": "OK",
+   "nota": "canonical line from tradiciones/glosas.json, the active word in a #FFE08A capsule on the speech-to-text word times (D-368); no joke during the chant; the joke lives only in the sign and the scene object"
+  },
+  {
+   "que": "Cella",
+   "estado": "OK",
+   "nota": "one Cella, no hands, plain white eyes with no pupils and no rims (D-380), closed eyes as thick white arcs, flat red crown #A8362A always visible, no hat or costume over it; scene object: calendario de pared con \"soon\" escrito en cada casilla; cae una hoja con cada HUM (8 HUM, 8 hojas)"
+  },
+  {
+   "que": "Copy",
+   "estado": "OK",
+   "nota": "caption 42 words (50 max) with the daily-mantra footer (Closer to yourself., tags, Link in bio.); no long dashes, no 'not X but Y'; sends to an archetype, never a named person; no promised effect on anyone"
+  },
+  {
+   "que": "Hook judge and still runs",
+   "estado": "OK",
+   "nota": "motor/kit/juez_gancho.py video: pasa=True, frenos=[], avisos=[]; motor/kit/rachas.py: longest still run 1.25 s (max 3.0)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "naos-arte-critico 17-nov: Fix applied (eyes, card, calendar, gradient)"
+  },
+  {
+   "que": "Respect",
+   "estado": "OK",
+   "nota": "naos-cella-respeto 17-nov: passes the 7 rules; the joke lives in the situation"
+  }
+ ]
+}

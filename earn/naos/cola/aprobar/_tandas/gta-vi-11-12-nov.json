@@ -1,0 +1,33 @@
+{
+ "nombre": "gta-vi-11-12-nov",
+ "issue": 967,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "my-life-still-loading",
+  "my-life-still-loading-yt",
+  "three-stars-one-email",
+  "three-stars-one-email-yt",
+  "pto-guy-booked-2024",
+  "pto-guy-booked-2024-yt",
+  "out-of-bed-any-percent",
+  "out-of-bed-any-percent-yt"
+ ],
+ "comentario_vista_previa_id": 6670234712,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T21:39:34Z",
+ "aviso_utc": "2026-11-05T21:39:40Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T01:10:31Z",
+ "aprobadas": [
+  "my-life-still-loading",
+  "my-life-still-loading-yt",
+  "out-of-bed-any-percent",
+  "out-of-bed-any-percent-yt",
+  "pto-guy-booked-2024",
+  "pto-guy-booked-2024-yt",
+  "three-stars-one-email",
+  "three-stars-one-email-yt"
+ ],
+ "cerrada": true
+}

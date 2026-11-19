@@ -1,0 +1,54 @@
+{
+ "slug": "asked-the-moon-for-a-sign",
+ "titulo": "I asked the moon for a sign. It said go to bed.",
+ "clave": "2026-11-18|etereo",
+ "sale_utc": "2026-11-19T03:30:00Z",
+ "caption": "I asked the moon for a sign. It said go to bed.\n\nCloser to yourself.\n\n#naos #moon",
+ "descripcion": "I asked the moon for a sign. It said go to bed.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: seen over the shoulder of a small round figure, a night window with the real moon of 2026-11-18 (60 percent lit) and a dark tree; the camera pushes in slowly. White words in the middle read: \"I asked the moon for a sign. It said go to bed.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-b-moon-sign",
+  "version": 8
+ },
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "la luna contesta: un diálogo con la luna en vez de una observación; prueba si la respuesta seca se manda más que la frase contemplativa",
+ "envio": "someone awake at 1 a.m. asking the universe",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "6.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.8 dBFS, LRA 0.3 LU; own music (motor/musica/pulso.py, mode cielo), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Moon",
+   "estado": "OK",
+   "nota": "USNO 2026-11-18: 60 percent lit, waxing gibbous; the drawn moon is that one (release day)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "autocomprobación del constructor (hoja de contacto a 270 px, medir8); juez distinto pendiente"
+  }
+ ],
+ "tanda": "etereo-15-22-nov (D-339, D-342, D-359 a D-363; candidatas en earn/naos/empresa/etereo/2026-11-05-filo-15-22-nov.md)"
+}

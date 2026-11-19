@@ -1,0 +1,22 @@
+{
+ "slug": "autoestima-mientras-duermes-1-hora",
+ "issue": 1786,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T03:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6b4c97700a84e83c11813f6c7ddd73446c34315019b12d7bf1bb635a1627c7be",
+ "hashes": {
+  "short": "e6d71462adcedcbaaec6d169fe0c32db0c141139e22719fc061e7359754b01f0"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6958469874,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dormir-es-21-23-nov",
+ "aprobado_evento_utc": "2026-11-17T20:33:23Z"
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "weekend-affirmations-by-cella",
+ "titulo": "Weekend affirmations by Cella",
+ "clave": "2026-11-21|weekend-affirmations-by-cella",
+ "sale_utc": "2026-11-21T19:25:00Z",
+ "caption": "Weekend affirmations, written by Cella, approved by Cella.\nComment CLAIMED to take them home.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.mp4",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "alt": {
+  "1": "Video with our own music, 6 seconds. Hot magenta field with pop stars in the corners. The title in 90s word-art, yellow gradient letters with a white and black outline and a hard shadow, bounces line by line. Cella, a small dark figure with a flat red crown, slides in lounging on a white sofa. Title: Weekend affirmations by Cella. Below: Comment CLAIMED to take them.",
+  "2": "Orange field, pop stars in the corners, the affirmation in huge blue word-art. Cella lounging on a white sofa with her eyes shut and her crown on, next to a sticker that says “© CELLA”. Affirmation number 1: “I cancel one plan and feel pure joy.”",
+  "3": "Lime green field, pop stars in the corners, the affirmation in huge pink word-art. Cella sitting on a white sofa with her crown on, next to a sticker that says “© CELLA”. Affirmation number 2: “I reply to the group chat with more than ‘lol.’”",
+  "4": "Orange field, pop stars in the corners, the affirmation in huge blue word-art. Cella lounging on a white sofa with her eyes shut and her crown on, next to a sticker that says “© CELLA”. Affirmation number 3: “I rest and explain it to nobody.”",
+  "5": "Lime green field, the affirmation in huge pink word-art, a big red rubber stamp that says CLAIMED, and Cella facing front with her crown. Affirmation number 4: “I remain the best-looking one here.” A red stamp reads CLAIMED. Comment CLAIMED to take it."
+ },
+ "tipo_carrusel": "M1 Claims It · afirmaciones de Cella en word-art · sáb 21-nov · portada en video de 6 s con música",
+ "primer_cuadro": {
+  "tipo": "video",
+  "archivo": "1.mp4",
+  "movimiento": "el título rebota y Cella entra al cuadro; estado final = portada-1.jpg",
+  "musica": "motor/musica/pulso.py modo tape, semilla 2125, 112 bpm (código propio, 0 créditos)"
+ },
+ "seccion": "humanity",
+ "junta": "crecimiento",
+ "apuesta": "claims-it",
+ "tanda": "crecimiento-1921",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "carrusel con portada en video y diseño word-art contra la mediana de carruseles (6,5 vistas); alcance a 24 h y comentarios CLAIMED y envíos a 48 h",
+ "blanco": "descanso y amistad (arquetipo: quien necesita permiso para descansar o cancelar un plan)",
+ "destinatario": "the friend who needs permission to cancel a plan and rest",
+ "mecanica_crecimiento": "comentar CLAIMED · enviar",
+ "eco": "D-530 · apuesta 3 (empresa/crecimiento/2026-11-17-rediseno/apuesta-3.json)",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "one affirmation per slide, content type 46 px or more (measured in _motor/medida.json), read at 270 px in cola/crecimiento-1921/hojas/weekend-affirmations-by-cella.jpg"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: nothing sacred, no cure or health promise, archetypes only; Cella without hands, flat red crown #A8362A"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic (affirmations), 14 words before the footer, link in bio, no hashtags"
+  },
+  {
+   "que": "Cover video",
+   "estado": "OK",
+   "nota": "6 s H.264 + AAC, own music"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge",
+   "estado": "OK",
+   "nota": "naos-arte-critico 17-nov: OK, mejoras aplicadas (CTA CLAIMED a 66 px en dos renglones en portada y lámina 5; lámina 5 con afirmación más chica, sello más abajo y Cella más grande; Cella en el sofá sin el bloque de las piernas que se leía como brazo)"
+  }
+ ]
+}

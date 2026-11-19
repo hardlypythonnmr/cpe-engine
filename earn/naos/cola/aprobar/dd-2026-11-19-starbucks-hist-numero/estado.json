@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-starbucks-hist-numero",
+ "issue": 1803,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T18:45:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "4b58652d9de7ebea6f43f689ededafc83ec1daaf66e6998d46f3db250cfa8572",
+ "hashes": {
+  "historia": "cc02ac4dba5b1eea773e2080622c50b52841dd28e8fbff7b4cb28c6a9eabefa8"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7008393323,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:57:13Z",
+ "veto_hasta_utc": "2026-11-19T12:57:13Z"
+}

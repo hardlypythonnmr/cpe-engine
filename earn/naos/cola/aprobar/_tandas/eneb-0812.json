@@ -1,0 +1,34 @@
+{
+ "nombre": "eneb-0812",
+ "issue": 1409,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "door-one-pebble",
+  "the-spare-key-receipt",
+  "no-words-the-spare-key",
+  "dtt-the-charger-for-the-next-one",
+  "door-eight-oh-five",
+  "cella-the-reply-all-warning-label",
+  "dtt-the-ask-before-the-fix",
+  "dtt-the-dates-in-the-shared-calendar",
+  "dtt-the-three-line-handoff"
+ ],
+ "comentario_vista_previa_id": 6886629867,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T00:31:29Z",
+ "aviso_utc": "2026-11-15T00:31:29Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "aprobadas": [
+  "cella-the-reply-all-warning-label",
+  "door-eight-oh-five",
+  "door-one-pebble",
+  "dtt-the-ask-before-the-fix",
+  "dtt-the-charger-for-the-next-one",
+  "dtt-the-dates-in-the-shared-calendar",
+  "dtt-the-three-line-handoff",
+  "no-words-the-spare-key",
+  "the-spare-key-receipt"
+ ]
+}

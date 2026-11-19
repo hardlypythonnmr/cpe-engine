@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-19-five-below-2026-pay-ratio-reloj",
+ "issue": 1783,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T15:00:00Z",
+ "datos_utc": "2026-05-01T00:00:00Z",
+ "hash_contenido": "f1a2f6c18c27943f6db694ced0cd176df6afa8e8f9f4b1c5313825feca983daf",
+ "hashes": {
+  "short": "5d4292aea2db063ef1b27444cb06cb3c82fe5eefd6e9077a833b070caee0b494",
+  "reel": "23b859e613a0d471283e8cf5fc2d619d256fe9bf6784e5ebebf15394074b2a77"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957638689,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-crecimiento",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:49:52Z",
+ "veto_hasta_utc": "2026-11-17T19:49:52Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-20T03:00:00Z"
+}

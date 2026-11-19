@@ -1,0 +1,41 @@
+{
+ "nombre": "caidos-a-9-nov",
+ "issue": 986,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "your-emergency-is-a-meme",
+  "share-fries",
+  "only-pray-when-wifi-drops",
+  "comparing-translated",
+  "slow-blink",
+  "which-comparer-are-you",
+  "cella-contesta-do-you-eat",
+  "weird-with-me",
+  "say-you-want-to-be-alone",
+  "room-for-you",
+  "blanket-fort",
+  "only-compete-with-my-reflection"
+ ],
+ "comentario_vista_previa_id": 6739891525,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-09T12:19:30Z",
+ "aviso_utc": "2026-11-09T12:19:33Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-09T12:57:04Z",
+ "aprobadas": [
+  "blanket-fort",
+  "cella-contesta-do-you-eat",
+  "comparing-translated",
+  "only-compete-with-my-reflection",
+  "only-pray-when-wifi-drops",
+  "room-for-you",
+  "say-you-want-to-be-alone",
+  "share-fries",
+  "slow-blink",
+  "weird-with-me",
+  "which-comparer-are-you",
+  "your-emergency-is-a-meme"
+ ],
+ "cerrada": true
+}

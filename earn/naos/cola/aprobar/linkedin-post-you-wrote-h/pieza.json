@@ -1,0 +1,38 @@
+{
+ "slug": "linkedin-post-you-wrote-h",
+ "titulo": "Stories echo: Which LinkedIn post have you secretly written?",
+ "clave": "2026-11-20|linkedin-post-you-wrote-h",
+ "sale_utc": "2026-11-20T04:30:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "four tilted colored cards labeled A to D, each with a famous kind of LinkedIn post; card B is bigger and wears a red crown. Which LinkedIn post have you secretly written? Cella: B. She has no toddler. A: “I failed. Here's what it taught me about B2B sales.”. B: “My toddler taught me leadership.”. C: “Humbled and honored to announce…”. D: “Agree?”.",
+ "seccion": "humanity",
+ "fuente": "eco-historia: regla de N del 13-nov-2026; copia de linkedin-post-you-wrote",
+ "sticker": "ninguno",
+ "tipo": "historia",
+ "origen": "linkedin-post-you-wrote",
+ "eco_historia": {
+  "origen": "linkedin-post-you-wrote",
+  "tipo": "imagen",
+  "regla": "N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#942, 2026-11-05T02:19:22Z",
+  "issue_origen": "942",
+  "hash_origen": "ab89f9d7d2ece1b26bc09d2dca0e512d029eab5d160e3726fbf32c39ff91ac40",
+  "publicado_origen_utc": "2026-11-10T13:19:18Z",
+  "creada_utc": "2026-11-13T16:22:35Z",
+  "sale_dia_ny": "2026-11-19"
+ },
+ "revisiones": [
+  {
+   "que": "Same content",
+   "estado": "OK",
+   "nota": "the approved imagen of linkedin-post-you-wrote, whole and centered, no new text (N's rule, 13-nov-2026)"
+  }
+ ]
+}

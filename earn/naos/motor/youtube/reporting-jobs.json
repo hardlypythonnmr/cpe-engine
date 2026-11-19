@@ -1,0 +1,35 @@
+{
+ "nota": "Trabajos de la YouTube Reporting API creados el 15-oct-2026 (sesi\u00f3n 6, #462). El primer reporte llega ~48 h despu\u00e9s; los datos crudos no van al repo (III.E.4).",
+ "jobs": [
+  {
+   "id": "57e5c8fe-a8a9-4b08-af2f-2b03da3e85b6",
+   "reportTypeId": "channel_basic_a3",
+   "createTime": "2026-10-15T21:46:14.468387Z"
+  },
+  {
+   "id": "5c02c1f4-1966-4fab-bfb5-8823226e523c",
+   "reportTypeId": "channel_combined_a3",
+   "createTime": "2026-10-15T21:46:14.980381Z"
+  },
+  {
+   "id": "a7003a7e-754c-4554-9675-1b3d605cedf4",
+   "reportTypeId": "channel_reach_basic_a1",
+   "createTime": "2026-10-15T21:46:15.451154Z"
+  },
+  {
+   "id": "6033cfd1-a07c-418c-9c76-423b9ff4f131",
+   "reportTypeId": "channel_traffic_source_a3",
+   "createTime": "2026-10-15T21:46:15.920930Z"
+  },
+  {
+   "id": "33a9f343-e376-4a68-a62a-11d8d4415db4",
+   "reportTypeId": "channel_demographics_a1",
+   "createTime": "2026-10-15T21:46:16.354289Z"
+  },
+  {
+   "id": "de005399-e04f-46d2-8edf-8e7bad2ae91e",
+   "reportTypeId": "channel_sharing_service_a1",
+   "createTime": "2026-10-15T21:46:16.839454Z"
+  }
+ ]
+}

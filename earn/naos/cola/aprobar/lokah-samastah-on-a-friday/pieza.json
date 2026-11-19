@@ -1,0 +1,57 @@
+{
+ "slug": "lokah-samastah-on-a-friday",
+ "titulo": "Lokah Samastah Sukhino Bhavantu, on a Friday",
+ "clave": "2026-11-20|lokah-samastah-on-a-friday",
+ "sale_utc": "2026-11-20T18:25:00Z",
+ "caption": "Lokah Samastah Sukhino Bhavantu: may all beings, in all the worlds, be happy.\nAll of them. Yes, him too.\nLink in bio.\nby NMR\n#lokahsamastahsukhinobhavantu #mantra #kindness",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "green field, Cella saying “Even who?” in a speech bubble. Lokah Samastah Sukhino Bhavantu. A wish for everyone. Even him. Four words. Each one harder than it looks.",
+  "2": "amber field, Cella next to an office table saying “Even here?”. Lokah: all the worlds. Every world. Yes, also the office on a Monday.",
+  "3": "pink field, Cella saying “Him too?!”. Samastah: all beings, every single one. All beings. Even the guy who reclined his seat into you.",
+  "4": "yellow field, Cella with her eyes shut next to a sofa, saying “Just… happy?”. Sukhino: happy. Happy. Not productive. Not optimized. Happy.",
+  "5": "blue field, a pale yellow Cella next to a phone, saying “May they. Ugh. OK.”. Bhavantu: may they be: a wish, not an order. Your coworker got the promotion. Wish them well. Out loud.",
+  "6": "the four words as a list. May all beings everywhere be happy: Send it to the person you’d least include. Then include them. 1. Lokah · every world, office too. 2. Samastah · every being. Him. 3. Sukhino · happy, not productive. 4. Bhavantu · may they. Even the coworker."
+ },
+ "tipo_carrusel": "Mantra en la vida diaria · Lokah Samastah · vie 20-nov",
+ "tipo": "Mantra o tradición",
+ "seccion": "humanity",
+ "tanda": "mantras-vida-diaria-2026-11-17 (encargo de la mesa, 17-nov)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "a mantra explained as everyday situations, meme style: does it get saved and sent like the F1-F3 carousels?",
+ "blanco": "bienestar y espiritualidad",
+ "mecanica_crecimiento": "enviar · destinatario: the person you would least include",
+ "eco": "om-mani-padme-hum-on-a-tuesday (receta)",
+ "fuente_significado": "tradition, said as truth (D-527); no literal quote",
+ "revisiones": [
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "tradition said as truth without a source (D-527): lokah (worlds), samastah (all beings), sukhino (happy), bhavantu (may they be); no literal quote"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md: joke in the everyday situation, never in the mantra; no sacred figure or symbol drawn; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

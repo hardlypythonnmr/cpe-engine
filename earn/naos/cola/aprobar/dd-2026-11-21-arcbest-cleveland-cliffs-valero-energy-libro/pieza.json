@@ -1,0 +1,115 @@
+{
+ "slug": "dd-2026-11-21-arcbest-cleveland-cliffs-valero-energy-libro",
+ "titulo": "Cleveland-Cliffs, ArcBest and Valero: shareholder returns next to an EPA civil penalty",
+ "clave": "2026-11-21|mercury|libro|2026-11-21-arcbest-cleveland-cliffs-valero-energy-libro",
+ "sale_utc": "2026-11-21T03:30:00Z",
+ "caption": "Cleveland-Cliffs, ArcBest and Valero: shareholder returns next to an EPA civil penalty\n\nFrom the archive: 2020 to 2023.\n\nArcBest, Mar 20, 2023\nThe math: $91.5 million (ArcBest share repurchases, 2023) ÷ $535,000 (civil penalty the EPA announced for subsidiary ABF Freight, Mar 2023; ABF does not admit liability) = about 171 times the civil penalty\n\nCleveland-Cliffs, Feb 14, 2022\nThe math: $240 million (returned through share repurchases, 2022) ÷ $3 million (civil penalty the EPA announced Feb 2022; the decree says no admission of liability) = 80 times the civil penalty\n\nValero Energy, Oct 19, 2020\nThe math: $1.8 billion (returned to stockholders, mostly dividends, 2020) ÷ $2,850,000 (civil penalty the EPA announced Oct 2020; Valero does not admit liability) = about 631 times the civil penalty\n\nThree 10-K sentences. Three EPA announcements. Same years. (Our take.)\n\nSources: ArcBest, Form 10-K, filed Feb 23, 2024; ArcBest: U.S. EPA, enforcement announcement, published Mar 20, 2023; Cleveland-Cliffs, Form 10-K, filed Feb 14, 2023; Cleveland-Cliffs: U.S. EPA, enforcement announcement, published Feb 14, 2022; Valero Energy, Form 10-K, filed Feb 23, 2021; Valero Energy: U.S. EPA, enforcement announcement, published Oct 19, 2020.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "",
+ "alt": "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2020 to 2023. Title: \"Cleveland-Cliffs, ArcBest and Valero: shareholder returns next to an EPA civil penalty\" Above the giant figure, the company: Valero Energy. The figure, about 631 times the civil penalty, fills the width at the bottom.",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2024-02-23T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "libro",
+ "formato": "carrusel",
+ "origen": "libro",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/894405/000155837024001622/arcb-20231231x10k.htm",
+   "medio": "SEC EDGAR · ArcBest · Form 10-K",
+   "titulo": "ArcBest, Form 10-K, filed Feb 23, 2024",
+   "hora_utc": "2024-02-23T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.epa.gov/enforcement/abf-freight-inc-clean-water-act-settlement-information-sheet",
+   "medio": "SEC EDGAR · ArcBest · U.S. EPA, enforcement announcement",
+   "titulo": "ArcBest, U.S. EPA, enforcement announcement, published Mar 20, 2023",
+   "hora_utc": "2023-03-20T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/764065/000076406523000032/clf-20221231.htm",
+   "medio": "SEC EDGAR · Cleveland-Cliffs · Form 10-K",
+   "titulo": "Cleveland-Cliffs, Form 10-K, filed Feb 14, 2023",
+   "hora_utc": "2023-02-14T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://www.epa.gov/enforcement/cleveland-cliffs-steel-llc-and-cleveland-cliffs-burns-harbor-llc-settlement",
+   "medio": "SEC EDGAR · Cleveland-Cliffs · U.S. EPA, enforcement announcement",
+   "titulo": "Cleveland-Cliffs, U.S. EPA, enforcement announcement, published Feb 14, 2022",
+   "hora_utc": "2022-02-14T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F5",
+   "url": "https://www.sec.gov/Archives/edgar/data/1035002/000103500221000051/vlo-20201231.htm",
+   "medio": "SEC EDGAR · Valero Energy · Form 10-K",
+   "titulo": "Valero Energy, Form 10-K, filed Feb 23, 2021",
+   "hora_utc": "2021-02-23T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F6",
+   "url": "https://www.epa.gov/enforcement/valero-energy-corporation-et-al-clean-air-act-settlement",
+   "medio": "SEC EDGAR · Valero Energy · U.S. EPA, enforcement announcement",
+   "titulo": "Valero Energy, U.S. EPA, enforcement announcement, published Oct 19, 2020",
+   "hora_utc": "2020-10-19T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "6 cited filings, named with form and date"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about when it is not exact"
+  },
+  {
+   "que": "Slides",
+   "estado": "OK",
+   "nota": "7 slides 1080x1350, converted from PNG to JPEG for Instagram"
+  }
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt_laminas": [
+  "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2020 to 2023. Title: \"Cleveland-Cliffs, ArcBest and Valero: shareholder returns next to an EPA civil penalty\" Above the giant figure, the company: Valero Energy. The figure, about 631 times the civil penalty, fills the width at the bottom.",
+  "Slide 2 of 7. Cobalt blue poster with white type. ArcBest, Mar 20, 2023. The count in one line: $91.5 million (ArcBest share repurchases, 2023) divided by $535,000 (civil penalty the EPA announced for subsidiary ABF Freight, Mar 2023; ABF does not admit liability) equals about 171 times the civil penalty. The literal sentence: \"a way that helps create a safer, more sustainable, and inclusive company and world\" Form 10-K, filed Feb 23, 2024. A giant about 171 times fills the width at the bottom.",
+  "Slide 3 of 7. Cobalt blue poster with white type. Cleveland-Cliffs, Feb 14, 2022. The count in one line: $240 million (returned through share repurchases, 2022) divided by $3 million (civil penalty the EPA announced Feb 2022; the decree says no admission of liability) equals 80 times the civil penalty. The literal sentence: \"Our commitment to operating our business in a more environmentally responsible manner remains constant\" Form 10-K, filed Feb 14, 2023. A giant 80 times fills the width at the bottom.",
+  "Slide 4 of 7. Cobalt blue poster with white type. Valero Energy, Oct 19, 2020. The count in one line: $1.8 billion (returned to stockholders, mostly dividends, 2020) divided by $2,850,000 (civil penalty the EPA announced Oct 2020; Valero does not admit liability) equals about 631 times the civil penalty. The literal sentence: \"reduce the environmental impact of all of our operations\" Form 10-K, filed Feb 23, 2021. A giant about 631 times fills the width at the bottom.",
+  "Slide 5 of 7. Cobalt blue poster with white type. Title: How we count. For each company, the number A and the number B from its filing (shortened, never rounded up), with the form and the date, and the rule: each result is divided and never rounded up; anything approximate says about.",
+  "Slide 6 of 7. Cobalt blue poster with white type. Title: What this does not say. The EPA says each settlement resolves alleged violations. Each decree says the company does not admit any liability. ArcBest: the penalty is ABF Freight's, a subsidiary of ArcBest. The buyback is ArcBest's. Valero: the figure is cash returned to stockholders, about $1.8 billion, mostly dividends. The two numbers sit in the same year. Our take: Three 10-K sentences. Three EPA announcements. Same years.",
+  "Slide 7 of 7. Cobalt blue poster with white type. Title: Sources. One line per document: company, source and date. A giant call to action fills the width at the bottom: Save this."
+ ]
+}

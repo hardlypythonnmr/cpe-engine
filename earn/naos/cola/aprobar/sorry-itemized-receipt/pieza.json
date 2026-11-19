@@ -1,0 +1,54 @@
+{
+ "slug": "sorry-itemized-receipt",
+ "titulo": "Sorry, itemized",
+ "clave": "2026-11-20|sorry-itemized-receipt",
+ "sale_utc": "2026-11-20T22:51:00Z",
+ "caption": "A plain sorry takes about six seconds.\nIn a 2007 paper in Science, researchers describe how people hold some things as sacred. A trade offered for them often fails, while a symbolic gesture, like an apology, can reopen the talk. Source: Atran, Axelrod and Davis 2007, Science, https://doi.org/10.1126/science.1144241\nFor whoever has a plain sorry to say this week.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Receipt. Paid in full: six seconds. Paid in words. Say what you did: 0:04. Say sorry: 0:02. Skip the gift: $0. TOTAL: 6 s. A red stamp reads SAID.",
+ "tipo_imagen": "F9 Recibo · pelear, disculparse y poner limites · vie 20-nov",
+ "aspecto": "4x5",
+ "seccion": "humanity",
+ "tanda": "tendencia-1820 (D-511)",
+ "tendencia": {
+  "cazador": "2026-11-15",
+  "candidata": 1,
+  "patron": "pelear, disculparse y poner limites",
+  "estudio_doi": "10.1126/science.1144241",
+  "gancho": "solo la fecha; sin persona ni marca"
+ },
+ "filo": "V",
+ "experimento": false,
+ "blanco": "una disculpa dicha, no comprada (candidata 1 del cazador, 15-nov)",
+ "mecanica_crecimiento": "enviar · destinatario: whoever has a plain sorry to say this week",
+ "destinatario": "whoever has a plain sorry to say this week",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada y leída a tamaño completo por el constructor (Opus 11d, 15-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) y D-359: arquetipos, sin persona real ni marca ni grupo protegido; sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas, sin hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "una url, el doi del estudio citado"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "slug": "dd-2026-11-19-comcast-delta-air-lines-mastercard-libro",
+ "titulo": "Comcast, Delta and Mastercard, 2025: their own federal lobbying reports, in years of median pay",
+ "clave": "2026-11-19|mercury|libro|2026-11-19-comcast-delta-air-lines-mastercard-libro",
+ "sale_utc": "2026-11-19T03:30:00Z",
+ "caption": "Comcast, Delta and Mastercard, 2025: their own federal lobbying reports, in years of median pay\n\nFrom the archive: 2025.\n\nComcast, Apr 24, 2026\nThe math: $12.89 million (federal lobbying expenses, 2025) ÷ $92,390 (median employee's annual total compensation, 2025) = about 139 years of median pay\n\nDelta Air Lines, Apr 24, 2026\nThe math: $5.97 million (federal lobbying expenses, 2025) ÷ $100,976 (median employee's annual total compensation, 2025) = about 59.1 years of median pay\n\nMastercard, Apr 27, 2026\nThe math: $5.44 million (federal lobbying expenses, 2025) ÷ $124,650 (median employee's annual total compensation, 2025) = about 43.6 years of median pay\n\nTheir own words, their own reports. Here is the lobbying column. (Our take.)\n\nSources: Comcast, Form DEF 14A, filed Apr 24, 2026; Comcast: Lobbying Disclosure Act reports (LD-2), filed Apr 21, 2025 to Jan 20, 2026; Delta Air Lines, Form DEF 14A, filed Apr 24, 2026; Delta Air Lines: Lobbying Disclosure Act reports (LD-2), filed Apr 21, 2025 to Jan 20, 2026; Mastercard, Form DEF 14A, filed Apr 27, 2026; Mastercard: Lobbying Disclosure Act reports (LD-2), filed Apr 21, 2025 to Jan 20, 2026.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "",
+ "alt": "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2025. Title: \"Comcast, Delta and Mastercard, 2025: their own federal lobbying reports, in years of median pay\" Above the giant figure, the company: Comcast. The figure, about 139 years of median pay, fills the width at the bottom.",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-04-27T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "libro",
+ "formato": "carrusel",
+ "origen": "libro",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+   "medio": "SEC EDGAR · Comcast · Form DEF 14A",
+   "titulo": "Comcast, Form DEF 14A, filed Apr 24, 2026",
+   "hora_utc": "2026-04-24T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://lda.gov/api/v1/filings/?registrant_name=Comcast&filing_year=2025",
+   "medio": "SEC EDGAR · Comcast · Lobbying Disclosure Act reports (LD-2)",
+   "titulo": "Comcast, Lobbying Disclosure Act reports (LD-2), filed Apr 21, 2025 to Jan 20, 2026",
+   "hora_utc": "2026-01-20T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000130817926000345/dal014970-def14a.htm",
+   "medio": "SEC EDGAR · Delta Air Lines · Form DEF 14A",
+   "titulo": "Delta Air Lines, Form DEF 14A, filed Apr 24, 2026",
+   "hora_utc": "2026-04-24T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://lda.gov/api/v1/filings/?registrant_name=Delta+Air+Lines&filing_year=2025",
+   "medio": "SEC EDGAR · Delta Air Lines · Lobbying Disclosure Act reports (LD-2)",
+   "titulo": "Delta Air Lines, Lobbying Disclosure Act reports (LD-2), filed Apr 21, 2025 to Jan 20, 2026",
+   "hora_utc": "2026-01-20T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F5",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000021/ma-20260427.htm",
+   "medio": "SEC EDGAR · Mastercard · Form DEF 14A",
+   "titulo": "Mastercard, Form DEF 14A, filed Apr 27, 2026",
+   "hora_utc": "2026-04-27T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F6",
+   "url": "https://lda.gov/api/v1/filings/?registrant_name=Mastercard+Worldwide&filing_year=2025",
+   "medio": "SEC EDGAR · Mastercard · Lobbying Disclosure Act reports (LD-2)",
+   "titulo": "Mastercard, Lobbying Disclosure Act reports (LD-2), filed Apr 21, 2025 to Jan 20, 2026",
+   "hora_utc": "2026-01-20T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "6 cited filings, named with form and date"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about when it is not exact"
+  },
+  {
+   "que": "Slides",
+   "estado": "OK",
+   "nota": "7 slides 1080x1350, converted from PNG to JPEG for Instagram"
+  }
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt_laminas": [
+  "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2025. Title: \"Comcast, Delta and Mastercard, 2025: their own federal lobbying reports, in years of median pay\" Above the giant figure, the company: Comcast. The figure, about 139 years of median pay, fills the width at the bottom.",
+  "Slide 2 of 7. Cobalt blue poster with white type. Comcast, Apr 24, 2026. The count in one line: $12.89 million (federal lobbying expenses, 2025) divided by $92,390 (median employee's annual total compensation, 2025) equals about 139 years of median pay. The literal sentence: \"our dedicated employees worldwide\" shareholder letter, Form DEF 14A, filed Apr 24, 2026. A giant about 139 years fills the width at the bottom.",
+  "Slide 3 of 7. Cobalt blue poster with white type. Delta Air Lines, Apr 24, 2026. The count in one line: $5.97 million (federal lobbying expenses, 2025) divided by $100,976 (median employee's annual total compensation, 2025) equals about 59.1 years of median pay. The literal sentence: \"Delta’s people are the foundation of our success\" Form DEF 14A, filed Apr 24, 2026. A giant about 59.1 years fills the width at the bottom.",
+  "Slide 4 of 7. Cobalt blue poster with white type. Mastercard, Apr 27, 2026. The count in one line: $5.44 million (federal lobbying expenses, 2025) divided by $124,650 (median employee's annual total compensation, 2025) equals about 43.6 years of median pay. The literal sentence: \"driven by the skills, experience, integrity and mindset of our people\" Form DEF 14A, filed Apr 27, 2026. A giant about 43.6 years fills the width at the bottom.",
+  "Slide 5 of 7. Cobalt blue poster with white type. Title: How we count. For each company, the number A and the number B from its filing (shortened, never rounded up), with the form and the date, and the rule: each result is divided and never rounded up; anything approximate says about.",
+  "Slide 6 of 7. Cobalt blue poster with white type. Title: What this does not say. Lobbying is legal and disclosed. Each report gives one amount for its quarter. Only each company's own federal lobbying reports are counted. Comcast's median pay is as Comcast reports it. Mastercard's reports are filed by Mastercard Worldwide (Mastercard's registrant). Our take: Their own words, their own reports. Here is the lobbying column.",
+  "Slide 7 of 7. Cobalt blue poster with white type. Title: Sources. One line per document: company, source and date. A giant call to action fills the width at the bottom: Save this."
+ ]
+}

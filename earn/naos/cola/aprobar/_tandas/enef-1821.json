@@ -1,0 +1,36 @@
+{
+ "nombre": "enef-1821",
+ "issue": 1413,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "glad-you-came",
+  "dtt-where-i-put-your-thing",
+  "dtt-the-ladder-held",
+  "dtt-two-people-one-fact",
+  "cella-skimmed-not-read-warning-label",
+  "how-did-the-talk-go",
+  "dtt-i-dont-know-ill-find-out",
+  "dtt-the-time-zone-in-the-invite",
+  "dtt-the-aux-cord-theirs",
+  "cella-step-nine-warning-label"
+ ],
+ "comentario_vista_previa_id": 6894001325,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T00:32:25Z",
+ "aviso_utc": "2026-11-15T12:01:39Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "aprobadas": [
+  "cella-skimmed-not-read-warning-label",
+  "cella-step-nine-warning-label",
+  "dtt-i-dont-know-ill-find-out",
+  "dtt-the-aux-cord-theirs",
+  "dtt-the-ladder-held",
+  "dtt-the-time-zone-in-the-invite",
+  "dtt-two-people-one-fact",
+  "dtt-where-i-put-your-thing",
+  "glad-you-came",
+  "how-did-the-talk-go"
+ ]
+}

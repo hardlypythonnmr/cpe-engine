@@ -1,0 +1,59 @@
+{
+ "slug": "dd-2026-11-19-molson-coors-hist-numero",
+ "titulo": "Molson Coors (Oct 2025): $1.02 billion to shareholders, about 400 salaried jobs planned. The math.",
+ "clave": "2026-11-19|mercury|historia|2026-11-19-molson-coors-hist-numero",
+ "sale_utc": "2026-11-19T19:30:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Oct 2025. Not today's news.\nMolson Coors, Oct 20, 2025 (Rahul Goyal CEO, press release): \"given the environment, we must transform even faster\"\nOn Oct. 20, 2025, Molson Coors said it plans to eliminate approximately 400 salaried positions in its Americas business. Its 2025 cash flow statement shows $1.02 billion in dividends and treasury stock purchases.\n\nSame year: $1.02 billion to shareholders, 2025, company-wide. $647.9 million paid for treasury stock plus $376.3 million of dividends in 2025, company-wide (cash flow statement, in millions).\nThe math: $1.02 billion to shareholders (2025) ÷ about 400 salaried jobs cut = about $2.56 million to shareholders per Americas job cut.\nThe facts: $1.02 billion to shareholders, 2025, company-wide (Molson Coors 2025 10-K (SEC), Feb 18, 2026). about 400 salaried jobs planned cuts (Molson Coors 8-K release (SEC), Oct 20, 2025). The $1.02 billion is company-wide cash paid in 2025: dividends plus treasury stock purchases, from the cash flow statement. The 400 is the release's approximate figure for its Americas business, by the end of December 2025. The ratio mixes two scopes.\n\nTransform even faster. Here is the shareholder column. (Our take.)\n\nSources:\n- Molson Coors 8-K release (SEC), Oct 20, 2025: «We’ve made progress on our transformation journey, but given the environment, we must transform even faster.» and «In total, the company plans to eliminate approximately 400 salaried positions across its Americas business by the end of December 2025» https://www.sec.gov/Archives/edgar/data/24545/000110465925100648/tm2529052d1_ex99-1.htm\n- Molson Coors 2025 10-K (SEC), Feb 18, 2026: «Dividends paid ( 376.3 ) ( 369.2 ) ( 354.7 ) Payments for purchases of treasury stock ( 647.9 ) ( 643.4 ) ( 205.8 )» https://www.sec.gov/Archives/edgar/data/24545/000002454526000006/tap-20251231.htm",
+ "alt": "Blue vertical card. Molson Coors, Oct 20, 2025: Plans to cut about 400 jobs. The result in huge white letters, cut by the bottom edge: ABOUT $2.56 MILLION to shareholders, per americas job cut. The math: $1.02 BILLION to shareholders, 2025, company-wide ÷ about 400 salaried jobs (Americas, by Dec 2025) = ABOUT $2.56 MILLION. Sources: Molson Coors 8-K release (SEC), Oct 20, 2025 · Molson Coors 2025 10-K (SEC), Feb 18, 2026.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-19/molson-coors-2025-layoffs/hist-numero",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/24545/000110465925100648/tm2529052d1_ex99-1.htm",
+   "medio": "SEC EDGAR · Molson Coors",
+   "titulo": "Molson Coors press release on the Americas restructuring (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/24545/000002454526000006/tap-20251231.htm",
+   "medio": "SEC EDGAR · Molson Coors",
+   "titulo": "Molson Coors Form 10-K for 2025",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg"
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "tao-chapter-one-on-a-saturday",
+ "titulo": "Tao Te Ching, chapter 1, on a Saturday",
+ "clave": "2026-11-21|tao-chapter-one-on-a-saturday",
+ "sale_utc": "2026-11-21T18:40:00Z",
+ "caption": "Tao Te Ching, chapter 1, in three ordinary moments.\n“The Tao that can be trodden is not the enduring and unchanging Tao.” Lao Tzu, in James Legge’s 1891 translation (public domain).\nLink in bio.\nby NMR\n#taoteching #laotzu #taoism",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "alt": {
+  "1": "lavender field, Cella saying “Me? Enlightened.” in a speech bubble. Tao Te Ching, chapter 1. 3 Saturday moments you already lived. Written 2,000+ years ago. Still about your Saturday.",
+  "2": "amber field, Cella at a table saying “Long story.”. The way: “The Tao that can be trodden is not the enduring and unchanging Tao.”. You explained your whole life to a friend. It sounded smaller.",
+  "3": "pink field, Cella next to a phone, saying “I’m a vibe.”. The name: “The name that can be named is not the enduring and unchanging name.”. Your bio: six words. Your whole self, apparently.",
+  "4": "blue field, a big orange sun on the right, a pale yellow Cella looking at a phone and saying “Posted.”. The want: “But if desire always within us be, / Its outer fringe is all that we shall see.”. You photographed the sunset. You saw your phone.",
+  "5": "the three parts as a list. Tao Te Ching 1, Legge’s 1891 translation: Send it to the friend with the five-year plan. 1. The way · say it and it shrinks. 2. The name · the label fits nothing. 3. The want · wanting shows the edge."
+ },
+ "tipo_carrusel": "Mantra en la vida diaria · Tao Te Ching 1 · sab 21-nov",
+ "tipo": "Mantra o tradición",
+ "seccion": "humanity",
+ "tanda": "mantras-vida-diaria-2026-11-17 (encargo de la mesa, 17-nov)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "a mantra explained as everyday situations, meme style: does it get saved and sent like the F1-F3 carousels?",
+ "blanco": "bienestar y espiritualidad",
+ "mecanica_crecimiento": "enviar · destinatario: the friend with the 5-year plan",
+ "eco": "tao-te-ching-1 (D-367)",
+ "fuente_significado": "Lao Tzu, Tao Te Ching, chapter 1, tr. James Legge (1891, Sacred Books of the East 39), public domain: Project Gutenberg #216, https://www.gutenberg.org/ebooks/216 (checked 17-nov on the mirror https://gutenberg.pglaf.org/2/1/216/216.txt, lines 48-61)",
+ "revisiones": [
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Legge 1891 checked word for word against Project Gutenberg #216 (pglaf mirror, lines 48-61): trodden, named, deep mystery, outer fringe; public domain"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md: joke in the everyday situation, never in the text; no sacred figure drawn; Cella without hands; credit in caption and closing slide"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

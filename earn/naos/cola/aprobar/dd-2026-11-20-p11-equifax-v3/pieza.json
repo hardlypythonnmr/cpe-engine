@@ -1,0 +1,93 @@
+{
+ "slug": "dd-2026-11-20-p11-equifax-v3",
+ "titulo": "Equifax Settlement Per Person: Up to $2.89 of Fund",
+ "clave": "2026-11-20|mercury|dd2|2026-11-20-p11-equifax-v3",
+ "sale_utc": "2026-11-20T15:00:00Z",
+ "caption": "Equifax Settlement Per Person: Up to $2.89 of Fund\n\nEquifax settlement per person, in one number. About 147 million people affected by the 2017 data breach. Up to $425 million in the FTC settlement fund. That is up to $2.89 of fund per person (our math), and it was a fund for claims, not a check.\n\nSources: Equifax 8-K Ex. 99.1 (Sep 7, 2017); FTC press release (Jul 22, 2019).\n\n#Equifax #EquifaxSettlement #DataBreach #FTC #Privacy #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Equifax settlement per person: how much was the 2017 data breach settlement really worth? About 147 million people were affected. The FTC settlement made available up to $425 million for them. Split across everyone, that is up to $2.89 of fund per person (our math).\n\nWhat happened: in September 2017 Equifax disclosed a breach of personal data. Its press release that week, filed with the SEC as an exhibit to an 8-K (the form a public company uses to report major events), quoted the CEO: \"We pride ourselves on being a leader in managing and protecting data.\" In July 2019 the FTC announced a settlement that made available up to $425 million to help people affected by the breach.\n\nDid everyone get a check? No. It was a fund people had to claim from, not a payment sent to each person. That is why \"how much will I get\" never had a simple answer.\n\nThis video is about the 2017 data breach settlement announced in 2019, not any newer Equifax case.\n\nSources: Equifax 8-K, Exhibit 99.1, Sep 7, 2017; FTC press release, Jul 22, 2019.\n\n#Equifax #EquifaxSettlement #DataBreach #FTC #Privacy #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video on the Equifax settlement per person: a quote from Equifax's 2017 press release next to the FTC's up to $425 million fund, divided across about 147 million people affected by the data breach.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "p11-equifax-v3",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318517000026/exhibit99120170907.htm",
+   "medio": "SEC EDGAR · Equifax 8-K Ex. 99.1",
+   "titulo": "Equifax press release, Sep 7, 2017",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach",
+   "medio": "FTC",
+   "titulo": "Equifax to Pay $575 Million as Part of Settlement, Jul 22, 2019",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "39.4 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "One hundred forty-seven MILLION people. One breach. And that same week? Equifax's CEO said... this. Two years later, the F.T.C. settlement? Up to four hundred twenty-five million dollars. Sounds huge, right? Now split it across about a hundred forty-seven million people... Up to two dollars eighty-nine of fund per person. Not even a coffee. And it's a fund for claims, not a check. Wild.",
+ "tramos": [
+  {
+   "voz": "One hundred forty-seven MILLION people. One breach.",
+   "t0": 0.2,
+   "t1": 6.12
+  },
+  {
+   "voz": "And that same week? Equifax's CEO said... this.",
+   "t0": 6.5,
+   "t1": 11.3
+  },
+  {
+   "voz": "Two years later, the F.T.C. settlement? Up to four hundred twenty-five million dollars. Sounds huge, right?",
+   "t0": 11.7,
+   "t1": 20.02
+  },
+  {
+   "voz": "Now split it across about a hundred forty-seven million people...",
+   "t0": 20.4,
+   "t1": 24.8
+  },
+  {
+   "voz": "Up to two dollars eighty-nine of fund per person. Not even a coffee. And it's a fund for claims, not a check. Wild.",
+   "t0": 25.1,
+   "t1": 35.5
+  }
+ ],
+ "sintetico": true
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "rangoli-for-two",
+ "issue": 1525,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T12:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b564c0f291366d550a1be9946696fbb4bad6fa22d107241b9d62dfda208bd0cd",
+ "hashes": {
+  "historia": "70f22e035b29483bcf847b04553653e91e72823de00ce945829941dab5a00b64"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6894744230,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "reprog-1511",
+ "aprobado_evento_utc": "2026-11-15T13:05:52Z"
+}

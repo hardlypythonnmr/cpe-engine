@@ -1,0 +1,36 @@
+{
+ "nombre": "shorts-16-19-nov",
+ "issue": 965,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "catch-up-soon-liar",
+  "main-character-stairs",
+  "half-moon-honest",
+  "humbled-and-thrilled",
+  "boundaries-and-a-hey",
+  "leonids-free-show",
+  "storm-out-charger",
+  "rehearsed-comeback-3am",
+  "not-labeling-it",
+  "nature-doc-friend"
+ ],
+ "comentario_vista_previa_id": 6668663456,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T20:36:23Z",
+ "aviso_utc": "2026-11-05T20:36:28Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z",
+ "aprobadas": [
+  "boundaries-and-a-hey",
+  "catch-up-soon-liar",
+  "half-moon-honest",
+  "humbled-and-thrilled",
+  "leonids-free-show",
+  "main-character-stairs",
+  "nature-doc-friend",
+  "not-labeling-it",
+  "rehearsed-comeback-3am",
+  "storm-out-charger"
+ ]
+}

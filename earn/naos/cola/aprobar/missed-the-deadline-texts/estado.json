@@ -1,0 +1,21 @@
+{
+ "slug": "missed-the-deadline-texts",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b4facd9f61825a4a7f06d382d6ffbfe327ff8e4e6ee01f12b6f0a2c039c9bfb0",
+ "hashes": {
+  "carrusel": "a480d264199bdb8a1da61c06d10820e1708346625e551d4210d4e27f0f3ba8de"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6667933739,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

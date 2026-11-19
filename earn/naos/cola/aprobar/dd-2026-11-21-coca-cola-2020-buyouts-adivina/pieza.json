@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-21-coca-cola-2020-buyouts-adivina",
+ "titulo": "Guess: Coca-Cola 2020 dividends, per buyout offer?",
+ "clave": "2026-11-21|mercury|adivina|2026-11-21-coca-cola-2020-buyouts-adivina",
+ "sale_utc": "2026-11-21T17:30:00Z",
+ "caption": "Guess: Coca-Cola 2020 dividends, per buyout offer?\n\nA, B or C? Comment your guess before the answer.\n\nFrom Aug 2020 and Feb 2021 filings. Coca-Cola Form 10-K for 2020, filed Feb 25, 2021: Dividends, 2020: $7,047,000,000. Coca-Cola press release (Form 8-K, Exhibit 99.1), filed Aug 28, 2020: Employees first offered voluntary separation: about 4,000.\n\nThe dividends are company-wide, for all of 2020. The 4,000 is the number of employees first offered a voluntary separation package (the press release says \"approximately 4,000 employees in the United States, Canada and Puerto Rico\"); it is not a layoff count.\n\nThe count: $7,047,000,000 ÷ about 4,000 = about $1,761,750, rounded down.\n\nNo voiceover. Sources below.\n\nSources\nF2: Coca-Cola Form 10-K for 2020, filed Feb 25, 2021 · https://www.sec.gov/Archives/edgar/data/21344/000002134421000008/ko-20201231.htm\nF1: Coca-Cola press release (Form 8-K, Exhibit 99.1), filed Aug 28, 2020 · https://www.sec.gov/Archives/edgar/data/21344/000155278120000463/e20478_ex99-1.htm\n\nLink in bio.",
+ "descripcion": "A, B or C? Comment your guess before the answer.\n\nFrom Aug 2020 and Feb 2021 filings. Coca-Cola Form 10-K for 2020, filed Feb 25, 2021: Dividends, 2020: $7,047,000,000. Coca-Cola press release (Form 8-K, Exhibit 99.1), filed Aug 28, 2020: Employees first offered voluntary separation: about 4,000.\n\nThe dividends are company-wide, for all of 2020. The 4,000 is the number of employees first offered a voluntary separation package (the press release says \"approximately 4,000 employees in the United States, Canada and Puerto Rico\"); it is not a layoff count.\n\nThe count: $7,047,000,000 ÷ about 4,000 = about $1,761,750, rounded down.\n\nNo voiceover. Sources below.\n\nSources\nF2: Coca-Cola Form 10-K for 2020, filed Feb 25, 2021 · https://www.sec.gov/Archives/edgar/data/21344/000002134421000008/ko-20201231.htm\nF1: Coca-Cola press release (Form 8-K, Exhibit 99.1), filed Aug 28, 2020 · https://www.sec.gov/Archives/edgar/data/21344/000155278120000463/e20478_ex99-1.htm",
+ "alt": "Vertical quiz video, 10 seconds, no voiceover, flat red game-show screen. The question: How much in 2020 dividends per employee offered a buyout? Three answer buttons A, B and C. The answer is about $1,761,750. Then the sources: Coca-Cola Form 10-K for 2020, filed Feb 25, 2021; Coca-Cola press release (Form 8-K, Exhibit 99.1), filed Aug 28, 2020.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2021-02-25T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "adivina",
+ "formato": "short",
+ "origen": "coca-cola-2020-buyouts",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278120000463/e20478_ex99-1.htm",
+   "medio": "SEC EDGAR · Coca-Cola",
+   "titulo": "The Coca-Cola Company press release (8-K, Exhibit 99.1)",
+   "hora_utc": "2020-08-28T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134421000008/ko-20201231.htm",
+   "medio": "SEC EDGAR · Coca-Cola",
+   "titulo": "The Coca-Cola Company Form 10-K for 2020",
+   "hora_utc": "2021-02-25T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.0 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "tao-chapter-one-on-a-saturday",
+ "issue": 1753,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T18:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f4f4427012bf207008f01e8663c54c889ac48d9b061707253cfb67f55ec23f81",
+ "hashes": {
+  "carrusel": "0c296a356a5cf7ea768c3a9ad801aa3c18f2033a6b9a91774b40c003ae2c89ad"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6947566120,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17-b",
+ "aprobado_evento_utc": "2026-11-17T12:07:36Z"
+}

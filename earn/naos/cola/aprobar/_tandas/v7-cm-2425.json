@@ -1,0 +1,24 @@
+{
+ "nombre": "v7-cm-2425",
+ "issue": 1091,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "one-taco-two-cellas-v2",
+  "see-the-moon-v3",
+  "say-it-out-loud-before-pie",
+  "leftover-claim"
+ ],
+ "comentario_vista_previa_id": 6856843365,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T15:05:07Z",
+ "aviso_utc": "2026-11-13T15:05:11Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T15:06:03Z",
+ "aprobadas": [
+  "leftover-claim",
+  "one-taco-two-cellas-v2",
+  "say-it-out-loud-before-pie",
+  "see-the-moon-v3"
+ ]
+}

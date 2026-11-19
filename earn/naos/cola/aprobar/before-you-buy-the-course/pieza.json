@@ -1,0 +1,56 @@
+{
+ "slug": "before-you-buy-the-course",
+ "titulo": "Before you buy the course: 5 questions",
+ "clave": "2026-11-19|before-you-buy-the-course",
+ "sale_utc": "2026-11-19T15:50:00Z",
+ "caption": "Before you buy the course: five questions.\nThe fifth one is free, and you can do it tonight.\nLink in bio.\nby NMR\n#selfimprovement #courses #wellness",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella under a spotlight next to a big yellow course booklet. Save for later · 5 questions. Before you buy the course: 5 questions for the checkout page.",
+  "2": "a big number 1 and a small Cella in the corner. The course is the cheap part. The new me takes work. Check 1. The course or the new me?",
+  "3": "a big number 2 and a small Cella in the corner. Look at what they did before the course. Check 2. Does the seller have results outside selling courses?",
+  "4": "a big number 3 and a small Cella in the corner. Check the pile of unfinished ones first. Check 3. Did I finish the last one?",
+  "5": "a big number 4 and a small Cella in the corner. A date. “Someday” has no calendar. Check 4. When exactly will I do it?",
+  "6": "a big number 5 and a small Cella in the corner. There's almost always one. Do it tonight. Check 5. What's the free first step?",
+  "7": "the five questions as a list. The cheat sheet. Before you buy the course: Send it to the friend whose cart is full. 1. Course or new me? 2. Results outside courses? 3. Finished the last one? 4. A date, not someday 5. Free first step?"
+ },
+ "tipo_carrusel": "F2 Antes de · bienestar · jue 19-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "autoayuda (arquetipo: el que vende el curso)",
+ "mecanica_crecimiento": "guardar · destinatario: the friend whose cart is full of courses",
+ "eco": "C03, C14",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

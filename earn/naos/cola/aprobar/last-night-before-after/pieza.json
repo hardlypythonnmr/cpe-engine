@@ -1,0 +1,64 @@
+{
+ "slug": "last-night-before-after",
+ "titulo": "The last night before I start my life after GTA 6",
+ "clave": "2026-11-18|serie-gta-g20",
+ "sale_utc": "2026-11-19T01:13:00Z",
+ "caption": "The last night before I start my life after GTA 6\n\nThe last night of 'after'.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#GTA6 #GTAVI #selfknowledge #naos",
+ "descripcion": "The last night of 'after'.\n\nFuture self-continuity: people perceive and treat the future self differently from the present self, which can show up as valuing immediate gains over future ones; brain activation when rating the current versus future self predicted temporal discounting a week later (Ersner-Hershfield, Wimmer & Knutson, 2009, Social Cognitive and Affective Neuroscience, PMID 19047075). Small study on saving behavior.\n\nNAOS · Closer to yourself. by NMR\n#GTA6 #GTAVI #selfknowledge",
+ "sintetico": false,
+ "alt": "A short film with no voice over a night city by the sea. A pre-launch checklist: Gym membership checked (unused since Jan), Book checked (page 12), Call dad unchecked. A countdown reads 03:47:12 UNTIL THE LAUNCH and runs down to 00:00:00 turning green. A big yellow figure with white eyes and no hands watches; at 00:00 the first two items stay green, the empty Call dad box blinks, and a card says: Start with the empty box.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "What is first on your list for tomorrow?",
+ "casa": {
+  "id": "g20-last-night",
+  "kit": "empresa/series/kit-mundo-abierto"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, game-UI labels plus the closing line"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.3 dBFS, LRA 2.8 LU; own music (motor/sonido midi, room patio-noche, mood calma) and synthesized effects, no third-party samples; audio runs the full length"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band and 40 px side margins, nothing under 28 px, the joke line at 44 px or more, frame 0 readable without sound"
+  },
+  {
+   "que": "Kit",
+   "estado": "OK",
+   "nota": "Drawn with the generic open-world kit (empresa/series/kit-mundo-abierto): no logo, typeface, characters, places or images of any game; the game is named only in the title and hashtags (D-374)."
+  },
+  {
+   "que": "Source",
+   "estado": "OK",
+   "nota": "checked against the original record: https://pubmed.ncbi.nlm.nih.gov/19047075/"
+  }
+ ],
+ "tipo": "MEME",
+ "filo": "V",
+ "tema": "el 'despues de' que se acaba",
+ "blanco": "quien dice 'despues de' (quien mira)",
+ "destinatario": "the friend who said 'after the launch'",
+ "cara": "A",
+ "experimento": false,
+ "serie": "gta-vi",
+ "pieza_serie": "G20",
+ "fuentes": [
+  "https://pubmed.ncbi.nlm.nih.gov/19047075/"
+ ],
+ "tanda": "serie-gta-vi-15-20-nov (D-374, D-359, D-360, D-362, D-363)"
+}

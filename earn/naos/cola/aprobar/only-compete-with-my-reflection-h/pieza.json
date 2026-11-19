@@ -1,0 +1,38 @@
+{
+ "slug": "only-compete-with-my-reflection-h",
+ "titulo": "Stories echo: Comparison? Please. I only compete with my reflection.",
+ "clave": "2026-11-21|only-compete-with-my-reflection-h",
+ "sale_utc": "2026-11-21T23:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "blue field, Cella in a crown under a spotlight facing a yellow mirror that shows her crowned reflection. Comparison? Please. I only compete with my reflection.",
+ "seccion": "humanity",
+ "fuente": "eco-historia: regla de N del 13-nov-2026; copia de only-compete-with-my-reflection",
+ "sticker": "ninguno",
+ "tipo": "historia",
+ "origen": "only-compete-with-my-reflection",
+ "eco_historia": {
+  "origen": "only-compete-with-my-reflection",
+  "tipo": "imagen",
+  "regla": "N, 13-nov-2026: «se pueden repostear esas imagenes como historias? si si deberiamos hacerlo y 1 al dia de cada una una imagen y un carrusel»",
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#986, 2026-11-09T12:57:04Z",
+  "issue_origen": "986",
+  "hash_origen": "2aa5064329bd1b68a35a47a84d317d438ebfd9e9eac1cda01493e5b1ebc7d432",
+  "publicado_origen_utc": "2026-11-11T02:08:44Z",
+  "creada_utc": "2026-11-13T16:22:35Z",
+  "sale_dia_ny": "2026-11-21"
+ },
+ "revisiones": [
+  {
+   "que": "Same content",
+   "estado": "OK",
+   "nota": "the approved imagen of only-compete-with-my-reflection, whole and centered, no new text (N's rule, 13-nov-2026)"
+  }
+ ]
+}

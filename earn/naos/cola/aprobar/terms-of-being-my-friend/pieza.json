@@ -1,0 +1,57 @@
+{
+ "slug": "terms-of-being-my-friend",
+ "titulo": "Terms and conditions of being my friend",
+ "clave": "2026-11-21|terms-of-being-my-friend",
+ "sale_utc": "2026-11-21T15:50:00Z",
+ "caption": "Terms and conditions of being my friend. Read carefully.\nSend it to someone. If they accept, you’re in.\nLink in bio.\nby NMR\n#friendship #friends #relatable",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella in a crown under a spotlight next to a big yellow contract. Send to a friend · 5 terms. Terms and conditions of being my friend. Read carefully. Accept anyway.",
+  "2": "a big number 1 and a small Cella in the corner. Gorgeously. It's in the terms. Check 1. I will be late.",
+  "3": "a big number 2 and a small Cella in the corner. All four minutes. By Thursday. Check 2. I read your voice notes.",
+  "4": "a big number 3 and a small Cella in the corner. Gently. Then I remind you I was right. Check 3. I tell you the truth.",
+  "5": "a big number 4 and a small Cella in the corner. With snacks. No advice unless you ask. Check 4. I show up when it's bad.",
+  "6": "a big number 5 and a small Cella in the corner. Once. Kindly. I'll sulk, then thank you. Check 5. You tell me when I'm wrong.",
+  "7": "the five terms as a list and a signature line. Sign here. Accepted by: Send it to a friend. They accept, you're in. 1. Late, gorgeously 2. Voice notes by Thursday 3. Truth, gently 4. Snacks, no advice 5. Tell me I'm wrong."
+ },
+ "tipo_carrusel": "F10 Contrato · amistad · sab 21-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "C",
+ "experimento": true,
+ "experimento_prueba": "Contrato para mandar: términos y condiciones de ser amigo de Cella. Prueba si 'acepta o no' se manda a un amigo más que una lista para guardar.",
+ "blanco": "amistad",
+ "mecanica_crecimiento": "enviar · destinatario: a friend, to see if they accept",
+ "eco": "C07 · experimento: contrato",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

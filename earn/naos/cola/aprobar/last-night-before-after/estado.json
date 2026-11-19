@@ -1,0 +1,23 @@
+{
+ "slug": "last-night-before-after",
+ "issue": 970,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-19T01:13:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3cc16e48c99a8d82e4765224fc37c5784ecf87b4c3e2f18456b5bff5b7c7396b",
+ "hashes": {
+  "short": "ea2fc4de5f242ebaa0615bc0f7a6df5bd7b8f0bc82fff769c5d1090fdc639b9d",
+  "reel": "4299b616976f1f95c43efc8a9946e59eff00009cabc06da34e99043908876098"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6670866277,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "gta-vi-18-20-nov",
+ "aprobado_evento_utc": "2026-11-06T01:03:44Z"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "build-self-esteem-while-you-sleep-1-hour",
+ "issue": 1773,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T02:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9610daf58ecca8bfd9c15604e3865a9a3b6dba823fb0a44ef3cee755a3d7d79f",
+ "hashes": {
+  "short": "65e27e6a8a977274c20fb41c43af4cc1dff63234a23307a47d5b78cae9cbbacc"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6956524480,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "dormir-21-23-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z"
+}

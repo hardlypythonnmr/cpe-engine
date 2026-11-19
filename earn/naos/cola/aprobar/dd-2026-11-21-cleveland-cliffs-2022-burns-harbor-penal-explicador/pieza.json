@@ -1,0 +1,75 @@
+{
+ "slug": "dd-2026-11-21-cleveland-cliffs-2022-burns-harbor-penal-explicador",
+ "titulo": "Cleveland-Cliffs, Feb 2022: share repurchases 80 times the civil penalty the EPA announced. Do the math.",
+ "clave": "2026-11-21|mercury|explicador|2026-11-21-cleveland-cliffs-2022-burns-harbor-penal-explicador",
+ "sale_utc": "2026-11-21T01:00:00Z",
+ "caption": "Cleveland-Cliffs, Feb 2022: share repurchases 80 times the civil penalty the EPA announced. Do the math.\n\nOn Feb. 14, 2022, the EPA announced a proposed consent decree under which Cliffs Burns Harbor has agreed to pay a $3 million penalty to resolve alleged violations of the Clean Water Act for an August 2019 wastewater discharge into the East Branch of the Little Calumet River. In its 2022 annual report Cleveland-Cliffs says it returned $240 million to shareholders through its share repurchase program.\n\nFrom the archive: Feb 2022. Not today's news.\n\nThe math: $240,000,000 (capital returned to shareholders through share repurchases, 2022) ÷ $3,000,000 (civil penalty, Burns Harbor wastewater consent decree, Feb 2022) = 80 times the civil penalty the EPA announced. We round down.\nThe EPA says the settlement resolves alleged violations of the Clean Water Act. The decree says the defendants do not admit any liability. The $240 million is what the 2022 10-K says Cleveland-Cliffs returned to shareholders through share repurchases. The $3 million is the civil penalty in the EPA's announcement of Feb 14, 2022. Both numbers fall in 2022.\n\n(Our take.) Two documents, one year. Read them side by side.\n\nSources\nF1: EPA enforcement page: Cleveland-Cliffs Steel LLC and Cleveland-Cliffs Burns Harbor LLC settlement, published Feb 14, 2022 · https://www.epa.gov/enforcement/cleveland-cliffs-steel-llc-and-cleveland-cliffs-burns-harbor-llc-settlement\nF2: Cleveland-Cliffs Inc. Form 10-K for 2022, filed Feb 14, 2023 · https://www.sec.gov/Archives/edgar/data/764065/000076406523000032/clf-20221231.htm\nF3: Consent decree, case 2:22-cv-00026, filed Feb 14, 2022 · https://www.epa.gov/system/files/documents/2022-03/clevelandcliffsburnsharborllcsteelllc-cd.pdf\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "On Feb. 14, 2022, the EPA announced a proposed consent decree under which Cliffs Burns Harbor has agreed to pay a $3 million penalty to resolve alleged violations of the Clean Water Act for an August 2019 wastewater discharge into the East Branch of the Little Calumet River. In its 2022 annual report Cleveland-Cliffs says it returned $240 million to shareholders through its share repurchase program.\n\nFrom the archive: Feb 2022. Not today's news.\n\nThe math: $240,000,000 (capital returned to shareholders through share repurchases, 2022) ÷ $3,000,000 (civil penalty, Burns Harbor wastewater consent decree, Feb 2022) = 80 times the civil penalty the EPA announced. We round down.\nThe EPA says the settlement resolves alleged violations of the Clean Water Act. The decree says the defendants do not admit any liability. The $240 million is what the 2022 10-K says Cleveland-Cliffs returned to shareholders through share repurchases. The $3 million is the civil penalty in the EPA's announcement of Feb 14, 2022. Both numbers fall in 2022.\n\n(Our take.) Two documents, one year. Read them side by side.\n\nSources\nF1: EPA enforcement page: Cleveland-Cliffs Steel LLC and Cleveland-Cliffs Burns Harbor LLC settlement, published Feb 14, 2022 · https://www.epa.gov/enforcement/cleveland-cliffs-steel-llc-and-cleveland-cliffs-burns-harbor-llc-settlement\nF2: Cleveland-Cliffs Inc. Form 10-K for 2022, filed Feb 14, 2023 · https://www.sec.gov/Archives/edgar/data/764065/000076406523000032/clf-20221231.htm\nF3: Consent decree, case 2:22-cv-00026, filed Feb 14, 2022 · https://www.epa.gov/system/files/documents/2022-03/clevelandcliffsburnsharborllcsteelllc-cd.pdf\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.",
+ "alt": "Vertical video, 1:13, cobalt blue poster with white type and no narration. Cleveland-Cliffs, Feb 2022: share repurchases 80 times the civil penalty the EPA announced. Do the math.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2023-02-14T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "explicador",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.epa.gov/enforcement/cleveland-cliffs-steel-llc-and-cleveland-cliffs-burns-harbor-llc-settlement",
+   "medio": "EPA",
+   "titulo": "EPA enforcement page: Cleveland-Cliffs Steel LLC and Cleveland-Cliffs Burns Harbor LLC settlement",
+   "hora_utc": "2022-02-14T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/764065/000076406523000032/clf-20221231.htm",
+   "medio": "SEC EDGAR · Cleveland-Cliffs",
+   "titulo": "Cleveland-Cliffs Inc. Form 10-K for 2022",
+   "hora_utc": "2023-02-14T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.epa.gov/system/files/documents/2022-03/clevelandcliffsburnsharborllcsteelllc-cd.pdf",
+   "medio": "U.S. District Court N.D. Ind. (via EPA)",
+   "titulo": "Consent decree, case 2:22-cv-00026, filed 02/14/22",
+   "hora_utc": "2022-02-14T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "3 of 3 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "73.4 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "weekend-affirmations-by-cella",
+ "issue": 1771,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T19:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "83252922d48a319984ce4010ed719d07f3fa2168bd353f4503c67833f5567ef6",
+ "hashes": {
+  "carrusel": "abf72ebc011aeeb4970b555a1688f07ff0d6198bb230fac9b9c1d977057cd5c6"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6956057766,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1921",
+ "aprobado_evento_utc": "2026-11-17T18:55:09Z"
+}

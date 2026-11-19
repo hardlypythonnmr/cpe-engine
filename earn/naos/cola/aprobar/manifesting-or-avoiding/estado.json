@@ -1,0 +1,23 @@
+{
+ "slug": "manifesting-or-avoiding",
+ "issue": 966,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d438ee6ddd529bb8ce325fad1dc94d63d5b9bc0c29a82966e7cf02d179daa977",
+ "hashes": {
+  "short": "8a2fc9e9d6657b8a34d943460362bfafe550a7670594e48aeeb3084eabdaeea9",
+  "reel": "4b74c8476f898b6384e7f20dfa2baa0eb462f12cc31e05c38373f77a8ded6b90"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668669421,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z"
+}

@@ -1,0 +1,125 @@
+{
+ "slug": "dd-2026-11-21-alphabet-tachon-q-rmx-tinta",
+ "titulo": "Alphabet (Jan 2023): $61.5B buybacks, about 12,000 jobs cut",
+ "clave": "2026-11-21|dd-2026-11-21-alphabet-tachon-q-rmx-tinta",
+ "sale_utc": "2026-11-21T17:30:00Z",
+ "caption": "Alphabet (Jan 2023): $61.5B buybacks, about 12,000 jobs cut\n\nFrom the archive: Jan 2023. Not today's news.\nAlphabet, Jan 20, 2023 (Pichai, email to employees): \"I take full responsibility for the decisions that led us here\"\nIn January 2023, Alphabet's CEO emailed employees that the company had decided to reduce its workforce by approximately 12,000 roles. The buyback figure is from Alphabet's 2023 Form 10-K.\n\nSame year: $61.5 billion buying back its own stock, 2023, company-wide. $61,504 million of stock repurchased during 2023, company-wide (cash flow statement, Form 10-K; the row shows 2021, 2022 and 2023).\nThe math: $61.5 billion in buybacks (2023) ÷ about 12,000 job cuts = about $5.1 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $61.5 billion is Alphabet's stock repurchases for all of 2023, company-wide, from its 10-K. The cut is approximately 12,000 roles, per the CEO's January 2023 email. We are not saying one paid for the other.\n\nThe responsibility was full. So was the buyback. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: Alphabet 8-K, CEO email (SEC), Jan 20, 2023; Alphabet 2023 10-K (SEC), Jan 31, 2024.\n\nLink in bio.",
+ "descripcion": "From the archive: Jan 2023. Not today's news.\nAlphabet, Jan 20, 2023 (Pichai, email to employees): \"I take full responsibility for the decisions that led us here\"\nIn January 2023, Alphabet's CEO emailed employees that the company had decided to reduce its workforce by approximately 12,000 roles. The buyback figure is from Alphabet's 2023 Form 10-K.\n\nSame year: $61.5 billion buying back its own stock, 2023, company-wide. $61,504 million of stock repurchased during 2023, company-wide (cash flow statement, Form 10-K; the row shows 2021, 2022 and 2023).\nThe math: $61.5 billion in buybacks (2023) ÷ about 12,000 job cuts = about $5.1 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $61.5 billion is Alphabet's stock repurchases for all of 2023, company-wide, from its 10-K. The cut is approximately 12,000 roles, per the CEO's January 2023 email. We are not saying one paid for the other.\n\nThe responsibility was full. So was the buyback. (Our take.)\n\nSources:\n- Alphabet 8-K, CEO email (SEC), Jan 20, 2023: «The fact that these changes will impact the lives of Googlers weighs heavily on me, and I take full responsibility for the decisions that led us here.» and «We’ve decided to reduce our workforce by approximately 12,000 roles.» https://www.sec.gov/Archives/edgar/data/1652044/000119312523011424/d454494d8k.htm\n- Alphabet 2023 10-K (SEC), Jan 31, 2024: «Repurchases of stock ( 50,274 ) ( 59,296 ) ( 61,504 )» https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm\n\nSynthetic voice.",
+ "alt": "Paper-colored card. Alphabet, Jan 20, 2023. A gray typewriter quote, \"I take full responsibility for the decisions that led us here\", struck through with a dark red marker line. The struck quote is by Sundar Pichai, CEO of Google and Alphabet. Then the math in huge black letters, with the result on a yellow highlight: $61.5B ÷ 12,000 = about $5.1M, in buybacks, per job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-14/alphabet-2023-layoffs/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312523011424/d454494d8k.htm",
+   "medio": "SEC EDGAR · Alphabet",
+   "titulo": "Sundar Pichai's email to employees (Form 8-K)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm",
+   "medio": "SEC EDGAR · Alphabet",
+   "titulo": "Alphabet Form 10-K for 2023",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Remix",
+   "estado": "OK",
+   "nota": "D-531: same sound as dd-2026-11-14-alphabet-tachon-q (no new ElevenLabs call); test axis color, arm B (A = the original); changes: paper turned to ink: near-black field, light type, the strike stays red and the yellow highlight turns dark amber with light figures; 3 % closer (both DD arms), no words cut"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "19.77 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.4 LUFS, true peak -5.0 dBFS, the original's mix untouched (only cut, reordered or faded)"
+  },
+  {
+   "que": "Repeat risk",
+   "estado": "OK",
+   "nota": "dHash best match 30.2 of 64 bits (threshold 14), colour change 179.1: distinta en forma (motor/remezcla/RIESGO.md)"
+  },
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In January 2023, Google's CEO wrote: I take full responsibility. That year, Alphabet, Google's parent, spent sixty one point five billion dollars buying back shares. It decided to cut about twelve thousand jobs. Five point one million dollars in buybacks, for every job cut. The responsibility was full. So was the buyback. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "In January 2023, Google's CEO wrote: I take full responsibility."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That year, Alphabet, Google's parent, spent sixty one point five billion dollars buying back shares. It decided to cut about twelve thousand jobs."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "Five point one million dollars in buybacks, for every job cut."
+  },
+  {
+   "papel": "giro",
+   "voz": "The responsibility was full. So was the buyback."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "remezcla": {
+  "origen": "dd-2026-11-14-alphabet-tachon-q",
+  "eje": "color",
+  "brazo": "B",
+  "control": "A = dd-2026-11-14-alphabet-tachon-q",
+  "experimento": "rmx-2026-11-19",
+  "cambios": [
+   "paper turned to ink: near-black field, light type, the strike stays red and the yellow highlight turns dark amber with light figures",
+   "3 % closer (both DD arms), no words cut"
+  ],
+  "huella": {
+   "dhash_media": 30.2,
+   "dhash_min": 24,
+   "umbral": 14,
+   "cambio_color": 179.1,
+   "distinta": true,
+   "lectura": "distinta en forma"
+  },
+  "elevenlabs_llamadas": 0,
+  "decision": "D-531"
+ }
+}

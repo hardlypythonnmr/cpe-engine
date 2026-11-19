@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-southwest-airlines-expediente",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T21:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "449cc15c07eb32de39ec213a7928fcfe7dca74e976e65820d612941746df29c4",
+ "hashes": {
+  "carrusel": "9ef1c2dacfc3ee5cc61b7459fc614e2843cb7ebc5bf050b5d21f3d1ee5a00b59"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885945154,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

@@ -1,0 +1,21 @@
+{
+ "nombre": "reels-caidos-4-nov",
+ "issue": 956,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "call-no-notice",
+  "we-live-far-apart"
+ ],
+ "comentario_vista_previa_id": 6660506745,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T14:28:23Z",
+ "aviso_utc": "2026-11-05T14:28:27Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T14:33:51Z",
+ "aprobadas": [
+  "call-no-notice",
+  "we-live-far-apart"
+ ],
+ "cerrada": true
+}

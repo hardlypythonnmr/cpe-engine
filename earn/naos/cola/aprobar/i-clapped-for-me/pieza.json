@@ -1,0 +1,40 @@
+{
+ "slug": "i-clapped-for-me",
+ "titulo": "I said hello first. I clapped for me.",
+ "clave": "2026-11-21|i-clapped-for-me",
+ "sale_utc": "2026-11-21T18:25:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A dining room. A small ink-black block figure bounces four times in a row with a soft pop each time, then beams. A light blue figure on the right looks at it and its eyes go wide. The text stays on screen: i said hello first. nobody clapped. i clapped for me.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-15 (casa/lib/historias-1115-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "i-clapped-for-me",
+  "version": 8
+ },
+ "tono": "vain",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-15/hoja-*.png"
+  }
+ ]
+}

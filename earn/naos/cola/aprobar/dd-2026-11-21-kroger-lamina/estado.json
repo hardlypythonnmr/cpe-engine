@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-21-kroger-lamina",
+ "issue": 1332,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T20:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "c1067ab773a7f6702842d2ea82624d481fdf8a75a5f23159143886eab236f03d",
+ "hashes": {
+  "imagen": "5708fbe6aef4379ea9bcb024f7904c2d7f1e8a3d94425bd6cff652b98750d81c"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885949579,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z"
+}

@@ -1,0 +1,41 @@
+{
+ "nombre": "ig-6-15-nov-1",
+ "issue": 941,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "before-you-call-them-fake",
+  "before-you-open-the-app",
+  "before-you-text-are-you-mad",
+  "closer-or-space",
+  "comparing-translated",
+  "day-1-again",
+  "deadlines-chase-me",
+  "everyone-is-rude-except-me",
+  "five-am-club",
+  "going-quiet-isnt-space",
+  "im-researching",
+  "left-you-on-read"
+ ],
+ "comentario_vista_previa_id": 6647819443,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T02:17:04Z",
+ "aviso_utc": "2026-11-05T02:17:04Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T02:19:14Z",
+ "aprobadas": [
+  "before-you-call-them-fake",
+  "before-you-open-the-app",
+  "before-you-text-are-you-mad",
+  "closer-or-space",
+  "comparing-translated",
+  "day-1-again",
+  "deadlines-chase-me",
+  "everyone-is-rude-except-me",
+  "five-am-club",
+  "going-quiet-isnt-space",
+  "im-researching",
+  "left-you-on-read"
+ ],
+ "cerrada": true
+}

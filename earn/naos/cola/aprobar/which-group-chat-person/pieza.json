@@ -1,0 +1,40 @@
+{
+ "slug": "which-group-chat-person",
+ "titulo": "Which person are you in the group chat?",
+ "clave": "2026-11-21|which-group-chat-person",
+ "sale_utc": "2026-11-21T13:20:00Z",
+ "caption": "Which person are you in the group chat? A, B, C or D.\nCella muted it in 2024. She reads every message.\nLink in bio.\nby NMR\n#groupchat #friends #relatable",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "four colored cards labeled A to D. Which person are you in the group chat? Cella muted it. And reads everything. A: Hasn't replied since September. B: Voice notes. Four minutes each. C: Replies to a message from Tuesday. D: Only memes. Never an opinion.",
+ "tipo_imagen": "F4 Elige · amistad · sab 21-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "amistad",
+ "mecanica_crecimiento": "comentar · destinatario: the group chat, obviously",
+ "eco": "C07",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

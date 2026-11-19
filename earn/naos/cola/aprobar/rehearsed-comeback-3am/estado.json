@@ -1,0 +1,23 @@
+{
+ "slug": "rehearsed-comeback-3am",
+ "issue": 965,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T14:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cf3b784928bc68da6c62f5107f988e81740cc2b386328c0aeaf89eabb76428dd",
+ "hashes": {
+  "short": "092b60d12d41477d088969151d2ae95783e1e22a38b78dfc0563fce2936ce576",
+  "reel": "cb9e9cce4a14007a29bf6747ee4c572a4ba8196a0b6bfe83a8831e764084bf82"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668661078,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

@@ -1,0 +1,22 @@
+{
+ "nombre": "largos-mantras-25-nov-2-dic",
+ "issue": 1779,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "om-namah-shivaya-108-times-sing-along",
+  "lokah-samastah-16-minutes-for-study",
+  "om-shanti-shanti-shanti-1-hour-for-sleep"
+ ],
+ "comentario_vista_previa_id": 6966470072,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T18:19:08Z",
+ "aviso_utc": "2026-11-18T01:44:27Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-18T12:39:05Z",
+ "aprobadas": [
+  "lokah-samastah-16-minutes-for-study",
+  "om-namah-shivaya-108-times-sing-along",
+  "om-shanti-shanti-shanti-1-hour-for-sleep"
+ ]
+}

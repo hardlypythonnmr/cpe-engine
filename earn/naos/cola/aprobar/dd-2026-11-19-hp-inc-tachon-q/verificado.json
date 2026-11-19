@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "cfdca0090d62c7b856b06cb73b40a3938338c9b80384368d9fb53fe05619db24",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-19/hp-2022-layoffs/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-19T11:52:18Z",
+  "pedido": "temas/archivo/hp-2022-layoffs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "71fad9060c4f9d31163c3dc5aa33c46d36ef673bed51c46a1963d21ae878e389",
+ "medidas_sha": "fa1d82f791d424475d4d8c282f5028c614b8168e23bf95bf682ccc5d607b5971",
+ "escrito_utc": "2026-11-19T11:53:34Z"
+}

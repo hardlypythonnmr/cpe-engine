@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-18-walmart-expediente",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-18T21:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "8bccb364ca3d802f699b1598d663445cc2bbba1c5e7a37ac9e68afcc7640acee",
+ "hashes": {
+  "carrusel": "50bb3ab0de8d0b0b2974125997f113929dca091e2985c54d7e197bf51f961705"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885942578,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z",
+ "reel_fallo_utc": "2026-11-18T21:03:21Z"
+}

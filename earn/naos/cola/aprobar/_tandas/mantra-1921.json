@@ -1,0 +1,22 @@
+{
+ "nombre": "mantra-1921",
+ "issue": 1088,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "maha-mantra-seen-since-tuesday",
+  "om-mani-padme-hum-friday-at-4-55",
+  "maha-mantra-no-plans-all-plans"
+ ],
+ "comentario_vista_previa_id": 6856396118,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T14:49:15Z",
+ "aviso_utc": "2026-11-13T14:49:18Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T15:00:56Z",
+ "aprobadas": [
+  "maha-mantra-no-plans-all-plans",
+  "maha-mantra-seen-since-tuesday",
+  "om-mani-padme-hum-friday-at-4-55"
+ ]
+}

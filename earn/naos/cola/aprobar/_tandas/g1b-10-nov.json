@@ -1,0 +1,35 @@
+{
+ "nombre": "g1b-10-nov",
+ "issue": 914,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "today-i-did",
+  "end-of-the-feed",
+  "which-cella-are-you",
+  "fortune-after-the-bite",
+  "a-cup-left-warm",
+  "dating-profile-me",
+  "no-hands-things-come-to-me",
+  "no-hands-things-come-to-me-yt",
+  "end-of-the-feed-yt"
+ ],
+ "comentario_vista_previa_id": 6611337317,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T17:48:26Z",
+ "aviso_utc": "2026-11-03T17:48:38Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:27:04Z",
+ "aprobadas": [
+  "a-cup-left-warm",
+  "dating-profile-me",
+  "end-of-the-feed",
+  "end-of-the-feed-yt",
+  "fortune-after-the-bite",
+  "no-hands-things-come-to-me",
+  "no-hands-things-come-to-me-yt",
+  "today-i-did",
+  "which-cella-are-you"
+ ],
+ "cerrada": true
+}

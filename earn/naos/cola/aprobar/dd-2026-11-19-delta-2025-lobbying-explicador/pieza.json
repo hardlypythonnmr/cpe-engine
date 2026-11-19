@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-19-delta-2025-lobbying-explicador",
+ "titulo": "Delta Air Lines, Apr 2026: federal lobbying reports for 2025, about 59.1 years of the median employee's annual pay. The math.",
+ "clave": "2026-11-19|mercury|explicador|2026-11-19-delta-2025-lobbying-explicador",
+ "sale_utc": "2026-11-19T01:00:00Z",
+ "caption": "Delta Air Lines, Apr 2026: federal lobbying reports for 2025, about 59.1 years of the median employee's annual pay. The math.\n\nDelta filed four LD-2 federal lobbying reports for 2025 and, in its 2026 proxy statement, reported its median employee's 2025 pay.\n\nFrom the archive: Apr 2026. Not today's news.\n\nThe math: $5,970,000 (federal lobbying expenses, 2025; sum of four quarterly LD-2 reports) ÷ $100,976 (median employee's annual total compensation, 2025) = about 59.1 years of the median employee's annual pay. We round down.\nLobbying is legal and disclosed. Each report gives one amount for its quarter.\n\n(Our take.) The people are the foundation. Here is the lobbying column.\n\nSources\nF1: Delta Air Lines proxy statement (DEF 14A), 2026, filed Apr 24, 2026 · https://www.sec.gov/Archives/edgar/data/27904/000130817926000345/dal014970-def14a.htm\nF2: Delta Air Lines LD-2 quarterly reports, filing year 2025, filed Apr 21, 2025 to Jan 20, 2026 · https://lda.gov/api/v1/filings/?registrant_name=Delta+Air+Lines&filing_year=2025\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "Delta filed four LD-2 federal lobbying reports for 2025 and, in its 2026 proxy statement, reported its median employee's 2025 pay.\n\nFrom the archive: Apr 2026. Not today's news.\n\nThe math: $5,970,000 (federal lobbying expenses, 2025; sum of four quarterly LD-2 reports) ÷ $100,976 (median employee's annual total compensation, 2025) = about 59.1 years of the median employee's annual pay. We round down.\nLobbying is legal and disclosed. Each report gives one amount for its quarter.\n\n(Our take.) The people are the foundation. Here is the lobbying column.\n\nSources\nF1: Delta Air Lines proxy statement (DEF 14A), 2026, filed Apr 24, 2026 · https://www.sec.gov/Archives/edgar/data/27904/000130817926000345/dal014970-def14a.htm\nF2: Delta Air Lines LD-2 quarterly reports, filing year 2025, filed Apr 21, 2025 to Jan 20, 2026 · https://lda.gov/api/v1/filings/?registrant_name=Delta+Air+Lines&filing_year=2025\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.",
+ "alt": "Vertical video, 1:01, cobalt blue poster with white type and no narration. Delta Air Lines, Apr 2026: federal lobbying reports for 2025, about 59.1 years of the median employee's annual pay. The math.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-04-24T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "explicador",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000130817926000345/dal014970-def14a.htm",
+   "medio": "SEC EDGAR · Delta Air Lines",
+   "titulo": "Delta Air Lines proxy statement (DEF 14A), 2026",
+   "hora_utc": "2026-04-24T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://lda.gov/api/v1/filings/?registrant_name=Delta+Air+Lines&filing_year=2025",
+   "medio": "LDA.gov (U.S. Senate/House lobbying disclosure API)",
+   "titulo": "Delta Air Lines LD-2 quarterly reports, filing year 2025",
+   "hora_utc": "2026-01-20T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "61.0 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

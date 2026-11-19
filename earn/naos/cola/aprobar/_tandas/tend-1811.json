@@ -1,0 +1,19 @@
+{
+ "nombre": "tend-1811",
+ "issue": 1483,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "glow-then-back-to-them"
+ ],
+ "comentario_vista_previa_id": 6893395542,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T11:06:33Z",
+ "aviso_utc": "2026-11-15T11:06:33Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "aprobadas": [
+  "glow-then-back-to-them"
+ ],
+ "cerrada": true
+}

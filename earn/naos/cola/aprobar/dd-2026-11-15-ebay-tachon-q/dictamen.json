@@ -1,0 +1,48 @@
+{
+ "slug": "dd-2026-11-15-ebay-tachon-q",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "aprueba",
+ "motivos": [],
+ "plantilla_aprobada": {
+  "nombre": "dd/tachon-q@1",
+  "decision": "D-499",
+  "controles": [
+   "plantilla listada y activa, con la evidencia de su ejemplar",
+   "verificado.json de esta versión",
+   "medidas de forma en regla",
+   "forma de la plantilla (tramos, papeles, duración)",
+   "lente sin graves",
+   "lector-linea.json de esta versión: entiende"
+  ]
+ },
+ "razon": "plantilla aprobada dd/tachon-q@1 (D-499)",
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "bdc6d9079e602b684419abd10b24a9708d3f93d18a62f29471dd45ac71c6ca0c",
+  "reel": "787710e53aa88c140ea9547f77fbaf49c574bdf1736175875b48b2a7887a5661"
+ },
+ "huella_contenido": "0f1ac358ffd51b090979290a9e2b9928116418efc544f8f5f9568e143638797b",
+ "sale_utc": "2026-11-15T17:00:00Z",
+ "dictamen_utc": "2026-11-15T14:00:47Z"
+}

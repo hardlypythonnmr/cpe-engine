@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-f1-recibo-cliffs",
+ "issue": 1815,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T19:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "1e6b3ffee8aac623c6f7583dd3e835f6a11a8f91ed3d6eec11f98a04c5cb1ab1",
+ "hashes": {
+  "short": "f0c320e2add664a60b32e010eccae928738fa378cf51687169ad40f9c0aedea8",
+  "reel": "73f68f5a8031c23513b13630886896c4abda050699da0e07f4c4a1645ac8e4df"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7016383337,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-rediseno"
+}

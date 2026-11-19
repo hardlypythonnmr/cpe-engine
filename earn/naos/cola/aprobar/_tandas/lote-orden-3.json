@@ -1,0 +1,27 @@
+{
+ "nombre": "lote-orden-3",
+ "issue": 864,
+ "version": 3,
+ "estado": "publicado",
+ "piezas": [
+  "call-no-notice",
+  "bad-hider",
+  "youre-gonna-be-called",
+  "plans-cancelled",
+  "sparkler-at-the-window"
+ ],
+ "comentario_vista_previa_id": 6611148990,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-10-29T18:48:47Z",
+ "aviso_utc": "2026-11-03T17:39:28Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:06:33Z",
+ "aprobadas": [
+  "bad-hider",
+  "call-no-notice",
+  "plans-cancelled",
+  "sparkler-at-the-window",
+  "youre-gonna-be-called"
+ ],
+ "cerrada": true
+}

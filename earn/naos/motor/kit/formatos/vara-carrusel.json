@@ -1,0 +1,53 @@
+{
+ "formato": "carrusel",
+ "version": "2026-11-10-1",
+ "nota": "Vara de NAOS 4.0 para este formato (sesión Fable 6). Preguntas, pesos y medidas de empresa/evolucion/2026-11-09-limite/fable/6-formatos/direccion.md. La lee vara_formato.py.",
+ "corte": 9.0,
+ "mira": "las láminas dibujadas, en orden",
+ "lector": [
+  [
+   "N1",
+   1.0,
+   "Dice en una oración qué hizo Cella, la conducta concreta"
+  ],
+  [
+   "N2",
+   1.5,
+   "Se reconoció o reconoció a alguien: nombra la situación exacta"
+  ],
+  [
+   "N3",
+   1.5,
+   "Nombra a una persona concreta a quien se la mandaría y por qué"
+  ],
+  [
+   "N4",
+   1.0,
+   "Se llevó algo que no sabía o no esperaba, un dato o un giro"
+  ],
+  [
+   "N5",
+   1.0,
+   "La recordaría mañana: dice la imagen o la línea que le queda"
+  ],
+  [
+   "N6",
+   0.5,
+   "No sonó a consejo, a regaño ni a clase"
+  ],
+  [
+   "N7",
+   0.5,
+   "No sobra nada: ni una lámina, ni un cuadro, ni una oración"
+  ]
+ ],
+ "medidas": [
+  "laminas",
+  "palabras",
+  "portada_sin_cifra",
+  "dato_entre_2_y_5",
+  "cierre_retoma",
+  "sin_consejo",
+  "continuo"
+ ]
+}

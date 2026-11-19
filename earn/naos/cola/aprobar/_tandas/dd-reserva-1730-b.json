@@ -1,0 +1,40 @@
+{
+ "nombre": "dd-reserva-1730-b",
+ "issue": 1332,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-21-kroger-historia",
+  "dd-2026-11-21-kroger-lamina",
+  "dd-2026-11-21-kroger-expediente",
+  "dd-2026-11-22-etsy-historia",
+  "dd-2026-11-22-etsy-lamina",
+  "dd-2026-11-22-etsy-expediente",
+  "dd-2026-11-23-dow-historia",
+  "dd-2026-11-23-dow-lamina",
+  "dd-2026-11-23-dow-expediente",
+  "dd-2026-11-24-marriott-historia",
+  "dd-2026-11-24-marriott-lamina",
+  "dd-2026-11-24-marriott-expediente"
+ ],
+ "comentario_vista_previa_id": 6885954403,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T13:27:46Z",
+ "aviso_utc": "2026-11-14T23:33:31Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z",
+ "aprobadas": [
+  "dd-2026-11-21-kroger-expediente",
+  "dd-2026-11-21-kroger-historia",
+  "dd-2026-11-21-kroger-lamina",
+  "dd-2026-11-22-etsy-expediente",
+  "dd-2026-11-22-etsy-historia",
+  "dd-2026-11-22-etsy-lamina",
+  "dd-2026-11-23-dow-expediente",
+  "dd-2026-11-23-dow-historia",
+  "dd-2026-11-23-dow-lamina",
+  "dd-2026-11-24-marriott-expediente",
+  "dd-2026-11-24-marriott-historia",
+  "dd-2026-11-24-marriott-lamina"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "nombre": "fijo-reel-1511",
+ "issue": 1448,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-13-meta-lamina-reel",
+  "7-fixes-you-keep-skipping-reel",
+  "comfort-says-friction-says-reel",
+  "5-five-minute-frictions-reel"
+ ],
+ "comentario_vista_previa_id": 6887856899,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T02:19:57Z",
+ "aviso_utc": "2026-11-15T02:19:57Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T11:55:30Z",
+ "aprobadas": [
+  "5-five-minute-frictions-reel",
+  "7-fixes-you-keep-skipping-reel",
+  "comfort-says-friction-says-reel",
+  "dd-2026-11-13-meta-lamina-reel"
+ ]
+}

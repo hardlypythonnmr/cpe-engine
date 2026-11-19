@@ -1,0 +1,21 @@
+{
+ "nombre": "largos-mantras-hoy",
+ "issue": 971,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "om-mani-padme-hum-108-kirtan",
+  "maha-mantra-study-work-16-min"
+ ],
+ "comentario_vista_previa_id": 6670896109,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T22:12:44Z",
+ "aviso_utc": "2026-11-05T22:12:54Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T01:03:23Z",
+ "aprobadas": [
+  "maha-mantra-study-work-16-min",
+  "om-mani-padme-hum-108-kirtan"
+ ],
+ "cerrada": true
+}

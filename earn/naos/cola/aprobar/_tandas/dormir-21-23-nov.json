@@ -1,0 +1,22 @@
+{
+ "nombre": "dormir-21-23-nov",
+ "issue": 1773,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "build-self-esteem-while-you-sleep-1-hour",
+  "know-yourself-while-you-sleep-1-hour",
+  "forgive-yourself-while-you-sleep-1-hour"
+ ],
+ "comentario_vista_previa_id": 6956527304,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T18:02:58Z",
+ "aviso_utc": "2026-11-17T18:03:02Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "aprobadas": [
+  "build-self-esteem-while-you-sleep-1-hour",
+  "forgive-yourself-while-you-sleep-1-hour",
+  "know-yourself-while-you-sleep-1-hour"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "nombre": "first-session-5-nov",
+ "issue": 887,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "first-session"
+ ],
+ "comentario_vista_previa_id": 6547210200,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-10-31T18:08:02Z",
+ "aprobado_evento_utc": "2026-10-31T18:47:00Z",
+ "aprobadas": [
+  "first-session"
+ ],
+ "cerrada": true
+}

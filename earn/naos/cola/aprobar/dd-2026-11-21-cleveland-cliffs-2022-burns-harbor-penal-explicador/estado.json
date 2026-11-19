@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-21-cleveland-cliffs-2022-burns-harbor-penal-explicador",
+ "issue": 1741,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T01:00:00Z",
+ "datos_utc": "2023-02-14T00:00:00Z",
+ "hash_contenido": "700ffdcfa77013236108137587eb8df849af11235766b4065814459bc6eab77c",
+ "hashes": {
+  "short": "07053f46f9cc270fee2462f1b07ef0d7be01194f9325d5204fd54a86333b3fc6",
+  "reel": "e2057c318c2ddcc47797b64d80cc99be663eff9d5e025f72c0e2006e8f28818d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6937504920,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-a",
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z"
+}

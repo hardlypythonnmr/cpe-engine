@@ -1,0 +1,34 @@
+{
+ "slug": "groggy-has-a-name",
+ "titulo": "Groggy at 7:01? The fog has a name.",
+ "clave": "2026-10-29|groggy-has-a-name",
+ "sale_utc": "2026-11-21T04:30:00Z",
+ "caption": "Wake up groggy? That fog has a name: sleep inertia, the grogginess felt on waking. It fades the longer you're awake.\nWhen my eyes open: feet on the floor. Sitting counts.\nSource: Hilditch and McHill 2019, Nature and Science of Sleep. https://doi.org/10.2147/NSS.S188911\nIf standing up makes you dizzy, go slowly: lying, then sitting, then standing.\nThe tool is on the page: link in bio.\nby NMR\n#wakeupgroggy #sleepinertia #firstthingafterwakingup #naos",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Wake up groggy: a soft cloud hangs over the bed while Cella sits on its edge with both feet on the floor. Groggy at 7:01? The fog has a name. When my eyes open: feet on the floor. One review; it fades the longer you're awake. Hilditch and McHill, Nature and Science of Sleep, 2019.",
+ "seccion": "humanity",
+ "tipo_imagen": "C4 Measured · puerta Sleep well · jue 29 09:00 ET (08:00 Medellin)",
+ "revisiones": [
+  {
+   "que": "Contrast",
+   "estado": "OK",
+   "nota": "9.25:1 min"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sello.md: no person, group, faith, body or suffering; no health promises; no risk-3 ideas"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "urls 200/302 per medidor.json"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "dedicated-to-soon",
+ "issue": 1771,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T14:05:00Z",
+ "datos_utc": "",
+ "hash_contenido": "36a4e372ed6d5cad148916cd416e65fbfc68a46fb1758ff1280ca0f838dcf9fc",
+ "hashes": {
+  "short": "2ea05f138396ef1b35d333bbf906fb60a11aabfd2a6ef66d24a83a9c5ac39f68",
+  "reel": "c69034a93624828b7a2520229bb109248c600f8f70fe99a6c44d04e8f39a58ee"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956053150,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1921",
+ "aprobado_evento_utc": "2026-11-17T18:55:09Z"
+}

@@ -1,0 +1,96 @@
+{
+ "slug": "autoestima-mientras-duermes-1-hora",
+ "titulo": "Autoestima mientras duermes | 1 hora de afirmaciones",
+ "clave": "2026-11-21|afirmaciones-dormir-autoestima_es",
+ "sale_utc": "2026-11-21T03:50:00Z",
+ "caption": "Autoestima mientras duermes | 1 hora de afirmaciones\n\nUna hora de afirmaciones de autoestima para dormir, con ondas en 432 Hz. La pantalla se oscurece después de la primera vuelta. Video largo de YouTube, 16:9. Sin corte para Reel.\n\nby NMR",
+ "descripcion": "Una hora de afirmaciones de autoestima para dormir, con ondas en 432 Hz. Una voz suave y lenta dice treinta afirmaciones en primera persona para tu autoestima y tu amor propio (\"Tengo derecho a ocupar mi lugar\", \"Descansar también me lo merezco\", \"Me permito que me vean\"), cada una dos o tres veces y con pausas largas, para que las repitas por dentro o simplemente las dejes pasar. Voz, música e imagen hechas con código por NAOS, sin muestras ajenas.\n\nDurante los primeros 9 minutos cada afirmación aparece en pantalla mientras se dice. Después la imagen se oscurece, las afirmaciones vuelven en otro orden y cada vuelta va un poco más despacio. Desde el minuto 30 la voz baja poco a poco hasta que solo quedan las ondas en 432 Hz. Ponlo, baja el brillo y déjalo correr.\n\nFondo: un colchón de sonido afinado en La = 432 Hz que crece y baja como olas lentas, con un pulso binaural de 2 Hz muy bajo debajo (delta, la banda más lenta; con audífonos quizá lo notes, sin ellos es un zumbido grave).\n\nCómo usarlo: en la cama con la pantalla volteada; en un parlante a volumen bajo (va mezclado más suave que nuestros videos del día); o en las noches en que la cabeza no deja de hablar. Es un video, no un tratamiento: si dormir o sentirte bien se te hace difícil todas las noches, habla con alguien de confianza o con un médico.\n\nCapítulos\n0:00 Vuelta 1: treinta afirmaciones, con las palabras en pantalla\n8:36 Vuelta 2: las mismas afirmaciones en otro orden, más despacio\n18:07 Vuelta 3: las mismas afirmaciones en otro orden, más despacio\n28:36 Vuelta 4: las mismas afirmaciones en otro orden, más despacio\n40:05 Vuelta 5: las mismas afirmaciones en otro orden, más despacio, la voz cada vez más baja\n52:33 La frase de cierre y después solo las ondas en 432 Hz\n\nVoz: sintética (ElevenLabs), una voz de mujer. Las afirmaciones las escribe NAOS en español. Se aceptan correcciones.\nNAOS · Closer to yourself. by NMR\n#afirmaciones #dormir #autoestima",
+ "tipo": "AFIRMACIONES",
+ "sintetico": false,
+ "alt": "Un video de una hora, 16:9, hecho para dormir. Bajo un cielo de noche con estrellas y la luna real de esa noche, una figura amarilla pequeña con gorro de dormir azul y los ojos cerrados respira despacio junto a una casita con las ventanas encendidas; unas ondas suaves cruzan el cielo. Durante los primeros 9 minutos cada afirmación aparece en letras grandes con serifa abajo mientras una voz sintética de mujer la dice despacio; después la imagen se oscurece y solo quedan la voz y las ondas en 432 Hz. La portada muestra la escena de noche con \"Autoestima\" en letras amarillas grandes y \"mientras duermes · 1 hora\" debajo.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "largo",
+ "linea": "afirmaciones",
+ "familia": "dormir",
+ "capitulos": [
+  {
+   "inicio": "0:00",
+   "titulo": "Vuelta 1: treinta afirmaciones, con las palabras en pantalla"
+  },
+  {
+   "inicio": "8:36",
+   "titulo": "Vuelta 2: las mismas afirmaciones en otro orden, más despacio"
+  },
+  {
+   "inicio": "18:07",
+   "titulo": "Vuelta 3: las mismas afirmaciones en otro orden, más despacio"
+  },
+  {
+   "inicio": "28:36",
+   "titulo": "Vuelta 4: las mismas afirmaciones en otro orden, más despacio"
+  },
+  {
+   "inicio": "40:05",
+   "titulo": "Vuelta 5: las mismas afirmaciones en otro orden, más despacio, la voz cada vez más baja"
+  },
+  {
+   "inicio": "52:33",
+   "titulo": "La frase de cierre y después solo las ondas en 432 Hz"
+  }
+ ],
+ "titulo_ab": "Afirmaciones para dormir: 1 hora de amor propio, 432 Hz",
+ "comentario_fijado": "¿Qué frase se quedó contigo? Escríbela aquí, con tus palabras.",
+ "mecanica_crecimiento": "guardar para la noche; envío: la amiga que se exige demasiado",
+ "envio": "la amiga que se exige demasiado",
+ "experimento": true,
+ "experimento_prueba": "largos de afirmaciones para dormir (ENCARGO 17-nov): tres temas con tres fondos la misma semana; lectura a 7 y 14 días de vistas, minutos vistos y duración media contra los largos de mantras",
+ "casa": {
+  "id": "afirmaciones-dormir-autoestima_es",
+  "version": 8,
+  "produccion": "empresa/afirmaciones/dormir"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "3600.08 s, 1920x1080, 24 fps, H.264 + AAC stereo 48 kHz, 132.1 MB; 5 rounds, 343 spoken lines from 96 takes (3 per line)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-18.2 LUFS integrated (sleep target -18, like the sleep mantras), true peak -1.7 dBTP, LRA 12.7 LU (ffmpeg ebur128, peak=true, on the video's audio); voice -12 dB from minute 30 to 60"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "dormir-mujer-es (new ElevenLabs voice in neutral Latin American Spanish, D-528), eleven_v4, 3 takes per line so the repeats are not identical; slowed to 0.87 with rubberband (formants kept), slower and calmer. N to listen"
+  },
+  {
+   "que": "Background",
+   "estado": "OK",
+   "nota": "ondas: own, made with code (motor/fondo.py), seamless 5-minute loop, no third-party samples"
+  },
+  {
+   "que": "Text on screen",
+   "estado": "OK",
+   "nota": "Newsreader 96 px in the dark band at the bottom, until 9:36; then an 8 s fade to the dark loop"
+  },
+  {
+   "que": "Claims",
+   "estado": "OK",
+   "nota": "no promise of sleep, health or cure; the description says it is a video, not a treatment, and points to someone you trust or a doctor; 432 Hz and delta named as what they are, without a promise (D-527)"
+  },
+  {
+   "que": "Repetition",
+   "estado": "OK",
+   "nota": "one scene for the whole hour (ENCARGO); the voice changes order and take every round; the picture is a 32 s loop. N to watch for the repetitive-content risk at the first reading"
+  }
+ ]
+}

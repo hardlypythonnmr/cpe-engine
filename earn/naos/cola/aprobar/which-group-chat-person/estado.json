@@ -1,0 +1,23 @@
+{
+ "slug": "which-group-chat-person",
+ "issue": 963,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9db9a568904f525fdc96a754a9e1c5cc9919e8d11df78a72e5f357942e4ffd84",
+ "hashes": {
+  "imagen": "7e49e31dd98aea8f108e63fb16893caf25eed7c89956b98bcfc8239f0903dea4"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6886291976,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z"
+}

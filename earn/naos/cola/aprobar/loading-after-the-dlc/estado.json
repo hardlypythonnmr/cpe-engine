@@ -1,0 +1,23 @@
+{
+ "slug": "loading-after-the-dlc",
+ "issue": 970,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-20T23:41:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d95d481c9ff3c6ba39dc038db52c2131973bb3624074085e7da06b3422b62127",
+ "hashes": {
+  "short": "7dc7471903f62deca0afaa9c0cc28c63ab892ac08658e198984025ee04364191",
+  "reel": "225ea107e991731114791210c46f03abe6e80dacadb4837ce9c8660eda6baa89"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6670871278,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "gta-vi-18-20-nov",
+ "aprobado_evento_utc": "2026-11-06T01:03:44Z"
+}

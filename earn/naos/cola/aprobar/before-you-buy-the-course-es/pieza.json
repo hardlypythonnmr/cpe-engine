@@ -1,0 +1,88 @@
+{
+ "slug": "before-you-buy-the-course-es",
+ "titulo": "Antes de comprar el curso: 5 preguntas",
+ "clave": "2026-11-19|before-you-buy-the-course-es",
+ "sale_utc": "2026-11-19T23:15:00Z",
+ "caption": "Antes de comprar otro curso de crecimiento personal: cinco preguntas.\nLa quinta es gratis y la puedes hacer esta noche.\nLink en la bio.\nby NMR\n#crecimientopersonal #cursosonline #desarrollopersonal",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt": {
+  "1": "Cella bajo un reflector junto a un gran cuadernillo amarillo del curso. Guárdalo · 5 preguntas. Antes de comprar el curso: 5 preguntas para la página de pago.",
+  "2": "un número 1 grande y una Cella pequeña en la esquina. El curso es lo barato. El nuevo yo cuesta trabajo. Pregunta 1. ¿El curso o el nuevo yo?",
+  "3": "un número 2 grande y una Cella pequeña en la esquina. Mira qué hacía antes del curso. Pregunta 2. ¿Quien lo vende tiene resultados fuera de vender cursos?",
+  "4": "un número 3 grande y una Cella pequeña en la esquina. Primero revisa la pila de los que dejaste a medias. Pregunta 3. ¿Terminé el último?",
+  "5": "un número 4 grande y una Cella pequeña en la esquina. Una fecha. “Algún día” no sale en el calendario. Pregunta 4. ¿Cuándo, exactamente, lo voy a hacer?",
+  "6": "un número 5 grande y una Cella pequeña en la esquina. Casi siempre hay uno. Hazlo esta noche. Pregunta 5. ¿Cuál es el primer paso gratis?",
+  "7": "las cinco preguntas en lista. La lista corta. Antes de comprar el curso: Mándaselo a quien tiene el carrito lleno. 1. ¿Curso o nuevo yo? 2. ¿Resultados fuera de los cursos? 3. ¿Terminé el último? 4. Una fecha, no “algún día” 5. ¿Primer paso gratis?"
+ },
+ "tipo_carrusel": "F2 Antes de · bienestar · jue 19-nov · es",
+ "seccion": "humanity",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "autoayuda (arquetipo: el que vende el curso)",
+ "mecanica_crecimiento": "guardar · destinatario: quien tiene el carrito lleno de cursos",
+ "idioma": "es",
+ "gemela_de": "before-you-buy-the-course",
+ "tanda": "es (D-528), gemela de before-you-buy-the-course",
+ "tema_seo": "bienestar",
+ "revisiones": [
+  {
+   "que": "Forma",
+   "estado": "OK",
+   "nota": "mismas láminas, mismo dibujo, solo cambian las palabras"
+  },
+  {
+   "que": "Raya larga",
+   "estado": "OK",
+   "nota": "sin raya larga ni media"
+  },
+  {
+   "que": "Cifras",
+   "estado": "OK",
+   "nota": "las cifras de la original están iguales en la gemela"
+  },
+  {
+   "que": "SEO en español",
+   "estado": "OK",
+   "nota": "#crecimientopersonal #cursosonline #desarrollopersonal (tema bienestar, vocabulario propio)"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "20 palabras de cuerpo (50 o menos, D-358)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "las de la original (respeto.md, D-359, D-527): mismo blanco, mismo dibujo; escrita con tú, español neutro latino (D-528)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "sin enlaces en la pieza"
+  },
+  {
+   "que": "Largo de línea",
+   "estado": "OK",
+   "nota": "sin desborde; letra a 85 % o más de la original y de 46 px o más en contenido"
+  },
+  {
+   "que": "Acentos y eñe",
+   "estado": "OK",
+   "nota": "todas las letras están en las fuentes de G3"
+  }
+ ]
+}

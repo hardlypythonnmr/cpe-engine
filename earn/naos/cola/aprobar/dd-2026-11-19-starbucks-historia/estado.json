@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-19-starbucks-historia",
+ "issue": 1804,
+ "version": 1,
+ "estado": "caducado",
+ "sale_utc": "2026-11-19T14:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "7e2ffdf007b533f54c49b81e5d782b8472fca4e0990ad9be3f719bd4377317c4",
+ "hashes": {
+  "historia": "622e58a4f86c9b54d594c06bc19a0795851f197c48fb3e18d3e1f61ac0d8e1b0"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7008410862,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19",
+ "caducado_por": "hora",
+ "caducado_utc": "2026-11-19T17:02:01Z"
+}

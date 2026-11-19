@@ -1,0 +1,38 @@
+{
+ "nombre": "dic-i-0205",
+ "issue": 1349,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "agenda-first",
+  "ask-in-the-subject",
+  "got-it-reply",
+  "inbox-twice-a-day",
+  "log-off-at-six",
+  "meeting-ends-early",
+  "name-the-file",
+  "note-for-monday",
+  "one-task-at-a-time",
+  "square-the-pile",
+  "take-the-whole-break"
+ ],
+ "comentario_vista_previa_id": 6886816634,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T14:26:39Z",
+ "aviso_utc": "2026-11-15T00:46:22Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:04Z",
+ "aprobadas": [
+  "agenda-first",
+  "ask-in-the-subject",
+  "got-it-reply",
+  "inbox-twice-a-day",
+  "log-off-at-six",
+  "meeting-ends-early",
+  "name-the-file",
+  "note-for-monday",
+  "one-task-at-a-time",
+  "square-the-pile",
+  "take-the-whole-break"
+ ]
+}

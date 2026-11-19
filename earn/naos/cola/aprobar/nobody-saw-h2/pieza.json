@@ -1,0 +1,55 @@
+{
+ "slug": "nobody-saw-h2",
+ "titulo": "I pushed the pull door",
+ "clave": "2026-11-20|casa-puerta",
+ "sale_utc": "2026-11-20T12:35:00Z",
+ "caption": "I pushed the pull door\n\ni pushed the pull door. everyone saw. (nobody was looking)\n\nFor whoever is still thinking about that one time.\n\nThe theory: the spotlight effect, we think others notice our slips far more than they do (Gilovich, Medvec and Savitsky, 2000, Journal of Personality and Social Psychology). An example, not a diagnosis.\n\n#Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "i pushed the pull door. everyone saw. (nobody was looking)\n\nFor whoever is still thinking about that one time.\n\nThe theory: the spotlight effect, we think others notice our slips far more than they do (Gilovich, Medvec and Savitsky, 2000, Journal of Personality and Social Psychology). An example, not a diagnosis.\n\n#Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A pink hallway with a door that has a small PULL plate. A small ink-black block figure with white eyes walks to the door and pushes it, leaning in. The door shivers a little without opening, and the figure bounces back a step, eyes wide. It looks left, right, up and at the camera, shrinks a little and squints. The hallway is empty. Then it relaxes, pulses with happy eyes and goes on. The text stays: i pushed the pull door, everyone saw, (nobody was looking).",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "nobody-saw-h2",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.0 dBFS, LRA 1.2 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Theory",
+   "estado": "OK",
+   "nota": "Spotlight effect lived; name and source only at the end of the caption (Gilovich, Medvec and Savitsky, 2000)"
+  },
+  {
+   "que": "Experiment",
+   "estado": "OK",
+   "nota": "Hermana of nobody-saw, factor: room/situation (pull door: push, door shivers 4 px, step back, PULL plate); everything else equal to nobody-saw"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "Juez distinto (D-294), 16-nov-2026: PASA. PULL y giro se leen sin sonido en cuadro 0, ojos blancos sin aro, reborde 0, racha max 1,75 s. [mejora]: el temblor de 4 px de la puerta no se percibe a ojo en cuadros a 6 fps; considerar 8 px. V1 no (sin destinatario). El no_sale de vara.py viene de items externos. No vi ni oi el audio."
+  }
+ ]
+}

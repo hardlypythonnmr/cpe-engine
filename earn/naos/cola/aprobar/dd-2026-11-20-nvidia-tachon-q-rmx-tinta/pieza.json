@@ -1,0 +1,127 @@
+{
+ "slug": "dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
+ "titulo": "NVIDIA: $40.4 billion in buybacks, about 42,000 on staff",
+ "clave": "2026-11-20|dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
+ "sale_utc": "2026-11-20T17:30:00Z",
+ "caption": "NVIDIA: $40.4 billion in buybacks, about 42,000 on staff\n\nNVIDIA, Nov 12, 2026 (Press release, Nov 12): \"NVIDIA’s strength has always come from its people\"\nNVIDIA's press release of Nov 12, 2026 (8-K, Exhibit 99.1) quotes its interim CEO and CFO. The buyback and headcount figures come from NVIDIA's 10-K for fiscal 2026.\n\nIts last full fiscal year: $40.4 billion in buybacks to shareholders, fiscal 2026. $40.4 billion in share repurchases in fiscal 2026 (year ended Jan 25, 2026), per NVIDIA's 10-K; $974 million in dividends not counted.\nThe math: $40.4 billion SHAREHOLDER BUYBACKS (2026) ÷ about 42,000 employees (10-K) = about $961,904 SHAREHOLDER BUYBACKS PER HEAD. The employees count is approximate, per 10-K.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the headcount. The $40.4 billion is NVIDIA's own figure for share repurchases in fiscal 2026 and does not include $974 million in dividends. About 42,000 is its headcount at the end of that fiscal year. Buybacks go to shareholders, not to employees, and NVIDIA has not linked them. A ratio, not a payment or a cause.\n\nWords here. Dollars there. (Our take.)\n\nSend this to someone who keeps hearing that people come first.\n\nSynthetic voice. Sources: SEC EDGAR · NVIDIA (8-K), Nov 12, 2026; SEC EDGAR · NVIDIA (10-K FY2026), Feb 25, 2026.\n\nLink in bio.",
+ "descripcion": "NVIDIA, Nov 12, 2026 (Press release, Nov 12): \"NVIDIA’s strength has always come from its people\"\nNVIDIA's press release of Nov 12, 2026 (8-K, Exhibit 99.1) quotes its interim CEO and CFO. The buyback and headcount figures come from NVIDIA's 10-K for fiscal 2026.\n\nIts last full fiscal year: $40.4 billion in buybacks to shareholders, fiscal 2026. $40.4 billion in share repurchases in fiscal 2026 (year ended Jan 25, 2026), per NVIDIA's 10-K; $974 million in dividends not counted.\nThe math: $40.4 billion SHAREHOLDER BUYBACKS (2026) ÷ about 42,000 employees (10-K) = about $961,904 SHAREHOLDER BUYBACKS PER HEAD. The employees count is approximate, per 10-K.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the headcount. The $40.4 billion is NVIDIA's own figure for share repurchases in fiscal 2026 and does not include $974 million in dividends. About 42,000 is its headcount at the end of that fiscal year. Buybacks go to shareholders, not to employees, and NVIDIA has not linked them. A ratio, not a payment or a cause.\n\nWords here. Dollars there. (Our take.)\n\nSources:\n- SEC EDGAR · NVIDIA (8-K), Nov 12, 2026: «NVIDIA’s strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years» https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm\n- SEC EDGAR · NVIDIA (10-K FY2026), Feb 25, 2026: «In fiscal year 2026, we repurchased 282 million shares of our common stock for $40.4 billion.» and «As of the end of fiscal year 2026, we had approximately 42,000 employees in 38 countries; 31,000 were engaged in research and development and 11,000 were engaged in sales, marketing, operations, and administrative positions.» https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm\n\nSynthetic voice.",
+ "alt": "Paper-colored card. NVIDIA, Nov 12, 2026. A gray typewriter quote, \"NVIDIA’s strength has always come from its people\", struck through with a dark red marker line. The struck quote is by Colette Kress, Interim CEO and CFO of NVIDIA. Then the math in huge black letters, with the result on a yellow highlight: $40.4B ÷ 42,000 = about $961,904, SHAREHOLDER BUYBACKS, PER HEAD. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-12T21:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-14/nvidia-people/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+   "medio": "SEC EDGAR · NVIDIA (8-K, Exhibit 99.1)",
+   "titulo": "NVIDIA Announces CEO Transition",
+   "hora_utc": "2026-11-12T20:40:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "medio": "SEC EDGAR · NVIDIA (10-K FY2026)",
+   "titulo": "NVIDIA Form 10-K for the fiscal year ended Jan 25, 2026",
+   "hora_utc": "2026-11-12T21:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Remix",
+   "estado": "OK",
+   "nota": "D-531: same sound as dd-2026-11-14-nvidia-tachon-q (no new ElevenLabs call); test axis color, arm B (A = the original); changes: paper turned to ink: near-black field, light type, the strike stays red and the yellow highlight turns dark amber with light figures; 3 % closer (both DD arms), no words cut"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "19.30 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.6 LUFS, true peak -5.4 dBFS, the original's mix untouched (only cut, reordered or faded)"
+  },
+  {
+   "que": "Repeat risk",
+   "estado": "OK",
+   "nota": "dHash best match 29.7 of 64 bits (threshold 14), colour change 182.1: distinta en forma (motor/remezcla/RIESGO.md)"
+  },
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "sensible": true,
+ "sensible_por": "Context: the press release that carries the quoted sentence also announces the CEO's resignation, a named person's personal matter; the piece says nothing about it. N reviews first.",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "On November twelfth, NVIDIA's interim CEO said strength has always come from its people. That fiscal year, NVIDIA's buybacks: forty point four billion. About forty-two thousand employees, per its 10-K. In buybacks, per employee: about nine hundred sixty-one thousand nine hundred four. A ratio, not a payment. Words here. Dollars there. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "On November twelfth, NVIDIA's interim CEO said strength has always come from its people."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That fiscal year, NVIDIA's buybacks: forty point four billion. About forty-two thousand employees, per its 10-K."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "In buybacks, per employee: about nine hundred sixty-one thousand nine hundred four. A ratio, not a payment."
+  },
+  {
+   "papel": "giro",
+   "voz": "Words here. Dollars there."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "remezcla": {
+  "origen": "dd-2026-11-14-nvidia-tachon-q",
+  "eje": "color",
+  "brazo": "B",
+  "control": "A = dd-2026-11-14-nvidia-tachon-q",
+  "experimento": "rmx-2026-11-19",
+  "cambios": [
+   "paper turned to ink: near-black field, light type, the strike stays red and the yellow highlight turns dark amber with light figures",
+   "3 % closer (both DD arms), no words cut"
+  ],
+  "huella": {
+   "dhash_media": 29.7,
+   "dhash_min": 23,
+   "umbral": 14,
+   "cambio_color": 182.1,
+   "distinta": true,
+   "lectura": "distinta en forma"
+  },
+  "elevenlabs_llamadas": 0,
+  "decision": "D-531"
+ }
+}

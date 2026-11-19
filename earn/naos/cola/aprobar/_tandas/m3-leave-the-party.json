@@ -1,0 +1,19 @@
+{
+ "nombre": "m3-leave-the-party",
+ "issue": 931,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "someone-tries-to-leave-the-party"
+ ],
+ "comentario_vista_previa_id": 6637764050,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-04T17:46:22Z",
+ "aviso_utc": "2026-11-04T17:46:26Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-04T17:47:30Z",
+ "aprobadas": [
+  "someone-tries-to-leave-the-party"
+ ],
+ "cerrada": true
+}

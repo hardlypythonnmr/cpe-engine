@@ -1,0 +1,31 @@
+{
+ "nombre": "dd-2026-11-17",
+ "issue": 1754,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "dd-2026-11-17-live-nation-tachon-q",
+  "dd-2026-11-17-live-nation-lamina",
+  "dd-2026-11-17-live-nation-expediente",
+  "dd-2026-11-17-live-nation-historia",
+  "dd-2026-11-17-live-nation-hist-numero",
+  "dd-2026-11-17-live-nation-hist-frase",
+  "dd-2026-11-17-live-nation-hist-video"
+ ],
+ "comentario_vista_previa_id": 6947878729,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T12:21:04Z",
+ "aviso_utc": "2026-11-17T12:21:09Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T12:28:00Z",
+ "aprobadas": [
+  "dd-2026-11-17-live-nation-expediente",
+  "dd-2026-11-17-live-nation-hist-frase",
+  "dd-2026-11-17-live-nation-hist-numero",
+  "dd-2026-11-17-live-nation-hist-video",
+  "dd-2026-11-17-live-nation-historia",
+  "dd-2026-11-17-live-nation-lamina",
+  "dd-2026-11-17-live-nation-tachon-q"
+ ],
+ "cerrada": true
+}

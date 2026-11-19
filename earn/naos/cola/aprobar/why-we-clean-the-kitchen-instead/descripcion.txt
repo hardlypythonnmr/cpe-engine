@@ -1,0 +1,34 @@
+For the friend with one email they've been avoiding since Monday.
+
+Cella has one email to answer. By Thursday night, the kitchen has never been cleaner. Why do people put off one small task by doing everything else? Two voices go back and forth between Cella's week and the research: a lab experiment with a candle, a study that followed students through a term, a large review of procrastination research, and what the numbers say about perfectionism. Each day of Cella's week brings a different kind of unpleasant, and one thing she tries. The four kinds are this video's way of sorting it; each one leans on different research, named below.
+
+Which of the four did your task have? And what's the task?
+
+Chapters
+0:00 One email
+0:58 The feel-better trade
+1:54 The candle experiment
+3:51 What made this email different
+4:13 Monday: boring
+5:27 Tuesday: too big
+6:36 Wednesday: being judged
+8:03 Thursday: no next step, and who pays
+10:05 Friday: the first step
+10:47 What the studies can't say
+
+The studies:
+Sirois & Pychyl (2013) review research arguing that putting a task off is often a way to repair mood in the short term, with the cost landing on the "future self".
+Tice, Bratslavsky & Baumeister (2001, Study 3): 88 college students had 15 minutes to practice for a math test. Those in a bad mood, with fun things in the room, who believed their mood could change, spent on average 13.7 of the 15 minutes on other things; those told a candle had "frozen" their mood, 5.7. One lab study; it measured practice time, not a real deadline.
+Tice & Baumeister (1997): two studies, 44 students and then about 60, in one course. Students who tended to put things off reported less stress early in the term, more near the end, and got lower grades. Self-reported and correlational.
+Steel (2007): a meta-analysis of 691 correlations. Task aversiveness was one of the strongest and most consistent predictors of putting things off (r = 0.40), with boredom standing out among its parts. Perfectionism showed almost no link (r = -0.03). The fear-of-failure group, which in this review includes socially prescribed perfectionism (feeling that others expect perfection), showed a weak one (r = 0.18, for the whole group). The review also suggests "pairing" and closer goals, and cites an older observation (Silver, 1974) that more decision points go with more delay. These are correlations: they show what tends to come together.
+Sirois, Molnar & Hirsch (2017): a meta-analysis that split perfectionism in two. High personal standards went with slightly less putting off (r = -0.22); worry about mistakes and others' judgment with slightly more (r = 0.23).
+What Cella tries is her own.
+
+Sirois, F., & Pychyl, T. (2013). Procrastination and the priority of short-term mood regulation: Consequences for future self. Social and Personality Psychology Compass, 7(2), 115-127.
+Tice, D. M., Bratslavsky, E., & Baumeister, R. F. (2001). Emotional distress regulation takes precedence over impulse control: If you feel bad, do it! Journal of Personality and Social Psychology, 80(1), 53-67.
+Tice, D. M., & Baumeister, R. F. (1997). Longitudinal study of procrastination, performance, stress, and health: The costs and benefits of dawdling. Psychological Science, 8(6), 454-458.
+Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. Psychological Bulletin, 133(1), 65-94.
+Sirois, F. M., Molnar, D. S., & Hirsch, J. K. (2017). A meta-analytic and conceptual update on the associations between procrastination and multidimensional perfectionism. European Journal of Personality, 31(2), 137-159.
+
+Made with code and Claude. Music composed with code by NAOS. Voices by ElevenLabs.
+Closer to yourself.

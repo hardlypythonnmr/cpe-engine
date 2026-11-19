@@ -1,0 +1,83 @@
+{
+ "slug": "dd-2026-11-20-f3-dijeron-valero",
+ "titulo": "Valero Refinery Penalty: $2.85M vs $1.8B to Stockholders",
+ "clave": "2026-11-20|mercury|dd2|2026-11-20-f3-dijeron-valero",
+ "sale_utc": "2026-11-20T17:00:00Z",
+ "caption": "Valero Refinery Penalty: $2.85M vs $1.8B to Stockholders\n\nValero refinery penalty vs. what Valero said. 2020 10-K: it seeks \"to find ways to reduce the environmental impact of all of our operations.\" Same year, the EPA settled alleged Clean Air Act violations at 11 refineries: $2.85 million civil penalty. Also in 2020: $1.8 billion returned to stockholders.\n\nSources: Valero 10-K 2020; EPA settlement page, Oct 19, 2020.\n\n#Valero #EPA #CleanAirAct #OilRefinery #OilAndGas #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Valero refinery penalty, side by side with what Valero said. In its 2020 annual report (the 10-K, the yearly filing every public company sends the SEC), Valero says it continually seeks \"to find ways to reduce the environmental impact of all of our operations.\"\n\nWhat did the EPA find? On Oct 19, 2020, the EPA announced a settlement resolving alleged Clean Air Act violations on fuel quality at 11 Valero refineries and one import facility. The Clean Air Act is the US law that limits air pollution, including what goes into gasoline and diesel. Valero agreed to a $2.85 million civil penalty, the fine paid to the government.\n\nAlso in 2020, Valero says it returned $1.8 billion to its stockholders.\n\nThey said, they did: all three numbers come from Valero's own filing and the EPA's settlement page.\n\nSources: Valero Energy Form 10-K for 2020; EPA, Valero Clean Air Act settlement, Oct 19, 2020.\n\n#Valero #EPA #CleanAirAct #OilRefinery #OilAndGas #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video on a Valero refinery penalty: a quote from Valero's 2020 10-K about reducing environmental impact, then the EPA's $2.85 million Clean Air Act penalty and $1.8 billion returned to stockholders.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "f3-dijeron-valero",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1035002/000103500221000051/vlo-20201231.htm",
+   "medio": "SEC EDGAR · Valero 10-K 2020",
+   "titulo": "Valero Energy 10-K for 2020",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.epa.gov/enforcement/valero-energy-corporation-et-al-clean-air-act-settlement",
+   "medio": "EPA",
+   "titulo": "Valero Clean Air Act settlement, Oct 19, 2020",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "29.9 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "They said: we continually seek to find ways to reduce the environmental impact of all of our operations. Same year, the E.P.A. settled alleged Clean Air Act violations at eleven of their refineries. Two point eight five million dollar penalty. Also that year? One point eight BILLION dollars returned to stockholders. Make it make sense.",
+ "tramos": [
+  {
+   "voz": "They said: we continually seek to find ways to reduce the environmental impact of all of our operations.",
+   "t0": 0.2,
+   "t1": 7.4
+  },
+  {
+   "voz": "Same year, the E.P.A. settled alleged Clean Air Act violations at eleven of their refineries. Two point eight five million dollar penalty.",
+   "t0": 8.1,
+   "t1": 18.1
+  },
+  {
+   "voz": "Also that year? One point eight BILLION dollars returned to stockholders. Make it make sense.",
+   "t0": 18.6,
+   "t1": 25.96
+  }
+ ],
+ "sintetico": true
+}

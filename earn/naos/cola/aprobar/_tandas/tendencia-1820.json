@@ -1,0 +1,24 @@
+{
+ "nombre": "tendencia-1820",
+ "issue": 1486,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "not-for-trade",
+  "comes-back-sits-down",
+  "say-what-you-heard",
+  "sorry-itemized-receipt"
+ ],
+ "comentario_vista_previa_id": 6893519721,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T11:17:56Z",
+ "aviso_utc": "2026-11-15T11:17:56Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T11:55:28Z",
+ "aprobadas": [
+  "comes-back-sits-down",
+  "not-for-trade",
+  "say-what-you-heard",
+  "sorry-itemized-receipt"
+ ]
+}

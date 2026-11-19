@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-20-wayfair-2022-q2-workforce-cut-buscar",
+ "issue": 1783,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T16:30:00Z",
+ "datos_utc": "2022-08-19T00:00:00Z",
+ "hash_contenido": "59e54a3957b48981c6b52960a876d6aedf5106c9b82376fcf67083397fe3d755",
+ "hashes": {
+  "short": "9b2b4451b35385c31f118007145267ec913fcbfc2daf2d140aef56a4860604c4",
+  "reel": "37bb334df9e6266455c347803c5f9d015a9a8f693294d433e381c12744847908"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957642442,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-crecimiento",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:49:52Z",
+ "veto_hasta_utc": "2026-11-17T19:49:52Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-21T04:30:00Z"
+}

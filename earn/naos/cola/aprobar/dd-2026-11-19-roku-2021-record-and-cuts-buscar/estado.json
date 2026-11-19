@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-19-roku-2021-record-and-cuts-buscar",
+ "issue": 1783,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T17:00:00Z",
+ "datos_utc": "2022-11-17T00:00:00Z",
+ "hash_contenido": "f3db7addadc1c692b51a8909e39f9c65567457396bbb572ac90e8337814a0a3d",
+ "hashes": {
+  "short": "c8344893d9179c1caa2a6ec44eb2d52cb280193a77094556cfef6f03c6c91ced",
+  "reel": "d8b2846928a074ac46334b07cea15bbc1ffebb90621e74d11b3aab935fa63686"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957640613,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-crecimiento",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:49:52Z",
+ "veto_hasta_utc": "2026-11-17T19:49:52Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-20T05:00:00Z"
+}

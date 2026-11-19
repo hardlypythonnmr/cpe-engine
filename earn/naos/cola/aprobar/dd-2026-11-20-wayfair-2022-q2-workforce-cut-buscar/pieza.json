@@ -1,0 +1,108 @@
+{
+ "slug": "dd-2026-11-20-wayfair-2022-q2-workforce-cut-buscar",
+ "titulo": "Ctrl+F Wayfair filings: \"focused\" (8/4) · \"reduction\" (8/19)",
+ "clave": "2026-11-20|mercury|buscar|2026-11-20-wayfair-2022-q2-workforce-cut-buscar",
+ "sale_utc": "2026-11-20T16:30:00Z",
+ "caption": "Ctrl+F Wayfair filings: \"focused\" (8/4) · \"reduction\" (8/19)\n\nWe searched two of Wayfair's own filings, 15 days apart.\n\n“we remain squarely focused on our customers and our suppliers, and on making sure Wayfair is their preferred platform for the Home.” (Q2 2022 results release, Form 8-K Exhibit 99.1, filed Aug 4, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1616707/000161670722000105/a2022-06x30exhibit991.htm\n\n“announced a workforce reduction involving approximately 870 employees” (Form 8-K, Item 2.05, filed Aug 19, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1616707/000161670722000121/w-20220819.htm\n\nFrom two Aug 2022 filings.\n\nOur math: $3,284,000,000 ÷ 870 = $3,774,712 (about $3.7 million, rounded down). The $3,284 million is Wayfair's total net revenue for the second quarter of 2022; the same release reports a $378 million net loss. The 870 are employees in the workforce reduction the 8-K describes.\n\nWhich company's filings should we search next?\n\nSources\nF1: Wayfair Q2 2022 results release, Form 8-K Exhibit 99.1, filed Aug 4, 2022 · https://www.sec.gov/Archives/edgar/data/1616707/000161670722000105/a2022-06x30exhibit991.htm\nF2: Wayfair Form 8-K, Item 2.05, filed Aug 19, 2022 · https://www.sec.gov/Archives/edgar/data/1616707/000161670722000121/w-20220819.htm\n\nSynthetic voice. The lines on screen are copied letter for letter from the filings; the match counts (1 of 1, 1 of 6) are for the filing text as our code read it. Music made in code.\n\n#sec #8k\n\nLink in bio.",
+ "descripcion": "We searched two of Wayfair's own filings, 15 days apart.\n\n“we remain squarely focused on our customers and our suppliers, and on making sure Wayfair is their preferred platform for the Home.” (Q2 2022 results release, Form 8-K Exhibit 99.1, filed Aug 4, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1616707/000161670722000105/a2022-06x30exhibit991.htm\n\n“announced a workforce reduction involving approximately 870 employees” (Form 8-K, Item 2.05, filed Aug 19, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1616707/000161670722000121/w-20220819.htm\n\nFrom two Aug 2022 filings.\n\nOur math: $3,284,000,000 ÷ 870 = $3,774,712 (about $3.7 million, rounded down). The $3,284 million is Wayfair's total net revenue for the second quarter of 2022; the same release reports a $378 million net loss. The 870 are employees in the workforce reduction the 8-K describes.\n\nWhich company's filings should we search next?\n\nSources\nF1: Wayfair Q2 2022 results release, Form 8-K Exhibit 99.1, filed Aug 4, 2022 · https://www.sec.gov/Archives/edgar/data/1616707/000161670722000105/a2022-06x30exhibit991.htm\nF2: Wayfair Form 8-K, Item 2.05, filed Aug 19, 2022 · https://www.sec.gov/Archives/edgar/data/1616707/000161670722000121/w-20220819.htm\n\nSynthetic voice. The lines on screen are copied letter for letter from the filings; the match counts (1 of 1, 1 of 6) are for the filing text as our code read it. Music made in code.\n\n#sec #8k",
+ "alt": "Vertical video, about 25 seconds, with a synthetic voice and subtitles that light up word by word. A white page of Wayfair's Q2 2022 results release, Form 8-K Exhibit 99.1 dated Aug 4, 2022 is shown with a search bar called Find in filing: the word \"focused\" is typed and one line is highlighted in yellow (1 of 1). A hard cut to a page of Wayfair's Form 8-K, Item 2.05 dated Aug 19, 2022: \"reduction\" is typed and a line is highlighted (1 of 6). The two highlighted lines are stacked with the text 15 days apart. A black card follows and shows $3,284 MILLION (total net revenue, q2 2022), ABOUT 870 and ABOUT $3.7 MILLION q2 2022 revenue per employee in the reduction, and a closing card reads Our take: Focused. Reduction. Wayfair's own words. We only searched.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2022-08-19T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "buscar",
+ "formato": "short",
+ "origen": "wayfair-2022-q2-workforce-cut",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1616707/000161670722000105/a2022-06x30exhibit991.htm",
+   "medio": "SEC EDGAR · Wayfair",
+   "titulo": "Wayfair Form 8-K, Exhibit 99.1: second quarter 2022 results",
+   "hora_utc": "2022-08-04T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1616707/000161670722000121/w-20220819.htm",
+   "medio": "SEC EDGAR · Wayfair",
+   "titulo": "Wayfair Form 8-K, Item 2.05 (workforce reduction)",
+   "hora_utc": "2022-08-19T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "25.13 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Wayfair, August fourth. We search: focused. Another filing, August nineteenth. Search: reduction. fifteen days apart. The release: about three point two billion dollars in revenue. The 8-K: about eight hundred seventy employees in a reduction. Divide revenue by those employees: about three point seven million dollars each. Our take: Focused. Reduction. Wayfair's own words. We only searched. Difficult Decision.",
+ "tramos": [
+  {
+   "voz": "Wayfair, August fourth. We search: focused.",
+   "t0": 0.05,
+   "t1": 2.215
+  },
+  {
+   "voz": "Another filing, August nineteenth. Search: reduction.",
+   "t0": 2.45,
+   "t1": 5.006
+  },
+  {
+   "voz": "fifteen days apart.",
+   "t0": 5.126,
+   "t1": 6.099
+  },
+  {
+   "voz": "The release: about three point two billion dollars in revenue.",
+   "t0": 6.35,
+   "t1": 9.333
+  },
+  {
+   "voz": "The 8-K: about eight hundred seventy employees in a reduction.",
+   "t0": 9.733,
+   "t1": 12.852
+  },
+  {
+   "voz": "Divide revenue by those employees: about three point seven million dollars each.",
+   "t0": 13.252,
+   "t1": 17.914
+  },
+  {
+   "voz": "Our take: Focused. Reduction. Wayfair's own words. We only searched.",
+   "t0": 18.764,
+   "t1": 22.485
+  },
+  {
+   "voz": "Difficult Decision.",
+   "t0": 22.885,
+   "t1": 23.834
+  }
+ ],
+ "sintetico": true
+}

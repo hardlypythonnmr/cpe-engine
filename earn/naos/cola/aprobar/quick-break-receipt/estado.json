@@ -1,0 +1,21 @@
+{
+ "slug": "quick-break-receipt",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "657e210f4c8502e905cf2225d3c820d036ce5c8ae4ceef0c9cbfcb6a9ccd32fd",
+ "hashes": {
+  "imagen": "64040f371bd1fd55abc847e15393dab057c1e9a42627aaef4d5baf1c499f7663"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6667935326,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

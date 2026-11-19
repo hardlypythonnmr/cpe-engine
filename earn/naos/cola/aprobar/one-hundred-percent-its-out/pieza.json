@@ -1,0 +1,64 @@
+{
+ "slug": "one-hundred-percent-its-out",
+ "titulo": "GTA 6 is out. My life finished loading.",
+ "clave": "2026-11-19|serie-gta-g21",
+ "sale_utc": "2026-11-19T05:07:00Z",
+ "caption": "GTA 6 is out. My life finished loading.\n\n100%. Loading took 13 years.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#GTA6 #GTAVI #GTA6release #naos",
+ "descripcion": "100%. Loading took 13 years.\n\nThe fresh start effect: goals are more likely to start right after a temporal landmark (a new week, month, year or a holiday), but a landmark only helps if you use it (Dai, Milkman & Riis, 2014, Management Science, doi:10.1287/mnsc.2014.1901). Archival data, not an experiment.\n\nNAOS · Closer to yourself. by NMR\n#GTA6 #GTAVI #GTA6release",
+ "sintetico": false,
+ "alt": "A short film with no voice. The same night-city loading screen as before, with the year 2026 on top and the bar stuck at 99 percent. After a moment the bar fills to 100 percent in green, the text changes to LOADING COMPLETE and a yellow figure with white eyes and no hands gets happy eyes. A card says: LOADING COMPLETE, No excuses were installed, and a blinking PRESS ANY KEY follows.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "What is your first move now that it's loaded?",
+ "casa": {
+  "id": "g21-hundred-percent",
+  "kit": "empresa/series/kit-mundo-abierto"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, game-UI labels plus the closing line"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.1 dBFS, LRA 1.4 LU; own music (motor/sonido midi, room concurso, mood ranking) and synthesized effects, no third-party samples; audio runs the full length"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band and 40 px side margins, nothing under 28 px, the joke line at 44 px or more, frame 0 readable without sound"
+  },
+  {
+   "que": "Kit",
+   "estado": "OK",
+   "nota": "Drawn with the generic open-world kit (empresa/series/kit-mundo-abierto): no logo, typeface, characters, places or images of any game; the game is named only in the title and hashtags (D-374)."
+  },
+  {
+   "que": "Source",
+   "estado": "OK",
+   "nota": "checked against the original record: https://doi.org/10.1287/mnsc.2014.1901"
+  }
+ ],
+ "tipo": "MEME",
+ "filo": "V",
+ "tema": "el hito que se usa o no",
+ "blanco": "quien espera un hito (quien mira)",
+ "destinatario": "the friend who is downloading it right now",
+ "cara": "A",
+ "experimento": false,
+ "serie": "gta-vi",
+ "pieza_serie": "G21",
+ "fuentes": [
+  "https://doi.org/10.1287/mnsc.2014.1901"
+ ],
+ "tanda": "serie-gta-vi-15-20-nov (D-374, D-359, D-360, D-362, D-363)"
+}

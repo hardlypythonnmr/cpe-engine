@@ -1,0 +1,25 @@
+{
+ "nombre": "tendencia-1416",
+ "issue": 1078,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "thanks-out-loud",
+  "stay-and-wash-up",
+  "now-you-want-to-be",
+  "thank-you-out-loud-receipt"
+ ],
+ "comentario_vista_previa_id": 6855158414,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T14:02:18Z",
+ "aviso_utc": "2026-11-13T14:02:22Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T15:08:09Z",
+ "aprobadas": [
+  "now-you-want-to-be",
+  "stay-and-wash-up",
+  "thank-you-out-loud-receipt",
+  "thanks-out-loud"
+ ],
+ "cerrada": true
+}

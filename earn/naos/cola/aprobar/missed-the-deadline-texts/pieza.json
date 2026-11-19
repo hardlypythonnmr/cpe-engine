@@ -1,0 +1,54 @@
+{
+ "slug": "missed-the-deadline-texts",
+ "titulo": "Missed the deadline? 4 texts that don't lie",
+ "clave": "2026-11-20|missed-the-deadline-texts",
+ "sale_utc": "2026-11-20T15:50:00Z",
+ "caption": "Missed the deadline? Four texts that don’t lie.\nEach one gives a new date. Silence never does.\nLink in bio.\nby NMR\n#deadlines #worklife #procrastination",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "Cella under a spotlight next to a big yellow clock. Save · 4 texts for a missed deadline. Missed the deadline? 4 texts that don't lie. Short, honest, and with a new date.",
+  "2": "a chat bubble with the text, and a small Cella in the corner. Before it's due. I'm going to miss Friday. You'll have it Monday at noon. When you can see you'll be late. Why it works: a new date beats a silence.",
+  "3": "a chat bubble with the text, and a small Cella in the corner. After it's due. I missed this, and that's on me. You'll have it tomorrow by 10. When it's already late. Why it works: no excuse, just a time.",
+  "4": "a chat bubble with the text, and a small Cella in the corner. It got bigger. This is bigger than I planned. Half today, half Thursday? When the task is bigger than you thought. Why it works: you hand over something now.",
+  "5": "a chat bubble with the text, and a small Cella in the corner. You're stuck. I'm stuck on the first part. Can I have 10 minutes of your time? When you don't know where to start. Why it works: asking early costs less than hiding.",
+  "6": "the four texts as a list. The cheat sheet. Late, said honestly: Save it. You'll need one before Friday. 1. Monday at noon. 2. On me. Tomorrow by 10. 3. Half today, half Thursday. 4. Stuck. 10 minutes?"
+ },
+ "tipo_carrusel": "F1 Guion · procrastinar · vie 20-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "trabajo",
+ "mecanica_crecimiento": "guardar · destinatario: whoever has a deadline and a drafts folder",
+ "eco": "L-b",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

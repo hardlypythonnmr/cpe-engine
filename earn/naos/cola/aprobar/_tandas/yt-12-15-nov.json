@@ -1,0 +1,23 @@
+{
+ "nombre": "yt-12-15-nov",
+ "issue": 922,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "fake-friend-other-side",
+  "instead-of-scrolling-12-tries",
+  "66-days-habit-forms"
+ ],
+ "comentario_vista_previa_id": 6620304833,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-04T01:47:07Z",
+ "aviso_utc": "2026-11-04T01:47:11Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-04T01:47:59Z",
+ "aprobadas": [
+  "66-days-habit-forms",
+  "fake-friend-other-side",
+  "instead-of-scrolling-12-tries"
+ ],
+ "cerrada": true
+}

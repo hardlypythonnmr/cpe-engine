@@ -1,0 +1,19 @@
+{
+ "nombre": "m9-passion",
+ "issue": 949,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "waiting-for-my-passion"
+ ],
+ "comentario_vista_previa_id": 6649321955,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T04:01:21Z",
+ "aviso_utc": "2026-11-05T04:01:21Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T08:55:16Z",
+ "aprobadas": [
+  "waiting-for-my-passion"
+ ],
+ "cerrada": true
+}

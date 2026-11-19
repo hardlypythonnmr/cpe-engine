@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-20-p3-netflix-bucle",
+ "titulo": "Netflix Price Increase: 'Pay a Little More,' in Their Words",
+ "clave": "2026-11-20|mercury|explicador|2026-11-20-p3-netflix-bucle",
+ "sale_utc": "2026-11-20T20:00:00Z",
+ "caption": "Netflix Price Increase: 'Pay a Little More,' in Their Words\n\nNetflix price increase, in their own words: \"we will occasionally ask our members to pay a little more so that we can re-invest to further improve Netflix.\" Q4 2024 letter. 2024 net income: $8.7 billion (10-K).\n\nSources: Netflix Q4 2024 shareholder letter; Netflix 10-K 2024.\n\n#Netflix #NetflixPriceIncrease #Streaming #Subscriptions #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Netflix price increase: why did Netflix raise prices? In its Q4 2024 letter to shareholders (January 2025), Netflix wrote: \"As we continue to invest in programming and deliver more value for our members, we will occasionally ask our members to pay a little more so that we can re-invest to further improve Netflix.\"\n\nHow much did Netflix make that year? Its 10-K for 2024, the annual report it files with the SEC, reports $8.7 billion in net income, the profit left after all costs and taxes.\n\n\"A little more\", next to $8.7 billion. You decide.\n\nSources: Netflix Q4 2024 shareholder letter (8-K, Ex. 99.1); Netflix Form 10-K for 2024.\n\n#Netflix #NetflixPriceIncrease #Streaming #Subscriptions #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short looping video on the Netflix price increase: Netflix's 'pay a little more' line from its Q4 2024 shareholder letter, followed by its 2024 net income of $8.7 billion.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "p3-netflix-bucle",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000033/ex991_q424.htm",
+   "medio": "SEC EDGAR · Netflix 8-K Ex. 99.1",
+   "titulo": "Netflix Q4 2024 shareholder letter",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+   "medio": "SEC EDGAR · Netflix 10-K 2024",
+   "titulo": "Netflix 10-K for 2024",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "7.0 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

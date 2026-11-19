@@ -1,0 +1,32 @@
+{
+ "nombre": "dd-ampliacion-a",
+ "issue": 1741,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-19-comcast-delta-air-lines-mastercard-libro",
+  "dd-2026-11-19-delta-2025-lobbying-explicador",
+  "dd-2026-11-20-lennar-walgreens-boots-alliance-waters-c-libro",
+  "dd-2026-11-20-walgreens-2023-exit-pay-explicador",
+  "dd-2026-11-21-arcbest-cleveland-cliffs-valero-energy-libro",
+  "dd-2026-11-21-cleveland-cliffs-2022-burns-harbor-penal-explicador",
+  "dd-2026-11-22-axalta-2023-record-and-cuts-explicador",
+  "dd-2026-11-22-axalta-coating-systems-zoominfo-libro"
+ ],
+ "comentario_vista_previa_id": 6937507367,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T03:41:43Z",
+ "aviso_utc": "2026-11-17T03:41:43Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z",
+ "aprobadas": [
+  "dd-2026-11-19-comcast-delta-air-lines-mastercard-libro",
+  "dd-2026-11-19-delta-2025-lobbying-explicador",
+  "dd-2026-11-20-lennar-walgreens-boots-alliance-waters-c-libro",
+  "dd-2026-11-20-walgreens-2023-exit-pay-explicador",
+  "dd-2026-11-21-arcbest-cleveland-cliffs-valero-energy-libro",
+  "dd-2026-11-21-cleveland-cliffs-2022-burns-harbor-penal-explicador",
+  "dd-2026-11-22-axalta-2023-record-and-cuts-explicador",
+  "dd-2026-11-22-axalta-coating-systems-zoominfo-libro"
+ ]
+}

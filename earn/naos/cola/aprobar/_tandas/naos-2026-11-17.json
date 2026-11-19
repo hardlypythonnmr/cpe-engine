@@ -1,0 +1,34 @@
+{
+ "nombre": "naos-2026-11-17",
+ "issue": 1751,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "seven-doors-in-your-body",
+  "the-universe-heard-you",
+  "you-are-13-8-billion-years-old",
+  "om-mani-padme-hum-on-a-tuesday",
+  "say-these-before-you-fall-asleep",
+  "todays-word-enough",
+  "tomorrow-is-the-beaver-moon",
+  "full-moon-tonight-let-it-go",
+  "full-moon-tonight"
+ ],
+ "comentario_vista_previa_id": 6946953744,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T11:38:11Z",
+ "aviso_utc": "2026-11-17T11:38:19Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z",
+ "aprobadas": [
+  "full-moon-tonight",
+  "full-moon-tonight-let-it-go",
+  "om-mani-padme-hum-on-a-tuesday",
+  "say-these-before-you-fall-asleep",
+  "seven-doors-in-your-body",
+  "the-universe-heard-you",
+  "todays-word-enough",
+  "tomorrow-is-the-beaver-moon",
+  "you-are-13-8-billion-years-old"
+ ]
+}

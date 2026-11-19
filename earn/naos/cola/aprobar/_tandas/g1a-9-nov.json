@@ -1,0 +1,41 @@
+{
+ "nombre": "g1a-9-nov",
+ "issue": 908,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "five-more-minutes",
+  "tip-of-my-tongue",
+  "the-doors-open",
+  "forecast-for-you",
+  "the-menu-study",
+  "hoy-no-se-ve-la-luna",
+  "user-manual-of-me",
+  "at-2-47-am",
+  "wanted-tupperware",
+  "half-is-yours",
+  "annual-review-cella",
+  "hoy-no-se-ve-la-luna-ig"
+ ],
+ "comentario_vista_previa_id": 6610735210,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T17:20:06Z",
+ "aviso_utc": "2026-11-03T17:20:21Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:17:41Z",
+ "aprobadas": [
+  "annual-review-cella",
+  "at-2-47-am",
+  "five-more-minutes",
+  "forecast-for-you",
+  "half-is-yours",
+  "hoy-no-se-ve-la-luna",
+  "hoy-no-se-ve-la-luna-ig",
+  "the-doors-open",
+  "the-menu-study",
+  "tip-of-my-tongue",
+  "user-manual-of-me",
+  "wanted-tupperware"
+ ],
+ "cerrada": true
+}

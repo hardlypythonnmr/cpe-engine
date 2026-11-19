@@ -1,0 +1,22 @@
+{
+ "slug": "hare-krishna-on-a-thursday",
+ "issue": 1753,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T18:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f444bfc930b094246d145102e2714324f294061357d7bdef891026b2ac68cc45",
+ "hashes": {
+  "carrusel": "5c5d05531c646dcc5600bf03a5f6cc3796545b53d3f8efec859f7deeae015dd8"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6947565333,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17-b",
+ "aprobado_evento_utc": "2026-11-17T12:07:36Z"
+}

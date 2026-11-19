@@ -1,0 +1,23 @@
+{
+ "slug": "hour-six-still-you",
+ "issue": 970,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-19T23:13:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5bc6ec342fdf0ab192a4f316ba21370eed55e11191d0a302579a548d117f137f",
+ "hashes": {
+  "short": "47830b1aaa1800cc3eef069db20c00075492f481fcb0cddce26a974718842663",
+  "reel": "a2bfcb5a3a51e0861b6af4846902a6169d3a658e4c3e7e96f0c9b02e8fe3e556"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6670869080,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "gta-vi-18-20-nov",
+ "aprobado_evento_utc": "2026-11-06T01:03:44Z"
+}

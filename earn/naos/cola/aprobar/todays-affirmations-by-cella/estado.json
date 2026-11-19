@@ -1,0 +1,22 @@
+{
+ "slug": "todays-affirmations-by-cella",
+ "issue": 1771,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T15:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "042b22a106e35803b7ea78fcfd580df0483a08ea9bb89ca5d5fd6ca6d1f4829e",
+ "hashes": {
+  "carrusel": "47e4fcd6aaabf6a328d49c5ba0ff90e660e5ef6af1e50d79724c59d330c77b40"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6956056837,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1921",
+ "aprobado_evento_utc": "2026-11-17T18:55:09Z"
+}

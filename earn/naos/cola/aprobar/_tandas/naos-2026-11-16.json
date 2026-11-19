@@ -1,0 +1,19 @@
+{
+ "nombre": "naos-2026-11-16",
+ "issue": 1728,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "eyes-elsewhere"
+ ],
+ "comentario_vista_previa_id": 6915935504,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-16T12:06:18Z",
+ "aviso_utc": "2026-11-16T12:06:18Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-16T12:11:01Z",
+ "aprobadas": [
+  "eyes-elsewhere"
+ ],
+ "cerrada": true
+}

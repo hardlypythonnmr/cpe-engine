@@ -1,0 +1,48 @@
+{
+ "slug": "plant-person",
+ "titulo": "I'm a plant person (the plants disagree)",
+ "clave": "2026-11-21|casa-cocina",
+ "sale_utc": "2026-11-21T14:35:00Z",
+ "caption": "I'm a plant person (the plants disagree)\n\nI'm a plant person. The plants disagree.\n\nWater them. Or admit you collect pots with a past.\n\n#Cella #plantparent\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "I'm a plant person. The plants disagree.\n\nWater them. Or admit you collect pots with a past.\n\n#Cella #plantparent\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A yellow kitchen. A small ink-black block figure with white eyes proudly waters a leafy plant, stretching tall with a chime. On the far right a second plant already lies drooping. A brick-red figure looks at the plants with narrowed eyes. The watered plant slowly leans over and droops too. The first figure's eyes go wide, it trembles, then narrows its eyes at the camera and, undeterred, strikes a proud stretch. The text stays: i'm a plant person. the plants disagree.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "plant-person",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 7 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.8 dBFS, LRA 2.6 LU; own music (motor/sonido midi, room cocina, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "C",
+ "tema": "identidad y hábitos",
+ "blanco": "Cella (se dice 'plant person')",
+ "destinatario": "the friend with the dead succulent",
+ "cara": "A",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

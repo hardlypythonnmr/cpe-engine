@@ -1,0 +1,33 @@
+{
+ "nombre": "lote-30-oct-a",
+ "issue": 861,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "bump-hello",
+  "a-mug-for-you",
+  "waited-up",
+  "a-song-they-loved",
+  "a-lamp-left-on",
+  "i-opened-the-fridge",
+  "not-today-cloud",
+  "room-for-you"
+ ],
+ "comentario_vista_previa_id": 6504034656,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-10-29T17:42:09Z",
+ "aviso_utc": "2026-10-29T17:42:13Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-29T17:56:38Z",
+ "aprobadas": [
+  "a-lamp-left-on",
+  "a-mug-for-you",
+  "a-song-they-loved",
+  "bump-hello",
+  "i-opened-the-fridge",
+  "not-today-cloud",
+  "room-for-you",
+  "waited-up"
+ ],
+ "cerrada": true
+}

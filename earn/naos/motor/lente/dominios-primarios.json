@@ -1,0 +1,15 @@
+{
+ "_nota": "Dominios que el lente trata como fuente primaria además de los que trae lente.py (DOMINIOS_PRIMARIOS y los sufijos .gov, .edu, .int). Es un archivo de datos: se amplía aquí, sin tocar código. Solo vale para las marcas de `marcas`; para las demás el lente decide igual que antes. `dominios`: el dominio y sus subdominios. `sufijos`: terminaciones de sitios oficiales. `prefijos_empresa`: un sitio de ayuda o de prensa (help.empresa.com, newsroom.empresa.com) cuenta como primario solo si el nombre de esa empresa está escrito en la pieza (Discovery+ se lee como discoveryplus). Nada de esto toca las reglas de apuestas, salud ni elecciones.",
+ "marcas": ["mercury"],
+ "dominios": [
+  "esrb.org",
+  "guinnessworldrecords.com",
+  "take2games.com",
+  "gasprices.aaa.com",
+  "help.discoveryplus.com",
+  "eia.gov",
+  "bls.gov"
+ ],
+ "sufijos": [".gov", ".mil", ".gov.uk", ".gc.ca", ".gov.au", ".europa.eu"],
+ "prefijos_empresa": ["help", "support", "newsroom", "news", "press", "media", "investor", "investors", "ir", "about", "corporate"]
+}

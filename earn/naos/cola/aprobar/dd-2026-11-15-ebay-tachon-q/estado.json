@@ -1,0 +1,27 @@
+{
+ "slug": "dd-2026-11-15-ebay-tachon-q",
+ "issue": 1529,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-15T17:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "00c62af8ffe6a495996a8e3f803c5eaf6c398d78e8cd381549dc2cb03b2b8149",
+ "hashes": {
+  "short": "0d99912b34af1d4984ace4fbb25c96258ee282192b3f208be206c71886be6764",
+  "reel": "298433f48ced363db865680fbb45d480fb6f45157e0d71996c5e22ebe0f6f92d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894798093,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-15",
+ "aprobado_evento_utc": "2026-11-15T13:21:17Z",
+ "reel_fallo_utc": "2026-11-15T16:59:52Z",
+ "short_bajado_utc": "2026-11-17T14:17:54Z",
+ "short_bajado": "privado y sin fecha (ya era público: lo baja la palabra de N, bajar-shorts --publicos)"
+}

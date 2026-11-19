@@ -1,0 +1,19 @@
+{
+ "nombre": "m6-overthinks-ok",
+ "issue": 928,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "overthinks-a-text-that-says-ok"
+ ],
+ "comentario_vista_previa_id": 6633362040,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-04T14:33:53Z",
+ "aviso_utc": "2026-11-04T14:33:58Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-04T14:39:07Z",
+ "aprobadas": [
+  "overthinks-a-text-that-says-ok"
+ ],
+ "cerrada": true
+}

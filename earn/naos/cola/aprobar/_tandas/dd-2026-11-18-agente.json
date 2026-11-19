@@ -1,0 +1,41 @@
+{
+ "nombre": "dd-2026-11-18-agente",
+ "issue": 1789,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-18-albertsons-tachon-q",
+  "dd-2026-11-18-albertsons-lamina",
+  "dd-2026-11-18-albertsons-expediente",
+  "dd-2026-11-18-albertsons-historia",
+  "dd-2026-11-18-albertsons-hist-numero",
+  "dd-2026-11-18-apple-tachon-q",
+  "dd-2026-11-18-apple-lamina",
+  "dd-2026-11-18-apple-expediente",
+  "dd-2026-11-18-apple-hist-numero",
+  "dd-2026-11-18-apple-hist-frase",
+  "dd-2026-11-18-apple-hist-video"
+ ],
+ "comentario_vista_previa_id": 6978482858,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-18T12:24:39Z",
+ "agente": true,
+ "aviso_utc": "2026-11-18T12:24:48Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z",
+ "aprobadas": [
+  "dd-2026-11-18-albertsons-expediente",
+  "dd-2026-11-18-albertsons-hist-numero",
+  "dd-2026-11-18-albertsons-historia",
+  "dd-2026-11-18-albertsons-lamina",
+  "dd-2026-11-18-albertsons-tachon-q",
+  "dd-2026-11-18-apple-expediente",
+  "dd-2026-11-18-apple-hist-frase",
+  "dd-2026-11-18-apple-hist-numero",
+  "dd-2026-11-18-apple-hist-video",
+  "dd-2026-11-18-apple-lamina",
+  "dd-2026-11-18-apple-tachon-q"
+ ]
+}

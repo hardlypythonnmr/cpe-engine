@@ -1,0 +1,21 @@
+{
+ "nombre": "diwali-2026",
+ "issue": 906,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "a-small-light",
+  "rangoli-for-two"
+ ],
+ "comentario_vista_previa_id": 6609351768,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T16:20:07Z",
+ "aviso_utc": "2026-11-03T16:20:12Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:17:43Z",
+ "aprobadas": [
+  "a-small-light",
+  "rangoli-for-two"
+ ],
+ "cerrada": true
+}

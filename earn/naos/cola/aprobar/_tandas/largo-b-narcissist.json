@@ -1,0 +1,19 @@
+{
+ "nombre": "largo-b-narcissist",
+ "issue": 985,
+ "version": 2,
+ "estado": "publicado",
+ "piezas": [
+  "your-ex-is-probably-not-a-narcissist"
+ ],
+ "comentario_vista_previa_id": 6894672684,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-07T01:07:00Z",
+ "aviso_utc": "2026-11-15T12:58:42Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z",
+ "aprobadas": [
+  "your-ex-is-probably-not-a-narcissist"
+ ],
+ "cerrada": true
+}

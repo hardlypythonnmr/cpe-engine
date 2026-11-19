@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-p12-ticketmaster-v3",
+ "issue": 1815,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T16:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "51a7e09e7ac45d1401accdcd02841f4711423b4c02da12bcc25ac4c8dbaacfb3",
+ "hashes": {
+  "short": "38d2696f52f1546ba681b92681afd9ace54fe1abf04446e336b82dcfada675f2",
+  "reel": "0a165c02eb80315f5cf9a5f5a426d321ddac84d7b7132701e380715fb9c2012e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7016380256,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-rediseno"
+}

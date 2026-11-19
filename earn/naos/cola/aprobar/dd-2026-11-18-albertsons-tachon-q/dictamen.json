@@ -1,0 +1,40 @@
+{
+ "slug": "dd-2026-11-18-albertsons-tachon-q",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "no-pasa",
+ "motivos": [
+  "falta vara.json (los lectores fríos no dejaron puntaje)",
+  "falta estetico.json (el lector estético no la leyó)",
+  "plantilla aprobada (D-499) no alcanza: falta verificado.json: las citas no están verificadas (corre `agente.py verificado dd-2026-11-18-albertsons-tachon-q`)",
+  "plantilla aprobada (D-499) no alcanza: falta medidas.json en la carpeta: la pieza no se midió"
+ ],
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "3c90776224e5649d3fd980ceebf98a2092c3590ff5792ca56fbb0cc9702e6495",
+  "reel": "7966473c46f16b66a610f654beed246142593b2bc2da2b510771a05d73315f3e"
+ },
+ "huella_contenido": "d7138dda91e41fd3502504eee13da07a17c8e802c0f71b916a51d31a76fddaa5",
+ "sale_utc": "2026-11-19T00:00:00Z",
+ "dictamen_utc": "2026-11-18T12:18:52Z"
+}

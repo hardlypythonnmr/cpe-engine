@@ -1,0 +1,23 @@
+{
+ "slug": "plan-vs-reality",
+ "issue": 966,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T20:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4468d1ab0b2c712aa46cf7a92e2d49ad3cd2b9f33d74245871d7b1ee9643a951",
+ "hashes": {
+  "short": "5b6db89cb93477716091a7784b986d5c478a0e657d938b9d3e2230719091b4a2",
+  "reel": "a5c2711174f578de74d0114e98198c3a4f18082dd09e983653c6c94e650e4da4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668673868,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z"
+}

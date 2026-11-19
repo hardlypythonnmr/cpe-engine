@@ -1,0 +1,23 @@
+{
+ "slug": "terms-of-being-my-friend",
+ "issue": 963,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "14d47b9b4c62924b6f023329357f6666c829ec3cf15afc87126ae27e970b97ed",
+ "hashes": {
+  "carrusel": "49b0ac3a6decdb0af8c7062b3be855fa2fa2386d9d462ec1eb38deb98f7cddf3"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6886292453,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z"
+}

@@ -1,0 +1,23 @@
+{
+ "nombre": "dd-estilos-2325",
+ "issue": 1513,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "dd-2026-11-23-pepsico-tachon-q-papel",
+  "dd-2026-11-24-pepsico-tachon-q-recibo",
+  "dd-2026-11-25-pepsico-tachon-q-memo"
+ ],
+ "comentario_vista_previa_id": 6894174012,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T12:16:20Z",
+ "aviso_utc": "2026-11-15T12:16:20Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T12:17:17Z",
+ "aprobadas": [
+  "dd-2026-11-23-pepsico-tachon-q-papel",
+  "dd-2026-11-24-pepsico-tachon-q-recibo",
+  "dd-2026-11-25-pepsico-tachon-q-memo"
+ ],
+ "cerrada": true
+}

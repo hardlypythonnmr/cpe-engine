@@ -1,0 +1,48 @@
+{
+ "slug": "tree-never-read-self-help",
+ "titulo": "This tree never read a self-help book. Still standing.",
+ "clave": "2026-11-20|etereo",
+ "sale_utc": "2026-11-21T03:30:00Z",
+ "caption": "This tree never read a self-help book. Still standing.\n\nCloser to yourself.\n\n#naos #trees",
+ "descripcion": "This tree never read a self-help book. Still standing.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: a small round figure looks straight at the camera in a dark blue room, then the camera whips to the window and slowly zooms in on a big tree at dusk. White words in the middle read: \"This tree never read a self-help book. Still standing.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-a-tree-no-books",
+  "version": 8
+ },
+ "filo": "P",
+ "experimento": false,
+ "envio": "someone with 14 self-help books on the shelf",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.9 dBFS, LRA 1.2 LU; own music (motor/sonido midi, room ventana, mood asombro, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "autocomprobación del constructor (hoja de contacto a 270 px, medir8); juez distinto pendiente"
+  }
+ ],
+ "tanda": "etereo-15-22-nov (D-339, D-342, D-359 a D-363; candidatas en earn/naos/empresa/etereo/2026-11-05-filo-15-22-nov.md)"
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "wrong-room-rmx-color",
+ "issue": 1774,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T19:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f2d9c00d3677bf3e4d5f954e871e84a324d9b81cb681979bee8e6cd25d6889fc",
+ "hashes": {
+  "short": "f79e452b4774a91a22037184339aefc11d9650bca9b694cea945899a4087dc0f",
+  "reel": "50d604c03b6af8b6991ae3323ba1e65a609dff1625ce76fe464d80b9f14f9396"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956591633,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "remezcla-21-27-nov",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z"
+}

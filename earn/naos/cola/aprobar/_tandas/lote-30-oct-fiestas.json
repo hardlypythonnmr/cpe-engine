@@ -1,0 +1,25 @@
+{
+ "nombre": "lote-30-oct-fiestas",
+ "issue": 862,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "knock-knock-candy",
+  "the-extra-hour",
+  "a-place-set",
+  "last-bite"
+ ],
+ "comentario_vista_previa_id": 6504041654,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-10-29T17:42:28Z",
+ "aviso_utc": "2026-10-29T17:42:32Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-29T17:56:36Z",
+ "aprobadas": [
+  "a-place-set",
+  "knock-knock-candy",
+  "last-bite",
+  "the-extra-hour"
+ ],
+ "cerrada": true
+}

@@ -1,0 +1,94 @@
+{
+ "slug": "dd-2026-11-20-coca-cola-2024-pay-ratio-reloj",
+ "titulo": "10:03 a.m.: Coca-Cola CEO pay vs. a median employee's year",
+ "clave": "2026-11-20|mercury|reloj|2026-11-20-coca-cola-2024-pay-ratio-reloj",
+ "sale_utc": "2026-11-20T15:00:00Z",
+ "caption": "10:03 a.m.: Coca-Cola CEO pay vs. a median employee's year\n\nOn paper: reported CEO pay, spread over a 2,080-hour year, matches a median employee's whole year by 10:03 a.m.\n\nReported CEO total pay, 2024: $28,002,284. Median employee total pay, 2024: $14,144. Both from Coca-Cola's proxy statement (DEF 14A), filed Mar 17, 2025. From a Mar 2025 filing.\n\nThe proxy says its median employee comes from the company's global workforce, and that part-time roles, such as certain employees at retail stores operated by Costa Limited, lower the median.\n\nName a company. We'll run its clock.\n\nOur math: $28,002,284 spread over 2,080 hours is about $13,462 an hour, rounded down. $14,144 is reached at that rate in 1 h 3 min 2 s (the clock shows 10:03 a.m. from a 9:00 a.m. start; minutes are rounded down).\n\nSources\nF1: Coca-Cola proxy statement (DEF 14A), filed Mar 17, 2025 · https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm\n\nSynthetic voice. The quote on screen is copied from the filing. No music.\n\n#ceopay #worklife\n\nLink in bio.",
+ "descripcion": "On paper: reported CEO pay, spread over a 2,080-hour year, matches a median employee's whole year by 10:03 a.m.\n\nReported CEO total pay, 2024: $28,002,284. Median employee total pay, 2024: $14,144. Both from Coca-Cola's proxy statement (DEF 14A), filed Mar 17, 2025. From a Mar 2025 filing.\n\nThe proxy says its median employee comes from the company's global workforce, and that part-time roles, such as certain employees at retail stores operated by Costa Limited, lower the median.\n\nName a company. We'll run its clock.\n\nOur math: $28,002,284 spread over 2,080 hours is about $13,462 an hour, rounded down. $14,144 is reached at that rate in 1 h 3 min 2 s (the clock shows 10:03 a.m. from a 9:00 a.m. start; minutes are rounded down).\n\nSources\nF1: Coca-Cola proxy statement (DEF 14A), filed Mar 17, 2025 · https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm\n\nSynthetic voice. The quote on screen is copied from the filing. No music.\n\n#ceopay #worklife",
+ "alt": "Vertical dark video, 14 seconds, in a loop. A seven-segment clock runs from 9:00 to 10:03 a.m. as a yellow counter climbs from $0 to $14,144, the median Coca-Cola employee's reported total pay for 2024. A stamp reads: equals one median year. Then the two reported figures, the CEO's $28,002,284 and the median employee's $14,144, with the Coca-Cola proxy statement and its date, and a quote from the same proxy on a cream card. Synthetic voice.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2025-03-17T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "reloj",
+ "formato": "short",
+ "origen": "coca-cola-2024-pay-ratio",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
+   "medio": "SEC EDGAR · Coca-Cola",
+   "titulo": "Coca-Cola proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2025-03-17T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "14.0 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Coca-Cola. CEO pay, on paper. ten oh three. One median employee's whole year. Reported pay: about twenty-eight million. Median employee: about fourteen thousand. Our people, at every level, are our most important asset. ten oh three. Difficult Decision.",
+ "tramos": [
+  {
+   "voz": "Coca-Cola. CEO pay, on paper.",
+   "t0": 0.05,
+   "t1": 1.357
+  },
+  {
+   "voz": "ten oh three.",
+   "t0": 2.32,
+   "t1": 3.019
+  },
+  {
+   "voz": "One median employee's whole year.",
+   "t0": 3.119,
+   "t1": 4.52
+  },
+  {
+   "voz": "Reported pay: about twenty-eight million.",
+   "t0": 4.64,
+   "t1": 6.348
+  },
+  {
+   "voz": "Median employee: about fourteen thousand.",
+   "t0": 6.448,
+   "t1": 8.271
+  },
+  {
+   "voz": "Our people, at every level, are our most important asset.",
+   "t0": 8.611,
+   "t1": 10.981
+  },
+  {
+   "voz": "ten oh three. Difficult Decision.",
+   "t0": 11.101,
+   "t1": 12.758
+  }
+ ],
+ "sintetico": true
+}

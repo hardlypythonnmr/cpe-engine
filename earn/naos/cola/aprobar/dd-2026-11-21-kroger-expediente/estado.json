@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-21-kroger-expediente",
+ "issue": 1332,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T21:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "21a5d9947f9686d806e7d8ac7614375a185cca3702ee05809c59299e957061ea",
+ "hashes": {
+  "carrusel": "2deb0c0d332fa7bfe949ec08e41a5f9e9fdbc5a6390ce5d705f6168d5c20b27c"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885950023,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z"
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "rangoli-for-two",
+ "titulo": "Make light together",
+ "clave": "2026-11-08|rangoli-for-two",
+ "sale_utc": "2026-11-19T12:35:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A dark blue courtyard at night with stars. An amber block figure and a light blue one sit on either side of a round rangoli on the ground; they take turns leaning in, and the rangoli fills ring by ring with petals and dots in coral, yellow, light blue and white. A small clay lamp in the middle lights. The two look at each other with happy eyes. The text stays on screen: if someone sent you this, you are invited to make light together.",
+ "seccion": "humanity",
+ "fuente": "empresa/estrategia/semanal/2026-11-09-grilla.md (casa/lib/semana-1109-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "rangoli-for-two",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5, hasta 18 (D-308); texto en la banda de Stories 270 a 1330 (medir8)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa; sin raya larga"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "revision de fuentes D-246 en cola/aprobar/a-small-light/revision-fuentes.md (misma fiesta, mismos objetos)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}

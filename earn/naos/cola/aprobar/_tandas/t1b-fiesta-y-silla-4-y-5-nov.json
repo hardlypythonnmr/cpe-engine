@@ -1,0 +1,21 @@
+{
+ "nombre": "t1b-fiesta-y-silla-4-y-5-nov",
+ "issue": 896,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "party-reason-none",
+  "introducing-the-chair"
+ ],
+ "comentario_vista_previa_id": 6562374055,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-01T18:54:06Z",
+ "aviso_utc": "2026-11-01T18:54:09Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-01T19:16:27Z",
+ "aprobadas": [
+  "introducing-the-chair",
+  "party-reason-none"
+ ],
+ "cerrada": true
+}

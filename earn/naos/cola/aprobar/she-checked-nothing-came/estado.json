@@ -1,0 +1,22 @@
+{
+ "slug": "she-checked-nothing-came",
+ "issue": 1771,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T07:47:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e650f79230f9fb6835545b792af8bc39f9284307a826dda55edbbc11e16bdffe",
+ "hashes": {
+  "short": "293207b34f901c7852418345cb4aed701b3faf6ffa0171987d06733d3fb9c644"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6956055955,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1921",
+ "aprobado_evento_utc": "2026-11-17T18:55:09Z"
+}

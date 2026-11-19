@@ -1,0 +1,66 @@
+{
+ "slug": "before-6-am-by-cella",
+ "titulo": "Productivity, by Cella",
+ "clave": "2026-11-19|before-6-am-by-cella",
+ "sale_utc": "2026-11-19T15:45:00Z",
+ "tipo": "CM",
+ "caption": "She read the list. She had notes.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "descripcion": "She read the list. She had notes.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A 9-second vertical video with our own music and no voice. A polished online-course card, cream to peach, with a generic instructor avatar, reads “5 Things Successful People Do Before 6 AM”, five gold stars, a price of $997 and a pink Enroll Now button. At 1.2 seconds Cella, a small dark doorway-shaped figure with two white eyes and a flat red crown, slides in from the right and the card spins out of frame. On a lime green field with pop stars, her own list appears: a sticker reads “Things I do before 6 AM”, huge pink word-art reads “1. Sleep.”, then “Beautifully.”, and a sticker says © CELLA. Cella closes her eyes, proud, breathing slowly.",
+ "comentario_fijado": "Her list is shorter. What’s on yours before 6 AM? One word.",
+ "seccion": "humanity",
+ "formato": "short",
+ "filo": "V",
+ "modo": "Cella con música",
+ "receta": "lámina animada de Cella",
+ "junta": "crecimiento",
+ "apuesta": "cuts-the-guru",
+ "variante": "tarjeta",
+ "tanda": "crecimiento-1118",
+ "experimento": true,
+ "experimento_prueba": "tarjeta pulida de gurú en el cuadro 0 que Cella tumba a los 1,2 s, contra el control pareado sin tarjeta (misma lámina, música y hora UTC); vistas, 'se quedó a ver' y visto medio en YouTube a 72 h",
+ "texto_en_pantalla": [
+  "5 Things Successful People Do Before 6 AM",
+  "THINGS I DO BEFORE 6 AM",
+  "1. Sleep.",
+  "Beautifully.",
+  "© CELLA"
+ ],
+ "casa": {
+  "id": "before-6-am-by-cella",
+  "version": 1,
+  "produccion": "cola/crecimiento-1118/_motor/tanda.py",
+  "especificacion": "empresa/crecimiento/diario/2026-11-18.md"
+ },
+ "eco": "D-530 · junta de crecimiento del 18-nov (empresa/crecimiento/diario/2026-11-18.md)",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz; no voice"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own music, motor/musica/pulso.py mode lab, seed 1118, 116 bpm, normalized to -14 LUFS; 0 ElevenLabs credits"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, type 46 px or more (tanda.py revisar, _motor/medida.json)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-527: no mantra, nothing sacred, no health or cure promise; Cella without hands, flat red crown #A8362A"
+  }
+ ]
+}

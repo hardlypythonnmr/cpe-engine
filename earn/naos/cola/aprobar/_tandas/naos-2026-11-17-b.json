@@ -1,0 +1,20 @@
+{
+ "nombre": "naos-2026-11-17-b",
+ "issue": 1753,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "hare-krishna-on-a-thursday",
+  "tao-chapter-one-on-a-saturday"
+ ],
+ "comentario_vista_previa_id": 6947566933,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T12:06:55Z",
+ "aviso_utc": "2026-11-17T12:06:58Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T12:07:36Z",
+ "aprobadas": [
+  "hare-krishna-on-a-thursday",
+  "tao-chapter-one-on-a-saturday"
+ ]
+}

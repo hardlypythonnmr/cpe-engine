@@ -1,0 +1,60 @@
+{
+ "slug": "she-will-not-ask",
+ "titulo": "She has no hands. She will not ask.",
+ "clave": "2026-11-20|she-will-not-ask",
+ "sale_utc": "2026-11-20T21:30:00Z",
+ "caption": "She has no hands. She will not ask.\n\nCella has no hands and a strict policy against help. Day 400. She is thriving.\n\nCloser to yourself.\n\nMore of this: link in bio.\n\n#naos #cella #shorts",
+ "descripcion": "Cella has no hands and a strict policy against help. Day 400. She is thriving.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A room with a door at the right and a low bench at the left. A ink-black block figure with white eyes and a flat red crown leans its forehead against the closed door and strains; a royal-blue figure sits on the bench and watches. The door swings open by itself, the black figure steps in with its crown held high and happy eyes, steps back out, the door closes, and it leans on the door again, exactly as at the start. White subtitles at the bottom read: She has no hands. She will not ask. Day 400. She has no hands.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "she-will-not-ask",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -0.9 dBFS, LRA 0.7 LU; own music (motor/sonido midi, room puerta, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Crítico",
+   "estado": "OK",
+   "nota": "naos-arte-critico 17-nov: Fix aplicado (Day 400. para quedar en 14 palabras con la repeticion del bucle; subtitulo en la mitad superior vacia con trazo y sombra firmes; corona solo en la Cella que empuja la puerta)"
+  }
+ ],
+ "filo": "V",
+ "tema": "nunca pedir ayuda",
+ "blanco": "Cella",
+ "destinatario": "whoever never asks for help",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "bucle",
+ "experimento": true,
+ "junta": "crecimiento",
+ "apuesta": "the-loop",
+ "experimento_prueba": "bucle cerrado y narrador seco en tercera persona contra CM con remate abierto; porcentaje visto y vistas en YouTube a 24, 48 y 72 h",
+ "tanda": "crecimiento-1921",
+ "mecanica_crecimiento": "bucle",
+ "receta": "CM bucle",
+ "tanda_origen": "crecimiento-1921",
+ "modo": "Cella con música"
+}

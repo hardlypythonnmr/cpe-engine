@@ -1,0 +1,470 @@
+{
+ "id": "eyes-elsewhere",
+ "canal": "naos",
+ "tipo": "CM",
+ "cuarto": "mesa",
+ "control": false,
+ "carpeta": "earn/naos/cola/aprobar/eyes-elsewhere",
+ "sale_utc": "2026-11-19T00:15:00Z",
+ "material": {
+  "gancho": null,
+  "guion": [],
+  "formato": null,
+  "referencia": null,
+  "titulo": "2 of us, 1 phone",
+  "caption": "2 of us, 1 phone\n\n2 of us, 1 phone. (my eyes drift) (and back)\n\nEveryone's talking about a cheating rumor this week. The research is quieter.\n\nThe theory: across 8 studies, people higher in avoidant attachment showed more attention to attractive alternatives, more interest in meeting them and more infidelity over time, with lower commitment as the link (DeWall, Lambert, Slotter, Pond, Deckman, Finkel, Luchies and Fincham, 2011, Journal of Personality and Social Psychology). A pattern in those studies, not a destiny and not a diagnosis.\n\n#Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+  "alt": "A short film with no voice, with music. A sage-green room with a small side table at the left holding a phone. Two small block figures with white eyes, an ink-black one on the left and a cobalt one on the right, look at each other and pulse softly, the cobalt one tilting its head. The phone lights up with rings and buzzes, and the black one's eyes go wide and drift to it while the cobalt one tilts its head toward it. Then the black one looks back, its eyes turn happy, both pulse together, and it leans a little toward the cobalt one. The text: 2 of us, 1 phone, my eyes drift, and back.",
+  "canales": [
+   "short",
+   "reel"
+  ],
+  "texto_en_pantalla": [
+   "2 of us, / 1 phone.",
+   "(my eyes / drift)",
+   "(and back)"
+  ],
+  "primera_voz_s": null,
+  "apertura_contacto": {
+   "fuente": "contacto.png (24 cuadros, tiempos aproximados)",
+   "dur": 10,
+   "t_primer_texto": 0,
+   "palabras_primer_texto": 6,
+   "tinta_cuadro0": 0.132,
+   "cambio_0_15": 0.064,
+   "cambio_15_30": 0.084
+  },
+  "tira_apertura": null,
+  "dur": 10.0,
+  "racha_quieta_mayor": null,
+  "render_seg": null
+ },
+ "instrucciones": "Contesta cada pregunta con si o no y una evidencia de una linea (un enlace, una cifra o lo que se ve en la tira). Si no hay evidencia, la respuesta es no. Mira la tira de apertura antes de contestar V5, E1 y E2. Escribe tambien 'comparte': por que alguien la compartiria, en una linea con evidencia.",
+ "preguntas": [
+  {
+   "id": "V1",
+   "eje": "viralidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "Alguien puede nombrar a una persona concreta a quien enviarle esta pieza ('esto es para mi hermana', 'mi jefe', 'mi grupo')?"
+  },
+  {
+   "id": "V2",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "El primer giro de la pieza provoca una emocion de alta activacion (asombro, indignacion, ansiedad moderada, risa) y no tristeza o calma?"
+  },
+  {
+   "id": "V3",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "Hay una cifra, dato o giro sorprendente que se pueda repetir en una frase sin ver el video?"
+  },
+  {
+   "id": "V4",
+   "eje": "viralidad",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "La historia mueve a la gente: es un atipico (el dato que no deberia estar ahi), una innovacion, algo de gran escala o grandeza, lo saturado o lo vacio, o tiene algo en juego (politica, plata, poder)? Lo obvio ('Diwali se mira en Diwali') puntua cero."
+  },
+  {
+   "id": "V5",
+   "eje": "viralidad",
+   "puntos": 1,
+   "tipo": "juicio",
+   "pregunta": "Se entiende con el sonido apagado y sin conocer el canal (texto o imagen cuentan la promesa)?"
+  },
+  {
+   "id": "E1",
+   "eje": "engagement",
+   "puntos": 3,
+   "tipo": "juicio",
+   "pregunta": "Entre 0 y 1,5 s pasa algo en pantalla (movimiento, cifra, rostro o figura, promesa escrita) y la primera palabra hablada llega antes de 1 s?"
+  },
+  {
+   "id": "E2",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "La promesa del gancho se cumple antes del final y el cierre da una razon para llegar hasta el ultimo segundo (giro, respuesta retenida, cifra al final)?"
+  },
+  {
+   "id": "E3",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El final enlaza con el inicio o invita a repetir (bucle) sin trampa?"
+  },
+  {
+   "id": "E4",
+   "eje": "engagement",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "Hay una postura, pregunta o dato discutible que invite a responder en comentarios?"
+  },
+  {
+   "id": "E5",
+   "eje": "engagement",
+   "puntos": 1,
+   "tipo": "juicio",
+   "pregunta": "El titulo y el gancho prometen solo lo que la pieza cumple, y la ultima oracion no es un aviso legal o formal (el aviso va dentro de una frase antes del climax y lo formal en la descripcion)?"
+  },
+  {
+   "id": "A1",
+   "eje": "alcance",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "Existe un precedente comparable (misma estructura, canal de tamano parecido) con al menos 3 veces la mediana de su canal, con numeros y enlace?"
+  },
+  {
+   "id": "A2",
+   "eje": "alcance",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "La pieza es un episodio de un formato con nombre y estructura reconocible, y tiene su propia historia (no una plantilla con otro dato)?"
+  },
+  {
+   "id": "A3",
+   "eje": "alcance",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El tema tiene demanda hoy en ingles (tendencia, busqueda o noticia con fecha del dia anotada) y la audiencia probable esta en paises de nivel alto (EE. UU., Reino Unido, Canada, Australia, Alemania)?"
+  },
+  {
+   "id": "A4",
+   "eje": "alcance",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "La pieza es original y nativa (hecha por nosotros, vertical, sin recorte de otro, con la etiqueta de IA si la plataforma la pide)?"
+  },
+  {
+   "id": "R1",
+   "eje": "rentabilidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "El costo de la pieza (USD-eq de Claude + creditos de voz + render) esta estimado con las cifras medidas y cabe en su tope por pieza?"
+  },
+  {
+   "id": "R2",
+   "eje": "rentabilidad",
+   "puntos": 3,
+   "tipo": "dato",
+   "pregunta": "El canal tiene una ruta creible al umbral de pago de Shorts (10 M de vistas comprometidas en 90 dias) o un ingreso alterno con cifra (producto, afiliado, enlace)?"
+  },
+  {
+   "id": "R3",
+   "eje": "rentabilidad",
+   "puntos": 2,
+   "tipo": "juicio",
+   "pregunta": "El tema cae en un rubro con RPM de Shorts medio o alto (finanzas, tecnologia e IA, salud) o con anunciantes que no limitan los anuncios (sin tragedia, sin politica caliente)?"
+  },
+  {
+   "id": "R4",
+   "eje": "rentabilidad",
+   "puntos": 2,
+   "tipo": "dato",
+   "pregunta": "La serie cumple la politica de YouTube sobre contenido inautentico y sobre divulgacion de voz o imagen sintetica realista (sin personas reales, con casilla marcada si aplica)?"
+  }
+ ],
+ "piso": [
+  {
+   "id": "P1",
+   "regla": "Profundidad: debajo de la pieza hay algo cierto (conducta, mecanismo o dato con fuente) y la claridad manda sobre el filo."
+  },
+  {
+   "id": "P2",
+   "regla": "Respeto: toda tradicion se cuenta con su procedencia (de donde viene y quien lo dice); mantras oidos por N y cotejados por el juez de respeto."
+  },
+  {
+   "id": "P3",
+   "regla": "Linea de ayuda: toda pieza nueva sobre duelo, perdida, crisis o soledad dolorosa lleva linea de ayuda en caption o descripcion; lo programado sin ella es excepcion registrada."
+  },
+  {
+   "id": "P4",
+   "regla": "Protocolos de frio, calor, ayuno, carga y respiracion: completos, con fuentes verificables y sin prometer salud; la nota del lente de cumplimiento va en la tanda."
+  },
+  {
+   "id": "P5",
+   "regla": "Lo que rompe cualquier punto del piso no sale aunque puntue 10 en todos los ejes."
+  }
+ ],
+ "compuertas": [
+  {
+   "id": "C1",
+   "regla": "Contenido inautentico: cada pieza tiene su propia historia, enfoque o concepto; intros y outros compartidos solo si el grueso difiere. Sin 'mismo caso, mismo desenlace', sin texto desplazandose sin narrativa."
+  },
+  {
+   "id": "C2",
+   "regla": "Divulgacion de contenido alterado o sintetico: obligatoria si el contenido es realista (una persona real que parezca decir o hacer algo que no hizo, sucesos o lugares reales alterados, musica generada como foco). No obliga para contenido no realista (animacion), ni para guion, titulo o ayudas de produccion. Una voz de narrador sintetico que no imita a nadie queda fuera de la lista explicita, pero la lista 'no es exhaustiva': confirmar el caso de Mercury."
+  },
+  {
+   "id": "C3",
+   "regla": "Mercury: nunca salen solos resultados electorales, muertes y desastres, voces de personas reales, consejo medico, legal o financiero ni fuentes sin abrir; el borde rentable va en tema y tono, nunca en evadir detecciones."
+  }
+ ],
+ "datos": {
+  "tipo": "CM",
+  "cuarto": "mesa",
+  "alcance": {
+   "tipo": "CM",
+   "cuarto": "mesa",
+   "canal": "naos",
+   "plataformas": {
+    "IG": {
+     "v48": {
+      "nivel": "tipo",
+      "n": 17,
+      "abierto": false,
+      "p25": 144.0,
+      "p50": 157.0,
+      "p75": 291.0,
+      "min": 52.0,
+      "max": 1641.0
+     },
+     "v7": {
+      "nivel": "tipo",
+      "n": 12,
+      "abierto": false,
+      "p25": 150.0,
+      "p50": 171.0,
+      "p75": 330.0,
+      "min": 52.0,
+      "max": 1505.0
+     }
+    },
+    "YT": {
+     "v48": {
+      "nivel": "tipo y cuarto",
+      "n": 5,
+      "abierto": false,
+      "p25": 363.0,
+      "p50": 892.0,
+      "p75": 913.0,
+      "min": 8.0,
+      "max": 979.0
+     },
+     "v7": {
+      "nivel": "tipo y cuarto",
+      "n": 5,
+      "abierto": false,
+      "p25": 367.0,
+      "p50": 902.0,
+      "p75": 931.0,
+      "min": 8.0,
+      "max": 981.0
+     }
+    }
+   },
+   "regla": "mediana y cuartiles del mismo tipo y cuarto; con menos de 5 comparables el rango se abre con la plataforma",
+   "nota_7d": "a 7 dias = corte entre 144 y 230 h; si la pieza ya era mas vieja al primer corte, ese corte (curvas planas); vistas = vistas del API, o alcance si faltan"
+  },
+  "retencion_3s": {
+   "IG": {
+    "plataforma": "IG",
+    "retencion_pct": {
+     "n": 0,
+     "aviso": "Instagram no guarda el Skip Rate en metricas-piezas.csv; solo tiempo medio (segundos)"
+    },
+    "base": "medicion/metricas-piezas.csv, columna retencion_pct (YouTube: 'siguio viendo' contra 'deslizo'; es la cifra de 3 s del panel)",
+    "tiempo_medio_s": {
+     "nivel": "tipo",
+     "n": 22,
+     "abierto": false,
+     "p25": 5.0,
+     "p50": 5.7,
+     "p75": 6.4,
+     "min": 2.1,
+     "max": 8.1
+    },
+    "juez_del_gancho": "medicion/ganadoras-0a3s.md esta vacia: el juez del gancho aun no tiene tabla propia que lo respalde; su 'pasa' ordena pero no mueve el numero"
+   },
+   "YT": {
+    "plataforma": "YT",
+    "retencion_pct": {
+     "nivel": "tipo",
+     "n": 20,
+     "abierto": false,
+     "p25": 75.2,
+     "p50": 81.5,
+     "p75": 94.1,
+     "min": 0.0,
+     "max": 119.77
+    },
+    "base": "medicion/metricas-piezas.csv, columna retencion_pct (YouTube: 'siguio viendo' contra 'deslizo'; es la cifra de 3 s del panel)",
+    "juez_del_gancho": "medicion/ganadoras-0a3s.md esta vacia: el juez del gancho aun no tiene tabla propia que lo respalde; su 'pasa' ordena pero no mueve el numero"
+   }
+  },
+  "costo": {
+   "tipo": "CM",
+   "canal": "naos",
+   "claude_usd_eq": {
+    "central": 4.42,
+    "min": 1.8,
+    "max": 25.5,
+    "atribuible_por_tipo": false,
+    "n": 4,
+    "base": "4 corridas medidas del agente naos-casa-constructor (3,57; 1,80; 7,29; 5,01 USD-eq, de 1 a 4 agentes cada una; piezas por corrida sin registrar, asi que por pieza es esto o menos); max = el promedio de un Short completo",
+    "fuente": "empresa/infraestructura/costos.csv (subagente:naos-casa-constructor)"
+   },
+   "voz": {
+    "creditos": 0,
+    "usd": 0.0,
+    "base": "sin voz; musica propia (motor/musica/pulso.py)"
+   },
+   "render": {
+    "minutos": 0.5,
+    "usd_si_fuera_actions": 0.003,
+    "base": "short y casa: sin medir, supuesto 30 s (12 a 60 s por video de 10 s a 1080x1920); mercury 118,5 s medido; largo 25 a 35 min medido"
+   },
+   "efectivo_usd": 0.0,
+   "efectivo_nota": "dinero que sale de verdad por pieza: voz (el render corre en el contenedor y Claude es suscripcion con tope)",
+   "total_usd_eq": {
+    "central": 4.42,
+    "min": 1.8,
+    "max": 25.5
+   },
+   "tope_usd_eq": 7.0,
+   "cabe_en_el_tope": true,
+   "medido_por_tipo": false
+  },
+  "rentabilidad": {
+   "tipo": "CM",
+   "canal": "naos",
+   "ingreso_directo_hoy_usd": 0.0,
+   "motivo": "el canal no esta en YPP (sin 1.000 suscriptores ni 10 M de vistas de Shorts en 90 dias)",
+   "costo_total_usd_eq": {
+    "central": 4.42,
+    "min": 1.8,
+    "max": 25.5
+   },
+   "costo_efectivo_usd": 0.0,
+   "rpm_tema": {
+    "rubro": "Mayoria de los temas (mediana)",
+    "lo": 0.02,
+    "hi": 0.2,
+    "confianza": "media: 274 canales, 3.044 canal-mes, 13 rubros, API de YouTube, actualizado 17-sep-2026; no publica noticias, finanzas ni tecnologia",
+    "fuente": "https://air.io/en/air-data-findings/what-is-youtube-shorts-rpm-in-your-niche-in-2026"
+   },
+   "neto_hoy_usd_eq": -4.42,
+   "ingreso_si_ypp_por_pieza_usd": {
+    "rango": [
+     0.018,
+     0.1804
+    ],
+    "base": "vistas YT a 7 dias (mediana 902.0) por 1.000 x RPM del tema (0.02 a 0.2); estimacion"
+   },
+   "neto_si_ypp_usd_eq": -4.24,
+   "vistas_90d_proyectadas": 83790,
+   "avance_umbral_shorts_pct": 0.838,
+   "ruta_credible": false,
+   "usd_eq_por_mil_vistas_7d": 4.1,
+   "umbrales": {
+    "hoy": "1.000 suscriptores y 4.000 horas publicas de largo en 12 meses, o 1.000 suscriptores y 10 M de vistas de Shorts en 90 dias",
+    "desde_2027_02_01": "entrada: 8.000 horas en 365 dias o 20 M de vistas de Shorts en 90 dias; canales ya dentro cobran la parte de Shorts solo con 10 M de vistas de Shorts en 90 dias (el largo sigue); terminos aceptados en Studio antes del 31-ene-2027",
+    "fuente": "https://support.google.com/youtube/answer/72851"
+   }
+  }
+ },
+ "comparte": {
+  "linea": "Quien se reconoce en el cuadro la envia a su pareja o amigo con 'ok, esto soy yo'",
+  "evidencia": "Cuadros 4-7 s: la mirada va al telefono y regresa sin juicio; base: 2 de 40 piezas con envios, asi que es una apuesta, no un dato",
+  "base": {
+   "n": 40,
+   "con_envios": 2,
+   "envios_por_mil_alcance_mediana": 0.0,
+   "envios_por_mil_alcance_media": 0.1,
+   "fuente": "medicion/metricas-piezas.csv (ultimo corte de cada pieza)"
+  }
+ },
+ "respuestas": {
+  "A1": {
+   "si": true,
+   "medido": true,
+   "evidencia": "no-hands-we-bump (IG): 1505 vistas a 7 dias = 8.8 veces la mediana del tipo (171, n=12); medicion/metricas-piezas.csv"
+  },
+  "R1": {
+   "si": false,
+   "medido": true,
+   "evidencia": "Claude 4.42 USD-eq (rango 1.8 a 25.5; promedio, no atribuible por tipo), tope 7.0; voz 0 creditos = 0.0 USD"
+  },
+  "R2": {
+   "si": false,
+   "medido": true,
+   "evidencia": "vistas proyectadas a 90 dias 83790 = 0.838 % del umbral de 10 M; ingreso alterno con cifra: ninguno"
+  },
+  "R3": {
+   "si": false,
+   "medido": true,
+   "evidencia": "rubro 'Mayoria de los temas (mediana)': RPM 0.02 a 0.2 USD por 1.000 vistas (media: 274 canales, 3.044 canal-mes, 13 ); estimacion de terceros"
+  },
+  "V1": {
+   "si": true,
+   "evidencia": "Se la manda quien vive la sospecha o la culpa en pareja ('esto somos nosotros'); la lectura de rumor de la semana da el pretexto"
+  },
+  "V2": {
+   "si": false,
+   "evidencia": "El giro es la mirada al telefono y el regreso; emocion de calma y ternura, no de alta activacion"
+  },
+  "V3": {
+   "si": false,
+   "evidencia": "Sin cifra en pantalla (sin_cifras); el giro 'mis ojos se van y vuelven' se repite en una frase pero no sorprende"
+  },
+  "V4": {
+   "si": true,
+   "evidencia": "Tiene algo en juego (la pareja, la infidelidad) y el rumor de la semana; pero es patron, no atipico"
+  },
+  "V5": {
+   "si": true,
+   "evidencia": "Cuadros 0 y 3: '2 of us, 1 phone.' y el telefono que se enciende; sin sonido se lee la mirada que se va y vuelve"
+  },
+  "E1": {
+   "si": false,
+   "evidencia": "Cuadro 0 con texto de 6 palabras legible; cambio 0-0,5 s de 0,4 % y solo se inclina el azul: casi quieto; no hay voz (sin voz, la mitad de la pregunta no aplica)"
+  },
+  "E2": {
+   "si": true,
+   "evidencia": "El telefono se enciende ~3 s, la mirada se va ~4-6 s y vuelve ~7 s: el giro llega antes del final y cierra con las miradas felices"
+  },
+  "E3": {
+   "si": true,
+   "evidencia": "El ultimo cuadro devuelve los ojos y la pose del cuadro 0; bucle de 10,0 s con musica en bucle"
+  },
+  "E4": {
+   "si": true,
+   "evidencia": "Postura discutible: mirar el telefono estando juntos; invita a responder 'a mi me pasa', pero sensible, sin juicio"
+  },
+  "E5": {
+   "si": true,
+   "evidencia": "El titulo promete 2 y 1 telefono y la pieza lo cumple; la ultima oracion del caption es 'Closer to yourself / More behaviors', no aviso legal; el aviso 'not a destiny' va dentro del caption"
+  },
+  "A2": {
+   "si": true,
+   "evidencia": "Formato con nombre: CM de la casa (cuarto mesa), receta de nobody-saw; historia propia: 8 estudios DeWall 2011 sobre apego evitativo"
+  },
+  "A3": {
+   "si": false,
+   "evidencia": "Rumor de Bluesky sin nombre, sin medio serio con fecha en la nota del Hook; demanda sin cifra anotada"
+  },
+  "A4": {
+   "si": true,
+   "evidencia": "Hecha por nosotros, vertical 1080x1920, animacion no realista, sin recorte ajeno, musica propia (pulso.py)"
+  },
+  "R4": {
+   "si": true,
+   "evidencia": "Animacion no realista, sin personas reales ni voz sintetica; musica propia sin muestras; contenido inautentico: historia propia"
+  }
+ },
+ "piso_ok": {
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": true
+ },
+ "compuertas_ok": {
+  "C1": true,
+  "C2": true,
+  "C3": true
+ }
+}

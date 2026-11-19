@@ -1,0 +1,24 @@
+{
+ "nombre": "naos-2026-11-17-tendencia",
+ "issue": 1760,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "task-and-phone",
+  "two-minutes-start",
+  "task-label-intended-vs-did",
+  "face-down-for-now"
+ ],
+ "comentario_vista_previa_id": 6951735621,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T14:59:23Z",
+ "aviso_utc": "2026-11-17T14:59:29Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T16:47:28Z",
+ "aprobadas": [
+  "face-down-for-now",
+  "task-and-phone",
+  "task-label-intended-vs-did",
+  "two-minutes-start"
+ ]
+}

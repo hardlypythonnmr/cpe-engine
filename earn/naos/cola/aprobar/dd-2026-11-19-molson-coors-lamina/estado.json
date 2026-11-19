@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-molson-coors-lamina",
+ "issue": 1802,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T01:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "cd359cecb6378bf9a9681e3aa0de67bf8a019db8624d8d72c8cbc268af82cd02",
+ "hashes": {
+  "imagen": "02651e260e1d941e5dcbf9ba31c638f8de4d4eba001d76de7c3b39b6948b15e2"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7008376391,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:56:19Z",
+ "veto_hasta_utc": "2026-11-19T12:56:19Z"
+}

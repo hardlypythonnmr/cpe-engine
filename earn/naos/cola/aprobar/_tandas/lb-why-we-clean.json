@@ -1,0 +1,18 @@
+{
+ "nombre": "lb-why-we-clean",
+ "issue": 934,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "why-we-clean-the-kitchen-instead"
+ ],
+ "comentario_vista_previa_id": 6644162099,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-04T22:49:53Z",
+ "aviso_utc": "2026-11-04T22:49:57Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T01:20:17Z",
+ "aprobadas": [
+  "why-we-clean-the-kitchen-instead"
+ ]
+}

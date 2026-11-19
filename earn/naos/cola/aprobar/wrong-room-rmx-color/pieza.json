@@ -1,0 +1,71 @@
+{
+ "slug": "wrong-room-rmx-color",
+ "titulo": "Forgot why I came up: stop, say what for, one step down",
+ "clave": "2026-11-21|wrong-room-rmx-color",
+ "sale_utc": "2026-11-21T19:25:00Z",
+ "caption": "Forgot why I came up: stop, say what for, one step down\n\nI forgot why I came up. If I forget why I came, I stop and say what for: a slow in, a rest on the landing, one step down. Wrong room. For whoever stands in doorways like this.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "I forgot why I came up. If I forget why I came, I stop and say what for: a slow in, a rest on the landing, one step down. Wrong room. For whoever stands in doorways like this.\n\nWhen do I forget why I came up? Just the situation, a few words.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": true,
+ "alt": "A short film on a flat-color background in a escaleras: a small doorway-shaped figure beside escalera-rellano. The caption \"I forgot why I came up.\" appears with, beneath it in italics, \"I was moving without knowing where.\" Then the rule: \"If I forget why I came,\" with an arrow down to \"I stop and say what for.\" A line rises and falls over the figure's head as it breathes: In, Landing, Step. The question \"When do I forget why I came up?\" and then a card with the sentence \"I forget why I came up when ______.\" and a blank line to fill in. The last words: \"Closer to your stairs.\" and \"Closer to yourself.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "When do I forget why I came up? Just the situation, a few words. The rest stays private.",
+ "casa": {
+  "id": "c6-escaleras-v7",
+  "version": 7
+ },
+ "revisiones": [
+  {
+   "que": "Remix",
+   "estado": "OK",
+   "nota": "D-531: same sound as wrong-room (no new ElevenLabs call); test axis color, arm B (A = the original); changes: room field from coral #E78568 to dawn mint #BFE3D2 (ventana-alba palette); Cella, floor and text untouched"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "20.60 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.4 dBFS, the original's mix untouched (only cut, reordered or faded)"
+  },
+  {
+   "que": "Repeat risk",
+   "estado": "AVISO",
+   "nota": "dHash best match 3.8 of 64 bits (threshold 14), colour change 50.6: misma forma, otro color (motor/remezcla/RIESGO.md)"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "elevenlabs mesa-maya eleven_v4, each line its own take so the marks stay exact; no atempo; breath bed from aire.py under the voice"
+  }
+ ],
+ "remezcla": {
+  "origen": "wrong-room",
+  "eje": "color",
+  "brazo": "B",
+  "control": "A = wrong-room",
+  "experimento": "rmx-2026-11-19",
+  "cambios": [
+   "room field from coral #E78568 to dawn mint #BFE3D2 (ventana-alba palette); Cella, floor and text untouched"
+  ],
+  "huella": {
+   "dhash_media": 3.8,
+   "dhash_min": 1,
+   "umbral": 14,
+   "cambio_color": 50.6,
+   "distinta": false,
+   "lectura": "misma forma, otro color"
+  },
+  "elevenlabs_llamadas": 0,
+  "decision": "D-531"
+ }
+}

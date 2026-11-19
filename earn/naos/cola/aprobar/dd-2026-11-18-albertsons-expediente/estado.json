@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-18-albertsons-expediente",
+ "issue": 1789,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T03:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "7d2439e0543bcce194698297254d8898de5c531110518343a4609785802b5be8",
+ "hashes": {
+  "carrusel": "08b6c0bd6adfcfdec976c17e8a7ac0e564edd34a1fb9d00a01ff811940c5635b"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6978475052,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z",
+ "reel_fallo_utc": "2026-11-19T03:02:21Z"
+}

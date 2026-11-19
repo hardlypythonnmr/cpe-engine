@@ -1,0 +1,88 @@
+{
+ "slug": "dd-2026-11-20-f7-patron-amazon",
+ "titulo": "Cancel Amazon Prime: The 'Iliad' Flow the FTC Alleged",
+ "clave": "2026-11-20|mercury|dd2|2026-11-20-f7-patron-amazon",
+ "sale_utc": "2026-11-20T18:00:00Z",
+ "caption": "Cancel Amazon Prime: The 'Iliad' Flow the FTC Alleged\n\nCancel Amazon Prime: the FTC alleged Amazon called its own cancellation flow \"Iliad\". Four pages, six clicks, fifteen options. Signing up: one or two clicks, per the complaint. In 2025 Amazon settled for $2.5 billion, about 35 million consumers, with no admission of the allegations.\n\nSources: FTC complaint (Jun 2023, via AP); FTC press release (Sep 25, 2025). Screens are illustrations.\n\n#AmazonPrime #CancelAmazonPrime #AmazonSettlement #FTC #DarkPatterns #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Cancel Amazon Prime: why was it so hard? In its June 2023 complaint, the FTC alleged that Amazon's own internal name for its Prime cancellation flow was \"Iliad\", after the long Greek epic. Per the complaint, it was a four-page, six-click, fifteen-option process. Signing up took one or two clicks.\n\nHow did it end? On Sep 25, 2025 the FTC announced a $2.5 billion settlement with Amazon: a $1 billion civil penalty and $1.5 billion in refunds for an estimated 35 million consumers. Amazon did not admit the allegations.\n\nThe screens in this video are illustrations of the flow the complaint describes, not real screenshots.\n\nSources: FTC v. Amazon complaint, Jun 21, 2023 (allegations, as reported by AP); FTC press release, Sep 25, 2025.\n\n#AmazonPrime #CancelAmazonPrime #AmazonSettlement #FTC #DarkPatterns #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video on how to cancel Amazon Prime: illustrated cancellation screens of the 'Iliad' flow the FTC alleged, four pages, six clicks, fifteen options, then the $2.5 billion settlement.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "f7-patron-amazon",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon",
+   "medio": "FTC",
+   "titulo": "FTC Secures Historic $2.5 Billion Settlement Against Amazon, Sep 25, 2025",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.insurancejournal.com/news/national/2023/06/21/726807.htm",
+   "medio": "Insurance Journal (AP)",
+   "titulo": "FTC Sues Amazon for Hindering Consumer Attempts to Cancel Prime, Jun 21, 2023",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": false,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "33.9 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Okay. Try to cancel Prime. The F.T.C. alleged Amazon's own name for this flow was... Iliad. Four pages. Six clicks. Fifteen options. Just to say no. Signing up? One or two clicks. Per the complaint. Twenty twenty-five: Amazon settled. Two and a half BILLION dollars. About thirty-five million people. No admission of the allegations.",
+ "tramos": [
+  {
+   "voz": "Okay. Try to cancel Prime. The F.T.C. alleged Amazon's own name for this flow was... Iliad.",
+   "t0": 0.2,
+   "t1": 8.44
+  },
+  {
+   "voz": "Four pages. Six clicks. Fifteen options. Just to say no.",
+   "t0": 9.1,
+   "t1": 15.66
+  },
+  {
+   "voz": "Signing up? One or two clicks. Per the complaint.",
+   "t0": 16.1,
+   "t1": 19.78
+  },
+  {
+   "voz": "Twenty twenty-five: Amazon settled. Two and a half BILLION dollars. About thirty-five million people. No admission of the allegations.",
+   "t0": 20.2,
+   "t1": 30.04
+  }
+ ],
+ "sintetico": true
+}

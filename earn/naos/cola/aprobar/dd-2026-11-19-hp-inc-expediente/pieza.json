@@ -1,0 +1,65 @@
+{
+ "slug": "dd-2026-11-19-hp-inc-expediente",
+ "titulo": "HP Inc. (Nov 2022): $1.1 billion returned to shareholders, about 4,000 jobs cuts planned. The math.",
+ "clave": "2026-11-19|mercury|expediente|2026-11-19-hp-inc-expediente",
+ "sale_utc": "2026-11-19T13:00:00Z",
+ "caption": "From the archive: Nov 2022. Not today's news.\nHP Inc., Nov 22, 2022 (HP, Form 8-K): \"enable digital transformation, portfolio optimization and operational efficiency\"\nHP's 8-K, filed Nov. 22, 2022, says its board approved a plan to cut about 4,000 to 6,000 employees by fiscal 2025. Its 10-K says HP returned $1.1 billion to shareholders in fiscal 2023.\n\nFiscal 2023: $1.1 billion returned to shareholders, fiscal 2023. $1.1 billion returned to shareholders in fiscal 2023 (the year that began Nov. 1, 2022): $1.0 billion in cash dividends and $0.1 billion in share repurchases.\nThe math: $1.1 billion to shareholders (2023) ÷ about 4,000 job cuts = about $275,000 to shareholders per planned job cut.\nThe facts: $1.1 billion returned to shareholders, fiscal 2023 (HP 10-K, fiscal 2023, Dec 18, 2023). about 4,000 jobs cuts planned by FY2025 (HP 8-K, Item 2.05, Nov 22, 2022). The $1.1 billion is what HP returned to shareholders in fiscal 2023 (the year that began Nov. 1, 2022): $1.0 billion in cash dividends and $0.1 billion in share repurchases. The job count is the low end of HP's planned 4,000 to 6,000 employees by the end of fiscal 2025. At 6,000 the same division gives about $183,333 per job cut.\n\nEfficiency, in the filing. Shareholders, in the column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSources: HP 8-K, Item 2.05, Nov 22, 2022; HP 10-K, fiscal 2023, Dec 18, 2023.\n\nSwipe: the sentence, the number, the math, our take.\n\nFind the link in bio.",
+ "descripcion": "From the archive: Nov 2022. Not today's news.\nHP Inc., Nov 22, 2022 (HP, Form 8-K): \"enable digital transformation, portfolio optimization and operational efficiency\"\nHP's 8-K, filed Nov. 22, 2022, says its board approved a plan to cut about 4,000 to 6,000 employees by fiscal 2025. Its 10-K says HP returned $1.1 billion to shareholders in fiscal 2023.\n\nFiscal 2023: $1.1 billion returned to shareholders, fiscal 2023. $1.1 billion returned to shareholders in fiscal 2023 (the year that began Nov. 1, 2022): $1.0 billion in cash dividends and $0.1 billion in share repurchases.\nThe math: $1.1 billion to shareholders (2023) ÷ about 4,000 job cuts = about $275,000 to shareholders per planned job cut.\nThe facts: $1.1 billion returned to shareholders, fiscal 2023 (HP 10-K, fiscal 2023, Dec 18, 2023). about 4,000 jobs cuts planned by FY2025 (HP 8-K, Item 2.05, Nov 22, 2022). The $1.1 billion is what HP returned to shareholders in fiscal 2023 (the year that began Nov. 1, 2022): $1.0 billion in cash dividends and $0.1 billion in share repurchases. The job count is the low end of HP's planned 4,000 to 6,000 employees by the end of fiscal 2025. At 6,000 the same division gives about $183,333 per job cut.\n\nEfficiency, in the filing. Shareholders, in the column. (Our take.)\n\nSources:\n- HP 8-K, Item 2.05, Nov 22, 2022: «On November 18, 2022, the Board of Directors (the “Board”) of HP approved a plan intended to enable digital transformation, portfolio optimization and operational efficiency» and «HP expects to incur approximately $0.7 billion in labor costs related to workforce reductions of approximately 4,000» https://www.sec.gov/Archives/edgar/data/47217/000004721722000061/hpq-20221118.htm\n- HP 10-K, fiscal 2023, Dec 18, 2023: «In fiscal year 2023, HP returned $1.1 billion to shareholders in the form of cash dividends of $1.0 billion and share repurchases of $0.1 billion» https://www.sec.gov/Archives/edgar/data/47217/000004721723000100/hpq-20231031.htm",
+ "alt": "Five paper-colored cards. 1: HP Inc., Nov 22, 2022, the quote \"enable digital transformation, portfolio optimization and operational efficiency\" struck through in dark red, and the words Then the math. 2: the full sentence with its context and source. 3: the number, $1.1 billion returned to shareholders, fiscal 2023. 4: the division, ending in $275,000 to shareholders, per planned job cut, on a yellow highlight. 5: our take: \"Efficiency, in the filing. Shareholders, in the column.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "expediente",
+ "formato": "carrusel",
+ "origen": "c2/linea/2026-11-19/hp-2022-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721722000061/hpq-20221118.htm",
+   "medio": "SEC EDGAR · HP",
+   "titulo": "HP Form 8-K, Item 2.05",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721723000100/hpq-20231031.htm",
+   "medio": "SEC EDGAR · HP",
+   "titulo": "HP Form 10-K",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ]
+}

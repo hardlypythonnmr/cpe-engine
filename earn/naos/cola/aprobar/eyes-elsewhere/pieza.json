@@ -1,0 +1,57 @@
+{
+ "slug": "eyes-elsewhere",
+ "titulo": "2 of us, 1 phone",
+ "clave": "2026-11-18|casa-mesa",
+ "sale_utc": "2026-11-19T00:15:00Z",
+ "caption": "2 of us, 1 phone\n\n2 of us, 1 phone. (my eyes drift) (and back)\n\nPeople online are talking about a cheating rumor. The research is quieter.\n\nThe theory: across 8 studies, higher avoidant attachment went with more attention to attractive alternatives, more interest in meeting them and more infidelity over time, with lower commitment as the statistical link (DeWall, Lambert, Slotter, Pond, Deckman, Finkel, Luchies and Fincham, 2011, Journal of Personality and Social Psychology). A pattern in those studies, not a destiny and not a diagnosis.\n\n#Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "2 of us, 1 phone. (my eyes drift) (and back)\n\nPeople online are talking about a cheating rumor. The research is quieter.\n\nThe theory: across 8 studies, higher avoidant attachment went with more attention to attractive alternatives, more interest in meeting them and more infidelity over time, with lower commitment as the statistical link (DeWall, Lambert, Slotter, Pond, Deckman, Finkel, Luchies and Fincham, 2011, Journal of Personality and Social Psychology). A pattern in those studies, not a destiny and not a diagnosis.\n\n#Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A sage-green room with a small side table at the left holding a phone. Two small block figures with white eyes, an ink-black one on the left and a cobalt one on the right, look at each other and pulse softly, the cobalt one tilting its head. The phone lights up with rings and buzzes, and the black one's eyes go wide and drift to it while the cobalt one tilts its head toward it. Then the black one looks back, its eyes turn happy, both pulse together, and it leans a little toward the cobalt one. The text: 2 of us, 1 phone, my eyes drift, and back.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "eyes-elsewhere",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.4 dBFS, LRA 0.8 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Hook",
+   "estado": "OK",
+   "nota": "Rumor de Bluesky sin nombre (tendencia desde el 11-nov, sin medio serio con fecha); la pieza se para si el rumor se desmiente o si un medio serio lo publica con nombre antes de salir. El caption solo dice que se habla de un rumor, sin pistas."
+  },
+  {
+   "que": "Theory",
+   "estado": "OK",
+   "nota": "DeWall et al. 2011, doi 10.1037/a0025497, resumen leido en PubMed: 8 estudios, apego evitativo con mas sesgo de atencion e interes en alternativas y mas infidelidad, mediado por menor compromiso; correlacion, nombre y fuente solo al final del caption"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "2026-11-16, juez distinto del constructor (D-294). Gancho: pasa (cuadro 0 con '2 of us, 1 phone.', sin logo; rachas 0,75 s). 14 puntos y tells: sin falla que bloquee; ojos blancos sin aro, par cA/cB distinguible, cruce de 0,15 s entre tarjetas limpio, icono del telefono es silueta sin cara. Accion cuenta el patron sin texto (telefono se enciende ~3 s, ojos se van ~4-6 s, vuelven ~7 s); 5 micro-eventos de ternura (inclinacion azul 1 s, inclinacion hacia el telefono ~4 s, pulso conjunto ~7 s, ojos felices ~7,5 s, apoyo ~9 s). Tono tierno sin juicio. Mejoras: escala chica de figuras y telefono, 0-1 s casi quieto. No vi ni oi la musica ni el movimiento fino; N revisa primero (sensible). Vara: 5,7 sale."
+  }
+ ],
+ "sensible": true,
+ "sensible_por": "Infidelity (D-466): the hook is an unnamed Bluesky cheating rumor, never named or hinted at; the piece shows a small behavior with no judgment and no relationship advice, and the study is a correlation, not a destiny or a diagnosis. N reviews first."
+}

@@ -1,0 +1,9 @@
+{
+  "base": 60,
+  "pasos": [
+    {"desde": "2026-11-13T20:00:00Z", "min": 45},
+    {"desde": "2026-11-20T20:00:00Z", "min": 30}
+  ],
+  "interruptor": "un 2207051 en instagram/errores.csv con fecha posterior al primer paso devuelve la separacion a `base`",
+  "decision": "D-513"
+}

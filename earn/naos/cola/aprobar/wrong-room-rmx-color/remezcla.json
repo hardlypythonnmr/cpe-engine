@@ -1,0 +1,36 @@
+{
+ "origen": "wrong-room",
+ "eje": "color",
+ "brazo": "B",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "room field from coral #E78568 to dawn mint #BFE3D2 (ventana-alba palette); Cella, floor and text untouched"
+ ],
+ "receta": {
+  "slug": "wrong-room-rmx-color",
+  "fecha_et": "2026-11-19",
+  "et_preferida": "13:30",
+  "campo": [
+   [
+    "#E78568",
+    "#BFE3D2"
+   ]
+  ],
+  "portada": 0.6,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 20.6,
+ "audio": {
+  "lufs": -14.1,
+  "pico_dbtp": -1.4
+ },
+ "huella": {
+  "dhash_media": 3.8,
+  "dhash_min": 1,
+  "umbral": 14,
+  "cambio_color": 50.6,
+  "distinta": false,
+  "lectura": "misma forma, otro color"
+ },
+ "elevenlabs_llamadas": 0
+}

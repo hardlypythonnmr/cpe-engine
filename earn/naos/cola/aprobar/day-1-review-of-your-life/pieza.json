@@ -1,0 +1,46 @@
+{
+ "slug": "day-1-review-of-your-life",
+ "titulo": "Day 1 review of your life: 10/10",
+ "clave": "2026-11-20|serie-gta-g24",
+ "sale_utc": "2026-11-20T14:47:00Z",
+ "caption": "Day 1 review of your life: 10/10\n\nReviewed after one day. The sky at 5 p.m. carried the score.\n\nPeople judged a longer painful trial that ended better as the one to repeat: evaluations are often dominated by the worst and the final moments (Kahneman, Fredrickson, Schreiber & Redelmeier, 1993, Psychological Science, doi:10.1111/j.1467-9280.1993.tb00589.x). The 40 percent in the card is part of the joke, not data.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#GTA6 #review #selfknowledge #naos",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "seccion": "humanity",
+ "alt": "A review card from an invented outlet, REVIEWER WHO HASN'T SLEPT. DAY 1 OF YOUR LIFE, 10/10. PROS: graphics (the sky at 5 p.m.), soundtrack (a friend laughing). CONS: no fast travel, 40% of runtime picking what to watch, mom's side quest still open, reviewer has not left the couch. At the bottom: Would live again. How a day ends colors how you remember it. A figure with white eyes and no hands, eyes happy.",
+ "casa": {
+  "id": "g24-day1-review",
+  "kit": "empresa/series/kit-mundo-abierto"
+ },
+ "tipo": "imagen",
+ "filo": "V",
+ "mecanica_crecimiento": "enviar",
+ "serie": "gta-vi",
+ "pieza_serie": "G24",
+ "fuentes": [
+  "https://doi.org/10.1111/j.1467-9280.1993.tb00589.x"
+ ],
+ "revisiones": [
+  {
+   "que": "Kit",
+   "estado": "OK",
+   "nota": "Drawn with the generic open-world kit (empresa/series/kit-mundo-abierto): no logo, typeface, characters, places or images of any game; the game is named only in the title and hashtags (D-374)."
+  },
+  {
+   "que": "Source",
+   "estado": "OK",
+   "nota": "checked against the original record: https://doi.org/10.1111/j.1467-9280.1993.tb00589.x"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "40 px side margins, nothing under 28 px, the joke line at 44 px or more"
+  }
+ ],
+ "tanda": "serie-gta-vi-15-20-nov (D-374, D-359, D-360, D-362, D-363)",
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg"
+}

@@ -1,0 +1,14 @@
+# Reels que naos-reel.yml publica con subida_directa=true (programador.py slugs_directos). Uno por línea.
+# Pregunta 2 de actions-menos, decisión de N del 16-nov 10:45Z: subida directa a Meta, probada primero con UNA pieza de DD
+# ya aprobada. Solo vale para DD (cuenta con api "facebook"); NAOS sigue en Pages aunque su slug esté aquí.
+# Antes de sumar más piezas: el resultado de esta prueba a la mesa (Rendimiento).
+dd-2026-11-13-meta-lamina-reel
+# G15 (Rendimiento 9, 17-nov; N: "G14/15: sacar Pages"): todos los Reels de DD (marca mercury) suben directo, pero solo
+# después de que la pieza de prueba de arriba salga por la subida directa (url_reel en publicados.csv; sale el 20-nov 20:00Z).
+# Si la prueba falla, esta línea no suma nada y todo sigue por Pages. NAOS no entra: Instagram Login no lo documenta.
+# Prueba en seco: python3 programador.py --directas
+marca:mercury tras dd-2026-11-13-meta-lamina-reel
+# Prueba iglogin de NAOS (N, 17-nov 15:30Z, por la mesa: "Sí, una pieza (Rec.)"): una sola pieza de NAOS ya aprobada, sola en su
+# minuto, que sale después de la prueba de DD y solo si esa salió. walk-no-podcast sale el 21-nov a las 17:00Z (Reel 17:04Z).
+# Si Meta la rechaza, no sale nada y la Action lo dice ("Reintentar con subida_directa apagada (Pages)"): plan B en el PR #1764.
+walk-no-podcast tras dd-2026-11-13-meta-lamina-reel

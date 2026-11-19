@@ -1,0 +1,26 @@
+{
+ "nombre": "llenado-2125",
+ "issue": 1212,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "where-to-eat",
+  "save-for-later",
+  "low-battery",
+  "name-on-the-tip",
+  "the-usual"
+ ],
+ "comentario_vista_previa_id": 6866101294,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T22:07:17Z",
+ "aviso_utc": "2026-11-13T22:07:17Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T22:32:44Z",
+ "aprobadas": [
+  "low-battery",
+  "name-on-the-tip",
+  "save-for-later",
+  "the-usual",
+  "where-to-eat"
+ ]
+}

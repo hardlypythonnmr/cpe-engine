@@ -1,0 +1,56 @@
+{
+ "slug": "task-and-phone",
+ "titulo": "The task is open. So is the phone.",
+ "clave": "2026-11-21|task-and-phone",
+ "sale_utc": "2026-11-21T09:08:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A table room. A small block figure with white eyes stands on the left looking toward a sheet of paper with a few lines on it, and a phone with its screen on sits to the right. Text: the task is open. so is the phone.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-17-tendencia (casa/lib/historias-1117-tendencia-piezas.py)",
+ "tanda": "tendencia-2123 (D-511)",
+ "tendencia": {
+  "cazador": "2026-11-17",
+  "candidata": 1,
+  "plan": "B",
+  "patron": "atencion y pantallas",
+  "estudio_doi": "10.1111/spc3.12011",
+  "estudio_cazador_doi": "10.4236/psych.2014.513160",
+  "conducta": "abrir el telefono junto a la tarea",
+  "gancho": "solo la fecha; sin persona ni marca"
+ },
+ "sticker": "ninguno",
+ "casa": {
+  "id": "task-and-phone",
+  "version": 8
+ },
+ "tono": "tender",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (cuadro renderizado leído)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin persona real ni marca; la noticia no aparece, solo el patrón; sin consejo ni promesa de salud; sin raya larga; Cella sin manos"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "frase de 2 renglones, 5 palabras o menos cada uno, leída en el cuadro renderizado (empresa/historias/2026-11-17-tendencia/dias/task-and-phone/cuadros/t01.00.png)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "Frase de 2 renglones (4+4 palabras) dentro de 270-1330, conducta mostrada sin juicio, sin persona ni marca, Cella sin manos; mejora menor: la barra de la mesa sale del costado de Cella y puede leerse como brazo, cortarla antes del cuerpo"
+  }
+ ]
+}

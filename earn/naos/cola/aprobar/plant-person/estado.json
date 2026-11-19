@@ -1,0 +1,23 @@
+{
+ "slug": "plant-person",
+ "issue": 966,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T14:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1d6a51807d88a6efe25253c57c6786495e0c47bc240e4336b7184cdfc0952898",
+ "hashes": {
+  "short": "aabf684d304ae5937bce00e33d55ef8e13c07c2956f2295ef1dec56bc144ed70",
+  "reel": "3beb2dbe35afe57f2eda024eddc9462bd2ba5f64e46a3750ec4027ba7886a942"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668671662,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z"
+}

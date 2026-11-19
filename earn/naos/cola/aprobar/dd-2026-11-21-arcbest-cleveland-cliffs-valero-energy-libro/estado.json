@@ -1,0 +1,22 @@
+{
+ "slug": "dd-2026-11-21-arcbest-cleveland-cliffs-valero-energy-libro",
+ "issue": 1741,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T03:30:00Z",
+ "datos_utc": "2024-02-23T00:00:00Z",
+ "hash_contenido": "1d2c4d34a9af1ac408186f466627df7e8856ebfbda8a87b673e618f835691d18",
+ "hashes": {
+  "carrusel": "6fff7530e5b2928ca740e595d6365c79185b2a9c58829d73fddbc9121248e1cb"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6937504080,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-a",
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z"
+}

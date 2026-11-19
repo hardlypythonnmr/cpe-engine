@@ -1,0 +1,21 @@
+{
+ "nombre": "yt-medios-8-10-nov",
+ "issue": 918,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "kitchen-camera-3-12-am",
+  "did-you-notice-12-rounds"
+ ],
+ "comentario_vista_previa_id": 6614452403,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T20:17:17Z",
+ "aviso_utc": "2026-11-03T20:17:29Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T20:18:45Z",
+ "aprobadas": [
+  "did-you-notice-12-rounds",
+  "kitchen-camera-3-12-am"
+ ],
+ "cerrada": true
+}

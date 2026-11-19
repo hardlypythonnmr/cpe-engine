@@ -1,0 +1,40 @@
+{
+ "nombre": "instagram-23-24-nov",
+ "issue": 977,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "per-my-last-email-polite-or-war",
+  "pre-celebrating-not-unproductive",
+  "holiday-group-chat-translated",
+  "per-my-last-email",
+  "calendar-busy-soul-buffering",
+  "et-d-moon-skips-groupchat",
+  "settling-down-caring-or-rude",
+  "family-dinner-receipt",
+  "family-dinner-questions-translated",
+  "settled-on-the-couch",
+  "family-table-sit-next",
+  "et-a-tree-never-asks"
+ ],
+ "comentario_vista_previa_id": 6681435437,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-06T09:15:38Z",
+ "aviso_utc": "2026-11-06T09:15:41Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T10:43:02Z",
+ "aprobadas": [
+  "calendar-busy-soul-buffering",
+  "et-a-tree-never-asks",
+  "et-d-moon-skips-groupchat",
+  "family-dinner-questions-translated",
+  "family-dinner-receipt",
+  "family-table-sit-next",
+  "holiday-group-chat-translated",
+  "per-my-last-email",
+  "per-my-last-email-polite-or-war",
+  "pre-celebrating-not-unproductive",
+  "settled-on-the-couch",
+  "settling-down-caring-or-rude"
+ ]
+}

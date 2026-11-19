@@ -1,0 +1,22 @@
+{
+ "slug": "before-6-am-by-cella",
+ "issue": 1795,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-19T15:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0cd7c13aae1cccf71a30197e581f9dab402d044f9ab357ec67e6f701285cfa4f",
+ "hashes": {
+  "short": "70246bc2596344d1fa319e8b3ccf8c46a5fe8de6888a5c3daeafe42d6cfd4477"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6988524365,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1118",
+ "aprobado_evento_utc": "2026-11-18T19:03:43Z"
+}

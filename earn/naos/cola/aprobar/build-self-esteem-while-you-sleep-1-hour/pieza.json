@@ -1,0 +1,96 @@
+{
+ "slug": "build-self-esteem-while-you-sleep-1-hour",
+ "titulo": "Build Self-Esteem While You Sleep | 1 Hour Affirmations",
+ "clave": "2026-11-21|afirmaciones-dormir-autoestima",
+ "sale_utc": "2026-11-21T02:45:00Z",
+ "caption": "Build Self-Esteem While You Sleep | 1 Hour Affirmations\n\nOne hour of self-esteem affirmations for sleep, with 432 Hz waves. The screen goes dark after the first round. YouTube long video, 16:9. No Reel cut in this package.\n\nby NMR",
+ "descripcion": "One hour of self-esteem affirmations for sleep, with 432 Hz waves. A soft, slow voice says thirty first-person affirmations for self-esteem and self-worth (\"I am allowed to take up space\", \"I don't have to earn my rest\", \"I am safe being seen\"), each one two or three times with long pauses, so you can repeat them in your head or just let them wash over you. Voice, music and picture made with code by NAOS, no samples.\n\nFor the first 9 minutes each affirmation appears on screen while it is said. Then the picture goes dark, the affirmations come back in a new order, a little slower each round, and after 30 minutes the voice slowly gets quieter until nothing is left but the 432 Hz waves. Put it on, turn the brightness down, and let it run.\n\nBackground: a soft pad tuned to A = 432 Hz that swells like slow waves, with a quiet 2 Hz binaural pulse underneath (delta, the slowest band; with headphones you may notice it, without them it is a low hum).\n\nWays to use it: in bed with the screen turned away; on a speaker at low volume (it is mixed quieter than our daytime videos); or on the nights your mind keeps talking to you. It is a video, not a treatment: if sleep or how you feel is hard every night, talk to someone you trust or a doctor.\n\nChapters\n0:00 Round 1: thirty affirmations, the words on screen\n8:58 Round 2: the same affirmations in a new order, slower\n18:50 Round 3: the same affirmations in a new order, slower\n29:41 Round 4: the same affirmations in a new order, slower\n41:31 Round 5: the same affirmations in a new order, slower, the voice getting quieter\n54:19 Closing line, then only the 432 Hz waves\n\nVoice: synthetic (ElevenLabs), a woman's voice. The affirmations are written by NAOS. Corrections welcome.\nNAOS · Closer to yourself. by NMR\n#affirmations #sleep #selfesteem",
+ "tipo": "AFIRMACIONES",
+ "sintetico": false,
+ "alt": "A film of one hour, 16:9, made for sleep. Under a starry night sky with the real moon of the night, a small yellow figure in a blue nightcap with closed eyes breathes slowly beside a little house with lit windows; soft wave lines drift across the sky. For the first 9 minutes each affirmation appears in large serif letters at the bottom while a woman's synthetic voice says it slowly; then the picture darkens and only the voice and the 432 Hz waves remain. The cover shows the night scene with the words \"Self-esteem\" in large yellow letters and \"while you sleep · 1 hour\" under it.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "largo",
+ "linea": "afirmaciones",
+ "familia": "dormir",
+ "capitulos": [
+  {
+   "inicio": "0:00",
+   "titulo": "Round 1: thirty affirmations, the words on screen"
+  },
+  {
+   "inicio": "8:58",
+   "titulo": "Round 2: the same affirmations in a new order, slower"
+  },
+  {
+   "inicio": "18:50",
+   "titulo": "Round 3: the same affirmations in a new order, slower"
+  },
+  {
+   "inicio": "29:41",
+   "titulo": "Round 4: the same affirmations in a new order, slower"
+  },
+  {
+   "inicio": "41:31",
+   "titulo": "Round 5: the same affirmations in a new order, slower, the voice getting quieter"
+  },
+  {
+   "inicio": "54:19",
+   "titulo": "Closing line, then only the 432 Hz waves"
+  }
+ ],
+ "titulo_ab": "I Am Affirmations for Sleep: 1 Hour of Self-Love, 432 Hz",
+ "comentario_fijado": "Which line stayed with you? Write it here, in your own words.",
+ "mecanica_crecimiento": "guardar para la noche; envío: the friend who is hard on themselves",
+ "envio": "the friend who is hard on themselves",
+ "experimento": true,
+ "experimento_prueba": "largos de afirmaciones para dormir (ENCARGO 17-nov): tres temas con tres fondos la misma semana; lectura a 7 y 14 días de vistas, minutos vistos y duración media contra los largos de mantras",
+ "casa": {
+  "id": "afirmaciones-dormir-autoestima",
+  "version": 8,
+  "produccion": "empresa/afirmaciones/dormir"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "3600.08 s, 1920x1080, 24 fps, H.264 + AAC stereo 48 kHz, 131.9 MB; 5 rounds, 343 spoken lines from 96 takes (3 per line)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-18.2 LUFS integrated (sleep target -18, like the sleep mantras), true peak -1.6 dBTP, LRA 13.0 LU (ffmpeg ebur128, peak=true, on the video's audio); voice -12 dB from minute 30 to 60"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "dormir-mujer (new ElevenLabs voice designed for sleep), eleven_v4, 3 takes per line so the repeats are not identical; slowed to 0.87 with rubberband (formants kept), slower and calmer. N to listen"
+  },
+  {
+   "que": "Background",
+   "estado": "OK",
+   "nota": "ondas: own, made with code (motor/fondo.py), seamless 5-minute loop, no third-party samples"
+  },
+  {
+   "que": "Text on screen",
+   "estado": "OK",
+   "nota": "Newsreader 96 px in the dark band at the bottom, until 9:36; then an 8 s fade to the dark loop"
+  },
+  {
+   "que": "Claims",
+   "estado": "OK",
+   "nota": "no promise of sleep, health or cure; the description says it is a video, not a treatment, and points to someone you trust or a doctor; 432 Hz and delta named as what they are, without a promise (D-527)"
+  },
+  {
+   "que": "Repetition",
+   "estado": "OK",
+   "nota": "one scene for the whole hour (ENCARGO); the voice changes order and take every round; the picture is a 32 s loop. N to watch for the repetitive-content risk at the first reading"
+  }
+ ]
+}

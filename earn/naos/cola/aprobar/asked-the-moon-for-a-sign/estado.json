@@ -1,0 +1,21 @@
+{
+ "slug": "asked-the-moon-for-a-sign",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T03:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b87c5e32ddb8f48d7d765012eb4a5859f7241121fb1b16eca5af2ffd81e6ea16",
+ "hashes": {
+  "reel": "7972e0db09e7d130219641c2d9b6d7799bbc326aef9ba72799f1eaf71b8d14d5"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6667926366,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

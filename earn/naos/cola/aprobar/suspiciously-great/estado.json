@@ -1,0 +1,21 @@
+{
+ "slug": "suspiciously-great",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "643115a9fc446ce21d89e384295ea47e0a167a35450af183297ba4274cf607d6",
+ "hashes": {
+  "historia": "b04cdde53143387d60844278b5424f88ff3ffe9b520515a55361e39ae0ee5e0c"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6667929661,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

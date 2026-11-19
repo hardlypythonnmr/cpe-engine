@@ -1,0 +1,25 @@
+{
+ "nombre": "etereo-7-10-nov",
+ "issue": 926,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "even-when-it-isnt-full",
+  "a-favorite-tree",
+  "it-said-no-politely",
+  "my-only-hobby"
+ ],
+ "comentario_vista_previa_id": 6630724811,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-04T12:34:38Z",
+ "aviso_utc": "2026-11-04T12:34:43Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-04T12:42:27Z",
+ "aprobadas": [
+  "a-favorite-tree",
+  "even-when-it-isnt-full",
+  "it-said-no-politely",
+  "my-only-hobby"
+ ],
+ "cerrada": true
+}

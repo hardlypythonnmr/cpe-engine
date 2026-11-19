@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-18-albertsons-lamina",
+ "issue": 1789,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T01:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "42237e94acf66b7a3e7d9d9e10e1724d3504f30f5b9d1a1cf9e60ac72290b665",
+ "hashes": {
+  "imagen": "9aecd7891b71e9a3099c2ccbd2af34b9978b1d26a079d3beff0c886c7bbc5774"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6978474240,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z",
+ "reel_fallo_utc": "2026-11-19T01:02:09Z"
+}

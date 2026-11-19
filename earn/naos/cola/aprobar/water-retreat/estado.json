@@ -1,0 +1,21 @@
+{
+ "slug": "water-retreat",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "852a5d00db5fd25247cecbe9587b04500b6c839169d1fe1c9b91867d971cce6b",
+ "hashes": {
+  "historia": "af1816ba53722c4ad3d0754ebceeea15e1910f417bc1097b4f2e977fe1ab1f3f"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6667927187,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

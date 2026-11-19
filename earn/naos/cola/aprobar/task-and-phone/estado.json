@@ -1,0 +1,22 @@
+{
+ "slug": "task-and-phone",
+ "issue": 1760,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T09:08:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f7e80c1f146024a7ebf38698b4450fddcb6f3f4f2e023231658c5b74b08be013",
+ "hashes": {
+  "historia": "1645b31fcb4dfdb778ebd3522220d3147269f93c872c640c51a6916ba1f4e52c"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6951731525,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17-tendencia",
+ "aprobado_evento_utc": "2026-11-17T16:47:28Z"
+}

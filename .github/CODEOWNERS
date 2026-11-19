@@ -1,0 +1,30 @@
+# Quién revisa qué. N (@hardlypythonnmr) aprueba los cambios a estas rutas por PR.
+# Es la protección real de la matriz de gobierno: la huella de prueba_gobierno.py vive en el mismo repo y sola no basta.
+# Para que pida la revisión de verdad, la protección de rama debe exigir "Require review from Code Owners" (lo activa N en GitHub).
+
+# Prompts de las rutinas, versionados (el cuerpo de la productora, los textos cortos y la ronda de la operadora)
+/earn/naos/cola/rutinas/                          @hardlypythonnmr
+/earn/naos/cola/cella-habla/ronda.md              @hardlypythonnmr
+
+# Gobierno: matriz, indicadores, su prueba y su huella
+/earn/naos/motor/prueba_gobierno.py               @hardlypythonnmr
+
+# Compuerta del 👍 de N
+/earn/naos/motor/aprobar/                         @hardlypythonnmr
+/.github/workflows/naos-aprobar.yml               @hardlypythonnmr
+
+# Bandas de Cella (qué responde sola y qué calla)
+/earn/naos/motor/comentarios/reglas.json          @hardlypythonnmr
+
+# NAOS 4.1 (auditoría del 9-nov, punto 6): lo que publica de verdad, los permisos y los prompts de autonomía
+/earn/naos/motor/instagram/ig.py                  @hardlypythonnmr
+/earn/naos/motor/youtube/subir.py                 @hardlypythonnmr
+/earn/naos/motor/youtube/idiomas.py               @hardlypythonnmr
+/earn/naos/motor/comentarios/comentarios.py       @hardlypythonnmr
+/earn/naos/motor/guardia.py                       @hardlypythonnmr
+/earn/naos/motor/uso_sensor.py                    @hardlypythonnmr
+/.github/workflows/                               @hardlypythonnmr
+/.mcp.json                                        @hardlypythonnmr
+
+# Este mismo archivo
+/.github/CODEOWNERS                               @hardlypythonnmr

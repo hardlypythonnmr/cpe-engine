@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-p6-diccionario-hp",
+ "issue": 1815,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T21:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "9ad245b85b354d16aea5fb1bb955d196e36e9310c060754107a35d13e9712517",
+ "hashes": {
+  "short": "482d5bbb52292f955c78ab085aa0230a07866c66305bccfcd4be2390d409da4c",
+  "reel": "ba791ecbb20ce432c414ed5b716622a67b85b288a8d984864b6eb312edc8f740"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7016385254,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-rediseno"
+}

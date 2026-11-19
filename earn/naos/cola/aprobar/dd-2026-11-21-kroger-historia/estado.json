@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-21-kroger-historia",
+ "issue": 1332,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T16:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "506ed0a9d06e3f7659c25510a9fd2c9d9a346fd02d831994764f94d851bce86e",
+ "hashes": {
+  "historia": "8938e94c14168c36f55b2566a5ad5cded019b519fdf747e060ccea06c392f7b1"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885949133,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-b",
+ "caducado_utc": "2026-11-14T23:33:00Z",
+ "aprobado_evento_utc": "2026-11-14T23:58:12Z"
+}

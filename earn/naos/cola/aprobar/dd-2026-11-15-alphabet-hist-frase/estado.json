@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-15-alphabet-hist-frase",
+ "issue": 1495,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-15T17:45:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "f4f21099e5c4e77100bf31725f0fb5b4e346c82c82a3e58b4835b2467c000eb6",
+ "hashes": {
+  "historia": "2d72b984c169863c66abaf469353c8da7d929c8d3ad9b5e76b80b531b9c44cd6"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6893983387,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-hist-1511",
+ "aprobado_evento_utc": "2026-11-15T12:02:31Z",
+ "reel_fallo_utc": "2026-11-15T18:00:29Z"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "dd-2026-11-19-comcast-delta-air-lines-mastercard-libro",
+ "issue": 1741,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T03:30:00Z",
+ "datos_utc": "2026-04-27T00:00:00Z",
+ "hash_contenido": "a28b5fdc7dc4f954b2ea48d3424b7b91844694a7e893c12442a4cb80aef3a388",
+ "hashes": {
+  "carrusel": "14cad2aca0e139b3be2fe2fef4fa6c0ace539312507c0331232067553eba0725"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6937500500,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-a",
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z"
+}

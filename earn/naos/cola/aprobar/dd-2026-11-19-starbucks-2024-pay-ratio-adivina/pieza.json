@@ -1,0 +1,57 @@
+{
+ "slug": "dd-2026-11-19-starbucks-2024-pay-ratio-adivina",
+ "titulo": "Guess: Starbucks CEO pay, in years of median pay?",
+ "clave": "2026-11-19|mercury|adivina|2026-11-19-starbucks-2024-pay-ratio-adivina",
+ "sale_utc": "2026-11-19T16:00:00Z",
+ "caption": "Guess: Starbucks CEO pay, in years of median pay?\n\nA, B or C? Comment your guess before the answer.\n\nFrom a Jan 2025 filing. Starbucks proxy statement (DEF 14A), filed Jan 24, 2025: CEO total pay, fiscal 2024: $97,813,843; median employee's annual total pay: $14,674.\n\nThe proxy calls the CEO's signing bonus and replacement equity \"make whole\" awards. It describes the median employee as \"a part-time barista in the U.S.\" and says the median is based on \"our global workforce\".\n\nThe count: $97,813,843 ÷ $14,674 = about 6,665 years, rounded down. The proxy states 6,666 to 1.\n\nNo voiceover. Sources below.\n\nSources\nF1: Starbucks proxy statement (DEF 14A), filed Jan 24, 2025 · https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm\n\nLink in bio.",
+ "descripcion": "A, B or C? Comment your guess before the answer.\n\nFrom a Jan 2025 filing. Starbucks proxy statement (DEF 14A), filed Jan 24, 2025: CEO total pay, fiscal 2024: $97,813,843; median employee's annual total pay: $14,674.\n\nThe proxy calls the CEO's signing bonus and replacement equity \"make whole\" awards. It describes the median employee as \"a part-time barista in the U.S.\" and says the median is based on \"our global workforce\".\n\nThe count: $97,813,843 ÷ $14,674 = about 6,665 years, rounded down. The proxy states 6,666 to 1.\n\nNo voiceover. Sources below.\n\nSources\nF1: Starbucks proxy statement (DEF 14A), filed Jan 24, 2025 · https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+ "alt": "Vertical quiz video, 10 seconds, no voiceover, flat red game-show screen. The question: How many years of a median Starbucks employee's pay ($14,674)? Three answer buttons A, B and C. The answer is about 6,665 years. Then the sources: Starbucks proxy statement (DEF 14A), filed Jan 24, 2025.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2025-01-24T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "adivina",
+ "formato": "short",
+ "origen": "starbucks-2024-pay-ratio",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+   "medio": "SEC EDGAR · Starbucks",
+   "titulo": "Starbucks proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2025-01-24T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.0 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

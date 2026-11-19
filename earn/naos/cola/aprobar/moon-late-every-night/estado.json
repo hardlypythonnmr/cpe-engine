@@ -1,0 +1,21 @@
+{
+ "slug": "moon-late-every-night",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T03:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "09a6499381e1466249499e94aca8ef4fac5b9a653667d57409626108e657eff1",
+ "hashes": {
+  "reel": "13be03bffc96034d44317959bb4f52b37780086e08673e324ed2cf605f4395c0"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6667931310,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

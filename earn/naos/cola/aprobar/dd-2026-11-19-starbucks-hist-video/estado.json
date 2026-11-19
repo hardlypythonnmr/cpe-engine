@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-starbucks-hist-video",
+ "issue": 1803,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T04:45:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "b2003b93bcd14775c4ee17478e97046b94d63d08fc4cdc4afeffa073e64ce8ab",
+ "hashes": {
+  "historia": "ece9659cce3c90cea808a3ac0f3967803567c8815851fbc4ad2414ba85b606c0"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7008394034,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:57:13Z",
+ "veto_hasta_utc": "2026-11-19T12:57:13Z"
+}

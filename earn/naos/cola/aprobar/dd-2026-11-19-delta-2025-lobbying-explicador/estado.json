@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-delta-2025-lobbying-explicador",
+ "issue": 1741,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-19T01:00:00Z",
+ "datos_utc": "2026-04-24T00:00:00Z",
+ "hash_contenido": "509f0e85ac41515842c70c65dd616d9822672a133a5a5247600ae7ff02ec3295",
+ "hashes": {
+  "short": "36205aab7422e76e8ddeec56dcdb1b35b474dd10de938126aec2178d34743b0e",
+  "reel": "7643ce2d85329cd7b4562e6ac68166191f216536bf449016dce87a2d4e16119e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6937501487,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-ampliacion-a",
+ "aprobado_evento_utc": "2026-11-17T03:42:08Z"
+}

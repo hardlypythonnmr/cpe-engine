@@ -1,0 +1,3 @@
+# Cuentas de N y de la casa que NO son terceros (D-323): una línea por hash, nunca el nombre.
+# El hash sale de (con NAOS_SAL_AUTOR en el entorno): python3 comentarios.py hash-autor instagram <usuario>   (o youtube <id de canal>)
+# Sin líneas, es_tercero queda en 1 para todo lo que no escribe la cuenta de la casa.

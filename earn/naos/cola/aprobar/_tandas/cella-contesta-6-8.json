@@ -1,0 +1,23 @@
+{
+ "nombre": "cella-contesta-6-8",
+ "issue": 905,
+ "version": 2,
+ "estado": "publicado",
+ "piezas": [
+  "cella-contesta-are-you-ai",
+  "cella-contesta-do-you-eat",
+  "cella-contesta-one-chair"
+ ],
+ "comentario_vista_previa_id": 6609836957,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T16:14:53Z",
+ "aviso_utc": "2026-11-03T16:40:34Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:24:16Z",
+ "aprobadas": [
+  "cella-contesta-are-you-ai",
+  "cella-contesta-do-you-eat",
+  "cella-contesta-one-chair"
+ ],
+ "cerrada": true
+}

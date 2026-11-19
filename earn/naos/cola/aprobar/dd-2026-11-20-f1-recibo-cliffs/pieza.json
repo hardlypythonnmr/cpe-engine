@@ -1,0 +1,88 @@
+{
+ "slug": "dd-2026-11-20-f1-recibo-cliffs",
+ "titulo": "Cleveland-Cliffs Burns Harbor: $3M Penalty, $240M Buybacks",
+ "clave": "2026-11-20|mercury|dd2|2026-11-20-f1-recibo-cliffs",
+ "sale_utc": "2026-11-20T19:00:00Z",
+ "caption": "Cleveland-Cliffs Burns Harbor: $3M Penalty, $240M Buybacks\n\nCleveland-Cliffs Burns Harbor receipt, 2022. $240 million in stock buybacks (10-K). A $3 million EPA penalty over an August 2019 wastewater discharge, alleged Clean Water Act violations, settled. The penalty is 1.25% of the buybacks (our math).\n\nSources: Cleveland-Cliffs 10-K 2022; EPA consent decree, Feb 14, 2022.\n\n#ClevelandCliffs #BurnsHarbor #EPA #CleanWaterAct #StockBuybacks #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Cleveland-Cliffs Burns Harbor, as a receipt. Item one: Cleveland-Cliffs' 2022 annual report (Form 10-K) says it returned $240 million to shareholders through share repurchases. A share repurchase, or buyback, is when a company buys its own stock.\n\nItem two: in February 2022 the EPA announced a consent decree (a court-approved settlement) under which Cleveland-Cliffs Burns Harbor, the company's Indiana steel mill unit, agreed to pay a $3 million penalty. It resolves alleged Clean Water Act violations over an August 2019 wastewater discharge from the Burns Harbor mill.\n\nThe total: the penalty is 1.25% of the buybacks (our math).\n\nSources: Cleveland-Cliffs Form 10-K for 2022; EPA enforcement page and consent decree, Feb 14, 2022.\n\n#ClevelandCliffs #BurnsHarbor #EPA #CleanWaterAct #StockBuybacks #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video styled as a receipt for Cleveland-Cliffs Burns Harbor: $240 million in stock buybacks, a $3 million EPA penalty, and the penalty shown as 1.25% of the buybacks.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "f1-recibo-cliffs",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/764065/000076406523000032/clf-20221231.htm",
+   "medio": "SEC EDGAR · Cleveland-Cliffs 10-K 2022",
+   "titulo": "Cleveland-Cliffs 10-K for 2022",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.epa.gov/enforcement/cleveland-cliffs-steel-llc-and-cleveland-cliffs-burns-harbor-llc-settlement",
+   "medio": "EPA",
+   "titulo": "Cleveland-Cliffs Burns Harbor settlement, Feb 14, 2022",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "32.0 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Receipt time! Cleveland-Cliffs, twenty twenty-two. Item one: two hundred forty million dollars... buying back its own stock. Item two: a three million dollar E.P.A. penalty, over a wastewater discharge into a river. Alleged violations. Settled. The penalty? One point two five percent of the buybacks. Keep the change.",
+ "tramos": [
+  {
+   "voz": "Receipt time! Cleveland-Cliffs, twenty twenty-two.",
+   "t0": 0.2,
+   "t1": 4.04
+  },
+  {
+   "voz": "Item one: two hundred forty million dollars... buying back its own stock.",
+   "t0": 4.7,
+   "t1": 10.7
+  },
+  {
+   "voz": "Item two: a three million dollar E.P.A. penalty, over a wastewater discharge into a river. Alleged violations. Settled.",
+   "t0": 11.2,
+   "t1": 21.76
+  },
+  {
+   "voz": "The penalty? One point two five percent of the buybacks. Keep the change.",
+   "t0": 22.2,
+   "t1": 28.12
+  }
+ ],
+ "sintetico": true
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "world-hello-day",
+ "titulo": "Hello. That's the whole post.",
+ "clave": "2026-11-21|world-hello-day",
+ "sale_utc": "2026-11-21T11:50:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A pink entryway. Two small block figures with white eyes face each other, and a speech bubble between them says hello. Text: hello. that's the whole post. happy world hello day.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-15 (casa/lib/historias-1115-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "world-hello-day",
+  "version": 8
+ },
+ "tono": "whimsical",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-15/hoja-*.png"
+  }
+ ]
+}

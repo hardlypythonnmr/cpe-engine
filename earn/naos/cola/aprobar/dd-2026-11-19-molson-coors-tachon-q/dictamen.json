@@ -1,0 +1,48 @@
+{
+ "slug": "dd-2026-11-19-molson-coors-tachon-q",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "aprueba",
+ "motivos": [],
+ "plantilla_aprobada": {
+  "nombre": "dd/tachon-q@1",
+  "decision": "D-499",
+  "controles": [
+   "plantilla listada y activa, con la evidencia de su ejemplar",
+   "verificado.json de esta versión",
+   "medidas de forma en regla",
+   "forma de la plantilla (tramos, papeles, duración)",
+   "lente sin graves",
+   "lector-linea.json de esta versión: entiende"
+  ]
+ },
+ "razon": "plantilla aprobada dd/tachon-q@1 (D-499)",
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "20045b70981d4905eede072818b46e7fbf011ca9d4ee542236c9b4b30f42fe32",
+  "reel": "b65edf2dff36b0e6350387c2090d0ce3249c4b1f7c0f48b36232132007e527e8"
+ },
+ "huella_contenido": "e8446f45dbab5b905b589f66286c4f23d91872dbbb8c53d788442a7dab8beefd",
+ "sale_utc": "2026-11-20T00:00:00Z",
+ "dictamen_utc": "2026-11-19T11:53:33Z"
+}

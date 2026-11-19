@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-18-apple-hist-video",
+ "issue": 1789,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T04:45:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "bfa23aa3035dd0f9636dad1a07d73799b2d52c374bfac5086e26076d5ba75597",
+ "hashes": {
+  "historia": "c42274e9a22a502be8436a94c4308afecaf34e600f55be751df00f4c43a9ee73"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6978482036,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z"
+}

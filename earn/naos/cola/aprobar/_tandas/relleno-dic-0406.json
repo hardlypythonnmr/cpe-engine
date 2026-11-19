@@ -1,0 +1,40 @@
+{
+ "nombre": "relleno-dic-0406",
+ "issue": 1251,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "the-dumb-question",
+  "the-heavier-bag",
+  "tea-needs-three-minutes",
+  "let-her-do-the-lid",
+  "note-by-hand",
+  "snack-on-the-table",
+  "read-the-recipe-to-the-end",
+  "the-book-in-the-middle",
+  "the-last-twenty-pages",
+  "say-it-another-way",
+  "guessing-your-name",
+  "the-room-made-ready"
+ ],
+ "comentario_vista_previa_id": 6870905674,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T03:23:20Z",
+ "aviso_utc": "2026-11-14T03:23:20Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T00:04:29Z",
+ "aprobadas": [
+  "guessing-your-name",
+  "let-her-do-the-lid",
+  "note-by-hand",
+  "read-the-recipe-to-the-end",
+  "say-it-another-way",
+  "snack-on-the-table",
+  "tea-needs-three-minutes",
+  "the-book-in-the-middle",
+  "the-dumb-question",
+  "the-heavier-bag",
+  "the-last-twenty-pages",
+  "the-room-made-ready"
+ ]
+}

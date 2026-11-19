@@ -1,0 +1,19 @@
+{
+ "nombre": "ten-out-of-ten-5-nov",
+ "issue": 937,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "ten-out-of-ten"
+ ],
+ "comentario_vista_previa_id": 6647215401,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T01:37:26Z",
+ "aviso_utc": "2026-11-05T01:37:26Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T01:43:10Z",
+ "aprobadas": [
+  "ten-out-of-ten"
+ ],
+ "cerrada": true
+}

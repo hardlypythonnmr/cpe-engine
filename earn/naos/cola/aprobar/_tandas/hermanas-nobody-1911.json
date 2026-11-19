@@ -1,0 +1,22 @@
+{
+ "nombre": "hermanas-nobody-1911",
+ "issue": 1691,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "nobody-saw-h1",
+  "nobody-saw-h2",
+  "nobody-saw-h3"
+ ],
+ "comentario_vista_previa_id": 6911776481,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-16T08:50:50Z",
+ "aviso_utc": "2026-11-16T08:50:50Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-16T08:50:59Z",
+ "aprobadas": [
+  "nobody-saw-h1",
+  "nobody-saw-h2",
+  "nobody-saw-h3"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-p11-equifax-v3",
+ "issue": 1815,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T15:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "22b1e023df2b2097f1453080ec02592669e2fe65e318a0803d98143b446a4af9",
+ "hashes": {
+  "short": "ccc6867d2b0544612efe6b064f0541812fe9cf1dedc4d48ed393b4c526f65a49",
+  "reel": "7bc120194d888695e63e43072b0394c434ff62f10e84904d21446ec9f3b128b2"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7016379284,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-rediseno"
+}

@@ -1,0 +1,24 @@
+{
+ "nombre": "dd-2026-11-15",
+ "issue": 1529,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-15-ebay-tachon-q",
+  "dd-2026-11-15-ebay-lamina",
+  "dd-2026-11-15-ebay-expediente",
+  "dd-2026-11-15-ebay-historia"
+ ],
+ "comentario_vista_previa_id": 6894799818,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T13:09:22Z",
+ "aviso_utc": "2026-11-15T13:09:25Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T13:21:17Z",
+ "aprobadas": [
+  "dd-2026-11-15-ebay-expediente",
+  "dd-2026-11-15-ebay-historia",
+  "dd-2026-11-15-ebay-lamina",
+  "dd-2026-11-15-ebay-tachon-q"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "before-you-buy-the-course",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4d6a409f6cecd5dff2ce59378b2589f36f04e7ff8084531be406f13376534c87",
+ "hashes": {
+  "carrusel": "18cfb24cc9335a9ac0f2ae2ef2dcbe64f6c3d22fa6641db8769b00eac15f41c7"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6667928839,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

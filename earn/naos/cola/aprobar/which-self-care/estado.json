@@ -1,0 +1,21 @@
+{
+ "slug": "which-self-care",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "232ac9b019bc87a125a5bb27cf8c41f426b45ec12d8f6cccadcb0054becce18f",
+ "hashes": {
+  "imagen": "90044b5aa691dda826ebfadd3be705cbb67410ab22cb8c66ce574da078d653d1"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6667927966,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-f7-patron-amazon",
+ "issue": 1815,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T18:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "18826cfe723bd2d73d761e46944c560d5abc24a929d4a8d6d963522042079feb",
+ "hashes": {
+  "short": "543e814bcb62f7e194b412b012999bd344dabfaf271ac53ca43c983e45977747",
+  "reel": "21057de64efcdc34da4b6ec6536eee27002c55bd3d5ea187d296696e8206493e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7016382299,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-rediseno"
+}

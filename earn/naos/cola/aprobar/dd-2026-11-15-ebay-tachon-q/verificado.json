@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "0f1ac358ffd51b090979290a9e2b9928116418efc544f8f5f9568e143638797b",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-15/ebay-2024-layoffs/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-15T14:00:05Z",
+  "pedido": "temas/archivo/ebay-2024-layoffs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "5055908d2679283e4c4f940ed5940d3433ea3a4af5dc290985264f9d9035f25b",
+ "medidas_sha": "4ec3c1e68656773d026a31abc6bfa7ed7eb208f501a620042c1aa3e2ffeaee32",
+ "escrito_utc": "2026-11-15T14:00:47Z"
+}

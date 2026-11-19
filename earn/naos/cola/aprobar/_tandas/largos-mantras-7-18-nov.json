@@ -1,0 +1,27 @@
+{
+ "nombre": "largos-mantras-7-18-nov",
+ "issue": 974,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "maha-mantra-108-times-kirtan-sing-along",
+  "maha-mantra-for-sleep-1-hour",
+  "om-mani-padme-hum-for-studying-1-hour",
+  "om-mani-padme-hum-for-sleep-16-min",
+  "maha-mantra-108-times-womens-voices"
+ ],
+ "comentario_vista_previa_id": 6674754230,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-06T01:55:32Z",
+ "aviso_utc": "2026-11-06T01:55:40Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T09:07:42Z",
+ "aprobadas": [
+  "maha-mantra-108-times-kirtan-sing-along",
+  "maha-mantra-108-times-womens-voices",
+  "maha-mantra-for-sleep-1-hour",
+  "om-mani-padme-hum-for-sleep-16-min",
+  "om-mani-padme-hum-for-studying-1-hour"
+ ],
+ "cerrada": true
+}

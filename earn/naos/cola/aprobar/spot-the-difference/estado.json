@@ -1,0 +1,23 @@
+{
+ "slug": "spot-the-difference",
+ "issue": 966,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T19:48:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3da3cc03f28fe53115915da3051cea7e077ef5ad6d07a8a2498a5c8b547b19a6",
+ "hashes": {
+  "short": "19b4102c9fce53a130a915928c57c06dde0a6faf1df5bd051da2fd9978f9744f",
+  "reel": "9e02e20817cd42c65745d387a4b048c13e8f7612867b92e08cc34818bc1f8cf0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668670535,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z"
+}

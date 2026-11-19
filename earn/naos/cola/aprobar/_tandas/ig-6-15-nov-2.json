@@ -1,0 +1,41 @@
+{
+ "nombre": "ig-6-15-nov-2",
+ "issue": 942,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "linkedin-post-you-wrote",
+  "movies-alone",
+  "not-avoidant-hard-to-reach",
+  "ok-with-a-period",
+  "only-compete-with-my-reflection",
+  "only-pray-when-wifi-drops",
+  "politics-at-dinner",
+  "procrastination-translated",
+  "rehearsed-it-40-times",
+  "rude-or-busy-translated",
+  "say-you-want-to-be-alone",
+  "scenic-route"
+ ],
+ "comentario_vista_previa_id": 6647831472,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T02:17:36Z",
+ "aviso_utc": "2026-11-05T02:17:36Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T02:19:22Z",
+ "aprobadas": [
+  "linkedin-post-you-wrote",
+  "movies-alone",
+  "not-avoidant-hard-to-reach",
+  "ok-with-a-period",
+  "only-compete-with-my-reflection",
+  "only-pray-when-wifi-drops",
+  "politics-at-dinner",
+  "procrastination-translated",
+  "rehearsed-it-40-times",
+  "rude-or-busy-translated",
+  "say-you-want-to-be-alone",
+  "scenic-route"
+ ],
+ "cerrada": true
+}

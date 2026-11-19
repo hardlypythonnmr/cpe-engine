@@ -1,0 +1,25 @@
+{
+ "slug": "dd-2026-11-18-apple-expediente",
+ "issue": 1789,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-18T22:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "5d6887e5c35678e5025517e08de4449753cc0eb4726787d9ed5e9e50ca5c6fc0",
+ "hashes": {
+  "carrusel": "f9e27d19533ad1c7945e4a206b3ee1fdeee7f35372f36610ea312cba58056132"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6978479404,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z",
+ "reel_fallo_utc": "2026-11-18T22:01:39Z"
+}

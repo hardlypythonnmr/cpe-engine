@@ -1,0 +1,65 @@
+{
+ "slug": "hour-six-still-you",
+ "titulo": "6 hours into GTA 6 and I'm still me",
+ "clave": "2026-11-19|serie-gta-g23",
+ "sale_utc": "2026-11-19T23:13:00Z",
+ "caption": "6 hours into GTA 6 and I'm still me\n\nThirteen years of hype. Six hours in. Still you.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#GTA6 #GTAVI #selfknowledge #naos",
+ "descripcion": "Thirteen years of hype. Six hours in. Still you.\n\nMomentary happiness tracked expectations and prediction errors rather than current earnings (Rutledge et al., 2014, PNAS, PMID 25092308). Lottery winners were not happier than controls and took less pleasure in mundane events (Brickman, Coates & Janoff-Bulman, 1978, JPSP, PMID 690806; 22 winners).\n\nNAOS · Closer to yourself. by NMR\n#GTA6 #GTAVI #selfknowledge",
+ "sintetico": false,
+ "alt": "A short film with no voice. A sunset coastal city, beautiful, with big game bars on top: HOUR 6, YOU TODAY and YOU YESTERDAY, exactly equal. A card says Graphics: upgraded from the start, then Bar: unchanged. A big black figure with white eyes, no hands and sunglasses pushed up on its forehead stands in the middle, eyes happy, and a card says: Same you. Better sky.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "What are you hoping will change you?",
+ "casa": {
+  "id": "g23-hour-six",
+  "kit": "empresa/series/kit-mundo-abierto"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, game-UI labels plus the closing line"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.4 dBFS, LRA 4.6 LU; own music (motor/sonido midi, room ventana, mood calma) and synthesized effects, no third-party samples; audio runs the full length"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band and 40 px side margins, nothing under 28 px, the joke line at 44 px or more, frame 0 readable without sound"
+  },
+  {
+   "que": "Kit",
+   "estado": "OK",
+   "nota": "Drawn with the generic open-world kit (empresa/series/kit-mundo-abierto): no logo, typeface, characters, places or images of any game; the game is named only in the title and hashtags (D-374)."
+  },
+  {
+   "que": "Source",
+   "estado": "OK",
+   "nota": "checked against the original record: https://pubmed.ncbi.nlm.nih.gov/25092308/; https://pubmed.ncbi.nlm.nih.gov/690806/"
+  }
+ ],
+ "tipo": "MEME",
+ "filo": "V",
+ "tema": "adaptacion hedonica",
+ "blanco": "quien espera que algo lo cambie (quien mira)",
+ "destinatario": "the friend who hasn't left the room since midnight",
+ "cara": "A",
+ "experimento": false,
+ "serie": "gta-vi",
+ "pieza_serie": "G23",
+ "fuentes": [
+  "https://pubmed.ncbi.nlm.nih.gov/25092308/",
+  "https://pubmed.ncbi.nlm.nih.gov/690806/"
+ ],
+ "tanda": "serie-gta-vi-15-20-nov (D-374, D-359, D-360, D-362, D-363)"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "procrastination-laziness-or-fear-es",
+ "issue": 1767,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T23:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "569dfb78bb6d3b2848b9385bdf88347f1bde40ac4211237450fc5853c6981537",
+ "hashes": {
+  "imagen": "e97537f321c83e1fcb4e30fe1b7c25dc508c7b201afef7476620ec7a9ebdf887"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6953985666,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "es-19-20-nov",
+ "aprobado_evento_utc": "2026-11-17T16:48:14Z"
+}

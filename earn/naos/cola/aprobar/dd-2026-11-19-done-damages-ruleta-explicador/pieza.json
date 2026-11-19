@@ -1,0 +1,47 @@
+{
+ "slug": "dd-2026-11-19-done-damages-ruleta-explicador",
+ "titulo": "Done Damages: which damage is next?",
+ "clave": "2026-11-19|mercury|explicador|2026-11-19-done-damages-ruleta-explicador",
+ "sale_utc": "2026-11-19T17:30:00Z",
+ "caption": "Done Damages: which damage is next?\n\nEnvironmental. Psychological. Financial. Political. Social. To your data, your job, your wallet.\nWe name the company and show the filing. Name the next company in the comments.\n\n@done_damages\n\nLink in bio.",
+ "descripcion": "Environmental. Psychological. Financial. Political. Social. To your data, your job, your wallet.\nWe name the company and show the filing. Name the next company in the comments.\n\n@done_damages",
+ "alt": "Vertical video, 7 seconds, cobalt blue poster with white type and no narration. Done Damages: which damage is next?",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:30:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "ruleta",
+ "fuentes": [],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "0 of 0 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "7 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

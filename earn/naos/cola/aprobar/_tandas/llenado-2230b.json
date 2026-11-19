@@ -1,0 +1,38 @@
+{
+ "nombre": "llenado-2230b",
+ "issue": 1196,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "needs-salt",
+  "talking-over",
+  "just-one-episode",
+  "phone-keys-wallet",
+  "joke-explained",
+  "knowing-every-word",
+  "deep-breath-then-answer",
+  "pretending-not-to-see",
+  "packing-light",
+  "lost-my-own-point",
+  "still-full-glass"
+ ],
+ "comentario_vista_previa_id": 6863850937,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T20:18:42Z",
+ "aviso_utc": "2026-11-13T20:18:42Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T21:17:16Z",
+ "aprobadas": [
+  "deep-breath-then-answer",
+  "joke-explained",
+  "just-one-episode",
+  "knowing-every-word",
+  "lost-my-own-point",
+  "needs-salt",
+  "packing-light",
+  "phone-keys-wallet",
+  "pretending-not-to-see",
+  "still-full-glass",
+  "talking-over"
+ ]
+}

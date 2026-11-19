@@ -1,0 +1,21 @@
+{
+ "nombre": "huecos-6-15-nov-2",
+ "issue": 945,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "your-emergency-is-a-meme",
+  "they-saved-you-a-seat"
+ ],
+ "comentario_vista_previa_id": 6648184496,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T02:39:11Z",
+ "aviso_utc": "2026-11-05T02:39:11Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T02:45:44Z",
+ "aprobadas": [
+  "they-saved-you-a-seat",
+  "your-emergency-is-a-meme"
+ ],
+ "cerrada": true
+}

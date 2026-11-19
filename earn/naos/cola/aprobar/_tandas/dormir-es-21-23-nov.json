@@ -1,0 +1,22 @@
+{
+ "nombre": "dormir-es-21-23-nov",
+ "issue": 1786,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "autoestima-mientras-duermes-1-hora",
+  "conocete-mientras-duermes-1-hora",
+  "perdonate-mientras-duermes-1-hora"
+ ],
+ "comentario_vista_previa_id": 6958472854,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T19:23:41Z",
+ "aviso_utc": "2026-11-17T19:23:47Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T20:33:23Z",
+ "aprobadas": [
+  "autoestima-mientras-duermes-1-hora",
+  "conocete-mientras-duermes-1-hora",
+  "perdonate-mientras-duermes-1-hora"
+ ]
+}

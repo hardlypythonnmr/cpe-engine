@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-done-damages-ruleta-explicador",
+ "issue": 1810,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T17:30:00Z",
+ "datos_utc": "2026-11-19T17:30:00Z",
+ "hash_contenido": "500fd329b39c0c2842731d64dfeba076c9dd9c01d804a0fcd0ca3e4d7f87b3a5",
+ "hashes": {
+  "short": "08a0230bfba408b325a065a013dbb9378b5d5731f840f9fe27628f2385e5c416",
+  "reel": "b2fe29fc34024c0220ab3ca130197cd810e028c60cb8a23308a704224a4c4f85"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7015377654,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-ruleta",
+ "aprobado_evento_utc": "2026-11-19T16:42:37Z"
+}

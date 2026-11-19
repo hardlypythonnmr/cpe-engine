@@ -1,0 +1,24 @@
+{
+ "slug": "nobody-saw-h2",
+ "issue": 1691,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T12:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6d678724160f70c0612332b5d105852dbf073ba89a39f6321af54a2b54084c83",
+ "hashes": {
+  "short": "dde7dced35efc8db3264260e8d752487bcab44522ec319d13084c6237546ace3",
+  "reel": "88e45c31bb95214010ddd49717db5941fde08a25f2d46f60acb2d495ecc177ef"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6911774785,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "hermanas-nobody-1911",
+ "aprobado_evento_utc": "2026-11-16T08:50:59Z"
+}

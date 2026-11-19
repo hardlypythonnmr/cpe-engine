@@ -1,0 +1,22 @@
+{
+ "nombre": "piloto-corona-2428",
+ "issue": 1555,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "not-avoidant-hard-to-reach-moving",
+  "crown-hold-the-door",
+  "crown-we-should-hang-out-receipt"
+ ],
+ "comentario_vista_previa_id": 6895821677,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T14:15:14Z",
+ "aviso_utc": "2026-11-15T14:15:14Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T14:15:56Z",
+ "aprobadas": [
+  "crown-hold-the-door",
+  "crown-we-should-hang-out-receipt",
+  "not-avoidant-hard-to-reach-moving"
+ ]
+}

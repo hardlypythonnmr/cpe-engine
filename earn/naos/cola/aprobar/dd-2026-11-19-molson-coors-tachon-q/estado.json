@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-19-molson-coors-tachon-q",
+ "issue": 1802,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T00:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "e8446f45dbab5b905b589f66286c4f23d91872dbbb8c53d788442a7dab8beefd",
+ "hashes": {
+  "short": "20045b70981d4905eede072818b46e7fbf011ca9d4ee542236c9b4b30f42fe32",
+  "reel": "b65edf2dff36b0e6350387c2090d0ce3249c4b1f7c0f48b36232132007e527e8"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7008377238,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:56:19Z",
+ "veto_hasta_utc": "2026-11-19T12:56:19Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-20T12:00:00Z"
+}

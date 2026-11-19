@@ -1,0 +1,72 @@
+{
+ "slug": "which-self-care-es",
+ "titulo": "¿Qué autocuidado estás haciendo de verdad?",
+ "clave": "2026-11-19|which-self-care-es",
+ "sale_utc": "2026-11-19T22:30:00Z",
+ "caption": "¿Qué autocuidado estás haciendo de verdad? A, B, C o D.\nCella hace las cuatro, con corona y para la foto. Etiqueta a quien hace la A.\nLink en la bio.\nby NMR\n#autocuidado #amorpropio #bienestaremocional",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "cuatro tarjetas de colores marcadas de la A a la D. ¿Qué autocuidado estás haciendo de verdad? Cella hace las cuatro. Para la foto. A: Mascarilla. Celular en la otra mano. B: Baño de tina. Con pantalla. C: Compraste la agenda. Ni la abriste. D: Dijiste “límites”. Cancelaste.",
+ "tipo_imagen": "F4 Elige · bienestar · jue 19-nov · es",
+ "seccion": "humanity",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "bienestar (arquetipo: la influencer de wellness)",
+ "mecanica_crecimiento": "comentar · destinatario: la amiga que sube la mascarilla con el celular en la otra mano",
+ "idioma": "es",
+ "gemela_de": "which-self-care",
+ "tanda": "es (D-528), gemela de which-self-care",
+ "tema_seo": "bienestar",
+ "revisiones": [
+  {
+   "que": "Forma",
+   "estado": "OK",
+   "nota": "mismas láminas, mismo dibujo, solo cambian las palabras"
+  },
+  {
+   "que": "Raya larga",
+   "estado": "OK",
+   "nota": "sin raya larga ni media"
+  },
+  {
+   "que": "Cifras",
+   "estado": "OK",
+   "nota": "las cifras de la original están iguales en la gemela"
+  },
+  {
+   "que": "SEO en español",
+   "estado": "OK",
+   "nota": "#autocuidado #amorpropio #bienestaremocional (tema bienestar, vocabulario propio)"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "27 palabras de cuerpo (50 o menos, D-358)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "las de la original (respeto.md, D-359, D-527): mismo blanco, mismo dibujo; escrita con tú, español neutro latino (D-528)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "sin enlaces en la pieza"
+  },
+  {
+   "que": "Largo de línea",
+   "estado": "OK",
+   "nota": "sin desborde; letra a 85 % o más de la original y de 46 px o más en contenido"
+  },
+  {
+   "que": "Acentos y eñe",
+   "estado": "OK",
+   "nota": "todas las letras están en las fuentes de G3"
+  }
+ ]
+}

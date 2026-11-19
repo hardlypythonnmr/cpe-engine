@@ -1,0 +1,31 @@
+{
+ "slug": "groggy-has-a-name",
+ "issue": 807,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T04:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "27bcb2da16245f498aa5f40ac3251cc39b4d994d3f0f9fbef0c8234a4156f980",
+ "hashes": {
+  "imagen": "44af0cd5b2cc100cd0f446f8c64ece2ba8f2b00b0125c907b57ccfe76dd45561"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6364494083,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "aviso_utc": "2026-10-23T12:06:55Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-23T12:23:35Z",
+ "reprogramaciones": 1,
+ "reprogramada": {
+  "por": "D-512",
+  "utc": "2026-11-13T17:00:04Z",
+  "de_sale_utc": "2026-10-29T13:00:00Z",
+  "a_sale_utc": "2026-11-21T04:30:00Z",
+  "version_origen": 1,
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#807, 2026-10-23T12:23:35Z"
+ }
+}

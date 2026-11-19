@@ -1,0 +1,24 @@
+{
+ "nombre": "medios-15-25-nov",
+ "issue": 976,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "gta-6-hype-explained",
+  "venting-makes-anger-worse",
+  "apology-video-graded",
+  "nobody-is-looking-at-you"
+ ],
+ "comentario_vista_previa_id": 6678373663,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-06T06:09:12Z",
+ "aviso_utc": "2026-11-06T06:09:19Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T10:43:49Z",
+ "aprobadas": [
+  "apology-video-graded",
+  "gta-6-hype-explained",
+  "nobody-is-looking-at-you",
+  "venting-makes-anger-worse"
+ ]
+}

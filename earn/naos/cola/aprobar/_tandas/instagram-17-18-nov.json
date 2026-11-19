@@ -1,0 +1,41 @@
+{
+ "nombre": "instagram-17-18-nov",
+ "issue": 961,
+ "version": 2,
+ "estado": "publicado",
+ "piezas": [
+  "tree-has-no-inbox",
+  "meeting-snack",
+  "meeting-could-have-been-an-email",
+  "work-speak-translated",
+  "nap-with-you",
+  "can-you-see-my-screen",
+  "rain-cancelled-my-plans",
+  "cancelled-plans-parade",
+  "leaving-without-goodbye",
+  "we-should-hang-out",
+  "take-me-with-you",
+  "warning-label-cella"
+ ],
+ "comentario_vista_previa_id": 6886286765,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T20:00:25Z",
+ "aviso_utc": "2026-11-15T00:02:27Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T00:04:26Z",
+ "aprobadas": [
+  "can-you-see-my-screen",
+  "cancelled-plans-parade",
+  "leaving-without-goodbye",
+  "meeting-could-have-been-an-email",
+  "meeting-snack",
+  "nap-with-you",
+  "rain-cancelled-my-plans",
+  "take-me-with-you",
+  "tree-has-no-inbox",
+  "warning-label-cella",
+  "we-should-hang-out",
+  "work-speak-translated"
+ ],
+ "cerrada": true
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "dd-2026-11-21-kroger-lamina",
+ "titulo": "Kroger (May 2025): $15.6 million CEO total pay, $34,213 median pay. The math.",
+ "clave": "2026-11-21|mercury|lamina|2026-11-21-kroger-lamina",
+ "sale_utc": "2026-11-21T20:00:00Z",
+ "caption": "From the archive: May 2025. Not today's news.\nKroger, May 15, 2025 (Kroger, proxy statement): \"create a culture of opportunity for more than 409,000 associates\"\nKroger's proxy statement, filed May 15, 2025, reported total compensation of $15,631,028 for its CEO and $34,213 for its median associate for 2024.\n\nSame proxy: $15.6 million CEO total pay, 2024. The total compensation of the CEO for 2024, as reported in the proxy's Summary Compensation Table.\nThe math: $15.6 million CEO total pay (2024) ÷ $34,213 median pay = about 456 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Kroger's own figure is 457 to 1. Per the proxy, the median employee is a full-time associate. We are not saying anyone is paid too much or too little.\n\nA culture of opportunity. Next, the ratio. (Our take.)\n\nFor someone who has heard about a culture of opportunity.\n\nSources: SEC EDGAR · Kroger, May 15, 2025.\n\nLink in bio.",
+ "descripcion": "From the archive: May 2025. Not today's news.\nKroger, May 15, 2025 (Kroger, proxy statement): \"create a culture of opportunity for more than 409,000 associates\"\nKroger's proxy statement, filed May 15, 2025, reported total compensation of $15,631,028 for its CEO and $34,213 for its median associate for 2024.\n\nSame proxy: $15.6 million CEO total pay, 2024. The total compensation of the CEO for 2024, as reported in the proxy's Summary Compensation Table.\nThe math: $15.6 million CEO total pay (2024) ÷ $34,213 median pay = about 456 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Kroger's own figure is 457 to 1. Per the proxy, the median employee is a full-time associate. We are not saying anyone is paid too much or too little.\n\nA culture of opportunity. Next, the ratio. (Our take.)\n\nSources:\n- SEC EDGAR · Kroger, May 15, 2025: «We strive to create a culture of opportunity for more than 409,000 associates and take seriously our role as a leading employer in the United States.» and «As reported in the Summary Compensation Table, our CEO had annual total compensation for 2024 of $15,631,028» and «Using this Summary Compensation Table methodology, the annual total compensation of our median associate for 2024 was $34,213» https://www.sec.gov/Archives/edgar/data/56873/000110465925049009/tm252618d1_def14a.htm",
+ "alt": "Paper-colored card. Kroger, May 15, 2025. A gray typewriter quote, \"create a culture of opportunity for more than 409,000 associates\", struck through with a dark red marker line. The struck quote is by Kroger, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $15.6M ÷ $34,213 = about 456, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/biblioteca/bib4-kroger-2024-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465925049009/tm252618d1_def14a.htm",
+   "medio": "SEC EDGAR · Kroger",
+   "titulo": "Kroger proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg",
+ "tipo": "imagen",
+ "lado": "empleado",
+ "tema": "Kroger (May 2025): CEO pay ratio, 456 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "kroger-2024-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · MAY 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/kroger-2024-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib4-kroger-2024-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 4 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib4-kroger-2024-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra (proxy, Summary Compensation Table) y que el empleado mediano es un cálculo de la empresa; lo que la fuente aclara del mediano (tiempo parcial, global) queda en la nota cuando aplica."
+  ]
+ },
+ "aspecto": "4x5"
+}

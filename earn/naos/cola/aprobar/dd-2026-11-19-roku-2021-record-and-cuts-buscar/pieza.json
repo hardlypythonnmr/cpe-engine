@@ -1,0 +1,108 @@
+{
+ "slug": "dd-2026-11-19-roku-2021-record-and-cuts-buscar",
+ "titulo": "Ctrl+F Roku filings: \"record\" (2/17) · \"positions\" (11/17)",
+ "clave": "2026-11-19|mercury|buscar|2026-11-19-roku-2021-record-and-cuts-buscar",
+ "sale_utc": "2026-11-19T17:00:00Z",
+ "caption": "Ctrl+F Roku filings: \"record\" (2/17) · \"positions\" (11/17)\n\nWe searched two of Roku's own filings, 273 days apart.\n\n“2021 was another strong year for Roku, as we achieved record revenue, gross profit, adjusted EBITDA, and ARPU.” (Q4 2021 shareholder letter, Form 8-K Exhibit 99.1, filed Feb 17, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1428439/000142843922000006/q421form8-kerxexhibit991.htm\n\n“This will affect approximately 200 employee positions in the United States.” (Form 8-K, Item 2.05, filed Nov 17, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1428439/000119312522287240/d395182d8k.htm\n\nFrom a Feb 2022 filing and a Nov 2022 filing.\n\nOur math: $2,765,000,000 ÷ 200 = $13,825,000 (about $13.8 million, rounded down). The $2.765 billion is Roku's total net revenue for 2021, not profit. The 200 are employee positions in the United States in the plan the 8-K describes, not a count of people let go.\n\nWhich company's filings should we search next?\n\nSources\nF1: Roku Q4 2021 shareholder letter, Form 8-K Exhibit 99.1, filed Feb 17, 2022 · https://www.sec.gov/Archives/edgar/data/1428439/000142843922000006/q421form8-kerxexhibit991.htm\nF2: Roku Form 8-K, Item 2.05, filed Nov 17, 2022 · https://www.sec.gov/Archives/edgar/data/1428439/000119312522287240/d395182d8k.htm\n\nSynthetic voice. The lines on screen are copied letter for letter from the filings; the match counts (1 of 4, 1 of 2) are for the filing text as our code read it. Music made in code.\n\n#sec #8k\n\nLink in bio.",
+ "descripcion": "We searched two of Roku's own filings, 273 days apart.\n\n“2021 was another strong year for Roku, as we achieved record revenue, gross profit, adjusted EBITDA, and ARPU.” (Q4 2021 shareholder letter, Form 8-K Exhibit 99.1, filed Feb 17, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1428439/000142843922000006/q421form8-kerxexhibit991.htm\n\n“This will affect approximately 200 employee positions in the United States.” (Form 8-K, Item 2.05, filed Nov 17, 2022)\nhttps://www.sec.gov/Archives/edgar/data/1428439/000119312522287240/d395182d8k.htm\n\nFrom a Feb 2022 filing and a Nov 2022 filing.\n\nOur math: $2,765,000,000 ÷ 200 = $13,825,000 (about $13.8 million, rounded down). The $2.765 billion is Roku's total net revenue for 2021, not profit. The 200 are employee positions in the United States in the plan the 8-K describes, not a count of people let go.\n\nWhich company's filings should we search next?\n\nSources\nF1: Roku Q4 2021 shareholder letter, Form 8-K Exhibit 99.1, filed Feb 17, 2022 · https://www.sec.gov/Archives/edgar/data/1428439/000142843922000006/q421form8-kerxexhibit991.htm\nF2: Roku Form 8-K, Item 2.05, filed Nov 17, 2022 · https://www.sec.gov/Archives/edgar/data/1428439/000119312522287240/d395182d8k.htm\n\nSynthetic voice. The lines on screen are copied letter for letter from the filings; the match counts (1 of 4, 1 of 2) are for the filing text as our code read it. Music made in code.\n\n#sec #8k",
+ "alt": "Vertical video, about 25 seconds, with a synthetic voice and subtitles that light up word by word. A white page of Roku's Q4 2021 shareholder letter, Form 8-K Exhibit 99.1 dated Feb 17, 2022 is shown with a search bar called Find in filing: the word \"record\" is typed and one line is highlighted in yellow (1 of 4). A hard cut to a page of Roku's Form 8-K, Item 2.05 dated Nov 17, 2022: \"positions\" is typed and a line is highlighted (1 of 2). The two highlighted lines are stacked with the text 273 days apart. A black card follows and shows $2.765 BILLION (total net revenue, 2021 · not profit), ABOUT 200 and ABOUT $13.8 MILLION 2021 revenue per position in the plan, and a closing card reads Our take: Record. Positions. Roku's own words. We only searched.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2022-11-17T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "buscar",
+ "formato": "short",
+ "origen": "roku-2021-record-and-cuts",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000142843922000006/q421form8-kerxexhibit991.htm",
+   "medio": "SEC EDGAR · Roku",
+   "titulo": "Roku Form 8-K, Exhibit 99.1: Q4 2021 shareholder letter",
+   "hora_utc": "2022-02-17T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000119312522287240/d395182d8k.htm",
+   "medio": "SEC EDGAR · Roku",
+   "titulo": "Roku Form 8-K, Item 2.05 (headcount reductions)",
+   "hora_utc": "2022-11-17T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "24.69 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Roku, February seventeenth. Search: record. Another filing, November seventeenth. Search: positions. two hundred seventy-three days apart. Record revenue: about two point seven billion dollars. The 8-K: about two hundred employee positions. Divide revenue by positions: about thirteen point eight million dollars each. Our take: Record. Positions. Roku's own words. We only searched. Difficult Decision.",
+ "tramos": [
+  {
+   "voz": "Roku, February seventeenth. Search: record.",
+   "t0": 0.05,
+   "t1": 2.255
+  },
+  {
+   "voz": "Another filing, November seventeenth. Search: positions.",
+   "t0": 2.45,
+   "t1": 5.466
+  },
+  {
+   "voz": "two hundred seventy-three days apart.",
+   "t0": 5.586,
+   "t1": 7.132
+  },
+  {
+   "voz": "Record revenue: about two point seven billion dollars.",
+   "t0": 7.382,
+   "t1": 10.248
+  },
+  {
+   "voz": "The 8-K: about two hundred employee positions.",
+   "t0": 10.648,
+   "t1": 13.179
+  },
+  {
+   "voz": "Divide revenue by positions: about thirteen point eight million dollars each.",
+   "t0": 13.579,
+   "t1": 17.789
+  },
+  {
+   "voz": "Our take: Record. Positions. Roku's own words. We only searched.",
+   "t0": 18.639,
+   "t1": 22.137
+  },
+  {
+   "voz": "Difficult Decision.",
+   "t0": 22.537,
+   "t1": 23.385
+  }
+ ],
+ "sintetico": true
+}

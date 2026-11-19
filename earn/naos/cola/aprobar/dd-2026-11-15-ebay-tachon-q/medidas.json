@@ -1,0 +1,271 @@
+{
+ "id": "ebay-2024-layoffs-2026-11-15",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 18.925,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 54,
+ "cuenta": {
+  "a": "3100000000",
+  "b": "1000",
+  "c_real": "3100000.0000",
+  "c_pantalla": "$3.1 MILLION",
+  "op": "÷",
+  "exacta": true,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · JAN 2024",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "t0": 0.0,
+   "t1": 5.422,
+   "voz": "In January 2024, eBay's CEO wrote: expenses have outpaced the growth of our business."
+  },
+  {
+   "papel": "gancho",
+   "t0": 5.502,
+   "t1": 10.844,
+   "voz": "That year, eBay spent three point one billion buying back its own shares. And cut about one thousand roles."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 10.924,
+   "t1": 14.599,
+   "voz": "About three point one million dollars in buybacks, for every job cut."
+  },
+  {
+   "papel": "giro",
+   "t0": 14.649,
+   "t1": 17.566,
+   "voz": "It outpaced the business. Here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "t0": 17.726,
+   "t1": 18.925,
+   "voz": "Difficult Decision."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 5.402,
+   "e": "n"
+  },
+  {
+   "t": 10.874,
+   "e": "c"
+  },
+  {
+   "t": 14.599,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 9.452,
+  "numero_a": 6.292,
+  "numero_c": 11.424,
+  "numero_dicho": null,
+  "linea_completa": 16.273,
+  "cierre": 17.646,
+  "total": 18.925
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "banda": 32,
+  "empresa": 84,
+  "q.nombre": 150,
+  "q.cargo": 50,
+  "q.medio": 34,
+  "frase": 100,
+  "frase.chica": 40,
+  "a": 207,
+  "a.titulo": 50,
+  "alcance": 38,
+  "a.detalle": 32,
+  "b": 137,
+  "b.titulo": 50,
+  "cuenta.arriba": 205,
+  "cuenta.resultado": 323,
+  "c.rotulo": 62,
+  "aclara": 56,
+  "alcance.c": 38,
+  "b.c": 38,
+  "cuenta.una_linea": 122,
+  "c.rotulo.t": 56,
+  "aclara.t": 52,
+  "canal": 140,
+  "cierre": 46,
+  "sigue": 88,
+  "aviso": 28,
+  "linea": 64
+ },
+ "lineas_frase": 6,
+ "c_ancho_px": 918,
+ "envoltorio": {
+  "semilla": "2026-11-15|ebay-2024-layoffs",
+  "sonido": 1,
+  "trazo": 0,
+  "composicion": 2,
+  "cierre": 4,
+  "titulo": 0
+ },
+ "volumen": {
+  "lufs": -14.27,
+  "pico_dbtp": -1.17
+ },
+ "oido": [
+  {
+   "papel": "golpe",
+   "dice": "In January 2024, eBay's CEO wrote: expenses have outpaced the growth of our business.",
+   "oye": "In January, 2024, eBay's CEO wrote, expenses have outpaced the growth of our business."
+  },
+  {
+   "papel": "gancho",
+   "dice": "That year, eBay spent three point one billion buying back its own shares. And cut about one thousand roles.",
+   "oye": "That year, eBay spent $3.1 billion buying back its own shares and cut about 1,000 rolls about $1,000.",
+   "cifra_a": {
+    "espera": "$3.1 BILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "1,000",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "About three point one million dollars in buybacks, for every job cut.",
+   "oye": "About $3.1 million in buybacks for every job cut.",
+   "cifra_c": {
+    "espera": "$3.1 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "It outpaced the business. Here is the buyback column.",
+   "oye": "It outpaced the business. Here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "dice": "Difficult Decision.",
+   "oye": "difficult decision."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.6,
+  "rachas": [],
+  "pasa": true
+ },
+ "avisos": [],
+ "canal": {
+  "nombre": "Difficult Decision"
+ },
+ "plantilla": "dd/tachon-q@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "golpe",
+   "gancho",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 18.925
+ },
+ "gancho_seg": 6.292,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · JAN 2024, la frase oficial grande con nombre y cargo, tachándose"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"b_antes\": 10.5, \"quieto_s\": 2.0, \"duracion_s\": [16, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.6,
+  "rachas": [],
+  "pasa": true
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/ebay-2024-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · eBay: «While we are making progress against our strategy, our overall headcount and expenses have»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · eBay: «We repurchased $3.1 billion of common stock and paid $533 million in cash dividends.»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 3,100,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · eBay: «a reduction of the Company’s current workforce by approximately 1,000 employee roles, or 9»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 1,000"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (eBay) es la del pedido (eBay)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

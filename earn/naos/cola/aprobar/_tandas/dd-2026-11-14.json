@@ -1,0 +1,25 @@
+{
+ "nombre": "dd-2026-11-14",
+ "issue": 1322,
+ "version": 2,
+ "estado": "publicado",
+ "piezas": [
+  "dd-2026-11-14-alphabet-tachon-q",
+  "dd-2026-11-14-alphabet-lamina",
+  "dd-2026-11-14-alphabet-expediente",
+  "dd-2026-11-14-alphabet-historia"
+ ],
+ "comentario_vista_previa_id": 6886481135,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T11:47:37Z",
+ "aviso_utc": "2026-11-15T00:18:54Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T00:21:53Z",
+ "aprobadas": [
+  "dd-2026-11-14-alphabet-expediente",
+  "dd-2026-11-14-alphabet-historia",
+  "dd-2026-11-14-alphabet-lamina",
+  "dd-2026-11-14-alphabet-tachon-q"
+ ],
+ "cerrada": true
+}

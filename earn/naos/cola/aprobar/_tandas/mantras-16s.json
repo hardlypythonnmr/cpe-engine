@@ -1,0 +1,21 @@
+{
+ "nombre": "mantras-16s",
+ "issue": 953,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "maha-mantra-16-seconds",
+  "om-mani-padme-hum-16-seconds"
+ ],
+ "comentario_vista_previa_id": 6659330389,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T13:34:19Z",
+ "aviso_utc": "2026-11-05T13:34:19Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T13:35:58Z",
+ "aprobadas": [
+  "maha-mantra-16-seconds",
+  "om-mani-padme-hum-16-seconds"
+ ],
+ "cerrada": true
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "like-a-peasant",
+ "issue": 1805,
+ "version": 2,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T10:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d8d0ece2a6146aa27e4f27340da67f1d6735ec19f75114a9c203b0d2519e65ab",
+ "hashes": {
+  "short": "a3bb11299a6106fbfe1de0beff6ea1569af340174cf3e2749f4f17422508c69e"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7015999337,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_por": "version",
+ "caducado_utc": "2026-11-19T16:57:45Z"
+}

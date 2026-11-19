@@ -1,0 +1,40 @@
+{
+ "nombre": "instagram-19-20-nov",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "asked-the-moon-for-a-sign",
+  "water-retreat",
+  "which-self-care",
+  "before-you-buy-the-course",
+  "suspiciously-great",
+  "gratitude-journal-day-1",
+  "moon-late-every-night",
+  "nice-folder-name",
+  "procrastination-laziness-or-fear",
+  "missed-the-deadline-texts",
+  "text-me-home",
+  "quick-break-receipt"
+ ],
+ "comentario_vista_previa_id": 6667936145,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T20:01:07Z",
+ "aviso_utc": "2026-11-05T20:01:11Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z",
+ "aprobadas": [
+  "asked-the-moon-for-a-sign",
+  "before-you-buy-the-course",
+  "gratitude-journal-day-1",
+  "missed-the-deadline-texts",
+  "moon-late-every-night",
+  "nice-folder-name",
+  "procrastination-laziness-or-fear",
+  "quick-break-receipt",
+  "suspiciously-great",
+  "text-me-home",
+  "water-retreat",
+  "which-self-care"
+ ]
+}

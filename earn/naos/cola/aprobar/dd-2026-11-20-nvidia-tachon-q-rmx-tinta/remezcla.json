@@ -1,0 +1,38 @@
+{
+ "origen": "dd-2026-11-14-nvidia-tachon-q",
+ "eje": "color",
+ "brazo": "B",
+ "experimento": "rmx-2026-11-19",
+ "cambios": [
+  "paper turned to ink: near-black field, light type, the strike stays red and the yellow highlight turns dark amber with light figures",
+  "3 % closer (both DD arms), no words cut"
+ ],
+ "receta": {
+  "slug": "dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
+  "fecha_et": "2026-11-20",
+  "et_preferida": "12:30",
+  "grado": "negate,hue=h=180",
+  "encuadre": {
+   "zoom": 1.03,
+   "cx": 0.5,
+   "cy": 0.5,
+   "deriva": 0
+  },
+  "portada": 6.5,
+  "experimento": "rmx-2026-11-19"
+ },
+ "duracion_s": 19.3,
+ "audio": {
+  "lufs": -15.6,
+  "pico_dbtp": -5.4
+ },
+ "huella": {
+  "dhash_media": 29.7,
+  "dhash_min": 23,
+  "umbral": 14,
+  "cambio_color": 182.1,
+  "distinta": true,
+  "lectura": "distinta en forma"
+ },
+ "elevenlabs_llamadas": 0
+}

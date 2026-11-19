@@ -1,0 +1,21 @@
+{
+ "slug": "gratitude-journal-day-1",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T21:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "323fc7b15708e8ef2039918a28fdec53c50edd06baa11ff44bf4eab37ff6b303",
+ "hashes": {
+  "imagen": "bc5827715bc908b5ff480ddcc6f4c42a7b518c9d4ff874dcfccd590b78c1b863"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6667930476,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

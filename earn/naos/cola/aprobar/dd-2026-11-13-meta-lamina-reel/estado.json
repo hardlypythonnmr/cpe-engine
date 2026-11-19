@@ -1,0 +1,22 @@
+{
+ "slug": "dd-2026-11-13-meta-lamina-reel",
+ "issue": 1448,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T20:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "b7f60ee0eb94b41585fef3558da8854207c3937fbd2958eefb8f6d1dc699ffb2",
+ "hashes": {
+  "reel": "1d7d367b9fe326ce885bb688be60541f2dd9d46f0079aa3fa02b530ae20c683c"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6887855372,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "fijo-reel-1511",
+ "aprobado_evento_utc": "2026-11-15T11:55:30Z"
+}

@@ -1,0 +1,19 @@
+{
+ "nombre": "largo-i-holy-hustle",
+ "issue": 951,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "church-of-the-holy-hustle"
+ ],
+ "comentario_vista_previa_id": 6654893249,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T09:50:06Z",
+ "aviso_utc": "2026-11-05T09:50:06Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T13:06:00Z",
+ "aprobadas": [
+  "church-of-the-holy-hustle"
+ ],
+ "cerrada": true
+}

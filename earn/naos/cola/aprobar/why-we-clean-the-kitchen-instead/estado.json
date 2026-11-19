@@ -1,0 +1,21 @@
+{
+ "slug": "why-we-clean-the-kitchen-instead",
+ "issue": 934,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "adfb63b884c58064079ba40f8259cb6b2ad041b38494d47dd16c7b50016587a7",
+ "hashes": {
+  "short": "8f4ad64d88f62e2460ffb5570ae0fce70ab1faa9d5aada11218de01e1e9871e5"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6644161390,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "lb-why-we-clean",
+ "aprobado_evento_utc": "2026-11-05T01:20:17Z"
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-20-walgreens-2023-exit-pay-explicador",
+ "titulo": "Walgreens Boots Alliance, Sep 2023: about 258 years of median employee pay. The math, done.",
+ "clave": "2026-11-20|mercury|explicador|2026-11-20-walgreens-2023-exit-pay-explicador",
+ "sale_utc": "2026-11-20T01:00:00Z",
+ "caption": "Walgreens Boots Alliance, Sep 2023: about 258 years of median employee pay. The math, done.\n\nOn September 1, 2023 Walgreens announced that its CEO would step down effective August 31, 2023, with a separation agreement that includes $9 million in cash severance; its fiscal 2023 proxy reports the median employee's compensation.\n\nFrom the archive: Sep 2023. Not today's news.\n\nThe math: $9,000,000 (cash severance in the CEO's separation agreement, fiscal 2023) ÷ $34,763 (median employee's compensation, fiscal 2023) = about 258 years of median employee pay. We round down.\nThe amount is the cash severance in the separation agreement. The 8-K lists other items. We do not count them. It is the amount agreed in the separation agreement, not what has been paid. The median pay is from the proxy statement for fiscal 2023, the same year.\n\n(Our take.) Stepped down. Here is the exit column.\n\nSources\nF1: Walgreens Boots Alliance Form 8-K, Item 5.02 (CEO separation), filed Sep 1, 2023 · https://www.sec.gov/Archives/edgar/data/1618921/000119312523226884/d497068d8k.htm\nF2: Walgreens Boots Alliance proxy statement (DEF 14A), 2023 pay ratio, filed Dec 8, 2023 · https://www.sec.gov/Archives/edgar/data/1618921/000130817923001069/wba4243631-def14a.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "On September 1, 2023 Walgreens announced that its CEO would step down effective August 31, 2023, with a separation agreement that includes $9 million in cash severance; its fiscal 2023 proxy reports the median employee's compensation.\n\nFrom the archive: Sep 2023. Not today's news.\n\nThe math: $9,000,000 (cash severance in the CEO's separation agreement, fiscal 2023) ÷ $34,763 (median employee's compensation, fiscal 2023) = about 258 years of median employee pay. We round down.\nThe amount is the cash severance in the separation agreement. The 8-K lists other items. We do not count them. It is the amount agreed in the separation agreement, not what has been paid. The median pay is from the proxy statement for fiscal 2023, the same year.\n\n(Our take.) Stepped down. Here is the exit column.\n\nSources\nF1: Walgreens Boots Alliance Form 8-K, Item 5.02 (CEO separation), filed Sep 1, 2023 · https://www.sec.gov/Archives/edgar/data/1618921/000119312523226884/d497068d8k.htm\nF2: Walgreens Boots Alliance proxy statement (DEF 14A), 2023 pay ratio, filed Dec 8, 2023 · https://www.sec.gov/Archives/edgar/data/1618921/000130817923001069/wba4243631-def14a.htm\n\nThe quotes on screen are copied from the filings. Original music. No narration.\n\nSave this.",
+ "alt": "Vertical video, 1:02, cobalt blue poster with white type and no narration. Walgreens Boots Alliance, Sep 2023: about 258 years of median employee pay. The math, done.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2023-12-08T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "explicador",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312523226884/d497068d8k.htm",
+   "medio": "SEC EDGAR · Walgreens Boots Alliance",
+   "titulo": "Walgreens Boots Alliance Form 8-K, Item 5.02 (CEO separation)",
+   "hora_utc": "2023-09-01T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618921/000130817923001069/wba4243631-def14a.htm",
+   "medio": "SEC EDGAR · Walgreens Boots Alliance",
+   "titulo": "Walgreens Boots Alliance proxy statement (DEF 14A), 2023 pay ratio",
+   "hora_utc": "2023-12-08T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "62.3 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

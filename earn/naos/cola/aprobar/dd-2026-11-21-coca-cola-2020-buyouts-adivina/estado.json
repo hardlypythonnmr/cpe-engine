@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-21-coca-cola-2020-buyouts-adivina",
+ "issue": 1783,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T17:30:00Z",
+ "datos_utc": "2021-02-25T00:00:00Z",
+ "hash_contenido": "df702638d96d7a572b1aecf1a31abef576f788911a6aa279841c8df96cf788be",
+ "hashes": {
+  "short": "a39883bbdd080f7713bbbd3c821ef3cc7dd7f58fa67c64cd367c99dccf95aa5b",
+  "reel": "0d7bb5f9e59ff18d328423286de7a00cebd6a5b4497deba6c75a45d5458d6e36"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957643355,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-crecimiento",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:49:52Z",
+ "veto_hasta_utc": "2026-11-17T19:49:52Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-22T05:30:00Z"
+}

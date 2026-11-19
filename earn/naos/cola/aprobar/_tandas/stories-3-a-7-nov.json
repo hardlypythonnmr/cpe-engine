@@ -1,0 +1,41 @@
+{
+ "nombre": "stories-3-a-7-nov",
+ "issue": 866,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "text-me-when",
+  "door-peek",
+  "favorite-weird",
+  "three-days-ago",
+  "ten-out-of-ten",
+  "fall-asleep-on-me",
+  "mostly-a-bean",
+  "after-you",
+  "sit-closer",
+  "small-things",
+  "plus-one",
+  "typed-an-hour"
+ ],
+ "comentario_vista_previa_id": 6505527298,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-10-29T18:50:18Z",
+ "aviso_utc": "2026-10-29T18:50:21Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-31T15:50:20Z",
+ "aprobadas": [
+  "after-you",
+  "door-peek",
+  "fall-asleep-on-me",
+  "favorite-weird",
+  "mostly-a-bean",
+  "plus-one",
+  "sit-closer",
+  "small-things",
+  "ten-out-of-ten",
+  "text-me-when",
+  "three-days-ago",
+  "typed-an-hour"
+ ],
+ "cerrada": true
+}

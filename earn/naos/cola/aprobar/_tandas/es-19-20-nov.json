@@ -1,0 +1,24 @@
+{
+ "nombre": "es-19-20-nov",
+ "issue": 1767,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "which-self-care-es",
+  "before-you-buy-the-course-es",
+  "procrastination-laziness-or-fear-es",
+  "missed-the-deadline-texts-es"
+ ],
+ "comentario_vista_previa_id": 6953987595,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T16:23:39Z",
+ "aviso_utc": "2026-11-17T16:23:45Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T16:48:14Z",
+ "aprobadas": [
+  "before-you-buy-the-course-es",
+  "missed-the-deadline-texts-es",
+  "procrastination-laziness-or-fear-es",
+  "which-self-care-es"
+ ]
+}

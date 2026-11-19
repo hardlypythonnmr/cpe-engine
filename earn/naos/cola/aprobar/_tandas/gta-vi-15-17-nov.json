@@ -1,0 +1,37 @@
+{
+ "nombre": "gta-vi-15-17-nov",
+ "issue": 969,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "achievements-nobody-unlocks",
+  "npc-on-the-corner-since-2013-yt",
+  "npc-on-the-corner-since-2013",
+  "which-gamer-are-you-1",
+  "which-gamer-are-you-2",
+  "which-gamer-are-you-3",
+  "loading-screen-tip-vol-1",
+  "six-gamers-on-the-19th",
+  "pre-order-your-life-editions",
+  "mission-failed-text-back"
+ ],
+ "comentario_vista_previa_id": 6670853104,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T22:10:29Z",
+ "aviso_utc": "2026-11-05T22:10:48Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T01:03:33Z",
+ "aprobadas": [
+  "achievements-nobody-unlocks",
+  "loading-screen-tip-vol-1",
+  "mission-failed-text-back",
+  "npc-on-the-corner-since-2013",
+  "npc-on-the-corner-since-2013-yt",
+  "pre-order-your-life-editions",
+  "six-gamers-on-the-19th",
+  "which-gamer-are-you-1",
+  "which-gamer-are-you-2",
+  "which-gamer-are-you-3"
+ ],
+ "cerrada": true
+}

@@ -1,0 +1,29 @@
+{
+ "nombre": "dd-nvidia-1415",
+ "issue": 1059,
+ "version": 2,
+ "estado": "publicado",
+ "piezas": [
+  "dd-2026-11-14-nvidia-historia-8k",
+  "dd-2026-11-14-nvidia-tachon-q",
+  "dd-2026-11-14-nvidia-medio",
+  "dd-2026-11-14-nvidia-lamina",
+  "dd-2026-11-15-nvidia-historia-17nov",
+  "dd-2026-11-15-nvidia-actually-said-semana"
+ ],
+ "comentario_vista_previa_id": 6837342818,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-12T21:17:07Z",
+ "aviso_utc": "2026-11-12T22:11:53Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-12T22:34:18Z",
+ "aprobadas": [
+  "dd-2026-11-14-nvidia-historia-8k",
+  "dd-2026-11-14-nvidia-lamina",
+  "dd-2026-11-14-nvidia-medio",
+  "dd-2026-11-14-nvidia-tachon-q",
+  "dd-2026-11-15-nvidia-actually-said-semana",
+  "dd-2026-11-15-nvidia-historia-17nov"
+ ],
+ "cerrada": true
+}

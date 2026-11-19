@@ -1,0 +1,22 @@
+{
+ "slug": "comes-back-sits-down",
+ "issue": 1486,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T19:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5b279de3a41fe3a9002a32a1d8053b3dd9f3e6a5c0498a8618b3a5aca0cf8be2",
+ "hashes": {
+  "historia": "9f0b7e363f6d7805e76109fac1b57a6355979a7cbe49f7f9cacd637453af8f49"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6893518602,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tendencia-1820",
+ "aprobado_evento_utc": "2026-11-15T11:55:28Z"
+}

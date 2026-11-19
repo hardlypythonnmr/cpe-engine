@@ -1,0 +1,23 @@
+{
+ "nombre": "vencidas-1314",
+ "issue": 1070,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "cella-contesta-small-thing-r",
+  "left-you-on-read-r",
+  "om-mani-padme-hum-flowers-wave-r",
+  "never-explains-itself-r"
+ ],
+ "comentario_vista_previa_id": 6852102374,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T11:54:50Z",
+ "aprobado_evento_utc": "2026-11-13T13:22:45Z",
+ "aprobadas": [
+  "cella-contesta-small-thing-r",
+  "left-you-on-read-r",
+  "never-explains-itself-r",
+  "om-mani-padme-hum-flowers-wave-r"
+ ],
+ "cerrada": true
+}

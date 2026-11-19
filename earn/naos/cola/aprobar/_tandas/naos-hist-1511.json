@@ -1,0 +1,21 @@
+{
+ "nombre": "naos-hist-1511",
+ "issue": 1503,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "eau-de-domingo-hist",
+  "om-mani-padme-hum-sunday-karma-hist"
+ ],
+ "comentario_vista_previa_id": 6894030344,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T12:04:07Z",
+ "aviso_utc": "2026-11-15T12:04:07Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T12:04:40Z",
+ "aprobadas": [
+  "eau-de-domingo-hist",
+  "om-mani-padme-hum-sunday-karma-hist"
+ ],
+ "cerrada": true
+}

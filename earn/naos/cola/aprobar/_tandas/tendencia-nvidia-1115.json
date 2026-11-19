@@ -1,0 +1,21 @@
+{
+ "nombre": "tendencia-nvidia-1115",
+ "issue": 1187,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "the-office-knew-first",
+  "dd-2026-11-15-nvidia-three-reports"
+ ],
+ "comentario_vista_previa_id": 6863356968,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T19:55:18Z",
+ "aviso_utc": "2026-11-13T19:55:18Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T21:16:44Z",
+ "aprobadas": [
+  "dd-2026-11-15-nvidia-three-reports",
+  "the-office-knew-first"
+ ],
+ "cerrada": true
+}

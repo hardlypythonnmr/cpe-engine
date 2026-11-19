@@ -1,0 +1,23 @@
+{
+ "slug": "not-labeling-it",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-19T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e75af90ea0ae6b9e766c5fb2690dc41086dda0b380c5f80e33bc68e95dd35873",
+ "hashes": {
+  "short": "4a7daee3220e78de8ed43e7e76138c6423fce1c16a5fdf0e9b411fa72b58b0c3",
+  "reel": "5e6283c0ddfb0e3218d9dc371e5162c108107b503a9c0724729f379fddb042cf"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668661884,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

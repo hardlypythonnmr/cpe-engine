@@ -1,0 +1,23 @@
+{
+ "slug": "said-hello-first",
+ "issue": 963,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8ae0f3afb757f8c4fb910f6950bc95d874827b0fa07d43d66320c3c80f68604d",
+ "hashes": {
+  "imagen": "8af0265320b640e5169df6523f368d31d924cfa1d2835afe4d08ed1bd424297a"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6886293360,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z"
+}

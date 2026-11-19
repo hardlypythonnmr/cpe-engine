@@ -1,0 +1,20 @@
+{
+ "nombre": "dd-remezcla-nvidia",
+ "issue": 1777,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
+  "dd-2026-11-22-nvidia-tachon-q-rmx-frio"
+ ],
+ "comentario_vista_previa_id": 6956721437,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T18:10:44Z",
+ "aviso_utc": "2026-11-17T18:10:47Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T18:55:11Z",
+ "aprobadas": [
+  "dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
+  "dd-2026-11-22-nvidia-tachon-q-rmx-frio"
+ ]
+}

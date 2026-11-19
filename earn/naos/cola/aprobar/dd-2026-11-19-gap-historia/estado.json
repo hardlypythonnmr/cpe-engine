@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-19-gap-historia",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T19:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "9c0859a4747f9d0119d4ae5b689ba1aaaafdf7d6a5349a0701e3d16e1ec10840",
+ "hashes": {
+  "historia": "3a98293fd8f074c4c37b131d1822b1dca7feebeaed1745ccba67c79f776fb4c5"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885942980,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

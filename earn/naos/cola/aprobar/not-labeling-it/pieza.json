@@ -1,0 +1,48 @@
+{
+ "slug": "not-labeling-it",
+ "titulo": "'We're not labeling it' means you're a hobby",
+ "clave": "2026-11-19|casa-escaleras",
+ "sale_utc": "2026-11-19T17:00:00Z",
+ "caption": "'We're not labeling it' means you're a hobby\n\n\"We're not labeling it\" means you're a hobby. Leave the hobby.\n\nYou deserve someone who can pronounce \"my person\" without the dots.\n\n#Cella #dating\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "\"We're not labeling it\" means you're a hobby. Leave the hobby.\n\nYou deserve someone who can pronounce \"my person\" without the dots.\n\n#Cella #dating\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A bench in a staircase room. Two small block figures with white eyes sit far apart, an ink-black one on the left and a navy one on the right. Above the ink-black figure floats a bubble with three dots, typing, forever. The navy figure listens with wide eyes, then narrows them, stands up and walks away to the right. The ink-black figure stays with the dots, smiling. The text stays: if someone sent you this: 'we're not labeling it' means you're a hobby. Leave the hobby.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "not-labeling-it",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 16 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -2.9 dBFS, LRA 2.4 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "INV",
+ "filo": "P",
+ "tema": "citas",
+ "blanco": "quien dice 'we're not labeling it' (la situationship)",
+ "destinatario": "the friend stuck in a situationship",
+ "cara": "B",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

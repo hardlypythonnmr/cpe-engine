@@ -1,0 +1,264 @@
+{
+ "id": "molson-coors-2025-layoffs-2026-11-19",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 19.844,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.32,
+ "palabras": 57,
+ "cuenta": {
+  "a": "1024200000",
+  "b": "400",
+  "c_real": "2560500.0000",
+  "c_pantalla": "$2.56 MILLION",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · OCT 2025",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "t0": 0.0,
+   "t1": 4.104,
+   "voz": "In October 2025, Molson Coors's CEO said: transform even faster."
+  },
+  {
+   "papel": "gancho",
+   "t0": 4.184,
+   "t1": 12.15,
+   "voz": "That year, Molson Coors paid one point zero two billion to shareholders. And by December 2025, plans to cut about four hundred salaried jobs in the Americas."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 12.23,
+   "t1": 16.056,
+   "voz": "Two point five six million dollars to shareholders, per Americas job cut."
+  },
+  {
+   "papel": "giro",
+   "t0": 16.106,
+   "t1": 18.964,
+   "voz": "Transform even faster. Here is the shareholder column."
+  },
+  {
+   "papel": "firma",
+   "t0": 19.044,
+   "t1": 19.844,
+   "voz": ""
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 4.084,
+   "e": "n"
+  },
+  {
+   "t": 12.18,
+   "e": "c"
+  },
+  {
+   "t": 16.056,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 9.954,
+  "numero_a": 5.174,
+  "numero_c": 12.73,
+  "numero_dicho": null,
+  "linea_completa": 17.731,
+  "cierre": 19.044,
+  "total": 19.844
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "frase": 150,
+  "a": 98,
+  "b": 98,
+  "cuenta.arriba": 84,
+  "about": 120,
+  "cifra": 325,
+  "linea": 150
+ },
+ "lineas_frase": 5,
+ "c_ancho_px": 935,
+ "envoltorio": {
+  "semilla": "2026-11-19|molson-coors-2025-layoffs",
+  "sonido": 3,
+  "trazo": 0,
+  "composicion": 2,
+  "cierre": 4,
+  "titulo": 3
+ },
+ "ritmo": 1.1,
+ "volumen": {
+  "lufs": -14.17,
+  "pico_dbtp": -1.28
+ },
+ "oido": [
+  {
+   "papel": "golpe",
+   "dice": "In October 2025, Molson Coors's CEO said: transform even faster.",
+   "oye": "In October 2025, Malcolm Cruz's CEO said, transform even faster."
+  },
+  {
+   "papel": "gancho",
+   "dice": "That year, Molson Coors paid one point zero two billion to shareholders. And by December 2025, plans to cut about four hundred salaried jobs in the Americas.",
+   "oye": "That year, Mawson Coors paid $1.02 billion to shareholders. By December 2025, plans to cut about 400-salary jobs in the Americas.",
+   "cifra_a": {
+    "espera": "$1.02 BILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "400",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "Two point five six million dollars to shareholders, per Americas job cut.",
+   "oye": "$2.56 million to shareholders per America's job cut.",
+   "cifra_c": {
+    "espera": "$2.56 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Transform even faster. Here is the shareholder column.",
+   "oye": "Transform even faster. Here is the shareholder column."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.5,
+  "rachas": [
+   [
+    12.9,
+    15.4
+   ]
+  ],
+  "pasa": false
+ },
+ "avisos": [
+  "hay tramos de más de 2.0 s sin que cambie nada: [[12.9, 15.4]]"
+ ],
+ "canal": {
+  "nombre": "Difficult Decision"
+ },
+ "plantilla": "dd/tachon-q@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "golpe",
+   "gancho",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 19.844
+ },
+ "gancho_seg": 5.174,
+ "cifra_entra_s": 12.73,
+ "racha_quieta_max_s": 2.5,
+ "cifra_antes_s": 2.0,
+ "racha_tope_s": 2.0,
+ "dinamico": false,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · OCT 2025, la frase oficial grande con nombre y cargo, tachándose, y la cifra entrando antes de 2 s"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"cifra_antes\": 2.0, \"voz_desde\": 0.4, \"b_antes\": 10.5, \"b_antes_dinamico\": 14.0, \"quieto_s\": 2.0, \"duracion_s\": [12, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.5,
+  "rachas": [
+   [
+    12.9,
+    15.4
+   ]
+  ],
+  "pasa": false
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/molson-coors-2025-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Molson Coors: «We’ve made progress on our transformation journey, but given the environment, we must tran»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Molson Coors: «Dividends paid ( 376.3 ) ( 369.2 ) ( 354.7 ) Payments for purchases of treasury stock ( 64»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 1,024,200,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Molson Coors: «In total, the company plans to eliminate approximately 400 salaried positions across its A»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 400"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2025 · B 2025)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Molson Coors) es la del pedido (Molson Coors)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

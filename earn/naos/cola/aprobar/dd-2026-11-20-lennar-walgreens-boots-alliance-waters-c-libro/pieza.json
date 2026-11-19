@@ -1,0 +1,115 @@
+{
+ "slug": "dd-2026-11-20-lennar-walgreens-boots-alliance-waters-c-libro",
+ "titulo": "Walgreens, Lennar and Waters: the exit payment in the 8-K, in years of median employee pay",
+ "clave": "2026-11-20|mercury|libro|2026-11-20-lennar-walgreens-boots-alliance-waters-c-libro",
+ "sale_utc": "2026-11-20T03:30:00Z",
+ "caption": "Walgreens, Lennar and Waters: the exit payment in the 8-K, in years of median employee pay\n\nFrom the archive: 2020 to 2023.\n\nLennar, Jul 14, 2023\nThe math: $20.2 million (separation payment to the retiring Co-CEO, 2023) ÷ $109,229 (median associate's pay, fiscal 2023) = about 185 years of median pay\n\nWalgreens Boots Alliance, Sep 1, 2023\nThe math: $9 million (cash severance in the CEO's separation agreement, 2023) ÷ $34,763 (median employee's pay, fiscal 2023) = about 258 years of median pay\n\nWaters Corporation, Jun 17, 2020\nThe math: $4.25 million (cash severance in the CEO's separation agreement, 2020) ÷ $67,703 (median employee's pay, 2020) = about 62 years of median pay\n\nRetire. Step down. Departure. Here is the exit column. (Our take.)\n\nSources: Lennar, Form 8-K, filed Jul 14, 2023; Lennar, Form DEF 14A, filed Feb 29, 2024; Walgreens Boots Alliance, Form 8-K, filed Sep 1, 2023; Walgreens Boots Alliance, Form DEF 14A, filed Dec 8, 2023; Waters Corporation, Form 8-K, filed Jun 17, 2020; Waters Corporation, Form DEF 14A, filed Apr 1, 2021.\n\nSave this.\n\nLink in bio.",
+ "descripcion": "",
+ "alt": "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2020 to 2023. Title: \"Walgreens, Lennar and Waters: the exit payment in the 8-K, in years of median employee pay\" Above the giant figure, the company: Walgreens Boots Alliance. The figure, about 258 years of median pay, fills the width at the bottom.",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2024-02-29T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "libro",
+ "formato": "carrusel",
+ "origen": "libro",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828023024926/len-20230714.htm",
+   "medio": "SEC EDGAR · Lennar · Form 8-K",
+   "titulo": "Lennar, Form 8-K, filed Jul 14, 2023",
+   "hora_utc": "2023-07-14T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000119312524051712/d511799ddef14a.htm",
+   "medio": "SEC EDGAR · Lennar · Form DEF 14A",
+   "titulo": "Lennar, Form DEF 14A, filed Feb 29, 2024",
+   "hora_utc": "2024-02-29T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618921/000119312523226884/d497068d8k.htm",
+   "medio": "SEC EDGAR · Walgreens Boots Alliance · Form 8-K",
+   "titulo": "Walgreens Boots Alliance, Form 8-K, filed Sep 1, 2023",
+   "hora_utc": "2023-09-01T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618921/000130817923001069/wba4243631-def14a.htm",
+   "medio": "SEC EDGAR · Walgreens Boots Alliance · Form DEF 14A",
+   "titulo": "Walgreens Boots Alliance, Form DEF 14A, filed Dec 8, 2023",
+   "hora_utc": "2023-12-08T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F5",
+   "url": "https://www.sec.gov/Archives/edgar/data/1000697/000119312520171436/d946974d8k.htm",
+   "medio": "SEC EDGAR · Waters Corporation · Form 8-K",
+   "titulo": "Waters Corporation, Form 8-K, filed Jun 17, 2020",
+   "hora_utc": "2020-06-17T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F6",
+   "url": "https://www.sec.gov/Archives/edgar/data/1000697/000119312521103271/d15964ddef14a.htm",
+   "medio": "SEC EDGAR · Waters Corporation · Form DEF 14A",
+   "titulo": "Waters Corporation, Form DEF 14A, filed Apr 1, 2021",
+   "hora_utc": "2021-04-01T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "6 cited filings, named with form and date"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about when it is not exact"
+  },
+  {
+   "que": "Slides",
+   "estado": "OK",
+   "nota": "7 slides 1080x1350, converted from PNG to JPEG for Instagram"
+  }
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg"
+ ],
+ "alt_laminas": [
+  "Slide 1 of 7. Cobalt blue poster with white type. At the top, the date: Archive · 2020 to 2023. Title: \"Walgreens, Lennar and Waters: the exit payment in the 8-K, in years of median employee pay\" Above the giant figure, the company: Walgreens Boots Alliance. The figure, about 258 years of median pay, fills the width at the bottom.",
+  "Slide 2 of 7. Cobalt blue poster with white type. Lennar, Jul 14, 2023. The count in one line: $20.2 million (separation payment to the retiring Co-CEO, 2023) divided by $109,229 (median associate's pay, fiscal 2023) equals about 185 years of median pay. The literal sentence: \"has decided to retire as a Co-Chief Executive Officer and Co-President\" Form 8-K, filed Jul 14, 2023. A giant about 185 years fills the width at the bottom.",
+  "Slide 3 of 7. Cobalt blue poster with white type. Walgreens Boots Alliance, Sep 1, 2023. The count in one line: $9 million (cash severance in the CEO's separation agreement, 2023) divided by $34,763 (median employee's pay, fiscal 2023) equals about 258 years of median pay. The literal sentence: \"mutually agreed that Ms. Brewer would step down as the Company’s Chief Executive Officer\" Form 8-K, filed Sep 1, 2023. A giant about 258 years fills the width at the bottom.",
+  "Slide 4 of 7. Cobalt blue poster with white type. Waters Corporation, Jun 17, 2020. The count in one line: $4.25 million (cash severance in the CEO's separation agreement, 2020) divided by $67,703 (median employee's pay, 2020) equals about 62 years of median pay. The literal sentence: \"announced the planned departure of Christopher J. O’Connell, President and Chief Executive Officer\" Form 8-K, filed Jun 17, 2020. A giant about 62 years fills the width at the bottom.",
+  "Slide 5 of 7. Cobalt blue poster with white type. Title: How we count. For each company, the number A and the number B from its filing (shortened, never rounded up), with the form and the date, and the rule: each result is divided and never rounded up; anything approximate says about.",
+  "Slide 6 of 7. Cobalt blue poster with white type. Title: What this does not say. Only the amount the 8-K gives is counted. Walgreens: the cash severance only, not the other items the 8-K lists. These are agreed amounts, not what has been paid. Waters' is payable over two years. Lennar's agreement is in exchange for a release of claims. Its leader retired as a co-CEO. Our take: Retire. Step down. Departure. Here is the exit column.",
+  "Slide 7 of 7. Cobalt blue poster with white type. Title: Sources. One line per filing: company, form and filing date. A giant call to action fills the width at the bottom: Save this."
+ ]
+}

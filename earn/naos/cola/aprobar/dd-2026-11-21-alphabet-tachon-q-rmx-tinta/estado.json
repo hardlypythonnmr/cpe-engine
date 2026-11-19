@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-21-alphabet-tachon-q-rmx-tinta",
+ "issue": 1776,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T17:30:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "b37457c592fde98741943997d2596f7ff98973ce02e37e76662b8fdfb4285cfb",
+ "hashes": {
+  "short": "fed4b5479cae59cc0f79fffa0eb53b4867ccc86c38fb16962521eacf3b37c69b",
+  "reel": "778f82b962b11039d4fd50e3115e1098284ea91dd8c6695f096491aceef68f9e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956699603,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-remezcla-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:10:03Z",
+ "veto_hasta_utc": "2026-11-17T19:10:03Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-22T05:30:00Z"
+}

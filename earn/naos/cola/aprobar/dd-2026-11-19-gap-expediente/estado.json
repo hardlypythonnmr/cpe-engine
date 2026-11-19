@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-19-gap-expediente",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T21:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "c993797af24152b0a046e01157d6b16922c46340d2edc76037c7af0ce2714a02",
+ "hashes": {
+  "carrusel": "d9ab1a839678bc5b2cd12391c0772cd92f1b6f76a7a629ad1474a411ab1e3365"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885943832,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

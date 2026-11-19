@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-19-starbucks-2024-pay-ratio-adivina",
+ "issue": 1783,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T16:00:00Z",
+ "datos_utc": "2025-01-24T00:00:00Z",
+ "hash_contenido": "53a7e572f8831628209df0e761d4b295a94b7efa377d8031f0f8780374a3bc59",
+ "hashes": {
+  "short": "c2ea1bcf14559fdfe8f6bacea0f89261dd8ada6732782ed683f27295c8ab4b1c",
+  "reel": "4a5e4a25994cd9ff893830efc120a49efd64e65dbf509fd71621beeb033f902b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957639632,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-crecimiento",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:49:52Z",
+ "veto_hasta_utc": "2026-11-17T19:49:52Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-20T04:00:00Z"
+}

@@ -1,0 +1,91 @@
+{
+ "slug": "dd-2026-11-19-starbucks-tachon-q",
+ "titulo": "Starbucks (Sep 2025): $2.77 billion in dividends, about 900 jobs to be eliminated. The math, done.",
+ "clave": "2026-11-19|mercury|tachon|2026-11-19-starbucks-tachon-q",
+ "sale_utc": "2026-11-19T17:00:00Z",
+ "caption": "Starbucks (Sep 2025): $2.77 billion in dividends, about 900 jobs to be eliminated. The math, done.\n\nFrom the archive: Sep 2025. Not today's news.\nStarbucks, Sep 25, 2025 (Brian Niccol, chairman and CEO): \"these decisions impact our partners and their families, and we did not make them lightly\"\nStarbucks' chairman and CEO wrote to partners on Sept. 25, 2025, in an SEC 8-K letter. It said the company would eliminate approximately 900 non-retail partner roles. The dividend figure is from its fiscal 2025 10-K.\n\nSame year: $2.77 billion in dividends, fiscal 2025, company-wide. $2,771.4 million of cash dividends paid in fiscal 2025, company-wide; the same table shows no stock repurchases in fiscal 2025 (a dash), against $1,266.7 million the year before.\nThe math: $2.77 billion in dividends (2025) ÷ about 900 job cuts = about $3.07 million in dividends per non-retail job cut.\nThe facts: $2.77 billion in dividends, fiscal 2025, company-wide (Starbucks 2025 10-K (SEC), Nov 14, 2025). about 900 jobs to be eliminated (Starbucks 8-K letter (SEC), Sep 25, 2025). The $2.77 billion is cash dividends paid in fiscal 2025 (ended Sep 28, 2025), per the 10-K. Starbucks repurchased no stock that year. The 900 counts non-retail partner roles only; the same letter also says it will close many open positions, which we do not count.\n\nWe did not make them lightly. Here is the dividend column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: Starbucks 8-K letter (SEC), Sep 25, 2025; Starbucks 2025 10-K (SEC), Nov 14, 2025.\n\nGo to the link in bio.",
+ "descripcion": "From the archive: Sep 2025. Not today's news.\nStarbucks, Sep 25, 2025 (Brian Niccol, chairman and CEO): \"these decisions impact our partners and their families, and we did not make them lightly\"\nStarbucks' chairman and CEO wrote to partners on Sept. 25, 2025, in an SEC 8-K letter. It said the company would eliminate approximately 900 non-retail partner roles. The dividend figure is from its fiscal 2025 10-K.\n\nSame year: $2.77 billion in dividends, fiscal 2025, company-wide. $2,771.4 million of cash dividends paid in fiscal 2025, company-wide; the same table shows no stock repurchases in fiscal 2025 (a dash), against $1,266.7 million the year before.\nThe math: $2.77 billion in dividends (2025) ÷ about 900 job cuts = about $3.07 million in dividends per non-retail job cut.\nThe facts: $2.77 billion in dividends, fiscal 2025, company-wide (Starbucks 2025 10-K (SEC), Nov 14, 2025). about 900 jobs to be eliminated (Starbucks 8-K letter (SEC), Sep 25, 2025). The $2.77 billion is cash dividends paid in fiscal 2025 (ended Sep 28, 2025), per the 10-K. Starbucks repurchased no stock that year. The 900 counts non-retail partner roles only; the same letter also says it will close many open positions, which we do not count.\n\nWe did not make them lightly. Here is the dividend column. (Our take.)\n\nSources:\n- Starbucks 8-K letter (SEC), Sep 25, 2025: «I know these decisions impact our partners and their families, and we did not make them lightly.» and «This includes the difficult decision to eliminate approximately 900 current non-retail partner roles and close many open positions.» https://www.sec.gov/Archives/edgar/data/829224/000082922425000067/exhibit991.htm\n- Starbucks 2025 10-K (SEC), Nov 14, 2025: «Cash dividends paid ( 2,771.4 ) ( 2,585.0 ) ( 2,431.8 )» https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm\n\nSynthetic voice.",
+ "alt": "Blue card with white type. Starbucks, Sep 25, 2025. The statement, in quotes: \"these decisions impact our partners and their families, and we did not make them lightly\". It is by Brian Niccol, chairman and CEO of Starbucks. The math: $2.77B ÷ 900 = about $3.07M, in dividends, per non-retail job cut. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-19/starbucks-2025-layoffs/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000067/exhibit991.htm",
+   "medio": "SEC EDGAR · Starbucks",
+   "titulo": "Brian Niccol's letter to North America partners (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm",
+   "medio": "SEC EDGAR · Starbucks",
+   "titulo": "Starbucks Form 10-K for fiscal 2025",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "18.79 s; strike at 0.3 s, number at 5.73 s"
+  }
+ ],
+ "estilo": "papel",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In September 2025, Starbucks' CEO wrote: these decisions impact our partners. That fiscal year, Starbucks paid two point seven seven billion dollars to shareholders. And would eliminate about nine hundred non-retail roles. Three point zero seven million dollars in dividends, per non-retail job cut. We did not make them lightly. Here is the dividend column.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "In September 2025, Starbucks' CEO wrote: these decisions impact our partners."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That fiscal year, Starbucks paid two point seven seven billion dollars to shareholders. And would eliminate about nine hundred non-retail roles."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "Three point zero seven million dollars in dividends, per non-retail job cut."
+  },
+  {
+   "papel": "giro",
+   "voz": "We did not make them lightly. Here is the dividend column."
+  },
+  {
+   "papel": "firma",
+   "voz": ""
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla"
+}

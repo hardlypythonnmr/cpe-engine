@@ -1,0 +1,59 @@
+{
+ "slug": "dd-2026-11-19-molson-coors-lamina",
+ "titulo": "Molson Coors (Oct 2025): $1.02 billion to shareholders, about 400 salaried jobs planned. The math.",
+ "clave": "2026-11-20|mercury|lamina|2026-11-19-molson-coors-lamina",
+ "sale_utc": "2026-11-20T01:00:00Z",
+ "caption": "From the archive: Oct 2025. Not today's news.\nMolson Coors, Oct 20, 2025 (Rahul Goyal CEO, press release): \"given the environment, we must transform even faster\"\nOn Oct. 20, 2025, Molson Coors said it plans to eliminate approximately 400 salaried positions in its Americas business. Its 2025 cash flow statement shows $1.02 billion in dividends and treasury stock purchases.\n\nSame year: $1.02 billion to shareholders, 2025, company-wide. $647.9 million paid for treasury stock plus $376.3 million of dividends in 2025, company-wide (cash flow statement, in millions).\nThe math: $1.02 billion to shareholders (2025) ÷ about 400 salaried jobs cut = about $2.56 million to shareholders per Americas job cut.\nThe facts: $1.02 billion to shareholders, 2025, company-wide (Molson Coors 2025 10-K (SEC), Feb 18, 2026). about 400 salaried jobs planned cuts (Molson Coors 8-K release (SEC), Oct 20, 2025). The $1.02 billion is company-wide cash paid in 2025: dividends plus treasury stock purchases, from the cash flow statement. The 400 is the release's approximate figure for its Americas business, by the end of December 2025. The ratio mixes two scopes.\n\nTransform even faster. Here is the shareholder column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSources: Molson Coors 8-K release (SEC), Oct 20, 2025; Molson Coors 2025 10-K (SEC), Feb 18, 2026.\n\nMore at the link in bio.",
+ "descripcion": "From the archive: Oct 2025. Not today's news.\nMolson Coors, Oct 20, 2025 (Rahul Goyal CEO, press release): \"given the environment, we must transform even faster\"\nOn Oct. 20, 2025, Molson Coors said it plans to eliminate approximately 400 salaried positions in its Americas business. Its 2025 cash flow statement shows $1.02 billion in dividends and treasury stock purchases.\n\nSame year: $1.02 billion to shareholders, 2025, company-wide. $647.9 million paid for treasury stock plus $376.3 million of dividends in 2025, company-wide (cash flow statement, in millions).\nThe math: $1.02 billion to shareholders (2025) ÷ about 400 salaried jobs cut = about $2.56 million to shareholders per Americas job cut.\nThe facts: $1.02 billion to shareholders, 2025, company-wide (Molson Coors 2025 10-K (SEC), Feb 18, 2026). about 400 salaried jobs planned cuts (Molson Coors 8-K release (SEC), Oct 20, 2025). The $1.02 billion is company-wide cash paid in 2025: dividends plus treasury stock purchases, from the cash flow statement. The 400 is the release's approximate figure for its Americas business, by the end of December 2025. The ratio mixes two scopes.\n\nTransform even faster. Here is the shareholder column. (Our take.)\n\nSources:\n- Molson Coors 8-K release (SEC), Oct 20, 2025: «We’ve made progress on our transformation journey, but given the environment, we must transform even faster.» and «In total, the company plans to eliminate approximately 400 salaried positions across its Americas business by the end of December 2025» https://www.sec.gov/Archives/edgar/data/24545/000110465925100648/tm2529052d1_ex99-1.htm\n- Molson Coors 2025 10-K (SEC), Feb 18, 2026: «Dividends paid ( 376.3 ) ( 369.2 ) ( 354.7 ) Payments for purchases of treasury stock ( 647.9 ) ( 643.4 ) ( 205.8 )» https://www.sec.gov/Archives/edgar/data/24545/000002454526000006/tap-20251231.htm",
+ "alt": "Blue card with white type. Molson Coors, Oct 20, 2025. The statement, in quotes: \"given the environment, we must transform even faster\". It is by Rahul Goyal, CEO. The math: $1.02B ÷ 400 = about $2.56M, to shareholders, per Americas job cut. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/2026-11-19/molson-coors-2025-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/24545/000110465925100648/tm2529052d1_ex99-1.htm",
+   "medio": "SEC EDGAR · Molson Coors",
+   "titulo": "Molson Coors press release on the Americas restructuring (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/24545/000002454526000006/tap-20251231.htm",
+   "medio": "SEC EDGAR · Molson Coors",
+   "titulo": "Molson Coors Form 10-K for 2025",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "did-you-hear-cold-shower",
+ "issue": 1805,
+ "version": 2,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T04:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "82dc1a63680094b008368dfce1ddeb56cc80ac94b32ee6fe991cea838037d303",
+ "hashes": {
+  "short": "96dc589b83e4a0b9f5fea7dc107b539f9643b0f5ebec0e5a004b7c59cf49c1b7"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016002259,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_por": "version",
+ "caducado_utc": "2026-11-19T16:57:45Z"
+}

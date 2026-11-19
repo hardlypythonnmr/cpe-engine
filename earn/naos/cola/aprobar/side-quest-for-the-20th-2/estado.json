@@ -1,0 +1,21 @@
+{
+ "slug": "side-quest-for-the-20th-2",
+ "issue": 970,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-19T02:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e872f0232e029121f5296c1855169c3a80cc9bf3aa39c3300f82939d0602a83c",
+ "hashes": {
+  "historia": "a11e99456f411a315154f61864e643144aa4ff6824e20343286427b420f39ad0"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6670867280,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "gta-vi-18-20-nov",
+ "aprobado_evento_utc": "2026-11-06T01:03:44Z"
+}

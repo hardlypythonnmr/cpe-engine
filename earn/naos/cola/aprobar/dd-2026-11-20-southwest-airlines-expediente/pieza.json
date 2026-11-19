@@ -1,0 +1,98 @@
+{
+ "slug": "dd-2026-11-20-southwest-airlines-expediente",
+ "titulo": "Southwest Airlines (Feb 2025): $2.9 billion to shareholders, about 1,750 jobs cut. The math.",
+ "clave": "2026-11-20|mercury|expediente|2026-11-20-southwest-airlines-expediente",
+ "sale_utc": "2026-11-20T21:00:00Z",
+ "caption": "From the archive: Feb 2025. Not today's news.\nSouthwest Airlines, Feb 17, 2025 (Jordan, press release): \"This decision is unprecedented in our 53-year history\"\nSouthwest's CEO announced on Feb. 17, 2025 a reduction of approximately 1,750 employee roles, 15% of its corporate positions. The shareholder figure is from Southwest's 2025 Form 10-K.\n\nSame year: $2.9 billion to shareholders, 2025, company-wide. $399 million of dividends and $2.6 billion of accelerated share repurchases during 2025, company-wide (Form 10-K).\nThe math: $2.9 billion to shareholders (2025) ÷ about 1,750 job cuts = about $1.6 million to shareholders per job cut.\nThis is a ratio, not a payment and not a cause: the total returned to shareholders divided by the job count. The $2.9 billion is what Southwest says it returned to shareholders in 2025, company-wide: $399 million in dividends and $2.6 billion in an accelerated share repurchase. The 1,750 roles are about 15% of corporate positions, per the 8-K. We are not saying one paid for the other.\n\nUnprecedented in its history. Here is the shareholder column. (Our take.)\n\nFor someone who has heard that a decision was unprecedented.\n\nSources: SEC EDGAR · Southwest Airlines, Feb 18, 2025; SEC EDGAR · Southwest Airlines, Feb 1, 2026; SEC EDGAR · Southwest Airlines, Feb 18, 2025.\n\nSwipe: the sentence, the number, the math, our take.\n\nLink in bio.",
+ "descripcion": "From the archive: Feb 2025. Not today's news.\nSouthwest Airlines, Feb 17, 2025 (Jordan, press release): \"This decision is unprecedented in our 53-year history\"\nSouthwest's CEO announced on Feb. 17, 2025 a reduction of approximately 1,750 employee roles, 15% of its corporate positions. The shareholder figure is from Southwest's 2025 Form 10-K.\n\nSame year: $2.9 billion to shareholders, 2025, company-wide. $399 million of dividends and $2.6 billion of accelerated share repurchases during 2025, company-wide (Form 10-K).\nThe math: $2.9 billion to shareholders (2025) ÷ about 1,750 job cuts = about $1.6 million to shareholders per job cut.\nThis is a ratio, not a payment and not a cause: the total returned to shareholders divided by the job count. The $2.9 billion is what Southwest says it returned to shareholders in 2025, company-wide: $399 million in dividends and $2.6 billion in an accelerated share repurchase. The 1,750 roles are about 15% of corporate positions, per the 8-K. We are not saying one paid for the other.\n\nUnprecedented in its history. Here is the shareholder column. (Our take.)\n\nSources:\n- SEC EDGAR · Southwest Airlines, Feb 18, 2025: «“This decision is unprecedented in our 53-year history, and change requires that we make difficult decisions.» https://www.sec.gov/Archives/edgar/data/92380/000119312525028035/d907526dex991.htm\n- SEC EDGAR · Southwest Airlines, Feb 1, 2026: «returning $2.9 billion to Shareholders through $399 million in dividend payments and $2.6 billion through accelerated share repurchase» https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm\n- SEC EDGAR · Southwest Airlines, Feb 18, 2025: «a reduction of the Company’s current workforce by approximately 1,750 Employee roles, or 15% of corporate positions» https://www.sec.gov/Archives/edgar/data/92380/000119312525028035/d907526d8k.htm",
+ "alt": "Five paper-colored cards. 1: Southwest Airlines, Feb 17, 2025, the quote \"This decision is unprecedented in our 53-year history\" struck through in dark red, and the words Then the math. 2: the full sentence with its context and source. 3: the number, $2.9 billion to shareholders, 2025, company-wide. 4: the division, ending in $1.6 million to shareholders, per job cut, on a yellow highlight. 5: our take: \"Unprecedented in its history. Here is the shareholder column.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "expediente",
+ "formato": "carrusel",
+ "origen": "c2/linea/biblioteca/bib3-southwest-2025-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000119312525028035/d907526dex991.htm",
+   "medio": "SEC EDGAR · Southwest Airlines",
+   "titulo": "Southwest Airlines press release (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000119312525028035/d907526d8k.htm",
+   "medio": "SEC EDGAR · Southwest Airlines",
+   "titulo": "Southwest Airlines Form 8-K, item 2.05",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm",
+   "medio": "SEC EDGAR · Southwest Airlines",
+   "titulo": "Southwest Airlines Form 10-K for 2025",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "3 of 3 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "tipo": "carrusel",
+ "lado": "empleado",
+ "tema": "Southwest Airlines (Feb 2025): cutting about 1,750 roles, to shareholders per job cut",
+ "banco_archivo": {
+  "caso": "southwest-2025-layoffs",
+  "rotulo_fecha": "ARCHIVE · FEB 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/southwest-2025-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-southwest-2025-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-southwest-2025-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "A mezcla dividendos ($399M) y recompra acelerada ($2.6B) y se rotula 'to shareholders', no 'buybacks'; la frase es del jefe, sin juicio sobre él; todo de 8-K y 10-K 2025."
+  ]
+ }
+}

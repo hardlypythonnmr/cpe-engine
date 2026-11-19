@@ -1,0 +1,23 @@
+{
+ "nombre": "dd-remezcla-agente",
+ "issue": 1776,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-21-alphabet-tachon-q-rmx-tinta",
+  "dd-2026-11-23-alphabet-tachon-q-rmx-frio"
+ ],
+ "comentario_vista_previa_id": 6956701575,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T18:09:58Z",
+ "agente": true,
+ "aviso_utc": "2026-11-17T18:10:01Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:10:03Z",
+ "veto_hasta_utc": "2026-11-17T19:10:03Z",
+ "aprobadas": [
+  "dd-2026-11-21-alphabet-tachon-q-rmx-tinta",
+  "dd-2026-11-23-alphabet-tachon-q-rmx-frio"
+ ]
+}

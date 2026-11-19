@@ -1,0 +1,25 @@
+{
+ "nombre": "lote-2326",
+ "issue": 1125,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "the-thank-you-you-never-sent",
+  "the-table-fills-up",
+  "pass-the-pie",
+  "match-your-pace",
+  "match-your-pace-ig"
+ ],
+ "comentario_vista_previa_id": 6860626745,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T16:48:48Z",
+ "aviso_utc": "2026-11-13T17:49:41Z",
+ "aprobado_evento_utc": "2026-11-13T19:14:09Z",
+ "aprobadas": [
+  "match-your-pace",
+  "match-your-pace-ig",
+  "pass-the-pie",
+  "the-table-fills-up",
+  "the-thank-you-you-never-sent"
+ ]
+}

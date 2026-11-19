@@ -1,0 +1,22 @@
+{
+ "slug": "say-what-you-heard",
+ "issue": 1486,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T20:42:00Z",
+ "datos_utc": "",
+ "hash_contenido": "12c964e871aed29f802a0e56e985d8071a2eff210b228a52e26776a266c188ac",
+ "hashes": {
+  "historia": "8cc52fce885de0fbe400ee0cab34c99f0fc671880f20305852bca78c8c25005f"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6893518970,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tendencia-1820",
+ "aprobado_evento_utc": "2026-11-15T11:55:28Z"
+}

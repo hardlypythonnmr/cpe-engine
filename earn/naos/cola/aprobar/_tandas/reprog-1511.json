@@ -1,0 +1,22 @@
+{
+ "nombre": "reprog-1511",
+ "issue": 1525,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "wanted-tupperware",
+  "rangoli-for-two",
+  "om-mani-padme-hum-16-seconds"
+ ],
+ "comentario_vista_previa_id": 6894745194,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T13:04:48Z",
+ "aviso_utc": "2026-11-15T13:04:48Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T13:05:52Z",
+ "aprobadas": [
+  "om-mani-padme-hum-16-seconds",
+  "rangoli-for-two",
+  "wanted-tupperware"
+ ]
+}

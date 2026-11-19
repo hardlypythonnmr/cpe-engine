@@ -1,0 +1,22 @@
+{
+ "slug": "todays-word-enough",
+ "issue": 1751,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T11:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b37866b0afeffda4c6b448a0635c3ff3123f940b37b6899affb1e1a497c801ee",
+ "hashes": {
+  "historia": "3799fa6c9e55780501018eb2a01d44fbd7fb9224be06dc95394b43a58881a2b8"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6946950621,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z"
+}

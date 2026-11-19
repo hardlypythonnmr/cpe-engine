@@ -1,0 +1,79 @@
+{
+ "slug": "dd-2026-11-20-p12-ticketmaster-v3",
+ "titulo": "Ticketmaster Lawsuit: What the FTC Alleges About Resellers",
+ "clave": "2026-11-20|mercury|dd2|2026-11-20-p12-ticketmaster-v3",
+ "sale_utc": "2026-11-20T16:00:00Z",
+ "caption": "Ticketmaster Lawsuit: What the FTC Alleges About Resellers\n\nTicketmaster lawsuit, in three numbers. The FTC alleges five resellers controlled 6,345 Ticketmaster accounts and held 246,407 concert tickets. It also alleges consumers paid over $16.4 billion in mandatory fees from 2019 to 2024. These are allegations; the case is pending.\n\nSource: FTC v. Live Nation and Ticketmaster, complaint, Sep 2025.\n\n#Ticketmaster #TicketmasterLawsuit #LiveNation #FTC #ConcertTickets #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Ticketmaster lawsuit: why is Ticketmaster being sued by the FTC? In September 2025 the FTC and seven states sued Live Nation and Ticketmaster. The FTC alleges that five ticket brokers (resellers who buy tickets to sell them again) controlled 6,345 Ticketmaster accounts and held 246,407 concert tickets to 2,594 events.\n\nThe same complaint alleges that from 2019 through 2024, consumers paid over $16.4 billion in mandatory fees on Ticketmaster purchases. Mandatory fees are the charges you cannot skip at checkout, on top of the ticket price.\n\nIs this proven? No. These are allegations in a complaint, and the case is pending. This is not a class action you can join; it is a government lawsuit.\n\nSource: FTC v. Live Nation and Ticketmaster, complaint 2:25-cv-08884 (C.D. Cal.), Sep 18, 2025, pages 17 and 42. Photo: Shixart1985, CC BY 2.0, Wikimedia Commons.\n\n#Ticketmaster #TicketmasterLawsuit #LiveNation #FTC #ConcertTickets #DoneDamages\n\nDone Damages names the company and shows the filing. Synthetic voice.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video on the Ticketmaster lawsuit: concert crowd photo with the FTC's alleged figures, five resellers, 6,345 accounts and 246,407 tickets, then $16.4 billion in mandatory fees.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "p12-ticketmaster-v3",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.digitalmusicnews.com/wp-content/uploads/2025/09/ftc-v-live-nation-ticketmaster-2-25-cv-08884-complaint-sept-2025.pdf",
+   "medio": "Court filing (copy) · C.D. Cal.",
+   "titulo": "FTC v. Live Nation and Ticketmaster, complaint, Sep 18, 2025",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "27.6 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Two hundred forty-six THOUSAND concert tickets. Five resellers. Bro. That's what the F.T.C. alleges, in its lawsuit against Ticketmaster. Oh, and the fees? Same complaint says consumers paid over sixteen BILLION dollars in mandatory fees. Twenty nineteen to twenty twenty-four. The case is still pending. We're watching.",
+ "tramos": [
+  {
+   "voz": "Two hundred forty-six THOUSAND concert tickets. Five resellers.",
+   "t0": 0.2,
+   "t1": 5.96
+  },
+  {
+   "voz": "Bro. That's what the F.T.C. alleges, in its lawsuit against Ticketmaster.",
+   "t0": 6.3,
+   "t1": 11.9
+  },
+  {
+   "voz": "Oh, and the fees? Same complaint says consumers paid over sixteen BILLION dollars in mandatory fees. Twenty nineteen to twenty twenty-four.",
+   "t0": 12.2,
+   "t1": 23.24
+  },
+  {
+   "voz": "The case is still pending. We're watching.",
+   "t0": 23.7,
+   "t1": 27.46
+  }
+ ],
+ "sintetico": true
+}

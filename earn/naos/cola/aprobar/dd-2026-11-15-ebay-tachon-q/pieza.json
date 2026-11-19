@@ -1,0 +1,100 @@
+{
+ "slug": "dd-2026-11-15-ebay-tachon-q",
+ "titulo": "eBay (Jan 2024): $3.1 billion buying back its own shares, about 1,000 jobs cut. The math.",
+ "clave": "2026-11-15|mercury|tachon|2026-11-15-ebay-tachon-q",
+ "sale_utc": "2026-11-15T17:00:00Z",
+ "caption": "eBay (Jan 2024): $3.1 billion buying back its own shares, about 1,000 jobs cut. The math.\n\nFrom the archive: Jan 2024. Not today's news.\neBay, Jan 23, 2024 (Jamie Iannone, eBay CEO): \"our overall headcount and expenses have outpaced the growth of our business\"\nThis is an archive piece from January 2024. eBay's CEO wrote to employees that headcount and expenses have outpaced the growth of the business. The 8-K filed that month gave a reduction of approximately 1,000 roles.\n\nSame year: $3.1 billion buying back its own shares, 2024. $3.1 billion of common stock repurchased during 2024, company-wide; the same sentence adds $533 million of dividends, not counted here.\nThe math: $3.1 billion in buybacks (2024) ÷ about 1,000 job cuts = about $3.1 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. Archive, January 2024. The buyback figure is eBay's full-year 2024 repurchases, from the 10-K. The job count is from the 8-K filed January 24, 2024. This is a ratio, not a cause: the buybacks and the reduction are both in 2024, and we are not saying one paid for the other.\n\nIt outpaced the business. Here is the buyback column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: eBay 8-K, Exhibit 99.1, Jan 24, 2024; eBay 10-K, FY2024, Feb 27, 2025; eBay 8-K, item 2.05, Jan 24, 2024.\n\nFind the link in bio.",
+ "descripcion": "From the archive: Jan 2024. Not today's news.\neBay, Jan 23, 2024 (Jamie Iannone, eBay CEO): \"our overall headcount and expenses have outpaced the growth of our business\"\nThis is an archive piece from January 2024. eBay's CEO wrote to employees that headcount and expenses have outpaced the growth of the business. The 8-K filed that month gave a reduction of approximately 1,000 roles.\n\nSame year: $3.1 billion buying back its own shares, 2024. $3.1 billion of common stock repurchased during 2024, company-wide; the same sentence adds $533 million of dividends, not counted here.\nThe math: $3.1 billion in buybacks (2024) ÷ about 1,000 job cuts = about $3.1 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. Archive, January 2024. The buyback figure is eBay's full-year 2024 repurchases, from the 10-K. The job count is from the 8-K filed January 24, 2024. This is a ratio, not a cause: the buybacks and the reduction are both in 2024, and we are not saying one paid for the other.\n\nIt outpaced the business. Here is the buyback column. (Our take.)\n\nSources:\n- eBay 8-K, Exhibit 99.1, Jan 24, 2024: «While we are making progress against our strategy, our overall headcount and expenses have outpaced the growth of our business.» https://www.sec.gov/Archives/edgar/data/1065088/000155278124000014/e24018_ex99-1.htm\n- eBay 10-K, FY2024, Feb 27, 2025: «We repurchased $3.1 billion of common stock and paid $533 million in cash dividends.» https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm\n- eBay 8-K, item 2.05, Jan 24, 2024: «a reduction of the Company’s current workforce by approximately 1,000 employee roles, or 9%» https://www.sec.gov/Archives/edgar/data/1065088/000155278124000014/e24018_ebay-8k.htm\n\nSynthetic voice.",
+ "alt": "Paper-colored card. eBay, Jan 23, 2024. A gray typewriter quote, \"our overall headcount and expenses have outpaced the growth of our business\", struck through with a dark red marker line. The struck quote is by Jamie Iannone, CEO of eBay. Then the math in huge black letters, with the result on a yellow highlight: $3.1B ÷ 1,000 = about $3.1M, in buybacks, per job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-15/ebay-2024-layoffs/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278124000014/e24018_ex99-1.htm",
+   "medio": "SEC EDGAR · eBay",
+   "titulo": "Jamie Iannone's message to eBay employees (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278124000014/e24018_ebay-8k.htm",
+   "medio": "SEC EDGAR · eBay",
+   "titulo": "eBay Form 8-K, item 2.05",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+   "medio": "SEC EDGAR · eBay",
+   "titulo": "eBay Form 10-K for 2024",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "3 of 3 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "18.925 s; strike at 0.3 s, number at 6.292 s"
+  }
+ ],
+ "estilo": "papel",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In January 2024, eBay's CEO wrote: expenses have outpaced the growth of our business. That year, eBay spent three point one billion buying back its own shares. And cut about one thousand roles. About three point one million dollars in buybacks, for every job cut. It outpaced the business. Here is the buyback column. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "In January 2024, eBay's CEO wrote: expenses have outpaced the growth of our business."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That year, eBay spent three point one billion buying back its own shares. And cut about one thousand roles."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "About three point one million dollars in buybacks, for every job cut."
+  },
+  {
+   "papel": "giro",
+   "voz": "It outpaced the business. Here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla"
+}

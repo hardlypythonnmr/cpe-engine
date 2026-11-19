@@ -1,0 +1,23 @@
+{
+ "slug": "world-hello-day",
+ "issue": 963,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f5902c4890c85c10379fcfb845492d7cf56dc9915e39e6aa42cddf08ccb84d38",
+ "hashes": {
+  "historia": "d218d6ad9fd7f41d51a8a679eef9e9ff6827ba82a7525ae62e3a2ce7044d2b44"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6886291532,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z"
+}

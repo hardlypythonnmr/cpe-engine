@@ -1,0 +1,66 @@
+{
+ "formato": "medio",
+ "version": "2026-11-10-1",
+ "nota": "Vara de NAOS 4.0 para este formato (sesión Fable 6). Preguntas, pesos y medidas de empresa/evolucion/2026-11-09-limite/fable/6-formatos/direccion.md. La lee vara_formato.py.",
+ "corte": 9.0,
+ "mira": "la narración con hoja.jpg",
+ "duracion_s": [
+  200,
+  290
+ ],
+ "duracion_insignia_s": [
+  480,
+  720
+ ],
+ "apertura_max_s": 22,
+ "oracion_max": 24,
+ "racha_max_s": 3.0,
+ "peso_max_mb": 40,
+ "lector": [
+  [
+   "N1",
+   1.0,
+   "Nombra los cinco escalones o al menos cuatro, y uno por su situación"
+  ],
+  [
+   "N2",
+   1.5,
+   "Se reconoció o reconoció a alguien: nombra la situación exacta"
+  ],
+  [
+   "N3",
+   1.5,
+   "Nombra a una persona concreta a quien se la mandaría y por qué"
+  ],
+  [
+   "N4",
+   1.0,
+   "Se llevó algo que no sabía o no esperaba, un dato o un giro"
+  ],
+  [
+   "N5",
+   1.0,
+   "La recordaría mañana: dice la imagen o la línea que le queda"
+  ],
+  [
+   "N6",
+   0.5,
+   "No sonó a consejo, a regaño ni a clase"
+  ],
+  [
+   "N7",
+   0.5,
+   "Ninguna parte le dio ganas de irse; si la hubo, dice el minuto"
+  ]
+ ],
+ "medidas": [
+  "duracion",
+  "oracion_larga",
+  "apertura",
+  "situacion_antes_del_dato",
+  "aviso_mudo",
+  "cierre_retoma",
+  "rachas",
+  "capitulos"
+ ]
+}

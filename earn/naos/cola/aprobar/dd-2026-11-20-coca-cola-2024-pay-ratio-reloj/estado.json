@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-20-coca-cola-2024-pay-ratio-reloj",
+ "issue": 1783,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T15:00:00Z",
+ "datos_utc": "2025-03-17T00:00:00Z",
+ "hash_contenido": "41fb6d6b4b479694ef47c656b0ae10e1bd47393a28b13b50f9c9e1caf780c5ed",
+ "hashes": {
+  "short": "b6e56071f0a9871f96453676768998f0551bc5c323ee181a48c08aaa8baf9c8d",
+  "reel": "b048bcaff3362f8ff78eb2185a1ca2b84324b9d8a22c5b7c65407346ccb1929c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6957641524,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-crecimiento",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:49:52Z",
+ "veto_hasta_utc": "2026-11-17T19:49:52Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-21T03:00:00Z"
+}

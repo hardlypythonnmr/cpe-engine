@@ -1,0 +1,33 @@
+{
+ "nombre": "tradiciones-7-al-14-nov",
+ "issue": 957,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "maha-mantra-kirtan-karma-brunch",
+  "om-mani-padme-hum-sunday-karma",
+  "hare-krishna-monday-mountain-kirtan",
+  "om-mani-padme-hum-chant-badly",
+  "maha-mantra-fast-third-coffee",
+  "om-mani-padme-hum-flowers-wave",
+  "maha-mantra-instead-of-doomscrolling",
+  "om-mani-padme-hum-stop-replaying-today"
+ ],
+ "comentario_vista_previa_id": 6664464136,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T17:18:58Z",
+ "aviso_utc": "2026-11-05T17:19:03Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T17:42:55Z",
+ "aprobadas": [
+  "hare-krishna-monday-mountain-kirtan",
+  "maha-mantra-fast-third-coffee",
+  "maha-mantra-instead-of-doomscrolling",
+  "maha-mantra-kirtan-karma-brunch",
+  "om-mani-padme-hum-chant-badly",
+  "om-mani-padme-hum-flowers-wave",
+  "om-mani-padme-hum-stop-replaying-today",
+  "om-mani-padme-hum-sunday-karma"
+ ],
+ "cerrada": true
+}

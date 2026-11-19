@@ -1,0 +1,23 @@
+{
+ "nombre": "huecos-6-15-nov-1",
+ "issue": 944,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "so-busy-huh",
+  "brunch-staff-unpaid",
+  "common-factor-me"
+ ],
+ "comentario_vista_previa_id": 6647946761,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T02:22:57Z",
+ "aviso_utc": "2026-11-05T02:22:57Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T02:33:52Z",
+ "aprobadas": [
+  "brunch-staff-unpaid",
+  "common-factor-me",
+  "so-busy-huh"
+ ],
+ "cerrada": true
+}

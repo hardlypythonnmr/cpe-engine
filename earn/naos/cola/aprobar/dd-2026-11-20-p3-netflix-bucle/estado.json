@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-p3-netflix-bucle",
+ "issue": 1815,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T20:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "017b13955f6879f2baab0d4be1d8f689e4f5b7a841fa25e5509e2bd76f6216e2",
+ "hashes": {
+  "short": "81d6ac24433fc813098c02f27b721183e4dde04bdedbfbf1f498dfc543d2a7f4",
+  "reel": "e5a68554b06fe67fe97f4a55067ef22d96d556e524a4e98138ab6eb69201a12b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7016384335,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-rediseno"
+}

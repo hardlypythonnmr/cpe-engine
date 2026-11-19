@@ -1,0 +1,20 @@
+{
+ "nombre": "reels-caidos-5-nov",
+ "issue": 959,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "bad-hider",
+  "youre-gonna-be-called"
+ ],
+ "comentario_vista_previa_id": 6665056250,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T17:46:10Z",
+ "aviso_utc": "2026-11-05T17:46:15Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T18:37:58Z",
+ "aprobadas": [
+  "bad-hider"
+ ],
+ "cerrada": true
+}

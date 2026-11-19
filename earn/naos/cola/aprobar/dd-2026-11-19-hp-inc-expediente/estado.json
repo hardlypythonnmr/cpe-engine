@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-19-hp-inc-expediente",
+ "issue": 1804,
+ "version": 1,
+ "estado": "caducado",
+ "sale_utc": "2026-11-19T13:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "42135953dd25852c80e728e6ad2a9b8542256181ffe42a2a4277c3126bf981ed",
+ "hashes": {
+  "carrusel": "94497ddc57dd75a11931966b184d7031714b2bfd076b12e74c14ace4d6600bd1"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7008410084,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19",
+ "caducado_por": "hora",
+ "caducado_utc": "2026-11-19T17:02:01Z"
+}

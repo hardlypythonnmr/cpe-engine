@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-18-walmart-lamina",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-18T20:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "04069cff75a969780e92e47daa7ef18237a268acf8f69b96a6706886ea90de80",
+ "hashes": {
+  "imagen": "8c20778ecb9a868e7173e75700483b5cb7a797b9f372b6b7c482c262793a2609"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885942198,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z",
+ "reel_fallo_utc": "2026-11-18T20:01:49Z"
+}

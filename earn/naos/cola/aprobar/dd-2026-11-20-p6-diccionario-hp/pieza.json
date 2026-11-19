@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-20-p6-diccionario-hp",
+ "titulo": "HP Layoffs: 'Operational Efficiency' in the 2022 8-K",
+ "clave": "2026-11-20|mercury|explicador|2026-11-20-p6-diccionario-hp",
+ "sale_utc": "2026-11-20T21:00:00Z",
+ "caption": "HP Layoffs: 'Operational Efficiency' in the 2022 8-K\n\nHP layoffs, decoded. HP's 2022 8-K: \"a plan intended to enable digital transformation, portfolio optimization and operational efficiency.\" Same filing: about 4,000 to 6,000 job cuts by fiscal 2025. Fiscal 2023: $1.1 billion returned to shareholders. About $275,000 per planned job cut (our math, low end).\n\nSources: HP 8-K (Nov 22, 2022); HP 10-K (fiscal 2023).\n\n#HP #Layoffs #CorporateSpeak #CorporateJargon #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "HP layoffs, and what \"operational efficiency\" means in a filing. On Nov 22, 2022, HP filed an 8-K, the form a public company uses to report major events. It says the board approved \"a plan intended to enable digital transformation, portfolio optimization and operational efficiency\", with workforce reductions of approximately 4,000 to 6,000 employees by the end of fiscal 2025.\n\nSo what does \"operational efficiency\" mean here? In this filing, it sits in the same plan as the job cuts. Same 8-K, same paragraph.\n\nHP's 10-K says it returned $1.1 billion to shareholders in fiscal 2023. That is about $275,000 per planned job cut (our math, at the low end of 4,000; at 6,000 it is about $183,333).\n\nThis is the 2022 plan. It is not HP's later restructuring announced in 2025.\n\nSources: HP 8-K, Item 2.05, filed Nov 22, 2022; HP 10-K, fiscal 2023.\n\n#HP #Layoffs #CorporateSpeak #CorporateJargon #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video styled as a dictionary entry for 'operational efficiency', quoting HP's 2022 8-K on 4,000 to 6,000 planned job cuts next to $1.1 billion returned to shareholders.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "explicador",
+ "formato": "short",
+ "origen": "p6-diccionario-hp",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721722000061/hpq-20221118.htm",
+   "medio": "SEC EDGAR · HP 8-K",
+   "titulo": "HP 8-K, Item 2.05, Nov 22, 2022",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721723000100/hpq-20231031.htm",
+   "medio": "SEC EDGAR · HP 10-K FY2023",
+   "titulo": "HP 10-K, fiscal 2023",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; a ratio, not a payment or a cause"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "17.0 s, 9:16, no narration"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "",
+ "tramos": []
+}

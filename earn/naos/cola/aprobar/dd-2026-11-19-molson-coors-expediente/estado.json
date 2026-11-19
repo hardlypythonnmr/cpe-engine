@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-molson-coors-expediente",
+ "issue": 1802,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T03:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "e423f2df47622167c0829439cbc5006ac5a37a59d5f2dead1a092fd219bafae3",
+ "hashes": {
+  "carrusel": "6af903f1e074d780aeef42ebf8828f3ee33a49fba000674c21602453e747d0ab"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7008374002,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:56:19Z",
+ "veto_hasta_utc": "2026-11-19T12:56:19Z"
+}

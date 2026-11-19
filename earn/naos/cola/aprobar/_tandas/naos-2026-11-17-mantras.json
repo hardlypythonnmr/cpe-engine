@@ -1,0 +1,20 @@
+{
+ "nombre": "naos-2026-11-17-mantras",
+ "issue": 1768,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "om-shanti-shanti-shanti-on-a-wednesday",
+  "lokah-samastah-on-a-friday"
+ ],
+ "comentario_vista_previa_id": 6955252594,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T17:11:34Z",
+ "aviso_utc": "2026-11-17T17:11:38Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T17:13:18Z",
+ "aprobadas": [
+  "lokah-samastah-on-a-friday",
+  "om-shanti-shanti-shanti-on-a-wednesday"
+ ]
+}

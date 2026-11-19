@@ -1,0 +1,41 @@
+{
+ "nombre": "stories-30-oct-a-2-nov",
+ "issue": 865,
+ "version": 3,
+ "estado": "publicado",
+ "piezas": [
+  "share-fries",
+  "slow-blink",
+  "weird-with-me",
+  "blanket-fort",
+  "costume-blank",
+  "walk-me-home",
+  "sunday-slow",
+  "bread-thief",
+  "goodnight",
+  "three-alarms",
+  "cold-bench",
+  "dance-badly"
+ ],
+ "comentario_vista_previa_id": 6543095578,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-10-29T18:49:38Z",
+ "aviso_utc": "2026-10-31T12:01:19Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-31T15:50:14Z",
+ "aprobadas": [
+  "blanket-fort",
+  "bread-thief",
+  "cold-bench",
+  "costume-blank",
+  "dance-badly",
+  "goodnight",
+  "share-fries",
+  "slow-blink",
+  "sunday-slow",
+  "three-alarms",
+  "walk-me-home",
+  "weird-with-me"
+ ],
+ "cerrada": true
+}

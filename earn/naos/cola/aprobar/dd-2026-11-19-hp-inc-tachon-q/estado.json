@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-19-hp-inc-tachon-q",
+ "issue": 1802,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T02:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "cfdca0090d62c7b856b06cb73b40a3938338c9b80384368d9fb53fe05619db24",
+ "hashes": {
+  "short": "06215d42eb38574424d6b535cef10f3d756fb42134cbc6eef4f62ba98608e3d6",
+  "reel": "57b26ab6e77b7fcd3d1ac8255ed5ce78c0896b911cc41081b18cc84e5edcf23c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7008373215,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:56:19Z",
+ "veto_hasta_utc": "2026-11-19T12:56:19Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-20T14:00:00Z"
+}

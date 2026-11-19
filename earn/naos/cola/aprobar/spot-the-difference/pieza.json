@@ -1,0 +1,49 @@
+{
+ "slug": "spot-the-difference",
+ "titulo": "Something changes every loop. Spot it.",
+ "clave": "2026-11-20|casa-mesa",
+ "sale_utc": "2026-11-20T19:48:00Z",
+ "caption": "Something changes every loop. Spot it.\n\nThe same four seconds, four times. Something changes each loop.\n\nTell us what you caught. We read every answer.\n\n#Cella #spotthedifference\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "The same four seconds, four times. Something changes each loop.\n\nTell us what you caught. We read every answer.\n\n#Cella #spotthedifference\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music, in four loops of two and a half seconds. At a small dark pink-room table, an ink-black figure and a royal blue figure with white eyes lean left and right together. Each loop adds one thing: first a red object, a cup, appears on the table, then a plant appears on the right, then balloons appear on the left with both figures narrowing their eyes. The text stays: something changes every loop. Spot it.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "spot-the-difference",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.01 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 6 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.2 LUFS, true peak -2.0 dBFS, LRA 1.8 LU; own music (motor/sonido midi, room mesa, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "E",
+ "tema": "atención",
+ "blanco": "quien mira (¿ves lo que cambia?)",
+ "destinatario": "the friend with the sharpest eyes",
+ "cara": "A",
+ "experimento": true,
+ "experimento_prueba": "juego de encontrar la diferencia: el mismo bucle de 2,5 s cuatro veces y cada vuelta suma una cosa grande (taza roja, planta, globos); mide comentarios y repeticiones",
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

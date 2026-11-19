@@ -1,0 +1,49 @@
+{
+ "slug": "match-your-pace",
+ "titulo": "Walking ahead, then slowing down to match you",
+ "clave": "2026-11-20|casa-puerta",
+ "sale_utc": "2026-11-21T01:00:00Z",
+ "caption": "Walking ahead, then slowing down to match you\n\nI was three steps ahead. You were not. So I came back one step and we got the same speed.\n\nNobody asked me to. That is the whole behavior.\n\nSend it to the friend who always walks a little behind you, or a little ahead.\n\n#Cella #relatable #friendship\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Three steps ahead. One step back. Same speed.\n\nSlowing down for someone without being asked is a small, exact way to say \"I am with you\".\n\n#Cella #relatable #friendship\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A pink hallway with a white door and a wooden plank floor that fills the lower third. A small ink-black block figure with white eyes walks briskly to the right while a royal blue figure with sleepy eyes lags three steps behind. The camera follows along the floor. The ink-black figure stops, goes wide-eyed, steps back toward the blue one and drops low with the camera to the feet. Then the two walk side by side at the same slow speed, the camera pulling back, and both smile. The text, which appears after the first second: me, three steps ahead. Now one step. Same speed.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "match-your-pace",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.2 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room puerta, mood calma), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word; frame 0 has no text on purpose (the line enters at 0.9 s); figures and door fully inside the frame"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "V",
+ "tema": "ir al paso del otro",
+ "blanco": "quien camina siempre adelante (Cella y quien mira)",
+ "destinatario": "the friend who walks too fast",
+ "cara": "A",
+ "mecanica_crecimiento": "enviar",
+ "comentario_fijado": "Who slows down for you?",
+ "experimento": true,
+ "experimento_prueba": "A1 (camera that follows Cella, plank floor, opening without 'if someone sent you this', text that enters at 0.9 s instead of being fixed from frame 0) and A2 (one cut per platform: this 11 s silent Short; its 17 s Reel twin is match-your-pace-ig). Measured at 48 h and 7 days against the CM median: 83 views on YouTube."
+}

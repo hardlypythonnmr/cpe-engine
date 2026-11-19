@@ -1,0 +1,77 @@
+{
+ "slug": "todays-affirmations-by-cella",
+ "titulo": "Today's affirmations by Cella",
+ "clave": "2026-11-20|todays-affirmations-by-cella",
+ "sale_utc": "2026-11-20T15:00:00Z",
+ "caption": "Today’s affirmations, written by Cella. She is very proud of them.\nComment CLAIMED and they are yours.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.mp4",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "alt": {
+  "1": "Video with our own music, 6 seconds. Lime green field with pop stars in the corners. The title in 90s word-art, pink gradient letters with a white and black outline and a hard shadow, spins once. Cella, a small dark figure with a flat red crown, rises in from the bottom and her crown sparkles. Title: Today's affirmations by Cella. Below: Comment CLAIMED to take them.",
+  "2": "Hot magenta field, pop stars in the corners, the affirmation in huge yellow word-art. Cella below with her eyes shut and her crown on, proud, next to a sticker that says “© CELLA”. Affirmation number 1: “I answer texts in under three days.”",
+  "3": "Orange field, pop stars in the corners, the affirmation in huge blue word-art. Cella below with her eyes shut and her crown on, proud, next to a sticker that says “© CELLA”. Affirmation number 2: “I send the message without rereading it 40 times.”",
+  "4": "Hot magenta field, pop stars in the corners, the affirmation in huge yellow word-art. Cella below with her eyes shut and her crown on, proud, next to a sticker that says “© CELLA”. Affirmation number 3: “The universe saves me a parking spot. Obviously.”",
+  "5": "Lime green field, the affirmation in huge pink word-art, a big red rubber stamp that says CLAIMED, and Cella facing front with her crown. Affirmation number 4: “I am already this gorgeous. You may copy.” A red stamp reads CLAIMED. Comment CLAIMED to take it."
+ },
+ "tipo_carrusel": "M1 Claims It · afirmaciones de Cella en word-art · vie 20-nov · portada en video de 6 s con música",
+ "primer_cuadro": {
+  "tipo": "video",
+  "archivo": "1.mp4",
+  "movimiento": "el título gira y Cella entra al cuadro; estado final = portada-1.jpg",
+  "musica": "motor/musica/pulso.py modo lab, semilla 1921, 118 bpm (código propio, 0 créditos)"
+ },
+ "seccion": "humanity",
+ "junta": "crecimiento",
+ "apuesta": "claims-it",
+ "tanda": "crecimiento-1921",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "carrusel con portada en video y diseño word-art contra la mediana de carruseles (6,5 vistas); alcance a 24 h y comentarios CLAIMED y envíos a 48 h",
+ "blanco": "autoconocimiento y amistad (arquetipo: quien deja mensajes sin responder o relee 40 veces lo que manda)",
+ "destinatario": "the friend who leaves texts unanswered for three days, or rereads a message 40 times before sending it",
+ "mecanica_crecimiento": "comentar CLAIMED · enviar",
+ "eco": "D-530 · apuesta 3 (empresa/crecimiento/2026-11-17-rediseno/apuesta-3.json)",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "one affirmation per slide, content type 46 px or more (measured in _motor/medida.json), read at 270 px in cola/crecimiento-1921/hojas/todays-affirmations-by-cella.jpg"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: nothing sacred, no cure or health promise, archetypes only; Cella without hands, flat red crown #A8362A"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic (affirmations), 17 words before the footer, link in bio, no hashtags"
+  },
+  {
+   "que": "Cover video",
+   "estado": "OK",
+   "nota": "6 s H.264 + AAC, own music"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge",
+   "estado": "OK",
+   "nota": "naos-arte-critico 17-nov: OK, mejoras aplicadas (CTA CLAIMED a 66 px en dos renglones en portada y lámina 5; lámina 5 con afirmación más chica, sello más abajo y Cella más grande; Cella en el sofá sin el bloque de las piernas que se leía como brazo)"
+  }
+ ]
+}

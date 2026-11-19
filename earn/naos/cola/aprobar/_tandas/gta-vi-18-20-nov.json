@@ -1,0 +1,33 @@
+{
+ "nombre": "gta-vi-18-20-nov",
+ "issue": 970,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "tutorial-calling-mom-back",
+  "side-quest-for-the-20th-1",
+  "last-night-before-after",
+  "side-quest-for-the-20th-2",
+  "one-hundred-percent-its-out",
+  "hour-six-still-you",
+  "day-1-review-of-your-life",
+  "loading-after-the-dlc"
+ ],
+ "comentario_vista_previa_id": 6670872195,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T22:11:29Z",
+ "aviso_utc": "2026-11-05T22:11:42Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T01:03:44Z",
+ "aprobadas": [
+  "day-1-review-of-your-life",
+  "hour-six-still-you",
+  "last-night-before-after",
+  "loading-after-the-dlc",
+  "one-hundred-percent-its-out",
+  "side-quest-for-the-20th-1",
+  "side-quest-for-the-20th-2",
+  "tutorial-calling-mom-back"
+ ],
+ "cerrada": true
+}

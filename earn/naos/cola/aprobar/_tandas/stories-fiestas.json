@@ -1,0 +1,21 @@
+{
+ "nombre": "stories-fiestas",
+ "issue": 863,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "candy-swap",
+  "petal-path"
+ ],
+ "comentario_vista_previa_id": 6504456208,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-10-29T18:01:05Z",
+ "aviso_utc": "2026-10-29T18:01:09Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-10-29T18:03:05Z",
+ "aprobadas": [
+  "candy-swap",
+  "petal-path"
+ ],
+ "cerrada": true
+}

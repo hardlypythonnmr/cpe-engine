@@ -1,0 +1,15 @@
+{
+ "nombre": "reel-caido-6-nov",
+ "issue": 984,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "om-mani-padme-hum-16-seconds"
+ ],
+ "comentario_vista_previa_id": 6691341542,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-06T17:39:25Z",
+ "aviso_utc": "2026-11-06T17:39:29Z",
+ "aviso_canal": "github",
+ "cerrada": true
+}

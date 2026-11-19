@@ -1,0 +1,40 @@
+{
+ "nombre": "dic-j-0609",
+ "issue": 1350,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "book-by-the-chair",
+  "edges-first",
+  "button-back-on",
+  "double-the-batch",
+  "sort-into-three",
+  "flip-the-record",
+  "label-the-pots",
+  "plate-it-for-one",
+  "big-ones-first",
+  "read-it-again",
+  "frame-the-doodle",
+  "scraps-in-a-bowl"
+ ],
+ "comentario_vista_previa_id": 6886827963,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T14:27:11Z",
+ "aviso_utc": "2026-11-15T00:47:08Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:08Z",
+ "aprobadas": [
+  "big-ones-first",
+  "book-by-the-chair",
+  "button-back-on",
+  "double-the-batch",
+  "edges-first",
+  "flip-the-record",
+  "frame-the-doodle",
+  "label-the-pots",
+  "plate-it-for-one",
+  "read-it-again",
+  "scraps-in-a-bowl",
+  "sort-into-three"
+ ]
+}

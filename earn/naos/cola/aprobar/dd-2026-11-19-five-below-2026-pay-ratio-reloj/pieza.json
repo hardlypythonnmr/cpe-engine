@@ -1,0 +1,94 @@
+{
+ "slug": "dd-2026-11-19-five-below-2026-pay-ratio-reloj",
+ "titulo": "10:09 a.m.: Five Below CEO pay vs. a median employee's year",
+ "clave": "2026-11-19|mercury|reloj|2026-11-19-five-below-2026-pay-ratio-reloj",
+ "sale_utc": "2026-11-19T15:00:00Z",
+ "caption": "10:09 a.m.: Five Below CEO pay vs. a median employee's year\n\nOn paper: reported CEO pay, spread over a 2,080-hour year, matches a median employee's whole year by 10:09 a.m.\n\nReported CEO total pay, fiscal 2025: $10,814,084. Median employee total pay, fiscal 2025: $5,982. Both from Five Below's proxy statement (DEF 14A), filed May 1, 2026. From a May 2026 filing.\n\nThe proxy says its median crew member is a part-time sales associate.\n\nName a company. We'll run its clock.\n\nOur math: $10,814,084 spread over 2,080 hours is about $5,199 an hour, rounded down. $5,982 is reached at that rate in 1 h 9 min 2 s (the clock shows 10:09 a.m. from a 9:00 a.m. start; minutes are rounded down).\n\nSources\nF1: Five Below proxy statement (DEF 14A), filed May 1, 2026 · https://www.sec.gov/Archives/edgar/data/1177609/000119312526199315/d86361ddef14a.htm\n\nSynthetic voice. The quote on screen is copied from the filing. No music.\n\n#ceopay #worklife\n\nLink in bio.",
+ "descripcion": "On paper: reported CEO pay, spread over a 2,080-hour year, matches a median employee's whole year by 10:09 a.m.\n\nReported CEO total pay, fiscal 2025: $10,814,084. Median employee total pay, fiscal 2025: $5,982. Both from Five Below's proxy statement (DEF 14A), filed May 1, 2026. From a May 2026 filing.\n\nThe proxy says its median crew member is a part-time sales associate.\n\nName a company. We'll run its clock.\n\nOur math: $10,814,084 spread over 2,080 hours is about $5,199 an hour, rounded down. $5,982 is reached at that rate in 1 h 9 min 2 s (the clock shows 10:09 a.m. from a 9:00 a.m. start; minutes are rounded down).\n\nSources\nF1: Five Below proxy statement (DEF 14A), filed May 1, 2026 · https://www.sec.gov/Archives/edgar/data/1177609/000119312526199315/d86361ddef14a.htm\n\nSynthetic voice. The quote on screen is copied from the filing. No music.\n\n#ceopay #worklife",
+ "alt": "Vertical dark video, 14 seconds, in a loop. A seven-segment clock runs from 9:00 to 10:09 a.m. as a yellow counter climbs from $0 to $5,982, the median Five Below employee's reported total pay for fiscal 2025. A stamp reads: equals one median year. Then the two reported figures, the CEO's $10,814,084 and the median employee's $5,982, with the Five Below proxy statement and its date, and a quote from the same proxy on a cream card. Synthetic voice.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-05-01T00:00:00Z",
+ "cifras_fijas": true,
+ "serie": "reloj",
+ "formato": "short",
+ "origen": "five-below-2026-pay-ratio",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1177609/000119312526199315/d86361ddef14a.htm",
+   "medio": "SEC EDGAR · Five Below",
+   "titulo": "Five Below proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-05-01T00:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "14.0 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Five Below. CEO pay, on paper. ten oh nine. One median employee's whole year. Reported pay: about ten point eight million. Median employee: about five thousand nine hundred. a significant portion of each executive's compensation at risk. ten oh nine. Difficult Decision.",
+ "tramos": [
+  {
+   "voz": "Five Below. CEO pay, on paper.",
+   "t0": 0.05,
+   "t1": 1.35
+  },
+  {
+   "voz": "ten oh nine.",
+   "t0": 2.32,
+   "t1": 2.987
+  },
+  {
+   "voz": "One median employee's whole year.",
+   "t0": 3.087,
+   "t1": 4.353
+  },
+  {
+   "voz": "Reported pay: about ten point eight million.",
+   "t0": 4.473,
+   "t1": 6.297
+  },
+  {
+   "voz": "Median employee: about five thousand nine hundred.",
+   "t0": 6.397,
+   "t1": 8.379
+  },
+  {
+   "voz": "a significant portion of each executive's compensation at risk.",
+   "t0": 8.719,
+   "t1": 11.406
+  },
+  {
+   "voz": "ten oh nine. Difficult Decision.",
+   "t0": 11.526,
+   "t1": 13.124
+  }
+ ],
+ "sintetico": true
+}

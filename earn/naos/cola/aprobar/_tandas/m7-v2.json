@@ -1,0 +1,19 @@
+{
+ "nombre": "m7-v2",
+ "issue": 930,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "fake-friend-other-side"
+ ],
+ "comentario_vista_previa_id": 6635755411,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-04T16:16:54Z",
+ "aviso_utc": "2026-11-04T16:16:58Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-04T16:19:06Z",
+ "aprobadas": [
+  "fake-friend-other-side"
+ ],
+ "cerrada": true
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-southwest-airlines-historia",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T19:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "c3617362eddc060e7af4d0aff8e5dba372d9e7104e3be5e2ac5bbf663de6a36a",
+ "hashes": {
+  "historia": "8907b853848f841536b9bdd0e7526b22f02d71614b51512c9cb7d13f9288a3b3"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885944249,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "venting-makes-anger-worse",
+ "issue": 976,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "679061ea20b723a9222adb25356f0fa6c7331a0d52ddd4561fbeeeb216a39d3b",
+ "hashes": {
+  "short": "1b9b72554a3cc2b93ca509c6e71c49657a8e476b5bf9d56f5dea398987a558e3"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6678370814,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "medios-15-25-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:49Z"
+}

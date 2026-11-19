@@ -1,0 +1,40 @@
+{
+ "slug": "which-self-care",
+ "titulo": "Which self-care are you really doing?",
+ "clave": "2026-11-19|which-self-care",
+ "sale_utc": "2026-11-19T13:20:00Z",
+ "caption": "Which self-care are you really doing? A, B, C or D.\nCella is all four, in a crown, for the photo.\nLink in bio.\nby NMR\n#selfcare #wellness #relatable",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "four colored cards labeled A to D. Which self-care are you really doing? Cella is all four. For the photo. A: Face mask. Phone in the other hand. B: Bath. With a screen. C: Bought a planner. Never opened it. D: Said “boundaries.” Cancelled.",
+ "tipo_imagen": "F4 Elige · bienestar · jue 19-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "bienestar (arquetipo: la influencer de wellness)",
+ "mecanica_crecimiento": "comentar · destinatario: the friend who posts a face mask with a phone in the other hand",
+ "eco": "C03",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

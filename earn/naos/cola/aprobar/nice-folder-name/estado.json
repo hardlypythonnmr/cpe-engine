@@ -1,0 +1,21 @@
+{
+ "slug": "nice-folder-name",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b404765ff4ca6810605f7e44f6c45b00e8036523359ba8076e5215c816709d1d",
+ "hashes": {
+  "historia": "89d98b381f902528dba9003905792232935caee63a323f598d1e90fa871e3512"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6667932094,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

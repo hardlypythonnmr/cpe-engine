@@ -1,0 +1,29 @@
+{
+ "nombre": "g2b-14-nov",
+ "issue": 909,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "todays-agenda",
+  "hold-the-door",
+  "go-to-the-mountains",
+  "terms-of-this-room",
+  "i-know-me",
+  "nine-is-enough"
+ ],
+ "comentario_vista_previa_id": 6610752419,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T17:20:54Z",
+ "aviso_utc": "2026-11-03T17:21:06Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:17:28Z",
+ "aprobadas": [
+  "go-to-the-mountains",
+  "hold-the-door",
+  "i-know-me",
+  "nine-is-enough",
+  "terms-of-this-room",
+  "todays-agenda"
+ ],
+ "cerrada": true
+}

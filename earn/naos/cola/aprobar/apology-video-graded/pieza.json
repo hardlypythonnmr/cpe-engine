@@ -1,0 +1,66 @@
+{
+ "slug": "apology-video-graded",
+ "titulo": "Grading an Apology Video With the 6 Parts of a Real Apology",
+ "clave": "2026-11-21|medio-m12",
+ "sale_utc": "2026-11-21T22:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "What makes an apology work? Cella missed her best friend's birthday dinner, posted from a rooftop party the same night, and filmed an apology video. We stopped the tape and graded it against the six parts of an apology that researchers tested in 2016.\n\nFor the friend whose sorry starts with \"you feel\".\n\nChapters\n0:00 Stop the tape\n0:34 Part 1: The apology\n1:58 Part 2: The grade\n4:05 Part 3: Take two\n\nThe study: Lewicki, R. J., Polin, B., & Lount, R. B., Jr. (2016). An exploration of the structure of effective apologies. Negotiation and Conflict Management Research, 9(2), 177-196. https://doi.org/10.1111/ncmr.12073\nTwo studies tested six parts of an apology: expressing regret, explaining what went wrong, acknowledging responsibility, declaring repentance, offering repair and requesting forgiveness. Apologies with more parts worked better than those with fewer. Acknowledging responsibility counted most, offering repair came second, and requesting forgiveness counted least. Limits: participants read written apologies about trust broken at work, not a missed birthday; a voice and a face can change how an apology lands. The 1.5 out of 6 in the video is our own scoring for the joke; the study ranks the parts, it does not grade videos.\n\nCella's apology video is made up. Any resemblance to a real one is the genre's fault.\nVoices: synthetic (ElevenLabs). Music and sounds made with code by NAOS.\nCloser to yourself.",
+ "sintetico": false,
+ "alt": "A 5-minute video in 16:9 with two voices: Cella, soft and rehearsed, filming an apology video, and a deep, slow grader who stops the tape. At night Cella, a small amber doorway-shaped figure with two white eyes, sits on a bench in front of a big lamp used as a ring light, under REC and TAKE 5. Red stamps read STOP THE TAPE, MISSED: BEST FRIEND'S BIRTHDAY and SAME NIGHT: ROOFTOP STORY. Three part cards: The apology, The grade, Take two. Her captions read Sorry if anyone was hurt., Mercury was in retrograde., Sorry you feel that way, Jo. and Forgive me? Love and light. Stamps count EXCUSES: 3 and THERE IT IS; the comments read take your time, queen (her cousin) and Jo: viewed 2x. A sheet lists the six parts of an apology, marks my fault as number 1, fix it as number 2 and forgive me as least, then grades her: one half, five zeros and one full point, 1.5 / 6. In take two the ring light goes off, she calls Jo and says sorry, my fault, I'll book dinner, it won't happen again; the sheet scores 5 / 6. Jo writes ok. thursday. you're paying for dessert too. Cella asks Post this? and a stamp reads NO. Final cards: For the friend whose sorry starts with you feel., the study and Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "satira",
+ "titulo_ab": "Her Apology Video Scored 1.5 Out of 6 (Here's the Sentence She Skipped)",
+ "comentario_fijado": "Worst apology you've ever received? Grade it out of six.",
+ "mecanica_crecimiento": "enviar: la tarjeta final dice For the friend whose sorry starts with \"you feel\". (una vez, en pantalla y en la segunda línea de la descripción)",
+ "guion": "empresa/youtube/medios/2026-11-06-medios-nuevos/m12-apology.md",
+ "casa": {
+  "id": "m12",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m12"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "340.50 s (5:40), 1920x1080 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 15.4 MB; voice: Cella filming her apology and a grader (ElevenLabs eleven_v4, saved voices brief-mujer-v2 and mesa-daniel), 57 lines, 3678 characters; the study is said with its limit (D-341)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS integrated, true peak -3.7 dBFS, LRA 4.7 LU; music composed with code (motor/musica/midi.py: soft piano for the video, game-show for the grade, guitar for take two); stamps, tape stop and scores made with code and midi.py golpes; an audience ooh from the NAOS sound library"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 358 and 578 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Lewicki, Polin and Lount 2016, Negotiation and Conflict Management Research 9(2) 177-196, doi 10.1111/ncmr.12073, abstract checked in Crossref (two studies, six components, more components more effective); the ranking (responsibility first, repair second, forgiveness least) and the written-apology limit come from the Ohio State news release of 12-apr-2016 (news.osu.edu), not from the full text"
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m12/dias/m12/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ],
+ "experimento": {
+  "decision": "D-363",
+  "que": "formato nunca hecho: un video de disculpas de influencer dentro del video, detenido y calificado en vivo"
+ },
+ "decision": "D-376"
+}

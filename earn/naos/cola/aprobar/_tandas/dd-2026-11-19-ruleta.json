@@ -1,0 +1,18 @@
+{
+ "nombre": "dd-2026-11-19-ruleta",
+ "issue": 1810,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-19-done-damages-ruleta-explicador"
+ ],
+ "comentario_vista_previa_id": 7015378673,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-19T16:33:58Z",
+ "aviso_utc": "2026-11-19T16:34:01Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-19T16:42:37Z",
+ "aprobadas": [
+  "dd-2026-11-19-done-damages-ruleta-explicador"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "nombre": "dd-2026-11-13",
+ "issue": 1054,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "dd-2026-11-13-meta-tachon-q",
+  "dd-2026-11-13-meta-lamina",
+  "dd-2026-11-13-meta-expediente",
+  "dd-2026-11-13-meta-historia",
+  "dd-2026-11-13-actually-said"
+ ],
+ "comentario_vista_previa_id": 6834915430,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-12T20:20:24Z",
+ "aprobado_evento_utc": "2026-11-12T20:21:43Z",
+ "aprobadas": [
+  "dd-2026-11-13-actually-said",
+  "dd-2026-11-13-meta-expediente",
+  "dd-2026-11-13-meta-historia",
+  "dd-2026-11-13-meta-lamina",
+  "dd-2026-11-13-meta-tachon-q"
+ ],
+ "cerrada": true
+}

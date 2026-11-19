@@ -1,0 +1,23 @@
+{
+ "slug": "walk-no-podcast",
+ "issue": 966,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1953ddb489a8dd46c1f8c82d1df7352100a2781db67710fa4ba0cbb1a2697c09",
+ "hashes": {
+  "short": "2f0c6891240164e9fd299e1c1f301887b281c7634f08577548137abb27ebfb3b",
+  "reel": "87b84c299b4c8f18e195d1337735492e5c1f047b3fbc4bd44849500053b9883e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668672699,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-20-23-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z"
+}

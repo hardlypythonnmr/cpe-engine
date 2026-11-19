@@ -1,0 +1,14 @@
+{
+ "nota": "Lista de reproducción de YouTube por familia (D-329). subir.py agrega cada medio o largo a la lista de su familia con playlistItems.insert. El id (PL...) se copia de Studio cuando la lista exista; vacío = sube sin lista y avisa.",
+ "listas": {
+  "recopilacion": "PLO0p5nE4MH6c",
+  "satira": "PLJSK2qDO8t7M",
+  "explicador": "PLbvsdXXdmoC0",
+  "ejemplos": "PLBWoLsJulQSY",
+  "pelicula": "PLG9liOYyk2Hs",
+  "noche": "",
+  "musica": "",
+  "slowtv": "PLX2d-t_WLntU",
+  "dormir": ""
+ }
+}

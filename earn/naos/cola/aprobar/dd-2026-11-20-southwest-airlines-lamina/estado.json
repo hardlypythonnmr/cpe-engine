@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-southwest-airlines-lamina",
+ "issue": 1331,
+ "version": 3,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T19:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "74af7d3320d0d445f74c0ace8fe82b26c543222730c6b66856d5c3a393c03a64",
+ "hashes": {
+  "imagen": "8afcef54251a527fb56aeced05bd831882099a6902dc98ff6b4a6631570cccfa"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885944704,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

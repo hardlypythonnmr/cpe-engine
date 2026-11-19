@@ -1,0 +1,23 @@
+{
+ "slug": "match-your-pace",
+ "issue": 1125,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T01:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e99f42d356ecd8bda9c3edd499701a375d20f8ef6fd4fb1980f74ff14b5c32dd",
+ "hashes": {
+  "short": "de25b8c8425235710e966354ce3e2741b66607ba1f26ed93155ec6c5d05db3c3"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6860625161,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "lote-2326",
+ "caducado_utc": "2026-11-13T17:49:25Z",
+ "aprobado_evento_utc": "2026-11-13T19:14:09Z"
+}

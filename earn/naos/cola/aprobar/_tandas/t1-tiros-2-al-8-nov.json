@@ -1,0 +1,27 @@
+{
+ "nombre": "t1-tiros-2-al-8-nov",
+ "issue": 895,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "wanted-the-other-fork",
+  "no-hands-we-bump",
+  "in-case-of-a-heavy-day",
+  "the-other-plate",
+  "eau-de-domingo"
+ ],
+ "comentario_vista_previa_id": 6562345079,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-01T18:51:30Z",
+ "aviso_utc": "2026-11-01T18:51:33Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-01T19:16:14Z",
+ "aprobadas": [
+  "eau-de-domingo",
+  "in-case-of-a-heavy-day",
+  "no-hands-we-bump",
+  "the-other-plate",
+  "wanted-the-other-fork"
+ ],
+ "cerrada": true
+}

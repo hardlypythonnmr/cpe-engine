@@ -1,0 +1,22 @@
+{
+ "slug": "sorry-itemized-receipt",
+ "issue": 1486,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T22:51:00Z",
+ "datos_utc": "",
+ "hash_contenido": "82a9773365857926647ad329160878cc6e39b94edac93bea20021ab30c624ee0",
+ "hashes": {
+  "imagen": "7dd5989d85e4c42a47249f922eaebb58fb801433bbda986fcc1fb4797ba98edb"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6893519351,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tendencia-1820",
+ "aprobado_evento_utc": "2026-11-15T11:55:28Z"
+}

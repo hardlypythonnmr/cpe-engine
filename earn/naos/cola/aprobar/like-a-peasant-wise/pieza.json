@@ -1,0 +1,69 @@
+{
+ "slug": "like-a-peasant-wise",
+ "titulo": "Skipping the Gym? Like a Peasant. (Funny Gym Motivation)",
+ "clave": "2026-11-21|like-a-peasant-wise",
+ "sale_utc": "2026-11-21T10:30:00Z",
+ "tipo": "CM",
+ "caption": "Skipping the gym again? That's peasant behavior. Cella is sunk into the couch, hears \"like a peasant,\" and takes it personally: up, gym bag, out the door. One squat later she's back on the floor. Then she gets up and goes again.\n\nHow do you go to the gym when you don't feel like it? Most people who keep going say the same thing: don't wait to feel motivated. Pack the bag, get out the door, and promise yourself just one exercise. One squat still counts as showing up.\n\nA short cartoon about gym motivation for lazy days.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#gymmotivation #skipthegym #gymhumor #fitnessmotivation #discipline #cartoon #naos",
+ "descripcion": "Skipping the gym again? That's peasant behavior. Cella is sunk into the couch, hears \"like a peasant,\" and takes it personally: up, gym bag, out the door. One squat later she's back on the floor. Then she gets up and goes again.\n\nHow do you go to the gym when you don't feel like it? Most people who keep going say the same thing: don't wait to feel motivated. Pack the bag, get out the door, and promise yourself just one exercise. One squat still counts as showing up.\n\nA short cartoon about gym motivation for lazy days.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#gymmotivation #skipthegym #gymhumor #fitnessmotivation #discipline #cartoon #naos",
+ "sintetico": false,
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A 19-second vertical cartoon about skipping the gym. Cella, a small dark doorway-shaped figure with white eyes and a flat red crown, is sunk into a purple sofa. Voice, no on-screen text: a deep old voice says she could skip the gym, like a peasant. Offended, she gets up and leaves with her gym bag, comes back flattened after one squat, then reinflates and stands at the open door with the bag, ready to go again.",
+ "comentario_fijado": "What's your go-to excuse for skipping the gym? Wrong answers only.",
+ "seccion": "humanity",
+ "formato": "short",
+ "filo": "V",
+ "modo": "Cella con voz",
+ "receta": "historia de Cella: chisme-fábula y la hermana",
+ "junta": "historias",
+ "apuesta": "voz-hermana-4-variables",
+ "variables": {
+  "quien_cuenta": "hermana (texto) con voz de viejo sabio",
+  "voz": "voz (ElevenLabs, Bill)",
+  "registro": "jerga",
+  "forma": "fábula"
+ },
+ "tanda": "voz-hermana-1119",
+ "experimento": true,
+ "experimento_prueba": "plan de 4 variables (quién cuenta, voz/texto, jerga/plano, fábula/empujón), 8 Shorts más 3 extra: género de voz en like-a-peasant (hermana, viejo, texto) y chisme contra voz interior en Ekadashi; se lee a 72 h por envíos, guardados, retención y vistas, y like-a-peasant por género en YouTube Analytics",
+ "casa": {
+  "id": "like-a-peasant-wise",
+  "version": 1,
+  "produccion": "empresa/estrategia/storytelling/voz-hermana/_motor (proto.js, mezcla.py, tanda.py)",
+  "especificacion": "empresa/estrategia/storytelling/voz-hermana/plan-prueba.md"
+ },
+ "eco": "N 19-nov: plan aprobado ('Sí, el plan (Rec.)'), voz ElevenLabs ('ElevenLabs (Rec.)'); sonido distinto por pieza",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "18.6 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "ElevenLabs eleven_v3 voice; low music from motor/musica/midi.py (FluidR3_GM, MIT), a different room and mood per piece; ElevenLabs SFX bank (royalty free) and own synth effects; -14 LUFS target"
+  },
+  {
+   "que": "Cold reader and art critic",
+   "estado": "OK",
+   "nota": "naos-personas-sinteticas and naos-arte-critico, 19-nov; fixes applied: text from frame 0, micro-motion, bathroom shower, Cella in the last shot of the gym piece, crown kept for Cella only"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md checked by naos-cella-respeto for the Ekadashi pieces (no rule broken); no health advice or cure promise (D-527); Cella without hands, flat red crown #A8362A"
+  },
+  {
+   "que": "SEO copy",
+   "estado": "OK",
+   "nota": "seo-maestro (19-nov): researched as a user first (YouTube and Google autocomplete, real questions, Reddit, who ranks; investigacion.md), then written naturally; uncommon words explained"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "nombre": "llenado-2230",
+ "issue": 1182,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "stop-the-beep",
+  "wave-back-wrong",
+  "just-milk",
+  "same-line-again",
+  "weather-small-talk",
+  "quiet-as-a-mouse",
+  "choose-a-seat",
+  "fifty-fifty-snack",
+  "bagging-area",
+  "mirror-last-look",
+  "one-more-photo",
+  "recalculating"
+ ],
+ "comentario_vista_previa_id": 6863242619,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T19:49:39Z",
+ "aviso_utc": "2026-11-13T19:49:39Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T21:17:00Z",
+ "aprobadas": [
+  "bagging-area",
+  "choose-a-seat",
+  "fifty-fifty-snack",
+  "just-milk",
+  "mirror-last-look",
+  "one-more-photo",
+  "quiet-as-a-mouse",
+  "recalculating",
+  "same-line-again",
+  "stop-the-beep",
+  "wave-back-wrong",
+  "weather-small-talk"
+ ]
+}

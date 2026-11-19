@@ -1,0 +1,29 @@
+{
+ "slug": "dd-2026-11-19-starbucks-tachon-q",
+ "issue": 1803,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T17:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "3915e8b84b2d6425caf855276d20d326d9bb254258a9879d3bf67383f3468a4b",
+ "hashes": {
+  "short": "1a54445972d1f0ee92a694a992cf40fae30f8ef85355005fe95edcae6020367a",
+  "reel": "36c259d449295cfe806cf0e3cac93d75c551515c5720fa8264022c289ceb3e26"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7008395492,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:57:13Z",
+ "veto_hasta_utc": "2026-11-19T12:57:13Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-20T05:00:00Z",
+ "reel_fallo_utc": "2026-11-19T17:02:26Z"
+}

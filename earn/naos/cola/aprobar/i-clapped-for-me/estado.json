@@ -1,0 +1,23 @@
+{
+ "slug": "i-clapped-for-me",
+ "issue": 963,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7f3fff2fb3f6956a44f725fda86a98bdeabb80ebdb7fe155b7c06d318146d9aa",
+ "hashes": {
+  "historia": "8b89861f88b6582624e3882137e2ea98d00f1fce6879c7218f0836262580a911"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6886292922,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z"
+}

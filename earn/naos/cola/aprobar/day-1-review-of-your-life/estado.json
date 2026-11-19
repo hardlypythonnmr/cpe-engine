@@ -1,0 +1,21 @@
+{
+ "slug": "day-1-review-of-your-life",
+ "issue": 970,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-20T14:47:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1f19450de222c3b30c4a784bfc6b3ff899e8006f8c0fada4fcc3417242290d46",
+ "hashes": {
+  "imagen": "f931832631a46d27fec516e7e96f0012dec512e085e64cd71c6092d3fbdae815"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6670870330,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "gta-vi-18-20-nov",
+ "aprobado_evento_utc": "2026-11-06T01:03:44Z"
+}

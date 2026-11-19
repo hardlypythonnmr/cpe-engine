@@ -1,0 +1,66 @@
+{
+ "slug": "venting-makes-anger-worse",
+ "titulo": "Venting Makes Anger Worse: A 3 A.M. Rage Room Infomercial, Fact-Checked",
+ "clave": "2026-11-19|medio-m11",
+ "sale_utc": "2026-11-19T22:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "Does venting help when you're angry? We let a 3 a.m. infomercial sell Cella a rage kit, then fact-checked it live. Punching pillows, smashing plates and screaming into voice notes made her angrier. The research says venting doesn't help, and thinking about the person while you do it makes it worse.\n\nFor the friend who sends 11 voice notes when they're mad.\n\nChapters\n0:00 The Rage Kit\n0:33 Part 1: The product\n1:49 Part 2: The test\n2:36 Part 3: The science\n4:25 Part 4: The refund\n\nThe studies:\nBushman, B. J. (2002). Does venting anger feed or extinguish the flame? Catharsis, rumination, distraction, anger, and aggressive responding. Personality and Social Psychology Bulletin, 28(6), 724-731. https://doi.org/10.1177/0146167202289002 (Angered students who hit a punching bag while thinking about the person who angered them felt angrier and were more aggressive than those who thought about fitness or did nothing; doing nothing at all was more effective than venting.)\nKjærvik, S. L., & Bushman, B. J. (2024). A meta-analytic review of anger management activities that increase or decrease arousal: What fuels or douses rage? Clinical Psychology Review, 109, 102414. https://doi.org/10.1016/j.cpr.2024.102414 (154 studies, 10,189 participants: activities that lower arousal, like slow breathing, relaxation and mindfulness, reduced anger and aggression; activities that raise it were ineffective overall.)\nLimits: Bushman's was a lab study with short tasks; the review pooled lab and field studies; the breathing count in the video is one simple way to slow down, not a treatment. If anger is hurting you or someone else, talk to a professional.\n\nThe Rage Kit and its founder are made up. Any resemblance to a real product is the genre's fault.\nVoices: synthetic (ElevenLabs). Music and sounds made with code by NAOS.\nCloser to yourself.",
+ "sintetico": false,
+ "alt": "A 6-minute video in 16:9 shaped like a late-night infomercial: a fast, cheerful salesman and a dry fact-checker who interrupts him. In a kitchen at night, Cella, a small amber doorway-shaped figure with two white eyes, stands under a red bar labeled ANGER. Her phone shows a message: Per my last email, reply all. A yellow sign reads THE RAGE KIT, $49.99, AS SEEN AT 3 A.M. Four part cards: The product, The test, The science, The refund. Red stamps read FACT CHECK. In the test she punches a pillow, three plates vanish into crumbs and eleven voice notes fill the chat, while the ANGER bar climbs from 70 to 94. A board shows a 2002 study: hitting a bag while thinking about him, angriest; doing nothing, best. A sheet shows a 2024 review of 154 studies: revving up about zero, slowing down less anger. Cella sits, the screen reads IN 4, OUT 6, and the bar falls to 30. A green stamp reads FULL REFUND and Cella says I was never angry. I was passionate. Final cards: For the friend who sends 11 voice notes when mad., the sources and Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "satira",
+ "titulo_ab": "Does Venting Help? We Tested a Rage Kit on Cella",
+ "comentario_fijado": "Be honest: pillow, plates or eleven voice notes?",
+ "mecanica_crecimiento": "enviar: la tarjeta final dice For the friend who sends 11 voice notes when mad. (una vez, en pantalla y en la segunda línea de la descripción)",
+ "guion": "empresa/youtube/medios/2026-11-06-medios-nuevos/m11-venting.md",
+ "casa": {
+  "id": "m11",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m11"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "340.10 s (5:40), 1920x1080 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 17.3 MB; voice: an infomercial salesman and a fact-checker (ElevenLabs eleven_v4, saved voices m3-playbyplay and m3-analista-r2), 56 lines, 3768 characters; both studies are said with their limits (D-341)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS integrated, true peak -2.6 dBFS, LRA 4.8 LU; game-show music composed with code (motor/musica/midi.py concurso, ranking); buzzers, fanfare and stamps from midi.py golpes; pillow, plates, sends and ticks made with code; an audience ooh from the NAOS sound library"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 358 and 578 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Bushman 2002, PSPB 28(6) 724-731, doi 10.1177/0146167202289002, abstract checked in Crossref (the line 'doing nothing at all was more effective than venting anger' is quoted from it); Kjaervik and Bushman 2024, Clinical Psychology Review 109, 102414, doi 10.1016/j.cpr.2024.102414, PubMed 38518585 (154 studies, 184 samples, 10,189 participants; arousal-decreasing g = -0.63, arousal-increasing g = -0.02)"
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m11/dias/m11/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ],
+ "experimento": {
+  "decision": "D-363",
+  "que": "formato nunca hecho: un infomercial de las 3 a.m. interrumpido por una verificadora; se mide contra M6 y M9"
+ },
+ "decision": "D-376"
+}

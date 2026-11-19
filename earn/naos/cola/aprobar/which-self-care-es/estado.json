@@ -1,0 +1,22 @@
+{
+ "slug": "which-self-care-es",
+ "issue": 1767,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T22:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "98d01de8a5b78ea50fb5179e4907dee32b161a58f00c680204e48d200a10ecf4",
+ "hashes": {
+  "imagen": "2ea49e26ae2e3a9f6b78afbe8c4f977f4f471d052acbb6ed069d780dc89b5951"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6953983744,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "es-19-20-nov",
+ "aprobado_evento_utc": "2026-11-17T16:48:14Z"
+}

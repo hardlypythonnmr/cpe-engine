@@ -1,0 +1,40 @@
+{
+ "nombre": "dd-reserva-0110-b",
+ "issue": 1477,
+ "version": 3,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-12-05-albertsons-historia",
+  "dd-2026-12-05-albertsons-lamina",
+  "dd-2026-12-05-albertsons-expediente",
+  "dd-2026-12-06-verizon-historia",
+  "dd-2026-12-06-verizon-lamina",
+  "dd-2026-12-06-verizon-expediente",
+  "dd-2026-12-07-aramark-historia",
+  "dd-2026-12-07-aramark-lamina",
+  "dd-2026-12-07-aramark-expediente",
+  "dd-2026-12-08-home-depot-historia",
+  "dd-2026-12-08-home-depot-lamina",
+  "dd-2026-12-08-home-depot-expediente"
+ ],
+ "comentario_vista_previa_id": 6914698386,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T06:57:54Z",
+ "aviso_utc": "2026-11-16T11:07:17Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-16T11:08:35Z",
+ "aprobadas": [
+  "dd-2026-12-05-albertsons-expediente",
+  "dd-2026-12-05-albertsons-historia",
+  "dd-2026-12-05-albertsons-lamina",
+  "dd-2026-12-06-verizon-expediente",
+  "dd-2026-12-06-verizon-historia",
+  "dd-2026-12-06-verizon-lamina",
+  "dd-2026-12-07-aramark-expediente",
+  "dd-2026-12-07-aramark-historia",
+  "dd-2026-12-07-aramark-lamina",
+  "dd-2026-12-08-home-depot-expediente",
+  "dd-2026-12-08-home-depot-historia",
+  "dd-2026-12-08-home-depot-lamina"
+ ]
+}

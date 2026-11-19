@@ -1,0 +1,19 @@
+{
+ "nombre": "largo-h-tier-list",
+ "issue": 950,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "self-help-tier-list-ranked"
+ ],
+ "comentario_vista_previa_id": 6654175695,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T09:12:56Z",
+ "aviso_utc": "2026-11-05T09:12:56Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T13:05:45Z",
+ "aprobadas": [
+  "self-help-tier-list-ranked"
+ ],
+ "cerrada": true
+}

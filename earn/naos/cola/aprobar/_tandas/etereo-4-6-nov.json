@@ -1,0 +1,23 @@
+{
+ "nombre": "etereo-4-6-nov",
+ "issue": 920,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "i-belong-here",
+  "nobody-clapped",
+  "this-moonlight"
+ ],
+ "comentario_vista_previa_id": 6617289421,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T22:39:06Z",
+ "aviso_utc": "2026-11-03T22:39:12Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T22:42:44Z",
+ "aprobadas": [
+  "i-belong-here",
+  "nobody-clapped",
+  "this-moonlight"
+ ],
+ "cerrada": true
+}

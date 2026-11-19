@@ -1,0 +1,40 @@
+{
+ "slug": "dd-2026-11-19-starbucks-tachon-q",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "no-pasa",
+ "motivos": [
+  "falta vara.json (los lectores fríos no dejaron puntaje)",
+  "falta estetico.json (el lector estético no la leyó)",
+  "plantilla aprobada (D-499) no alcanza: falta verificado.json: las citas no están verificadas (corre `agente.py verificado dd-2026-11-19-starbucks-tachon-q`)",
+  "plantilla aprobada (D-499) no alcanza: falta medidas.json en la carpeta: la pieza no se midió"
+ ],
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "0d426c5bcc5f9824dc96b3a0d5529d83a3654964b372574e018d638c1fc9a13e",
+  "reel": "36c259d449295cfe806cf0e3cac93d75c551515c5720fa8264022c289ceb3e26"
+ },
+ "huella_contenido": "bee0e90d226402ddbb81b14adde7cc16e9ffcea755c7efed12bab3c15bd52a68",
+ "sale_utc": "2026-11-19T17:00:00Z",
+ "dictamen_utc": "2026-11-19T11:53:39Z"
+}

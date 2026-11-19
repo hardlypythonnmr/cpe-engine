@@ -1,0 +1,21 @@
+{
+ "nombre": "etereo-11-14-nov",
+ "issue": 948,
+ "version": 2,
+ "estado": "publicado",
+ "piezas": [
+  "didnt-apologize-once",
+  "nobody-calls-it-flaky",
+  "its-a-rock"
+ ],
+ "comentario_vista_previa_id": 6889003136,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T03:33:19Z",
+ "aviso_utc": "2026-11-15T04:12:04Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T04:14:27Z",
+ "aprobadas": [
+  "didnt-apologize-once"
+ ],
+ "cerrada": true
+}

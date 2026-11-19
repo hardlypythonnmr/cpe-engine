@@ -1,0 +1,23 @@
+{
+ "slug": "like-a-peasant-wise",
+ "issue": 1805,
+ "version": 2,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T10:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a5444d7e5db44ffaabb95099ca512e2d6d5f5c468654247df9b119ca8ee3b95e",
+ "hashes": {
+  "short": "b32034a83fd89530426d98ba69ed5c51c87ea1cafe8c6bb1d9793fbe036ed7d3"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016000296,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_por": "version",
+ "caducado_utc": "2026-11-19T16:57:45Z"
+}

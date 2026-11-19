@@ -1,0 +1,23 @@
+{
+ "slug": "nature-doc-friend",
+ "issue": 965,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T20:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "38c3ec1f7776a93b2c5b807f1162c1c40c528cb208cb26617a9155f554f6af72",
+ "hashes": {
+  "short": "76eb4ab17c3bc31cb5df64262a2a154fcd7bf7a69956fdfcff28d87decfe02ee",
+  "reel": "0c4950c526ddfde6bd4fce3285e38852c59f284dba2f85eceb4c25303f6f437c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668662684,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

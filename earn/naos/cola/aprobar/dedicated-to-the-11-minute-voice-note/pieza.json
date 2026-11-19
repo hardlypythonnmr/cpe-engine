@@ -1,0 +1,88 @@
+{
+ "slug": "dedicated-to-the-11-minute-voice-note",
+ "titulo": "The Maha Mantra, Dedicated to the 11-Minute Voice Note",
+ "clave": "2026-11-21|dedicated-to-the-11-minute-voice-note",
+ "sale_utc": "2026-11-21T22:40:00Z",
+ "tipo": "MANTRA",
+ "caption": "The Maha Mantra, Dedicated to the 11-Minute Voice Note\n\nToday's mantra is dedicated to the 11-minute voice note. I listened to all of it. Send this to the one who records them. Maha mantra, sung sincerely.\n\nCloser to yourself.\n#mantra #harekrishna #kirtan #naos\nLink in bio.",
+ "descripcion": "Today's mantra is dedicated to the 11-minute voice note. I listened to all of it. Send this to the one who records them. Maha mantra, sung sincerely.\n\nCella here, in the kitchen, listening to a voice note that will not end. I sang the mantra straight and heard every minute. I'm an AI with endless patience, and I'd still prefer a text.\n\nHare Kṛṣṇa Hare Kṛṣṇa, Kṛṣṇa Kṛṣṇa Hare Hare, Hare Rāma Hare Rāma, Rāma Rāma Hare Hare.\n\nWhat it is: the Hare Krishna maha mantra, sixteen names from the Kali-Santarana Upanishad, sung here at a soft, even pace. Say it HAH-ray, KRISH-nuh, RAH-muh. (Sung in the order ISKCON chants it; the Upanishad lists Hare Rāma first.)\n\nIn the tradition: Hare, Kṛṣṇa and Rāma are forms of address, so the mantra is a call and not a statement, and Prabhupada read the whole of it as a request to be engaged in service.\n\nSources:\nKali-Santarana Upanishad 1-2 (the sixteen names; the Devanagari text at sanskritdocuments.org).\nPrabhupada, On Chanting the Hare Krishna Maha-Mantra (the reading of Hare, Krishna and Rama as a prayer).\n\nVoice and music: synthetic (ElevenLabs), AI voices and a band from takes NAOS already made; scene drawn by NAOS. Corrections from practitioners are welcome.\nNAOS · Closer to yourself. by NMR\n#mantra #harekrishna #kirtan #shorts",
+ "sintetico": false,
+ "alt": "A 26-second vertical video. At the top, a flat blue sign reads “Dedicated to the 11-minute voice note.”. Below it, Cella, a small flat doorway-shaped character with two plain white eyes (no pupils), no hands and a flat red crown, sits on a cushion beside a phone leaning on a low table, playing a voice note whose bar runs from 0:03 to 11:42, breathing with a sung Hare Krishna maha mantra. The mantra's words light up one by one in a gold capsule. When the singing ends, the sign changes to “I listened to all of it. Text next time.” and the bar reaches 11:42 and Cella's eyes close into two thick white arcs, pleased with her own patience. The bottom of the screen is left clear for the app.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "short",
+ "linea": "mantras",
+ "titulo_ab": "Two Gentle Rounds of the Hare Krishna Maha Mantra, Sung Sincerely",
+ "comentario_fijado": "Longest voice note you ever got: how many minutes? No names.",
+ "junta": "crecimiento",
+ "apuesta": "dedicated-to",
+ "tanda": "crecimiento-1921",
+ "experimento": true,
+ "experimento_prueba": "cartel de dedicatoria en el cuadro 0 contra mantra corto sin cartel; envíos por lote a 48 h",
+ "destinatario": "El amigo o la amiga que manda audios eternos (arquetipo). Lo manda quien los escucha enteros por cariño.",
+ "mecanica_crecimiento": "enviar",
+ "cartel": {
+  "dedicatoria": "Dedicated to the 11-minute voice note.",
+  "final": "I listened to all of it. Text next time.",
+  "cambia_s": 22.87
+ },
+ "casa": {
+  "id": "dedicated-to-2",
+  "version": 1,
+  "produccion": "empresa/mantras/diarios/dedicatorias.py",
+  "especificacion": "empresa/crecimiento/2026-11-17-rediseno/apuesta-1.json"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "25.90 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; the sung stretch ends at 23.3 s (0.9 s fade), then 3 s of silence for Cella's line"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS integrated, true peak -2.1 dBTP (D-346); stretch of the approved ElevenLabs music piece e1-maha-100 (maha), rounds 1 to 2; no ElevenLabs credits spent"
+  },
+  {
+   "que": "Sign from frame 0",
+   "estado": "OK",
+   "nota": "flat #2B4CF0 sign at y 168 to 368 of 1920, 6 words, 66 px serif (band 168 to 1330, 28 px minimum, D-347); visible from frame 0; switches to Cella's line at 22.87 s, after the last sung word; the sign never covers the crown"
+  },
+  {
+   "que": "Lyrics stay sincere",
+   "estado": "OK",
+   "nota": "canonical line from tradiciones/glosas.json, the active word in a #FFE08A capsule on the speech-to-text word times (D-368); no joke during the chant; the joke lives only in the sign and the scene object"
+  },
+  {
+   "que": "Cella",
+   "estado": "OK",
+   "nota": "one Cella, no hands, plain white eyes with no pupils and no rims (D-380), closed eyes as thick white arcs, flat red crown #A8362A always visible, no hat or costume over it; scene object: teléfono recostado en una mesa baja con una nota de voz cuya barra avanza de 0:03 a 11:42 justo cuando termina el canto"
+  },
+  {
+   "que": "Copy",
+   "estado": "OK",
+   "nota": "caption 46 words (50 max) with the daily-mantra footer (Closer to yourself., tags, Link in bio.); no long dashes, no 'not X but Y'; sends to an archetype, never a named person; no promised effect on anyone"
+  },
+  {
+   "que": "Hook judge and still runs",
+   "estado": "OK",
+   "nota": "motor/kit/juez_gancho.py video: pasa=True, frenos=[], avisos=[]; motor/kit/rachas.py: longest still run 1.25 s (max 3.0)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "naos-arte-critico 17-nov: Fix applied (eyes, card, calendar, gradient)"
+  },
+  {
+   "que": "Respect",
+   "estado": "OK",
+   "nota": "naos-cella-respeto 17-nov: passes the 7 rules; the joke lives in the situation"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "nombre": "seat-v2-15-nov",
+ "issue": 947,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "they-saved-you-a-seat"
+ ],
+ "comentario_vista_previa_id": 6648408652,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T02:55:06Z",
+ "aviso_utc": "2026-11-05T02:55:06Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T08:55:35Z",
+ "aprobadas": [
+  "they-saved-you-a-seat"
+ ],
+ "cerrada": true
+}

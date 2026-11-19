@@ -1,0 +1,31 @@
+{
+ "nombre": "dd-2026-11-19-agente-b",
+ "issue": 1803,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-19-starbucks-expediente",
+  "dd-2026-11-19-starbucks-hist-frase",
+  "dd-2026-11-19-starbucks-hist-numero",
+  "dd-2026-11-19-starbucks-hist-video",
+  "dd-2026-11-19-starbucks-lamina",
+  "dd-2026-11-19-starbucks-tachon-q"
+ ],
+ "comentario_vista_previa_id": 7008396309,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-19T11:57:04Z",
+ "agente": true,
+ "aviso_utc": "2026-11-19T11:57:11Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:57:13Z",
+ "veto_hasta_utc": "2026-11-19T12:57:13Z",
+ "aprobadas": [
+  "dd-2026-11-19-starbucks-expediente",
+  "dd-2026-11-19-starbucks-hist-frase",
+  "dd-2026-11-19-starbucks-hist-numero",
+  "dd-2026-11-19-starbucks-hist-video",
+  "dd-2026-11-19-starbucks-lamina",
+  "dd-2026-11-19-starbucks-tachon-q"
+ ]
+}

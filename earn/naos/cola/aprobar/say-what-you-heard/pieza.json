@@ -1,0 +1,49 @@
+{
+ "slug": "say-what-you-heard",
+ "titulo": "Before you answer, say what you heard.",
+ "clave": "2026-11-20|say-what-you-heard",
+ "sale_utc": "2026-11-20T20:42:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A pink entryway. Two small block figures with white eyes stand close and lean a few degrees toward each other. Text: before you answer, say what you heard.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-15-tendencia (casa/lib/historias-1115-tendencia-piezas.py)",
+ "tanda": "tendencia-1820 (D-511)",
+ "tendencia": {
+  "cazador": "2026-11-15",
+  "candidata": 1,
+  "patron": "pelear, disculparse y poner limites",
+  "estudio_doi": "10.1126/science.1144241",
+  "conducta": "decir lo que oiste antes de contestar",
+  "gancho": "solo la fecha; sin persona ni marca"
+ },
+ "sticker": "ninguno",
+ "casa": {
+  "id": "say-what-you-heard",
+  "version": 8
+ },
+ "tono": "tender",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin persona real ni marca; la noticia no aparece, solo el patrón; sin consejo ni promesa de salud; sin raya larga; Cella sin manos"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "frase de 3 renglones, 5 palabras o menos cada uno, leída en el cuadro renderizado (empresa/historias/2026-11-15-tendencia/dias/<id>/cuadros/t01.00.png)"
+  }
+ ]
+}

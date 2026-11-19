@@ -1,0 +1,40 @@
+{
+ "nombre": "dd-reserva-0110-a",
+ "issue": 1476,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-12-01-ibm-historia",
+  "dd-2026-12-01-ibm-lamina",
+  "dd-2026-12-01-ibm-expediente",
+  "dd-2026-12-02-workday-historia",
+  "dd-2026-12-02-workday-lamina",
+  "dd-2026-12-02-workday-expediente",
+  "dd-2026-12-03-texas-roadhouse-historia",
+  "dd-2026-12-03-texas-roadhouse-lamina",
+  "dd-2026-12-03-texas-roadhouse-expediente",
+  "dd-2026-12-04-general-motors-historia",
+  "dd-2026-12-04-general-motors-lamina",
+  "dd-2026-12-04-general-motors-expediente"
+ ],
+ "comentario_vista_previa_id": 6890745366,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-15T06:57:23Z",
+ "aviso_utc": "2026-11-15T06:57:23Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T11:55:27Z",
+ "aprobadas": [
+  "dd-2026-12-01-ibm-expediente",
+  "dd-2026-12-01-ibm-historia",
+  "dd-2026-12-01-ibm-lamina",
+  "dd-2026-12-02-workday-expediente",
+  "dd-2026-12-02-workday-historia",
+  "dd-2026-12-02-workday-lamina",
+  "dd-2026-12-03-texas-roadhouse-expediente",
+  "dd-2026-12-03-texas-roadhouse-historia",
+  "dd-2026-12-03-texas-roadhouse-lamina",
+  "dd-2026-12-04-general-motors-expediente",
+  "dd-2026-12-04-general-motors-historia",
+  "dd-2026-12-04-general-motors-lamina"
+ ]
+}

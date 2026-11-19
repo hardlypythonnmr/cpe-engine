@@ -1,0 +1,32 @@
+{
+ "slug": "side-quest-for-the-20th-2",
+ "titulo": "Countdown to GTA 6 + your side quest",
+ "clave": "2026-11-18|side-quest-for-the-20th-2",
+ "sale_utc": "2026-11-19T02:15:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories over a night city. MAKE IT AN IF-THEN: IF it's 9:00, THEN I open the thing I've been avoiding.",
+ "seccion": "humanity",
+ "fuente": "empresa/series/2026-11-gta-vi/PLAN.md (G19); Drawn with the generic open-world kit (empresa/series/kit-mundo-abierto): no logo, typeface, characters, places or images of any game; the game is named only in the title and hashtags (D-374).",
+ "sticker": "ninguno: funciona sin sticker (la respuesta es por DM, nada tocable en la imagen)",
+ "casa": {
+  "id": "g19-countdown-side",
+  "kit": "empresa/series/kit-mundo-abierto"
+ },
+ "tipo": "historia",
+ "serie": "gta-vi",
+ "pieza_serie": "G19",
+ "cuadro": "2 de 2",
+ "fuentes": [
+  "https://doi.org/10.1016/S0065-2601(06)38002-1"
+ ],
+ "experimento": true,
+ "experimento_prueba": "historia en cuadros con tarjeta de seleccion o cuenta regresiva dibujada; prueba si el formato sin sticker nativo retiene el paso de cuadros",
+ "tanda": "serie-gta-vi-15-20-nov (D-374, D-359, D-360, D-362, D-363)"
+}

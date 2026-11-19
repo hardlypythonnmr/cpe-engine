@@ -1,0 +1,5 @@
+slug,padre,condicion,lectura_h,sale_utc,estado,reservado_utc,decidido_utc,decidido_por,motivo
+look-up-tonight,,,,2026-11-05T23:00:00Z,liberada,2026-11-03T13:30:00Z,2026-11-04T07:22:36Z,"N (mesa 3.3, D-343)","N, 3-nov: 'move look up tonight to nov 13' (ya lo había pedido el 31-oct). Se retiene la salida del 5-nov; la v2 al 13-nov 23:00Z va en la T2 con su 👍"
+end-of-the-feed-late,end-of-the-feed,escapa,24,2026-11-12T15:00:00Z,vencida,2026-11-03T14:04:27Z,2026-11-15T20:08:28Z,tiros.py decidir,pasaron más de 3 h de su hora (2026-11-12T15:00:00Z) sin cumplirse se escapa a 24 h de end-of-the-feed (lectura: ninguna)
+no-hands-for-two,no-hands-things-come-to-me,escapa,24,2026-11-13T15:00:00Z,vencida,2026-11-03T14:04:28Z,2026-11-15T20:08:28Z,tiros.py decidir,pasaron más de 3 h de su hora (2026-11-13T15:00:00Z) sin cumplirse se escapa a 24 h de no-hands-things-come-to-me (lectura: ninguna)
+wanted-tupperware,wanted-the-other-fork,senal,48,2026-11-10T17:00:00Z,vencida,2026-11-03T14:35:42Z,2026-11-15T20:08:28Z,tiros.py decidir,pasaron más de 3 h de su hora (2026-11-10T17:00:00Z) sin cumplirse señal o mejor a 48 h de wanted-the-other-fork (lectura: nada)

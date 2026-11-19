@@ -1,0 +1,19 @@
+{
+ "nombre": "dd-2026-11-18",
+ "issue": 1790,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "dd-2026-11-18-apple-historia"
+ ],
+ "comentario_vista_previa_id": 6978500289,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-18T12:25:26Z",
+ "aviso_utc": "2026-11-18T12:25:33Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-18T12:37:08Z",
+ "aprobadas": [
+  "dd-2026-11-18-apple-historia"
+ ],
+ "cerrada": true
+}

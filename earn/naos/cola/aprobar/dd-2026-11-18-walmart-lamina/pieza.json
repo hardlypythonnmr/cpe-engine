@@ -1,0 +1,75 @@
+{
+ "slug": "dd-2026-11-18-walmart-lamina",
+ "titulo": "Walmart (Apr 2025): $27.4 million CEO total pay, $29,469 median pay. The math.",
+ "clave": "2026-11-18|mercury|lamina|2026-11-18-walmart-lamina",
+ "sale_utc": "2026-11-18T20:00:00Z",
+ "caption": "From the archive: Apr 2025. Not today's news.\nWalmart, Apr 24, 2025 (Walmart, proxy statement): \"our associates feel like they belong and their contributions are valued\"\nWalmart's proxy statement, filed April 24, 2025, reported total compensation of $27,408,854 for its CEO and $29,469 for its median associate for fiscal 2025.\n\nSame proxy: $27.4 million CEO total pay, fiscal 2025. The total compensation of the CEO for fiscal 2025, as reported in the proxy's Summary Compensation Table; mostly stock awards, not cash.\nThe math: $27.4 million CEO total pay (2025) ÷ $29,469 median pay = about 930 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Walmart's own figure is 930 to 1. Most of the CEO's total is stock awards, not cash. We are not saying anyone is paid too much or too little.\n\nValued, the proxy says. Here is the ratio. (Our take.)\n\nFor someone who has heard that associates feel like they belong.\n\nSources: SEC EDGAR · Walmart, Apr 24, 2025.\n\nLink in bio.",
+ "descripcion": "From the archive: Apr 2025. Not today's news.\nWalmart, Apr 24, 2025 (Walmart, proxy statement): \"our associates feel like they belong and their contributions are valued\"\nWalmart's proxy statement, filed April 24, 2025, reported total compensation of $27,408,854 for its CEO and $29,469 for its median associate for fiscal 2025.\n\nSame proxy: $27.4 million CEO total pay, fiscal 2025. The total compensation of the CEO for fiscal 2025, as reported in the proxy's Summary Compensation Table; mostly stock awards, not cash.\nThe math: $27.4 million CEO total pay (2025) ÷ $29,469 median pay = about 930 median-worker salaries in a year of CEO pay.\nThis is a ratio, not a payment and not a cause: the CEO's total pay divided by the median employee's pay, both from the same proxy. The median employee is a statistical figure the company calculates under the SEC pay ratio rule, not one named person. We round the ratio down; Walmart's own figure is 930 to 1. Most of the CEO's total is stock awards, not cash. We are not saying anyone is paid too much or too little.\n\nValued, the proxy says. Here is the ratio. (Our take.)\n\nSources:\n- SEC EDGAR · Walmart, Apr 24, 2025: «our associates feel like they belong and their contributions are valued» and «the fiscal 2025 annual total compensation of our CEO was $27,408,854» and «the fiscal 2025 annual total compensation of our median associate was $29,469» https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+ "alt": "Paper-colored card. Walmart, Apr 24, 2025. A gray typewriter quote, \"our associates feel like they belong and their contributions are valued\", struck through with a dark red marker line. The struck quote is by Walmart, proxy statement. Then the math in huge black letters, with the result on a yellow highlight: $27.4M ÷ $29,469 = about 930, median-worker salaries, in a year of CEO pay. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/biblioteca/bib4-walmart-2025-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
+   "medio": "SEC EDGAR · Walmart",
+   "titulo": "Walmart proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg",
+ "tipo": "imagen",
+ "lado": "empleado",
+ "tema": "Walmart (Apr 2025): CEO pay ratio, 930 median-worker salaries in one year of the CEO's pay",
+ "banco_archivo": {
+  "caso": "walmart-2025-pay-ratio",
+  "rotulo_fecha": "ARCHIVE · APR 2025",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen del proxy (DEF 14A) de la empresa, en la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/walmart-2025-pay-ratio/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib4-walmart-2025-pay-ratio/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 4 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib4-walmart-2025-pay-ratio/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Dice de dónde sale cada cifra (proxy, Summary Compensation Table) y que el empleado mediano es un cálculo de la empresa; lo que la fuente aclara del mediano (tiempo parcial, global) queda en la nota cuando aplica."
+  ]
+ },
+ "aspecto": "4x5"
+}

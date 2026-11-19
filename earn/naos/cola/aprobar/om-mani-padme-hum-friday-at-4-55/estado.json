@@ -1,0 +1,22 @@
+{
+ "slug": "om-mani-padme-hum-friday-at-4-55",
+ "issue": 1088,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T00:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4352d8a80a4fd1425179845169858c251cc0cd981c952b879fb3b518b5cbc920",
+ "hashes": {
+  "reel": "ed379dcdb56eee6e3fd9dcc0e7d0bfcb2a0c2532658004468c910e33f735357b"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856394056,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "mantra-1921",
+ "aprobado_evento_utc": "2026-11-13T15:00:56Z"
+}

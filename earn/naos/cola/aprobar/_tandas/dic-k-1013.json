@@ -1,0 +1,28 @@
+{
+ "nombre": "dic-k-1013",
+ "issue": 1351,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "ring-once-and-wait",
+  "note-on-the-door",
+  "brush-the-bench-first",
+  "walk-instead-of-waiting",
+  "watch-them-to-the-corner",
+  "leave-ten-early"
+ ],
+ "comentario_vista_previa_id": 6886835709,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T14:27:29Z",
+ "aviso_utc": "2026-11-15T00:47:42Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:11Z",
+ "aprobadas": [
+  "brush-the-bench-first",
+  "leave-ten-early",
+  "note-on-the-door",
+  "ring-once-and-wait",
+  "walk-instead-of-waiting",
+  "watch-them-to-the-corner"
+ ]
+}

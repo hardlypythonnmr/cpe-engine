@@ -1,0 +1,33 @@
+{
+ "_nota": "Aprobación del VP (D-274, D-322; gobierno.md, sección «Autonomía del VP desde el 9-nov»). La leen registro.py (la compuerta) y aprobar.py vp. Cambiarla pide el 👍 de N en su PR (CODEOWNERS), como aprobador.txt. Las exclusiones son conservadoras: ante la duda la pieza va a la tanda de N.",
+ "desde_utc": "2026-11-09T05:00:00Z",
+ "canales": ["historia", "carrusel"],
+ "regresos": true,
+ "veto_h": 12,
+ "aprobador": "vp",
+ "fila_gobierno": "Aprobación del VP (D-274)",
+ "margen_short_h": 1,
+ "exclusiones": [
+  {"que": "fiesta de fe o tradición",
+   "campos": ["fiesta", "fe", "tradicion", "nota_tradicion"],
+   "tipos": ["FIESTA", "ST"],
+   "revisiones": ["tradition", "tradición"],
+   "palabras": ["christmas", "xmas", "easter", "lent", "advent", "diwali", "hanukkah", "chanukah", "ramadan", "eid", "passover",
+                "rosh hashanah", "yom kippur", "day of the dead", "dia de muertos", "día de muertos", "all saints", "all souls",
+                "thanksgiving", "halloween", "navidad", "semana santa", "pascua", "las velitas", "velitas", "novena", "epiphany",
+                "reyes magos", "lunar new year", "holi", "vesak", "sabbath", "shabbat"]},
+  {"que": "luna con astrología",
+   "campos": ["astrologia"],
+   "palabras": ["astrology", "astrological", "astrología", "zodiac", "zodiaco", "horoscope", "horóscopo", "retrograde",
+                "star sign", "birth chart", "natal chart", "moon sign", "rising sign"]},
+  {"que": "lo divino (fe, texto sagrado, sátira o parodia sobre lo divino)",
+   "campos": ["divino", "sagrado", "fe_texto"],
+   "palabras": ["god", "gods", "goddess", "divine", "holy", "sacred", "prayer", "pray", "praying", "scripture", "bible", "quran",
+                "koran", "torah", "gospel", "psalm", "heaven", "angel", "angels", "saint", "blessed", "amen", "church", "temple",
+                "mosque", "synagogue", "dios", "divino", "sagrado", "oración", "rezar", "biblia", "santo"]},
+  {"que": "condicional",
+   "campos": ["condicional", "condicion_de_subida"],
+   "revisiones": ["conditional", "condicional"],
+   "reservas": true}
+ ]
+}

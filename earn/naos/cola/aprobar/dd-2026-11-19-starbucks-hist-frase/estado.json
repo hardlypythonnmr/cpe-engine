@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-starbucks-hist-frase",
+ "issue": 1803,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T21:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "0fedc5b218929d7c7310ca210436aca6e986e41661293ddf097cc9fd129cacc2",
+ "hashes": {
+  "historia": "0b15ec0b5258d2355221192b50e0362ab77f71a3829e820827e74e9b3d9f398d"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7008392547,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:57:13Z",
+ "veto_hasta_utc": "2026-11-19T12:57:13Z"
+}

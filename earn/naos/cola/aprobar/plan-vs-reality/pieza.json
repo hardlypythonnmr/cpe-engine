@@ -1,0 +1,49 @@
+{
+ "slug": "plan-vs-reality",
+ "titulo": "Saturday plan vs. Saturday",
+ "clave": "2026-11-21|casa-alcoba",
+ "sale_utc": "2026-11-21T20:25:00Z",
+ "caption": "Saturday plan vs. Saturday\n\nSaturday plan: gym, laundry, call mom, learn piano.\nSaturday: same hoodie, 4:45 p.m.\n\nBe honest about the second one. It's the only one that's real.\n\n#Cella #relatable\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Saturday plan: gym, laundry, call mom, learn piano.\nSaturday: same hoodie, 4:45 p.m.\n\nBe honest about the second one. It's the only one that's real.\n\n#Cella #relatable\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A bedroom with a hard cut at five seconds. First, lit by a spotlight with everything else gray, a small ink-black block figure with white eyes stretches tall and pulses with chimes, labeled THE PLAN, beside a big clock that reads 7:00. Then it cuts hard: the same figure is slumped in front of the bed, labeled THE REALITY, the clock reads 4:45, and its eyes are narrow and tired. The text stays: saturday plan vs. saturday.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "plan-vs-reality",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.01 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 4 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.2 LUFS, true peak -1.8 dBFS, LRA 2.1 LU; own music (motor/sonido midi, room alcoba, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "MEME",
+ "filo": "C",
+ "tema": "productividad y pereza",
+ "blanco": "Cella (y quien planea el sábado)",
+ "destinatario": "the friend with the saturday plan",
+ "cara": "A",
+ "experimento": true,
+ "experimento_prueba": "corte seco entre dos mundos con la misma Cella: 'THE PLAN' (7:00, de pie, foco) y 'THE REALITY' (4:45, hundida frente a la cama, gris); sin transición",
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

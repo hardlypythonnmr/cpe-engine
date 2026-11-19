@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-f3-dijeron-valero",
+ "issue": 1815,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T17:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "6014e4aa8f070a34bcde5101f543dfdc39fc33429c7827bb113e57e26160f7d0",
+ "hashes": {
+  "short": "71cca9db98c2f42c7a276463934d10b6876833a5b773f03180b338b8700e535f",
+  "reel": "359727056ff44b7db6ec65dc783c565f15bbf30c11e8f2d8c267d948c54cc39c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7016381237,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-rediseno"
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "nobody-saw-h3",
+ "titulo": "I tripped on the stairs",
+ "clave": "2026-11-21|casa-escaleras",
+ "sale_utc": "2026-11-21T12:35:00Z",
+ "caption": "I tripped on the stairs\n\ni tripped on the stairs. everyone saw. (nobody was there)\n\nFor whoever is still thinking about that one time.\n\nThe theory: the spotlight effect, we think others notice our slips far more than they do (Gilovich, Medvec and Savitsky, 2000, Journal of Personality and Social Psychology). An example, not a diagnosis.\n\n#Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "i tripped on the stairs. everyone saw. (nobody was there)\n\nFor whoever is still thinking about that one time.\n\nThe theory: the spotlight effect, we think others notice our slips far more than they do (Gilovich, Medvec and Savitsky, 2000, Journal of Personality and Social Psychology). An example, not a diagnosis.\n\n#Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A coral room with a cream staircase on the right. A small ink-black block figure with white eyes walks to the steps and trips on the first one, eyes wide. It looks left, right, up and at the camera. The room is empty. Then it pulses once with happy eyes. The text stays: i tripped on the stairs, everyone saw, (nobody was there).",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "nobody-saw-h3",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "5.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -3.5 dBFS, LRA 1.8 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Theory",
+   "estado": "OK",
+   "nota": "Spotlight effect lived; name and source only at the end of the caption (Gilovich, Medvec and Savitsky, 2000)"
+  },
+  {
+   "que": "Experiment",
+   "estado": "OK",
+   "nota": "Hermana of nobody-saw, factor: duration (5.5 s: trip, look at the empty room, one last happy pulse); everything else equal to nobody-saw"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "Juez distinto (D-294), 16-nov-2026: PASA. Cierra a 5,5 s con ojos felices ^ ^ (el arreglo del corte en seco funciona), texto quieto hasta 6,5 s, racha max 0,75 s, ojos blancos sin aro, reborde 0. [mejora]: solo 2 micro-eventos de ternura (inclinacion s1.7, mirada s3.2, mas el cierre feliz), sin eco ni apoyo; el cierre dura ~0,5 s y la pieza sigue siendo la misma historia que el padre. El no_sale de vara.py viene de items externos. No vi ni oi el audio."
+  }
+ ]
+}

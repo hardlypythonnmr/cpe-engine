@@ -1,0 +1,21 @@
+{
+ "slug": "10-pieces-of-advice-that-made-you-worse-ranked-by-cella",
+ "issue": 1058,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T12:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "95f6ab1ec20db35996320640871a6f0adc12b1bef0984ed5a2c1f47daae72499",
+ "hashes": {
+  "short": "cf5bef56e588d6a1b9784d560bb947da6d485288bd48e4c8f1bd62d709d8aeca"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6836135196,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-12T22:34:54Z"
+}

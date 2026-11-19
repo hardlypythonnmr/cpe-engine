@@ -1,0 +1,29 @@
+{
+ "nombre": "ig-6-15-nov-3",
+ "issue": 943,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "scrolling-in-bed-is-rest",
+  "were-a-family",
+  "what-are-you-doing-with-your-life",
+  "what-kind-of-friend-honestly",
+  "what-to-tell-yourself-new-habit",
+  "which-comparer-are-you"
+ ],
+ "comentario_vista_previa_id": 6647838806,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T02:17:55Z",
+ "aviso_utc": "2026-11-05T02:17:55Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T02:19:33Z",
+ "aprobadas": [
+  "scrolling-in-bed-is-rest",
+  "were-a-family",
+  "what-are-you-doing-with-your-life",
+  "what-kind-of-friend-honestly",
+  "what-to-tell-yourself-new-habit",
+  "which-comparer-are-you"
+ ],
+ "cerrada": true
+}

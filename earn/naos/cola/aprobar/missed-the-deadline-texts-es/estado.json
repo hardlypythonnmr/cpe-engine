@@ -1,0 +1,22 @@
+{
+ "slug": "missed-the-deadline-texts-es",
+ "issue": 1767,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T02:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9b6ba09fa9a25bda831c288cd64658ead8e49f30afb50ed84a4bf2a7064a94da",
+ "hashes": {
+  "carrusel": "eed9d46e20e2c539139c3ac82273c38c7ebfbcb1ad6496cbb7f350696c3d6aa9"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6953986678,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "es-19-20-nov",
+ "aprobado_evento_utc": "2026-11-17T16:48:14Z"
+}

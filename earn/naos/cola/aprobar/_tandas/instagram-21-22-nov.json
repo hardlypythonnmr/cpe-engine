@@ -1,0 +1,40 @@
+{
+ "nombre": "instagram-21-22-nov",
+ "issue": 963,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "tree-never-read-self-help",
+  "world-hello-day",
+  "which-group-chat-person",
+  "terms-of-being-my-friend",
+  "i-clapped-for-me",
+  "said-hello-first",
+  "sky-cried-in-public",
+  "tired-of-monday",
+  "choosing-what-to-watch",
+  "cella-reviews-sunday",
+  "dreading-monday-together",
+  "overthink-extremely-well"
+ ],
+ "comentario_vista_previa_id": 6886296616,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T20:01:50Z",
+ "aviso_utc": "2026-11-15T00:03:13Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z",
+ "aprobadas": [
+  "cella-reviews-sunday",
+  "choosing-what-to-watch",
+  "dreading-monday-together",
+  "i-clapped-for-me",
+  "overthink-extremely-well",
+  "said-hello-first",
+  "sky-cried-in-public",
+  "terms-of-being-my-friend",
+  "tired-of-monday",
+  "tree-never-read-self-help",
+  "which-group-chat-person",
+  "world-hello-day"
+ ]
+}

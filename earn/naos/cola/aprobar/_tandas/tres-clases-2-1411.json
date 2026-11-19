@@ -1,0 +1,40 @@
+{
+ "nombre": "tres-clases-2-1411",
+ "issue": 1293,
+ "version": 2,
+ "estado": "aprobado",
+ "piezas": [
+  "three-kinds-of-a-hard-stop",
+  "three-kinds-of-accepting-an-offer",
+  "three-kinds-of-correcting-someone",
+  "three-kinds-of-following-up",
+  "three-kinds-of-giving-directions",
+  "three-kinds-of-giving-feedback",
+  "three-kinds-of-hearing-an-idea",
+  "three-kinds-of-interrupting",
+  "three-kinds-of-not-knowing",
+  "three-kinds-of-sharing-chores",
+  "three-kinds-of-sharing-unfinished-work",
+  "three-kinds-of-telling-a-story"
+ ],
+ "comentario_vista_previa_id": 6886956209,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T05:27:17Z",
+ "aviso_utc": "2026-11-15T00:57:23Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:03Z",
+ "aprobadas": [
+  "three-kinds-of-a-hard-stop",
+  "three-kinds-of-accepting-an-offer",
+  "three-kinds-of-correcting-someone",
+  "three-kinds-of-following-up",
+  "three-kinds-of-giving-directions",
+  "three-kinds-of-giving-feedback",
+  "three-kinds-of-hearing-an-idea",
+  "three-kinds-of-interrupting",
+  "three-kinds-of-not-knowing",
+  "three-kinds-of-sharing-chores",
+  "three-kinds-of-sharing-unfinished-work",
+  "three-kinds-of-telling-a-story"
+ ]
+}

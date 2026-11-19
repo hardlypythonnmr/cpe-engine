@@ -1,0 +1,15 @@
+{
+ "nombre": "dd-2026-11-19",
+ "issue": 1804,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "dd-2026-11-19-hp-inc-expediente",
+  "dd-2026-11-19-starbucks-historia"
+ ],
+ "comentario_vista_previa_id": 7008411627,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-19T11:57:48Z",
+ "aviso_utc": "2026-11-19T11:57:52Z",
+ "aviso_canal": "github"
+}

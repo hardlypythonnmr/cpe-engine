@@ -1,0 +1,41 @@
+{
+ "slug": "quick-break-receipt",
+ "titulo": "Your “quick break,” itemized",
+ "clave": "2026-11-20|quick-break-receipt",
+ "sale_utc": "2026-11-20T21:35:00Z",
+ "caption": "Your “quick break,” itemized.\nSave the receipt for the next one.\nLink in bio.\nby NMR\n#procrastination #productivity #relatable",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "a white restaurant-style receipt on a red field listing the steps of a quick break, from checking the time to 52 minutes later; a red stamp reads PAID IN TIME. Receipt. Table: couch · Server: your thumb. Thank you. Come again. Open phone to check the time: 0:00. Reply to one message: 0:04. Watch “just one” video: 0:19. Read a stranger's argument: 0:31. Remember the task: 0:52. TOTAL: 52 min.",
+ "tipo_imagen": "F9 Recibo · procrastinar · vie 20-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "Recibo: el tiempo de un 'descanso rápido' como cuenta de restaurante. Prueba si un objeto con cifras chistosas gana guardados y envíos.",
+ "blanco": "trabajo",
+ "mecanica_crecimiento": "guardar · destinatario: whoever opened their phone to check the time",
+ "eco": "L-b · experimento: recibo",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

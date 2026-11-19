@@ -1,0 +1,24 @@
+{
+ "slug": "maha-mantra-seen-since-tuesday",
+ "issue": 1088,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T00:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "eda482f0d627da0b2a0f0ba4bc6766fd47f9451d6dab8d8d238d6ea6d9d44bdc",
+ "hashes": {
+  "short": "454b0223d092523104d37a66a726b8032132cb68b1cad49a0cec53b722d79f55",
+  "reel": "beb85f1f5377e5ad372b634ed7475a3e06a219988b227fba5c8730963196c21a"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6856392951,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "mantra-1921",
+ "aprobado_evento_utc": "2026-11-13T15:00:56Z"
+}

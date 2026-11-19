@@ -1,0 +1,31 @@
+{
+ "nombre": "dd-2026-11-16",
+ "issue": 1731,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "dd-2026-11-16-dropbox-tachon-q",
+  "dd-2026-11-16-dropbox-lamina",
+  "dd-2026-11-16-dropbox-expediente",
+  "dd-2026-11-16-dropbox-historia",
+  "dd-2026-11-16-dropbox-hist-numero",
+  "dd-2026-11-16-dropbox-hist-frase",
+  "dd-2026-11-16-dropbox-hist-video"
+ ],
+ "comentario_vista_previa_id": 6916579899,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-16T12:35:42Z",
+ "aviso_utc": "2026-11-16T12:35:46Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-16T12:36:46Z",
+ "aprobadas": [
+  "dd-2026-11-16-dropbox-expediente",
+  "dd-2026-11-16-dropbox-hist-frase",
+  "dd-2026-11-16-dropbox-hist-numero",
+  "dd-2026-11-16-dropbox-hist-video",
+  "dd-2026-11-16-dropbox-historia",
+  "dd-2026-11-16-dropbox-lamina",
+  "dd-2026-11-16-dropbox-tachon-q"
+ ],
+ "cerrada": true
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "apology-video-graded",
+ "issue": 976,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "906aba22aac2f85d331a75df5f235e2f732c00ae2a59d2e1cf80ec714c63d206",
+ "hashes": {
+  "short": "22fc2beee63cded1d5ae74f0a104ef4cd2d149bffe702db183440616d422e5a5"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6678371739,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "medios-15-25-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:49Z"
+}

@@ -1,0 +1,25 @@
+{
+ "nombre": "mantra-cm-1518",
+ "issue": 1082,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "maha-mantra-before-monday-inbox",
+  "om-mani-padme-hum-annoyed-at-you",
+  "no-worries-many-worries",
+  "just-checking-the-time"
+ ],
+ "comentario_vista_previa_id": 6855560662,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-13T14:17:55Z",
+ "aviso_utc": "2026-11-13T14:17:59Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-13T14:19:54Z",
+ "aprobadas": [
+  "just-checking-the-time",
+  "maha-mantra-before-monday-inbox",
+  "no-worries-many-worries",
+  "om-mani-padme-hum-annoyed-at-you"
+ ],
+ "cerrada": true
+}

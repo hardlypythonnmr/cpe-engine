@@ -1,0 +1,34 @@
+{
+ "nombre": "remezcla-21-27-nov",
+ "issue": 1774,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "wrong-room-rmx-color",
+  "wrong-room-rmx-encuadre",
+  "no-hands-we-bump-rmx-color",
+  "wrong-room-rmx-estilo",
+  "om-mani-padme-hum-rmx-inicio",
+  "no-hands-we-bump-rmx-orden",
+  "no-hands-we-bump-rmx-texto",
+  "om-mani-padme-hum-rmx-color",
+  "om-mani-padme-hum-rmx-orden"
+ ],
+ "comentario_vista_previa_id": 6956599879,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T18:05:57Z",
+ "aviso_utc": "2026-11-17T18:06:01Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-17T18:55:10Z",
+ "aprobadas": [
+  "no-hands-we-bump-rmx-color",
+  "no-hands-we-bump-rmx-orden",
+  "no-hands-we-bump-rmx-texto",
+  "om-mani-padme-hum-rmx-color",
+  "om-mani-padme-hum-rmx-inicio",
+  "om-mani-padme-hum-rmx-orden",
+  "wrong-room-rmx-color",
+  "wrong-room-rmx-encuadre",
+  "wrong-room-rmx-estilo"
+ ]
+}

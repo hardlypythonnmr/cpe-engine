@@ -1,0 +1,29 @@
+{
+ "nombre": "gta-vi-13-14-nov",
+ "issue": 968,
+ "version": 1,
+ "estado": "caducado",
+ "piezas": [
+  "partner-doesnt-get-it",
+  "partner-doesnt-get-it-yt",
+  "lore-guy-reads-your-k",
+  "lore-guy-reads-your-k-yt",
+  "two-hours-on-eyebrows",
+  "two-hours-on-eyebrows-yt"
+ ],
+ "comentario_vista_previa_id": 6670245099,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T21:40:05Z",
+ "aviso_utc": "2026-11-05T21:40:10Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T01:10:56Z",
+ "aprobadas": [
+  "lore-guy-reads-your-k",
+  "lore-guy-reads-your-k-yt",
+  "partner-doesnt-get-it",
+  "partner-doesnt-get-it-yt",
+  "two-hours-on-eyebrows",
+  "two-hours-on-eyebrows-yt"
+ ],
+ "cerrada": true
+}

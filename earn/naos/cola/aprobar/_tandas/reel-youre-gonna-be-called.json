@@ -1,0 +1,19 @@
+{
+ "nombre": "reel-youre-gonna-be-called",
+ "issue": 964,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "youre-gonna-be-called"
+ ],
+ "comentario_vista_previa_id": 6668452712,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T20:26:14Z",
+ "aviso_utc": "2026-11-05T20:26:18Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-05T20:42:51Z",
+ "aprobadas": [
+  "youre-gonna-be-called"
+ ],
+ "cerrada": true
+}

@@ -1,0 +1,36 @@
+{
+  "_nota": "Fijados que piden tema a la audiencia (apuesta D1, 13-nov). Apagado por defecto: con activo=false el fijado de la pieza sale tal cual. Para encenderlo, activo=true y revisar la fraccion por marca. El detalle y los choques con fijados que hoy funcionan estan en empresa/evolucion/2026-11-13-paralelo/evolucion/pedidos/PROPUESTA.md.",
+  "activo": false,
+  "marcas": {
+    "naos": {
+      "fraccion": 0.2,
+      "solo_sin_fijado": true,
+      "excluir_patron": "(^|[-_ ])(song|lamp|mantra|om-|maha|moon|luna|grief|duelo|loss|helpline|etereo|inv-)|cella answers",
+      "variantes": [
+        "What should I try next? One behavior, a few words. I read every one.",
+        "Which behavior should the house try next? Name the moment, a few words. I keep a list.",
+        "Is there a moment from your day I haven't lived yet? Name it and I might try it next.",
+        "Next behavior is your pick. A moment from your day, a few words. If it goes up, I'll say so here.",
+        "Kitchen, bedroom or stairs? Pick a room and a moment, and I'll try it next.",
+        "requests on file: zero, so what should I try next? one behavior, a few words.",
+        "I did this one. Which should I do next? Reply with a moment and I'll file it in drawer 3.",
+        "Name one small moment you want to watch me live through. I keep every one and say when it's made."
+      ]
+    },
+    "dd": {
+      "fraccion": 0.34,
+      "solo_sin_fijado": true,
+      "excluir_patron": "sensible|suicid|death|died|lawsuit-victim",
+      "variantes": [
+        "Which company statement should we run the math on next? Quote the exact line, no link needed.",
+        "Which company statement should we run the math on next? Name the company and quote the line. We'll pull the filing.",
+        "A corporate line that sounds bigger than its number? Quote it and we'll divide it.",
+        "Next on the spreadsheet: whose statement? Name the company and the sentence. We keep the list.",
+        "Which number in a company announcement would you cut first? Quote that statement and we may run it next.",
+        "We only run the math on public statements. Which one next? Company, quote, one line.",
+        "Requests open: one company, one official sentence. If we run it, we'll tell you here.",
+        "Which company line deserves a calculator next? Name the company and quote the sentence."
+      ]
+    }
+  }
+}

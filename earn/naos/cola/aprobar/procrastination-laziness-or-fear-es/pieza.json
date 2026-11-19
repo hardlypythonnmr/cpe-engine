@@ -1,0 +1,72 @@
+{
+ "slug": "procrastination-laziness-or-fear-es",
+ "titulo": "¿Procrastinar es pereza o miedo?",
+ "clave": "2026-11-20|procrastination-laziness-or-fear-es",
+ "sale_utc": "2026-11-20T23:40:00Z",
+ "caption": "¿Procrastinar es pereza o miedo?\nCella dice miedo. Escribir el correo es fácil. Lo que asusta es la respuesta.\nLink en la bio.\nby NMR\n#procrastinacion #productividad #psicologia",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "imagen dividida: PEREZA en lila con un calendario lleno de signos de pregunta, MIEDO en azul oscuro con Cella con corona bajo un reflector. Procrastinar es. Izquierda: Pereza. Derecha: Miedo. Elige un bando.",
+ "tipo_imagen": "F4 Elige · procrastinar · vie 20-nov · es",
+ "seccion": "humanity",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "trabajo",
+ "mecanica_crecimiento": "comentar · destinatario: quien tiene un correo en borradores desde el lunes",
+ "idioma": "es",
+ "gemela_de": "procrastination-laziness-or-fear",
+ "tanda": "es (D-528), gemela de procrastination-laziness-or-fear",
+ "tema_seo": "procrastinar",
+ "revisiones": [
+  {
+   "que": "Forma",
+   "estado": "OK",
+   "nota": "mismas láminas, mismo dibujo, solo cambian las palabras"
+  },
+  {
+   "que": "Raya larga",
+   "estado": "OK",
+   "nota": "sin raya larga ni media"
+  },
+  {
+   "que": "Cifras",
+   "estado": "OK",
+   "nota": "las cifras de la original están iguales en la gemela"
+  },
+  {
+   "que": "SEO en español",
+   "estado": "OK",
+   "nota": "#procrastinacion #productividad #psicologia (tema procrastinar, vocabulario propio)"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "19 palabras de cuerpo (50 o menos, D-358)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "las de la original (respeto.md, D-359, D-527): mismo blanco, mismo dibujo; escrita con tú, español neutro latino (D-528)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "sin enlaces en la pieza"
+  },
+  {
+   "que": "Largo de línea",
+   "estado": "OK",
+   "nota": "sin desborde; letra a 85 % o más de la original y de 46 px o más en contenido"
+  },
+  {
+   "que": "Acentos y eñe",
+   "estado": "OK",
+   "nota": "todas las letras están en las fuentes de G3"
+  }
+ ]
+}

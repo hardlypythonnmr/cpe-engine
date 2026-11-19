@@ -1,0 +1,25 @@
+{
+ "nombre": "cella-contesta-9-12",
+ "issue": 913,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "cella-contesta-all-day",
+  "cella-contesta-emojis",
+  "cella-contesta-who-lives-here",
+  "cella-contesta-small-thing"
+ ],
+ "comentario_vista_previa_id": 6611233251,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T17:43:30Z",
+ "aviso_utc": "2026-11-03T17:43:48Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:26:56Z",
+ "aprobadas": [
+  "cella-contesta-all-day",
+  "cella-contesta-emojis",
+  "cella-contesta-small-thing",
+  "cella-contesta-who-lives-here"
+ ],
+ "cerrada": true
+}

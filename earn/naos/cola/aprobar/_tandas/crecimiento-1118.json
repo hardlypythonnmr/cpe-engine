@@ -1,0 +1,20 @@
+{
+ "nombre": "crecimiento-1118",
+ "issue": 1795,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "before-6-am-by-cella",
+  "before-6-am-by-cella-control"
+ ],
+ "comentario_vista_previa_id": 6988526316,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-18T19:00:36Z",
+ "aviso_utc": "2026-11-18T19:00:46Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-18T19:03:43Z",
+ "aprobadas": [
+  "before-6-am-by-cella",
+  "before-6-am-by-cella-control"
+ ]
+}

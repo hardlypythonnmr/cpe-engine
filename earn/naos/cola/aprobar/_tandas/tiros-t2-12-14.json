@@ -1,0 +1,23 @@
+{
+ "nombre": "tiros-t2-12-14",
+ "issue": 915,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "el-que-toca",
+  "rutina-5am",
+  "on-my-way-live"
+ ],
+ "comentario_vista_previa_id": 6611556173,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-03T17:58:59Z",
+ "aviso_utc": "2026-11-03T17:59:40Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-03T18:20:52Z",
+ "aprobadas": [
+  "el-que-toca",
+  "on-my-way-live",
+  "rutina-5am"
+ ],
+ "cerrada": true
+}

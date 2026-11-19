@@ -1,0 +1,21 @@
+{
+ "slug": "text-me-home",
+ "issue": 962,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ae73d4b1e8aa42fffa35af347aa151d7091de044a6bdc1177ea303e2a27a21d8",
+ "hashes": {
+  "historia": "7cc37fd55bf01c142969ef13a8000f80c45f105ab324a7726097a207e5ce7348"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6667934536,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-19-20-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:59Z"
+}

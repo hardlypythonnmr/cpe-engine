@@ -1,0 +1,22 @@
+{
+ "slug": "say-these-before-you-fall-asleep",
+ "issue": 1751,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T05:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "1df24c9c176f91db3b0a2830d10b446142a1bd1531e65e39e9d8726810013aac",
+ "hashes": {
+  "carrusel": "fb374003b539481595f4b650179f61329889df1f028307a71754d249cf4a740c"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6946949877,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "she-will-not-ask",
+ "issue": 1771,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T21:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b1cce057f085465f3affcccaefa3992b1957857b80f7922d46f01a22cc73c4ef",
+ "hashes": {
+  "short": "1642e9481cc6668f5a072154b98dd05a72b708d19e8158fd6ea3859ba3117f83"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6956055062,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1921",
+ "aprobado_evento_utc": "2026-11-17T18:55:09Z"
+}

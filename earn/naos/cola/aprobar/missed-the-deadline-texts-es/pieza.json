@@ -1,0 +1,86 @@
+{
+ "slug": "missed-the-deadline-texts-es",
+ "titulo": "¿Se te pasó la fecha? 4 mensajes que no mienten",
+ "clave": "2026-11-21|missed-the-deadline-texts-es",
+ "sale_utc": "2026-11-21T02:45:00Z",
+ "caption": "¿Se te pasó la fecha de entrega? Cuatro mensajes que no mienten.\nCada uno da una fecha nueva. El silencio nunca.\nLink en la bio.\nby NMR\n#productividad #vidadeoficina #procrastinacion",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "Cella bajo un reflector junto a un gran reloj amarillo. Guárdalo · 4 mensajes si vas tarde. ¿Se te pasó la fecha? 4 mensajes que no mienten. Cortos, honestos y con fecha nueva.",
+  "2": "una burbuja de chat con el mensaje y una Cella pequeña en la esquina. Antes de la fecha. No llego el viernes. Lo tienes el lunes a mediodía. Cuando ya ves que no llegas. Por qué funciona: una fecha nueva le gana al silencio.",
+  "3": "una burbuja de chat con el mensaje y una Cella pequeña en la esquina. Después de la fecha. Se me pasó, y es culpa mía. Mañana a las 10 lo tienes. Cuando ya es tarde. Por qué funciona: cero excusas, solo una hora.",
+  "4": "una burbuja de chat con el mensaje y una Cella pequeña en la esquina. Creció. Esto es más grande de lo que calculé. ¿Mitad hoy y mitad el jueves? Cuando la tarea era más grande de lo que creías. Por qué funciona: entregas algo ya.",
+  "5": "una burbuja de chat con el mensaje y una Cella pequeña en la esquina. Te trabaste. Me trabé en la primera parte. ¿Me das 10 minutos? Cuando no sabes por dónde empezar. Por qué funciona: pedir ayuda temprano cuesta menos que esconderse.",
+  "6": "los cuatro mensajes en lista. La lista corta. Tarde, pero de frente: Guárdalo. Vas a necesitar uno antes del viernes. 1. Lunes a mediodía. 2. Culpa mía. Mañana a las 10. 3. Mitad hoy, mitad el jueves. 4. Trabado. ¿10 minutos?"
+ },
+ "tipo_carrusel": "F1 Guion · procrastinar · vie 20-nov · es",
+ "seccion": "humanity",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "trabajo",
+ "mecanica_crecimiento": "guardar · destinatario: quien tiene una entrega encima y la carpeta de borradores llena",
+ "idioma": "es",
+ "gemela_de": "missed-the-deadline-texts",
+ "tanda": "es (D-528), gemela de missed-the-deadline-texts",
+ "tema_seo": "procrastinar",
+ "revisiones": [
+  {
+   "que": "Forma",
+   "estado": "OK",
+   "nota": "mismas láminas, mismo dibujo, solo cambian las palabras"
+  },
+  {
+   "que": "Raya larga",
+   "estado": "OK",
+   "nota": "sin raya larga ni media"
+  },
+  {
+   "que": "Cifras",
+   "estado": "OK",
+   "nota": "las cifras de la original están iguales en la gemela"
+  },
+  {
+   "que": "SEO en español",
+   "estado": "OK",
+   "nota": "#productividad #vidadeoficina #procrastinacion (tema procrastinar, vocabulario propio)"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "21 palabras de cuerpo (50 o menos, D-358)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "las de la original (respeto.md, D-359, D-527): mismo blanco, mismo dibujo; escrita con tú, español neutro latino (D-528)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "sin enlaces en la pieza"
+  },
+  {
+   "que": "Largo de línea",
+   "estado": "OK",
+   "nota": "sin desborde; letra a 85 % o más de la original y de 46 px o más en contenido"
+  },
+  {
+   "que": "Acentos y eñe",
+   "estado": "OK",
+   "nota": "todas las letras están en las fuentes de G3"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "nombre": "shorts-20-23-nov",
+ "issue": 966,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "manifesting-or-avoiding",
+  "spot-the-difference",
+  "plant-person",
+  "walk-no-podcast",
+  "plan-vs-reality",
+  "planner-in-november",
+  "quick-check-47",
+  "breaking-cella",
+  "thankful-for-me",
+  "full-tomorrow"
+ ],
+ "comentario_vista_previa_id": 6668681010,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-05T20:37:00Z",
+ "aviso_utc": "2026-11-05T20:37:04Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-06T01:10:21Z",
+ "aprobadas": [
+  "breaking-cella",
+  "full-tomorrow",
+  "manifesting-or-avoiding",
+  "plan-vs-reality",
+  "planner-in-november",
+  "plant-person",
+  "quick-check-47",
+  "spot-the-difference",
+  "thankful-for-me",
+  "walk-no-podcast"
+ ]
+}

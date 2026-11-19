@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-20-nvidia-tachon-q-rmx-tinta",
+ "issue": 1777,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-20T17:30:00Z",
+ "datos_utc": "2026-11-12T21:00:00Z",
+ "hash_contenido": "888b3a989da7532d8a16dd7197685100acd1178a2d317fcc4ea13d2a1bd98009",
+ "hashes": {
+  "short": "5bd85d06abfb9fad5deecfc8dcea1d0e96ada89e2e787c668fb7967267ea1201",
+  "reel": "c9703eccebff24cb17ce879525f32cfc5edfa4a8ba61f952401092b9f92510ff"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6956719538,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-remezcla-nvidia",
+ "aprobado_evento_utc": "2026-11-17T18:55:11Z"
+}

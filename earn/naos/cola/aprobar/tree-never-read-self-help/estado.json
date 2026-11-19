@@ -1,0 +1,23 @@
+{
+ "slug": "tree-never-read-self-help",
+ "issue": 963,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T03:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cb3cb408a876c67fc90754acf9d7a857536f1680c2ef61151992e15e6a0f5ed0",
+ "hashes": {
+  "reel": "877d624c9baadc9fe060eb027a2adaace116574c45df22c63f7b5e0eec3cf275"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6886291058,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-21-22-nov",
+ "caducado_utc": "2026-11-15T00:02:42Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T00:04:27Z"
+}

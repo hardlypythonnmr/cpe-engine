@@ -1,0 +1,89 @@
+{
+ "slug": "dd-2026-11-19-gap-expediente",
+ "titulo": "Gap (Apr 2023): $222 million in dividends, about 1,800 jobs planned cuts. The math.",
+ "clave": "2026-11-19|mercury|expediente|2026-11-19-gap-expediente",
+ "sale_utc": "2026-11-19T21:00:00Z",
+ "caption": "From the archive: Apr 2023. Not today's news.\nGap, Apr 27, 2023 (The Gap, Inc., Form 8-K): \"to further simplify and optimize its operating model and structure\"\nGap said in an SEC filing on April 27, 2023 that it planned to reduce its headquarters and upper field workforce by approximately 1,800 employees. The dividend figure is from its Form 10-K.\n\nSame fiscal year: $222 million in dividends, fiscal 2023, company-wide. $222 million of dividends declared and paid in fiscal 2023, company-wide (Form 10-K, table in millions).\nThe math: $222 million in dividends (2023) ÷ about 1,800 job cuts = about $123,333 in dividends per planned job cut.\nThis is a ratio, not a payment and not a cause: the dividends paid divided by the job count. The $222 million is the dividends Gap declared and paid in fiscal 2023 (February 2023 to February 2024), company-wide; it is not buybacks. The 1,800 are headquarters and upper field employees, not the whole company. We are not saying one paid for the other.\n\nSimplified and optimized. Here is the dividend column. (Our take.)\n\nFor someone whose company once set out to simplify and optimize.\n\nSources: SEC EDGAR · Gap Inc., Apr 27, 2023; SEC EDGAR · Gap Inc., Mar 19, 2024.\n\nSwipe: the sentence, the number, the math, our take.\n\nLink in bio.",
+ "descripcion": "From the archive: Apr 2023. Not today's news.\nGap, Apr 27, 2023 (The Gap, Inc., Form 8-K): \"to further simplify and optimize its operating model and structure\"\nGap said in an SEC filing on April 27, 2023 that it planned to reduce its headquarters and upper field workforce by approximately 1,800 employees. The dividend figure is from its Form 10-K.\n\nSame fiscal year: $222 million in dividends, fiscal 2023, company-wide. $222 million of dividends declared and paid in fiscal 2023, company-wide (Form 10-K, table in millions).\nThe math: $222 million in dividends (2023) ÷ about 1,800 job cuts = about $123,333 in dividends per planned job cut.\nThis is a ratio, not a payment and not a cause: the dividends paid divided by the job count. The $222 million is the dividends Gap declared and paid in fiscal 2023 (February 2023 to February 2024), company-wide; it is not buybacks. The 1,800 are headquarters and upper field employees, not the whole company. We are not saying one paid for the other.\n\nSimplified and optimized. Here is the dividend column. (Our take.)\n\nSources:\n- SEC EDGAR · Gap Inc., Apr 27, 2023: «the Company announced it planned to take actions to further simplify and optimize its operating model and structure» and «a reduction of the Company's headquarters and upper field workforce by approximately 1,800 employees» https://www.sec.gov/Archives/edgar/data/39911/000003991123000026/gps-20230425.htm\n- SEC EDGAR · Gap Inc., Mar 19, 2024: «Common stock dividends declared and paid ($ 0.60 per share) ( 222 ) ( 222 )» https://www.sec.gov/Archives/edgar/data/39911/000003991124000066/gps-20240203.htm",
+ "alt": "Five paper-colored cards. 1: Gap, Apr 27, 2023, the quote \"to further simplify and optimize its operating model and structure\" struck through in dark red, and the words Then the math. 2: the full sentence with its context and source. 3: the number, $222 million in dividends, fiscal 2023, company-wide. 4: the division, ending in $123,333 in dividends, per planned job cut, on a yellow highlight. 5: our take: \"Simplified and optimized. Here is the dividend column.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "expediente",
+ "formato": "carrusel",
+ "origen": "c2/linea/biblioteca/bib3-gap-2023-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991123000026/gps-20230425.htm",
+   "medio": "SEC EDGAR · Gap Inc.",
+   "titulo": "The Gap, Inc. Form 8-K, item 2.05",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/39911/000003991124000066/gps-20240203.htm",
+   "medio": "SEC EDGAR · Gap Inc.",
+   "titulo": "The Gap, Inc. Form 10-K for fiscal 2023",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "tipo": "carrusel",
+ "lado": "empleado",
+ "tema": "Gap (Apr 2023): plans to cut about 1,800 jobs, in dividends per job cut",
+ "banco_archivo": {
+  "caso": "gap-2023-layoffs",
+  "rotulo_fecha": "ARCHIVE · APR 2023",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/gap-2023-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-gap-2023-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-gap-2023-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "A son dividendos (no recompras) y así se rotula; B es solo sede y campo superior, y la pantalla lo dice; frase de formulario, no de una persona."
+  ]
+ }
+}

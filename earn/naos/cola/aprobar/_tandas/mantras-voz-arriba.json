@@ -1,0 +1,19 @@
+{
+ "nombre": "mantras-voz-arriba",
+ "issue": 1046,
+ "version": 1,
+ "estado": "publicado",
+ "piezas": [
+  "om-mani-padme-hum-flowers-wave",
+  "om-mani-padme-hum-stop-replaying-today"
+ ],
+ "comentario_vista_previa_id": 6832072761,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-12T18:16:55Z",
+ "aprobado_evento_utc": "2026-11-12T20:20:35Z",
+ "aprobadas": [
+  "om-mani-padme-hum-flowers-wave",
+  "om-mani-padme-hum-stop-replaying-today"
+ ],
+ "cerrada": true
+}

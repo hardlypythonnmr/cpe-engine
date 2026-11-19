@@ -1,0 +1,31 @@
+{
+ "nombre": "dd-2026-11-19-crecimiento",
+ "issue": 1783,
+ "version": 1,
+ "estado": "aprobado",
+ "piezas": [
+  "dd-2026-11-19-five-below-2026-pay-ratio-reloj",
+  "dd-2026-11-19-starbucks-2024-pay-ratio-adivina",
+  "dd-2026-11-19-roku-2021-record-and-cuts-buscar",
+  "dd-2026-11-20-coca-cola-2024-pay-ratio-reloj",
+  "dd-2026-11-20-wayfair-2022-q2-workforce-cut-buscar",
+  "dd-2026-11-21-coca-cola-2020-buyouts-adivina"
+ ],
+ "comentario_vista_previa_id": 6957644265,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-17T18:49:46Z",
+ "agente": true,
+ "aviso_utc": "2026-11-17T18:49:49Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-17T18:49:52Z",
+ "veto_hasta_utc": "2026-11-17T19:49:52Z",
+ "aprobadas": [
+  "dd-2026-11-19-five-below-2026-pay-ratio-reloj",
+  "dd-2026-11-19-roku-2021-record-and-cuts-buscar",
+  "dd-2026-11-19-starbucks-2024-pay-ratio-adivina",
+  "dd-2026-11-20-coca-cola-2024-pay-ratio-reloj",
+  "dd-2026-11-20-wayfair-2022-q2-workforce-cut-buscar",
+  "dd-2026-11-21-coca-cola-2020-buyouts-adivina"
+ ]
+}

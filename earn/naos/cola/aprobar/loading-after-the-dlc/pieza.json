@@ -1,0 +1,64 @@
+{
+ "slug": "loading-after-the-dlc",
+ "titulo": "Loading... after the GTA 6 DLC",
+ "clave": "2026-11-20|serie-gta-g25",
+ "sale_utc": "2026-11-20T23:41:00Z",
+ "caption": "Loading... after the GTA 6 DLC\n\nNew bar, same wait.\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#GTA6 #GTAVI #selfknowledge #naos",
+ "descripcion": "New bar, same wait.\n\nHedonic treadmill: lottery winners were not happier than controls and took less pleasure in mundane events, as adaptation-level theory predicts (Brickman, Coates & Janoff-Bulman, 1978, JPSP, PMID 690806; 22 winners and 22 controls).\n\nNAOS · Closer to yourself. by NMR\n#GTA6 #GTAVI #selfknowledge",
+ "sintetico": false,
+ "alt": "A short film with no voice. The loading screen again: the bar starts at 0 percent and climbs to 99, with the year 2026 on top and LOADING... AGAIN, calculating. The year jumps to 2031 and the estimate says after the DLC. A yellow figure with white eyes and no hands looks to the camera with narrowed eyes and a card says: Or today.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "comentario_fijado": "What is the next 'after' you're waiting for?",
+ "casa": {
+  "id": "g25-after-the-dlc",
+  "kit": "empresa/series/kit-mundo-abierto"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, game-UI labels plus the closing line"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.8 dBFS, LRA 1.7 LU; own music (motor/sonido midi, room patio-noche, mood nostalgia) and synthesized effects, no third-party samples; audio runs the full length"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band and 40 px side margins, nothing under 28 px, the joke line at 44 px or more, frame 0 readable without sound"
+  },
+  {
+   "que": "Kit",
+   "estado": "OK",
+   "nota": "Drawn with the generic open-world kit (empresa/series/kit-mundo-abierto): no logo, typeface, characters, places or images of any game; the game is named only in the title and hashtags (D-374)."
+  },
+  {
+   "que": "Source",
+   "estado": "OK",
+   "nota": "checked against the original record: https://pubmed.ncbi.nlm.nih.gov/690806/"
+  }
+ ],
+ "tipo": "MEME",
+ "filo": "V",
+ "tema": "la meta que se corre",
+ "blanco": "quien siempre tiene otra meta (quien mira)",
+ "destinatario": "the friend with a new 'after' every year",
+ "cara": "A",
+ "experimento": false,
+ "serie": "gta-vi",
+ "pieza_serie": "G25",
+ "fuentes": [
+  "https://pubmed.ncbi.nlm.nih.gov/690806/"
+ ],
+ "tanda": "serie-gta-vi-15-20-nov (D-374, D-359, D-360, D-362, D-363)"
+}

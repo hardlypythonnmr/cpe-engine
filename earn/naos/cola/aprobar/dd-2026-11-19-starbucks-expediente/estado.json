@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-starbucks-expediente",
+ "issue": 1803,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T22:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "f7b18c2214d1e7d49c3f148d670225d17e5046468c7028510f6c721367b54610",
+ "hashes": {
+  "carrusel": "ff7c2b856af78a85607ed3dc18388f327dec94a44f55c55275981110f0b99cdd"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7008391834,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:57:13Z",
+ "veto_hasta_utc": "2026-11-19T12:57:13Z"
+}

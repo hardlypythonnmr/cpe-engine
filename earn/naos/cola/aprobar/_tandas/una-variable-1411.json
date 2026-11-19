@@ -1,0 +1,40 @@
+{
+ "nombre": "una-variable-1411",
+ "issue": 1262,
+ "version": 3,
+ "estado": "aprobado",
+ "piezas": [
+  "tea-waits-for-you",
+  "tea-cant-wait",
+  "phone-down-first-me",
+  "phone-down-first-them",
+  "bye-then-walk",
+  "walk-then-bye",
+  "just-got-here",
+  "early-worth-the-wait",
+  "asked-once-fine",
+  "asked-twice-really",
+  "i-wipe-their-table",
+  "they-wipe-the-table"
+ ],
+ "comentario_vista_previa_id": 6886965693,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-14T03:51:56Z",
+ "aviso_utc": "2026-11-15T00:58:13Z",
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-15T01:02:12Z",
+ "aprobadas": [
+  "asked-once-fine",
+  "asked-twice-really",
+  "bye-then-walk",
+  "early-worth-the-wait",
+  "i-wipe-their-table",
+  "just-got-here",
+  "phone-down-first-me",
+  "phone-down-first-them",
+  "tea-cant-wait",
+  "tea-waits-for-you",
+  "they-wipe-the-table",
+  "walk-then-bye"
+ ]
+}

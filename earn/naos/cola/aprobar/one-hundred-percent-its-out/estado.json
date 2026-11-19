@@ -1,0 +1,23 @@
+{
+ "slug": "one-hundred-percent-its-out",
+ "issue": 970,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-19T05:07:00Z",
+ "datos_utc": "",
+ "hash_contenido": "34b38a2f17128acd1d7d9344a7c81dc80eb4a1bcd70ce2fe7464f2e8ebb6703a",
+ "hashes": {
+  "short": "fd91d751fca47ddaf42a4afc5de19cd9cfc103d40d797063e8cc0a78e5f15eb5",
+  "reel": "b7e0b7e6749b9e2c01504afef7144b366167a454e73a377c7b20ea3353f20ccb"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6670868089,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "gta-vi-18-20-nov",
+ "aprobado_evento_utc": "2026-11-06T01:03:44Z"
+}

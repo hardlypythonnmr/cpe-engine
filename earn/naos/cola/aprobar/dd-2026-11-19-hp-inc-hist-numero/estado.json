@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-hp-inc-hist-numero",
+ "issue": 1802,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T20:15:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "e5d54e0728506e7afd69602aba58c909f9a493ca4a8bb97a7bf2b2a4dbabf9da",
+ "hashes": {
+  "historia": "1fde75e70b8a4b67c09926c91b100252a79bc1a733b610bdf1668fdf88b26b41"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7008369988,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:56:19Z",
+ "veto_hasta_utc": "2026-11-19T12:56:19Z"
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "she-checked-nothing-came",
+ "titulo": "2:47 AM. She checked. Nothing came.",
+ "clave": "2026-11-21|she-checked-nothing-came",
+ "sale_utc": "2026-11-21T07:47:00Z",
+ "caption": "2:47 AM. She checked. Nothing came.\n\n2:47 AM. Nothing came. She looked gorgeous checking, at least.\n\nCloser to yourself.\n\nMore of this: link in bio.\n\n#naos #cella #shorts",
+ "descripcion": "2:47 AM. Nothing came. She looked gorgeous checking, at least.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A dark bedroom with a bed and a phone. A yellow block figure with white eyes and a flat red crown, awake, looks at the phone as its screen lights up, leans toward it, then settles with closed eyes; the phone lights up again and the film ends exactly as it began. White subtitles at the bottom read: 2:47 AM. She checked. Nothing came. She will check again. 2:47 AM.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "she-checked-nothing-came",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "9.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.1 LUFS, true peak -1.0 dBFS, LRA 3.3 LU; own music (motor/sonido midi, room alcoba-noche, mood calma, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Crítico",
+   "estado": "OK",
+   "nota": "naos-arte-critico 17-nov: Fix aplicado (subtitulos en el cielo vacio, lejos de Cella y la cama; telefono encendido desde el cuadro 0 y en el ultimo, con resplandor, para cerrar el bucle)"
+  }
+ ],
+ "filo": "V",
+ "tema": "mirar el telefono de madrugada",
+ "blanco": "Cella",
+ "destinatario": "whoever checks the phone in the middle of the night",
+ "cara": "A",
+ "tipo": "CM",
+ "variante": "bucle",
+ "experimento": true,
+ "junta": "crecimiento",
+ "apuesta": "the-loop",
+ "experimento_prueba": "bucle cerrado y narrador seco en tercera persona contra CM con remate abierto; porcentaje visto y vistas en YouTube a 24, 48 y 72 h",
+ "tanda": "crecimiento-1921",
+ "mecanica_crecimiento": "bucle",
+ "receta": "CM bucle",
+ "tanda_origen": "crecimiento-1921",
+ "modo": "Cella con música"
+}

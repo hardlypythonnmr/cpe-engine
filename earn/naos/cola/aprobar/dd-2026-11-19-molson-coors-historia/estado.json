@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-19-molson-coors-historia",
+ "issue": 1802,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-19T23:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "c55ac616435b558ba61f4a6c4243edc6e8ef996ce48e73762a47aa43446acfae",
+ "hashes": {
+  "historia": "3ce43f0efffd81c0649639f768addd42a29ca0c75c6474eb08aec35a6207a018"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7008375590,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-19-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-19T11:56:19Z",
+ "veto_hasta_utc": "2026-11-19T12:56:19Z"
+}

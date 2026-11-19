@@ -1,0 +1,22 @@
+{
+ "slug": "dedicated-to-the-11-minute-voice-note",
+ "issue": 1771,
+ "version": 1,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-21T22:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e2bc69601b34e20863c1502346d8372c66e69c7a2e9f0233eb668a4dbeb6179d",
+ "hashes": {
+  "short": "d25df7dfdc189683484abf86ac92c664347947c5f13fe28c81a425a2f2601429"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6956054174,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1921",
+ "aprobado_evento_utc": "2026-11-17T18:55:09Z"
+}
