@@ -9,6 +9,9 @@ import accion_reel  # noqa: E402
 import audio_vivo  # noqa: E402
 
 
+ig.BANCO = os.path.join(tempfile.mkdtemp(), "sin-banco.json")  # las pruebas no leen el banco real del repo
+
+
 def err():
     return ig.ErrorMeta(400, 100, 0, "OAuthException", "no", "x")
 
@@ -279,14 +282,15 @@ class Banco(unittest.TestCase):
                               {"audio_id": 2, "duration_in_ms": 30000, "download_url": "voz"},
                               {"audio_id": 3, "duration_in_ms": 9000, "download_url": "corto"},
                               {"audio_id": 4, "duration_in_ms": 30000, "download_url": "p4", "ig_username": "Politico"}],
-                    "Thriller": [{"audio_id": 5, "duration_in_ms": 30000, "download_url": "t5"}]}
+                    "Thriller": [{"audio_id": 5, "duration_in_ms": 30000, "download_url": "t5"}],
+                    "drill": [{"audio_id": 6, "duration_in_ms": 30000, "download_url": "t6"}]}
             return {"audio": base.get(q, [])}
-        medidas = {"t1": med(0.5, 120), "voz": med(voz=True), "t5": med(0.7, 160)}
-        b = banco_audio.armar({"generos": ["phonk"], "rastreadores": ["x"]}, ["@politico"], llamar, medidas.get,
+        medidas = {"t1": med(0.5, 120), "voz": med(voz=True), "t5": med(0.7, 160), "t6": med(0.99, 175)}
+        b = banco_audio.armar({"generos": ["phonk", "drill"], "rastreadores": ["x"]}, ["@politico"], llamar, medidas.get,
                               bajar=lambda u: "<h2>1. Thriller – MJ</h2>", ahora=self.HOY)
-        self.assertEqual([s["audio_id"] for s in b["sonidos"]], ["1", "5"])  # tendencia antes que el de más golpe
-        self.assertEqual([s["fuente"] for s in b["sonidos"]], ["tendencia", "rastreador"])
-        self.assertEqual((b["candidatos"], b["medidos"], b["pasan"], b["nombres_rastreadores"]), (3, 3, 2, ["Thriller"]))
+        self.assertEqual([s["audio_id"] for s in b["sonidos"]], ["5", "1", "6"])  # popular primero, luego por golpe
+        self.assertEqual([s["fuente"] for s in b["sonidos"]], ["rastreador", "tendencia", "consulta"])
+        self.assertEqual((b["candidatos"], b["medidos"], b["pasan"], b["nombres_rastreadores"]), (4, 4, 3, ["Thriller"]))
         self.assertEqual(b["sonidos"][0]["busqueda"], "Thriller")
 
 
