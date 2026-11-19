@@ -1,0 +1,55 @@
+# dd-audio: solo lee. Piloto de audio en tendencia de DD (N 19-nov: «Piloto medido (Rec.)»), paso 1.
+# Consulta la Instagram Audio API (GET /ig_audio, changelog de Meta del 1-jun-2026) con el token de DD (Facebook Login):
+# lo que está en tendencia (sin búsqueda) y una búsqueda, para música y para sonido original. Imprime cuántos devuelve y
+# los campos de los primeros. No adjunta, no publica, no escribe nada ni hace commit.
+name: dd-audio
+on:
+  workflow_dispatch:
+    inputs:
+      buscar:
+        description: "texto de búsqueda para la segunda consulta"
+        required: false
+        default: "money"
+permissions:
+  contents: read
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/aprobar/registro.py
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/nombres_dd.py
+      - name: Audio de la Audio API (solo lectura)
+        env:
+          MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
+          BUSCAR: ${{ inputs.buscar }}
+        working-directory: earn/naos/motor/instagram
+        run: |
+          python3 - <<'PY'
+          import json, os, ig
+          ig.usar_marca("mercury")
+          uid = os.environ["MERCURY_INSTAGRAM_USER_ID"]
+          for tipo in ("music", "original_sound"):
+              for q in ("", os.environ.get("BUSCAR") or ""):
+                  params = {"audio_type": tipo, "user_id": uid}
+                  if q:
+                      params["search_query"] = q
+                  try:
+                      d = ig.llamar_crudo("GET", "ig_audio", params, anotar=False, crudo=True)
+                  except ig.ErrorMeta as e:
+                      print(f"== {tipo} q={q!r}: ERROR {e.linea()}")
+                      continue
+                  datos = d.get("data", []) if isinstance(d, dict) else []
+                  print(f"== {tipo} q={q!r}: {len(datos)} resultados; claves de la respuesta: {sorted(d) if isinstance(d, dict) else type(d).__name__}")
+                  for a in datos[:5]:
+                      print("  " + json.dumps(a, ensure_ascii=False)[:400])
+          PY
