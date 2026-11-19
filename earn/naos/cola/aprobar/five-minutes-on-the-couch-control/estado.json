@@ -1,0 +1,21 @@
+{
+ "slug": "five-minutes-on-the-couch-control",
+ "issue": 119,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T09:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "86e69589ede62d62f4c1b62bb4d9dcd89e7a8e895c2e0a64ffcbaf0bf18dfa83",
+ "hashes": {
+  "short": "6c1b1d34b37bf7bdedd34fb87fb4ed8986781fffad12985af7d73fb975087ec4"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7019781942,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1119"
+}

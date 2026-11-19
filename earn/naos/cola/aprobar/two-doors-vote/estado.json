@@ -1,0 +1,21 @@
+{
+ "slug": "two-doors-vote",
+ "issue": 119,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T10:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8f9ea8ed72342b6d3ae53d4b6fd79395b3a9af9b7051a7c0d6881b62ccfacb18",
+ "hashes": {
+  "short": "b7dcbd20bc4a3f3bf953f4949c43cc18fcde7343060155a60642ad337a14c086"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7019782955,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1119"
+}

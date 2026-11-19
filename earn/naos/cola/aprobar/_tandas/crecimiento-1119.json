@@ -1,0 +1,16 @@
+{
+ "nombre": "crecimiento-1119",
+ "issue": 119,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "five-minutes-on-the-couch",
+  "five-minutes-on-the-couch-control",
+  "two-doors-vote"
+ ],
+ "comentario_vista_previa_id": 7019783884,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-19T19:24:55Z",
+ "aviso_utc": "2026-11-19T19:24:55Z",
+ "aviso_canal": "github"
+}
