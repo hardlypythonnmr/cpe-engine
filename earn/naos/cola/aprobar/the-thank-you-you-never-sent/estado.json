@@ -2,7 +2,7 @@
  "slug": "the-thank-you-you-never-sent",
  "issue": 14,
  "version": 2,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-23T20:50:00Z",
  "datos_utc": "",
  "hash_contenido": "53242017ffe863345e346ce817460e05b18a750cf9ebfda0da75132bebf321b1",
@@ -20,5 +20,9 @@
  "tanda": "lote-2326",
  "caducado_utc": "2026-11-13T17:49:25Z",
  "aprobado_evento_utc": "2026-11-13T19:14:09Z",
- "issue_n_system": 1125
+ "issue_n_system": 1125,
+ "retirado_utc": "2026-11-19T19:37:19Z",
+ "retirado_por": "N (N 19-nov: volumen YT): «Sí, cortar en YT (Rec.)»",
+ "short_bajado_utc": "2026-11-19T19:38:14Z",
+ "short_bajado": "privado y sin fecha"
 }

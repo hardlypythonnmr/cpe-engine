@@ -2,7 +2,7 @@
  "slug": "closer-or-space-both-sides",
  "issue": 50,
  "version": 1,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-22T22:00:00Z",
  "datos_utc": "",
  "hash_contenido": "ab0488e722d0764dcc6d847a8e40b052def6c91e0f2618f65336fecea73b33d8",
@@ -18,5 +18,9 @@
  "sin_cifras": true,
  "tanda": "m8-closer-or-space",
  "aprobado_evento_utc": "2026-11-04T15:15:52Z",
- "issue_n_system": 929
+ "issue_n_system": 929,
+ "retirado_utc": "2026-11-19T19:37:19Z",
+ "retirado_por": "N (N 19-nov: volumen YT): «Sí, cortar en YT (Rec.)»",
+ "short_bajado_utc": "2026-11-19T19:38:11Z",
+ "short_bajado": "privado y sin fecha"
 }

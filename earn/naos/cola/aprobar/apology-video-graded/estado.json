@@ -2,7 +2,7 @@
  "slug": "apology-video-graded",
  "issue": 10,
  "version": 1,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-21T22:00:00Z",
  "datos_utc": "",
  "hash_contenido": "906aba22aac2f85d331a75df5f235e2f732c00ae2a59d2e1cf80ec714c63d206",
@@ -18,5 +18,9 @@
  "sin_cifras": true,
  "tanda": "medios-15-25-nov",
  "aprobado_evento_utc": "2026-11-06T10:43:49Z",
- "issue_n_system": 976
+ "issue_n_system": 976,
+ "retirado_utc": "2026-11-19T19:37:19Z",
+ "retirado_por": "N (N 19-nov: volumen YT): «Sí, cortar en YT (Rec.)»",
+ "short_bajado_utc": "2026-11-19T19:38:07Z",
+ "short_bajado": "privado y sin fecha"
 }

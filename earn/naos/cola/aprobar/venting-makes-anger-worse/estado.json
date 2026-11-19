@@ -2,7 +2,7 @@
  "slug": "venting-makes-anger-worse",
  "issue": 10,
  "version": 1,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-19T22:00:00Z",
  "datos_utc": "",
  "hash_contenido": "679061ea20b723a9222adb25356f0fa6c7331a0d52ddd4561fbeeeb216a39d3b",
@@ -18,5 +18,9 @@
  "sin_cifras": true,
  "tanda": "medios-15-25-nov",
  "aprobado_evento_utc": "2026-11-06T10:43:49Z",
- "issue_n_system": 976
+ "issue_n_system": 976,
+ "retirado_utc": "2026-11-19T19:37:18Z",
+ "retirado_por": "N (N 19-nov: volumen YT): «Sí, cortar en YT (Rec.)»",
+ "short_bajado_utc": "2026-11-19T19:38:03Z",
+ "short_bajado": "privado y sin fecha"
 }

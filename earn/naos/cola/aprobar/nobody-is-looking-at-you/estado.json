@@ -2,7 +2,7 @@
  "slug": "nobody-is-looking-at-you",
  "issue": 10,
  "version": 1,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-25T22:00:00Z",
  "datos_utc": "",
  "hash_contenido": "efbfa7492f798628f04d9414a275df460a97a3c41ddbcea79bb2e65bbebbb5a8",
@@ -18,5 +18,9 @@
  "sin_cifras": true,
  "tanda": "medios-15-25-nov",
  "aprobado_evento_utc": "2026-11-06T10:43:49Z",
- "issue_n_system": 976
+ "issue_n_system": 976,
+ "retirado_utc": "2026-11-19T19:37:19Z",
+ "retirado_por": "N (N 19-nov: volumen YT): «Sí, cortar en YT (Rec.)»",
+ "short_bajado_utc": "2026-11-19T19:38:18Z",
+ "short_bajado": "privado y sin fecha"
 }

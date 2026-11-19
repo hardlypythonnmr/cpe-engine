@@ -2,7 +2,7 @@
  "nombre": "m8-closer-or-space",
  "issue": 50,
  "version": 1,
- "estado": "aprobado",
+ "estado": "caducado",
  "piezas": [
   "closer-or-space-both-sides"
  ],
@@ -15,5 +15,6 @@
  "aprobadas": [
   "closer-or-space-both-sides"
  ],
- "issue_n_system": 929
+ "issue_n_system": 929,
+ "cerrada": true
 }
