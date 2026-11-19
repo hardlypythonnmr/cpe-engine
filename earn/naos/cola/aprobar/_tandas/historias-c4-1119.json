@@ -2,7 +2,7 @@
  "nombre": "historias-c4-1119",
  "issue": 117,
  "version": 1,
- "estado": "aprobado",
+ "estado": "caducado",
  "piezas": [
   "house-gossip-moon-fasting-week"
  ],
@@ -15,5 +15,6 @@
  "aprobadas": [
   "house-gossip-moon-fasting-week"
  ],
- "issue_n_system": 1813
+ "issue_n_system": 1813,
+ "cerrada": true
 }
