@@ -1983,3 +1983,13 @@ fecha_pacifico,hora_utc,consumidor,operacion,unidades
 2026-11-19,2026-11-19T22:58:36Z,shorts,videos.list,1
 2026-11-19,2026-11-19T22:59:02Z,comentarios,channels.list,1
 2026-11-19,2026-11-19T22:59:03Z,comentarios,commentThreads.list,1
+2026-11-19,2026-11-19T23:58:06Z,shorts,channels.list,1
+2026-11-19,2026-11-19T23:58:08Z,shorts,videos.insert,1
+2026-11-19,2026-11-19T23:58:10Z,shorts,thumbnails.set,50
+2026-11-19,2026-11-19T23:58:10Z,shorts,videos.list,1
+2026-11-19,2026-11-19T23:58:11Z,shorts,channels.list,1
+2026-11-19,2026-11-19T23:58:12Z,shorts,videos.insert,1
+2026-11-19,2026-11-19T23:58:15Z,shorts,thumbnails.set,50
+2026-11-19,2026-11-19T23:58:15Z,shorts,videos.list,1
+2026-11-19,2026-11-19T23:58:40Z,comentarios,channels.list,1
+2026-11-19,2026-11-19T23:58:40Z,comentarios,commentThreads.list,1
