@@ -840,6 +840,23 @@ class MercuryFacebook(Base):
         self.assertEqual(self.ig.publicar_contenedor("C7", "Hola mundo", dormir=lambda s: None), "M7")
         self.assertTrue(any(u.split("?")[0].endswith("/" + IDM + "/media") for u in red.llamadas))
 
+    def test_2207051_contenedor_mudo_pero_en_el_feed(self):
+        """19-nov, Starbucks: Meta da 2207051, el contenedor no responde, la imagen está en el feed: se toma como salida."""
+        ahora = lambda: dt.datetime(2026, 11, 19, 18, 0, 5, tzinfo=dt.timezone.utc)
+        self.red({IDM: YO_FB, IDM + "/media_publish": (403, err(4, 2207051, msg="Application request limit reached")),
+                  "C8": (403, err(4, 2207051, msg="Application request limit reached")),
+                  IDM + "/media": {"data": [{"id": "M8", "caption": "From the archive", "timestamp": "2026-11-19T18:00:09+0000"},
+                                            {"id": "M0", "caption": "From the archive", "timestamp": "2026-11-18T18:00:09+0000"}]}})
+        self.assertEqual(self.ig.publicar_contenedor("C8", "From the archive", dormir=lambda s: None, ahora=ahora), "M8")
+
+    def test_2207051_nada_en_el_feed_sigue_siendo_fallo(self):
+        ahora = lambda: dt.datetime(2026, 11, 19, 18, 0, 5, tzinfo=dt.timezone.utc)
+        self.red({IDM: YO_FB, IDM + "/media_publish": (403, err(4, 2207051, msg="Application request limit reached")),
+                  "C9": {"status_code": "FINISHED"},
+                  IDM + "/media": {"data": [{"id": "M0", "caption": "From the archive", "timestamp": "2026-11-18T18:00:09+0000"}]}})
+        with self.assertRaises(SystemExit):
+            self.ig.publicar_contenedor("C9", "From the archive", dormir=lambda s: None, ahora=ahora)
+
     def test_permalink_que_falla_no_corta_lo_publicado(self):
         self.red({IDM: YO_FB, "M8": (400, err(100, 33, msg="Unsupported get request. Object with ID 'M8' does not exist"))})
         self.assertEqual(self.ig.permalink_de("M8"), "")

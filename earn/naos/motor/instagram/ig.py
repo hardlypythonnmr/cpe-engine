@@ -436,31 +436,53 @@ def llamar_crudo(metodo, ruta, params=None, anotar=True, base=None, crudo=False)
         raise err from None
 
 
-def publicar_contenedor(contenedor, caption="", historia=False, dormir=time.sleep):
+def _en_feed(caption, historia, desde=None):
+    """Busca en el feed (o en las historias) una publicación hecha desde `desde` (datetime UTC) con el mismo caption
+    (en historias, la más nueva desde esa hora). Devuelve su id o None. Si Meta tampoco deja leer, None."""
+    try:
+        lista = llamar_crudo("GET", "me/stories" if historia else "me/media", {"fields": "id,caption,timestamp", "limit": 10},
+                             anotar=False)
+    except ErrorMeta:
+        return None
+    clave = " ".join((caption or "").split())[:40]
+    for m in lista.get("data", []):
+        if desde is not None:  # sin hora (contenedor PUBLISHED) vale como antes; con hora, solo lo publicado desde entonces
+            try:
+                t = dt.datetime.strptime((m.get("timestamp") or "").replace("+0000", "+00:00"), "%Y-%m-%dT%H:%M:%S%z")
+            except ValueError:
+                continue
+            if t < desde:
+                continue
+        if historia or (clave and " ".join((m.get("caption") or "").split())[:40] == clave):
+            return m["id"]
+    return None
+
+
+def publicar_contenedor(contenedor, caption="", historia=False, dormir=time.sleep, ahora=None):
     """media_publish con verificación. El 28 y el 30-oct Meta respondió 403 2207051 a imágenes y carruseles que SÍ salieron;
     se tomaron por caídos y la operadora los redisparó: dos carruseles quedaron dos veces en el feed. Ante un error, se pregunta
-    al contenedor: si está PUBLISHED, se busca la publicación (por caption, o la historia más nueva) y se devuelve su id."""
+    al contenedor: si está PUBLISHED, se busca la publicación (por caption, o la historia más nueva) y se devuelve su id.
+    19-nov (naos-motor): con el 2207051 de DD el contenedor tampoco respondía a tiempo y la pieza salía igual (Walmart,
+    Albertsons, Apple, Starbucks). Ahora se espera más (hasta ~4 min) y, si el contenedor no confirma, se mira el feed: una
+    publicación con el mismo caption (o la historia más nueva) hecha desde que empezó este intento cuenta como salida."""
+    desde = (ahora or (lambda: dt.datetime.now(dt.timezone.utc)))() - dt.timedelta(seconds=60)
     try:
         return llamar_crudo("POST", "me/media_publish", {"creation_id": contenedor})["id"]
     except ErrorMeta as error:
-        for espera in (5, 15, 30):
+        for espera in (5, 15, 30, 60, 120):
             dormir(espera)
             try:
                 estado = llamar_crudo("GET", contenedor, {"fields": "status_code"}).get("status_code")
             except ErrorMeta:
-                continue
-            if estado != "PUBLISHED":
-                continue
-            print(f"Meta respondió error ({error.clase}) pero el contenedor {contenedor} quedó PUBLISHED: salió.", file=sys.stderr)
-            try:
-                lista = llamar_crudo("GET", "me/stories" if historia else "me/media", {"fields": "id,caption,timestamp", "limit": 10})
-            except ErrorMeta:
-                lista = {}
-            clave = " ".join((caption or "").split())[:40]
-            for m in lista.get("data", []):
-                if historia or (clave and " ".join((m.get("caption") or "").split())[:40] == clave):
-                    return m["id"]
-            return ""  # salió pero no la encuentro: se anota como publicada, sin id, para no duplicar
+                estado = None
+            if estado == "PUBLISHED":
+                print(f"Meta respondió error ({error.clase}) pero el contenedor {contenedor} quedó PUBLISHED: salió.", file=sys.stderr)
+                m = _en_feed(caption, historia)
+                return m or ""  # salió pero no la encuentro: se anota como publicada, sin id, para no duplicar
+            m = _en_feed(caption, historia, desde)
+            if m:
+                print(f"Meta respondió error ({error.clase}) pero la publicación {m} ya está en el feed: salió.", file=sys.stderr)
+                return m
         sys.exit(f"{error.linea()}\nWhat to do: {ARREGLO[error.clase]}")
 
 
