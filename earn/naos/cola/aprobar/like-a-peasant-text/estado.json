@@ -1,0 +1,24 @@
+{
+ "slug": "like-a-peasant-text",
+ "issue": 39,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T10:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d904a418e9247644b712f96c6a0a95e447a49926bafd1d1df72533f2c735192f",
+ "hashes": {
+  "short": "0f28d460d59d44db4aa22cf8001157a7d6d7abd90b6a1140600b3b76a2354887"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016001284,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "issue_n_system": 1805
+}

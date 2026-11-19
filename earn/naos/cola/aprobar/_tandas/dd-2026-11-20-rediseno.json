@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-20-rediseno",
  "issue": 41,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-20-p11-equifax-v3",
   "dd-2026-11-20-p12-ticketmaster-v3",
@@ -17,5 +17,15 @@
  "creada_utc": "2026-11-19T17:12:58Z",
  "aviso_utc": "2026-11-19T17:13:02Z",
  "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-19T17:15:58Z",
+ "aprobadas": [
+  "dd-2026-11-20-f1-recibo-cliffs",
+  "dd-2026-11-20-f3-dijeron-valero",
+  "dd-2026-11-20-f7-patron-amazon",
+  "dd-2026-11-20-p11-equifax-v3",
+  "dd-2026-11-20-p12-ticketmaster-v3",
+  "dd-2026-11-20-p3-netflix-bucle",
+  "dd-2026-11-20-p6-diccionario-hp"
+ ],
  "issue_n_system": 1815
 }

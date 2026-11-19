@@ -2,7 +2,7 @@
  "slug": "like-a-peasant-wise",
  "issue": 39,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T10:30:00Z",
  "datos_utc": "",
  "hash_contenido": "a5444d7e5db44ffaabb95099ca512e2d6d5f5c468654247df9b119ca8ee3b95e",
@@ -18,7 +18,7 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "voz-hermana-1119",
- "caducado_por": "version",
  "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
  "issue_n_system": 1805
 }

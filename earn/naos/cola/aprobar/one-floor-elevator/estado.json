@@ -1,0 +1,24 @@
+{
+ "slug": "one-floor-elevator",
+ "issue": 39,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-22T06:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c36964497b7602d43113000a248970bc5e3e1ca409fb1dbd3b1a0308fb3b8e21",
+ "hashes": {
+  "short": "4478889bc509587b3be2f72ad7b53c18ada7499892948b08fe52a6e8a86c70b5"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016006059,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "issue_n_system": 1805
+}

@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-p3-netflix-bucle",
  "issue": 41,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-20T20:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "017b13955f6879f2baab0d4be1d8f689e4f5b7a841fa25e5509e2bd76f6216e2",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
+ "aprobado_evento_utc": "2026-11-19T17:15:58Z",
  "issue_n_system": 1815
 }

@@ -2,7 +2,7 @@
  "nombre": "voz-hermana-1119",
  "issue": 39,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "like-a-peasant",
   "like-a-peasant-wise",
@@ -21,5 +21,19 @@
  "creada_utc": "2026-11-19T15:39:22Z",
  "aviso_utc": "2026-11-19T16:58:15Z",
  "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "aprobadas": [
+  "did-you-hear-cold-shower",
+  "ekadashi-bet",
+  "ekadashi-cella-is-fine",
+  "like-a-peasant",
+  "like-a-peasant-text",
+  "like-a-peasant-wise",
+  "no-phone-before-breakfast",
+  "one-floor-elevator",
+  "one-more-kilo",
+  "session-2-omw",
+  "snooze-number-four"
+ ],
  "issue_n_system": 1805
 }

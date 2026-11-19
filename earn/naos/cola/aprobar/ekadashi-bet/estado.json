@@ -1,0 +1,24 @@
+{
+ "slug": "ekadashi-bet",
+ "issue": 39,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-03T06:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "32c46418d3c1f07f88bd3ff47f22932e7265bcdce6b6547d7ecdca71f703880d",
+ "hashes": {
+  "short": "3a2c09fdd08490f73b845dc1e75e68b403a6d386ab311ed6b601e2eaf22b009b"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016004168,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "issue_n_system": 1805
+}

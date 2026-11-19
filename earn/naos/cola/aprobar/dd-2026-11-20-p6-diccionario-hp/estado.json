@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-p6-diccionario-hp",
  "issue": 41,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-20T21:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "9ad245b85b354d16aea5fb1bb955d196e36e9310c060754107a35d13e9712517",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
+ "aprobado_evento_utc": "2026-11-19T17:15:58Z",
  "issue_n_system": 1815
 }

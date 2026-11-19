@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-f7-patron-amazon",
  "issue": 41,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-20T18:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "18826cfe723bd2d73d761e46944c560d5abc24a929d4a8d6d963522042079feb",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
+ "aprobado_evento_utc": "2026-11-19T17:15:58Z",
  "issue_n_system": 1815
 }

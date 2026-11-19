@@ -1,0 +1,69 @@
+{
+ "slug": "no-phone-before-breakfast",
+ "titulo": "No Phone in the Morning: Cella Lasted Four Minutes",
+ "clave": "2026-11-23|no-phone-before-breakfast",
+ "sale_utc": "2026-11-23T06:30:00Z",
+ "tipo": "CM",
+ "caption": "No phone in the morning, day one: Cella lasted four minutes. The neighbors saw everything. Day two, she puts the phone in the drawer and walks right past it.\n\nHow do you stop checking your phone first thing in the morning? Most people who manage it don't rely on willpower. They put the phone somewhere they can't reach from bed, like a drawer or another room, and start small: 10 minutes without it, then 30, then until after breakfast.\n\nA cartoon about building a no-phone morning routine, one morning at a time.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#nophone #morningroutine #screentime #digitaldetox #discipline #cartoon #naos",
+ "descripcion": "No phone in the morning, day one: Cella lasted four minutes. The neighbors saw everything. Day two, she puts the phone in the drawer and walks right past it.\n\nHow do you stop checking your phone first thing in the morning? Most people who manage it don't rely on willpower. They put the phone somewhere they can't reach from bed, like a drawer or another room, and start small: 10 minutes without it, then 30, then until after breakfast.\n\nA cartoon about building a no-phone morning routine, one morning at a time.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#nophone #morningroutine #screentime #digitaldetox #discipline #cartoon #naos",
+ "sintetico": false,
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A 19-second vertical cartoon about no phone in the morning. Voice, no on-screen text. Bedroom at dawn. Two neighbor figures at the window gossip about Cella's no-phone rule. Cella, a small dark doorway-shaped figure with white eyes and a flat red crown, looks away from the phone on her nightstand until it buzzes, then the phone sticks to her. Next morning she pushes it into the drawer and walks past it to the window.",
+ "comentario_fijado": "How many minutes after waking up do you check your phone? Be honest.",
+ "seccion": "humanity",
+ "formato": "short",
+ "filo": "V",
+ "modo": "Cella con voz",
+ "receta": "historia de Cella: chisme-fábula y la hermana",
+ "junta": "historias",
+ "apuesta": "voz-hermana-4-variables",
+ "variables": {
+  "quien_cuenta": "chisme de las vecinas",
+  "voz": "voz (ElevenLabs, Laura y Jessica)",
+  "registro": "plano",
+  "forma": "fábula"
+ },
+ "tanda": "voz-hermana-1119",
+ "experimento": true,
+ "experimento_prueba": "plan de 4 variables (quién cuenta, voz/texto, jerga/plano, fábula/empujón), 8 Shorts más 3 extra: género de voz en like-a-peasant (hermana, viejo, texto) y chisme contra voz interior en Ekadashi; se lee a 72 h por envíos, guardados, retención y vistas, y like-a-peasant por género en YouTube Analytics",
+ "casa": {
+  "id": "no-phone-before-breakfast",
+  "version": 1,
+  "produccion": "empresa/estrategia/storytelling/voz-hermana/_motor (proto.js, mezcla.py, tanda.py)",
+  "especificacion": "empresa/estrategia/storytelling/voz-hermana/plan-prueba.md"
+ },
+ "eco": "N 19-nov: plan aprobado ('Sí, el plan (Rec.)'), voz ElevenLabs ('ElevenLabs (Rec.)'); sonido distinto por pieza",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "19.0 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "ElevenLabs eleven_v3 voice; low music from motor/musica/midi.py (FluidR3_GM, MIT), a different room and mood per piece; ElevenLabs SFX bank (royalty free) and own synth effects; -14 LUFS target"
+  },
+  {
+   "que": "Cold reader and art critic",
+   "estado": "OK",
+   "nota": "naos-personas-sinteticas and naos-arte-critico, 19-nov; fixes applied: text from frame 0, micro-motion, bathroom shower, Cella in the last shot of the gym piece, crown kept for Cella only"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md checked by naos-cella-respeto for the Ekadashi pieces (no rule broken); no health advice or cure promise (D-527); Cella without hands, flat red crown #A8362A"
+  },
+  {
+   "que": "SEO copy",
+   "estado": "OK",
+   "nota": "seo-maestro (19-nov): researched as a user first (YouTube and Google autocomplete, real questions, Reddit, who ranks; investigacion.md), then written naturally; uncommon words explained"
+  }
+ ]
+}

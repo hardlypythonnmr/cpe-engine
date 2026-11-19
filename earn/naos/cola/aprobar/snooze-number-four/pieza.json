@@ -1,0 +1,69 @@
+{
+ "slug": "snooze-number-four",
+ "titulo": "How to Stop Hitting Snooze (Cella, Snooze Number Four)",
+ "clave": "2026-11-23|snooze-number-four",
+ "sale_utc": "2026-11-23T15:45:00Z",
+ "tipo": "CM",
+ "caption": "Snooze number four. Her sister calls it peasant behavior. Cella tries to get up and falls straight back into bed. Next day: one alarm, and she's up on the first beep.\n\nHow do you stop hitting snooze? The tricks people swear by are simple: put the alarm across the room so you have to stand up to turn it off, set it for the time you actually need to get up instead of stacking alarms, and keep the same wake-up time every day. The first morning is the hardest.\n\nFinally. Some class.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#snooze #wakeupearly #morningroutine #discipline #cartoon #naos",
+ "descripcion": "Snooze number four. Her sister calls it peasant behavior. Cella tries to get up and falls straight back into bed. Next day: one alarm, and she's up on the first beep.\n\nHow do you stop hitting snooze? The tricks people swear by are simple: put the alarm across the room so you have to stand up to turn it off, set it for the time you actually need to get up instead of stacking alarms, and keep the same wake-up time every day. The first morning is the hardest.\n\nFinally. Some class.\n\nNAOS · Choose friction.\nMade with code and Claude. by NMR\n#snooze #wakeupearly #morningroutine #discipline #cartoon #naos",
+ "sintetico": false,
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "A 14-second vertical cartoon about how to stop hitting snooze. Music, no voice. Night bedroom, alarm at 6:30. Black stickers with yellow letters say \"Snooze number four.\" and \"Peasant behavior.\" Cella, a small dark doorway-shaped figure with white eyes and a flat red crown, tries to sit up and falls back into bed. Next morning: \"Next day: one alarm.\" She jumps out of bed at the first beep. \"Finally. Some class.\"",
+ "comentario_fijado": "How many alarms do you set every morning? Drop the number.",
+ "seccion": "humanity",
+ "formato": "short",
+ "filo": "V",
+ "modo": "Cella con música",
+ "receta": "historia de Cella: chisme-fábula y la hermana",
+ "junta": "historias",
+ "apuesta": "voz-hermana-4-variables",
+ "variables": {
+  "quien_cuenta": "hermana",
+  "voz": "solo texto",
+  "registro": "plano",
+  "forma": "fábula"
+ },
+ "tanda": "voz-hermana-1119",
+ "experimento": true,
+ "experimento_prueba": "plan de 4 variables (quién cuenta, voz/texto, jerga/plano, fábula/empujón), 8 Shorts más 3 extra: género de voz en like-a-peasant (hermana, viejo, texto) y chisme contra voz interior en Ekadashi; se lee a 72 h por envíos, guardados, retención y vistas, y like-a-peasant por género en YouTube Analytics",
+ "casa": {
+  "id": "snooze-number-four",
+  "version": 1,
+  "produccion": "empresa/estrategia/storytelling/voz-hermana/_motor (proto.js, mezcla.py, tanda.py)",
+  "especificacion": "empresa/estrategia/storytelling/voz-hermana/plan-prueba.md"
+ },
+ "eco": "N 19-nov: plan aprobado ('Sí, el plan (Rec.)'), voz ElevenLabs ('ElevenLabs (Rec.)'); sonido distinto por pieza",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "14.0 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "low music from motor/musica/midi.py (FluidR3_GM, MIT), a different room and mood per piece; ElevenLabs SFX bank (royalty free) and own synth effects; -14 LUFS target"
+  },
+  {
+   "que": "Cold reader and art critic",
+   "estado": "OK",
+   "nota": "naos-personas-sinteticas and naos-arte-critico, 19-nov; fixes applied: text from frame 0, micro-motion, bathroom shower, Cella in the last shot of the gym piece, crown kept for Cella only"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md checked by naos-cella-respeto for the Ekadashi pieces (no rule broken); no health advice or cure promise (D-527); Cella without hands, flat red crown #A8362A"
+  },
+  {
+   "que": "SEO copy",
+   "estado": "OK",
+   "nota": "seo-maestro (19-nov): researched as a user first (YouTube and Google autocomplete, real questions, Reddit, who ranks; investigacion.md), then written naturally; uncommon words explained"
+  }
+ ]
+}

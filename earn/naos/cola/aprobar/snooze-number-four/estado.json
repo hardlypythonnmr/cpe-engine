@@ -1,0 +1,24 @@
+{
+ "slug": "snooze-number-four",
+ "issue": 39,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T15:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6f7099fffaf1a58f22373c60064ef3928c868b2a77e25ec4c2790073787b9457",
+ "hashes": {
+  "short": "a4dd5a1173b8dc117b13c67372edf2e33c12e86eb5dd351ccfa67d2fd042ee4e"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016007944,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "issue_n_system": 1805
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "no-phone-before-breakfast",
+ "issue": 39,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-23T06:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cb35f863accb7bde69a31345392e65f9b4b92636793e21629f9278ed5684d79e",
+ "hashes": {
+  "short": "3b12d03879423cbcb5edfbb5f563419c6173db96eabef361fac37199e6efe39d"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016007016,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "issue_n_system": 1805
+}

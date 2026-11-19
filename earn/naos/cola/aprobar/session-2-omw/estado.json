@@ -2,7 +2,7 @@
  "slug": "session-2-omw",
  "issue": 39,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T15:50:00Z",
  "datos_utc": "",
  "hash_contenido": "c133e309bb197e70539f682ba02599a846d446e8dd8dbe47f973cd1100932cc9",
@@ -18,7 +18,7 @@
  "sin_cifras": true,
  "datos_max_h": 12.0,
  "tanda": "voz-hermana-1119",
- "caducado_por": "version",
  "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
  "issue_n_system": 1805
 }

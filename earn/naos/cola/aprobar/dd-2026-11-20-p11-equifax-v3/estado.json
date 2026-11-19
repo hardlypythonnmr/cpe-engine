@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-p11-equifax-v3",
  "issue": 41,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-20T15:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "22b1e023df2b2097f1453080ec02592669e2fe65e318a0803d98143b446a4af9",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
+ "aprobado_evento_utc": "2026-11-19T17:15:58Z",
  "issue_n_system": 1815
 }

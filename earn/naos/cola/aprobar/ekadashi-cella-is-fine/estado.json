@@ -1,0 +1,24 @@
+{
+ "slug": "ekadashi-cella-is-fine",
+ "issue": 39,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-12-04T06:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "48f18243d3b608d6e503abd1ca548970823e22a9d82a5e02ae562df267927ae3",
+ "hashes": {
+  "short": "8bf87b1deac14d5dc4c11796d2322ef82338b5ceebb911dacc4539a94858f3d7"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016005115,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "issue_n_system": 1805
+}

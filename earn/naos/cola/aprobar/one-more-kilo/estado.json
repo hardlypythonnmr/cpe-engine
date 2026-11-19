@@ -1,0 +1,24 @@
+{
+ "slug": "one-more-kilo",
+ "issue": 39,
+ "version": 2,
+ "estado": "aprobado",
+ "sale_utc": "2026-11-24T06:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0b65aa317c1fbc39e17f7cf69a60078a2eb9c751c658b0325b3bca8d4f9f4bbc",
+ "hashes": {
+  "short": "2e88a51f9564b226dd22ddc3be57d2b8150eaaee0a0ce816ca1bfd2f03121b7d"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7016008943,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "voz-hermana-1119",
+ "caducado_utc": "2026-11-19T16:57:45Z",
+ "aprobado_evento_utc": "2026-11-19T17:15:49Z",
+ "issue_n_system": 1805
+}

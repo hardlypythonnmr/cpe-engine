@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-p12-ticketmaster-v3",
  "issue": 41,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-20T16:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "51a7e09e7ac45d1401accdcd02841f4711423b4c02da12bcc25ac4c8dbaacfb3",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
+ "aprobado_evento_utc": "2026-11-19T17:15:58Z",
  "issue_n_system": 1815
 }
