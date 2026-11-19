@@ -1894,6 +1894,14 @@ def abrir_tanda(nombre, slugs, gh, cola=None, seco=False, git_=False, vp=False, 
         previo = leer_estado(s, cola)
         if previo and previo["estado"] in ACTIVAS:
             problemas.append(f"{s}: ya tiene el issue #{previo['issue']} en {previo['estado']}")
+    try:  # 19-nov (n-system #1833, mesa): las reglas de volumen de N (motor/volumen.py) también frenan la tanda
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+        import volumen
+        for s in slugs:
+            if not s.startswith("dd-"):
+                problemas += [f"{s}: volumen: {m}" for m in volumen.fallas(cargar(s, cola) or {})]
+    except ImportError:
+        pass
     rama, repo = os.environ.get("NAOS_RAMA", "main"), getattr(gh, "repo", os.environ.get("GITHUB_REPOSITORY", "N/naos-motor"))
     listas, mas = _previews_tanda(slugs, lambda s: ((leer_estado(s, cola) or {}).get("version", 0)) + 1, plt, cola, rama, repo)
     for s in slugs:  # después de las huellas: el LFS ya está bajado

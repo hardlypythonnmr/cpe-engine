@@ -11,7 +11,6 @@
   "reel": "e349445556712e396c73c785c437f4e8625539f743a11d494235da7a9494540b"
  },
  "canales": [
-  "short",
   "reel"
  ],
  "comentario_vista_previa_id": 6668676216,
@@ -20,5 +19,7 @@
  "sin_cifras": true,
  "tanda": "shorts-20-23-nov",
  "aprobado_evento_utc": "2026-11-06T01:10:21Z",
- "issue_n_system": 966
+ "issue_n_system": 966,
+ "short_bajado_utc": "2026-11-19T19:39:43Z",
+ "short_bajado": "privado y sin fecha"
 }

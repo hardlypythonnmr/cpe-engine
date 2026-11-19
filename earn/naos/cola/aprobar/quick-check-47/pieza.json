@@ -10,7 +10,6 @@
  "datos_utc": "",
  "sin_cifras": true,
  "canales": [
-  "short",
   "reel"
  ],
  "video": "video.mp4",
@@ -44,5 +43,6 @@
  "destinatario": "the friend who just opens the app 'for a second'",
  "cara": "A",
  "experimento": false,
- "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)",
+ "volumen_nota": "N 19-nov «Sí, cortar en YT (Rec.)»: el INV sale solo en Instagram; su Short se bajó a privado"
 }

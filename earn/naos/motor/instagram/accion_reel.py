@@ -221,7 +221,9 @@ def datos(slug, d, cola=COLA, ruta=None):
         return esperar_veto(slug, r)
     if not ok:
         sys.exit(f"NO SE PUBLICA: {r}. No salió nada.")
-    short = url_short(slug, r["version"], filas)
+    # 19-nov (volumen YT, N): un INV que pasó a solo "reel" conserva su fila short (con el Short ya bajado a privado);
+    # su Reel no lo espera ni lo enlaza.
+    short = "" if solo_reel(pieza) else url_short(slug, r["version"], filas)
     if not short and not solo_reel(pieza):
         sys.exit(f"{slug}: publicados.csv no tiene el enlace del Short (url_short): el Short sale primero (subir.py)")
     os.makedirs(d, exist_ok=True)
