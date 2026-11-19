@@ -1021,6 +1021,23 @@ def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None):
     return None
 
 
+def crear_con_respaldo(crear, extra):
+    """Piloto de audio (mesa 19-nov: «que la pieza no se caiga por el piloto»). crear(extra) -> (contenedor, huella, estado).
+    Si extra trae audio_configuration y Meta lo rechaza (error al crear o contenedor en ERROR), reintenta una vez sin el
+    audio, con el sonido propio del video, e imprime AUDIO-FALLBACK {"error": ...}. Sin audio, crea tal cual."""
+    if "audio_configuration" not in extra:
+        return crear(extra)
+    try:
+        r = crear(extra)
+        if r[2].get("status_code") != "ERROR":
+            return r
+        motivo = f"contenedor {r[0]} ERROR {r[2].get('status', '')}".strip()
+    except SystemExit as s:  # llamar() sale con el error de Meta
+        motivo = str(s.code)
+    print("AUDIO-FALLBACK " + json.dumps({"error": " ".join(motivo.split())[:300]}, ensure_ascii=False))
+    return crear({k: v for k, v in extra.items() if k != "audio_configuration"})
+
+
 def args_comunes(p):
     p.add_argument("--short-url", default="", help="el Short de YouTube de esta pieza, ya público; sin él, Reel solo Instagram (etéreo)")
     p.add_argument("--titulo", default="", help="el título del Short (el mismo en el Reel); se compara con YouTube")
@@ -1179,15 +1196,17 @@ def main():
                 print("AUDIO " + json.dumps(elegido, ensure_ascii=False))
             else:
                 print("AUDIO-NINGUNO no hubo un sonido original que alcance; sale con su sonido propio")
-        if directa:
-            c, huella = preparar_directo(a.slug, a.archivo, caption, a.con_feed, extra=extra)
-        else:
-            params = {"media_type": "REELS", "video_url": a.video_url, "caption": caption,
-                      "share_to_feed": "true" if a.con_feed else "false", **extra}
-            c = llamar("POST", "me/media", params)["id"]
-            huella = registro.hash_canal("reel", a.archivo, caption)
-            print(f"contenedor {c} creado para {a.slug} ({'también en el grid' if a.con_feed else 'solo en la pestaña de Reels'}); esperando a Meta...")
-        e = esperar(c)
+        def crear(extra):
+            if directa:
+                c, huella = preparar_directo(a.slug, a.archivo, caption, a.con_feed, extra=extra)
+            else:
+                params = {"media_type": "REELS", "video_url": a.video_url, "caption": caption,
+                          "share_to_feed": "true" if a.con_feed else "false", **extra}
+                c = llamar("POST", "me/media", params)["id"]
+                huella = registro.hash_canal("reel", a.archivo, caption)
+                print(f"contenedor {c} creado para {a.slug} ({'también en el grid' if a.con_feed else 'solo en la pestaña de Reels'}); esperando a Meta...")
+            return c, huella, esperar(c)
+        c, huella, e = crear_con_respaldo(crear, extra)
         print(f"{c}: {e.get('status_code')} {e.get('status', '')}")
         anotar_contenedor(c, huella)
         if e.get("status_code") == "FINISHED":

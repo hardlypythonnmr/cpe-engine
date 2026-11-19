@@ -18,6 +18,8 @@ def piezas(cola):
             e = json.load(open(f, encoding="utf-8"))
         except (OSError, ValueError):
             continue
+        if e.get("audio_ab") == "propio-fallback":  # Meta rechazó el audio: el Reel salió con su sonido propio
+            continue
         a = e.get("audio_ig") or {}
         if a.get("audio_id"):
             yield os.path.basename(os.path.dirname(f)), e, a

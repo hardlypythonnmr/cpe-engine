@@ -571,6 +571,22 @@ def grupo_audio(slug, cola=COLA, hoy=None, ab=None):
     return ("tendencia" if hoy.timetuple().tm_yday % 2 == 0 else "propio"), tema, ""
 
 
+def audio_de_salida(grupo, out):
+    """Piloto de audio: grupo del A/B y el sonido elegido (o ninguno) según la salida de ig.py preparar, para estado.json y
+    la junta DD. AUDIO-FALLBACK: Meta rechazó el audio y el Reel salió con su sonido propio (mesa 19-nov)."""
+    if not grupo:
+        return {}
+    m_audio = re.search(r"^AUDIO (\{.*\})$", out, re.M)
+    m_resp = re.search(r"^AUDIO-FALLBACK (\{.*\})$", out, re.M)
+    r = {"audio_ab": grupo if (grupo == "propio" or m_audio) else "propio-sin-sonido"}
+    if m_audio:
+        r["audio_ig"] = json.loads(m_audio.group(1))
+    if m_resp:
+        r["audio_ab"] = "propio-fallback"
+        r["audio_error"] = json.loads(m_resp.group(1)).get("error", "")
+    return r
+
+
 def duracion_s(video):
     try:
         out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video],
@@ -708,11 +724,7 @@ def publicar(info, d, naos=None, ruta=None):
         sys.exit(f"publicar falló (salida {rc}); revisar el error de Meta arriba")
     res = {"reel": fila["url_reel"], "short": info["short_url"], "contenedor": fila["contenedor"],
            "media_id": fila["media_id"], "publicado_utc": fila["publicado_utc"], "version": info["version"]}
-    if grupo:  # piloto de audio: grupo del A/B y el sonido elegido (o ninguno), para estado.json y la junta DD
-        m_audio = re.search(r"^AUDIO (\{.*\})$", out, re.M)
-        res["audio_ab"] = grupo if (grupo == "propio" or m_audio) else "propio-sin-sonido"
-        if m_audio:
-            res["audio_ig"] = json.loads(m_audio.group(1))
+    res.update(audio_de_salida(grupo, out))
     escribir_json(os.path.join(d, "resultado.json"), res)
     print(f"publicado: {res['reel']}")
     return res
@@ -783,8 +795,9 @@ def aplicar(slug, d, cola=COLA, ruta=None, errores=None):
     elif res:
         if e is not None and res.get("audio_ab"):
             e["audio_ab"] = res["audio_ab"]
-            if res.get("audio_ig"):
-                e["audio_ig"] = res["audio_ig"]
+            for k in ("audio_ig", "audio_error"):
+                if res.get(k):
+                    e[k] = res[k]
         registro.completar(slug, "reel", res["version"], {k: res[k] for k in ("contenedor", "media_id", "publicado_utc")} |
                            {"url_reel": res["reel"], "url_short": res["short"]}, ruta)
         filas = registro.leer(ruta)

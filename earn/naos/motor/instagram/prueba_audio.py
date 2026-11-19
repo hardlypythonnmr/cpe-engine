@@ -1,5 +1,5 @@
 """Pruebas del piloto de audio de DD: ig.elegir_audio, accion_reel.grupo_audio y audio_vivo.revisar. Sin red."""
-import datetime as dt, json, os, sys, tempfile, unittest
+import contextlib, datetime as dt, io, json, os, sys, tempfile, unittest
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
@@ -82,6 +82,53 @@ class AudioVivo(unittest.TestCase):
             return {"media_audio_type": "original", "media_url": "x"} if ruta.startswith("m") else {}
         filas = audio_vivo.revisar(d, llamar=llamar, media_de=lambda s: "", ahora="T")
         self.assertEqual([(f["slug"], f["vivo"], f["media_audio_type"]) for f in filas], [("a", "si", "original"), ("b", "no", "original")])
+
+
+class Respaldo(unittest.TestCase):
+    """Mesa 19-nov: si Meta rechaza audio_configuration, un reintento sin audio; la pieza no se cae por el piloto."""
+    AUD = {"audio_configuration": "{}", "is_ai_generated": "true"}
+
+    def correr(self, fallas):
+        llamadas = []
+
+        def crear(extra):
+            llamadas.append(dict(extra))
+            f = fallas.pop(0) if fallas else None
+            if f == "exit":
+                sys.exit("Meta HTTP 400 code 100: Invalid parameter audio_configuration")
+            return ("C%d" % len(llamadas), "h", {"status_code": "ERROR" if f == "error" else "FINISHED", "status": "x"})
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            r = ig.crear_con_respaldo(crear, dict(self.AUD))
+        return r, llamadas, out.getvalue()
+
+    def test_rechazo_al_crear(self):
+        r, ll, out = self.correr(["exit"])
+        self.assertEqual(r[0], "C2")
+        self.assertIn("audio_configuration", ll[0])
+        self.assertEqual(ll[1], {"is_ai_generated": "true"})
+        self.assertIn("AUDIO-FALLBACK", out)
+        sal = accion_reel.audio_de_salida("tendencia", 'AUDIO {"audio_id": "1"}\n' + out)
+        self.assertEqual(sal["audio_ab"], "propio-fallback")
+        self.assertIn("Invalid parameter", sal["audio_error"])
+
+    def test_contenedor_en_error(self):
+        r, ll, out = self.correr(["error"])
+        self.assertEqual((r[0], len(ll)), ("C2", 2))
+        self.assertIn("C1 ERROR", out)
+
+    def test_sin_rechazo_un_solo_intento(self):
+        r, ll, out = self.correr([])
+        self.assertEqual((len(ll), out), (1, ""))
+        self.assertEqual(accion_reel.audio_de_salida("tendencia", 'AUDIO {"audio_id": "1"}\n')["audio_ab"], "tendencia")
+
+    def test_sin_audio_no_reintenta(self):
+        with self.assertRaises(SystemExit):
+            ig.crear_con_respaldo(lambda e: sys.exit("otro error"), {})
+
+    def test_el_reintento_tambien_falla(self):
+        with self.assertRaises(SystemExit), contextlib.redirect_stdout(io.StringIO()):
+            self.correr(["exit", "exit"])
 
 
 if __name__ == "__main__":
