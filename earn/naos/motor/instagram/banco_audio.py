@@ -6,7 +6,7 @@ Sin scraping de Instagram: amplía la búsqueda legítima de la Audio API.
   Los rastreadores son artículos semanales; de cada uno se toman los títulos numerados («1. Título — Artista»).
 - Filtro: duración de 15 s o más, sin cuentas vetadas (audio-ab.json) y ritmo_audio (YAMNet sin voz hablada, golpe).
 - Escribe ../../medicion/audio-banco.json con los 100 mejores por golpe × tempo; cada pieza elige de ahí (ig.elegir_audio).
-Uso: python3 banco_audio.py [--salida RUTA] [--tope-medir 220] [--max 100]"""
+Uso: python3 banco_audio.py [--salida RUTA] [--tope-medir 340] [--max 100]"""
 import argparse, datetime as dt, html, json, os, re, sys, urllib.request
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -107,7 +107,7 @@ def armar(cfg, vetadas, llamar=None, medir=None, bajar=None, tope_medir=220, max
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--salida", default=SALIDA)
-    p.add_argument("--tope-medir", type=int, default=220)
+    p.add_argument("--tope-medir", type=int, default=340)
     p.add_argument("--max", type=int, default=100)
     a = p.parse_args()
     ig.usar_marca("mercury")
