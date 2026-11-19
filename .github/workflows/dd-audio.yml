@@ -15,7 +15,7 @@ permissions:
 jobs:
   audio:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v7
         with:
@@ -53,7 +53,24 @@ jobs:
                   print(f"== {tipo} q={q!r}: {len(datos)} resultados; claves de la respuesta: {sorted(d) if isinstance(d, dict) else type(d).__name__}")
                   for a in datos[:5]:
                       print("  " + json.dumps(a, ensure_ascii=False)[:400])
-          print("== elegir_audio en seco (lo que haría preparar con --audio-tema):")
-          for tema, dur in ((os.environ.get("BUSCAR") or "money", 30), ("CEO pay", 45), ("", 20)):
+          print("== elegir_audio en seco (filtro: sin voz, golpe marcado, tempo alto):")
+          for tema, dur in ((os.environ.get("BUSCAR") or "money", 30), ("", 20)):
               print(f"  tema={tema!r} dur={dur}s -> {json.dumps(ig.elegir_audio(tema, dur), ensure_ascii=False)}")
+          import ritmo_audio
+          print("== explorar: tendencia (4 páginas) y búsquedas de golpe, medidos y ordenados por puntaje")
+          vistos, filas = set(), []
+          for q in ("", "beat", "phonk", "funk"):
+              for a in ig.candidatos_audio(q, paginas=4):
+                  if str(a["audio_id"]) in vistos or (q and a["busqueda"] == "tendencia"):
+                      continue
+                  vistos.add(str(a["audio_id"]))
+                  url = ig.url_audio(a)
+                  m = ritmo_audio.medir(url) if url else None
+                  filas.append((ritmo_audio.puntaje(m), {"audio_id": str(a["audio_id"]), "title": a.get("title"),
+                               "ig_username": a.get("ig_username"), "busqueda": a["busqueda"], "dur_ms": a.get("duration_in_ms"),
+                               "ritmo": m, "enlace": a.get("on_platform_audio_preview_link"), "download_url": url}))
+                  if len(filas) >= 70:
+                      break
+          for p, f in sorted(filas, key=lambda x: -x[0]):
+              print("EXPLORAR " + json.dumps(dict(f, puntaje=round(p, 3)), ensure_ascii=False))
           PY

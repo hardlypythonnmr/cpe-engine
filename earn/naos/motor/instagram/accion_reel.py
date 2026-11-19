@@ -550,6 +550,9 @@ def correr(args, log=None):
     return p.returncode, texto
 
 
+NY = __import__("zoneinfo").ZoneInfo("America/New_York")
+
+
 def grupo_audio(slug, cola=COLA, hoy=None, ab=None):
     """Piloto de audio de DD (audio-ab.json). Devuelve ("tendencia"|"propio"|"", tema, audio_id). "" = fuera del piloto.
     pieza.json manda si trae "audio_id" o "audio_tendencia"; si no, en las fechas y la marca del piloto alterna por día
@@ -571,6 +574,33 @@ def grupo_audio(slug, cola=COLA, hoy=None, ab=None):
     return ("tendencia" if hoy.timetuple().tm_yday % 2 == 0 else "propio"), tema, ""
 
 
+def audio_para_publicar(slug, cola=COLA, vetado=None):
+    """(grupo, args de ig.py preparar) del piloto de audio. N 19-nov «Filtro automático + veto»: el sonido de un Reel del
+    grupo tendencia es el que audio_aviso.py anunció en el issue de la tanda, si N no le puso 👎. Sin aviso no hay chance
+    de veto, así que sale con su sonido propio. pieza.json audio_id (elegido por N) sale tal cual."""
+    grupo, tema, audio_id = grupo_audio(slug, cola)
+    if grupo != "tendencia":
+        return grupo, []
+    if audio_id:
+        return grupo, ["--audio-id", audio_id]
+    e = leer_json(os.path.join(cola, slug, "estado.json")) or {}
+    av = e.get("audio_aviso") or {}
+    if not av:
+        return "propio-sin-aviso", []
+    if not av.get("audio_id"):
+        return "propio-sin-sonido", []
+    if av.get("comentario"):
+        if vetado is None:
+            import audio_aviso
+            vetado = audio_aviso.vetado
+        v = vetado(av["comentario"])
+        if v is None:
+            return "propio-sin-lectura", []
+        if v:
+            return "propio-veto", []
+    return grupo, ["--audio-id", str(av["audio_id"])]
+
+
 def audio_de_salida(grupo, out):
     """Piloto de audio: grupo del A/B y el sonido elegido (o ninguno) según la salida de ig.py preparar, para estado.json y
     la junta DD. AUDIO-FALLBACK: Meta rechazó el audio y el Reel salió con su sonido propio (mesa 19-nov)."""
@@ -578,7 +608,7 @@ def audio_de_salida(grupo, out):
         return {}
     m_audio = re.search(r"^AUDIO (\{.*\})$", out, re.M)
     m_resp = re.search(r"^AUDIO-FALLBACK (\{.*\})$", out, re.M)
-    r = {"audio_ab": grupo if (grupo == "propio" or m_audio) else "propio-sin-sonido"}
+    r = {"audio_ab": grupo if (grupo.startswith("propio") or m_audio) else "propio-sin-sonido"}
     if m_audio:
         r["audio_ig"] = json.loads(m_audio.group(1))
     if m_resp:
@@ -705,10 +735,7 @@ def publicar(info, d, naos=None, ruta=None):
         if naos and os.path.exists(os.path.join(naos, "data", "semana.json")):
             comunes += ["--semana", os.path.join(naos, "data", "semana.json"), "--enlaces", os.path.join(naos, "data", "enlaces.json")]
     servido = ["--servido", info["servido"]] if info.get("servido") else []  # copia con faststart: el peso de la URL es el suyo
-    grupo, tema, audio_id = grupo_audio(info["slug"])
-    audio = []
-    if grupo == "tendencia":
-        audio = (["--audio-id", audio_id] if audio_id else ["--audio-tema", tema]) + ["--audio-dur", str(duracion_s(info["video"]))]
+    grupo, audio = audio_para_publicar(info["slug"])
     rc, out = correr([ig, "preparar", info["slug"], info["video_url"], "--caption", cap, "--archivo", info["video"], *servido, *con_ia(info["slug"]), *audio,
                       *comunes], log)
     m = re.search(r"^(\d+): FINISHED", out, re.M)

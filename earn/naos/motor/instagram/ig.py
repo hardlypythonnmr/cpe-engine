@@ -992,11 +992,50 @@ def esperar(contenedor, tope_s=600):
 AUDIO_VOL, VIDEO_VOL = 25, 100  # N 19-nov (piloto de audio DD): la voz de DD se sigue oyendo
 
 
-def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None):
-    """Piloto de audio (N 19-nov: «Piloto medido», «Sonidos originales»). Devuelve {audio_id, ig_username, title, duracion_ms,
-    busqueda} o None. Con audio_id, lo toma tal cual (GET /{audio_id}). Si no, busca en GET /ig_audio (original_sound) por el
-    tema y, si nada sirve, en lo que está en tendencia; elige el primero cuya duración alcance para el video (dur_s).
-    Solo con Facebook Login (DD); la Audio API no existe con Instagram Login."""
+def candidatos_audio(tema="", llamar=None, paginas=2):
+    """Sonidos originales de la Audio API: los de la búsqueda por tema y los que están en tendencia (hasta `paginas` páginas),
+    sin repetir, en ese orden. Cada uno con audio_id, duration_in_ms, title, ig_username, download_url y el enlace de vista
+    previa si Meta los trae."""
+    llamar = llamar or llamar_crudo
+    uid = CUENTA.get("user_id") or os.environ.get(CUENTA.get("user_id_env", ""), "")
+    vistos, lista = set(), []
+    for q in ([tema] if tema else []) + [""]:
+        params = {"audio_type": "original_sound", "user_id": uid, **({"search_query": q} if q else {})}
+        for _ in range(paginas if not q else 1):
+            try:
+                d = llamar("GET", "ig_audio", params, anotar=False, crudo=True)
+            except ErrorMeta:
+                break
+            datos = (d.get("audio") or d.get("data") or []) if isinstance(d, dict) else []
+            datos = datos.get("data", []) if isinstance(datos, dict) else datos
+            for a in datos:
+                if a.get("audio_id") and str(a["audio_id"]) not in vistos:
+                    vistos.add(str(a["audio_id"]))
+                    lista.append(dict(a, busqueda=q or "tendencia"))
+            despues = ((d.get("paging") or {}).get("cursors") or {}).get("after") if isinstance(d, dict) else None
+            if not despues:
+                break
+            params = dict(params, after=despues)
+    return lista
+
+
+def url_audio(a, llamar=None):
+    """La URL descargable de la vista previa: download_url si vino en la lista; si no, GET /{audio_id}?fields=download_url."""
+    if a.get("download_url"):
+        return a["download_url"]
+    try:
+        d = (llamar or llamar_crudo)("GET", str(a["audio_id"]), {"fields": "download_url"}, anotar=False, crudo=True)
+        return (d or {}).get("download_url", "")
+    except ErrorMeta:
+        return ""
+
+
+def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15):
+    """Piloto de audio (N 19-nov: «Piloto medido», «Sonidos originales», «Filtro automático + veto»). Devuelve {audio_id,
+    ig_username, title, duracion_ms, busqueda, enlace, ritmo} o None. Con audio_id, lo toma tal cual (GET /{audio_id}): ya
+    pasó el filtro y el veto. Si no, junta los original_sound de la búsqueda por tema y de la tendencia, descarta los que no
+    alcanzan la duración del video, mide la vista previa de hasta `tope` (ritmo_audio: sin voz hablada, golpe marcado) y
+    elige el de mejor puntaje (golpe y tempo alto). Solo con Facebook Login (DD); la Audio API no existe con Instagram Login."""
     llamar = llamar or llamar_crudo
     uid = CUENTA.get("user_id") or os.environ.get(CUENTA.get("user_id_env", ""), "")
     if audio_id:
@@ -1005,20 +1044,24 @@ def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None):
         except ErrorMeta:
             return None
         return {"audio_id": audio_id, "ig_username": a.get("ig_username", ""), "title": a.get("title", ""),
-                "duracion_ms": a.get("duration_in_ms"), "busqueda": "audio_id"}
-    for q in ([tema] if tema else []) + [""]:
-        params = {"audio_type": "original_sound", "user_id": uid, **({"search_query": q} if q else {})}
-        try:
-            d = llamar("GET", "ig_audio", params, anotar=False, crudo=True)
-        except ErrorMeta:
-            continue
-        lista = (d.get("audio") or d.get("data") or []) if isinstance(d, dict) else []
-        lista = lista.get("data", []) if isinstance(lista, dict) else lista
-        for a in lista:
-            if a.get("audio_id") and (a.get("duration_in_ms") or 0) >= dur_s * 1000:
-                return {"audio_id": str(a["audio_id"]), "ig_username": a.get("ig_username", ""), "title": a.get("title", ""),
-                        "duracion_ms": a.get("duration_in_ms"), "busqueda": q or "tendencia"}
-    return None
+                "duracion_ms": a.get("duration_in_ms"), "busqueda": "audio_id",
+                "enlace": f"https://www.instagram.com/reels/audio/{audio_id}/"}
+    if medir is None:
+        import ritmo_audio
+        medir = ritmo_audio.medir
+    from ritmo_audio import puntaje
+    mejor, mejor_p = None, -1.0
+    for a in [a for a in candidatos_audio(tema, llamar) if (a.get("duration_in_ms") or 0) >= dur_s * 1000][:tope]:
+        url = url_audio(a, llamar)
+        m = medir(url) if url else None
+        p = puntaje(m)
+        if p > mejor_p:
+            mejor_p = p
+            mejor = {"audio_id": str(a["audio_id"]), "ig_username": a.get("ig_username", ""), "title": a.get("title", ""),
+                     "duracion_ms": a.get("duration_in_ms"), "busqueda": a["busqueda"],
+                     "enlace": a.get("on_platform_audio_preview_link") or f"https://www.instagram.com/reels/audio/{a['audio_id']}/",
+                     "ritmo": m}
+    return mejor
 
 
 def crear_con_respaldo(crear, extra):

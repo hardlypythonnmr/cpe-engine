@@ -1,0 +1,56 @@
+# dd-audio-aviso: piloto de audio de DD (N 19-nov: «Filtro automático + veto (Rec.)»).
+# Cada hora, para los Reels aprobados que salen en las próximas 6 h y caen en el grupo «tendencia» (audio-ab.json), elige
+# el sonido con el filtro (sin voz, golpe marcado, tempo alto), deja el comentario «sonido elegido» con su enlace en el
+# issue de la tanda y lo anota en estado.json (audio_aviso). Un 👎 de N a ese comentario antes de la hora lo veta: el Reel
+# sale con su sonido propio (accion_reel.audio_para_publicar). Sin veto, sale con ese sonido.
+name: dd-audio-aviso
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+    inputs:
+      seco:
+        description: "en seco: solo imprime lo que elegiría, no comenta ni escribe"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: dd-audio-aviso
+jobs:
+  aviso:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/aprobar/
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/investigacion/
+            /earn/naos/motor/*.py
+            /earn/naos/cola/aprobar/dd-*/estado.json
+            /earn/naos/cola/aprobar/dd-*/pieza.json
+            /earn/naos/cola/aprobar/dd-*/video.mp4
+      - name: Elegir y avisar
+        env:
+          MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECO: ${{ inputs.seco && '--seco' || '' }}
+        run: python3 earn/naos/motor/instagram/audio_aviso.py --horas 6 $SECO
+      - name: Guardar estado.json
+        run: |
+          git config user.name "dd-audio-aviso"; git config user.email "dd-audio-aviso@users.noreply.github.com"
+          git add --sparse -- 'earn/naos/cola/aprobar/dd-*/estado.json'
+          git diff --cached --quiet && { echo "nada que guardar"; exit 0; }
+          git commit -q -m "dd-audio-aviso: sonido elegido $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*5))
+          done
+          exit 1
