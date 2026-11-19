@@ -750,5 +750,21 @@ class TestQuietudYaNoFrena(unittest.TestCase):
         self.assertTrue(registro.fallas_medidas(dict(base, forma={"pasa": False})))
 
 
+class TestCierreDeMarca(unittest.TestCase):
+    """n-system #1840: el cuadro final de la marca (c2/marca.py, 1,6 s) no cuenta en la forma de la plantilla."""
+    B = {"huella": {"papeles": ["gancho", "cifra"]}}
+
+    def test_resta_el_cierre(self):
+        self.assertEqual(registro.forma_medida(dict(self.B, dur=31.6, marca={"cierre_s": 1.6}))[1], 30.0)
+        self.assertEqual(registro.forma_medida(dict(self.B, dur=31.6, marca={"cierre_s": 1.6}, dur_contenido=30.0))[1], 30.0)
+
+    def test_dur_contenido_que_no_cuadra_no_manda(self):
+        self.assertEqual(registro.forma_medida(dict(self.B, dur=31.6, marca={"cierre_s": 1.6}, dur_contenido=20))[1], 30.0)
+
+    def test_cierre_fuera_de_rango_o_ausente_no_resta(self):
+        self.assertEqual(registro.forma_medida(dict(self.B, dur=31.6, marca={"cierre_s": 5}))[1], 31.6)
+        self.assertEqual(registro.forma_medida(dict(self.B, dur=31.6))[1], 31.6)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

@@ -1685,6 +1685,9 @@ def falla_ejemplar(regla, reglas=None):
     return ""
 
 
+CIERRE_MARCA_MAX_S = 2.0  # c2/marca.py CIERRE_S es 1,6
+
+
 def forma_medida(m):
     """(papeles, segundos) de medidas.json: lo que midió el render, no lo que diga pieza.json. (None, None) si no se entiende."""
     m = m if isinstance(m, dict) else {}
@@ -1694,7 +1697,15 @@ def forma_medida(m):
         papeles = [str(t.get("tramo") or "").split("-", 1)[-1] for t in m["tramos"] if isinstance(t, dict)]
     if not isinstance(papeles, list) or not papeles or not all(isinstance(x, str) and x for x in papeles):
         return None, None
-    return [x.strip().lower() for x in papeles], _numero(m.get("dur"))
+    seg = _numero(m.get("dur"))
+    mk = m.get("marca") if isinstance(m.get("marca"), dict) else {}
+    cierre = _numero(mk.get("cierre_s"))
+    if seg is not None and cierre and 0 < cierre <= CIERRE_MARCA_MAX_S:
+        # el cuadro final de la marca (c2/marca.py) no es contenido de la plantilla: la forma se mide sin él, con el largo que
+        # midió el productor (dur_contenido) si lo trae; si no, el del archivo menos el cierre. Un cierre fuera de rango no resta.
+        dc = _numero(m.get("dur_contenido"))
+        seg = dc if dc is not None and abs((seg - cierre) - dc) <= 0.25 else round(seg - cierre, 3)
+    return [x.strip().lower() for x in papeles], seg
 
 
 def fallas_forma(p, medidas, forma):
