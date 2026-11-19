@@ -2,7 +2,7 @@
  "nombre": "dd-hist-1511",
  "issue": 19,
  "version": 1,
- "estado": "aprobado",
+ "estado": "caducado",
  "piezas": [
   "dd-2026-11-15-alphabet-hist-numero",
   "dd-2026-11-15-alphabet-hist-frase",
@@ -21,5 +21,6 @@
   "dd-2026-11-15-alphabet-hist-siguiente",
   "dd-2026-11-15-alphabet-hist-video"
  ],
- "issue_n_system": 1495
+ "issue_n_system": 1495,
+ "cerrada": true
 }

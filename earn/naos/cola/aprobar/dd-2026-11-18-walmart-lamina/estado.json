@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-18-walmart-lamina",
  "issue": 15,
  "version": 3,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-18T20:00:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "04069cff75a969780e92e47daa7ef18237a268acf8f69b96a6706886ea90de80",
@@ -20,6 +20,6 @@
  "tanda": "dd-reserva-1730-a",
  "caducado_utc": "2026-11-14T23:32:13Z",
  "aprobado_evento_utc": "2026-11-14T23:57:53Z",
- "reel_fallo_utc": "2026-11-18T20:01:49Z",
- "issue_n_system": 1331
+ "issue_n_system": 1331,
+ "nota_mudanza": "Meta devolvió error pero publicó; anotado desde dd-medios (naos-motor, 19-nov)"
 }

@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-18-walmart-expediente",
  "issue": 15,
  "version": 3,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-18T21:00:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "8bccb364ca3d802f699b1598d663445cc2bbba1c5e7a37ac9e68afcc7640acee",
@@ -20,6 +20,6 @@
  "tanda": "dd-reserva-1730-a",
  "caducado_utc": "2026-11-14T23:32:13Z",
  "aprobado_evento_utc": "2026-11-14T23:57:53Z",
- "reel_fallo_utc": "2026-11-18T21:03:21Z",
- "issue_n_system": 1331
+ "issue_n_system": 1331,
+ "nota_mudanza": "Meta devolvió error pero publicó; anotado desde dd-medios (naos-motor, 19-nov)"
 }

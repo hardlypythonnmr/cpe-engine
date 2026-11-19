@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-18-albertsons-lamina",
  "issue": 36,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-19T01:00:00Z",
  "datos_utc": "2026-11-15T19:00:00Z",
  "hash_contenido": "42237e94acf66b7a3e7d9d9e10e1724d3504f30f5b9d1a1cf9e60ac72290b665",
@@ -21,6 +21,6 @@
  "aprobacion": "agente",
  "aprobado_evento_utc": "2026-11-18T12:24:51Z",
  "veto_hasta_utc": "2026-11-18T13:24:51Z",
- "reel_fallo_utc": "2026-11-19T01:02:09Z",
- "issue_n_system": 1789
+ "issue_n_system": 1789,
+ "nota_mudanza": "Meta devolvió error pero publicó; anotado desde dd-medios (naos-motor, 19-nov)"
 }

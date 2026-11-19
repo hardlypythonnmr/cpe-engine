@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-15-alphabet-hist-frase",
  "issue": 19,
  "version": 1,
- "estado": "aprobado",
+ "estado": "caducado",
  "sale_utc": "2026-11-15T17:45:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "f4f21099e5c4e77100bf31725f0fb5b4e346c82c82a3e58b4835b2467c000eb6",
@@ -20,5 +20,7 @@
  "tanda": "dd-hist-1511",
  "aprobado_evento_utc": "2026-11-15T12:02:31Z",
  "reel_fallo_utc": "2026-11-15T18:00:29Z",
- "issue_n_system": 1495
+ "issue_n_system": 1495,
+ "caducado_por": "hora",
+ "caducado_utc": "2026-11-19T17:37:45Z"
 }
