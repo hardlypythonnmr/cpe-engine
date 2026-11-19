@@ -196,5 +196,20 @@ class Facebook(unittest.TestCase):
         self.assertFalse([p for p in d.PASOS if "ig" in p.split("-")])
 
 
+class RaizSinAssets(unittest.TestCase):
+    """19-nov: DD_PAGES_BASE real es la raíz del sitio, sin /assets/reels."""
+
+    def test_raiz_sola(self):
+        llamadas = []
+        def http(metodo, url, cuerpo=None, cab=None):
+            llamadas.append((metodo, url))
+            return 200, {}
+        url = d.subir_publica("foto-d.png", b"x", "o/r", "https://pages.test/r", "T", http=http, dormir=lambda s: None)
+        self.assertEqual(url, "https://pages.test/r/assets/perfil/foto-d.png")
+        self.assertIn(("PUT", "https://api.github.com/repos/o/r/contents/assets/perfil/foto-d.png"), llamadas)
+        with self.assertRaises(d.ErrorPerfil):
+            d.subir_publica("x.png", b"x", "o/r", "pages.test/r", "T", http=http, dormir=lambda s: None)
+
+
 if __name__ == "__main__":
     unittest.main()

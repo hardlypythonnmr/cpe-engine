@@ -208,9 +208,10 @@ class Meta:
 def subir_publica(nombre, datos, repo, base, token, http=http_real, dormir=time.sleep):
     """Sube la imagen a assets/perfil/ del repo de archivos de DD (Contents API) y espera a que GitHub Pages la sirva.
     Devuelve la URL pública. base = DD_PAGES_BASE (https://.../assets/reels): la raíz del sitio es lo que va antes de /assets/."""
-    if "/assets/" not in base:
-        raise ErrorPerfil("DD_PAGES_BASE no tiene /assets/: no sé dónde está la raíz del sitio")
-    raiz = base.split("/assets/")[0]
+    if not base.startswith("https://"):
+        raise ErrorPerfil("DD_PAGES_BASE no es una URL https: no sé dónde está la raíz del sitio")
+    # 19-nov: la variable real es la raíz del sitio, sin /assets/reels (accion_reel.paginas_de ya lo resuelve igual)
+    raiz = base.split("/assets/")[0].rstrip("/")
     ruta = f"assets/perfil/{nombre}"
     api = f"https://api.github.com/repos/{repo}/contents/{ruta}"
     cab = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json", "User-Agent": "dd-perfil"}
