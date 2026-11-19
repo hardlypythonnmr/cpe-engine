@@ -48,3 +48,6 @@ Out: Fri 2026-11-27 21:15 New York (2026-11-28 02:15 UTC). Audience: someone awa
 - Pinned comment invites the confession the audience is already making.
 
 Sources: USNO API (aa.usno.navy.mil), Google suggest, mindbodygreen.com/articles/signs-from-the-universe, r/spirituality (thread 1gipfp3), a-z-animals.com waning gibbous symbolism, natalecho.com waxing vs waning, aurahealth.io waning moon rituals, vice.com daily moon phase pages.
+
+## Ajuste 19-nov: título en el caption
+aprobar.py exige que el caption del Reel lleve el título del Short. El título exacto ("I asked the moon for a sign. It said go to bed.") va ahora como primera línea, que es lo que se ve sin expandir; el gancho de búsqueda ("Asked the universe for a sign tonight?") queda justo después. El resto del copy no cambia.

@@ -1,22 +1,21 @@
 {
  "slug": "asked-the-moon-for-a-sign",
- "issue": 6,
- "version": 1,
- "estado": "aprobado",
- "sale_utc": "2026-11-19T03:30:00Z",
+ "issue": 118,
+ "version": 2,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-28T02:15:00Z",
  "datos_utc": "",
- "hash_contenido": "b87c5e32ddb8f48d7d765012eb4a5859f7241121fb1b16eca5af2ffd81e6ea16",
+ "hash_contenido": "499dde31a9aa42919490460e7757d639d14ec3752c423714e4c723656272bbf5",
  "hashes": {
-  "reel": "7972e0db09e7d130219641c2d9b6d7799bbc326aef9ba72799f1eaf71b8d14d5"
+  "reel": "8404d3185ed79983edd7fe7249f92839e04a02ba84ec3434556de72fa17839cc"
  },
  "canales": [
   "reel"
  ],
- "comentario_vista_previa_id": 6667926366,
+ "comentario_vista_previa_id": 7017629815,
  "fix": false,
  "aprobador": "hardlypythonnmr",
  "sin_cifras": true,
- "tanda": "instagram-19-20-nov",
- "aprobado_evento_utc": "2026-11-05T20:31:59Z",
- "issue_n_system": 962
+ "datos_max_h": 12.0,
+ "tanda": "luna-1128"
 }

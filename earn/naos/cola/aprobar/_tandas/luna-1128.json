@@ -1,0 +1,14 @@
+{
+ "nombre": "luna-1128",
+ "issue": 118,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "asked-the-moon-for-a-sign"
+ ],
+ "comentario_vista_previa_id": 7017630734,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-19T18:04:04Z",
+ "aviso_utc": "2026-11-19T18:04:04Z",
+ "aviso_canal": "github"
+}
