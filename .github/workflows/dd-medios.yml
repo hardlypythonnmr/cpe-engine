@@ -1,0 +1,40 @@
+# dd-medios: solo lee. Lista lo último publicado en la cuenta de Instagram de DD (feed e historias vivas) con id, hora,
+# enlace y el comienzo del caption. Sirve para anotar en publicados.csv lo que Meta publicó aunque devolvió error
+# (19-nov: Walmart, Albertsons y Apple salieron con error en la respuesta). No escribe nada ni hace commit.
+name: dd-medios
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  medios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/aprobar/registro.py
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/nombres_dd.py
+      - name: Medios recientes de DD
+        env:
+          MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
+        working-directory: earn/naos/motor/instagram
+        run: |
+          python3 - <<'PY'
+          import json, ig
+          ig.usar_marca("mercury")
+          for ruta in ("me/media", "me/stories"):
+              datos = ig.llamar_crudo("GET", ruta, {"fields": "id,media_type,timestamp,permalink,caption", "limit": 40}, anotar=False).get("data", [])
+              print(f"== {ruta}: {len(datos)}")
+              for m in datos:
+                  cap = " ".join((m.get("caption") or "").split())[:90]
+                  print(json.dumps({"id": m.get("id"), "tipo": m.get("media_type"), "hora": m.get("timestamp"),
+                                    "url": m.get("permalink"), "caption": cap}, ensure_ascii=False))
+          PY
