@@ -90,7 +90,7 @@ class TestApagadoPorDefecto(BasePlantilla):
     def test_agente_json_solo_q_de_d508_activa_y_las_de_d502_apagadas(self):
         """D-502: activas simple/worth_it@5 y simple/fine_print@4. Las @2 siguen listadas y apagadas, y the_number no se enciende en ninguna versión."""
         real = self.real()["marcas"]["mercury"]["plantillas_aprobadas"]
-        self.assertEqual(sorted(k for k in real if not k.startswith("dd/")),  # las dd/ (Difficult Decision) se prueban en TestDifficultDecision
+        self.assertEqual(sorted(k for k in real if not k.startswith("dd/")),  # las dd/ (Done Damages) se prueban en TestDifficultDecision
                          ["simple/fine_print@2", "simple/fine_print@4", "simple/the_number@2", "simple/worth_it@2", "simple/worth_it@5"])
         # 12-nov: el canal ya es Difficult Decision y DD_PUBLICAR está en on. Las de D-502 (formato viejo de Mercury) se apagan
         # para que no salgan solas en el canal de DD; queda encendida solo la Q de D-508.

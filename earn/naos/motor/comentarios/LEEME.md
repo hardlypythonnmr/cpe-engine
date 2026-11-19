@@ -153,7 +153,7 @@ D-290: `critica` e `ia_voz` las responde Cella (tipo modelo); `insulto` se silen
 
 **Sal de `autor_hash` (#904 C).** La sal vive solo en el entorno, en la variable `NAOS_SAL_AUTOR` (mínimo 16 caracteres; en Actions, el secreto del mismo nombre; en la rutina de Cella, la variable del entorno). Nunca en git. El hash es `HMAC-SHA256(sal, "<plataforma>:autor:<usuario en minúsculas>")` recortado a 16 hex: estable mientras la sal no cambie. Sin sal (o con una corta) `hash_autor` devuelve vacío y no escribe nada débil: `autor_hash` queda vacío, `es_tercero` queda sin dato salvo para la casa, `hash-autor` falla con un mensaje claro y `ronda` imprime un AVISO. Cambiar la sal rompe la continuidad: los hashes viejos y los de `propios.txt` dejan de coincidir.
 
-## Marca DD (Difficult Decision) y pedidos de tema (13-nov-2026)
+## Marca DD (Done Damages) y pedidos de tema (13-nov-2026)
 
 `--marca dd` (después de la orden: `ronda --marca dd`, `responder <id> ... --marca dd`, `silenciar <id> --marca dd`) corre este mismo sistema para DD en YouTube (canal `mercury` de `motor/youtube/canales.json`, token `MERCURY_OAUTH_*` o su alias `DD_OAUTH_*`), Instagram (`MERCURY_INSTAGRAM_TOKEN` o `DD_INSTAGRAM_TOKEN`) y la Página de Facebook (Graph API: `GET /{page}/published_posts`, `GET /{post-id}/comments?filter=toplevel`, `POST /{comment-id}/comments` con `message`; token de Página con `pages_read_engagement` y `pages_manage_engagement`; <https://developers.facebook.com/docs/graph-api/reference/object/comments/>). Sin `--marca` todo es NAOS, igual que antes. La voz está en `empresa/evolucion/2026-11-13-paralelo/evolucion/dd-respuestas/VOZ.md`; cómo encenderlo, en `ENCENDER.md` de esa carpeta.
 

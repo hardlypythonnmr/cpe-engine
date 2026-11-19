@@ -313,7 +313,7 @@ PENDIENTES_11C = {
     "walked-over",
 }
 
-# Otras lineas (Difficult Decision, mantras, explicadores) que no pasan por piezas8.json; fuera del arreglo de los titulos de la casa.
+# Otras lineas (Done Damages, mantras, explicadores) que no pasan por piezas8.json; fuera del arreglo de los titulos de la casa.
 # Pendiente de decidir su regla de titulo. SE VACIA cuando se decida. No agregar piezas nuevas.
 PENDIENTES_OTRAS_LINEAS = {
     "7-ways-you-say-let-me-know-if-you-need-anything-ranked-by-cella",

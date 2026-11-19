@@ -34,7 +34,7 @@ Reglas de la compuerta (verificar):
      su dictamen aprobó por plantilla aprobada y todos los controles de fallas_plantilla siguen en regla en la carpeta
      (plantilla listada y activa en agente.json, verificado.json y lector-linea.json de esta versión, medidas y forma,
      lente sin graves). Lo demás del punto 5 se pide igual. Con vara.json o estetico.json manda el punto 5 entero.
-  8. Carril D-520 (Difficult Decision; N, 16 y 17-nov-2026): con agente.json carriles.d520.activo en true, la fila del agente de
+  8. Carril D-520 (Done Damages; N, 16 y 17-nov-2026): con agente.json carriles.d520.activo en true, la fila del agente de
      una pieza de DD (marca mercury, slug dd-) vale sin dictamen: la mesa ya aprobaba todo lo de DD y N pidió que lo firme el
      agente, no su cuenta. Se piden igual la marca, los canales, la llave de Instagram, el desde_utc, el veto de N antes de
      salir (carriles.d520.veto_h, nunca menos de 1 h) y que nada suba a N: lo que el revisor de ley y verdad marcó sensible
@@ -998,7 +998,7 @@ SOLO_NAOS = ("reel", "carrusel", "imagen", "historia")  # Instagram: de otra mar
 DELATA_MERCURY = {"series": ["agreed", "lookup", "lineage", "odds_moved", "day_played", "news_before_noon", "today", "drops", "mercury"],
                   "campos": ["sello", "tramos", "kokoro", "evidencia"],
                   "nombres": ["slug", "clave", "serie", "carril", "seccion", "tanda", "canal", "canal_yt", "id"],
-                  "texto": ["mercury.now", "difficultdecisionhq"]}
+                  "texto": ["mercury.now", "difficultdecisionhq", "done_damages"]}
 
 
 def _numero(v):
@@ -1098,7 +1098,7 @@ def horas_veto_agente(p=None, reglas=None, slug=None):
     return general
 
 
-# ---------- carril D-520 (Difficult Decision; N, 16-nov-2026: "It should approve everything from dd and batch batches into
+# ---------- carril D-520 (Done Damages; N, 16-nov-2026: "It should approve everything from dd and batch batches into
 # just one approval from my side"; 17-nov: "yes do both") ----------
 # Desde D-520 la mesa aprobaba todo lo de DD poniendo el 👍 con la cuenta de N. El 17-nov N eligió que lo firme el agente
 # aprobador (D-461) con su propia fila, nunca como si fuera N. Una pieza de DD (marca mercury en pieza.json y slug dd-) entra

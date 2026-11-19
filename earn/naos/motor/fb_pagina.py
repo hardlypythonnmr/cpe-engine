@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""fb_pagina.py: publica en la Página de Facebook de Difficult Decision (DD) una pieza de DD que ya tiene el 👍 de N y ya salió en
+"""fb_pagina.py: publica en la Página de Facebook de Done Damages (DD) una pieza de DD que ya tiene el 👍 de N y ya salió en
 Instagram (imagen o carrusel), y lee cuánto rindió.
 
   python3 fb_pagina.py publicar <slug>                 SECO (por defecto): imprime lo que haría, sin llamar a ninguna API
@@ -113,7 +113,7 @@ def preparar(slug, de_verdad=False, cola=None, publicados=None, fb=None, base=No
     with open(ruta_pieza, encoding="utf-8") as f:
         pieza = json.load(f)
     if not es_de_dd(slug, pieza):
-        raise ErrorFb(f"NO SE PUBLICA: {slug} no es de Difficult Decision (canal {pieza.get('canal')!r}); esta Página es solo de DD")
+        raise ErrorFb(f"NO SE PUBLICA: {slug} no es de Done Damages (canal {pieza.get('canal')!r}); esta Página es solo de DD")
     tipo = tipo_de(pieza)
     if not tipo:
         raise ErrorFb(f"NO SE PUBLICA: {slug} es {pieza.get('canales')!r}; solo van a la Página las imágenes y los carruseles")

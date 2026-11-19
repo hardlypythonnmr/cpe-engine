@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""tablero_unico.py: la capa de datos del tablero único de NAOS y Difficult Decision (DD). Solo lee el repo; no usa red, no publica,
+"""tablero_unico.py: la capa de datos del tablero único de NAOS y Done Damages (DD). Solo lee el repo; no usa red, no publica,
 no escribe nada fuera de la salida JSON.
 
   python3 earn/naos/motor/tablero_unico.py                       escribe medicion/tablero/unico.json

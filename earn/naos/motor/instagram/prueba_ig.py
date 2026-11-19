@@ -1027,7 +1027,7 @@ class MercuryFacebook(Base):
         self.assertIn("Ninguna ruta falló", salida)
 
     def test_comando_cuenta_pagina_por_id_sin_business_management(self):
-        red = self.red({"me": {"id": "U1", "name": "sistema"}, "me/permissions": PERMS, "me/accounts": {"data": [{"id": "P1", "name": "Difficult Decision"}]},
+        red = self.red({"me": {"id": "U1", "name": "sistema"}, "me/permissions": PERMS, "me/accounts": {"data": [{"id": "P1", "name": "Done Damages"}]},
                         "P1": {"id": "P1", "instagram_business_account": {"id": IDM, "username": "done_damages"}},
                         "me/businesses": (403, err(200, msg="(#200) Requires business_management permission to manage the object"))})
         codigo, salida = self.cli("--marca", "mercury", "cuenta")

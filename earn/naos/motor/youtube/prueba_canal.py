@@ -192,7 +192,7 @@ class TestValidacion(Base):
 
 class FalsaMercury(Falsa):
     """El canal de Mercury recién creado: sin branding, sin listas, sin secciones."""
-    handle = "@difficultdecisionhq"
+    handle = "@done_damages"
 
     def __init__(self):
         super().__init__()

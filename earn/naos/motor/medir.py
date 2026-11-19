@@ -60,7 +60,7 @@ def marca_de(slug):
         sys.path.insert(0, str(MOTOR / "aprobar"))
         import registro  # noqa: E402
         p = registro._pieza_json(slug) or {}
-        dd = slug.startswith("dd-")  # Difficult Decision es de Mercury aunque la pieza ya no esté en cola/aprobar (sin pieza.json)
+        dd = slug.startswith("dd-")  # Done Damages es de Mercury aunque la pieza ya no esté en cola/aprobar (sin pieza.json)
         _marcas[slug] = ("mercury" if dd or registro.marca_delatada(p, slug, registro.reglas_agente()) else registro.marca_de(p),
                          str(p.get("serie") or ""))
     return _marcas[slug][0]

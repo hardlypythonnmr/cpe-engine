@@ -47,7 +47,7 @@ class Base(unittest.TestCase):
             aprobar.registrar(e, ("2026-10-15T14:07:11Z", "reaccion", True, gh.yo), gh, self.cola)
         self.desc = os.path.join(t, "d.txt")
         open(self.desc, "w").write(aprobar.cargar("uno", self.cola)["descripcion"])
-        self.llamadas, self.mio, self.gastos = [], {"items": [{"id": "UCytkPYhBZpN_wl9E4o0W19A", "snippet": {"customUrl": "@difficultdecisionhq"}}]}, []
+        self.llamadas, self.mio, self.gastos = [], {"items": [{"id": "UCytkPYhBZpN_wl9E4o0W19A", "snippet": {"customUrl": "@done_damages"}}]}, []
         for obj, nombre, valor in ((subir, "llamar", self.llamar), (subir, "libro_de", lambda c: self.libro_mercury),
                                    (subir.yt, "gastar", lambda n: self.gastos.append(("naos", n))),
                                    (subir.ytapi, "gastar", lambda c, n: self.gastos.append((c, n)))):
@@ -172,10 +172,10 @@ class TestMercury(Base):
         self.assertEqual(self.subidas(), [])
 
     def test_canal_id_si_esta_en_canales_json_manda(self):
-        cfg = {"nombre": "Mercury", "handle": "@difficultdecisionhq", "canal_id": "UCytkPYhBZpN_wl9E4o0W19A"}
+        cfg = {"nombre": "Done Damages", "handle": "@done_damages", "canal_id": "UCytkPYhBZpN_wl9E4o0W19A"}
         with mock.patch.object(subir.ytapi, "config", return_value=cfg):
             self.assertEqual(subir.canal_equivocado("mercury", self.mio), "")
-            self.assertIn("UCytkPYhBZpN_wl9E4o0W19A", subir.canal_equivocado("mercury", {"items": [{"id": "UCotro", "snippet": {"customUrl": "@difficultdecisionhq"}}]}))
+            self.assertIn("UCytkPYhBZpN_wl9E4o0W19A", subir.canal_equivocado("mercury", {"items": [{"id": "UCotro", "snippet": {"customUrl": "@done_damages"}}]}))
 
     def test_sube_con_el_canal_correcto_y_anota_en_el_libro_de_mercury(self):
         self.con_variables()

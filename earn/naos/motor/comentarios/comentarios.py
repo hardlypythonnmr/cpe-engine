@@ -33,7 +33,7 @@ banderas todo es simulacro (en crisis: --publicar responde, --abrir abre el issu
   respuesta de categoría acto o ia, la ronda la lista y Cella puede responder una vez más en ese hilo (mismas capas y topes).
   python3 comentarios.py hash-autor <plataforma> <cuenta>   hash de una cuenta de N o de la casa para propios.txt (D-323)
 
-  --marca dd (después de la orden, en cualquiera: `ronda --marca dd`, `responder <id> ... --marca dd`): la marca Difficult Decision. Sus reglas-dd.json,
+  --marca dd (después de la orden, en cualquiera: `ronda --marca dd`, `responder <id> ... --marca dd`): la marca Done Damages. Sus reglas-dd.json,
   registro-dd.csv, registro-rondas-dd.csv, estado en ~/.cache/naos-comentarios/dd, firma " · DD", topes y fronteras de VOZ.md (control de salida con
   consejo de inversión, juicio moral a un nombre y cifras que no estén en el pedido de la pieza). Lee y responde YouTube (canal mercury de canales.json),
   Instagram y la Página de Facebook (Graph API). Sin --marca todo es NAOS, igual que siempre.
@@ -81,7 +81,7 @@ LIMITE_TEXTO = {"youtube": 10000, "instagram": 2200, "facebook": 8000}
 YT = "https://www.googleapis.com/youtube/v3/"
 UTC = dt.timezone.utc
 
-# ---------- marcas: naos (todo como siempre) y dd (Difficult Decision; VOZ.md de Evolución, 13-nov) ----------
+# ---------- marcas: naos (todo como siempre) y dd (Done Damages; VOZ.md de Evolución, 13-nov) ----------
 MARCA = "naos"
 MARCAS = ("naos", "dd")
 RONDAS_NOMBRE = "registro-rondas.csv"
@@ -200,7 +200,7 @@ class Real:
     def _yt(self):
         import yt
         if self.marca == "dd" and not self._yt_listo:
-            yt.usar_canal("mercury")  # canales.json: el canal de DD (@difficultdecisionhq), su token MERCURY_OAUTH_*, su clave y su libro de cuota
+            yt.usar_canal("mercury")  # canales.json: el canal de DD (@done_damages), su token MERCURY_OAUTH_*, su clave y su libro de cuota
             self._yt_listo = True
         return yt
 
@@ -257,7 +257,7 @@ class Real:
     def _ig(self):
         import ig
         if self.marca == "dd":
-            ig.usar_marca("mercury")  # la cuenta de Instagram de DD (@difficultdecisionhq); el token es MERCURY_INSTAGRAM_TOKEN (alias de DD_INSTAGRAM_TOKEN)
+            ig.usar_marca("mercury")  # la cuenta de Instagram de DD (@done_damages); el token es MERCURY_INSTAGRAM_TOKEN (alias de DD_INSTAGRAM_TOKEN)
         return ig
 
     def ig_get(self, ruta, **p):
@@ -2164,7 +2164,7 @@ def parser():
     ap.add_argument("--simulado", metavar="FIXTURE.json", help="usa APIs de mentira desde ese fixture (pruebas, sin red)")
     sub0 = ap.add_subparsers(dest="orden", required=True)
     padre = argparse.ArgumentParser(add_help=False)
-    padre.add_argument("--marca", choices=MARCAS, default="naos", help="naos (por defecto, todo como siempre) o dd (Difficult Decision: reglas-dd.json, registro-dd.csv...). Va después de la orden")
+    padre.add_argument("--marca", choices=MARCAS, default="naos", help="naos (por defecto, todo como siempre) o dd (Done Damages: reglas-dd.json, registro-dd.csv...). Va después de la orden")
 
     class _Sub:  # cada orden hereda --marca
         def add_parser(self, nombre, **kw):

@@ -277,7 +277,7 @@ Tanda del agente (D-461): veto de N hasta {{hasta}}
 <!-- naos:cuerpo -->
 
 <!-- seccion: tanda_cuerpo_agente_d520 -->
-@{{aprobador}} el agente aprobó estas {{n}} piezas de Difficult Decision por D-520 (tu decisión del 16-nov: "It should approve everything from dd and batch batches into just one approval from my side"; el 17-nov pediste que las firme el agente y no tu cuenta). Pasaron la revisión de ley y verdad de la línea; lo que el revisor marcó sensible no está aquí, va a tu tanda. Tu veto está abierto hasta {{hasta}}; antes de esa hora no sale nada. Los Shorts, además, se pueden vetar hasta 12 horas después de publicar.
+@{{aprobador}} el agente aprobó estas {{n}} piezas de Done Damages por D-520 (tu decisión del 16-nov: "It should approve everything from dd and batch batches into just one approval from my side"; el 17-nov pediste que las firme el agente y no tu cuenta). Pasaron la revisión de ley y verdad de la línea; lo que el revisor marcó sensible no está aquí, va a tu tanda. Tu veto está abierto hasta {{hasta}}; antes de esa hora no sale nada. Los Shorts, además, se pueden vetar hasta 12 horas después de publicar.
 
 | Pieza | Marca | Puntaje | Lector estético | Lente |
 |---|---|---|---|---|

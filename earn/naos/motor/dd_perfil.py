@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""dd_perfil.py: pone por API los textos y las imágenes del perfil de Difficult Decision (DD) donde la API lo permite.
+"""dd_perfil.py: pone por API los textos y las imágenes del perfil de Done Damages (DD) donde la API lo permite.
 
   python3 dd_perfil.py                              --seco (por defecto): imprime lo que haría, sin red, sin credenciales
   python3 dd_perfil.py --de-verdad --foto b --banner a --portada a     corre de verdad lo elegido

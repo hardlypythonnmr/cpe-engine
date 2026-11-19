@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pruebas de `comentarios.py --marca dd` (Difficult Decision) y de los pedidos de tema de las dos marcas, con APIs simuladas.
+"""Pruebas de `comentarios.py --marca dd` (Done Damages) y de los pedidos de tema de las dos marcas, con APIs simuladas.
 Sin red, sin credenciales; todo se escribe en una carpeta temporal (nunca en los libros del repo).
 
   python3 prueba_comentarios_dd.py
@@ -33,7 +33,7 @@ def fixture_dd():
             P.yt_hilo("ytC", "I want to kill myself", autor="Cri", canal_autor="UCcri"),
             P.yt_hilo("ytNow", "Nice one", autor="Hoy", canal_autor="UChoy", fecha=C.iso(C.ahora())),
         ]},
-        "instagram": {"usuario": "difficultdecisionhq", "media": [
+        "instagram": {"usuario": "done_damages", "media": [
             {"id": "m1", "permalink": "https://www.instagram.com/p/dd1/", "comments_count": 2, "comentarios": [
                 P.ig_com("igQ", "Why did they pick that number and not more?", usuario="luz"),
                 P.ig_com("igT", "Could you cover Intel next?", usuario="mo")]}]},

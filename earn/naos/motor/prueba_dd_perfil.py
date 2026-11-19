@@ -22,7 +22,7 @@ def args(**k):
 def yt_doble(canal=d.CANAL_YT):
     def resp(metodo, ruta, params, cuerpo):
         if metodo == "GET":
-            return {"items": [{"id": canal, "brandingSettings": {"channel": {"title": "Difficult Decision", "country": "US", "description": "vieja"},
+            return {"items": [{"id": canal, "brandingSettings": {"channel": {"title": "Done Damages", "country": "US", "description": "vieja"},
                                                                "image": {"bannerExternalUrl": "https://yt3/viejo", "bannerImageUrl": "https://yt3/solo-lectura"}}}]}
         if ruta.endswith("channelBanners/insert"):
             return {"url": "https://yt3/nuevo"}
@@ -82,7 +82,8 @@ class Seco(unittest.TestCase):
         self.assertLessEqual(len(TEXTOS["youtube_descripcion"]), 1000)
         self.assertLessEqual(len(TEXTOS["facebook_about"]), 100)
         self.assertLessEqual(len(TEXTOS["instagram_bio"]), 150)
-        for k, v in TEXTOS.items():
+        for k in ("youtube_descripcion", "instagram_bio", "facebook_about", "facebook_description"):  # los campos que se publican (textos.json trae además notas y opciones)
+            v = TEXTOS[k]
             self.assertIn("Synthetic voice", v, k) if k != "facebook_description" else self.assertIn("Synthetic voice", v)
             self.assertNotIn("—", v)
             self.assertNotIn("–", v)
@@ -118,7 +119,7 @@ class YouTube(unittest.TestCase):
         self.assertEqual(esc[0]["cabeceras"]["Content-Type"], "image/png")
         b = esc[1]["cuerpo"]["brandingSettings"]
         self.assertEqual(b["channel"]["description"], TEXTOS["youtube_descripcion"])
-        self.assertEqual(b["channel"]["title"], "Difficult Decision")  # lo demás se conserva
+        self.assertEqual(b["channel"]["title"], "Done Damages")  # lo demás se conserva
         self.assertEqual(b["channel"]["country"], "US")
         self.assertEqual(b["image"], {"bannerExternalUrl": "https://yt3/nuevo"})  # nada de solo lectura
         self.assertEqual(esc[1]["cuerpo"]["id"], d.CANAL_YT)

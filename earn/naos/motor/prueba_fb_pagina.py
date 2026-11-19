@@ -112,7 +112,7 @@ class Compuerta(Base):
 
     def test_se_niega_si_no_es_de_dd(self):
         s = self.pieza(slug="naos-prueba", canal="naos")
-        with self.assertRaisesRegex(fb.ErrorFb, "no es de Difficult Decision"):
+        with self.assertRaisesRegex(fb.ErrorFb, "no es de Done Damages"):
             self.correr(s)
 
     def test_vale_canal_dd_aunque_el_slug_no_empiece_con_dd(self):

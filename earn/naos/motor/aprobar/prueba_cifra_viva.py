@@ -98,7 +98,7 @@ class BaseViva(pa.BaseAgente):
     # --- subir.py de verdad, con YouTube de mentira ---
     def llamar(self, metodo, url, data=None, headers=None):
         if "channels" in url:
-            return 200, {}, {"items": [{"id": "UCytkPYhBZpN_wl9E4o0W19A", "snippet": {"customUrl": "@difficultdecisionhq"}}]}
+            return 200, {}, {"items": [{"id": "UCytkPYhBZpN_wl9E4o0W19A", "snippet": {"customUrl": "@done_damages"}}]}
         if metodo == "POST" and "uploadType=resumable" in url:
             self.subidas.append(json.loads(data)["status"])
             return 200, {"Location": "https://upload.example/x"}, {}

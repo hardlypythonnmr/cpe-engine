@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""nombres_dd.py: las credenciales de Difficult Decision se llaman DD_*; el código viejo las lee como MERCURY_*. Solo stdlib.
+"""nombres_dd.py: las credenciales de Done Damages se llaman DD_*; el código viejo las lee como MERCURY_*. Solo stdlib.
 
 Las llaves de DD se crearon como DD_* (N, 15-nov). Mercury nunca tuvo llaves propias (se cerró por D-504 y pasó a ser DD,
 D-506), pero el código y canales.json todavía piden MERCURY_*. alias() copia cada DD_X que exista sobre su MERCURY_X, así
