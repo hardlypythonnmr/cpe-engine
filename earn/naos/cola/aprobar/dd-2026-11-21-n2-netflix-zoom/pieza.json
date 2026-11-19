@@ -1,0 +1,73 @@
+{
+ "slug": "dd-2026-11-21-n2-netflix-zoom",
+ "titulo": "Netflix Raising Prices: 'A Little More' vs. $8.7B Profit",
+ "clave": "2026-11-21|mercury|dd2|2026-11-21-n2-netflix-zoom",
+ "sale_utc": "2026-11-21T14:00:00Z",
+ "caption": "Netflix Raising Prices: 'A Little More' vs. $8.7B Profit\n\nNetflix raising prices, in its own words: \"we will occasionally ask our members to pay a little more.\" (Q4 2024 shareholder letter)\n\n2024 net income, from the 10-K: $8,711,631,000. About $8.7 billion. A little.\n\nSources: Netflix Q4 2024 shareholder letter (8-K Ex. 99.1); Netflix 10-K 2024.\n\n#Netflix #NetflixPriceIncrease #NetflixPriceHike #Streaming #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Netflix raising prices: why is Netflix so expensive now? Netflix said it in its own words. In its Q4 2024 letter to shareholders, filed with the SEC as an exhibit to an 8-K, Netflix wrote: \"we will occasionally ask our members to pay a little more.\"\n\nHow much did Netflix make? Its 10-K for 2024, the annual report every public company files with the SEC, lists net income of $8,711,631,000. Net income is the profit left after all costs and taxes: about $8.7 billion.\n\nThis short zooms in on both lines, straight from the filings. \"A little more\", next to $8.7 billion. A little.\n\nSources: Netflix Q4 2024 shareholder letter (8-K, Ex. 99.1); Netflix Form 10-K for 2024.\n\n#Netflix #NetflixPriceIncrease #NetflixPriceHike #Streaming #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video zooming into Netflix's Q4 2024 shareholder letter, highlighting 'a little more' from 'we will occasionally ask our members to pay a little more', then cutting to Netflix's 2024 net income of $8,711,631,000 from its 10-K.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "n2-netflix-zoom",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000033/ex991_q424.htm",
+   "medio": "SEC EDGAR · Netflix 8-K Ex. 99.1",
+   "titulo": "Netflix Q4 2024 shareholder letter",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+   "medio": "SEC EDGAR · Netflix 10-K 2024",
+   "titulo": "Netflix 10-K for 2024",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "13.6 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Netflix said it will occasionally ask members to pay... a little more. Twenty twenty-four net income? Eight point seven BILLION dollars. A little.",
+ "tramos": [
+  {
+   "voz": "Netflix said it will occasionally ask members to pay... a little more. Twenty twenty-four net income? Eight point seven BILLION dollars. A little.",
+   "t0": 0.2,
+   "t1": 12.12
+  }
+ ],
+ "sintetico": true
+}

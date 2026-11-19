@@ -1,0 +1,73 @@
+{
+ "slug": "dd-2026-11-21-h2-hp-oficina",
+ "titulo": "HP Job Cuts: 4,000 to 6,000 Jobs, $1.1B to Shareholders",
+ "clave": "2026-11-21|mercury|dd2|2026-11-21-h2-hp-oficina",
+ "sale_utc": "2026-11-21T22:00:00Z",
+ "caption": "HP Job Cuts: 4,000 to 6,000 Jobs, $1.1B to Shareholders\n\nHP job cuts, from the filings. HP's 8-K (Nov 22, 2022) called it \"operational efficiency\": a plan to cut approximately 4,000 to 6,000 employees by the end of fiscal 2025. Fiscal 2023: $1.1 billion returned to shareholders (10-K). Each desk on screen is about 70 to 100 jobs (our math).\n\nSources: HP 8-K (Nov 22, 2022); HP 10-K (fiscal 2023).\n\n#HP #HPLayoffs #Layoffs #JobCuts #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "HP job cuts: how many jobs did HP plan to cut, and where did the money go? On Nov 22, 2022, HP filed an 8-K, the form a public company uses to report major events. It describes \"a plan intended to enable digital transformation, portfolio optimization and operational efficiency\", with a reduction of approximately 4,000 to 6,000 employees by the end of fiscal 2025.\n\nIn fiscal 2023, HP's 10-K says it returned $1.1 billion to shareholders.\n\nThe video shows an office of 60 desks emptying out. Each desk stands for about 70 to 100 jobs (our math: 4,000 to 6,000 jobs over 60 desks). Then the money stacks up.\n\nThis is the plan in HP's November 2022 filing.\n\nSources: HP 8-K, Item 2.05, filed Nov 22, 2022; HP 10-K, fiscal 2023.\n\n#HP #HPLayoffs #Layoffs #JobCuts #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video of an illustrated office with 60 desks under the words 'Operational Efficiency' from HP's Nov 22, 2022 8-K. Workers disappear as the plan to cut about 4,000 to 6,000 jobs is read, then a stack of coins rises for the $1.1 billion HP returned to shareholders in fiscal 2023.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "h2-hp-oficina",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721722000061/hpq-20221118.htm",
+   "medio": "SEC EDGAR · HP 8-K",
+   "titulo": "HP 8-K, Item 2.05, Nov 22, 2022",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721723000100/hpq-20231031.htm",
+   "medio": "SEC EDGAR · HP 10-K FY2023",
+   "titulo": "HP 10-K, fiscal 2023",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "14.6 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "HP called it operational efficiency. The plan: cut about four to six thousand jobs. In fiscal twenty twenty-three, one point one billion dollars went back to shareholders.",
+ "tramos": [
+  {
+   "voz": "HP called it operational efficiency. The plan: cut about four to six thousand jobs. In fiscal twenty twenty-three, one point one billion dollars went back to shareholders.",
+   "t0": 0.2,
+   "t1": 13.08
+  }
+ ],
+ "sintetico": true
+}

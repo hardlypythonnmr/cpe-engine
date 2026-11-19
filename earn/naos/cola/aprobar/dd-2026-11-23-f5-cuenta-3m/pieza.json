@@ -1,0 +1,74 @@
+{
+ "slug": "dd-2026-11-23-f5-cuenta-3m",
+ "titulo": "3M PFAS Settlement Payout: Up to $12.5B, Paid Through 2036",
+ "clave": "2026-11-23|mercury|dd2|2026-11-23-f5-cuenta-3m",
+ "sale_utc": "2026-11-23T22:00:00Z",
+ "caption": "3M PFAS Settlement Payout: Up to $12.5B, Paid Through 2036\n\n3M PFAS settlement payout, on a timeline. Up to $12.5 billion to resolve public water systems' claims, paid annually from 2024 through 2036 (3M 8-K, Jun 22, 2023). About ten years to go (our math). 3M does not admit any liability.\n\nSee you in 2036.\n\nSource: 3M 8-K, Jun 22, 2023.\n\n#3M #PFAS #PFASSettlement #ForeverChemicals #DrinkingWater #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "3M PFAS settlement payout: when does the money actually get paid? Not all at once. 3M's 8-K from June 22, 2023 says 3M will pay $10.5 billion to $12.5 billion in total to resolve the claims of public water systems, with payments made annually from 2024 through 2036.\n\nPFAS are a family of man-made chemicals often called \"forever chemicals\". This settlement covers PFAS in public water systems, the utilities that deliver drinking water.\n\nHow long is left? From today, about ten years of payments (our math: 2036 minus 2026). The timeline in the video marks where we are.\n\n3M does not admit any liability or wrongdoing, according to the same filing.\n\nSee you in 2036. We'll check back every year.\n\nSource: 3M Form 8-K, Jun 22, 2023 (SEC).\n\n#3M #PFAS #PFASSettlement #ForeverChemicals #DrinkingWater #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video of an illustrated glass labeled 'PFAS?' filling drop by drop from a tap under 'Up to $12.5B', with a timeline of 3M's annual payments from 2024 to 2036 and a 'Today' marker showing about ten years to go. Ends on 'See you in 2036.'",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "f5-cuenta-3m",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674023000048/mmm-20230622.htm",
+   "medio": "SEC EDGAR · 3M 8-K",
+   "titulo": "3M 8-K, Jun 22, 2023",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "24.7 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Countdown. 3M agreed to pay up to twelve point five billion dollars over PFAS in public water systems. But not all at once. Payments run from twenty twenty-four... all the way to twenty thirty-six. Today? About ten years to go. We'll be here. Every year.",
+ "tramos": [
+  {
+   "voz": "Countdown. 3M agreed to pay up to twelve point five billion dollars over PFAS in public water systems.",
+   "t0": 0.2,
+   "t1": 8.2
+  },
+  {
+   "voz": "But not all at once. Payments run from twenty twenty-four... all the way to twenty thirty-six.",
+   "t0": 8.7,
+   "t1": 14.86
+  },
+  {
+   "voz": "Today? About ten years to go. We'll be here. Every year.",
+   "t0": 15.3,
+   "t1": 20.74
+  }
+ ],
+ "sintetico": true
+}

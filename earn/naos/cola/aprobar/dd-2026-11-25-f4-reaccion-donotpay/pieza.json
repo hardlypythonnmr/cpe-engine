@@ -1,0 +1,106 @@
+{
+ "slug": "dd-2026-11-25-f4-reaccion-donotpay",
+ "titulo": "DoNotPay 'Robot Lawyer' Ad vs. the FTC: $193,000 Settlement",
+ "clave": "2026-11-25|mercury|dd2|2026-11-25-f4-reaccion-donotpay",
+ "sale_utc": "2026-11-25T14:00:00Z",
+ "caption": "DoNotPay 'Robot Lawyer' Ad vs. the FTC: $193,000 Settlement\n\nDoNotPay robot lawyer, in its own words: \"the world's first robot lawyer.\" Its CEO offered $1,000,000 to anyone who'd argue at the Supreme Court with AirPods in, repeating the bot.\n\nThe FTC alleges DoNotPay never tested whether its chatbot was as good as a human lawyer, and hired no attorneys. Settlement: $193,000. No admission.\n\nAd recreated as an illustration, not the original footage.\n\nSources: FTC press release, Sep 2024; FTC final order, Feb 2025; Gizmodo and Legal Cheek, Jan 2023.\n\n#DoNotPay #RobotLawyer #AILawyer #FTC #AI #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "DoNotPay robot lawyer: what happened? DoNotPay sold its subscription as \"the world's first robot lawyer\" and told people they could sue for assault without a lawyer.\n\nIn January 2023 its CEO, Joshua Browder, posted: \"DoNotPay will pay any lawyer or person $1,000,000 with an upcoming case in front of the United States Supreme Court to wear AirPods and let our robot lawyer argue the case by repeating exactly what it says.\"\n\nThen came the FTC, the Federal Trade Commission, the US consumer protection agency. The FTC alleges DoNotPay never tested whether its AI chatbot's output was equal to the level of a human lawyer, and that the company itself did not hire or retain any attorneys.\n\nHow did it end? DoNotPay agreed to pay $193,000 under an FTC consent order, a settlement with the agency. It neither admitted nor denied the allegations. The final order also bars it from claiming its service works like a real lawyer unless it has the evidence to back that up.\n\nThe ad in this video is recreated as an illustration, not the original footage. Quotes are as cited by the FTC and in press coverage.\n\nSources: FTC press release, Sep 25, 2024; FTC final order, announced Feb 11, 2025; Gizmodo and Legal Cheek, Jan 9, 2023.\n\n#DoNotPay #RobotLawyer #AILawyer #FTC #AI #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Vertical video, 39 seconds, hand-drawn style with real document clippings: a recreated illustration of DoNotPay's 'world's first robot lawyer' ad, the CEO's $1,000,000 Supreme Court AirPods offer, and the FTC case that ended in a $193,000 settlement.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "f4-reaccion-donotpay",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes",
+   "medio": "FTC",
+   "titulo": "FTC Announces Crackdown on Deceptive AI Claims and Schemes, Sep 25, 2024",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.ftc.gov/node/87474",
+   "medio": "FTC",
+   "titulo": "FTC finalizes order with DoNotPay, Feb 11, 2025 (vote 5-0, Jan 16, 2025)",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2323042_donotpay_decision_and_order_0.pdf",
+   "medio": "FTC",
+   "titulo": "DoNotPay Decision and Order, Docket C-4812, issued Jan 14, 2025",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://gizmodo.com/donotpay-ai-offer-lawyer-1-million-supreme-court-airpod-1849964761",
+   "medio": "Gizmodo",
+   "titulo": "DoNotPay offers $1 million to lawyer to use its AI at the Supreme Court, Jan 2023",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": false,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "4 of 4 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "38.6 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "An AI company ran this pitch: the world's first robot lawyer. Sue for assault... without a lawyer. Its CEO even offered one million dollars to any lawyer who'd argue at the Supreme Court... with AirPods in, repeating the bot. Then the F.T.C. complaint. It alleges DoNotPay never tested whether its bot was as good as a human lawyer. And the company itself didn't hire a single attorney. The settlement? One hundred ninety-three thousand dollars. No admission. The robot lawyer... settled.",
+ "tramos": [
+  {
+   "voz": "An AI company ran this pitch: the world's first robot lawyer. Sue for assault... without a lawyer.",
+   "t0": 0.2,
+   "t1": 8.04
+  },
+  {
+   "voz": "Its CEO even offered one million dollars to any lawyer who'd argue at the Supreme Court... with AirPods in, repeating the bot.",
+   "t0": 8.6,
+   "t1": 17.4
+  },
+  {
+   "voz": "Then the F.T.C. complaint. It alleges DoNotPay never tested whether its bot was as good as a human lawyer. And the company itself didn't hire a single attorney.",
+   "t0": 18.0,
+   "t1": 28.64
+  },
+  {
+   "voz": "The settlement? One hundred ninety-three thousand dollars. No admission. The robot lawyer... settled.",
+   "t0": 29.2,
+   "t1": 37.04
+  }
+ ],
+ "sintetico": true
+}

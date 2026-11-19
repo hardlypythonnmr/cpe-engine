@@ -1,0 +1,79 @@
+{
+ "slug": "dd-2026-11-24-f8-quien-paga-wf",
+ "titulo": "Wells Fargo Settlement: Who Gets the $3.7 Billion?",
+ "clave": "2026-11-24|mercury|dd2|2026-11-24-f8-quien-paga-wf",
+ "sale_utc": "2026-11-24T22:00:00Z",
+ "caption": "Wells Fargo settlement: who gets the $3.7 billion? $1.7 billion is a civil penalty to the CFPB's Civil Penalty Fund. More than $2 billion is redress back to customers, across more than 16 million accounts. Split evenly: about $125 per account (our math, an average). Wells Fargo agreed without admitting or denying the findings.\n\nSources: CFPB press release and consent order, Dec 20, 2022.\n\n#WellsFargo #WellsFargoSettlement #CFPB #BankSettlement #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.\n\nLink in bio.",
+ "descripcion": "Wells Fargo settlement: who actually gets the $3.7 billion? In December 2022 the CFPB (Consumer Financial Protection Bureau, the federal regulator for consumer finance) ordered Wells Fargo Bank to pay more than $2 billion in redress to consumers and a $1.7 billion civil penalty, over auto loans, mortgages and deposit accounts. Wells Fargo agreed without admitting or denying the findings.\n\nWhere does the $1.7 billion go? It is a fine paid to the CFPB's Civil Penalty Fund, which the CFPB says is used to provide relief to victims of consumer financial law violations. It is not the refund for these accounts.\n\nWho gets the rest? More than $2 billion goes back to customers, across more than 16 million affected accounts. Split evenly, that is roughly $125 per account (our math: $2 billion divided by 16 million). That is an average, not what any one customer receives.\n\nSources: CFPB press release and consent order (2022-CFPB-0011), Dec 20, 2022.\n\n#WellsFargo #WellsFargoSettlement #CFPB #BankSettlement #DoneDamages\n\nDone Damages names the company and shows the filing.\nFollow @done_damages and name the next company in the comments.",
+ "alt": "Short video of illustrated money bags under '$3.7 billion': one bag for the $1.7 billion civil penalty, one for more than $2 billion back to customers across more than 16 million accounts, then a yellow card reading 'Split evenly: about $125 per account, our math'.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "cifras_fijas": true,
+ "serie": "dd2",
+ "formato": "short",
+ "origen": "f8-quien-paga-wf",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts/",
+   "medio": "CFPB",
+   "titulo": "CFPB Orders Wells Fargo to Pay $3.7 Billion, Dec 20, 2022",
+   "hora_utc": "2026-11-19T17:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "each quote and figure found word for word in its open source (file `verificado.json`, all green)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer, rounded down; facts side by side, each with its filing"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "30.6 s, 9:16, synthetic voice, disclosed"
+  }
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Wells Fargo got hit with three point seven billion dollars. So... who gets the money? One point seven billion: a civil penalty, into a government fund. Not straight to you. More than two billion: back to customers. More than sixteen million accounts. Split it evenly? Roughly a hundred twenty-five bucks an account. Our math.",
+ "tramos": [
+  {
+   "voz": "Wells Fargo got hit with three point seven billion dollars. So... who gets the money?",
+   "t0": 0.2,
+   "t1": 7.0
+  },
+  {
+   "voz": "One point seven billion: a civil penalty, into a government fund. Not straight to you.",
+   "t0": 7.5,
+   "t1": 13.9
+  },
+  {
+   "voz": "More than two billion: back to customers. More than sixteen million accounts.",
+   "t0": 14.1,
+   "t1": 20.26
+  },
+  {
+   "voz": "Split it evenly? Roughly a hundred twenty-five bucks an account. Our math.",
+   "t0": 20.7,
+   "t1": 26.54
+  }
+ ],
+ "sintetico": true
+}
