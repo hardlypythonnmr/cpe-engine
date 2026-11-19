@@ -95,6 +95,18 @@ sys.path.insert(0, AQUI)
 sys.path.insert(0, os.path.join(AQUI, ".."))
 import registro  # noqa: E402
 
+
+class _SinEmbudo:   # checkout parcial sin motor/embudo.py (naos-reel.yml, dd-fb.yml): sin avisos ni url_largo, nada se rompe
+    avisos = staticmethod(lambda p: [])
+    escribir_url_largo = staticmethod(lambda p, url: None)
+    es_largo = staticmethod(lambda p: False)
+
+
+try:
+    import embudo  # motor/embudo.py: corto -> largo de YouTube -> página de la estrategia (N, 19-nov); import suelto a propósito
+except ImportError:
+    embudo = _SinEmbudo()
+
 RAIZ = os.path.normpath(os.path.join(AQUI, "..", ".."))  # earn/naos
 COLA = os.path.join(RAIZ, "cola", "aprobar")
 ETIQUETAS = ("por-aprobar", "aprobado", "publicado", "error", "caducado", "vp-aprobado", "agente-aprobado")  # vp-aprobado: tanda del VP (D-274)
@@ -599,6 +611,8 @@ def abrir(slug, gh, cola=None, seco=False, git_=False):
     malos = sin_faststart(p, cola)
     if malos:
         sys.exit("NO SE ABRE:\n  " + "\n  ".join(malos))
+    for av in embudo.avisos(p):   # aviso, no bloqueo (al principio): corto sin enlace al largo o largo con {URL_PAGINA}
+        print(f"AVISO {slug}: {av}", file=sys.stderr)
     rama, repo = os.environ.get("NAOS_RAMA", "main"), getattr(gh, "repo", os.environ.get("GITHUB_REPOSITORY", "N/naos-motor"))
     base = cola or COLA
     primera = not any(leer_estado(s, cola) for s in (os.listdir(base) if os.path.isdir(base) else []) if s != slug)
@@ -872,6 +886,17 @@ def cerrar(slug, short, reel, gh, cola=None, enlaces=None, semana=None, carrusel
     registro.escribir(filas)
     if enlaces and short:
         escribir_enlace(slug, short, reel, enlaces, semana, cola)
+    if largo and short:   # embudo: el largo ya tiene URL real; sus cortos la leen de estrategia.json (url_largo)
+        try:   # el embudo nunca deja la pieza a medias: el registro ya se escribió, el issue y el estado se cierran igual
+            pz = cargar(slug, cola)
+            r = embudo.escribir_url_largo(pz, short)
+        except Exception as ex:  # noqa: BLE001
+            pz, r = {}, None
+            print(f"AVISO {slug}: el embudo falló ({ex}): url_largo queda por escribir a mano", file=sys.stderr)
+        if r:
+            print(f"{r}: url_largo -> {short}")
+        elif pz.get("estrategia") and embudo.es_largo(pz):
+            print(f"AVISO {slug}: no escribí url_largo en {pz['estrategia']} (no está, o no se puede leer; estrategia.json vive en n-system): url_largo queda por escribir a mano", file=sys.stderr)
     if e.get("tanda"):  # el issue es de la tanda: se comenta la pieza y se cierra cuando ninguna pieza sigue viva
         comentar(gh, e["issue"], llenar(plantilla()["tanda_publicada"], slug=slug, url_short=short or "n/a",
                                         url_reel=reel or carrusel or imagen or historia or "n/a"))
@@ -1906,6 +1931,9 @@ def abrir_tanda(nombre, slugs, gh, cola=None, seco=False, git_=False, vp=False, 
     listas, mas = _previews_tanda(slugs, lambda s: ((leer_estado(s, cola) or {}).get("version", 0)) + 1, plt, cola, rama, repo)
     for s in slugs:  # después de las huellas: el LFS ya está bajado
         problemas += sin_faststart(cargar(s, cola), cola)
+    for s in slugs:   # embudo (N, 19-nov): aviso, no bloqueo
+        for av in embudo.avisos(cargar(s, cola)):
+            print(f"AVISO {s}: {av}", file=sys.stderr)
     reglas, hasta = None, None
     if vp:  # D-274: antes de crear nada, cada pieza tiene que caber en la regla del VP; si una no cabe, va a la tanda de N
         reglas = registro.reglas_vp()

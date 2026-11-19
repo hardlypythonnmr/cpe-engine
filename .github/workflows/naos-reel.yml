@@ -123,6 +123,8 @@ jobs:
             /.gitattributes
             /earn/naos/motor/aprobar/
             /earn/naos/motor/separacion_ig.py
+            /earn/naos/motor/embudo.py
+            /earn/naos/motor/subtitulos.py
             /earn/naos/motor/instagram/
             /earn/naos/motor/nombres_dd.py
             /earn/naos/motor/kanban_sync.py
@@ -423,6 +425,8 @@ jobs:
             /.gitattributes
             /earn/naos/motor/aprobar/
             /earn/naos/motor/separacion_ig.py
+            /earn/naos/motor/embudo.py
+            /earn/naos/motor/subtitulos.py
             /earn/naos/motor/instagram/
             /earn/naos/motor/nombres_dd.py
             /earn/naos/motor/kanban_sync.py
