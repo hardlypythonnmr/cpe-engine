@@ -1,5 +1,5 @@
 {
- "fecha_utc": "2026-11-19T20:39:23Z",
+ "fecha_utc": "2026-11-19T20:52:12Z",
  "consultas": 77,
  "nombres_rastreadores": [
   "Thriller",
@@ -39,8 +39,160 @@
  ],
  "candidatos": 554,
  "medidos": 220,
- "pasan": 102,
+ "pasan": 67,
  "sonidos": [
+  {
+   "audio_id": "101610176352389",
+   "title": "Anarkali - Quick Mix (DJ Sonicc)",
+   "ig_username": "djsoniccoffl",
+   "duracion_ms": 39077,
+   "busqueda": "Mix",
+   "enlace": "https://www.instagram.com/reels/audio/101610176352389/",
+   "ritmo": {
+    "pulso": 0.73,
+    "bpm": 162.2,
+    "habla": 0.004,
+    "musica": 0.878,
+    "habla_domina": 0.016,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.987,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "376279921556206",
+   "title": "All I Want For Christmas Is You [Violin Cover]",
+   "ig_username": "valentino_alessandrini",
+   "duracion_ms": 78065,
+   "busqueda": "All I Want For Christmas Is You",
+   "enlace": "https://www.instagram.com/reels/audio/376279921556206/",
+   "ritmo": {
+    "pulso": 0.742,
+    "bpm": 150.0,
+    "habla": 0.0,
+    "musica": 0.966,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.927,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "619168447078194",
+   "title": "IZZY PERRI 80s GOO GOO MUCK",
+   "ig_username": "izzy.perri",
+   "duracion_ms": 37058,
+   "busqueda": "Goo Goo Muck",
+   "enlace": "https://www.instagram.com/reels/audio/619168447078194/",
+   "ritmo": {
+    "pulso": 0.782,
+    "bpm": 136.4,
+    "habla": 0.006,
+    "musica": 0.94,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.889,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "247573734593645",
+   "title": "Meduza - Upside Down",
+   "ig_username": "djmissmonique",
+   "duracion_ms": 45880,
+   "busqueda": "Upside Down",
+   "enlace": "https://www.instagram.com/reels/audio/247573734593645/",
+   "ritmo": {
+    "pulso": 0.624,
+    "bpm": 166.7,
+    "habla": 0.002,
+    "musica": 0.841,
+    "habla_domina": 0.016,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.867,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "375816641625323",
+   "title": "All i want for Christmas is you Techno",
+   "ig_username": "officialxdomii",
+   "duracion_ms": 20874,
+   "busqueda": "All I Want For Christmas Is You",
+   "enlace": "https://www.instagram.com/reels/audio/375816641625323/",
+   "ritmo": {
+    "pulso": 0.584,
+    "bpm": 171.4,
+    "habla": 0.003,
+    "musica": 0.891,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.834,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "26994937370203148",
+   "title": "Trick or Treat begins",
+   "ig_username": "rollingsixes.in",
+   "duracion_ms": 40650,
+   "busqueda": "Trick Or Treat Begins",
+   "enlace": "https://www.instagram.com/reels/audio/26994937370203148/",
+   "ritmo": {
+    "pulso": 0.675,
+    "bpm": 141.2,
+    "habla": 0.0,
+    "musica": 0.953,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.794,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "29274896168844058",
+   "title": "Stop The Wedding - Rey Dinatra Edit",
+   "ig_username": "reyvan.dinatra",
+   "duracion_ms": 79000,
+   "busqueda": "Stop The Wedding!",
+   "enlace": "https://www.instagram.com/reels/audio/29274896168844058/",
+   "ritmo": {
+    "pulso": 0.654,
+    "bpm": 139.5,
+    "habla": 0.0,
+    "musica": 0.981,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.76,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "101016859650894",
+   "title": "GLOOM,WIRSKI - ИСКАТЬ ТЕБЯ(WIRSKI 1991 MIX)",
+   "ig_username": "devianto.moskalini",
+   "duracion_ms": 119371,
+   "busqueda": "Mix",
+   "enlace": "https://www.instagram.com/reels/audio/101016859650894/",
+   "ritmo": {
+    "pulso": 0.738,
+    "bpm": 122.4,
+    "habla": 0.016,
+    "musica": 0.828,
+    "habla_domina": 0.032,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.753,
+   "fuente": "rastreador"
+  },
   {
    "audio_id": "38012791328365309",
    "title": "COMPA COLETO (uy_como)",
@@ -80,6 +232,158 @@
    "fuente": "tendencia"
   },
   {
+   "audio_id": "108976292311057",
+   "title": "LAST CHRISTMAS X GIMME THE LIGHT - NANCY JAY",
+   "ig_username": "iamnancyjay",
+   "duracion_ms": 51665,
+   "busqueda": "Last Christmas",
+   "enlace": "https://www.instagram.com/reels/audio/108976292311057/",
+   "ritmo": {
+    "pulso": 0.516,
+    "bpm": 142.9,
+    "habla": 0.0,
+    "musica": 0.942,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.614,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "238835825777114",
+   "title": "The cure last christmas",
+   "ig_username": "shaking.like.milk",
+   "duracion_ms": 23730,
+   "busqueda": "Last Christmas",
+   "enlace": "https://www.instagram.com/reels/audio/238835825777114/",
+   "ritmo": {
+    "pulso": 0.685,
+    "bpm": 107.1,
+    "habla": 0.001,
+    "musica": 0.932,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.611,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "194858123704201",
+   "title": "last Christmas wham",
+   "ig_username": "legend_bgm",
+   "duracion_ms": 35806,
+   "busqueda": "Last Christmas",
+   "enlace": "https://www.instagram.com/reels/audio/194858123704201/",
+   "ritmo": {
+    "pulso": 0.658,
+    "bpm": 107.1,
+    "habla": 0.0,
+    "musica": 0.884,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.587,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "103707846124185",
+   "title": "mix by harshit_ptdr💥🤟",
+   "ig_username": "harshit_creation_01",
+   "duracion_ms": 27957,
+   "busqueda": "Mix",
+   "enlace": "https://www.instagram.com/reels/audio/103707846124185/",
+   "ritmo": {
+    "pulso": 0.468,
+    "bpm": 150.0,
+    "habla": 0.032,
+    "musica": 0.654,
+    "habla_domina": 0.086,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.585,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "593662170142567",
+   "title": "Mr.Brightside by AFP",
+   "ig_username": "atomicfunkproject",
+   "duracion_ms": 28600,
+   "busqueda": "Mr. Brightside",
+   "enlace": "https://www.instagram.com/reels/audio/593662170142567/",
+   "ritmo": {
+    "pulso": 0.44,
+    "bpm": 153.8,
+    "habla": 0.002,
+    "musica": 0.665,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.564,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "573612785169446",
+   "title": "🎃MiViolinista🎧GooGooMuck👻TheCramps🎻🎶🖤!!",
+   "ig_username": "mi_violinista",
+   "duracion_ms": 36268,
+   "busqueda": "Goo Goo Muck",
+   "enlace": "https://www.instagram.com/reels/audio/573612785169446/",
+   "ritmo": {
+    "pulso": 0.473,
+    "bpm": 142.9,
+    "habla": 0.0,
+    "musica": 0.942,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.563,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "293023300292954",
+   "title": "this is halloween • marilyn manson",
+   "ig_username": "mansonight",
+   "duracion_ms": 204288,
+   "busqueda": "This Is Halloween",
+   "enlace": "https://www.instagram.com/reels/audio/293023300292954/",
+   "ritmo": {
+    "pulso": 0.392,
+    "bpm": 171.4,
+    "habla": 0.039,
+    "musica": 0.639,
+    "habla_domina": 0.081,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.56,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "317593124306240",
+   "title": "Thriller Mix Dj Tray feat. Arsin",
+   "ig_username": "arsin215",
+   "duracion_ms": 81479,
+   "busqueda": "Thriller",
+   "enlace": "https://www.instagram.com/reels/audio/317593124306240/",
+   "ritmo": {
+    "pulso": 0.474,
+    "bpm": 137.9,
+    "habla": 0.002,
+    "musica": 0.846,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.545,
+   "fuente": "rastreador"
+  },
+  {
    "audio_id": "8026510554048989",
    "title": "billie eilish - chihiro (gravagerz remix)",
    "ig_username": "gravagerz",
@@ -99,6 +403,82 @@
    "fuente": "tendencia"
   },
   {
+   "audio_id": "101679589562213",
+   "title": "Chatak matak mix",
+   "ig_username": "somi_sharma01",
+   "duracion_ms": 33806,
+   "busqueda": "Mix",
+   "enlace": "https://www.instagram.com/reels/audio/101679589562213/",
+   "ritmo": {
+    "pulso": 0.63,
+    "bpm": 101.7,
+    "habla": 0.002,
+    "musica": 0.937,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.534,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "346521191119227",
+   "title": "This is Halloween OTAMATONE VERSION",
+   "ig_username": "moshibass",
+   "duracion_ms": 28747,
+   "busqueda": "This Is Halloween",
+   "enlace": "https://www.instagram.com/reels/audio/346521191119227/",
+   "ritmo": {
+    "pulso": 0.379,
+    "bpm": 166.7,
+    "habla": 0.001,
+    "musica": 0.842,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.526,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "254215990963675",
+   "title": "Mariah Carey - All I Want For Christmas Is You Far",
+   "ig_username": "der_schaelm",
+   "duracion_ms": 45744,
+   "busqueda": "All I Want For Christmas Is You",
+   "enlace": "https://www.instagram.com/reels/audio/254215990963675/",
+   "ritmo": {
+    "pulso": 0.419,
+    "bpm": 150.0,
+    "habla": 0.003,
+    "musica": 0.537,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.524,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "237123609224618",
+   "title": "November❤️(Slow+Reverb)🔊",
+   "ig_username": "punjabi_songz.in",
+   "duracion_ms": 17948,
+   "busqueda": "November",
+   "enlace": "https://www.instagram.com/reels/audio/237123609224618/",
+   "ritmo": {
+    "pulso": 0.404,
+    "bpm": 153.8,
+    "habla": 0.004,
+    "musica": 0.879,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.518,
+   "fuente": "rastreador"
+  },
+  {
    "audio_id": "26496104140079246",
    "title": "CULE POCO (sirena_besarico_costeña)",
    "ig_username": "ariavegamusic",
@@ -116,6 +496,25 @@
    },
    "puntaje": 0.516,
    "fuente": "tendencia"
+  },
+  {
+   "audio_id": "168730189382212",
+   "title": "NOVEMBER SONG | SLOWED x REVERB",
+   "ig_username": "kalyan_songss",
+   "duracion_ms": 36896,
+   "busqueda": "November",
+   "enlace": "https://www.instagram.com/reels/audio/168730189382212/",
+   "ritmo": {
+    "pulso": 0.415,
+    "bpm": 146.3,
+    "habla": 0.005,
+    "musica": 0.806,
+    "habla_domina": 0.016,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.506,
+   "fuente": "rastreador"
   },
   {
    "audio_id": "9441881775879214",
@@ -156,6 +555,82 @@
    "fuente": "tendencia"
   },
   {
+   "audio_id": "1189822609656931",
+   "title": "Halloween Waltz",
+   "ig_username": "felvetel_pro",
+   "duracion_ms": 47866,
+   "busqueda": "Halloween Waltz",
+   "enlace": "https://www.instagram.com/reels/audio/1189822609656931/",
+   "ritmo": {
+    "pulso": 0.445,
+    "bpm": 131.9,
+    "habla": 0.002,
+    "musica": 0.682,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.489,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "250326001083084",
+   "title": "Guns n'roses - November rain",
+   "ig_username": "faylasuf_music",
+   "duracion_ms": 58699,
+   "busqueda": "November Rain",
+   "enlace": "https://www.instagram.com/reels/audio/250326001083084/",
+   "ritmo": {
+    "pulso": 0.412,
+    "bpm": 139.5,
+    "habla": 0.0,
+    "musica": 0.975,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.479,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "1082780873305995",
+   "title": "Halloween Waltz",
+   "ig_username": "roxychan.official",
+   "duracion_ms": 35153,
+   "busqueda": "Halloween Waltz",
+   "enlace": "https://www.instagram.com/reels/audio/1082780873305995/",
+   "ritmo": {
+    "pulso": 0.432,
+    "bpm": 131.9,
+    "habla": 0.003,
+    "musica": 0.573,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.475,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "105669635950521",
+   "title": "Tom Rosenthal wanderda mix",
+   "ig_username": "wander.da",
+   "duracion_ms": 31021,
+   "busqueda": "Mix",
+   "enlace": "https://www.instagram.com/reels/audio/105669635950521/",
+   "ritmo": {
+    "pulso": 0.331,
+    "bpm": 171.4,
+    "habla": 0.0,
+    "musica": 0.942,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.473,
+   "fuente": "rastreador"
+  },
+  {
    "audio_id": "3132622323696161",
    "title": "I Know What You Want x Madison Calley",
    "ig_username": "madisoncalley",
@@ -173,6 +648,25 @@
    },
    "puntaje": 0.463,
    "fuente": "tendencia"
+  },
+  {
+   "audio_id": "287794683610881",
+   "title": "Mr. Brightside ~ arcando dnb flip :)",
+   "ig_username": "arcandomusic",
+   "duracion_ms": 20711,
+   "busqueda": "Mr. Brightside",
+   "enlace": "https://www.instagram.com/reels/audio/287794683610881/",
+   "ritmo": {
+    "pulso": 0.636,
+    "bpm": 87.0,
+    "habla": 0.0,
+    "musica": 0.939,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.461,
+   "fuente": "rastreador"
   },
   {
    "audio_id": "29088841944110161",
@@ -194,6 +688,63 @@
    "fuente": "tendencia"
   },
   {
+   "audio_id": "445752607916405",
+   "title": "Kanna Muche Kaade Goode - Chamak",
+   "ig_username": "rhythm_wave12",
+   "duracion_ms": 23917,
+   "busqueda": "Goo Goo Muck",
+   "enlace": "https://www.instagram.com/reels/audio/445752607916405/",
+   "ritmo": {
+    "pulso": 0.343,
+    "bpm": 160.0,
+    "habla": 0.0,
+    "musica": 0.845,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.457,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "100179016386117",
+   "title": "Killin’ Time (Live at the Opry)",
+   "ig_username": "clintblack",
+   "duracion_ms": 33365,
+   "busqueda": "Time",
+   "enlace": "https://www.instagram.com/reels/audio/100179016386117/",
+   "ritmo": {
+    "pulso": 0.473,
+    "bpm": 115.4,
+    "habla": 0.0,
+    "musica": 0.917,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.455,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "100437543041653",
+   "title": "Ezel X Murda X İbrahim Tatlıses Mix",
+   "ig_username": "merttunc.resmi",
+   "duracion_ms": 27815,
+   "busqueda": "Mix",
+   "enlace": "https://www.instagram.com/reels/audio/100437543041653/",
+   "ritmo": {
+    "pulso": 0.546,
+    "bpm": 100.0,
+    "habla": 0.001,
+    "musica": 0.879,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.455,
+   "fuente": "rastreador"
+  },
+  {
    "audio_id": "35471216759159857",
    "title": "DROP IT LIKE ITS HOT x STAYIN ALIVE (ALTÉGO MIX)",
    "ig_username": "altego_music",
@@ -211,6 +762,63 @@
    },
    "puntaje": 0.445,
    "fuente": "tendencia"
+  },
+  {
+   "audio_id": "337329392125165",
+   "title": "this is halloween",
+   "ig_username": "byers_audios",
+   "duracion_ms": 18900,
+   "busqueda": "This Is Halloween",
+   "enlace": "https://www.instagram.com/reels/audio/337329392125165/",
+   "ritmo": {
+    "pulso": 0.32,
+    "bpm": 164.4,
+    "habla": 0.005,
+    "musica": 0.735,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.438,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "423844546324588",
+   "title": "Austin Millz - Upside Down",
+   "ig_username": "austinmillz",
+   "duracion_ms": 18434,
+   "busqueda": "Upside Down",
+   "enlace": "https://www.instagram.com/reels/audio/423844546324588/",
+   "ritmo": {
+    "pulso": 0.437,
+    "bpm": 117.6,
+    "habla": 0.002,
+    "musica": 0.931,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.428,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "304672602452846",
+   "title": "Michael Jackson - Thriller (RetroVision Flip)",
+   "ig_username": "retrovision",
+   "duracion_ms": 21036,
+   "busqueda": "Thriller",
+   "enlace": "https://www.instagram.com/reels/audio/304672602452846/",
+   "ritmo": {
+    "pulso": 0.39,
+    "bpm": 130.4,
+    "habla": 0.001,
+    "musica": 0.951,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.424,
+   "fuente": "rastreador"
   },
   {
    "audio_id": "1124499445542298",
@@ -232,6 +840,139 @@
    "fuente": "tendencia"
   },
   {
+   "audio_id": "102691742757473",
+   "title": "DjSem Mix Club",
+   "ig_username": "djsemofficiel",
+   "duracion_ms": 88048,
+   "busqueda": "Mix",
+   "enlace": "https://www.instagram.com/reels/audio/102691742757473/",
+   "ritmo": {
+    "pulso": 0.502,
+    "bpm": 100.0,
+    "habla": 0.0,
+    "musica": 0.921,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.418,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "297578659826910",
+   "title": "THRILLER DANCE (@NAMUHUEMAN)🔻•",
+   "ig_username": "namuhueman",
+   "duracion_ms": 87956,
+   "busqueda": "Thriller",
+   "enlace": "https://www.instagram.com/reels/audio/297578659826910/",
+   "ritmo": {
+    "pulso": 0.426,
+    "bpm": 117.6,
+    "habla": 0.003,
+    "musica": 0.834,
+    "habla_domina": 0.016,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.417,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "107233968998931",
+   "title": "Timelpase_officiall original audio",
+   "ig_username": "timelapse_officiall",
+   "duracion_ms": 20571,
+   "busqueda": "Time",
+   "enlace": "https://www.instagram.com/reels/audio/107233968998931/",
+   "ritmo": {
+    "pulso": 0.445,
+    "bpm": 111.1,
+    "habla": 0.002,
+    "musica": 0.788,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.412,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "391474513247795",
+   "title": "The Killers - Mr. Brightside (Live)",
+   "ig_username": "avkv85",
+   "duracion_ms": 41213,
+   "busqueda": "Mr. Brightside",
+   "enlace": "https://www.instagram.com/reels/audio/391474513247795/",
+   "ritmo": {
+    "pulso": 0.329,
+    "bpm": 148.1,
+    "habla": 0.001,
+    "musica": 0.73,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.406,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "27142218282104692",
+   "title": "I Knew It, I Knew You",
+   "ig_username": "minnzpiano",
+   "duracion_ms": 34000,
+   "busqueda": "I Knew It, I Knew You",
+   "enlace": "https://www.instagram.com/reels/audio/27142218282104692/",
+   "ritmo": {
+    "pulso": 0.317,
+    "bpm": 150.0,
+    "habla": 0.0,
+    "musica": 0.994,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.396,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "170671775796467",
+   "title": "Michael Jackson - Thriller",
+   "ig_username": "amjdancer",
+   "duracion_ms": 90138,
+   "busqueda": "Thriller",
+   "enlace": "https://www.instagram.com/reels/audio/170671775796467/",
+   "ritmo": {
+    "pulso": 0.363,
+    "bpm": 125.0,
+    "habla": 0.004,
+    "musica": 0.942,
+    "habla_domina": 0.016,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.378,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "318655157796886",
+   "title": "Last Christmas Remix - Dèja Destinèe",
+   "ig_username": "dejadestineeofficial",
+   "duracion_ms": 86052,
+   "busqueda": "Last Christmas",
+   "enlace": "https://www.instagram.com/reels/audio/318655157796886/",
+   "ritmo": {
+    "pulso": 0.346,
+    "bpm": 130.4,
+    "habla": 0.01,
+    "musica": 0.746,
+    "habla_domina": 0.048,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.376,
+   "fuente": "rastreador"
+  },
+  {
    "audio_id": "27652943894355301",
    "title": "Original audio",
    "ig_username": "greeicy",
@@ -249,6 +990,177 @@
    },
    "puntaje": 0.373,
    "fuente": "tendencia"
+  },
+  {
+   "audio_id": "269069599123991",
+   "title": "Michael Jackson Thriller mix",
+   "ig_username": "jerba.nicol",
+   "duracion_ms": 29536,
+   "busqueda": "Thriller",
+   "enlace": "https://www.instagram.com/reels/audio/269069599123991/",
+   "ritmo": {
+    "pulso": 0.381,
+    "bpm": 117.6,
+    "habla": 0.005,
+    "musica": 0.866,
+    "habla_domina": 0.016,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.373,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "489418713173765",
+   "title": "Goo Goo Muck",
+   "ig_username": "morgiu94",
+   "duracion_ms": 20245,
+   "busqueda": "Goo Goo Muck",
+   "enlace": "https://www.instagram.com/reels/audio/489418713173765/",
+   "ritmo": {
+    "pulso": 0.31,
+    "bpm": 142.9,
+    "habla": 0.0,
+    "musica": 0.955,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.369,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "938379164688807",
+   "title": "BEAUTY AND A BEAT X COLA (ALTÉGO MIX)",
+   "ig_username": "altego_music",
+   "duracion_ms": 33110,
+   "busqueda": "BEAUTY AND A BEAT X COLA (ALTÉGO MIX)",
+   "enlace": "https://www.instagram.com/reels/audio/938379164688807/",
+   "ritmo": {
+    "pulso": 0.338,
+    "bpm": 127.7,
+    "habla": 0.003,
+    "musica": 0.925,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.36,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "212212051055888",
+   "title": "Last Christmas vs My Type Showmusik Mashup",
+   "ig_username": "showmusik",
+   "duracion_ms": 23083,
+   "busqueda": "Last Christmas",
+   "enlace": "https://www.instagram.com/reels/audio/212212051055888/",
+   "ritmo": {
+    "pulso": 0.405,
+    "bpm": 105.3,
+    "habla": 0.001,
+    "musica": 0.916,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.355,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "112871031849117",
+   "title": "Lost Woods - Zelda Ocarina of Time",
+   "ig_username": "grizzlyflute",
+   "duracion_ms": 31533,
+   "busqueda": "Time",
+   "enlace": "https://www.instagram.com/reels/audio/112871031849117/",
+   "ritmo": {
+    "pulso": 0.301,
+    "bpm": 139.5,
+    "habla": 0.0,
+    "musica": 0.95,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.35,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "223044339897651",
+   "title": "Kris Wu・November Rain",
+   "ig_username": "galaxyfanfan66_00",
+   "duracion_ms": 60369,
+   "busqueda": "November",
+   "enlace": "https://www.instagram.com/reels/audio/223044339897651/",
+   "ritmo": {
+    "pulso": 0.415,
+    "bpm": 100.0,
+    "habla": 0.017,
+    "musica": 0.673,
+    "habla_domina": 0.048,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.346,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "414038710310150",
+   "title": "Lucas Lima - Thriller",
+   "ig_username": "lucas.lima",
+   "duracion_ms": 42932,
+   "busqueda": "Thriller",
+   "enlace": "https://www.instagram.com/reels/audio/414038710310150/",
+   "ritmo": {
+    "pulso": 0.344,
+    "bpm": 120.0,
+    "habla": 0.0,
+    "musica": 0.97,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.344,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "28485710641121745",
+   "title": "Body•Light•Painting Day 3",
+   "ig_username": "childrenofdarklight",
+   "duracion_ms": 46200,
+   "busqueda": "BODYPAINTING",
+   "enlace": "https://www.instagram.com/reels/audio/28485710641121745/",
+   "ritmo": {
+    "pulso": 0.418,
+    "bpm": 96.8,
+    "habla": 0.004,
+    "musica": 0.521,
+    "habla_domina": 0.065,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.337,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "329024769889196",
+   "title": "It’s Beginning to Look a Lot like Christmas",
+   "ig_username": "nikkinaghaviviolin",
+   "duracion_ms": 56470,
+   "busqueda": "It's Beginning to Look a Lot like Christmas",
+   "enlace": "https://www.instagram.com/reels/audio/329024769889196/",
+   "ritmo": {
+    "pulso": 0.435,
+    "bpm": 92.3,
+    "habla": 0.0,
+    "musica": 0.981,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.335,
+   "fuente": "rastreador"
   },
   {
    "audio_id": "29212032551748578",
@@ -270,6 +1182,44 @@
    "fuente": "tendencia"
   },
   {
+   "audio_id": "519496967142493",
+   "title": "Upside down - Jack Johnson",
+   "ig_username": "ayao.agape",
+   "duracion_ms": 18459,
+   "busqueda": "Upside Down",
+   "enlace": "https://www.instagram.com/reels/audio/519496967142493/",
+   "ritmo": {
+    "pulso": 0.348,
+    "bpm": 105.3,
+    "habla": 0.029,
+    "musica": 0.73,
+    "habla_domina": 0.026,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.305,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "26599801919699023",
+   "title": "I knew it, I knew you - Taylor Swift",
+   "ig_username": "latocamnl",
+   "duracion_ms": 110000,
+   "busqueda": "I Knew It, I Knew You",
+   "enlace": "https://www.instagram.com/reels/audio/26599801919699023/",
+   "ritmo": {
+    "pulso": 0.381,
+    "bpm": 92.3,
+    "habla": 0.0,
+    "musica": 0.919,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.293,
+   "fuente": "rastreador"
+  },
+  {
    "audio_id": "1048526387234935",
    "title": "Original audio",
    "ig_username": "justtrip.it",
@@ -287,6 +1237,44 @@
    },
    "puntaje": 0.29,
    "fuente": "tendencia"
+  },
+  {
+   "audio_id": "26789739234042352",
+   "title": "Taylor Swift - I knew it,i knew you",
+   "ig_username": "get_glam___",
+   "duracion_ms": 26000,
+   "busqueda": "I Knew It, I Knew You",
+   "enlace": "https://www.instagram.com/reels/audio/26789739234042352/",
+   "ritmo": {
+    "pulso": 0.358,
+    "bpm": 93.8,
+    "habla": 0.001,
+    "musica": 0.879,
+    "habla_domina": 0.036,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.28,
+   "fuente": "rastreador"
+  },
+  {
+   "audio_id": "328335833532232",
+   "title": "Upside Down cover by Joshua Ammons",
+   "ig_username": "joshie6103",
+   "duracion_ms": 208383,
+   "busqueda": "Upside Down",
+   "enlace": "https://www.instagram.com/reels/audio/328335833532232/",
+   "ritmo": {
+    "pulso": 0.324,
+    "bpm": 100.0,
+    "habla": 0.002,
+    "musica": 0.968,
+    "habla_domina": 0.0,
+    "voz": false,
+    "pasa": true
+   },
+   "puntaje": 0.27,
+   "fuente": "rastreador"
   },
   {
    "audio_id": "835938957875597",
@@ -308,1638 +1296,23 @@
    "fuente": "tendencia"
   },
   {
-   "audio_id": "389281557501810",
-   "title": "Self Esteem (80s Synthwave Version)",
-   "ig_username": "dreamkid83",
-   "duracion_ms": 85936,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/389281557501810/",
+   "audio_id": "28883203327995468",
+   "title": "STOP THE WEDDING (ALTEGO REMIX)",
+   "ig_username": "altego_music",
+   "duracion_ms": 43000,
+   "busqueda": "Stop The Wedding!",
+   "enlace": "https://www.instagram.com/reels/audio/28883203327995468/",
    "ritmo": {
-    "pulso": 0.736,
-    "bpm": 142.9,
-    "habla": 0.005,
-    "musica": 0.781,
-    "habla_domina": 0.065,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.876,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "131399293162157",
-   "title": "Dj Loki Jersey 90’s jersey club mix",
-   "ig_username": "queenn_shayyy",
-   "duracion_ms": 62761,
-   "busqueda": "jersey club",
-   "enlace": "https://www.instagram.com/reels/audio/131399293162157/",
-   "ritmo": {
-    "pulso": 0.71,
-    "bpm": 136.4,
-    "habla": 0.002,
-    "musica": 0.914,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.807,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "25477776138574093",
-   "title": "Beat Reggaeton NX",
-   "ig_username": "nx_onthebeat",
-   "duracion_ms": 41866,
-   "busqueda": "reggaeton beat",
-   "enlace": "https://www.instagram.com/reels/audio/25477776138574093/",
-   "ritmo": {
-    "pulso": 0.574,
-    "bpm": 166.7,
-    "habla": 0.001,
-    "musica": 0.881,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.797,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "614122514842086",
-   "title": "Severance Theme (Drum and Bass Remix)",
-   "ig_username": "extramediumuk",
-   "duracion_ms": 32507,
-   "busqueda": "drum and bass",
-   "enlace": "https://www.instagram.com/reels/audio/614122514842086/",
-   "ritmo": {
-    "pulso": 0.547,
-    "bpm": 171.4,
-    "habla": 0.09,
-    "musica": 0.887,
-    "habla_domina": 0.081,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.781,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "515170547910905",
-   "title": "Into the woods - Lofi beats",
-   "ig_username": "brittannwanders",
-   "duracion_ms": 30928,
-   "busqueda": "lofi beat",
-   "enlace": "https://www.instagram.com/reels/audio/515170547910905/",
-   "ritmo": {
-    "pulso": 0.621,
-    "bpm": 150.0,
-    "habla": 0.0,
-    "musica": 0.954,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.776,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "346511978070905",
-   "title": "Metal Trap Beats",
-   "ig_username": "l_youngg",
-   "duracion_ms": 27677,
-   "busqueda": "trap beat",
-   "enlace": "https://www.instagram.com/reels/audio/346511978070905/",
-   "ritmo": {
-    "pulso": 0.665,
-    "bpm": 139.5,
+    "pulso": 0.339,
+    "bpm": 93.8,
     "habla": 0.001,
     "musica": 0.928,
     "habla_domina": 0.0,
     "voz": false,
     "pasa": true
    },
-   "puntaje": 0.773,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "815854714663257",
-   "title": "Lisa is a ROCKSTAR (instrumental)",
-   "ig_username": "gabbyniko",
-   "duracion_ms": 34533,
-   "busqueda": "rock instrumental",
-   "enlace": "https://www.instagram.com/reels/audio/815854714663257/",
-   "ritmo": {
-    "pulso": 0.664,
-    "bpm": 139.5,
-    "habla": 0.0,
-    "musica": 0.974,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.772,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "167922672863235",
-   "title": "Punjabi MC (Techno Drop)🎶🔥 DJ Infeels",
-   "ig_username": "infeelsmusic",
-   "duracion_ms": 34619,
-   "busqueda": "techno",
-   "enlace": "https://www.instagram.com/reels/audio/167922672863235/",
-   "ritmo": {
-    "pulso": 0.74,
-    "bpm": 125.0,
-    "habla": 0.003,
-    "musica": 0.911,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.771,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "228516010000752",
-   "title": "Who Told U(Amapiano Remix)- Ade Smilez & DJ Kwamzy",
-   "ig_username": "redroomparties",
-   "duracion_ms": 59860,
-   "busqueda": "amapiano",
-   "enlace": "https://www.instagram.com/reels/audio/228516010000752/",
-   "ritmo": {
-    "pulso": 0.604,
-    "bpm": 150.0,
-    "habla": 0.001,
-    "musica": 0.899,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.755,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "535233719652504",
-   "title": "Emotional Melodic Trap Type Beat | Bando Cry",
-   "ig_username": "iamitsapicasso",
-   "duracion_ms": 57910,
-   "busqueda": "trap beat",
-   "enlace": "https://www.instagram.com/reels/audio/535233719652504/",
-   "ritmo": {
-    "pulso": 0.524,
-    "bpm": 166.7,
-    "habla": 0.001,
-    "musica": 0.941,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.728,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "575439971370230",
-   "title": "Dreamkid - The Best (Synthwave Cover)",
-   "ig_username": "dreamkid83",
-   "duracion_ms": 71842,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/575439971370230/",
-   "ritmo": {
-    "pulso": 0.823,
-    "bpm": 105.3,
-    "habla": 0.0,
-    "musica": 0.969,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.722,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "143822421903523",
-   "title": "Babuji Dheere Chalna (Techno Mix)",
-   "ig_username": "dhyanmusic",
-   "duracion_ms": 22080,
-   "busqueda": "techno",
-   "enlace": "https://www.instagram.com/reels/audio/143822421903523/",
-   "ritmo": {
-    "pulso": 0.511,
-    "bpm": 169.0,
-    "habla": 0.026,
-    "musica": 0.782,
-    "habla_domina": 0.089,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.72,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "1091116825827280",
-   "title": "Cada Noche Squid Games Reggaeton Beat Prod By R.U",
-   "ig_username": "rueeen_",
-   "duracion_ms": 48446,
-   "busqueda": "reggaeton beat",
-   "enlace": "https://www.instagram.com/reels/audio/1091116825827280/",
-   "ritmo": {
-    "pulso": 0.646,
-    "bpm": 133.3,
-    "habla": 0.001,
-    "musica": 0.962,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.718,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "699031056126112",
-   "title": "Rockstar LISA (Instrumental)",
-   "ig_username": "mattiesweho",
-   "duracion_ms": 26800,
-   "busqueda": "rock instrumental",
-   "enlace": "https://www.instagram.com/reels/audio/699031056126112/",
-   "ritmo": {
-    "pulso": 0.615,
-    "bpm": 139.5,
-    "habla": 0.0,
-    "musica": 0.864,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.715,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "747941791338075",
-   "title": "Reggaeton type- ArmanixBeatzz",
-   "ig_username": "armanixbeatzz_",
-   "duracion_ms": 19400,
-   "busqueda": "reggaeton beat",
-   "enlace": "https://www.instagram.com/reels/audio/747941791338075/",
-   "ritmo": {
-    "pulso": 0.498,
-    "bpm": 171.4,
-    "habla": 0.002,
-    "musica": 0.822,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.711,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "111619981782297",
-   "title": "Here In Your House",
-   "ig_username": "gatewayworship",
-   "duracion_ms": 27235,
-   "busqueda": "house",
-   "enlace": "https://www.instagram.com/reels/audio/111619981782297/",
-   "ritmo": {
-    "pulso": 0.702,
-    "bpm": 120.0,
-    "habla": 0.0,
-    "musica": 0.945,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.702,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "172823101680775",
-   "title": "Funky Fresh by The Night Driver",
-   "ig_username": "aerie",
-   "duracion_ms": 20477,
-   "busqueda": "funk",
-   "enlace": "https://www.instagram.com/reels/audio/172823101680775/",
-   "ritmo": {
-    "pulso": 0.659,
-    "bpm": 125.0,
-    "habla": 0.001,
-    "musica": 0.954,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.686,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "194203299695702",
-   "title": "Raoshab Drill⚡️⛳️",
-   "ig_username": "vkey_gudgaameaala",
-   "duracion_ms": 26445,
-   "busqueda": "drill",
-   "enlace": "https://www.instagram.com/reels/audio/194203299695702/",
-   "ritmo": {
-    "pulso": 0.546,
-    "bpm": 150.0,
-    "habla": 0.012,
-    "musica": 0.815,
-    "habla_domina": 0.019,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.683,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "250509544185317",
-   "title": "Don’t Be Shy (Kalbaisakhi Amapiano Remix)",
-   "ig_username": "kalbaisakhi",
-   "duracion_ms": 35663,
-   "busqueda": "amapiano",
-   "enlace": "https://www.instagram.com/reels/audio/250509544185317/",
-   "ritmo": {
-    "pulso": 0.545,
-    "bpm": 150.0,
-    "habla": 0.002,
-    "musica": 0.85,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.681,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "121694394368048",
-   "title": "Firetracks making Afrobeats",
-   "ig_username": "hitmenproduction",
-   "duracion_ms": 20920,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/121694394368048/",
-   "ritmo": {
-    "pulso": 0.558,
-    "bpm": 146.3,
-    "habla": 0.001,
-    "musica": 0.958,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.68,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "578697835236829",
-   "title": "Hood Trap Beat",
-   "ig_username": "oguixter",
-   "duracion_ms": 72265,
-   "busqueda": "trap beat",
-   "enlace": "https://www.instagram.com/reels/audio/578697835236829/",
-   "ritmo": {
-    "pulso": 0.555,
-    "bpm": 144.6,
-    "habla": 0.004,
-    "musica": 0.937,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.669,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "145152788635397",
-   "title": "Melodic Techno Tracks",
-   "ig_username": "novak_dj",
-   "duracion_ms": 44301,
-   "busqueda": "techno",
-   "enlace": "https://www.instagram.com/reels/audio/145152788635397/",
-   "ritmo": {
-    "pulso": 0.634,
-    "bpm": 125.0,
-    "habla": 0.002,
-    "musica": 0.834,
-    "habla_domina": 0.065,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.66,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "186101897564884",
-   "title": "Cherry Lo-Fi Beats • Cherry Blossom",
-   "ig_username": "longwoodgardens",
-   "duracion_ms": 23914,
-   "busqueda": "lofi beat",
-   "enlace": "https://www.instagram.com/reels/audio/186101897564884/",
-   "ritmo": {
-    "pulso": 0.581,
-    "bpm": 136.4,
-    "habla": 0.001,
-    "musica": 0.96,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.66,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "170346709405239",
-   "title": "Pembasilet Funkot Version",
-   "ig_username": "indonesia_funkot",
-   "duracion_ms": 35086,
-   "busqueda": "funk",
-   "enlace": "https://www.instagram.com/reels/audio/170346709405239/",
-   "ritmo": {
-    "pulso": 0.774,
-    "bpm": 101.7,
-    "habla": 0.001,
-    "musica": 0.937,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.656,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "26058576777162239",
-   "title": "DANCEHALL/TRAP& REGGAETON TYPE BEAT",
-   "ig_username": "elie_zer.pr",
-   "duracion_ms": 30933,
-   "busqueda": "reggaeton beat",
-   "enlace": "https://www.instagram.com/reels/audio/26058576777162239/",
-   "ritmo": {
-    "pulso": 0.617,
-    "bpm": 125.0,
-    "habla": 0.002,
-    "musica": 0.946,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.643,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "828545382956718",
-   "title": "hip hop beat",
-   "ig_username": "jaune_wait",
-   "duracion_ms": 22253,
-   "busqueda": "hip hop beat",
-   "enlace": "https://www.instagram.com/reels/audio/828545382956718/",
-   "ritmo": {
-    "pulso": 0.473,
-    "bpm": 162.2,
-    "habla": 0.002,
-    "musica": 0.907,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.639,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "142999152167487",
-   "title": "Ekdantaya Vakratundaya (techno flip)",
-   "ig_username": "hellopratiq",
-   "duracion_ms": 34086,
-   "busqueda": "techno",
-   "enlace": "https://www.instagram.com/reels/audio/142999152167487/",
-   "ritmo": {
-    "pulso": 0.545,
-    "bpm": 139.5,
-    "habla": 0.002,
-    "musica": 0.843,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.634,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "181986944830217",
-   "title": "Kabhi jo baadal Bollywood Drill",
-   "ig_username": "love_music_production",
-   "duracion_ms": 26888,
-   "busqueda": "drill",
-   "enlace": "https://www.instagram.com/reels/audio/181986944830217/",
-   "ritmo": {
-    "pulso": 0.503,
-    "bpm": 150.0,
-    "habla": 0.006,
-    "musica": 0.652,
-    "habla_domina": 0.018,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.629,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "723823649717361",
-   "title": "Transformation - Lofi Chill Hip Hop Beat",
-   "ig_username": "al_dante_channel",
-   "duracion_ms": 23241,
-   "busqueda": "hip hop beat",
-   "enlace": "https://www.instagram.com/reels/audio/723823649717361/",
-   "ritmo": {
-    "pulso": 0.837,
-    "bpm": 89.6,
-    "habla": 0.0,
-    "musica": 0.979,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.625,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "341345472096869",
-   "title": "PO-33 Lo-Fi Beat",
-   "ig_username": "fuchi_music",
-   "duracion_ms": 49249,
-   "busqueda": "lofi beat",
-   "enlace": "https://www.instagram.com/reels/audio/341345472096869/",
-   "ritmo": {
-    "pulso": 0.461,
-    "bpm": 162.2,
-    "habla": 0.003,
-    "musica": 0.818,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.623,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "235468596316943",
-   "title": "HOLI REMIX (DESI x SPANISH x EDM) by O FRESH",
-   "ig_username": "djofresh",
-   "duracion_ms": 38033,
-   "busqueda": "edm",
-   "enlace": "https://www.instagram.com/reels/audio/235468596316943/",
-   "ritmo": {
-    "pulso": 0.592,
-    "bpm": 125.0,
-    "habla": 0.043,
-    "musica": 0.875,
-    "habla_domina": 0.065,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.617,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "122527637597712",
-   "title": "House of Cards - Deadlands OUT 8.18",
-   "ig_username": "deadlandsband",
-   "duracion_ms": 40448,
-   "busqueda": "house",
-   "enlace": "https://www.instagram.com/reels/audio/122527637597712/",
-   "ritmo": {
-    "pulso": 0.486,
-    "bpm": 150.0,
-    "habla": 0.001,
-    "musica": 0.875,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.607,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "26507634702266385",
-   "title": "TE DESEO - Prod by OYE!  - REGGAETON type beat",
-   "ig_username": "oyeelsonido",
-   "duracion_ms": 73400,
-   "busqueda": "reggaeton beat",
-   "enlace": "https://www.instagram.com/reels/audio/26507634702266385/",
-   "ritmo": {
-    "pulso": 0.727,
-    "bpm": 100.0,
-    "habla": 0.002,
-    "musica": 0.878,
-    "habla_domina": 0.016,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.606,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "418961624011619",
-   "title": "DASHA - AUSTIN (DISKO COWBOY REMIX)",
-   "ig_username": "diskocowboy",
-   "duracion_ms": 43908,
-   "busqueda": "disco",
-   "enlace": "https://www.instagram.com/reels/audio/418961624011619/",
-   "ritmo": {
-    "pulso": 0.598,
-    "bpm": 120.0,
-    "habla": 0.0,
-    "musica": 0.95,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.598,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "265199626326039",
-   "title": "DJ OM NEERAJ MBD ALL SONG EDM",
-   "ig_username": "dj_chita_mbd_up21",
-   "duracion_ms": 15047,
-   "busqueda": "edm",
-   "enlace": "https://www.instagram.com/reels/audio/265199626326039/",
-   "ritmo": {
-    "pulso": 0.531,
-    "bpm": 134.8,
-    "habla": 0.002,
-    "musica": 0.905,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.596,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "609931630803366",
-   "title": "Junn Beats - Marakkuma Nenjam Lofi",
-   "ig_username": "or.junn",
-   "duracion_ms": 36454,
-   "busqueda": "lofi beat",
-   "enlace": "https://www.instagram.com/reels/audio/609931630803366/",
-   "ritmo": {
-    "pulso": 0.584,
-    "bpm": 122.4,
-    "habla": 0.001,
-    "musica": 0.883,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.596,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "717644190215108",
-   "title": "Mahishasura Mardini (Rock Cover- Drums and Bass)",
-   "ig_username": "wheniplaymusic",
-   "duracion_ms": 34365,
-   "busqueda": "drum and bass",
-   "enlace": "https://www.instagram.com/reels/audio/717644190215108/",
-   "ritmo": {
-    "pulso": 0.545,
-    "bpm": 130.4,
-    "habla": 0.0,
-    "musica": 0.883,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.592,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "639745358862220",
-   "title": "Kritical Instrumental ( Rockin In The Streets )",
-   "ig_username": "itskritical",
-   "duracion_ms": 39170,
-   "busqueda": "rock instrumental",
-   "enlace": "https://www.instagram.com/reels/audio/639745358862220/",
-   "ritmo": {
-    "pulso": 0.708,
-    "bpm": 100.0,
-    "habla": 0.003,
-    "musica": 0.861,
-    "habla_domina": 0.016,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.59,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "166551339013444",
-   "title": "Monat EDM Remix",
-   "ig_username": "monatofficial",
-   "duracion_ms": 34851,
-   "busqueda": "edm",
-   "enlace": "https://www.instagram.com/reels/audio/166551339013444/",
-   "ritmo": {
-    "pulso": 0.537,
-    "bpm": 127.7,
-    "habla": 0.001,
-    "musica": 0.89,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.571,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "417538424474525",
-   "title": "Raman HipHop beats",
-   "ig_username": "raman_hembram",
-   "duracion_ms": 32321,
-   "busqueda": "hip hop beat",
-   "enlace": "https://www.instagram.com/reels/audio/417538424474525/",
-   "ritmo": {
-    "pulso": 0.483,
-    "bpm": 139.5,
-    "habla": 0.015,
-    "musica": 0.817,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.561,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "217625717857426",
-   "title": "R&B meets Amapiano",
-   "ig_username": "dj_ayane",
-   "duracion_ms": 88815,
-   "busqueda": "amapiano",
-   "enlace": "https://www.instagram.com/reels/audio/217625717857426/",
-   "ritmo": {
-    "pulso": 0.576,
-    "bpm": 113.2,
-    "habla": 0.0,
-    "musica": 0.944,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.543,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "140238592349600",
-   "title": "Amapiano Dancehall Challenge- DJ DENNY HUS",
-   "ig_username": "dj_dennyhus.dancehall",
-   "duracion_ms": 71817,
-   "busqueda": "amapiano",
-   "enlace": "https://www.instagram.com/reels/audio/140238592349600/",
-   "ritmo": {
-    "pulso": 0.555,
-    "bpm": 115.4,
-    "habla": 0.003,
-    "musica": 0.898,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.534,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "589705629461366",
-   "title": "Running Up That Hill - Synthwave Remix",
-   "ig_username": "supernova_collective",
-   "duracion_ms": 37383,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/589705629461366/",
-   "ritmo": {
-    "pulso": 0.616,
-    "bpm": 103.4,
-    "habla": 0.001,
-    "musica": 0.848,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.531,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "203457826047046",
-   "title": "Come As You Are (80s Synthwave Version)",
-   "ig_username": "dreamkid83",
-   "duracion_ms": 89164,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/203457826047046/",
-   "ritmo": {
-    "pulso": 0.541,
-    "bpm": 117.6,
-    "habla": 0.0,
-    "musica": 0.89,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.53,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "224982430644718",
-   "title": "MELKAS Amapiano",
-   "ig_username": "iamdjmelkas",
-   "duracion_ms": 90023,
-   "busqueda": "amapiano",
-   "enlace": "https://www.instagram.com/reels/audio/224982430644718/",
-   "ritmo": {
-    "pulso": 0.532,
-    "bpm": 115.4,
-    "habla": 0.001,
-    "musica": 0.782,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.512,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "238512165974716",
-   "title": "Disk-me",
-   "ig_username": "fabinhotestado",
-   "duracion_ms": 63712,
-   "busqueda": "disco",
-   "enlace": "https://www.instagram.com/reels/audio/238512165974716/",
-   "ritmo": {
-    "pulso": 0.565,
-    "bpm": 107.1,
-    "habla": 0.001,
-    "musica": 0.952,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.504,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "24476743251926486",
-   "title": "Mc Carioca do funk",
-   "ig_username": "mccariocadofunk",
-   "duracion_ms": 39466,
-   "busqueda": "baile funk",
-   "enlace": "https://www.instagram.com/reels/audio/24476743251926486/",
-   "ritmo": {
-    "pulso": 0.462,
-    "bpm": 127.7,
-    "habla": 0.023,
-    "musica": 0.553,
-    "habla_domina": 0.048,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.492,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "680408465101661",
-   "title": "Flute for Soul - Instrumental by Madhavas Rock Ban",
-   "ig_username": "madhavasrockband",
-   "duracion_ms": 89548,
-   "busqueda": "rock instrumental",
-   "enlace": "https://www.instagram.com/reels/audio/680408465101661/",
-   "ritmo": {
-    "pulso": 0.347,
-    "bpm": 169.0,
-    "habla": 0.0,
-    "musica": 0.823,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.489,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "201857149320877",
-   "title": "Barbie Girl x phonk",
-   "ig_username": "llll_mahir_llll",
-   "duracion_ms": 25821,
-   "busqueda": "phonk",
-   "enlace": "https://www.instagram.com/reels/audio/201857149320877/",
-   "ritmo": {
-    "pulso": 0.426,
-    "bpm": 134.8,
-    "habla": 0.023,
-    "musica": 0.515,
-    "habla_domina": 0.094,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.479,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "303688849096302",
-   "title": "Afrobeats mix - DJ DENNY HUS",
-   "ig_username": "dj_dennyhus.dancehall",
-   "duracion_ms": 84171,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/303688849096302/",
-   "ritmo": {
-    "pulso": 0.391,
-    "bpm": 146.3,
-    "habla": 0.003,
-    "musica": 0.891,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.477,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "140915288940847",
-   "title": "Just give me some techno",
-   "ig_username": "marco_orse",
-   "duracion_ms": 21360,
-   "busqueda": "techno",
-   "enlace": "https://www.instagram.com/reels/audio/140915288940847/",
-   "ritmo": {
-    "pulso": 0.394,
-    "bpm": 142.9,
-    "habla": 0.006,
-    "musica": 0.809,
-    "habla_domina": 0.023,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.469,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "465207539300220",
-   "title": "What’s My Age Again? (80s Synthwave Version)",
-   "ig_username": "dreamkid83",
-   "duracion_ms": 69263,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/465207539300220/",
-   "ritmo": {
-    "pulso": 0.358,
-    "bpm": 155.8,
-    "habla": 0.0,
-    "musica": 0.938,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.465,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "309664834986964",
-   "title": "FearlezzBeats - Skanderbeg Trap Beat",
-   "ig_username": "learn.shqip",
-   "duracion_ms": 46114,
-   "busqueda": "trap beat",
-   "enlace": "https://www.instagram.com/reels/audio/309664834986964/",
-   "ritmo": {
-    "pulso": 0.571,
-    "bpm": 96.8,
-    "habla": 0.0,
-    "musica": 0.973,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.461,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "436051002866094",
-   "title": "Man Of My Word (Boom Bap Freestyle Beat)",
-   "ig_username": "scorpionquinncosplay",
-   "duracion_ms": 60021,
-   "busqueda": "boom bap",
-   "enlace": "https://www.instagram.com/reels/audio/436051002866094/",
-   "ritmo": {
-    "pulso": 0.617,
-    "bpm": 89.6,
-    "habla": 0.014,
-    "musica": 0.788,
-    "habla_domina": 0.048,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.461,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "312229007727066",
-   "title": "Piano Trap Beat",
-   "ig_username": "claudiodnts",
-   "duracion_ms": 42237,
-   "busqueda": "trap beat",
-   "enlace": "https://www.instagram.com/reels/audio/312229007727066/",
-   "ritmo": {
-    "pulso": 0.624,
-    "bpm": 87.0,
-    "habla": 0.0,
-    "musica": 0.918,
-    "habla_domina": 0.032,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.452,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "229286183229738",
-   "title": "Synthwave + Djent 3",
-   "ig_username": "l_youngg",
-   "duracion_ms": 19504,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/229286183229738/",
-   "ritmo": {
-    "pulso": 0.54,
-    "bpm": 100.0,
-    "habla": 0.002,
-    "musica": 0.892,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.45,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "856577540143178",
-   "title": "Lofi Hip Hop - ENDLESS SUMMER by @LoxBeats",
-   "ig_username": "tamatales_",
-   "duracion_ms": 33166,
-   "busqueda": "hip hop beat",
-   "enlace": "https://www.instagram.com/reels/audio/856577540143178/",
-   "ritmo": {
-    "pulso": 0.616,
-    "bpm": 87.0,
-    "habla": 0.0,
-    "musica": 0.965,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.447,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "389945120703324",
-   "title": "Crawling (80s Synthwave Version)",
-   "ig_username": "dreamkid83",
-   "duracion_ms": 85309,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/389945120703324/",
-   "ritmo": {
-    "pulso": 0.508,
-    "bpm": 105.3,
-    "habla": 0.0,
-    "musica": 0.923,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.446,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "259940103812824",
-   "title": "aaliyah one in a million amapiano remix by RAYMOND",
-   "ig_username": "raymonddeejay",
-   "duracion_ms": 36454,
-   "busqueda": "amapiano",
-   "enlace": "https://www.instagram.com/reels/audio/259940103812824/",
-   "ritmo": {
-    "pulso": 0.457,
-    "bpm": 115.4,
-    "habla": 0.003,
-    "musica": 0.888,
-    "habla_domina": 0.016,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.439,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "367821873023217",
-   "title": "Poopol - Chill Trap Beats",
-   "ig_username": "nightsky_creatives",
-   "duracion_ms": 41378,
-   "busqueda": "trap beat",
-   "enlace": "https://www.instagram.com/reels/audio/367821873023217/",
-   "ritmo": {
-    "pulso": 0.379,
-    "bpm": 137.9,
-    "habla": 0.001,
-    "musica": 0.78,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.436,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "1186432763526217",
-   "title": "BLANCANIEVES Natanael Cano Reggaeton Type Beat",
-   "ig_username": "tpmbeats",
-   "duracion_ms": 40033,
-   "busqueda": "reggaeton beat",
-   "enlace": "https://www.instagram.com/reels/audio/1186432763526217/",
-   "ritmo": {
-    "pulso": 0.517,
-    "bpm": 100.0,
-    "habla": 0.001,
-    "musica": 0.966,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.431,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "314464585065865",
-   "title": "Afrobeats 2024 Mega mix - DJ DENNY HUS",
-   "ig_username": "dj_dennyhus.dancehall",
-   "duracion_ms": 155085,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/314464585065865/",
-   "ritmo": {
-    "pulso": 0.368,
-    "bpm": 139.5,
-    "habla": 0.006,
-    "musica": 0.879,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.428,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "287035377017800",
-   "title": "Afrobeats vs Amapiano- DJ DENNY HUS",
-   "ig_username": "dj_dennyhus.dancehall",
-   "duracion_ms": 90023,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/287035377017800/",
-   "ritmo": {
-    "pulso": 0.429,
-    "bpm": 117.6,
-    "habla": 0.002,
-    "musica": 0.867,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.42,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "173192168867411",
-   "title": "FUNK do PITUCO",
-   "ig_username": "amordepitucoss",
-   "duracion_ms": 47089,
-   "busqueda": "funk",
-   "enlace": "https://www.instagram.com/reels/audio/173192168867411/",
-   "ritmo": {
-    "pulso": 0.343,
-    "bpm": 146.3,
-    "habla": 0.0,
-    "musica": 0.915,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.418,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "751869087447261",
-   "title": "Ghapama (Rock Instrumental)",
-   "ig_username": "nazotheimmigrant",
-   "duracion_ms": 63163,
-   "busqueda": "rock instrumental",
-   "enlace": "https://www.instagram.com/reels/audio/751869087447261/",
-   "ritmo": {
-    "pulso": 0.334,
-    "bpm": 150.0,
-    "habla": 0.0,
-    "musica": 0.968,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.418,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "249536498176823",
-   "title": "Ram Ram Sita Ram - Rox Music X Edm Nik",
-   "ig_username": "roxmusicindia",
-   "duracion_ms": 73931,
-   "busqueda": "edm",
-   "enlace": "https://www.instagram.com/reels/audio/249536498176823/",
-   "ritmo": {
-    "pulso": 0.382,
-    "bpm": 130.4,
-    "habla": 0.004,
-    "musica": 0.839,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.415,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "158924493120229",
-   "title": "FUJI AFROBEAT",
-   "ig_username": "trophy.bwoy",
-   "duracion_ms": 19689,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/158924493120229/",
-   "ritmo": {
-    "pulso": 0.367,
-    "bpm": 133.3,
-    "habla": 0.004,
-    "musica": 0.885,
-    "habla_domina": 0.025,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.408,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "295441133285435",
-   "title": "Where Is My Mind? (Synthwave Version)",
-   "ig_username": "dreamkid83",
-   "duracion_ms": 89907,
-   "busqueda": "synthwave",
-   "enlace": "https://www.instagram.com/reels/audio/295441133285435/",
-   "ritmo": {
-    "pulso": 0.433,
-    "bpm": 113.2,
-    "habla": 0.0,
-    "musica": 0.849,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.408,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "321107557217278",
-   "title": "Afrobeats vs Dancehall vs Amapiano - DJ DENNY HUS",
-   "ig_username": "dj_dennyhus.dancehall",
-   "duracion_ms": 90023,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/321107557217278/",
-   "ritmo": {
-    "pulso": 0.338,
-    "bpm": 142.9,
-    "habla": 0.004,
-    "musica": 0.798,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.403,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "26255734654083255",
-   "title": "Type Beat Reggaeton Chileno, \"Dónde\" Zvmbers",
-   "ig_username": "zvmbers",
-   "duracion_ms": 22583,
-   "busqueda": "reggaeton beat",
-   "enlace": "https://www.instagram.com/reels/audio/26255734654083255/",
-   "ritmo": {
-    "pulso": 0.49,
-    "bpm": 96.8,
-    "habla": 0.001,
-    "musica": 0.957,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.395,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "2648878222121163",
-   "title": "Mc Carioca do Funk",
-   "ig_username": "mccariocadofunk",
-   "duracion_ms": 122216,
-   "busqueda": "baile funk",
-   "enlace": "https://www.instagram.com/reels/audio/2648878222121163/",
-   "ritmo": {
-    "pulso": 0.358,
-    "bpm": 130.4,
-    "habla": 0.059,
-    "musica": 0.719,
-    "habla_domina": 0.097,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.389,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "222626146818351",
-   "title": "JAYO 22 DRILL REMIX [PROD.LOUDZ]",
-   "ig_username": "n3rdwrld",
-   "duracion_ms": 24471,
-   "busqueda": "drill",
-   "enlace": "https://www.instagram.com/reels/audio/222626146818351/",
-   "ritmo": {
-    "pulso": 0.434,
-    "bpm": 107.1,
-    "habla": 0.01,
-    "musica": 0.868,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.387,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "134522636412971",
-   "title": "Dj Max Baiana Afro Funk Remix",
-   "ig_username": "gianneabbott",
-   "duracion_ms": 58629,
-   "busqueda": "funk",
-   "enlace": "https://www.instagram.com/reels/audio/134522636412971/",
-   "ritmo": {
-    "pulso": 0.366,
-    "bpm": 125.0,
-    "habla": 0.002,
-    "musica": 0.916,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.381,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "591107837394560",
-   "title": "Isterismo Collectivo - Mz Boom Bap",
-   "ig_username": "dtpfoundation",
-   "duracion_ms": 43466,
-   "busqueda": "boom bap",
-   "enlace": "https://www.instagram.com/reels/audio/591107837394560/",
-   "ritmo": {
-    "pulso": 0.519,
-    "bpm": 88.2,
-    "habla": 0.003,
-    "musica": 0.697,
-    "habla_domina": 0.048,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.381,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "521252750364893",
-   "title": "\"Mira\" Indian Trap Type Beat",
-   "ig_username": "thesammusicc",
-   "duracion_ms": 69311,
-   "busqueda": "trap beat",
-   "enlace": "https://www.instagram.com/reels/audio/521252750364893/",
-   "ritmo": {
-    "pulso": 0.506,
-    "bpm": 89.6,
-    "habla": 0.005,
-    "musica": 0.824,
-    "habla_domina": 0.016,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.378,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "151276007997910",
-   "title": "Bucket Life - Song House, First Horizon Bank",
-   "ig_username": "thesonghouseco",
-   "duracion_ms": 52198,
-   "busqueda": "house",
-   "enlace": "https://www.instagram.com/reels/audio/151276007997910/",
-   "ritmo": {
-    "pulso": 0.343,
-    "bpm": 131.9,
-    "habla": 0.011,
-    "musica": 0.775,
-    "habla_domina": 0.032,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.377,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "149536051317193",
-   "title": "SteptheBarber- Weak Jersey Club Mix",
-   "ig_username": "stepthebarber",
-   "duracion_ms": 30067,
-   "busqueda": "jersey club",
-   "enlace": "https://www.instagram.com/reels/audio/149536051317193/",
-   "ritmo": {
-    "pulso": 0.322,
-    "bpm": 139.5,
-    "habla": 0.011,
-    "musica": 0.709,
-    "habla_domina": 0.016,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.374,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "248252530535636",
-   "title": "DRIVE YOU 2 (Jersey Club) Remix",
-   "ig_username": "gracehb1",
-   "duracion_ms": 49153,
-   "busqueda": "jersey club",
-   "enlace": "https://www.instagram.com/reels/audio/248252530535636/",
-   "ritmo": {
-    "pulso": 0.463,
-    "bpm": 96.8,
-    "habla": 0.001,
-    "musica": 0.863,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.373,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "271322242222110",
-   "title": "Nancy Spears - Saliah Jersey Club Edit",
-   "ig_username": "saliahgram",
-   "duracion_ms": 29837,
-   "busqueda": "jersey club",
-   "enlace": "https://www.instagram.com/reels/audio/271322242222110/",
-   "ritmo": {
-    "pulso": 0.461,
-    "bpm": 96.8,
-    "habla": 0.001,
-    "musica": 0.952,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.372,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "157955753124001",
-   "title": "Kabhi To Pass Mere Aao ( BWhile Beats Lofi Flip )",
-   "ig_username": "bwhilebeats",
-   "duracion_ms": 34272,
-   "busqueda": "lofi beat",
-   "enlace": "https://www.instagram.com/reels/audio/157955753124001/",
-   "ritmo": {
-    "pulso": 0.314,
-    "bpm": 139.5,
-    "habla": 0.016,
-    "musica": 0.839,
-    "habla_domina": 0.032,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.365,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "649819667941121",
-   "title": "Redemption (bass and drums only)",
-   "ig_username": "laribasilio",
-   "duracion_ms": 36786,
-   "busqueda": "drum and bass",
-   "enlace": "https://www.instagram.com/reels/audio/649819667941121/",
-   "ritmo": {
-    "pulso": 0.32,
-    "bpm": 133.3,
-    "habla": 0.0,
-    "musica": 0.965,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.355,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "496828445918747",
-   "title": "Lofi_remix_beatz",
-   "ig_username": "models_of_remix",
-   "duracion_ms": 23265,
-   "busqueda": "lofi beat",
-   "enlace": "https://www.instagram.com/reels/audio/496828445918747/",
-   "ritmo": {
-    "pulso": 0.392,
-    "bpm": 100.0,
-    "habla": 0.024,
-    "musica": 0.702,
-    "habla_domina": 0.042,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.327,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "236834132435461",
-   "title": "Afrobeats vs Amapiano - DJ DENNY HUS",
-   "ig_username": "dj_dennyhus.dancehall",
-   "duracion_ms": 69264,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/236834132435461/",
-   "ritmo": {
-    "pulso": 0.335,
-    "bpm": 115.4,
-    "habla": 0.011,
-    "musica": 0.857,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.322,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "512820024305803",
-   "title": "lofi_remix_beatz",
-   "ig_username": "models_of_remix",
-   "duracion_ms": 21129,
-   "busqueda": "lofi beat",
-   "enlace": "https://www.instagram.com/reels/audio/512820024305803/",
-   "ritmo": {
-    "pulso": 0.386,
-    "bpm": 100.0,
-    "habla": 0.002,
-    "musica": 0.894,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.322,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "253752643613777",
-   "title": "The Times - PHOENIX AFROBEAT ORCHESTRA",
-   "ig_username": "paoafrobeat",
-   "duracion_ms": 34571,
-   "busqueda": "afrobeat",
-   "enlace": "https://www.instagram.com/reels/audio/253752643613777/",
-   "ritmo": {
-    "pulso": 0.309,
-    "bpm": 111.1,
-    "habla": 0.001,
-    "musica": 0.678,
-    "habla_domina": 0.0,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.286,
-   "fuente": "consulta"
-  },
-  {
-   "audio_id": "360415673522287",
-   "title": "MPC Boom Bap - Yaahn Hunter Jr.",
-   "ig_username": "yhuntermusic",
-   "duracion_ms": 49270,
-   "busqueda": "boom bap",
-   "enlace": "https://www.instagram.com/reels/audio/360415673522287/",
-   "ritmo": {
-    "pulso": 0.388,
-    "bpm": 88.2,
-    "habla": 0.007,
-    "musica": 0.898,
-    "habla_domina": 0.016,
-    "voz": false,
-    "pasa": true
-   },
-   "puntaje": 0.285,
-   "fuente": "consulta"
+   "puntaje": 0.265,
+   "fuente": "rastreador"
   }
  ]
 }
