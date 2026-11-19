@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-25-f4-reaccion-donotpay",
  "issue": 121,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-25T14:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "4310d53dea545b492c535ba3e8959455561a7250839301f67be5f08fb0b897e5",
@@ -19,5 +19,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-tanda8"
+ "tanda": "dd-2026-11-21-tanda8",
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z"
 }

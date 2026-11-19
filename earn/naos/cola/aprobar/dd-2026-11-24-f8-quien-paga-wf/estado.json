@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-24-f8-quien-paga-wf",
  "issue": 121,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-24T22:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "2ba32818a9ad60106873e4c5383d30c31d8a6bb49b73cce1831483b4e9b4bb4c",
@@ -19,5 +19,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-tanda8"
+ "tanda": "dd-2026-11-21-tanda8",
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z"
 }

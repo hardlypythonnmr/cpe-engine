@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-21-tanda8",
  "issue": 121,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-21-n2-netflix-zoom",
   "dd-2026-11-21-h2-hp-oficina",
@@ -18,5 +18,17 @@
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-19T20:37:53Z",
  "aviso_utc": "2026-11-19T20:37:58Z",
- "aviso_canal": "github"
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z",
+ "aprobadas": [
+  "dd-2026-11-21-h2-hp-oficina",
+  "dd-2026-11-21-n2-netflix-zoom",
+  "dd-2026-11-22-f1b-cliffs-80",
+  "dd-2026-11-22-f1b-cliffs-80-sin",
+  "dd-2026-11-23-f2-ranking",
+  "dd-2026-11-23-f5-cuenta-3m",
+  "dd-2026-11-24-f6-antes-bp",
+  "dd-2026-11-24-f8-quien-paga-wf",
+  "dd-2026-11-25-f4-reaccion-donotpay"
+ ]
 }

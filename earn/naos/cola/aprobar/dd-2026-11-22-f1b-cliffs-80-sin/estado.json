@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-f1b-cliffs-80-sin",
  "issue": 121,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T22:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "dd6a3c47e12bb9b01c512659c83c69fa341262c4720b98b588d9b8f472cb3d95",
@@ -19,5 +19,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-tanda8"
+ "tanda": "dd-2026-11-21-tanda8",
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z"
 }
