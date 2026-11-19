@@ -1,0 +1,23 @@
+{
+ "slug": "gossip-caved-at-7-16",
+ "issue": 120,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-04T17:00:00Z",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "hash_contenido": "bc872350b37346fe7195886f51ef6e63c7b3f27abb992bd7adc4ed642d4c81e1",
+ "hashes": {
+  "short": "75c6e68cdf8595f12f30af8a0009b2bd0f03fb0bc04e488d1061fbc6d2ef82cc",
+  "reel": "7914f0f182926b33d04cf3d65360c62363877fddc4a12dc77f7ea7e6b13d8ba9"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7020180265,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "gossip-0412"
+}

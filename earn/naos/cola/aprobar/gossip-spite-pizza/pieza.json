@@ -77,6 +77,12 @@
    "que": "SEO copy",
    "estado": "OK",
    "nota": "seo-maestro (19-nov), investigacion.md; each short leads with a different search term"
+  },
+  {
+   "que": "Fixed figures",
+   "estado": "OK",
+   "nota": "cifras_fijas: dates (Utpanna Ekadashi Dec 4 2026, Mokshada Dec 19/20) and the pārana window come from Drik Panchang via the library's verified sheet; they don't expire"
   }
- ]
+ ],
+ "cifras_fijas": true
 }

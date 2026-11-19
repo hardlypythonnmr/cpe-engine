@@ -1,0 +1,23 @@
+{
+ "slug": "gossip-doing-the-moon",
+ "issue": 120,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-04T19:45:00Z",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "hash_contenido": "15d2de45a67094ae5a9ab5d0919d9e5887cee085482176a422b1f87ea065f08a",
+ "hashes": {
+  "short": "fa5fb323e5abea6be71254c172c9105d08a6b0971ba4a777828ffd490dedbb33",
+  "reel": "0a9fe79a369789d317a3256adfe6beb4bc6bc825b67cece5f8cd6866e4e90029"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7020181292,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "gossip-0412"
+}

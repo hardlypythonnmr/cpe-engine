@@ -1,0 +1,18 @@
+{
+ "nombre": "gossip-0412",
+ "issue": 120,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "gossip-hi-to-the-cheese",
+  "gossip-caved-at-7-16",
+  "gossip-doing-the-moon",
+  "gossip-spite-pizza",
+  "gossip-lunch-with-the-lights-on"
+ ],
+ "comentario_vista_previa_id": 7020184220,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-19T19:40:55Z",
+ "aviso_utc": "2026-11-19T19:40:55Z",
+ "aviso_canal": "github"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "gossip-spite-pizza",
+ "issue": 120,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-04T22:00:00Z",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "hash_contenido": "35d31bf4391554846451e9ad755ba1c8fd466f844ddc2b83ebe78da16a6843af",
+ "hashes": {
+  "short": "7c8d313b5c69569286e5d7788250b94d100454b5e781ec9f2c032f309b2c37bc",
+  "reel": "447ed5a048b3f85613cded2fe715ba24587834d5dd301ef031249da64f762ea6"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7020182257,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "gossip-0412"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "gossip-hi-to-the-cheese",
+ "issue": 120,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-04T14:45:00Z",
+ "datos_utc": "2026-11-19T15:49:00Z",
+ "hash_contenido": "acd2e13208073652bb8df7cfb90b63451a493e41cc9580549ca5db4dd3bdf186",
+ "hashes": {
+  "short": "5656c313e8333ce0b451b74aa734717a05caaecfb526d8d0395934dc5ed48d68",
+  "reel": "68939fcdf5ee25ca64ef960e2ae49a01384a974bf143b53c4b2c87ba56589eb3"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7020179354,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "gossip-0412"
+}
