@@ -1,0 +1,28 @@
+{
+ "slug": "dd-2026-11-18-apple-tachon-q",
+ "issue": 1789,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T17:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "f4a7c08038cf9b7a4199fdf175716be58ba455264ed16fb4ee89ac4c58d9613b",
+ "hashes": {
+  "short": "a471379140a953d16144c67ab40f64576776573d732a5106d488b300db7806c6",
+  "reel": "5ad197f04b1d0a173c6dbe7cf58f47efb3e276774b79cfa2657e5fe0b7a23e10"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6978477711,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-19T05:00:00Z"
+}

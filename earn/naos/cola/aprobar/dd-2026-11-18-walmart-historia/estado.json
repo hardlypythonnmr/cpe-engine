@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-18-walmart-historia",
+ "issue": 1331,
+ "version": 3,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T19:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "8a89ce438239a3d11bb3c8d052f19728b72df0c0022e34b236dfb5747003690b",
+ "hashes": {
+  "historia": "3e8634b5039f3c3a3f18e7b645555112921d5249e6b522dd12cf500afad1cf6b"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885941792,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

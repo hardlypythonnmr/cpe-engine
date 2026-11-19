@@ -225,10 +225,17 @@ class Veto(unittest.TestCase):
         self.assertEqual((e["audio_aviso"]["voz_video"], e["audio_aviso"]["audio_vol"]), (False, 90))
         self.assertIn("al 90 %", comentarios[0][1])
 
-    def test_vetado_lee_reacciones(self):
+    def test_vetado_solo_n(self):
         import audio_aviso
-        self.assertTrue(audio_aviso.vetado(1, "r", lambda m, r: [{"content": "+1"}, {"content": "-1"}]))
-        self.assertFalse(audio_aviso.vetado(1, "r", lambda m, r: [{"content": "+1"}]))
+        n = lambda c: {"user": {"login": "hardlypythonnmr"}, "content": c}
+        otro = lambda c: {"user": {"login": "intruso"}, "content": c}
+        self.assertEqual(audio_aviso.aprobador(), "hardlypythonnmr")
+        self.assertTrue(audio_aviso.vetado(1, "r", lambda m, r: [n("+1"), n("-1")]))
+        self.assertFalse(audio_aviso.vetado(1, "r", lambda m, r: [n("+1")]))
+        with contextlib.redirect_stdout(io.StringIO()) as out:
+            self.assertFalse(audio_aviso.vetado(1, "r", lambda m, r: [otro("-1"), n("+1")]))
+        self.assertIn("intruso", out.getvalue())
+        self.assertFalse(audio_aviso.vetado(1, "r", lambda m, r: [n("-1")], n=""))  # sin aprobador versionado, nadie veta
         def falla(m, r):
             raise OSError("red")
         self.assertIsNone(audio_aviso.vetado(1, "r", falla))

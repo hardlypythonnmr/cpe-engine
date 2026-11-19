@@ -1,0 +1,27 @@
+{
+ "slug": "the-crow-and-the-pitcher",
+ "issue": 1415,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2027-01-08T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "16f6fa5f97c4a769d85f30225d31295a5dcbc608f7de3a9c61d608ae8ef67938",
+ "hashes": {
+  "short": "1ae2bff7bc2410f23dcd0a3545cf3018dc3bdc5b88f3690e9c9e75ee508eccd9"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888395203,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»",
+ "short_bajado_utc": "2026-11-18T21:03:20Z",
+ "short_bajado": "privado y sin fecha"
+}

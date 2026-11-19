@@ -1,0 +1,23 @@
+{
+ "slug": "sit-in-silence",
+ "issue": 960,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "66afb535aa652c41879cb61776fa883c887de49de40f04446ae2f3910c320602",
+ "hashes": {
+  "historia": "c67db76c90cd2c235049d05f0dbfb4f42b825aaae6f2d61800c37cd4ed2523f0"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6894676399,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z"
+}

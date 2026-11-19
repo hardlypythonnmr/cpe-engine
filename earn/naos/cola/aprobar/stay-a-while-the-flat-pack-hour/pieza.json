@@ -1,0 +1,66 @@
+{
+ "slug": "stay-a-while-the-flat-pack-hour",
+ "titulo": "Stay a while: the flat-pack hour",
+ "clave": "2027-01-21|medio-stay-a-while",
+ "sale_utc": "2027-01-21T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "A quiet 11-minute stretch for whoever is putting together a flat-pack shelf on the floor. No voice and no lecture. A clock runs from 4:12 p.m. on a Saturday and jumps ahead twice, short cards come and go, the afternoon light sinks in the window, and a drawn character, Cella, sits next to the box and does not touch a single piece. A screw is missing, and step nine undoes step six. Leave the video on or off whenever you want.\n\nSomebody is on step nine tonight.\n\nChapters\n0:00 The box\n1:00 The easy steps\n3:00 Step six\n6:25 Steps seven and eight\n7:45 Step nine\n10:25 On step nine\n\nFor whoever is on step nine.\n\nCella is an AI character. Nobody is on the other end of this video: it is a clock, some cards and music made with code.\n\nChoose friction.",
+ "sintetico": false,
+ "alt": "An 11-minute video in 16:9 with no voice. A room late on a Saturday afternoon, seen at floor level: an open cardboard box, a few wooden boards lying on the floor, a small tray with screws, a window with the light going down slowly, a wall clock, a shelf frame that gains a part with each step, and Cella, a small blocky black figure with two round white eyes and no hands, sitting very still next to the box. A clock in the corner starts at 4:12 PM, runs one second per second, and jumps ahead to 4:40 and then to 5:05. Every 30 to 50 seconds a short card replaces the last one, such as The box is open, Stay a while, Lay out every part, Steps one to three, One screw is missing, Cella has not moved, Step nine and Something came off. At step nine one side of the shelf comes off. It ends on For whoever is on step nine, then Step nine undid step six, then Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "slowtv",
+ "titulo_ab": "The flat-pack hour, with Cella sitting nearby",
+ "comentario_fijado": "Somebody is on step nine tonight.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la última tarjeta y la descripción dicen For whoever still has replies to write.; el fijado es una frase sin pedido: \"Somebody is on step nine tonight.\"",
+ "guion": "empresa/youtube/medios/produccion/m31/hacer_pieza.py",
+ "casa": {
+  "id": "stay-a-while-the-flat-pack-hour",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m31"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "679.0 s (11:19), 1280x720 16:9, 24 fps, H.264 + AAC stereo, 10.0 MB (under the 15 MB limit); no voice, twenty cards, a running clock that jumps twice (4:12, 4:40, 5:05)"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own music (FluidSynth + FluidR3_GM, MIT) and a synthetic room ambience; no model, no third-party sample, 0 ElevenLabs credits"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "cards read at 390 px wide (contact sheet checked by eye); main lines of 5 words or fewer (the persona card, For whoever is on step nine, has six and sits on screen 12 s), sub line at 84 px (D-347 floor)"
+  },
+  {
+   "que": "Friction (acta ene S3, 2d)",
+   "estado": "OK",
+   "nota": "step nine undoes step six and a screw is missing; Cella stays seated and touches nothing. The card before the lema is Step nine undid step six."
+  },
+  {
+   "que": "Cella",
+   "estado": "OK",
+   "nota": "white eyes without ring, no hands, no outline; Cella is still beside the box and never touches a piece; nobody else is drawn, so nobody looks at fault (the one assembling is whoever is watching)"
+  },
+  {
+   "que": "Closing",
+   "estado": "OK",
+   "nota": "regla 8: the last cards name a person (For whoever is on step nine.) and nothing asks to save, comment, share, send or follow; the pinned comment is a plain sentence; the description says Cella is an AI and nobody is on the other end"
+  },
+  {
+   "que": "Copy",
+   "estado": "OK",
+   "nota": "no long dashes; title 32 characters; no 'no one' and no 'between' in caption or description (detectors)"
+  }
+ ]
+}

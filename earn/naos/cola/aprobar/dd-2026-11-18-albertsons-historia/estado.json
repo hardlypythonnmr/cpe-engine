@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-18-albertsons-historia",
+ "issue": 1789,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T23:00:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "9efb04e7780a363ca543f8b461f5c9ad34969f49fe38ddd39e4d559f42fd7c3d",
+ "hashes": {
+  "historia": "fcfca74c336242334b5b45669bc0ef54c18a244709174329b572f992f4b5eda3"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6978475910,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z"
+}

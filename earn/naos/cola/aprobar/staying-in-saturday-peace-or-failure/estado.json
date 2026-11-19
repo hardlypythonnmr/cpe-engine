@@ -1,0 +1,23 @@
+{
+ "slug": "staying-in-saturday-peace-or-failure",
+ "issue": 979,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-28T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "08da16dc026c9a747ed8000a162fa7fe1e210fdc7b4e4f4b8066051b8d2fb8e6",
+ "hashes": {
+  "imagen": "87fa16d49f786313111d1feff9b0830bafed9b16aaacc1baf8a083651df1bece"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681456238,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

@@ -1,0 +1,42 @@
+{
+ "slug": "the-meeting-or-the-message",
+ "titulo": "Before you book it: meeting or message?",
+ "clave": "2027-01-14|the-meeting-or-the-message",
+ "sale_utc": "2027-01-14T19:15:00Z",
+ "caption": "Before you book it: a meeting, or a message?\nFor whoever is about to send a calendar invite.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "the image is split in two: MEETING on the left with a clock, MESSAGE on the right with Cella in a crown under a spotlight. Before you book it: Choose friction. Left: Meeting. Right: Message.",
+ "tipo_imagen": "F4 Elige · la reunión que podía ser un mensaje · jue 14-ene",
+ "aspecto": "1x1",
+ "seccion": "humanity",
+ "tanda": "ene-s2 (junta-ene-s2, 2c)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "la reunión que cabía en un mensaje",
+ "mecanica_crecimiento": "destinatario: whoever is about to send a calendar invite",
+ "destinatario": "whoever is about to send a calendar invite",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada, hoja de contacto leída a 390 px de ancho (Opus 11c, 14-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "arquetipos, sin persona real ni marca ni grupo protegido; sin tema SENSIBLE (D-466); sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas; sin hashtags (D-376); el lema solo al cierre (D-409)"
+  }
+ ]
+}

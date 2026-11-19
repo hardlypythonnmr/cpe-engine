@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-18-albertsons-hist-numero",
+ "issue": 1789,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T19:30:00Z",
+ "datos_utc": "2026-11-15T19:00:00Z",
+ "hash_contenido": "f9e5093a939ba0733135e0a6b06b7d6a9df0df53d2947ef7418e7b97afa95654",
+ "hashes": {
+  "historia": "775912b40f4c9e029c44d783b5d6f13e4b1ec42299d024db1723d1e8739be214"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6978476786,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z"
+}

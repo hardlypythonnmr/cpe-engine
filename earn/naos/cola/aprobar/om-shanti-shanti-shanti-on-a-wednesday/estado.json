@@ -1,0 +1,22 @@
+{
+ "slug": "om-shanti-shanti-shanti-on-a-wednesday",
+ "issue": 1768,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T22:40:00Z",
+ "datos_utc": "",
+ "hash_contenido": "5df74a5cb89d49be13ce7973d6f94d59af0eac2135fb33bd0f34b82648a0a586",
+ "hashes": {
+  "carrusel": "17d645852bc24723b2f759870c616f0356fae64998b398fee92a9614b2ec3d09"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6955250541,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17-mantras",
+ "aprobado_evento_utc": "2026-11-17T17:13:18Z"
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "boundaries-and-a-hey",
+ "titulo": "Me: I have boundaries",
+ "clave": "2026-11-17|casa-alcoba",
+ "sale_utc": "2026-11-17T20:25:00Z",
+ "caption": "Me: I have boundaries\n\nme: i have boundaries\nthe person who hurt me: 'hey'\nme: hi!!\n\nBoundaries are great until the phone lights up. Know your weak spot.\n\n#Cella #relatable\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "me: i have boundaries\nthe person who hurt me: 'hey'\nme: hi!!\n\nBoundaries are great until the phone lights up. Know your weak spot.\n\n#Cella #relatable\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A lavender bedroom. A small ink-black block figure with white eyes sits on the bed beside a phone, proudly next to a sign that says BOUNDARIES. The phone buzzes. Its eyes go wide, the sign vanishes, it nudges the phone toward itself and its eyes turn happy. At the end it looks at the camera with narrowed eyes. The text stays: me: i have boundaries. The person who hurt me: 'hey'. Me: hi!!",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "boundaries-and-a-hey",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.7 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "MEME",
+ "filo": "C",
+ "tema": "ex y límites",
+ "blanco": "Cella (y quien contesta al ex)",
+ "destinatario": "the friend who still answers their ex",
+ "cara": "A",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

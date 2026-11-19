@@ -1,0 +1,61 @@
+{
+ "slug": "the-stone-soup",
+ "titulo": "The Stone Soup",
+ "clave": "2026-12-22|medio-m23",
+ "sale_utc": "2026-12-22T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "A traveler comes to a village with an empty pot and a stone. Every door says there is nothing to spare. This story is about what the pot does in the middle of the square.\n\nA story for tonight, from a European folk tale told again. The old tale gives the hungry traveler, the village that says it has nothing, the stone in the pot, and the soup everyone ends up eating. Who comes, what they bring, the lines Cella says and the count of eleven neighbors are invented for this retelling, and the video says so.\n\nChapters\n0:00 The folk tale and where it comes from\n0:38 The doors\n1:12 The stone\n1:43 One thing each\n2:06 The soup, and what the stone did\n\nSources\nStone soup is a European folk tale found under many names: stone soup, axe soup, nail soup, button soup, bolt soup, wood soup. In the Aarne-Thompson-Uther classification of folktales it is type 1548. It has no single author: there are versions from England, France, Germany, Ireland and Sweden, and in the Hungarian, French and Russian ones the travelers are soldiers. Read for this retelling: the Wikipedia article \"Stone Soup\" and D. L. Ashliman's collection \"Stone Soup: Folktales of Aarne-Thompson-Uther type 1548\" (University of Pittsburgh, folktexts), which gathers versions from several countries. This retelling uses the shared plot only and none of the wording of any one version.\n\nVoice: synthetic. Music and sounds made with code by NAOS.\nChoose friction.",
+ "sintetico": false,
+ "alt": "A video in 16:9, a story for tonight. At dusk, Cella, a small amber doorway-shaped figure with two white eyes, plays the traveler of a European folk tale. A card gives the source: a folk tale, tale type 1548, no one author, the rest invented. She knocks at two doors in a village, and each answer is the same: nothing to spare. She sets a pot over a fire in the middle of the square, drops in a stone and says it only needs a little garnish. Small figures of other colors come over to look, and one at a time each drops a single thing into the pot: a carrot, an onion, potatoes, a cabbage, a pinch of salt. The stone is lifted out and set aside, and the soup is shared. The stone did nothing; every spoonful came from what the neighbors put in. Final cards: For whoever brought one carrot; the source; Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "pelicula",
+ "titulo_ab": "A Story for Tonight: The Stone Soup",
+ "comentario_fijado": "The stone did nothing. Somebody brought a carrot anyway.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la tarjeta final dice For whoever brought one carrot. (una sola vez) y el comentario fijado es una frase de Cella que nombra al destinatario",
+ "guion": "empresa/youtube/medios/2026-12-22-m23/m23-stone-soup.md",
+ "casa": {
+  "id": "m23",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m23"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "184.10 s (3:04), 1280x720 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 3.5 MB; voice: a third-person narrator and the traveler, Cella, who speaks twice (ElevenLabs eleven_v4, saved voices mesa-daniel and brief-mujer-v2), 19 lines, 2211 characters; the source is said aloud before the retelling begins"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.1 LUFS integrated, true peak -4.4 dBFS, LRA 6.4 LU; music composed with code (motor/musica/midi.py); paper, clicks, knocks and plops from code (the same sound kit as M12 to M19)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 310 and 590 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Folk tale of Aarne-Thompson-Uther type 1548 (soup from a stone), no single author. Read on 2026-11-14: Wikipedia, 'Stone Soup' (European folk story in which hungry strangers convince the people of a town to share a small amount of their food; also called axe soup, button soup, nail soup, bolt soup and wood soup; ATU type 1548) and D. L. Ashliman, 'Stone Soup: Folktales of Aarne-Thompson-Uther type 1548' (sites.pitt.edu/~dash/type1548.html), versions from Europe, England, France, Germany, Ireland, Sweden and the United States. Only the shared plot is used (a hungry traveler, a village that says it has nothing, a stone in a pot, each neighbor adds one thing, the stone is taken out); no wording of any version is copied (Ashliman's reconstruction is copyrighted, so the telling is original). Said on air and in the description: it is an old tale with no single author and the details (the carrot, the eleven neighbors, the lines) are invented for this retelling. No faith, no sacred name (the pilgrim and monk versions are not used), no real person, no minor, no health or diet claim (motor/respeto.md rules 1 to 7 checked)."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m23/dias/m23/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "OK: lector frío (naos-personas-sinteticas, oficio 2) en 3 rondas, 14-nov; entendió el cuento (viajera, piedra, una cosa cada vecino, la piedra no hizo nada) y lo inventado; corregido: la jerga 'tale type fifteen forty-eight' pasó a 'catalog number, type fifteen forty-eight' y el rótulo del cuadro 0 sale desde el segundo 0; queda a juicio de N el cierre de casa 'Choose friction.' (el lector no lo conecta con la historia) y el tono cálido, sin filo satírico"
+  }
+ ]
+}

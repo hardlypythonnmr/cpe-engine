@@ -1,0 +1,27 @@
+{
+ "slug": "the-stone-soup",
+ "issue": 1415,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2026-12-22T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8aa613581301afb11316ea021a76e77384362b7067a37233cabd09d28a4af1eb",
+ "hashes": {
+  "short": "bf0dd7b93f1c4a1f12f2486ebf2f33bcfca865c7ae31ff1195e74e2e2a434b1d"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888393553,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»",
+ "short_bajado_utc": "2026-11-18T21:03:09Z",
+ "short_bajado": "privado y sin fecha"
+}

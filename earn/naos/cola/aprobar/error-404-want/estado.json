@@ -1,0 +1,21 @@
+{
+ "slug": "error-404-want",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-12T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7e9cb1e3760ca3b360c8a265e82771fcb8448bfbe8b46247a73b153d83ec543f",
+ "hashes": {
+  "historia": "eaa1de0faf4ca8348098b230a18dc22477d707fbbb2e39f824cb1ea7c6aef0cf"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6610810020,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

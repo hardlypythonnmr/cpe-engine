@@ -1,0 +1,42 @@
+{
+ "slug": "cella-the-reply-all-warning-label",
+ "titulo": "Cella, reply all",
+ "clave": "2027-01-11|cella-the-reply-all-warning-label",
+ "sale_utc": "2027-01-11T19:15:00Z",
+ "caption": "A warning label for Cella, reply all: check the thread, answer the sender.\nFor whoever is about to hit reply all.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Warning. Checks: who is on the thread. Replies: only to the sender. Counts: to three first. Do not: send it to forty people. Side effects: a quiet inbox.",
+ "tipo_imagen": "F7 Etiqueta · responder a todos · lun 11-ene",
+ "aspecto": "4x5",
+ "seccion": "humanity",
+ "tanda": "ene-s2 (junta-ene-s2, 2c)",
+ "filo": "C",
+ "experimento": false,
+ "blanco": "el reply all que nadie pidió",
+ "mecanica_crecimiento": "destinatario: whoever is about to hit reply all",
+ "destinatario": "whoever is about to hit reply all",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada, hoja de contacto leída a 390 px de ancho (Opus 11c, 14-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "arquetipos, sin persona real ni marca ni grupo protegido; sin tema SENSIBLE (D-466); sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas; sin hashtags (D-376); el lema solo al cierre (D-409)"
+  }
+ ]
+}

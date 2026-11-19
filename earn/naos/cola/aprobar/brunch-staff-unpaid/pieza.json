@@ -1,0 +1,58 @@
+{
+ "slug": "brunch-staff-unpaid",
+ "titulo": "Congrats: you're brunch staff",
+ "clave": "2026-11-14|casa-mesa",
+ "sale_utc": "2026-11-14T14:00:00Z",
+ "caption": "Congrats: you're brunch staff\n\nCongrats: you're brunch staff. Photographer. Unpaid. The eggs are cold.\n\nTake photo number 47. Then make them eat.\n\n#Cella #brunch\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Congrats: you're brunch staff. Photographer. Unpaid. The eggs are cold.\n\nTake photo number 47. Then make them eat.\n\n#Cella #brunch\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, like a photo shoot at a table. A pink dining room with a small table and a plate with a bite on it. A small ink-black block figure with white eyes strikes pose after pose next to the plate while the screen flashes white like a camera; a phone stands on the right, its screen lit. A cobalt figure walks over hungry, eyes on the plate, and gets a wide-eyed look from the first one, so it waits. More flashes, more poses. A label in the corner says TAKE 47. At the end both pulse, the first one pleased, the second one with narrowed eyes. The text stays: if someone sent you this, congrats: you're brunch staff. Photographer. Unpaid. The eggs are cold.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "brunch-and-a-witness",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 15 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -0.9 dBFS, LRA 4.4 LU; own music (motor/sonido midi, room mesa, mood juego), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "hueco de invitación 12:00 ET del 2026-11-07 (estado.py 1b, rama naos/cola-minima-por-tipo, PR #939); H9: ninguna pieza de IG a menos de 60 min"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "juez de coherencia y arte (naos-arte-critico y naos-escritura-editor, lista de 14 puntos y D-359/D-362) pasado en una pasada aparte sobre contacto y cuadros clave; sin herramienta de agentes en esta corrida, el juez distinto de D-294 queda pendiente. OK con nota. Seis flashes de 0,1 s (máx. 1 por segundo) con cortes de cámara a la que posa; la de cobalto (la 'staff') espera con hambre y termina con ojos de rendija: la pantalla y la escena dicen lo mismo. Mesa = compartir. [mejora] el plato con el bocado amarillo se lee como comida, no necesariamente huevos; el texto lo nombra. Sin manos, ojos blancos, sin reborde."
+  }
+ ],
+ "tipo": "INV",
+ "filo": "C",
+ "forma_provocacion": "Cella vanidosa y descarada",
+ "tema": "vanidad y redes",
+ "blanco": "quien manda el video (la amiga del outfit)",
+ "destinatario": "the friend who always needs a photographer",
+ "cara": "B",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-06 (D-357, D-359, D-360, D-362, D-363)"
+}

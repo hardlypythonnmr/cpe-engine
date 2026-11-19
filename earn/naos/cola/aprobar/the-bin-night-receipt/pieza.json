@@ -1,0 +1,42 @@
+{
+ "slug": "the-bin-night-receipt",
+ "titulo": "Bin night, itemized",
+ "clave": "2027-01-17|the-bin-night-receipt",
+ "sale_utc": "2027-01-17T19:15:00Z",
+ "caption": "Bin night, itemized. Taking the bag out costs about three minutes. Saying someone should costs a bag by the door tomorrow.\nFor whoever says I’ll take it out before anyone asks.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Receipt. Counter: bin night. Thank you. Choose friction. Tie the bag: 20 s. Carry it down: 2 min. Come back up: 1 min. Said, not done: bag stays. TOTAL: 3 min, bag gone. A red stamp reads TAKEN OUT.",
+ "tipo_imagen": "F9 Recibo · sacar la basura · dom 17-ene",
+ "aspecto": "4x5",
+ "seccion": "humanity",
+ "tanda": "ene-s3 (junta-ene-s3, 2c)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "la bolsa que nadie dice que baja",
+ "mecanica_crecimiento": "destinatario: whoever says I'll take it out before anyone asks",
+ "destinatario": "whoever says I'll take it out before anyone asks",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada, hoja de contacto leída a 390 px de ancho (Opus 11c, 14-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "arquetipos, sin persona real ni marca ni grupo protegido; sin tema SENSIBLE (D-466); sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas; sin hashtags (D-376); el lema solo al cierre (D-409)"
+  }
+ ]
+}

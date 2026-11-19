@@ -1,0 +1,23 @@
+{
+ "slug": "main-character-stairs",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-16T19:48:00Z",
+ "datos_utc": "",
+ "hash_contenido": "caa5e1a6f4e0e7d8ff65a85777161a4e4e3061b64d720c90f2421497be535297",
+ "hashes": {
+  "short": "c497bee2f5115627d10c91f91f32af062491a46cd5ca3fa318acf2e8e1b2d700",
+  "reel": "7da203708b30d5185b02e1883963b284106dca0ddb532c27246867c177086e6d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668656196,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

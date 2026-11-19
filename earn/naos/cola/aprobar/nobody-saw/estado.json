@@ -1,0 +1,23 @@
+{
+ "slug": "nobody-saw",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-13T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "191cfa1ff9a2e121f7eafb4df07e45ded2e3f6a984d404a21e380e00004537e2",
+ "hashes": {
+  "short": "dfca2325468ccced42d8dcc2626d4f31531ef3e652fa74b77e454719559db5fd",
+  "reel": "ac67b6c71f81c855840a3c48a4e1fb6058950bd3dae77c04b6078edbec934d14"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6610818758,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

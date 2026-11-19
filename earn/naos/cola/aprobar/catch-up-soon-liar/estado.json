@@ -1,0 +1,23 @@
+{
+ "slug": "catch-up-soon-liar",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-16T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "cad8c70c590be56ec8f30c598021ccdd23a7c70f366c7bae6aed55dc28e92f67",
+ "hashes": {
+  "short": "6f0feced1321f582fa6f4a09cb267e94693aba84cf19e458d4d38eeb5cbefe6a",
+  "reel": "16519813d2dd9b9e088d6c5edbf1347124a9e65ebc5c903cdf7f0c5a67c4448d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668655439,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

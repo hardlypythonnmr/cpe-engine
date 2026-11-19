@@ -1,0 +1,22 @@
+{
+ "slug": "seven-doors-in-your-body",
+ "issue": 1751,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T19:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "94c33f8c380c306378874ccc2acb6786539a902a458b5c12a6aa4783a11d5343",
+ "hashes": {
+  "carrusel": "9e65c37a3212faf2d76ad2eb47a06d646ec76a3d59f0e61333ef643d345b5667"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6946946672,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z"
+}

@@ -1,0 +1,50 @@
+{
+ "slug": "read-and-later",
+ "titulo": "I'll reply later",
+ "clave": "2026-11-12|casa-ventana",
+ "sale_utc": "2026-11-12T20:00:00Z",
+ "caption": "I'll reply later\n\ni read it. i'll reply later. later: 3 days.\n\nFor whoever you owe a reply, with love.\n\n#Cella #relatable\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "i read it. i'll reply later. later: 3 days.\n\nFor whoever you owe a reply, with love.\n\n#Cella #relatable\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A deep blue room with a window. A small amber block figure with white eyes looks down at a phone standing on the floor. A sign in the window flips from MON to TUE, WED and THU, and the figure shrinks a little each day, eyes wide. At last a speech bubble that says yes! pops up over the phone and the figure pulses with happy eyes. The text stays: i read it, i'll reply later, later: 3 days.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "read-and-later",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -6.1 dBFS, LRA 1.2 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "G2 (grilla jue 12), M07 meme; sin nombre de efecto (D-324)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov sobre contacto y cuadros (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}

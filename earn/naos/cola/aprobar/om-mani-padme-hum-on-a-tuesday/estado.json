@@ -1,0 +1,22 @@
+{
+ "slug": "om-mani-padme-hum-on-a-tuesday",
+ "issue": 1751,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T21:10:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f8f1646222eacd0b8d04b9628c8d3e3f2099e192b295e9ccb18c97a95676dc3b",
+ "hashes": {
+  "carrusel": "e08d8ef8095960adf1e1d16cc031ffbbb8ce850e2d871b41dec7c3e6c49ceb5b"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6946949064,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z"
+}

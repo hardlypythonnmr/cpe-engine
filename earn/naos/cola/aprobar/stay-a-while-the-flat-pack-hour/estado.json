@@ -1,0 +1,25 @@
+{
+ "slug": "stay-a-while-the-flat-pack-hour",
+ "issue": 1415,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2027-01-21T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "de08a2d5d2a2d01c3c7dc087aebde5bc9d74b1159cecfab3598efc5b071c5987",
+ "hashes": {
+  "short": "7306b62ecb5675629de3007ff8d4fd1af5fe7ad6905ae555b1acad44b14ace8f"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888398069,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:52Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

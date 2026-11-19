@@ -1,0 +1,21 @@
+{
+ "slug": "movies-alone",
+ "issue": 987,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-11T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0404f16ffd5ee33e7f156ff7b41f35acbd4877602f35dafa5e962d98c110d577",
+ "hashes": {
+  "imagen": "2e86adbd8ee2b6f5948ffb86b00557e6018cec95ee7d61015c633cefdbeae03d"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6739896141,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "caidos-b-11-nov",
+ "aprobado_evento_utc": "2026-11-09T12:57:18Z"
+}

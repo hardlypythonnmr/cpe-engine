@@ -1,0 +1,61 @@
+{
+ "slug": "7-ways-you-say-let-me-know-if-you-need-anything-ranked-by-cella",
+ "titulo": "7 Ways You Say Let Me Know If You Need Anything, Ranked by Cella",
+ "clave": "2027-01-19|medio-m30",
+ "sale_utc": "2027-01-19T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "A neighbor is moving in with a lot of boxes, and most of us say the same sentence: let me know if you need anything. Cella ranks seven ways of saying it, all about behavior, by what each one costs the person offering and what it gives the person hearing it.\n\nChapters\n0:00 A new neighbor and the sentence\n0:41 #7 The Open Door\n1:14 #6 The Check-In\n1:41 #5 The Menu\n2:08 #4 The Loan\n2:39 #3 The Specific Yes\n3:09 #2 The Show-Up\n3:36 #1 The Saturday\n4:07 What it costs, what it gives\n\nThe seven are archetypes, not people and not brands, and every one was somebody's best idea at the time. What each costs, what each gives and the whole ranking are Cella's opinion and nothing in it is a study. What she noticed: each of the seven gives back about what it costs.\n\nVoice: synthetic. Music and sounds made with code by NAOS.\nChoose friction.",
+ "sintetico": false,
+ "alt": "A video in 16:9 of about six minutes. A catalog of behaviors, ranked. At night, Cella, a small amber doorway-shaped figure with two white eyes, sits on a bench next to a lamp and ranks seven ways of offering help to a neighbor who is moving in, on a sheet on the left with what the way says, what it costs her and what it gives the neighbor. Number 7, the Open Door, costs five seconds and gives almost nothing. Number 6, the Check-In, a calendar note and a maybe in a week. Number 5, the Menu, two minutes and a list to pick from. Number 4, the Loan, a walk down the hall and a dolly today. Number 3, the Specific Yes, a Tuesday evening and a time to count on. Number 2, the Show-Up, an hour and groceries, and dinner with one less decision. Number 1, the Saturday, a Saturday morning, and a morning with two more hands. Final cards: For whoever offers a Saturday instead of a sentence; Number one cost a Saturday morning, number seven cost nothing, and gave the same; Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "satira",
+ "titulo_ab": "Cella Ranks 7 Ways to Offer Help to a New Neighbor",
+ "comentario_fijado": "Number one cost a Saturday morning. Somebody is about to offer one.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la tarjeta final dice For whoever offers a Saturday instead of a sentence. (una sola vez, en pantalla y en la voz) y el comentario fijado es una frase de Cella que nombra al destinatario",
+ "guion": "empresa/youtube/medios/2027-01-19-m30/m30-let-me-know.md",
+ "casa": {
+  "id": "m30",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m30"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "297.30 s (4:57), 1280x720 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 5.5 MB; voice: Cella ranking in the first person (ElevenLabs eleven_v4, saved voice brief-mujer-v2), 37 lines, 3704 characters"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.0 LUFS integrated, true peak -3.4 dBFS, LRA 4.2 LU; music composed with code (motor/musica/midi.py); paper, clicks and stamps from code (the same sound kit as M12 to M27)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 214 and 625 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "No study and no figure is claimed: the seven archetypes, what each costs and gives, and the ranking are Cella's opinion, and the video and the description say so. No brand, no real person, no illness, grief or crisis: all seven ways are about offering help to a neighbor who is moving in (a general offer, a check-in, a menu, a loan, a specific yes, a dinner, a Saturday). The one general observation (each gives back about what it costs) is offered as Cella's reading, not as a finding. Motor/respeto.md rules 1 to 7 checked: no group, no minor, no crisis, no health, money or legal advice, no expert role."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m30/dias/m30/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ]
+}

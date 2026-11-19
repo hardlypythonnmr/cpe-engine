@@ -1,0 +1,24 @@
+{
+ "slug": "cella-the-reply-all-warning-label",
+ "issue": 1409,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2027-01-11T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b3fb224d0d851a5a3d04ffc92d050ba528ca78139cc616689563887c816ab1aa",
+ "hashes": {
+  "imagen": "a36756bd4705067f4b177498c555d745388ec92f58493b085074a9bc1d971caa"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6886627701,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "one-thing-well",
+ "titulo": "One thing I did well this week",
+ "clave": "2026-11-13|one-thing-well",
+ "sale_utc": "2026-11-13T18:30:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still image for Stories. A flat warm yellow background with a darker floor. A small ink-black block figure with happy white eyes stands next to a sheet of paper with two grey lines and a dashed blank line. The text: One thing I did well this week: blank.",
+ "seccion": "humanity",
+ "fuente": "empresa/estrategia/semanal/2026-11-09-grilla.md (casa/lib/semana-1109-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "one-thing-well",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5, hasta 18 (D-308); texto en la banda de Stories 270 a 1330 (medir8)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa; sin raya larga"
+  },
+  {
+   "que": "Rule",
+   "estado": "OK",
+   "nota": "hueco para llenar sin sticker (stories.md regla 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov sobre contacto y cuadros (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}

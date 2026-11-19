@@ -1,0 +1,23 @@
+{
+ "slug": "sunday-dread-wrong-job-or-just-sunday",
+ "issue": 980,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-29T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "144923d45886dc5f9fc486a97b3af71d816105076f8626a2c796a28953e167bc",
+ "hashes": {
+  "imagen": "96fc929c38b5cc317a4f41f476028a2246794a4b0325f569de75d98caed2ba59"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681464723,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

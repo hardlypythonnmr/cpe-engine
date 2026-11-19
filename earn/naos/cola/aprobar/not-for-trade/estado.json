@@ -1,0 +1,22 @@
+{
+ "slug": "not-for-trade",
+ "issue": 1486,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T22:22:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f202bd0c8813cd29265ba374154d3fda65f5fecce83a4ac05c732aee4dd066e7",
+ "hashes": {
+  "historia": "5c5ee1d6e207c2e1a128874e378bcdff80ae8da36a9c0a4767772ec1c8e354a7"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6893518191,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "tendencia-1820",
+ "aprobado_evento_utc": "2026-11-15T11:55:28Z"
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "stay-a-while-the-inbox-hour",
+ "issue": 1415,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2027-01-14T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "0bb44e33bec7fb54d9eeac580dd45ab943b04d405ed05b09d1f3b699a767ba15",
+ "hashes": {
+  "short": "1b42b85f3fa555ccf820efae48214994df41a2bfce70409e22d8ce29410be764"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888396451,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

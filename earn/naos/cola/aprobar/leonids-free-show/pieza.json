@@ -1,0 +1,49 @@
+{
+ "slug": "leonids-free-show",
+ "titulo": "The Leonids are still falling",
+ "clave": "2026-11-18|casa-patio-noche",
+ "sale_utc": "2026-11-18T17:00:00Z",
+ "caption": "The Leonids are still falling\n\nThe Leonid meteor shower peaked around Nov 17 to 18 and keeps falling through the month. Thinner tonight, still free: after the moon sets, away from city lights, no telescope needed.\n\nBring someone and be patient: the wait is part of it.\n\n#Leonids #meteorshower #Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "The Leonid meteor shower peaked around Nov 17 to 18 and keeps falling through the month. Thinner tonight, still free: after the moon sets, away from city lights, no telescope needed.\n\nBring someone and be patient: the wait is part of it.\n\n#Leonids #meteorshower #Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A night patio under a deep blue sky. Two small block figures with white eyes sit on a ledge looking up, one amber and one light blue. For eight seconds nothing happens except stars twinkling, and they lean a little closer. Then one long shooting star crosses the sky below the words (the moon has already set), their eyes go wide, then smile. The text stays: if this found you: the Leonids are still falling. Go look up after midnight. It's free.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "leonids-free-show",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 16 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.0 dBFS, LRA 1.9 LU; own music (motor/musica/pulso.py, mode cielo), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "SAL",
+ "filo": "C",
+ "tema": "atención y pantallas",
+ "blanco": "quien mira pantallas en vez del cielo",
+ "destinatario": "the friend who would rather watch a feed than the sky",
+ "cara": "A",
+ "experimento": true,
+ "experimento_prueba": "anticlímax: ocho segundos de espera casi sin acción y un solo meteoro; mide si la espera retiene o expulsa",
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

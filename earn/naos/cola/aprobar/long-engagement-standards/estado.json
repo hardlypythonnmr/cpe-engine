@@ -1,0 +1,23 @@
+{
+ "slug": "long-engagement-standards",
+ "issue": 960,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-16T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "afc4e42f8cc07214f79f99799230de2e7c5390893de22579362bcd6ed18abd90",
+ "hashes": {
+  "imagen": "544a2d4cd9a36e028c12980ff6d07e584c6c8fe4891eeca82e825e228f2b8c46"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6894678932,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z"
+}

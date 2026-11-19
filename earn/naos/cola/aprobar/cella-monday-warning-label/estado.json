@@ -1,0 +1,23 @@
+{
+ "slug": "cella-monday-warning-label",
+ "issue": 980,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-30T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "51a68c1fe89d665c390066db627824df86d6ba56f91a1df4c5552280abd07cb3",
+ "hashes": {
+  "imagen": "7d9344c5275f31a46b1ec1ea5986d51d64253197eb584dccca74a14cfa9f0a19"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681469801,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "party-starts-when-i-arrive",
+ "issue": 960,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-16T18:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "27810cef3dd3b2cee53443ddad0145c73be47aaa005c79f605f234d313b740e6",
+ "hashes": {
+  "historia": "65994b4807846e52d3e85cd178cc18551f6c5ce820398a97e5b8737a8ff1e621"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6894678495,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "8-new-year-promises-ranked-by-cella-which-ones-last",
+ "issue": 1415,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2026-12-31T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "95001e1a016a0998657f6afcc29b83c079fb894f7bc62f8f5690d3b5897bad94",
+ "hashes": {
+  "short": "b7075377da84482babea504643b1cbd0bef211c1a97cf9c1ff51891736a5c81c"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888394745,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»",
+ "short_bajado_utc": "2026-11-18T21:03:17Z",
+ "short_bajado": "privado y sin fecha"
+}

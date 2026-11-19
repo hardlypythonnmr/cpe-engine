@@ -1,0 +1,49 @@
+{
+ "slug": "cella-contesta-one-chair",
+ "titulo": "Why only one chair? Cella answers",
+ "clave": "2026-11-11|casa-mesa",
+ "sale_utc": "2026-11-11T18:00:00Z",
+ "caption": "Why only one chair? Cella answers\n\nCella answers. The chair is nervous about it.\n\nCloser to yourself.\n\n#naos #behaviors",
+ "descripcion": "Cella answers. The chair is nervous about it.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film on a flat pink background at a table. At the top, the question \"why only one chair?\" A small doorway-shaped black figure with white eyes pushes the one blue chair in to the wooden table, then looks at the empty spot beside it, where a dashed outline of a second chair flickers. The words appear one line at a time: one chair is a question. Two is an answer. The house is still deciding. The chair shifts a little by itself. The closing question: one chair or two? Then: Closer to yourself.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "cella-contesta-one-chair",
+  "version": 7
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "16.80 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; 5 voice lines, 21 words"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.3 dBFS, LRA 3.1 LU; mono fold (0.5 L + 0.5 R) -17.0 LUFS (the 3 LU gap is BS.1770 channel summing, the signal is dual mono), peak -1.3 dBFS"
+  },
+  {
+   "que": "Voice",
+   "estado": "OK",
+   "nota": "elevenlabs mesa-maya eleven_v4, each line its own take so the marks stay exact; no atempo"
+  },
+  {
+   "que": "Tipo nuevo (D-323): Cella contesta",
+   "estado": "OK",
+   "nota": "Cella contesta: the question on screen in the first 2 s, Cella does the action while the voice answers, closing question with two sides. Text written by the house, nothing from third parties."
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "juez distinto (D-294), 3-nov: pasa; veredicto en empresa/estrategia/semanal/2026-11-03-juez-cella-contesta-6-8.md"
+  }
+ ]
+}

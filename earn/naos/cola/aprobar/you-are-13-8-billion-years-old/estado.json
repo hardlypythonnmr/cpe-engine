@@ -1,0 +1,22 @@
+{
+ "slug": "you-are-13-8-billion-years-old",
+ "issue": 1751,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T23:30:00Z",
+ "datos_utc": "2026-11-17T12:00:00Z",
+ "hash_contenido": "0072dfcf4702c4bdfcf42244f001b3f2755675e9b76c23b615739edfb449e317",
+ "hashes": {
+  "carrusel": "7b785cbb571ee4ceaeb63ca86b8ca30b3abeb3385cd4bc22fc5d086fba7b553d"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6946948287,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z"
+}

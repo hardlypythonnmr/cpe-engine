@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-17-microsoft-historia",
+ "issue": 1331,
+ "version": 3,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T19:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "d4bf944e9502fcf63d557ae3cab425c9f51232551e649ea66227a8c72cf7d01f",
+ "hashes": {
+  "historia": "121770c9033ceaaf5f83d0db092319031c83ed7ba54c0b15f2e9488d631adb52"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6885940526,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

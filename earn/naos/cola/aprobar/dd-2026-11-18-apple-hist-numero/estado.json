@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-18-apple-hist-numero",
+ "issue": 1789,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T18:45:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "93411eb076a7ec8b192742be2c0398d7a206bb4953e62c66839eee910fdfb80f",
+ "hashes": {
+  "historia": "d0efa9c8b2d52e2526665eda0380fe846f0acb753364645bd1fbd860afed8405"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6978480269,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z"
+}

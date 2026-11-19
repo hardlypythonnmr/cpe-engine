@@ -1,0 +1,21 @@
+{
+ "slug": "eau-de-domingo",
+ "issue": 987,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "a7f312ee0e05c784b6307ebb5a7b1793856d2c4f9d48fa814668850baed71bac",
+ "hashes": {
+  "reel": "dd16e88a5fd8232839c12be19ef0d0a2a190a048e46bf4efaab7bb21d2e53dfb"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6739900321,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "caidos-b-11-nov",
+ "aprobado_evento_utc": "2026-11-09T12:57:18Z"
+}

@@ -1,0 +1,95 @@
+{
+ "slug": "last-chance-email-urgent-or-fake",
+ "titulo": "An email that says “last chance” is urgent or fake?",
+ "clave": "2026-11-30|last-chance-email-urgent-or-fake",
+ "sale_utc": "2026-11-30T13:20:00Z",
+ "caption": "Is an email that says “last chance” urgent or fake? Pick a side.\nCella has seen twelve last chances.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "the image is split in two: URGENT on the left with an email with a 47 badge, FAKE on the right with Cella in a crown under a spotlight. An email that says “last chance” is. Left: Urgent. Right: Fake. Pick a side.",
+ "tipo_imagen": "F4 Elige · trabajo · lun 30-nov",
+ "aspecto": "1x1",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "AB aspecto: 1x1, par de sunday-dread-wrong-job-or-just-sunday; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-07",
+ "ab": {
+  "prueba": "aspecto",
+  "brazo": "1x1",
+  "par": "sunday-dread-wrong-job-or-just-sunday",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-07T13:20:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-07T13:20:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-07T13:20:00Z"
+  }
+ ],
+ "blanco": "consumo (arquetipo: el email de “última oportunidad”)",
+ "mecanica_crecimiento": "comentar · destinatario: the friend whose inbox says everything is urgent",
+ "destinatario": "the friend whose inbox says everything is urgent",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  },
+  {
+   "que": "Judge 2nd pass (D-294)",
+   "estado": "OK",
+   "nota": "fixed in the 3rd pass: the envelope is drawn whole (flap on the rectangle with the 47 badge) and no longer crosses \"Pick a side.\"; alt names the email"
+  },
+  {
+   "que": "Builder fix after judge 2nd pass",
+   "estado": "OK",
+   "nota": "6-nov, builder: solapa dibujada sobre el sobre (las rutas ahora siguen el piso del cuadrado). The 'Judge 2nd pass (D-294)' revision above is the judge's and is unchanged; it stays as the judge left it until the judge re-reads the piece."
+  },
+  {
+   "que": "Judge 3rd pass (D-294)",
+   "estado": "OK",
+   "nota": "the envelope is drawn whole (flap on the rectangle with the 47 badge) and no longer crosses \"Pick a side.\"; alt names the email"
+  }
+ ]
+}

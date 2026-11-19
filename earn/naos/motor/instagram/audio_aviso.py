@@ -27,14 +27,29 @@ def gh(metodo, ruta, datos=None, token=None):
         return json.loads(cuerpo) if cuerpo else None
 
 
-def vetado(comentario, repo=None, pedir=gh):
-    """True si el comentario del aviso tiene un 👎. None si no se pudo leer (quien llama decide: sale sin el sonido)."""
+def aprobador():
+    """El usuario de N, del repo (motor/aprobar/aprobador.txt), igual que aprobar.py. Sin archivo, nadie."""
+    try:
+        with open(os.path.join(AQUI, "..", "aprobar", "aprobador.txt"), encoding="utf-8") as f:
+            return f.read().strip()
+    except OSError:
+        return ""
+
+
+def vetado(comentario, repo=None, pedir=gh, n=None):
+    """True si N le puso 👎 al comentario del aviso. Regla de N (19-nov): solo cuentan sus reacciones; las demás se ignoran
+    y se anotan en el log. None si no se pudo leer (quien llama decide: sale sin el sonido)."""
     repo = repo or os.environ.get("GITHUB_REPOSITORY", "")
+    n = (n if n is not None else aprobador()).lower()
     try:
         rs = pedir("GET", f"/repos/{repo}/issues/comments/{comentario}/reactions?per_page=100") or []
     except Exception:  # noqa: BLE001 (red, permisos, comentario borrado)
         return None
-    return any(r.get("content") == VETO for r in rs)
+    ajenas = [r for r in rs if r.get("content") == VETO and str((r.get("user") or {}).get("login", "")).lower() != n]
+    if ajenas:
+        print(f"aviso: 👎 de otros en el comentario {comentario}, no cuentan: "
+              + ", ".join(sorted({str((r.get('user') or {}).get('login', '?')) for r in ajenas})))
+    return bool(n) and any(r.get("content") == VETO and str((r.get("user") or {}).get("login", "")).lower() == n for r in rs)
 
 
 def pendientes(cola, ahora, horas):

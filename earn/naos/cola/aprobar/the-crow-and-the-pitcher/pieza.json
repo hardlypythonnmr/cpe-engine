@@ -1,0 +1,61 @@
+{
+ "slug": "the-crow-and-the-pitcher",
+ "titulo": "The Crow and the Pitcher",
+ "clave": "2027-01-08|medio-m26",
+ "sale_utc": "2027-01-08T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "A crow is thirsty, a pitcher has a little water at the bottom, and strength does not raise it. This story is about what does.\n\nA story for tonight, from a fable credited to Aesop, told again. The fable gives the crow, the pitcher with too little water, the stones dropped in one by one, and the water that rises until he can drink. The things he tries first, the first stone that changes nothing, the small amber visitor, the line on the glass, the count of twelve stones, and the reading that the stones were the friction are invented for this retelling, and the video says so.\n\nChapters\n0:00 The fable and where it comes from\n0:42 The pitcher\n1:09 Everything he tried\n1:56 The stones\n2:30 The line on the glass\n3:01 The middle\n3:28 The water comes up\n3:54 The stones were the friction\n\nSources\nAesop, The Crow and the Pitcher, in George Fyler Townsend's English translation (Three Hundred Aesop's Fables), public domain, Project Gutenberg #21: a thirsty crow finds a pitcher with so little water that he cannot get at it; he tries everything he can think of, collects as many stones as he can carry and drops them one by one into the pitcher until the water is within his reach. Townsend's moral: necessity is the mother of invention. Aesop is a figure of Greek tradition, said to have lived in the sixth century BCE; the fables credited to him were collected and written down by others, and the exact wording changes from edition to edition.\n\nVoice: synthetic. Music and sounds made with code by NAOS.\nChoose friction.",
+ "sintetico": false,
+ "alt": "A video in 16:9, a story for tonight. At dusk, a lilac doorway-shaped figure, the crow, stands beside a tall glass pitcher with a narrow neck and a little water at the bottom. A card gives the source: Aesop, a Greek storyteller, in the Townsend translation. The crow tries to reach the water: a sheet lists what he tried, peck harder, push it, flap at it and argue, each marked no. Then he walks to a pile of grey stones and drops them into the pitcher one at a time; the first changes nothing, and a sheet lists the next ones as a little higher. In the invented part, Cella, a small amber figure with two white eyes, sits beside the pitcher and asks if it is working, then scratches a line on the glass at the water level so the crow can check. The middle stones come with no applause, and the water is a finger above the line. At the twelfth stone the water is within his reach. Final cards: For whoever keeps dropping the next stone; the source; Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "pelicula",
+ "titulo_ab": "A Story for Tonight: The Crow Who Dropped One Stone at a Time",
+ "comentario_fijado": "The water rose one stone at a time. Somebody is dropping theirs tonight.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la tarjeta final dice For whoever keeps dropping the next stone. (una sola vez) y el comentario fijado es una frase de Cella que nombra al destinatario",
+ "guion": "empresa/youtube/medios/2027-01-08-m26/m26-crow.md",
+ "casa": {
+  "id": "m26",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m26"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "283.80 s (4:44), 1280x720 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 5.0 MB; voice: a third-person narrator and the amber figure, Cella, who speaks twice (ElevenLabs eleven_v4, saved voices mesa-daniel and brief-mujer-v2), 31 lines, 3592 characters; the source is said aloud before the retelling begins"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.1 LUFS integrated, true peak -4.3 dBFS, LRA 4.5 LU; music composed with code (motor/musica/midi.py); paper, clicks, knocks and bells from code (the same sound kit as M12 to M25)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 310 and 590 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Aesop, The Crow and the Pitcher, George Fyler Townsend's English translation (Three Hundred Aesop's Fables), public domain, Project Gutenberg eBook #21, text read on 2026-11-14: 'A CROW perishing with thirst saw a pitcher, and hoping to find water, flew to it with delight. When he reached it, he discovered to his grief that it contained so little water that he could not possibly get at it. He tried everything he could think of to reach the water, but all his efforts were in vain. At last he collected as many stones as he could carry and dropped them one by one with his beak into the pitcher, until he brought the water within his reach and thus saved his life.' Moral: 'Necessity is the mother of invention.' Said on air and in the description: Aesop is credited with the fable, nobody knows if he wrote it down, and the specific things the crow tries, the first stone that changes nothing, the visitor, the line on the glass, the count of twelve and the reading that the stones were the friction are invented for this retelling. Aesop's dates are given as 'about twenty-six hundred years ago' (sixth century BCE, as tradition has it). No real person depicted; no living tradition; no health content (the crow is a character in a fable; the video says thirsty and never describes a body). Motor/respeto.md rules 1 to 7 checked."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m26/dias/m26/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ]
+}

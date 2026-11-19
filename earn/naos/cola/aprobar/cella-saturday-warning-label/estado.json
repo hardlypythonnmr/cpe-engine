@@ -1,0 +1,23 @@
+{
+ "slug": "cella-saturday-warning-label",
+ "issue": 979,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-28T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f8bd73dead67693e9590d763bdc1ed01640e7300b488215d0417f10bafc0cde3",
+ "hashes": {
+  "imagen": "de3587a0ddb191204c1627f34371258a16fd39c6d6df56c3263be18493234cec"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681457113,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

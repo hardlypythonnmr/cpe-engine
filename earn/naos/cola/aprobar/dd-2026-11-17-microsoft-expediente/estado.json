@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-17-microsoft-expediente",
+ "issue": 1331,
+ "version": 3,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T21:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "0f5363acff2e9650b1a8d7c6c84ceea6dd2e3c66cf278a18e14970cf2a83b244",
+ "hashes": {
+  "carrusel": "3838f48c4b2b700ccc4dff4b557489d66359c25d2785aa12e6dc901c21c1b074"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6885941380,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

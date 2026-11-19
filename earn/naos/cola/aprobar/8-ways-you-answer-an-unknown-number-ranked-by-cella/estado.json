@@ -1,0 +1,27 @@
+{
+ "slug": "8-ways-you-answer-an-unknown-number-ranked-by-cella",
+ "issue": 1415,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2027-01-12T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "31fffe4dc7052b1790b99c08649ccb972edd411ac0183375f50bc85b50999eb5",
+ "hashes": {
+  "short": "88826414211d90243b89366167ec41d2302a504c14b9e3b89b4aefc6028c8085"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888396022,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»",
+ "short_bajado_utc": "2026-11-18T21:03:24Z",
+ "short_bajado": "privado y sin fecha"
+}

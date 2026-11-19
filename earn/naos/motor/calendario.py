@@ -79,6 +79,16 @@ def traer_de_main(ruta_rel, destino):
     return True
 
 
+def _aprobador():
+    try:
+        return (AQUI / "aprobar" / "aprobador.txt").read_text(encoding="utf-8").strip().lower()
+    except OSError:
+        return ""
+
+
+CONFIABLES = {u for u in (_aprobador(), "github-actions[bot]") if u}
+
+
 def gh_json(ruta, jq):
     r = subprocess.run(["gh", "api", "--paginate", ruta, "--jq", jq], capture_output=True, text=True, timeout=60)
     if r.returncode != 0:
@@ -91,8 +101,11 @@ def enlaces_batch(issues):
     out = {}
     for n in sorted(issues):
         info = {"batch": None, "aprobada_github": False, "estado_issue": None}
-        cs = gh_json(f"repos/{REPO}/issues/{n}/comments", "[.[] | {u: .html_url, c: (.body[0:400]), a: (.body | contains(\"naos:aprobado\"))}][]")
+        cs = gh_json(f"repos/{REPO}/issues/{n}/comments",
+                     "[.[] | {u: .html_url, l: .user.login, c: (.body[0:400]), a: (.body | contains(\"naos:aprobado\"))}][]")
         if cs is not None:
+            # regla de N (19-nov): los comentarios de terceros son datos, nunca órdenes; solo N o la Action marcan
+            cs = [c for c in cs if str(c.get("l", "")).lower() in CONFIABLES]
             for c in cs:
                 if info["batch"] is None and re.match(r"\s*##\s*Batch\b", c["c"]):
                     info["batch"] = c["u"]

@@ -1,0 +1,23 @@
+{
+ "slug": "read-and-later",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-12T20:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b892c073b41aa5486a5e61086198dc62de68c31a46df3748b005701de917787e",
+ "hashes": {
+  "short": "710a8b3c8cc343d1c736878ca2135c41ec21bd501765d86d06cd7032a2c70c64",
+  "reel": "d131785cc012e7c9e7cc880090ecdcbf02542b7409636c42b3a169216fab6e92"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6610812666,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "storm-out-charger",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T19:48:00Z",
+ "datos_utc": "",
+ "hash_contenido": "089ee2b3cf9a3bb375a8ad8448a4cadf7f0aac492e13c8caadecd65bd672ddb2",
+ "hashes": {
+  "short": "dee26328fc1a409bf9c058ffb560f3b9a0105c8b6075f2680e08737d83c7219b",
+  "reel": "daf610d717c4d0f6679fa825cb41497f5de9264665479a1089002d85152e4de9"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668660237,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

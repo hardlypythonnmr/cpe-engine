@@ -1,0 +1,61 @@
+{
+ "slug": "8-new-year-promises-ranked-by-cella-which-ones-last",
+ "titulo": "8 New Year Promises Ranked by Cella: Which Ones Last",
+ "clave": "2026-12-31|medio-m25",
+ "sale_utc": "2026-12-31T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "On the thirty-first, people promise to become somebody else by Friday. In Cella's notes, most of those promises are gone by the second week of January. Cella ranks eight promise archetypes, all about behavior, by how long each one lasts.\n\nChapters\n0:00 The date and the rules\n0:38 #8 The New Person\n1:06 #7 Never Late Again\n1:36 #6 Reply to Everything\n2:05 #5 Stop Complaining\n2:36 #4 Call a Friend\n3:04 #3 Say No on Time\n3:38 #2 Finish One Thing\n4:10 #1 The Two-Minute Step\n4:46 #0 This ranking, and what lasts\n\nThe eight are archetypes, not people and not brands, and every one was made sincerely. The scores (lasts, out of ten) and the whole ranking are Cella's opinion and nothing in it is a study. The one thing the long-lasting ones share, by her reading: they are small, specific, and tied to a paper or a person.\n\nVoice: synthetic. Music and sounds made with code by NAOS.\nChoose friction.",
+ "sintetico": false,
+ "alt": "A video in 16:9 of about seven minutes. A catalog of promises, ranked. At night, Cella, a small amber doorway-shaped figure with two white eyes, sits on a bench next to a lamp and ranks eight New Year promise archetypes by how long each one lasts, on a sheet on the left with what the promise says, when it breaks and a lasts score out of ten. Number 8, the New Person, 1 of 10. Number 7, Never Late Again, 2. Number 6, Reply to Everything, 3. Number 5, Stop Complaining, 4. Number 4, Call a Friend Every Week, 6. Number 3, Say No on Time, 7. Number 2, Finish One Thing, 8. Number 1, the Two-Minute Step, 9 of 10. A bonus entry, number 0, is the ranking itself. The ones that last are small, specific and tied to a paper or a person; Cella's own promise this year is to finish one thing before starting another. Final cards: For whoever is writing a promise tonight; Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "satira",
+ "titulo_ab": "Cella Ranks 8 New Year Promises by How Long They Last",
+ "comentario_fijado": "Cella's promise this year fits on one note. Somebody else is writing theirs tonight.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la tarjeta final dice For whoever is writing a promise tonight. (una sola vez, en pantalla) y el comentario fijado es una frase de Cella que nombra al destinatario",
+ "guion": "empresa/youtube/medios/2026-12-31-m25/m25-promises.md",
+ "casa": {
+  "id": "m25",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m25"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "333.90 s (5:34), 1280x720 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 6.1 MB; voice: Cella ranking in the first person (ElevenLabs eleven_v4, saved voice brief-mujer-v2), 40 lines, 3992 characters"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.0 LUFS integrated, true peak -3.2 dBFS, LRA 4.2 LU; music composed with code (motor/musica/midi.py); paper, clicks and stamps from code (the same sound kit as M12 to M19)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 334 and 589 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "No study and no figure is claimed: the eight archetypes, the lasts scores and the ranking are Cella's opinion, and the video and the description say so ('in my notes' is Cella's own list, not data). No brand, no real person, no diet, exercise, body or health content (D-466): all eight promises are about behavior (arriving, replying, complaining, calling, declining, finishing, one small step). The one general observation (small, specific, tied to a paper or a person) is offered as Cella's reading, not as a finding. Motor/respeto.md rules 1 to 7 checked: no group, no minor, no crisis, no health, money or legal advice, no expert role."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m25/dias/m25/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "OK: lector frío (naos-personas-sinteticas, oficio 2) en 3 rondas, 14-nov; entendió el ranking (ocho promesas de conducta, notas de Cella, las que duran son pequeñas y con papel o persona); corregido: los objetos recortados (ON TIME, NO. THANKS, FINISH ONE) pasaron a formas simples, la escala (el diez no se da esta noche), 'the eighth of January', 'brand names', 'always' en la promesa 7, el primer cuadro con rótulo desde el segundo 0 y 'Number eight' ya no se anuncia dos veces; quedan a juicio de N el cierre de casa 'Choose friction.', la entrada cero (un chiste de Cella que el lector no abre del todo) y el tono seco, no filoso"
+  }
+ ]
+}

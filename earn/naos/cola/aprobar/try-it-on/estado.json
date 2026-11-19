@@ -1,0 +1,23 @@
+{
+ "slug": "try-it-on",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-13T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "05c4597b41dc171f5e025ea75123561dc0f484de0e5e41a127532ed66aef1805",
+ "hashes": {
+  "short": "af0e48c99f7323648905c5f01a74430d16c90fc588beb863a1f81461d4533d24",
+  "reel": "f3808b8ca4f7928ed8b0ad4ffec00e7968de1a7f3c840c42bf659fd4ecc5a2c7"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6610817120,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

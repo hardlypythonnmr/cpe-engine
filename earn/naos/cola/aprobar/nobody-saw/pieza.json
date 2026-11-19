@@ -1,0 +1,55 @@
+{
+ "slug": "nobody-saw",
+ "titulo": "I tripped on the stairs",
+ "clave": "2026-11-13|casa-escaleras",
+ "sale_utc": "2026-11-13T20:00:00Z",
+ "caption": "I tripped on the stairs\n\ni tripped on the stairs. everyone saw. (nobody was there)\n\nFor whoever is still thinking about that one time.\n\nThe theory: the spotlight effect, we think others notice our slips far more than they do (Gilovich, Medvec and Savitsky, 2000, Journal of Personality and Social Psychology). An example, not a diagnosis.\n\n#Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "i tripped on the stairs. everyone saw. (nobody was there)\n\nFor whoever is still thinking about that one time.\n\nThe theory: the spotlight effect, we think others notice our slips far more than they do (Gilovich, Medvec and Savitsky, 2000, Journal of Personality and Social Psychology). An example, not a diagnosis.\n\n#Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A coral room with a cream staircase on the right: four steps, each with a flat top and a front face, and a handrail on posts. A small ink-black block figure with white eyes walks to the steps and trips on the first one, eyes wide. It looks left, right, up and at the camera, shrinks a little and squints. The room is empty. Then it relaxes, pulses with happy eyes and goes on up. The text stays: i tripped on the stairs, everyone saw, (nobody was there).",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "nobody-saw",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -5.1 dBFS, LRA 1.3 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "G2 (grilla vie 13, 15:00 ET), reemplaza a-mug-for-you-v2 (plan B)"
+  },
+  {
+   "que": "Theory",
+   "estado": "OK",
+   "nota": "H1 2 de 2 (D-324): efecto foco vivido; nombre y fuente solo al final del caption (Gilovich, Medvec y Savitsky, 2000)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov sobre contacto y cuadros (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}

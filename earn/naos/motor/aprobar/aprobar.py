@@ -402,6 +402,21 @@ def traer(gh, ruta):
         pagina += 1
 
 
+def reacciones_comentario(gh, cid):
+    """Reacciones de un comentario. 404 = el comentario no existe en este repo: tras la mudanza a naos-motor (C1', 19-nov) las
+    tandas guardan el id del comentario de vista previa de n-system. Sin comentario no hay reacción que cuente (ni 👍 ni 👎):
+    vale lo del cuerpo del issue y los comentarios de N. Cualquier otro error sigue subiendo."""
+    import urllib.error
+    if not cid:
+        return []
+    try:
+        return traer(gh, f"/repos/{gh.repo}/issues/comments/{cid}/reactions")
+    except urllib.error.HTTPError as x:
+        if x.code == 404:
+            return []
+        raise
+
+
 def quien_abre(gh):
     """Usuario dueño del token que abre el issue ('' si no se sabe: GitHub de mentira o sin respuesta)."""
     try:
@@ -720,7 +735,7 @@ def leer(n, gh, cola=None, cuando=None):
     e = estado_de_issue(n, cola)
     p = cargar(e["slug"], cola)
     com = traer(gh, f"/repos/{gh.repo}/issues/{n}/comments")
-    rea = traer(gh, f"/repos/{gh.repo}/issues/comments/{e['comentario_vista_previa_id']}/reactions")
+    rea = reacciones_comentario(gh, e.get('comentario_vista_previa_id'))
     cuerpo = traer(gh, f"/repos/{gh.repo}/issues/{n}/reactions")
     huella = huellas(p, cola)["contenido"] if all(os.path.exists(f) for f in archivos_de(p, cola)) else ""
     if huella and huella == e.get("hash_contenido"):  # una relectura "igual" hecha después de abrir el issue refresca la hora del dato
@@ -1695,14 +1710,14 @@ def huellas_de(t, cola=None):
 def leer_tanda_issue(t, gh, cola=None, cuando=None):
     n = t["issue"]
     com = traer(gh, f"/repos/{gh.repo}/issues/{n}/comments")
-    rea = traer(gh, f"/repos/{gh.repo}/issues/comments/{t['comentario_vista_previa_id']}/reactions")
+    rea = reacciones_comentario(gh, t.get('comentario_vista_previa_id'))
     cuerpo = traer(gh, f"/repos/{gh.repo}/issues/{n}/reactions")
     est = estados_de(t, cola)
     actuales = huellas_de(t, cola)
     for s_ in t["piezas"]:  # una relectura "igual" hecha después de abrir la tanda refresca la hora del dato (D-483)
         if actuales.get(s_) and actuales[s_] == est[s_].get("hash_contenido"):
             est[s_] = dict(est[s_], datos_utc=datos_utc_de(cargar(s_, cola), cola, actuales[s_]) or est[s_].get("datos_utc", ""))
-    por_pieza = {s: traer(gh, f"/repos/{gh.repo}/issues/comments/{est[s]['comentario_vista_previa_id']}/reactions")
+    por_pieza = {s: reacciones_comentario(gh, est[s].get('comentario_vista_previa_id'))
                  for s in t["piezas"] if est[s]["estado"] in ACTIVAS}
     return est, decidir_tanda(t, est, com, rea, aprobador(gh), actuales, cuando, cuerpo, por_pieza)
 

@@ -1,0 +1,23 @@
+{
+ "slug": "reply-in-two-hours",
+ "issue": 960,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-16T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "d2c2f9c34a2b5641a84612432923adaefe92b8fbcbe85678020f3937266e5da2",
+ "hashes": {
+  "imagen": "7c401b336451b9c5258eb3772520d4cfeb257c1015c384ab51c19e8b1c4d7fa0"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6894677669,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z"
+}

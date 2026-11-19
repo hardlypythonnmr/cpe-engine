@@ -1,0 +1,55 @@
+{
+ "slug": "om-shanti-shanti-shanti-on-a-wednesday",
+ "titulo": "Om Shanti Shanti Shanti, on a Wednesday",
+ "clave": "2026-11-18|om-shanti-shanti-shanti-on-a-wednesday",
+ "sale_utc": "2026-11-18T22:40:00Z",
+ "caption": "Om Shanti Shanti Shanti. Peace three times: from your own body and mind, from what you can’t control, and from other beings.\nCella is still working on number three.\nLink in bio.\nby NMR\n#omshanti #mantra #peace",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ],
+ "alt": {
+  "1": "lavender field, Cella saying “Me? Very calm.” in a speech bubble. Om Shanti Shanti Shanti. Why ask for peace three times? Because there are three things ruining it.",
+  "2": "dark blue field at night, a pale yellow Cella wide awake next to a clock, saying “Wait. In 2014…”. Shanti: one: peace from your own body and mind. 2 a.m. Your brain replays something you said in 2014.",
+  "3": "blue field, a white cloud on the right, a pale yellow Cella looking up at it and saying “Rude, sky.”. Shanti: two: peace from what you can’t control. Flight delayed three hours. You yelled at the sky.",
+  "4": "coral field, a wall on the right with “BZZZZZT” coming through it, Cella with her eyes shut on the left. Shanti: three: peace from other beings. Saturday, 8 a.m. The neighbor found his drill.",
+  "5": "the three peaces as a list. Om Shanti Shanti Shanti, three peaces: Send it to the neighbor. The one with the drill. 1. One · from your own head. 2. Two · from the sky, the traffic, the airline. 3. Three · from everyone else."
+ },
+ "tipo_carrusel": "Mantra en la vida diaria · Om Shanti · mie 18-nov",
+ "tipo": "Mantra o tradición",
+ "seccion": "humanity",
+ "tanda": "mantras-vida-diaria-2026-11-17 (encargo de la mesa, 17-nov)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "a mantra explained as everyday situations, meme style: does it get saved and sent like the F1-F3 carousels?",
+ "blanco": "bienestar y espiritualidad",
+ "mecanica_crecimiento": "enviar · destinatario: the neighbor with the drill",
+ "eco": "om-mani-padme-hum-on-a-tuesday (receta)",
+ "fuente_significado": "tradition, said as truth (D-527); no literal quote",
+ "revisiones": [
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "tradition said as truth without a source (D-527): the three shantis as peace from oneself, from forces beyond control and from other beings; no literal quote"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md: joke in the everyday situation, never in the mantra; no sacred figure or symbol drawn; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

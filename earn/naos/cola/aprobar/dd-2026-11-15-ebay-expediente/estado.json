@@ -1,0 +1,22 @@
+{
+ "slug": "dd-2026-11-15-ebay-expediente",
+ "issue": 1529,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T22:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "38e6b6750234a8ae4ef18e08fe9f478a8c18b2af5c73118cced268bbdf62524d",
+ "hashes": {
+  "carrusel": "6ed1a789bd2bf45ea2cf231e40950e491fb623205b6fe55cf208b83ffd4d62a5"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6894798934,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-15",
+ "aprobado_evento_utc": "2026-11-15T13:21:17Z"
+}

@@ -1,0 +1,42 @@
+{
+ "slug": "cella-step-nine-warning-label",
+ "titulo": "Cella, step nine",
+ "clave": "2027-01-21|cella-step-nine-warning-label",
+ "sale_utc": "2027-01-21T19:15:00Z",
+ "caption": "A warning label for step nine: it undoes step six, and it is still part of the job.\nFor whoever is on step nine.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Warning. Step six: fit the side panel. Step nine: undoes step six. Missing: one screw. Do not: skip step nine. Side effects: a shelf that stands.",
+ "tipo_imagen": "F7 Etiqueta · el paso que deshace otro · jue 21-ene",
+ "aspecto": "4x5",
+ "seccion": "humanity",
+ "tanda": "ene-s3 (junta-ene-s3, 2c)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "el paso nueve de las instrucciones",
+ "mecanica_crecimiento": "destinatario: whoever is on step nine",
+ "destinatario": "whoever is on step nine",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada, hoja de contacto leída a 390 px de ancho (Opus 11c, 14-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "arquetipos, sin persona real ni marca ni grupo protegido; sin tema SENSIBLE (D-466); sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas; sin hashtags (D-376); el lema solo al cierre (D-409)"
+  }
+ ]
+}

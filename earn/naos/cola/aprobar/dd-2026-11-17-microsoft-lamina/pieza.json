@@ -1,0 +1,84 @@
+{
+ "slug": "dd-2026-11-17-microsoft-lamina",
+ "titulo": "Microsoft (Jan 2023): $22.2 billion buying back its own stock, 10,000 jobs to be cut. The math.",
+ "clave": "2026-11-17|mercury|lamina|2026-11-17-microsoft-lamina",
+ "sale_utc": "2026-11-17T20:00:00Z",
+ "caption": "From the archive: Jan 2023. Not today's news.\nMicrosoft, Jan 18, 2023 (Nadella, email to employees): \"These decisions are difficult, but necessary\"\nMicrosoft's CEO told employees on Jan. 18, 2023 that the company would reduce its workforce by 10,000 jobs through the end of FY23 Q3. The buyback figure is from Microsoft's fiscal 2023 Form 10-K.\n\nSame fiscal year: $22.2 billion buying back its own stock, Jul 2022 to Jun 2023. $22,245 million of common stock repurchased in fiscal 2023 (July 2022 to June 2023), company-wide (cash flow statement, Form 10-K).\nThe math: $22.2 billion in buybacks (2023) ÷ 10,000 job cuts = about $2.2 million in buybacks per planned job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $22.2 billion is Microsoft's stock repurchases for fiscal 2023 (July 2022 to June 2023), company-wide; Microsoft also pays dividends, not counted here. The 10,000 jobs run through the end of FY23 Q3. We are not saying one paid for the other.\n\nDifficult, but necessary. Also very large: the buyback. (Our take.)\n\nFor someone who has been told a decision was difficult, but necessary.\n\nSources: SEC EDGAR · Microsoft, Jan 18, 2023; SEC EDGAR · Microsoft, Jul 27, 2023.\n\nLink in bio.",
+ "descripcion": "From the archive: Jan 2023. Not today's news.\nMicrosoft, Jan 18, 2023 (Nadella, email to employees): \"These decisions are difficult, but necessary\"\nMicrosoft's CEO told employees on Jan. 18, 2023 that the company would reduce its workforce by 10,000 jobs through the end of FY23 Q3. The buyback figure is from Microsoft's fiscal 2023 Form 10-K.\n\nSame fiscal year: $22.2 billion buying back its own stock, Jul 2022 to Jun 2023. $22,245 million of common stock repurchased in fiscal 2023 (July 2022 to June 2023), company-wide (cash flow statement, Form 10-K).\nThe math: $22.2 billion in buybacks (2023) ÷ 10,000 job cuts = about $2.2 million in buybacks per planned job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The $22.2 billion is Microsoft's stock repurchases for fiscal 2023 (July 2022 to June 2023), company-wide; Microsoft also pays dividends, not counted here. The 10,000 jobs run through the end of FY23 Q3. We are not saying one paid for the other.\n\nDifficult, but necessary. Also very large: the buyback. (Our take.)\n\nSources:\n- SEC EDGAR · Microsoft, Jan 18, 2023: «These decisions are difficult, but necessary.» and «workforce by 10,000 jobs through the end of FY23 Q3» https://www.sec.gov/Archives/edgar/data/789019/000119312523009934/d447690dex991.htm\n- SEC EDGAR · Microsoft, Jul 27, 2023: «Common stock repurchased ( 22,245 ) ( 32,696 ) ( 27,385 )» https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+ "alt": "Paper-colored card. Microsoft, Jan 18, 2023. A gray typewriter quote, \"These decisions are difficult, but necessary\", struck through with a dark red marker line. The struck quote is by Satya Nadella, CEO of Microsoft. Then the math in huge black letters, with the result on a yellow highlight: $22.2B ÷ 10,000 = about $2.2M, in buybacks, per planned job cut. Written below: A ratio, not a payment or a cause.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/biblioteca/bib3-microsoft-2023-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523009934/d447690dex991.htm",
+   "medio": "SEC EDGAR · Microsoft",
+   "titulo": "Satya Nadella's email to employees (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+   "medio": "SEC EDGAR · Microsoft",
+   "titulo": "Microsoft Form 10-K for fiscal 2023",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg",
+ "tipo": "imagen",
+ "lado": "empleado",
+ "tema": "Microsoft (Jan 2023): plans to cut 10,000 jobs, in stock buybacks per job cut",
+ "banco_archivo": {
+  "caso": "microsoft-2023-layoffs",
+  "rotulo_fecha": "ARCHIVE · JAN 2023",
+  "indice": "empresa/duplicar/canal-lucro/c2/temas/archivo/INDICE.md",
+  "nota": "caso del banco de archivo (SENSOR.md, sección 9): pedido ya verificado; la frase, A y B salen de documentos primarios de la SEC"
+ },
+ "pedido": "empresa/duplicar/canal-lucro/c2/temas/archivo/microsoft-2023-layoffs/pedido.json",
+ "entrada": "empresa/duplicar/canal-lucro/c2/linea/biblioteca/bib3-microsoft-2023-layoffs/entrada.json",
+ "revision_ley": {
+  "estado": "pasa",
+  "sensible": false,
+  "sensible_por": "",
+  "riesgo_ley": "bajo",
+  "revisor": "lector frío y controles K1 a K9, K12 y K13 anotados por el constructor de la biblioteca 3 (no es un revisor independiente); archivo: c2/linea/biblioteca/bib3-microsoft-2023-layoffs/revision.json",
+  "fallan": [],
+  "corregir": "",
+  "pendiente_productor": [],
+  "notas": [
+   "Frase del CEO literal; A (fiscal 2023, recompras) y B (10,000 puestos hasta el fin del 3T fiscal) de 8-K y 10-K de Microsoft; la pantalla dice ABOUT, PLANNED y 'a ratio, not a payment or a cause'."
+  ]
+ },
+ "aspecto": "4x5"
+}

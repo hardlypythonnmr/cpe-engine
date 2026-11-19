@@ -1,0 +1,22 @@
+{
+ "slug": "dd-2026-11-15-ebay-lamina",
+ "issue": 1529,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T18:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "9f26be7ee7ba984a9d16df0ead897631557082e512efe916bcb55c01fe141bfe",
+ "hashes": {
+  "imagen": "9aa0439a935f5a21527a12fdb5af126161b974727bb4e8c7e759641ad237a8d3"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6894798513,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-15",
+ "aprobado_evento_utc": "2026-11-15T13:21:17Z"
+}

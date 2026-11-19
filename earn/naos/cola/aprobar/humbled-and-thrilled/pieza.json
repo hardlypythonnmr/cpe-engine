@@ -1,0 +1,48 @@
+{
+ "slug": "humbled-and-thrilled",
+ "titulo": "Nobody is 'humbled and thrilled' by a Tuesday",
+ "clave": "2026-11-17|casa-escaleras",
+ "sale_utc": "2026-11-17T17:00:00Z",
+ "caption": "Nobody is 'humbled and thrilled' by a Tuesday\n\nNobody is \"humbled and thrilled\" by a Tuesday. You are tired. That is allowed, even on a feed.\n\nSend it to the friend who posts like a conference keynote.\n\n#Cella #worklife\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Nobody is \"humbled and thrilled\" by a Tuesday. You are tired. That is allowed, even on a feed.\n\nSend it to the friend who posts like a conference keynote.\n\n#Cella #worklife\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A staircase room. A small ink-black block figure with white eyes stands proudly next to a small table, under a banner that reads HUMBLED & THRILLED with a smaller line under it: (it is a Tuesday), while a white door fills the right edge. It stretches taller and pulses with chimes while a navy figure on the right watches with narrowed eyes, then closes its eyes and slowly dozes off standing up. At the end the first figure's eyes narrow too. The text stays: if this found you: nobody is 'humbled and thrilled' by a Tuesday. Log off.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "humbled-and-thrilled",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -1.9 dBFS, LRA 1.9 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "INV",
+ "filo": "V",
+ "tema": "trabajo y LinkedIn",
+ "blanco": "el coach de LinkedIn (arquetipo) y quien lo imita",
+ "destinatario": "the friend who posts like a LinkedIn coach",
+ "cara": "A",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

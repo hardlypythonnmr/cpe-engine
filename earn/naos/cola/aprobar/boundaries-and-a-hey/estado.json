@@ -1,0 +1,23 @@
+{
+ "slug": "boundaries-and-a-hey",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T20:25:00Z",
+ "datos_utc": "",
+ "hash_contenido": "e9115918355d167357453adca64ccf36467f807a43a89dcd55d04e67b1ffe14e",
+ "hashes": {
+  "short": "390de41a90770b932014daeda09ab22e0d3e176694cf76defcc61b6add4a00f6",
+  "reel": "f19a086beefdcc484dde326c397efe912201d1fa2647b826926ca5b96acb5465"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668658466,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

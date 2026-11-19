@@ -1,0 +1,61 @@
+{
+ "slug": "the-north-wind-and-the-sun",
+ "titulo": "The North Wind and the Sun",
+ "clave": "2027-01-15|medio-m29",
+ "sale_utc": "2027-01-15T20:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "Two forces hold a contest on a road: whoever gets a traveler to take off his cloak wins. The Wind blows with all his might and the traveler holds on tighter. The Sun just shines, and it takes the whole afternoon.\n\nA story for tonight, from a fable credited to Aesop, told again. The fable gives the Wind, the Sun, the traveler, the contest, the harder the blasts the tighter the cloak, and the cloak coming off in the warmth. The scoreboard of gusts, the small amber visitor who asks the Sun how long it will take, the answer the afternoon, the hour-by-hour afternoon and the reading of what each one paid are invented for this retelling, and the video says so. Townsend's version goes on a little past the cloak; this one stops there, and says so.\n\nChapters\n0:00 The fable and where it comes from\n0:42 The contest\n1:15 The wind goes first\n2:04 The wind gives up\n2:36 How long?\n3:29 The afternoon\n5:24 The cloak comes off\n6:01 What each one paid\n\nSources\nAesop, The North Wind and the Sun, in George Fyler Townsend's English translation (Three Hundred Aesop's Fables), public domain, Project Gutenberg #21: the North Wind and the Sun dispute which is more powerful and agree that the victor will be the one who first strips a wayfaring man of his clothes; the Wind blows with all his might, but the keener his blasts, the closer the traveler wraps his cloak around him; the Sun then shines out with all his warmth and the traveler takes off one garment after another. Townsend's moral is that persuasion beats force. Aesop is a figure of Greek tradition, said to have lived in the sixth century BCE; the fables credited to him were collected and written down by others, and the exact wording changes from edition to edition.\n\nVoice: synthetic. Music and sounds made with code by NAOS.\nChoose friction.",
+ "sintetico": false,
+ "alt": "A video in 16:9, a story for tonight. On a country road in daylight, a teal doorway-shaped figure, the traveler, wears a red cloak. On the left a grey cloud, the North Wind, blows streaks of air at him; on the upper right a yellow Sun glows. A card gives the source: Aesop, a Greek storyteller, in the Townsend translation. A sheet shows the Wind's turn, gust one, two and three, each marked tighter, as the traveler holds his cloak closed. The Wind gives up and the Sun starts to shine. In the invented part, Cella, a small amber figure with two white eyes, sits by the road and asks the Sun how long it will take; the Sun says the afternoon. A small clock on the ground runs from noon to four while the cloak loosens. At four o'clock the traveler takes off the cloak and folds it. A sheet shows what each one paid: the Wind a minute, the Sun the afternoon. Final cards: For whoever asks the warm way and waits; The wind spent a minute, the sun spent the afternoon; Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "pelicula",
+ "titulo_ab": "A Story for Tonight: The Wind Blew, the Sun Waited",
+ "comentario_fijado": "The wind spent a minute and the sun spent the afternoon. Somebody is asking the warm way tonight.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la tarjeta final dice For whoever asks the warm way and waits. (una sola vez) y el comentario fijado es una frase de Cella que nombra al destinatario",
+ "guion": "empresa/youtube/medios/2027-01-15-m29/m29-north-wind.md",
+ "casa": {
+  "id": "m29",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m29"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "407.60 s (6:48), 1280x720 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 8.5 MB; voice: a third-person narrator and the amber figure, Cella, who speaks four times (ElevenLabs eleven_v4, saved voices mesa-daniel and brief-mujer-v2), 41 lines, 4559 characters; the source is said aloud before the retelling begins"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.2 LUFS integrated, true peak -3.7 dBFS, LRA 11.5 LU; music composed with code (motor/musica/midi.py); paper, clicks, gusts and bells from code (the same sound kit as M12 to M26)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 275 and 625 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Aesop, The North Wind and the Sun, George Fyler Townsend's English translation (Three Hundred Aesop's Fables), public domain, Project Gutenberg eBook #21, text read on 2026-11-14: 'THE NORTH WIND and the Sun disputed as to which was the most powerful, and agreed that he should be declared the victor who could first strip a wayfaring man of his clothes. The North Wind first tried his power and blew with all his might, but the keener his blasts, the closer the Traveler wrapped his cloak around him, until at last, resigning all hope of victory, the Wind called upon the Sun to see what he could do. The Sun suddenly shone out with all his warmth. The Traveler no sooner felt his genial rays than he took off one garment after another, and at last, fairly overcome with heat, undressed and bathed in a stream that lay in his path.' Moral: 'Persuasion is better than Force.' The retelling stops at the cloak and says Townsend goes further. Said on air and in the description: Aesop is credited with the fable; nobody knows if he wrote it down; the scoreboard of gusts, the amber visitor, the answer the afternoon, the hour-by-hour clock and the reading of what each one paid are invented here. Aesop's dates are given as 'about twenty-six hundred years ago' (sixth century BCE, as tradition has it). No real person depicted; no living tradition; no health content (the traveler is warm and takes off a cloak; no body is described). Motor/respeto.md rules 1 to 7 checked."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m29/dias/m29/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ]
+}

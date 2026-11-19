@@ -1,0 +1,57 @@
+{
+ "slug": "om-mani-padme-hum-on-a-tuesday",
+ "titulo": "Om Mani Padme Hum, on a Tuesday",
+ "clave": "2026-11-17|om-mani-padme-hum-on-a-tuesday",
+ "sale_utc": "2026-11-17T21:10:00Z",
+ "caption": "Om Mani Padme Hum, in four ordinary moments.\nThe meanings follow the 14th Dalai Lama: om, body, speech and mind; mani, the jewel of compassion; padme, the lotus of wisdom, “not sullied by the faults of mud”; hum, the two as one.\nLink in bio.\nby NMR\n#ommanipadmehum #mantra #buddhism",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "yellow field, Cella saying “Me? Very spiritual.” in a speech bubble. Your Tuesday already contains Om Mani Padme Hum. Four parts. Four tiny moments.",
+  "2": "coral field, Cella with her eyes shut, next to a meeting table, saying “Great idea!” in a speech bubble. Om: body, speech and mind. Speech: “great idea.” Face: no. Mind: lunch.",
+  "3": "green field, Cella texting “I’m here.” next to a phone. Mani: the jewel: compassion, as a method. Two words to a friend on a bad day. Cheapest jewel you own.",
+  "4": "lavender field, a pile of white chat bubbles on the right, Cella calm on the left with her eyes closed. Padme: the lotus: wisdom, not sullied by mud. The group chat is on fire. Read all of it. Replied to none.",
+  "5": "pink field, Cella saying “No. And I love you.” in one speech bubble. Hum: method and wisdom, as one. Kind and true, same message. You keep picking just one.",
+  "6": "the four parts as a list. Om Mani Padme Hum, per the 14th Dalai Lama: Send it to the friend who says “I’m fine” with their shoulders. 1. Om · body, speech, mind, same room. 2. Mani · the jewel. “I’m here.” 3. Padme · the lotus. Mud, unsullied. 4. Hum · kind and true, together."
+ },
+ "tipo_carrusel": "Mantra en la vida diaria · Om Mani Padme Hum · mar 17-nov",
+ "tipo": "Mantra o tradición",
+ "seccion": "humanity",
+ "tanda": "mantras-vida-diaria-2026-11-17 (encargo de la mesa, 17-nov)",
+ "filo": "V",
+ "experimento": true,
+ "experimento_prueba": "a mantra explained as everyday situations, meme style: does it get saved and sent like the F1-F3 carousels?",
+ "blanco": "bienestar y espiritualidad",
+ "mecanica_crecimiento": "guardar · destinatario: the friend who says “I’m fine” with their shoulders",
+ "eco": "om-mani-padme-hum-annoyed-at-you (Reel 18-nov 00:15Z)",
+ "fuente_significado": "Tenzin Gyatso, 14th Dalai Lama, 'On the meaning of OM MANI PADME HUNG', https://www.sacred-texts.com/bud/tib/omph.htm (read via the faithful reprint https://buddhismnow.com/2017/01/21/the-mantra-om-mani-padme-hum-by-the-dalai-lama/); short quotes with credit",
+ "revisiones": [
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "naos-verificador: om, mani, padme (lotus and mud) and hum match the Dalai Lama text; 4-part reading kept (he groups the middle as 'the next four syllables'); the 6-syllable readings come from sadhana and tertiary sources"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "naos-cella-respeto: 7 rules, no crossing; the joke is in the everyday situation, never in the mantra; no sacred figure or symbol drawn; Cella without hands; credit in caption and closing slide"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

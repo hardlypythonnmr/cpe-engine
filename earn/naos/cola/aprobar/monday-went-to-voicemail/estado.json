@@ -1,0 +1,23 @@
+{
+ "slug": "monday-went-to-voicemail",
+ "issue": 960,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-16T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "18240d79495841ee0bbf856fb44d2a18b2aa1b93b1da134e1327f77cea666f70",
+ "hashes": {
+  "historia": "15d0efbb3319a7bd8c805279db7d2c5264f71fb974d8d461cc32b3337aa74bf3"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6894677241,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z"
+}

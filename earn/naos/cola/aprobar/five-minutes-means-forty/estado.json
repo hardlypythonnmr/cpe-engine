@@ -1,0 +1,21 @@
+{
+ "slug": "five-minutes-means-forty",
+ "issue": 960,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T11:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ffa363dbcd07908e29d855690780396eea18a59107fd7e12d6686a538fefab70",
+ "hashes": {
+  "historia": "92f73e851007c46646ff8f21858249dc32c52f5347142617003d5bbe497cc60c"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6667897417,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "aprobado_evento_utc": "2026-11-05T20:31:41Z"
+}

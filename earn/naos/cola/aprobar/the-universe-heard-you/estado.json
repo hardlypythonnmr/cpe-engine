@@ -1,0 +1,22 @@
+{
+ "slug": "the-universe-heard-you",
+ "issue": 1751,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T22:45:00Z",
+ "datos_utc": "",
+ "hash_contenido": "9c5eda369236d41559cef552993dc10f605e63bc5c60d96c7ff5bcdf42d9e54d",
+ "hashes": {
+  "reel": "a97275f6148713bd71239cbeea0ee35c4adbc45a0be0fec9c4b4c701e654312e"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6946947506,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "naos-2026-11-17",
+ "aprobado_evento_utc": "2026-11-17T12:24:54Z"
+}

@@ -1,0 +1,61 @@
+{
+ "slug": "8-ways-you-answer-an-unknown-number-ranked-by-cella",
+ "titulo": "8 Ways You Answer an Unknown Number, Ranked by Cella",
+ "clave": "2027-01-12|medio-m27",
+ "sale_utc": "2027-01-12T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "A phone rings with a number nobody saved, and most people stare at it for three rings before doing something a little strange. Cella ranks eight ways of answering it, all about behavior, by how well the call ends.\n\nChapters\n0:00 The ring and the rules\n0:38 #8 The Never\n1:08 #7 The Silent Answer\n1:36 #6 The Voicemail Gambler\n2:03 #5 The Search Party\n2:30 #4 The Business Voice\n2:59 #3 The Text Back\n3:27 #2 The Plain Hello\n4:03 #1 Hello, Five Seconds\n4:37 #0 This video, and what ends well\n\nThe eight are archetypes, not people and not brands, and every one was somebody's best idea at the time. The scores (ends well, out of ten) and the whole ranking are Cella's opinion and nothing in it is a study. The one thing the best ones share, by her reading: one short sentence ready before the phone rings.\n\nVoice: synthetic. Music and sounds made with code by NAOS.\nChoose friction.",
+ "sintetico": false,
+ "alt": "A video in 16:9 of about six minutes. A catalog of behaviors, ranked. At night, Cella, a small amber doorway-shaped figure with two white eyes, sits on a bench next to a lamp and ranks eight ways of answering a call from an unknown number by how well the call ends, on a sheet on the left with what the way says, when it breaks and an ends well score out of ten. Number 8, the Never, 2 of 10. Number 7, the Silent Answer, 3. Number 6, the Voicemail Gambler, 4. Number 5, the Search Party, 4. Number 4, the Business Voice, 5. Number 3, the Text Back, 6. Number 2, the Plain Hello, 8. Number 1, Hello and Five Seconds, 9 of 10. A bonus entry, number 0, is the video itself, an unknown number somebody answered tonight. The ones that end well have one short sentence ready before the phone rings; Cella's own way is hello, and then five seconds. Final cards: For whoever is looking at an unknown number right now; Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "satira",
+ "titulo_ab": "Cella Ranks 8 Ways to Answer a Call From an Unknown Number",
+ "comentario_fijado": "Cella's way is hello, then five seconds. Somebody is looking at an unknown number right now.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la tarjeta final dice For whoever is looking at an unknown number right now. (una sola vez, en pantalla) y el comentario fijado es una frase de Cella que nombra al destinatario",
+ "guion": "empresa/youtube/medios/2027-01-12-m27/m27-unknown-number.md",
+ "casa": {
+  "id": "m27",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m27"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "328.40 s (5:28), 1280x720 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 6.2 MB; voice: Cella ranking in the first person (ElevenLabs eleven_v4, saved voice brief-mujer-v2), 40 lines, 4014 characters"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.0 LUFS integrated, true peak -1.9 dBFS, LRA 4.6 LU; music composed with code (motor/musica/midi.py); paper, clicks and stamps from code (the same sound kit as M12 to M25)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 275 and 625 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "No study and no figure is claimed: the eight archetypes, the ends well scores and the ranking are Cella's opinion, and the video and the description say so. No brand, no real person, no scam, fear or health content: all eight ways are about behavior (declining, staying silent, ignoring voicemail, searching, a work voice, texting back, a plain hello, listening for five seconds). The one general observation (a short sentence ready before the ring) is offered as Cella's reading, not as a finding. Motor/respeto.md rules 1 to 7 checked: no group, no minor, no crisis, no health, money or legal advice, no expert role."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m27/dias/m27/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "pendiente",
+   "nota": "pendiente juez distinto (D-329)"
+  }
+ ]
+}

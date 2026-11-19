@@ -1,0 +1,23 @@
+{
+ "slug": "full-cart-empty-calendar",
+ "issue": 979,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-27T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c887e4795166edb8c6228a4383102b4c33091d758cbe8388f77230306a239c6a",
+ "hashes": {
+  "imagen": "78d34e91a58bc3408fb27aba16198ef9dd20b02fa6cf7ede5f7973ed9558333a"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681452548,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

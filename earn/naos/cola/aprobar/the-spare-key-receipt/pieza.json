@@ -1,0 +1,42 @@
+{
+ "slug": "the-spare-key-receipt",
+ "titulo": "A spare key, hung",
+ "clave": "2027-01-09|the-spare-key-receipt",
+ "sale_utc": "2027-01-09T19:15:00Z",
+ "caption": "A spare key for someone, itemized. One hook, one initial.\nFor whoever keeps a spare key for someone.\nChoose friction.\nLink in bio.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Receipt. Counter: spare key. Thank you. Choose friction. Pick one hook: 1 min. Write their initial: 10 s. Hang the key: 5 s. Tell them where: 10 s. TOTAL: 1 key, kept. A red stamp reads HUNG.",
+ "tipo_imagen": "F9 Recibo · la llave de repuesto · sáb 9-ene",
+ "aspecto": "4x5",
+ "seccion": "humanity",
+ "tanda": "ene-s2 (junta-ene-s2, 2c)",
+ "filo": "V",
+ "experimento": false,
+ "blanco": "la llave que se guarda para otra persona",
+ "mecanica_crecimiento": "destinatario: whoever keeps a spare key for someone",
+ "destinatario": "whoever keeps a spare key for someone",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "pieza renderizada, hoja de contacto leída a 390 px de ancho (Opus 11c, 14-nov)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "arquetipos, sin persona real ni marca ni grupo protegido; sin tema SENSIBLE (D-466); sin consejo de salud; Cella sin manos; sin raya larga"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "la primera línea dice el tema en palabras llanas; sin hashtags (D-376); el lema solo al cierre (D-409)"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "one-thing-well",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-13T18:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b64341394d3b20192b1777c38ba16deb7e099fdb7f7cd69edef446899c3123a9",
+ "hashes": {
+  "historia": "e9b46df8a1e352e63493b401a80937265acede63dbdb5d513b265dc450096f54"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6610817931,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

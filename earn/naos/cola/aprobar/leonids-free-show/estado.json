@@ -1,0 +1,23 @@
+{
+ "slug": "leonids-free-show",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "92b6036f6d13c7d0f09f3e889926c1e074cb8c29746102b542b5e253a3630e33",
+ "hashes": {
+  "short": "23bcbaf6bce76c89b1a919d5b1cd65449419645b53d233e94efed69e11b85f14",
+  "reel": "752c96f0788c197344cdddc27a9ce1c4d377dc1705df29180a0d43b81bd567fa"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668659366,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

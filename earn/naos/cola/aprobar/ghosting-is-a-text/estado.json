@@ -1,0 +1,23 @@
+{
+ "slug": "ghosting-is-a-text",
+ "issue": 960,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-16T15:50:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8fa0a041663d4f50ff072c05be0bb87001328aa2fc98d8f9fd24cc9c6153294d",
+ "hashes": {
+  "carrusel": "cec8785ae56da58d54a9ca8521b67e8c7e5c4598a08197c71db380ec77afc426"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6894678111,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z"
+}

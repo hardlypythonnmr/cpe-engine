@@ -1,0 +1,61 @@
+{
+ "slug": "the-mice-all-agreed",
+ "titulo": "The Mice All Agreed",
+ "clave": "2026-12-29|medio-m24",
+ "sale_utc": "2026-12-29T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "Every mouse in the room agrees to tie a bell to the cat, and nobody can do it. This story is about what happens at the next meeting.\n\nA story for tonight, from a fable credited to Aesop, told again. The fable gives the mice, the cat, the bell, the plan that wins and the moment nobody is found to do it. The second meeting, the smaller question, who offers what, and the line \"I will watch the door\" are invented for this retelling, and the video says so.\n\nChapters\n0:00 The fable and where it comes from\n0:34 The council and the plan\n1:08 Who ties it on?\n1:36 The second night\n2:11 I will, and the bell\n\nSources\nAesop, The Mice in Council, in George Fyler Townsend's English translation (Three Hundred Aesop's Fables), public domain, Project Gutenberg #21: the mice summon a council to decide how to be warned of the approach of their great enemy the Cat; the plan that finds most favour is to tie a bell to the Cat's neck; when they debate who should bell the Cat, nobody is found to do it. Aesop is a figure of Greek tradition, said to have lived in the sixth century BCE; the fables credited to him were collected and written down by others, and the exact wording changes from edition to edition.\n\nVoice: synthetic. Music and sounds made with code by NAOS.\nChoose friction.",
+ "sintetico": false,
+ "alt": "A video in 16:9, a story for tonight. At dusk, five small doorway-shaped figures in different colors, the mice, sit in a row beside Cella, a small amber figure with two white eyes, while a large dark cat sits on the right. A card gives the source: Aesop, a Greek storyteller, in the Townsend translation. The mice agree on a plan, a bell on the cat's neck, and every one of them jumps up; a sheet shows the vote, yes from every mouse and none against, and who ties it on, with volunteers 0. Nobody answers. The fable ends there. In the invented part, on the next night, Cella stands and asks one smaller question, what is one piece somebody could do tonight, and a sheet lists the bed, a bell and a ribbon, each with a mouse's name. Cella says, I will watch the door. Final cards: For whoever voted yes and never asked who; the source; Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "pelicula",
+ "titulo_ab": "A Story for Tonight: The Mice Who Agreed to Bell the Cat",
+ "comentario_fijado": "Everybody voted yes. Somebody still has to say I will.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la tarjeta final dice For whoever voted yes and never asked who. (una sola vez) y el comentario fijado es una frase de Cella que nombra al destinatario",
+ "guion": "empresa/youtube/medios/2026-12-29-m24/m24-mice.md",
+ "casa": {
+  "id": "m24",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m24"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "171.30 s (2:51), 1280x720 native 16:9, 30 fps, H.264 + AAC stereo 48 kHz, 3.7 MB; voice: a third-person narrator and the amber mouse, Cella, who speaks twice (ElevenLabs eleven_v4, saved voices mesa-daniel and brief-mujer-v2), 19 lines, 2058 characters; the source is said aloud before the retelling begins"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-15.1 LUFS integrated, true peak -4.3 dBFS, LRA 7.1 LU; music composed with code (motor/musica/midi.py); paper, clicks, knocks and bells from code (the same sound kit as M12 to M19)"
+  },
+  {
+   "que": "Text and safe area",
+   "estado": "OK",
+   "nota": "0 warnings; every on-screen line between y 310 and 590 px (band 54 to 950: the bottom 12 % stays free for YouTube captions), x 96 to 1824, 56 px type or larger, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "Aesop, The Mice in Council, George Fyler Townsend's English translation (Three Hundred Aesop's Fables), public domain, Project Gutenberg eBook #21, text read on 2026-11-14: 'THE MICE summoned a council to decide how they might best devise means of warning themselves of the approach of their great enemy the Cat. Among the many plans suggested, the one that found most favour was the proposal to tie a bell to the neck of the Cat, so that the Mice, being warned by the sound of the tinkling, might run away and hide themselves in their holes at his approach. But when the Mice further debated who among them should thus bell the Cat, there was no one found to do it.' Said on air and in the description: Aesop is credited with the fable, nobody knows if he wrote it down, and the second meeting, the smaller question, the three offers and 'I will watch the door' are invented for this retelling. Aesop's dates are given as 'about twenty-six hundred years ago' (sixth century BCE, as tradition has it). No real person depicted; no living tradition (motor/respeto.md rules 1 to 7 checked)."
+  },
+  {
+   "que": "Contact sheet",
+   "estado": "OK",
+   "nota": "empresa/youtube/medios/produccion/m24/dias/m24/contacto.png (24 frames, 6 x 4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "OK: lector frío (naos-personas-sinteticas, oficio 2) en 2 rondas, 14-nov; entendió la fábula, el voto sin voluntarios y el final inventado de las piezas con nombre; corregido: el rótulo del cuadro 0 sale desde el segundo 0, la hoja del voto y la de las piezas se agrandaron para que no se corte la última fila y los ratones se separaron; queda a juicio de N el cierre de casa 'Choose friction.' y el tono suave"
+  }
+ ]
+}

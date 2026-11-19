@@ -1,0 +1,21 @@
+{
+ "slug": "a-favorite-tree",
+ "issue": 987,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-12T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "90c13326700e1f40a7d01e27c13bbb8daaf7f3fc394f11b69ae5611ead23cdd2",
+ "hashes": {
+  "reel": "35ea5aa80d398e38537964041a65dc46fe4d439310b0bc8ab7ea714558089e7d"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6739897823,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "caidos-b-11-nov",
+ "aprobado_evento_utc": "2026-11-09T12:57:18Z"
+}

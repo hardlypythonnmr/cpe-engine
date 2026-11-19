@@ -1,0 +1,40 @@
+{
+ "slug": "party-starts-when-i-arrive",
+ "titulo": "The party starts when I arrive",
+ "clave": "2026-11-16|party-starts-when-i-arrive",
+ "sale_utc": "2026-11-16T18:25:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A pink entryway. A small ink-black block figure with white eyes strolls in from the left with total confidence. A light blue figure at the right widens its eyes and bounces. Both end with happy eyes. The text stays on screen: the party starts when i arrive. ask anyone.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-15 (casa/lib/historias-1115-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "party-starts-when-i-arrive",
+  "version": 8
+ },
+ "tono": "vain",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-15/hoja-*.png"
+  }
+ ]
+}

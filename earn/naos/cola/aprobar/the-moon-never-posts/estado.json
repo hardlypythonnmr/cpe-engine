@@ -1,0 +1,23 @@
+{
+ "slug": "the-moon-never-posts",
+ "issue": 960,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T23:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fc2c019d698b647f5b1a8249c3d48a607c9f8e8099518d009d58447b3cd539f5",
+ "hashes": {
+  "reel": "fa7d5aae13956ca836dd3b473c6912482e557cca04da4c7fcb9a8fee4e1bc0aa"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6894676820,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-15-16-y-23-nov",
+ "caducado_utc": "2026-11-15T12:58:58Z",
+ "datos_max_h": 12.0,
+ "aprobado_evento_utc": "2026-11-15T13:01:19Z"
+}

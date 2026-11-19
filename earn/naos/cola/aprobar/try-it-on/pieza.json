@@ -1,0 +1,50 @@
+{
+ "slug": "try-it-on",
+ "titulo": "Going shopping together",
+ "clave": "2026-11-13|casa-alcoba",
+ "sale_utc": "2026-11-13T17:00:00Z",
+ "caption": "Going shopping together\n\nYou're going shopping, for an outfit together.\n\nFor whoever says no to the first one.\n\n#Cella\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "You're going shopping, for an outfit together.\n\nFor whoever says no to the first one.\n\n#Cella\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A lavender bedroom with a clothes rack holding three shirts, coral, yellow and light blue, and a tall oval mirror. A small ink-black block figure with white eyes looks at the rack; the coral shirt flies up and away. A plum figure by the mirror shakes side to side, no. The first figure looks back at the rack; then the plum figure hops with happy eyes, yes. The two look at each other and lean together. The text stays: if someone sent you this, you're going shopping, for an outfit together.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "try-it-on",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "12.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 12 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -5.8 dBFS, LRA 2.1 LU; own music (motor/musica/pulso.py, mode ternura), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "G2 (grilla vie 13), S12 salida, invitación del día; sin nombre de efecto (D-324)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov sobre contacto y cuadros (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "half-moon-honest",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T14:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c38876390a8a93d1f4a636e05d700c973e6a08e99c95578e7499fc40d23ddca4",
+ "hashes": {
+  "short": "afbda19a688c4037b56db22d6d223cd0954541e5df5baa54cc5422b08a049036",
+  "reel": "d50a834828ee25839e949bc1d47cab778092b32a642308e128488025f2dddfc0"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668656967,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

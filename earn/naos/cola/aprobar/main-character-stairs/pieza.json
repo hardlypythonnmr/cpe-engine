@@ -1,0 +1,48 @@
+{
+ "slug": "main-character-stairs",
+ "titulo": "Me entering a room that wasn't waiting for me",
+ "clave": "2026-11-16|casa-escaleras",
+ "sale_utc": "2026-11-16T19:48:00Z",
+ "caption": "Me entering a room that wasn't waiting for me\n\nEntrance one. Entrance two. Entrance three. Nobody looked up until the third.\n\nIconic is a team sport, and nobody else signed up.\n\n#Cella #maincharacter\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "Entrance one. Entrance two. Entrance three. Nobody looked up until the third.\n\nIconic is a team sport, and nobody else signed up.\n\n#Cella #maincharacter\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice, with music. A staircase room. A small ink-black block figure with white eyes strides in from the left with a proud stretch, a spotlight follows it, and a bell rings. On the right a navy figure sits looking down at a phone. The ink-black figure narrows its eyes, walks out and enters again, taller, with a louder bell. It does it a third time, taller still. The navy figure finally looks up with narrowed eyes, unimpressed, and then goes back to the phone. The text stays: me entering a room that was not waiting for me.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "main-character-stairs",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.50 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 10 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -2.9 dBFS, LRA 2.3 LU; own music (motor/sonido midi, room escaleras, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "CM",
+ "filo": "C",
+ "tema": "ego y atención",
+ "blanco": "Cella (la que entra tres veces)",
+ "destinatario": "the friend who needs an entrance",
+ "cara": "A",
+ "experimento": false,
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

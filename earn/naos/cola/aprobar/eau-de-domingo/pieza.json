@@ -1,0 +1,50 @@
+{
+ "slug": "eau-de-domingo",
+ "titulo": "Eau de domingo",
+ "clave": "2026-11-15|casa-cocina",
+ "sale_utc": "2026-11-15T18:00:00Z",
+ "caption": "Eau de domingo\n\nSalida: pan caliente. Corazón: alguien sin afán. Fondo: la tarde entera.\n\nPara quien huele a domingo.\n\nMás cerca de ti.\n\nby NMR\n\nMás en el enlace de la bio.\nMore today: link in bio.\n\n#naos #conducta #domingo #shorts",
+ "descripcion": "Salida: pan caliente. Corazón: alguien sin afán. Fondo: la tarde entera.\n\nPara quien huele a domingo.\n\nNAOS · Más cerca de ti. by NMR\n#naos #conducta #shorts",
+ "sintetico": false,
+ "alt": "Un corto sin voz. Una cocina amarilla. Una figura pequeña en forma de bloque, color salsa, con piernas de puerta y ojos blancos, está junto a un pan con vapor sobre una mesa; al lado hay un frasco de perfume con tres capas de color. Se inclina hacia el pan, el frasco rocía una nube y cada capa brilla una por una, mientras la figura sonríe con los ojos cerrados. Las palabras quedan en pantalla: Eau de domingo. Salida: pan caliente. Corazón: alguien sin afán. Fondo: la tarde entera.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "eau-de-domingo",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 14 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -4.8 dBFS, LRA 1.9 LU; own music (motor/musica/pulso.py, mode calma), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Batch",
+   "estado": "OK",
+   "nota": "tiro largo T1, idea I55 de largos-tiros.md"
+  },
+  {
+   "que": "Language",
+   "estado": "OK",
+   "nota": "es-419 (Colombian Spanish): title, caption, description and alt in Spanish; on-screen text in Spanish"
+  }
+ ],
+ "idioma": "es-419"
+}

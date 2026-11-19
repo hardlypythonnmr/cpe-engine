@@ -1,0 +1,24 @@
+{
+ "slug": "the-spare-key-receipt",
+ "issue": 1409,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2027-01-09T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8dfb9af6ffe6652ac9480f8b6babea83692f53ef1a45d524f4bf21bf2fce70d6",
+ "hashes": {
+  "imagen": "76bc506b5e3d5864c4d17dc95c6163e072ab27a0c09f9c20fc12032fb490d536"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6886625640,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "eneb-0812",
+ "aprobado_evento_utc": "2026-11-15T11:55:31Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

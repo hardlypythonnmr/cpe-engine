@@ -1,0 +1,21 @@
+{
+ "slug": "knock-first",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-12T18:30:00Z",
+ "datos_utc": "",
+ "hash_contenido": "c2c430ea6e594245765c7bf4e2ecc29948814f3f114405e44ab39726b8b75829",
+ "hashes": {
+  "historia": "5f670ef7217c27bdd4212525423eac5d8dbc5292236f76a0ff329d5a898e4295"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6610811845,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

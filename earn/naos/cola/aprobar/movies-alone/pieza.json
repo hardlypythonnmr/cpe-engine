@@ -1,0 +1,39 @@
+{
+ "slug": "movies-alone",
+ "titulo": "Going to the movies alone: iconic or weird?",
+ "clave": "2026-11-11|movies-alone",
+ "sale_utc": "2026-11-11T12:00:00Z",
+ "caption": "Going to the movies by yourself: iconic or weird?\nCella already bought one ticket. Best seat, nobody stealing her popcorn.\nLink in bio.\nby NMR\n#solodate #introvert #movienight",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "split image: ICONIC on purple with Cella in a crown and a popcorn bucket, WEIRD on mint, empty. Going to the movies alone is. Left: Iconic. Right: Weird. Pick a side.",
+ "tipo_imagen": "F4 Elige · estar sola · dom 8-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-06 (D-357, D-358, D-359)",
+ "filo": "P",
+ "blanco": "citas y amistad",
+ "mecanica_crecimiento": "comentar · destinatario: the friend who never goes because nobody's free",
+ "eco": "C08",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-06/DISENO.md §5"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

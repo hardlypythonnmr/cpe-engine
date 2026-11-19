@@ -1,0 +1,21 @@
+{
+ "slug": "cella-contesta-one-chair",
+ "issue": 987,
+ "version": 3,
+ "estado": "publicado",
+ "sale_utc": "2026-11-11T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "f6b207449903319d79d6ab8666ddaf7239df02d71d9e5e779941a66087fd985f",
+ "hashes": {
+  "reel": "c63dda1c3b9f19641fee067e0254983baabb8e944fa076046f6a53f28990197a"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6739897025,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "caidos-b-11-nov",
+ "aprobado_evento_utc": "2026-11-09T12:57:18Z"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "maha-mantra-kirtan-karma-brunch",
+ "issue": 987,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "57dd5c14dad349ffe6e942ad8fc36f0bf9771218539a40a3309739a7353a5635",
+ "hashes": {
+  "reel": "976840d7c47d142ea617763aa0ad68f5fc8305eef7175afc61e9b5da47edf3d9"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6739899517,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "caidos-b-11-nov",
+ "aprobado_evento_utc": "2026-11-09T12:57:18Z"
+}

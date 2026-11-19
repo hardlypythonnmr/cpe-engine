@@ -1,0 +1,23 @@
+{
+ "slug": "weekend-left-the-chat",
+ "issue": 980,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-29T21:35:00Z",
+ "datos_utc": "",
+ "hash_contenido": "070190f75c122f393e80d2f70d159a0266737af72e493c6e1a4acee49c936caa",
+ "hashes": {
+  "imagen": "1be7cff82e46b97025f101186f297873158823f4eebde48e4f2ef4b603489240"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681465485,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-29-30-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:35Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

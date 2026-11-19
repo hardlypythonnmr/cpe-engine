@@ -1,0 +1,21 @@
+{
+ "slug": "one-extra-plate",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-13T12:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "96741701461248fd2328aa86832cd546a3cb9b48114c2f798ed5fe00453df7e7",
+ "hashes": {
+  "historia": "1825fa9ca311df5c44676256494dad86672e754602a32c316f00876eb4c78a25"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6610815372,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "the-meeting-or-the-message",
+ "issue": 1411,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2027-01-14T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "efba0567efd175c13f791feafede686ea143eab34b8780751945d14210e66cd9",
+ "hashes": {
+  "imagen": "f435a82775ef7ed45d5093efff7fc49693233a047032ecd2f159b76a1df11bea"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6893980204,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enee-1317",
+ "caducado_utc": "2026-11-15T11:59:36Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

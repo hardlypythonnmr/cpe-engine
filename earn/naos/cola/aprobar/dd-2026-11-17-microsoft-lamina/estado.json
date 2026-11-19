@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-17-microsoft-lamina",
+ "issue": 1331,
+ "version": 3,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T20:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "3b1bbe7bd57d42710406991df72bc246f31005ed7a5e3f0cddc19665189521f9",
+ "hashes": {
+  "imagen": "0262fd6adee4077ab5805e9d82ee9ad579d61272be82020c90defce87d55fba1"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6885940970,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-reserva-1730-a",
+ "caducado_utc": "2026-11-14T23:32:13Z",
+ "aprobado_evento_utc": "2026-11-14T23:57:53Z"
+}

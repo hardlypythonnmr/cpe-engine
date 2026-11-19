@@ -1,0 +1,44 @@
+{
+ "slug": "one-extra-plate",
+ "titulo": "One small kind thing (World Kindness Day)",
+ "clave": "2026-11-13|one-extra-plate",
+ "sale_utc": "2026-11-13T12:00:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A warm yellow kitchen with a table and one plate. A small ink-black block figure with white eyes walks up, leans in, and a second plate with a slice of cake appears beside the first. It pulses with happy eyes. The sentence stays on screen: if this finds you, do one small kind thing today.",
+ "seccion": "humanity",
+ "fuente": "empresa/estrategia/semanal/2026-11-09-grilla.md (casa/lib/semana-1109-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "one-extra-plate",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5, hasta 18 (D-308); texto en la banda de Stories 270 a 1330 (medir8)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa; sin raya larga"
+  },
+  {
+   "que": "Hour",
+   "estado": "OK",
+   "nota": "pasa de 10:00 a 07:00 ET contra el lote: mover una hora es aprobación de N (R4)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov sobre contacto y cuadros (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}

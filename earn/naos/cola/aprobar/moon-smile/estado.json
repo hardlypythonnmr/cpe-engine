@@ -1,0 +1,23 @@
+{
+ "slug": "moon-smile",
+ "issue": 910,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-12T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8dbed5a477bc9eeb07dcd89edd1769aa5715ef4d586e5c444546d3aa253f2290",
+ "hashes": {
+  "short": "d226747e4ca4cb759ea613153eb8e40cf91c5dc01814a633cfdf7a189c841dc9",
+  "reel": "3cab0a16921fe3644a9e572a2bc3a14bbec1049bfcf44a768347a5fc46f193ab"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6610813567,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "g2a-12-nov",
+ "aprobado_evento_utc": "2026-11-03T18:17:35Z"
+}

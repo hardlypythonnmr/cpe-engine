@@ -1,0 +1,21 @@
+{
+ "slug": "brunch-staff-unpaid",
+ "issue": 987,
+ "version": 2,
+ "estado": "publicado",
+ "sale_utc": "2026-11-14T14:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6a8e440992f057767fef4b23a0a07cfb6e0fd55e4b506f5cd7374f0d593e2b0e",
+ "hashes": {
+  "reel": "32560926ae25809be76b471172681086a3c3f53602f162d6104692a09d0c0b3f"
+ },
+ "canales": [
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6739898662,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "caidos-b-11-nov",
+ "aprobado_evento_utc": "2026-11-09T12:57:18Z"
+}

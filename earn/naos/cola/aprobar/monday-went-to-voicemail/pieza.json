@@ -1,0 +1,40 @@
+{
+ "slug": "monday-went-to-voicemail",
+ "titulo": "Monday called. I let it go to voicemail.",
+ "clave": "2026-11-16|monday-went-to-voicemail",
+ "sale_utc": "2026-11-16T11:50:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A lavender bedroom. A small ink-black block figure with sleepy white eyes sits on the edge of the bed, next to an alarm clock on the floor that reads 7:00. Text: monday called. i let it go to voicemail.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-15 (casa/lib/historias-1115-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "monday-went-to-voicemail",
+  "version": 8
+ },
+ "tono": "vain, weird",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa de salud; sin raya larga; Cella sin manos; arquetipos solamente (D-360)"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "lector frío a 270 px de ancho: se entiende la frase y a quién se manda en 3 s; ver empresa/historias/2026-11-15/hoja-*.png"
+  }
+ ]
+}

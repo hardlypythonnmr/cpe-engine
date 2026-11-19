@@ -1,0 +1,61 @@
+{
+ "slug": "stay-a-while-the-inbox-hour",
+ "titulo": "Stay a while: the inbox hour",
+ "clave": "2027-01-14|medio-stay-a-while",
+ "sale_utc": "2027-01-14T23:00:00Z",
+ "caption": "YouTube only (a medio in 16:9, no Short and no Reel). What goes out is the YouTube title and the description.",
+ "descripcion": "A quiet 11-minute stretch for the replies still waiting in the inbox. No voice and no lecture. A clock runs from 4:46 p.m. on a Thursday, short cards come and go, the afternoon sun sinks slowly in the window, and a drawn character, Cella, sits next to the desk and does not move. Open the oldest one, answer in two sentences, and go as slow as you like. Leave the video on or off whenever you want.\n\nSomebody still has replies to write tonight.\n\nChapters\n0:00 Start\n1:00 The oldest first\n2:30 The easy ones\n4:05 The unsure ones\n6:25 Same desk\n7:10 The long one\n8:00 The short thanks\n9:35 The last one\n10:20 Done enough\n\nFor whoever still has replies to write.\n\nCella is an AI character. Nobody is on the other end of this video: it is a clock, some cards and music made with code.\n\nChoose friction.",
+ "sintetico": false,
+ "alt": "An 11-minute video in 16:9 with no voice. A room late on a Thursday afternoon: a wooden desk with a laptop showing an inbox of a few lines and a mug, a window with the sun going down slowly, a wall clock, and Cella, a small blocky black figure with two round white eyes and no hands, sitting very still next to the desk. A clock in the corner starts at 4:46 PM and runs one second per second, and never reaches five o'clock. The lines on the laptop screen get fewer as the video goes on. Every 40 to 50 seconds a short card replaces the last one, such as Five o'clock is close, Stay a while, Open the oldest one, Two sentences is a reply, Not sure yet, A date is an answer, Thanks is a whole reply and Done is a good size. It ends on For whoever still has replies to write, and Choose friction.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "self-knowledge",
+ "formato": "medio",
+ "familia": "slowtv",
+ "titulo_ab": "The inbox hour, with Cella sitting nearby",
+ "comentario_fijado": "Somebody still has replies to write tonight.",
+ "mecanica_crecimiento": "cierre con persona, sin pedido (regla 8): la última tarjeta y la descripción dicen For whoever still has replies to write.; el fijado es una frase sin pedido: \"Somebody still has replies to write tonight.\"",
+ "guion": "empresa/youtube/medios/produccion/m28/hacer_pieza.py",
+ "casa": {
+  "id": "stay-a-while-the-inbox-hour",
+  "version": 8,
+  "produccion": "empresa/youtube/medios/produccion/m28"
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "682.0 s (11:22), 1280x720 16:9, 24 fps, H.264 + AAC stereo, 9.9 MB (under the 15 MB limit); no voice, seventeen cards, a running clock that stays before five o'clock"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own music (FluidSynth + FluidR3_GM, MIT) and a synthetic room ambience; no model, no third-party sample, 0 ElevenLabs credits; -17 LUFS bed"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "cards read at 390 px wide (contact sheet checked by eye); main lines of 5 words or fewer (the last card, the destinatario, has seven and sits on screen 12 s), sub line at 84 px (D-347 floor); cold reader (naos-personas-sinteticas) read the contact sheet, see lector-frio.md"
+  },
+  {
+   "que": "Cella",
+   "estado": "OK",
+   "nota": "white eyes without ring, no hands, no outline; Cella is still beside the desk and never touches anything (the replying is the viewer's, the drawing answers nothing)"
+  },
+  {
+   "que": "Closing",
+   "estado": "OK",
+   "nota": "regla 8: the last card names a person (For whoever still has replies to write.) and nothing asks to save, comment, share, send or follow; the pinned comment is a plain sentence; the description says Cella is an AI and nobody is on the other end"
+  },
+  {
+   "que": "Copy",
+   "estado": "OK",
+   "nota": "no long dashes; the old line does not appear; title 28 characters; no 'no one' and no 'between' in caption or description (detectors)"
+  }
+ ]
+}

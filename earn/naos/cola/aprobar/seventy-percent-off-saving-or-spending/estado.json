@@ -1,0 +1,23 @@
+{
+ "slug": "seventy-percent-off-saving-or-spending",
+ "issue": 979,
+ "version": 1,
+ "estado": "vetada",
+ "sale_utc": "2026-11-27T13:20:00Z",
+ "datos_utc": "",
+ "hash_contenido": "7ad9277575ccea0b23c38429a68d3ce4cfc130b3945e819d19f0f99d26d13626",
+ "hashes": {
+  "imagen": "a6d2dad1c3137432eea7cbe97205991ba6dad8802a81b44a1ca8135398d0199c"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6681451783,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "instagram-27-28-nov",
+ "aprobado_evento_utc": "2026-11-06T10:43:24Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

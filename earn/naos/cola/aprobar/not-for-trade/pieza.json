@@ -1,0 +1,49 @@
+{
+ "slug": "not-for-trade",
+ "titulo": "Some things aren't for trade. Say which one.",
+ "clave": "2026-11-18|not-for-trade",
+ "sale_utc": "2026-11-18T22:22:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.jpg",
+ "alt": "A still for Stories. A night window room. Two small block figures with white eyes face each other across the floor. A white star sits between them on the left side and a small cardboard box on the right side. Text: some things aren't for trade. say which one.",
+ "seccion": "humanity",
+ "fuente": "empresa/historias/2026-11-15-tendencia (casa/lib/historias-1115-tendencia-piezas.py)",
+ "tanda": "tendencia-1820 (D-511)",
+ "tendencia": {
+  "cazador": "2026-11-15",
+  "candidata": 1,
+  "patron": "pelear, disculparse y poner limites",
+  "estudio_doi": "10.1126/science.1144241",
+  "conducta": "poner un limite: nombrar lo que no se negocia",
+  "gancho": "solo la fecha; sin persona ni marca"
+ },
+ "sticker": "ninguno",
+ "casa": {
+  "id": "not-for-trade",
+  "version": 8
+ },
+ "tono": "tender",
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5 palabras o menos, hasta 18 en total (D-308); texto dentro de la banda de Stories 270 a 1330 (render.mjs --verifica)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin persona real ni marca; la noticia no aparece, solo el patrón; sin consejo ni promesa de salud; sin raya larga; Cella sin manos"
+  },
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "frase de 3 renglones, 5 palabras o menos cada uno, leída en el cuadro renderizado (empresa/historias/2026-11-15-tendencia/dias/<id>/cuadros/t01.00.png)"
+  }
+ ]
+}

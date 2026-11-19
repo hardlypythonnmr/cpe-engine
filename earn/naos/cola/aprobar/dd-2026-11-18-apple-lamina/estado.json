@@ -1,0 +1,24 @@
+{
+ "slug": "dd-2026-11-18-apple-lamina",
+ "issue": 1789,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-18T18:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "0faddfec639a56744a30921783c77e697184042eff25755124bd3ce3589ba186",
+ "hashes": {
+  "imagen": "3b0431ab6ca749728531f4b180a9d2ee797e951728162d58818ef118fd56c374"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6978478578,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-18-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-18T12:24:51Z",
+ "veto_hasta_utc": "2026-11-18T13:24:51Z"
+}

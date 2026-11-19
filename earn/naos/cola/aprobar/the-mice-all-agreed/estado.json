@@ -1,0 +1,27 @@
+{
+ "slug": "the-mice-all-agreed",
+ "issue": 1415,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2026-12-29T23:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b51c745f0b2547dacfdcd7391104506f5298dbcb79ccd8683cba4c560214f7c8",
+ "hashes": {
+  "short": "fb90cc7cfda6687792733bae42b6ca42887a5359e86e41e6b9592cd91a2a93e9"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 6888394350,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "medios-22-dic-a-21-ene",
+ "caducado_utc": "2026-11-15T03:11:51Z",
+ "aprobado_evento_utc": "2026-11-15T11:55:32Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»",
+ "short_bajado_utc": "2026-11-18T21:03:13Z",
+ "short_bajado": "privado y sin fecha"
+}

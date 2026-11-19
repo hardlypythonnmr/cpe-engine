@@ -1,0 +1,82 @@
+{
+ "slug": "dd-2026-11-18-apple-tachon-q",
+ "titulo": "Apple (Jan 2022): $98.7 million CEO's total pay, $68,254 dollars. Here is the math.",
+ "clave": "2026-11-18|mercury|tachon|2026-11-18-apple-tachon-q",
+ "sale_utc": "2026-11-18T17:00:00Z",
+ "caption": "Apple (Jan 2022): $98.7 million CEO's total pay, $68,254 dollars. Here is the math.\n\nFrom the archive: Jan 2022. Not today's news.\nApple, Jan 6, 2022 (Apple, proxy statement): \"We pay for performance and manage Apple for the long-term\"\nApple's proxy statement dated Jan. 6, 2022 reports the CEO's fiscal 2021 total pay and the median employee's. The proxy states the ratio as 1,447 to 1.\n\nSame fiscal year: $98.7 million CEO's total pay, fiscal 2021, Apple proxy. total compensation of the CEO (Tim Cook) for fiscal 2021 as reported in the proxy's Summary Compensation Table; mostly stock awards, not cash.\nThe math: $98.7 million CEO's total pay (2021) ÷ $68,254 dollars = about 1,447 CEO pay in median-worker salaries.\nThe facts: $98.7 million CEO's total pay (SEC EDGAR · Apple, Jan 6, 2022). $68,254 median employee's pay (SEC EDGAR · Apple, Jan 6, 2022). Both figures are from Apple's 2021 proxy statement: the CEO's total pay and the median employee's total pay, same fiscal year. Most of the CEO's pay is stock awards, not cash. The proxy states the ratio as 1,447 to 1; the division gives 1,446.6.\n\nPay for performance. Here is the median column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: SEC EDGAR · Apple, Jan 6, 2022.\n\nTap the link in bio.",
+ "descripcion": "From the archive: Jan 2022. Not today's news.\nApple, Jan 6, 2022 (Apple, proxy statement): \"We pay for performance and manage Apple for the long-term\"\nApple's proxy statement dated Jan. 6, 2022 reports the CEO's fiscal 2021 total pay and the median employee's. The proxy states the ratio as 1,447 to 1.\n\nSame fiscal year: $98.7 million CEO's total pay, fiscal 2021, Apple proxy. total compensation of the CEO (Tim Cook) for fiscal 2021 as reported in the proxy's Summary Compensation Table; mostly stock awards, not cash.\nThe math: $98.7 million CEO's total pay (2021) ÷ $68,254 dollars = about 1,447 CEO pay in median-worker salaries.\nThe facts: $98.7 million CEO's total pay (SEC EDGAR · Apple, Jan 6, 2022). $68,254 median employee's pay (SEC EDGAR · Apple, Jan 6, 2022). Both figures are from Apple's 2021 proxy statement: the CEO's total pay and the median employee's total pay, same fiscal year. Most of the CEO's pay is stock awards, not cash. The proxy states the ratio as 1,447 to 1; the division gives 1,446.6.\n\nPay for performance. Here is the median column. (Our take.)\n\nSources:\n- SEC EDGAR · Apple, Jan 6, 2022: «We pay for performance and manage Apple for the long-term.» and «The 2021 annual total compensation of our CEO was $98,734,394» and «the 2021 annual total compensation of our median compensated employee was $68,254» https://www.sec.gov/Archives/edgar/data/320193/000119312522003583/d222670ddef14a.htm\n\nSynthetic voice.",
+ "alt": "Blue card with white type. Apple, Jan 6, 2022. The statement, in quotes: \"We pay for performance and manage Apple for the long-term\". It is by Apple, proxy statement. The math: $98.7M ÷ $68,254 = about 1,447, CEO pay, in median-worker salaries. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-18/apple-2021-pay-ratio/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000119312522003583/d222670ddef14a.htm",
+   "medio": "SEC EDGAR · Apple",
+   "titulo": "Apple proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "19.055 s; strike at 0.3 s, number at 4.694 s"
+  }
+ ],
+ "estilo": "papel",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In 2022, Apple said: pay for performance. For fiscal 2021, ninety-eight point seven million went to Apple's CEO. Its median employee earned sixty-eight thousand two hundred fifty-four. One thousand four hundred forty-seven times the median pay. Pay for performance. Here is the median column. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "In 2022, Apple said: pay for performance."
+  },
+  {
+   "papel": "gancho",
+   "voz": "For fiscal 2021, ninety-eight point seven million went to Apple's CEO. Its median employee earned sixty-eight thousand two hundred fifty-four."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "One thousand four hundred forty-seven times the median pay."
+  },
+  {
+   "papel": "giro",
+   "voz": "Pay for performance. Here is the median column."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla"
+}

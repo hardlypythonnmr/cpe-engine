@@ -1,0 +1,81 @@
+{
+ "slug": "full-cart-empty-calendar",
+ "titulo": "My cart is full. My calendar is empty.",
+ "clave": "2026-11-27|full-cart-empty-calendar",
+ "sale_utc": "2026-11-27T21:35:00Z",
+ "caption": "Black Friday in one line: a full cart and an empty calendar.\nby NMR",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "Cella with a crown under a spotlight beside a drawing that matches the line. My cart is full. My calendar is empty.",
+ "tipo_imagen": "F5 Una linea · bienestar · vie 27-nov",
+ "aspecto": "1x1",
+ "formato": "una-linea",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-23 (D-376, D-357, D-358, D-359 a D-363)",
+ "filo": "C",
+ "experimento": true,
+ "experimento_prueba": "AB aspecto: 1x1, par de weekend-left-the-chat; caption con el tema explícito y sin hashtags (D-376; control: tanda del 15 al 22-nov); lectura a 7 días el 2026-12-06",
+ "ab": {
+  "prueba": "aspecto",
+  "brazo": "1x1",
+  "par": "weekend-left-the-chat",
+  "metricas": [
+   "alcance_no_seguidores",
+   "envios_por_alcance"
+  ],
+  "lectura_utc": "2026-12-06T21:35:00Z"
+ },
+ "ab_otras": [
+  {
+   "prueba": "caption-tema",
+   "brazo": "explicito",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (caption poético)",
+   "metricas": [
+    "alcance_no_seguidores"
+   ],
+   "lectura_utc": "2026-12-06T21:35:00Z"
+  },
+  {
+   "prueba": "hashtags",
+   "brazo": "sin",
+   "par": null,
+   "control": "tanda del 15 al 22-nov (con hashtags de siempre)",
+   "metricas": [
+    "alcance"
+   ],
+   "lectura_utc": "2026-12-06T21:35:00Z"
+  }
+ ],
+ "blanco": "consumo (arquetipo: el que compra en vez de vivir)",
+ "mecanica_crecimiento": "enviar · destinatario: the friend who shops instead of making plans",
+ "destinatario": "the friend who shops instead of making plans",
+ "eco": "D-376",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-23/hojas/ (the judge reads those sheets)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: archetypes only, no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Caption",
+   "estado": "OK",
+   "nota": "first line names the topic in plain words, no hashtags (D-376)"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

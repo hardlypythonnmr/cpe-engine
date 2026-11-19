@@ -1,0 +1,49 @@
+{
+ "slug": "catch-up-soon-liar",
+ "titulo": "'Let's catch up soon' is not a plan",
+ "clave": "2026-11-16|casa-ventana",
+ "sale_utc": "2026-11-16T17:00:00Z",
+ "caption": "'Let's catch up soon' is not a plan\n\n\"Let's catch up soon\" is not a plan. Pick a real day.\n\nSoon is a lie with good manners. It has been eight months and you both know it.\n\n#Cella #friendship\n\nCloser to yourself.\n\nMore behaviors: link in bio.\n\n#naos #behaviors",
+ "descripcion": "\"Let's catch up soon\" is not a plan. Pick a real day.\n\nSoon is a lie with good manners. It has been eight months and you both know it.\n\n#Cella #friendship\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short film with no voice. A room with a window. Two small block figures with white eyes, one amber and one light blue, stand on either side of a little digital clock that reads MAR. They lean toward each other and pulse happily, and the clock flips month after month, APR, MAY, JUN, JUL, AUG, SEP, OCT, with a little hop each time. When it reaches NOV both turn to the camera with narrowed eyes. The text stays: if someone sent you this: 'catch up soon' is not a plan. Pick a real day.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "catch-up-soon-liar",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "11.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 16 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-14.0 LUFS, true peak -3.6 dBFS, LRA 2.0 LU; own music (motor/sonido midi, room ventana, mood juego, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  }
+ ],
+ "tipo": "INV",
+ "filo": "V",
+ "tema": "amistad",
+ "blanco": "quien manda y quien recibe el 'soon' (los dos)",
+ "destinatario": "the friend you keep promising 'soon'",
+ "cara": "B",
+ "experimento": true,
+ "experimento_prueba": "paso del tiempo en una invitación: el reloj salta ocho meses mientras las dos repiten 'soon' con alegría y el último mes las mira a cámara",
+ "tanda": "huecos-shorts-2026-11-16 (D-357, D-359, D-360, D-362, D-363)"
+}

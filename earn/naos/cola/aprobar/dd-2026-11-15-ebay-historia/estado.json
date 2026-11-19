@@ -1,0 +1,22 @@
+{
+ "slug": "dd-2026-11-15-ebay-historia",
+ "issue": 1529,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-15T14:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "64ed76869c2b6fc248a4b9bd4100cd1909bacc4ce4b7df82208c3aa8432af874",
+ "hashes": {
+  "historia": "652889868fcf1ff4732b5d2863c34cefcaf634bb1a947c3b9d311c6c07a003da"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 6894799355,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-15",
+ "aprobado_evento_utc": "2026-11-15T13:21:17Z"
+}

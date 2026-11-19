@@ -1,0 +1,44 @@
+{
+ "slug": "a-favorite-tree",
+ "titulo": "I have a favorite tree. That's my whole religion.",
+ "clave": "2026-11-12|etereo",
+ "sale_utc": "2026-11-12T18:00:00Z",
+ "caption": "I have a favorite tree. That's my whole religion.\n\nCloser to yourself.\n\n#naos #trees",
+ "descripcion": "I have a favorite tree. That's my whole religion.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "alt": "A short looping video in flat colors with no voice: a small round figure looks straight at the camera in a dark blue room, then the camera whips to the window and slowly zooms in on a big tree at dusk. White words in the middle read: \"I have a favorite tree. That's my whole religion.\"",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "humanity",
+ "casa": {
+  "id": "et-a-favorite-tree",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "8.00 s, 1080x1920, 30 fps, H.264 + AAC stereo 48 kHz; no voice, 9 words on screen"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "-16.0 LUFS, true peak -5.9 dBFS, LRA 1.2 LU; own music (motor/sonido midi, room ventana, mood asombro, seamless loop), no third-party samples"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, 5 words or fewer per line, reading time 0.5 s + 0.3 s per word, frame 0 readable without sound"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "separate judge (D-294): earn/naos/empresa/estrategia/semanal/2026-11-04-juez-etereo-7-10-nov.md; frame 0 readable; phrase at 84 px inside the window opening after the whip (fixed: it touched the frame and the icon column), Cella with no outline and white eyes, clear at first read (D-329)"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "cella-skimmed-not-read-warning-label",
+ "issue": 1413,
+ "version": 2,
+ "estado": "vetada",
+ "sale_utc": "2027-01-19T19:15:00Z",
+ "datos_utc": "",
+ "hash_contenido": "82f4da80c2f9fd2b5982b0b6980758fc85a3e834be245bb1046fdeac4112578b",
+ "hashes": {
+  "imagen": "e4cf3d415351ce0a916490512bb652cbdefa0db589ef14558fa9170f1b40adc5"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6893998536,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "tanda": "enef-1821",
+ "caducado_utc": "2026-11-15T12:01:10Z",
+ "aprobado_evento_utc": "2026-11-15T12:02:30Z",
+ "retirado_utc": "2026-11-18T21:02:33Z",
+ "retirado_por": "N (D-530): «Sí, desde el 27 (Rec.)»"
+}

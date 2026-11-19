@@ -3172,5 +3172,32 @@ class TestComprobarNoSalio(Base):
             self.assertEqual(aprobar.edad_reclamo("alfa", 1), "no-se-pudo")
 
 
+class TestSoloN(unittest.TestCase):
+    """Regla de N (19-nov): «the repo and the classifier should only get my likes not anyones». Ninguna reacción ni comentario
+    ajeno aprueba, frena ni veta una tanda: ni en la vista previa, ni en el cuerpo del issue, ni en la vista previa de una pieza."""
+    T = {"comentario_vista_previa_id": 10, "piezas": ["a", "b"]}
+
+    def c(self, cuerpo, usuario, i=11):
+        return {"id": i, "user": {"login": usuario}, "body": cuerpo, "created_at": "2026-11-19T10:00:00Z"}
+
+    def r(self, contenido, usuario):
+        return {"user": {"login": usuario}, "content": contenido, "created_at": "2026-11-19T10:00:00Z"}
+
+    def test_ajenos_no_cuentan(self):
+        com = [self.c("ok", "intruso"), self.c("no a", "intruso", 12)]
+        ajenas = [self.r("+1", "intruso"), self.r("-1", "otra")]
+        ev = aprobar.eventos_tanda(self.T, com, ajenas, ajenas, "hardlypythonnmr", {"a": ajenas})
+        self.assertEqual(ev, [])
+
+    def test_n_cuenta_sin_importar_mayusculas(self):
+        ev = aprobar.eventos_tanda(self.T, [], [self.r("+1", "HardlyPythonNMR")], [], "hardlypythonnmr",
+                                   {"b": [self.r("-1", "hardlypythonnmr")]})
+        self.assertEqual(sorted(x[2] for x in ev), ["aprueba", "veto"])
+
+    def test_aprobador_versionado(self):
+        with open(os.path.join(os.path.dirname(os.path.abspath(aprobar.__file__)), "aprobador.txt")) as f:
+            self.assertEqual(f.read().strip(), "hardlypythonnmr")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

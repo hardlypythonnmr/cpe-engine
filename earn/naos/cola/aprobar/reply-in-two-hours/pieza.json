@@ -1,0 +1,40 @@
+{
+ "slug": "reply-in-two-hours",
+ "titulo": "Waiting two hours to reply: strategy or cowardice?",
+ "clave": "2026-11-16|reply-in-two-hours",
+ "sale_utc": "2026-11-16T13:20:00Z",
+ "caption": "Waiting two hours to reply: strategy or cowardice?\nCella picked cowardice. She has been “typing” since 7 p.m.\nLink in bio.\nby NMR\n#dating #texting #relatable",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "the image is split: STRATEGY on green with a big clock, COWARDICE on red with Cella in a crown under a spotlight. Waiting two hours to reply is. Left: Strategy. Right: Cowardice. Pick a side.",
+ "tipo_imagen": "F4 Elige · citas · lun 16-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-16 (D-357, D-358, D-359 a D-363)",
+ "filo": "P",
+ "experimento": false,
+ "blanco": "citas",
+ "mecanica_crecimiento": "comentar · destinatario: the friend who waits so they don't look eager",
+ "eco": "M8 (closer or space)",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-16/DISENO.md §4"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

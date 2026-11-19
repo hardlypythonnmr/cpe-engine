@@ -1,0 +1,23 @@
+{
+ "slug": "humbled-and-thrilled",
+ "issue": 965,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-17T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "37cd752319185a41de63c1a87323bf09360d045c2682d99f6db73507d27770ce",
+ "hashes": {
+  "short": "1f08e4554e28ffc741e11bd3ce9dd648e8cb878e24f118451ec3081f684bea11",
+  "reel": "15bf8890db7a8207e2b4c85ac6494a91cc853f6948e3f87a40baa3209dff44e1"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 6668657717,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "shorts-16-19-nov",
+ "aprobado_evento_utc": "2026-11-06T01:10:05Z"
+}

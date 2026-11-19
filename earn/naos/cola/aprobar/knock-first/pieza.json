@@ -1,0 +1,44 @@
+{
+ "slug": "knock-first",
+ "titulo": "Knock knock. You go first.",
+ "clave": "2026-11-12|knock-first",
+ "sale_utc": "2026-11-12T18:30:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A short film for Stories, no voice. A pink entryway with a cream door. A cobalt block figure with white eyes leans toward the door and knocks twice. The door opens a little and a second small block figure peeks out, both eyes in the opening, happy to see who is there. The sentence stays on screen: knock knock. you go first.",
+ "seccion": "humanity",
+ "fuente": "empresa/estrategia/semanal/2026-11-09-grilla.md (casa/lib/semana-1109-piezas.py)",
+ "sticker": "ninguno",
+ "casa": {
+  "id": "knock-first",
+  "version": 8
+ },
+ "revisiones": [
+  {
+   "que": "Frase",
+   "estado": "OK",
+   "nota": "renglones de 5, hasta 18 (D-308); texto en la banda de Stories 270 a 1330 (medir8)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin consejo ni promesa; sin raya larga"
+  },
+  {
+   "que": "Reuse",
+   "estado": "OK",
+   "nota": "escena de door-peek (el-que-toca no está construido)"
+  },
+  {
+   "que": "Critic",
+   "estado": "OK",
+   "nota": "lista de naos-arte-critico pasada por el jefe de producción 3-nov sobre contacto y cuadros (sin herramienta de agentes en esta corrida: el juez distinto de D-294 queda pendiente)"
+  }
+ ]
+}
