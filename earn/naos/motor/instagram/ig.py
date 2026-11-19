@@ -1042,6 +1042,7 @@ def main():
     p.add_argument("--con-feed", action="store_true", help="además de la pestaña de Reels, muestra el Reel en el grid (por defecto NO: share_to_feed=false)")
     p.add_argument("--sin-feed", action="store_true", help=argparse.SUPPRESS)  # ya es el valor por defecto; se acepta por los comandos viejos
     p.add_argument("--prueba", choices=["MANUAL", "SS_PERFORMANCE"])
+    p.add_argument("--ia", action="store_true", help="aviso de IA de la plataforma (is_ai_generated=true; N 19-nov: «Solo etiqueta de plataforma»)")
     rc = sub.add_parser("revisar-carrusel")
     rc.add_argument("urls", nargs="+")
     args_carrusel(rc)
@@ -1049,6 +1050,7 @@ def main():
     pc.add_argument("slug")
     pc.add_argument("urls", nargs="+")
     args_carrusel(pc)
+    pc.add_argument("--ia", action="store_true", help="aviso de IA de la plataforma (is_ai_generated=true; N 19-nov: «Solo etiqueta de plataforma»)")
     uc = sub.add_parser("publicar-carrusel")
     uc.add_argument("slug")
     uc.add_argument("contenedor")
@@ -1060,6 +1062,7 @@ def main():
     pi = sub.add_parser("preparar-imagen")
     pi.add_argument("slug")
     pi.add_argument("url")
+    pi.add_argument("--ia", action="store_true", help="aviso de IA de la plataforma (is_ai_generated=true; N 19-nov: «Solo etiqueta de plataforma»)")
     args_imagen(pi)
     ui = sub.add_parser("publicar-imagen")
     ui.add_argument("slug")
@@ -1131,6 +1134,8 @@ def main():
             extra["thumb_offset"] = str(a.portada_ms)
         if a.prueba:
             extra["trial_params"] = json.dumps({"graduation_strategy": a.prueba})
+        if a.ia:  # aviso de IA de Meta (changelog 22-jun-2026); no cambia la huella
+            extra["is_ai_generated"] = "true"
         if directa:
             c, huella = preparar_directo(a.slug, a.archivo, caption, a.con_feed, extra=extra)
         else:
@@ -1168,7 +1173,7 @@ def main():
                          f"Nada salió público; los contenedores hijos vencen solos a las 24 h.")
             hijos.append(h)
             print(f"lámina {i}/{len(a.urls)}: contenedor {h} FINISHED")
-        c = llamar("POST", "me/media", {"media_type": "CAROUSEL", "children": ",".join(hijos), "caption": caption})["id"]
+        c = llamar("POST", "me/media", {"media_type": "CAROUSEL", "children": ",".join(hijos), "caption": caption, **({"is_ai_generated": "true"} if a.ia else {})})["id"]
         print(f"contenedor {c} (carrusel de {len(hijos)}) creado para {a.slug}; esperando a Meta...")
         e = esperar(c)
         print(f"{c}: {e.get('status_code')} {e.get('status', '')}")
@@ -1209,7 +1214,7 @@ def main():
         if fallas:
             sys.exit("no se prepara:\n" + "\n".join(f"- {f}" for f in fallas))
         # Imagen suelta: image_url + caption y nada más. Sin media_type (así se crea una imagen en la API con Instagram Login).
-        c = llamar("POST", "me/media", {"image_url": a.url, "caption": caption})["id"]
+        c = llamar("POST", "me/media", {"image_url": a.url, "caption": caption, **({"is_ai_generated": "true"} if a.ia else {})})["id"]
         print(f"contenedor {c} (imagen) creado para {a.slug}; esperando a Meta...")
         e = esperar(c)
         print(f"{c}: {e.get('status_code')} {e.get('status', '')}")

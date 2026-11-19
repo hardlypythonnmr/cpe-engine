@@ -550,6 +550,13 @@ def correr(args, log=None):
     return p.returncode, texto
 
 
+def con_ia(slug, cola=COLA):
+    """["--ia"] si pieza.json trae "sintetico": true (la misma fuente que --sintetico de YouTube): el aviso de IA de Meta.
+    N 19-nov: «Solo etiqueta de plataforma». Sin pieza.json o sin la marca, nada."""
+    p = leer_json(os.path.join(cola, slug, "pieza.json")) or {}
+    return ["--ia"] if p.get("sintetico") else []
+
+
 def ordenes_imagen(info, d, contenedor="<contenedor>"):
     """Las dos órdenes de ig.py (preparar y publicar) de una historia, un carrusel o una imagen, como listas de argumentos."""
     ig = os.path.join(AQUI, "ig.py")
@@ -559,10 +566,12 @@ def ordenes_imagen(info, d, contenedor="<contenedor>"):
     cap = os.path.join(d, "caption.txt")
     if info["tipo"] == "imagen":
         f = ["--formato", info["formato"]] if info.get("formato") else []  # "una-linea": F5 sin link in bio (D-361)
-        return ([ig, "preparar-imagen", info["slug"], info["urls"][0], "--archivo", info["archivos"][0], "--caption", cap, *f],
+        return ([ig, "preparar-imagen", info["slug"], info["urls"][0], "--archivo", info["archivos"][0], "--caption", cap, *f,
+                 *con_ia(info["slug"])],
                 [ig, "publicar-imagen", info["slug"], contenedor, "--ok", info["cita"], "--archivo", info["archivos"][0],
                  "--caption", cap, *f])
-    return ([ig, "preparar-carrusel", info["slug"], *info["urls"], "--archivos", *info["archivos"], "--caption", cap],
+    return ([ig, "preparar-carrusel", info["slug"], *info["urls"], "--archivos", *info["archivos"], "--caption", cap,
+             *con_ia(info["slug"])],
             [ig, "publicar-carrusel", info["slug"], contenedor, "--ok", info["cita"], "--archivos", *info["archivos"],
              "--caption", cap])
 
@@ -650,7 +659,7 @@ def publicar(info, d, naos=None, ruta=None):
         if naos and os.path.exists(os.path.join(naos, "data", "semana.json")):
             comunes += ["--semana", os.path.join(naos, "data", "semana.json"), "--enlaces", os.path.join(naos, "data", "enlaces.json")]
     servido = ["--servido", info["servido"]] if info.get("servido") else []  # copia con faststart: el peso de la URL es el suyo
-    rc, out = correr([ig, "preparar", info["slug"], info["video_url"], "--caption", cap, "--archivo", info["video"], *servido,
+    rc, out = correr([ig, "preparar", info["slug"], info["video_url"], "--caption", cap, "--archivo", info["video"], *servido, *con_ia(info["slug"]),
                       *comunes], log)
     m = re.search(r"^(\d+): FINISHED", out, re.M)
     if rc or not m:
