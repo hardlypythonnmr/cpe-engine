@@ -1030,7 +1030,7 @@ def url_audio(a, llamar=None):
         return ""
 
 
-def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15):
+def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15, vetadas=None):
     """Piloto de audio (N 19-nov: «Piloto medido», «Sonidos originales», «Filtro automático + veto»). Devuelve {audio_id,
     ig_username, title, duracion_ms, busqueda, enlace, ritmo} o None. Con audio_id, lo toma tal cual (GET /{audio_id}): ya
     pasó el filtro y el veto. Si no, junta los original_sound de la búsqueda por tema y de la tendencia, descarta los que no
@@ -1050,8 +1050,17 @@ def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15
         import ritmo_audio
         medir = ritmo_audio.medir
     from ritmo_audio import puntaje
+    if vetadas is None:  # audio-ab.json cuentas_vetadas: cuentas que DD no usa aunque pasen el filtro (políticos, etc.)
+        try:
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "audio-ab.json"), encoding="utf-8") as f:
+                vetadas = json.load(f).get("cuentas_vetadas", [])
+        except (OSError, ValueError):
+            vetadas = []
+    vetadas = {str(v).lower().lstrip("@") for v in vetadas}
     mejor, mejor_p = None, -1.0
-    for a in [a for a in candidatos_audio(tema, llamar) if (a.get("duration_in_ms") or 0) >= dur_s * 1000][:tope]:
+    lista = [a for a in candidatos_audio(tema, llamar)
+             if (a.get("duration_in_ms") or 0) >= dur_s * 1000 and str(a.get("ig_username", "")).lower() not in vetadas]
+    for a in lista[:tope]:
         url = url_audio(a, llamar)
         m = medir(url) if url else None
         p = puntaje(m)

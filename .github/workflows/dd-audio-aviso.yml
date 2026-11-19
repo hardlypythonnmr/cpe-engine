@@ -36,6 +36,13 @@ jobs:
             /earn/naos/cola/aprobar/dd-*/estado.json
             /earn/naos/cola/aprobar/dd-*/pieza.json
             /earn/naos/cola/aprobar/dd-*/video.mp4
+      - name: Herramientas del filtro (ffmpeg, numpy, onnxruntime, YAMNet)
+        run: |
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
+          python3 -m pip install -q --user --break-system-packages numpy onnxruntime 2>/dev/null || python3 -m pip install -q --user numpy onnxruntime
+          curl -sSfL -o "$RUNNER_TEMP/yamnet.onnx" https://huggingface.co/zeropointnine/yamnet-onnx/resolve/ac2ca3bd45d12ec1f19f1144205ea529b4e9dedf/yamnet.onnx
+          echo "1510041dce24a2e9e84ec546807ac408ae496da6d1ed41bc3ccba649623f8e19  $RUNNER_TEMP/yamnet.onnx" | sha256sum -c -
+          echo "RITMO_YAMNET=$RUNNER_TEMP/yamnet.onnx" >> "$GITHUB_ENV"
       - name: Elegir y avisar
         env:
           MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}

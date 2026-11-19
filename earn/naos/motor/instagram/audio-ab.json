@@ -3,5 +3,9 @@
  "marca": "mercury",
  "desde": "2026-11-20",
  "hasta": "2026-12-03",
- "cita": "Piloto medido (Rec.) / Sonidos originales (Rec.)"
+ "cita": "Piloto medido (Rec.) / Sonidos originales (Rec.)",
+ "cuentas_vetadas": [
+  "gustavopetrourrego"
+ ],
+ "_nota_vetadas": "Cuentas que DD no usa aunque su sonido pase el filtro: políticos y figuras públicas de un bando (mudanza 19-nov). La mesa o N agregan."
 }

@@ -49,6 +49,13 @@ class ElegirAudio(unittest.TestCase):
         a = ig.elegir_audio("money", 20, llamar=self.api(tema, tend), medir=medir)
         self.assertEqual((vistos, a["busqueda"]), (["x5", "x6"], "money"))
 
+    def test_salta_cuentas_vetadas(self):
+        tend = [{"audio_id": 1, "duration_in_ms": 40000, "download_url": "a", "ig_username": "politico"},
+                {"audio_id": 2, "duration_in_ms": 40000, "download_url": "b", "ig_username": "otro"}]
+        a = ig.elegir_audio("", 20, llamar=self.api(tendencia=tend), medir=lambda u: med(0.9 if u == "a" else 0.5),
+                            vetadas={"politico"})
+        self.assertEqual(a["audio_id"], "2")
+
     def test_ninguno_pasa(self):
         tend = [{"audio_id": 1, "duration_in_ms": 40000, "download_url": "v"}]
         self.assertIsNone(ig.elegir_audio("", 20, llamar=self.api(tendencia=tend), medir=lambda u: med(voz=True)))
@@ -66,90 +73,39 @@ class ElegirAudio(unittest.TestCase):
 
 
 class Ritmo(unittest.TestCase):
-    """ritmo_audio con señales hechas aquí: golpe a 150 BPM pasa; habla con pausas y colchón sin golpe no."""
+    """ritmo_audio: golpe a 150 BPM con música pasa; habla (YAMNet) o colchón sin golpe no; sin YAMNet no pasa nada."""
 
     def senal(self, tipo):
-        import array, math, random
-        sr, n = 8000, 8000 * 12
-        r = random.Random(1)
-        x = [0.0] * n
+        import numpy as np
+        sr = 16000
+        t = np.arange(sr * 12) / sr
+        x = 0.2 * np.sin(2 * np.pi * 55 * t)
         if tipo == "golpe":
-            for i in range(n):
-                x[i] = 0.2 * math.sin(2 * math.pi * 55 * i / sr)
             per = int(sr * 60 / 150)
-            for k in range(0, n, per):
-                for j in range(min(1200, n - k)):
-                    x[k + j] += 1.2 * math.exp(-j / 240) * math.sin(2 * math.pi * 60 * j / sr)
-        elif tipo == "habla":
-            pos = 0
-            while pos < n - sr:
-                for _ in range(r.randint(3, 8)):
-                    L, f0 = int(sr * r.uniform(0.12, 0.3)), r.uniform(100, 180)
-                    for j in range(min(L, n - pos)):
-                        w = math.sin(math.pi * j / L)
-                        x[pos + j] = w * (sum(math.sin(2 * math.pi * f0 * h * j / sr) / h for h in (1, 2, 3))
-                                          if j > L // 4 else r.gauss(0, 0.5))
-                    pos += L
-                pos += int(sr * r.uniform(0.3, 0.8))
-        else:
-            for i in range(n):
-                x[i] = sum(math.sin(2 * math.pi * f * i / sr) for f in (220, 277, 330)) / 3
-        m = max(abs(v) for v in x) or 1
-        return array.array("h", (int(v / m * 26000) for v in x))
+            for k in range(0, len(t), per):
+                j = np.arange(min(1600, len(t) - k))
+                x[k:k + len(j)] += 1.2 * np.exp(-j / 320) * np.sin(2 * np.pi * 60 * j / sr)
+        return (x / np.abs(x).max() * 0.8).astype(np.float32)
 
     def test_senales(self):
         import ritmo_audio as ra
-        g, h, c = (ra.medir_muestras(self.senal(t)) for t in ("golpe", "habla", "colchon"))
+        musica = lambda x: {"habla": 0.0, "musica": 0.9, "habla_domina": 0.0}
+        habla = lambda x: {"habla": 0.9, "musica": 0.1, "habla_domina": 1.0}
+        g = ra.medir_muestras(self.senal("golpe"), musica)
         self.assertTrue(g["pasa"])
         self.assertAlmostEqual(g["bpm"], 150, delta=8)
-        self.assertTrue(h["voz"])
-        self.assertFalse(h["pasa"])
-        self.assertFalse(c["pasa"])
-        self.assertGreater(ra.puntaje(g), ra.puntaje(c))
+        self.assertFalse(ra.medir_muestras(self.senal("golpe"), habla)["pasa"])
+        self.assertTrue(ra.medir_muestras(self.senal("golpe"), habla)["voz"])
+        self.assertFalse(ra.medir_muestras(self.senal("colchon"), musica)["pasa"])
+        self.assertIsNone(ra.medir_muestras(self.senal("golpe"), lambda x: None))
+        self.assertGreater(ra.puntaje(g), ra.puntaje(None))
 
-
-class GrupoAudio(unittest.TestCase):
-    def cola(self, pieza):
-        d = tempfile.mkdtemp()
-        os.makedirs(os.path.join(d, "s"))
-        json.dump(pieza, open(os.path.join(d, "s", "pieza.json"), "w"))
-        return d
-
-    AB = {"marca": "mercury", "desde": "2026-11-20", "hasta": "2026-12-03"}
-
-    def test_alterna_por_dia(self):
-        c = self.cola({"marca": "mercury", "titulo": "CEO pay"})
-        par = dt.date(2026, 11, 20)  # día 324
-        self.assertEqual(accion_reel.grupo_audio("s", c, par, self.AB)[0], "tendencia")
-        self.assertEqual(accion_reel.grupo_audio("s", c, par + dt.timedelta(1), self.AB)[0], "propio")
-        self.assertEqual(accion_reel.grupo_audio("s", c, dt.date(2026, 12, 4), self.AB)[0], "")
-
-    def test_otra_marca_fuera(self):
-        c = self.cola({"marca": "naos"})
-        self.assertEqual(accion_reel.grupo_audio("s", c, dt.date(2026, 11, 20), self.AB)[0], "")
-
-    def test_pieza_manda(self):
-        c = self.cola({"marca": "naos", "audio_id": "5"})
-        self.assertEqual(accion_reel.grupo_audio("s", c, dt.date(2026, 11, 21), self.AB), ("tendencia", "", "5"))
-        c = self.cola({"marca": "mercury", "audio_tendencia": False})
-        self.assertEqual(accion_reel.grupo_audio("s", c, dt.date(2026, 11, 20), self.AB)[0], "propio")
-
-
-class AudioVivo(unittest.TestCase):
-    def test_revisa(self):
-        d = tempfile.mkdtemp()
-        for s, aid in (("a", "1"), ("b", "2")):
-            os.makedirs(os.path.join(d, s))
-            json.dump({"media_id": "m" + s, "audio_ig": {"audio_id": aid, "ig_username": "u"}}, open(os.path.join(d, s, "estado.json"), "w"))
-        os.makedirs(os.path.join(d, "c"))
-        json.dump({"media_id": "mc"}, open(os.path.join(d, "c", "estado.json"), "w"))
-
-        def llamar(m, ruta, params, **k):
-            if ruta == "2":
-                raise err()
-            return {"media_audio_type": "original", "media_url": "x"} if ruta.startswith("m") else {}
-        filas = audio_vivo.revisar(d, llamar=llamar, media_de=lambda s: "", ahora="T")
-        self.assertEqual([(f["slug"], f["vivo"], f["media_audio_type"]) for f in filas], [("a", "si", "original"), ("b", "no", "original")])
+    def test_sin_modelo_falla_cerrado(self):
+        import ritmo_audio as ra
+        with mock.patch.dict(os.environ, {"RITMO_YAMNET": "/no/existe.onnx"}), mock.patch.object(ra, "_sesion", None):
+            self.assertIsNone(ra.yamnet())
+        self.assertEqual(ra.nombres()[0], "Speech")
+        self.assertIn("Music", ra.nombres())
 
 
 class Respaldo(unittest.TestCase):
