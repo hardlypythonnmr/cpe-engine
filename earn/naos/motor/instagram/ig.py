@@ -989,6 +989,38 @@ def esperar(contenedor, tope_s=600):
     return {"status_code": "IN_PROGRESS", "status": "sigue procesando; consultar con `estado`"}
 
 
+AUDIO_VOL, VIDEO_VOL = 25, 100  # N 19-nov (piloto de audio DD): la voz de DD se sigue oyendo
+
+
+def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None):
+    """Piloto de audio (N 19-nov: «Piloto medido», «Sonidos originales»). Devuelve {audio_id, ig_username, title, duracion_ms,
+    busqueda} o None. Con audio_id, lo toma tal cual (GET /{audio_id}). Si no, busca en GET /ig_audio (original_sound) por el
+    tema y, si nada sirve, en lo que está en tendencia; elige el primero cuya duración alcance para el video (dur_s).
+    Solo con Facebook Login (DD); la Audio API no existe con Instagram Login."""
+    llamar = llamar or llamar_crudo
+    uid = CUENTA.get("user_id") or os.environ.get(CUENTA.get("user_id_env", ""), "")
+    if audio_id:
+        try:
+            a = llamar("GET", audio_id, {"user_id": uid}, anotar=False, crudo=True)
+        except ErrorMeta:
+            return None
+        return {"audio_id": audio_id, "ig_username": a.get("ig_username", ""), "title": a.get("title", ""),
+                "duracion_ms": a.get("duration_in_ms"), "busqueda": "audio_id"}
+    for q in ([tema] if tema else []) + [""]:
+        params = {"audio_type": "original_sound", "user_id": uid, **({"search_query": q} if q else {})}
+        try:
+            d = llamar("GET", "ig_audio", params, anotar=False, crudo=True)
+        except ErrorMeta:
+            continue
+        lista = (d.get("audio") or d.get("data") or []) if isinstance(d, dict) else []
+        lista = lista.get("data", []) if isinstance(lista, dict) else lista
+        for a in lista:
+            if a.get("audio_id") and (a.get("duration_in_ms") or 0) >= dur_s * 1000:
+                return {"audio_id": str(a["audio_id"]), "ig_username": a.get("ig_username", ""), "title": a.get("title", ""),
+                        "duracion_ms": a.get("duration_in_ms"), "busqueda": q or "tendencia"}
+    return None
+
+
 def args_comunes(p):
     p.add_argument("--short-url", default="", help="el Short de YouTube de esta pieza, ya público; sin él, Reel solo Instagram (etéreo)")
     p.add_argument("--titulo", default="", help="el título del Short (el mismo en el Reel); se compara con YouTube")
@@ -1042,6 +1074,9 @@ def main():
     p.add_argument("--con-feed", action="store_true", help="además de la pestaña de Reels, muestra el Reel en el grid (por defecto NO: share_to_feed=false)")
     p.add_argument("--sin-feed", action="store_true", help=argparse.SUPPRESS)  # ya es el valor por defecto; se acepta por los comandos viejos
     p.add_argument("--prueba", choices=["MANUAL", "SS_PERFORMANCE"])
+    p.add_argument("--audio-id", default="", help="piloto de audio: este audio de la Audio API (audio_configuration)")
+    p.add_argument("--audio-tema", default="", help="piloto de audio: busca un original_sound en tendencia por este tema")
+    p.add_argument("--audio-dur", type=float, default=0, help="piloto de audio: segundos del video (el audio tiene que alcanzar)")
     p.add_argument("--ia", action="store_true", help="aviso de IA de la plataforma (is_ai_generated=true; N 19-nov: «Solo etiqueta de plataforma»)")
     rc = sub.add_parser("revisar-carrusel")
     rc.add_argument("urls", nargs="+")
@@ -1136,6 +1171,14 @@ def main():
             extra["trial_params"] = json.dumps({"graduation_strategy": a.prueba})
         if a.ia:  # aviso de IA de Meta (changelog 22-jun-2026); no cambia la huella
             extra["is_ai_generated"] = "true"
+        if a.audio_id or a.audio_tema:  # piloto de audio DD (N 19-nov); fuera de la huella como la portada: solo con la decisión de N
+            elegido = elegir_audio(a.audio_tema, a.audio_dur, a.audio_id)
+            if elegido:
+                extra["audio_configuration"] = json.dumps({"audio_id": elegido["audio_id"], "audio_volume": AUDIO_VOL,
+                                                           "video_volume": VIDEO_VOL})
+                print("AUDIO " + json.dumps(elegido, ensure_ascii=False))
+            else:
+                print("AUDIO-NINGUNO no hubo un sonido original que alcance; sale con su sonido propio")
         if directa:
             c, huella = preparar_directo(a.slug, a.archivo, caption, a.con_feed, extra=extra)
         else:

@@ -53,4 +53,7 @@ jobs:
                   print(f"== {tipo} q={q!r}: {len(datos)} resultados; claves de la respuesta: {sorted(d) if isinstance(d, dict) else type(d).__name__}")
                   for a in datos[:5]:
                       print("  " + json.dumps(a, ensure_ascii=False)[:400])
+          print("== elegir_audio en seco (lo que haría preparar con --audio-tema):")
+          for tema, dur in ((os.environ.get("BUSCAR") or "money", 30), ("CEO pay", 45), ("", 20)):
+              print(f"  tema={tema!r} dur={dur}s -> {json.dumps(ig.elegir_audio(tema, dur), ensure_ascii=False)}")
           PY

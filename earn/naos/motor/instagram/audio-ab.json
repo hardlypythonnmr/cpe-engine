@@ -1,0 +1,7 @@
+{
+ "_nota": "Piloto de audio de DD (N 19-nov-2026). Entre desde y hasta (Nueva York), los Reels de la marca alternan por día: día del año par = sonido original en tendencia (ig.py preparar --audio-tema), impar = su sonido propio. pieza.json audio_id o audio_tendencia manda sobre esto. El audio no entra en la huella aprobada (C-05): lo cubre esta decisión de N. La junta DD lee alcance a 24 y 72 h, tiempo medio y envíos por grupo (estado.json audio_ab).",
+ "marca": "mercury",
+ "desde": "2026-11-20",
+ "hasta": "2026-12-03",
+ "cita": "Piloto medido (Rec.) / Sonidos originales (Rec.)"
+}

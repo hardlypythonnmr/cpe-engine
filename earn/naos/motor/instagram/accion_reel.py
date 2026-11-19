@@ -550,6 +550,36 @@ def correr(args, log=None):
     return p.returncode, texto
 
 
+def grupo_audio(slug, cola=COLA, hoy=None, ab=None):
+    """Piloto de audio de DD (audio-ab.json). Devuelve ("tendencia"|"propio"|"", tema, audio_id). "" = fuera del piloto.
+    pieza.json manda si trae "audio_id" o "audio_tendencia"; si no, en las fechas y la marca del piloto alterna por día
+    (Nueva York): día del año par = tendencia, impar = propio."""
+    import datetime as dt
+    from zoneinfo import ZoneInfo
+    p = leer_json(os.path.join(cola, slug, "pieza.json")) or {}
+    tema = (p.get("audio_tema") or p.get("tema") or p.get("titulo") or "").strip()[:60]
+    if p.get("audio_id"):
+        return "tendencia", tema, str(p["audio_id"])
+    if "audio_tendencia" in p:
+        return ("tendencia" if p["audio_tendencia"] else "propio"), tema, ""
+    ab = ab if ab is not None else (leer_json(os.path.join(AQUI, "audio-ab.json")) or {})
+    if not ab or registro.marca_de(p) != ab.get("marca"):
+        return "", tema, ""
+    hoy = hoy or dt.datetime.now(ZoneInfo("America/New_York")).date()
+    if not (ab.get("desde", "9999") <= hoy.isoformat() <= ab.get("hasta", "0000")):
+        return "", tema, ""
+    return ("tendencia" if hoy.timetuple().tm_yday % 2 == 0 else "propio"), tema, ""
+
+
+def duracion_s(video):
+    try:
+        out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video],
+                             capture_output=True, text=True, timeout=60).stdout.strip()
+        return float(out or 0)
+    except (OSError, ValueError, subprocess.SubprocessError):
+        return 0.0
+
+
 def con_ia(slug, cola=COLA):
     """["--ia"] si pieza.json trae "sintetico": true (la misma fuente que --sintetico de YouTube): el aviso de IA de Meta.
     N 19-nov: «Solo etiqueta de plataforma». Sin pieza.json o sin la marca, nada."""
@@ -659,7 +689,11 @@ def publicar(info, d, naos=None, ruta=None):
         if naos and os.path.exists(os.path.join(naos, "data", "semana.json")):
             comunes += ["--semana", os.path.join(naos, "data", "semana.json"), "--enlaces", os.path.join(naos, "data", "enlaces.json")]
     servido = ["--servido", info["servido"]] if info.get("servido") else []  # copia con faststart: el peso de la URL es el suyo
-    rc, out = correr([ig, "preparar", info["slug"], info["video_url"], "--caption", cap, "--archivo", info["video"], *servido, *con_ia(info["slug"]),
+    grupo, tema, audio_id = grupo_audio(info["slug"])
+    audio = []
+    if grupo == "tendencia":
+        audio = (["--audio-id", audio_id] if audio_id else ["--audio-tema", tema]) + ["--audio-dur", str(duracion_s(info["video"]))]
+    rc, out = correr([ig, "preparar", info["slug"], info["video_url"], "--caption", cap, "--archivo", info["video"], *servido, *con_ia(info["slug"]), *audio,
                       *comunes], log)
     m = re.search(r"^(\d+): FINISHED", out, re.M)
     if rc or not m:
@@ -674,6 +708,11 @@ def publicar(info, d, naos=None, ruta=None):
         sys.exit(f"publicar falló (salida {rc}); revisar el error de Meta arriba")
     res = {"reel": fila["url_reel"], "short": info["short_url"], "contenedor": fila["contenedor"],
            "media_id": fila["media_id"], "publicado_utc": fila["publicado_utc"], "version": info["version"]}
+    if grupo:  # piloto de audio: grupo del A/B y el sonido elegido (o ninguno), para estado.json y la junta DD
+        m_audio = re.search(r"^AUDIO (\{.*\})$", out, re.M)
+        res["audio_ab"] = grupo if (grupo == "propio" or m_audio) else "propio-sin-sonido"
+        if m_audio:
+            res["audio_ig"] = json.loads(m_audio.group(1))
     escribir_json(os.path.join(d, "resultado.json"), res)
     print(f"publicado: {res['reel']}")
     return res
@@ -742,6 +781,10 @@ def aplicar(slug, d, cola=COLA, ruta=None, errores=None):
                 e["estado"] = "publicado"
             escribir_json(ruta_e, e)
     elif res:
+        if e is not None and res.get("audio_ab"):
+            e["audio_ab"] = res["audio_ab"]
+            if res.get("audio_ig"):
+                e["audio_ig"] = res["audio_ig"]
         registro.completar(slug, "reel", res["version"], {k: res[k] for k in ("contenedor", "media_id", "publicado_utc")} |
                            {"url_reel": res["reel"], "url_short": res["short"]}, ruta)
         filas = registro.leer(ruta)

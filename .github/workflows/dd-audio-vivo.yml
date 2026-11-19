@@ -1,0 +1,50 @@
+# dd-audio-vivo: piloto de audio de DD (N 19-nov: «Piloto medido», «Sonidos originales»), paso 5.
+# Cada día revisa si el sonido original de cada Reel con audio_ig (estado.json) sigue vivo en Instagram y anota
+# earn/naos/medicion/audio-vivo.csv. Solo lee Meta; escribe solo ese CSV.
+name: dd-audio-vivo
+on:
+  schedule:
+    - cron: "17 15 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dd-audio-vivo
+jobs:
+  vivo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/aprobar/
+            /earn/naos/motor/instagram/
+            /earn/naos/motor/investigacion/
+            /earn/naos/motor/*.py
+            /earn/naos/cola/aprobar/*/estado.json
+            /earn/naos/medicion/audio-vivo.csv
+      - name: Revisar audios
+        env:
+          MERCURY_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          MERCURY_INSTAGRAM_USER_ID: ${{ (vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID) }}
+        run: python3 earn/naos/motor/instagram/audio_vivo.py --csv "$RUNNER_TEMP/audio-vivo-nuevas.csv"
+      - name: Anotar
+        run: |
+          f=earn/naos/medicion/audio-vivo.csv
+          n="$RUNNER_TEMP/audio-vivo-nuevas.csv"
+          [ -s "$n" ] && [ "$(wc -l < "$n")" -gt 1 ] || { echo "nada que anotar"; exit 0; }
+          mkdir -p "$(dirname "$f")"
+          if [ -s "$f" ]; then tail -n +2 "$n" >> "$f"; else cp "$n" "$f"; fi
+          git config user.name "dd-audio-vivo"; git config user.email "dd-audio-vivo@users.noreply.github.com"
+          git add --sparse -- "$f"
+          git diff --cached --quiet && { echo "nada que guardar"; exit 0; }
+          git commit -q -m "dd-audio-vivo: $(date -u +%F)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*5))
+          done
+          exit 1
