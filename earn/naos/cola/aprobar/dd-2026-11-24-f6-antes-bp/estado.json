@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-24-f6-antes-bp",
+ "issue": 121,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T14:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "bc962cfde1d594ebd7f870b46fa085b9b074d298d6bdb372d188d2e2b4689387",
+ "hashes": {
+  "short": "39db9a895bfefb26abe32f674840d43a89d25e452f91e9be848d0367573040f8",
+  "reel": "1525b367a92d7c10b1aac6cf76665b2873f6dbc480827764281f7679817b1f4f"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7021555191,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-tanda8"
+}

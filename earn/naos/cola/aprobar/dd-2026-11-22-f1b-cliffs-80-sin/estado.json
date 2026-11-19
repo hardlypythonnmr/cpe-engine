@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-22-f1b-cliffs-80-sin",
+ "issue": 121,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T22:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "dd6a3c47e12bb9b01c512659c83c69fa341262c4720b98b588d9b8f472cb3d95",
+ "hashes": {
+  "short": "74d2a71bd676083d1d4f3d85b34b6b891f3bbae7384291c27483d8113538e55f",
+  "reel": "dcf8be1fbdfe537802e6e01e124ea5bccf90db8a7871c3b7c25c572164f89921"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7021551529,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-tanda8"
+}

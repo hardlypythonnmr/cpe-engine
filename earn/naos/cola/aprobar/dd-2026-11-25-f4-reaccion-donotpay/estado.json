@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-25-f4-reaccion-donotpay",
+ "issue": 121,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-25T14:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "4310d53dea545b492c535ba3e8959455561a7250839301f67be5f08fb0b897e5",
+ "hashes": {
+  "short": "106debf90b10e62ada054f516c168e4775667d88f95e73245a35988e88c7e8dc",
+  "reel": "0af0fe41ae1130b466926bbc23a84f0cbec3456a1d4fbaad07d2d4c4a75d069c"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7021557536,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-tanda8"
+}

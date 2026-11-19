@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-24-f8-quien-paga-wf",
+ "issue": 121,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T22:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "2ba32818a9ad60106873e4c5383d30c31d8a6bb49b73cce1831483b4e9b4bb4c",
+ "hashes": {
+  "short": "2af4e26e0b527ccd4c876b54db75e9c2ca63a0fcc0028251c9ec99371257d3ed",
+  "reel": "25844ee107a38c30c192ba834a225beef95e8e35517d0252594b8ec43c9acd4d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7021556334,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-tanda8"
+}

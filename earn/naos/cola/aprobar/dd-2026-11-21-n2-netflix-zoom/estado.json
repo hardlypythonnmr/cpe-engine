@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-21-n2-netflix-zoom",
+ "issue": 121,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T14:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "9d9fe31e4618d75e1d4c4207f5cea6bda9bb4b709af0c0057d41408a71221428",
+ "hashes": {
+  "short": "fad3eb801ba721fcd5f7900b7ccfd11662edae102bfec0dea6dbe69c665c608a",
+  "reel": "bd5a037edd20fb42c6ab3d129aaa209ee63c30624cee32c957d1e6966a1d5d93"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7021547528,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-tanda8"
+}

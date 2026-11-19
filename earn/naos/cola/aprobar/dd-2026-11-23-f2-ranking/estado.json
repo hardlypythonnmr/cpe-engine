@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-23-f2-ranking",
+ "issue": 121,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T14:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "21a0248a18e36f6028827967ed63654d78086c8051d863e67033a3d76677438e",
+ "hashes": {
+  "short": "ab4fc6604b841dcb86ffb9e993a2ac034bd2ef28e67e8df87f03b7e65d3c17d7",
+  "reel": "591817bf99be2b352d582dfcbaba285f7d2818f3b6584313cc525dfe78e92808"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7021552643,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-tanda8"
+}

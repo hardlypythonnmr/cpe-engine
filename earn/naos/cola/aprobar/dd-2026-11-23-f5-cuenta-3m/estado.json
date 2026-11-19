@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-23-f5-cuenta-3m",
+ "issue": 121,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T22:00:00Z",
+ "datos_utc": "2026-11-19T17:00:00Z",
+ "hash_contenido": "7fe13aa188585e310b22155b68b58234a9be901249820ae26a877e2f5704c1ba",
+ "hashes": {
+  "short": "5279758e98119f9bf3f5c362e08d0b3175ae9dcd792bcdb0ce48ca5a6648adf2",
+  "reel": "59c31b0a97c2fdbb491ee2e7a7e176f47702157aab8cca72060c0ed2d511b259"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7021553933,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-tanda8"
+}
