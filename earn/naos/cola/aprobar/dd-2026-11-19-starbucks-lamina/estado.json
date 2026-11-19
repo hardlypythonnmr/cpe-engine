@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-19-starbucks-lamina",
  "issue": 38,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-19T18:00:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "5f650d8a575cae9065f2dbc751f5ad7dda5da67d6312cfb2578c8d0b18cc225f",
@@ -22,5 +22,5 @@
  "aprobado_evento_utc": "2026-11-19T11:57:13Z",
  "veto_hasta_utc": "2026-11-19T12:57:13Z",
  "issue_n_system": 1803,
- "reel_fallo_utc": "2026-11-19T18:01:09Z"
+ "nota_mudanza": "Meta devolvió 2207051 pero publicó; anotado desde dd-medios"
 }
