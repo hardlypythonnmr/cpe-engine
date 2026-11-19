@@ -3,44 +3,44 @@
  "idioma": "en",
  "listas": {
   "ternura": {
-   "en": {"title": "Tenderness · NAOS", "description": "Short behaviors for the people near you: the note, the plate, the knock, the call you owe. A way to be gentle without a speech.\n\nNAOS · Closer to yourself. by NMR"},
-   "es": {"title": "Ternura · NAOS", "description": "Conductas cortas para la gente que tienes cerca: la nota, el plato, el toque en la puerta, la llamada pendiente. Una forma de ser suave sin dar un discurso.\n\nNAOS · Closer to yourself. by NMR"},
-   "pt-BR": {"title": "Ternura · NAOS", "description": "Condutas curtas para as pessoas perto de você: o bilhete, o prato, a batida na porta, a ligação que você deve. Um jeito de ser gentil sem fazer discurso.\n\nNAOS · Closer to yourself. by NMR"},
-   "hi": {"title": "कोमलता · NAOS", "description": "आपके आस-पास के लोगों के लिए छोटे-छोटे व्यवहार: एक पर्ची, एक थाली, दरवाज़े पर दस्तक, वह फ़ोन जो बाकी है। बिना भाषण दिए नरम होने का एक तरीका।\n\nNAOS · Closer to yourself. by NMR"},
-   "id": {"title": "Kelembutan · NAOS", "description": "Perilaku singkat untuk orang-orang di dekatmu: catatan kecil, sepiring makanan, ketukan di pintu, telepon yang belum dibalas. Cara bersikap lembut tanpa pidato.\n\nNAOS · Closer to yourself. by NMR"},
-   "ar": {"title": "الحنان · NAOS", "description": "سلوكيات قصيرة للأشخاص القريبين منك: ورقة صغيرة، صحن طعام، طرقة على الباب، مكالمة مؤجلة. طريقة لتكون لطيفاً دون خطاب.\n\nNAOS · Closer to yourself. by NMR"}
+   "en": {"title": "Tenderness · NAOS", "description": "Short behaviors for the people near you: the note, the plate, the knock, the call you owe. A way to be gentle without a speech.\n\nNAOS · Choose friction. by NMR"},
+   "es": {"title": "Ternura · NAOS", "description": "Conductas cortas para la gente que tienes cerca: la nota, el plato, el toque en la puerta, la llamada pendiente. Una forma de ser suave sin dar un discurso.\n\nNAOS · Choose friction. by NMR"},
+   "pt-BR": {"title": "Ternura · NAOS", "description": "Condutas curtas para as pessoas perto de você: o bilhete, o prato, a batida na porta, a ligação que você deve. Um jeito de ser gentil sem fazer discurso.\n\nNAOS · Choose friction. by NMR"},
+   "hi": {"title": "कोमलता · NAOS", "description": "आपके आस-पास के लोगों के लिए छोटे-छोटे व्यवहार: एक पर्ची, एक थाली, दरवाज़े पर दस्तक, वह फ़ोन जो बाकी है। बिना भाषण दिए नरम होने का एक तरीका।\n\nNAOS · Choose friction. by NMR"},
+   "id": {"title": "Kelembutan · NAOS", "description": "Perilaku singkat untuk orang-orang di dekatmu: catatan kecil, sepiring makanan, ketukan di pintu, telepon yang belum dibalas. Cara bersikap lembut tanpa pidato.\n\nNAOS · Choose friction. by NMR"},
+   "ar": {"title": "الحنان · NAOS", "description": "سلوكيات قصيرة للأشخاص القريبين منك: ورقة صغيرة، صحن طعام، طرقة على الباب، مكالمة مؤجلة. طريقة لتكون لطيفاً دون خطاب.\n\nNAOS · Choose friction. by NMR"}
   },
   "vacio": {
-   "en": {"title": "Emptiness · NAOS", "description": "Less going in. Sleep, the dark, the window, the hour you keep. Short behaviors for making room.\n\nNAOS · Closer to yourself. by NMR"},
-   "es": {"title": "Vacío · NAOS", "description": "Menos entrada. El sueño, la oscuridad, la ventana, la hora que guardas. Conductas cortas para hacer espacio.\n\nNAOS · Closer to yourself. by NMR"},
-   "pt-BR": {"title": "Vazio · NAOS", "description": "Menos entrada. O sono, o escuro, a janela, a hora que você guarda. Condutas curtas para abrir espaço.\n\nNAOS · Closer to yourself. by NMR"},
-   "hi": {"title": "खालीपन · NAOS", "description": "भीतर कम आना। नींद, अँधेरा, खिड़की, वह घड़ी जो आप अपने लिए रखते हैं। जगह बनाने के छोटे व्यवहार।\n\nNAOS · Closer to yourself. by NMR"},
-   "id": {"title": "Kekosongan · NAOS", "description": "Lebih sedikit yang masuk. Tidur, gelap, jendela, jam yang kamu jaga. Perilaku singkat untuk memberi ruang.\n\nNAOS · Closer to yourself. by NMR"},
-   "ar": {"title": "الفراغ · NAOS", "description": "أقل مما يدخل. النوم، العتمة، النافذة، الساعة التي تحافظ عليها. سلوكيات قصيرة لإفساح المجال.\n\nNAOS · Closer to yourself. by NMR"}
+   "en": {"title": "Emptiness · NAOS", "description": "Less going in. Sleep, the dark, the window, the hour you keep. Short behaviors for making room.\n\nNAOS · Choose friction. by NMR"},
+   "es": {"title": "Vacío · NAOS", "description": "Menos entrada. El sueño, la oscuridad, la ventana, la hora que guardas. Conductas cortas para hacer espacio.\n\nNAOS · Choose friction. by NMR"},
+   "pt-BR": {"title": "Vazio · NAOS", "description": "Menos entrada. O sono, o escuro, a janela, a hora que você guarda. Condutas curtas para abrir espaço.\n\nNAOS · Choose friction. by NMR"},
+   "hi": {"title": "खालीपन · NAOS", "description": "भीतर कम आना। नींद, अँधेरा, खिड़की, वह घड़ी जो आप अपने लिए रखते हैं। जगह बनाने के छोटे व्यवहार।\n\nNAOS · Choose friction. by NMR"},
+   "id": {"title": "Kekosongan · NAOS", "description": "Lebih sedikit yang masuk. Tidur, gelap, jendela, jam yang kamu jaga. Perilaku singkat untuk memberi ruang.\n\nNAOS · Choose friction. by NMR"},
+   "ar": {"title": "الفراغ · NAOS", "description": "أقل مما يدخل. النوم، العتمة، النافذة، الساعة التي تحافظ عليها. سلوكيات قصيرة لإفساح المجال.\n\nNAOS · Choose friction. by NMR"}
   },
   "saturacion": {
-   "en": {"title": "Saturation · NAOS", "description": "Too much on the plate, in the feed, in the phone. Short behaviors for the kitchen table, the screen and the pile.\n\nNAOS · Closer to yourself. by NMR"},
-   "es": {"title": "Saturación · NAOS", "description": "Demasiado en el plato, en el feed, en el teléfono. Conductas cortas para la mesa de la cocina, la pantalla y la pila.\n\nNAOS · Closer to yourself. by NMR"},
-   "pt-BR": {"title": "Saturação · NAOS", "description": "Coisa demais no prato, no feed, no celular. Condutas curtas para a mesa da cozinha, a tela e a pilha.\n\nNAOS · Closer to yourself. by NMR"},
-   "hi": {"title": "अतिरेक · NAOS", "description": "थाली में, फ़ीड में, फ़ोन में ज़रूरत से ज़्यादा। रसोई की मेज़, स्क्रीन और ढेर के लिए छोटे व्यवहार।\n\nNAOS · Closer to yourself. by NMR"},
-   "id": {"title": "Kejenuhan · NAOS", "description": "Terlalu banyak di piring, di feed, di ponsel. Perilaku singkat untuk meja dapur, layar, dan tumpukan.\n\nNAOS · Closer to yourself. by NMR"},
-   "ar": {"title": "التشبّع · NAOS", "description": "أكثر مما يلزم في الصحن وفي الخلاصة وفي الهاتف. سلوكيات قصيرة لطاولة المطبخ والشاشة والكومة.\n\nNAOS · Closer to yourself. by NMR"}
+   "en": {"title": "Saturation · NAOS", "description": "Too much on the plate, in the feed, in the phone. Short behaviors for the kitchen table, the screen and the pile.\n\nNAOS · Choose friction. by NMR"},
+   "es": {"title": "Saturación · NAOS", "description": "Demasiado en el plato, en el feed, en el teléfono. Conductas cortas para la mesa de la cocina, la pantalla y la pila.\n\nNAOS · Choose friction. by NMR"},
+   "pt-BR": {"title": "Saturação · NAOS", "description": "Coisa demais no prato, no feed, no celular. Condutas curtas para a mesa da cozinha, a tela e a pilha.\n\nNAOS · Choose friction. by NMR"},
+   "hi": {"title": "अतिरेक · NAOS", "description": "थाली में, फ़ीड में, फ़ोन में ज़रूरत से ज़्यादा। रसोई की मेज़, स्क्रीन और ढेर के लिए छोटे व्यवहार।\n\nNAOS · Choose friction. by NMR"},
+   "id": {"title": "Kejenuhan · NAOS", "description": "Terlalu banyak di piring, di feed, di ponsel. Perilaku singkat untuk meja dapur, layar, dan tumpukan.\n\nNAOS · Choose friction. by NMR"},
+   "ar": {"title": "التشبّع · NAOS", "description": "أكثر مما يلزم في الصحن وفي الخلاصة وفي الهاتف. سلوكيات قصيرة لطاولة المطبخ والشاشة والكومة.\n\nNAOS · Choose friction. by NMR"}
   },
   "cuerpo": {
-   "en": {"title": "Body · NAOS", "description": "Moving, breathing, feeling cold, air and weight. Short behaviors for reading what your body already says.\n\nNAOS · Closer to yourself. by NMR"},
-   "es": {"title": "Cuerpo · NAOS", "description": "Moverse, respirar, sentir el frío, el aire y el peso. Conductas cortas para leer lo que tu cuerpo ya dice.\n\nNAOS · Closer to yourself. by NMR"},
-   "pt-BR": {"title": "Corpo · NAOS", "description": "Mover-se, respirar, sentir o frio, o ar e o peso. Condutas curtas para ler o que o seu corpo já diz.\n\nNAOS · Closer to yourself. by NMR"},
-   "hi": {"title": "शरीर · NAOS", "description": "चलना, साँस लेना, ठंड, हवा और वज़न को महसूस करना। आपका शरीर जो पहले से कह रहा है उसे पढ़ने के छोटे व्यवहार।\n\nNAOS · Closer to yourself. by NMR"},
-   "id": {"title": "Tubuh · NAOS", "description": "Bergerak, bernapas, merasakan dingin, udara, dan berat. Perilaku singkat untuk membaca apa yang sudah dikatakan tubuhmu.\n\nNAOS · Closer to yourself. by NMR"},
-   "ar": {"title": "الجسد · NAOS", "description": "الحركة والتنفس وإحساس البرد والهواء والثقل. سلوكيات قصيرة لقراءة ما يقوله جسدك أصلاً.\n\nNAOS · Closer to yourself. by NMR"}
+   "en": {"title": "Body · NAOS", "description": "Moving, breathing, feeling cold, air and weight. Short behaviors for reading what your body already says.\n\nNAOS · Choose friction. by NMR"},
+   "es": {"title": "Cuerpo · NAOS", "description": "Moverse, respirar, sentir el frío, el aire y el peso. Conductas cortas para leer lo que tu cuerpo ya dice.\n\nNAOS · Choose friction. by NMR"},
+   "pt-BR": {"title": "Corpo · NAOS", "description": "Mover-se, respirar, sentir o frio, o ar e o peso. Condutas curtas para ler o que o seu corpo já diz.\n\nNAOS · Choose friction. by NMR"},
+   "hi": {"title": "शरीर · NAOS", "description": "चलना, साँस लेना, ठंड, हवा और वज़न को महसूस करना। आपका शरीर जो पहले से कह रहा है उसे पढ़ने के छोटे व्यवहार।\n\nNAOS · Choose friction. by NMR"},
+   "id": {"title": "Tubuh · NAOS", "description": "Bergerak, bernapas, merasakan dingin, udara, dan berat. Perilaku singkat untuk membaca apa yang sudah dikatakan tubuhmu.\n\nNAOS · Choose friction. by NMR"},
+   "ar": {"title": "الجسد · NAOS", "description": "الحركة والتنفس وإحساس البرد والهواء والثقل. سلوكيات قصيرة لقراءة ما يقوله جسدك أصلاً.\n\nNAOS · Choose friction. by NMR"}
   },
   "patio": {
-   "en": {"title": "Courtyard · NAOS", "description": "The common ground of the house: the week, the moon, the holidays, and the small look back at what stayed.\n\nNAOS · Closer to yourself. by NMR"},
-   "es": {"title": "Patio · NAOS", "description": "El terreno común de la casa: la semana, la luna, las fiestas y la pequeña mirada atrás a lo que se quedó.\n\nNAOS · Closer to yourself. by NMR"},
-   "pt-BR": {"title": "Pátio · NAOS", "description": "O terreno comum da casa: a semana, a lua, as festas e o pequeno olhar para trás, para o que ficou.\n\nNAOS · Closer to yourself. by NMR"},
-   "hi": {"title": "आँगन · NAOS", "description": "घर की साझा ज़मीन: सप्ताह, चाँद, त्योहार, और जो रह गया उस पर एक छोटी-सी पीछे की नज़र।\n\nNAOS · Closer to yourself. by NMR"},
-   "id": {"title": "Halaman · NAOS", "description": "Tanah bersama rumah ini: pekan, bulan, hari raya, dan tengokan kecil ke belakang pada apa yang tertinggal.\n\nNAOS · Closer to yourself. by NMR"},
-   "ar": {"title": "الفناء · NAOS", "description": "الأرض المشتركة للبيت: الأسبوع والقمر والأعياد ونظرة صغيرة إلى الوراء نحو ما بقي.\n\nNAOS · Closer to yourself. by NMR"}
+   "en": {"title": "Courtyard · NAOS", "description": "The common ground of the house: the week, the moon, the holidays, and the small look back at what stayed.\n\nNAOS · Choose friction. by NMR"},
+   "es": {"title": "Patio · NAOS", "description": "El terreno común de la casa: la semana, la luna, las fiestas y la pequeña mirada atrás a lo que se quedó.\n\nNAOS · Choose friction. by NMR"},
+   "pt-BR": {"title": "Pátio · NAOS", "description": "O terreno comum da casa: a semana, a lua, as festas e o pequeno olhar para trás, para o que ficou.\n\nNAOS · Choose friction. by NMR"},
+   "hi": {"title": "आँगन · NAOS", "description": "घर की साझा ज़मीन: सप्ताह, चाँद, त्योहार, और जो रह गया उस पर एक छोटी-सी पीछे की नज़र।\n\nNAOS · Choose friction. by NMR"},
+   "id": {"title": "Halaman · NAOS", "description": "Tanah bersama rumah ini: pekan, bulan, hari raya, dan tengokan kecil ke belakang pada apa yang tertinggal.\n\nNAOS · Choose friction. by NMR"},
+   "ar": {"title": "الفناء · NAOS", "description": "الأرض المشتركة للبيت: الأسبوع والقمر والأعياد ونظرة صغيرة إلى الوراء نحو ما بقي.\n\nNAOS · Choose friction. by NMR"}
   }
  }
 }

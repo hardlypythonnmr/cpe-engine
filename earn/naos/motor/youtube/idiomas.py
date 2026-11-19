@@ -13,7 +13,7 @@ Haiku o Sonnet en archivos; este código solo valida y sube (plan: empresa/infra
 
 Archivo de `localizar` (--desde):
   {"idioma_original": "en",
-   "conservar": ["#naos", "NAOS · Closer to yourself. by NMR"],       cadenas que deben salir intactas en cada descripción
+   "conservar": ["#naos", "NAOS · Choose friction. by NMR"],       cadenas que deben salir intactas en cada descripción
    "localizaciones": {"es": {"title": "...", "description": "..."}, "pt-BR": {...}, "hi": {...}, "id": {...}, "ar": {...}}}
   También valen las claves en español `titulo` y `descripcion`. El título admite 100 caracteres y la descripción 5000 bytes
   (UTF-8, ojo con hindi y árabe: ocupan 3 y 2 bytes por letra), sin los signos < ni >.

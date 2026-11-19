@@ -372,7 +372,7 @@ def registrar(slug, loc=False, srt=(), cuota=False, ruta_registro=REGISTRO, carp
 TAG = re.compile(r"#\w+")
 NUM = re.compile(r"\d+(?:[.,]\d+)?")
 MARCAS = ("Cella", "NAOS")
-LEMA = "Closer to yourself."
+LEMAS = ("Choose friction.", "Closer to yourself.")  # el nuevo desde el 19-nov (N: «adelantemos choose friction»); el viejo sigue en piezas aprobadas
 
 
 def validar_carpeta(d, exigir_control=True):
@@ -397,8 +397,9 @@ def validar_carpeta(d, exigir_control=True):
         for m in MARCAS:
             if m in fuente and m not in texto:
                 p.append(f"[{idioma}] falta {m}")
-        if LEMA in fuente and LEMA not in texto:
-            p.append(f"[{idioma}] el lema '{LEMA}' va en inglés y no aparece")
+        for lema in LEMAS:
+            if lema in fuente and lema not in texto:
+                p.append(f"[{idioma}] el lema '{lema}' va en inglés y no aparece")
         for n in sorted(set(NUM.findall(fuente)) - set(NUM.findall(texto))):
             p.append(f"[{idioma}] la cifra {n} del original no aparece (si la escribiste con otras cifras, revisar)")
     en = os.path.join(d, "en.srt")

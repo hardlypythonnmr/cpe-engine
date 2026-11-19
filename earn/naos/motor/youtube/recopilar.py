@@ -35,7 +35,7 @@ DIAS = os.path.join(NAOS, "motor/casa/dias")
 REGISTRO = os.path.join(NAOS, "medicion", "recopilaciones.csv")
 COLUMNAS = ["fecha_utc", "tema", "n", "huella", "slugs", "salida"]
 SECCIONES = ("humanity", "self-knowledge", "autoconocimiento")
-PIE = "Music composed with code by NAOS, no samples.\nNAOS · Closer to yourself. by NMR\n#naos #selfknowledge"
+PIE = "Music composed with code by NAOS, no samples.\nNAOS · Choose friction. by NMR\n#naos #selfknowledge"
 
 # Cada tema: palabras que lo marcan (en slug, título, descripción y alt) y textos de borrador, literales (D-329: sin metáforas
 # que haya que descifrar). Propósito y objetivo van en español porque son para el equipo; lo que sale en pantalla, en inglés.
@@ -214,7 +214,7 @@ def armar_lista(tema, grupo, textos, por_bloque=4):
             n = grupo.index(c) + 1
             bloques.append({"clip": c["ruta"], "texto": panel(c["pieza"]), "rotulo": f"{n} of {len(grupo)}",
                             "cuarto": cuarto_de(c["pieza"]), "slug": c["slug"]})
-    bloques.append({"tarjeta": textos["cierre"], "sub": "Closer to yourself.", "segundos": 6, "cuarto": "ventana"})
+    bloques.append({"tarjeta": textos["cierre"], "sub": "Choose friction.", "segundos": 6, "cuarto": "ventana"})
     return {"titulo": textos["titulo"].format(n=len(grupo)), "cuarto": "ventana", "tema": tema, "bloques": bloques}, avisos
 
 
