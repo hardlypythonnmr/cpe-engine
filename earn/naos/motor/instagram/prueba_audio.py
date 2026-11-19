@@ -265,6 +265,10 @@ class Banco(unittest.TestCase):
         a = ig.elegir_audio("", 20, llamar=llamar, medir=lambda u: self.fail("midió"), vetadas=set(), banco=b)
         self.assertEqual(a["audio_id"], "1")
 
+    def test_rastreadores_antes_que_consultas(self):
+        import banco_audio
+        self.assertEqual(banco_audio.consultas({"generos": ["phonk"]}, ["Thriller"]), ["Thriller", "phonk"])
+
     def test_titulos_de_rastreadores(self):
         import banco_audio
         h = "<h2>#1.  Thriller – Michael Jackson</h2><h3>2. BEAUTY AND A BEAT X COLA (ALTÉGO MIX) — altego_music</h3>" \

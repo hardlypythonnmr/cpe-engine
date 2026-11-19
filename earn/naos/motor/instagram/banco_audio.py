@@ -57,7 +57,8 @@ def rastrear(urls, bajar=None):
 
 
 def consultas(cfg, nombres):
-    qs = [q for k in ("generos", "animos", "bpm", "palabras") for q in cfg.get(k, [])] + nombres
+    # los nombres de los rastreadores van primero: traen señal de popularidad y el tope de medidas no debe dejarlos por fuera
+    qs = nombres + [q for k in ("generos", "animos", "bpm", "palabras") for q in cfg.get(k, [])]
     return list(dict.fromkeys(q for q in qs if q))
 
 
