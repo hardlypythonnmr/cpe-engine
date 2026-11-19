@@ -33,7 +33,8 @@ PAGINA_FB = "1460531677137999"
 CANAL_YT = "UCytkPYhBZpN_wl9E4o0W19A"
 PASOS = ("yt-descripcion", "yt-banner", "fb-about", "fb-description", "fb-foto", "fb-portada")
 TOPES = {"yt-descripcion": 1000, "fb-about": 100}
-IMAGENES = {"foto": {"a": "foto-a.png", "b": "foto-b.png", "c": "foto-c.png"}, "banner": {"a": "banner-a.png", "b": "banner-b.png"}, "portada": {"a": "portada-a.png", "b": "portada-b.png"}}
+IMAGENES = {"foto": {"a": "foto-a.png", "b": "foto-b.png", "c": "foto-c.png", "d": "foto-d.png"}, "banner": {"a": "banner-a.png", "b": "banner-b.png"},
+            "portada": {"a": "portada-a.png", "b": "portada-b.png", "c": "portada-c.png"}}  # d y c: set d5-c (n-system #1844, 19-nov)
 TAMANOS = {"foto": (800, 800), "banner": (2560, 1440), "portada": (1640, 624)}
 PERMISOS_FB = ("pages_manage_metadata", "pages_manage_posts", "pages_read_engagement", "pages_show_list")  # about/description, fotos, picture
 

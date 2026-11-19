@@ -1,0 +1,72 @@
+# dd-perfil: pone el perfil nuevo de Done Damages por API (set d5-c, n-system #1844; N 19-nov: «cámbialos todos tú» y
+# «las bios y descripciones de YouTube si se pueden subir por API, incluido el banner, súbelos así»).
+# YouTube DD (canal.py --canal mercury): banner, palabras clave, descripción y marca de agua, en ese orden y con pausas:
+#   channels.update lee el branding y lo fusiona; si la lectura llega vieja, un cambio pisa al anterior (pasó con NAOS el
+#   19-nov), así que la descripción va al final y al cierre se lee el canal.
+# Página de Facebook de DD (dd_perfil.py --solo fb-foto,fb-portada --foto d --portada c): foto y portada.
+# Solo a mano. Por defecto en SECO (lee el canal y dice qué haría). publicar = true escribe.
+name: dd-perfil
+on:
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: "escribe de verdad (sin esto, seco)"
+        type: boolean
+        default: false
+      pasos:
+        description: "qué hacer: yt, fb o yt fb"
+        type: string
+        default: "yt fb"
+permissions:
+  contents: read
+concurrency:
+  group: dd-perfil
+jobs:
+  perfil:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MERCURY_OAUTH_CLIENT_ID: ${{ (secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID) }}
+      MERCURY_OAUTH_CLIENT_SECRET: ${{ (secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET) }}
+      MERCURY_OAUTH_REFRESH_TOKEN: ${{ (secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN) }}
+      PUBLICAR: ${{ inputs.publicar && '--publicar' || '' }}
+      PASOS: ${{ inputs.pasos }}
+      M: earn/naos/marca/cuentas-2026-11-19/dd-youtube
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/
+            /earn/naos/marca/cuentas-2026-11-19/
+            /earn/naos/empresa/duplicar/canal-lucro/c2/identidad/perfil/
+            /earn/naos/medicion/cuota-yt-mercury.csv
+      - name: YouTube de DD
+        if: contains(inputs.pasos, 'yt')
+        working-directory: earn/naos/motor/youtube
+        run: |
+          M="$GITHUB_WORKSPACE/$M"
+          leer() { python3 canal.py --canal mercury estado | python3 -c "import json,sys;d=json.load(sys.stdin);b=d['brandingSettings'];c=b.get('channel',{});print('canal', d['id']);print('palabras:', c.get('keywords',''));print('descripción:', c.get('description','')[:160].replace(chr(10),' '));print('banner:', b.get('image',{}).get('bannerExternalUrl',''))"; }
+          echo "== antes"; leer
+          python3 canal.py --canal mercury banner --archivo "$M/banner-2560x1440.png" $PUBLICAR
+          [ -n "$PUBLICAR" ] && sleep 90
+          python3 canal.py --canal mercury palabras --archivo "$M/palabras.json" $PUBLICAR
+          [ -n "$PUBLICAR" ] && sleep 90
+          python3 canal.py --canal mercury descripcion --archivo "$M/descripcion.txt" $PUBLICAR
+          python3 canal.py --canal mercury marca-de-agua --archivo "$M/marca-de-agua-150.png" $PUBLICAR
+          if [ -n "$PUBLICAR" ]; then sleep 90; echo "== después"; leer; fi
+      - name: Página de Facebook de DD
+        if: contains(inputs.pasos, 'fb')
+        working-directory: earn/naos/motor
+        env:
+          DD_INSTAGRAM_TOKEN: ${{ (secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN) }}
+          DD_PAGINA_TOKEN: ${{ (secrets.DD_PAGINA_TOKEN || secrets.MERCURY_PAGINA_TOKEN) }}
+          DD_PAGES_REPO: ${{ (vars.DD_PAGES_REPO || vars.MERCURY_PAGES_REPO) }}
+          DD_PAGES_BASE: ${{ (vars.DD_PAGES_BASE || vars.MERCURY_PAGES_BASE) }}
+          DD_FB_PAGE_ID: ${{ vars.DD_FB_PAGE_ID }}
+        run: |
+          if [ -n "$PUBLICAR" ]; then M=--de-verdad; else M=--seco; fi
+          python3 dd_perfil.py $M --solo fb-foto,fb-portada --foto d --portada c

@@ -1,0 +1,17 @@
+{
+ "youtube_descripcion": "The harm corporations did, the damages they paid, and the filings that prove it.\n\nEnvironment, mental health, society, politics, layoffs, malpractice: every video names the company, shows the document and does the math. Sources in the description of every video.\nSynthetic voice.",
+ "instagram_bio": "The harm corporations did, the damages they paid, and the filings that prove it.",
+ "facebook_about": "The harm corporations did, the damages they paid, and the filings that prove it.",
+ "facebook_description": "The harm corporations did, the damages they paid, and the filings that prove it.\n\nEnvironment, mental health, society, politics, layoffs, malpractice: every video names the company, shows the document and does the math. Sources in the description of every video.\nSynthetic voice.",
+ "_nota_19nov": "N eligió el nombre 'Done Damages' (19-nov ~16:20Z, mesa), igual en IG y YT; handle elegido por N: @done_damages. Bio pendiente de N entre bios_opciones; la primera es la recomendada. Bio definitiva: la 1 (N, 19-nov ~16:45Z).",
+ "nombre": "Done Damages",
+ "handle": "@done_damages",
+ "handle_nota": "El mismo usuario en Instagram (done_damages) y YouTube (@done_damages). Sale de c2/canal.json (handles).",
+ "bios_opciones": [
+  "The harm corporations did, the damages they paid, and the filings that prove it.",
+  "Planet, mind, wallet, vote: what corporations damaged, and what courts say they owe.",
+  "Corporations did the damage. We bring the documents."
+ ],
+ "bio_definitiva": "The harm corporations did, the damages they paid, and the filings that prove it.",
+ "_nota_synthetic": "19-nov, N: el aviso de IA en la bio va \"Solo etiqueta de plataforma\". instagram_bio y facebook_about llevan la bio exacta de N; el aviso va con la etiqueta de contenido IA de cada plataforma. youtube_descripcion y facebook_description conservan \"Synthetic voice.\"."
+}
