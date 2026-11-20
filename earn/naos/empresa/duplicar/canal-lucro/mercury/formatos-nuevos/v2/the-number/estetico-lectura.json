@@ -1,0 +1,39 @@
+{
+  "escala": 14,
+  "pieza": "the-number-gta-baby-v2.mp4",
+  "lector": "claude-fable-5-2",
+  "visto": ["vis/tira-01.jpg", "vis/tira-02.jpg", "vis/tira-03.jpg", "vis/visionado.md", "apertura.jpg", "impacto.jpg", "cuadros propios del mp4, uno por segundo de 0:11 a 0:19"],
+  "referencias": [
+    "S2 Are you okay? No, really (MindForge): camara fija, contador que cambia en el giro, cuatro palabras grandes",
+    "S6 Which game died fastest? (The Sound Of Data): marcador fijo y una cifra en pildora",
+    "S5 How Did the Florida Plane Crash Happen? (World explained): cifra al segundo 1 y fuente impresa en el cuadro"
+  ],
+  "primer_cuadro": "Vi primero 'GTA V' enorme en negro sobre amarillo; lei 'GTA V' y arriba 'OUT SEP 17, 2013'. Una sola cosa manda. Frenaria el dedo por el nombre y el amarillo, aunque el bebe (el gancho real) no esta en pantalla hasta 0:02.",
+  "puntos": {"E1": 2, "E2": 1, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+  "notas": {
+    "E1": "GTA V llena el ancho, fecha arriba, nada compite. Se entiende sin leer dos veces.",
+    "E2": "Rejilla a la izquierda clara y con jerarquia, pero todo el contenido vive en el 60 % de arriba y el 40 % de abajo queda vacio en los 24 s; la pildora de subtitulo va centrada en una pieza alineada a la izquierda y flota; la linea de fuente queda pegada debajo de la pildora.",
+    "E3": "Tres familias con papel claro (grotesca pesada para la cifra, mono para etiquetas y fuente, serif cursiva en el cierre). Falla: 'A baby is born the same / day.' deja 'day.' viuda de 0:02 a 0:08.",
+    "E4": "El amarillo marca al bebe y la respuesta, el papel marca el juego y el cierre; el cambio de color cae en el giro. Contraste limpio; la cifra tachada baja a oliva y sigue legible.",
+    "E5": "Cortes en 0:09, 0:14.8 y 0:19.3, cada uno donde cambia la idea. De 0:12 a 0:14 queda 4,811 sola mientras se hace la pregunta, se tacha y entra el 13: la pausa antes del giro cuenta a favor. El cierre dura 5 de 24 s, en el limite.",
+    "E6": "El golpe es uno: 4,811 tachada y 13 gigante con cambio a amarillo. Carga la idea (dias que se vuelven una edad). Cada elemento trabaja: sin la tachada el 13 no tiene de donde venir; sin 'The game: 17+' no hay choque. El '4' de 0:18 es mas chico que el 13 y llega con menos fuerza que la conclusion que dice la voz.",
+    "E7": "Lleva las tres senas: vieja tachada con nueva grande (0:14.8), etiqueta THE NUMBER arriba en todos los cuadros, cierre con nombre y frase (0:19.3). Ninguna se siente pegada."
+  },
+  "tells": [],
+  "total": 12,
+  "pasa": true,
+  "dudoso": false,
+  "impacto": "0:14.8: 4,811 DAYS tachada arriba y el 13 enorme entrando con el corte a amarillo. Ese cuadro frena.",
+  "preguntas": {
+    "tiene_impacto": "Si. Segundo 0:14.8 (cuadro #12 de la tira, impacto.jpg).",
+    "se_sostiene_en_fila_con_referencias": "Si. Al lado de S2 y S6 tiene la misma economia (camara fija, una cifra, un giro) y la fuente impresa como S5. Lo unico que delata descuido es la viuda 'day.' y el vacio de abajo; no alcanza para que se note cual es la nuestra."
+  },
+  "fallas": [
+    {"donde": "0:02 a 0:08", "que": "'A baby is born the same / day.' corta con una sola palabra en la segunda linea (viuda).", "arreglo": "Cortar 'A baby is born / the same day.' o bajar un punto el cuerpo para que quepa en una linea."},
+    {"donde": "toda la pieza", "que": "El bloque vive en el 60 % de arriba y el 40 % de abajo queda vacio; la pieza se siente colgada del techo.", "arreglo": "Bajar todo el bloque (rotulo, cifra, pie, pildora y fuente) unos 120 a 160 px para que la cifra quede cerca del centro optico, sin anadir nada."},
+    {"donde": "toda la pieza", "que": "La pildora de subtitulo va centrada en una composicion alineada a la izquierda y flota; la linea de fuente queda pegada debajo de ella.", "arreglo": "Alinear la pildora al margen izquierdo de la rejilla, o dejarla centrada y separar la fuente a una linea de base fija cerca del pie."},
+    {"donde": "0:17 a 0:19", "que": "El '4' de 'TOO YOUNG BY 4 YEARS' es mas chico que el 13 y entra sin tachar nada; la conclusion pesa menos que el paso anterior.", "arreglo": "Repetir la sena: dejar el 13 chico y tachado arriba y el 4 al mismo tamano que tuvo el 13."},
+    {"donde": "0:19.3 a 0:24.5", "que": "El cierre ocupa 5 de 24 s con un solo cambio (entra 'Follow before you pay for it.' en 0:23).", "arreglo": "Recortar el cierre a unos 3.5 s o adelantar la frase de seguir a 0:21."}
+  ],
+  "mejoraria": "Tratar el '4' como segundo tachado (13 tachado arriba, 4 grande): la conclusion tendria el mismo golpe que el giro, con la misma sena y sin capas nuevas."
+}

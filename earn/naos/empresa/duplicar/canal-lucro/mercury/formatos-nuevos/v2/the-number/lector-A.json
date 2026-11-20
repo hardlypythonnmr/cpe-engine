@@ -1,0 +1,13 @@
+{"respuestas": {
+"L1": {"si": true, "evidencia": "GTA V salio el 17 sep 2013, GTA VI el 19 nov 2026, 4,811 days later: dos juegos separados por esa cifra, con un bebe nacido el dia del primero."},
+"L2": {"si": true, "evidencia": "El nino nacido el dia de GTA V tiene 13 y el juego pide 17 o mas: queda 4 anos fuera. Es una persona concreta afectada, aunque la pieza no lo dice con esas palabras."},
+"L3": {"si": true, "evidencia": "How old is that baby now? 13: no habria adivinado que 4,811 dias son solo 13 anos y que el bebe sigue sin edad para el juego."},
+"L4": {"si": false, "evidencia": "Ninguna de las siete personas del circulo me llega a la cabeza sin esfuerzo; nada en los cuadros trae a un gamer ni a alguien con hijos. Forzado, es no."},
+"L5": {"si": false, "evidencia": "No hay ningun actor que gane o pierda: Take-Two y la junta de clasificacion solo aparecen como fuente; el unico afectado es un nino hipotetico y no se orienta quien gana."},
+"L6": {"si": false, "evidencia": "El final es la marca (Mercury, follow before you pay for it); no vuelve al bebe ni a GTA V, solo cambia de tema a una tarjeta de marca."},
+"L7": {"si": false, "evidencia": "Mercury: the real price of today's news. Follow before you pay for it. ocupa 0:17 a 0:24 y no se conecta con el dato; el chiste ya cerro en So that kid is 4 years too young."}},
+"una_linea": "GTA VI sale 4,811 dias despues de GTA V, asi que el bebe nacido el dia del primero tiene 13 y le faltan 4 anos para poder jugarlo.",
+"sobra": "El cierre de marca de 0:19 a 0:24: la tarjeta Mercury con 'the real price of today's news' y 'Follow before you pay for it' son cinco segundos casi quietos sin relacion con el dato. Tambien sobra el cuadro 4,811 que se queda mucho tiempo antes del giro.",
+"confuso": "En pantalla nunca aparece 17 ni 4 anos: 'GTA VI IS RATED' (0:09 a 0:14) queda sin cifra y salta a 13; la conclusion 'too young' solo se oye, no se ve. Tambien se oye '4800 and 11' y se ve 4,811.",
+"donde_me_iria": "0:19, cuando termina el dato y empieza la tarjeta Mercury.",
+"mejoraria": "Poner en pantalla el remate visible '13 vs 17+ = 4 anos fuera' sobre el cuadro del 13 y acortar o fundir el cierre de marca con el dato (volver al bebe de GTA V) en vez de cinco segundos de tarjeta de marca."}

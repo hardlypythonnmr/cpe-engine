@@ -1,0 +1,135 @@
+{
+ "id": "meta-2022-layoffs-2026-11-13",
+ "lado": "empleado",
+ "empresa": "Meta",
+ "fecha": "Nov 9, 2022",
+ "hizo": "Laid off more than 11,000",
+ "frase": {
+  "texto": "I want to take accountability for these decisions and for how we got here.",
+  "quien": "Mark Zuckerberg, CEO of Meta",
+  "fuente": "F1",
+  "cita": "I want to take accountability for these decisions and for how we got here. I know this is tough for everyone, and I'm especially sorry to those impacted.",
+  "rotulo": "What the message said",
+  "nombre_q": "Mark Zuckerberg",
+  "cargo_q": "CEO of Meta",
+  "medio_q": "message to employees"
+ },
+ "a": {
+  "valor": 27960000000,
+  "anio": 2022,
+  "rotulo": "in its own stock, 2022, company-wide",
+  "fuente": "F2",
+  "cita": "Cash used in financing activities during 2022 mostly consisted of $27.96 billion for repurchases of our Class A common stock",
+  "desglose": "$27.96 billion of Class A stock repurchased during 2022, company-wide (Form 10-K)",
+  "alcance_q": "ALL OF 2022, COMPANY-WIDE",
+  "cuando": "Same year"
+ },
+ "b": {
+  "valor": 11000,
+  "anio": 2022,
+  "unidad": "jobs",
+  "hecho": "let go",
+  "fuente": "F1",
+  "cita": "let more than 11,000 of our talented employees go",
+  "prefijo": "more than"
+ },
+ "c": {
+  "valor": 2541818,
+  "rotulo": "in buybacks, per job cut",
+  "rotulo_q": "in buybacks, per job cut"
+ },
+ "voz": {
+  "hechos": "That year, Meta spent twenty-seven point nine billion dollars buying back its own shares. It let more than eleven thousand employees go.",
+  "cuenta": "About two point five million dollars in buybacks per job cut. A ratio, not a payment.",
+  "cita": "In November 2022, Meta's CEO wrote: I want to take accountability.",
+  "cita_q": "In November 2022, Meta's CEO wrote: I want to take accountability.",
+  "hechos_q": "That year, Meta spent twenty-seven point nine billion dollars buying back its own shares. It let more than eleven thousand employees go.",
+  "cuenta_q": "About two point five million dollars in buybacks per job cut. A ratio, not a payment."
+ },
+ "linea": "Accountability, taken. Shares, bought back.",
+ "contexto": "Meta's CEO told employees on Nov. 9, 2022 that the company had let more than 11,000 of its employees go. The buyback figure is from Meta's 2022 Form 10-K.",
+ "nota": "The job count is \"more than 11,000\", so the true ratio may be somewhat lower than shown. We are not saying one paid for the other.",
+ "fuentes": [
+  {
+   "id": "F1",
+   "nombre": "Meta 8-K, CEO message (SEC)",
+   "fecha": "Nov 9, 2022",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000116/nov092022exhibit991.htm"
+  },
+  {
+   "id": "F2",
+   "nombre": "Meta 2022 10-K (SEC)",
+   "fecha": "Feb 2, 2023",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+  }
+ ],
+ "pedido": "temas/archivo/meta-2022-layoffs/pedido.json",
+ "rotulo_fecha": "ARCHIVE · NOV 2022",
+ "estilo": "papel",
+ "empresa_voz": "Meta",
+ "orden": "N3",
+ "variante": "Q2",
+ "titulo": "Meta (Nov 2022): $27.9 billion in its own stock, more than 11,000 jobs let go. The math.",
+ "descripcion": "From the archive: Nov 2022. Not today's news.\nMeta, Nov 9, 2022 (Mark Zuckerberg, CEO of Meta): \"I want to take accountability for these decisions and for how we got here\"\nMeta's CEO told employees on Nov. 9, 2022 that the company had let more than 11,000 of its employees go. The buyback figure is from Meta's 2022 Form 10-K.\n\nSame year: $27.9 billion in its own stock, 2022, company-wide. $27.96 billion of Class A stock repurchased during 2022, company-wide (Form 10-K).\nThe math: $27.9 billion in buybacks (2022) ÷ more than 11,000 job cuts = about $2.5 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The job count is \"more than 11,000\", so the true ratio may be somewhat lower than shown. We are not saying one paid for the other.\n\nAccountability, taken. Shares, bought back. (Our take.)\n\nSources:\n- Meta 8-K, CEO message (SEC), Nov 9, 2022: «I want to take accountability for these decisions and for how we got here. I know this is tough for everyone, and I'm especially sorry to those impacted.» and «let more than 11,000 of our talented employees go» https://www.sec.gov/Archives/edgar/data/1326801/000132680122000116/nov092022exhibit991.htm\n- Meta 2022 10-K (SEC), Feb 2, 2023: «Cash used in financing activities during 2022 mostly consisted of $27.96 billion for repurchases of our Class A common stock» https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm\n\nSynthetic voice.",
+ "caption": "From the archive: Nov 2022. Not today's news.\nMeta, Nov 9, 2022 (Mark Zuckerberg, CEO of Meta): \"I want to take accountability for these decisions and for how we got here\"\nMeta's CEO told employees on Nov. 9, 2022 that the company had let more than 11,000 of its employees go. The buyback figure is from Meta's 2022 Form 10-K.\n\nSame year: $27.9 billion in its own stock, 2022, company-wide. $27.96 billion of Class A stock repurchased during 2022, company-wide (Form 10-K).\nThe math: $27.9 billion in buybacks (2022) ÷ more than 11,000 job cuts = about $2.5 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The job count is \"more than 11,000\", so the true ratio may be somewhat lower than shown. We are not saying one paid for the other.\n\nAccountability, taken. Shares, bought back. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: Meta 8-K, CEO message (SEC), Nov 9, 2022; Meta 2022 10-K (SEC), Feb 2, 2023.\n\nLink in bio.",
+ "alt": "Paper-colored card. Meta, Nov 9, 2022. A gray typewriter quote, \"I want to take accountability for these decisions and for how we got here\", struck through with a dark red marker line. The struck quote is by Mark Zuckerberg, CEO of Meta. Then the math in huge black letters, with the result on a yellow highlight: $27.9B ÷ 11,000 = about $2.5M, in buybacks, per job cut. Written below: A ratio, not a payment or a cause.",
+ "envio": "Send this to someone who has been through a round of cuts.",
+ "youtube": {
+  "titulo": "Meta (Nov 2022): $27.9 billion in its own stock, more than 11,000 jobs let go. The math.",
+  "descripcion": "From the archive: Nov 2022. Not today's news.\nMeta, Nov 9, 2022 (Mark Zuckerberg, CEO of Meta): \"I want to take accountability for these decisions and for how we got here\"\nMeta's CEO told employees on Nov. 9, 2022 that the company had let more than 11,000 of its employees go. The buyback figure is from Meta's 2022 Form 10-K.\n\nSame year: $27.9 billion in its own stock, 2022, company-wide. $27.96 billion of Class A stock repurchased during 2022, company-wide (Form 10-K).\nThe math: $27.9 billion in buybacks (2022) ÷ more than 11,000 job cuts = about $2.5 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The job count is \"more than 11,000\", so the true ratio may be somewhat lower than shown. We are not saying one paid for the other.\n\nAccountability, taken. Shares, bought back. (Our take.)\n\nSources:\n- Meta 8-K, CEO message (SEC), Nov 9, 2022: «I want to take accountability for these decisions and for how we got here. I know this is tough for everyone, and I'm especially sorry to those impacted.» and «let more than 11,000 of our talented employees go» https://www.sec.gov/Archives/edgar/data/1326801/000132680122000116/nov092022exhibit991.htm\n- Meta 2022 10-K (SEC), Feb 2, 2023: «Cash used in financing activities during 2022 mostly consisted of $27.96 billion for repurchases of our Class A common stock» https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm\n\nSynthetic voice."
+ },
+ "instagram_video": {
+  "caption": "From the archive: Nov 2022. Not today's news.\nMeta, Nov 9, 2022 (Mark Zuckerberg, CEO of Meta): \"I want to take accountability for these decisions and for how we got here\"\nMeta's CEO told employees on Nov. 9, 2022 that the company had let more than 11,000 of its employees go. The buyback figure is from Meta's 2022 Form 10-K.\n\nSame year: $27.9 billion in its own stock, 2022, company-wide. $27.96 billion of Class A stock repurchased during 2022, company-wide (Form 10-K).\nThe math: $27.9 billion in buybacks (2022) ÷ more than 11,000 job cuts = about $2.5 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The job count is \"more than 11,000\", so the true ratio may be somewhat lower than shown. We are not saying one paid for the other.\n\nAccountability, taken. Shares, bought back. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: Meta 8-K, CEO message (SEC), Nov 9, 2022; Meta 2022 10-K (SEC), Feb 2, 2023.\n\nLink in bio."
+ },
+ "instagram_imagen": {
+  "caption": "From the archive: Nov 2022. Not today's news.\nMeta, Nov 9, 2022 (Mark Zuckerberg, CEO of Meta): \"I want to take accountability for these decisions and for how we got here\"\nMeta's CEO told employees on Nov. 9, 2022 that the company had let more than 11,000 of its employees go. The buyback figure is from Meta's 2022 Form 10-K.\n\nSame year: $27.9 billion in its own stock, 2022, company-wide. $27.96 billion of Class A stock repurchased during 2022, company-wide (Form 10-K).\nThe math: $27.9 billion in buybacks (2022) ÷ more than 11,000 job cuts = about $2.5 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The job count is \"more than 11,000\", so the true ratio may be somewhat lower than shown. We are not saying one paid for the other.\n\nAccountability, taken. Shares, bought back. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSources: Meta 8-K, CEO message (SEC), Nov 9, 2022; Meta 2022 10-K (SEC), Feb 2, 2023.\n\nLink in bio.",
+  "alt": "Paper-colored card. Meta, Nov 9, 2022. A gray typewriter quote, \"I want to take accountability for these decisions and for how we got here\", struck through with a dark red marker line. The struck quote is by Mark Zuckerberg, CEO of Meta. Then the math in huge black letters, with the result on a yellow highlight: $27.9B ÷ 11,000 = about $2.5M, in buybacks, per job cut. Written below: A ratio, not a payment or a cause."
+ },
+ "descripcion_fija": "From the archive: Nov 2022. Not today's news.\nMeta, Nov 9, 2022 (Mark Zuckerberg, CEO of Meta): \"I want to take accountability for these decisions and for how we got here\"\nMeta's CEO told employees on Nov. 9, 2022 that the company had let more than 11,000 of its employees go. The buyback figure is from Meta's 2022 Form 10-K.\n\nSame year: $27.9 billion in its own stock, 2022, company-wide. $27.96 billion of Class A stock repurchased during 2022, company-wide (Form 10-K).\nThe math: $27.9 billion in buybacks (2022) ÷ more than 11,000 job cuts = about $2.5 million in buybacks per job cut.\nThis is a ratio, not a payment and not a cause: the total spent on buybacks divided by the job count. The job count is \"more than 11,000\", so the true ratio may be somewhat lower than shown. We are not saying one paid for the other.\n\nAccountability, taken. Shares, bought back. (Our take.)\n\nSources:\n- Meta 8-K, CEO message (SEC), Nov 9, 2022: «I want to take accountability for these decisions and for how we got here. I know this is tough for everyone, and I'm especially sorry to those impacted.» and «let more than 11,000 of our talented employees go» https://www.sec.gov/Archives/edgar/data/1326801/000132680122000116/nov092022exhibit991.htm\n- Meta 2022 10-K (SEC), Feb 2, 2023: «Cash used in financing activities during 2022 mostly consisted of $27.96 billion for repurchases of our Class A common stock» https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+ "formato": "short",
+ "serie": "tachon",
+ "plantilla": "dd/tachon-q@2",
+ "narracion": "In November 2022, Meta's CEO wrote: I want to take accountability. That year, Meta spent twenty-seven point nine billion dollars buying back its own shares. It let more than eleven thousand employees go. About two point five million dollars in buybacks per job cut. A ratio, not a payment. Accountability, taken. Shares, bought back. Difficult Decision.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "In November 2022, Meta's CEO wrote: I want to take accountability."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That year, Meta spent twenty-seven point nine billion dollars buying back its own shares. It let more than eleven thousand employees go."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "About two point five million dollars in buybacks per job cut. A ratio, not a payment."
+  },
+  {
+   "papel": "giro",
+   "voz": "Accountability, taken. Shares, bought back."
+  },
+  {
+   "papel": "firma",
+   "voz": "Difficult Decision."
+  }
+ ],
+ "sintetico": true,
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "generado_utc": "2026-11-12T20:09:55Z",
+ "pruebas": [
+  "bucle"
+ ],
+ "prueba_bucle": {
+  "costura_s": 0.5,
+  "dur_q1_s": 19.933,
+  "dur_q2_s": 20.433,
+  "costura_diff": 3.536,
+  "origen": "tachon-Q",
+  "voz": "la misma pista del tachón Q (0 créditos de voz)",
+  "texto": "idéntico al de la @1",
+  "firma_antes_del_ultimo_golpe": true,
+  "no_con": [
+   "B2"
+  ]
+ }
+}

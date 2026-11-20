@@ -1,0 +1,41 @@
+{
+  "escala": 14,
+  "pieza": "fine-print-gta-vi-box-v2.mp4",
+  "lector": "claude-fable-5-2",
+  "visto": ["apertura.jpg", "vis/tira-01.jpg", "vis/tira-02.jpg", "vis/tira-03.jpg", "vis/visionado.md", "10 cuadros sacados del mp4 entre 0:08.6 y 0:19.8 para ver los tramos que las tiras saltan"],
+  "referencias": [
+    "S6 Which game died fastest? (The Sound Of Data)",
+    "S7 How a USB-C Cable Really Works (Things Opened)",
+    "S5 How Did the Florida Plane Crash Happen? (World explained)"
+  ],
+  "primer_cuadro": "Vi primero GTA VI enorme en negro sobre rosa; lei primero BUYING THE BOX? encima. Una sola cosa manda y la pregunta se entiende de un golpe. Si frenaria el dedo: el rosa plano con la letra negra pesada no se parece al resto del feed.",
+  "puntos": {"E1": 2, "E2": 1, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+  "notas": {
+    "E1": "GTA VI manda, la pregunta arriba la explica; a los 2 s entra 'As a gift, or to resell it later?'. Igual que S6 (la pregunta en pantalla desde 0 s).",
+    "E2": "Rejilla a la izquierda que se siente, margenes parejos, etiqueta fija arriba. Baja a 1 por dos tramos apretados: 0:10-0:15 y 0:18.5-0:20, donde la linea con barra queda pegada a la pildora del subtitulo y dice lo mismo que ella; y la pildora centrada es lo unico que no sigue la rejilla.",
+    "E3": "Tres familias con papel claro (mono para etiquetas, grotesca pesada para la cifra, serif cursiva para la frase del canal). Baja a 1 por la viuda 'later?' sola en la segunda linea (0:02-0:05) y por el corte del subtitulo 'Buying the GTA' / 'Six box as' en el segundo 1, que ademas escribe Six mientras la pantalla dice VI.",
+    "E4": "El rosa hace un trabajo: abre el gancho y vuelve solo en el golpe del cero; los datos neutros van en hueso. Contraste limpio en todo, incluida la letra chica.",
+    "E5": "Cada corte cae con la frase (0:08.1 zero discs, 0:15.8 the game itself, 0:19.9 cierre). El tachado de 'A disc' en 0:08 es la pausa antes del giro y cuenta a favor. La espera vacia de 0:16 a 0:18.5 es larga pero llega con la voz.",
+    "E6": "Un solo golpe: 'A disc EXPECTED' se tacha y entra el 0 enorme sobre rosa. Carga la idea entera de la pieza. El 212 GB es un segundo dato mas chico y no compite.",
+    "E7": "Lleva las tres senas: lo viejo tachado con lo nuevo grande, la etiqueta THE FINE PRINT arriba y el cierre con nombre y frase. Ninguna se siente pegada. Tapando el nombre se reconoce."
+  },
+  "tells": [],
+  "total": 12,
+  "pasa": true,
+  "dudoso": false,
+  "impacto": "Segundo 0:08: 'A disc' se tacha sobre hueso y el corte a rosa trae el 0 enorme con DISCS INSIDE. Ese cuadro frena.",
+  "preguntas": {
+    "tiene_impacto": {"respuesta": "si", "donde": "0:08 a 0:09, el tachado y el cero"},
+    "se_sostiene_en_fila": {"respuesta": "si", "por_que": "Al lado de S6 y S7 es mas sobria, pero el dato cae donde debe, la fuente va impresa en cada cuadro como en S5 y no hay descuido de construccion; lo que la delataria son la viuda y el corte del subtitulo, que son arreglos chicos."}
+  },
+  "fallas": [
+    {"donde": "0:02 a 0:05", "que": "Viuda: 'later?' queda sola en la segunda linea de la bajada.", "arreglo": "Cortar por sentido: 'As a gift,' / 'or to resell it later?'."},
+    {"donde": "0:01 a 0:02", "que": "El subtitulo parte 'Buying the GTA' / 'Six box as' y escribe Six mientras el cuadro dice VI.", "arreglo": "Agrupar 'Buying the GTA 6 box' en una pildora (o 'the GTA 6 box' entera en la segunda) y escribir 6 o VI, no Six."},
+    {"donde": "0:10 a 0:15", "que": "'You get a download code' queda pegada a la pildora del subtitulo y repite sus mismas palabras; el tramo se ve apretado.", "arreglo": "Subir la linea con barra para dejar el mismo aire que hay entre DISCS INSIDE y el cero, o bajar la pildora un renglon; alcanza con uno de los dos."},
+    {"donde": "0:18.5 a 0:20", "que": "Cuatro niveles de texto apilados (212 GB, TO DOWNLOAD AT MOST, Make room before you open it, pildora) con la ultima linea pegada a la pildora.", "arreglo": "Subir el bloque de 212 GB medio renglon de la rejilla para que 'Make room...' respire sobre la pildora; no agregar nada."},
+    {"donde": "0:16 a 0:18.5", "que": "Dos segundos y medio con solo la etiqueta THE GAME ITSELF y el centro vacio; es la espera mas larga y cae despues del golpe.", "arreglo": "Menor: hacer entrar '212 GB' con 'is a download' (0:17) en vez de esperar a la cifra dicha, o acortar el tramo. No pide capas nuevas."},
+    {"donde": "0:13 a 0:15", "que": "'No resale' grande con VALUE en una etiqueta negra se lee como categoria y parte la frase.", "arreglo": "Menor: 'No resale value' en dos lineas del mismo peso, o VALUE en mono sin caja como las otras etiquetas."}
+  ],
+  "mejoraria": "Dar aire entre la linea con barra y la pildora del subtitulo en los dos tramos donde se pegan (0:10-0:15 y 0:18.5-0:20); con eso E2 sube a 2 sin tocar la sencillez del formato.",
+  "nota_formato": "D-485: la sencillez (fondo plano, una cifra grande, lo viejo tachado) se conto a favor; no se pidieron mas capas. No se sello con agente.py por encargo."
+}

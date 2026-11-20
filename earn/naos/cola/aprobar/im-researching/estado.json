@@ -1,0 +1,21 @@
+{
+ "slug": "im-researching",
+ "issue": 941,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-06T22:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "fa15db8a5d7984ba10b366c497abb0ba6e0adbad7b01508b667c9a278767e999",
+ "hashes": {
+  "imagen": "546528e3b480e603f14b240b2323638761121d1fc8c22eea2d377875c121d75a"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6647817631,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "ig-6-15-nov-1",
+ "aprobado_evento_utc": "2026-11-05T02:19:14Z"
+}

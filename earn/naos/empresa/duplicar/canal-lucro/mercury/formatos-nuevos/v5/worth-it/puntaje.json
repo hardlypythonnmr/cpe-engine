@@ -1,0 +1,35 @@
+{
+  "pieza": "worth-it-gta-vi-price-v5",
+  "formato": "short",
+  "corte": 9.0,
+  "regla_lectores": "un si cuenta solo si A y B coinciden en si; la evidencia la aportan los dos",
+  "pesos_preguntas": "tomados de linea/2026-11-11/t1/pedido.md (suman 7)",
+  "lectores": {
+    "L1": {"pregunta": "Dice en una oración qué pasó, con la cifra correcta", "A": "si", "B": "si", "cuenta": true, "vale": 1.0, "evidencia_A": "GTA 6 sale el 19 de noviembre a 80 dólares; el GTA 5 de 2013 costaba 60, que hoy son unos 86, así que paga unos 6 menos que un comprador de 2013.", "evidencia_B": "\"In 2013, GTA 5 cost 60 dollars. GTA 6 comes out November 19 at 80.\" y \"In today's money, that 60 dollars? About 86.\""},
+    "L2": {"pregunta": "Dice para quién cambia algo y qué le cambia", "A": "si", "B": "si", "cuenta": true, "vale": 1.5, "evidencia_A": "Quien compre la edición normal paga unos 6 dólares menos que en 2013; quien compre la Ultimate de 100 paga 14 más.", "evidencia_B": "\"So you pay about 6 dollars less than a 2013 buyer.\" El que compra la edición de 80 paga unos 6 menos; el de la edición de 100 paga 14 más."},
+    "L3": {"pregunta": "Nombra el dato que no esperaba, y no lo habría adivinado", "A": "si", "B": "si", "cuenta": true, "vale": 1.5, "evidencia_A": "In today's money, that 60 dollars? About 86. No habría adivinado que 80 dólares es más barato que los 60 de 2013 ajustada la inflación.", "evidencia_B": "\"In today's money, that 60 dollars? About 86.\" Los 60 de 2013 equivalen a unos 86 hoy: no lo habría adivinado sin la cifra."},
+    "L4": {"pregunta": "Nombra a una persona concreta a quien se lo mandaría y por qué", "A": "no", "B": "no", "cuenta": false, "vale": 0.0, "evidencia_A": "La apertura me trae a mi primo del camión que se queja de precios, pero él no juega GTA y tengo que forzar el vínculo; no.", "evidencia_B": "Ninguna persona de mi círculo juega ni compra este tipo de juegos, y el guion no toca nada que a ellas les importe. Forzarlo sería no."},
+    "L5": {"pregunta": "Entendió cómo se orienta al menos un actor (quién gana o quién pierde)", "A": "si", "B": "si", "cuenta": true, "vale": 1.0, "evidencia_A": "Gana quien compra la edición normal (cheaper, 6 menos) y pierde quien compra la de 100 (14 more).", "evidencia_B": "\"But the 100 dollar Ultimate Edition costs you 14 more.\" La edición con extras es la que deja más dinero al editor; el precio de 80 es el que lo hace ver barato."},
+    "L6": {"pregunta": "Notó que el final vuelve al principio", "A": "si", "B": "si", "cuenta": true, "vale": 0.5, "evidencia_A": "Abre con 'Who in your family says everything costs more now, like GTA 6?' y cierra con 'Tell your family GTA 6 got cheaper, but not the 100 dollar one'.", "evidencia_B": "Abre con \"Who in your family says everything costs more now\" y cierra con \"Tell your family GTA 6 got cheaper\": el final responde al principio."},
+    "L7": {"pregunta": "No hay una oración que sobre", "A": "si", "B": "si", "cuenta": true, "vale": 0.5, "evidencia_A": "Las seis oraciones del guion aportan algo. Ninguna sobra.", "evidencia_B": "Las seis líneas del guion cargan algo: la cifra de 2013, la fecha y el 80, el ajuste a 86, la diferencia de 6, el salto de 14 y el cierre. Ninguna sobra."}
+  },
+  "lectores_total": 6.0,
+  "lectores_por_lector": {"A": 6.0, "B": 6.0},
+  "forma": {
+    "puntos": 3,
+    "fuente": "medidas.json",
+    "motivo": "la herramienta de forma vieja (tabla.py / vara_formato.py) no entiende esta pieza del productor simple; se dan los 3 puntos porque medidas.json dice validado: 'de 7 a 8 tramos' (tramos), 'duración de 22 a 34 s' (duracion: 32.481 s) y 'juez de gancho sin frenos' (gancho, gancho_seg 4.76). La racha quieta no cuenta por D-481 y no entra al puntaje"
+  },
+  "total": 9.0,
+  "estetico": {
+    "total": 13,
+    "escala": 14,
+    "fuente": "estetico-lectura.json",
+    "puntos": {"E1": 2, "E2": 2, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+    "preguntas": {"pregunta_impacto": "si", "pregunta_fila": "si"},
+    "ningun_cero": true,
+    "pasa": true
+  },
+  "pasa_las_dos": true,
+  "pasa_las_dos_regla": "total >= 9.0 (corte) y estetico >= 11, sin ningun 0 y con las dos preguntas en si"
+}

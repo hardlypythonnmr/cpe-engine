@@ -1,0 +1,42 @@
+{
+  "pieza": "the-number-gta-baby-v2",
+  "formato": "short",
+  "serie": "the_number",
+  "total": 5.0,
+  "escala_total": 10,
+  "corte": 9.0,
+  "desglose": {
+    "lectores": {
+      "puntos": 2,
+      "de": 7,
+      "regla": "un si cuenta solo si lector A y lector B coinciden",
+      "si_acordados": ["L1", "L3"],
+      "lector_A_si": ["L1", "L2", "L3"],
+      "lector_B_si": ["L1", "L3"],
+      "no_acordados": ["L2 (A si, B no)", "L4", "L5", "L6", "L7 (ambos no)"],
+      "fuente": "lector-A.json y lector-B.json"
+    },
+    "forma": {
+      "puntos": 3,
+      "de": 3,
+      "fuente": "medidas.json",
+      "criterio": "la herramienta de forma no corre sobre esta pieza del productor simple (vara_formato.py falla: falta formatos/vara-short.json; tabla.py no encuentra piezas en la carpeta). Se dan los 3 puntos porque medidas.json valida tramos (6, entre 5 y 7), duracion (24,5 s, entre 18 y 32), gancho (juez sin frenos, 4,0 s, golpe viejo y grande, giro despues del golpe) y apertura pasa. La racha quieta no cuenta (D-481)."
+    },
+    "estetico": {
+      "total": 12,
+      "escala": 14,
+      "pasa": true,
+      "regla": "pasa con 11 o mas, ningun 0 y las dos preguntas con si",
+      "puntos": {"E1": 2, "E2": 1, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+      "ningun_cero": true,
+      "preguntas_si": {"tiene_impacto": true, "se_sostiene_en_fila_con_referencias": true},
+      "fuente": "estetico-lectura.json"
+    }
+  },
+  "varas": {
+    "puntaje_total": {"pasa": false, "obtenido": 5.0, "corte": 9.0},
+    "estetico": {"pasa": true, "obtenido": 12, "escala": 14}
+  },
+  "pasa_las_dos": false,
+  "que_falla": "Puntaje 5,0 de 10 (corte 9,0). Lectores 2 de 7: solo L1 y L3 coinciden en si. L2 (quien cambia y que le cambia) es si en A y no en B, asi que no cuenta. Ambos dicen no en L4 (ninguna persona del circulo sale sin forzarla), L5 (nadie gana o pierde en el guion), L6 (el final cierra en Mercury y no vuelve al bebe ni a GTA V) y L7 (el cierre no aporta nada nuevo al dato). Forma 3 de 3 por medidas.json, sin que la herramienta de forma corra. Estetico 12 de 14, pasa (ningun eje en 0, las dos preguntas en si). Ejes del estetico que restan: E2 (1, el bloque vive en el 60 % de arriba, el 40 % inferior queda vacio, y la pildora de subtitulo flota centrada sobre una composicion alineada a la izquierda) y E3 (1, 'A baby is born the same / day.' deja la viuda 'day.' de 0:02 a 0:08). Ademas, en el giro 0:17 a 0:19 el '4' de 'TOO YOUNG BY 4 YEARS' es mas chico que el 13 y no lleva el golpe tachado; el cierre dura 5 de 24 s. Para pasar hay que sumar 4 puntos de lector: que el guion diga para quien cambia algo (L2 y L4) y que el cierre de Mercury conecte con el dato (L6 y L7)."
+}

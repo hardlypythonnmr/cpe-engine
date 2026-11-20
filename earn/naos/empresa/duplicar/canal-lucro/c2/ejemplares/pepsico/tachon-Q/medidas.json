@@ -1,0 +1,267 @@
+{
+ "id": "pepsico-2026-11-09-q",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 19.771,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 49,
+ "cuenta": {
+  "a": "8900000000",
+  "b": "1000",
+  "c_real": "8900000.0000",
+  "c_pantalla": "$8.9 MILLION",
+  "op": "÷",
+  "exacta": true,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": null,
+ "tramos": [
+  {
+   "papel": "golpe",
+   "t0": 0.0,
+   "t1": 4.901,
+   "voz": "November ninth, PepsiCo North America's CEO wrote, per Bloomberg: complex and fragmented."
+  },
+  {
+   "papel": "gancho",
+   "t0": 4.981,
+   "t1": 12.054,
+   "voz": "That year, PepsiCo plans eight point nine billion for shareholders. In North America, it's cutting about one thousand jobs, Bloomberg reports."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 12.134,
+   "t1": 15.184,
+   "voz": "Eight point nine million dollars planned, per job cut."
+  },
+  {
+   "papel": "giro",
+   "t0": 15.234,
+   "t1": 18.412,
+   "voz": "Complex. Fragmented. Here is the shareholder column."
+  },
+  {
+   "papel": "firma",
+   "t0": 18.572,
+   "t1": 19.771,
+   "voz": "Difficult Decision."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 4.881,
+   "e": "n"
+  },
+  {
+   "t": 12.084,
+   "e": "c"
+  },
+  {
+   "t": 15.184,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 9.751,
+  "numero_a": 6.03,
+  "numero_c": 12.634,
+  "numero_dicho": null,
+  "linea_completa": 17.044,
+  "cierre": 18.492,
+  "total": 19.771
+ },
+ "tamanos_px": {
+  "banda": 32,
+  "empresa": 84,
+  "q.nombre": 150,
+  "q.cargo": 50,
+  "q.medio": 34,
+  "frase": 140,
+  "frase.chica": 46,
+  "a": 199,
+  "a.titulo": 50,
+  "alcance": 38,
+  "b": 137,
+  "b.titulo": 50,
+  "b.detalle": 32,
+  "cuenta.arriba": 198,
+  "cuenta.resultado": 305,
+  "c.rotulo": 62,
+  "aclara": 56,
+  "alcance.c": 38,
+  "b.c": 38,
+  "cuenta.una_linea": 117,
+  "c.rotulo.t": 56,
+  "aclara.t": 52,
+  "canal": 140,
+  "cierre": 46,
+  "sigue": 88,
+  "aviso": 28,
+  "linea": 64
+ },
+ "lineas_frase": 6,
+ "c_ancho_px": 917,
+ "volumen": {
+  "lufs": -14.17,
+  "pico_dbtp": -1.18
+ },
+ "oido": [
+  {
+   "papel": "golpe",
+   "dice": "November ninth, PepsiCo North America's CEO wrote, per Bloomberg: complex and fragmented.",
+   "oye": "November 9th, PepsiCo North America CEO wrote, per Bloomberg, Complex and Fragmented, that you are the best."
+  },
+  {
+   "papel": "gancho",
+   "dice": "That year, PepsiCo plans eight point nine billion for shareholders. In North America, it's cutting about one thousand jobs, Bloomberg reports.",
+   "oye": "That year, PepsiCo plans $8.9 billion for shareholders. In North America, it's cutting about 1,000 jobs, Bloomberg reports.",
+   "cifra_a": {
+    "espera": "$8.9 BILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "1,000",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "Eight point nine million dollars planned, per job cut.",
+   "oye": "$8.9 million planned per job cut.",
+   "cifra_c": {
+    "espera": "$8.9 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Complex. Fragmented. Here is the shareholder column.",
+   "oye": "Complex, fragmented, here is the shareholder column."
+  },
+  {
+   "papel": "firma",
+   "dice": "Difficult Decision.",
+   "oye": "difficult decision."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.6,
+  "rachas": [],
+  "pasa": true
+ },
+ "avisos": [],
+ "canal": {
+  "nombre": "Difficult Decision"
+ },
+ "plantilla": "dd/tachon-q@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "golpe",
+   "gancho",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 19.771
+ },
+ "gancho_seg": 6.03,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con empresa, hecho y la frase oficial grande con nombre y cargo, tachándose"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"b_antes\": 10.5, \"quieto_s\": 2.0, \"duracion_s\": [16, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.6,
+  "rachas": [],
+  "pasa": true
+ },
+ "verificacion": {
+  "pedido": "temas/2026-11-12/pepsico-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en Bloomberg News (published by Transport Topics): «Ram Krishnan, the company’s North America CEO, sent a Nov. 9 memo to workers saying that “»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · PepsiCo: «Cash Returns to Shareholders (d) $8.9 billion $8.9 billion»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 8,900,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en Bloomberg News (published by Transport Topics): «PepsiCo Inc. is eliminating about 1,000 roles in North America»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 1,000"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V3c",
+    "pasa": true,
+    "evidencia": "el número B viene de un solo medio y la entrada lo atribuye (`b.aprox`, `b.segun`)"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (PepsiCo) es la del pedido (PepsiCo)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "id": "the-number-gta-baby-v2",
+ "marca": "mercury",
+ "formato": "short",
+ "serie": "the_number",
+ "para_quien": "A parent whose kid was a baby when GTA V came out and now asks for the new game.",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "voz": "GTA Five came out, and a baby was born that same day.",
+   "pantalla": {
+    "etiqueta": "OUT SEP 17, 2013",
+    "grande": "GTA V",
+    "renglon": "A baby is born the same day."
+   },
+   "afirmaciones": [
+    "F4"
+   ]
+  },
+  {
+   "papel": "dato",
+   "voz": "GTA Six comes out 4,811 days later.",
+   "pantalla": {
+    "etiqueta": "GTA VI, OUT NOV 19, 2026",
+    "grande": "4,811",
+    "unidad": "DAYS LATER"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "dato",
+   "voz": "The new game is rated for ages 17 and up.",
+   "pantalla": {
+    "etiqueta": "GTA VI IS RATED",
+    "grande": "17+",
+    "unidad": "AGES 17 AND UP"
+   },
+   "afirmaciones": [
+    "E1"
+   ]
+  },
+  {
+   "papel": "golpe",
+   "voz": "How old is that baby now? 13.",
+   "pantalla": {
+    "viejo": "4,811 | days",
+    "grande": "13",
+    "unidad": "YEARS OLD",
+    "renglon": "The game: 17+"
+   },
+   "afirmaciones": [
+    "F4"
+   ]
+  },
+  {
+   "papel": "giro",
+   "voz": "So that kid is 4 years too young.",
+   "pantalla": {
+    "etiqueta": "TOO YOUNG BY",
+    "grande": "4",
+    "unidad": "YEARS",
+    "renglon": "Old enough in 2030"
+   },
+   "afirmaciones": [
+    "E1"
+   ]
+  },
+  {
+   "papel": "cierre"
+  }
+ ],
+ "manana": "",
+ "titulo": "A baby born on GTA V's launch day is 13 now",
+ "descripcion": "The number: one number behind today's headline.\n\nGTA V came out on September 17, 2013 (Guinness World Records). GTA VI is dated November 19, 2026 (Take-Two Interactive, the game's publisher). That is 4,811 days. The US game ratings board (ESRB) rates GTA VI Mature 17+: generally suitable for ages 17 and up. Someone born on September 17, 2013 is 13 on launch day and turns 17 on September 17, 2030. The age is date arithmetic. The voice is synthetic.\n\nSources:\nhttps://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft-auto-breaks-six-sales-world-records-51900\nhttps://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi\nhttps://www.esrb.org/ratings/41627/grand-theft-auto-vi/",
+ "comentario_fijado": "Sources. GTA V release date: Guinness World Records, Oct 8, 2013. GTA VI launch date: Take-Two press release, Jun 24, 2026. Rating: ESRB, Grand Theft Auto VI, Mature 17+.",
+ "cifras_fijas": true,
+ "cifras_vivas": [],
+ "datos_utc": "2026-11-11T04:05:00Z",
+ "fuentes": [
+  {
+   "id": "F4",
+   "nombre": "Guinness World Records",
+   "url": "https://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft-auto-breaks-six-sales-world-records-51900"
+  },
+  {
+   "id": "F3",
+   "nombre": "Take-Two (publisher)",
+   "url": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+  },
+  {
+   "id": "E1",
+   "nombre": "US game ratings board",
+   "url": "https://www.esrb.org/ratings/41627/grand-theft-auto-vi/"
+  },
+  {
+   "id": "E2",
+   "nombre": "US game ratings board guide",
+   "url": "https://www.esrb.org/ratings-guide/"
+  }
+ ],
+ "evidencia": [
+  {
+   "dato": "GTA V salió el 17-sep-2013",
+   "cita": "Released on 17 September 2013 for the PlayStation 3 and Xbox 360 consoles",
+   "fuente": "F4"
+  },
+  {
+   "dato": "GTA VI sale el 19-nov-2026",
+   "cita": "Launching November 19, 2026",
+   "fuente": "F3"
+  },
+  {
+   "dato": "Clasificación de GTA VI: Mature 17+",
+   "cita": "Mature 17+",
+   "fuente": "E1"
+  },
+  {
+   "dato": "Qué significa: 17 años o más",
+   "cita": "Content is generally suitable for ages 17 and up.",
+   "fuente": "E2"
+  },
+  {
+   "dato": "Del 17-sep-2013 al 19-nov-2026 hay 4.811 días (resta de fechas en Python)",
+   "senal": "dias_entre_lanzamientos.dias"
+  },
+  {
+   "dato": "Quien nació el 17-sep-2013 tiene 13 años el 19-nov-2026",
+   "calculo": "2026 - 2013 = 13",
+   "de": [
+    "F3",
+    "F4"
+   ]
+  },
+  {
+   "dato": "Le faltan 4 años para los 17",
+   "calculo": "17 - 13 = 4",
+   "de": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "dato": "Cumple 17 en 2030",
+   "calculo": "2013 + 17 = 2030",
+   "de": [
+    "F4",
+    "E1"
+   ]
+  }
+ ]
+}

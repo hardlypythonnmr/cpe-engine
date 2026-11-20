@@ -1,0 +1,286 @@
+{
+ "id": "worth-it-gta-vi-price-v5",
+ "serie": "worth_it",
+ "formato": "short",
+ "dur": 32.481,
+ "gancho_seg": 4.76,
+ "gancho_voz": "Who in your family says everything costs more now, like GTA 6?",
+ "juez_texto": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [
+   "antes del segundo 3 la voz solo da un dato concreto; el cartel debe dar la cifra"
+  ],
+  "seg_sujeto": 0.36,
+  "seg_total": 4.36,
+  "palabras": 12,
+  "palabras_cartel": 1
+ },
+ "cues": {
+  "silencio": 14.463,
+  "golpe": 14.913,
+  "portada": 15.613
+ },
+ "tramos": [
+  {
+   "tramo": "1-gancho",
+   "serie": "worth_it",
+   "t0": 0.0,
+   "t1": 4.76,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 0.15,
+     "t1": 4.46,
+     "texto": "Who in your family says everything costs more now, like GTA 6?"
+    }
+   ]
+  },
+  {
+   "tramo": "2-hecho",
+   "serie": "worth_it",
+   "t0": 4.76,
+   "t1": 12.221,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 4.91,
+     "t1": 11.921,
+     "texto": "In 2013, GTA 5 cost 60 dollars. GTA 6 comes out November 19 at 80."
+    }
+   ]
+  },
+  {
+   "tramo": "3-golpe",
+   "serie": "worth_it",
+   "t0": 12.221,
+   "t1": 16.842,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 12.371,
+     "t1": 14.463,
+     "texto": "In today's money, that 60 dollars?"
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 15.013,
+     "t1": 15.942,
+     "texto": "About 86."
+    }
+   ]
+  },
+  {
+   "tramo": "4-bolsillo",
+   "serie": "worth_it",
+   "t0": 16.842,
+   "t1": 21.126,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 16.992,
+     "t1": 20.826,
+     "texto": "So you pay about 6 dollars less than a 2013 buyer."
+    }
+   ]
+  },
+  {
+   "tramo": "5-giro",
+   "serie": "worth_it",
+   "t0": 21.126,
+   "t1": 25.528,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 21.276,
+     "t1": 25.228,
+     "texto": "But the 100 dollar Ultimate Edition costs you 14 more."
+    }
+   ]
+  },
+  {
+   "tramo": "6-vuelta",
+   "serie": "worth_it",
+   "t0": 25.528,
+   "t1": 30.681,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 25.678,
+     "t1": 30.381,
+     "texto": "Tell your family GTA 6 got cheaper, but not the 100 dollar one."
+    }
+   ]
+  },
+  {
+   "tramo": "7-sello",
+   "serie": "worth_it",
+   "t0": 30.681,
+   "t1": 32.481,
+   "voces": []
+  }
+ ],
+ "apertura": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [],
+  "tinta_cuadro0": 0.117,
+  "cambio_0_05": 0.046,
+  "cambio_0_15": 0.066,
+  "cambio_15_30": 0.024
+ },
+ "rachas": {
+  "mayor": 3.0,
+  "rachas": [],
+  "pasa": true,
+  "tope": 3.0,
+  "seg": 32.5
+ },
+ "render_seg": 122.6,
+ "plantilla": "simple/worth_it@5",
+ "palabras": {
+  "total": 69,
+  "por_tramo": [
+   12,
+   15,
+   8,
+   11,
+   10,
+   13,
+   0
+  ],
+  "tope_por_tramo": 16
+ },
+ "validado": [
+  "un golpe con viejo y grande",
+  "giro después del golpe",
+  "de 7 a 8 tramos",
+  "el gancho nombra a alguien cercano: family",
+  "bolsillo después del golpe, con la persona del gancho",
+  "giro con cifra en pantalla, atado al bolsillo",
+  "la vuelta comparte con el gancho: family, gta",
+  "hecho con su cuándo y su fuente, justo después del gancho",
+  "el veredicto de la vuelta cuenta con el giro",
+  "la vuelta manda la pieza a la persona del gancho",
+  "el gancho nombra a la persona por lo que hace",
+  "bolsillo en total o diferencia, no en tasa",
+  "el giro le habla a la persona y gira su bolsillo",
+  "vuelta de una oración, con una cifra como mucho y un veredicto nuevo en grande",
+  "voz de 16 palabras o menos por tramo",
+  "cada texto de pantalla cabe en su campo (linea/anchos.json)",
+  "el gancho comparte con para_quien: cost, everything, family, says",
+  "juez de gancho sin frenos",
+  "duración de 22 a 34 s",
+  "ningún cuadro quieto más de 3 s (por los tiempos de la voz)",
+  "sello de 1.8 s (tope 2.2), sin voz"
+ ],
+ "avisos": [
+  "tramo 1 (gancho): la cifra 80 está en pantalla y la voz de ese tramo no la dice",
+  "juez de gancho: antes del segundo 3 la voz solo da un dato concreto; el cartel debe dar la cifra"
+ ],
+ "huella": {
+  "tramos": 7,
+  "papeles": [
+   "gancho",
+   "hecho",
+   "golpe",
+   "bolsillo",
+   "giro",
+   "vuelta",
+   "sello"
+  ],
+  "dur": 32.481
+ },
+ "voz_guion": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 4.76,
+   "voz": "Who in your family says everything costs more now, like GTA 6?"
+  },
+  {
+   "papel": "hecho",
+   "t0": 4.76,
+   "t1": 12.221,
+   "voz": "In 2013, GTA 5 cost 60 dollars. GTA 6 comes out November 19 at 80."
+  },
+  {
+   "papel": "golpe",
+   "t0": 12.221,
+   "t1": 16.842,
+   "voz": "In today's money, that 60 dollars? About 86."
+  },
+  {
+   "papel": "bolsillo",
+   "t0": 16.842,
+   "t1": 21.126,
+   "voz": "So you pay about 6 dollars less than a 2013 buyer."
+  },
+  {
+   "papel": "giro",
+   "t0": 21.126,
+   "t1": 25.528,
+   "voz": "But the 100 dollar Ultimate Edition costs you 14 more."
+  },
+  {
+   "papel": "vuelta",
+   "t0": 25.528,
+   "t1": 30.681,
+   "voz": "Tell your family GTA 6 got cheaper, but not the 100 dollar one."
+  },
+  {
+   "papel": "sello",
+   "t0": 30.681,
+   "t1": 32.481,
+   "voz": ""
+  }
+ ],
+ "verificacion": {
+  "pedido": "eventos/gta-vi/guiones/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "C1",
+    "pasa": true,
+    "evidencia": "12 filas de evidencia con su cita literal",
+    "aviso": false
+   },
+   {
+    "id": "C2",
+    "pasa": true,
+    "evidencia": "todas las cifras están en una cita, en la señal o en un cálculo",
+    "aviso": false
+   },
+   {
+    "id": "C3",
+    "pasa": true,
+    "evidencia": "todos los nombres están en las fuentes o la señal",
+    "aviso": false
+   },
+   {
+    "id": "C4",
+    "pasa": true,
+    "evidencia": "cada lámina con cifra lleva su fuente",
+    "aviso": false
+   },
+   {
+    "id": "S1",
+    "pasa": true,
+    "aviso": false,
+    "evidencia": "cada tramo con cifra nombra fuentes del pedido"
+   }
+  ]
+ },
+ "forma": {
+  "pasa": true,
+  "apertura": true,
+  "rachas": true
+ }
+}

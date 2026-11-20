@@ -1,0 +1,270 @@
+{
+ "id": "meta-2022-layoffs-2026-11-13-q2",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 20.433,
+ "fps": 30,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 54,
+ "cuenta": {
+  "a": "27960000000",
+  "b": "11000",
+  "c_real": "2541818.1818",
+  "c_pantalla": "$2.5 MILLION",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · NOV 2022",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "t0": 0.0,
+   "t1": 4.368,
+   "voz": "In November 2022, Meta's CEO wrote: I want to take accountability."
+  },
+  {
+   "papel": "gancho",
+   "t0": 4.448,
+   "t1": 11.015,
+   "voz": "That year, Meta spent twenty-seven point nine billion dollars buying back its own shares. It let more than eleven thousand employees go."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 11.095,
+   "t1": 15.893,
+   "voz": "About two point five million dollars in buybacks per job cut. A ratio, not a payment."
+  },
+  {
+   "papel": "giro",
+   "t0": 15.943,
+   "t1": 18.317,
+   "voz": "Accountability, taken. Shares, bought back."
+  },
+  {
+   "papel": "firma",
+   "t0": 18.718,
+   "t1": 19.917,
+   "voz": "Difficult Decision."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 4.348,
+   "e": "n"
+  },
+  {
+   "t": 11.045,
+   "e": "c"
+  },
+  {
+   "t": 15.893,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 9.178,
+  "numero_a": 5.198,
+  "numero_c": 11.595,
+  "numero_dicho": null,
+  "linea_completa": 17.638,
+  "cierre": 18.638,
+  "total": 20.433
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "banda": 32,
+  "empresa": 84,
+  "q.nombre": 132,
+  "q.cargo": 50,
+  "q.medio": 34,
+  "frase": 110,
+  "frase.chica": 40,
+  "a": 180,
+  "a.titulo": 50,
+  "alcance": 38,
+  "b": 103,
+  "b.titulo": 50,
+  "cuenta.arriba": 170,
+  "cuenta.resultado": 305,
+  "c.rotulo": 62,
+  "aclara": 56,
+  "alcance.c": 38,
+  "b.c": 38,
+  "cuenta.una_linea": 107,
+  "c.rotulo.t": 56,
+  "aclara.t": 52,
+  "canal": 140,
+  "cierre": 46,
+  "sigue": 88,
+  "aviso": 28,
+  "linea": 64
+ },
+ "lineas_frase": 7,
+ "c_ancho_px": 917,
+ "volumen": {
+  "lufs": -14.14,
+  "pico_dbtp": -1.11
+ },
+ "oido": [
+  {
+   "papel": "golpe",
+   "dice": "In November 2022, Meta's CEO wrote: I want to take accountability.",
+   "oye": "In November, 2022, Meta CEO wrote, I want to take accountability that you."
+  },
+  {
+   "papel": "gancho",
+   "dice": "That year, Meta spent twenty-seven point nine billion dollars buying back its own shares. It let more than eleven thousand employees go.",
+   "oye": "That year, Meta spent $27.9 billion buying back its own shares. It let more than 11,000 employees go.",
+   "cifra_a": {
+    "espera": "$27.9 BILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "11,000",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "About two point five million dollars in buybacks per job cut. A ratio, not a payment.",
+   "oye": "About $2.5 million in buybacks per job cut. A ratio, not a payment.",
+   "cifra_c": {
+    "espera": "$2.5 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Accountability, taken. Shares, bought back.",
+   "oye": "Accountability taken. Shares bought back."
+  },
+  {
+   "papel": "firma",
+   "dice": "Difficult Decision.",
+   "oye": "Difficult decision."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.4,
+  "rachas": [],
+  "pasa": true
+ },
+ "avisos": [],
+ "canal": {
+  "nombre": "Difficult Decision"
+ },
+ "plantilla": "dd/tachon-q@2",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "golpe",
+   "gancho",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 20.433
+ },
+ "gancho_seg": 5.198,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · NOV 2022, la frase oficial grande con nombre y cargo, tachándose"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"b_antes\": 10.5, \"quieto_s\": 2.0, \"duracion_s\": [16, 20]}) y cada cifra reconocida por el control de oído Cierre en bucle: +0.5 s de costura al final (dd/tachon-q@2)."
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.4,
+  "rachas": [],
+  "pasa": true
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/meta-2022-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Meta: «I want to take accountability for these decisions and for how we got here. I know this is »"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Meta: «Cash used in financing activities during 2022 mostly consisted of $27.96 billion for repur»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 27,960,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Meta: «let more than 11,000 of our talented employees go»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 11,000"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Meta) es la del pedido (Meta)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ },
+ "bucle": {
+  "costura_s": 0.5,
+  "dur_q1_s": 19.933,
+  "dur_q2_s": 20.433,
+  "costura_diff": 3.536,
+  "origen": "tachon-Q",
+  "voz": "la misma pista del tachón Q (0 créditos de voz)",
+  "texto": "idéntico al de la @1",
+  "firma_antes_del_ultimo_golpe": true
+ }
+}

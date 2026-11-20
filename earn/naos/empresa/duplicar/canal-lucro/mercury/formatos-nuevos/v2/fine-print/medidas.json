@@ -1,0 +1,268 @@
+{
+ "id": "fine-print-gta-vi-box-v2",
+ "serie": "fine_print",
+ "formato": "short",
+ "dur": 25.125,
+ "gancho_seg": 4.023,
+ "gancho_voz": "Buying the GTA Six box as a gift, or to resell it later?",
+ "juez_texto": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [],
+  "seg_sujeto": 0.36,
+  "seg_total": 4.73,
+  "palabras": 13,
+  "palabras_cartel": 2
+ },
+ "cues": {
+  "silencio": 7.605,
+  "golpe": 8.055,
+  "portada": 8.755
+ },
+ "tramos": [
+  {
+   "tramo": "1-gancho",
+   "serie": "fine_print",
+   "t0": 0.0,
+   "t1": 4.023,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 0.15,
+     "t1": 3.723,
+     "texto": "Buying the GTA Six box as a gift, or to resell it later?"
+    }
+   ]
+  },
+  {
+   "tramo": "2-dato",
+   "serie": "fine_print",
+   "t0": 4.023,
+   "t1": 6.192,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 4.173,
+     "t1": 5.892,
+     "texto": "The box costs 80 dollars."
+    }
+   ]
+  },
+  {
+   "tramo": "3-golpe",
+   "serie": "fine_print",
+   "t0": 6.192,
+   "t1": 11.785,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 6.342,
+     "t1": 7.605,
+     "texto": "Inside the box:"
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 8.155,
+     "t1": 9.143,
+     "texto": "zero discs."
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 9.393,
+     "t1": 10.885,
+     "texto": "You get a download code."
+    }
+   ]
+  },
+  {
+   "tramo": "4-dato",
+   "serie": "fine_print",
+   "t0": 11.785,
+   "t1": 15.79,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 11.935,
+     "t1": 15.49,
+     "texto": "And a code has no resale value, one tech news site reports."
+    }
+   ]
+  },
+  {
+   "tramo": "5-giro",
+   "serie": "fine_print",
+   "t0": 15.79,
+   "t1": 19.916,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 15.94,
+     "t1": 19.616,
+     "texto": "The game itself is a download of up to 212 gigabytes."
+    }
+   ]
+  },
+  {
+   "tramo": "6-cierre",
+   "serie": "fine_print",
+   "t0": 19.916,
+   "t1": 25.125,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 20.066,
+     "t1": 22.554,
+     "texto": "Mercury: the real price of today's news."
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 22.854,
+     "t1": 24.425,
+     "texto": "Follow before you pay for it."
+    }
+   ]
+  }
+ ],
+ "apertura": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [],
+  "tinta_cuadro0": 0.103,
+  "cambio_0_05": 0.057,
+  "cambio_0_15": 0.067,
+  "cambio_15_30": 0.025
+ },
+ "rachas": {
+  "mayor": 3.0,
+  "rachas": [],
+  "pasa": true,
+  "tope": 3.0,
+  "seg": 25.25
+ },
+ "render_seg": 115.0,
+ "plantilla": "simple/fine_print@2",
+ "palabras": {
+  "total": 64,
+  "por_tramo": [
+   13,
+   5,
+   10,
+   12,
+   11,
+   13
+  ],
+  "tope_por_tramo": 16
+ },
+ "validado": [
+  "un golpe con viejo y grande",
+  "giro después del golpe",
+  "de 5 a 7 tramos",
+  "voz de 16 palabras o menos por tramo",
+  "cada texto de pantalla cabe en su campo (linea/anchos.json)",
+  "el gancho comparte con para_quien: box, buying, gift, gta, later, resell",
+  "juez de gancho sin frenos",
+  "duración de 18 a 32 s",
+  "ningún cuadro quieto más de 3 s (por los tiempos de la voz)"
+ ],
+ "avisos": [],
+ "huella": {
+  "tramos": 6,
+  "papeles": [
+   "gancho",
+   "dato",
+   "golpe",
+   "dato",
+   "giro",
+   "cierre"
+  ],
+  "dur": 25.125
+ },
+ "voz_guion": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 4.023,
+   "voz": "Buying the GTA Six box as a gift, or to resell it later?"
+  },
+  {
+   "papel": "dato",
+   "t0": 4.023,
+   "t1": 6.192,
+   "voz": "The box costs 80 dollars."
+  },
+  {
+   "papel": "golpe",
+   "t0": 6.192,
+   "t1": 11.785,
+   "voz": "Inside the box: zero discs. You get a download code."
+  },
+  {
+   "papel": "dato",
+   "t0": 11.785,
+   "t1": 15.79,
+   "voz": "And a code has no resale value, one tech news site reports."
+  },
+  {
+   "papel": "giro",
+   "t0": 15.79,
+   "t1": 19.916,
+   "voz": "The game itself is a download of up to 212 gigabytes."
+  },
+  {
+   "papel": "cierre",
+   "t0": 19.916,
+   "t1": 25.125,
+   "voz": "Mercury: the real price of today's news. Follow before you pay for it."
+  }
+ ],
+ "verificacion": {
+  "pedido": "eventos/gta-vi/guiones/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "C1",
+    "pasa": true,
+    "evidencia": "5 filas de evidencia con su cita literal",
+    "aviso": false
+   },
+   {
+    "id": "C2",
+    "pasa": true,
+    "evidencia": "todas las cifras están en una cita, en la señal o en un cálculo",
+    "aviso": false
+   },
+   {
+    "id": "C3",
+    "pasa": true,
+    "evidencia": "todos los nombres están en las fuentes o la señal",
+    "aviso": false
+   },
+   {
+    "id": "C4",
+    "pasa": true,
+    "evidencia": "cada lámina con cifra lleva su fuente",
+    "aviso": false
+   },
+   {
+    "id": "S1",
+    "pasa": true,
+    "aviso": false,
+    "evidencia": "cada tramo con cifra nombra fuentes del pedido"
+   }
+  ]
+ },
+ "forma": {
+  "pasa": true,
+  "apertura": true,
+  "rachas": true
+ }
+}

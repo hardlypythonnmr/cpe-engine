@@ -1,0 +1,35 @@
+{
+  "escala": 14,
+  "pieza": "worth-it-gta-vi-price-v5.mp4",
+  "lector": "claude-fable-5-2",
+  "visto": ["apertura.jpg", "vis/visionado.md", "vis/tira-01.jpg", "vis/tira-02.jpg", "vis/tira-03.jpg", "vis/tira-04.jpg"],
+  "referencias": [
+    "S6 Which game died fastest? (The Sound Of Data)",
+    "S7 How a USB-C Cable Really Works (Things Opened)",
+    "S5 How Did the Florida Plane Crash Happen? (World explained)"
+  ],
+  "primer_cuadro": "Vi primero el $80 negro enorme sobre verde plano; lei primero la pregunta 'WHO SAYS IT ALL COSTS MORE?' encima. Una sola cosa manda. Frenaria el dedo: la cifra y la pregunta se entienden en menos de un segundo, y la etiqueta WORTH IT? dice el formato.",
+  "puntos": {"E1": 2, "E2": 2, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+  "notas": {
+    "E1": "Cifra unica, pregunta arriba, fuente impresa desde 0 s (como S5 y S6).",
+    "E2": "Todo cuelga del margen izquierdo, barra fija arriba, aire de sobra. Solo la pildora del subtitulo va centrada contra una rejilla a la izquierda; se tolera.",
+    "E3": "Tres familias con papel claro (mono para rotulos, grotesca pesada para la cifra, serif cursiva en el cierre) y tamanos con intencion. Baja a 1 por los subtitulos: el de 0:14 esta mal transcrito y mas chico, y 'Like GTA 6?' sale dos veces en 0:04.",
+    "E4": "Verde para la pregunta, el giro y el veredicto; papel para los hechos. El color hace un trabajo y el contraste es limpio.",
+    "E5": "Los tres cortes caen donde cambia la idea (0:15, 0:21, 0:25.7). En 0:14 el $60 se achica y queda solo: pausa quieta antes del giro, cuenta a favor.",
+    "E6": "Un solo golpe: $60 tachado y $86 enorme sobre verde. Carga la idea entera (el precio viejo en plata de hoy). Cada elemento hace un trabajo: sin la tachada no se entiende de donde sale el 86; sin el rotulo 'IN TODAY'S MONEY' se lee como precio nuevo.",
+    "E7": "Lleva las tres senas: vieja tachada con nueva grande, etiqueta del formato arriba, cierre con nombre y frase. Ninguna se siente pegada."
+  },
+  "tells": [],
+  "total": 13,
+  "pasa": true,
+  "dudoso": false,
+  "impacto": "Si. Segundo 0:15: corte a verde con el $60 tachado y el $86 gigante, despues de la pausa de 0:14.",
+  "pregunta_impacto": {"respuesta": "si", "donde": "0:15, $60 tachado y $86 grande sobre verde"},
+  "pregunta_fila": {"respuesta": "si", "por_que": "Al lado de S6 y S7 se sostiene como formato tipografico simple: un dato por cuadro, fuente impresa como S5, cifra que llega temprano como S7. Lo unico que delata descuido es el subtitulo de 0:14."},
+  "fallas": [
+    {"donde": "0:14 (cuadro #13)", "que": "El subtitulo dice 'In today's money, that 60 dollars?': esta mal transcrito (la voz dice 'that's $60'), lleva un signo de pregunta que no va y es la unica pildora larga y de letra mas chica.", "arreglo": "Corregir el texto y partirlo en dos pildoras del tamano normal: 'In today's money,' y 'that's $60'."},
+    {"donde": "0:04 (cuadro #5)", "que": "'Like GTA 6?' aparece dos veces a la vez: en la linea con barra bajo el $80 y en la pildora del subtitulo.", "arreglo": "Dejar una sola: ocultar la pildora mientras entra la linea, o no mostrar la linea y dejar el subtitulo."},
+    {"donde": "0:08 y 0:12 (cuadros #9 y #12), 0:30 (#25)", "que": "El subtitulo escribe '60 dollars', 'at 80', '100 dollar one' mientras el cuadro escribe $60, $80, $100. Dos formas de la misma cifra a 200 px de distancia.", "arreglo": "Escribir las cifras del subtitulo con el signo: '$60.', 'at $80.', '$100 one.'"}
+  ],
+  "mejoraria": "Arreglar el subtitulo de 0:14: es el cuadro de la pausa antes del golpe y hoy es el unico con texto roto."
+}

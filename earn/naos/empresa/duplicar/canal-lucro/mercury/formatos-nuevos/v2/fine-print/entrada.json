@@ -1,0 +1,126 @@
+{
+ "id": "fine-print-gta-vi-box-v2",
+ "marca": "mercury",
+ "formato": "short",
+ "serie": "fine_print",
+ "para_quien": "Someone buying the GTA VI box as a gift, or planning to resell it later.",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "voz": "Buying the GTA Six box as a gift, or to resell it later?",
+   "pantalla": {
+    "etiqueta": "BUYING THE BOX?",
+    "grande": "GTA VI",
+    "renglon": "As a gift, or to resell it later?"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "dato",
+   "voz": "The box costs 80 dollars.",
+   "pantalla": {
+    "etiqueta": "THE GTA VI BOX",
+    "grande": "$80",
+    "unidad": "IN STORES"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "golpe",
+   "voz": "Inside the box: zero discs. You get a download code.",
+   "pantalla": {
+    "viejo": "A disc | expected",
+    "grande": "0",
+    "unidad": "DISCS INSIDE",
+    "renglon": "You get a download code"
+   },
+   "afirmaciones": [
+    "F3",
+    "F12"
+   ]
+  },
+  {
+   "papel": "dato",
+   "voz": "And a code has no resale value, one tech news site reports.",
+   "pantalla": {
+    "etiqueta": "A CODE, NOT A DISC",
+    "grande": "No resale",
+    "unidad": "VALUE"
+   },
+   "afirmaciones": [
+    "F12"
+   ]
+  },
+  {
+   "papel": "giro",
+   "voz": "The game itself is a download of up to 212 gigabytes.",
+   "pantalla": {
+    "etiqueta": "THE GAME ITSELF",
+    "grande": "212 GB",
+    "unidad": "TO DOWNLOAD, AT MOST",
+    "renglon": "Make room before you open it"
+   },
+   "afirmaciones": [
+    "F9"
+   ]
+  },
+  {
+   "papel": "cierre"
+  }
+ ],
+ "manana": "",
+ "titulo": "The $80 GTA 6 box has no disc inside",
+ "descripcion": "The fine print: what you agree to when you buy this.\n\nThe press release of Take-Two Interactive, the game's publisher (Jun 24, 2026), says the physical version of Grand Theft Auto VI contains \"a download code inside the box\". The standard edition is $79.99. TechTimes, a tech news site (Nov 9, 2026), reports that the code-in-box \"eliminates resale value for physical buyers\". GamesRadar, a games news site, quotes Rockstar: the pre-load file \"will require up to 212 GB depending on your device\".\n\nThis is a plain reading of a press release and press reports: not legal advice. Check the terms at your own store before you buy. The voice is synthetic.\n\nSources:\nhttps://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi\nhttps://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm\nhttps://www.gamesradar.com/games/grand-theft-auto/rockstar-confirms-gta-6-is-212gb-pre-loading-opens-earlier-than-previously-announced-for-digital-orders",
+ "comentario_fijado": "Sources: Take-Two press release of Jun 24, 2026 (\"containing a download code inside the box\"), TechTimes, GamesRadar quoting Rockstar (up to 212 GB). Not legal advice.",
+ "cifras_fijas": true,
+ "cifras_vivas": [],
+ "datos_utc": "2026-11-10T23:30:05Z",
+ "fuentes": [
+  {
+   "id": "F3",
+   "nombre": "Take-Two (publisher)",
+   "url": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+  },
+  {
+   "id": "F12",
+   "nombre": "TechTimes",
+   "url": "https://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm"
+  },
+  {
+   "id": "F9",
+   "nombre": "GamesRadar",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-confirms-gta-6-is-212gb-pre-loading-opens-earlier-than-previously-announced-for-digital-orders"
+  }
+ ],
+ "evidencia": [
+  {
+   "dato": "El juego cuesta 79.99 (la voz dice 80)",
+   "cita": "entertainment systems for $79.99",
+   "fuente": "F3"
+  },
+  {
+   "dato": "La versión física trae un código de descarga dentro de la caja",
+   "cita": "containing a download code inside the box",
+   "fuente": "F3"
+  },
+  {
+   "dato": "0 discos: no hay versión en disco",
+   "cita": "There is no disc-based version of the game.",
+   "fuente": "F12"
+  },
+  {
+   "dato": "El código en caja no tiene valor de reventa",
+   "cita": "This eliminates resale value for physical buyers",
+   "fuente": "F12"
+  },
+  {
+   "dato": "La descarga pesa hasta 212 GB",
+   "cita": "will require up to 212 GB depending on your device",
+   "fuente": "F9"
+  }
+ ]
+}

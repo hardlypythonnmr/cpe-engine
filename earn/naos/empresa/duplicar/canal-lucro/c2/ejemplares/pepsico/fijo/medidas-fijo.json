@@ -1,0 +1,138 @@
+{
+ "id": "pepsico-2026-11-09",
+ "estilo": "papel",
+ "piezas": [
+  "lamina.jpg",
+  "expediente/1.jpg",
+  "expediente/2.jpg",
+  "expediente/3.jpg",
+  "expediente/4.jpg",
+  "expediente/5.jpg",
+  "historia.jpg"
+ ],
+ "tamanos_px": {
+  "lamina": {
+   "empresa": 88,
+   "hizo": 50,
+   "sub": 28,
+   "frase": 50,
+   "c.rotulo": 46,
+   "aclara": 34,
+   "cuenta": 24,
+   "pie": 26,
+   "c.cifra": 380,
+   "c.palabra": 159
+  },
+  "historia": {
+   "empresa": 110,
+   "hizo": 55,
+   "sub": 28,
+   "frase": 76,
+   "c.rotulo": 46,
+   "aclara": 34,
+   "cuenta": 24,
+   "pie": 26,
+   "c.cifra": 440,
+   "c.palabra": 184
+  },
+  "expediente-1": {
+   "empresa": 104,
+   "sub": 30,
+   "hizo": 66,
+   "per": 26,
+   "frase": 96,
+   "portada": 96,
+   "pie": 26
+  },
+  "expediente-2": {
+   "hizo": 66,
+   "frase": 96,
+   "contexto": 34,
+   "pie": 26
+  },
+  "expediente-3": {
+   "a.cifra": 300,
+   "a.palabra": 126,
+   "a.rotulo": 46,
+   "desglose": 34,
+   "pie": 26
+  },
+  "expediente-4": {
+   "cuenta.a": 41,
+   "cuenta.b": 65,
+   "c.rotulo": 46,
+   "pie": 26,
+   "c.cifra": 500,
+   "c.palabra": 210
+  },
+  "expediente-5": {
+   "linea": 106,
+   "envio": 46,
+   "pie": 26
+  }
+ },
+ "canal": {
+  "nombre": "Difficult Decision"
+ },
+ "verificacion": {
+  "pedido": "temas/2026-11-12/pepsico-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en Bloomberg News (published by Transport Topics): «Ram Krishnan, the company’s North America CEO, sent a Nov. 9 memo to workers saying that “»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · PepsiCo: «Cash Returns to Shareholders (d) $8.9 billion $8.9 billion»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 8,900,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en Bloomberg News (published by Transport Topics): «PepsiCo Inc. is eliminating about 1,000 roles in North America»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 1,000"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V3c",
+    "pasa": true,
+    "evidencia": "el número B viene de un solo medio y la entrada lo atribuye (`b.aprox`, `b.segun`)"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (PepsiCo) es la del pedido (PepsiCo)"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

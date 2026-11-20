@@ -1,0 +1,70 @@
+{
+  "pieza": "worth-it-gta-vi-price-v2",
+  "formato": "short",
+  "verificado": true,
+  "corte": 9.0,
+  "total": 5.5,
+  "total_max": 10,
+  "pasa_puntaje": false,
+  "pasa_estetico": true,
+  "pasa_las_dos": false,
+  "desglose": {
+    "lectores": {
+      "total": 2.5,
+      "max": 7,
+      "regla": "un si cuenta solo si lector-A y lector-B coinciden; pesos de vara_guion.LECTOR",
+      "preguntas": {
+        "L1": {"pesos": 1.0, "si_A": true, "si_B": true, "cuenta": true, "puntos": 1.0},
+        "L2": {"pesos": 1.5, "si_A": false, "si_B": true, "cuenta": false, "puntos": 0},
+        "L3": {"pesos": 1.5, "si_A": true, "si_B": true, "cuenta": true, "puntos": 1.5},
+        "L4": {"pesos": 1.0, "si_A": false, "si_B": false, "cuenta": false, "puntos": 0},
+        "L5": {"pesos": 1.0, "si_A": true, "si_B": false, "cuenta": false, "puntos": 0},
+        "L6": {"pesos": 0.5, "si_A": false, "si_B": false, "cuenta": false, "puntos": 0},
+        "L7": {"pesos": 0.5, "si_A": false, "si_B": true, "cuenta": false, "puntos": 0}
+      }
+    },
+    "forma": {
+      "total": 3,
+      "max": 3,
+      "criterio": "medidas.json: 5 a 7 tramos (6), duracion 18 a 32 s (27,09), juez de gancho sin frenos, gancho compartido con para_quien. La racha quieta no cuenta (D-481).",
+      "herramienta_entiende_pieza": false,
+      "motivo": "vara_guion.medir da 1,64 con medidas de guion (palabras 63 contra tope 95 a 140, tres_cosas, giros, callback, cierre_limpio), que no aplican al productor simple. Se usan los 3 puntos por medidas.json, no el 1,64."
+    }
+  },
+  "estetico": {
+    "total": 13,
+    "escala": 14,
+    "pasa": true,
+    "regla": "pasa con 11 o mas, ningun 0 y las dos preguntas con si",
+    "ejes": {"E1": 2, "E2": 2, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+    "preguntas": {"tiene_impacto": true, "se_sostiene_en_fila": true},
+    "fuente": "estetico-lectura.json (claude-fable-5-2)"
+  },
+  "que_falla": {
+    "lector_A": [
+      "L2: dice que nada cambia para nadie; es una comparacion, no un cambio en lo que paga o recibe el comprador.",
+      "L5: no dice quien gana o pierde; el lector no lo orienta.",
+      "L7: la linea de Ultimate a 100 dolares abre una segunda comparacion y sobra.",
+      "L4: nadie de su circulo encaja.",
+      "L6: el cierre es el lema de Mercury, no vuelve a 80 dolares ni a la pregunta de apertura."
+    ],
+    "lector_B": [
+      "L2: si cuenta (paga 80 dolares), pero A dice no: no coinciden.",
+      "L4: nadie de su circulo encaja.",
+      "L5: A dice si, B dice no: no coinciden. B dice que solo lo sugiere 'about 14 over'.",
+      "L6: el cierre no vuelve a la pregunta 'mad about the price?'.",
+      "L7: si cuenta, pero A dice no: no coinciden."
+    ],
+    "estetico_eje": "E3 Tipografia y tamanos (1 de 2): el signo $ toca el rotulo de arriba en la apertura y se monta sobre 'THE NEW GAME' en el golpe. Es el unico punto bajo 2.",
+    "puntaje_fuera_de_vara":"total 5,5 contra corte 9,0: el puntaje falla por 3,5. Con el corte de Short de COMO-PRODUCIR (7,5) tambien falla."
+  },
+  "nota_corte": "El corte pedido es 9,0. COMO-PRODUCIR.md da 7,5 a los Shorts (vara_guion); el resultado no cambia con ninguno de los dos.",
+  "fuentes": [
+    "formatos-nuevos/v2/worth-it/lector-A.json",
+    "formatos-nuevos/v2/worth-it/lector-B.json",
+    "formatos-nuevos/v2/worth-it/medidas.json",
+    "formatos-nuevos/v2/worth-it/estetico-lectura.json",
+    "formatos-nuevos/v2/worth-it/pieza.json",
+    "formatos-nuevos/v2/worth-it/verificado"
+  ]
+}

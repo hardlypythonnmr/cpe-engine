@@ -1,0 +1,53 @@
+{
+ "slug": "procrastination-translated",
+ "titulo": "Procrastination, translated",
+ "clave": "2026-11-10|procrastination-translated",
+ "sale_utc": "2026-11-10T16:00:00Z",
+ "caption": "Busy? Please. You're hiding from a feeling. Four translations.\nName it first: bored, stupid, scared, judged. Then two minutes of the ugly part.\nLink in bio.\nby NMR\n#procrastination #productivity #selfawareness",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "Cella under a spotlight next to a big orange page. Save · 4 translations. Busy? Please. You're hiding from a feeling. 4 translations of procrastination.",
+  "2": "split in two colors: what you say on top, what it means below. What you say: “I'll do it tomorrow.” What it means: Today it makes me feel bad. Tomorrow-me can feel it.",
+  "3": "split in two colors: what you say on top, what it means below. What you say: “I work better under pressure.” What it means: Panic is the only boss I listen to.",
+  "4": "split in two colors: what you say on top, what it means below. What you say: “I just need to clean first.” What it means: The kitchen is easier than the email.",
+  "5": "split in two colors: what you say on top, what it means below. What you say: “I'll start when I feel like it.” What it means: Feeling like it rarely comes first.",
+  "6": "four steps as a list. The cheat sheet. When you put it off, ask: Save it. Read it before the next “tomorrow.” 1. What will this make me feel? 2. Name it: bored, stupid, scared, judged 3. Do two minutes of the ugly part 4. Then decide again."
+ },
+ "tipo_carrusel": "F3 Traductor · procrastinar · mar 10-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-06 (D-357, D-358, D-359)",
+ "filo": "V",
+ "blanco": "trabajo",
+ "mecanica_crecimiento": "guardar · destinatario: whoever said 'tomorrow' three days ago",
+ "eco": "L-b (a feeling, not time)",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-06/DISENO.md §5"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

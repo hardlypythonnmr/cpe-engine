@@ -1,0 +1,39 @@
+{
+ "said": {
+  "titulo": "Actually said: Oct 20 to Nov 11, 2026",
+  "caption": "Actually said. Oct 20 to Nov 11, 2026.\n\n1. eBay, Oct 21, 2026 (Memo announcing about 1,000 job cuts): \"Our strategy is working\"\nIt is working. About a thousand people are not. (Our take.)\n\n2. Netflix, Oct 20, 2026 (Letter to shareholders): \"create member value that lets us occasionally raise prices\"\nOccasionally. (Our take.)\n\n3. Kimberly-Clark, Nov 2, 2026 (SEC filing on an integration program): \"workforce optimization (approximately $0.4 billion)\"\nThe people are in the parentheses. (Our take.)\n\n4. JetBlue, Nov 4, 2026 (Statement on higher bag fees): \"This helps us keep our base fares competitive\"\nThe fare stays competitive. The suitcase pays. (Our take.)\n\n5. Verizon, Nov 11, 2026 (CEO, on cutting about 13,000 jobs): \"I really needed to show that this was different\"\nMost people just send a memo. (Our take.)\n\nThe gray lines are real and untouched. The black lines are our take.\n\nSources: FOX 5 New York (Reuters), Oct 22, 2026; Netflix shareholder letter (SEC), Oct 20, 2026; Kimberly-Clark Form 8-K (SEC), Nov 2, 2026; AP via Hawaii News Now, Nov 4, 2026; Fortune, Nov 11, 2026.\n\nLink in bio.",
+  "alt": "Five paper-colored cards titled Actually said. Each shows a company name, a date and a real corporate sentence in gray typewriter type, with a short dry line in black marked Our take. 1: eBay, \"Our strategy is working.\" 2: Netflix, \"create member value that lets us occasionally raise prices.\" 3: Kimberly-Clark, \"workforce optimization (approximately $0.4 billion).\" 4: JetBlue, \"This helps us keep our base fares competitive.\" 5: Verizon, \"I really needed to show that this was different.\"",
+  "fuentes": [
+   {
+    "nombre": "FOX 5 New York (Reuters)",
+    "fecha": "Oct 22, 2026",
+    "url": "https://www.fox5ny.com/news/ebay-cut-about-1000-jobs-second-round-layoffs-year",
+    "cita": "\"Our strategy is working,\" Iannone wrote in the memo."
+   },
+   {
+    "nombre": "Netflix shareholder letter (SEC)",
+    "fecha": "Oct 20, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm",
+    "cita": "create member value that lets us occasionally raise prices"
+   },
+   {
+    "nombre": "Kimberly-Clark Form 8-K (SEC)",
+    "fecha": "Nov 2, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926120990/tm2628636d1_8k.htm",
+    "cita": "workforce optimization (approximately $0.4 billion)"
+   },
+   {
+    "nombre": "AP via Hawaii News Now",
+    "fecha": "Nov 4, 2026",
+    "url": "https://www.hawaiinewsnow.com/2026/11/05/jetblue-raises-baggage-fees-again-jet-fuel-prices-stay-elevated/",
+    "cita": "This helps us keep our base fares competitive."
+   },
+   {
+    "nombre": "Fortune",
+    "fecha": "Nov 11, 2026",
+    "url": "https://fortune.com/2026/11/11/verizon-ceo-dan-schulman-turnaround-strategy-layoffs-customer-growth-ai",
+    "cita": "I really needed to show that this was different."
+   }
+  ]
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "fine-print-gta-vi-box-v2",
+ "formato": "short",
+ "serie": "fine_print",
+ "corte": 9.0,
+ "total": 7.0,
+ "desglose": {
+  "lectores": {
+   "max": 7,
+   "puntos": 4,
+   "regla": "un si cuenta solo si lector A y lector B coinciden",
+   "preguntas": {
+    "L1": {"A": true, "B": true, "cuenta": true},
+    "L2": {"A": true, "B": true, "cuenta": true},
+    "L3": {"A": true, "B": true, "cuenta": true},
+    "L4": {"A": false, "B": false, "cuenta": false},
+    "L5": {"A": true, "B": true, "cuenta": true},
+    "L6": {"A": false, "B": false, "cuenta": false},
+    "L7": {"A": false, "B": true, "cuenta": false, "nota": "desacuerdo"}
+   },
+   "si_A": 4,
+   "si_B": 5,
+   "fuentes": ["lector-A.json", "lector-B.json"]
+  },
+  "forma": {
+   "max": 3,
+   "puntos": 3,
+   "regla": "tabla.py no entiende el productor simple fine_print: aplica las 11 medidas de guion Short (palabras, giros, callback, cierre, tres cosas) que no son de esta pieza. Se da el 3 solo porque medidas.json dice validado: de 5 a 7 tramos, duracion de 18 a 32 s, el gancho comparte con para_quien. Racha quieta no cuenta (D-481); medidas.json rachas pasa con tope 3.0.",
+   "validado": ["de 5 a 7 tramos", "duración de 18 a 32 s", "gancho comparte con para_quien", "un golpe con viejo y grande", "giro después del golpe"],
+   "tabla_py_sin_entender": {"forma": 1.36, "lector": 5.0, "total": 6.36, "veredicto": "arregla"}
+  }
+ },
+ "estetico": {
+  "escala": 14,
+  "total": 12,
+  "puntos": {"E1": 2, "E2": 1, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+  "minimo_pasa": 11,
+  "ningun_cero": true,
+  "preguntas": {"tiene_impacto": "si", "se_sostiene_en_fila": "si"},
+  "pasa": true,
+  "fuente": "estetico-lectura.json"
+ },
+ "vara_numerica_pasa": false,
+ "estetico_pasa": true,
+ "pasa_las_dos": false,
+ "que_falla": {
+  "lector_A": "L4 (su círculo no lo diría solo), L6 (el cierre no retoma regalo o reventa), L7 (la cifra de 212 GB no se ve en pantalla)",
+  "lector_B": "L4 (nadie de su entorno habla de inversión), L6 (el cierre no repite el 'Buying the box?' del inicio). L7 lo dio sí, A no: desacuerdo, no cuenta",
+  "estetico": "E2 Rejilla/subtítulo (1): la línea con barra se pega a la píldora del subtítulo en 0:10-0:15 y 0:18.5-0:20. E3 Tipografía (1): viuda 'later?' sola en 0:02-0:05 y el subtítulo parte 'Buying the GTA / Six box as' escribiendo Six mientras la pantalla dice VI. E1, E4, E5, E6, E7 en 2",
+  "tabla_py": "tabla.py no entiende esta pieza: forma 1.36 por medidas de guion Short; el lector 5.0 usa pesos por evidencia, no la regla de coincidencia pedida. Se usó la regla pedida"
+ }
+}

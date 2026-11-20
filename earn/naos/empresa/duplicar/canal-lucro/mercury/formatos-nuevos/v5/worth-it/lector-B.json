@@ -1,0 +1,16 @@
+{
+ "respuestas": {
+  "L1": {"si": true, "evidencia": "\"In 2013, GTA 5 cost 60 dollars. GTA 6 comes out November 19 at 80.\" y \"In today's money, that 60 dollars? About 86.\""},
+  "L2": {"si": true, "evidencia": "\"So you pay about 6 dollars less than a 2013 buyer.\" El que compra la edición de 80 paga unos 6 menos que el de 2013; el de la edición de 100 paga 14 más."},
+  "L3": {"si": true, "evidencia": "\"In today's money, that 60 dollars? About 86.\" Los 60 de 2013 equivalen a unos 86 hoy: no lo habría adivinado sin la cifra."},
+  "L4": {"si": false, "evidencia": "Ninguna persona de mi círculo juega ni compra este tipo de juegos, y el guion no toca nada que a ellas les importe. Forzarlo sería no."},
+  "L5": {"si": true, "evidencia": "\"But the 100 dollar Ultimate Edition costs you 14 more.\" La edición con extras es la que deja más dinero al editor; el precio de 80 es el que lo hace ver barato."},
+  "L6": {"si": true, "evidencia": "Abre con \"Who in your family says everything costs more now\" y cierra con \"Tell your family GTA 6 got cheaper\": el final responde al principio."},
+  "L7": {"si": true, "evidencia": "Las seis líneas del guion cargan algo: la cifra de 2013, la fecha y el 80, el ajuste a 86, la diferencia de 6, el salto de 14 y el cierre. Ninguna sobra."}
+ },
+ "una_linea": "GTA 6 cuesta 80 y los 60 de GTA 5 en 2013 serían unos 86 hoy, así que sale algo más barato; pero la edición de 100 cuesta 14 más que eso, y el precio barato depende de cuál compres.",
+ "sobra": "",
+ "confuso": "La cuenta de los 6 dólares (\"about 6 dollars less than a 2013 buyer\") se entiende con la pantalla, no con la voz sola: al oído no queda claro que la comparación es entre 80 y 86, no entre 80 y 60.",
+ "donde_me_iria": "ninguno",
+ "mejoraria": "Decir la resta en la voz, por ejemplo \"80 against 86: about 6 cheaper\", para que la diferencia se entienda al oído sin hacer cuentas."
+}

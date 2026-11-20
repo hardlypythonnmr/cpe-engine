@@ -1,0 +1,296 @@
+{
+ "id": "fine-print-gta-vi-box-v4",
+ "serie": "fine_print",
+ "formato": "short",
+ "dur": 31.567,
+ "gancho_seg": 5.097,
+ "gancho_voz": "Whoever buys the gifts in your family should see what is in the GTA 6 box.",
+ "juez_texto": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [
+   "antes del segundo 3 la voz solo da un dato concreto; el cartel debe dar la cifra"
+  ],
+  "seg_sujeto": 0.36,
+  "seg_total": 5.82,
+  "palabras": 16,
+  "palabras_cartel": 2
+ },
+ "cues": {
+  "silencio": 11.042,
+  "golpe": 11.492,
+  "portada": 12.192
+ },
+ "tramos": [
+  {
+   "tramo": "1-gancho",
+   "serie": "fine_print",
+   "t0": 0.0,
+   "t1": 5.097,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 0.15,
+     "t1": 4.797,
+     "texto": "Whoever buys the gifts in your family should see what is in the GTA 6 box."
+    }
+   ]
+  },
+  {
+   "tramo": "2-hecho",
+   "serie": "fine_print",
+   "t0": 5.097,
+   "t1": 9.629,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 5.247,
+     "t1": 9.329,
+     "texto": "The box costs 80 dollars. Stores get it from November 12."
+    }
+   ]
+  },
+  {
+   "tramo": "3-golpe",
+   "serie": "fine_print",
+   "t0": 9.629,
+   "t1": 15.19,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 9.779,
+     "t1": 11.042,
+     "texto": "Inside the box:"
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 11.592,
+     "t1": 12.58,
+     "texto": "zero discs."
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 12.83,
+     "t1": 14.29,
+     "texto": "Just a download code."
+    }
+   ]
+  },
+  {
+   "tramo": "4-bolsillo",
+   "serie": "fine_print",
+   "t0": 15.19,
+   "t1": 19.667,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 15.34,
+     "t1": 19.367,
+     "texto": "Want to sell it later? You get zero dollars, one tech site reports."
+    }
+   ]
+  },
+  {
+   "tramo": "5-giro",
+   "serie": "fine_print",
+   "t0": 19.667,
+   "t1": 24.858,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 19.817,
+     "t1": 24.558,
+     "texto": "And before your gift plays? Up to 212 gigabytes to download first."
+    }
+   ]
+  },
+  {
+   "tramo": "6-vuelta",
+   "serie": "fine_print",
+   "t0": 24.858,
+   "t1": 29.41,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 25.008,
+     "t1": 29.11,
+     "texto": "In the box, a code and a long download. Tell them before they wrap it."
+    }
+   ]
+  },
+  {
+   "tramo": "7-firma",
+   "serie": "fine_print",
+   "t0": 29.41,
+   "t1": 31.567,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_onyx:.7+am_adam:.3",
+     "t0": 29.56,
+     "t1": 30.267,
+     "texto": "Mercury."
+    }
+   ]
+  }
+ ],
+ "apertura": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [],
+  "tinta_cuadro0": 0.121,
+  "cambio_0_05": 0.056,
+  "cambio_0_15": 0.068,
+  "cambio_15_30": 0.015
+ },
+ "rachas": {
+  "mayor": 2.75,
+  "rachas": [],
+  "pasa": true,
+  "tope": 3.0,
+  "seg": 31.5
+ },
+ "render_seg": 91.5,
+ "plantilla": "simple/fine_print@4",
+ "palabras": {
+  "total": 77,
+  "por_tramo": [
+   16,
+   11,
+   9,
+   13,
+   12,
+   15,
+   1
+  ],
+  "tope_por_tramo": 16
+ },
+ "validado": [
+  "un golpe con viejo y grande",
+  "giro después del golpe",
+  "de 7 a 8 tramos",
+  "el gancho nombra a alguien cercano: family",
+  "bolsillo después del golpe, con la persona del gancho",
+  "giro con cifra en pantalla, atado al bolsillo",
+  "la vuelta comparte con el gancho: box, family",
+  "hecho con su cuándo y su fuente, justo después del gancho",
+  "el veredicto de la vuelta cuenta con el giro",
+  "la vuelta manda la pieza a la persona del gancho",
+  "voz de 16 palabras o menos por tramo",
+  "cada texto de pantalla cabe en su campo (linea/anchos.json)",
+  "el gancho comparte con para_quien: box, buys, family, gift, gta, whoever",
+  "juez de gancho sin frenos",
+  "duración de 22 a 34 s",
+  "ningún cuadro quieto más de 3 s (por los tiempos de la voz)",
+  "firma de 2.2 s (tope 2.8)"
+ ],
+ "avisos": [
+  "juez de gancho: antes del segundo 3 la voz solo da un dato concreto; el cartel debe dar la cifra"
+ ],
+ "huella": {
+  "tramos": 7,
+  "papeles": [
+   "gancho",
+   "hecho",
+   "golpe",
+   "bolsillo",
+   "giro",
+   "vuelta",
+   "firma"
+  ],
+  "dur": 31.567
+ },
+ "voz_guion": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 5.097,
+   "voz": "Whoever buys the gifts in your family should see what is in the GTA 6 box."
+  },
+  {
+   "papel": "hecho",
+   "t0": 5.097,
+   "t1": 9.629,
+   "voz": "The box costs 80 dollars. Stores get it from November 12."
+  },
+  {
+   "papel": "golpe",
+   "t0": 9.629,
+   "t1": 15.19,
+   "voz": "Inside the box: zero discs. Just a download code."
+  },
+  {
+   "papel": "bolsillo",
+   "t0": 15.19,
+   "t1": 19.667,
+   "voz": "Want to sell it later? You get zero dollars, one tech site reports."
+  },
+  {
+   "papel": "giro",
+   "t0": 19.667,
+   "t1": 24.858,
+   "voz": "And before your gift plays? Up to 212 gigabytes to download first."
+  },
+  {
+   "papel": "vuelta",
+   "t0": 24.858,
+   "t1": 29.41,
+   "voz": "In the box, a code and a long download. Tell them before they wrap it."
+  },
+  {
+   "papel": "firma",
+   "t0": 29.41,
+   "t1": 31.567,
+   "voz": "Mercury."
+  }
+ ],
+ "verificacion": {
+  "pedido": "eventos/gta-vi/guiones/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "C1",
+    "pasa": true,
+    "evidencia": "7 filas de evidencia con su cita literal",
+    "aviso": false
+   },
+   {
+    "id": "C2",
+    "pasa": true,
+    "evidencia": "todas las cifras están en una cita, en la señal o en un cálculo",
+    "aviso": false
+   },
+   {
+    "id": "C3",
+    "pasa": true,
+    "evidencia": "todos los nombres están en las fuentes o la señal",
+    "aviso": false
+   },
+   {
+    "id": "C4",
+    "pasa": true,
+    "evidencia": "cada lámina con cifra lleva su fuente",
+    "aviso": false
+   },
+   {
+    "id": "S1",
+    "pasa": true,
+    "aviso": false,
+    "evidencia": "cada tramo con cifra nombra fuentes del pedido"
+   }
+  ]
+ },
+ "forma": {
+  "pasa": true,
+  "apertura": true,
+  "rachas": true
+ }
+}

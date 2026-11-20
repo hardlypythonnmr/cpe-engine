@@ -1,0 +1,44 @@
+{
+  "escala": 14,
+  "pieza": "worth-it-gta-vi-price-v2.mp4",
+  "lector": "claude-fable-5-2",
+  "visto": ["vis/tira-01.jpg", "vis/tira-02.jpg", "vis/tira-03.jpg", "vis/visionado.md", "apertura.jpg", "impacto.jpg", "cuadros propios del mp4 entre 0:10.9 y 0:22.1"],
+  "referencias": [
+    "S6 Which game died fastest? (The Sound Of Data)",
+    "S7 How a USB-C Cable Really Works (Things Opened)",
+    "S5 How Did the Florida Plane Crash Happen? (World explained)"
+  ],
+  "contra_referencias": {
+    "primer_cuadro": "igual a S6 y S7: la pregunta y la cifra estan puestas desde 0 s",
+    "ritmo": "igual: 5 tramos de 4 a 9 s, cada corte cae en un cambio de idea, con una pausa vacia antes del 86",
+    "tipografia": "igual en jerarquia (rotulos cortos en mono, cifra enorme); peor en el detalle: el signo $ choca con los rotulos",
+    "uso_del_dato": "igual o mejor que S5: una cifra por pantalla y la fuente impresa en todos los tramos"
+  },
+  "primer_cuadro": "Vi primero el $80 negro sobre verde plano. Lei primero 'PRE-ORDERING GTA VI?' y despues '$80'. Se entiende sin releer: una cifra y una pregunta. Si frenaria el dedo, por el tamano de la cifra y el verde.",
+  "puntos": {"E1": 2, "E2": 2, "E3": 1, "E4": 2, "E5": 2, "E6": 2, "E7": 2},
+  "notas": {
+    "E1": "Una sola cosa manda: $80. La etiqueta de arriba y la fuente quedan chicas y no compiten.",
+    "E2": "Rejilla a la izquierda con margenes iguales, tres niveles claros (rotulo, cifra, nota) y el tercio de abajo libre para la interfaz. La pildora de subtitulo va centrada sobre una rejilla a la izquierda: se nota, no rompe.",
+    "E3": "Tamanos con intencion y sin viudas, pero el signo $ toca el rotulo de arriba en la apertura y se monta sobre 'THE NEW GAME' en el golpe.",
+    "E4": "El verde es el precio de hoy y el crema es el pasado y la cuenta. El 86 tachado se apaga en verde oscuro. Contraste limpio en todo.",
+    "E5": "Cortes en 0:04.7, 0:08.6, 0:13.3 y 0:22.1, todos donde cambia la idea. Entre 0:08.7 y 0:11 la pantalla queda vacia antes del 86: pausa que carga el giro.",
+    "E6": "El 86 grande se encoge a la esquina, se tacha y entra el $80 a pantalla completa con el verde. Si tapo el tachado, no se entiende que el nuevo es mas barato; si tapo el rotulo, no se sabe de que juego es.",
+    "E7": "Lleva las tres senas: vieja tachada con nueva grande, etiqueta WORTH IT? arriba y cierre con nombre y frase. Ninguna se siente pegada."
+  },
+  "tells": [],
+  "impacto": "0:13.4: el $86 ya tachado arriba y el $80 enorme entrando con el verde",
+  "preguntas": {
+    "tiene_impacto": {"respuesta": true, "donde": "segundo 13.4 (corte al verde con el 86 tachado y el 80 grande)"},
+    "se_sostiene_en_fila": {"respuesta": true, "nota": "Al lado de S6 y S7 se sostiene por construccion: marcador fijo, una cifra por pantalla, fuente impresa. El unico descuido visible es el choque del signo $ con los rotulos."}
+  },
+  "total": 13,
+  "pasa": true,
+  "dudoso": false,
+  "fallas": [
+    {"donde": "0:13.4 a 0:20 (tramo verde del golpe)", "que": "La cola del signo $ del $80 se monta sobre el rotulo 'THE NEW GAME'.", "arreglo": "Bajar el rotulo unos 24 px o medir el alto real del glifo $ (su cola baja de la linea base) antes de colocar lo que va debajo."},
+    {"donde": "0:00 a 0:04.7 (apertura)", "que": "La punta del signo $ toca la linea 'PRE-ORDERING GTA VI?'.", "arreglo": "Dejar entre el rotulo y la cifra el mismo aire que hay en el tramo de $100 (unos 30 px mas)."},
+    {"donde": "0:15 a 0:17 y 0:25 a 0:26", "que": "La pildora de subtitulo repite casi letra por letra la nota que esta justo encima ('About $6 cheaper', 'Follow before you pay for it').", "arreglo": "Mientras la nota en pantalla dice lo mismo que la voz, apagar la pildora o separarla mas de la nota."},
+    {"donde": "0:17.5 a 0:22 (tramo de $100)", "que": "El segundo giro pega menos que el primero: el $100 no se mide contra el 86 con la misma sena, cambia a una caja negra.", "arreglo": "Menor y opcional: dejar el $86 chico arriba tambien en este tramo, sin tachar, para que el 'about $14 over' se lea con la misma gramatica. No agregar capas."}
+  ],
+  "mejoraria": "Corregir el choque del signo $ con los rotulos en la apertura y en el golpe; es lo unico que delata descuido."
+}

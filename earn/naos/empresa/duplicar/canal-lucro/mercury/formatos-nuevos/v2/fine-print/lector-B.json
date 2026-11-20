@@ -1,0 +1,12 @@
+{"respuestas": {"L1": {"si": true, "evidencia": "The box costs 80 dollars. Inside the box: zero discs."},
+ "L2": {"si": true, "evidencia": "And a code has no resale value, one tech news site reports. Quien la compra para revender pierde eso."},
+ "L3": {"si": true, "evidencia": "zero discs. You get a download code."},
+ "L4": {"si": false, "evidencia": "Ninguna frase toca inversion ni a quien habla de ella en el almuerzo; es una caja de juego."},
+ "L5": {"si": true, "evidencia": "And a code has no resale value, one tech news site reports."},
+ "L6": {"si": false, "evidencia": "El cierre 'Follow before you pay for it.' no repite el 'Buying the box?' del inicio."},
+ "L7": {"si": true, "evidencia": "Cada oracion trae un dato nuevo: precio, discos, codigo, tamano."}},
+ "una_linea": "Compras la caja de GTA VI, 80 dolares, y no trae disco: solo un codigo de descarga que no se puede revender; antes de pagar, mira el precio real.",
+ "sobra": "Los cuatro cuadros finales con el logo de Mercury (0:21 a 0:24) no agregan dato despues de la frase de cierre.",
+ "confuso": "No se sabe que sitio dice lo del codigo sin valor de reventa: la voz dice 'one tech news site' y en pantalla aparecen TECHTIMES y GAMESRADAR sin aclarar cual.",
+ "donde_me_iria": "0:21, cuando el logo Mercury vuelve a ocupar la pantalla y ya no hay dato nuevo.",
+ "mejoraria": "Cerrar con una lamina que repita 'Buying the box?' antes del logo, para que el final vuelva al principio y el bucle se note."}

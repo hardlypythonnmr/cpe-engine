@@ -1,0 +1,190 @@
+{
+ "id": "worth-it-gta-vi-price-v5",
+ "marca": "mercury",
+ "formato": "short",
+ "serie": "worth_it",
+ "para_quien": "Whoever in your family says everything costs more now.",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "voz": "Who in your family says everything costs more now, like GTA 6?",
+   "pantalla": {
+    "etiqueta": "Who says it all costs more?",
+    "grande": "$80",
+    "renglon": "Like GTA 6?"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "hecho",
+   "voz": "In 2013, GTA 5 cost 60 dollars. GTA 6 comes out November 19 at 80.",
+   "pantalla": {
+    "etiqueta": "GTA 5, the last one",
+    "grande": "$60",
+    "unidad": "Out November 19: GTA 6, $80"
+   },
+   "afirmaciones": [
+    "F12",
+    "F3"
+   ]
+  },
+  {
+   "papel": "golpe",
+   "voz": "In today's money, that 60 dollars? About 86.",
+   "pantalla": {
+    "viejo": "$60 | in 2013",
+    "grande": "$86",
+    "unidad": "In today's money"
+   },
+   "afirmaciones": [
+    "F11",
+    "F12"
+   ]
+  },
+  {
+   "papel": "bolsillo",
+   "voz": "So you pay about 6 dollars less than a 2013 buyer.",
+   "pantalla": {
+    "etiqueta": "So you pay about",
+    "grande": "$6",
+    "unidad": "Less than a 2013 buyer"
+   },
+   "afirmaciones": [
+    "F3",
+    "F11"
+   ]
+  },
+  {
+   "papel": "giro",
+   "voz": "But the 100 dollar Ultimate Edition costs you 14 more.",
+   "pantalla": {
+    "etiqueta": "Ultimate Edition, with extras",
+    "grande": "$100",
+    "unidad": "Costs you about $14 more"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "vuelta",
+   "voz": "Tell your family GTA 6 got cheaper, but not the 100 dollar one.",
+   "pantalla": {
+    "etiqueta": "Who says it all costs more?",
+    "grande": "Cheaper",
+    "renglon": "But not the $100 one"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "sello",
+   "voz": "",
+   "pantalla": {}
+  }
+ ],
+ "manana": "",
+ "titulo": "Everything costs more? GTA 6 at $80 costs less than the last one.",
+ "descripcion": "Worth it? Is it worth the price? Here is the math.\n\nGrand Theft Auto VI launches Nov 19, 2026 at $79.99; the Ultimate Edition is $99.99 (Take-Two Interactive, the game's publisher, press release of Jun 24, 2026). Grand Theft Auto V launched at $59.99 in 2013 (TechTimes, a tech news site, Nov 9, 2026). Moved to today's dollars with the US Bureau of Labor Statistics consumer price index (234.149 in Sept 2013, 337.511 in Oct 2026), $59.99 is about $86 (59.99 x 337.511 / 234.149 = 86.47). The standard game is about $6 below that; the Ultimate Edition is about $14 above it. The arithmetic is ours. The voice is synthetic.\n\nSources:\nhttps://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi\nhttps://api.bls.gov/publicAPI/v1/timeseries/data/CUUR0000SA0\nhttps://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm",
+ "comentario_fijado": "The math: $59.99 in Sept 2013 x 337.511 / 234.149 (US consumer price index) = about $86 today. GTA VI is $79.99, the Ultimate Edition $99.99.",
+ "cifras_fijas": true,
+ "cifras_vivas": [],
+ "datos_utc": "2026-11-10T23:30:05Z",
+ "fuentes": [
+  {
+   "id": "F3",
+   "nombre": "Take-Two (publisher)",
+   "url": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+  },
+  {
+   "id": "F12",
+   "nombre": "TechTimes",
+   "url": "https://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm"
+  },
+  {
+   "id": "F11",
+   "nombre": "US price index",
+   "url": "https://api.bls.gov/publicAPI/v1/timeseries/data/CUUR0000SA0"
+  },
+  {
+   "id": "F4",
+   "nombre": "Guinness Records",
+   "url": "https://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft-auto-breaks-six-sales-world-records-51900"
+  }
+ ],
+ "evidencia": [
+  {
+   "dato": "GTA VI cuesta 79.99 (la voz dice 80)",
+   "cita": "entertainment systems for $79.99",
+   "fuente": "F3"
+  },
+  {
+   "dato": "GTA V salió a 59.99 en 2013 (la voz dice 60)",
+   "cita": "GTA V launched at $59.99 in 2013.",
+   "fuente": "F12"
+  },
+  {
+   "dato": "Índice de precios de EE. UU.: 234.149 en septiembre de 2013",
+   "cita": "2013 September 234.149",
+   "fuente": "F11"
+  },
+  {
+   "dato": "Índice de precios de EE. UU.: 337.511 en octubre de 2026",
+   "cita": "2026 October 337.511",
+   "fuente": "F11"
+  },
+  {
+   "dato": "59.99 de 2013 en plata de hoy: 86.47, 'about 86'",
+   "calculo": "59.99 * 337.511 / 234.149 = 86.47",
+   "de": [
+    "F12",
+    "F11"
+   ]
+  },
+  {
+   "dato": "El juego nuevo sale unos 6 dólares más barato",
+   "calculo": "86.47 - 79.99 = 6",
+   "de": [
+    "F3"
+   ]
+  },
+  {
+   "dato": "La Ultimate Edition cuesta 99.99 (la voz dice 100)",
+   "cita": "will be available for $99.99",
+   "fuente": "F3"
+  },
+  {
+   "dato": "La Ultimate Edition sale unos 14 dólares más cara que el juego viejo en plata de hoy",
+   "calculo": "99.99 - 86.47 = 14",
+   "de": [
+    "F3"
+   ]
+  },
+  {
+   "dato": "GTA VI sale el 19 de noviembre",
+   "cita": "Launching November 19, 2026",
+   "fuente": "F3"
+  },
+  {
+   "dato": "La prensa lo llama GTA 5",
+   "cita": "GTA 5 has proved",
+   "fuente": "F4"
+  },
+  {
+   "dato": "La prensa lo llama GTA 6",
+   "cita": "GTA 6 is a 212GB download to pre-load",
+   "fuente": "F9"
+  },
+  {
+   "dato": "La Ultimate Edition trae vehículos y ropa extra (la voz dice 'extra cars and clothes')",
+   "cita": "exclusive collection of premium vehicles, weapons, apparel",
+   "fuente": "F3"
+  }
+ ],
+ "plantilla": "simple/worth_it@5",
+ "voz": "am_michael:.6+am_puck:.4",
+ "follow": "Follow before you pay for it."
+}

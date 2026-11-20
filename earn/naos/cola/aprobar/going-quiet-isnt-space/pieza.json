@@ -1,0 +1,53 @@
+{
+ "slug": "going-quiet-isnt-space",
+ "titulo": "Going quiet isn't space. It's a cliffhanger.",
+ "clave": "2026-11-11|going-quiet-isnt-space",
+ "sale_utc": "2026-11-11T16:00:00Z",
+ "caption": "Going quiet isn't space. It's a cliffhanger.\nSay what you need and when you're back. Four texts to copy.\nLink in bio.\nby NMR\n#avoidantattachment #relationships #communication",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "carrusel"
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg"
+ ],
+ "alt": {
+  "1": "Cella turned away from a phone lying on the floor. Save · 4 texts for pulling away. Going quiet isn't space. It's a cliffhanger. 4 texts that say what you mean, and when you're back.",
+  "2": "a chat bubble with the text, and a small Cella in the corner. When you need a night. I need tonight to myself. Not about us. Talk tomorrow at 7? Before you go quiet. Why it works: a time turns silence into a plan.",
+  "3": "a chat bubble with the text, and a small Cella in the corner. When it's too much. I'm overwhelmed, not done with you. Give me until Sunday. When it got serious and you want to run. Why it works: it names the feeling, not the exit.",
+  "4": "a chat bubble with the text, and a small Cella in the corner. When you owe a talk. Can we talk Saturday? I want to say it right, not fast. When you've been putting it off for a week. Why it works: it promises the talk instead of dodging it.",
+  "5": "a chat bubble with the text, and a small Cella in the corner. From the other side. When you go quiet, I get scared. Can you tell me when you're back? When they go quiet and you start to panic. Why it works: it asks for a time, not a reason.",
+  "6": "the four texts as a list. The cheat sheet. Space, said clearly: Send it to the one who needs space. Or the one waiting. 1. Tonight to myself. Talk at 7. 2. Overwhelmed, not done. 3. Saturday. Right, not fast. 4. Tell me when you're back."
+ },
+ "tipo_carrusel": "F1 Guion · avoidant · mie 11-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-06 (D-357, D-358, D-359)",
+ "filo": "V",
+ "blanco": "citas",
+ "mecanica_crecimiento": "guardar · destinatario: the one who needs space, or the one waiting",
+ "eco": "M8 (say what's happening and when you're back)",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-06/DISENO.md §5"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

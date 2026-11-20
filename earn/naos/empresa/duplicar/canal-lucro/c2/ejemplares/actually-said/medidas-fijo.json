@@ -1,0 +1,82 @@
+{
+ "id": "actually-said-2026-11-13",
+ "piezas": [
+  "said/1.jpg",
+  "said/2.jpg",
+  "said/3.jpg",
+  "said/4.jpg",
+  "said/5.jpg"
+ ],
+ "tamanos_px": {
+  "1": {
+   "titulo": 150,
+   "empresa": 84,
+   "sub": 28,
+   "frase": 104,
+   "linea": 58,
+   "pie": 24
+  },
+  "2": {
+   "empresa": 104,
+   "sub": 30,
+   "frase": 84,
+   "linea": 58,
+   "pie": 24
+  },
+  "3": {
+   "empresa": 104,
+   "sub": 29,
+   "frase": 84,
+   "linea": 58,
+   "pie": 24
+  },
+  "4": {
+   "empresa": 104,
+   "sub": 30,
+   "frase": 84,
+   "linea": 56,
+   "pie": 24
+  },
+  "5": {
+   "empresa": 104,
+   "sub": 30,
+   "frase": 84,
+   "linea": 58,
+   "pie": 24
+  }
+ },
+ "canal": {
+  "nombre": "Difficult Decision"
+ },
+ "verificacion": {
+  "pedido": "ejemplares/actually-said/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "eBay: la frase está palabra por palabra en FOX 5 New York (Reuters)"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "Netflix: la frase está palabra por palabra en SEC EDGAR · Netflix"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "Kimberly-Clark: la frase está palabra por palabra en SEC EDGAR · Kimberly-Clark"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "JetBlue: la frase está palabra por palabra en AP via Hawaii News Now"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "Verizon: la frase está palabra por palabra en Fortune"
+   }
+  ]
+ }
+}

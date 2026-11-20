@@ -1,0 +1,80 @@
+{
+ "id": "actually-said-2026-11-13",
+ "semana": "Oct 20 to Nov 11, 2026",
+ "portada": 1,
+ "frases": [
+  {
+   "empresa": "eBay",
+   "fecha": "Oct 21, 2026",
+   "quien": "Memo announcing about 1,000 job cuts",
+   "texto": "Our strategy is working.",
+   "linea": "It is working. About a thousand people are not.",
+   "fuente": "F1",
+   "cita": "\"Our strategy is working,\" Iannone wrote in the memo."
+  },
+  {
+   "empresa": "Netflix",
+   "fecha": "Oct 20, 2026",
+   "quien": "Letter to shareholders",
+   "texto": "create member value that lets us occasionally raise prices",
+   "linea": "Occasionally.",
+   "fuente": "F6"
+  },
+  {
+   "empresa": "Kimberly-Clark",
+   "fecha": "Nov 2, 2026",
+   "quien": "SEC filing on an integration program",
+   "texto": "workforce optimization (approximately $0.4 billion)",
+   "linea": "The people are in the parentheses.",
+   "fuente": "F7"
+  },
+  {
+   "empresa": "JetBlue",
+   "fecha": "Nov 4, 2026",
+   "quien": "Statement on higher bag fees",
+   "texto": "This helps us keep our base fares competitive.",
+   "linea": "The fare stays competitive. The suitcase pays.",
+   "fuente": "F4"
+  },
+  {
+   "empresa": "Verizon",
+   "fecha": "Nov 11, 2026",
+   "quien": "CEO, on cutting about 13,000 jobs",
+   "texto": "I really needed to show that this was different.",
+   "linea": "Most people just send a memo.",
+   "fuente": "F5"
+  }
+ ],
+ "fuentes": [
+  {
+   "id": "F1",
+   "nombre": "FOX 5 New York (Reuters)",
+   "fecha": "Oct 22, 2026",
+   "url": "https://www.fox5ny.com/news/ebay-cut-about-1000-jobs-second-round-layoffs-year"
+  },
+  {
+   "id": "F6",
+   "nombre": "Netflix shareholder letter (SEC)",
+   "fecha": "Oct 20, 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm"
+  },
+  {
+   "id": "F7",
+   "nombre": "Kimberly-Clark Form 8-K (SEC)",
+   "fecha": "Nov 2, 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926120990/tm2628636d1_8k.htm"
+  },
+  {
+   "id": "F4",
+   "nombre": "AP via Hawaii News Now",
+   "fecha": "Nov 4, 2026",
+   "url": "https://www.hawaiinewsnow.com/2026/11/05/jetblue-raises-baggage-fees-again-jet-fuel-prices-stay-elevated/"
+  },
+  {
+   "id": "F5",
+   "nombre": "Fortune",
+   "fecha": "Nov 11, 2026",
+   "url": "https://fortune.com/2026/11/11/verizon-ceo-dan-schulman-turnaround-strategy-layoffs-customer-growth-ai"
+  }
+ ]
+}

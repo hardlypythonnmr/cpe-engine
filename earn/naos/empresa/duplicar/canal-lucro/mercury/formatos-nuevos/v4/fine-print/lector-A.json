@@ -1,0 +1,13 @@
+{"respuestas": {
+"L1": {"si": true, "evidencia": "The box costs 80 dollars... Inside the box: zero discs. Just a download code; up to 212 gigabytes"},
+"L2": {"si": true, "evidencia": "Whoever buys the gifts in your family: no disc, a code, zero resale, 212 GB to download first"},
+"L3": {"si": true, "evidencia": "Inside the box: zero discs. Just a download code. No habria adivinado que una caja no trae disco"},
+"L4": {"si": true, "evidencia": "Mi mama: 'whoever buys the gifts in your family' la trae a la cabeza y 'tell them before they wrap it' es lo que le diria el domingo"},
+"L5": {"si": true, "evidencia": "Want to sell it later? You get zero dollars: pierde quien compra y quiere revender; la tienda/editora se lleva el precio de 80"},
+"L6": {"si": true, "evidencia": "Abre con 'Whoever buys the gifts in your family' y cierra con 'Tell them before they wrap it' sobre el mismo fondo rosa 'WHO BUYS YOUR FAMILY'S GIFTS?'"},
+"L7": {"si": false, "evidencia": "'In the box, a code and a long download.' repite lo ya dicho en los cuadros 3 y 5; sobra"}},
+"una_linea": "Si alguien de tu familia va a regalar el GTA 6, avisale: la caja de 80 dolares no trae disco, solo un codigo, no se puede revender y hay que bajar hasta 212 GB antes de jugar.",
+"sobra": "La oracion de recapitulacion 'In the box, a code and a long download.' (0:21 a 0:25): repite lo ya dicho. Tambien el segundo '$80 / from November 12' que se queda 4 s en pantalla.",
+"confuso": "No quedo claro quien dice que no hay reventa ('one tech site reports') ni si el 0 de reventa es regla o estimacion; el cierre hablado suena 'Markary', ininteligible. El '0 discs' aparece rosa y tachado 'A disc expected' sin que yo supiera que esperaba un disco.",
+"donde_me_iria": "0:05 a 0:10, la franja del $80 y la fecha del 12 de noviembre: dato de tienda que no cambia nada; la pieza arranca de verdad en 0:10 con 'zero discs'.",
+"mejoraria": "Abrir con el dato sorprendente (la caja de 80 dolares no trae disco) en vez de la frase larga 'Whoever buys the gifts...', y cortar el precio y la fecha o fundirlos en una sola linea, para que el 'zero discs' caiga antes de los 5 s."}

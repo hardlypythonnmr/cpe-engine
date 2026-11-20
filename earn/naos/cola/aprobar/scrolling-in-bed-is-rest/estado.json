@@ -1,0 +1,21 @@
+{
+ "slug": "scrolling-in-bed-is-rest",
+ "issue": 943,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-06T13:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "36b07da92adbdbaf2f8cb3a65d0bd24101ed02da959eba5ad70c734306699276",
+ "hashes": {
+  "imagen": "00398665ced59e46bd46e304dad469e38c4941db0078402a8fce55ce1b698ed1"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 6647833327,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "ig-6-15-nov-3",
+ "aprobado_evento_utc": "2026-11-05T02:19:33Z"
+}

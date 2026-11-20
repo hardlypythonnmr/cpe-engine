@@ -1,0 +1,13 @@
+{"respuestas": {
+"L1": {"si": true, "evidencia": "$80 for GTA Six vs $60 in 2013, which is about $86 today, so $6 cheaper"},
+"L2": {"si": false, "evidencia": "Talks to 'you pre-ordering' but nothing changes for anyone; it is a comparison, not a change in what a buyer pays or gets"},
+"L3": {"si": true, "evidencia": "'$80 ... about $6 cheaper' than the old game in today's money; I would have guessed pricier"},
+"L4": {"si": false, "evidencia": "No one in my circle comes to mind from the screens; a gamer is not among them, forcing it would be a stretch"},
+"L5": {"si": true, "evidencia": "Buyers gain $6 on the base game, lose $14 on the $100 Ultimate Edition vs the old game"},
+"L6": {"si": false, "evidencia": "Ending is the Mercury sign-off, 'Follow before you pay for it'; it does not return to the $80 or the opening question"},
+"L7": {"si": false, "evidencia": "The Ultimate Edition line ($100, $14 over) opens a second comparison and the piece never answers 'worth it?'"}},
+"una_linea": "GTA VI at $80 is actually about $6 cheaper than GTA V was in 2013 once you adjust for inflation, but the $100 edition is $14 over.",
+"sobra": "The Ultimate Edition $100 / $14 line, or at least its place; the 4.7 s opening static on $80 (same frame, only captions change)",
+"confuso": "Never gives a verdict on 'worth it?'; the $86 is struck through, which reads like a crossed-out price rather than today's-money equivalent; Ultimate edition compared to the old game, not the new base price",
+"donde_me_iria": "0:00 to 0:04.7 (nothing new on screen but the caption) and again around 0:20 when the Ultimate Edition tangent starts",
+"mejoraria": "Open on the surprise ($80 is $6 cheaper than GTA V in today's money) instead of the static '$80 or mad about the price?', and close with a verdict on worth it that returns to the $80"}

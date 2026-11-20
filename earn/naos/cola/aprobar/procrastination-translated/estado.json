@@ -1,0 +1,21 @@
+{
+ "slug": "procrastination-translated",
+ "issue": 942,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-10T16:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "aaa0376471c483b13646511024437fb3459e96aca95167144ac3226be6b8fd31",
+ "hashes": {
+  "carrusel": "fe0d6cb46d353a82988acdc8b2819a03862f5209569524ae5506e39e812fda90"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6647827234,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "ig-6-15-nov-2",
+ "aprobado_evento_utc": "2026-11-05T02:19:22Z"
+}

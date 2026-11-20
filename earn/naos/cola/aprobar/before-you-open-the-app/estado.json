@@ -1,0 +1,21 @@
+{
+ "slug": "before-you-open-the-app",
+ "issue": 941,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-06T16:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "ba023a6ec5a2e6eb4e6cf013897c1853b6ed4777de4f17281e2038c964fa6a6d",
+ "hashes": {
+  "carrusel": "6995061e1a228967f7d9211881eff381cfd51fb654ba9fbc9899e5e166390d04"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6647809738,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "ig-6-15-nov-1",
+ "aprobado_evento_utc": "2026-11-05T02:19:14Z"
+}

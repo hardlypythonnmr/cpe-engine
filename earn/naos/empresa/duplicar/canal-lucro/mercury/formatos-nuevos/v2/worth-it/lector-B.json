@@ -1,0 +1,12 @@
+{"respuestas": {"L1": {"si": true, "evidencia": "Pre-ordering GTA Six for 80 dollars, or mad about the price? La cifra de 80 dólares dice qué pasó."},
+ "L2": {"si": true, "evidencia": "Quien hace el pedido paga 80 dólares: 'And the new game? 80 dollars. About 6 dollars cheaper.' Le cambia el precio que paga."},
+ "L3": {"si": true, "evidencia": "'In today's money, that is about 86 dollars. And the new game? 80 dollars.' No esperaba que 80 de hoy fuera más barato que 60 de 2013."},
+ "L4": {"si": false, "evidencia": "Nadie de mi círculo encaja: la pieza trata del precio de un videojuego y no toca a mi hermana, mi jefe, mi primo, mi amiga ni mi mamá."},
+ "L5": {"si": false, "evidencia": "El guion da los precios pero nunca dice quién gana o quién pierde; 'about 14 over the last game' solo lo sugiere."},
+ "L6": {"si": false, "evidencia": "El cierre dice 'Follow before you pay for it.' y no vuelve a la pregunta de 'mad about the price?' del principio."},
+ "L7": {"si": true, "evidencia": "Cada oración trae una cifra nueva o el llamado final: 60, 86, 80, 100 y el cierre de marca."}},
+ "una_linea": "GTA VI sale a 80 dólares y, en dinero de hoy, el GTA V de 2013 valdría unos 86: el precio nuevo es más bajo de lo que parece, y la Ultimate sube a 100.",
+ "sobra": "De 0:22 a 0:27 la tarjeta de Mercury se queda quieta, con 'Follow before you pay for it.' repetido en pantalla: unos cuatro segundos sin dato nuevo.",
+ "confuso": "El '$86' sale tachado con la etiqueta 'LAST GAME' y no se entiende a la primera si el tachado es el precio viejo o si quedó anulado.",
+ "donde_me_iria": "0:24, en la tarjeta 'Mercury' que repite el lema sin cifra nueva.",
+ "mejoraria": "Responder el 'WORTH IT?' de la esquina antes del cierre con una frase que use el dato que lo decide (80 hoy contra 86 de 2013, y la Ultimate a 100), en vez de dejar al lector sin veredicto."}

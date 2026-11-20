@@ -1,0 +1,21 @@
+{
+ "slug": "going-quiet-isnt-space",
+ "issue": 941,
+ "version": 1,
+ "estado": "publicado",
+ "sale_utc": "2026-11-11T16:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6bbcf1a5ef217820c124173d125b0a88b5d9a4b96a3cc87d60360e1dfa2e3e72",
+ "hashes": {
+  "carrusel": "9e4038a0fa8181243965dac00c46b9f19c037fbce46ca56a8a89d308fa23fc02"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 6647816698,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": true,
+ "tanda": "ig-6-15-nov-1",
+ "aprobado_evento_utc": "2026-11-05T02:19:14Z"
+}

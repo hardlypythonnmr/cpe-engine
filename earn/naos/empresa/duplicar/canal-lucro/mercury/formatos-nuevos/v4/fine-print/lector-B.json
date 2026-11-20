@@ -1,0 +1,15 @@
+{"respuestas": {
+  "L1": {"si": true, "evidencia": "The box costs 80 dollars. Stores get it from November 12."},
+  "L2": {"si": true, "evidencia": "Whoever buys the gifts in your family should see what is in the GTA 6 box. Tell them before they wrap it."},
+  "L3": {"si": true, "evidencia": "Inside the box: zero discs. Just a download code. Up to 212 gigabytes to download first."},
+  "L4": {"si": true, "evidencia": "Whoever buys the gifts in your family: pienso en mi mamá, que es la que suele comprar los regalos y llama los domingos."},
+  "L5": {"si": true, "evidencia": "Want to sell it later? You get zero dollars, one tech site reports. Quien compra pierde el valor de reventa."},
+  "L6": {"si": true, "evidencia": "Abre con Whoever buys the gifts in your family y cierra con Tell them before they wrap it: vuelve al que compra el regalo."},
+  "L7": {"si": false, "evidencia": "Mercury. al final repite lo que ya dice el rótulo de la cabecera, así que sobra."}
+ },
+ "una_linea": "La caja de GTA 6 cuesta 80 dólares, no trae disco, solo un código con hasta 212 GB de descarga y no vale nada si la revendes: avísale a quien compra el regalo antes de envolverla.",
+ "sobra": "El 'Mercury.' final: repite el rótulo de la cabecera.",
+ "confuso": "",
+ "donde_me_iria": "ninguno",
+ "mejoraria": "Poner el dato de los 80 dólares o de los cero discos antes del segundo 5: en los primeros cinco segundos solo hay el título y la pregunta, y el dato que hace la pieza llega después."
+}

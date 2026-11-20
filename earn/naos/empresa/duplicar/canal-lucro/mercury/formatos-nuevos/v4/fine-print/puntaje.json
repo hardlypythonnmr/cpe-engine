@@ -1,0 +1,37 @@
+{
+  "pieza": "fine-print-gta-vi-box-v4",
+  "formato": "short",
+  "regla_lectores": "7 puntos repartidos en L1 a L7 (pesos de vara_guion.py). Un sí cuenta solo si A y B dicen sí, con evidencia.",
+  "lectores": {
+    "L1": {"pregunta": "Dice en una oración qué pasó, con la cifra correcta", "A": true, "B": true, "cuenta": true, "vale": 1.0, "evidencia_A": "The box costs 80 dollars... Inside the box: zero discs. Just a download code", "evidencia_B": "The box costs 80 dollars. Stores get it from November 12."},
+    "L2": {"pregunta": "Dice para quién cambia algo y qué le cambia", "A": true, "B": true, "cuenta": true, "vale": 1.5, "evidencia_A": "Whoever buys the gifts in your family: no disc, a code, zero resale, 212 GB to download first", "evidencia_B": "Whoever buys the gifts in your family should see what is in the GTA 6 box. Tell them before they wrap it."},
+    "L3": {"pregunta": "Nombra el dato que no esperaba, y no lo habría adivinado", "A": true, "B": true, "cuenta": true, "vale": 1.5, "evidencia_A": "Inside the box: zero discs. Just a download code. No habria adivinado que una caja no trae disco", "evidencia_B": "Inside the box: zero discs. Just a download code. Up to 212 gigabytes to download first."},
+    "L4": {"pregunta": "Nombra a una persona concreta a quien se lo mandaría y por qué", "A": true, "B": true, "cuenta": true, "vale": 1.0, "evidencia_A": "Mi mama: 'whoever buys the gifts in your family' la trae a la cabeza y 'tell them before they wrap it' es lo que le diria el domingo", "evidencia_B": "Whoever buys the gifts in your family: pienso en mi mamá, que es la que suele comprar los regalos y llama los domingos."},
+    "L5": {"pregunta": "Entendió cómo se orienta al menos un actor (quién gana o quién pierde)", "A": true, "B": true, "cuenta": true, "vale": 1.0, "evidencia_A": "Want to sell it later? You get zero dollars: pierde quien compra y quiere revender", "evidencia_B": "Want to sell it later? You get zero dollars, one tech site reports. Quien compra pierde el valor de reventa."},
+    "L6": {"pregunta": "Notó que el final vuelve al principio", "A": true, "B": true, "cuenta": true, "vale": 0.5, "evidencia_A": "Abre con 'Whoever buys the gifts in your family' y cierra con 'Tell them before they wrap it'", "evidencia_B": "Abre con Whoever buys the gifts in your family y cierra con Tell them before they wrap it"},
+    "L7": {"pregunta": "No hay una oración que sobre", "A": false, "B": false, "cuenta": false, "vale": 0.0, "evidencia_A": "'In the box, a code and a long download.' repite lo ya dicho en los cuadros 3 y 5; sobra", "evidencia_B": "Mercury. al final repite lo que ya dice el rótulo de la cabecera, así que sobra."}
+  },
+  "lectores_total": 6.5,
+  "forma": {
+    "vale": 3,
+    "criterio": "medidas.json: 'validado' trae 'de 7 a 8 tramos', 'duración de 22 a 34 s' y 'juez de gancho sin frenos'. Forma por medidas del productor simple: la herramienta de forma vieja no entiende esta pieza, así que el punto se da a mano por esos tres validados. La racha quieta no cuenta (D-481); de todos modos pasa (mayor 2.75 s, tope 3.0).",
+    "tramos": true,
+    "duracion": true,
+    "gancho": true
+  },
+  "total": 9.5,
+  "corte": 9.0,
+  "pasa": true,
+  "estetico": {
+    "total": 12,
+    "escala": 14,
+    "minimo": 11,
+    "ningun_cero": true,
+    "tiene_impacto": "sí",
+    "se_sostiene_en_fila": "sí",
+    "pasa": true,
+    "fuente": "estetico-lectura.json (claude-fable-5-2)"
+  },
+  "pasa_las_dos": true,
+  "verificado": true
+}

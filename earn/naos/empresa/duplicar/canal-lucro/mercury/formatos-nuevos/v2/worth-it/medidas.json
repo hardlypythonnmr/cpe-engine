@@ -1,0 +1,268 @@
+{
+ "id": "worth-it-gta-vi-price-v2",
+ "serie": "worth_it",
+ "formato": "short",
+ "dur": 27.091,
+ "gancho_seg": 4.669,
+ "gancho_voz": "Pre-ordering GTA Six for 80 dollars, or mad about the price?",
+ "juez_texto": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [],
+  "seg_sujeto": 0.36,
+  "seg_total": 4.36,
+  "palabras": 12,
+  "palabras_cartel": 1
+ },
+ "cues": {
+  "silencio": 12.874,
+  "golpe": 13.324,
+  "portada": 14.024
+ },
+ "tramos": [
+  {
+   "tramo": "1-gancho",
+   "serie": "worth_it",
+   "t0": 0.0,
+   "t1": 4.669,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 0.15,
+     "t1": 4.369,
+     "texto": "Pre-ordering GTA Six for 80 dollars, or mad about the price?"
+    }
+   ]
+  },
+  {
+   "tramo": "2-dato",
+   "serie": "worth_it",
+   "t0": 4.669,
+   "t1": 8.604,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 4.819,
+     "t1": 8.304,
+     "texto": "The last game cost 60 dollars, in 2013."
+    }
+   ]
+  },
+  {
+   "tramo": "3-dato",
+   "serie": "worth_it",
+   "t0": 8.604,
+   "t1": 11.861,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 8.754,
+     "t1": 11.561,
+     "texto": "In today's money, that is about 86 dollars."
+    }
+   ]
+  },
+  {
+   "tramo": "4-golpe",
+   "serie": "worth_it",
+   "t0": 11.861,
+   "t1": 16.776,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 12.011,
+     "t1": 12.874,
+     "texto": "And the new game?"
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 13.424,
+     "t1": 14.271,
+     "texto": "80 dollars."
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 14.521,
+     "t1": 15.876,
+     "texto": "About 6 dollars cheaper."
+    }
+   ]
+  },
+  {
+   "tramo": "5-giro",
+   "serie": "worth_it",
+   "t0": 16.776,
+   "t1": 22.123,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 16.926,
+     "t1": 21.823,
+     "texto": "But the Ultimate Edition is 100 dollars: about 14 over the last game."
+    }
+   ]
+  },
+  {
+   "tramo": "6-cierre",
+   "serie": "worth_it",
+   "t0": 22.123,
+   "t1": 27.091,
+   "voces": [
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 22.273,
+     "t1": 24.661,
+     "texto": "Mercury: the real price of today's news."
+    },
+    {
+     "serie": "propia",
+     "mezcla": "am_michael:.6+am_puck:.4",
+     "t0": 24.961,
+     "t1": 26.391,
+     "texto": "Follow before you pay for it."
+    }
+   ]
+  }
+ ],
+ "apertura": {
+  "pasa": true,
+  "frenos": [],
+  "avisos": [],
+  "tinta_cuadro0": 0.115,
+  "cambio_0_05": 0.05,
+  "cambio_0_15": 0.045,
+  "cambio_15_30": 0.03
+ },
+ "rachas": {
+  "mayor": 2.75,
+  "rachas": [],
+  "pasa": true,
+  "tope": 3.0,
+  "seg": 27.0
+ },
+ "render_seg": 190.0,
+ "plantilla": "simple/worth_it@2",
+ "palabras": {
+  "total": 63,
+  "por_tramo": [
+   11,
+   8,
+   8,
+   10,
+   13,
+   13
+  ],
+  "tope_por_tramo": 16
+ },
+ "validado": [
+  "un golpe con viejo y grande",
+  "giro después del golpe",
+  "de 5 a 7 tramos",
+  "voz de 16 palabras o menos por tramo",
+  "cada texto de pantalla cabe en su campo (linea/anchos.json)",
+  "el gancho comparte con para_quien: gta, mad, ordering, pre, price",
+  "juez de gancho sin frenos",
+  "duración de 18 a 32 s",
+  "ningún cuadro quieto más de 3 s (por los tiempos de la voz)"
+ ],
+ "avisos": [],
+ "huella": {
+  "tramos": 6,
+  "papeles": [
+   "gancho",
+   "dato",
+   "dato",
+   "golpe",
+   "giro",
+   "cierre"
+  ],
+  "dur": 27.091
+ },
+ "voz_guion": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 4.669,
+   "voz": "Pre-ordering GTA Six for 80 dollars, or mad about the price?"
+  },
+  {
+   "papel": "dato",
+   "t0": 4.669,
+   "t1": 8.604,
+   "voz": "The last game cost 60 dollars, in 2013."
+  },
+  {
+   "papel": "dato",
+   "t0": 8.604,
+   "t1": 11.861,
+   "voz": "In today's money, that is about 86 dollars."
+  },
+  {
+   "papel": "golpe",
+   "t0": 11.861,
+   "t1": 16.776,
+   "voz": "And the new game? 80 dollars. About 6 dollars cheaper."
+  },
+  {
+   "papel": "giro",
+   "t0": 16.776,
+   "t1": 22.123,
+   "voz": "But the Ultimate Edition is 100 dollars: about 14 over the last game."
+  },
+  {
+   "papel": "cierre",
+   "t0": 22.123,
+   "t1": 27.091,
+   "voz": "Mercury: the real price of today's news. Follow before you pay for it."
+  }
+ ],
+ "verificacion": {
+  "pedido": "eventos/gta-vi/guiones/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "C1",
+    "pasa": true,
+    "evidencia": "8 filas de evidencia con su cita literal",
+    "aviso": false
+   },
+   {
+    "id": "C2",
+    "pasa": true,
+    "evidencia": "todas las cifras están en una cita, en la señal o en un cálculo",
+    "aviso": false
+   },
+   {
+    "id": "C3",
+    "pasa": true,
+    "evidencia": "todos los nombres están en las fuentes o la señal",
+    "aviso": false
+   },
+   {
+    "id": "C4",
+    "pasa": true,
+    "evidencia": "cada lámina con cifra lleva su fuente",
+    "aviso": false
+   },
+   {
+    "id": "S1",
+    "pasa": true,
+    "aviso": false,
+    "evidencia": "cada tramo con cifra nombra fuentes del pedido"
+   }
+  ]
+ },
+ "forma": {
+  "pasa": true,
+  "apertura": true,
+  "rachas": true
+ }
+}

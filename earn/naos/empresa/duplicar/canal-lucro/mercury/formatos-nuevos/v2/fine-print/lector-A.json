@@ -1,0 +1,14 @@
+{"respuestas": {
+"L1": {"si": true, "evidencia": "The box costs 80 dollars. Inside the box: zero discs. You get a download code."},
+"L2": {"si": true, "evidencia": "Quien compra la caja de regalo o para revender: no hay disco y el codigo no tiene valor de reventa."},
+"L3": {"si": true, "evidencia": "Zero discs: una caja de 80 dolares sin disco; no lo habria adivinado."},
+"L4": {"si": false, "evidencia": "Ninguna de mi circulo sale sola: mi hermana vende ceramica, no reventa juegos; tendria que forzarlo."},
+"L5": {"si": true, "evidencia": "Pierde quien compra la caja para revender: a code has no resale value."},
+"L6": {"si": false, "evidencia": "El final es Mercury y Follow before you pay for it; no retoma la pregunta inicial de regalo o reventa."},
+"L7": {"si": false, "evidencia": "The game itself is a download of up to 212 gigabytes: la cifra no se ve en pantalla (cuadro 'THE GAME ITSELF' sin numero) y no sirve al regalo ni a la reventa."}
+},
+"una_linea": "La caja de 80 dolares del GTA VI no trae disco, solo un codigo de descarga que no se puede revender; mira antes de comprarla de regalo.",
+"sobra": "La oracion de los 212 GB (0:16 a 0:20): no tiene cifra visible y no toca regalo ni reventa; el cierre largo de marca tambien alarga.",
+"confuso": "Al inicio 'GTA Six' y 'GTA VI' sin decir que es el videojuego; el 'one tech news site reports' deja dudando si el dato es firme.",
+"donde_me_iria": "0:16 (tramo de 212 GB, sin cifra en pantalla), luego el cierre de marca en 0:20; el momento fuerte es el 0 de 0:08.",
+"mejoraria": "Convertir los 212 GB en un golpe visible y util (cifra grande, o lo que implica para quien regala) o cortarlos, y cerrar con el regalo o la reventa en vez de la marca."}

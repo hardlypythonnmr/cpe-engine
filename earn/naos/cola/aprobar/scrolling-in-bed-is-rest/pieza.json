@@ -1,0 +1,39 @@
+{
+ "slug": "scrolling-in-bed-is-rest",
+ "titulo": "Scrolling in bed counts as rest. True or lie?",
+ "clave": "2026-11-06|scrolling-in-bed-is-rest",
+ "sale_utc": "2026-11-06T13:00:00Z",
+ "caption": "Scrolling in bed counts as rest. True or lie?\nCella picked a side. Your turn.\nLink in bio.\nby NMR\n#doomscrolling #bedtime #screentime",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "imagen"
+ ],
+ "archivo": "imagen.jpg",
+ "alt": "the image is split: TRUE on lilac with a phone lying on the floor, LIE on red with Cella in a crown under a spotlight. Scrolling in bed counts as rest. Left: True. Right: Lie. Pick a side.",
+ "tipo_imagen": "F4 Elige · scroll · vie 6-nov",
+ "seccion": "humanity",
+ "tanda": "imagenes-2026-11-06 (D-357, D-358, D-359)",
+ "filo": "P",
+ "blanco": "redes",
+ "mecanica_crecimiento": "comentar · destinatario: the friend who 'rests' for two hours on their phone",
+ "eco": "L-a",
+ "revisiones": [
+  {
+   "que": "Clarity test",
+   "estado": "OK",
+   "nota": "cold reader at 360 px: see cola/imagenes-2026-11-06/DISENO.md §5"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md (D-336) and D-359: no real person or protected group, no health advice, no crisis joke; Cella without hands"
+  },
+  {
+   "que": "Links",
+   "estado": "OK",
+   "nota": "no urls in the piece"
+  }
+ ]
+}

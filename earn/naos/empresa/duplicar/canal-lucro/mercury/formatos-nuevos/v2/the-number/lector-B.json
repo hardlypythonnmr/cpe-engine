@@ -1,0 +1,16 @@
+{
+  "respuestas": {
+    "L1": {"si": true, "evidencia": "GTA Six comes out 4,811 days later."},
+    "L2": {"si": false, "evidencia": "El guion no dice para quién cambia nada ni qué le cambia; solo habla de un bebé, una clasificación y un precio sin dueño."},
+    "L3": {"si": true, "evidencia": "a baby was born that same day."},
+    "L4": {"si": false, "evidencia": "Ninguna persona de mi círculo sale sin forzarla. El jefe que invierte por app es lo más cercano, pero el video no habla de inversión salvo por la última línea."},
+    "L5": {"si": false, "evidencia": "No veo quién gana o pierde: el publisher aparece en la fuente, pero el guion no dice que alguien salga ganando o perdiendo."},
+    "L6": {"si": false, "evidencia": "El final cierra con Mercury, no con el bebé ni con GTA V; no vuelve al principio."},
+    "L7": {"si": false, "evidencia": "'So that kid is 4 years too young' repite la clasificación de 17 años y la edad de 13 ya dichas."}
+  },
+  "una_linea": "GTA VI sale 4.811 días después de GTA V, y el chico que nació el día de GTA V, que ahora tiene 13, queda demasiado chico para jugarlo.",
+  "sobra": "La oración 'So that kid is 4 years too young': repite la clasificación de 17 años y la edad de 13 que ya están en el guion.",
+  "confuso": "No queda claro qué es Mercury ni qué precio cobra: aparece al final como marca, con 'the real price of today's news', sin decir qué se compra ni a quién.",
+  "donde_me_iria": "0:20 (cuadro #15): la marca Mercury sigue fija tres segundos sin información nueva.",
+  "mejoraria": "Que la última línea diga qué tiene que ver Mercury con el chico de 13 años o con el precio del juego, porque el cierre pide seguir sin explicar para qué."
+}

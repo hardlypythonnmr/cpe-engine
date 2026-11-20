@@ -1,0 +1,39 @@
+{
+  "escala": 14,
+  "pieza": "fine-print-gta-vi-box-v4.mp4",
+  "lector": "claude-fable-5-2",
+  "visto": ["apertura.jpg", "vis/visionado.md", "vis/tira-01.jpg", "vis/tira-02.jpg", "vis/tira-03.jpg", "vis/tira-04.jpg"],
+  "referencias": [
+    "S6 Which game died fastest? (The Sound Of Data): marco fijo y una cifra por caso",
+    "S7 How a USB-C Cable Really Works (Things Opened): la cifra grande temprano y rótulos cortos",
+    "S5 How Did the Florida Plane Crash Happen? (World explained): fuente y aviso impresos en el cuadro"
+  ],
+  "primer_cuadro": "Vi primero el rosa plano y 'GTA 6' en negro enorme. Leí primero 'GTA 6' y después la pregunta de arriba, 'WHO BUYS YOUR FAMILY'S GIFTS?'. Una sola cosa manda. Frenaría el dedo por el nombre del juego; la pregunta dice a quién le habla.",
+  "puntos": {"E1": 2, "E2": 1, "E3": 2, "E4": 2, "E5": 2, "E6": 1, "E7": 2},
+  "notas_por_eje": {
+    "E1": "GTA 6 manda sobre fondo plano y se entiende sin releer.",
+    "E2": "Hay margen izquierdo y rejilla que se siente, pero todo el bloque vive en la mitad de arriba y queda casi media pantalla vacía abajo; la píldora del subtítulo va centrada contra un cuadro alineado a la izquierda; en 0:10 'A disc EXPECTED' flota solo arriba.",
+    "E3": "Tres tamaños con intención (mono chica, cifra enorme, frase media), cortes limpios, ninguna viuda.",
+    "E4": "El rosa marca a quién le habla y el giro (gancho, cero discos, cierre) y el hueso lleva los hechos; contraste limpio.",
+    "E5": "Cada cambio cae con la idea que dice la voz. La pausa de 0:10 con 'A disc' sola antes del tachado prepara el giro. Los tramos son parejos (4 a 5 s) pero no se sienten diapositivas.",
+    "E6": "El golpe existe: 'A disc' tachada y el 0 enorme. Pero después $0 y 212 GB llegan con el mismo peso y sin la vieja tachada, y compiten con él: cuatro cifras grandes iguales en 20 s.",
+    "E7": "Lleva las tres señas: la vieja tachada con la nueva grande (0:11.6), la etiqueta THE FINE PRINT arriba en todos los cuadros y el cierre con Mercury y su frase. Ninguna se siente pegada."
+  },
+  "tells": [],
+  "tells_resta": 0,
+  "total": 12,
+  "pasa": true,
+  "dudoso": false,
+  "impacto": "Sí: 0:11.6, el corte a rosa donde 'A disc' queda tachada y aparece el 0 enorme.",
+  "preguntas": {
+    "tiene_impacto": {"respuesta": "sí", "donde": "0:11.6, 'A disc' tachada y el 0 enorme sobre rosa, después de la pausa de 0:10"},
+    "se_sostiene_en_fila": {"respuesta": "sí", "por_que": "Es más pobre en imagen que S5 o S7, pero la sencillez es decisión (D-485) y no hay descuido que la delate: márgenes parejos, fuente impresa en cada cuadro como S5, una cifra por tramo como S6. Lo único que se nota flojo al lado de ellas es el vacío de abajo y el cuadro de 0:10."}
+  },
+  "fallas": [
+    {"donde": "0:10 a 0:11.5", "que": "'A disc EXPECTED' aparece sola, gris y chica, pegada arriba, con el resto del cuadro vacío. Durante segundo y medio no manda nada.", "arreglo": "Poner 'A disc' en el lugar y el tamaño de la cifra grande, y tacharla ahí mismo; al corte sube a su sitio chico y entra el 0."},
+    {"donde": "0:16 a 0:25", "que": "$0 y 212 GB llegan con el mismo tamaño y trato que el 0 del golpe y sin cifra vieja tachada. El golpe se diluye y la seña del canal se usa una sola vez.", "arreglo": "Sin sumar capas: en 0:16 mostrar '$80' tachado arriba y '$0' grande (misma mecánica de 0:11.6). Dejar 212 GB un escalón más chico que el 0."},
+    {"donde": "toda la pieza", "que": "El bloque ocupa la mitad de arriba y deja casi media pantalla vacía abajo; la píldora del subtítulo va centrada mientras todo lo demás va al margen izquierdo.", "arreglo": "Bajar el bloque unos 150 px para que la cifra quede en el centro óptico y alinear la píldora al margen izquierdo, o subir las líneas de fuente junto a ella con el mismo margen."},
+    {"donde": "0:11.6 a 0:15", "que": "La raya del tachado sigue por encima de la etiqueta 'EXPECTED' y se pasa de largo.", "arreglo": "Cortar la raya al final de 'A disc'."}
+  ],
+  "mejoraria": "Repetir la mecánica de la vieja tachada en el $0 ('$80' tachado, '$0' grande): refuerza el golpe y la seña del canal sin agregar nada nuevo."
+}

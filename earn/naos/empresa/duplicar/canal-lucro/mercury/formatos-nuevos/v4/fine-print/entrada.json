@@ -1,0 +1,145 @@
+{
+ "id": "fine-print-gta-vi-box-v4",
+ "marca": "mercury",
+ "formato": "short",
+ "serie": "fine_print",
+ "para_quien": "Whoever buys the gifts in your family, about to buy the GTA 6 box.",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "voz": "Whoever buys the gifts in your family should see what is in the GTA 6 box.",
+   "pantalla": {
+    "etiqueta": "Who buys your family's gifts?",
+    "grande": "GTA 6",
+    "renglon": "See what is in the box first"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "hecho",
+   "voz": "The box costs 80 dollars. Stores get it from November 12.",
+   "pantalla": {
+    "etiqueta": "The GTA 6 box costs",
+    "grande": "$80",
+    "unidad": "Stores get it November 12"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "golpe",
+   "voz": "Inside the box: zero discs. Just a download code.",
+   "pantalla": {
+    "viejo": "A disc | expected",
+    "grande": "0",
+    "unidad": "Discs. Just a download code"
+   },
+   "afirmaciones": [
+    "F3",
+    "F12"
+   ]
+  },
+  {
+   "papel": "bolsillo",
+   "voz": "Want to sell it later? You get zero dollars, one tech site reports.",
+   "pantalla": {
+    "etiqueta": "Sell it later? You get",
+    "grande": "$0",
+    "unidad": "No resale value"
+   },
+   "afirmaciones": [
+    "F12"
+   ]
+  },
+  {
+   "papel": "giro",
+   "voz": "And before your gift plays? Up to 212 gigabytes to download first.",
+   "pantalla": {
+    "etiqueta": "Before your gift plays",
+    "grande": "212 GB",
+    "unidad": "To download, at most"
+   },
+   "afirmaciones": [
+    "F9"
+   ]
+  },
+  {
+   "papel": "vuelta",
+   "voz": "In the box, a code and a long download. Tell them before they wrap it.",
+   "pantalla": {
+    "grande": "A code",
+    "renglon": "Tell your family before they wrap it"
+   },
+   "afirmaciones": [
+    "F3"
+   ]
+  },
+  {
+   "papel": "firma"
+  }
+ ],
+ "manana": "",
+ "titulo": "The $80 GTA 6 box has no disc inside",
+ "descripcion": "The fine print: what you agree to when you buy this.\n\nThe press release of Take-Two Interactive, the game's publisher (Jun 24, 2026), says the physical version of Grand Theft Auto VI contains \"a download code inside the box\". The standard edition is $79.99 and the boxed version is available starting November 12, 2026. TechTimes, a tech news site (Nov 9, 2026), reports that the code-in-box \"eliminates resale value for physical buyers\". GamesRadar, a games news site, quotes Rockstar: the pre-load file \"will require up to 212 GB depending on your device\".\n\nThis is a plain reading of a press release and press reports: not legal advice. Check the terms at your own store before you buy. The voice is synthetic.\n\nSources:\nhttps://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi\nhttps://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm\nhttps://www.gamesradar.com/games/grand-theft-auto/rockstar-confirms-gta-6-is-212gb-pre-loading-opens-earlier-than-previously-announced-for-digital-orders",
+ "comentario_fijado": "Sources: Take-Two press release of Jun 24, 2026 (\"containing a download code inside the box\"), TechTimes, GamesRadar quoting Rockstar (up to 212 GB). Not legal advice.",
+ "cifras_fijas": true,
+ "cifras_vivas": [],
+ "datos_utc": "2026-11-10T23:30:05Z",
+ "fuentes": [
+  {
+   "id": "F3",
+   "nombre": "Take-Two (publisher)",
+   "url": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+  },
+  {
+   "id": "F12",
+   "nombre": "TechTimes",
+   "url": "https://www.techtimes.com/articles/330294/20261109/gta-vi-pre-orders-surpass-750-million-take-two-reports-q2-earnings-monday.htm"
+  },
+  {
+   "id": "F9",
+   "nombre": "GamesRadar",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-confirms-gta-6-is-212gb-pre-loading-opens-earlier-than-previously-announced-for-digital-orders"
+  }
+ ],
+ "evidencia": [
+  {
+   "dato": "El juego cuesta 79.99 (la voz dice 80)",
+   "cita": "entertainment systems for $79.99",
+   "fuente": "F3"
+  },
+  {
+   "dato": "La versión física trae un código de descarga dentro de la caja",
+   "cita": "containing a download code inside the box",
+   "fuente": "F3"
+  },
+  {
+   "dato": "0 discos: no hay versión en disco",
+   "cita": "There is no disc-based version of the game.",
+   "fuente": "F12"
+  },
+  {
+   "dato": "El código en caja no tiene valor de reventa",
+   "cita": "This eliminates resale value for physical buyers",
+   "fuente": "F12"
+  },
+  {
+   "dato": "La descarga pesa hasta 212 GB",
+   "cita": "will require up to 212 GB depending on your device",
+   "fuente": "F9"
+  },
+  {
+   "dato": "El juego se llama GTA 6 en la prensa",
+   "cita": "GTA 6 is a 212GB download to pre-load",
+   "fuente": "F9"
+  },
+  {
+   "dato": "La caja llega a las tiendas el 12 de noviembre",
+   "cita": "will be available starting November 12, 2026",
+   "fuente": "F3"
+  }
+ ]
+}
