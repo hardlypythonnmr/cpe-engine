@@ -25,5 +25,26 @@
  "veto_hasta_utc": "2026-11-17T19:49:52Z",
  "carril": "d520",
  "veto_despues_utc": "2026-11-21T04:30:00Z",
- "issue_n_system": 1783
+ "issue_n_system": 1783,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T10:59:03Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "376279921556206",
+  "ig_username": "valentino_alessandrini",
+  "title": "All I Want For Christmas Is You [Violin Cover]",
+  "duracion_ms": 78065,
+  "busqueda": "banco:All I Want For Christmas Is You",
+  "enlace": "https://www.instagram.com/reels/audio/376279921556206/",
+  "ritmo": {
+   "pulso": 0.742,
+   "bpm": 150.0,
+   "habla": 0.0,
+   "musica": 0.966,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7037807725
+ }
 }
