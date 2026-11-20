@@ -19,5 +19,26 @@
  "datos_max_h": 0,
  "tanda": "fijo-reel-1511",
  "aprobado_evento_utc": "2026-11-15T11:55:30Z",
- "issue_n_system": 1448
+ "issue_n_system": 1448,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T14:58:20Z",
+  "voz_video": false,
+  "audio_vol": 90,
+  "audio_id": "375816641625323",
+  "ig_username": "officialxdomii",
+  "title": "All i want for Christmas is you Techno",
+  "duracion_ms": 20874,
+  "busqueda": "banco:All I Want For Christmas Is You",
+  "enlace": "https://www.instagram.com/reels/audio/375816641625323/",
+  "ritmo": {
+   "pulso": 0.584,
+   "bpm": 171.4,
+   "habla": 0.003,
+   "musica": 0.891,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7042730572
+ }
 }
