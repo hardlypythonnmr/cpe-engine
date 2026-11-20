@@ -43,5 +43,14 @@
   },
   "comentario": 7041402235
  },
- "reel_fallo_utc": "2026-11-20T19:05:09Z"
+ "audio_ab": "tendencia",
+ "audio_ig": {
+  "audio_id": "29274896168844058",
+  "ig_username": "reyvan.dinatra",
+  "title": "Stop The Wedding - Rey Dinatra Edit",
+  "duracion_ms": 79000,
+  "busqueda": "audio_id",
+  "enlace": "https://www.instagram.com/reels/audio/29274896168844058/"
+ },
+ "audio_nota": "20-nov: anotado a mano tras el NameError de accion_reel; la línea AUDIO del log de naos-reel muestra el sonido adjuntado"
 }

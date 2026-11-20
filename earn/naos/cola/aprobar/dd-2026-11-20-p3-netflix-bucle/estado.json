@@ -43,6 +43,14 @@
   },
   "comentario": 7042731177
  },
- "infra_fallo_utc": "2026-11-20T20:07:35Z",
- "reel_fallo_utc": "2026-11-20T20:36:19Z"
+ "audio_ab": "tendencia",
+ "audio_ig": {
+  "audio_id": "101016859650894",
+  "ig_username": "devianto.moskalini",
+  "title": "GLOOM,WIRSKI - ИСКАТЬ ТЕБЯ(WIRSKI 1991 MIX)",
+  "duracion_ms": 119371,
+  "busqueda": "audio_id",
+  "enlace": "https://www.instagram.com/reels/audio/101016859650894/"
+ },
+ "audio_nota": "20-nov: anotado a mano tras el NameError de accion_reel; la línea AUDIO del log de naos-reel muestra el sonido adjuntado"
 }
