@@ -24,5 +24,26 @@
  "aprobado_evento_utc": "2026-11-20T13:22:37Z",
  "veto_hasta_utc": "2026-11-20T14:22:37Z",
  "carril": "d520",
- "veto_despues_utc": "2026-11-21T14:00:00Z"
+ "veto_despues_utc": "2026-11-21T14:00:00Z",
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T20:09:34Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "194858123704201",
+  "ig_username": "legend_bgm",
+  "title": "last Christmas wham",
+  "duracion_ms": 35806,
+  "busqueda": "banco:Last Christmas",
+  "enlace": "https://www.instagram.com/reels/audio/194858123704201/",
+  "ritmo": {
+   "pulso": 0.658,
+   "bpm": 107.1,
+   "habla": 0.0,
+   "musica": 0.884,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7049501361
+ }
 }

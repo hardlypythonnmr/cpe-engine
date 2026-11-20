@@ -21,5 +21,26 @@
  "datos_max_h": 0,
  "tanda": "dd-ampliacion-a",
  "aprobado_evento_utc": "2026-11-17T03:42:08Z",
- "issue_n_system": 1741
+ "issue_n_system": 1741,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T20:09:34Z",
+  "voz_video": false,
+  "audio_vol": 90,
+  "audio_id": "293023300292954",
+  "ig_username": "mansonight",
+  "title": "this is halloween • marilyn manson",
+  "duracion_ms": 204288,
+  "busqueda": "banco:This Is Halloween",
+  "enlace": "https://www.instagram.com/reels/audio/293023300292954/",
+  "ritmo": {
+   "pulso": 0.392,
+   "bpm": 171.4,
+   "habla": 0.039,
+   "musica": 0.639,
+   "habla_domina": 0.081,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7049501826
+ }
 }
