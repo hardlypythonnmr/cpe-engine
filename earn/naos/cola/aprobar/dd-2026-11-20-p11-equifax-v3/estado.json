@@ -21,5 +21,26 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
  "aprobado_evento_utc": "2026-11-19T17:15:58Z",
- "issue_n_system": 1815
+ "issue_n_system": 1815,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T09:52:13Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "38012791328365309",
+  "ig_username": "ariavegamusic",
+  "title": "COMPA COLETO (uy_como)",
+  "duracion_ms": 56866,
+  "busqueda": "tendencia",
+  "enlace": "https://www.instagram.com/reels/audio/38012791328365309/",
+  "ritmo": {
+   "pulso": 0.466,
+   "bpm": 164.4,
+   "habla": 0.0,
+   "musica": 0.907,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7036492809
+ }
 }

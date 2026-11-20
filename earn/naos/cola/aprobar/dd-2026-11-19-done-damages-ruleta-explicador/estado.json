@@ -32,5 +32,26 @@
   "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#1810, 2026-11-19T16:42:37Z",
   "ok_n": "publicar todas",
   "dia": "2026-11-20"
+ },
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T09:52:13Z",
+  "voz_video": false,
+  "audio_vol": 90,
+  "audio_id": "1107660630498769",
+  "ig_username": "erewhon",
+  "title": "Original audio",
+  "duracion_ms": 29465,
+  "busqueda": "tendencia",
+  "enlace": "https://www.instagram.com/reels/audio/1107660630498769/",
+  "ritmo": {
+   "pulso": 0.568,
+   "bpm": 130.4,
+   "habla": 0.0,
+   "musica": 0.982,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7036486825
  }
 }
