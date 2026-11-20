@@ -1,0 +1,84 @@
+# Done Damages: mide una vez al día las piezas de DD (slug dd-*) y deja el corte en earn/naos/medicion/mercury/.
+# Corre `python3 earn/naos/motor/medir.py --canal mercury`: lee con GET las vistas, el alcance, los envíos, los guardados y los
+# comentarios de YouTube y de Instagram, y los seguidores de cada cuenta. El tablero único (tablero_unico.py) lee esos archivos y
+# deja de decir "sin medir" en DD. No publica, no comenta, no borra: ninguna llamada escribe en Meta ni en YouTube.
+# También lee Facebook (fb-publicados.csv) con el mismo token, solo GET.
+# Corre a las 16:41 UTC, antes del VP diario de las 17:23Z, para que el VP lea el corte del día.
+# A mano: Actions > dd-medir > Run workflow. Por defecto en SECO (seco = true): imprime las filas y no escribe ni empuja nada.
+# Con seco = false escribe los CSV y los sube a main.
+# Secretos (los mismos de dd-cuenta, dd-fb, dd-perfil y mercury-publicar; son de repo, no de un environment): DD_* o MERCURY_*
+#   YouTube: OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN. Instagram: INSTAGRAM_TOKEN y la variable INSTAGRAM_USER_ID.
+# 20-nov: mudado a naos-motor (público, minutos sin tope); en n-system no corría desde el 18-nov 23:06Z.
+# Minutos al mes (n-system privado, 2.000 gratis): una corrida al día x 31 = 31 corridas; cada una ~1 min (checkout parcial de unos
+#   archivos, ~20 s de Python, commit y push) y GitHub cobra el minuto entero => ~31 min al mes (con las corridas a mano, ~35).
+name: dd-medir
+
+on:
+  schedule:
+    - cron: "41 16 * * *"   # 16:41 UTC, 11:41 en Bogotá
+  workflow_dispatch:
+    inputs:
+      seco:
+        description: "en seco: imprime las filas y no escribe ni sube nada"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency: { group: dd-medir, cancel-in-progress: false }
+
+jobs:
+  medir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          lfs: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/medir.py
+            /earn/naos/motor/aprobar/registro.py
+            /earn/naos/motor/aprobar/agente.json
+            /earn/naos/motor/aprobar/vp.json
+            /earn/naos/motor/aprobar/aprobador.txt
+            /earn/naos/motor/instagram/ig.py
+            /earn/naos/motor/nombres_dd.py
+            /earn/naos/motor/instagram/publicados.csv
+            /earn/naos/motor/instagram/fb-publicados.csv
+            /earn/naos/motor/fb_pagina.py
+            /earn/naos/motor/dd_perfil.py
+            /earn/naos/motor/investigacion/yt.py
+            /earn/naos/motor/youtube/canales.json
+            /earn/naos/medicion/tipos.json
+            /earn/naos/medicion/mercury/metricas-piezas.csv
+            /earn/naos/medicion/mercury/seguidores.csv
+            /earn/naos/medicion/cuota-yt-mercury.csv
+            /earn/naos/cola/aprobar/dd-*/pieza.json
+      - name: Medir DD (solo GET)
+        env:
+          SECO: ${{ github.event_name == 'workflow_dispatch' && inputs.seco }}
+          MERCURY_OAUTH_CLIENT_ID: ${{ secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID }}
+          MERCURY_OAUTH_CLIENT_SECRET: ${{ secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET }}
+          MERCURY_OAUTH_REFRESH_TOKEN: ${{ secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN }}
+          MERCURY_INSTAGRAM_TOKEN: ${{ secrets.DD_INSTAGRAM_TOKEN || secrets.MERCURY_INSTAGRAM_TOKEN }}
+          MERCURY_INSTAGRAM_USER_ID: ${{ vars.DD_INSTAGRAM_USER_ID || vars.MERCURY_INSTAGRAM_USER_ID }}
+        run: |
+          args=(--canal mercury)
+          [ "$SECO" = "true" ] && args+=(--seco)
+          python3 earn/naos/motor/medir.py "${args[@]}"
+      - name: Guardar en main (solo medicion/mercury)
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.seco) }}
+        run: |
+          git config user.name "dd-medir"; git config user.email "dd-medir@users.noreply.github.com"
+          git add earn/naos/medicion/mercury earn/naos/medicion/cuota-yt-mercury.csv
+          git diff --cached --quiet && exit 0
+          git commit -q -m "dd-medir: corte de DD $(date -u +%F' '%H:%M)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*5))
+          done
+          exit 1

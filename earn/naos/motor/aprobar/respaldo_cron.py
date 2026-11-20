@@ -4,6 +4,7 @@ los workflows cuyo cron ya tocó y no corrió:
 
   fb-pagina.yml       (23 */2 * * *, de verdad)   dd-audio-aviso.yml (37 * * * *)
   mercury-publicar.yml (sus 5 respaldos diarios)   dd-audio-vivo.yml  (17 15 * * *)
+  dd-medir.yml (41 16 * * *, escribe el corte)
 
 Regla: para cada uno, la última hora del cron en los últimos VENTANA minutos; si no hay ninguna corrida de ese workflow (de
 cualquier tipo) creada desde esa hora, se despacha. Se apaga solo, workflow por workflow: en cuanto ese workflow tenga una
@@ -12,7 +13,8 @@ import datetime as dt, json, os, re
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 FLUJOS = os.path.normpath(os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows"))
-RESPALDOS = {"fb-pagina.yml": {"de_verdad": "true"}, "dd-audio-aviso.yml": {}, "mercury-publicar.yml": {}, "dd-audio-vivo.yml": {}}
+RESPALDOS = {"fb-pagina.yml": {"de_verdad": "true"}, "dd-audio-aviso.yml": {}, "mercury-publicar.yml": {}, "dd-audio-vivo.yml": {},
+             "dd-medir.yml": {"seco": "false"}}  # 20-nov: dd-medir (junta DD: sin corte desde el 18-nov 23:06Z)
 VENTANA = dt.timedelta(minutes=100)
 VIVO = dt.timedelta(hours=26)
 
