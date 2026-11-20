@@ -24,5 +24,26 @@
  "aprobado_evento_utc": "2026-11-20T13:22:01Z",
  "veto_hasta_utc": "2026-11-20T14:22:01Z",
  "carril": "d520",
- "veto_despues_utc": "2026-11-21T12:00:00Z"
+ "veto_despues_utc": "2026-11-21T12:00:00Z",
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T18:47:54Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "238835825777114",
+  "ig_username": "shaking.like.milk",
+  "title": "The cure last christmas",
+  "duracion_ms": 23730,
+  "busqueda": "banco:Last Christmas",
+  "enlace": "https://www.instagram.com/reels/audio/238835825777114/",
+  "ritmo": {
+   "pulso": 0.685,
+   "bpm": 107.1,
+   "habla": 0.001,
+   "musica": 0.932,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7047851607
+ }
 }
