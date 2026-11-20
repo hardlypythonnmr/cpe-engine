@@ -50,5 +50,27 @@ class Decidir(unittest.TestCase):
         self.assertEqual(x, [])
 
 
+class Materializar(unittest.TestCase):
+    """20-nov: la operadora corre en un clon parcial (blob_limit 2 MB) sin los mp4 de la cola; registro.materializar los baja de git."""
+
+    def test_trae_lo_que_git_conoce_y_dice_lo_que_falta(self):
+        import shutil, subprocess, tempfile
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import registro
+        d = tempfile.mkdtemp()
+        run = lambda *a: subprocess.run(["git", "-C", d, *a], capture_output=True, check=True)  # noqa: E731
+        run("init", "-q")
+        os.makedirs(os.path.join(d, "p"))
+        with open(os.path.join(d, "p", "video.mp4"), "wb") as f:
+            f.write(b"x" * 5000)
+        run("add", ".")
+        run("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-q", "-m", "c")
+        os.remove(os.path.join(d, "p", "video.mp4"))
+        falta = registro.materializar([os.path.join(d, "p", "video.mp4"), os.path.join(d, "p", "otra.png")])
+        self.assertEqual(os.path.getsize(os.path.join(d, "p", "video.mp4")), 5000)
+        self.assertEqual([os.path.basename(x) for x in falta], ["otra.png"])
+        shutil.rmtree(d)
+
+
 if __name__ == "__main__":
     unittest.main()

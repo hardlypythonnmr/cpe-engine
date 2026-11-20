@@ -470,6 +470,10 @@ def subir_shorts(filas, ahora, cola=COLA, seco=False, correr=None, maximo=MAX_SH
                 if mal:
                     (lineas if mal.startswith("CIFRA-CAMBIO") else fallos).append(mal)
                     continue
+            sigue = registro.materializar([cmd[2], cmd[cmd.index("--miniatura") + 1]])  # clon parcial de la operadora (20-nov)
+            if sigue:
+                fallos.append(f"ERROR short {f['slug']}: no están ni se pudieron bajar de git: {', '.join(Path(x).name for x in sigue)}")
+                continue
             punteros = [Path(c) for c in (cmd[2], cmd[cmd.index("--miniatura") + 1]) if es_puntero_lfs(c)]
             if punteros:
                 cb, sb = bajar(punteros)

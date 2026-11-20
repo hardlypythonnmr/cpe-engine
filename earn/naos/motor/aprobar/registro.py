@@ -113,6 +113,29 @@ def bajar_lfs(rutas):
     return p.returncode, p.stdout + p.stderr
 
 
+def materializar(rutas):
+    """Trae al disco los archivos que git conoce en HEAD pero no están (mesa 20-nov: la operadora corre en un clon parcial con
+    blob_limit de 2 MB y los mp4 de la cola no se bajan al hacer checkout). Primero `git checkout HEAD -- <ruta>` (baja el blob
+    del promisor); si no sirve, `git cat-file blob` al archivo. Devuelve las rutas que siguen faltando."""
+    faltan = [os.path.abspath(str(r)) for r in rutas if not os.path.exists(str(r))]
+    if not faltan:
+        return []
+    raiz = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True,
+                          cwd=os.path.dirname(faltan[0]) if os.path.isdir(os.path.dirname(faltan[0])) else ".").stdout.strip()
+    if not raiz:
+        return faltan
+    for ruta in faltan:
+        rel = os.path.relpath(ruta, raiz)
+        p = subprocess.run(["git", "checkout", "HEAD", "--", rel], capture_output=True, text=True, cwd=raiz, timeout=600)
+        if p.returncode or not os.path.exists(ruta):
+            os.makedirs(os.path.dirname(ruta), exist_ok=True)
+            with open(ruta, "wb") as f:
+                q = subprocess.run(["git", "cat-file", "blob", f"HEAD:{rel}"], stdout=f, stderr=subprocess.PIPE, cwd=raiz, timeout=600)
+            if q.returncode:
+                os.remove(ruta)
+    return [r for r in faltan if not os.path.exists(r)]
+
+
 def sha_archivo(ruta, puntero_ok=False):
     """sha256 del archivo. Se niega (PunteroLFS) si es un puntero de LFS: el 31-oct las huellas v2 de lote-orden-3 se
     calcularon sobre el puntero y la Action, que sí baja el video, se negó a publicar. puntero_ok solo para diagnosticar."""
