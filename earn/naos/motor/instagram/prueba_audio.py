@@ -261,6 +261,21 @@ class Banco(unittest.TestCase):
         a = ig.elegir_del_banco(20, {"politico"}, self.banco(), {"3"}, llamar, self.HOY)
         self.assertEqual((a["audio_id"], a["busqueda"]), ("5", "banco:"))
 
+    def test_vivo_pide_con_user_id(self):
+        vistos = []
+        def llamar(m, ruta, params, **k):
+            vistos.append(params)
+            return {}
+        ig.elegir_del_banco(20, set(), self.banco(), (), llamar, self.HOY)
+        self.assertIn("user_id", vistos[0])
+
+    def test_rotacion_tambien_en_vivo(self):
+        tend = [{"audio_id": 1, "duration_in_ms": 40000, "download_url": "a"}, {"audio_id": 2, "duration_in_ms": 40000, "download_url": "b"}]
+        def llamar(m, ruta, params, **k):
+            return {"audio": tend} if ruta == "ig_audio" else {}
+        a = ig.elegir_audio("", 20, llamar=llamar, medir=lambda u: med(0.9 if u == "a" else 0.5), vetadas=set(), banco={}, usados={"1"})
+        self.assertEqual(a["audio_id"], "2")
+
     def test_banco_viejo_no_sirve(self):
         self.assertIsNone(ig.elegir_del_banco(20, set(), self.banco("2026-11-01T00:00:00Z"), (), lambda *a, **k: {}, self.HOY))
 

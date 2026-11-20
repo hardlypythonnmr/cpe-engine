@@ -1054,8 +1054,9 @@ def elegir_del_banco(dur_s, vetadas, banco=None, usados=(), llamar=None, hoy=Non
         if (str(s.get("audio_id")) in usados or str(s.get("ig_username", "")).lower() in vetadas
                 or (s.get("duracion_ms") or 0) < dur_s * 1000):
             continue
-        try:
-            (llamar or llamar_crudo)("GET", str(s["audio_id"]), {}, anotar=False, crudo=True)
+        try:  # 20-nov: sin user_id la Audio API no responde y el banco entero se saltaba (el aviso cayó a la búsqueda en vivo)
+            uid = CUENTA.get("user_id") or os.environ.get(CUENTA.get("user_id_env", ""), "")
+            (llamar or llamar_crudo)("GET", str(s["audio_id"]), {"user_id": uid}, anotar=False, crudo=True)
         except ErrorMeta:
             continue
         return {k: s.get(k) for k in ("audio_id", "ig_username", "title", "duracion_ms", "enlace", "ritmo")} | {
@@ -1094,8 +1095,10 @@ def elegir_audio(tema="", dur_s=0, audio_id="", llamar=None, medir=None, tope=15
     if del_banco:
         return del_banco
     mejor, mejor_p = None, -1.0
+    usados_s = {str(u) for u in usados}
     lista = [a for a in candidatos_audio(tema, llamar)
-             if (a.get("duration_in_ms") or 0) >= dur_s * 1000 and str(a.get("ig_username", "")).lower() not in vetadas]
+             if (a.get("duration_in_ms") or 0) >= dur_s * 1000 and str(a.get("ig_username", "")).lower() not in vetadas
+             and str(a.get("audio_id")) not in usados_s]  # 20-nov: la rotación también en la búsqueda en vivo
     for a in lista[:tope]:
         url = url_audio(a, llamar)
         m = medir(url) if url else None
