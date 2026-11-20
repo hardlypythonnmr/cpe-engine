@@ -2,7 +2,7 @@
  "slug": "say-what-you-heard",
  "issue": 18,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-20T20:42:00Z",
  "datos_utc": "",
  "hash_contenido": "12c964e871aed29f802a0e56e985d8071a2eff210b228a52e26776a266c188ac",
@@ -19,6 +19,5 @@
  "datos_max_h": 12.0,
  "tanda": "tendencia-1820",
  "aprobado_evento_utc": "2026-11-15T11:55:28Z",
- "issue_n_system": 1486,
- "reel_fallo_utc": "2026-11-20T20:46:13Z"
+ "issue_n_system": 1486
 }
