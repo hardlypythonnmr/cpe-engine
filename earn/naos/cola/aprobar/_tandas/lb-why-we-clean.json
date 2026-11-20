@@ -2,7 +2,7 @@
  "nombre": "lb-why-we-clean",
  "issue": 3,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "why-we-clean-the-kitchen-instead"
  ],
@@ -15,5 +15,6 @@
  "aprobadas": [
   "why-we-clean-the-kitchen-instead"
  ],
- "issue_n_system": 934
+ "issue_n_system": 934,
+ "cerrada": true
 }
