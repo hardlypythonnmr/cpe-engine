@@ -21,5 +21,26 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
  "aprobado_evento_utc": "2026-11-19T17:15:58Z",
- "issue_n_system": 1815
+ "issue_n_system": 1815,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T17:58:48Z",
+  "voz_video": false,
+  "audio_vol": 90,
+  "audio_id": "108976292311057",
+  "ig_username": "iamnancyjay",
+  "title": "LAST CHRISTMAS X GIMME THE LIGHT - NANCY JAY",
+  "duracion_ms": 51665,
+  "busqueda": "banco:Last Christmas",
+  "enlace": "https://www.instagram.com/reels/audio/108976292311057/",
+  "ritmo": {
+   "pulso": 0.516,
+   "bpm": 142.9,
+   "habla": 0.0,
+   "musica": 0.942,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7046822171
+ }
 }
