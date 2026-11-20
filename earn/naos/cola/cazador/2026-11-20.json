@@ -1,0 +1,125 @@
+{
+ "fecha": "2026-11-20",
+ "generado_utc": "2026-11-20T10:43Z",
+ "senales_leidas": 212,
+ "NAOS": [
+  {
+   "termino": "gta online",
+   "fuente": "google_trends",
+   "vistas": 200,
+   "razon": null,
+   "pico": "en tendencia ahora en EE. UU. con 200+ búsquedas (Google Trends, RSS diario)",
+   "url": "https://trends.google.com/trending?geo=US",
+   "noticias": [
+    {
+     "titulo": "GTA 6 Is Finally Here...So When Can You Play Online With Friends?",
+     "url": "https://www.pcmag.com/explainers/gta-6-is-finally-here-so-when-can-you-play-online-with-friends-multiplayer",
+     "medio": "PCMag",
+     "fecha": ""
+    },
+    {
+     "titulo": "‘GTA 6 Online’ Release Date: Will ‘Grand Theft Auto VI’ Have Multiplayer at Launch?",
+     "url": "https://www.imdb.com/news/ni66116171/?ref_=nwc_art_perm",
+     "medio": "IMDb",
+     "fecha": ""
+    },
+    {
+     "titulo": "Where is GTA 6 Online Multiplayer? GTA Online 2 Release Window",
+     "url": "https://insider-gaming.com/gta-6-online-multiplayer-release/",
+     "medio": "Insider Gaming",
+     "fecha": ""
+    }
+   ],
+   "marca": "NAOS",
+   "patron": "amistad",
+   "consulta_estudio": "friendship",
+   "puntaje": 2.3,
+   "estudio": {
+    "titulo": "Inferring friendship network structure by using mobile phone data",
+    "ano": 2009,
+    "citas": 2114,
+    "doi": "https://doi.org/10.1073/pnas.0900282106"
+   },
+   "nombra_persona": false,
+   "sensible": false,
+   "requiere_N": false,
+   "sensible_por": [],
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'amistad', sin nombrar a nadie ni a ninguna marca: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (Inferring friendship network structure by using mobile phone data, 2009, doi https://doi.org/10.1073/pnas.0900282106). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  },
+  {
+   "termino": "ICE Is Paying AT&T to Dig Through a Mountain of Call Records",
+   "fuente": "mastodon",
+   "vistas": 170,
+   "razon": null,
+   "contexto": "An internal ICE document obtained by 404 Media shows ICE is paying AT&T for access to “raw data and analytical services.” Experts and lawmakers call it a mass surveillance program that may impact trillions of peoples’ phone records.",
+   "pico": "170 usos del enlace en 2 días en Mastodon (404 Media)",
+   "url": "https://www.404media.co/ice-is-paying-at-t-to-dig-through-a-mountain-of-call-records-hemisphere-data-analytical-services/",
+   "marca": "NAOS",
+   "patron": "atención y pantallas",
+   "consulta_estudio": "procrastination attention smartphone",
+   "puntaje": 2.23,
+   "estudio": {
+    "titulo": "Understanding and Treating Procrastination: A Review of a Common Self-Regulatory Failure",
+    "ano": 2014,
+    "citas": 367,
+    "doi": "https://doi.org/10.4236/psych.2014.513160"
+   },
+   "noticias": [
+    {
+     "titulo": "ICE Is Paying AT&T to Dig Through a Mountain of Call Records",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ3ppZnZiZjRCRzFrdjRvbnp3WnpjbDBfYWNnUHJ5NTVJU0xGX1VrOEhXSDQwRjNreFpfS3NoQU95VmNaR0tONUh6WnByMUlwcURyalRncFhsT2NuNkwwc01DRHN4alh1QTBGcWRGWmNodWJNb3E3RjRrLUJkMFdXa05DZ3E4aHFhdWtTZTgtR0k3MmphMzJURjYwMkE5ZzhHeC1mMk51Qmc0Nzh1VXo2bmJCcXl3NVR2LXRIckdB?oc=5",
+     "medio": "404 Media",
+     "fecha": "2026-11-20"
+    }
+   ],
+   "nombra_persona": false,
+   "sensible": false,
+   "requiere_N": false,
+   "sensible_por": [],
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'atención y pantallas', sin nombrar a nadie ni a ninguna marca: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (Understanding and Treating Procrastination: A Review of a Common Self-Regulatory Failure, 2014, doi https://doi.org/10.4236/psych.2014.513160). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  },
+  {
+   "termino": "una persona famosa (nombre retirado: sin medio serio con fecha)",
+   "fuente": "wikipedia",
+   "vistas": 146794,
+   "dia_pico": "antier",
+   "base": 10728,
+   "razon": 13.7,
+   "pico": "146,794 vistas antier contra una línea base de 10,728 (x13.7), Wikipedia EN",
+   "url": "",
+   "noticias": [],
+   "marca": "NAOS",
+   "patron": "hábitos de pareja",
+   "consulta_estudio": "couples habits relationship",
+   "puntaje": 24.68,
+   "estudio": {
+    "titulo": "Short Chain Fatty Acids Prevent High-fat-diet-induced Obesity in Mice by Regulating G Protein-coupled Receptors and Gut Microbiota",
+    "ano": 2016,
+    "citas": 704,
+    "doi": "https://doi.org/10.1038/srep37589"
+   },
+   "nombra_persona": true,
+   "sensible": true,
+   "requiere_N": true,
+   "sensible_por": [
+    "nombra a una persona en tema de pareja, salud, muerte o menores"
+   ],
+   "nombre_oculto": true,
+   "contexto": "",
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'hábitos de pareja', sin nombrar a nadie: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (Short Chain Fatty Acids Prevent High-fat-diet-induced Obesity in Mice by Regulating G Protein-coupled Receptors and Gut Microbiota, 2016, doi https://doi.org/10.1038/srep37589). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  }
+ ],
+ "errores": []
+}
