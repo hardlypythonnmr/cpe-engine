@@ -21,5 +21,26 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
  "aprobado_evento_utc": "2026-11-19T17:15:58Z",
- "issue_n_system": 1815
+ "issue_n_system": 1815,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T10:26:12Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "101610176352389",
+  "ig_username": "djsoniccoffl",
+  "title": "Anarkali - Quick Mix (DJ Sonicc)",
+  "duracion_ms": 39077,
+  "busqueda": "banco:Mix",
+  "enlace": "https://www.instagram.com/reels/audio/101610176352389/",
+  "ritmo": {
+   "pulso": 0.73,
+   "bpm": 162.2,
+   "habla": 0.004,
+   "musica": 0.878,
+   "habla_domina": 0.016,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7037166975
+ }
 }
