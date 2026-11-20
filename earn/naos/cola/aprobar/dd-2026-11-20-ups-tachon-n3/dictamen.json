@@ -1,0 +1,38 @@
+{
+ "slug": "dd-2026-11-20-ups-tachon-n3",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "no-pasa",
+ "motivos": [
+  "falta vara.json (los lectores fríos no dejaron puntaje)",
+  "falta estetico.json (el lector estético no la leyó)"
+ ],
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "06286b3834bb0d26724c4e61fe148806f0d6f16089d0da973e2f898d3b9304de",
+  "reel": "76ce280e05d995dbfd21f24814992bae5b6e88fa5cb0decf931e8b5977551f70"
+ },
+ "huella_contenido": "f652fe95b567e2c48561e66be0e6b193b85fc5364d2250f99730218f0526bb8b",
+ "sale_utc": "2026-11-21T00:00:00Z",
+ "dictamen_utc": "2026-11-20T13:02:16Z"
+}

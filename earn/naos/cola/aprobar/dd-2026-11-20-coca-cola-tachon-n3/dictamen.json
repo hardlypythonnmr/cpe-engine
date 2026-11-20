@@ -1,0 +1,38 @@
+{
+ "slug": "dd-2026-11-20-coca-cola-tachon-n3",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "no-pasa",
+ "motivos": [
+  "falta vara.json (los lectores fríos no dejaron puntaje)",
+  "falta estetico.json (el lector estético no la leyó)"
+ ],
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "939c9de57121ede3bd359d9f3c3a436fcdb55bfc0442663c3b039d3608508613",
+  "reel": "98881d38eec6d9659cb294a7e85a5aabe4bed6ed8c48a5fd29e38a1de4e03782"
+ },
+ "huella_contenido": "0c9c8e8cdc26844a9774480646fa1458105d03dc4a1fc4b45ca0a7347a319f3f",
+ "sale_utc": "2026-11-20T17:00:00Z",
+ "dictamen_utc": "2026-11-20T13:02:15Z"
+}

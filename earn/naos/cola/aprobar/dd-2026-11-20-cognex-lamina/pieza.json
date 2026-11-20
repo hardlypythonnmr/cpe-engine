@@ -1,0 +1,59 @@
+{
+ "slug": "dd-2026-11-20-cognex-lamina",
+ "titulo": "Cognex (May 2020): $441.5 million to shareholders, about 190 jobs planned cuts. Do the math.",
+ "clave": "2026-11-21|mercury|lamina|2026-11-20-cognex-lamina",
+ "sale_utc": "2026-11-21T04:00:00Z",
+ "caption": "From the archive: May 2020. Not today's news.\nCognex, May 26, 2020 (Cognex, Form 8-K (Item 2.05)): \"reduce the Company’s operating costs, optimize its business model\"\nCognex's May 2020 8-K approved a restructuring plan with a reduction in force of approximately 190 employees. Its 2020 10-K reports $441.5 million in cash paid for repurchases and dividends.\n\nThat same year: $441.5 million to shareholders, 2020, company-wide. $51.036 million of repurchases plus $390.508 million of dividends in 2020, company-wide (cash flow statement, in thousands).\nThe math: $441.5 million to shareholders, 2020, company-wide ÷ about 190 jobs = $2.32 million to shareholders in 2020 per job cut. The result is approximate.\nThe facts: $441.5 million to shareholders, 2020, company-wide (Cognex 10-K, FY2020, Feb 11, 2021). about 190 jobs planned cuts (Cognex 8-K, May 2020, May 28, 2020). The $441.5 million is cash paid in 2020 for buybacks and dividends. The dividend line includes a one-time special dividend paid in the fourth quarter. The 190 cuts come from the May 2020 8-K; the payouts come from the 2020 10-K.\n\nOptimize the shareholder column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSources: Cognex 8-K, May 2020, May 28, 2020; Cognex 10-K, FY2020, Feb 11, 2021.\n\nLink in bio.",
+ "descripcion": "From the archive: May 2020. Not today's news.\nCognex, May 26, 2020 (Cognex, Form 8-K (Item 2.05)): \"reduce the Company’s operating costs, optimize its business model\"\nCognex's May 2020 8-K approved a restructuring plan with a reduction in force of approximately 190 employees. Its 2020 10-K reports $441.5 million in cash paid for repurchases and dividends.\n\nThat same year: $441.5 million to shareholders, 2020, company-wide. $51.036 million of repurchases plus $390.508 million of dividends in 2020, company-wide (cash flow statement, in thousands).\nThe math: $441.5 million to shareholders, 2020, company-wide ÷ about 190 jobs = $2.32 million to shareholders in 2020 per job cut. The result is approximate.\nThe facts: $441.5 million to shareholders, 2020, company-wide (Cognex 10-K, FY2020, Feb 11, 2021). about 190 jobs planned cuts (Cognex 8-K, May 2020, May 28, 2020). The $441.5 million is cash paid in 2020 for buybacks and dividends. The dividend line includes a one-time special dividend paid in the fourth quarter. The 190 cuts come from the May 2020 8-K; the payouts come from the 2020 10-K.\n\nOptimize the shareholder column. (Our take.)\n\nSources:\n- Cognex 8-K, May 2020, May 28, 2020: «approved a restructuring plan intended to reduce the Company’s operating costs, optimize its business model and address the impact of the COVID-19 pandemic.» and «The restructuring plan includes a global reduction in force of approximately 190 employees and office closures.» https://www.sec.gov/Archives/edgar/data/851205/000115752320000825/a52227216.htm\n- Cognex 10-K, FY2020, Feb 11, 2021: «Repurchase of common stock ( 51,036 ) ( 61,690 ) ( 203,822 ) Payment of dividends ( 390,508 )» https://www.sec.gov/Archives/edgar/data/851205/000085120521000005/cgnx-20201231.htm",
+ "alt": "Paper-colored card. Cognex, May 26, 2020. A gray typewriter quote, \"reduce the Company’s operating costs, optimize its business model\", struck through with a dark red marker line. In huge black letters on a yellow highlight: $2.32 million to shareholders in 2020, per job cut. The math is written out: $441.5 million to shareholders, 2020, company-wide ÷ about 190 jobs = $2.32 million to shareholders in 2020 per job cut. Below: ",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/2026-11-20/cognex-2020-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/851205/000115752320000825/a52227216.htm",
+   "medio": "SEC EDGAR · Cognex",
+   "titulo": "Cognex Form 8-K (Item 2.05), May 2020",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120521000005/cgnx-20201231.htm",
+   "medio": "SEC EDGAR · Cognex",
+   "titulo": "Cognex Form 10-K for 2020",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg"
+}

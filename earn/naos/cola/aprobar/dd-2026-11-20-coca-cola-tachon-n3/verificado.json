@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "0c9c8e8cdc26844a9774480646fa1458105d03dc4a1fc4b45ca0a7347a319f3f",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-20/coca-cola-2020-buyouts/tachon-N3",
+ "verificado_origen": {
+  "utc": "2026-11-20T12:25:34Z",
+  "pedido": "temas/archivo/coca-cola-2020-buyouts/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "444fbadf2741de5c686d9b8977bd07117e34fee238c310aaaa6ff5dbd1da2ad8",
+ "medidas_sha": "46662147f84827216f0d5ce8cc91f051459512248f3559baca32009f39d0756d",
+ "escrito_utc": "2026-11-20T13:02:14Z"
+}
