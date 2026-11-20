@@ -1,0 +1,284 @@
+{
+ "id": "coca-cola-2020-buyouts-2026-11-20",
+ "formato": "tachon",
+ "orden": "N3",
+ "estilo": "papel",
+ "dur": 17.548,
+ "dur_contenido": 15.945,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 37,
+ "cuenta": {
+  "a": "7047000000",
+  "b": "4000",
+  "c_real": "1761750.0000",
+  "c_pantalla": "$1.76 MILLION",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · AUG 2020",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 7.262,
+   "voz": "In 2020, Coca-Cola paid seven point zero four billion in dividends. First offers go to about four thousand employees."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 7.342,
+   "t1": 9.69,
+   "voz": "One point seven six million per employee."
+  },
+  {
+   "papel": "golpe",
+   "t0": 9.77,
+   "t1": 12.167,
+   "voz": "Quincey: on a multi-year journey."
+  },
+  {
+   "papel": "giro",
+   "t0": 12.267,
+   "t1": 14.665,
+   "voz": "Multi-year journey. Here is the column."
+  },
+  {
+   "papel": "firma",
+   "t0": 14.825,
+   "t1": 15.945,
+   "voz": "Done Damages."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "h"
+  },
+  {
+   "t": 7.262,
+   "e": "c"
+  },
+  {
+   "t": 9.67,
+   "e": "f"
+  },
+  {
+   "t": 12.167,
+   "e": "t"
+  },
+  {
+   "t": 14.745,
+   "e": "cierre"
+  }
+ ],
+ "entradas": {
+  "raya": 10.967,
+  "segundo_hecho": 2.8,
+  "numero_a": null,
+  "numero_c": 7.762,
+  "numero_dicho": null,
+  "linea_completa": 13.497,
+  "cierre": 14.745,
+  "total": 15.945
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "banda": 32,
+  "empresa": 116,
+  "a": 180,
+  "a.titulo": 48,
+  "a.detalle": 32,
+  "b": 127,
+  "b.titulo": 48,
+  "b.detalle": 32,
+  "c.cifra": 340,
+  "c.palabra": 142,
+  "c.rotulo": 34,
+  "aclara": 46,
+  "c.chico": 150,
+  "c.chico.rotulo": 34,
+  "frase.rotulo": 66,
+  "sub": 30,
+  "frase": 104,
+  "frase.chica": 42,
+  "linea": 80,
+  "canal": 162,
+  "cierre": 64,
+  "sigue": 93,
+  "aviso": 30
+ },
+ "lineas_frase": 5,
+ "c_ancho_px": 881,
+ "envoltorio": {
+  "semilla": "2026-11-20|coca-cola-2020-buyouts",
+  "sonido": 0,
+  "trazo": 1,
+  "composicion": 1,
+  "cierre": 4,
+  "titulo": 2
+ },
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 39,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 762,
+   "y": 270,
+   "lado_px": 100,
+   "esquina": "arriba-derecha",
+   "choca": false
+  },
+  "cierre_s": 1.6,
+  "dur_antes_s": 15.945,
+  "dur_video_s": 17.548
+ },
+ "volumen": {
+  "lufs": -14.17,
+  "pico_dbtp": -1.11
+ },
+ "oido": [
+  {
+   "papel": "gancho",
+   "dice": "In 2020, Coca-Cola paid seven point zero four billion in dividends. First offers go to about four thousand employees.",
+   "oye": "In 2020, Coca-Cola paid $7.04 billion in dividends. First offers go to about 4,000 employees.",
+   "cifra_a": {
+    "espera": "$7.04 BILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "One point seven six million per employee.",
+   "oye": "$1.76 million per employee.",
+   "cifra_c": {
+    "espera": "$1.76 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "golpe",
+   "dice": "Quincey: on a multi-year journey.",
+   "oye": "Quincy on a multi-year journey."
+  },
+  {
+   "papel": "giro",
+   "dice": "Multi-year journey. Here is the column.",
+   "oye": "Multi-year journey. Here is the column."
+  },
+  {
+   "papel": "firma",
+   "dice": "Done Damages.",
+   "oye": "Done damages."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.8,
+  "rachas": [],
+  "pasa": true
+ },
+ "avisos": [
+  "la voz tiene 37 palabras sin la firma; lo normal es de 45 a 72"
+ ],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-n3@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "gancho",
+   "cuenta",
+   "golpe",
+   "giro",
+   "firma"
+  ],
+  "dur": 17.548
+ },
+ "gancho_seg": 2.8,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · AUG 2020, empresa, hecho y los dos hechos"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden N3 cumplidas ({\"segundo_antes\": 3.0, \"c_antes\": 8.5, \"duracion_s\": [12, 16]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.8,
+  "rachas": [],
+  "pasa": true
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/coca-cola-2020-buyouts/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Coca-Cola: «“We have been on a multi-year journey to transform our organization,” said Chairman and CE»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Coca-Cola: «The Company paid dividends of $7,047 million and $6,845 million during the years ended Dec»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 7,047,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Coca-Cola: «will first be offered to approximately 4,000 employees in the United States, Canada and Pu»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 4,000"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2020 · B 2020)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Coca-Cola) es la del pedido (Coca-Cola)"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

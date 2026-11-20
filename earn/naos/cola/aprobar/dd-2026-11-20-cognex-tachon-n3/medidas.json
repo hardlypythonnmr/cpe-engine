@@ -1,0 +1,295 @@
+{
+ "id": "cognex-2020-layoffs-2026-11-20",
+ "formato": "tachon",
+ "orden": "N3",
+ "estilo": "papel",
+ "dur": 17.2,
+ "dur_contenido": 15.567,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 38,
+ "cuenta": {
+  "a": "441544000",
+  "b": "190",
+  "c_real": "2323915.7895",
+  "c_pantalla": "$2.32 MILLION",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · MAY 2020",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 6.541,
+   "voz": "In 2020, Cognex paid shareholders four hundred forty-one point five million. It planned about one hundred ninety cuts."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 6.621,
+   "t1": 9.512,
+   "voz": "Two point three two million to shareholders, per job cut."
+  },
+  {
+   "papel": "golpe",
+   "t0": 9.592,
+   "t1": 12.44,
+   "voz": "Quote, reduce the Company’s operating costs."
+  },
+  {
+   "papel": "giro",
+   "t0": 12.54,
+   "t1": 14.287,
+   "voz": "Optimize the shareholder column."
+  },
+  {
+   "papel": "firma",
+   "t0": 14.447,
+   "t1": 15.567,
+   "voz": "Done Damages."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "h"
+  },
+  {
+   "t": 6.541,
+   "e": "c"
+  },
+  {
+   "t": 9.492,
+   "e": "f"
+  },
+  {
+   "t": 12.44,
+   "e": "t"
+  },
+  {
+   "t": 14.367,
+   "e": "cierre"
+  }
+ ],
+ "entradas": {
+  "raya": 11.24,
+  "segundo_hecho": 2.8,
+  "numero_a": null,
+  "numero_c": 7.041,
+  "numero_dicho": null,
+  "linea_completa": 12.49,
+  "cierre": 14.367,
+  "total": 15.567
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "banda": 32,
+  "empresa": 116,
+  "a": 161,
+  "a.titulo": 48,
+  "a.detalle": 32,
+  "b": 140,
+  "b.titulo": 48,
+  "b.detalle": 32,
+  "c.cifra": 339,
+  "c.palabra": 142,
+  "c.rotulo": 40,
+  "aclara": 46,
+  "c.chico": 150,
+  "c.chico.rotulo": 34,
+  "frase.rotulo": 66,
+  "sub": 30,
+  "frase": 102,
+  "frase.chica": 44,
+  "linea": 72,
+  "canal": 162,
+  "cierre": 64,
+  "sigue": 93,
+  "aviso": 30
+ },
+ "lineas_frase": 6,
+ "c_ancho_px": 933,
+ "envoltorio": {
+  "semilla": "2026-11-20|cognex-2020-layoffs",
+  "sonido": 0,
+  "trazo": 1,
+  "composicion": 1,
+  "cierre": 2,
+  "titulo": 3
+ },
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 40,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 762,
+   "y": 270,
+   "lado_px": 100,
+   "esquina": "arriba-derecha",
+   "choca": false
+  },
+  "cierre_s": 1.6,
+  "dur_antes_s": 15.567,
+  "dur_video_s": 17.2
+ },
+ "volumen": {
+  "lufs": -14.15,
+  "pico_dbtp": -1.11
+ },
+ "oido": [
+  {
+   "papel": "gancho",
+   "dice": "In 2020, Cognex paid shareholders four hundred forty-one point five million. It planned about one hundred ninety cuts.",
+   "oye": "In 2020, Cognex paid shareholders $441.5 million. It planned about 190 cuts.",
+   "cifra_a": {
+    "espera": "$441.5 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "Two point three two million to shareholders, per job cut.",
+   "oye": "$2.32 million to shareholders per job cut.",
+   "cifra_c": {
+    "espera": "$2.32 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "golpe",
+   "dice": "Quote, reduce the Company’s operating costs.",
+   "oye": "cut, quote, reduce the company's operating costs."
+  },
+  {
+   "papel": "giro",
+   "dice": "Optimize the shareholder column.",
+   "oye": "Optimize the shareholder column."
+  },
+  {
+   "papel": "firma",
+   "dice": "Done Damages.",
+   "oye": "Done damages."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.1,
+  "rachas": [
+   [
+    7.3,
+    9.4
+   ]
+  ],
+  "pasa": false
+ },
+ "avisos": [
+  "la voz tiene 38 palabras sin la firma; lo normal es de 45 a 72",
+  "hay tramos de más de 2.0 s sin que cambie nada: [[7.3, 9.4]]"
+ ],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-n3@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "gancho",
+   "cuenta",
+   "golpe",
+   "giro",
+   "firma"
+  ],
+  "dur": 17.2
+ },
+ "gancho_seg": 2.8,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · MAY 2020, empresa, hecho y los dos hechos"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden N3 cumplidas ({\"segundo_antes\": 3.0, \"c_antes\": 8.5, \"duracion_s\": [12, 16]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.1,
+  "rachas": [
+   [
+    7.3,
+    9.4
+   ]
+  ],
+  "pasa": false
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/cognex-2020-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Cognex: «approved a restructuring plan intended to reduce the Company’s operating costs, optimize i»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Cognex: «Repurchase of common stock ( 51,036 ) ( 61,690 ) ( 203,822 ) Payment of dividends ( 390,50»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 441,544,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Cognex: «The restructuring plan includes a global reduction in force of approximately 190 employees»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 190"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2020 · B 2020)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Cognex) es la del pedido (Cognex)"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

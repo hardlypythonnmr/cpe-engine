@@ -1,0 +1,93 @@
+{
+ "slug": "dd-2026-11-20-ups-tachon-n3",
+ "titulo": "UPS Layoffs: $457,000 to Shareholders per Job Cut",
+ "clave": "2026-11-21|mercury|tachon|2026-11-20-ups-tachon-n3",
+ "sale_utc": "2026-11-21T00:00:00Z",
+ "caption": "UPS Layoffs: $457,000 to Shareholders per Job Cut\n\nUPS layoffs, 14,000 positions: $457,000 in buybacks and dividends for every job cut, using UPS's own 2025 numbers.\nFrom the archive: Jan 2026. Not today's news.\nUPS, Jan 27, 2026 (UPS, Q4 2025 earnings release): \"right-size our business to create a more efficient operating model\"\n\nWhy did UPS lay off workers? In its fourth-quarter 2025 earnings release (the report a public company files with the SEC, the U.S. market regulator), dated January 27, 2026, UPS describes a workforce reduction of approximately 14,000 positions, completed in 2025, in those words. This short strikes the phrase through and puts next to it a number from the same company and the same year.\n\nThe math: $6.39 billion to shareholders, 2025, company-wide ÷ about 14,000 positions = $457,000 in buybacks and dividends per job cut.\nWhat counts as \"to shareholders\": a buyback is a company buying its own stock; a dividend is cash paid out to people who own that stock. UPS's 2025 10-K (its annual report to the SEC) lists $1,000 million of stock repurchased plus $5,398 million of dividends in 2025, company-wide (cash flow statement, in millions). The 14,000 positions is UPS's own approximate figure, from its earnings release. Both figures are for 2025.\n\nEfficient, for whom? (Our take.)\n\nDo you know someone who has been through a round of cuts? Send this to them.\n\nSynthetic voice. Sources: UPS Q4 2025 release (SEC), Jan 27, 2026; UPS 2025 10-K (SEC), Feb 17, 2026.\n\nMore at the link in bio.",
+ "descripcion": "UPS layoffs, 14,000 positions: $457,000 in buybacks and dividends for every job cut, using UPS's own 2025 numbers.\nFrom the archive: Jan 2026. Not today's news.\nUPS, Jan 27, 2026 (UPS, Q4 2025 earnings release): \"right-size our business to create a more efficient operating model\"\n\nWhy did UPS lay off workers? In its fourth-quarter 2025 earnings release (the report a public company files with the SEC, the U.S. market regulator), dated January 27, 2026, UPS describes a workforce reduction of approximately 14,000 positions, completed in 2025, in those words. This short strikes the phrase through and puts next to it a number from the same company and the same year.\n\nThe math: $6.39 billion to shareholders, 2025, company-wide ÷ about 14,000 positions = $457,000 in buybacks and dividends per job cut.\nWhat counts as \"to shareholders\": a buyback is a company buying its own stock; a dividend is cash paid out to people who own that stock. UPS's 2025 10-K (its annual report to the SEC) lists $1,000 million of stock repurchased plus $5,398 million of dividends in 2025, company-wide (cash flow statement, in millions). The 14,000 positions is UPS's own approximate figure, from its earnings release. Both figures are for 2025.\n\nEfficient, for whom? (Our take.)\n\nSources:\n- UPS Q4 2025 release (SEC), Jan 27, 2026: «right-size our business to create a more efficient operating model that was more responsive to market dynamics through a workforce reduction of approximately 14,000 positions» https://www.sec.gov/Archives/edgar/data/1090727/000162828026003510/exhibit991-earningspressre.htm\n- UPS 2025 10-K (SEC), Feb 17, 2026: «Purchases of common stock (1,000) (500) (2,250) Issuances of common stock 159 232 248 Dividends (5,398) (5,399) (5,372)» https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm\n\nSynthetic voice.",
+ "alt": "Paper-colored card about UPS layoffs, Jan 27, 2026. A gray typewriter quote, \"right-size our business to create a more efficient operating model\", struck through with a dark red marker line. In huge black letters on a yellow highlight: $457,000 in buybacks and dividends, per job cut. The math is written out: $6.39 billion to shareholders, 2025, company-wide ÷ about 14,000 positions = $457,000 in buybacks and dividends per job cut.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-20/ups-2025-fit-to-serve/tachon-N3",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026003510/exhibit991-earningspressre.htm",
+   "medio": "SEC EDGAR · UPS",
+   "titulo": "UPS fourth-quarter 2025 earnings release (Form 8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-14T04:02:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026008432/ups-20251231.htm",
+   "medio": "SEC EDGAR · UPS",
+   "titulo": "UPS Form 10-K for 2025",
+   "hora_utc": "2026-11-14T04:02:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "16.667 s; strike at 11.384 s, number at None s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "If your company cut jobs and paid out buybacks or dividends the same year, did anyone explain the math to you?",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In 2026, UPS reported six point three nine billion dollars to shareholders. It cut about fourteen thousand positions. About four hundred fifty-seven thousand dollars per job cut. The release said: right-size our business. Efficient, for whom? Done Damages.",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "voz": "In 2026, UPS reported six point three nine billion dollars to shareholders. It cut about fourteen thousand positions."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "About four hundred fifty-seven thousand dollars per job cut."
+  },
+  {
+   "papel": "golpe",
+   "voz": "The release said: right-size our business."
+  },
+  {
+   "papel": "giro",
+   "voz": "Efficient, for whom?"
+  },
+  {
+   "papel": "firma",
+   "voz": "Done Damages."
+  }
+ ],
+ "plantilla": "dd/tachon-n3@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}

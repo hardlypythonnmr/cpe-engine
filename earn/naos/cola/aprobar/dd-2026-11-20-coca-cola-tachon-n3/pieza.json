@@ -1,0 +1,93 @@
+{
+ "slug": "dd-2026-11-20-coca-cola-tachon-n3",
+ "titulo": "Coca-Cola 2020 buyouts: $7.04B in dividends, 4,000 offered",
+ "clave": "2026-11-20|mercury|tachon|2026-11-20-coca-cola-tachon-n3",
+ "sale_utc": "2026-11-20T17:00:00Z",
+ "caption": "Coca-Cola 2020 buyouts: $7.04B in dividends, 4,000 offered\n\nFrom the archive: Aug 2020. Not today's news.\nCoca-Cola voluntary separation program, 2020: $7.04 billion in dividends paid that year, 4,000 employees first offered a buyout.\nCoca-Cola, Aug 28, 2020 (James Quincey, press release): \"We have been on a multi-year journey to transform our organization\"\nCoca-Cola's August 28, 2020 8-K (the filing public companies send the SEC) says the first voluntary separation offers, a buyout where employees choose to leave, will go to about 4,000 employees in the US, Canada and Puerto Rico. Its 2020 10-K (the annual report filed with the SEC) reports $7,047 million in dividends paid.\n\nSame year: $7.04 billion in dividends paid, 2020, company-wide. $7,047 million of dividends paid during 2020, company-wide (Form 10-K).\nThe math: $7.04 billion in dividends paid, 2020, company-wide ÷ 4,000 employees = $1.76 million in dividends per employee offered a buyout. The result is approximate.\nIs a buyout a layoff? No. The 4,000 are the first employees offered voluntary separation, not layoffs. The $7,047 million is dividends paid during 2020, company-wide, per the 10-K.\nThe facts: $7.04 billion in dividends paid, 2020, company-wide (SEC EDGAR · Coca-Cola, Feb 25, 2021). 4,000 employees will first be offered (SEC EDGAR · Coca-Cola, Aug 28, 2020).\n\nMulti-year journey. Here is the column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: SEC EDGAR · Coca-Cola, Aug 28, 2020; SEC EDGAR · Coca-Cola, Feb 25, 2021.\n\nGo to the link in bio.",
+ "descripcion": "From the archive: Aug 2020. Not today's news.\nCoca-Cola voluntary separation program, 2020: $7.04 billion in dividends paid that year, 4,000 employees first offered a buyout.\nCoca-Cola, Aug 28, 2020 (James Quincey, press release): \"We have been on a multi-year journey to transform our organization\"\nCoca-Cola's August 28, 2020 8-K (the filing public companies send the SEC) says the first voluntary separation offers, a buyout where employees choose to leave, will go to about 4,000 employees in the US, Canada and Puerto Rico. Its 2020 10-K (the annual report filed with the SEC) reports $7,047 million in dividends paid.\n\nSame year: $7.04 billion in dividends paid, 2020, company-wide. $7,047 million of dividends paid during 2020, company-wide (Form 10-K).\nThe math: $7.04 billion in dividends paid, 2020, company-wide ÷ 4,000 employees = $1.76 million in dividends per employee offered a buyout. The result is approximate.\nIs a buyout a layoff? No. The 4,000 are the first employees offered voluntary separation, not layoffs. The $7,047 million is dividends paid during 2020, company-wide, per the 10-K.\nThe facts: $7.04 billion in dividends paid, 2020, company-wide (SEC EDGAR · Coca-Cola, Feb 25, 2021). 4,000 employees will first be offered (SEC EDGAR · Coca-Cola, Aug 28, 2020).\n\nMulti-year journey. Here is the column. (Our take.)\n\nSources:\n- SEC EDGAR · Coca-Cola, Aug 28, 2020: «“We have been on a multi-year journey to transform our organization,” said Chairman and CEO James Quincey.» and «will first be offered to approximately 4,000 employees in the United States, Canada and Puerto Rico» https://www.sec.gov/Archives/edgar/data/21344/000155278120000463/e20478_ex99-1.htm\n- SEC EDGAR · Coca-Cola, Feb 25, 2021: «The Company paid dividends of $7,047 million and $6,845 million during the years ended December 31, 2020 and 2019» https://www.sec.gov/Archives/edgar/data/21344/000002134421000008/ko-20201231.htm\n\nSynthetic voice.",
+ "alt": "Coca-Cola voluntary separation program, 2020, card. Paper-colored card, Coca-Cola, Aug 28, 2020. A gray typewriter quote, \"We have been on a multi-year journey to transform our organization\", struck through with a dark red marker line. In huge black letters on a yellow highlight: $1.76 million in dividends, per employee offered a buyout. The math is written out: $7.04 billion in dividends paid, 2020, company-wide ÷ 4,000 employees = $1.76 million in dividends per employee offered a buyout.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-20/coca-cola-2020-buyouts/tachon-N3",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000155278120000463/e20478_ex99-1.htm",
+   "medio": "SEC EDGAR · Coca-Cola",
+   "titulo": "The Coca-Cola Company press release (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134421000008/ko-20201231.htm",
+   "medio": "SEC EDGAR · Coca-Cola",
+   "titulo": "The Coca-Cola Company Form 10-K for 2020",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "17.548 s; strike at 10.967 s, number at None s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "Coca-Cola's release called it \"a multi-year journey.\" If you were one of the first 4,000 offered a buyout, what did that journey look like from your desk?",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In 2020, Coca-Cola paid seven point zero four billion in dividends. First offers go to about four thousand employees. One point seven six million per employee. Quincey: on a multi-year journey. Multi-year journey. Here is the column. Done Damages.",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "voz": "In 2020, Coca-Cola paid seven point zero four billion in dividends. First offers go to about four thousand employees."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "One point seven six million per employee."
+  },
+  {
+   "papel": "golpe",
+   "voz": "Quincey: on a multi-year journey."
+  },
+  {
+   "papel": "giro",
+   "voz": "Multi-year journey. Here is the column."
+  },
+  {
+   "papel": "firma",
+   "voz": "Done Damages."
+  }
+ ],
+ "plantilla": "dd/tachon-n3@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}

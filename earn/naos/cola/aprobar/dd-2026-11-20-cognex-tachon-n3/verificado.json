@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "f8ca5928b629ccdf6db7f2371d651aa291a51fc7e206bc19eade5472a0ac02f4",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-20/cognex-2020-layoffs/tachon-N3",
+ "verificado_origen": {
+  "utc": "2026-11-20T12:59:53Z",
+  "pedido": "temas/archivo/cognex-2020-layoffs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "ad4b05ee19247ca247c7cbd4a343fde0bc11d61805efa475c4fb370f7f4b4f25",
+ "medidas_sha": "4b16295fbe6e2319598c35ee9e29590f1d356e43b190de48a4c23e0e31480530",
+ "escrito_utc": "2026-11-20T13:02:20Z"
+}

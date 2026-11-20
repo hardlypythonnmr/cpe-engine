@@ -1,0 +1,294 @@
+{
+ "id": "ups-2025-fit-to-serve-2026-11-20",
+ "formato": "tachon",
+ "orden": "N3",
+ "estilo": "papel",
+ "dur": 16.667,
+ "dur_contenido": 15.058,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 36,
+ "cuenta": {
+  "a": "6398000000",
+  "b": "14000",
+  "c_real": "457000.0000",
+  "c_pantalla": "$457,000",
+  "op": "÷",
+  "exacta": true,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · JAN 2026",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 6.902,
+   "voz": "In 2026, UPS reported six point three nine billion dollars to shareholders. It cut about fourteen thousand positions."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 6.982,
+   "t1": 10.012,
+   "voz": "About four hundred fifty-seven thousand dollars per job cut."
+  },
+  {
+   "papel": "golpe",
+   "t0": 10.092,
+   "t1": 12.584,
+   "voz": "The release said: right-size our business."
+  },
+  {
+   "papel": "giro",
+   "t0": 12.684,
+   "t1": 13.778,
+   "voz": "Efficient, for whom?"
+  },
+  {
+   "papel": "firma",
+   "t0": 13.938,
+   "t1": 15.058,
+   "voz": "Done Damages."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "h"
+  },
+  {
+   "t": 6.902,
+   "e": "c"
+  },
+  {
+   "t": 9.992,
+   "e": "f"
+  },
+  {
+   "t": 12.584,
+   "e": "t"
+  },
+  {
+   "t": 13.858,
+   "e": "cierre"
+  }
+ ],
+ "entradas": {
+  "raya": 11.384,
+  "segundo_hecho": 2.8,
+  "numero_a": null,
+  "numero_c": 7.402,
+  "numero_dicho": null,
+  "linea_completa": 12.634,
+  "cierre": 13.858,
+  "total": 15.058
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "banda": 32,
+  "empresa": 116,
+  "a": 180,
+  "a.titulo": 48,
+  "a.detalle": 32,
+  "b": 96,
+  "b.titulo": 48,
+  "b.detalle": 32,
+  "c.cifra": 219,
+  "c.rotulo": 38,
+  "aclara": 46,
+  "c.chico": 150,
+  "c.chico.rotulo": 34,
+  "frase.rotulo": 66,
+  "sub": 30,
+  "frase": 102,
+  "frase.chica": 44,
+  "linea": 76,
+  "canal": 162,
+  "cierre": 64,
+  "sigue": 93,
+  "aviso": 30
+ },
+ "lineas_frase": 6,
+ "c_ancho_px": 933,
+ "envoltorio": {
+  "semilla": "2026-11-20|ups-2025-fit-to-serve",
+  "sonido": 3,
+  "trazo": 2,
+  "composicion": 1,
+  "cierre": 4,
+  "titulo": 4
+ },
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 38,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 262,
+   "y": 270,
+   "lado_px": 100,
+   "esquina": "arriba-izquierda",
+   "choca": false
+  },
+  "cierre_s": 1.6,
+  "dur_antes_s": 15.067,
+  "dur_video_s": 16.667
+ },
+ "volumen": {
+  "lufs": -14.25,
+  "pico_dbtp": -1.14
+ },
+ "oido": [
+  {
+   "papel": "gancho",
+   "dice": "In 2026, UPS reported six point three nine billion dollars to shareholders. It cut about fourteen thousand positions.",
+   "oye": "In 2026, UPS reported $6.39 billion to shareholders. It cut about 14,000 positions.",
+   "cifra_a": {
+    "espera": "$6.39 BILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "About four hundred fifty-seven thousand dollars per job cut.",
+   "oye": "About $457,000 per job cut.",
+   "cifra_c": {
+    "espera": "$457,000",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "golpe",
+   "dice": "The release said: right-size our business.",
+   "oye": "The release set and right size are business."
+  },
+  {
+   "papel": "giro",
+   "dice": "Efficient, for whom?",
+   "oye": "Efficient for whom?"
+  },
+  {
+   "papel": "firma",
+   "dice": "Done Damages.",
+   "oye": "Done damages."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.3,
+  "rachas": [
+   [
+    7.6,
+    9.9
+   ]
+  ],
+  "pasa": false
+ },
+ "avisos": [
+  "la voz tiene 36 palabras sin la firma; lo normal es de 45 a 72",
+  "hay tramos de más de 2.0 s sin que cambie nada: [[7.6, 9.9]]"
+ ],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-n3@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "gancho",
+   "cuenta",
+   "golpe",
+   "giro",
+   "firma"
+  ],
+  "dur": 16.667
+ },
+ "gancho_seg": 2.8,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · JAN 2026, empresa, hecho y los dos hechos"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden N3 cumplidas ({\"segundo_antes\": 3.0, \"c_antes\": 8.5, \"duracion_s\": [12, 16]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.3,
+  "rachas": [
+   [
+    7.6,
+    9.9
+   ]
+  ],
+  "pasa": false
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/ups-2025-fit-to-serve/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · UPS: «right-size our business to create a more efficient operating model that was more responsiv»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · UPS: «Purchases of common stock (1,000) (500) (2,250) Issuances of common stock 159 232 248 Divi»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 6,398,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · UPS: «a workforce reduction of approximately 14,000 positions»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 14,000"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2025 · B 2025)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (UPS) es la del pedido (UPS)"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

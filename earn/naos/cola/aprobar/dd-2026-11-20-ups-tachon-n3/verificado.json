@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "f652fe95b567e2c48561e66be0e6b193b85fc5364d2250f99730218f0526bb8b",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-20/ups-2025-fit-to-serve/tachon-N3",
+ "verificado_origen": {
+  "utc": "2026-11-20T12:41:29Z",
+  "pedido": "temas/archivo/ups-2025-fit-to-serve/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "de6eafb05e35f183ce846e3a4cc9abbce9c0faa7eb9c92f8e1204899a2609c31",
+ "medidas_sha": "ee9d6d77c4a0389a66cce953c87d8fe02ed7bd0a728562636fda5dc1c4e9fa77",
+ "escrito_utc": "2026-11-20T13:02:16Z"
+}

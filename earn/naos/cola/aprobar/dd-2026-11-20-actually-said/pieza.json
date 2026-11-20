@@ -1,0 +1,91 @@
+{
+ "slug": "dd-2026-11-20-actually-said",
+ "titulo": "Actually said: Oct 20 to Nov 17, 2026",
+ "clave": "2026-11-20|mercury|said|2026-11-20-actually-said",
+ "sale_utc": "2026-11-20T20:00:00Z",
+ "caption": "Actually said. Oct 20 to Nov 17, 2026.\n\n1. Netflix, Oct 20, 2026 (Letter to shareholders): \"create member value that lets us occasionally raise prices\"\nOccasionally is doing a lot of work there. (Our take.)\n\n2. Kimberly-Clark, Nov 2, 2026 (SEC filing on an integration program): \"workforce optimization (approximately $0.4 billion)\"\nOptimizing a workforce sounds nicer than naming it. (Our take.)\n\n3. Starbucks, Oct 29, 2026 (Earnings release): \"closed approximately 250 company-operated North America coffeehouses that do not deliver the coffeehouse experience and financial performance expected of the brand\"\nEven the coffeehouses got a performance review. (Our take.)\n\n4. Instacart (Maplebear Inc.), Oct 26, 2026 (SEC filing on winding down Caper Cart): \"This decision was made to re-align resources to support the Company’s strategic priorities\"\nRe-align: corporate for switching it off. (Our take.)\n\n5. Disney, Nov 17, 2026 (Letter to shareholders): \"we do expect a portion to drop to the bottom line over time\"\nGrowth first. The bottom line gets its turn. (Our take.)\n\nThe gray lines are real and untouched. The black lines are our take.\n\nSources: SEC EDGAR · Netflix, Oct 20, 2026; SEC EDGAR · Kimberly-Clark, Nov 2, 2026; SEC EDGAR · Starbucks, Oct 29, 2026; SEC EDGAR · Instacart, Oct 26, 2026; SEC EDGAR · Disney, Nov 17, 2026.\n\nMore at the link in bio.",
+ "descripcion": "",
+ "alt": "Five paper-colored cards titled Actually said. Each shows a company name, a date and a real corporate sentence in gray typewriter type, with a short dry line in black marked Our take. 1: Netflix, \"create member value that lets us occasionally raise prices.\" 2: Kimberly-Clark, \"workforce optimization (approximately $0.4 billion).\" 3: Starbucks, \"closed approximately 250 company-operated North America coffeehouses that do not deliver the coffeehouse experience and financial performance expected of the brand.\" 4: Instacart (Maplebear Inc.), \"This decision was made to re-align resources to support the Company’s strategic priorities.\" 5: Disney, \"we do expect a portion to drop to the bottom line over time.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-20T12:18:51Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "said",
+ "formato": "carrusel",
+ "origen": "c2/linea/2026-11-20/said",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm",
+   "medio": "SEC EDGAR · Netflix",
+   "titulo": "Q3 2026 shareholder letter (Form 8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-20T12:18:51Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926120990/tm2628636d1_8k.htm",
+   "medio": "SEC EDGAR · Kimberly-Clark",
+   "titulo": "Form 8-K, item 2.05, Kenvue Integration Program",
+   "hora_utc": "2026-11-20T12:18:51Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000154/sbux-09272026xearningsrele.htm",
+   "medio": "SEC EDGAR · Starbucks",
+   "titulo": "Q4 and fiscal 2026 earnings release (Form 8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-20T12:18:51Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000050/cart-20261025.htm",
+   "medio": "SEC EDGAR · Instacart",
+   "titulo": "Form 8-K, item 2.05, wind-down of Caper Cart operations",
+   "hora_utc": "2026-11-20T12:18:51Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F5",
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/fy2026_q4xerxex991.htm",
+   "medio": "SEC EDGAR · Disney",
+   "titulo": "Form 8-K, Exhibit 99.1 (shareholder letter)",
+   "hora_utc": "2026-11-20T12:18:51Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "5 of 5 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ]
+}
