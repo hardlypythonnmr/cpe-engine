@@ -254,12 +254,26 @@ def main():
     ap.add_argument("--dias", type=int, default=30)
     ap.add_argument("--seco", action="store_true")
     ap.add_argument("--canal", default="naos", help="naos (por defecto) o mercury: sus piezas, su token y sus archivos")
+    ap.add_argument("--una-al-dia", metavar="HH:MM", nargs="?", const="16:41",
+                    help="para la ronda de la operadora (mesa 20-nov): solo después de esa hora UTC y si hoy no hay corte de ese canal")
     a = ap.parse_args()
     metricas, seguidores = METRICAS, SEGUIDORES
     if a.canal != "naos":  # otro canal: sus archivos, en su carpeta
         metricas, seguidores = MED / a.canal / "metricas-piezas.csv", MED / a.canal / "seguidores.csv"
     ahora = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
     corte = ahora.strftime("%Y-%m-%dT%H:%M:%SZ")
+    if a.una_al_dia:
+        hh, mm = (int(x) for x in a.una_al_dia.split(":"))
+        if (ahora.hour, ahora.minute) < (hh, mm):
+            print(f"medir {a.canal}: todavía no ({ahora:%H:%M}Z < {a.una_al_dia}Z)")
+            return
+        try:
+            ultimo = metricas.read_text(encoding="utf-8").rstrip().rsplit("\n", 1)[-1].split(",", 1)[0]
+        except OSError:
+            ultimo = ""
+        if ultimo.startswith(ahora.strftime("%Y-%m-%d")):
+            print(f"medir {a.canal}: ya hay corte hoy ({ultimo})")
+            return
     tp = tipos()
     ig_p, yt_p = piezas([f for f in publicados() if marca_de(f["slug"]) == a.canal], ahora, a.dias)
     if a.canal != "naos":

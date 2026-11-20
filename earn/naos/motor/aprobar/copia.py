@@ -39,7 +39,9 @@ REGISTROS = [  # los de Cella son libros de solo agregar; publicados.csv tambié
     "earn/naos/medicion/idiomas-registro.csv",  # lo localizado y subtitulado por idiomas.py cola (libro de solo agregar)
     "earn/naos/medicion/uso-sensor.csv",  # las lecturas de uso_sensor.py (libro de solo agregar)
     "earn/naos/medicion/cuota-yt.csv",  # el libro de cuota de YouTube de cuota_yt.py (libro de solo agregar)
-    "earn/naos/medicion/cuota-yt-mercury.csv",  # el libro de cuota del canal de Mercury (subir.py --canal mercury; solo agregar)
+    "earn/naos/medicion/cuota-yt-mercury.csv",
+    "earn/naos/medicion/metricas-piezas.csv",  # el corte diario de NAOS (medir.py --canal naos --una-al-dia, ronda 7d; solo agregar)
+    "earn/naos/medicion/seguidores.csv",  # los seguidores de ese corte (solo agregar)  # el libro de cuota del canal de Mercury (subir.py --canal mercury; solo agregar)
     "earn/naos/medicion/decisiones-sistema.csv",  # la fila que programador.py deja al publicar por el carril de cifra viva (solo agregar)
     "earn/naos/motor/comentarios/registro-dd.csv",  # respuestas de Done Damages (D-513; solo agregar)
     "earn/naos/motor/comentarios/registro-rondas-dd.csv",  # auditoría de las rondas de DD (solo agregar)
