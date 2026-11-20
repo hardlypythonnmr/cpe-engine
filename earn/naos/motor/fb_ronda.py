@@ -81,6 +81,12 @@ def huella_de(canal, pieza, carpeta):
     return registro.hash_carrusel([os.path.join(carpeta, n) for n in pieza.get("laminas") or []], cap)
 
 
+def posts_24h(fb, ahora):
+    """Posts del libro desde ahora-24 h, también los que esta misma ronda anotó después de `ahora` (fb_pagina.posts_ultimas_24h
+    corta en `ahora`: en la ronda de las 00:25Z del 20-nov el contador se quedó en 1/30 con 6 publicados)."""
+    return sum(1 for r in fp.leer_fb(fb) if (utc(r.get("publicado_utc")) or ahora - dt.timedelta(days=2)) > ahora - dt.timedelta(hours=24))
+
+
 def raiz_sitio(marca):
     if marca == "naos":
         return (os.environ.get("NAOS_PAGES_BASE") or SITIO_NAOS).split("/assets/")[0].rstrip("/")
@@ -138,7 +144,7 @@ def una(slug, canal, marca, fila, cola, fb, ahora, de_verdad=False, http=dp.http
         raise fp.ErrorFb(f"NO SE PUBLICA: no pude leer los archivos de {slug}: {e}") from None
     if huella != fila["hash"]:
         raise fp.ErrorFb(f"NO SE PUBLICA: {slug} ({canal}) no es lo que N aprobó (versión {fila['version']})")
-    n = fp.posts_ultimas_24h(fb, ahora)
+    n = posts_24h(fb, ahora)
     if n >= fp.TOPE_API_24H:
         raise fp.ErrorFb(f"NO SE PUBLICA: tope de {fp.TOPE_API_24H} posts por API en 24 h ({n})")
     texto = fp.texto_facebook(pieza.get("caption") or "")

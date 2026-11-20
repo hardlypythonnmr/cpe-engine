@@ -91,6 +91,13 @@ class Una(Base):
         with self.assertRaises(fr.fp.ErrorFb):
             self.correr("naos-x")
 
+    def test_tope_cuenta_lo_anotado_en_esta_ronda(self):
+        with open(self.fb, "a") as f:
+            for i in range(30):
+                f.write(f"s{i},{i},u,{(AHORA + dt.timedelta(minutes=2)).strftime('%Y-%m-%dT%H:%M:%SZ')}\n")
+        with self.assertRaises(fr.fp.ErrorFb):
+            self.correr("naos-x")
+
     def test_seco_no_llama(self):
         r, out = self.correr("naos-x", http=lambda *a: self.fail("llamó"))
         self.assertIsNone(r)
