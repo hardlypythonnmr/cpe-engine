@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-20-ups-lamina",
+ "issue": 122,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T01:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "c5317d89ef4d86dbe088c5829377cd44230badaa3ebf1b90ce5ae753410b2503",
+ "hashes": {
+  "imagen": "72ecec470b4ad6c6b2cbcb511abf67aad8b4c6aff39be5c90296433390968704"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7040611890,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-agente"
+}

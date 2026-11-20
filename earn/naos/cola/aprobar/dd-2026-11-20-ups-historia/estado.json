@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-20-ups-historia",
+ "issue": 122,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T23:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "7a758c424705cc034d188862ea64ca7bd76eb1c18ef1c48280f936344c1b949e",
+ "hashes": {
+  "historia": "84d53c6b20cae99d72dd92c8a8cfb473edb799d4c5562013bdb4b55637f667a8"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7040611110,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-agente"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-20-ups-expediente",
+ "issue": 122,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T03:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "781a1f4faa566cb6bcadc0b2817a3a34cb65512a42cd9c489ba6a17f5caedaeb",
+ "hashes": {
+  "carrusel": "311945eec31c3b2d6053f640f00d1c0a93727171e105f26d0f11a67ae70f1bad"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7040609595,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-agente"
+}

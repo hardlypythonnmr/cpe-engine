@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-20-ups-tachon-n3",
+ "issue": 122,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T00:00:00Z",
+ "datos_utc": "2026-11-14T04:02:00Z",
+ "hash_contenido": "f652fe95b567e2c48561e66be0e6b193b85fc5364d2250f99730218f0526bb8b",
+ "hashes": {
+  "short": "06286b3834bb0d26724c4e61fe148806f0d6f16089d0da973e2f898d3b9304de",
+  "reel": "76ce280e05d995dbfd21f24814992bae5b6e88fa5cb0decf931e8b5977551f70"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7040612648,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-agente"
+}

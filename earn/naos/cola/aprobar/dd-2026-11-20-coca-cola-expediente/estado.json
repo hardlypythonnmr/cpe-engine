@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-20-coca-cola-expediente",
+ "issue": 122,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T22:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "a5a82b47dc7d21eeddaa6a76fed569b6e96fa06e8feb214b225699022241faeb",
+ "hashes": {
+  "carrusel": "73831cc3733e6da7b67612df65ca7ee92e584373325408538b7109a039cd44dd"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7040607283,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-agente"
+}

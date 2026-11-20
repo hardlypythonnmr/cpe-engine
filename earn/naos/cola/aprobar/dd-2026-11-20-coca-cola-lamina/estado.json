@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-20-coca-cola-lamina",
+ "issue": 122,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-20T18:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "3701096bea6397ff618fbe8b912ecfc6fe7e2b2e119ecc35cd65bb9afbee6867",
+ "hashes": {
+  "imagen": "48cb0e7186825752548ffd2bf5512d7c82cf16f50b2ea8dec6e7a7090a865fa2"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7040608872,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-agente"
+}
