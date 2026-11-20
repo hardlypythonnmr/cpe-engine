@@ -1,9 +1,9 @@
 {
  "slug": "dd-2026-11-19-done-damages-ruleta-explicador",
  "issue": 40,
- "version": 1,
+ "version": 2,
  "estado": "aprobado",
- "sale_utc": "2026-11-19T17:30:00Z",
+ "sale_utc": "2026-11-20T14:00:00Z",
  "datos_utc": "2026-11-19T17:30:00Z",
  "hash_contenido": "500fd329b39c0c2842731d64dfeba076c9dd9c01d804a0fcd0ca3e4d7f87b3a5",
  "hashes": {
@@ -21,5 +21,16 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-19-ruleta",
  "aprobado_evento_utc": "2026-11-19T16:42:37Z",
- "issue_n_system": 1810
+ "issue_n_system": 1810,
+ "reprogramaciones": 1,
+ "reprogramada": {
+  "por": "D-512",
+  "utc": "2026-11-20T02:06:19Z",
+  "de_sale_utc": "2026-11-19T17:30:00Z",
+  "a_sale_utc": "2026-11-20T14:00:00Z",
+  "version_origen": 1,
+  "cita_origen": "👍 de @hardlypythonnmr en hardlypythonnmr/n-system#1810, 2026-11-19T16:42:37Z",
+  "ok_n": "publicar todas",
+  "dia": "2026-11-20"
+ }
 }
