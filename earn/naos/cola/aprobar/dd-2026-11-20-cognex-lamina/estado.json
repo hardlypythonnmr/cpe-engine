@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-cognex-lamina",
  "issue": 123,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T04:00:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "5dbd301516df59e36e241fac4723c2f3642d632c7cffc2de463bbf043372f05d",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-20-agente-b"
+ "tanda": "dd-2026-11-20-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-20T13:22:37Z",
+ "veto_hasta_utc": "2026-11-20T14:22:37Z"
 }

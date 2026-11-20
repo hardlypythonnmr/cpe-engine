@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-20-agente-b",
  "issue": 123,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-20-cognex-lamina",
   "dd-2026-11-20-cognex-tachon-n3"
@@ -10,5 +10,14 @@
  "comentario_vista_previa_id": 7040625684,
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-20T13:22:34Z",
- "agente": true
+ "agente": true,
+ "aviso_utc": "2026-11-20T13:22:36Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-20T13:22:37Z",
+ "veto_hasta_utc": "2026-11-20T14:22:37Z",
+ "aprobadas": [
+  "dd-2026-11-20-cognex-lamina",
+  "dd-2026-11-20-cognex-tachon-n3"
+ ]
 }
