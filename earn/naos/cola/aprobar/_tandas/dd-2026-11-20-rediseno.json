@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-20-rediseno",
  "issue": 41,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "dd-2026-11-20-p11-equifax-v3",
   "dd-2026-11-20-p12-ticketmaster-v3",
@@ -27,5 +27,6 @@
   "dd-2026-11-20-p3-netflix-bucle",
   "dd-2026-11-20-p6-diccionario-hp"
  ],
- "issue_n_system": 1815
+ "issue_n_system": 1815,
+ "cerrada": true
 }
