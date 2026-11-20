@@ -2,7 +2,7 @@
  "slug": "asked-the-moon-for-a-sign",
  "issue": 118,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-28T02:15:00Z",
  "datos_utc": "",
  "hash_contenido": "499dde31a9aa42919490460e7757d639d14ec3752c423714e4c723656272bbf5",
@@ -17,5 +17,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "tanda": "luna-1128"
+ "tanda": "luna-1128",
+ "aprobado_evento_utc": "2026-11-20T01:42:09Z"
 }

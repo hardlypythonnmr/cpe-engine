@@ -2,7 +2,7 @@
  "nombre": "luna-1128",
  "issue": 118,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "asked-the-moon-for-a-sign"
  ],
@@ -10,5 +10,9 @@
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-19T18:04:04Z",
  "aviso_utc": "2026-11-19T18:04:04Z",
- "aviso_canal": "github"
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-20T01:42:09Z",
+ "aprobadas": [
+  "asked-the-moon-for-a-sign"
+ ]
 }
