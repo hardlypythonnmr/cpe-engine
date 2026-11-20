@@ -34,10 +34,10 @@ class Decidir(unittest.TestCase):
     def test_no_duplica_si_ya_corrio_despues(self):
         self.assertEqual(rc.decidir("x", self.A, [{"event": "workflow_dispatch", "created_at": "2026-11-20T09:45:00Z"}], T("2026-11-20T09:57"))[0], "nada")
 
-    def test_se_apaga_cuando_el_cron_corre_solo(self):
-        d, m = rc.decidir("x", self.A, [{"event": "schedule", "created_at": "2026-11-20T08:37:00Z"}], T("2026-11-20T09:57"))
-        self.assertEqual(d, "nada")
-        self.assertIn("apagado", m)
+    def test_un_schedule_viejo_no_apaga_el_respaldo(self):
+        """20-nov: el cron disparó una vez a las 01:53Z y se calló; a las 09:57Z el aviso de las 09:37Z igual se despacha."""
+        self.assertEqual(rc.decidir("x", self.A, [{"event": "schedule", "created_at": "2026-11-20T01:53:00Z"}], T("2026-11-20T09:57"))[0], "despachar")
+        self.assertEqual(rc.decidir("x", self.A, [{"event": "schedule", "created_at": "2026-11-20T09:40:00Z"}], T("2026-11-20T09:57"))[0], "nada")
 
     def test_ronda_seco_y_de_verdad(self):
         leer = lambda f: []  # noqa: E731

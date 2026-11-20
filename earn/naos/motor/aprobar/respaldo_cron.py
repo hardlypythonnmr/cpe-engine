@@ -7,8 +7,9 @@ los workflows cuyo cron ya tocó y no corrió:
   dd-medir.yml (41 16 * * *, escribe el corte)
 
 Regla: para cada uno, la última hora del cron en los últimos VENTANA minutos; si no hay ninguna corrida de ese workflow (de
-cualquier tipo) creada desde esa hora, se despacha. Se apaga solo, workflow por workflow: en cuanto ese workflow tenga una
-corrida «schedule» en las últimas 26 h, el cron ya funciona y el respaldo no despacha (no duplica)."""
+cualquier tipo, también «schedule») creada desde esa hora, se despacha; si el cron corrió, no se duplica.
+20-nov: el cron de GitHub empezó a disparar pero tarde y salteado (dd-audio-aviso una sola vez, a las 01:53Z, en vez de cada
+hora), así que el respaldo ya no se apaga por ver una corrida «schedule»: mira cada hora que tocaba."""
 import datetime as dt, json, os, re
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -67,9 +68,6 @@ def utc(s):
 
 def decidir(flujo, exprs, corridas, ahora):
     """('despachar'|'nada', motivo). corridas: [{event, created_at}] recientes de ese workflow."""
-    sched = [c for c in corridas if c.get("event") == "schedule" and ahora - utc(c["created_at"]) <= VIVO]
-    if sched:
-        return "nada", f"{flujo}: el cron ya corre solo ({sched[0]['created_at']}); respaldo apagado"
     h = ultima_hora(exprs, ahora)
     if not h:
         return "nada", f"{flujo}: no le toca"
