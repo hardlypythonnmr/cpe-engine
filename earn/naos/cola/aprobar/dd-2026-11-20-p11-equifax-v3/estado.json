@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-p11-equifax-v3",
  "issue": 41,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-20T15:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "22b1e023df2b2097f1453080ec02592669e2fe65e318a0803d98143b446a4af9",
@@ -42,5 +42,6 @@
    "pasa": true
   },
   "comentario": 7036492809
- }
+ },
+ "audio_ab": "propio-sin-sonido"
 }
