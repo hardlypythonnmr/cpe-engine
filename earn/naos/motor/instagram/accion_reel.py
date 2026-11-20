@@ -708,6 +708,7 @@ def publicar_imagen(info, d, ruta=None, seco=False):
         return None
     prep, _ = ordenes_imagen(info, d)
     rc, out = correr(prep, log)
+    out_preparar = out  # 20-nov: la línea AUDIO sale en preparar; `out` se pisa abajo con la salida de publicar
     m = re.search(r"^(\d+): FINISHED", out, re.M)
     if rc or not m:
         sys.exit(f"preparar-{tipo} no terminó en FINISHED (salida {rc}); no se publicó nada")
@@ -751,7 +752,7 @@ def publicar(info, d, naos=None, ruta=None):
         sys.exit(f"publicar falló (salida {rc}); revisar el error de Meta arriba")
     res = {"reel": fila["url_reel"], "short": info["short_url"], "contenedor": fila["contenedor"],
            "media_id": fila["media_id"], "publicado_utc": fila["publicado_utc"], "version": info["version"]}
-    res.update(audio_de_salida(grupo, out))
+    res.update(audio_de_salida(grupo, out_preparar))
     escribir_json(os.path.join(d, "resultado.json"), res)
     print(f"publicado: {res['reel']}")
     return res

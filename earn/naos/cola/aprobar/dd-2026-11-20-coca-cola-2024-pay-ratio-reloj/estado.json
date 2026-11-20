@@ -47,5 +47,14 @@
   },
   "comentario": 7036490235
  },
- "audio_ab": "propio-sin-sonido"
+ "audio_ab": "tendencia",
+ "audio_ig": {
+  "audio_id": "1107660630498769",
+  "ig_username": "erewhon",
+  "title": "Original audio",
+  "duracion_ms": 29465,
+  "busqueda": "audio_id",
+  "enlace": "https://www.instagram.com/reels/audio/1107660630498769/"
+ },
+ "audio_nota": "20-nov: corregido a mano; el log de naos-reel muestra la línea AUDIO de preparar (accion_reel leía la salida de publicar)"
 }
