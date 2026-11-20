@@ -320,5 +320,24 @@ class Banco(unittest.TestCase):
         self.assertEqual(b["sonidos"][0]["busqueda"], "Thriller")
 
 
+class PublicarLeeAudioDePreparar(unittest.TestCase):
+    """20-nov: publicar() se cayó con NameError (out_preparar) después de que el Reel salió; y antes leía AUDIO de la salida
+    de publicar. Ahora corre de punta a punta y toma el grupo de la salida de preparar."""
+
+    def test_de_punta_a_punta(self):
+        d = tempfile.mkdtemp()
+        info = {"slug": "dd-x", "titulo": "t", "short_url": "", "video_url": "https://x/v.mp4", "video": "v.mp4",
+                "cita": "ok", "version": "1"}
+        salidas = iter([(0, 'AUDIO {"audio_id": "9", "ig_username": "u"}\n123: FINISHED\n'), (0, "publicado\n")])
+        fila = {"url_reel": "https://ig/r", "contenedor": "123", "media_id": "m", "publicado_utc": "2026-11-20T20:00:00Z"}
+        with mock.patch.object(accion_reel, "audio_para_publicar", lambda s: ("tendencia", ["--audio-id", "9"])), \
+                mock.patch.object(accion_reel, "correr", lambda args, log=None: next(salidas)), \
+                mock.patch.object(accion_reel.registro, "vigente", lambda *a, **k: fila), \
+                mock.patch.object(accion_reel.registro, "leer", lambda *a, **k: []), \
+                contextlib.redirect_stdout(io.StringIO()):
+            res = accion_reel.publicar(info, d)
+        self.assertEqual((res["audio_ab"], res["audio_ig"]["audio_id"], res["reel"]), ("tendencia", "9", "https://ig/r"))
+
+
 if __name__ == "__main__":
     unittest.main()

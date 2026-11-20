@@ -708,7 +708,6 @@ def publicar_imagen(info, d, ruta=None, seco=False):
         return None
     prep, _ = ordenes_imagen(info, d)
     rc, out = correr(prep, log)
-    out_preparar = out  # 20-nov: la línea AUDIO sale en preparar; `out` se pisa abajo con la salida de publicar
     m = re.search(r"^(\d+): FINISHED", out, re.M)
     if rc or not m:
         sys.exit(f"preparar-{tipo} no terminó en FINISHED (salida {rc}); no se publicó nada")
@@ -739,6 +738,7 @@ def publicar(info, d, naos=None, ruta=None):
     grupo, audio = audio_para_publicar(info["slug"])
     rc, out = correr([ig, "preparar", info["slug"], info["video_url"], "--caption", cap, "--archivo", info["video"], *servido, *con_ia(info["slug"]), *audio,
                       *comunes], log)
+    out_preparar = out  # 20-nov: la línea AUDIO sale en preparar; `out` se pisa abajo con la salida de publicar
     m = re.search(r"^(\d+): FINISHED", out, re.M)
     if rc or not m:
         sys.exit(f"preparar no terminó en FINISHED (salida {rc}); no se publicó nada")
