@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-19-starbucks-hist-video",
  "issue": 38,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-20T04:45:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "b2003b93bcd14775c4ee17478e97046b94d63d08fc4cdc4afeffa073e64ce8ab",
@@ -21,6 +21,5 @@
  "aprobacion": "agente",
  "aprobado_evento_utc": "2026-11-19T11:57:13Z",
  "veto_hasta_utc": "2026-11-19T12:57:13Z",
- "issue_n_system": 1803,
- "infra_fallo_utc": "2026-11-20T05:07:55Z"
+ "issue_n_system": 1803
 }
