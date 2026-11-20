@@ -21,5 +21,26 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-20-rediseno",
  "aprobado_evento_utc": "2026-11-19T17:15:58Z",
- "issue_n_system": 1815
+ "issue_n_system": 1815,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-20T12:58:40Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "26994937370203148",
+  "ig_username": "rollingsixes.in",
+  "title": "Trick or Treat begins",
+  "duracion_ms": 40650,
+  "busqueda": "banco:Trick Or Treat Begins",
+  "enlace": "https://www.instagram.com/reels/audio/26994937370203148/",
+  "ritmo": {
+   "pulso": 0.675,
+   "bpm": 141.2,
+   "habla": 0.0,
+   "musica": 0.953,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7040137307
+ }
 }
