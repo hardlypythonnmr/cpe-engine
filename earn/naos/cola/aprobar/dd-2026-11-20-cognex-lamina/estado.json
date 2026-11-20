@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-20-cognex-lamina",
+ "issue": 123,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T04:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "5dbd301516df59e36e241fac4723c2f3642d632c7cffc2de463bbf043372f05d",
+ "hashes": {
+  "imagen": "1b7b155a8e0898e7c329b501460a96afc12ada5ec4836c1a60d6d1626e9d19b4"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7040624197,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-20-agente-b"
+}
