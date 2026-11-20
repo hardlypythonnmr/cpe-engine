@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-20-agente",
  "issue": 122,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-20-coca-cola-expediente",
   "dd-2026-11-20-coca-cola-hist-numero",
@@ -16,5 +16,20 @@
  "comentario_vista_previa_id": 7040613392,
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-20T13:21:57Z",
- "agente": true
+ "agente": true,
+ "aviso_utc": "2026-11-20T13:21:59Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-20T13:22:01Z",
+ "veto_hasta_utc": "2026-11-20T14:22:01Z",
+ "aprobadas": [
+  "dd-2026-11-20-coca-cola-expediente",
+  "dd-2026-11-20-coca-cola-hist-numero",
+  "dd-2026-11-20-coca-cola-lamina",
+  "dd-2026-11-20-ups-expediente",
+  "dd-2026-11-20-ups-hist-numero",
+  "dd-2026-11-20-ups-historia",
+  "dd-2026-11-20-ups-lamina",
+  "dd-2026-11-20-ups-tachon-n3"
+ ]
 }

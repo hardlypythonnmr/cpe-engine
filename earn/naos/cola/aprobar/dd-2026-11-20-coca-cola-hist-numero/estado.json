@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-coca-cola-hist-numero",
  "issue": 122,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-20T18:45:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "b28984dde61cd5aa9d185cb83318bf91b5ba69337d1e0ec0080dd07ce2cf0207",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-20-agente"
+ "tanda": "dd-2026-11-20-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-20T13:22:01Z",
+ "veto_hasta_utc": "2026-11-20T14:22:01Z"
 }

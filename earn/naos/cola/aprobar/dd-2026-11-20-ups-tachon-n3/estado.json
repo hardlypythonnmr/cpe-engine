@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-20-ups-tachon-n3",
  "issue": 122,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T00:00:00Z",
  "datos_utc": "2026-11-14T04:02:00Z",
  "hash_contenido": "f652fe95b567e2c48561e66be0e6b193b85fc5364d2250f99730218f0526bb8b",
@@ -19,5 +19,10 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-20-agente"
+ "tanda": "dd-2026-11-20-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-20T13:22:01Z",
+ "veto_hasta_utc": "2026-11-20T14:22:01Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-21T12:00:00Z"
 }
