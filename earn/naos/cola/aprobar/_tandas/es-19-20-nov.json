@@ -2,7 +2,7 @@
  "nombre": "es-19-20-nov",
  "issue": 27,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "which-self-care-es",
   "before-you-buy-the-course-es",
@@ -21,5 +21,6 @@
   "procrastination-laziness-or-fear-es",
   "which-self-care-es"
  ],
- "issue_n_system": 1767
+ "issue_n_system": 1767,
+ "cerrada": true
 }
