@@ -278,6 +278,7 @@ def huellas(p, cola=None):
     Si un archivo es un puntero de LFS (copia con GIT_LFS_SKIP_SMUDGE=1) lo baja antes; si no puede, aborta."""
     d = dir_pieza(p["slug"], cola)
     video, portada = os.path.join(d, p["video"]), os.path.join(d, p["portada"])
+    registro.materializar(archivos_de(p, cola) + [video, portada])  # clon parcial de la operadora (21-nov)
     punteros = [f for f in dict.fromkeys(archivos_de(p, cola) + [video, portada]) if registro.es_puntero_lfs(f)]
     if punteros:
         codigo, salida = registro.bajar_lfs(punteros)
@@ -1703,6 +1704,9 @@ def huellas_de(t, cola=None):
     out = {}
     for s in t["piezas"]:
         p = cargar(s, cola)
+        # 21-nov: la operadora corre en un clon parcial (blob_limit 2 MB): sin el mp4 en disco la huella daba "" y la tanda con el
+        # 👍 de N se leía como cambiada ("nada que registrar" toda la noche con la #120). Se baja de git antes de mirar.
+        registro.materializar(archivos_de(p, cola) + [os.path.join(dir_pieza(s, cola), p[k]) for k in ("video", "portada") if p.get(k)])
         out[s] = huellas(p, cola)["contenido"] if all(os.path.exists(f) for f in archivos_de(p, cola)) else ""
     return out
 
