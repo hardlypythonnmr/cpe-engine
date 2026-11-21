@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-20-agente",
  "issue": 122,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "dd-2026-11-20-coca-cola-expediente",
   "dd-2026-11-20-coca-cola-hist-numero",
@@ -31,5 +31,6 @@
   "dd-2026-11-20-ups-historia",
   "dd-2026-11-20-ups-lamina",
   "dd-2026-11-20-ups-tachon-n3"
- ]
+ ],
+ "cerrada": true
 }
