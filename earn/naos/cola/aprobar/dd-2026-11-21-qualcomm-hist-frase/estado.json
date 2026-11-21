@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-hist-frase",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T19:30:00Z",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "hash_contenido": "c0872dbc0941d0115f5b1e522070ec033f0b9dd1146ad4e568e29d6f19919601",
+ "hashes": {
+  "historia": "3d9489ad7dab9bdf0469aee4ef0fa3f90dba39e82217d86065eebc6ad9ba2c4c"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062385678,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente-b"
+}

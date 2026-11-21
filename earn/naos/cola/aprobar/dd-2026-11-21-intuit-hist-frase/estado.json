@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-intuit-hist-frase",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T20:30:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "d604a8ec09c3854d8528e25e62b3dd0b3cfb7377cb7a9db97534706b4e0489e7",
+ "hashes": {
+  "historia": "9008c8b6b3e621a3261e4c1c367fa38044df35a26b388b5dc4f5667fa46cd6b9"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062384004,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente-b"
+}

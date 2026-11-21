@@ -1,0 +1,19 @@
+{
+ "nombre": "dd-2026-11-21-agente-b",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "dd-2026-11-21-intuit-hist-frase",
+  "dd-2026-11-21-qualcomm-tachon-cd",
+  "dd-2026-11-21-qualcomm-lamina",
+  "dd-2026-11-21-qualcomm-expediente",
+  "dd-2026-11-21-qualcomm-hist-frase",
+  "dd-2026-11-21-qualcomm-hist-siguiente",
+  "dd-2026-11-21-qualcomm-hist-video"
+ ],
+ "comentario_vista_previa_id": 7062386997,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-21T12:11:10Z",
+ "agente": true
+}

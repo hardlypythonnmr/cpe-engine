@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-lamina",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T18:00:00Z",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "hash_contenido": "97be54e887aa1066e9352fca4e1f5727ba5963452628ac8db0d73876b0dbbb63",
+ "hashes": {
+  "imagen": "2947a9b7d4b9720c4a22d15efb11abb833d0830880f94099f02ff7d18c4468f5"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7062384782,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente-b"
+}

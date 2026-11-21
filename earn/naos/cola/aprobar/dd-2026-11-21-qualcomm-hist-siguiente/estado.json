@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-hist-siguiente",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T21:00:00Z",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "hash_contenido": "adc775d40d39ed3f53f5b1e9b212273ce21b1a4e5c53fec3faa40a5d3fdd55c7",
+ "hashes": {
+  "historia": "e73a124af2bb2cac5c2a8b1301aa2f94bdedafc85161627cbb884e3739ecf57d"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062386147,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente-b"
+}

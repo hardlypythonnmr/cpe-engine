@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-tachon-cd",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T17:00:00Z",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "hash_contenido": "7c8056f446a7538cb63ca0600d685e3484a594a1f56536a407a34ad6f003d07d",
+ "hashes": {
+  "short": "de762beb3bf34daad50c108a570df0075c0b28018829b7397f791119b58cc9a5",
+  "reel": "55dfaf38dfe4fafeee871de6195e08bbc03b0b653bf67d0d0e240decc56c974d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7062384386,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente-b"
+}

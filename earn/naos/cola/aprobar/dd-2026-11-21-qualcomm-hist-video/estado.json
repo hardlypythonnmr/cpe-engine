@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-hist-video",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T04:30:00Z",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "hash_contenido": "8ac52d20504da746439ee319600b32ec66059dd3156028cfcd00ebc54792bd2a",
+ "hashes": {
+  "historia": "4df039842d31682f2edeb1c9ff5e5bc9698a2d634b8fdbb7f8b814e2ff658769"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062386571,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente-b"
+}

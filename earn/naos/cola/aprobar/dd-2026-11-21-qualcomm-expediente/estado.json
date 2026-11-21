@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-expediente",
+ "issue": 126,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T22:00:00Z",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "hash_contenido": "f35040fbadfbc11e9852e585510955d2f5ccbbde4c7687ad9e07d10693556671",
+ "hashes": {
+  "carrusel": "64406f4e2710505cff53ffd31b5bf9f50d8e022754a05245192acb93354555bd"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7062385225,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente-b"
+}
