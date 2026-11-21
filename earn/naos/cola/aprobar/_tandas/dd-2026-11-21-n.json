@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-21-n",
  "issue": 127,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-21-amazon-hist-numero",
   "dd-2026-11-21-intuit-hist-siguiente",
@@ -13,5 +13,12 @@
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-21T12:11:54Z",
  "aviso_utc": "2026-11-21T12:11:56Z",
- "aviso_canal": "github"
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-21T12:13:55Z",
+ "aprobadas": [
+  "dd-2026-11-21-amazon-hist-numero",
+  "dd-2026-11-21-intuit-hist-siguiente",
+  "dd-2026-11-21-qualcomm-hist-numero",
+  "dd-2026-11-21-qualcomm-historia"
+ ]
 }

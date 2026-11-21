@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-qualcomm-historia",
  "issue": 127,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T14:00:00Z",
  "datos_utc": "2026-11-21T11:40:00Z",
  "hash_contenido": "f2174a757fb4d6fb148a14d341935746c920a2dd757b7e2e16bd1a385d117acf",
@@ -17,5 +17,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-n"
+ "tanda": "dd-2026-11-21-n",
+ "aprobado_evento_utc": "2026-11-21T12:13:55Z"
 }
