@@ -81,10 +81,16 @@ def huella_de(canal, pieza, carpeta):
     return registro.hash_carrusel([os.path.join(carpeta, n) for n in pieza.get("laminas") or []], cap)
 
 
-def posts_24h(fb, ahora):
+def es_dd(slug):
+    return slug.startswith("dd-")
+
+
+def posts_24h(fb, ahora, marca=None):
     """Posts del libro desde ahora-24 h, también los que esta misma ronda anotó después de `ahora` (fb_pagina.posts_ultimas_24h
     corta en `ahora`: en la ronda de las 00:25Z del 20-nov el contador se quedó en 1/30 con 6 publicados)."""
-    return sum(1 for r in fp.leer_fb(fb) if (utc(r.get("publicado_utc")) or ahora - dt.timedelta(days=2)) > ahora - dt.timedelta(hours=24))
+    # 21-nov: el tope de Meta es por Página; con las dos marcas en un solo libro la ronda de las 22:58Z se frenó en 30 sumando ambas
+    return sum(1 for r in fp.leer_fb(fb) if (utc(r.get("publicado_utc")) or ahora - dt.timedelta(days=2)) > ahora - dt.timedelta(hours=24)
+               and (marca is None or es_dd(r.get("slug", "")) == (marca == "dd")))
 
 
 def raiz_sitio(marca):
@@ -134,6 +140,9 @@ def una(slug, canal, marca, fila, cola, fb, ahora, de_verdad=False, http=dp.http
                 [pieza.get("archivo") or "imagen.jpg"] if canal == "imagen" else list(pieza.get("laminas") or []))
     if not archivos or not all(os.path.isfile(os.path.join(carpeta, a)) for a in archivos):
         raise Salto(f"{slug}: sus medios no están en esta copia (solo estado.json)")
+    if canal == "carrusel" and any(a.lower().endswith((".mp4", ".mov")) for a in archivos):
+        raise Salto(f"{slug}: el carrusel trae video ({', '.join(a for a in archivos if a.lower().endswith(('.mp4', '.mov')))}) y la Página solo "
+                    "acepta fotos en un post de varias; no se publica recortado")
     if any(os.path.getsize(os.path.join(carpeta, a)) < 1024 for a in archivos):
         bajar_lfs(carpeta)
     if (marca == "naos") == slug.startswith("dd-"):
@@ -144,7 +153,7 @@ def una(slug, canal, marca, fila, cola, fb, ahora, de_verdad=False, http=dp.http
         raise fp.ErrorFb(f"NO SE PUBLICA: no pude leer los archivos de {slug}: {e}") from None
     if huella != fila["hash"]:
         raise fp.ErrorFb(f"NO SE PUBLICA: {slug} ({canal}) no es lo que N aprobó (versión {fila['version']})")
-    n = posts_24h(fb, ahora)
+    n = posts_24h(fb, ahora, marca)
     if n >= fp.TOPE_API_24H:
         raise fp.ErrorFb(f"NO SE PUBLICA: tope de {fp.TOPE_API_24H} posts por API en 24 h ({n})")
     texto = fp.texto_facebook(pieza.get("caption") or "")

@@ -98,6 +98,20 @@ class Una(Base):
         with self.assertRaises(fr.fp.ErrorFb):
             self.correr("naos-x")
 
+    def test_tope_es_por_pagina(self):
+        with open(self.fb, "a") as f:
+            for i in range(30):
+                f.write(f"dd-s{i},{i},u,{(AHORA - dt.timedelta(hours=1)).strftime('%Y-%m-%dT%H:%M:%SZ')}\n")
+        r, out = self.correr("naos-x")  # 30 de DD no frenan a NAOS
+        self.assertIn("0/30", out)
+        with self.assertRaises(fr.fp.ErrorFb):
+            self.correr("dd-x", marca="dd")
+
+    def test_carrusel_con_video_es_salto(self):
+        self.pieza("naos-c", laminas=["video.mp4"], canales=["carrusel"])
+        with self.assertRaises(fr.Salto):
+            fr.una("naos-c", "carrusel", "naos", fila("naos-c", canal="carrusel"), self.cola, self.fb, AHORA)
+
     def test_seco_no_llama(self):
         r, out = self.correr("naos-x", http=lambda *a: self.fail("llamó"))
         self.assertIsNone(r)
