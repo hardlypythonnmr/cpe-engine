@@ -2,7 +2,7 @@
  "slug": "gossip-hi-to-the-cheese",
  "issue": 120,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-04T14:45:00Z",
  "datos_utc": "2026-11-19T15:49:00Z",
  "hash_contenido": "acd2e13208073652bb8df7cfb90b63451a493e41cc9580549ca5db4dd3bdf186",
@@ -19,5 +19,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "gossip-0412"
+ "tanda": "gossip-0412",
+ "aprobado_evento_utc": "2026-11-20T01:42:27Z"
 }

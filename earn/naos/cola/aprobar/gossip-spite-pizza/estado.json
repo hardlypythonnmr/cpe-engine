@@ -2,7 +2,7 @@
  "slug": "gossip-spite-pizza",
  "issue": 120,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-04T22:00:00Z",
  "datos_utc": "2026-11-19T15:49:00Z",
  "hash_contenido": "35d31bf4391554846451e9ad755ba1c8fd466f844ddc2b83ebe78da16a6843af",
@@ -19,5 +19,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "gossip-0412"
+ "tanda": "gossip-0412",
+ "aprobado_evento_utc": "2026-11-20T01:42:27Z"
 }

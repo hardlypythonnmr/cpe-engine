@@ -2,7 +2,7 @@
  "slug": "gossip-doing-the-moon",
  "issue": 120,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-04T19:45:00Z",
  "datos_utc": "2026-11-19T15:49:00Z",
  "hash_contenido": "15d2de45a67094ae5a9ab5d0919d9e5887cee085482176a422b1f87ea065f08a",
@@ -19,5 +19,6 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "gossip-0412"
+ "tanda": "gossip-0412",
+ "aprobado_evento_utc": "2026-11-20T01:42:27Z"
 }
