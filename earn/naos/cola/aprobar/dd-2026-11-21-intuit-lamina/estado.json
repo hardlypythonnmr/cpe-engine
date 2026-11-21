@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-intuit-lamina",
  "issue": 125,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T01:00:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "e89e9ac0bbcf9fd19f1b20979c7b30fa8b930c4d348077d81d47fa134743dfbd",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-agente"
+ "tanda": "dd-2026-11-21-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:10:07Z",
+ "veto_hasta_utc": "2026-11-21T13:10:07Z"
 }

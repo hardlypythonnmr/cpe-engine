@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-amazon-hist-frase",
  "issue": 125,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T18:30:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "a754a035ee259899a1141628a52d4a5dc907c7b2381e03c4613cb0ff7f9e28c5",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-agente"
+ "tanda": "dd-2026-11-21-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:10:07Z",
+ "veto_hasta_utc": "2026-11-21T13:10:07Z"
 }

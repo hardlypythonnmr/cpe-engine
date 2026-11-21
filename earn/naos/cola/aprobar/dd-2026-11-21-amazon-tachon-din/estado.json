@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-amazon-tachon-din",
  "issue": 125,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T02:00:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "2797e8f923941be21ddb199814d84a4c32340f1f44feceed73856977bf4cc571",
@@ -19,5 +19,10 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-agente"
+ "tanda": "dd-2026-11-21-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:10:07Z",
+ "veto_hasta_utc": "2026-11-21T13:10:07Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-22T14:00:00Z"
 }
