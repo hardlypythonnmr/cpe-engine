@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-amazon-hist-frase",
+ "issue": 125,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T18:30:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "a754a035ee259899a1141628a52d4a5dc907c7b2381e03c4613cb0ff7f9e28c5",
+ "hashes": {
+  "historia": "d439de2a19ee620c773ce77f2ed9cb6fd7cda57fa3498c5ea9421b82361ca4da"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062371435,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente"
+}

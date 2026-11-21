@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-intuit-expediente",
+ "issue": 125,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T01:30:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "0a66712964cb8d679b71c605295e390fc6c3daaefc4ca2e45f0596c6ade133c6",
+ "hashes": {
+  "carrusel": "680b011b0600627bff1b5b04b8bb8b5cd261ffaf99ee00bda1c76e102288e18a"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7062373021,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente"
+}

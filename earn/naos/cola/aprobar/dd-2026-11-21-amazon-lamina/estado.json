@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-amazon-lamina",
+ "issue": 125,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T03:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "41235d5e6cdbe003d260ca04c5de89ef0cd13bf13707d34fe371db24d17fab54",
+ "hashes": {
+  "imagen": "3b69f49c450fa7988cb29630cf651063078ac70dfcb7b8fe926a61e622217113"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7062370232,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente"
+}

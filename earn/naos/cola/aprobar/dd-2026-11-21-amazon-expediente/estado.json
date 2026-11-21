@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-amazon-expediente",
+ "issue": 125,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T03:30:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "3aa90804049c4162c7f70a8d1cb8d89e53000bc05c2028bdedfcf8ddf40b5a7e",
+ "hashes": {
+  "carrusel": "6b86758158e7605c925f8a175c4a7cfaedbf94f8eb12ca1aa45c269e3c30371a"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7062370626,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente"
+}

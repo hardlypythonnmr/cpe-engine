@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-intuit-hist-numero",
+ "issue": 125,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T16:00:00Z",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "hash_contenido": "87f18413415f958cbc4908d359b03cf22d79370618eb5f5daa83729103a0b028",
+ "hashes": {
+  "historia": "79eae51439eb50c71a963e3c43c70da0eb2bb5a1697aae5dd01c45f14699d715"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062373830,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-agente"
+}
