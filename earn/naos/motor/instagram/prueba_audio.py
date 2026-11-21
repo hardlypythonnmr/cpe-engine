@@ -339,5 +339,38 @@ class PublicarLeeAudioDePreparar(unittest.TestCase):
         self.assertEqual((res["audio_ab"], res["audio_ig"]["audio_id"], res["reel"]), ("tendencia", "9", "https://ig/r"))
 
 
+class NaosPorFacebook(unittest.TestCase):
+    """21-nov (seco): NAOS solo entra al piloto con encendido true, y su Reel con sonido sale por Facebook Login (naos-fb)."""
+
+    def cola(self, marca):
+        c = tempfile.mkdtemp()
+        os.makedirs(os.path.join(c, "x"))
+        with open(os.path.join(c, "x", "pieza.json"), "w") as f:
+            json.dump({"marca": marca, "titulo": "sleep"}, f)
+        return c
+
+    def test_naos_apagada_no_entra(self):
+        c, hoy = self.cola("naos"), dt.date(2026, 11, 24)  # día 328: par
+        ab = {"marca": "mercury", "desde": "2026-11-20", "hasta": "2026-12-03",
+              "otras": [{"marca": "naos", "encendido": False, "desde": "2026-11-20", "hasta": "2026-12-03"}]}
+        self.assertEqual(accion_reel.grupo_audio("x", c, hoy, ab)[0], "")
+        ab["otras"][0]["encendido"] = True
+        self.assertEqual(accion_reel.grupo_audio("x", c, hoy, ab)[0], "tendencia")
+        self.assertEqual(accion_reel.grupo_audio("x", self.cola("mercury"), hoy, ab)[0], "tendencia")
+
+    def test_via(self):
+        c = self.cola("naos")
+        with mock.patch.dict(os.environ, {"NAOS_FB_TOKEN": ""}):
+            self.assertEqual(accion_reel.via_audio("x", ["--audio-id", "9"], c), "sin-credencial")
+        with mock.patch.dict(os.environ, {"NAOS_FB_TOKEN": "T"}):
+            self.assertEqual(accion_reel.via_audio("x", ["--audio-id", "9"], c), "facebook")
+            self.assertEqual(accion_reel.via_audio("x", [], c), "")
+            self.assertEqual(accion_reel.via_audio("x", ["--audio-id", "9"], self.cola("mercury")), "")
+
+    def test_cuenta_naos_fb_es_naos_v3(self):
+        c = ig.CUENTAS["naos-fb"]
+        self.assertEqual((c["token"], c["user_id"], c["api"], c["username"]), ("NAOS_FB_TOKEN", "17841452348710663", "facebook", "naos.v3"))
+
+
 if __name__ == "__main__":
     unittest.main()

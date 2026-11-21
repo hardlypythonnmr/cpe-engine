@@ -39,7 +39,8 @@ def revisar(cola, llamar=None, media_de=media_id_de, ahora=None):
         f = {"fecha_utc": ahora, "slug": slug, "audio_id": a["audio_id"], "ig_username": a.get("ig_username", ""),
              "vivo": "", "media_audio_type": "", "media_url": "", "nota": ""}
         try:
-            llamar("GET", str(a["audio_id"]), {}, anotar=False, crudo=True)
+            uid = ig.CUENTA.get("user_id") or os.environ.get(ig.CUENTA.get("user_id_env", ""), "")
+            llamar("GET", str(a["audio_id"]), {"user_id": uid}, anotar=False, crudo=True)  # 21-nov: sin user_id Meta da 400
             f["vivo"] = "si"
         except ig.ErrorMeta as err:
             f["vivo"], f["nota"] = "no", err.linea()[:200]

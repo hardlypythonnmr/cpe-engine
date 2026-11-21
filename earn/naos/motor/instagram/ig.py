@@ -153,7 +153,11 @@ CUENTA = {"user_id": "17841452348710663", "username": "naos.v3"}
 # Una cuenta por marca. "token" es el NOMBRE de la variable; el valor nunca se escribe ni se imprime.
 CUENTAS = {"naos": {"token": "INSTAGRAM_TOKEN", "username": "naos.v3", "user_id": "17841452348710663", "sufijo": ""},
            "mercury": {"token": "MERCURY_INSTAGRAM_TOKEN", "username": "done_damages", "user_id_env": "MERCURY_INSTAGRAM_USER_ID",
-                       "sufijo": "-mercury", "api": "facebook"}}
+                       "sufijo": "-mercury", "api": "facebook"},
+           # 21-nov (seco): la misma cuenta naos.v3 por Facebook Login, solo para los Reels de NAOS del grupo tendencia (la API de
+           # audio no existe en Instagram Login). accion_reel la pide con NAOS_IG_VIA=facebook; apagado mientras audio-ab no la encienda.
+           "naos-fb": {"token": "NAOS_FB_TOKEN", "username": "naos.v3", "user_id": "17841452348710663", "sufijo": "-naosfb",
+                       "api": "facebook"}}
 MARCA = "naos"  # usar_marca() la cambia
 _cuenta_vista = False
 
@@ -1245,6 +1249,8 @@ def main():
     if a.marca and a.marca != marca:
         sys.exit(f"NO SE PUBLICA: la pieza {a.slug} es de la marca {marca}, no de {a.marca}. No salió nada.")
     usar_marca(marca)
+    if MARCA == "naos" and os.environ.get("NAOS_IG_VIA", "").strip().lower() == "facebook":
+        usar_marca("naos-fb")  # sonido en tendencia de NAOS: misma cuenta por Facebook Login (comprueba que el token sea de naos.v3)
     if MARCA != "naos" and a.orden.startswith(("preparar", "publicar")):
         token()  # otra marca sin sus credenciales: se niega aquí, antes de tocar nada
 

@@ -566,6 +566,8 @@ def grupo_audio(slug, cola=COLA, hoy=None, ab=None):
     if "audio_tendencia" in p:
         return ("tendencia" if p["audio_tendencia"] else "propio"), tema, ""
     ab = ab if ab is not None else (leer_json(os.path.join(AQUI, "audio-ab.json")) or {})
+    if ab and registro.marca_de(p) != ab.get("marca"):  # 21-nov: otras marcas en "otras", solo si están encendidas
+        ab = next((o for o in ab.get("otras") or [] if o.get("marca") == registro.marca_de(p) and o.get("encendido") is True), {})
     if not ab or registro.marca_de(p) != ab.get("marca"):
         return "", tema, ""
     hoy = hoy or dt.datetime.now(ZoneInfo("America/New_York")).date()
@@ -599,6 +601,16 @@ def audio_para_publicar(slug, cola=COLA, vetado=None):
         if v:
             return "propio-veto", []
     return grupo, ["--audio-id", str(av["audio_id"])] + (["--audio-vol", str(av["audio_vol"])] if av.get("audio_vol") else [])
+
+
+def via_audio(slug, audio, cola=COLA):
+    """NAOS publica por Instagram Login, que no tiene la API de audio. Un Reel de NAOS con sonido elegido sale por Facebook Login
+    (ig.py naos-fb, NAOS_FB_TOKEN): "facebook"; sin ese token, "sin-credencial" (sale con su sonido propio). DD u otro caso: ""."""
+    p = leer_json(os.path.join(cola, slug, "pieza.json")) or {}
+    if (not audio or not p or slug.startswith("dd-") or registro.marca_de(p) != "naos"
+            or registro.marca_delatada(p, slug, registro.reglas_agente())):
+        return ""  # solo NAOS sin duda: lo que huela a DD sigue por su vía de siempre
+    return "facebook" if os.environ.get("NAOS_FB_TOKEN", "").strip() else "sin-credencial"
 
 
 def audio_de_salida(grupo, out):
@@ -736,6 +748,12 @@ def publicar(info, d, naos=None, ruta=None):
             comunes += ["--semana", os.path.join(naos, "data", "semana.json"), "--enlaces", os.path.join(naos, "data", "enlaces.json")]
     servido = ["--servido", info["servido"]] if info.get("servido") else []  # copia con faststart: el peso de la URL es el suyo
     grupo, audio = audio_para_publicar(info["slug"])
+    via = via_audio(info["slug"], audio)
+    if via == "sin-credencial":
+        grupo, audio = "propio-sin-credencial", []
+    os.environ.pop("NAOS_IG_VIA", None)
+    if via == "facebook":
+        os.environ["NAOS_IG_VIA"] = "facebook"  # preparar y publicar por la misma vía: el contenedor es de esa API
     rc, out = correr([ig, "preparar", info["slug"], info["video_url"], "--caption", cap, "--archivo", info["video"], *servido, *con_ia(info["slug"]), *audio,
                       *comunes], log)
     out_preparar = out  # 20-nov: la línea AUDIO sale en preparar; `out` se pisa abajo con la salida de publicar

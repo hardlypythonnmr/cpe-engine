@@ -7,5 +7,15 @@
  "cuentas_vetadas": [
   "gustavopetrourrego"
  ],
- "_nota_vetadas": "Cuentas que DD no usa aunque su sonido pase el filtro: políticos y figuras públicas de un bando (mudanza 19-nov). La mesa o N agregan."
+ "_nota_vetadas": "Cuentas que DD no usa aunque su sonido pase el filtro: políticos y figuras públicas de un bando (mudanza 19-nov). La mesa o N agregan.",
+ "otras": [
+  {
+   "marca": "naos",
+   "encendido": false,
+   "desde": "",
+   "hasta": "",
+   "cita": "Tras el día 1 de DD (Rec.)",
+   "_nota": "21-nov, en seco: NAOS alterna igual que DD (día par tendencia) solo con encendido true y fechas. Sale por Facebook Login (NAOS_FB_TOKEN, ig.py naos-fb). No se enciende sin que la mesa confirme el piloto de DD."
+  }
+ ]
 }
