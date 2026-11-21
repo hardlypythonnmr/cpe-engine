@@ -11,4 +11,5 @@ marca:mercury tras dd-2026-11-13-meta-lamina-reel
 # Prueba iglogin de NAOS (N, 17-nov 15:30Z, por la mesa: "Sí, una pieza (Rec.)"): una sola pieza de NAOS ya aprobada, sola en su
 # minuto, que sale después de la prueba de DD y solo si esa salió. walk-no-podcast sale el 21-nov a las 17:00Z (Reel 17:04Z).
 # Si Meta la rechaza, no sale nada y la Action lo dice ("Reintentar con subida_directa apagada (Pages)"): plan B en el PR #1764.
-walk-no-podcast tras dd-2026-11-13-meta-lamina-reel
+# RESULTADO (21-nov 17:04Z): Meta rechazó la prueba iglogin de NAOS: HTTP 400, code 100, "The parameter video_url is required" (run 44927829687).
+# Instagram Login no sube el mp4 directo para NAOS; plan B: Pages. La línea de walk-no-podcast se quitó; el Short ya estaba público.
