@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-intuit-hist-frase",
  "issue": 126,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T20:30:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "d604a8ec09c3854d8528e25e62b3dd0b3cfb7377cb7a9db97534706b4e0489e7",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-agente-b"
+ "tanda": "dd-2026-11-21-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:11:14Z",
+ "veto_hasta_utc": "2026-11-21T13:11:14Z"
 }

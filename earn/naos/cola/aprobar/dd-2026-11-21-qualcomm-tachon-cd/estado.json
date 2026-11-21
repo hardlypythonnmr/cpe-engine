@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-qualcomm-tachon-cd",
  "issue": 126,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-21T17:00:00Z",
  "datos_utc": "2026-11-21T11:40:00Z",
  "hash_contenido": "7c8056f446a7538cb63ca0600d685e3484a594a1f56536a407a34ad6f003d07d",
@@ -19,5 +19,10 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-21-agente-b"
+ "tanda": "dd-2026-11-21-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:11:14Z",
+ "veto_hasta_utc": "2026-11-21T13:11:14Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-22T05:00:00Z"
 }
