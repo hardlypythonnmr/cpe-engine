@@ -1,0 +1,84 @@
+{
+ "slug": "dd-2026-11-21-amazon-tachon-din",
+ "titulo": "Amazon CEO pay ratio: $212.7M vs a $32,855 median worker",
+ "clave": "2026-11-22|mercury|tachon|2026-11-21-amazon-tachon-din",
+ "sale_utc": "2026-11-22T02:00:00Z",
+ "caption": "Amazon CEO pay ratio: $212.7M vs a $32,855 median worker\n\nAmazon CEO pay ratio: the proxy statement says $212,701,169 for the CEO and $32,855 for the median worker. From the archive (Apr 2022), not today's news.\nA proxy statement is the yearly filing a public company sends shareholders. Amazon's, dated April 14, 2022, reported its CEO's 2021 total pay as $212,701,169 and the median employee's 2021 total pay as $32,855. \"Median\" means the worker in the exact middle of the pay line: half earn more, half earn less.\n\nThe same document said: \"committed to the safety and well-being of our employees\" (Amazon, proxy statement).\nThe math: $212.7 million CEO total pay (2021) ÷ $32,855 median worker = about 6,474. That is the CEO pay ratio: CEO pay per median worker's annual pay. The proxy states the ratio as 1-to-6,474; the division gives 6,473.94, shown as 6,474.\nHow much does Amazon pay its workers? Per this filing, the median total pay worldwide, full-time and part-time, permanent and temporary, excluding the CEO, was $32,855 for 2021.\nWhy is the CEO number so big? Nearly all of the $212,701,169 is one restricted stock unit award, granted on the CEO's promotion and vesting over 10 years, per the proxy. It is stock, not a cash paycheck.\n\nCommitted to employees, it said. Here is the pay column. (Our take.)\n\nWhere does your pay sit next to the median at your company? Tell us below.\n\n#AmazonCEOPayRatio #CEOPay #PayRatio #Amazon #DoneDamages\n\nSynthetic voice. Sources: SEC EDGAR · Amazon, Apr 14, 2022.\n\nFrom the archive: Apr 2022.\n\nFind the link in bio.",
+ "descripcion": "Amazon CEO pay ratio: the proxy statement says $212,701,169 for the CEO and $32,855 for the median worker. From the archive (Apr 2022), not today's news.\nA proxy statement is the yearly filing a public company sends shareholders. Amazon's, dated April 14, 2022, reported its CEO's 2021 total pay as $212,701,169 and the median employee's 2021 total pay as $32,855. \"Median\" means the worker in the exact middle of the pay line: half earn more, half earn less.\n\nThe same document said: \"committed to the safety and well-being of our employees\" (Amazon, proxy statement).\nThe math: $212.7 million CEO total pay (2021) ÷ $32,855 median worker = about 6,474. That is the CEO pay ratio: CEO pay per median worker's annual pay. The proxy states the ratio as 1-to-6,474; the division gives 6,473.94, shown as 6,474.\nHow much does Amazon pay its workers? Per this filing, the median total pay worldwide, full-time and part-time, permanent and temporary, excluding the CEO, was $32,855 for 2021.\nWhy is the CEO number so big? Nearly all of the $212,701,169 is one restricted stock unit award, granted on the CEO's promotion and vesting over 10 years, per the proxy. It is stock, not a cash paycheck.\n\nCommitted to employees, it said. Here is the pay column. (Our take.)\n\n#AmazonCEOPayRatio #CEOPay #PayRatio #Amazon #DoneDamages\n\nSources:\n- SEC EDGAR · Amazon, Apr 14, 2022: «We also aim to be Earth’s safest place to work and are committed to the safety and well-being of our employees.» and «Mr. Jassy’s 2021 annual total compensation as reported under SEC rules was $212,701,169» and «The 2021 annual total compensation of our median compensated employee (identified from all full- and part-time permanent and temporary employees worldwide, excluding our CEO) was $32,855» https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm\n\nSynthetic voice.\n\nFrom the archive: Apr 2022.",
+ "alt": "Blue card with white type about the Amazon CEO pay ratio. Amazon, Apr 14, 2022. The statement, in quotes: \"committed to the safety and well-being of our employees\". It is by Amazon, proxy statement. The math: $212.7M ÷ $32,855 = about 6,474, CEO pay, per median worker's annual pay. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-21/amazon-2021-pay-ratio/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm",
+   "medio": "SEC EDGAR · Amazon",
+   "titulo": "Amazon proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "18.28 s; strike at 0.3 s, number at 9.742 s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "Where does your pay sit next to the median at your company? Tell us below.",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Ratio: six thousand four hundred seventy-four times the median pay. In 2022, Amazon said: committed to the safety and well-being. For fiscal 2021, Amazon's CEO pay: two hundred twelve point seven million dollars. Its median worker: thirty-two thousand eight hundred fifty-five. Committed to employees, it said. Here is the pay column.",
+ "tramos": [
+  {
+   "papel": "cuenta",
+   "voz": "Ratio: six thousand four hundred seventy-four times the median pay."
+  },
+  {
+   "papel": "golpe",
+   "voz": "In 2022, Amazon said: committed to the safety and well-being."
+  },
+  {
+   "papel": "gancho",
+   "voz": "For fiscal 2021, Amazon's CEO pay: two hundred twelve point seven million dollars. Its median worker: thirty-two thousand eight hundred fifty-five."
+  },
+  {
+   "papel": "giro",
+   "voz": "Committed to employees, it said. Here is the pay column."
+  },
+  {
+   "papel": "firma",
+   "voz": ""
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}

@@ -1,0 +1,50 @@
+{
+ "slug": "dd-2026-11-21-amazon-lamina",
+ "titulo": "Amazon (Apr 2022): $212.7 million CEO total pay, $32,855 median worker. Now the math.",
+ "clave": "2026-11-22|mercury|lamina|2026-11-21-amazon-lamina",
+ "sale_utc": "2026-11-22T03:00:00Z",
+ "caption": "From the archive: Apr 2022. Not today's news.\nAmazon, Apr 14, 2022 (Amazon, proxy statement): \"committed to the safety and well-being of our employees\"\nAmazon's proxy statement, dated April 14, 2022, reported its CEO's 2021 total pay as $212,701,169. It reported the median employee's 2021 total pay as $32,855.\n\nFiscal 2021: $212.7 million CEO total pay, fiscal 2021, proxy. total compensation of the CEO for 2021 as reported in the proxy; the proxy says nearly all of it is one restricted stock unit award granted on his promotion to CEO, vesting over 10 years.\nThe math: $212.7 million CEO total pay (2021) ÷ $32,855 median worker = about 6,474 CEO pay per median worker's annual pay.\nThe facts: $212.7 million CEO total pay (SEC EDGAR · Amazon, Apr 14, 2022). $32,855 total pay, 2021 (SEC EDGAR · Amazon, Apr 14, 2022). Nearly all of the $212,701,169 is one restricted stock unit award, granted on the CEO's promotion and vesting over 10 years, per the proxy. The proxy states the ratio as 1-to-6,474; the division gives 6,473.94, shown as 6,474.\n\nCommitted to employees, it said. Here is the pay column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSources: SEC EDGAR · Amazon, Apr 14, 2022.\n\nFind the link in bio.",
+ "descripcion": "From the archive: Apr 2022. Not today's news.\nAmazon, Apr 14, 2022 (Amazon, proxy statement): \"committed to the safety and well-being of our employees\"\nAmazon's proxy statement, dated April 14, 2022, reported its CEO's 2021 total pay as $212,701,169. It reported the median employee's 2021 total pay as $32,855.\n\nFiscal 2021: $212.7 million CEO total pay, fiscal 2021, proxy. total compensation of the CEO for 2021 as reported in the proxy; the proxy says nearly all of it is one restricted stock unit award granted on his promotion to CEO, vesting over 10 years.\nThe math: $212.7 million CEO total pay (2021) ÷ $32,855 median worker = about 6,474 CEO pay per median worker's annual pay.\nThe facts: $212.7 million CEO total pay (SEC EDGAR · Amazon, Apr 14, 2022). $32,855 total pay, 2021 (SEC EDGAR · Amazon, Apr 14, 2022). Nearly all of the $212,701,169 is one restricted stock unit award, granted on the CEO's promotion and vesting over 10 years, per the proxy. The proxy states the ratio as 1-to-6,474; the division gives 6,473.94, shown as 6,474.\n\nCommitted to employees, it said. Here is the pay column. (Our take.)\n\nSources:\n- SEC EDGAR · Amazon, Apr 14, 2022: «We also aim to be Earth’s safest place to work and are committed to the safety and well-being of our employees.» and «Mr. Jassy’s 2021 annual total compensation as reported under SEC rules was $212,701,169» and «The 2021 annual total compensation of our median compensated employee (identified from all full- and part-time permanent and temporary employees worldwide, excluding our CEO) was $32,855» https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm",
+ "alt": "Blue card with white type. Amazon, Apr 14, 2022. The statement, in quotes: \"committed to the safety and well-being of our employees\". It is by Amazon, proxy statement. The math: $212.7M ÷ $32,855 = about 6,474, CEO pay, per median worker's annual pay. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/2026-11-21/amazon-2021-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465922045572/tm223357-5_def14a.htm",
+   "medio": "SEC EDGAR · Amazon",
+   "titulo": "Amazon proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg"
+}

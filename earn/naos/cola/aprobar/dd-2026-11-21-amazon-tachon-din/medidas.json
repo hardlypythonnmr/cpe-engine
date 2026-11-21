@@ -1,0 +1,268 @@
+{
+ "id": "amazon-2021-pay-ratio-2026-11-21",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 18.28,
+ "dur_contenido": 18.28,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.32,
+ "palabras": 51,
+ "cuenta": {
+  "a": "212701169",
+  "b": "32855",
+  "c_real": "6473.9361",
+  "c_pantalla": "6,474",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · APR 2022",
+ "tramos": [
+  {
+   "papel": "cuenta",
+   "t0": 0.4,
+   "t1": 3.477,
+   "voz": "Ratio: six thousand four hundred seventy-four times the median pay."
+  },
+  {
+   "papel": "golpe",
+   "t0": 3.557,
+   "t1": 6.912,
+   "voz": "In 2022, Amazon said: committed to the safety and well-being."
+  },
+  {
+   "papel": "gancho",
+   "t0": 6.992,
+   "t1": 14.677,
+   "voz": "For fiscal 2021, Amazon's CEO pay: two hundred twelve point seven million dollars. Its median worker: thirty-two thousand eight hundred fifty-five."
+  },
+  {
+   "papel": "giro",
+   "t0": 14.727,
+   "t1": 17.4,
+   "voz": "Committed to employees, it said. Here is the pay column."
+  },
+  {
+   "papel": "firma",
+   "t0": 17.48,
+   "t1": 18.28,
+   "voz": ""
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 6.892,
+   "e": "n"
+  },
+  {
+   "t": 14.677,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 12.542,
+  "numero_a": 9.742,
+  "numero_c": 0.61,
+  "numero_dicho": null,
+  "linea_completa": 16.423,
+  "cierre": 17.48,
+  "total": 18.28
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "frase": 150,
+  "a": 98,
+  "b": 98,
+  "cuenta.n": 72,
+  "about": 120,
+  "cifra": 381,
+  "linea": 150
+ },
+ "lineas_frase": 5,
+ "c_ancho_px": 839,
+ "envoltorio": {
+  "semilla": "2026-11-21|amazon-2021-pay-ratio",
+  "sonido": 2,
+  "trazo": 2,
+  "composicion": 0,
+  "cierre": 4,
+  "titulo": 2
+ },
+ "ritmo": 1.1,
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 51,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 72,
+   "y": 1160,
+   "lado_px": 100,
+   "esquina": "abajo-izquierda",
+   "choca": false
+  },
+  "cierre_s": 0.0,
+  "dur_antes_s": 18.28,
+  "dur_video_s": 18.28
+ },
+ "volumen": {
+  "lufs": -14.15,
+  "pico_dbtp": -1.1
+ },
+ "oido": [
+  {
+   "papel": "cuenta",
+   "dice": "Ratio: six thousand four hundred seventy-four times the median pay.",
+   "oye": "ratio of 6,474 times the median pay.",
+   "cifra_c": {
+    "espera": "6,474",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "golpe",
+   "dice": "In 2022, Amazon said: committed to the safety and well-being.",
+   "oye": "In 2022, Amazon said, committed to the safety and well-being."
+  },
+  {
+   "papel": "gancho",
+   "dice": "For fiscal 2021, Amazon's CEO pay: two hundred twelve point seven million dollars. Its median worker: thirty-two thousand eight hundred fifty-five.",
+   "oye": "For fiscal 2021, Amazon's CEO pay $212.7 million. It's median worker $32,855.",
+   "cifra_a": {
+    "espera": "$212.7 MILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "$32,855",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Committed to employees, it said. Here is the pay column.",
+   "oye": "Committed to employees, it said. Here is the pay column."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.0,
+  "rachas": [],
+  "pasa": true
+ },
+ "avisos": [],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-q@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "cuenta",
+   "golpe",
+   "gancho",
+   "giro",
+   "firma"
+  ],
+  "dur": 18.28
+ },
+ "gancho_seg": 0.61,
+ "cifra_entra_s": 0.61,
+ "racha_quieta_max_s": 2.0,
+ "cifra_antes_s": 2.0,
+ "racha_tope_s": 2.0,
+ "dinamico": true,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · APR 2022, la frase oficial grande con nombre y cargo, tachándose, y la cifra entrando antes de 2 s"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"cifra_antes\": 2.0, \"voz_desde\": 0.4, \"b_antes\": 10.5, \"b_antes_dinamico\": 14.0, \"quieto_s\": 2.0, \"duracion_s\": [12, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.0,
+  "rachas": [],
+  "pasa": true
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/amazon-2021-pay-ratio/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Amazon: «We also aim to be Earth’s safest place to work and are committed to the safety and well-be»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Amazon: «Mr. Jassy’s 2021 annual total compensation as reported under SEC rules was $212,701,169»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 212,701,169"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Amazon: «The 2021 annual total compensation of our median compensated employee (identified from all»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 32,855"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2021 · B 2021)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Amazon) es la del pedido (Amazon)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

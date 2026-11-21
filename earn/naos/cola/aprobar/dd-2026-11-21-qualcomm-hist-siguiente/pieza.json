@@ -1,0 +1,77 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-hist-siguiente",
+ "titulo": "Qualcomm: $7.8 billion in buybacks, about 520 jobs layoff notices filed. Here is the math.",
+ "clave": "2026-11-21|mercury|historia|2026-11-21-qualcomm-hist-siguiente",
+ "sale_utc": "2026-11-21T21:00:00Z",
+ "caption": "",
+ "descripcion": "Qualcomm, Oct 20, 2026 (CEO memo, as quoted by Reuters): \"We must have the right people in the right roles\"\nQualcomm's CEO, Cristiano Amon, set out the cuts in an internal memo, Reuters reports. This week it filed California layoff notices covering 520 jobs, the San Diego Union-Tribune reports. The notices cover California only.\n\nLast fiscal year: $7.8 billion in buybacks, FY 2026, company-wide. $7.817 billion spent buying back its own shares, including excise taxes paid, in fiscal 2026 (year ended Sept. 27, 2026): Form 10-K, company-wide.\nThe math: $7.8 billion in buybacks, FY 2026, company-wide ÷ about 520 jobs (Union-Tribune) = $15 million in buybacks per California layoff job. The result is approximate. The jobs count is approximate, per Union-Tribune.\nThe facts: $7.8 billion in buybacks, FY 2026, company-wide (SEC EDGAR · Qualcomm, Nov 4, 2026). about 520 jobs layoff notices filed (Union-Tribune via The Star, Nov 18, 2026). The $7.8 billion is fiscal 2026 buybacks, the year ended Sept. 27, 2026. The 520 is California layoff notices filed in November 2026, which fall in fiscal 2027. Both are 2026 on the calendar, but they are different fiscal years.\n\nRight people in the right roles. Here is the buyback column. (Our take.)\n\nSources:\n- Deccan Chronicle (Reuters), Oct 20, 2026: «We must have the right people in the right roles so they can perform at their best and the company can continue to succeed.» https://www.deccanchronicle.com/business/companies/qualcomm-to-cut-jobs-worldwide-in-performance-focused-layoffs-internal-memo-shows-1997473\n- SEC EDGAR · Qualcomm, Nov 4, 2026: «2026 48 $ 161.96 $ 7,817 $ 3.62 $ 3,854 $ 11,671» https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm\n- Union-Tribune via The Star, Nov 18, 2026: «The chipmaker filed state notices this week covering 442 permanent layoffs in San Diego and 78 in Santa Clara for a total of 520 California jobs.» https://www.thestar.com.my/business/business-news/2026/11/18/qualcomm-is-laying-off-hundreds-of-workers-in-san-diego",
+ "alt": "Blue vertical card. In huge white condensed letters: Which company next? Below, the channel name, Done Damages.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-21/qualcomm-layoffs/hist-siguiente",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+   "medio": "SEC EDGAR · Qualcomm",
+   "titulo": "Qualcomm Form 10-K, fiscal year ended Sept. 27, 2026",
+   "hora_utc": "2026-11-21T11:40:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.thestar.com.my/business/business-news/2026/11/18/qualcomm-is-laying-off-hundreds-of-workers-in-san-diego",
+   "medio": "The San Diego Union-Tribune (via TNS, The Star)",
+   "titulo": "Qualcomm is laying off hundreds of workers in San Diego",
+   "hora_utc": "2026-11-21T11:40:00Z",
+   "primaria": false,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://www.deccanchronicle.com/business/companies/qualcomm-to-cut-jobs-worldwide-in-performance-focused-layoffs-internal-memo-shows-1997473",
+   "medio": "Deccan Chronicle (Reuters)",
+   "titulo": "Qualcomm To Cut Jobs Worldwide in Performance-focused Layoffs, Internal Memo Shows",
+   "hora_utc": "2026-11-21T11:40:00Z",
+   "primaria": false,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://thenextweb.com/news/qualcomm-layoffs-global-job-cuts-performance",
+   "medio": "The Next Web (Reuters)",
+   "titulo": "Qualcomm reportedly plans global job cuts after annual staff reviews",
+   "hora_utc": "2026-11-21T11:40:00Z",
+   "primaria": false,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "4 of 4 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg"
+}

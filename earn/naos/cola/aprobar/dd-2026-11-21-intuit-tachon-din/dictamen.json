@@ -1,0 +1,39 @@
+{
+ "slug": "dd-2026-11-21-intuit-tachon-din",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "sube-a-N",
+ "motivos": [
+  "sensible: salud mental (el texto dice «988»)"
+ ],
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": true,
+  "por": [
+   "salud mental (el texto dice «988»)"
+  ]
+ },
+ "huellas": {
+  "short": "707d412374dfc09b91d4af86fca0b917d2029b67c4d35a34327757321bf32189",
+  "reel": "a8a2aa322785873d51bea64173509d255044d1f75b072fc5837c7ffac5e5746d"
+ },
+ "huella_contenido": "9a883c5142ea34b8d84dccac5a82590248f580fbb365f8a5283f6e6422ad07f8",
+ "sale_utc": "2026-11-22T00:00:00Z",
+ "dictamen_utc": "2026-11-21T12:00:24Z"
+}

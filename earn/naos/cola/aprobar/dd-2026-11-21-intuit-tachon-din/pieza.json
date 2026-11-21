@@ -1,0 +1,93 @@
+{
+ "slug": "dd-2026-11-21-intuit-tachon-din",
+ "titulo": "Intuit layoffs 2024: about $1.678M paid out per job cut",
+ "clave": "2026-11-22|mercury|tachon|2026-11-21-intuit-tachon-din",
+ "sale_utc": "2026-11-22T00:00:00Z",
+ "caption": "Intuit layoffs 2024: about $1.678M paid out per job cut\n\nIntuit layoffs 2024: the CEO email said \"Today is an incredibly difficult day.\" The same company's 10-K shows $3.02 billion paid to shareholders that fiscal year.\nFrom the archive: Jul 2024. Not today's news.\n\nWhat happened: on Jul 10, 2024, Intuit's CEO, Sasan Goodarzi, emailed employees (filed with the SEC in an 8-K). The email says about 1,800 employees, 10% of the workforce, will be leaving. It also says Intuit will hire about 1,800 new people.\n\nWhat a buyback is: a company spends cash to buy its own shares back from the market. A dividend is cash paid to shareholders. Both count as money returned to shareholders.\n\nThe numbers, in Intuit's own 10-K: $1,988 million of stock repurchased plus $1,034 million of dividends in fiscal 2024 (the year that ended July 31, 2024), company-wide, for $3.02 billion paid to shareholders.\nThe math: $3.02 billion in buybacks and dividends (2024) ÷ about 1,800 job cuts = about $1.678 million in buybacks and dividends per job cut. This divides two company-wide figures; it does not say one caused the other.\n\nIncredibly difficult day. Here is the shareholder column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: Intuit 8-K, CEO email (SEC), Jul 10, 2024; Intuit 10-K, fiscal 2024 (SEC), Sep 4, 2024.\n\nFind the link in bio.",
+ "descripcion": "Intuit layoffs 2024: the CEO email said \"Today is an incredibly difficult day.\" The same company's 10-K shows $3.02 billion paid to shareholders that fiscal year.\nFrom the archive: Jul 2024. Not today's news.\n\nWhat happened: on Jul 10, 2024, Intuit's CEO, Sasan Goodarzi, emailed employees (filed with the SEC in an 8-K). The email says about 1,800 employees, 10% of the workforce, will be leaving. It also says Intuit will hire about 1,800 new people.\n\nWhat a buyback is: a company spends cash to buy its own shares back from the market. A dividend is cash paid to shareholders. Both count as money returned to shareholders.\n\nThe numbers, in Intuit's own 10-K: $1,988 million of stock repurchased plus $1,034 million of dividends in fiscal 2024 (the year that ended July 31, 2024), company-wide, for $3.02 billion paid to shareholders.\nThe math: $3.02 billion in buybacks and dividends (2024) ÷ about 1,800 job cuts = about $1.678 million in buybacks and dividends per job cut. This divides two company-wide figures; it does not say one caused the other.\n\nIncredibly difficult day. Here is the shareholder column. (Our take.)\n\nSources:\n- Intuit 8-K, CEO email (SEC), Jul 10, 2024: «Today is an incredibly difficult day and our hearts go out to all of you who are leaving Intuit.» and «Today we will be communicating to approximately 1,800 employees, which is 10% of our workforce, that they will be leaving» https://www.sec.gov/Archives/edgar/data/896878/000089687824000030/ex9901-emltointuitemployee.htm\n- Intuit 10-K, fiscal 2024 (SEC), Sep 4, 2024: «Cash paid for purchases of treasury stock ( 1,988 ) ( 1,967 ) ( 1,861 ) Dividends and dividend rights paid ( 1,034 ) ( 889 ) ( 774 )» https://www.sec.gov/Archives/edgar/data/896878/000089687824000039/intu-20240731.htm\n\nSynthetic voice.",
+ "alt": "Blue card with white type about the Intuit layoffs of 2024. Intuit, Jul 10, 2024. The statement, in quotes: \"Today is an incredibly difficult day\". It is by Sasan Goodarzi, CEO of Intuit. The math: $3.02B ÷ 1,800 = about $1.678M, in buybacks and dividends, per job cut. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-21/intuit-2024-layoffs/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000030/ex9901-emltointuitemployee.htm",
+   "medio": "SEC EDGAR · Intuit",
+   "titulo": "Sasan Goodarzi's email to Intuit employees (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000039/intu-20240731.htm",
+   "medio": "SEC EDGAR · Intuit",
+   "titulo": "Intuit Form 10-K for fiscal 2024",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "18.404 s; strike at 0.3 s, number at 8.928 s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "Intuit layoffs 2024: when a CEO email calls it an \"incredibly difficult day\" and the 10-K shows $3.02 billion paid to shareholders that year, what do you make of it?",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "One point six seven eight million dollars in buybacks and dividends, for every job cut. 2024, Intuit's CEO said: is an incredibly difficult day. That year, Intuit returned three point zero two billion dollars to shareholders. And told about one thousand eight hundred employees they will be leaving. Incredibly difficult day. Here is the shareholder column.",
+ "tramos": [
+  {
+   "papel": "cuenta",
+   "voz": "One point six seven eight million dollars in buybacks and dividends, for every job cut."
+  },
+  {
+   "papel": "golpe",
+   "voz": "2024, Intuit's CEO said: is an incredibly difficult day."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That year, Intuit returned three point zero two billion dollars to shareholders. And told about one thousand eight hundred employees they will be leaving."
+  },
+  {
+   "papel": "giro",
+   "voz": "Incredibly difficult day. Here is the shareholder column."
+  },
+  {
+   "papel": "firma",
+   "voz": ""
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}
