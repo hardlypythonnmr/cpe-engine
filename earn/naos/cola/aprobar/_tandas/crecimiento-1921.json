@@ -2,7 +2,7 @@
  "nombre": "crecimiento-1921",
  "issue": 29,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "dedicated-to-soon",
   "dedicated-to-the-11-minute-voice-note",
@@ -25,5 +25,6 @@
   "todays-affirmations-by-cella",
   "weekend-affirmations-by-cella"
  ],
- "issue_n_system": 1771
+ "issue_n_system": 1771,
+ "cerrada": true
 }
