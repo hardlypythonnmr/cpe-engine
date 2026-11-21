@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-h2-hp-oficina",
  "issue": 121,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-21T22:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "a3be698d603b9bce2e0b52bc9b9e550c3bb89af2c8cc5ebbb8cf58dd4d4ca57b",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-tanda8",
- "aprobado_evento_utc": "2026-11-19T20:38:42Z"
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z",
+ "audio_ab": "propio"
 }
