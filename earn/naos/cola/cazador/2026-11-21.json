@@ -1,0 +1,124 @@
+{
+ "fecha": "2026-11-21",
+ "generado_utc": "2026-11-21T10:43Z",
+ "senales_leidas": 201,
+ "NAOS": [
+  {
+   "termino": "Levent Alpöge",
+   "fuente": "wikipedia",
+   "vistas": 124632,
+   "dia_pico": "ayer",
+   "base": 8100,
+   "razon": 15.4,
+   "pico": "124,632 vistas ayer contra una línea base de 8,100 (x15.4), Wikipedia EN",
+   "url": "https://en.wikipedia.org/wiki/Levent_Alp%C3%B6ge",
+   "noticias": [
+    {
+     "titulo": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5",
+     "medio": "The New York Times",
+     "fecha": "2026-11-20"
+    },
+    {
+     "titulo": "Anthropic Mathematician Releases 175,000-File Lean Archive Claiming Riemann Hypothesis Proof",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSjloLVl0ZFM0UU9rUFB2aWdqMjZLM2ZONkg1Z0JWcDZCQkxDQjZDdy1SUGlsRmQ3NXZidHhkVUlzVlBFUUo0b2hObHBrbDh1ODdyT01COS1uU0ZiSnN2cmxZbFdUWXptSHgwd0w2SFlyT0lXV3hZM1VhN2VNUERzQ0NwT20xLVlxOVBzZmZySUlOamc?oc=5",
+     "medio": "CASRAI",
+     "fecha": "2026-11-21"
+    },
+    {
+     "titulo": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcl9DRERIZlViX1BNaFBRYU1WbjI4ejNhb2x6b2d1aXJRenVWQ3NtUUttb1VvTnRYUWNvUE5pQy1vbkpvcEpXeHU4bldwVXpfM3pwdzVtMjJyT3BvcTdyU0lZQUdtdzJEN2xoa1AtR1prQkd3Q1FDakxiZi1XRWVnSmt5aHNYTzlvRDhWcXl3emNNd2NNTTNESWF5bnFiWk5kYWZVQkdiSHFtX2RVYjlrNElMOV9lQ1c5R0dLQnN5RlRqemlIR0huTGhzMjZMb1ZRNU5r?oc=5",
+     "medio": "Scientific American",
+     "fecha": "2026-11-20"
+    },
+    {
+     "titulo": "Who is Levent Alpöge? The Anthropic mathematician who claims he solved the Riemann hypothesis with Claude",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUHBoVzREUW9CT1J2TDlocTNHSmw5UlQ0T3dRdVIwc3Y2NjlfcmMyTW1IcmY2VVJVazBLclE3b1hPWlNGNEpRclJ0RGdic0VMUmJxUnJvN0lTOEpIOHRITTFabUxOaDdKamg5YjJuVl9FUnFpdVY1d1pvWVFIUmlWYVdsQjd6Q2FfaktFZUtIdEZZZS03TGRVN3REX2JDRUNTSkR4WWhWWmhYZ2FGYVVVbFc1dUlSVEYzVU5SUHZhRFl3dmh1TENnYWY2TUI3QVQ5OVdnUFUxMWlCWEsyZ1o5QnVPNXPSAeoBQVVfeXFMT0E0NmVSRzdrcjY5dlhCM240YlRJUDFiUzlSMnJFTWdUZ3U2VG1DM1E3MUVncU8wYzV2bmJFdjhZWnlla1d4SWRUdW1oaGpKRFVlNVltRi05V1JlNU5BR1FJMFRndnFISjc3d0NRSHM3Mk04NDZUMkt1NS15djNCcUxvWEdxT19tTC1SMkNJWmFjMEdhSXlveW9HTFJGNGJHVjdBNk9NN1d1eXRrM2xJOWkzRmdJRTFwSVJFLU9OMlY3WGdpd1FOcVJfeUNLWVkzdGpHWW1ibTgwQkpBZGRueUdPckRTM29Lbmp3?oc=5",
+     "medio": "Clarin.com",
+     "fecha": "2026-11-20"
+    },
+    {
+     "titulo": "Anthropic mathematician claims AI-assisted proof of the Riemann hypothesis",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYnhwd1IyUERONU1RclBYRDZQQi1fSXg5Z1BwWENSVG9jZzZPWjRJZFlQQVlpZkFIYUlDbkljRU9VYkpWOWo1dTdqQ0lIMzBSY0laZ3hhUVFPRDIwcTRiclNjUDgxZmxZTHpjV0J0Q3IwSnpES0Q4cHR1QlBLS0pkLUVyM0luSTFYM1JDRVRRZmxpdXJiRFdELVN0R3VmUE9qTWtyenpaVjcySmJEMmttdEJUMkstMEhRQTBILQ?oc=5",
+     "medio": "New Scientist",
+     "fecha": "2026-11-21"
+    },
+    {
+     "titulo": "Levent Alpöge’s Unverified Riemann Claim Puts Claude’s Lean Code in Focus",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGlMcGRpVnRlX1BvLTV2eUp1U2VsRTR2RWNUekVld3BNekxoNWJLS0RMMExibkJKMzhjTm9aN1JIX0RSMzlSTTg1TnRMVzhrRVJYOWRKeWFlX3dIeVF6RlN2aWE2NDRDTzRJQ1hXa3h4d1BwcUY4QTR0My16cWFJdGZhbmdFaUlGbWFyNmo5MU9MeEMxMjNWTg?oc=5",
+     "medio": "Unite.AI",
+     "fecha": "2026-11-20"
+    }
+   ],
+   "marca": "NAOS",
+   "patron": "atención y pantallas",
+   "consulta_estudio": "procrastination attention smartphone",
+   "puntaje": 25.2,
+   "estudio": {
+    "titulo": "Understanding and Treating Procrastination: A Review of a Common Self-Regulatory Failure",
+    "ano": 2014,
+    "citas": 367,
+    "doi": "https://doi.org/10.4236/psych.2014.513160"
+   },
+   "nombra_persona": true,
+   "sensible": false,
+   "requiere_N": false,
+   "sensible_por": [],
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'atención y pantallas', sin nombrar a nadie: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (Understanding and Treating Procrastination: A Review of a Common Self-Regulatory Failure, 2014, doi https://doi.org/10.4236/psych.2014.513160). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  },
+  {
+   "termino": "black friday sale deals",
+   "fuente": "google_trends",
+   "vistas": 1000,
+   "razon": null,
+   "pico": "en tendencia ahora en EE. UU. con 1000+ búsquedas (Google Trends, RSS diario)",
+   "url": "https://trends.google.com/trending?geo=US",
+   "noticias": [
+    {
+     "titulo": "Early Black Friday deals live now: Ugg, Michael Kors, Hoka, Dyson, Ring and more are on major sale for the 2026 holiday event",
+     "url": "https://shopping.yahoo.com/deals/breaking-news/article/early-black-friday-deals-live-now-ugg-michael-kors-hoka-dyson-ring-and-more-are-on-major-sale-for-the-2026-holiday-event-150406596.html",
+     "medio": "Yahoo",
+     "fecha": ""
+    },
+    {
+     "titulo": "We shopped 147 early Black Friday sales to find the 98 best deals worth shopping now",
+     "url": "https://www.cnn.com/cnn-underscored/deals/best-black-friday-deals-2026-11-20",
+     "medio": "CNN",
+     "fecha": ""
+    },
+    {
+     "titulo": "Black Friday Holiday Deals, Approved by Executive Editor Adrianna Brach",
+     "url": "https://www.today.com/shop/gift-sales-adrianna-brach-rcna610463",
+     "medio": "TODAY.com",
+     "fecha": ""
+    }
+   ],
+   "marca": "NAOS",
+   "patron": "fiestas y reunirse",
+   "consulta_estudio": "holiday gatherings social ritual",
+   "puntaje": 3.0,
+   "estudio": {
+    "titulo": "A destination’s gastronomy as a means for holiday well-being",
+    "ano": 2017,
+    "citas": 90,
+    "doi": "https://doi.org/10.1108/bfj-09-2016-0394"
+   },
+   "nombra_persona": false,
+   "sensible": false,
+   "requiere_N": false,
+   "sensible_por": [],
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'fiestas y reunirse', sin nombrar a nadie ni a ninguna marca: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (A destination’s gastronomy as a means for holiday well-being, 2017, doi https://doi.org/10.1108/bfj-09-2016-0394). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  }
+ ],
+ "errores": [
+  "wikipedia top 2026-11-14: HTTP Error 429: Too Many Requests"
+ ]
+}
