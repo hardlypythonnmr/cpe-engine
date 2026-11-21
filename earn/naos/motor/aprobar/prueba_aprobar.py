@@ -3204,5 +3204,78 @@ class TestSoloN(unittest.TestCase):
             self.assertEqual(f.read().strip(), "hardlypythonnmr")
 
 
+class TestMoverHora(Base):
+    """mesa 21-nov (P11-cuatro-pm): mover-hora corre piezas aprobadas que no salieron a otra hora del mismo día, sin tanda nueva."""
+    DESDE = "2026-11-21T12:00:00Z"
+    filas = TestReprogramarD512.filas
+
+    def setUp(self):
+        Base.setUp(self)
+        for obj, nombre, valor in ((aprobar.separacion_ig, "separacion_ig_min", lambda *a, **k: 60),
+                                   (registro, "DECISIONES", os.path.join(self.tmp.name, "decisiones.csv"))):
+            pc = mock.patch.object(obj, nombre, valor)
+            pc.start()
+            self.addCleanup(pc.stop)
+        self.raiz = os.path.join(self.tmp.name, "raiz")
+        os.makedirs(self.raiz)
+        pe = mock.patch.dict(os.environ, {"NAOS_RESERVAS": os.path.join(self.tmp.name, "reservas.csv")})
+        pe.start()
+        self.addCleanup(pe.stop)
+
+    def pieza(self, slug, sale, canales=("reel",)):
+        d = pieza_falsa(self.cola, slug=slug, sale=sale)
+        ruta = os.path.join(d, "pieza.json")
+        p = json.load(open(ruta))
+        p.pop("datos_utc")
+        p.update(sin_cifras=True, canales=list(canales))
+        json.dump(p, open(ruta, "w"))
+        with open(os.path.join(d, "video.mp4"), "ab") as f:
+            f.write(slug.encode())  # huella propia: dos piezas iguales serían gemelas y D-512 las niega
+        e = aprobar.abrir(slug, self.gh, self.cola)
+        aprobar.registrar(e, ("2026-11-20T10:00:00Z", "reaccion", True, "nico"), self.gh, self.cola)
+
+    def mover(self, slugs, **kw):
+        kw.setdefault("cuando", registro.de_utc(self.DESDE))
+        kw.setdefault("raiz", self.raiz)
+        return aprobar.mover_hora(slugs, "21:00", kw.pop("ok", "Mover 24 (Rec.)"), cola=self.cola, **kw)
+
+    def test_mueve_mismo_dia_con_separacion_sin_version_nueva(self):
+        self.pieza("alfa", "2026-11-24T14:00:00Z")
+        self.pieza("beta", "2026-11-24T16:00:00Z")
+        antes = self.filas("alfa")[0]
+        res = self.mover(["alfa", "beta"])
+        self.assertEqual([h[2] for h in res["hechas"]], ["2026-11-24T21:00:00Z", "2026-11-24T22:00:00Z"])  # 60 min de IG (fijado)
+        f = self.filas("alfa")
+        self.assertEqual(len(f), 1)  # sin fila ni versión nueva: misma aprobación
+        self.assertEqual((f[0]["sale_utc"], f[0]["vence_utc"], f[0]["version"], f[0]["hash"]),
+                         ("2026-11-24T21:00:00Z", "2026-11-25T00:00:00Z", antes["version"], antes["hash"]))
+        e = aprobar.leer_estado("alfa", self.cola)
+        self.assertEqual((e["sale_utc"], e["estado"], e["movida_hora"][0]["ok_n"]), ("2026-11-24T21:00:00Z", "aprobado", "Mover 24 (Rec.)"))
+        self.assertIn("2026-11-24T21:00:00Z", open(os.path.join(self.cola, "alfa", "pieza.json")).read())
+        h = aprobar.huellas(aprobar.cargar("alfa", self.cola), self.cola)["reel"]
+        ok, r = registro.verificar("alfa", "reel", h, "2026-11-24T21:00:00Z", self.csv, cuando=registro.de_utc("2026-11-24T21:00:00Z"))
+        self.assertTrue(ok, r)
+
+    def test_seco_no_escribe_y_sin_ok_no_mueve(self):
+        self.pieza("alfa", "2026-11-24T14:00:00Z")
+        with self.assertRaises(SystemExit):
+            self.mover(["alfa"], ok="")
+        res = self.mover(["alfa"], seco=True)
+        self.assertEqual(len(res["hechas"]), 1)
+        self.assertEqual(self.filas("alfa")[0]["sale_utc"], "2026-11-24T14:00:00Z")
+
+    def test_niega_lo_que_ya_paso_o_no_es_aprobado(self):
+        self.pieza("alfa", "2026-11-21T12:10:00Z")  # a 10 min: eso es D-512
+        res = self.mover(["alfa"])
+        self.assertEqual([x[0] for x in res["negadas"]], ["alfa"])
+        self.assertEqual(self.filas("alfa")[0]["sale_utc"], "2026-11-21T12:10:00Z")
+
+    def test_respeta_lo_ocupado_de_otras_piezas(self):
+        self.pieza("otra", "2026-11-24T21:00:00Z")
+        self.pieza("alfa", "2026-11-24T14:00:00Z")
+        res = self.mover(["alfa"])
+        self.assertEqual(res["hechas"][0][2], "2026-11-24T22:00:00Z")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

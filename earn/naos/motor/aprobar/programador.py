@@ -943,7 +943,16 @@ def main():
     ap.add_argument("--respaldo-cron", action="store_true",
                     help="mesa 19-nov: despacha fb-pagina, dd-audio-aviso, mercury-publicar y dd-audio-vivo si su cron ya tocó y GitHub no lo "
                          "disparó (se apaga solo cuando el cron corre); con --seco solo dice qué haría")
+    ap.add_argument("--mover-hora", nargs="+", metavar="SLUG",
+                    help="mesa 21-nov: corre a --a HH:MM UTC del mismo día (Nueva York) piezas aprobadas que no salieron, con --ok "
+                         "(cita de N), sin tanda nueva; respeta D-512 y la separación de IG. Con --seco solo dice qué haría")
+    ap.add_argument("--a", dest="a_hora", default="21:00", help="con --mover-hora: HH:MM UTC (21:00)")
+    ap.add_argument("--ok", help="con --mover-hora: la cita literal de N")
     a = ap.parse_args()
+    if a.mover_hora:
+        import aprobar
+        r = aprobar.mover_hora(a.mover_hora, a.a_hora, a.ok, a.seco, a.cola, registro.de_utc(a.ahora) if a.ahora else None)
+        sys.exit(0)
     if a.respaldo_cron:
         import json as _json, urllib.request as _ur
         import respaldo_cron

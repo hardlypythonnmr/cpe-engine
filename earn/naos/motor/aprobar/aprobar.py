@@ -2657,6 +2657,126 @@ def mover_fecha(slug, a, seco=False, cola=None, cuando=None, cliente_de=None):
     return hechos
 
 
+def mover_hora(slugs, hora, ok, seco=False, cola=None, cuando=None, cliente_de=None, raiz=None):
+    """mesa 21-nov (P11-cuatro-pm): corre a `hora` (HH:MM UTC) del MISMO día de Nueva York piezas que N aprobó y todavía no salieron,
+    con la cita literal de N (`ok`) y sin tanda ni versión nueva (la huella no incluye la hora: el 👍 de N sigue valiendo). Respeta D-512
+    (mismas exclusiones que reprogramar: solo el 👍 vigente de N, huella intacta, sin veto, sin reserva) y la separación de Instagram
+    (D-513): la primera pieza toma `hora` y las demás la siguiente hora libre del día a la separación vigente de todo lo de su marca.
+    Las que ya tienen esa hora la conservan primero. El Short ya subido se mueve en YouTube (publishAt) antes de escribir nada; si YouTube
+    no confirma, esa pieza no se toca. Devuelve {"hechas": [(slug, de, a)], "negadas": [(slug, [motivos])]}."""
+    ok = (ok or "").strip()
+    if not ok:
+        sys.exit("--ok va con la cita literal de N: sin ella no se mueve nada")
+    try:
+        hh, mm = (int(x) for x in hora.split(":"))
+        assert 0 <= hh < 24 and 0 <= mm < 60
+    except (ValueError, AssertionError):
+        sys.exit("--a va como HH:MM (UTC), por ejemplo 21:00")
+    base = cola or COLA
+    faltan = [s for s in slugs if not os.path.isdir(os.path.join(base, s))]
+    if faltan:
+        sys.exit(f"no hay pieza en la cola: {', '.join(faltan)}. No se mueve nada.")
+    cuando = cuando or registro.ahora()
+    filas = registro.leer()
+    import tiros as _t
+
+    def destino(s):
+        sale = registro.de_utc((leer_estado(s, cola) or {}).get("sale_utc", ""))
+        if not sale:
+            return None, None
+        d = sale.astimezone(_t.NY).date()
+        return sale, dt.datetime(d.year, d.month, d.day, hh, mm, tzinfo=dt.timezone.utc)
+
+    res, extra, conjunto = {"hechas": [], "negadas": []}, [], set(slugs)
+    orden = sorted(slugs, key=lambda s: (destino(s)[0] != destino(s)[1], destino(s)[0] or cuando, s))
+    for slug in orden:
+        e = leer_estado(slug, cola) or {}
+        sale, meta = destino(slug)
+        motivos = []
+        if e.get("estado") != "aprobado":
+            motivos.append(f"estado {e.get('estado')}: solo se mueven piezas aprobadas que no salieron")
+        elif not sale or sale <= cuando + dt.timedelta(minutes=30):
+            motivos.append(f"su hora actual ({e.get('sale_utc')}) ya pasó o está a menos de 30 min: eso es D-512 (reprogramar), no esto")
+        else:
+            try:
+                registro.materializar(archivos_de(cargar(slug, cola), cola))
+            except Exception:  # noqa: BLE001 (sin git o sin el archivo: motivos_reprogramar lo dice)
+                pass
+            # un Short subido y programado (url_short, sin publicado_utc, hora futura) todavía no salió: se mueve en YouTube abajo
+            programado = lambda f: (f["slug"] == slug and f["canal"] == "short" and (f.get("url_short") or "").strip()
+                                    and not f["publicado_utc"] and (registro.de_utc(f["sale_utc"]) or cuando) > cuando)
+            m = motivos_reprogramar(slug, cola, [dict(f, url_short="") if programado(f) else f for f in filas], cuando, fecha_ok=True)
+            motivos = list(m["motivos"])
+            if m["salidos"]:
+                motivos.append(f"ya salió en parte ({'+'.join(m['salidos'])}): no se parte una pieza en dos horas")
+        if motivos:
+            print(f"{slug}: NO se mueve: " + "; ".join(motivos))
+            res["negadas"].append((slug, motivos))
+            continue
+        p = cargar(slug, cola)
+        ocup, tiros = _ocupados_d512(slug, cola, raiz, filas)
+        ocup = [o for o in ocup if o["slug"] not in conjunto]  # las del encargo cuentan en su hora nueva (extra), no en la vieja
+        margen = separacion_ig.separacion_ig_min() if any(c != "short" for c in p["canales"]) else D512_YT_MIN
+        minimo = max(meta, cuando + dt.timedelta(minutes=30))
+        nueva = siguiente_hora_libre(ocup + extra, tiros, minimo, margen)
+        if not nueva or registro.de_utc(nueva).astimezone(tiros.NY).date() != sale.astimezone(tiros.NY).date():
+            motivo = f"no hay hora libre desde {registro.a_utc(meta)} el mismo día de Nueva York a {margen} min de lo demás"
+            print(f"{slug}: NO se mueve: {motivo}")
+            res["negadas"].append((slug, [motivo]))
+            continue
+        extra.append({"slug": slug, "sale_utc": nueva, "fuente": "mover-hora"})
+        vieja = e["sale_utc"]
+        if registro.de_utc(nueva) == sale:
+            print(f"{slug}: ya está a las {nueva}, se queda")
+            continue
+        print(f"{slug}: {'movería' if seco else 'movida'} {vieja} -> {nueva} ({'+'.join(p['canales'])}, margen {margen} min, v{e['version']} sin cambio)")
+        if seco:
+            res["hechas"].append((slug, vieja, nueva))
+            continue
+        cambiar = [registro.vigente(slug, c, filas) for c in p["canales"]]
+        urls = sorted({(f.get("url_short") or "").strip() for f in cambiar if f and f["canal"] == "short" and (f.get("url_short") or "").strip()})
+        if urls:
+            import agente  # aquí y no arriba: agente.py importa este módulo
+            cli = (cliente_de or agente._cliente_yt)(registro.marca_de(p))
+            fallo = None
+            for url in urls:
+                vid = agente._id_video(url)
+                como, antes = agente._idiomas().mover_fecha(cli, vid, nueva) if vid else ("sin-id", "")
+                if como != "movido":
+                    fallo = f"YouTube no movió {url}: {como} (leía '{antes}')"
+                    break
+                print(f"  {url}: YouTube {antes} -> {nueva}")
+            if fallo:
+                print(f"{slug}: NO se mueve: {fallo}")
+                res["negadas"].append((slug, [fallo]))
+                extra.pop()
+                continue
+        filas = registro.leer()
+        ids = {(f["slug"], f["canal"], f["version"], f["hash"]) for f in cambiar if f}
+        for f in filas:
+            if (f["slug"], f["canal"], f["version"], f["hash"]) in ids and not f["publicado_utc"]:
+                f["sale_utc"], f["vence_utc"] = nueva, registro.a_utc(registro.de_utc(nueva) + registro.GRACIA)
+        registro.escribir(filas)
+        e["sale_utc"] = nueva
+        e.setdefault("movida_hora", []).append({"utc": registro.a_utc(cuando), "de": vieja, "a": nueva, "ok_n": ok})
+        guardar_estado(e, cola)
+        ruta = os.path.join(dir_pieza(slug, cola), "pieza.json")
+        if os.path.exists(ruta):
+            txt = open(ruta, encoding="utf-8").read()
+            nuevo_txt, n = re.subn(r'("sale_utc"\s*:\s*)"[^"]*"', lambda mo: mo.group(1) + json.dumps(nueva), txt, count=1)
+            if n:
+                open(ruta, "w", encoding="utf-8").write(nuevo_txt)
+        if os.path.exists(registro.DECISIONES):
+            registro.anotar_decision({"fecha_utc": registro.a_utc(cuando), "fila_gobierno": registro.FILA_MOVER, "autor": "vp",
+                                      "vence_veto_utc": "", "veto": "",
+                                      "decision": f"{slug} movida de hora el mismo día: {vieja} -> {nueva}; misma versión y huella, sin tanda "
+                                                  f"nueva. N: «{ok}»", "enlace": ""})
+        res["hechas"].append((slug, vieja, nueva))
+    print(f"mover-hora: {len(res['hechas'])} {'se moverían' if seco else 'movida(s)'}, {len(res['negadas'])} no"
+          + (" [--seco: no se escribió nada]" if seco else ""))
+    return res
+
+
 def _bajar_tras_retirar(res, slugs, seco, cola):
     lineas, fallos = bajar_shorts_retirados(slugs, seco, cola)
     if res["omitidas"]:
