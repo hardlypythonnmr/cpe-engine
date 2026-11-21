@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-n2-netflix-zoom",
  "issue": 121,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-21T14:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "9d9fe31e4618d75e1d4c4207f5cea6bda9bb4b709af0c0057d41408a71221428",
@@ -20,5 +20,6 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-tanda8",
- "aprobado_evento_utc": "2026-11-19T20:38:42Z"
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z",
+ "audio_ab": "propio"
 }
