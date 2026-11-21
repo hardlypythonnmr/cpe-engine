@@ -2797,6 +2797,11 @@ class TestReprogramarD512(Base):
 
     def setUp(self):
         super().setUp()
+        # 21-nov: la separación de IG viene de instagram/separacion.json según la fecha REAL (D-513 bajó a 30 min el 20-nov 20:00Z);
+        # estas pruebas son del 13-nov con 60 min: se fija el margen para que no dependan del día en que se corren.
+        sep = mock.patch.object(aprobar.separacion_ig, "separacion_ig_min", lambda *a, **k: 60)
+        sep.start()
+        self.addCleanup(sep.stop)
         self.raiz = os.path.join(self.tmp.name, "raiz")
         os.makedirs(self.raiz)
         for nombre, valor in (("DECISIONES", os.path.join(self.tmp.name, "decisiones.csv")),):
