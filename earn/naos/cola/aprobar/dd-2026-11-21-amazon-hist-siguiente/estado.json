@@ -1,8 +1,8 @@
 {
  "slug": "dd-2026-11-21-amazon-hist-siguiente",
  "issue": 125,
- "version": 1,
- "estado": "aprobado",
+ "version": 2,
+ "estado": "por-aprobar",
  "sale_utc": "2026-11-21T23:30:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "893bcd5b87d92dc9ea1f19972f68674e87fad4bd52d637b1794255bdb0254a6a",
@@ -12,13 +12,12 @@
  "canales": [
   "historia"
  ],
- "comentario_vista_previa_id": 7062371839,
+ "comentario_vista_previa_id": 7062479361,
  "fix": false,
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-agente",
- "aprobacion": "agente",
- "aprobado_evento_utc": "2026-11-21T12:10:07Z",
- "veto_hasta_utc": "2026-11-21T13:10:07Z"
+ "caducado_por": "version",
+ "caducado_utc": "2026-11-21T12:18:50Z"
 }

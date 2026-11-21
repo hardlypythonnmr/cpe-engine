@@ -1,8 +1,8 @@
 {
  "slug": "dd-2026-11-21-intuit-hist-numero",
  "issue": 125,
- "version": 1,
- "estado": "aprobado",
+ "version": 2,
+ "estado": "por-aprobar",
  "sale_utc": "2026-11-21T16:00:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "87f18413415f958cbc4908d359b03cf22d79370618eb5f5daa83729103a0b028",
@@ -12,13 +12,12 @@
  "canales": [
   "historia"
  ],
- "comentario_vista_previa_id": 7062373830,
+ "comentario_vista_previa_id": 7062481510,
  "fix": false,
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-agente",
- "aprobacion": "agente",
- "aprobado_evento_utc": "2026-11-21T12:10:07Z",
- "veto_hasta_utc": "2026-11-21T13:10:07Z"
+ "caducado_por": "version",
+ "caducado_utc": "2026-11-21T12:18:50Z"
 }

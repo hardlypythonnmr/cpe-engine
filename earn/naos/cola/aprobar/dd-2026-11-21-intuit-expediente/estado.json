@@ -1,8 +1,8 @@
 {
  "slug": "dd-2026-11-21-intuit-expediente",
  "issue": 125,
- "version": 1,
- "estado": "aprobado",
+ "version": 2,
+ "estado": "por-aprobar",
  "sale_utc": "2026-11-22T01:30:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "0a66712964cb8d679b71c605295e390fc6c3daaefc4ca2e45f0596c6ade133c6",
@@ -12,13 +12,12 @@
  "canales": [
   "carrusel"
  ],
- "comentario_vista_previa_id": 7062373021,
+ "comentario_vista_previa_id": 7062480537,
  "fix": false,
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-agente",
- "aprobacion": "agente",
- "aprobado_evento_utc": "2026-11-21T12:10:07Z",
- "veto_hasta_utc": "2026-11-21T13:10:07Z"
+ "caducado_por": "version",
+ "caducado_utc": "2026-11-21T12:18:50Z"
 }
