@@ -1,0 +1,90 @@
+# Difficult Decision: corre a otra hora del MISMO día (Nueva York) piezas de DD aprobadas que no salieron (mesa 21-nov, P11-cuatro-pm).
+# Corre `python3 earn/naos/motor/aprobar/programador.py --mover-hora <slugs> --a HH:MM --ok "<cita de N>" [--seco]`
+#   (aprobar.mover_hora): sin tanda ni versión nueva, mismas exclusiones que D-512, separación de IG; el Short ya programado se
+#   mueve en YouTube (publishAt) con las llaves de DD de los secretos antes de escribir nada.
+# A mano: Actions > dd-mover-hora > Run workflow. Por defecto en SECO.
+# Con seco = false sube a main publicados.csv, decisiones-sistema.csv y los json de esas piezas ("dd-mover-hora: <slugs>").
+# Seguridad: entradas validadas y por env, nunca dentro de una expresión del shell. Solo a mano, sin cron.
+name: dd-mover-hora
+
+on:
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: "slugs de DD separados por espacio (todos empiezan con dd-)"
+        type: string
+        required: true
+      hora:
+        description: "HH:MM UTC del mismo día de Nueva York"
+        type: string
+        default: "21:00"
+      ok:
+        description: "la cita literal de N (obligatoria)"
+        type: string
+        required: true
+      seco:
+        description: "en seco: dice qué movería, no llama a YouTube ni escribe"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency: { group: dd-mover-hora, cancel-in-progress: false }
+
+jobs:
+  mover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SLUGS: ${{ inputs.slugs }}
+      HORA: ${{ inputs.hora }}
+      OK_N: ${{ inputs.ok }}
+      SECO: ${{ inputs.seco }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Validar entradas
+        run: |
+          set -f
+          n=0
+          for s in $SLUGS; do
+            printf '%s' "$s" | grep -Eq '^dd-[a-z0-9][a-z0-9-]{0,80}$' || { echo "::error::slug no válido: $s"; exit 1; }
+            n=$((n+1))
+          done
+          [ "$n" -gt 0 ] && [ "$n" -le 20 ] || { echo "::error::de 1 a 20 slugs"; exit 1; }
+          printf '%s' "$HORA" | grep -Eq '^[0-2][0-9]:[0-5][0-9]$' || { echo "::error::hora va como HH:MM"; exit 1; }
+          [ -n "$(printf '%s' "$OK_N" | tr -d '[:space:]')" ] || { echo "::error::falta la cita de N"; exit 1; }
+          echo "OK $n slug(s) a las $HORA; seco=$SECO"
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+          lfs: false
+      - name: Mover de hora
+        env:
+          MERCURY_OAUTH_CLIENT_ID: ${{ secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID }}
+          MERCURY_OAUTH_CLIENT_SECRET: ${{ secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET }}
+          MERCURY_OAUTH_REFRESH_TOKEN: ${{ secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN }}
+        run: |
+          set -f
+          args=(--mover-hora $SLUGS --a "$HORA" --ok "$OK_N")
+          [ "$SECO" = "true" ] && args+=(--seco)
+          python3 earn/naos/motor/aprobar/programador.py "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/salida.txt"
+          rc=${PIPESTATUS[0]}
+          { echo '```'; cut -c1-400 "$RUNNER_TEMP/salida.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit "$rc"
+      - name: Guardar en main
+        if: ${{ always() && inputs.seco != true }}
+        run: |
+          set -f
+          git config user.name "dd-mover-hora"; git config user.email "dd-mover-hora@users.noreply.github.com"
+          rutas=(earn/naos/motor/instagram/publicados.csv earn/naos/medicion/decisiones-sistema.csv)
+          for s in $SLUGS; do [ -d "earn/naos/cola/aprobar/$s" ] && rutas+=("earn/naos/cola/aprobar/$s"); done
+          git add -- "${rutas[@]}"
+          git diff --cached --quiet && { echo "nada que guardar"; exit 0; }
+          git commit -q -m "dd-mover-hora: $(echo $SLUGS | cut -c1-200)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*5))
+          done
+          exit 1
