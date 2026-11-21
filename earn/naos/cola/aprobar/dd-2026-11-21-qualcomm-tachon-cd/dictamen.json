@@ -1,0 +1,66 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-tachon-cd",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "no-pasa",
+ "motivos": [
+  "falta vara.json (los lectores fríos no dejaron puntaje)",
+  "falta estetico.json (el lector estético no la leyó)"
+ ],
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [
+   {
+    "id": "cit1",
+    "categoria": "citas",
+    "riesgo": "medio",
+    "hallazgo": "Fuente de la lista con problema: dominio no reconocido como primario (thestar.com.my): confirma que es la fuente original (id F2)",
+    "manera": "Sustituye por la página primaria o el DOI del artículo.",
+    "evidencia": "{\"id\": \"F2\", \"url\": \"https://www.thestar.com.my/business/business-news/2026/11/18/qualcomm-is-laying-off-hundreds-of-workers-in-san-diego\", \"medio\": \"The San Di",
+    "campo": ""
+   },
+   {
+    "id": "cit2",
+    "categoria": "citas",
+    "riesgo": "medio",
+    "hallazgo": "Fuente de la lista con problema: dominio no reconocido como primario (deccanchronicle.com): confirma que es la fuente original (id F3)",
+    "manera": "Sustituye por la página primaria o el DOI del artículo.",
+    "evidencia": "{\"id\": \"F3\", \"url\": \"https://www.deccanchronicle.com/business/companies/qualcomm-to-cut-jobs-worldwide-in-performance-focused-layoffs-internal-memo-shows-199747",
+    "campo": ""
+   },
+   {
+    "id": "cit3",
+    "categoria": "citas",
+    "riesgo": "medio",
+    "hallazgo": "Fuente de la lista con problema: dominio no reconocido como primario (thenextweb.com): confirma que es la fuente original (id F4)",
+    "manera": "Sustituye por la página primaria o el DOI del artículo.",
+    "evidencia": "{\"id\": \"F4\", \"url\": \"https://thenextweb.com/news/qualcomm-layoffs-global-job-cuts-performance\", \"medio\": \"The Next Web (Reuters)\", \"titulo\": \"Qualcomm reportedl",
+    "campo": ""
+   }
+  ],
+  "riesgo_maximo": "medio",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "de762beb3bf34daad50c108a570df0075c0b28018829b7397f791119b58cc9a5",
+  "reel": "55dfaf38dfe4fafeee871de6195e08bbc03b0b653bf67d0d0e240decc56c974d"
+ },
+ "huella_contenido": "7c8056f446a7538cb63ca0600d685e3484a594a1f56536a407a34ad6f003d07d",
+ "sale_utc": "2026-11-21T17:00:00Z",
+ "dictamen_utc": "2026-11-21T12:00:23Z"
+}

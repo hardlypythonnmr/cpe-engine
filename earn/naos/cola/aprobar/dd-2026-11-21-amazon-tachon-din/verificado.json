@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "2797e8f923941be21ddb199814d84a4c32340f1f44feceed73856977bf4cc571",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-21/amazon-2021-pay-ratio/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-21T11:58:58Z",
+  "pedido": "temas/archivo/amazon-2021-pay-ratio/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "74324751e0ba0bb25835ca2d99da667d78c7c9d26478a4a3c06b168b0e4b1474",
+ "medidas_sha": "93b3c1682f87348dda0e72c3789cc1e91058b4c9294b30a742e03c32e60758ab",
+ "escrito_utc": "2026-11-21T12:00:24Z"
+}

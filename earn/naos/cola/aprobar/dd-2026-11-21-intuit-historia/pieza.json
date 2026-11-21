@@ -1,0 +1,59 @@
+{
+ "slug": "dd-2026-11-21-intuit-historia",
+ "titulo": "Intuit (Jul 2024): $3.02 billion paid to shareholders, about 1,800 jobs will be leaving. The math.",
+ "clave": "2026-11-21|mercury|historia|2026-11-21-intuit-historia",
+ "sale_utc": "2026-11-21T23:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Jul 2024. Not today's news.\nIntuit, Jul 10, 2024 (Goodarzi, email to employees): \"Today is an incredibly difficult day\"\nOn July 10, 2024, Intuit's CEO emailed employees about the cuts. The email says about 1,800 employees, 10% of the workforce, will be leaving. Buyback and dividend totals come from the 10-K.\n\nFiscal 2024: $3.02 billion paid to shareholders, fiscal 2024, company-wide. $1,988 million of stock repurchased plus $1,034 million of dividends in fiscal 2024, company-wide (cash flow statement, in millions).\nThe math: $3.02 billion in buybacks and dividends (2024) ÷ about 1,800 job cuts = about $1.678 million in buybacks and dividends per job cut.\nThe facts: $3.02 billion paid to shareholders, fiscal 2024, company-wide (Intuit 10-K, fiscal 2024 (SEC), Sep 4, 2024). about 1,800 jobs will be leaving (Intuit 8-K, CEO email (SEC), Jul 10, 2024). The $3.0 billion is Intuit's fiscal 2024 buybacks ($1,988 million) plus dividends ($1,034 million), company-wide, for the year that ended July 31, 2024. The same email also says Intuit will hire about 1,800 new people.\n\nIncredibly difficult day. Here is the shareholder column. (Our take.)\n\nSources:\n- Intuit 8-K, CEO email (SEC), Jul 10, 2024: «Today is an incredibly difficult day and our hearts go out to all of you who are leaving Intuit.» and «Today we will be communicating to approximately 1,800 employees, which is 10% of our workforce, that they will be leaving» https://www.sec.gov/Archives/edgar/data/896878/000089687824000030/ex9901-emltointuitemployee.htm\n- Intuit 10-K, fiscal 2024 (SEC), Sep 4, 2024: «Cash paid for purchases of treasury stock ( 1,988 ) ( 1,967 ) ( 1,861 ) Dividends and dividend rights paid ( 1,034 ) ( 889 ) ( 774 )» https://www.sec.gov/Archives/edgar/data/896878/000089687824000039/intu-20240731.htm",
+ "alt": "Blue card with white type. Intuit, Jul 10, 2024. The statement, in quotes: \"Today is an incredibly difficult day\". It is by Sasan Goodarzi, CEO of Intuit. The math: $3.02B ÷ 1,800 = about $1.678M, in buybacks and dividends, per job cut. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-11T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-21/intuit-2024-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000030/ex9901-emltointuitemployee.htm",
+   "medio": "SEC EDGAR · Intuit",
+   "titulo": "Sasan Goodarzi's email to Intuit employees (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000039/intu-20240731.htm",
+   "medio": "SEC EDGAR · Intuit",
+   "titulo": "Intuit Form 10-K for fiscal 2024",
+   "hora_utc": "2026-11-11T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg"
+}

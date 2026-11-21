@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "9a883c5142ea34b8d84dccac5a82590248f580fbb365f8a5283f6e6422ad07f8",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-21/intuit-2024-layoffs/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-21T11:41:46Z",
+  "pedido": "temas/archivo/intuit-2024-layoffs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "379f0022e47813590e3f6ab2efbbcc6479901b1af2e2c96648c6fede84f827a8",
+ "medidas_sha": "7dc890b025958a96dc1bb602cdb46c3557c8457f12a29b4e46ad16b1ced69ab7",
+ "escrito_utc": "2026-11-21T12:00:23Z"
+}
