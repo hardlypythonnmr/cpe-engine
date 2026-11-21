@@ -3,7 +3,7 @@
  "issue": 121,
  "version": 1,
  "estado": "aprobado",
- "sale_utc": "2026-11-25T14:00:00Z",
+ "sale_utc": "2026-11-25T21:30:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "4310d53dea545b492c535ba3e8959455561a7250839301f67be5f08fb0b897e5",
  "hashes": {
@@ -20,5 +20,13 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-tanda8",
- "aprobado_evento_utc": "2026-11-19T20:38:42Z"
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z",
+ "movida_hora": [
+  {
+   "utc": "2026-11-21T01:58:12Z",
+   "de": "2026-11-25T14:00:00Z",
+   "a": "2026-11-25T21:30:00Z",
+   "ok_n": "Mover 24, 25 y 27 (Rec.)"
+  }
+ ]
 }

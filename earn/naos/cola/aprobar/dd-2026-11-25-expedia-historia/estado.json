@@ -3,7 +3,7 @@
  "issue": 79,
  "version": 3,
  "estado": "aprobado",
- "sale_utc": "2026-11-25T16:00:00Z",
+ "sale_utc": "2026-11-25T22:00:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "6806954b953faf423311e250434f0a4ca7aff292e85a7309b307a9113562d50b",
  "hashes": {
@@ -20,5 +20,13 @@
  "tanda": "dd-reserva-1730-c",
  "caducado_utc": "2026-11-14T23:33:50Z",
  "aprobado_evento_utc": "2026-11-14T23:58:33Z",
- "issue_n_system": 1333
+ "issue_n_system": 1333,
+ "movida_hora": [
+  {
+   "utc": "2026-11-21T01:58:12Z",
+   "de": "2026-11-25T16:00:00Z",
+   "a": "2026-11-25T22:00:00Z",
+   "ok_n": "Mover 24, 25 y 27 (Rec.)"
+  }
+ ]
 }
