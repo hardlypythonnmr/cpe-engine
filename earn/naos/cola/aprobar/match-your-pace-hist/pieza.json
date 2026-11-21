@@ -1,0 +1,31 @@
+{
+ "slug": "match-your-pace-hist",
+ "titulo": "Walking ahead, then slowing down to match you",
+ "clave": "2026-11-21|match-your-pace-hist",
+ "sale_utc": "2026-11-21T01:30:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A vertical cut of the first 8 seconds of the video. A short film with no voice, with music. A pink hallway with a white door and a wooden plank floor that fills the lower third. A small ink-black block figure with white eyes walks briskly to the right while a royal blue figure with sleepy eyes lags three steps behind. The camera follows along the floor. The ink-black figure stops, goes wide-eyed, steps back toward the blue one and drops low with the camera to the feet. Then the two walk side by side at the same slow speed, the camera pulling back, and both smile. The text, which appears after the first second: me, three steps ahead. Now one step. Same speed.",
+ "seccion": "humanity",
+ "fuente": "motor/historia_corte.py (corte de match-your-pace, 0 a 8.0 s)",
+ "sticker": "ninguno",
+ "deriva_de": "match-your-pace",
+ "revisiones": [
+  {
+   "que": "Corte",
+   "estado": "OK",
+   "nota": "8.0 s desde 0 s de match-your-pace, 1080x1920, audio original, sin pregunta nueva (la madre ya esta aprobada)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin pedir like, share ni follow; sin texto nuevo"
+  }
+ ]
+}
