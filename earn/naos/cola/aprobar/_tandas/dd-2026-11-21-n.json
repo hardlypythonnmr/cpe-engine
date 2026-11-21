@@ -1,0 +1,15 @@
+{
+ "nombre": "dd-2026-11-21-n",
+ "issue": 127,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "dd-2026-11-21-amazon-hist-numero",
+  "dd-2026-11-21-intuit-hist-siguiente",
+  "dd-2026-11-21-qualcomm-historia",
+  "dd-2026-11-21-qualcomm-hist-numero"
+ ],
+ "comentario_vista_previa_id": 7062395519,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-21T12:11:54Z"
+}

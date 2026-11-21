@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-qualcomm-historia",
+ "issue": 127,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T14:00:00Z",
+ "datos_utc": "2026-11-21T11:40:00Z",
+ "hash_contenido": "f2174a757fb4d6fb148a14d341935746c920a2dd757b7e2e16bd1a385d117acf",
+ "hashes": {
+  "historia": "6b63352c87ee891745236a5f591b68c8544141587311fdf0e5cc13baa7888721"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062394739,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-n"
+}

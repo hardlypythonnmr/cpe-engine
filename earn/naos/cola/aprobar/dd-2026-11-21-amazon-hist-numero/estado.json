@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-21-amazon-hist-numero",
+ "issue": 127,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-21T14:30:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "79dad018a3973ce747f02c85eb8411a1120533ffa63207b92e7bc0b0f33fdd91",
+ "hashes": {
+  "historia": "86bdde8c526f22da4520a0ebb42b54a761fe3086629d328d7acce3699558797a"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7062393938,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-21-n"
+}
