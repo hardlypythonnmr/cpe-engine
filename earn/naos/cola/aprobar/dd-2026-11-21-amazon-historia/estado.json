@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-amazon-historia",
  "issue": 125,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T04:00:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "02abbd669382c76b5c51ce859feedd0a3267923ccfebd1e1b55af7653b2f6785",
@@ -19,5 +19,8 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-agente",
  "caducado_por": "version",
- "caducado_utc": "2026-11-21T12:18:50Z"
+ "caducado_utc": "2026-11-21T12:18:50Z",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:19:55Z",
+ "veto_hasta_utc": "2026-11-21T13:19:55Z"
 }

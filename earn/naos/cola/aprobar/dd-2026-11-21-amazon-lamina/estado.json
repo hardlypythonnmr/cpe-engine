@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-amazon-lamina",
  "issue": 125,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T03:00:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "41235d5e6cdbe003d260ca04c5de89ef0cd13bf13707d34fe371db24d17fab54",
@@ -19,5 +19,8 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-agente",
  "caducado_por": "version",
- "caducado_utc": "2026-11-21T12:18:50Z"
+ "caducado_utc": "2026-11-21T12:18:50Z",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:19:55Z",
+ "veto_hasta_utc": "2026-11-21T13:19:55Z"
 }

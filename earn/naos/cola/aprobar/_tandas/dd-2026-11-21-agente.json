@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-21-agente",
  "issue": 125,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-21-amazon-tachon-din",
   "dd-2026-11-21-amazon-lamina",
@@ -21,5 +21,21 @@
  "creada_utc": "2026-11-21T12:10:01Z",
  "agente": true,
  "aviso_utc": "2026-11-21T12:19:20Z",
- "aviso_canal": "github"
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:19:55Z",
+ "veto_hasta_utc": "2026-11-21T13:19:55Z",
+ "aprobadas": [
+  "dd-2026-11-21-amazon-expediente",
+  "dd-2026-11-21-amazon-hist-frase",
+  "dd-2026-11-21-amazon-hist-siguiente",
+  "dd-2026-11-21-amazon-historia",
+  "dd-2026-11-21-amazon-lamina",
+  "dd-2026-11-21-amazon-tachon-din",
+  "dd-2026-11-21-intuit-expediente",
+  "dd-2026-11-21-intuit-hist-numero",
+  "dd-2026-11-21-intuit-historia",
+  "dd-2026-11-21-intuit-lamina",
+  "dd-2026-11-21-intuit-tachon-din"
+ ]
 }

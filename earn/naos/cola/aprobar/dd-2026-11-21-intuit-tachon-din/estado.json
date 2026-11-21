@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-intuit-tachon-din",
  "issue": 125,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T00:00:00Z",
  "datos_utc": "2026-11-11T18:00:00Z",
  "hash_contenido": "9a883c5142ea34b8d84dccac5a82590248f580fbb365f8a5283f6e6422ad07f8",
@@ -23,5 +23,10 @@
  "retirado_utc": "2026-11-21T12:13:52Z",
  "retirado_por": "N (D-467): «Sacarla (Rec.)»",
  "caducado_por": "version",
- "caducado_utc": "2026-11-21T12:18:50Z"
+ "caducado_utc": "2026-11-21T12:18:50Z",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:19:55Z",
+ "veto_hasta_utc": "2026-11-21T13:19:55Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-22T12:00:00Z"
 }

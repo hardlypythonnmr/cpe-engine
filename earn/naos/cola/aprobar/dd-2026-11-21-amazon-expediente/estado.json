@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-21-amazon-expediente",
  "issue": 125,
  "version": 2,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T03:30:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "3aa90804049c4162c7f70a8d1cb8d89e53000bc05c2028bdedfcf8ddf40b5a7e",
@@ -19,5 +19,8 @@
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-agente",
  "caducado_por": "version",
- "caducado_utc": "2026-11-21T12:18:50Z"
+ "caducado_utc": "2026-11-21T12:18:50Z",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-21T12:19:55Z",
+ "veto_hasta_utc": "2026-11-21T13:19:55Z"
 }
