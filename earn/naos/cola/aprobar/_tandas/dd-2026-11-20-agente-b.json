@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-20-agente-b",
  "issue": 123,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "dd-2026-11-20-cognex-lamina",
   "dd-2026-11-20-cognex-tachon-n3"
@@ -19,5 +19,6 @@
  "aprobadas": [
   "dd-2026-11-20-cognex-lamina",
   "dd-2026-11-20-cognex-tachon-n3"
- ]
+ ],
+ "cerrada": true
 }
