@@ -1,0 +1,21 @@
+{
+ "slug": "cella-needs-1000",
+ "issue": 128,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T18:40:00Z",
+ "datos_utc": "2026-11-22T07:06:57Z",
+ "hash_contenido": "3865256ce2385fb4fab2ed64287d9bc2ab72a717f62fd061b6da7be0a1e8d6f9",
+ "hashes": {
+  "short": "87ae0bcdeb031e0f79950bbc2f74665b8d64b75d465664db4161ccd214b3ff2d"
+ },
+ "canales": [
+  "short"
+ ],
+ "comentario_vista_previa_id": 7075765809,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 12.0,
+ "tanda": "crecimiento-1118-b"
+}

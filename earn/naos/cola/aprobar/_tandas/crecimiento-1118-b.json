@@ -1,0 +1,12 @@
+{
+ "nombre": "crecimiento-1118-b",
+ "issue": 128,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "cella-needs-1000"
+ ],
+ "comentario_vista_previa_id": 7075766204,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-22T07:11:24Z"
+}
