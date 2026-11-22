@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-ford-tachon-din",
  "issue": 130,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-23T00:00:00Z",
  "datos_utc": "2026-11-15T18:00:00Z",
  "hash_contenido": "9bb83b26cde08d88219ceae5ab57ef9bf440ab50c1479d4064171a25a7b37f46",
@@ -19,5 +19,10 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente"
+ "tanda": "dd-2026-11-22-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:14:51Z",
+ "veto_hasta_utc": "2026-11-22T13:14:51Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-23T12:00:00Z"
 }

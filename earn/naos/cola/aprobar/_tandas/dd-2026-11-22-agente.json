@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-22-agente",
  "issue": 130,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-22-atlassian-tachon-q",
   "dd-2026-11-22-atlassian-lamina",
@@ -18,5 +18,22 @@
  "comentario_vista_previa_id": 7078975098,
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-22T12:14:47Z",
- "agente": true
+ "agente": true,
+ "aviso_utc": "2026-11-22T12:14:49Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:14:51Z",
+ "veto_hasta_utc": "2026-11-22T13:14:51Z",
+ "aprobadas": [
+  "dd-2026-11-22-atlassian-expediente",
+  "dd-2026-11-22-atlassian-hist-frase",
+  "dd-2026-11-22-atlassian-hist-siguiente",
+  "dd-2026-11-22-atlassian-hist-video",
+  "dd-2026-11-22-atlassian-lamina",
+  "dd-2026-11-22-atlassian-tachon-q",
+  "dd-2026-11-22-ford-expediente",
+  "dd-2026-11-22-ford-historia",
+  "dd-2026-11-22-ford-lamina",
+  "dd-2026-11-22-ford-tachon-din"
+ ]
 }

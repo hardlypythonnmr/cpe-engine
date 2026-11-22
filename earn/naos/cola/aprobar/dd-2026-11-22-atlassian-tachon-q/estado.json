@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-atlassian-tachon-q",
  "issue": 130,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T17:00:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "586bf2f16eef6b0a3439c70f9f72a8e578dc936e0e9608953edcb2f0187fddbd",
@@ -19,5 +19,10 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente"
+ "tanda": "dd-2026-11-22-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:14:51Z",
+ "veto_hasta_utc": "2026-11-22T13:14:51Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-23T05:00:00Z"
 }

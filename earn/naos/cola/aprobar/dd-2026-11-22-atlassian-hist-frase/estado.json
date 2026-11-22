@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-atlassian-hist-frase",
  "issue": 130,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T19:30:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "0a64c31461ae73da3ad9531ca134db6cbe45dc94b127e3954feccfdc705671bf",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente"
+ "tanda": "dd-2026-11-22-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:14:51Z",
+ "veto_hasta_utc": "2026-11-22T13:14:51Z"
 }
