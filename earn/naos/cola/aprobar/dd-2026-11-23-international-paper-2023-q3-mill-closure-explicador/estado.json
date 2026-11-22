@@ -21,5 +21,26 @@
  "datos_max_h": 0,
  "tanda": "dd-ampliacion-b",
  "aprobado_evento_utc": "2026-11-17T03:42:28Z",
- "issue_n_system": 1742
+ "issue_n_system": 1742,
+ "audio_aviso": {
+  "fecha_utc": "2026-11-22T19:57:15Z",
+  "voz_video": false,
+  "audio_vol": 90,
+  "audio_id": "102691742757473",
+  "ig_username": "djsemofficiel",
+  "title": "DjSem Mix Club",
+  "duracion_ms": 88048,
+  "busqueda": "banco:Mix",
+  "enlace": "https://www.instagram.com/reels/audio/102691742757473/",
+  "ritmo": {
+   "pulso": 0.502,
+   "bpm": 100.0,
+   "habla": 0.0,
+   "musica": 0.921,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7084812190
+ }
 }
