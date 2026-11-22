@@ -2,7 +2,7 @@
  "nombre": "crecimiento-1118",
  "issue": 116,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "before-6-am-by-cella",
   "before-6-am-by-cella-control"
@@ -17,5 +17,6 @@
   "before-6-am-by-cella",
   "before-6-am-by-cella-control"
  ],
- "issue_n_system": 1795
+ "issue_n_system": 1795,
+ "cerrada": true
 }
