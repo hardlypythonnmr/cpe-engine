@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "586bf2f16eef6b0a3439c70f9f72a8e578dc936e0e9608953edcb2f0187fddbd",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-22/atlassian-2026-layoffs/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-22T11:43:19Z",
+  "pedido": "temas/archivo/atlassian-2026-layoffs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "4b7973b02c021fe6ca77f18621aa1c1f38e7df88399883813125938fd49e7c99",
+ "medidas_sha": "02725c122c0b094fbc312a13f2b14aac459b4a71f0655dcfc59d64f81f0f6603",
+ "escrito_utc": "2026-11-22T12:07:01Z"
+}

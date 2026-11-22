@@ -1,0 +1,50 @@
+{
+ "slug": "dd-2026-11-22-oracle-hist-frase",
+ "titulo": "Oracle (Sep 2026): $627.4 million CEO total pay, $94,740 dollars. Here is the math.",
+ "clave": "2026-11-22|mercury|historia|2026-11-22-oracle-hist-frase",
+ "sale_utc": "2026-11-22T18:30:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Sep 2026. Not today's news.\nOracle, Sep 25, 2026 (Oracle, proxy statement): \"our success is driven by the quality of our people\"\nOracle's 2026 proxy statement, dated Sept. 25, 2026, reports pay for one of its two CEOs and for its median global employee. The proxy says: our success is driven by the quality of our people.\n\nYear ended May 2026: $627.4 million CEO total pay, one of two CEOs, fiscal 2026. total compensation of Clayton Magouyrk, one of Oracle's two CEOs, for fiscal 2026 as reported in the proxy's Summary Compensation Table; most of it is one equity-award column (grant-date value of a stock award, not cash).\nThe math: $627.4 million CEO total pay (2026) ÷ $94,740 dollars = about 6,623 median-worker salaries one CEO's pay.\nThe facts: $627.4 million CEO total pay (SEC EDGAR · Oracle, Sep 25, 2026). $94,740 median employee (SEC EDGAR · Oracle, Sep 25, 2026). Oracle has two CEOs. This entry is one of them, Clayton Magouyrk, whose total pay is 6,623 times the median employee's. Most of his total is one equity-award column, at grant-date value, not cash. The median is the median global employee, per the proxy.\n\nThe quality of our people. Here is the median. (Our take.)\n\nSources:\n- SEC EDGAR · Oracle, Sep 25, 2026: «At Oracle, our success is driven by the quality of our people, who we believe are among the best and brightest in the industry.» and «The fiscal 2026 total compensation of Mr. Magouyrk was $627,472,419, the fiscal 2026 total compensation of Mr. Sicilia was $256,606,752 and the fiscal 2026 total compensation of our median global employee was $94,740.» https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+ "alt": "Blue vertical card. Oracle. Oracle, proxy statement, Oracle, proxy statement · Sep 25, 2026. The quote \"our success is driven by the quality of our people\" in huge white condensed letters, with a white line through every row. Source: SEC EDGAR · Oracle, Sep 25, 2026.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-22/oracle-2026-pay-ratio/hist-frase",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "medio": "SEC EDGAR · Oracle",
+   "titulo": "Oracle proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg"
+}

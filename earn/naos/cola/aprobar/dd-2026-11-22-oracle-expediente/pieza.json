@@ -1,0 +1,56 @@
+{
+ "slug": "dd-2026-11-22-oracle-expediente",
+ "titulo": "Oracle (Sep 2026): $627.4 million CEO total pay, $94,740 dollars. Here is the math.",
+ "clave": "2026-11-23|mercury|expediente|2026-11-22-oracle-expediente",
+ "sale_utc": "2026-11-23T03:30:00Z",
+ "caption": "From the archive: Sep 2026. Not today's news.\nOracle, Sep 25, 2026 (Oracle, proxy statement): \"our success is driven by the quality of our people\"\nOracle's 2026 proxy statement, dated Sept. 25, 2026, reports pay for one of its two CEOs and for its median global employee. The proxy says: our success is driven by the quality of our people.\n\nYear ended May 2026: $627.4 million CEO total pay, one of two CEOs, fiscal 2026. total compensation of Clayton Magouyrk, one of Oracle's two CEOs, for fiscal 2026 as reported in the proxy's Summary Compensation Table; most of it is one equity-award column (grant-date value of a stock award, not cash).\nThe math: $627.4 million CEO total pay (2026) ÷ $94,740 dollars = about 6,623 median-worker salaries one CEO's pay.\nThe facts: $627.4 million CEO total pay (SEC EDGAR · Oracle, Sep 25, 2026). $94,740 median employee (SEC EDGAR · Oracle, Sep 25, 2026). Oracle has two CEOs. This entry is one of them, Clayton Magouyrk, whose total pay is 6,623 times the median employee's. Most of his total is one equity-award column, at grant-date value, not cash. The median is the median global employee, per the proxy.\n\nThe quality of our people. Here is the median. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSources: SEC EDGAR · Oracle, Sep 25, 2026.\n\nSwipe: the sentence, the number, the math, our take.\n\nGo to the link in bio.",
+ "descripcion": "From the archive: Sep 2026. Not today's news.\nOracle, Sep 25, 2026 (Oracle, proxy statement): \"our success is driven by the quality of our people\"\nOracle's 2026 proxy statement, dated Sept. 25, 2026, reports pay for one of its two CEOs and for its median global employee. The proxy says: our success is driven by the quality of our people.\n\nYear ended May 2026: $627.4 million CEO total pay, one of two CEOs, fiscal 2026. total compensation of Clayton Magouyrk, one of Oracle's two CEOs, for fiscal 2026 as reported in the proxy's Summary Compensation Table; most of it is one equity-award column (grant-date value of a stock award, not cash).\nThe math: $627.4 million CEO total pay (2026) ÷ $94,740 dollars = about 6,623 median-worker salaries one CEO's pay.\nThe facts: $627.4 million CEO total pay (SEC EDGAR · Oracle, Sep 25, 2026). $94,740 median employee (SEC EDGAR · Oracle, Sep 25, 2026). Oracle has two CEOs. This entry is one of them, Clayton Magouyrk, whose total pay is 6,623 times the median employee's. Most of his total is one equity-award column, at grant-date value, not cash. The median is the median global employee, per the proxy.\n\nThe quality of our people. Here is the median. (Our take.)\n\nSources:\n- SEC EDGAR · Oracle, Sep 25, 2026: «At Oracle, our success is driven by the quality of our people, who we believe are among the best and brightest in the industry.» and «The fiscal 2026 total compensation of Mr. Magouyrk was $627,472,419, the fiscal 2026 total compensation of Mr. Sicilia was $256,606,752 and the fiscal 2026 total compensation of our median global employee was $94,740.» https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+ "alt": "Five paper-colored cards. 1: Oracle, Sep 25, 2026, the quote \"our success is driven by the quality of our people\" struck through in dark red, and the words Then the math. 2: the full sentence with its context and source. 3: the number, $627.4 million CEO total pay, one of two ceos, fiscal 2026. 4: the division, ending in 6,623 median-worker salaries, one ceo's pay, on a yellow highlight. 5: our take: \"The quality of our people. Here is the median.\"",
+ "canales": [
+  "carrusel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "expediente",
+ "formato": "carrusel",
+ "origen": "c2/linea/2026-11-22/oracle-2026-pay-ratio/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "medio": "SEC EDGAR · Oracle",
+   "titulo": "Oracle proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "laminas": [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg"
+ ]
+}

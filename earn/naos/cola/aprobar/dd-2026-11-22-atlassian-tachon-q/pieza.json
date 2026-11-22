@@ -1,0 +1,93 @@
+{
+ "slug": "dd-2026-11-22-atlassian-tachon-q",
+ "titulo": "Atlassian layoffs: about 1,600 jobs, $1.8B in buybacks",
+ "clave": "2026-11-22|mercury|tachon|2026-11-22-atlassian-tachon-q",
+ "sale_utc": "2026-11-22T17:00:00Z",
+ "caption": "Atlassian layoffs: about 1,600 jobs, $1.8B in buybacks\n\nAtlassian layoffs, March 2026: the CEO called it \"the incredibly difficult decision\". Here is the buyback column. (From the archive, not today's news.)\n\nAtlassian, Mar 11, 2026 (CEO update to employees, 8-K): \"I have made the incredibly difficult decision to reduce the size of our team\"\nIn March 2026, Atlassian's CEO told employees, in an 8-K filing, it would cut about 10% of the team, about 1,600 employees. An 8-K is the report a public company files with the SEC when something material happens. Its fiscal 2026 10-K, the annual report, shows $1.8 billion spent buying back its own stock. A buyback is when a company uses cash to purchase its own shares.\n\nSame fiscal year: $1.8 billion buying back its own stock, fiscal 2026. $1,800,485 thousand paid to repurchase Class A common stock in fiscal 2026, company-wide (cash flow statement, in thousands).\nThe math: $1.8 billion in buybacks (2026) ÷ about 1,600 job cuts = about $1.12 million in buybacks per job cut.\nThe facts: $1.8 billion buying back its own stock, fiscal 2026 (SEC EDGAR · Atlassian, Aug 14, 2026). about 1,600 jobs decided to cut (SEC EDGAR · Atlassian, Mar 11, 2026). The buyback is Atlassian's full fiscal 2026 figure, July 2025 to June 2026. The March 2026 update falls inside that year. The job count is about 1,600, the CEO's own figure.\n\nDid Atlassian buy back stock the year it cut jobs? Per its own 10-K, yes: $1.8 billion in fiscal 2026. This shows two numbers from the same company and year. It does not say one caused the other.\n\nIncredibly difficult. Here is the buyback column. (Our take.)\n\nSend this to someone who got that update.\n\nSynthetic voice. Sources: SEC EDGAR · Atlassian, Mar 11, 2026; SEC EDGAR · Atlassian, Aug 14, 2026.\n\nFrom the archive: Mar 2026.\n\nFind the link in bio.",
+ "descripcion": "Atlassian layoffs, March 2026: the CEO called it \"the incredibly difficult decision\". Here is the buyback column. (From the archive, not today's news.)\n\nAtlassian, Mar 11, 2026 (CEO update to employees, 8-K): \"I have made the incredibly difficult decision to reduce the size of our team\"\nIn March 2026, Atlassian's CEO told employees, in an 8-K filing, it would cut about 10% of the team, about 1,600 employees. An 8-K is the report a public company files with the SEC when something material happens. Its fiscal 2026 10-K, the annual report, shows $1.8 billion spent buying back its own stock. A buyback is when a company uses cash to purchase its own shares.\n\nSame fiscal year: $1.8 billion buying back its own stock, fiscal 2026. $1,800,485 thousand paid to repurchase Class A common stock in fiscal 2026, company-wide (cash flow statement, in thousands).\nThe math: $1.8 billion in buybacks (2026) ÷ about 1,600 job cuts = about $1.12 million in buybacks per job cut.\nThe facts: $1.8 billion buying back its own stock, fiscal 2026 (SEC EDGAR · Atlassian, Aug 14, 2026). about 1,600 jobs decided to cut (SEC EDGAR · Atlassian, Mar 11, 2026). The buyback is Atlassian's full fiscal 2026 figure, July 2025 to June 2026. The March 2026 update falls inside that year. The job count is about 1,600, the CEO's own figure.\n\nDid Atlassian buy back stock the year it cut jobs? Per its own 10-K, yes: $1.8 billion in fiscal 2026. This shows two numbers from the same company and year. It does not say one caused the other.\n\nIncredibly difficult. Here is the buyback column. (Our take.)\n\nSources:\n- SEC EDGAR · Atlassian, Mar 11, 2026: «I have made the incredibly difficult decision to reduce the size of our team by ~10% (or ~1,600 employees).» https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/ex991blogpostdatedmarch112.htm\n- SEC EDGAR · Atlassian, Aug 14, 2026: «Repurchases of Class A Common Stock ( 1,800,485 ) ( 779,439 ) ( 395,256 )» https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm\n\nSynthetic voice.\n\nFrom the archive: Mar 2026.",
+ "alt": "Blue card with white type about the Atlassian layoffs. Atlassian, Mar 11, 2026. The statement, in quotes: \"I have made the incredibly difficult decision to reduce the size of our team\". It is by Mike Cannon-Brookes, CEO of Atlassian. The math: $1.8B ÷ 1,600 = about $1.12M, in buybacks, per job cut. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-22/atlassian-2026-layoffs/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/ex991blogpostdatedmarch112.htm",
+   "medio": "SEC EDGAR · Atlassian",
+   "titulo": "CEO update to Atlassian employees (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+   "medio": "SEC EDGAR · Atlassian",
+   "titulo": "Atlassian Form 10-K for fiscal 2026",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "19.682 s; strike at 0.3 s, number at 6.127 s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "Did your company ever call layoffs \"incredibly difficult\"? Drop the phrase you heard.",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In March 2026, Atlassian's CEO wrote: the incredibly difficult decision. That fiscal year, Atlassian spent one point eight billion buying back its own stock. And decided to cut about one thousand six hundred jobs. About one point one two million dollars in buybacks, for every job cut. Incredibly difficult. Here is the buyback column. Done Damages.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "In March 2026, Atlassian's CEO wrote: the incredibly difficult decision."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That fiscal year, Atlassian spent one point eight billion buying back its own stock. And decided to cut about one thousand six hundred jobs."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "About one point one two million dollars in buybacks, for every job cut."
+  },
+  {
+   "papel": "giro",
+   "voz": "Incredibly difficult. Here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "voz": "Done Damages."
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}

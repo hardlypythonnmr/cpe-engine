@@ -1,0 +1,59 @@
+{
+ "slug": "dd-2026-11-22-ford-lamina",
+ "titulo": "Ford (Feb 2023): $5.3 billion to shareholders, 3,800 jobs planned cuts. The math, done.",
+ "clave": "2026-11-23|mercury|lamina|2026-11-22-ford-lamina",
+ "sale_utc": "2026-11-23T01:00:00Z",
+ "caption": "From the archive: Feb 2023. Not today's news.\nFord, Feb 14, 2023 (Ford Europe, news release): \"creating a leaner, more competitive cost structure\"\nFord's Feb. 14, 2023 release said it would eliminate 3,800 jobs in Europe over three years. Its 2023 Form 10-K reports $5.3 billion in shareholder distributions that year, company-wide.\n\nSame year: $5.3 billion to shareholders, 2023, company-wide. $5.3 billion of shareholder distributions in 2023, company-wide (cash dividends and anti-dilutive share repurchases; Form 10-K).\nThe math: $5.3 billion in dividends and buybacks (2023) ÷ 3,800 job cuts = about $1.39 million in dividends and buybacks per job cut.\nThe facts: $5.3 billion to shareholders, 2023, company-wide (Ford 2023 10-K (SEC), Feb 7, 2024). 3,800 jobs planned cuts (Ford 8-K, Ex. 99 (SEC), Feb 14, 2023). The $5.3 billion is company-wide shareholder distributions for all of 2023 (cash dividends and anti-dilutive share repurchases), per Ford's 10-K. The 3,800 jobs are in Europe, over three years, per the February 14, 2023 release.\n\nLeaner and more competitive. Here is the payout column. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSources: Ford 8-K, Ex. 99 (SEC), Feb 14, 2023; Ford 2023 10-K (SEC), Feb 7, 2024.\n\nTap the link in bio.",
+ "descripcion": "From the archive: Feb 2023. Not today's news.\nFord, Feb 14, 2023 (Ford Europe, news release): \"creating a leaner, more competitive cost structure\"\nFord's Feb. 14, 2023 release said it would eliminate 3,800 jobs in Europe over three years. Its 2023 Form 10-K reports $5.3 billion in shareholder distributions that year, company-wide.\n\nSame year: $5.3 billion to shareholders, 2023, company-wide. $5.3 billion of shareholder distributions in 2023, company-wide (cash dividends and anti-dilutive share repurchases; Form 10-K).\nThe math: $5.3 billion in dividends and buybacks (2023) ÷ 3,800 job cuts = about $1.39 million in dividends and buybacks per job cut.\nThe facts: $5.3 billion to shareholders, 2023, company-wide (Ford 2023 10-K (SEC), Feb 7, 2024). 3,800 jobs planned cuts (Ford 8-K, Ex. 99 (SEC), Feb 14, 2023). The $5.3 billion is company-wide shareholder distributions for all of 2023 (cash dividends and anti-dilutive share repurchases), per Ford's 10-K. The 3,800 jobs are in Europe, over three years, per the February 14, 2023 release.\n\nLeaner and more competitive. Here is the payout column. (Our take.)\n\nSources:\n- Ford 8-K, Ex. 99 (SEC), Feb 14, 2023: «The company is taking action to restructure its business in Europe, creating a leaner, more competitive cost structure, including the elimination of 3,800 jobs over the next three years» https://www.sec.gov/Archives/edgar/data/37996/000003799623000018/exhibit99tofebruary14202.htm\n- Ford 2023 10-K (SEC), Feb 7, 2024: «Shareholder distributions (including cash dividends and anti-dilutive share repurchases) were $5.3 billion in 2023.» https://www.sec.gov/Archives/edgar/data/37996/000003799624000009/f-20231231.htm",
+ "alt": "Blue card with white type. Ford, Feb 14, 2023. The statement, in quotes: \"creating a leaner, more competitive cost structure\". It is by Ford Europe, Ford Europe, news release. The math: $5.3B ÷ 3,800 = about $1.39M, in dividends and buybacks, per job cut. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "imagen"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "lamina",
+ "formato": "imagen",
+ "origen": "c2/linea/2026-11-22/ford-2023-europe-jobs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799623000018/exhibit99tofebruary14202.htm",
+   "medio": "SEC EDGAR · Ford",
+   "titulo": "Ford Europe news release (8-K, Exhibit 99)",
+   "hora_utc": "2026-11-15T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799624000009/f-20231231.htm",
+   "medio": "SEC EDGAR · Ford",
+   "titulo": "Ford Form 10-K for 2023",
+   "hora_utc": "2026-11-15T18:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "imagen.jpg"
+}

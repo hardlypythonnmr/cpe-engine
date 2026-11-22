@@ -1,0 +1,296 @@
+{
+ "id": "atlassian-2026-layoffs-2026-11-22",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 19.682,
+ "dur_contenido": 19.682,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 54,
+ "cuenta": {
+  "a": "1800485000",
+  "b": "1600",
+  "c_real": "1125303.1250",
+  "c_pantalla": "$1.12 MILLION",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · MAR 2026",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "t0": 0.0,
+   "t1": 4.717,
+   "voz": "In March 2026, Atlassian's CEO wrote: the incredibly difficult decision."
+  },
+  {
+   "papel": "gancho",
+   "t0": 4.797,
+   "t1": 11.589,
+   "voz": "That fiscal year, Atlassian spent one point eight billion buying back its own stock. And decided to cut about one thousand six hundred jobs."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 11.669,
+   "t1": 15.489,
+   "voz": "About one point one two million dollars in buybacks, for every job cut."
+  },
+  {
+   "papel": "giro",
+   "t0": 15.539,
+   "t1": 18.402,
+   "voz": "Incredibly difficult. Here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "t0": 18.562,
+   "t1": 19.682,
+   "voz": "Done Damages."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 4.697,
+   "e": "n"
+  },
+  {
+   "t": 11.619,
+   "e": "c"
+  },
+  {
+   "t": 15.489,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 9.727,
+  "numero_a": 6.127,
+  "numero_c": 12.169,
+  "numero_dicho": null,
+  "linea_completa": 17.109,
+  "cierre": 18.482,
+  "total": 19.682
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "frase": 150,
+  "a": 143,
+  "b": 143,
+  "cuenta.arriba": 84,
+  "about": 120,
+  "cifra": 367,
+  "linea": 150
+ },
+ "lineas_frase": 6,
+ "c_ancho_px": 935,
+ "envoltorio": {
+  "semilla": "2026-11-22|atlassian-2026-layoffs",
+  "sonido": 0,
+  "trazo": 0,
+  "composicion": 1,
+  "cierre": 2,
+  "titulo": 4
+ },
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 56,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 72,
+   "y": 1260,
+   "lado_px": 100,
+   "esquina": "abajo-izquierda",
+   "choca": false
+  },
+  "cierre_s": 0.0,
+  "dur_antes_s": 19.682,
+  "dur_video_s": 19.682
+ },
+ "volumen": {
+  "lufs": -14.25,
+  "pico_dbtp": -1.23
+ },
+ "oido": [
+  {
+   "papel": "golpe",
+   "dice": "In March 2026, Atlassian's CEO wrote: the incredibly difficult decision.",
+   "oye": "In March, 2026, Atlassian's CEO wrote the incredibly difficult decision that..."
+  },
+  {
+   "papel": "gancho",
+   "dice": "That fiscal year, Atlassian spent one point eight billion buying back its own stock. And decided to cut about one thousand six hundred jobs.",
+   "oye": "That fiscal year, Atlassian spent $1.8 billion buying back its own stock and decided to cut about 1,600 jobs",
+   "cifra_a": {
+    "espera": "$1.8 BILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "1,600",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "About one point one two million dollars in buybacks, for every job cut.",
+   "oye": "About $1.12 million in buybacks for every job cut.",
+   "cifra_c": {
+    "espera": "$1.12 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Incredibly difficult. Here is the buyback column.",
+   "oye": "Incredibly difficult. Here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "dice": "Done Damages.",
+   "oye": "Done damages."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.5,
+  "rachas": [
+   [
+    2.5,
+    4.6
+   ],
+   [
+    12.4,
+    14.9
+   ]
+  ],
+  "pasa": false
+ },
+ "avisos": [
+  "hay tramos de más de 2.0 s sin que cambie nada: [[2.5, 4.6], [12.4, 14.9]]"
+ ],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-q@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "golpe",
+   "gancho",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 19.682
+ },
+ "gancho_seg": 6.127,
+ "cifra_entra_s": 12.169,
+ "racha_quieta_max_s": 2.5,
+ "cifra_antes_s": 2.0,
+ "racha_tope_s": 2.0,
+ "dinamico": false,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · MAR 2026, la frase oficial grande con nombre y cargo, tachándose, y la cifra entrando antes de 2 s"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"cifra_antes\": 2.0, \"voz_desde\": 0.4, \"b_antes\": 10.5, \"b_antes_dinamico\": 14.0, \"quieto_s\": 2.0, \"duracion_s\": [16, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.5,
+  "rachas": [
+   [
+    2.5,
+    4.6
+   ],
+   [
+    12.4,
+    14.9
+   ]
+  ],
+  "pasa": false
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/atlassian-2026-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Atlassian: «I have made the incredibly difficult decision to reduce the size of our team by ~10% (or ~»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Atlassian: «Repurchases of Class A Common Stock ( 1,800,485 ) ( 779,439 ) ( 395,256 )»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 1,800,485,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Atlassian: «I have made the incredibly difficult decision to reduce the size of our team by ~10% (or ~»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 1,600"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2026 · B 2026)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Atlassian) es la del pedido (Atlassian)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

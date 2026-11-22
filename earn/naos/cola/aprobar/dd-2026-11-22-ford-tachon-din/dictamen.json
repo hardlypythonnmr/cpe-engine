@@ -1,0 +1,48 @@
+{
+ "slug": "dd-2026-11-22-ford-tachon-din",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "aprueba",
+ "motivos": [],
+ "plantilla_aprobada": {
+  "nombre": "dd/tachon-q@1",
+  "decision": "D-499",
+  "controles": [
+   "plantilla listada y activa, con la evidencia de su ejemplar",
+   "verificado.json de esta versión",
+   "medidas de forma en regla",
+   "forma de la plantilla (tramos, papeles, duración)",
+   "lente sin graves",
+   "lector-linea.json de esta versión: entiende"
+  ]
+ },
+ "razon": "plantilla aprobada dd/tachon-q@1 (D-499)",
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "fe0b7114942f90e311c4a0c8970372495fdbf131391bf0210645d256ec2a4609",
+  "reel": "70a82ff8fbcb7791ffb5ea2401180887847edc23731b2032c4792b670a0f4ec2"
+ },
+ "huella_contenido": "9bb83b26cde08d88219ceae5ab57ef9bf440ab50c1479d4064171a25a7b37f46",
+ "sale_utc": "2026-11-23T00:00:00Z",
+ "dictamen_utc": "2026-11-22T12:07:03Z"
+}
