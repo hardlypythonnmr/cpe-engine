@@ -24,5 +24,26 @@
  "aprobado_evento_utc": "2026-11-22T12:15:49Z",
  "veto_hasta_utc": "2026-11-22T13:15:49Z",
  "carril": "d520",
- "veto_despues_utc": "2026-11-23T14:00:00Z"
+ "veto_despues_utc": "2026-11-23T14:00:00Z",
+ "audio_aviso": {
+  "fecha_utc": "2026-11-22T20:58:44Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "101679589562213",
+  "ig_username": "somi_sharma01",
+  "title": "Chatak matak mix",
+  "duracion_ms": 33806,
+  "busqueda": "banco:Mix",
+  "enlace": "https://www.instagram.com/reels/audio/101679589562213/",
+  "ritmo": {
+   "pulso": 0.63,
+   "bpm": 101.7,
+   "habla": 0.002,
+   "musica": 0.937,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7085691271
+ }
 }
