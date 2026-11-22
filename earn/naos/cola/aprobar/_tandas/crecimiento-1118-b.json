@@ -2,7 +2,7 @@
  "nombre": "crecimiento-1118-b",
  "issue": 128,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "cella-needs-1000"
  ],
@@ -10,5 +10,9 @@
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-22T07:11:24Z",
  "aviso_utc": "2026-11-22T07:11:26Z",
- "aviso_canal": "github"
+ "aviso_canal": "github",
+ "aprobado_evento_utc": "2026-11-22T15:59:43Z",
+ "aprobadas": [
+  "cella-needs-1000"
+ ]
 }
