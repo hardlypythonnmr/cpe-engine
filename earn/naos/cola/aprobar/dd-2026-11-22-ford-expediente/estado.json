@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-ford-expediente",
+ "issue": 130,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T01:30:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "86004a4af4ec00ae3f25210bc2fe4a100a234b73afd97fc3fd8aacbce0e29e58",
+ "hashes": {
+  "carrusel": "ef931b217b327f5f91e6a6bc9db22ab420067c53d338dbfe83ce5ae95b52adec"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7078974210,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente"
+}

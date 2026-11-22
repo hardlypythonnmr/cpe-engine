@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-atlassian-expediente",
+ "issue": 130,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T22:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "aaae638135813c7b88b6ea0b2d16874aacf78cdffcd6f2d5110017fa110ebf80",
+ "hashes": {
+  "carrusel": "486b8ebda283009e7c5aa94931a96ecdc7122067706af7a50cb4117e4ca41ead"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7078971480,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-atlassian-hist-video",
+ "issue": 130,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T04:30:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "1203cfa9e61678054c097b22c100844588db2359718b7cea240ed2a175ceb5c3",
+ "hashes": {
+  "historia": "f0c4cd093ebb14e8030789e18a62cb349180bbf73f0a49cc697c7053b4621337"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7078972857,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente"
+}

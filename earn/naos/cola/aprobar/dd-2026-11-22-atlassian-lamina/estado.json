@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-atlassian-lamina",
+ "issue": 130,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T18:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "d622637425b6d132f1ac4c4babff16a4b57226ca8c9aeb55534b0458b1f00990",
+ "hashes": {
+  "imagen": "aec07b3f0b3043ebcde4784683ba73888ef9d7928cc807b00d199c3cd90d7323"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7078971016,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente"
+}

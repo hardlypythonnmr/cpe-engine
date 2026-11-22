@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-ford-lamina",
+ "issue": 130,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T01:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "8251008cb589b66070d83aaa83656f1c0dd59f9684299726cf6f798551046993",
+ "hashes": {
+  "imagen": "61eb9dc319f1176e51e7f2966cf52c80c42d24ed933af253a5d6e9eaf1a066a5"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7078973770,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente"
+}

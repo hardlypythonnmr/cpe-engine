@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-ford-historia",
+ "issue": 130,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T23:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "5243465a032058318a4c2e8e482e14a6892ab0db03d9bb23cb3c18e6f5034d0b",
+ "hashes": {
+  "historia": "501ee7a9583905eb10f081ab8b93f44869a3e9f2c048e6b928efdb652d9f7f9e"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7078974648,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente"
+}
