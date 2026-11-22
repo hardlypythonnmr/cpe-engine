@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-ford-hist-frase",
+ "issue": 131,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T20:30:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "d00b40c3c2770dd8f5634eb10e16ca10203144ae538b352a08024ddabbe4c324",
+ "hashes": {
+  "historia": "4310314e14f0aa56448d4bcbd2074e54b85291be4d9ff3fd6508655ae5fb8a99"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7078983353,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente-b"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-22-oracle-tachon-din",
+ "issue": 131,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T02:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "c149ab76148ca40acfddc5d2fc9a222dddce22c2e9f56ed2f233bcf2e5bdd3d7",
+ "hashes": {
+  "short": "ed226335b97f7d45a0a0658cce513f633e35d2e622d01bcc820f5a0c8303a691",
+  "reel": "29a616e1d05bec767ffcd1941a51424567bd213c83936c05b35494e3d20d959b"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7078983792,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente-b"
+}

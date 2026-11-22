@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-oracle-expediente",
+ "issue": 131,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T03:30:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "99b6c95b0d3e7a5446249e9feca831ac4cc2a4e69511f7ba8539462050434add",
+ "hashes": {
+  "carrusel": "1a15ad5021419f694527fd1598fca6393c2dab92aec12b44727ba8cef8493ecd"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7078984636,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-agente-b"
+}
