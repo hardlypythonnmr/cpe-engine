@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "9bb83b26cde08d88219ceae5ab57ef9bf440ab50c1479d4064171a25a7b37f46",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-22/ford-2023-europe-jobs/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-22T11:55:49Z",
+  "pedido": "temas/archivo/ford-2023-europe-jobs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "5341eeba54ac19f56e8ef0c42743d756a3e019d7978692c00226548abb6c0444",
+ "medidas_sha": "4bd3bf891f9f9384f4a842dfde3264c967cd7a6903ed698a3d3de781c27e4fe8",
+ "escrito_utc": "2026-11-22T12:07:03Z"
+}

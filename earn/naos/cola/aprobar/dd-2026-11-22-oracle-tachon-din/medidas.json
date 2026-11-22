@@ -1,0 +1,272 @@
+{
+ "id": "oracle-2026-pay-ratio-2026-11-22",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 17.9,
+ "dur_contenido": 17.888,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 47,
+ "cuenta": {
+  "a": "627472419",
+  "b": "94740",
+  "c_real": "6623.0992",
+  "c_pantalla": "6,623",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · SEP 2026",
+ "tramos": [
+  {
+   "papel": "cuenta",
+   "t0": 0.4,
+   "t1": 2.657,
+   "voz": "Six thousand six hundred twenty-three times."
+  },
+  {
+   "papel": "golpe",
+   "t0": 2.737,
+   "t1": 5.735,
+   "voz": "In 2026, Oracle said: quality of our people."
+  },
+  {
+   "papel": "gancho",
+   "t0": 5.815,
+   "t1": 13.99,
+   "voz": "That year, Oracle paid one of two CEOs six hundred twenty-seven point four million dollars. Its median employee earned ninety-four thousand seven hundred forty."
+  },
+  {
+   "papel": "giro",
+   "t0": 14.04,
+   "t1": 16.523,
+   "voz": "The quality of our people. Here is the median."
+  },
+  {
+   "papel": "firma",
+   "t0": 16.768,
+   "t1": 17.888,
+   "voz": "Done Damages."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 5.715,
+   "e": "n"
+  },
+  {
+   "t": 13.99,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 11.605,
+  "numero_a": 7.525,
+  "numero_c": 0.3,
+  "numero_dicho": null,
+  "linea_completa": 15.688,
+  "cierre": 16.688,
+  "total": 17.888
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "frase": 150,
+  "a": 150,
+  "b": 150,
+  "cuenta.n": 72,
+  "about": 120,
+  "cifra": 427,
+  "linea": 150
+ },
+ "lineas_frase": 4,
+ "c_ancho_px": 934,
+ "envoltorio": {
+  "semilla": "2026-11-22|oracle-2026-pay-ratio",
+  "sonido": 0,
+  "trazo": 2,
+  "composicion": 1,
+  "cierre": 4,
+  "titulo": 1
+ },
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 49,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 72,
+   "y": 1170,
+   "lado_px": 100,
+   "esquina": "abajo-izquierda",
+   "choca": false
+  },
+  "cierre_s": 0.0,
+  "dur_antes_s": 17.9,
+  "dur_video_s": 17.9
+ },
+ "volumen": {
+  "lufs": -14.09,
+  "pico_dbtp": -1.13
+ },
+ "oido": [
+  {
+   "papel": "cuenta",
+   "dice": "Six thousand six hundred twenty-three times.",
+   "oye": "Six thousand six hundred twenty-three times",
+   "cifra_c": {
+    "espera": "6,623",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "golpe",
+   "dice": "In 2026, Oracle said: quality of our people.",
+   "oye": "In 2026, Oracle said, quality of our people, that you"
+  },
+  {
+   "papel": "gancho",
+   "dice": "That year, Oracle paid one of two CEOs six hundred twenty-seven point four million dollars. Its median employee earned ninety-four thousand seven hundred forty.",
+   "oye": "That year, Oracle paid one of two CEOs $627.4 million. Its median employee earned $94,740.",
+   "cifra_a": {
+    "espera": "$627.4 MILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "$94,740",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "The quality of our people. Here is the median.",
+   "oye": "The quality of our people, here is the mighty end."
+  },
+  {
+   "papel": "firma",
+   "dice": "Done Damages.",
+   "oye": "Dunn damages."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.7,
+  "rachas": [],
+  "pasa": true
+ },
+ "avisos": [],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-q@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "cuenta",
+   "golpe",
+   "gancho",
+   "giro",
+   "firma"
+  ],
+  "dur": 17.9
+ },
+ "gancho_seg": 0.3,
+ "cifra_entra_s": 0.3,
+ "racha_quieta_max_s": 1.7,
+ "cifra_antes_s": 2.0,
+ "racha_tope_s": 2.0,
+ "dinamico": true,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · SEP 2026, la frase oficial grande con nombre y cargo, tachándose, y la cifra entrando antes de 2 s"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"cifra_antes\": 2.0, \"voz_desde\": 0.4, \"b_antes\": 10.5, \"b_antes_dinamico\": 14.0, \"quieto_s\": 2.0, \"duracion_s\": [16, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.7,
+  "rachas": [],
+  "pasa": true
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/oracle-2026-pay-ratio/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Oracle: «At Oracle, our success is driven by the quality of our people, who we believe are among th»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Oracle: «The fiscal 2026 total compensation of Mr. Magouyrk was $627,472,419, the fiscal 2026 total»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 627,472,419"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Oracle: «The fiscal 2026 total compensation of Mr. Magouyrk was $627,472,419, the fiscal 2026 total»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 94,740"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2026 · B 2026)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Oracle) es la del pedido (Oracle)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

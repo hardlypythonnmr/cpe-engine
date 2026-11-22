@@ -1,0 +1,48 @@
+{
+ "slug": "dd-2026-11-22-atlassian-tachon-q",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "aprueba",
+ "motivos": [],
+ "plantilla_aprobada": {
+  "nombre": "dd/tachon-q@1",
+  "decision": "D-499",
+  "controles": [
+   "plantilla listada y activa, con la evidencia de su ejemplar",
+   "verificado.json de esta versión",
+   "medidas de forma en regla",
+   "forma de la plantilla (tramos, papeles, duración)",
+   "lente sin graves",
+   "lector-linea.json de esta versión: entiende"
+  ]
+ },
+ "razon": "plantilla aprobada dd/tachon-q@1 (D-499)",
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [],
+  "riesgo_maximo": "sin notas",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "15d908eb6eefee8bade34c3f571bb53c01863b089b2071cae19af47e4ac5bf7c",
+  "reel": "a8ec14833dba29cce2f06d32132ece4d12131b9549761af5fec4aeca6c9ad828"
+ },
+ "huella_contenido": "586bf2f16eef6b0a3439c70f9f72a8e578dc936e0e9608953edcb2f0187fddbd",
+ "sale_utc": "2026-11-22T17:00:00Z",
+ "dictamen_utc": "2026-11-22T12:07:02Z"
+}

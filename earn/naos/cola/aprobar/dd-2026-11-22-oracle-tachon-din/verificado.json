@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "c149ab76148ca40acfddc5d2fc9a222dddce22c2e9f56ed2f233bcf2e5bdd3d7",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-22/oracle-2026-pay-ratio/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-22T12:05:17Z",
+  "pedido": "temas/archivo/oracle-2026-pay-ratio/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "1535f7156fd9c19d91412eb6307cf9511362fc65690b51fb02f59c4370ce03c3",
+ "medidas_sha": "d6bc1e0b04ec9af607a4f7be7ee1ffb218ca4c0549eabd486ffd66621baa52cf",
+ "escrito_utc": "2026-11-22T12:07:04Z"
+}

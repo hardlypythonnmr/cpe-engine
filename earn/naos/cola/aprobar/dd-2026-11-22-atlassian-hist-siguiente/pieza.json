@@ -1,0 +1,59 @@
+{
+ "slug": "dd-2026-11-22-atlassian-hist-siguiente",
+ "titulo": "Atlassian (Mar 2026): $1.8 billion buying back its own stock, about 1,600 jobs decided to. The math.",
+ "clave": "2026-11-22|mercury|historia|2026-11-22-atlassian-hist-siguiente",
+ "sale_utc": "2026-11-22T21:30:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Mar 2026. Not today's news.\nAtlassian, Mar 11, 2026 (CEO update to employees, 8-K): \"I have made the incredibly difficult decision to reduce the size of our team\"\nIn March 2026, Atlassian's CEO told employees, in an 8-K filing, it would cut about 10% of the team. Its fiscal 2026 10-K shows $1.8 billion spent buying back its own stock.\n\nSame fiscal year: $1.8 billion buying back its own stock, fiscal 2026. $1,800,485 thousand paid to repurchase Class A common stock in fiscal 2026, company-wide (cash flow statement, in thousands).\nThe math: $1.8 billion in buybacks (2026) ÷ about 1,600 job cuts = about $1.12 million in buybacks per job cut.\nThe facts: $1.8 billion buying back its own stock, fiscal 2026 (SEC EDGAR · Atlassian, Aug 14, 2026). about 1,600 jobs decided to cut (SEC EDGAR · Atlassian, Mar 11, 2026). The buyback is Atlassian's full fiscal 2026 figure, July 2025 to June 2026. The March 2026 update falls inside that year. The job count is about 1,600, the CEO's own figure.\n\nIncredibly difficult. Here is the buyback column. (Our take.)\n\nSources:\n- SEC EDGAR · Atlassian, Mar 11, 2026: «I have made the incredibly difficult decision to reduce the size of our team by ~10% (or ~1,600 employees).» https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/ex991blogpostdatedmarch112.htm\n- SEC EDGAR · Atlassian, Aug 14, 2026: «Repurchases of Class A Common Stock ( 1,800,485 ) ( 779,439 ) ( 395,256 )» https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+ "alt": "Blue vertical card. In huge white condensed letters: Which company next? Below, the channel name, Done Damages.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-22/atlassian-2026-layoffs/hist-siguiente",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/ex991blogpostdatedmarch112.htm",
+   "medio": "SEC EDGAR · Atlassian",
+   "titulo": "CEO update to Atlassian employees (8-K, Exhibit 99.1)",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+   "medio": "SEC EDGAR · Atlassian",
+   "titulo": "Atlassian Form 10-K for fiscal 2026",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg"
+}

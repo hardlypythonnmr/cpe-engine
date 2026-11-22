@@ -1,0 +1,84 @@
+{
+ "slug": "dd-2026-11-22-oracle-tachon-din",
+ "titulo": "Oracle CEO pay: $627.4M vs $94,740 median employee",
+ "clave": "2026-11-23|mercury|tachon|2026-11-22-oracle-tachon-din",
+ "sale_utc": "2026-11-23T02:00:00Z",
+ "caption": "Oracle CEO pay: $627.4M vs $94,740 median employee\n\nOracle CEO pay: $627.4 million for one of its two CEOs in fiscal 2026. The median employee: $94,740. That is about 6,623 median salaries.\nFrom the archive: Sep 2026. Not today's news.\n\nThe proxy statement (the report companies send shareholders) said: \"our success is driven by the quality of our people.\" Then it listed the pay ratio. The total is mostly a stock award at grant-date value, not cash. Oracle has a second CEO, Mr. Sicilia, at $256,606,752.\n\nThe quality of our people. Here is the median. (Our take.)\n\nWhich number would you ask your boss about first?\n\nSynthetic voice. Sources: SEC EDGAR · Oracle, Sep 25, 2026.\n\nTap the link in bio.",
+ "descripcion": "Oracle CEO pay: $627.4 million in fiscal 2026 for one of its two CEOs, against $94,740 for the median employee.\nFrom the archive: Sep 2026. Not today's news.\n\nWhat is a CEO pay ratio? Public companies must report it in their proxy statement (the document sent to shareholders before the annual meeting): the CEO's total pay compared with the pay of the median employee, the one in the exact middle of the payroll. Oracle's proxy, dated Sep 25, 2026, says: \"our success is driven by the quality of our people.\" Then it lists the pay. The math: $627,472,419 ÷ $94,740 = about 6,623. That is 6,623 median salaries in one year of one CEO's pay (Clayton Magouyrk).\n\nRead it right: Oracle has two CEOs. This is one of them. The proxy gives the other, Mr. Sicilia, $256,606,752. Magouyrk's total is mostly one equity-award column ($621,669,237, the grant-date value of a stock award, not cash) against a salary of $942,308. The median is the median global employee, per the proxy. A ratio, not a cause.\n\nThe quality of our people. Here is the median. (Our take.)\n\nSources:\n- SEC EDGAR · Oracle, Sep 25, 2026: «At Oracle, our success is driven by the quality of our people, who we believe are among the best and brightest in the industry.» and «The fiscal 2026 total compensation of Mr. Magouyrk was $627,472,419, the fiscal 2026 total compensation of Mr. Sicilia was $256,606,752 and the fiscal 2026 total compensation of our median global employee was $94,740.» https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm\n\nSynthetic voice.",
+ "alt": "Blue card with white type reading Oracle CEO pay, Sep 25, 2026. The quote from Oracle's proxy statement: \"our success is driven by the quality of our people\". The math: $627.4M ÷ $94,740 = about 6,623, median-worker salaries in one CEO's pay, shown in huge white numerals cut by the bottom edge.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-22/oracle-2026-pay-ratio/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+   "medio": "SEC EDGAR · Oracle",
+   "titulo": "Oracle proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "17.9 s; strike at 0.3 s, number at 7.525 s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "Oracle's proxy says its success is driven by the quality of its people. What would you want the median employee's number to be? Drop it below.",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "Six thousand six hundred twenty-three times. In 2026, Oracle said: quality of our people. That year, Oracle paid one of two CEOs six hundred twenty-seven point four million dollars. Its median employee earned ninety-four thousand seven hundred forty. The quality of our people. Here is the median. Done Damages.",
+ "tramos": [
+  {
+   "papel": "cuenta",
+   "voz": "Six thousand six hundred twenty-three times."
+  },
+  {
+   "papel": "golpe",
+   "voz": "In 2026, Oracle said: quality of our people."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That year, Oracle paid one of two CEOs six hundred twenty-seven point four million dollars. Its median employee earned ninety-four thousand seven hundred forty."
+  },
+  {
+   "papel": "giro",
+   "voz": "The quality of our people. Here is the median."
+  },
+  {
+   "papel": "firma",
+   "voz": "Done Damages."
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}
