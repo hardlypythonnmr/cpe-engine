@@ -20,5 +20,26 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-tanda8",
- "aprobado_evento_utc": "2026-11-19T20:38:42Z"
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z",
+ "audio_aviso": {
+  "fecha_utc": "2026-11-22T16:58:54Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "317593124306240",
+  "ig_username": "arsin215",
+  "title": "Thriller Mix Dj Tray feat. Arsin",
+  "duracion_ms": 81479,
+  "busqueda": "banco:Thriller",
+  "enlace": "https://www.instagram.com/reels/audio/317593124306240/",
+  "ritmo": {
+   "pulso": 0.474,
+   "bpm": 137.9,
+   "habla": 0.002,
+   "musica": 0.846,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7082487212
+ }
 }
