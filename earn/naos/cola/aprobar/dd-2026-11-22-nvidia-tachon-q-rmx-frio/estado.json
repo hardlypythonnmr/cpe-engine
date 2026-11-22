@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-nvidia-tachon-q-rmx-frio",
  "issue": 33,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-22T17:30:00Z",
  "datos_utc": "2026-11-12T21:00:00Z",
  "hash_contenido": "9b12c035431bb5ae5b4e448a52534cb192df9f88c0151fbafcd0c67626451b68",
@@ -42,5 +42,14 @@
    "pasa": true
   },
   "comentario": 7078773495
+ },
+ "audio_ab": "tendencia",
+ "audio_ig": {
+  "audio_id": "593662170142567",
+  "ig_username": "atomicfunkproject",
+  "title": "Mr.Brightside by AFP",
+  "duracion_ms": 28600,
+  "busqueda": "audio_id",
+  "enlace": "https://www.instagram.com/reels/audio/593662170142567/"
  }
 }
