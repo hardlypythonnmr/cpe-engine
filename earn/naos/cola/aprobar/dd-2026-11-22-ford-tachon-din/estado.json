@@ -24,5 +24,26 @@
  "aprobado_evento_utc": "2026-11-22T12:14:51Z",
  "veto_hasta_utc": "2026-11-22T13:14:51Z",
  "carril": "d520",
- "veto_despues_utc": "2026-11-23T12:00:00Z"
+ "veto_despues_utc": "2026-11-23T12:00:00Z",
+ "audio_aviso": {
+  "fecha_utc": "2026-11-22T18:58:15Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "8026510554048989",
+  "ig_username": "gravagerz",
+  "title": "billie eilish - chihiro (gravagerz remix)",
+  "duracion_ms": 20431,
+  "busqueda": "banco:tendencia",
+  "enlace": "https://www.instagram.com/reels/audio/8026510554048989/",
+  "ritmo": {
+   "pulso": 0.465,
+   "bpm": 139.5,
+   "habla": 0.004,
+   "musica": 0.834,
+   "habla_domina": 0.0,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7084006995
+ }
 }
