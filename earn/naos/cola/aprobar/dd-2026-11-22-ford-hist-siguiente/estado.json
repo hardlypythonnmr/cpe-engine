@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-ford-hist-siguiente",
+ "issue": 132,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T13:00:00Z",
+ "datos_utc": "2026-11-15T18:00:00Z",
+ "hash_contenido": "66509afdf0d05553a21cf5e8eba6641aaeb9e06098a3a77705e4b485252e55bc",
+ "hashes": {
+  "historia": "e73a124af2bb2cac5c2a8b1301aa2f94bdedafc85161627cbb884e3739ecf57d"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7078994222,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-n"
+}

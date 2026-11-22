@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-atlassian-historia",
+ "issue": 132,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T14:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "03eb8159f4e8516b015e6dd01d7d12f8822993a231ec7cf2f9650ebbc78dd537",
+ "hashes": {
+  "historia": "fa7ca97bfe06079900363c01dc5d4748082ec2a95ebc528d19ae81ca7aca9042"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7078993356,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-n"
+}

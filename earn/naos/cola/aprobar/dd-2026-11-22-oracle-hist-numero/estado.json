@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-22-oracle-hist-numero",
+ "issue": 132,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-22T14:30:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "46f5adbaa6f5350294fd99ed4c3993fb3b40fa28466bf5a558ef67daeddc5411",
+ "hashes": {
+  "historia": "c528c6feb45ca7670d5b59bbf16e7e6efc0b89c8eb2a520b77d4aa3432966ffa"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7078994640,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-22-n"
+}

@@ -1,0 +1,15 @@
+{
+ "nombre": "dd-2026-11-22-n",
+ "issue": 132,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "dd-2026-11-22-atlassian-historia",
+  "dd-2026-11-22-atlassian-hist-numero",
+  "dd-2026-11-22-ford-hist-siguiente",
+  "dd-2026-11-22-oracle-hist-numero"
+ ],
+ "comentario_vista_previa_id": 7078995085,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-22T12:16:29Z"
+}
