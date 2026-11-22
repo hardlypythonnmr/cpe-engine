@@ -2,7 +2,7 @@
  "nombre": "mantra-1921",
  "issue": 13,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "maha-mantra-seen-since-tuesday",
   "om-mani-padme-hum-friday-at-4-55",
@@ -19,5 +19,6 @@
   "maha-mantra-seen-since-tuesday",
   "om-mani-padme-hum-friday-at-4-55"
  ],
- "issue_n_system": 1088
+ "issue_n_system": 1088,
+ "cerrada": true
 }
