@@ -2,7 +2,7 @@
  "nombre": "instagram-21-22-nov",
  "issue": 7,
  "version": 2,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "tree-never-read-self-help",
   "world-hello-day",
@@ -37,5 +37,6 @@
   "which-group-chat-person",
   "world-hello-day"
  ],
- "issue_n_system": 963
+ "issue_n_system": 963,
+ "cerrada": true
 }
