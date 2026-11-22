@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-f1b-cliffs-80-sin",
  "issue": 121,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-22T22:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "dd6a3c47e12bb9b01c512659c83c69fa341262c4720b98b588d9b8f472cb3d95",
@@ -41,5 +41,14 @@
    "pasa": true
   },
   "comentario": 7082487212
+ },
+ "audio_ab": "tendencia",
+ "audio_ig": {
+  "audio_id": "317593124306240",
+  "ig_username": "arsin215",
+  "title": "Thriller Mix Dj Tray feat. Arsin",
+  "duracion_ms": 81479,
+  "busqueda": "audio_id",
+  "enlace": "https://www.instagram.com/reels/audio/317593124306240/"
  }
 }
