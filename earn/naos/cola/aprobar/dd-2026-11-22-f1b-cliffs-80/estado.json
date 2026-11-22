@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-f1b-cliffs-80",
  "issue": 121,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "sale_utc": "2026-11-22T14:00:00Z",
  "datos_utc": "2026-11-19T17:00:00Z",
  "hash_contenido": "afe0806a052cc663aee046b4accc97a1b9e670b6013593314c664627bc934ade",
@@ -41,5 +41,14 @@
    "pasa": true
   },
   "comentario": 7076848225
+ },
+ "audio_ab": "tendencia",
+ "audio_ig": {
+  "audio_id": "103707846124185",
+  "ig_username": "harshit_creation_01",
+  "title": "mix by harshit_ptdr💥🤟",
+  "duracion_ms": 27957,
+  "busqueda": "audio_id",
+  "enlace": "https://www.instagram.com/reels/audio/103707846124185/"
  }
 }
