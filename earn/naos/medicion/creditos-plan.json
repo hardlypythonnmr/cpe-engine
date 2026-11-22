@@ -1,0 +1,64 @@
+{
+ "nota": "Plan de créditos de ElevenLabs por bolsa (D-322; empresa/infraestructura/2026-11-03-voz-y-sonido.md, secciones 1.4 y 1.5). Lo lee motor/voces/elevenlabs/contador.py. 'fijo' es lo que el plan gasta de una vez al abrir el tramo (una tanda); el resto se espera parejo hasta el reinicio. El tope duro de N vive en el.py (TOPE).",
+ "tope_ciclo": 540000,
+ "avisos": {
+  "bajo": 0.7,
+  "alto": 1.15
+ },
+ "bolsas": [
+  "shorts",
+  "medios",
+  "largos",
+  "efectos",
+  "audiciones"
+ ],
+ "ciclo_tipo": {
+  "shorts": 20600,
+  "medios": 81400,
+  "largos": 5100,
+  "efectos": 4300,
+  "margen": 8600
+ },
+ "ciclos": {
+  "2026-10-10": {
+   "nota": "Ciclo que corre al construir el contador: 33.357 gastados antes de las bolsas (fila de apertura del registro) y lo de la sección 1.5 entre el 3 y el 10-nov. La audición de la voz del documental (600) va en medios. D-352 (4-nov): medios 30.000 (22.498 gastados en la semana 4 ya gastados, 20.000 como tanda fija + M3 unos 5.000 + resto) y largos 11.000 (5.321 gastados + L-b unos 3.850 + L-a unos 1.000); shorts V7 sin cambio (3.000); margen 3.000. Suma 61.500 + 33.357 de antes = 94.857, bajo el tope de 120.000, que manda. 4-nov (D-355): los gastados de medios y largos están anotados con v4 a 1 por caracter; la API cobró unos 0,45 (serían unos 9.800 y 2.300). La corrección (-15.784) va en la fila de ajuste del registro, bolsa antes, así que el total del ciclo cuadra con la API pero las bolsas se comparan a la tarifa vieja.",
+   "desde": "2026-11-03T00:00:00Z",
+   "shorts": 3000,
+   "medios": 30000,
+   "largos": 11000,
+   "efectos": 14500,
+   "margen": 3000,
+   "fijo": {
+    "efectos": 14500,
+    "medios": 20000,
+    "largos": 5000
+   }
+  },
+  "2026-11-10": {
+   "nota": "Ciclo del 10-nov (22:01Z) al 10-dic, abierto el 11-nov por Fable 7 (D-479: N manda usar ElevenLabs desde ya, con audiciones y pruebas; D-461: el agente gasta dentro del plan de bolsas). Las partes son las del ciclo tipo (sección 1.4) y la bolsa nueva 'audiciones' (8.000 como máximo, una tanda: voz de canal de NAOS y voces por serie de Mercury para GTA VI) sale del margen, que ya nombraba 'una voz nueva' (8.600 menos 8.000 = 600). La suma sigue en 120.000 y el tope del ciclo en 131.000. Ojo: el 11-nov la cuenta marca 122.991 de límite (plan Creator, sin arrastre a la vista); N sube a Pro (600.000) antes del 12-nov y ahí se reparte el plan de maquinaria.md, sección 7. Lo que no se gaste de audiciones vuelve al margen.",
+   "desde": "2026-11-10T22:01:00Z",
+   "shorts": 20600,
+   "medios": 81400,
+   "largos": 5100,
+   "efectos": 4300,
+   "audiciones": 8000,
+   "margen": 600,
+   "fijo": {
+    "audiciones": 8000
+   }
+  },
+  "2026-11-19": {
+   "nota": "Ciclo de Pro, del 19-nov (17:43Z) al 19-dic. N, 19-nov: tope 540.000 ('540k (Rec.)'). La cuenta trae 669.176 (600.000 más arrastre). Partes provisionales por bolsa hasta que N reparta el presupuesto de motor/voces/diseno-2026-11/PLAN-600K.md (que también propone voz de DD, español por re-voz y música, sin bolsa propia todavía): lo de DD y español va en shorts, medios y largos según el formato; la música, en efectos. El margen grande es a propósito: el plan propone gastar unos 340.000.",
+   "desde": "2026-11-19T17:43:00Z",
+   "shorts": 60000,
+   "medios": 140000,
+   "largos": 80000,
+   "efectos": 50000,
+   "audiciones": 25000,
+   "margen": 185000,
+   "fijo": {
+    "audiciones": 4196
+   }
+  }
+ }
+}

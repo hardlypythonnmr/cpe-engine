@@ -1,0 +1,236 @@
+{
+ "_nota": "La línea diaria de Done Damages (LINEA.md). Aquí viven la cadencia, las horas de salida y los modelos por paso. Las lee linea.py; nadie escribe una hora en el código ni en el guion del flujo. Las horas son de la hora del Este (America/New_York); linea.py las pasa a UTC con el horario de ese día, así que no hay que rehacer nada cuando cambia el horario.",
+ "version": 1,
+ "zona": "America/New_York",
+ "no_repetir_dias": 14,
+ "orden_tachon": "Q",
+ "orden_tachon_nota": "Qué orden de voz y pantalla usa el tachón. Q (decisión de N, 12-nov, ronda 2 de la vara 7): la frase oficial tachada en el segundo 0 con quién la dijo, la cuenta entera grande, voz llana; dura de 16 a 20 s. N3, H, C, CD y E quedan para comparar. Para cambiar de orden basta cambiar este valor: el flujo y linea.py leen de aquí y el tachón queda en tachon-<orden>/. El flujo le pasa --orden al productor siempre que no sea N3.",
+ "rotacion_orden": {
+  "activa": true,
+  "ciclo": [
+   "Q",
+   "N3",
+   "CD+personas",
+   "Q+mudo16"
+  ],
+  "sin_rotar_hasta_dia": 7,
+  "sin_rotar_dias_semana": [
+   7
+  ],
+  "max_mudos_por_dia": 1,
+  "dias_sin_mudo_extra": [
+   "2026-12-04"
+  ],
+  "regla": "El tachón número k del canal (contando todos, desde el día 1) toca ciclo[(k-1) % 4]. Nunca la misma entrada del ciclo en dos tachones seguidos (dentro del día ni entre ayer y hoy): si coincide, pasa a la siguiente. Máximo un mudo por día; en las fechas de `dias_sin_mudo_extra` ninguno (el 4-dic el mudo es la pieza A de Textron, prueba A contra C). Los días 1 a 7 y el domingo de la semana tachada no rotan (Q). Un día de noticia con persona con nombre en la frase usa Q o CD+personas, no mudo (eso lo decide el flujo, no linea.py). Entradas: ORDEN, ORDEN+personas (--abre personas, solo CD) o ORDEN+mudoNN (--mudo NN segundos).",
+  "ejemplo": "con 2 tachones al día desde el día 8: tachón 15 Q, 16 N3, 17 CD+personas, 18 mudo, 19 Q ...",
+  "nota": "ENCENDIDA por N el 13-nov (D-513). Con activa true, linea.py plan agrega 'rotacion' a plan.json con el orden y las banderas de cada tachón; con false el plan sale idéntico al de siempre. Para encenderla: activa true Y que el flujo (dd-dia.js) lea plan.rotacion por tema, y que agente.json tenga las plantillas de N3 y CD."
+ },
+ "p6_din": {
+  "activa": true,
+  "fechas": ["2026-11-20", "2026-11-21", "2026-11-22"],
+  "nota": "Junta de crecimiento 19-nov, experimento P6-din: en estas fechas UN tachón Q simple (sin --abre ni --mudo, ni brazo bucle o control) sale con producir.py --dinamico (la cifra antes de 2 s). Slug -tachon-din. q_dinamico.activo sigue en false: solo esa pieza. Meta, piso y control en crecimiento/experimentos.json."
+ },
+ "sonido_subs": {
+  "desde": "2026-11-26",
+  "nota": "WF-A ronda 2 (19-nov): desde esta fecha dd-dia.js pasa a producir.py --sonido propio y --subs (el kit de sonido de DD y los subtítulos quemados). Antes, no. Por qué: el experimento P6-din (crecimiento/experimentos.json) corre del 20 al 22-nov y su veredicto es el 25-nov; mide UN eje, cuándo entra la cifra (Q dinámico contra Q de siempre). Si el sonido y los subtítulos quemados se encienden en todos los tachones esos días, el brazo -din y su control cambian en dos ejes más y no se sabe qué movió la retención. Se encienden el día después del veredicto. El subtitulos.srt para YouTube sale siempre que hay voz (no cambia el video). Moverla: cambia 'desde' (AAAA-MM-DD); apagarla: null. linea.py plan la copia a plan.json como sonido_subs_desde y dd-dia.js compara con la fecha de la línea."
+ },
+ "q_dinamico": {
+  "activo": false,
+  "nota": "17-nov, por la mesa ('be more dynamic in the reels'): el Q dinámico de producir.py (tiempos_q_din): la cifra C entra antes de 2,0 s con la voz, cada beat trae su cambio, nada quieto más de 2,0 s; producir se niega si no se cumple. APAGADO hasta un render real con kokoro que confirme los tiempos y hasta que el escritor abra voz.cuenta_q con la cifra (ESCRIBIR.md, 'Q dinámico'; linea.py validar avisa). Apagado, producir.py hace el Q de siempre, sin la etiqueta de razón. Para probarlo sin encenderlo: producir.py --dinamico."
+ },
+ "variacion_envoltorio": {
+  "activa": true,
+  "sonido": true,
+  "trazo": true,
+  "composicion": true,
+  "cierre": true,
+  "titulo": true,
+  "nota": "D-516 (Evolución, 14-nov): el envoltorio varía por semilla (fecha de la línea + tema, determinista) y la sustancia no. sonido: 4 juegos de golpes sintéticos en producir.py sonidos(). trazo: 3 trazos del marcador del tachón (arte.css y arte.js, .frase path). composicion: 3 colocaciones del nombre y la frase del cuadro 0 del orden Q. cierre y titulo: a_cola.py rota 'Link in bio.' entre 5 fórmulas y el remate '. The math.' del título entre 5. Cada aspecto se apaga solo poniendo su clave en false; con activa false todo sale como antes (prueba_producir.py lo vigila). No toca cifras, 'about', la fuente dicha, la voz, la banda ni las tipografías. Motivo: la política de YouTube (answer/1311392) permite intro y outro fijos si el grueso cambia; dd-repeticion.md."
+ },
+ "bucle": {
+  "activa": true,
+  "plantilla": "dd/tachon-q@2",
+  "de_cada": 2,
+  "solo_orden": "Q",
+  "nota": "Prueba del cierre en bucle (dd/tachon-q@2, apuesta de Opus 11b; vara y métrica en plantillas/tachon-q-2.md). ENCENDIDA (13-nov, la prueba empieza; la plantilla @2 sigue apagada en agente.json, así que sus piezas van a la tanda de N). Con activa false el plan sale idéntico al de siempre. Con activa true, linea.py plan agrega 'bucle': de cada par de tachones Q del mismo día, uno sale con la @2 y el otro es su control (alterna por día). Un tachón de la rotación B2 (N3, CD, mudo, personas) queda fuera del par: la @2 y B2 no corren sobre la misma pieza. La @2 nace apagada en agente.json: sus piezas van por la tanda de N hasta que N la encienda por PR. Cómo se produce: python3 bucle.py linea/F/<tema>/tachon-Q (después del productor, sin voz nueva)."
+ },
+ "carril_cola": "plantilla",
+ "tachon_canales": [
+  "short",
+  "reel"
+ ],
+ "salidas_por_tema": "todos",
+ "historias_img": {
+  "activa": true,
+  "desde": "2026-11-16",
+  "paso_min": 15,
+  "prioridad": ["video", "numero", "frase", "siguiente"],
+  "video": true,
+  "ventana_et": ["07:00", "23:55"],
+  "horas_et": {
+   "1": {"numero": "10:00", "frase": "14:30", "siguiente": "16:00", "video": "22:00"},
+   "2": {"numero": "11:00", "frase": "15:30", "siguiente": "20:00", "video": "23:00"},
+   "3": {"numero": "09:30", "frase": "13:30", "siguiente": "18:30", "video": "21:30"}
+  },
+  "nota": "N, 15-nov: \"crea imágenes para dd desde hoy en historias y que se sigan creando\" y \"también necesitamos historias con videos\". Por cada tema ok, historias_dd.py (c2/) dibuja 3 historias de imagen 1080x1920 (el número, la frase, Which company next?) y un corte de video 9:16 de 5 a 15 s del tachón; linea.py cola las lleva a la cola (slugs dd-<fecha>-<empresa>-hist-numero|frase|siguiente|video) sin plantilla: el carril de plantilla es solo del Short (registro.fallas_carril_plantilla) y dd/historia@1 sigue apagada, así que van a la tanda de N. horas_et son preferencias por tema: linea.py plan toma la primera hora libre (paso paso_min) a la separación vigente de IG (motor/separacion_ig.py) de toda otra pieza de IG del plan, desde esa hora y, si no hay, desde el inicio de ventana_et; lo que no cabe en la ventana queda en salidas_sin_hora. Con activa false o sin la llave el plan sale como antes. video false: sin el corte de video."
+ },
+ "tres_temas_nota": "ENCENDIDO por D-513 (N, 13-nov: DD llega a 15 o más piezas al día). tachon_canales: el tachón y la semana salen como Short + Reel de IG. salidas_por_tema todos: lámina, expediente e historia en cada tema. Cadencia de 3 temas desde el día 4 (16-nov). Detalle y vuelta atrás: LINEA.md, 1b. Para apagar: quitar las dos llaves y volver la cadencia a 1 / 2 / 3 tachones en los días 1, 8 y 31.",
+ "carril_cola_nota": "Cómo entran las piezas a la cola. plantilla (D-508, N, 12-nov: 'que en adelante pueda salir automatico'; 'Automático ya, con veto'): el tachón entra por el carril de plantilla del agente, con los sellos verificado, lector y dictamen, y dd/tachon-q@1 está encendida en agente.json; lo demás va a la tanda de N (linea.py tanda --fecha F imprime las dos). n: vuelta atrás, todo sin plantilla y sin sellos, para N.",
+ "lados": [
+  "empleado"
+ ],
+ "lados_nota": "El canal arranca solo con el lado empleado (despidos, sueldo del directivo). El lado cliente no entra a la línea hasta nuevo aviso del dueño: para abrirlo se añade \"cliente\" aquí.",
+ "archivo": {
+  "activo": true,
+  "dia_sin_noticia": true,
+  "desde_tachon": 2,
+  "no_repetir_empresa_dias": 14,
+  "ofrecer": 3,
+  "nota": "Carril de archivo (SENSOR.md sección 9, FORMATOS.md): casos del pasado ya verificados en temas/archivo/. Se usa el día sin noticia con número grande y cuando la cadencia pide un segundo (o tercer) tachón: el primero del día es noticia si la hay. Nunca el mismo caso dos veces (registro: temas/archivo/usados.json, lo escribe linea.py cola) ni la misma empresa dentro de no_repetir_empresa_dias. Lados: los de 'lados'."
+ },
+ "estilos": {
+  "rotacion": [
+   "papel",
+   "recibo",
+   "memo"
+  ],
+  "activos": [
+   "papel"
+  ],
+  "nota": "Un estilo por día, por turnos: el día N toca rotacion[(dia_n-1) % 3]. Si ese estilo no está en 'activos', el día sale en papel. recibo y memo dibujan los órdenes N3 y H (producir.py --estilo; producir_fijo.py deja solo su lámina) y quedan ACTIVABLES pero SIN ACTIVAR: agregar el nombre a 'activos' lo decide el VP (ESTILOS.md).",
+  "activables": [
+   "recibo",
+   "memo"
+  ]
+ },
+ "cadencia": [
+  {
+   "desde_dia": 1,
+   "tachones": 1,
+   "historias": 1,
+   "nota": "días 1 a 7: calentar la cuenta"
+  },
+  {
+   "desde_dia": 4,
+   "tachones": 3,
+   "historias": 3,
+   "nota": "D-513 (N, 13-nov): 3 temas al día desde el 16-nov, cada uno con tachón (Short + Reel), lámina, expediente e historia"
+  },
+  {
+   "desde_dia": 15,
+   "desde_fecha": "2026-11-27",
+   "tachones": 4,
+   "historias": 3,
+   "nota": "N, 19-nov por la mesa: desde el 27-nov (día 15) un cuarto tachón con el tiempo de las estáticas que bajan a 1 por día (estaticas_ig). Las historias siguen en 3."
+  }
+ ],
+ "estaticas_ig": {
+  "desde": "2026-11-27",
+  "por_dia": 1,
+  "alterna": ["lamina", "expediente"],
+  "nota": "N, 19-nov por la mesa ('Bajar a 1 por día'), sobre la propuesta de la junta de crecimiento: desde el 27-nov DD lleva en IG 1 estática fija por día (lámina o expediente, alternando por día, del tema 1, a la hora de la lámina) y ese tiempo pasa a un cuarto tachón (cadencia desde_fecha 2026-11-27, salida tachón tema 4 a las 17:00 ET, la hora que dejaba el expediente). Reemplaza para el volumen el 'Mantenerlas' del 17-nov; la junta las sigue midiendo contra la mediana de imágenes. Las historias no cambian."
+ },
+ "salidas": [
+  {
+   "pieza": "historia",
+   "tema": 1,
+   "et": "09:00"
+  },
+  {
+   "pieza": "tachon",
+   "tema": 1,
+   "et": "12:00"
+  },
+  {
+   "pieza": "lamina",
+   "tema": 1,
+   "et": "13:00",
+   "nota": "14-nov (Opus 14, pedido de la mesa): antes 13:30; la operadora despacha a la hora en punto y las :30 salían 30 min tarde"
+  },
+  {
+   "pieza": "said",
+   "et": "15:00",
+   "dias_semana": [
+    5
+   ],
+   "nota": "Actually said, solo los viernes"
+  },
+  {
+   "pieza": "expediente",
+   "tema": 1,
+   "et": "17:00"
+  },
+  {
+   "pieza": "historia",
+   "tema": 2,
+   "et": "18:00",
+   "propuesta": true,
+   "nota": "hora propuesta por la línea: el dueño fijó solo la de la primera historia"
+  },
+  {
+   "pieza": "tachon",
+   "tema": 2,
+   "et": "19:00"
+  },
+  {
+   "pieza": "tachon",
+   "tema": 3,
+   "et": "21:00",
+   "propuesta": true,
+   "nota": "hora propuesta por la línea: el dueño no ha fijado la del tercer tachón"
+  },
+  {
+   "pieza": "tachon",
+   "tema": 4,
+   "et": "17:00",
+   "propuesta": true,
+   "nota": "N, 19-nov: cuarto tachón desde el 27-nov, a la hora que dejaba el expediente (estaticas_ig)"
+  }
+ ],
+ "sin_productor": [
+  {
+   "pieza": "semana",
+   "dias_semana": [
+    7
+   ],
+   "nota": "La semana tachada (largo de los domingos): todavía no hay productor. La línea lo dice en el informe y no lo intenta."
+  }
+ ],
+ "semana_tachada": {
+  "activa": true,
+  "desde": "2026-11-22",
+  "hora_et": "16:00",
+  "min_tachones": 2,
+  "max_tachones": 5,
+  "margen_min": 60,
+  "margen_min_nota": "solo de respaldo: la separación vigente la da motor/separacion_ig.py (D-513)",
+  "nota": "ENCENDIDA por N el 13-nov (D-513; siempre pasa por N). La semana tachada del domingo (semana.py; FORMATOS.md, formato 5, versión corta de 30 a 45 s; cierre sin cifras lado a lado, denominador grande en cada golpe, sin OUR TAKE). Con activa true y día domingo, linea.py plan agrega 'semana' al plan: los tachones validados de lunes a sábado (linea/<fecha>/ de cada día) y la hora, el primer hueco de 60 min o más desde hora_et contra lo programado ese domingo y lo aprobado en la cola (motor/tiros.py); sin hueco la marca sin_ventana. Con menos de min_tachones no se arma y el plan lo dice en semana_nota. Con activa false el plan sale idéntico al de siempre. Entra a la cola SIEMPRE para N (B1 es formato nuevo: sin plantilla ni sellos de agente). Para encenderla: activa true."
+ },
+ "modelos": {
+  "sensor_y_plan": "haiku",
+  "elegir_temas": "sonnet",
+  "pedido_con_web": "sonnet",
+  "escritor": "haiku",
+  "escritor_segundo_intento": "sonnet",
+  "lector_frio": "haiku",
+  "revisor_ley_y_verdad": "sonnet",
+  "actually_said": "sonnet",
+  "cola_e_informe": "haiku",
+  "nota": "Documenta lo que usa .claude/workflows/dd-dia.js. Ningún paso necesita Opus ni un modelo mayor."
+ },
+ "lector": {
+  "tolerancia_numero": 0.02,
+  "nadie": [
+   "",
+   "nadie",
+   "a nadie",
+   "nobody",
+   "no one",
+   "none",
+   "n/a"
+  ],
+  "nota": "linea.py lector comprueba que el número que dijo el lector sea el número C de la pieza (con esta tolerancia), que nombre a la empresa y que diga a quién se la mandaría."
+ },
+ "paso_min": 30,
+ "paso_min_nota": "15-nov (mesa): #1222 ya está en main, el despacho de las :27 cubre DD; vuelve a 30. El 14-nov estuvo en 60 (solo en punto)."
+}

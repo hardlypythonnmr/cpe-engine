@@ -1,0 +1,399 @@
+{
+ "_nota": "Metas de la empresa de contenido de N, por canal (campo \"canal\" en cada meta y en cada objetivo; sin el campo es NAOS). D-468 (N, 11-nov-2026: \"Plata y alcance a Mercury\"): M1 Ingresos y M2 Alcance pasan a Mercury; NAOS se mide con M3 y con los objetivos a 30 días N1 a N6 (D-465), y su alcance se mira solo como contexto, sin meta. Mercury recibe M1 y M2 y sus objetivos a 30 días M1 a M6. Ojo con los nombres: \"M1\" en \"metas\" es la meta anual de ingresos (resultados M1.1 a M1.3) y \"M1\" en \"objetivos\" con canal mercury es el objetivo a 30 días de alcance de Shorts; los ids de las metas no se cambiaron para no romper medicion/metas-historial.csv, las fichas de tiros ni el tablero. Las metas anuales las fija el VP con ambición 'VERY irrational' anclada en los datos (N, 31-oct, D-315). Cada KR tiene anclas (fecha: valor); motor/metas.py interpola en geometría la meta de cada sábado entre anclas y compara con lo medido: `metas.py` muestra NAOS y `metas.py --canal mercury` muestra Mercury. medicion/ todavía mide solo las cuentas de NAOS: en Mercury los resultados con actual_de salen \"sin fuente\" hasta que medir.py lea ese canal. Cambiar una meta o un ancla: el VP re-planea con veto de 72 h de N (D-315); N puede anular todo.",
+ "version": 2,
+ "fecha": "2026-10-31",
+ "horizonte": "2027-10-30",
+ "metas": [
+  {
+   "id": "M1",
+   "canal": "mercury",
+   "nombre": "Ingresos",
+   "frase": "10.000 USD al mes en octubre de 2027",
+   "dueno": "Director de ingresos",
+   "por_que": "N: 'the financial goal is one of the key ones we have to follow' (D-315). Primera puerta: YouTube Partner. Desde D-468 (N, 11-nov-2026: \"Plata y alcance a Mercury\") esta meta es de Mercury; en NAOS sus medidas quedan como contexto.",
+   "krs": [
+    {
+     "id": "M1.1",
+     "kr": "Ingresos del mes (USD)",
+     "unidad": "USD/mes",
+     "fuente": "manual hasta tener fuente (YouTube Analytics estimatedRevenue cuando haya YPP)",
+     "actual": 0,
+     "anclas": {
+      "2026-10-31": 0,
+      "2027-01-31": 1,
+      "2027-02-27": 100,
+      "2027-04-24": 1000,
+      "2027-07-31": 5000,
+      "2027-10-30": 10000
+     }
+    },
+    {
+     "id": "M1.2",
+     "kr": "Suscriptores de YouTube (puerta YPP)",
+     "unidad": "suscriptores",
+     "fuente": "medicion/seguidores.csv (YT)",
+     "actual_de": "seguidores_yt",
+     "anclas": {
+      "2026-10-31": 9,
+      "2026-12-26": 500,
+      "2027-02-27": 1000,
+      "2027-04-24": 10000,
+      "2027-07-31": 75000,
+      "2027-10-30": 300000
+     }
+    },
+    {
+     "id": "M1.3",
+     "kr": "Vistas de Shorts en 90 días (puerta YPP)",
+     "unidad": "vistas",
+     "fuente": "medicion/metricas-piezas.csv (YT, suma 90 días)",
+     "actual_de": "vistas_yt_90d",
+     "anclas": {
+      "2026-10-31": 6000,
+      "2026-12-26": 3000000,
+      "2027-02-27": 10000000,
+      "2027-04-24": 30000000,
+      "2027-07-31": 120000000,
+      "2027-10-30": 300000000
+     }
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": 1,
+     "puerta": "YouTube Partner, nivel de entrada: 500 suscriptores, 3 subidas públicas en 90 días y 3 M de vistas de Shorts en 90 días (o 3.000 h en 12 meses). Da fan funding y Shopping, no anuncios. Verificado el 31-oct en support.google.com/youtube/answer/13429240",
+     "fecha": "2026-12-26"
+    },
+    {
+     "nivel": 2,
+     "puerta": "Primer dólar (membresías o Super Thanks del nivel de entrada)",
+     "fecha": "2027-01-31"
+    },
+    {
+     "nivel": 3,
+     "puerta": "YouTube Partner completo: 1.000 suscriptores y 10 M de vistas de Shorts en 90 días (o 4.000 h). Abre los anuncios. YouTube cambia cómo mide la actividad desde el 1-feb-2027 (answer/12843009): se vuelve a verificar en enero",
+     "fecha": "2027-02-27"
+    },
+    {
+     "nivel": 4,
+     "puerta": "100 USD al mes",
+     "fecha": "2027-02-27"
+    },
+    {
+     "nivel": 5,
+     "puerta": "1.000 USD al mes (membresías más el primer producto)",
+     "fecha": "2027-04-24"
+    },
+    {
+     "nivel": 6,
+     "puerta": "5.000 USD al mes",
+     "fecha": "2027-07-31"
+    },
+    {
+     "nivel": 7,
+     "puerta": "10.000 USD al mes",
+     "fecha": "2027-10-30"
+    }
+   ],
+   "modelo": "Hipótesis del VP, sin compradores contados todavía: 10.000 USD = membresías (unos 2.900 miembros a 4,99 USD, YouTube deja el 70 %) + anuncios de Shorts y largos + un producto propio (la baraja de herramientas, el mes guiado). Ningún número de este modelo está medido."
+  },
+  {
+   "id": "M2",
+   "canal": "mercury",
+   "nombre": "Alcance con enganche",
+   "frase": "Un millón de personas siguiendo a NAOS en octubre de 2027, y que lo guarden y lo envíen",
+   "dueno": "Director de alcance (estrategia)",
+   "por_que": "N: 'the financial goal it's parallel to the reach goal that has engagement inside it' (D-315); 'aim big' (D-244). Desde D-468 (N, 11-nov-2026: \"Plata y alcance a Mercury\") esta meta es de Mercury; en NAOS sus medidas quedan como contexto.",
+   "krs": [
+    {
+     "id": "M2.1",
+     "kr": "Seguidores en IG y YouTube (suma)",
+     "unidad": "personas",
+     "fuente": "medicion/seguidores.csv",
+     "actual_de": "seguidores_total",
+     "anclas": {
+      "2026-10-31": 20,
+      "2026-12-26": 1500,
+      "2027-02-27": 10000,
+      "2027-04-24": 50000,
+      "2027-07-31": 250000,
+      "2027-10-30": 1000000
+     }
+    },
+    {
+     "id": "M2.2",
+     "kr": "Vistas por semana (Reels de IG y Shorts de YouTube)",
+     "unidad": "vistas/semana",
+     "fuente": "medicion/metricas-piezas.csv",
+     "actual_de": "vistas_semana",
+     "anclas": {
+      "2026-10-31": 8000,
+      "2026-12-26": 250000,
+      "2027-02-27": 1000000,
+      "2027-04-24": 3000000,
+      "2027-07-31": 10000000,
+      "2027-10-30": 25000000
+     }
+    },
+    {
+     "id": "M2.3",
+     "kr": "Envíos y guardados por 1.000 de alcance (Reels)",
+     "unidad": "por 1.000",
+     "fuente": "medicion/metricas-piezas.csv (IG, 7 días)",
+     "actual_de": "enganche_por_mil",
+     "anclas": {
+      "2026-10-31": 5,
+      "2026-12-26": 15,
+      "2027-04-24": 25,
+      "2027-10-30": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "canal": "naos",
+   "nombre": "Acercar",
+   "frase": "Que la gente se acerque a sí misma, y que lo diga",
+   "dueno": "Director de acercar",
+   "por_que": "N: 'the third main goal needs to be actually getting people closer to themselves, and we're gonna know that by the feedback they have' (D-315, D-291).",
+   "krs": [
+    {
+     "id": "M3.1",
+     "kr": "Señales de acercar por semana (comentarios, respuestas o mensajes que nombran algo que hicieron o van a hacer)",
+     "unidad": "señales/semana",
+     "fuente": "motor/comentarios/registro.csv, categoría 'acto' (reglas.json, PR #893): cuenta solo lo que Cella respondió",
+     "actual_de": "acto_semana",
+     "anclas": {
+      "2026-10-31": 0,
+      "2026-11-28": 3,
+      "2026-12-26": 25,
+      "2027-02-27": 100,
+      "2027-04-24": 500,
+      "2027-07-31": 2000,
+      "2027-10-30": 5000
+     }
+    },
+    {
+     "id": "M3.2",
+     "kr": "Conversaciones con Cella por semana",
+     "unidad": "respuestas/semana",
+     "fuente": "motor/comentarios/registro.csv: solo respuestas publicadas en 7 días, sin silencios, sospechosos ni crisis; las de terceros (es_tercero=1) van aparte en la línea cella_terceros (D-323)",
+     "actual_de": "cella_semana",
+     "anclas": {
+      "2026-10-31": 4,
+      "2026-12-26": 100,
+      "2027-04-24": 1000,
+      "2027-10-30": 10000
+     }
+    }
+   ]
+  }
+ ],
+ "objetivos_fuente": "earn/naos/empresa/evolucion/2026-11-09-limite/fable/7/objetivos-propuesta.md (D-465)",
+ "objetivos": [
+  {
+   "id": "N1",
+   "canal": "naos",
+   "nombre": "Actos nombrados",
+   "que": "Comentarios o respuestas donde alguien dice algo que hizo o va a hacer",
+   "hoy": "0 actos (28 días); el registro tiene 8 filas, todas \"general\"",
+   "meta": "5 en 30 días (rango 3 a 8)",
+   "comando": "python3 earn/naos/motor/metas.py --seco (línea M3.1) y python3 earn/naos/empresa/evolucion/2026-11-09-limite/fable/7/objetivos.py (línea N1)",
+   "si_no_se_cumple": "Con menos de 3: cada invitación cierra con un acto de menos de un minuto y una pregunta de una línea. Con 0 a los 60 días: se cambia la forma de medir",
+   "ventana": {
+    "desde": "2026-11-10",
+    "hasta": "2026-12-10"
+   }
+  },
+  {
+   "id": "N2",
+   "canal": "naos",
+   "nombre": "Piezas que se mandan",
+   "que": "Parte de los Reels con al menos 1 envío",
+   "hoy": "13 de 68 (19 %); 30 envíos sobre 16.021 de alcance",
+   "meta": "30 % de los Reels (rango 25 a 35), con 25 Reels o más leídos",
+   "comando": "python3 earn/naos/empresa/evolucion/2026-11-09-limite/fable/7/objetivos.py (línea N2), después de python3 earn/naos/motor/medir.py",
+   "si_no_se_cumple": "La serie que lleve 10 piezas con 0 envíos sale de la parrilla; el peso pasa a las series con envíos",
+   "ventana": {
+    "desde": "2026-11-10",
+    "hasta": "2026-12-10"
+   }
+  },
+  {
+   "id": "N3",
+   "canal": "naos",
+   "nombre": "Piezas que se guardan de verdad",
+   "que": "Reels y carruseles con 2 guardados o más",
+   "hoy": "Reels 5 de 68 (7 %); carruseles 0 de 17",
+   "meta": "Reels 15 % (rango 10 a 20); carruseles 2 de 8",
+   "comando": "python3 earn/naos/empresa/evolucion/2026-11-09-limite/fable/7/objetivos.py (línea N3)",
+   "si_no_se_cumple": "Si el carrusel de serie numerada sigue en 0 tras 8 piezas, el carrusel solo sale cuando nace de un Reel que rindió",
+   "ventana": {
+    "desde": "2026-11-10",
+    "hasta": "2026-12-10"
+   }
+  },
+  {
+   "id": "N4",
+   "canal": "naos",
+   "nombre": "Profundidad de lo que se ve",
+   "que": "Parte de los Shorts que se ven hasta más del 80 %, y horas vistas del canal",
+   "hoy": "24 de 74 (32 %), mediana 63,3 %; canal 52,0 % visto en promedio y 20,5 horas",
+   "meta": "45 % de los Shorts (rango 40 a 50); horas: 40 a 80 con los medios nuevos (inferencia, sin línea base)",
+   "comando": "python3 earn/naos/empresa/evolucion/2026-11-09-limite/fable/7/objetivos.py (línea N4) y python3 earn/naos/motor/investigacion/yt.py analytics --dias 28 --metricas views,estimatedMinutesWatched,averageViewPercentage",
+   "si_no_se_cumple": "Si baja de 32 %: se revisa el primer segundo. Si las horas no pasan de 30: se cambia el formato de los medios por otro del catálogo",
+   "ventana": {
+    "desde": "2026-11-10",
+    "hasta": "2026-12-10"
+   }
+  },
+  {
+   "id": "N5",
+   "canal": "naos",
+   "nombre": "Conversación",
+   "que": "Comentarios recibidos y respuestas de Cella",
+   "hoy": "18 comentarios (Instagram 12, YouTube 6); Cella: 3 respuestas por semana",
+   "meta": "30 comentarios (rango 25 a 45); Cella: 8 por semana",
+   "comando": "python3 earn/naos/empresa/evolucion/2026-11-09-limite/fable/7/objetivos.py (línea N5) y python3 earn/naos/motor/metas.py --seco (línea M3.2)",
+   "si_no_se_cumple": "Con menos de 20: toda pieza de conducta cierra con una pregunta de una línea",
+   "ventana": {
+    "desde": "2026-11-10",
+    "hasta": "2026-12-10"
+   }
+  },
+  {
+   "id": "N6",
+   "canal": "naos",
+   "nombre": "Línea base de medios y largos",
+   "que": "Cada medio y cada largo con su curva de retención leída al día 7",
+   "hoy": "0 medios leídos; 1 largo con 3 vistas",
+   "meta": "10 de los 12 medios y 3 de los 4 largos del mes con curva leída y anotada",
+   "comando": "python3 earn/naos/motor/investigacion/yt.py retencion <id_del_video> por cada uno",
+   "si_no_se_cumple": "Sin esta línea base no se fija ninguna meta de profundidad para enero. El medio que no tenga lectura no se repite",
+   "ventana": {
+    "desde": "2026-11-10",
+    "hasta": "2026-12-10"
+   }
+  },
+  {
+   "id": "M1",
+   "canal": "mercury",
+   "nombre": "Alcance de Shorts",
+   "que": "Mediana de vistas por Short a 7 días y mejor Short del mes",
+   "hoy": "0, sin canal",
+   "meta": "Mediana: rango 40 a 1.400, meta 150. Mejor Short: rango 1.000 a 9.000, meta 5.000",
+   "comando": "medir.py y objetivos.py, cuando lean a Mercury (hoy no corren para Mercury)",
+   "si_no_se_cumple": "Mediana bajo 40 con 20 Shorts: salen las dos series más débiles. Mejor Short bajo 1.000: se cambia la familia de gancho",
+   "ventana": {
+    "desde": "el día en que salga Mercury (a más tardar 2026-11-13)",
+    "dias": 30
+   }
+  },
+  {
+   "id": "M2",
+   "canal": "mercury",
+   "nombre": "Alcance de medios",
+   "que": "Vistas por medio a 7 días y horas vistas del canal",
+   "hoy": "0 (NAOS: 20,5 horas en 28 días, solo con Shorts)",
+   "meta": "Vistas por medio: rango 100 a 2.500, meta 1 medio sobre 1.000. Horas: rango 15 a 150, meta 50",
+   "comando": "python3 earn/naos/motor/investigacion/yt.py analytics --dias 28 --dim video --metricas views,estimatedMinutesWatched,averageViewPercentage, con el token de Mercury (hoy no corre para Mercury)",
+   "si_no_se_cumple": "Ningún medio sobre 300 tras 6 medios: se cambia de formato dentro del catálogo. La cadencia de N no se toca",
+   "ventana": {
+    "desde": "el día en que salga Mercury (a más tardar 2026-11-13)",
+    "dias": 30
+   }
+  },
+  {
+   "id": "M3",
+   "canal": "mercury",
+   "nombre": "Enganche",
+   "que": "Porcentaje visto de los Shorts, vistas comprometidas y envíos",
+   "hoy": "0 (NAOS: 63,3 % visto, 0,316 de vistas comprometidas, 6 envíos en 28 días)",
+   "meta": "Porcentaje visto: rango 55 a 75, meta 65. Comprometidas: meta 0,35. Envíos: rango 5 a 30, meta 10",
+   "comando": "objetivos.py (línea N4) sobre el corte de Mercury; \"Stayed to watch\" a mano en Studio, grado S en medicion/lecturas.csv (hoy no corre para Mercury)",
+   "si_no_se_cumple": "La serie con menos de 50 % visto tras 6 piezas se reescribe",
+   "ventana": {
+    "desde": "el día en que salga Mercury (a más tardar 2026-11-13)",
+    "dias": 30
+   }
+  },
+  {
+   "id": "M4",
+   "canal": "mercury",
+   "nombre": "Seguidores",
+   "que": "Suscriptores de YouTube al día 30",
+   "hoy": "0 (NAOS: 16 en 36 días)",
+   "meta": "Rango 20 a 500, meta 100",
+   "comando": "python3 earn/naos/motor/investigacion/yt.py mio, con el token de Mercury (hoy no corre para Mercury)",
+   "si_no_se_cumple": "Menos de 30: se mira de dónde llegan las vistas y se mueve peso al carril de tendencias",
+   "ventana": {
+    "desde": "el día en que salga Mercury (a más tardar 2026-11-13)",
+    "dias": 30
+   }
+  },
+  {
+   "id": "M5",
+   "canal": "mercury",
+   "nombre": "Aprendizaje, lo que sí controlamos",
+   "que": "Series con 6 piezas o más, etiquetadas y leídas al día 3",
+   "hoy": "0",
+   "meta": "6 series con 6 piezas cada una, 100 % etiquetadas (hook, lineas_por_3s, cierre), y 4 series con veredicto escrito: sigue, se arregla o sale",
+   "comando": "python3 earn/naos/motor/investigacion/yt.py retencion <id> por pieza al día 3; las etiquetas van en el pieza.json de cada una",
+   "si_no_se_cumple": "La serie sin veredicto al día 30 no recibe producción nueva",
+   "ventana": {
+    "desde": "el día en que salga Mercury (a más tardar 2026-11-13)",
+    "dias": 30
+   }
+  },
+  {
+   "id": "M6",
+   "canal": "mercury",
+   "nombre": "Plata",
+   "que": "Costo por pieza, costo por mil vistas y avance a la puerta de pago",
+   "hoy": "Ingreso 0; costo estimado 25,51 USD equivalentes por pieza, sin medir por serie",
+   "meta": "Costo medido por serie, meta 10 por pieza o menos. Avance a los 10 millones de vistas de Shorts en 90 días: se espera menos de 1 %",
+   "comando": "python3 earn/naos/motor/claude_uso.py --seco y python3 earn/naos/motor/voces/elevenlabs/contador.py --linea",
+   "si_no_se_cumple": "La serie que cueste 3 veces más que la mediana del canal por mil vistas tras 6 piezas sale. No se gasta en monetizar Odds Moved hasta tener abogado",
+   "ventana": {
+    "desde": "el día en que salga Mercury (a más tardar 2026-11-13)",
+    "dias": 30
+   }
+  }
+ ],
+ "contexto": {
+  "naos": "Piso de alcance (alarma, sin meta de crecer; D-468). El 10-nov: 13 de 68 Reels pasan de 300 de alcance y 12 de 95 Shorts pasan de 300 vistas. Si publicando menos piezas esas partes bajan a la mitad (menos de 10 % y de 6 %), se revisa la parrilla. Comando: python3 earn/naos/empresa/evolucion/2026-11-09-limite/fable/7/objetivos.py (línea N6) y python3 earn/naos/motor/instagram/ig.py yo."
+ },
+ "organizacion": [
+  {
+   "rol": "VP",
+   "quien": "naos-vp (Opus)",
+   "manda_sobre": "las metas y los objetivos de los dos canales",
+   "hace": "Fija metas y anclas, lee el avance cada día y cada sábado, re-planea cuando una meta se atrasa (veto de N 72 h), reporta a N en la mesa y en el tablero"
+  },
+  {
+   "rol": "Director de ingresos",
+   "quien": "nuevo (skill por crear)",
+   "manda_sobre": "M1 (de Mercury desde D-468)",
+   "hace": "La puerta de YouTube Partner, membresías, el primer producto; verifica umbrales y políticas"
+  },
+  {
+   "rol": "Director de alcance",
+   "quien": "naos-estrategia y sus ayudantes (mapa, grilla, señal, rojo)",
+   "manda_sobre": "M2 (de Mercury desde D-468); en NAOS, N2 a N4 y el piso de alcance",
+   "hace": "El lote, las horas, las tendencias, la lectura de señal y la exploración"
+  },
+  {
+   "rol": "Director de acercar",
+   "quien": "nuevo (con pedagogía, personas sintéticas y la voz de Cella)",
+   "manda_sobre": "M3 (NAOS), con N1 y N5",
+   "hace": "Que cada pieza deje algo para hacer y que la respuesta de la gente se cuente"
+  },
+  {
+   "rol": "VP de arte (transversal)",
+   "quien": "naos-arte con escritura, signo, animación y dataviz",
+   "manda_sobre": "todo lo que se ve y se oye",
+   "hace": "La creatividad, las herramientas y el espíritu de arte en las tres metas"
+  }
+ ]
+}

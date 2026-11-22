@@ -1,0 +1,137 @@
+{
+ "mujer-co": {
+  "voice_id": "qbLhoNu5EE2cSdKCMlct",
+  "generated_voice_id": "qbLhoNu5EE2cSdKCMlct",
+  "receta": "recetas/mujer-co.json",
+  "guardada": "2026-10-10"
+ },
+ "mesa-moderadora": {
+  "voice_id": "2nKh4C80quROLgU8DNPA",
+  "generated_voice_id": "2nKh4C80quROLgU8DNPA",
+  "receta": "recetas/mesa-moderadora.json",
+  "guardada": "2026-10-10"
+ },
+ "mesa-maya": {
+  "voice_id": "cSCkpakuOLu754AyMYay",
+  "generated_voice_id": "cSCkpakuOLu754AyMYay",
+  "receta": "recetas/mesa-maya.json",
+  "guardada": "2026-10-10"
+ },
+ "mesa-daniel": {
+  "voice_id": "pGSX4trm2KyR8PESZoaJ",
+  "generated_voice_id": "pGSX4trm2KyR8PESZoaJ",
+  "receta": "recetas/mesa-daniel.json",
+  "guardada": "2026-10-10"
+ },
+ "hombre-co": {
+  "voice_id": "sv5TkBbFxLHfFVQpMSah",
+  "biblioteca": "Mateo - Regular 30-year-old male (public_owner 968ddc39…)",
+  "receta": "voz de la biblioteca de ElevenLabs, sin diseño",
+  "guardada": "2026-10-10"
+ },
+ "mujer-co-t1": {
+  "voice_id": "qhO7Zh4TUtcl9rXfR6vj",
+  "generated_voice_id": "qhO7Zh4TUtcl9rXfR6vj",
+  "receta": "recetas/mujer-co.json (toma 1)",
+  "guardada": "2026-10-10"
+ },
+ "paisa-a": {
+  "voice_id": "dAUfs4bTtmFU9LXp2xRj",
+  "generated_voice_id": "dAUfs4bTtmFU9LXp2xRj",
+  "receta": "recetas/paisa-a.json",
+  "guardada": "2026-10-11"
+ },
+ "mesa-tradiciones": {
+  "voice_id": "PaKV3gXAICLEsWJi9MdZ",
+  "generated_voice_id": "PaKV3gXAICLEsWJi9MdZ",
+  "receta": "recetas/mesa-tradiciones.json",
+  "guardada": "2026-10-11"
+ },
+ "brief-mujer": {
+  "voice_id": "YP7wucBoiysDAYap7I4X",
+  "generated_voice_id": "YP7wucBoiysDAYap7I4X",
+  "receta": "recetas/brief-mujer.json",
+  "guardada": "2026-10-14"
+ },
+ "brief-mujer-v2": {
+  "voice_id": "LtpRwlz5ndLNxKXlRyen",
+  "generated_voice_id": "LtpRwlz5ndLNxKXlRyen",
+  "receta": "recetas/brief-mujer-v2.json",
+  "guardada": "2026-10-14"
+ },
+ "m3-playbyplay": {
+  "voice_id": "Jt9GPPlZrjq4rlSv85b1",
+  "generated_voice_id": "Jt9GPPlZrjq4rlSv85b1",
+  "receta": "recetas/m3-playbyplay.json",
+  "guardada": "2026-11-03"
+ },
+ "m3-analista-r2": {
+  "voice_id": "7mbLuUqevEyCztzp2TC9",
+  "generated_voice_id": "7mbLuUqevEyCztzp2TC9",
+  "receta": "recetas/m3-analista-r2.json",
+  "guardada": "2026-11-03"
+ },
+ "dd-annie": {
+  "voice_id": "XW70ikSsadUbinwLMZ5w",
+  "nombre": "Annie K - Grounded Narrator",
+  "n": "A · Annie K (Recommended)",
+  "origen": "biblioteca (inglés americano); audición tomas/dd-audicion/A.mp3",
+  "uso": "Done Damages, versión C",
+  "guardada": "2026-11-15"
+ },
+ "dormir-mujer": {
+  "voice_id": "g1s7Y344jJWs1CM4wzJr",
+  "generated_voice_id": "g1s7Y344jJWs1CM4wzJr",
+  "receta": "recetas/dormir-mujer.json",
+  "guardada": "2026-11-17"
+ },
+ "dormir-mujer-es": {
+  "voice_id": "jOgruW61B7e4utvIF72v",
+  "generated_voice_id": "jOgruW61B7e4utvIF72v",
+  "receta": "recetas/dormir-mujer-es.json",
+  "guardada": "2026-11-17"
+ },
+ "diseno-a1": {
+  "voice_id": "hSuJRnX24GKXVdUeZmZG",
+  "generated_voice_id": "hSuJRnX24GKXVdUeZmZG",
+  "receta": "recetas/diseno-a1.json",
+  "guardada": "2026-11-19"
+ },
+ "diseno-a2": {
+  "voice_id": "cCUAAEllX2hujp24FuD3",
+  "generated_voice_id": "cCUAAEllX2hujp24FuD3",
+  "receta": "recetas/diseno-a2.json",
+  "guardada": "2026-11-19"
+ },
+ "diseno-a3": {
+  "voice_id": "x9g4BhNnSEG4QWX5bGFQ",
+  "generated_voice_id": "x9g4BhNnSEG4QWX5bGFQ",
+  "receta": "recetas/diseno-a3.json",
+  "guardada": "2026-11-19"
+ },
+ "diseno-b1": {
+  "voice_id": "XYoRzmJ0aV4ExNCymol6",
+  "generated_voice_id": "XYoRzmJ0aV4ExNCymol6",
+  "receta": "recetas/diseno-b1.json",
+  "guardada": "2026-11-19"
+ },
+ "diseno-b2": {
+  "voice_id": "4mI0UVVYz6YulsjI9aMg",
+  "generated_voice_id": "4mI0UVVYz6YulsjI9aMg",
+  "receta": "recetas/diseno-b2.json",
+  "guardada": "2026-11-19"
+ },
+ "diseno-b3": {
+  "voice_id": "KnFwc1mWYX5HXofkAmxW",
+  "generated_voice_id": "KnFwc1mWYX5HXofkAmxW",
+  "receta": "recetas/diseno-b3.json",
+  "guardada": "2026-11-19"
+ },
+ "naos-largos": {
+  "voice_id": "hSuJRnX24GKXVdUeZmZG",
+  "generated_voice_id": "hSuJRnX24GKXVdUeZmZG",
+  "receta": "recetas/diseno-a1.json",
+  "guardada": "2026-11-19",
+  "nota": "Voz de los largos de NAOS: A1, mujer, clínica amiga (N, 19-nov-2026, sala de revisión). Alias de diseno-a1; armar-medio la lee con \"voz\": \"naos-largos\" en medio.json."
+ }
+}
