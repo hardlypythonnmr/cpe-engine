@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-oracle-hist-frase",
  "issue": 131,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T18:30:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "e3907bda5b15e8be7afd5caf6c83d4b97161505059ab2ea46dfd9817118ba61c",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente-b"
+ "tanda": "dd-2026-11-22-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:15:49Z",
+ "veto_hasta_utc": "2026-11-22T13:15:49Z"
 }

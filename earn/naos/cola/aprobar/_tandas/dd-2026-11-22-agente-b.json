@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-22-agente-b",
  "issue": 131,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-22-ford-hist-numero",
   "dd-2026-11-22-ford-hist-frase",
@@ -16,5 +16,20 @@
  "comentario_vista_previa_id": 7078986346,
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-22T12:15:45Z",
- "agente": true
+ "agente": true,
+ "aviso_utc": "2026-11-22T12:15:47Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:15:49Z",
+ "veto_hasta_utc": "2026-11-22T13:15:49Z",
+ "aprobadas": [
+  "dd-2026-11-22-ford-hist-frase",
+  "dd-2026-11-22-ford-hist-numero",
+  "dd-2026-11-22-oracle-expediente",
+  "dd-2026-11-22-oracle-hist-frase",
+  "dd-2026-11-22-oracle-hist-siguiente",
+  "dd-2026-11-22-oracle-historia",
+  "dd-2026-11-22-oracle-lamina",
+  "dd-2026-11-22-oracle-tachon-din"
+ ]
 }

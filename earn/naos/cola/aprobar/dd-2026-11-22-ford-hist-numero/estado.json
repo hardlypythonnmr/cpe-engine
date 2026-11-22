@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-ford-hist-numero",
  "issue": 131,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T16:00:00Z",
  "datos_utc": "2026-11-15T18:00:00Z",
  "hash_contenido": "124831b7115cdf1bf99986bf0bc9bf93d8d57723a2915f2d772f4acffb0b43c2",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente-b"
+ "tanda": "dd-2026-11-22-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:15:49Z",
+ "veto_hasta_utc": "2026-11-22T13:15:49Z"
 }

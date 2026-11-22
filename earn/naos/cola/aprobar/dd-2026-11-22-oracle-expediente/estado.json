@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-oracle-expediente",
  "issue": 131,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-23T03:30:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "99b6c95b0d3e7a5446249e9feca831ac4cc2a4e69511f7ba8539462050434add",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente-b"
+ "tanda": "dd-2026-11-22-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:15:49Z",
+ "veto_hasta_utc": "2026-11-22T13:15:49Z"
 }

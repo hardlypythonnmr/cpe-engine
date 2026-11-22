@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-oracle-lamina",
  "issue": 131,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-23T03:00:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "9b4aef5908454e5d555a712319a61af9a9bba8923faf89d7d43fd08cf9a1305f",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente-b"
+ "tanda": "dd-2026-11-22-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:15:49Z",
+ "veto_hasta_utc": "2026-11-22T13:15:49Z"
 }

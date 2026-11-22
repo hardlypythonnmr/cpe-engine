@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-22-oracle-hist-siguiente",
  "issue": 131,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-22T23:30:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "c9f09db1cccb83a023b921b244fd2762d7696f3461a28bc56224b7ca79d7d090",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-22-agente-b"
+ "tanda": "dd-2026-11-22-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-22T12:15:49Z",
+ "veto_hasta_utc": "2026-11-22T13:15:49Z"
 }
