@@ -2,7 +2,7 @@
  "nombre": "crecimiento-1118-b",
  "issue": 128,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "cella-needs-1000"
  ],
@@ -14,5 +14,6 @@
  "aprobado_evento_utc": "2026-11-22T15:59:43Z",
  "aprobadas": [
   "cella-needs-1000"
- ]
+ ],
+ "cerrada": true
 }
