@@ -20,5 +20,26 @@
  "sin_cifras": false,
  "datos_max_h": 0,
  "tanda": "dd-2026-11-21-tanda8",
- "aprobado_evento_utc": "2026-11-19T20:38:42Z"
+ "aprobado_evento_utc": "2026-11-19T20:38:42Z",
+ "audio_aviso": {
+  "fecha_utc": "2026-11-22T08:58:14Z",
+  "voz_video": true,
+  "audio_vol": 25,
+  "audio_id": "103707846124185",
+  "ig_username": "harshit_creation_01",
+  "title": "mix by harshit_ptdr💥🤟",
+  "duracion_ms": 27957,
+  "busqueda": "banco:Mix",
+  "enlace": "https://www.instagram.com/reels/audio/103707846124185/",
+  "ritmo": {
+   "pulso": 0.468,
+   "bpm": 150.0,
+   "habla": 0.032,
+   "musica": 0.654,
+   "habla_domina": 0.086,
+   "voz": false,
+   "pasa": true
+  },
+  "comentario": 7076848225
+ }
 }
