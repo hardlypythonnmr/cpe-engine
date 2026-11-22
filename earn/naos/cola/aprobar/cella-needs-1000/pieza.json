@@ -1,0 +1,72 @@
+{
+ "slug": "cella-needs-1000",
+ "titulo": "19 YouTube subscribers. Cella wants 1,000 views by Wednesday",
+ "clave": "2026-11-22|cella-needs-1000",
+ "sale_utc": "2026-11-22T18:40:00Z",
+ "tipo": "CM",
+ "caption": "19 YouTube subscribers, and Cella just set a goal: 1,000 views by Wednesday.\n\nCella is the NAOS mascot, a small dark doorway-shaped figure with a red crown. This channel has 19 subscribers today (counted Nov 22, 2026), and this Short is day 0 of her public challenge. The bar starts empty at 0.\n\nThe promise: on Wednesday we post the real view count, whether she hits 1,000 or misses.\n\nFollow along to see the real number.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "descripcion": "19 YouTube subscribers, and Cella just set a goal: 1,000 views by Wednesday.\n\nCella is the NAOS mascot, a small dark doorway-shaped figure with a red crown. This channel has 19 subscribers today (counted Nov 22, 2026), and this Short is day 0 of her public challenge. The bar starts empty at 0.\n\nThe promise: on Wednesday we post the real view count, whether she hits 1,000 or misses.\n\nFollow along to see the real number.\n\nNAOS · Closer to yourself. by NMR\n#naos #shorts",
+ "sintetico": false,
+ "datos_utc": "2026-11-22T07:06:57Z",
+ "sin_cifras": false,
+ "canales": [
+  "short"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "alt": "Vertical 10-second YouTube Short with music and no voice. On a bright blue field, huge white type reads \"Cella has 19 subscribers.\", then yellow type adds \"She thinks she's famous.\" Cella, a small dark doorway-shaped figure with two white eyes and a flat red crown, rises in from below with sparkles on her crown and looks at the camera. A thermometer labeled \"Goal: 1,000 views by Wednesday\" appears with its bar empty at 0. Last line: \"If she misses, she posts the real number anyway.\"",
+ "comentario_fijado": "Day 0: 19 subscribers, 0 of 1,000 views. Will Cella hit 1,000 views by Wednesday? Drop your guess below. I update this every day, and the real number goes up Wednesday, hit or miss.",
+ "seccion": "humanity",
+ "formato": "short",
+ "filo": "V",
+ "modo": "Cella con música",
+ "receta": "lámina animada de Cella",
+ "junta": "crecimiento",
+ "apuesta": "cella-needs-1000",
+ "variante": "meta-publica",
+ "tanda": "crecimiento-1118",
+ "experimento": true,
+ "experimento_prueba": "meta pública con el número real del canal y un resultado prometido para el miércoles; vistas, suscriptores y comentarios en YouTube a 72 h",
+ "texto_en_pantalla": [
+  "Cella has 19 subscribers.",
+  "She thinks she's famous.",
+  "GOAL: 1,000 VIEWS BY WEDNESDAY",
+  "If she misses, she posts the real number anyway."
+ ],
+ "casa": {
+  "id": "cella-needs-1000",
+  "version": 1,
+  "produccion": "cola/crecimiento-1118/_motor/tanda.py",
+  "especificacion": "empresa/crecimiento/diario/2026-11-18.md"
+ },
+ "eco": "D-530 · junta de crecimiento del 18-nov (empresa/crecimiento/diario/2026-11-18.md)",
+ "datos": {
+  "suscriptores_yt": 19,
+  "corte_utc": "2026-11-22T07:06:57Z",
+  "fuente": "medicion/seguidores.csv (medir.py)"
+ },
+ "antes_de_publicar": "si el número de suscriptores cambió, correr tanda.py textos, render, videos y piezas con el corte nuevo: el número en pantalla, en el título y en el comentario fijado tiene que ser el real",
+ "seguimiento": "la junta diaria actualiza el comentario fijado el 23, 24 y 25-nov con el número de medir.py y arma el Short del resultado el mié 25-nov, se llegue o no",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "10 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz; no voice"
+  },
+  {
+   "que": "Sound",
+   "estado": "OK",
+   "nota": "own music, motor/musica/pulso.py mode tape, seed 1000, 104 bpm, normalized to -14 LUFS; 0 ElevenLabs credits"
+  },
+  {
+   "que": "Text",
+   "estado": "OK",
+   "nota": "inside the 168 to 1330 px band, type 46 px or more (tanda.py revisar, _motor/medida.json)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "respeto.md and D-527: no mantra, nothing sacred, no health or cure promise; Cella without hands, flat red crown #A8362A"
+  }
+ ]
+}
