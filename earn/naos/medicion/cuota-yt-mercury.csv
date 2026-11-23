@@ -310,3 +310,6 @@ fecha_pacifico,hora_utc,consumidor,operacion,unidades
 2026-11-23,2026-11-23T14:59:03Z,shorts,videos.insert,1
 2026-11-23,2026-11-23T14:59:08Z,shorts,thumbnails.set,50
 2026-11-23,2026-11-23T14:59:08Z,shorts,videos.list,1
+2026-11-23,2026-11-23T17:00:43Z,margen,videos.list,1
+2026-11-23,2026-11-23T17:00:44Z,margen,videos.list,1
+2026-11-23,2026-11-23T17:00:44Z,margen,channels.list,1
