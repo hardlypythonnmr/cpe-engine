@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-23-ross-stores-lamina",
  "issue": 134,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-24T03:00:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "13302bd765c0dbadac698a45c65c2bc424bfdfdee713a3dd1856ffcadd1ff147",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-23-agente-b"
+ "tanda": "dd-2026-11-23-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:52:06Z",
+ "veto_hasta_utc": "2026-11-23T12:52:06Z"
 }

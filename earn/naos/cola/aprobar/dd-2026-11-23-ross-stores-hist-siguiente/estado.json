@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-23-ross-stores-hist-siguiente",
  "issue": 134,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-23T23:30:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "ae5351e0ac4ad419d749a93cbcac48d42e91e42705ba7ac438306cba512e4dea",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-23-agente-b"
+ "tanda": "dd-2026-11-23-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:52:06Z",
+ "veto_hasta_utc": "2026-11-23T12:52:06Z"
 }

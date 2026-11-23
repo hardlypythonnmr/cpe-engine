@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-23-agente-b",
  "issue": 134,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-23-f5-hist-numero",
   "dd-2026-11-23-f5-hist-frase",
@@ -16,5 +16,20 @@
  "comentario_vista_previa_id": 7100188844,
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-23T11:52:02Z",
- "agente": true
+ "agente": true,
+ "aviso_utc": "2026-11-23T11:52:04Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:52:06Z",
+ "veto_hasta_utc": "2026-11-23T12:52:06Z",
+ "aprobadas": [
+  "dd-2026-11-23-f5-hist-frase",
+  "dd-2026-11-23-f5-hist-numero",
+  "dd-2026-11-23-ross-stores-expediente",
+  "dd-2026-11-23-ross-stores-hist-frase",
+  "dd-2026-11-23-ross-stores-hist-siguiente",
+  "dd-2026-11-23-ross-stores-historia",
+  "dd-2026-11-23-ross-stores-lamina",
+  "dd-2026-11-23-ross-stores-tachon-cd"
+ ]
 }

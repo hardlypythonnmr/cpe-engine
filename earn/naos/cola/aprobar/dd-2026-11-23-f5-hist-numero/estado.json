@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-23-f5-hist-numero",
  "issue": 134,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-23T16:00:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "ebd8309cc8a7316d05a426ece672b626a2420b38393e52fbd9d1ae4435c59a04",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-23-agente-b"
+ "tanda": "dd-2026-11-23-agente-b",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:52:06Z",
+ "veto_hasta_utc": "2026-11-23T12:52:06Z"
 }
