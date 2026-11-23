@@ -1,0 +1,56 @@
+# Freno por lista de ids (23-nov-2026): pasa a privado y sin fecha Shorts del canal de DD (marca mercury) por id de video.
+# Solo llaves DD_OAUTH_* (o MERCURY_OAUTH_* de respaldo); comprueba que el token y cada video son del canal de DD antes de tocar.
+# Por defecto en SECO (solo lee). No escribe en el repo. Solo a mano, sin cron.
+#   gh workflow run dd-bajar-lista.yml --ref ses/freno-dd-bajar-lista -f ids="ID1 ID2" -f seco=false
+name: dd-bajar-lista
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "ids de video de YouTube separados por espacio (máx. 30)"
+        type: string
+        required: true
+      seco:
+        description: "en seco: solo lee y lista, no cambia nada en YouTube"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency: { group: dd-bajar-lista, cancel-in-progress: false }
+
+jobs:
+  bajar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      IDS: ${{ inputs.ids }}
+      SECO: ${{ inputs.seco }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          lfs: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/*.py
+            /earn/naos/motor/youtube/*.py
+            /earn/naos/motor/youtube/canales.json
+            /earn/naos/motor/investigacion/yt.py
+      - name: Bajar por lista (canal DD)
+        env:
+          MERCURY_OAUTH_CLIENT_ID: ${{ secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID }}
+          MERCURY_OAUTH_CLIENT_SECRET: ${{ secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET }}
+          MERCURY_OAUTH_REFRESH_TOKEN: ${{ secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN }}
+        run: |
+          set -f
+          args=($IDS)
+          [ "$SECO" = "true" ] || args+=(--si-bajar)
+          python3 earn/naos/motor/youtube/bajar_lista_dd.py "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/salida.txt"
+          rc=${PIPESTATUS[0]}
+          { echo '```'; cut -c1-300 "$RUNNER_TEMP/salida.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit "$rc"
