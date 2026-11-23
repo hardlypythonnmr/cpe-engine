@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-23-f5-tachon-cd",
  "issue": 133,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-24T00:00:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "4ba0a4f1114d4974fa2b59a349d98fc2ab8e89da45301c19d5762bb832764a56",
@@ -19,5 +19,10 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-23-agente"
+ "tanda": "dd-2026-11-23-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:51:12Z",
+ "veto_hasta_utc": "2026-11-23T12:51:12Z",
+ "carril": "d520",
+ "veto_despues_utc": "2026-11-24T12:00:00Z"
 }

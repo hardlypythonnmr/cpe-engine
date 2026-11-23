@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-23-f5-expediente",
  "issue": 133,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-24T01:30:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "be98c2de347beb3033fdbb7fbaec838b39fc696f1d84aa835516274346e6757d",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-23-agente"
+ "tanda": "dd-2026-11-23-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:51:12Z",
+ "veto_hasta_utc": "2026-11-23T12:51:12Z"
 }

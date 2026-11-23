@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-23-f5-historia",
  "issue": 133,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-23T23:00:00Z",
  "datos_utc": "2026-11-15T20:00:00Z",
  "hash_contenido": "bedf3dce9332a817c1e218985906c6d538a293953b941ae67fb8a6e2d6069c0e",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-23-agente"
+ "tanda": "dd-2026-11-23-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:51:12Z",
+ "veto_hasta_utc": "2026-11-23T12:51:12Z"
 }

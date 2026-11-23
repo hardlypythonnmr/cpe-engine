@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-23-agente",
  "issue": 133,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "piezas": [
   "dd-2026-11-23-disney-tachon-q",
   "dd-2026-11-23-disney-lamina",
@@ -19,5 +19,23 @@
  "comentario_vista_previa_id": 7100169646,
  "aprobador": "hardlypythonnmr",
  "creada_utc": "2026-11-23T11:51:07Z",
- "agente": true
+ "agente": true,
+ "aviso_utc": "2026-11-23T11:51:09Z",
+ "aviso_canal": "github",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:51:12Z",
+ "veto_hasta_utc": "2026-11-23T12:51:12Z",
+ "aprobadas": [
+  "dd-2026-11-23-disney-expediente",
+  "dd-2026-11-23-disney-hist-frase",
+  "dd-2026-11-23-disney-hist-numero",
+  "dd-2026-11-23-disney-hist-siguiente",
+  "dd-2026-11-23-disney-hist-video",
+  "dd-2026-11-23-disney-lamina",
+  "dd-2026-11-23-disney-tachon-q",
+  "dd-2026-11-23-f5-expediente",
+  "dd-2026-11-23-f5-historia",
+  "dd-2026-11-23-f5-lamina",
+  "dd-2026-11-23-f5-tachon-cd"
+ ]
 }

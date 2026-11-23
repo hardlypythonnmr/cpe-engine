@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-23-disney-lamina",
  "issue": 133,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-23T18:00:00Z",
  "datos_utc": "2026-11-20T12:00:00Z",
  "hash_contenido": "e58ed82f6a6412a1713d956af59b6eaf6d4700b0d0bedabde2daac5061813d03",
@@ -17,5 +17,8 @@
  "aprobador": "hardlypythonnmr",
  "sin_cifras": false,
  "datos_max_h": 0,
- "tanda": "dd-2026-11-23-agente"
+ "tanda": "dd-2026-11-23-agente",
+ "aprobacion": "agente",
+ "aprobado_evento_utc": "2026-11-23T11:51:12Z",
+ "veto_hasta_utc": "2026-11-23T12:51:12Z"
 }
