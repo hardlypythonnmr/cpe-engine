@@ -2,7 +2,7 @@
  "nombre": "instagram-15-16-y-23-nov",
  "issue": 53,
  "version": 2,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "sit-in-silence",
   "the-moon-never-posts",
@@ -30,5 +30,6 @@
   "sit-in-silence",
   "the-moon-never-posts"
  ],
- "issue_n_system": 960
+ "issue_n_system": 960,
+ "cerrada": true
 }
