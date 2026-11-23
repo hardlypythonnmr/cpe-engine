@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-ross-stores-historia",
+ "issue": 134,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T04:00:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "ade07b63021de2d5a7457e9cfa5ebe70317c1048268369081a8585f4e2e48745",
+ "hashes": {
+  "historia": "108f781ce45f3b772267b19d68807f7de10e9af7bbc2408045c91b6ca1f49579"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100186595,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente-b"
+}

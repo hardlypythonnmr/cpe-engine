@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-ross-stores-hist-frase",
+ "issue": 134,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T18:30:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "ebfca0886acf5b97c6c384024edc687d94a84d01b0bad86844e018d7ac470618",
+ "hashes": {
+  "historia": "b72c57625cb8f1176dbc43b3a794fdb4fb63ab3f6a304f354970dcc3c29c1717"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100187374,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente-b"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-f5-hist-frase",
+ "issue": 134,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T20:30:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "999ee72e9ade3e03de1c158099caeae09e6184d37f3d03b0bf9c93082af9b332",
+ "hashes": {
+  "historia": "3e66b7d6736e14e4ec9d150ae89c1e965f18d8946a0d25469cc0050ec87ddab8"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100183623,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente-b"
+}

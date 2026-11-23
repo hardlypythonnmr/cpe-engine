@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-f5-hist-numero",
+ "issue": 134,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T16:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "ebd8309cc8a7316d05a426ece672b626a2420b38393e52fbd9d1ae4435c59a04",
+ "hashes": {
+  "historia": "967d12ce18fbec62f9163e34835d3c38d6de3319b9112aa3708b028f563f03d2"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100182861,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente-b"
+}

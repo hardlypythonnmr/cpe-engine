@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-ross-stores-expediente",
+ "issue": 134,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T03:30:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "89c1ca32f256d2418fec8219199a08241804f8bde2e7863cb6361dc0f5450220",
+ "hashes": {
+  "carrusel": "49fc8df5d02639eefc377ff6bfe3b2faa271a6f1d8fb899dd9f502dd87c77d9e"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7100185800,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente-b"
+}
