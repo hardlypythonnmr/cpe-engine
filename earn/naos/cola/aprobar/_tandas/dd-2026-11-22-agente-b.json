@@ -2,7 +2,7 @@
  "nombre": "dd-2026-11-22-agente-b",
  "issue": 131,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "dd-2026-11-22-ford-hist-numero",
   "dd-2026-11-22-ford-hist-frase",
@@ -31,5 +31,6 @@
   "dd-2026-11-22-oracle-historia",
   "dd-2026-11-22-oracle-lamina",
   "dd-2026-11-22-oracle-tachon-din"
- ]
+ ],
+ "cerrada": true
 }
