@@ -1,0 +1,31 @@
+{
+ "slug": "fifty-fifty-snack-hist",
+ "titulo": "Me splitting the snack fifty fifty",
+ "clave": "2026-11-23|fifty-fifty-snack-hist",
+ "sale_utc": "2026-11-23T02:30:00Z",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": false,
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "archivo": "historia.mp4",
+ "alt": "A vertical cut of the first 8 seconds of the video. A short film with no voice, with music. A dark room. Two small block figures with white eyes, an amber one on the left and a light blue one on the right. Between them sit one big bread roll and one tiny one, under the text fifty fifty. The amber one nudges the tiny roll across the floor to the blue one and keeps the big one. The blue one looks down at the tiny roll, narrows its eyes, then looks at the amber one, which looks very pleased. Then the big roll disappears and the blue one closes its eyes with a sigh. At the end both narrow their eyes at the camera. The text stays: me splitting the snack fifty fifty.",
+ "seccion": "humanity",
+ "fuente": "motor/historia_corte.py (corte de fifty-fifty-snack, 0 a 8.0 s)",
+ "sticker": "ninguno",
+ "deriva_de": "fifty-fifty-snack",
+ "revisiones": [
+  {
+   "que": "Corte",
+   "estado": "OK",
+   "nota": "8.0 s desde 0 s de fifty-fifty-snack, 1080x1920, audio original, sin pregunta nueva (la madre ya esta aprobada)"
+  },
+  {
+   "que": "Hard lines",
+   "estado": "OK",
+   "nota": "sin pedir like, share ni follow; sin texto nuevo"
+  }
+ ]
+}
