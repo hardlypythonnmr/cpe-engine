@@ -203,6 +203,20 @@ class TestSubirShorts(unittest.TestCase):
         self.assertIn("no se intentan los otros 1 Short(s) en esta ronda (dos)", fallos[1])
         self.assertEqual(len(programador.shorts_tocan(registro.leer(self.csv), AHORA)[0]), 2)  # siguen pendientes
 
+    def test_dd_sin_llaves_en_esta_sesion_no_es_error_ni_aviso(self):
+        # 23-nov (N): DD sube por su Action, que trae las llaves; la sesión de la operadora no las tiene y no debe reportarlo cada ronda
+        pj = os.path.join(self.cola, "uno", "pieza.json")
+        d = json.load(open(pj, encoding="utf-8"))
+        d["marca"] = "mercury"
+        json.dump(d, open(pj, "w", encoding="utf-8"))
+        viejo = {k: os.environ.pop(k, None) for k in ("MERCURY_OAUTH_CLIENT_ID", "MERCURY_OAUTH_CLIENT_SECRET", "MERCURY_OAUTH_REFRESH_TOKEN")}
+        try:
+            lineas, fallos = programador.subir_shorts(registro.leer(self.csv), AHORA, self.cola, correr=self.correr_ok)
+        finally:
+            os.environ.update({k: v for k, v in viejo.items() if v is not None})
+        self.assertNotIn("uno", [c[c.index("--slug") + 1] for c in self.cmds])
+        self.assertFalse([x for x in fallos if "uno" in x and ("faltan" in x or x.startswith("ERROR"))])
+
     def test_error_de_la_pieza_no_para_la_ronda(self):
         def correr(cmd):
             self.cmds.append(cmd)
