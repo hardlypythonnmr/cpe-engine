@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-f5-hist-video",
+ "issue": 135,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T12:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "7a9bfbc77384130e32f9164df1edab51312453cb8f64adf8a9d1c1e5c84d626e",
+ "hashes": {
+  "historia": "7d632a33f255a55bd6fd409b628bbe4f3777dc8aa77f0ddaed70890cd77cc3ff"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100203233,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23"
+}

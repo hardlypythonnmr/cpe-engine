@@ -1,0 +1,16 @@
+{
+ "nombre": "dd-2026-11-23",
+ "issue": 135,
+ "version": 1,
+ "estado": "por-aprobar",
+ "piezas": [
+  "dd-2026-11-23-disney-historia",
+  "dd-2026-11-23-f5-hist-siguiente",
+  "dd-2026-11-23-f5-hist-video",
+  "dd-2026-11-23-ross-stores-hist-numero",
+  "dd-2026-11-23-ross-stores-hist-video"
+ ],
+ "comentario_vista_previa_id": 7100205429,
+ "aprobador": "hardlypythonnmr",
+ "creada_utc": "2026-11-23T11:52:49Z"
+}

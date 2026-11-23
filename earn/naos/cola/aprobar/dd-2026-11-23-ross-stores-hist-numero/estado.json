@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-ross-stores-hist-numero",
+ "issue": 135,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T14:30:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "394f3effc1e89b35d76851dffc347b235f2f4076a89642b9d11f6e4aa9f85389",
+ "hashes": {
+  "historia": "9b8cae514db090c6e8f3917d591f5350fdef24d8f4a607f44b0d3ed8b61255d9"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100203950,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-disney-historia",
+ "issue": 135,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T14:00:00Z",
+ "datos_utc": "2026-11-20T12:00:00Z",
+ "hash_contenido": "47af9a37f93daf34368145fc8f3f47fd30eaecd6a06a5d43563762e57419dc67",
+ "hashes": {
+  "historia": "b2794a795ce8bba7f357f808a08eeae18f7dffbbd2e1df468fe81c7f06650fda"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100201711,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23"
+}

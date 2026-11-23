@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-ross-stores-hist-video",
+ "issue": 135,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T12:30:00Z",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "hash_contenido": "0e9246673a59695e62d81da8d47758eccfd689210d43cf2e7945c57fda2e5217",
+ "hashes": {
+  "historia": "c68be6f501409d9a0cb677fb696f109778a41bc8c7ad13cc034faf1b3740ce00"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100204697,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23"
+}
