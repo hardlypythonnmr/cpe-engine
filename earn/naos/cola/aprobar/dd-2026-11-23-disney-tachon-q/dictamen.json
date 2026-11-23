@@ -1,0 +1,67 @@
+{
+ "slug": "dd-2026-11-23-disney-tachon-q",
+ "marca": "mercury",
+ "carril": "plantilla",
+ "decision": "aprueba",
+ "motivos": [],
+ "plantilla_aprobada": {
+  "nombre": "dd/tachon-q@1",
+  "decision": "D-499",
+  "controles": [
+   "plantilla listada y activa, con la evidencia de su ejemplar",
+   "verificado.json de esta versión",
+   "medidas de forma en regla",
+   "forma de la plantilla (tramos, papeles, duración)",
+   "lente sin graves",
+   "lector-linea.json de esta versión: entiende"
+  ]
+ },
+ "razon": "plantilla aprobada dd/tachon-q@1 (D-499)",
+ "puntaje": null,
+ "corte": 9.0,
+ "lectores": null,
+ "vara_origen": "",
+ "estetico": {
+  "pasa": null,
+  "referencias": null,
+  "lector": null,
+  "nota": null
+ },
+ "lente": {
+  "bloquea": false,
+  "bloqueos": [],
+  "notas": [
+   {
+    "id": "cit1",
+    "categoria": "citas",
+    "riesgo": "medio",
+    "hallazgo": "Fuente de la lista con problema: dominio no reconocido como primario (variety.com): confirma que es la fuente original (id F3)",
+    "manera": "Sustituye por la página primaria o el DOI del artículo.",
+    "evidencia": "{\"id\": \"F3\", \"url\": \"https://variety.com/2026/biz/news/disney-layoffs-1000-employees-josh-damaro-memo-1236721266/\", \"medio\": \"Variety\", \"titulo\": \"Disney Layoff",
+    "campo": ""
+   },
+   {
+    "id": "cit2",
+    "categoria": "citas",
+    "riesgo": "medio",
+    "hallazgo": "Fuente de la lista con problema: dominio no reconocido como primario (deadline.com): confirma que es la fuente original (id F4)",
+    "manera": "Sustituye por la página primaria o el DOI del artículo.",
+    "evidencia": "{\"id\": \"F4\", \"url\": \"https://deadline.com/2026/04/disney-ceo-josh-damaro-confirms-layoffs-marketing-group-1236860236/\", \"medio\": \"Deadline\", \"titulo\": \"Disney C",
+    "campo": ""
+   }
+  ],
+  "riesgo_maximo": "medio",
+  "error": false
+ },
+ "sensible": {
+  "es": false,
+  "por": []
+ },
+ "huellas": {
+  "short": "3982e24c422cf1a1a67bfc14c369a526339e65fe8730d5281ef4b5313990c252",
+  "reel": "ccd780601f69535f4182ff03df23d4c4de49a992255b3537291a89a834cb0b7d"
+ },
+ "huella_contenido": "a4a0393c32b8399537ffbcc43c9369a8b653437e73e6e5c1871d3ad8481168f3",
+ "sale_utc": "2026-11-23T17:00:00Z",
+ "dictamen_utc": "2026-11-23T11:48:30Z"
+}

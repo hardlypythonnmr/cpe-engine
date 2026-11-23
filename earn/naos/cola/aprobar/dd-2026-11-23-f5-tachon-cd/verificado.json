@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "4ba0a4f1114d4974fa2b59a349d98fc2ab8e89da45301c19d5762bb832764a56",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-23/f5-2023-layoffs/tachon-CD",
+ "verificado_origen": {
+  "utc": "2026-11-23T11:41:29Z",
+  "pedido": "temas/archivo/f5-2023-layoffs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "6d843a7076de39677fb1648dda239de8a081efbdc716a2cdf069d3da157438aa",
+ "medidas_sha": "7797ab729757e2e88581be112fe864186998bb74a3c6de3ad1ef0b3cd256b94b",
+ "escrito_utc": "2026-11-23T11:48:31Z"
+}

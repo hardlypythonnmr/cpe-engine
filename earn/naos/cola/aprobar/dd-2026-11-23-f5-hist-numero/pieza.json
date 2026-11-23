@@ -1,0 +1,59 @@
+{
+ "slug": "dd-2026-11-23-f5-hist-numero",
+ "titulo": "F5 (Apr 2023): $350 million stock buybacks, 623 roles being cut. Now the math.",
+ "clave": "2026-11-23|mercury|historia|2026-11-23-f5-hist-numero",
+ "sale_utc": "2026-11-23T16:00:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Apr 2023. Not today's news.\nF5, Apr 19, 2023 (CEO letter, 8-K Exhibit 99.2): \"I am deeply sorry for the impact this decision will have on you and your family\"\nIn April 2023, F5 said it was reducing its team by 623 roles, 9% of its workforce, per its 8-K letter to employees. Its 10-K reports $350.0 million in stock buybacks in fiscal 2023.\n\nSame fiscal year: $350 million stock buybacks, fiscal 2023, company-wide. $350.0 million of cash used to repurchase common stock in fiscal 2023, company-wide (MD&A of the 10-K); F5 pays no dividend.\nThe math: $350 million stock buybacks, fiscal 2023, company-wide ÷ 623 roles = $561,797 in stock buybacks for every job cut. The result is approximate.\nThe facts: $350 million stock buybacks, fiscal 2023, company-wide (F5 10-K, fiscal 2023, Nov 14, 2023). 623 roles being cut (F5 CEO letter, SEC 8-K, Apr 19, 2023). Both figures come from F5's own filings for fiscal 2023, which ended Sep 30, 2023. The cuts fell inside that fiscal year. The buybacks are the company's full-year total, not a figure tied to the cuts.\n\nDeeply sorry. Here is the buyback column. (Our take.)\n\nSources:\n- F5 CEO letter, SEC 8-K, Apr 19, 2023: «To those of you who will be leaving us: I am deeply sorry for the impact this decision will have on you and your family.» and «we are reducing the size of our team by 623 roles comprising 9% of our workforce.» https://www.sec.gov/Archives/edgar/data/1048695/000104869523000016/ex992-lettertoemployeesfro.htm\n- F5 10-K, fiscal 2023, Nov 14, 2023: «In addition, $350.0 million of cash was used for the repurchase of outstanding common stock during fiscal year 2023.» https://www.sec.gov/Archives/edgar/data/1048695/000104869523000039/ffiv-20230930.htm",
+ "alt": "Blue vertical card. F5, Apr 19, 2023: Reducing team by 623 roles. The result in huge white letters, cut by the bottom edge: $561,797 in stock buybacks, for every job cut. Written above the number: A ratio, not a cause. The math: $350 MILLION stock buybacks, fiscal 2023, company-wide ÷ 623 roles = $561,797. Sources: F5 CEO letter, SEC 8-K, Apr 19, 2023 · F5 10-K, fiscal 2023, Nov 14, 2023.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-23/f5-2023-layoffs/hist-numero",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869523000016/ex992-lettertoemployeesfro.htm",
+   "medio": "SEC EDGAR · F5",
+   "titulo": "CEO letter to F5 employees (8-K, Exhibit 99.2)",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869523000039/ffiv-20230930.htm",
+   "medio": "SEC EDGAR · F5",
+   "titulo": "F5 Form 10-K for fiscal 2023",
+   "hora_utc": "2026-11-15T20:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "2 of 2 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg"
+}

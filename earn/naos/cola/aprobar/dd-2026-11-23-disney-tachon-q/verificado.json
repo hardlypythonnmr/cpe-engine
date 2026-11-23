@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "a4a0393c32b8399537ffbcc43c9369a8b653437e73e6e5c1871d3ad8481168f3",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-23/disney-layoffs/tachon-Q",
+ "verificado_origen": {
+  "utc": "2026-11-23T11:34:38Z",
+  "pedido": "temas/2026-11-23/disney-layoffs/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "ef3accad7f8e26e8605ba2fb93e1f6cc30ce7fc2865d81000a54e4c7de5100d8",
+ "medidas_sha": "c2c9668fb81283cda43f7bf23b26d7320a90ab633e67c479af5e01df5254e548",
+ "escrito_utc": "2026-11-23T11:48:29Z"
+}

@@ -1,0 +1,12 @@
+{
+ "huella_contenido": "971c2f7a82b515a1c2b73f9b0d9ce2c4f798be56987ee30a5cd58aa545c21424",
+ "origen": "/home/user/n-system/earn/naos/empresa/duplicar/canal-lucro/c2/linea/2026-11-23/ross-stores-2024-pay-ratio/tachon-CD",
+ "verificado_origen": {
+  "utc": "2026-11-23T11:46:43Z",
+  "pedido": "temas/archivo/ross-stores-2024-pay-ratio/pedido.json",
+  "con": "c2/producir.py"
+ },
+ "video_sha": "2be3225314c76c29f9f4561eb17967da50b85743e660f15a974a84e6113aa1ef",
+ "medidas_sha": "e7b01212f5a2aff8bf025d046806c0cc9fe9489b854cfed62ec3b17470efb4f7",
+ "escrito_utc": "2026-11-23T11:48:32Z"
+}

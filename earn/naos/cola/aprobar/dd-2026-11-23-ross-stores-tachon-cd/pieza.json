@@ -1,0 +1,84 @@
+{
+ "slug": "dd-2026-11-23-ross-stores-tachon-cd",
+ "titulo": "Ross Stores CEO pay ratio: $16.99M vs $9,602 median",
+ "clave": "2026-11-24|mercury|tachon|2026-11-23-ross-stores-tachon-cd",
+ "sale_utc": "2026-11-24T02:00:00Z",
+ "caption": "Ross Stores CEO pay ratio: $16.99M vs $9,602 median\n\nRoss Stores CEO pay ratio, fiscal 2024: $16.99 million for the CEO, $9,602 for the median employee. From the archive: Apr 2025. Not today's news.\n\nThe proxy statement (Apr 8, 2025) says \"retaining smart people who know our business are critical to our success.\" It also reports CEO total pay of $16,994,251 and median employee pay of $9,602. That is about 1,770 median-worker salaries in one year of CEO pay. Per the proxy, the median employee is a part-time hourly store associate.\n\nSmart people are critical. Here is the median worker's pay. (Our take.)\n\nSend this to someone who works retail and knows what $9,602 a year looks like.\n\nSynthetic voice. Sources: SEC EDGAR · Ross Stores, Apr 8, 2025.\n\nGo to the link in bio.",
+ "descripcion": "Ross Stores CEO pay ratio: $16.99 million for the CEO, $9,602 for the median employee, both for fiscal 2024. From the archive: Apr 2025. Not today's news.\n\nWhat is a CEO pay ratio? Public companies report in their proxy statement (the yearly document sent to shareholders) what the CEO was paid next to what the median employee, the one in the exact middle of the pay line, was paid. Ross Stores's proxy, dated Apr 8, 2025, says: \"Maintaining management stability and retaining smart people who know our business are critical to our success.\" In the same document, it reports its CEO's annual total compensation for fiscal 2024 was $16,994,251 and for the median employee was $9,602. Per the proxy, the median employee is a part-time hourly store associate.\n\nThe math: $16,994,251 ÷ $9,602 = about 1,770. That is roughly 1,770 median-worker salaries in one year of CEO pay. The proxy states the ratio as 1,770 to 1. These are fiscal 2024 pay figures, as the proxy reports them.\n\nSmart people are critical. Here is the median worker's pay. (Our take.)\n\nSources:\n- SEC EDGAR · Ross Stores, Apr 8, 2025: «Maintaining management stability and retaining smart people who know our business are critical to our success.» and «The annual total compensation for fiscal 2024 for our CEO was $16,994,251» and «The annual total compensation for fiscal 2024 for our CEO was $16,994,251 and for the median employee was $9,602.» https://www.sec.gov/Archives/edgar/data/745732/000074573225000015/rost-20250407.htm\n\nSynthetic voice.\n\nDone Damages",
+ "alt": "Paper-colored card from Ross Stores, Apr 8, 2025, about the Ross Stores CEO pay ratio. A gray typewriter quote, \"retaining smart people who know our business are critical to our success\", struck through with a dark red marker line. In huge black letters on a yellow highlight: 1,770 median-worker salaries, in CEO pay for 2024. The math is written out: $16.99 million CEO total pay, fiscal 2024, SEC proxy ÷ $9,602 median employee pay = 1,770.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-23/ross-stores-2024-pay-ratio/tachon-CD",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573225000015/rost-20250407.htm",
+   "medio": "SEC EDGAR · Ross Stores",
+   "titulo": "Ross Stores proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "21.167 s; strike at 8.14 s, number at 0.2 s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "What is the median pay where you work, and does the CEO pay ratio surprise you? Ross Stores reported $9,602 for its median employee in fiscal 2024.",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "In 2025, Ross Stores disclosed that the median worker earned nine thousand six hundred two dollars. The proxy says, quote, retaining smart people who know our business. Its CEO got sixteen point nine nine million. That is one thousand seven hundred seventy times the median pay. Smart people are critical. Here is the median worker's pay. Done Damages.",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "voz": "In 2025, Ross Stores disclosed that the median worker earned nine thousand six hundred two dollars."
+  },
+  {
+   "papel": "golpe",
+   "voz": "The proxy says, quote, retaining smart people who know our business."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "Its CEO got sixteen point nine nine million. That is one thousand seven hundred seventy times the median pay."
+  },
+  {
+   "papel": "giro",
+   "voz": "Smart people are critical. Here is the median worker's pay."
+  },
+  {
+   "papel": "firma",
+   "voz": "Done Damages."
+  }
+ ],
+ "plantilla": "dd/tachon-cd@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "dd-2026-11-23-disney-historia",
+ "titulo": "Disney: $9 billion buying back its own shares, about 1,000 roles being cut. Here is the math.",
+ "clave": "2026-11-23|mercury|historia|2026-11-23-disney-historia",
+ "sale_utc": "2026-11-23T14:00:00Z",
+ "caption": "",
+ "descripcion": "Disney, Nov 17, 2026 (Shareholder letter, Form 8-K): \"we do expect a portion to drop to the bottom line over time\"\nDisney's Nov. 17, 2026 earnings release gives $9.0 billion in fiscal 2026 buybacks and about $3 billion in annual savings by fiscal 2029. Variety reports about 1,000 roles cut in April.\n\nSame year: $9 billion buying back its own shares, fiscal 2026. $9.0 billion of its own shares bought back across the full fiscal 2026, per the earnings release. Dividends are separate.\nThe math: $9 billion in buybacks (2026) ÷ about 1,000 job cuts (Variety) = about $9 million in buybacks per job cut. The roles count is approximate, per Variety.\nThe facts: $9 billion buying back its own shares, fiscal 2026 (Disney earnings release (SEC), Nov 17, 2026). about 1,000 roles being cut (Variety, Apr 14, 2026). The $9.0 billion is fiscal 2026 buybacks of Disney's own shares, from the earnings release; dividends are separate. The 1,000 roles are from April 2026, per Variety citing a source, not from the November results.\n\nEfficiency is the word. Buybacks are the number. (Our take.)\n\nSources:\n- Disney earnings release (SEC), Nov 17, 2026: «While these efficiencies will be used primarily to fund future growth, we do expect a portion to drop to the bottom line over time.» and «We repurchased $1.8 billion of Disney shares in the quarter and $9.0 billion across the full fiscal year.» https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/fy2026_q4xerxex991.htm\n- Variety, Apr 14, 2026: «The media company is eliminating about 1,000 roles, primarily as a result of Disney’s formation of a consolidated enterprise marketing division» https://variety.com/2026/biz/news/disney-layoffs-1000-employees-josh-damaro-memo-1236721266/",
+ "alt": "Blue card with white type. Disney, Nov 17, 2026. The statement, in quotes: \"we do expect a portion to drop to the bottom line over time\". It is by D'Amaro and Johnston, Disney shareholder letter. The math: $9B ÷ 1,000 = about $9M, in buybacks, per job cut. The result is in huge white numerals cut by the bottom edge, with what it measures written right above it.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-20T12:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-23/disney-layoffs/fijo",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/dis-20261117.htm",
+   "medio": "SEC EDGAR",
+   "titulo": "Disney Form 8-K, item 2.02 (Nov. 17, 2026; earnings release is Exhibit 99.1)",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/fy2026_q4xerxex991.htm",
+   "medio": "SEC EDGAR",
+   "titulo": "Disney Q4 FY2026 earnings release and shareholder letter (8-K Exhibit 99.1)",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://variety.com/2026/biz/news/disney-layoffs-1000-employees-josh-damaro-memo-1236721266/",
+   "medio": "Variety",
+   "titulo": "Disney Layoffs of 1,000 Employees Are Underway; CEO Josh D'Amaro Says Cuts Will 'Streamline' Operations",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": false,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://deadline.com/2026/04/disney-ceo-josh-damaro-confirms-layoffs-marketing-group-1236860236/",
+   "medio": "Deadline",
+   "titulo": "Disney CEO Josh D'Amaro Confirms Layoffs; Most Cuts Hitting Marketing And Brand Group",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": false,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "4 of 4 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.jpg"
+}

@@ -1,0 +1,276 @@
+{
+ "id": "disney-empleado-2026-11-23",
+ "formato": "tachon",
+ "orden": "Q",
+ "estilo": "papel",
+ "dur": 16.967,
+ "dur_contenido": 16.953,
+ "fps": 30,
+ "mudo": false,
+ "abre": null,
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.32,
+ "palabras": 56,
+ "cuenta": {
+  "a": "9000000000",
+  "b": "1000",
+  "c_real": "9000000.0000",
+  "c_pantalla": "$9 MILLION",
+  "op": "÷",
+  "exacta": true,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": null,
+ "tramos": [
+  {
+   "papel": "golpe",
+   "t0": 0.0,
+   "t1": 4.13,
+   "voz": "On November seventeenth, Disney's D'Amaro and Johnston wrote: we do expect a portion to drop."
+  },
+  {
+   "papel": "gancho",
+   "t0": 4.21,
+   "t1": 10.573,
+   "voz": "That fiscal year, Disney bought back nine billion dollars of its own shares. In April it eliminated about a thousand roles, Variety reports."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 10.653,
+   "t1": 13.642,
+   "voz": "About nine million dollars in buybacks, for every job cut."
+  },
+  {
+   "papel": "giro",
+   "t0": 13.692,
+   "t1": 16.073,
+   "voz": "Efficiency is the word. Buybacks are the number."
+  },
+  {
+   "papel": "firma",
+   "t0": 16.153,
+   "t1": 16.953,
+   "voz": ""
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "q"
+  },
+  {
+   "t": 4.11,
+   "e": "n"
+  },
+  {
+   "t": 10.603,
+   "e": "c"
+  },
+  {
+   "t": 13.642,
+   "e": "t"
+  }
+ ],
+ "entradas": {
+  "raya": 0.3,
+  "segundo_hecho": 8.38,
+  "numero_a": 5.4,
+  "numero_c": 11.153,
+  "numero_dicho": null,
+  "linea_completa": 15.238,
+  "cierre": 16.153,
+  "total": 16.953
+ },
+ "tamanos_px": {
+  "frase": 150,
+  "a": 136,
+  "b": 136,
+  "cuenta.arriba": 84,
+  "about": 120,
+  "cifra": 564,
+  "linea": 150
+ },
+ "lineas_frase": 5,
+ "c_ancho_px": 936,
+ "envoltorio": {
+  "semilla": "2026-11-23|disney-layoffs",
+  "sonido": 2,
+  "trazo": 1,
+  "composicion": 1,
+  "cierre": 3,
+  "titulo": 1
+ },
+ "ritmo": 1.1,
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 56,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 72,
+   "y": 1250,
+   "lado_px": 100,
+   "esquina": "abajo-izquierda",
+   "choca": false
+  },
+  "cierre_s": 0.0,
+  "dur_antes_s": 16.967,
+  "dur_video_s": 16.967
+ },
+ "volumen": {
+  "lufs": -14.12,
+  "pico_dbtp": -1.22
+ },
+ "oido": [
+  {
+   "papel": "golpe",
+   "dice": "On November seventeenth, Disney's D'Amaro and Johnston wrote: we do expect a portion to drop.",
+   "oye": "On November 17th, Disney's Damaro and Johnson wrote, we do expect the portion to drop."
+  },
+  {
+   "papel": "gancho",
+   "dice": "That fiscal year, Disney bought back nine billion dollars of its own shares. In April it eliminated about a thousand roles, Variety reports.",
+   "oye": "That fiscal year, Disney bought back $9 billion of its own shares. In April, it eliminated about 1,000 rolls, Variety reports.",
+   "cifra_a": {
+    "espera": "$9 BILLION",
+    "pasa": true
+   },
+   "cifra_b": {
+    "espera": "1,000",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "cuenta",
+   "dice": "About nine million dollars in buybacks, for every job cut.",
+   "oye": "It's about $9 million in buybacks for every job cut.",
+   "cifra_c": {
+    "espera": "$9 MILLION",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Efficiency is the word. Buybacks are the number.",
+   "oye": "Efficiency is the word. Buybacks are the number."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.7,
+  "rachas": [],
+  "pasa": true
+ },
+ "avisos": [],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-q@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "golpe",
+   "gancho",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 16.967
+ },
+ "gancho_seg": 5.4,
+ "cifra_entra_s": 11.153,
+ "racha_quieta_max_s": 1.7,
+ "cifra_antes_s": 2.0,
+ "racha_tope_s": 2.0,
+ "dinamico": false,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con empresa, hecho y la frase oficial grande con nombre y cargo, tachándose, y la cifra entrando antes de 2 s"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden Q cumplidas ({\"raya_desde\": 0.3, \"raya_antes\": 2.5, \"cifra_antes\": 2.0, \"voz_desde\": 0.4, \"b_antes\": 10.5, \"b_antes_dinamico\": 14.0, \"quieto_s\": 2.0, \"duracion_s\": [12, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 1.7,
+  "rachas": [],
+  "pasa": true
+ },
+ "verificacion": {
+  "pedido": "temas/2026-11-23/disney-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR: «While these efficiencies will be used primarily to fund future growth, we do expect a port»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR: «We repurchased $1.8 billion of Disney shares in the quarter and $9.0 billion across the fu»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 9,000,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en Variety: «The media company is eliminating about 1,000 roles, primarily as a result of Disney’s form»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 1,000"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V3c",
+    "pasa": true,
+    "evidencia": "el número B viene de un solo medio y la entrada lo atribuye (`b.aprox`, `b.segun`)"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2026 · B 2026)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Disney) es la del pedido (Disney)"
+   },
+   {
+    "id": "V7",
+    "pasa": true,
+    "evidencia": "el nombre, el cargo y el medio de la frase están en `frase.quien` del pedido"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

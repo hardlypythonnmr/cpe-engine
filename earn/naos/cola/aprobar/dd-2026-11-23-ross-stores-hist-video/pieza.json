@@ -1,0 +1,50 @@
+{
+ "slug": "dd-2026-11-23-ross-stores-hist-video",
+ "titulo": "Ross Stores (Apr 2025): $16.99 million CEO total pay, $9,602 dollars was the median pay. The math.",
+ "clave": "2026-11-23|mercury|historia|2026-11-23-ross-stores-hist-video",
+ "sale_utc": "2026-11-23T12:30:00Z",
+ "caption": "",
+ "descripcion": "From the archive: Apr 2025. Not today's news.\nRoss Stores, Apr 8, 2025 (Ross Stores, proxy statement): \"retaining smart people who know our business are critical to our success\"\nRoss Stores's proxy statement, dated April 2025, reports what its CEO and its median employee were paid for fiscal 2024. The median employee is, per the proxy, a part-time hourly store associate.\n\nFiscal 2024: $16.99 million CEO total pay, fiscal 2024, SEC proxy. total compensation of the CEO for fiscal 2024, as reported in the proxy's Summary Compensation Table.\nThe math: $16.99 million CEO total pay, fiscal 2024, SEC proxy ÷ $9,602 dollars = 1,770 median-worker salaries in CEO pay for 2024. The result is approximate.\nThe facts: $16.99 million CEO total pay (SEC EDGAR · Ross Stores, Apr 8, 2025). $9,602 was the median pay (SEC EDGAR · Ross Stores, Apr 8, 2025). The proxy states the ratio as 1,770 to 1, and the division gives 1,770 to the nearest whole number. These are fiscal 2024 pay figures, as the proxy reports them.\n\nSmart people are critical. Here is the median worker's pay. (Our take.)\n\nSources:\n- SEC EDGAR · Ross Stores, Apr 8, 2025: «Maintaining management stability and retaining smart people who know our business are critical to our success.» and «The annual total compensation for fiscal 2024 for our CEO was $16,994,251» and «The annual total compensation for fiscal 2024 for our CEO was $16,994,251 and for the median employee was $9,602.» https://www.sec.gov/Archives/edgar/data/745732/000074573225000015/rost-20250407.htm",
+ "alt": "Vertical video, 10 seconds, cut from the Ross Stores video: the synthetic voice reads the figures over a blue card, and the result 1,770 appears in huge white letters, cut by the bottom edge. A ratio, not a cause.",
+ "canales": [
+  "historia"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-13T15:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "historia",
+ "formato": "historia",
+ "origen": "c2/linea/2026-11-23/ross-stores-2024-pay-ratio/hist-video",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573225000015/rost-20250407.htm",
+   "medio": "SEC EDGAR · Ross Stores",
+   "titulo": "Ross Stores proxy statement (DEF 14A), CEO pay ratio",
+   "hora_utc": "2026-11-13T15:00:00Z",
+   "primaria": true,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "1 of 1 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  }
+ ],
+ "estilo": "papel",
+ "archivo": "historia.mp4"
+}

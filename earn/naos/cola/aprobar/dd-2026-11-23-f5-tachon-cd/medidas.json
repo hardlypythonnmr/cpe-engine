@@ -1,0 +1,308 @@
+{
+ "id": "f5-2023-layoffs-2026-11-23",
+ "formato": "tachon",
+ "orden": "CD",
+ "estilo": "papel",
+ "dur": 20.772,
+ "dur_contenido": 19.164,
+ "fps": 30,
+ "mudo": false,
+ "abre": "personas",
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 51,
+ "cuenta": {
+  "a": "350000000",
+  "b": "623",
+  "c_real": "561797.7528",
+  "c_pantalla": "$561,797",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · APR 2023",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 3.478,
+   "voz": "In 2023, F5 cut six hundred twenty-three roles."
+  },
+  {
+   "papel": "golpe",
+   "t0": 3.558,
+   "t1": 7.184,
+   "voz": "F5's CEO wrote: I am deeply sorry for the impact."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 7.284,
+   "t1": 15.283,
+   "voz": "That year it spent three hundred fifty million dollars buying back shares. That is five hundred sixty-one thousand, seven hundred ninety-seven dollars for every job cut."
+  },
+  {
+   "papel": "giro",
+   "t0": 15.383,
+   "t1": 17.884,
+   "voz": "Deeply sorry. Here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "t0": 18.044,
+   "t1": 19.164,
+   "voz": "Done Damages."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "k"
+  },
+  {
+   "t": 3.458,
+   "e": "f"
+  },
+  {
+   "t": 7.184,
+   "e": "c"
+  },
+  {
+   "t": 15.283,
+   "e": "t"
+  },
+  {
+   "t": 17.964,
+   "e": "cierre"
+  }
+ ],
+ "entradas": {
+  "raya": 5.984,
+  "segundo_hecho": 0.0,
+  "numero_a": 0.2,
+  "numero_c": 10.741,
+  "numero_dicho": null,
+  "linea_completa": 16.29,
+  "cierre": 17.964,
+  "total": 19.164
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "banda": 32,
+  "empresa": 116,
+  "b": 190,
+  "b.titulo": 48,
+  "b.detalle": 32,
+  "a": 171,
+  "a.titulo": 48,
+  "a.detalle": 32,
+  "b.chico": 112,
+  "b.chico.rotulo": 30,
+  "a.chico": 112,
+  "a.chico.rotulo": 30,
+  "frase.rotulo": 66,
+  "sub": 30,
+  "frase": 86,
+  "frase.chica": 36,
+  "c.cifra": 228,
+  "c.rotulo": 48,
+  "aclara": 60,
+  "c.cuenta": 30,
+  "linea": 72,
+  "canal": 162,
+  "cierre": 64,
+  "sigue": 93,
+  "aviso": 30
+ },
+ "lineas_frase": 5,
+ "c_ancho_px": 934,
+ "envoltorio": {
+  "semilla": "2026-11-23|f5-2023-layoffs",
+  "sonido": 2,
+  "trazo": 1,
+  "composicion": 2,
+  "cierre": 1,
+  "titulo": 2
+ },
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 53,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 202,
+   "y": 270,
+   "lado_px": 100,
+   "esquina": "arriba-izquierda",
+   "choca": false
+  },
+  "cierre_s": 1.6,
+  "dur_antes_s": 19.167,
+  "dur_video_s": 20.772
+ },
+ "volumen": {
+  "lufs": -14.24,
+  "pico_dbtp": -0.98
+ },
+ "oido": [
+  {
+   "papel": "gancho",
+   "dice": "In 2023, F5 cut six hundred twenty-three roles.",
+   "oye": "In 2023, F5 cut 623 rolls.",
+   "cifra_b": {
+    "espera": "623",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "golpe",
+   "dice": "F5's CEO wrote: I am deeply sorry for the impact.",
+   "oye": "F5 CEO wrote, I am deeply sorry for the impact that you-"
+  },
+  {
+   "papel": "cuenta",
+   "dice": "That year it spent three hundred fifty million dollars buying back shares. That is five hundred sixty-one thousand, seven hundred ninety-seven dollars for every job cut.",
+   "oye": "That year it spent $350 million buying back shares. That is $561,797 for every job cut.",
+   "cifra_a": {
+    "espera": "$350 MILLION",
+    "pasa": true
+   },
+   "cifra_c": {
+    "espera": "$561,797",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Deeply sorry. Here is the buyback column.",
+   "oye": "Deeply sorry, here is the buyback column."
+  },
+  {
+   "papel": "firma",
+   "dice": "Done Damages.",
+   "oye": "Done damages."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.6,
+  "rachas": [
+   [
+    3.5,
+    5.9
+   ],
+   [
+    12.6,
+    15.2
+   ]
+  ],
+  "pasa": false
+ },
+ "avisos": [
+  "hay tramos de más de 2.0 s sin que cambie nada: [[3.5, 5.9], [12.6, 15.2]]"
+ ],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-cd@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "gancho",
+   "golpe",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 20.772
+ },
+ "gancho_seg": 0.0,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · APR 2023, empresa, hecho y los dos hechos, enfrentados,"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden CD cumplidas ({\"segundo_antes\": 4.5, \"duracion_s\": [15, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 2.6,
+  "rachas": [
+   [
+    3.5,
+    5.9
+   ],
+   [
+    12.6,
+    15.2
+   ]
+  ],
+  "pasa": false
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/f5-2023-layoffs/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · F5: «To those of you who will be leaving us: I am deeply sorry for the impact this decision wil»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · F5: «In addition, $350.0 million of cash was used for the repurchase of outstanding common stoc»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 350,000,000"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · F5: «we are reducing the size of our team by 623 roles comprising 9% of our workforce.»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 623"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2023 · B 2023)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (F5) es la del pedido (F5)"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}

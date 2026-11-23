@@ -1,0 +1,111 @@
+{
+ "slug": "dd-2026-11-23-disney-tachon-q",
+ "titulo": "Disney layoffs vs. $9B buybacks: the math",
+ "clave": "2026-11-23|mercury|tachon|2026-11-23-disney-tachon-q",
+ "sale_utc": "2026-11-23T17:00:00Z",
+ "caption": "Disney layoffs vs. $9B buybacks: the math\n\nDisney layoffs vs. buybacks: in its Nov 17, 2026 shareholder letter (Form 8-K), Disney wrote \"we do expect a portion to drop to the bottom line over time.\" Here is the number from the same year.\n\nWhat a buyback is: a company spending its own cash to purchase its own shares back from the market. Disney's earnings release says it repurchased $9.0 billion of Disney shares across the full fiscal year 2026. Dividends are separate. Variety reports Disney is eliminating about 1,000 roles (Apr 14, 2026, citing a source familiar with the situation; the count is approximate).\n\nThe math: $9 billion in buybacks ÷ about 1,000 roles = about $9 million in buybacks per job cut.\n\nDid Disney lay people off in 2026? Per Variety, about 1,000 roles in April. That is not the November results: the roles are from April 2026. The quoted sentence is about the efficiency program, which Disney says should reach about $3 billion in annual savings by fiscal 2029, not about layoffs.\n\nEfficiency is the word. Buybacks are the number. (Our take.)\n\nSend this to someone who has been through a round of cuts.\n\nSynthetic voice. Sources: Disney earnings release (SEC), Nov 17, 2026; Variety, Apr 14, 2026.\n\nFind the link in bio.",
+ "descripcion": "Disney layoffs vs. buybacks: in its Nov 17, 2026 shareholder letter (Form 8-K), Disney wrote \"we do expect a portion to drop to the bottom line over time.\" Here is the number from the same year.\n\nWhat a buyback is: a company spending its own cash to purchase its own shares back from the market. Disney's earnings release says it repurchased $9.0 billion of Disney shares across the full fiscal year 2026. Dividends are separate. Variety reports Disney is eliminating about 1,000 roles (Apr 14, 2026, citing a source familiar with the situation; the count is approximate).\n\nThe math: $9 billion in buybacks ÷ about 1,000 roles = about $9 million in buybacks per job cut.\n\nDid Disney lay people off in 2026? Per Variety, about 1,000 roles in April. That is not the November results: the roles are from April 2026. The quoted sentence is about the efficiency program, which Disney says should reach about $3 billion in annual savings by fiscal 2029, not about layoffs.\n\nEfficiency is the word. Buybacks are the number. (Our take.)\n\nSources:\n- Disney earnings release (SEC), Nov 17, 2026: «While these efficiencies will be used primarily to fund future growth, we do expect a portion to drop to the bottom line over time.» and «We repurchased $1.8 billion of Disney shares in the quarter and $9.0 billion across the full fiscal year.» https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/fy2026_q4xerxex991.htm\n- Variety, Apr 14, 2026: «The media company is eliminating about 1,000 roles, primarily as a result of Disney’s formation of a consolidated enterprise marketing division» https://variety.com/2026/biz/news/disney-layoffs-1000-employees-josh-damaro-memo-1236721266/\n\nSynthetic voice.\n\nDone Damages.",
+ "alt": "Disney layoffs vs. buybacks, Nov 17, 2026. Blue card with white type. The statement, in quotes: \"we do expect a portion to drop to the bottom line over time\", from the Disney shareholder letter by D'Amaro and Johnston. The math: $9B in buybacks of its own shares ÷ about 1,000 roles cut = about $9M in buybacks per job cut, in huge white numerals cut by the bottom edge.",
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "marca": "mercury",
+ "canal": "difficult-decision",
+ "datos_utc": "2026-11-20T12:00:00Z",
+ "sintetico": true,
+ "cifras_fijas": true,
+ "serie": "tachon",
+ "formato": "short",
+ "origen": "c2/linea/2026-11-23/disney-layoffs/tachon-Q",
+ "fuentes": [
+  {
+   "id": "F1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/dis-20261117.htm",
+   "medio": "SEC EDGAR",
+   "titulo": "Disney Form 8-K, item 2.02 (Nov. 17, 2026; earnings release is Exhibit 99.1)",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/fy2026_q4xerxex991.htm",
+   "medio": "SEC EDGAR",
+   "titulo": "Disney Q4 FY2026 earnings release and shareholder letter (8-K Exhibit 99.1)",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": true,
+   "abierta": true
+  },
+  {
+   "id": "F3",
+   "url": "https://variety.com/2026/biz/news/disney-layoffs-1000-employees-josh-damaro-memo-1236721266/",
+   "medio": "Variety",
+   "titulo": "Disney Layoffs of 1,000 Employees Are Underway; CEO Josh D'Amaro Says Cuts Will 'Streamline' Operations",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": false,
+   "abierta": true
+  },
+  {
+   "id": "F4",
+   "url": "https://deadline.com/2026/04/disney-ceo-josh-damaro-confirms-layoffs-marketing-group-1236860236/",
+   "medio": "Deadline",
+   "titulo": "Disney CEO Josh D'Amaro Confirms Layoffs; Most Cuts Hitting Marketing And Brand Group",
+   "hora_utc": "2026-11-20T12:00:00Z",
+   "primaria": false,
+   "abierta": true
+  }
+ ],
+ "revisiones": [
+  {
+   "que": "Citations",
+   "estado": "OK",
+   "nota": "quote and figures checked word for word against the sources (file `verificado`)"
+  },
+  {
+   "que": "Sources",
+   "estado": "OK",
+   "nota": "4 of 4 cited sources opened and read"
+  },
+  {
+   "que": "Math",
+   "estado": "OK",
+   "nota": "recomputed by the producer; the result is shown as about"
+  },
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "16.967 s; strike at 0.3 s, number at 5.4 s"
+  }
+ ],
+ "estilo": "papel",
+ "comentario_fijado": "Disney layoffs or Disney buybacks: which number would you want a company to explain first?",
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "narracion": "On November seventeenth, Disney's D'Amaro and Johnston wrote: we do expect a portion to drop. That fiscal year, Disney bought back nine billion dollars of its own shares. In April it eliminated about a thousand roles, Variety reports. About nine million dollars in buybacks, for every job cut. Efficiency is the word. Buybacks are the number.",
+ "tramos": [
+  {
+   "papel": "golpe",
+   "voz": "On November seventeenth, Disney's D'Amaro and Johnston wrote: we do expect a portion to drop."
+  },
+  {
+   "papel": "gancho",
+   "voz": "That fiscal year, Disney bought back nine billion dollars of its own shares. In April it eliminated about a thousand roles, Variety reports."
+  },
+  {
+   "papel": "cuenta",
+   "voz": "About nine million dollars in buybacks, for every job cut."
+  },
+  {
+   "papel": "giro",
+   "voz": "Efficiency is the word. Buybacks are the number."
+  },
+  {
+   "papel": "firma",
+   "voz": ""
+  }
+ ],
+ "plantilla": "dd/tachon-q@1",
+ "carril": "plantilla",
+ "subtitulos": "subtitulos.srt"
+}

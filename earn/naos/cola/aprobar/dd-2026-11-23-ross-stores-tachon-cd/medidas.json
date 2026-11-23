@@ -1,0 +1,308 @@
+{
+ "id": "ross-stores-2024-pay-ratio-2026-11-23",
+ "formato": "tachon",
+ "orden": "CD",
+ "estilo": "papel",
+ "dur": 21.167,
+ "dur_contenido": 19.559,
+ "fps": 30,
+ "mudo": false,
+ "abre": "personas",
+ "ancho": 1080,
+ "alto": 1920,
+ "voz": "am_onyx:1.0",
+ "rapidez": 1.2,
+ "palabras": 56,
+ "cuenta": {
+  "a": "16994251",
+  "b": "9602",
+  "c_real": "1769.8658",
+  "c_pantalla": "1,770",
+  "op": "÷",
+  "exacta": false,
+  "redondeo": "hacia abajo",
+  "se_dice_la_cuenta": true
+ },
+ "archivo": "ARCHIVE · APR 2025",
+ "tramos": [
+  {
+   "papel": "gancho",
+   "t0": 0.0,
+   "t1": 5.443,
+   "voz": "In 2025, Ross Stores disclosed that the median worker earned nine thousand six hundred two dollars."
+  },
+  {
+   "papel": "golpe",
+   "t0": 5.523,
+   "t1": 9.34,
+   "voz": "The proxy says, quote, retaining smart people who know our business."
+  },
+  {
+   "papel": "cuenta",
+   "t0": 9.44,
+   "t1": 15.051,
+   "voz": "Its CEO got sixteen point nine nine million. That is one thousand seven hundred seventy times the median pay."
+  },
+  {
+   "papel": "giro",
+   "t0": 15.151,
+   "t1": 18.279,
+   "voz": "Smart people are critical. Here is the median worker's pay."
+  },
+  {
+   "papel": "firma",
+   "t0": 18.439,
+   "t1": 19.559,
+   "voz": "Done Damages."
+  }
+ ],
+ "escenas": [
+  {
+   "t": 0,
+   "e": "k"
+  },
+  {
+   "t": 5.423,
+   "e": "f"
+  },
+  {
+   "t": 9.34,
+   "e": "c"
+  },
+  {
+   "t": 15.051,
+   "e": "t"
+  },
+  {
+   "t": 18.359,
+   "e": "cierre"
+  }
+ ],
+ "entradas": {
+  "raya": 8.14,
+  "segundo_hecho": 0.0,
+  "numero_a": 0.2,
+  "numero_c": 12.145,
+  "numero_dicho": null,
+  "linea_completa": 16.517,
+  "cierre": 18.359,
+  "total": 19.559
+ },
+ "tamanos_px": {
+  "archivo": 84,
+  "banda": 32,
+  "empresa": 116,
+  "b": 145,
+  "b.titulo": 48,
+  "b.detalle": 32,
+  "a": 154,
+  "a.titulo": 48,
+  "a.detalle": 32,
+  "b.chico": 112,
+  "b.chico.rotulo": 29,
+  "a.chico": 112,
+  "a.chico.rotulo": 30,
+  "frase.rotulo": 66,
+  "sub": 30,
+  "frase": 96,
+  "frase.chica": 42,
+  "c.cifra": 355,
+  "c.rotulo": 34,
+  "aclara": 60,
+  "c.cuenta": 30,
+  "linea": 72,
+  "canal": 162,
+  "cierre": 64,
+  "sigue": 93,
+  "aviso": 30
+ },
+ "lineas_frase": 5,
+ "c_ancho_px": 934,
+ "envoltorio": {
+  "semilla": "2026-11-23|ross-stores-2024-pay-ratio",
+  "sonido": 2,
+  "trazo": 0,
+  "composicion": 0,
+  "cierre": 2,
+  "titulo": 2
+ },
+ "subtitulos": {
+  "srt": "subtitulos.srt",
+  "palabras": 58,
+  "quemados": false
+ },
+ "marca": {
+  "variante": "d5-c",
+  "origen": "canal.json logo.elegida",
+  "marca_agua": {
+   "x": 932,
+   "y": 270,
+   "lado_px": 100,
+   "esquina": "arriba-derecha",
+   "choca": false
+  },
+  "cierre_s": 1.6,
+  "dur_antes_s": 19.567,
+  "dur_video_s": 21.167
+ },
+ "volumen": {
+  "lufs": -14.19,
+  "pico_dbtp": -1.35
+ },
+ "oido": [
+  {
+   "papel": "gancho",
+   "dice": "In 2025, Ross Stores disclosed that the median worker earned nine thousand six hundred two dollars.",
+   "oye": "In 2025, Ross Stores disclosed that the median worker earned $9,602.",
+   "cifra_b": {
+    "espera": "$9,602",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "golpe",
+   "dice": "The proxy says, quote, retaining smart people who know our business.",
+   "oye": "The proxy says, quote, retaining smart people who know our business."
+  },
+  {
+   "papel": "cuenta",
+   "dice": "Its CEO got sixteen point nine nine million. That is one thousand seven hundred seventy times the median pay.",
+   "oye": "Its CEO got 16.99 million, that is 1770 times the median pay.",
+   "cifra_a": {
+    "espera": "$16.99 MILLION",
+    "pasa": true
+   },
+   "cifra_c": {
+    "espera": "1,770",
+    "pasa": true
+   }
+  },
+  {
+   "papel": "giro",
+   "dice": "Smart people are critical. Here is the median worker's pay.",
+   "oye": "Smart people are critical. Here is the median workers pay."
+  },
+  {
+   "papel": "firma",
+   "dice": "Done Damages.",
+   "oye": "Done damages."
+  }
+ ],
+ "quietud": {
+  "tope_s": 2.0,
+  "mas_largo_s": 3.6,
+  "rachas": [
+   [
+    1.7,
+    5.3
+   ],
+   [
+    5.4,
+    8.1
+   ]
+  ],
+  "pasa": false
+ },
+ "avisos": [
+  "hay tramos de más de 2.0 s sin que cambie nada: [[1.7, 5.3], [5.4, 8.1]]"
+ ],
+ "canal": {
+  "nombre": "Done Damages"
+ },
+ "plantilla": "dd/tachon-cd@1",
+ "huella": {
+  "tramos": 5,
+  "papeles": [
+   "gancho",
+   "golpe",
+   "cuenta",
+   "giro",
+   "firma"
+  ],
+  "dur": 21.167
+ },
+ "gancho_seg": 0.0,
+ "juez_texto": {
+  "pasa": true,
+  "nota": "empresa, qué hizo, frase literal y qué mide el número en pantalla; validado por c2/producir.py (validar)"
+ },
+ "apertura": {
+  "pasa": true,
+  "nota": "cuadro 0 con el rótulo de archivo ARCHIVE · APR 2025, empresa, hecho y los dos hechos, enfrentados,"
+ },
+ "forma": {
+  "pasa": true,
+  "nota": "metas de ritmo del orden CD cumplidas ({\"segundo_antes\": 4.5, \"duracion_s\": [15, 20]}) y cada cifra reconocida por el control de oído"
+ },
+ "rachas": {
+  "tope_s": 2.0,
+  "mas_largo_s": 3.6,
+  "rachas": [
+   [
+    1.7,
+    5.3
+   ],
+   [
+    5.4,
+    8.1
+   ]
+  ],
+  "pasa": false
+ },
+ "verificacion": {
+  "pedido": "temas/archivo/ross-stores-2024-pay-ratio/pedido.json",
+  "pasa": true,
+  "checks": [
+   {
+    "id": "V1",
+    "pasa": true,
+    "evidencia": "frase: la cita está literal en SEC EDGAR · Ross Stores: «Maintaining management stability and retaining smart people who know our business are crit»"
+   },
+   {
+    "id": "V1b",
+    "pasa": true,
+    "evidencia": "la frase de pantalla está palabra por palabra en la fuente"
+   },
+   {
+    "id": "V2",
+    "pasa": true,
+    "evidencia": "número A: la cita está literal en SEC EDGAR · Ross Stores: «The annual total compensation for fiscal 2024 for our CEO was $16,994,251»"
+   },
+   {
+    "id": "V2b",
+    "pasa": true,
+    "evidencia": "la cita de A trae 16,994,251"
+   },
+   {
+    "id": "V3",
+    "pasa": true,
+    "evidencia": "número B: la cita está literal en SEC EDGAR · Ross Stores: «The annual total compensation for fiscal 2024 for our CEO was $16,994,251 and for the medi»"
+   },
+   {
+    "id": "V3b",
+    "pasa": true,
+    "evidencia": "la cita de B trae 9,602"
+   },
+   {
+    "id": "V2c",
+    "pasa": true,
+    "evidencia": "las cifras del desglose de A están en su fuente"
+   },
+   {
+    "id": "V5",
+    "pasa": true,
+    "evidencia": "el pedido no está marcado como sensible y A y B son del mismo año, o de periodos distintos que el rótulo de C dice (A 2024 · B 2024)"
+   },
+   {
+    "id": "V6",
+    "pasa": true,
+    "evidencia": "la empresa de la entrada (Ross Stores) es la del pedido (Ross Stores)"
+   },
+   {
+    "id": "V4",
+    "pasa": true,
+    "evidencia": "los enlaces de la entrada son los del pedido"
+   }
+  ]
+ }
+}
