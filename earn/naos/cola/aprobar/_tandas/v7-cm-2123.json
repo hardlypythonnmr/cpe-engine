@@ -2,7 +2,7 @@
  "nombre": "v7-cm-2123",
  "issue": 61,
  "version": 2,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "cella-contesta-nobody-answers",
   "the-pie-has-a-seat"
@@ -17,5 +17,6 @@
   "cella-contesta-nobody-answers",
   "the-pie-has-a-seat"
  ],
- "issue_n_system": 1089
+ "issue_n_system": 1089,
+ "cerrada": true
 }
