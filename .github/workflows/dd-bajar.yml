@@ -1,115 +1,66 @@
-# Difficult Decision: pasa a privado y sin fecha Shorts de DD (slug dd-*, marca mercury) con las llaves de YouTube que ya están en
-# los secretos del repo (DD_OAUTH_* o MERCURY_OAUTH_* de respaldo). Nadie entra a YouTube Studio ni pone llaves en una sesión.
-# Encargo de N (17-nov-2026): "Arma la action".
-# Corre `python3 earn/naos/motor/aprobar/aprobar.py bajar-shorts <slugs> [--seco] [--publicos --cita "<palabras de N>"]`
-#   (bajar_shorts_nombrados -> agente.bajar_shorts -> idiomas.quitar_fecha, con el cliente de YouTube de la marca mercury).
-#   Sin publicos: solo los Shorts con fecha FUTURA de esas piezas (no baja la versión que sigue viva). Lo ya público no se toca.
-#   Con publicos = true: también los Shorts YA públicos de esas piezas (sale_utc ya pasado); exige cita, la palabra de N, que
-#   queda en decisiones-sistema.csv (fila de retiro de N) junto a cada Short bajado.
-# A mano: Actions > dd-bajar > Run workflow. Por defecto en SECO (seco = true): lista lo que bajaría, no llama a YouTube ni escribe.
-#   gh workflow run dd-bajar.yml -f slugs="dd-a dd-b" -f seco=false [-f publicos=true -f cita="..."]
-# Con seco = false sube a main lo que cambie (estado.json de esas piezas, decisiones-sistema.csv, publicados.csv) con el commit
-#   "dd-bajar: <slugs>".
-# Seguridad: las entradas se validan antes de llamar a nada y nunca pasan por una expresión dentro del shell (van por env).
-# Minutos (n-system va sobre su cupo de Actions): solo a mano, sin cron; checkout parcial de unos archivos, ~1 min por corrida.
+# Freno por lista de ids (23-nov-2026): pasa a privado y sin fecha Shorts del canal de DD (marca mercury) por id de video.
+# Solo llaves DD_OAUTH_* (o MERCURY_OAUTH_* de respaldo); comprueba que el token y cada video son del canal de DD antes de tocar.
+# Por defecto en SECO (solo lee). No escribe en el repo. Solo a mano, sin cron.
+# OJO: en la rama ses/freno-dd-bajar-lista este mismo contenido va también como dd-bajar.yml, porque GitHub solo despacha
+# workflows cuyo archivo existe en main; las entradas conservan los nombres de dd-bajar (slugs = ids, publicos y cita se ignoran).
+#   gh workflow run dd-bajar-lista.yml --ref ses/freno-dd-bajar-lista -f ids="ID1 ID2" -f seco=false
 name: dd-bajar
 
 on:
   workflow_dispatch:
     inputs:
       slugs:
-        description: "slugs de DD separados por espacio (todos empiezan con dd-)"
+        description: "EN ESTA RAMA: ids de video de YouTube del canal de DD separados por espacio (máx. 30)"
         type: string
         required: true
       seco:
-        description: "en seco: lista lo que bajaría, no llama a YouTube ni escribe"
+        description: "en seco: solo lee y lista, no cambia nada en YouTube"
         type: boolean
         default: true
       publicos:
-        description: "también pasa a privado los Shorts YA públicos de esas piezas (pide cita)"
+        description: "se ignora en esta rama"
         type: boolean
         default: false
       cita:
-        description: "las palabras literales de N (obligatoria si publicos es true)"
+        description: "se ignora en esta rama"
         type: string
         default: ""
 
 permissions:
-  contents: write
+  contents: read
 
-concurrency: { group: dd-bajar, cancel-in-progress: false }
+concurrency: { group: dd-bajar-lista, cancel-in-progress: false }
 
 jobs:
   bajar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     env:
-      SLUGS: ${{ inputs.slugs }}
+      IDS: ${{ inputs.slugs }}
       SECO: ${{ inputs.seco }}
-      PUBLICOS: ${{ inputs.publicos }}
-      CITA: ${{ inputs.cita }}
       PYTHONUNBUFFERED: "1"
     steps:
-      - name: Validar entradas
-        run: |
-          set -f
-          n=0
-          for s in $SLUGS; do
-            printf '%s' "$s" | grep -Eq '^dd-[a-z0-9][a-z0-9-]{0,80}$' || { echo "::error::slug no válido (debe empezar con dd- y llevar solo a-z, 0-9 y -): $s"; exit 1; }
-            n=$((n+1))
-          done
-          [ "$n" -gt 0 ] || { echo "::error::faltan los slugs"; exit 1; }
-          [ "$n" -le 20 ] || { echo "::error::más de 20 slugs en una corrida"; exit 1; }
-          if [ "$PUBLICOS" = "true" ] && [ -z "$(printf '%s' "$CITA" | tr -d '[:space:]')" ]; then
-            echo "::error::publicos = true pide la cita de N"; exit 1
-          fi
-          echo "OK $n slug(s); seco=$SECO publicos=$PUBLICOS"
       - uses: actions/checkout@v7
         with:
-          ref: main
           fetch-depth: 1
           filter: blob:none
           lfs: false
           sparse-checkout-cone-mode: false
-          # Lo que importan aprobar.py, agente.py, registro.py e idiomas.py, y los json de las piezas de DD (sin videos).
           sparse-checkout: |
             /earn/naos/motor/*.py
-            /earn/naos/motor/aprobar/*.py
-            /earn/naos/motor/aprobar/*.json
-            /earn/naos/motor/aprobar/*.txt
             /earn/naos/motor/youtube/*.py
             /earn/naos/motor/youtube/canales.json
             /earn/naos/motor/investigacion/yt.py
-            /earn/naos/motor/instagram/publicados.csv
-            /earn/naos/medicion/decisiones-sistema.csv
-            /earn/naos/cola/aprobar/dd-*/*.json
-      - name: Bajar Shorts de DD
+      - name: Bajar por lista (canal DD)
         env:
           MERCURY_OAUTH_CLIENT_ID: ${{ secrets.DD_OAUTH_CLIENT_ID || secrets.MERCURY_OAUTH_CLIENT_ID }}
           MERCURY_OAUTH_CLIENT_SECRET: ${{ secrets.DD_OAUTH_CLIENT_SECRET || secrets.MERCURY_OAUTH_CLIENT_SECRET }}
           MERCURY_OAUTH_REFRESH_TOKEN: ${{ secrets.DD_OAUTH_REFRESH_TOKEN || secrets.MERCURY_OAUTH_REFRESH_TOKEN }}
         run: |
           set -f
-          args=(bajar-shorts $SLUGS)
-          [ "$SECO" = "true" ] && args+=(--seco)
-          [ "$PUBLICOS" = "true" ] && args+=(--publicos --cita "$CITA")
-          python3 earn/naos/motor/aprobar/aprobar.py "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/salida.txt"
+          args=($IDS)
+          [ "$SECO" = "true" ] || args+=(--si-bajar)
+          python3 earn/naos/motor/youtube/bajar_lista_dd.py "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/salida.txt"
           rc=${PIPESTATUS[0]}
-          { echo '```'; cut -c1-400 "$RUNNER_TEMP/salida.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          { echo '```'; cut -c1-300 "$RUNNER_TEMP/salida.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           exit "$rc"
-      - name: Guardar en main
-        # También si algún Short falló: lo que sí se bajó queda registrado.
-        if: ${{ always() && inputs.seco != true }}
-        run: |
-          set -f
-          git config user.name "dd-bajar"; git config user.email "dd-bajar@users.noreply.github.com"
-          rutas=(earn/naos/motor/instagram/publicados.csv earn/naos/medicion/decisiones-sistema.csv)
-          for s in $SLUGS; do [ -d "earn/naos/cola/aprobar/$s" ] && rutas+=("earn/naos/cola/aprobar/$s"); done
-          git add --sparse -- "${rutas[@]}"
-          git diff --cached --quiet && { echo "nada que guardar"; exit 0; }
-          git commit -q -m "dd-bajar: $(echo $SLUGS | cut -c1-200)"
-          for i in 1 2 3 4; do
-            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
-            sleep $((i*5))
-          done
-          exit 1

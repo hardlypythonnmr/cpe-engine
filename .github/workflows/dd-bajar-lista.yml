@@ -1,6 +1,8 @@
 # Freno por lista de ids (23-nov-2026): pasa a privado y sin fecha Shorts del canal de DD (marca mercury) por id de video.
 # Solo llaves DD_OAUTH_* (o MERCURY_OAUTH_* de respaldo); comprueba que el token y cada video son del canal de DD antes de tocar.
 # Por defecto en SECO (solo lee). No escribe en el repo. Solo a mano, sin cron.
+# OJO: en la rama ses/freno-dd-bajar-lista este mismo contenido va también como dd-bajar.yml, porque GitHub solo despacha
+# workflows cuyo archivo existe en main; las entradas conservan los nombres de dd-bajar (slugs = ids, publicos y cita se ignoran).
 #   gh workflow run dd-bajar-lista.yml --ref ses/freno-dd-bajar-lista -f ids="ID1 ID2" -f seco=false
 name: dd-bajar-lista
 
