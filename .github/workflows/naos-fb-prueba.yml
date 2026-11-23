@@ -1,57 +1,59 @@
-# naos-fb-prueba: solo lee. Comprueba el token de Facebook Login de NAOS (N 19-nov: Página "Naos" y @naos.v3 en el portafolio
-# Difficult Decision). Dice qué nombres de secretos y variables existen (nunca su valor), qué permisos tiene el token, qué
-# Páginas ve y el ID de Instagram conectado a la Página de NAOS. No escribe nada.
+# Freno por lista de ids del canal de NAOS (23-nov-2026, semana 2026-W48). Solo en la rama ses/freno-naos-w48.
+# OJO: este archivo reemplaza SOLO EN ESTA RAMA a naos-fb-prueba.yml (workflow manual, sin cron) porque GitHub solo despacha
+# workflows cuyo archivo existe en main. En main sigue el original. Equivale a un dd-bajar-lista-naos.yml.
+# Pasa a privado y sin fecha Shorts del canal de NAOS por id de video. Solo llaves GOOGLE_OAUTH_* (las de NAOS); no usa DD_OAUTH_*.
+# Comprueba que el token y cada video son del canal de NAOS (y no de DD) antes de tocar. Por defecto en SECO. Sin cron.
+#   gh workflow run naos-fb-prueba.yml --ref ses/freno-naos-w48 -R hardlypythonnmr/naos-motor -f ids="ID1 ID2" -f seco=false
 name: naos-fb-prueba
+run-name: naos-freno-w48 (seco=${{ inputs.seco }})
+
 on:
   workflow_dispatch:
+    inputs:
+      ids:
+        description: "ids de video de YouTube del canal de NAOS separados por espacio (máx. 30)"
+        type: string
+        required: true
+      seco:
+        description: "en seco: solo lee y lista, no cambia nada en YouTube"
+        type: boolean
+        default: true
+
 permissions:
   contents: read
+
+concurrency: { group: naos-freno-w48, cancel-in-progress: false }
+
 jobs:
-  prueba:
+  bajar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
+    env:
+      IDS: ${{ inputs.ids }}
+      SECO: ${{ inputs.seco }}
+      PYTHONUNBUFFERED: "1"
     steps:
-      - name: Leer token, permisos y Páginas
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          lfs: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/*.py
+            /earn/naos/motor/youtube/*.py
+            /earn/naos/motor/youtube/canales.json
+            /earn/naos/motor/investigacion/yt.py
+      - name: Bajar por lista (canal NAOS)
         env:
-          T1: ${{ secrets.NAOS_FB_TOKEN }}
-          T2: ${{ secrets.NAOS_FACEBOOK_TOKEN }}
-          T3: ${{ secrets.NAOS_FB_PAGE_TOKEN }}
-          T4: ${{ secrets.NAOS_PAGE_TOKEN }}
-          T5: ${{ secrets.NAOS_META_TOKEN }}
-          T6: ${{ secrets.NAOS_INSTAGRAM_FB_TOKEN }}
-          P1: ${{ vars.NAOS_FB_PAGE_ID || secrets.NAOS_FB_PAGE_ID }}
-          P2: ${{ vars.NAOS_PAGE_ID || secrets.NAOS_PAGE_ID }}
-          P3: ${{ vars.NAOS_FACEBOOK_PAGE_ID || secrets.NAOS_FACEBOOK_PAGE_ID }}
-          I1: ${{ vars.NAOS_FB_IG_USER_ID || secrets.NAOS_FB_IG_USER_ID }}
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
         run: |
-          python3 - <<'PY'
-          import json, os, urllib.parse, urllib.request
-          nombres = {"T1": "NAOS_FB_TOKEN", "T2": "NAOS_FACEBOOK_TOKEN", "T3": "NAOS_FB_PAGE_TOKEN", "T4": "NAOS_PAGE_TOKEN",
-                     "T5": "NAOS_META_TOKEN", "T6": "NAOS_INSTAGRAM_FB_TOKEN", "P1": "NAOS_FB_PAGE_ID", "P2": "NAOS_PAGE_ID",
-                     "P3": "NAOS_FACEBOOK_PAGE_ID", "I1": "NAOS_FB_IG_USER_ID"}
-          hay = {k: bool(os.environ.get(k, "").strip()) for k in nombres}
-          print("existen:", [nombres[k] for k in nombres if hay[k]] or "ninguno de los nombres probados")
-          tok = next((os.environ[k].strip() for k in ("T1", "T2", "T3", "T4", "T5", "T6") if hay[k]), "")
-          pag = next((os.environ[k].strip() for k in ("P1", "P2", "P3") if hay[k]), "")
-          def get(ruta, **p):
-              p["access_token"] = tok
-              try:
-                  with urllib.request.urlopen(f"https://graph.facebook.com/v23.0/{ruta}?" + urllib.parse.urlencode(p), timeout=30) as r:
-                      return json.loads(r.read())
-              except urllib.error.HTTPError as e:
-                  return {"error": json.loads(e.read() or b"{}").get("error", {}).get("message", str(e.code))}
-          if not tok:
-              raise SystemExit("sin token")
-          me = get("me", fields="id,name")
-          print("token de:", me.get("name") or me)
-          perms = get("me/permissions").get("data", [])
-          print("permisos concedidos:", sorted(p["permission"] for p in perms if p.get("status") == "granted"))
-          print("permisos no concedidos:", sorted(f"{p['permission']}={p.get('status')}" for p in perms if p.get("status") != "granted"))
-          cuentas = get("me/accounts", fields="id,name,instagram_business_account{id,username}").get("data", [])
-          for c in cuentas:
-              print("página:", c.get("id"), c.get("name"), "-> instagram:", c.get("instagram_business_account"))
-          if pag:
-              print("página de la variable:", pag, get(pag, fields="id,name,instagram_business_account{id,username}"))
-          if hay["I1"]:
-              print("NAOS_FB_IG_USER_ID existe; su cuenta:", get(os.environ["I1"].strip(), fields="id,username"))
-          PY
+          set -f
+          args=($IDS)
+          [ "$SECO" = "true" ] || args+=(--si-bajar)
+          python3 earn/naos/motor/youtube/bajar_lista_naos.py "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/salida.txt"
+          rc=${PIPESTATUS[0]}
+          { echo '```'; cut -c1-300 "$RUNNER_TEMP/salida.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit "$rc"
