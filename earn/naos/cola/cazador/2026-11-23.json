@@ -1,0 +1,115 @@
+{
+ "fecha": "2026-11-23",
+ "generado_utc": "2026-11-23T10:48Z",
+ "senales_leidas": 179,
+ "NAOS": [
+  {
+   "termino": "Mr. Irrelevant (film)",
+   "fuente": "wikipedia",
+   "vistas": 50830,
+   "dia_pico": "ayer",
+   "base": 8016,
+   "razon": 6.3,
+   "pico": "50,830 vistas ayer contra una línea base de 8,016 (x6.3), Wikipedia EN",
+   "url": "https://en.wikipedia.org/wiki/Mr._Irrelevant_%28film%29",
+   "noticias": [
+    {
+     "titulo": "Paramount Sets Christmas Release for John Tuggle Biopic",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nYnl4NXBhdDJIUGpSbGFIdGxiSjR4QWxwZ2Znd1UtdTZuS081QTlOdVhBbzRpeVlGbzd1MkJOSVZrNXVubE1nZ2s3X1FBSzk3X1g3ZjdOblNMcE9iYUdJNXQ5NlRLLXNfeHRBSjlkZG8?oc=5",
+     "medio": "SuaraGarut.ID",
+     "fecha": "2026-11-22"
+    }
+   ],
+   "marca": "NAOS",
+   "patron": "fiestas y reunirse",
+   "consulta_estudio": "holiday gatherings social ritual",
+   "puntaje": 17.2,
+   "estudio": {
+    "titulo": "A destination’s gastronomy as a means for holiday well-being",
+    "ano": 2017,
+    "citas": 91,
+    "doi": "https://doi.org/10.1108/bfj-09-2016-0394"
+   },
+   "nombra_persona": false,
+   "sensible": false,
+   "requiere_N": false,
+   "sensible_por": [],
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'fiestas y reunirse', sin nombrar a nadie ni a ninguna marca: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (A destination’s gastronomy as a means for holiday well-being, 2017, doi https://doi.org/10.1108/bfj-09-2016-0394). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  },
+  {
+   "termino": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+   "fuente": "mastodon",
+   "vistas": 54,
+   "razon": null,
+   "contexto": "Scientific and satellite findings warn of widespread contamination in Gaza, posing grave threats to public health ‘for generations to come’",
+   "pico": "54 usos del enlace en 2 días en Mastodon (The Guardian)",
+   "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+   "marca": "NAOS",
+   "patron": "pelear, disculparse y poner límites",
+   "consulta_estudio": "conflict apology couples",
+   "puntaje": 1.73,
+   "estudio": {
+    "titulo": "Sacred Barriers to Conflict Resolution",
+    "ano": 2007,
+    "citas": 255,
+    "doi": "https://doi.org/10.1126/science.1144241"
+   },
+   "noticias": [
+    {
+     "titulo": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdHhuX2FjNjlDYmQtdG1TT0hPSkptRTBNcC0wd3lwekxoRkdSaDNFVWhhOWpEanZQVkNDa0JaLTNjQmFXWTNOQzU2OTUzY1c1RWoxRHpkQmtVNklZZGowSEMxZmRvRVRFa2JJY290b1hNSXZVUWNVdDVvV0RsRHhjNzcyeFZyYTVVNGRBNWVtdVVDVUhfTnNiU2lMWE1lYVRHczNmTjM2azliQQ?oc=5",
+     "medio": "The Guardian",
+     "fecha": "2026-11-23"
+    }
+   ],
+   "nombra_persona": false,
+   "sensible": false,
+   "requiere_N": false,
+   "sensible_por": [],
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'pelear, disculparse y poner límites', sin nombrar a nadie ni a ninguna marca: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (Sacred Barriers to Conflict Resolution, 2007, doi https://doi.org/10.1126/science.1144241). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  },
+  {
+   "termino": "una persona famosa (nombre retirado: sin medio serio con fecha)",
+   "fuente": "wikipedia",
+   "vistas": 58115,
+   "dia_pico": "ayer",
+   "base": 8016,
+   "razon": 7.2,
+   "pico": "58,115 vistas ayer contra una línea base de 8,016 (x7.2), Wikipedia EN",
+   "url": "",
+   "noticias": [],
+   "marca": "NAOS",
+   "patron": "rupturas y finales de pareja",
+   "consulta_estudio": "romantic relationship breakup",
+   "puntaje": 18.33,
+   "estudio": {
+    "titulo": "Predicting nonmarital romantic relationship dissolution: A meta-analytic synthesis",
+    "ano": 2010,
+    "citas": 632,
+    "doi": "https://doi.org/10.1111/j.1475-6811.2010.01285.x"
+   },
+   "nombra_persona": true,
+   "sensible": true,
+   "requiere_N": true,
+   "sensible_por": [
+    "nombra a una persona en tema de pareja, salud, muerte o menores"
+   ],
+   "nombre_oculto": true,
+   "contexto": "",
+   "propuesta": {
+    "formato": "reel/historia/post",
+    "pieza": "Reel o historia de la casa sobre el patron 'rupturas y finales de pareja', sin nombrar a nadie: Cella hace la conducta pequena y la caption cuenta el hallazgo del estudio (Predicting nonmarital romantic relationship dissolution: A meta-analytic synthesis, 2010, doi https://doi.org/10.1111/j.1475-6811.2010.01285.x). La conducta se muestra, no se juzga; sin promesa de salud ni consejo. La noticia solo sirve de gancho de fecha."
+   },
+   "estado": "propuesta"
+  }
+ ],
+ "errores": []
+}
