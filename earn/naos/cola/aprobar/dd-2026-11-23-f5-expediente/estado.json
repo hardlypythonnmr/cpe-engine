@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-f5-expediente",
+ "issue": 133,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T01:30:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "be98c2de347beb3033fdbb7fbaec838b39fc696f1d84aa835516274346e6757d",
+ "hashes": {
+  "carrusel": "7f46ba0ba26f690a29b2fc4a6e429fa208c619f98686b2c718ad716e837d8cd9"
+ },
+ "canales": [
+  "carrusel"
+ ],
+ "comentario_vista_previa_id": 7100168117,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente"
+}

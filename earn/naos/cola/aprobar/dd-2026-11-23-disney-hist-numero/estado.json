@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-disney-hist-numero",
+ "issue": 133,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T15:00:00Z",
+ "datos_utc": "2026-11-20T12:00:00Z",
+ "hash_contenido": "cac237cf4ff6b24ec2ebfde52942bae10da6d3b4738643438d9afbaf8103c2d5",
+ "hashes": {
+  "historia": "c9ec5fefd5a3fd3656e15ab2e6235661d6858cbf491254490e71f9221fbd02f3"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100163602,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente"
+}

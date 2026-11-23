@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-f5-lamina",
+ "issue": 133,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T01:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "80cc25c8c5980ce954850fe2cdd5f19d8c915f65b2f082c80607db39f966972c",
+ "hashes": {
+  "imagen": "fbc971d927a587fab4b5c708c954d2fe8dcd772ec51696c1a4d58119a0b72a2c"
+ },
+ "canales": [
+  "imagen"
+ ],
+ "comentario_vista_previa_id": 7100167353,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente"
+}

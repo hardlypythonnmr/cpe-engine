@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-23-disney-tachon-q",
+ "issue": 133,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T17:00:00Z",
+ "datos_utc": "2026-11-20T12:00:00Z",
+ "hash_contenido": "a4a0393c32b8399537ffbcc43c9369a8b653437e73e6e5c1871d3ad8481168f3",
+ "hashes": {
+  "short": "3982e24c422cf1a1a67bfc14c369a526339e65fe8730d5281ef4b5313990c252",
+  "reel": "ccd780601f69535f4182ff03df23d4c4de49a992255b3537291a89a834cb0b7d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7100161166,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente"
+}

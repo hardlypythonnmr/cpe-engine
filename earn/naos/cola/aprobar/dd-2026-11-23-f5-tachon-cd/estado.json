@@ -1,0 +1,23 @@
+{
+ "slug": "dd-2026-11-23-f5-tachon-cd",
+ "issue": 133,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-24T00:00:00Z",
+ "datos_utc": "2026-11-15T20:00:00Z",
+ "hash_contenido": "4ba0a4f1114d4974fa2b59a349d98fc2ab8e89da45301c19d5762bb832764a56",
+ "hashes": {
+  "short": "0db70fb50c40663ab8098181c8ecc74280d1ac0a891398adf3f8633891bd37ac",
+  "reel": "03b5183d34b5af52ef53a7d16dabf858d679735de9698c80a7c68301e4c6edd2"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "comentario_vista_previa_id": 7100166622,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente"
+}

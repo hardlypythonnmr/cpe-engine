@@ -1,0 +1,21 @@
+{
+ "slug": "dd-2026-11-23-disney-hist-frase",
+ "issue": 133,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-23T19:30:00Z",
+ "datos_utc": "2026-11-20T12:00:00Z",
+ "hash_contenido": "edac0f7bc7c5ccaadf033e61769dedcbf8aaf710fc1bea15f2d0de3b638b30f4",
+ "hashes": {
+  "historia": "ff320c79866907e6c1b90aa2d1eac0bdfae45af1f5e5a9c2b9ad8d9ca363726e"
+ },
+ "canales": [
+  "historia"
+ ],
+ "comentario_vista_previa_id": 7100164358,
+ "fix": false,
+ "aprobador": "hardlypythonnmr",
+ "sin_cifras": false,
+ "datos_max_h": 0,
+ "tanda": "dd-2026-11-23-agente"
+}
