@@ -470,6 +470,15 @@ def subir_shorts(filas, ahora, cola=COLA, seco=False, correr=None, maximo=MAX_SH
                 if mal:
                     (lineas if mal.startswith("CIFRA-CAMBIO") else fallos).append(mal)
                     continue
+            if "--canal" in cmd and not seco and not os.environ.get("NAOS_FORZAR_SUBIDA_LOCAL"):  # 23-nov (N): DD sube por su Action, que trae las llaves; esta sesión no las tiene y no es un fallo
+                canal = cmd[cmd.index("--canal") + 1]
+                try:
+                    cfg = json.loads((Path(__file__).resolve().parents[1] / "youtube" / "canales.json").read_text(encoding="utf-8"))["canales"].get(canal, {})
+                except (OSError, ValueError):
+                    cfg = {}
+                pref = cfg.get("prefijo")
+                if pref and any(not os.environ.get(f"{pref}_{k}") for k in ("CLIENT_ID", "CLIENT_SECRET", "REFRESH_TOKEN")):
+                    continue  # sin llaves de ese canal aquí: lo sube la Action de DD; ni error ni aviso
             sigue = registro.materializar([cmd[2], cmd[cmd.index("--miniatura") + 1]])  # clon parcial de la operadora (20-nov)
             if sigue:
                 fallos.append(f"ERROR short {f['slug']}: no están ni se pudieron bajar de git: {', '.join(Path(x).name for x in sigue)}")
