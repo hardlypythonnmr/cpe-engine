@@ -298,3 +298,15 @@ fecha_pacifico,hora_utc,consumidor,operacion,unidades
 2026-11-22,2026-11-22T22:00:09Z,margen,videos.list,1
 2026-11-22,2026-11-22T22:00:09Z,margen,videos.list,1
 2026-11-22,2026-11-22T22:00:09Z,margen,channels.list,1
+2026-11-23,2026-11-23T14:58:49Z,shorts,channels.list,1
+2026-11-23,2026-11-23T14:58:51Z,shorts,videos.insert,1
+2026-11-23,2026-11-23T14:58:55Z,shorts,thumbnails.set,50
+2026-11-23,2026-11-23T14:58:55Z,shorts,videos.list,1
+2026-11-23,2026-11-23T14:58:56Z,shorts,channels.list,1
+2026-11-23,2026-11-23T14:58:58Z,shorts,videos.insert,1
+2026-11-23,2026-11-23T14:59:01Z,shorts,thumbnails.set,50
+2026-11-23,2026-11-23T14:59:01Z,shorts,videos.list,1
+2026-11-23,2026-11-23T14:59:02Z,shorts,channels.list,1
+2026-11-23,2026-11-23T14:59:03Z,shorts,videos.insert,1
+2026-11-23,2026-11-23T14:59:08Z,shorts,thumbnails.set,50
+2026-11-23,2026-11-23T14:59:08Z,shorts,videos.list,1
