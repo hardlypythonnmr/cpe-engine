@@ -2,7 +2,7 @@
  "nombre": "la-30-days-drawer",
  "issue": 51,
  "version": 1,
- "estado": "aprobado",
+ "estado": "publicado",
  "piezas": [
   "30-days-phone-in-a-drawer"
  ],
@@ -15,5 +15,6 @@
  "aprobadas": [
   "30-days-phone-in-a-drawer"
  ],
- "issue_n_system": 936
+ "issue_n_system": 936,
+ "cerrada": true
 }
