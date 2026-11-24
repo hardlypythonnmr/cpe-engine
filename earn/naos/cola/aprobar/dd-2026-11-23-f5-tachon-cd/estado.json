@@ -24,5 +24,6 @@
  "aprobado_evento_utc": "2026-11-23T11:51:12Z",
  "veto_hasta_utc": "2026-11-23T12:51:12Z",
  "carril": "d520",
- "veto_despues_utc": "2026-11-24T12:00:00Z"
+ "veto_despues_utc": "2026-11-24T12:00:00Z",
+ "reel_fallo_utc": "2026-11-24T00:04:53Z"
 }
