@@ -147,3 +147,4 @@ utc,metodo,ruta,http,code,error_subcode,type,clase,is_transient,fbtrace_id,mensa
 2026-11-20T20:07:30Z,ACTION,apt-get install ffmpeg,,,,,INFRA,true,,"dd-2026-11-20-p3-netflix-bucle: ffmpeg no se pudo instalar con apt (3 intentos); nada salió, la ronda siguiente lo reintenta"
 2026-11-20T20:42:17Z,POST,me/media_publish,400,24,2207006,OAuthException,MEDIA,false,AhLZrhj4vlvUF7UP3uNQN8L,"The requested resource does not exist (The media with 18,029,407,364,744,958 cannot be found.)"
 2026-11-21T17:04:02Z,POST,me/media,400,100,0,IGApiException,OTRO,false,AkOCTmUGrwjZt7OWV8gMCRU,The parameter video_url is required
+2026-11-24T02:32:09Z,ACTION,apt-get install ffmpeg,,,,,INFRA,true,,"dd-2026-11-23-ross-stores-tachon-cd: ffmpeg no se pudo instalar con apt (3 intentos); nada salió, la ronda siguiente lo reintenta"
