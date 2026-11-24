@@ -36,7 +36,9 @@ PATRONES = [
     "earn/naos/empresa/LEEME.md", "earn/naos/empresa/archivo/LEEME.md",
     "earn/naos/cola/rutinas/*.md", "earn/naos/cola/cella-habla/ronda.md",
     "earn/naos/empresa/duplicar/canal-lucro/mercury/LEEME.md",
-    ".claude/skills/naos-*/SKILL.md", ".claude/agents/naos-*.md", ".claude/skills/hyperframes-movimiento/SKILL.md",
+    ".claude/skills/naos-*/SKILL.md", ".claude/agents/naos-*.md",
+    "plugins/n-skills/skills/director*/SKILL.md", "plugins/n-skills/agents/director-*.md",
+    "plugins/n-skills/skills/vp-general/SKILL.md", "plugins/n-skills/agents/vp-general.md", ".claude/skills/hyperframes-movimiento/SKILL.md",
     "earn/naos/motor/kit/LEEME.md", "earn/naos/motor/kit/*/LEEME.md", "earn/naos/marca/v6-figura/LEEME.md",
 ]
 LARGO_MAX = 300

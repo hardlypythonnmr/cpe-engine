@@ -3094,6 +3094,298 @@ class TestReprogramarD512(Base):
         self.assertEqual((m["toca"], llamadas), (False, []))
 
 
+class TestViaMesa(Base):
+    """via = mesa (N, 24-nov-2026): N aprueba en el artefacto de la mesa y la mesa lo registra con SU firma y las palabras de N.
+    Nunca como si fuera N; con la huella de contenido como condición; y si algo falla no se escribe nada."""
+    CITA = "Apruébala, pero baja el tono del título"
+
+    def setUp(self):
+        super().setUp()
+        self.dec = os.path.join(self.tmp.name, "decisiones-sistema.csv")
+        open(self.dec, "w", encoding="utf-8").write(DEC_CAB)
+        p = mock.patch.object(registro, "DECISIONES", self.dec)
+        p.start()
+        self.addCleanup(p.stop)
+        self.e = self.abrir()
+        self.dir = os.path.join(self.cola, "cierre")
+        self.decidido = registro.a_utc(registro.ahora() - dt.timedelta(minutes=1))
+
+    def reg(self, **kw):
+        args = dict(slug="cierre", decision="aprobar", hash_contenido=self.e["hash_contenido"], cita=self.CITA,
+                    decidido_utc=self.decidido, version=1, cola=self.cola)
+        args.update(kw)
+        return aprobar.aprobar_mesa(**args)
+
+    def rechaza(self, esperado, **kw):
+        """La orden se niega con una razón que contiene `esperado` y no escribe nada: ni el libro, ni estado.json, ni decisiones."""
+        antes = self.huella_disco()
+        with self.assertRaises(SystemExit) as cm:
+            self.reg(**kw)
+        self.assertIn("NO SE REGISTRA", str(cm.exception.code))
+        self.assertIn(esperado, str(cm.exception.code))
+        self.assertIn("Nada se escribió", str(cm.exception.code))
+        self.assertEqual(self.huella_disco(), antes)
+
+    def huella_disco(self):
+        leer = lambda r: open(r, "rb").read() if os.path.exists(r) else None
+        return (leer(self.csv), leer(os.path.join(self.dir, "estado.json")), leer(self.dec))
+
+    def huella_canal(self, canal):
+        p = aprobar.cargar("cierre", self.cola)
+        return aprobar.huellas(p, self.cola)[canal]
+
+    def verificar(self, canal="reel"):
+        return registro.verificar("cierre", canal, self.huella_canal(canal), ruta=self.csv)
+
+    # ---------- lo que registra ----------
+    def test_registra_una_fila_por_canal_firmada_por_la_mesa_con_la_cita(self):
+        res = self.reg()
+        filas = registro.leer(self.csv)
+        self.assertEqual({f["canal"] for f in filas}, {"short", "reel"})
+        leyenda = f"aprobado por N en la mesa, {self.decidido}: {self.CITA}"
+        self.assertEqual(res["leyenda"], leyenda)
+        for f in filas:
+            self.assertEqual((f["aprobado_por"], f["via"], f["aprobado_utc"], f["version"], f["cita"]),
+                             ("mesa", "mesa", self.decidido, "1", leyenda))
+            self.assertEqual(f["hash"], self.e["hashes"][f["canal"]])
+            self.assertEqual(f["vence_utc"], registro.a_utc(registro.de_utc(self.e["sale_utc"]) + registro.GRACIA))
+        e = aprobar.leer_estado("cierre", self.cola)
+        self.assertEqual((e["estado"], e["aprobacion"], e["aprobado_evento_utc"]), ("aprobado", "mesa", self.decidido))
+        self.assertEqual({k: e["mesa"][k] for k in ("decision", "cita", "decidido_utc", "version", "hash_contenido", "leyenda")},
+                         {"decision": "aprobar", "cita": self.CITA, "decidido_utc": self.decidido, "version": 1,
+                          "hash_contenido": self.e["hash_contenido"], "leyenda": leyenda})
+        d = registro.leer_decisiones(self.dec)
+        self.assertEqual((len(d), d[0]["fila_gobierno"], d[0]["autor"]), (1, registro.FILA_MESA, "mesa"))
+        self.assertIn(self.CITA, d[0]["decision"])
+        self.assertIn(self.e["hash_contenido"], d[0]["decision"])
+
+    def test_aprobar_con_nota_tambien_se_registra(self):
+        self.reg(decision="aprobar_con_nota", cita="Sí, pero cambia la portada la próxima vez")
+        self.assertEqual(registro.leer(self.csv)[0]["cita"].split(": ", 1)[1], "Sí, pero cambia la portada la próxima vez")
+        self.assertEqual(aprobar.leer_estado("cierre", self.cola)["mesa"]["decision"], "aprobar_con_nota")
+
+    def test_no_toca_github(self):
+        antes = (list(self.gh.comentarios), set(self.gh.etiquetas), self.gh.reacciones, self.gh.reacciones_cuerpo)
+        self.reg()
+        self.assertEqual((self.gh.comentarios, self.gh.etiquetas, self.gh.reacciones, self.gh.reacciones_cuerpo), antes)
+        self.assertNotIn("gh", aprobar.aprobar_mesa.__code__.co_varnames)  # la función ni recibe un cliente de GitHub
+
+    def test_la_compuerta_la_deja_pasar_como_aprobacion_de_n_sin_esperar_un_veto(self):
+        self.reg()
+        for canal in ("short", "reel"):
+            ok, f = self.verificar(canal)
+            self.assertTrue(ok, f)
+            self.assertEqual(f["via"], "mesa")
+        self.assertEqual(registro.espera_vp(registro.leer(self.csv)[0]), "")  # N ya decidió: ningún veto que esperar
+
+    def test_una_fila_de_n_de_la_misma_version_no_se_duplica_con_la_de_la_mesa(self):
+        self.reg()
+        self.assertEqual(len(registro.leer(self.csv)), 2)
+        self.rechaza("ya está registrada")  # segundo intento: se niega y el libro queda igual
+
+    # ---------- no se hace pasar por N ----------
+    def test_la_fila_no_se_hace_pasar_por_n(self):
+        self.reg()
+        n = registro.aprobador_versionado()
+        self.assertEqual(n, "nico")
+        for f in registro.leer(self.csv):
+            self.assertNotEqual(f["aprobado_por"].lower(), n.lower())  # no lleva el usuario de N
+            self.assertNotIn(f["via"], ("reaccion", "comentario"))  # ni el camino de su 👍 o su ok
+            self.assertFalse(f["cita"].startswith(("👍", "ok de @")) or f"@{n}" in f["cita"])
+            self.assertTrue(f["cita"].startswith("aprobado por N en la mesa, "))
+            self.assertFalse(registro.es_auto(f))  # ni es del VP ni del agente
+            self.assertTrue(registro.es_mesa(f))
+        e = aprobar.leer_estado("cierre", self.cola)
+        self.assertNotEqual(e.get("aprobador"), "mesa")  # estado.json sigue diciendo quién es N
+        self.assertEqual(e["aprobacion"], "mesa")
+
+    def test_con_la_firma_de_n_una_fila_de_via_mesa_no_vale(self):
+        self.reg()
+        filas = registro.leer(self.csv)
+        for f in filas:
+            f["aprobado_por"] = "nico"  # alguien quiere que la fila de la mesa pase por la de N
+        registro.escribir(filas, self.csv)
+        ok, razon = self.verificar()
+        self.assertFalse(ok)
+        self.assertIn("firma de la mesa", razon)
+
+    def test_con_la_via_de_n_una_fila_firmada_por_la_mesa_no_vale(self):
+        self.reg()
+        for via in ("reaccion", "comentario"):
+            filas = registro.leer(self.csv)
+            for f in filas:
+                f["via"] = via
+            registro.escribir(filas, self.csv)
+            ok, razon = self.verificar()
+            self.assertFalse(ok, via)
+            self.assertIn("firma de la mesa", razon)
+
+    def test_sin_la_leyenda_o_sin_estado_de_la_mesa_la_fila_no_vale(self):
+        self.reg()
+        filas = registro.leer(self.csv)
+        for f in filas:
+            f["cita"] = "👍 de @nico en N/n-system#7, " + self.decidido
+        registro.escribir(filas, self.csv)
+        self.assertIn("leyenda", self.verificar()[1])
+        for f in filas:
+            f["cita"] = f"aprobado por N en la mesa, {self.decidido}: otra cosa que no dijo N"
+        registro.escribir(filas, self.csv)
+        self.assertIn("leyenda", self.verificar()[1])
+        # una fila escrita a mano: estado.json sin la decisión guardada por aprobar.py mesa
+        self.setUp_fila_buena()
+        e = aprobar.leer_estado("cierre", self.cola)
+        e.pop("mesa")
+        aprobar.guardar_estado(e, self.cola)
+        self.assertIn("no salió de aprobar.py mesa", self.verificar()[1])
+        e["aprobacion"], e["mesa"] = "mesa", {"decision": "aprobar", "cita": self.CITA, "decidido_utc": self.decidido, "version": 1,
+                                               "hash_contenido": "otro", "leyenda": registro.leyenda_mesa(self.decidido, self.CITA)}
+        aprobar.guardar_estado(e, self.cola)
+        self.assertIn("no es de esta versión ni de este contenido", self.verificar()[1])
+
+    def setUp_fila_buena(self):
+        filas = registro.leer(self.csv)
+        for f in filas:
+            f["cita"] = registro.leyenda_mesa(self.decidido, self.CITA)
+        registro.escribir(filas, self.csv)
+
+    def test_la_decision_de_la_mesa_vive_en_la_cola_si_la_pieza_cambia_la_compuerta_la_niega(self):
+        self.reg()
+        p = json.load(open(os.path.join(self.dir, "pieza.json")))
+        p["caption"] += " Edited."
+        json.dump(p, open(os.path.join(self.dir, "pieza.json"), "w"))
+        ok, razon = self.verificar()
+        self.assertFalse(ok)
+        self.assertIn("no es lo que N aprobó", razon)
+
+    def test_n_comenta_en_el_issue_despues_de_la_decision_y_la_aprobacion_se_frena(self):
+        self.reg()
+        self.assertTrue(self.verificar()[0])
+        self.gh.n_dice("wait, change the title", self.e["comentario_vista_previa_id"] + 6,
+                       registro.a_utc(registro.ahora() + dt.timedelta(minutes=1)))
+        self.assertEqual(aprobar.procesar(7, self.gh, self.cola), "frenar")
+        self.assertFalse(self.verificar()[0])
+
+    def test_d512_no_reprograma_lo_que_aprobo_la_mesa(self):
+        self.reg()
+        sale = registro.de_utc(self.e["sale_utc"])
+        r = aprobar.motivos_reprogramar("cierre", self.cola, cuando=sale + dt.timedelta(minutes=30), sobre=(),
+                                        comprobar=lambda *a: "no-salio", reclamo=lambda s, v: None)
+        self.assertTrue(any("de la mesa" in m for m in r["motivos"]), r)
+
+    # ---------- las condiciones de rechazo ----------
+    def test_rechaza_si_el_hash_de_la_decision_no_es_el_de_la_pieza_en_la_cola(self):
+        self.rechaza("no es el de la pieza en la cola", hash_contenido="0" * 64)
+        self.assertEqual(registro.leer(self.csv), [])
+
+    def test_rechaza_una_pieza_cambiada_despues_de_la_decision(self):
+        p = json.load(open(os.path.join(self.dir, "pieza.json")))
+        p["caption"] += " Edited after N decided."
+        json.dump(p, open(os.path.join(self.dir, "pieza.json"), "w"))
+        # el hash de la decisión es el de la versión que N vio (el de estado.json), pero la carpeta ya no es esa
+        self.rechaza("la pieza cambió en la cola")
+        # y si el video cambia, igual
+        open(os.path.join(self.dir, "video.mp4"), "ab").write(b"x")
+        self.rechaza("la pieza cambió en la cola")
+
+    def test_rechaza_la_decision_de_una_version_vieja(self):
+        p = json.load(open(os.path.join(self.dir, "pieza.json")))
+        p["caption"] += " Edited."
+        json.dump(p, open(os.path.join(self.dir, "pieza.json"), "w"))
+        aprobar.nueva_version("cierre", self.gh, self.cola)  # la v2 trae otro hash; N decidió sobre la v1
+        self.rechaza("no es el de la pieza en la cola")
+        self.rechaza("es de la versión 1 y la pieza va en la 2")
+        self.assertEqual(registro.leer(self.csv), [])
+
+    def test_rechaza_sin_cita_literal(self):
+        for cita in ("", "   ", None):
+            self.rechaza("falta la cita literal", cita=cita)
+
+    def test_rechaza_lo_que_no_es_aprobar(self):
+        for d in ("cambios", "rechazar", "despues", "", None, "Aprobar", "aprobado"):
+            self.rechaza("solo se registra aprobar o aprobar_con_nota", decision=d)
+
+    def test_rechaza_lo_ya_registrado_por_la_mesa(self):
+        self.reg()
+        self.rechaza("ya está registrada")
+
+    def test_rechaza_lo_ya_registrado_por_el_toque_de_n_en_github(self):
+        aprobar.registrar(self.e, ("2026-10-15T14:07:11Z", "comentario", True, "nico"), self.gh, self.cola)
+        self.e["estado"] = "por-aprobar"  # aun con el estado devuelto a por-aprobar, el libro ya tiene fila de N de esa versión
+        aprobar.guardar_estado(self.e, self.cola)
+        self.rechaza("ya está registrada")
+
+    def test_rechaza_si_el_estado_no_admite_aprobacion(self):
+        for estado in ("caducado", "vetada", "publicado", "error", "subiendo"):
+            e = aprobar.leer_estado("cierre", self.cola)
+            e["estado"] = estado
+            aprobar.guardar_estado(e, self.cola)
+            self.rechaza("solo se aprueba lo que está por-aprobar")
+        self.assertEqual(registro.leer(self.csv), [])
+
+    def test_rechaza_una_pieza_con_fix(self):
+        e = aprobar.leer_estado("cierre", self.cola)
+        e["fix"] = True  # abrir lo deja así si alguna revisión de pieza.json falla
+        aprobar.guardar_estado(e, self.cola)
+        self.rechaza("revisiones en Fix")
+
+    def test_rechaza_lo_que_ya_paso_de_hora_o_con_cifras_viejas(self):
+        sale = registro.de_utc(self.e["sale_utc"])
+        antes = self.huella_disco()
+        with self.assertRaises(SystemExit) as cm:
+            self.reg(cuando=sale + registro.GRACIA + dt.timedelta(minutes=1))
+        self.assertIn("ya pasó la hora de salida", str(cm.exception.code))
+        e = aprobar.leer_estado("cierre", self.cola)
+        e["datos_utc"] = registro.a_utc(registro.de_utc(self.decidido) - dt.timedelta(hours=20))
+        aprobar.guardar_estado(e, self.cola)
+        self.rechaza("las cifras tenían más de 12 h cuando N aprobó")
+        self.assertEqual(antes[0], self.huella_disco()[0])
+
+    def test_rechaza_fecha_mala_o_del_futuro_y_pieza_inexistente(self):
+        self.rechaza("ISO UTC", decidido_utc="ayer por la tarde")
+        self.rechaza("fecha del futuro", decidido_utc=registro.a_utc(registro.ahora() + dt.timedelta(hours=2)))
+        self.rechaza("no tiene estado.json", slug="no-existe")
+
+    def test_rechaza_si_falta_el_libro_de_decisiones(self):
+        os.unlink(self.dec)
+        antes = self.huella_disco()
+        with self.assertRaises(SystemExit) as cm:
+            self.reg()
+        self.assertIn("falta", str(cm.exception.code))
+        self.assertEqual(self.huella_disco(), antes)
+
+    def test_seco_no_escribe(self):
+        antes = self.huella_disco()
+        res = self.reg(seco=True)
+        self.assertEqual(res["canales"], ["short", "reel"])
+        self.assertEqual(self.huella_disco(), antes)
+
+    # ---------- la línea de comandos ----------
+    def correr(self, *extra, cita=None):
+        argv = ["aprobar.py", "--cola", self.cola, "mesa", "cierre", "--decision", "aprobar", "--version", "1",
+                "--hash", self.e["hash_contenido"], "--decidido-utc", self.decidido, "--cita", cita or self.CITA, *extra]
+        with mock.patch.object(sys, "argv", argv):
+            aprobar.main()
+
+    def test_por_la_linea_de_comandos(self):
+        self.correr()
+        self.assertEqual({f["aprobado_por"] for f in registro.leer(self.csv)}, {"mesa"})
+        self.assertTrue(self.verificar()[0])
+
+    def test_por_la_linea_de_comandos_con_seco_y_rechazo(self):
+        antes = self.huella_disco()
+        self.correr("--seco")
+        self.assertEqual(self.huella_disco(), antes)
+        with self.assertRaises(SystemExit) as cm:
+            self.correr(cita="  ")
+        self.assertIn("falta la cita literal", str(cm.exception.code))
+        self.assertEqual(self.huella_disco(), antes)
+        with self.assertRaises(SystemExit) as cm, mock.patch.object(sys, "argv", ["aprobar.py", "--cola", self.cola, "mesa", "cierre",
+                                                                                 "--decision", "aprobar"]):
+            aprobar.main()  # sin --cita, --hash, --version ni --decidido-utc: argparse se niega
+        self.assertEqual(cm.exception.code, 2)
+        self.assertEqual(self.huella_disco(), antes)
+
+
 class TestComprobarNoSalio(Base):
     """comprobar_no_salio y edad_reclamo por defecto, con urlopen o git de mentira: ninguna prueba toca la red."""
     SALE = dt.datetime(2026, 11, 15, 18, 0, tzinfo=dt.timezone.utc)

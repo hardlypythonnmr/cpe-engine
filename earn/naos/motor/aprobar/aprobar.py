@@ -33,6 +33,14 @@ en motor/instagram/publicados.csv (contrato en registro.py) y ig.py y subir.py s
                                                  para la tanda de N. Nace aprobada por el agente, con veto de N de 12 h
   python3 aprobar.py agente <nombre> [--veto <slug>... --cita "<palabras de N>"] [--sin-git]
                                                  el agente aprueba su tanda (idempotente), o pasa un veto de N de la mesa
+  python3 aprobar.py mesa <slug> --decision aprobar|aprobar_con_nota --version <n> --hash <hash_contenido> --decidido-utc <ISO UTC>
+                         --cita "<palabras de N>" [--seco] [--sin-git]
+                                                 N aprobó esa pieza en el artefacto de la mesa: la mesa lo registra con SU firma
+                                                 (aprobado_por = via = mesa) y la leyenda "aprobado por N en la mesa, <fecha UTC>: <texto
+                                                 literal>". Nunca reacciona ni escribe con el usuario de N. Se niega, sin escribir nada,
+                                                 si el hash no es el de la pieza en la cola, si falta la cita, si la decisión no es
+                                                 aprobar o aprobar_con_nota, si ya está registrada o si el estado no admite aprobación.
+                                                 Sin GitHub. Ver LEEME-MESA.md
   python3 aprobar.py retirar <slug>... --cita "<palabras de N>" [--decision D-467] [--seco] [--sin-git] [--bajar-shorts]
                                                  D-467: retira piezas que N ya aprobó, sin tocar a sus hermanas de tanda: anula sus
                                                  filas, las deja `vetada` (con retirado_utc), anota una fila por pieza en
@@ -1175,6 +1183,8 @@ def motivos_reprogramar(slug, cola=None, filas=None, cuando=None, sobre=(), fech
             r["motivos"].append(f"sin fila aprobada ({canal})")
         elif registro.es_auto(f):
             r["motivos"].append(f"la aprobación vigente ({canal}) es del {registro.quien_auto(f).upper()}, no el 👍 de N")
+        elif registro.es_mesa(f):  # N aprobó en la mesa: reprogramarla no la cubre, otra decisión de N en la mesa
+            r["motivos"].append(f"la aprobación vigente ({canal}) es de la mesa (via mesa), no el 👍 de N: D-512 no la reprograma; hace falta otra decisión de N")
         elif not ap or f["aprobado_por"].lower() != ap.lower():
             r["motivos"].append(f"la fila ({canal}) no la aprobó el usuario de N")
         elif f["version"] != str(e["version"]):
@@ -2794,6 +2804,112 @@ def _desde(iso):
     return t
 
 
+# ---------- aprobación de N en la mesa (via = mesa; N, 24-nov-2026, opción A de empresa/mesa/ARTEFACTO-APROBACION.md) ----------
+# N aprueba en el artefacto de la mesa; la mesa lo pasa aquí con las palabras literales de N. La fila lleva la firma de la mesa
+# (aprobado_por = via = "mesa"), nunca el usuario de N ni su 👍 (D-301; D-461 y D-520: el agente firma con su propia fila).
+# No llama a GitHub: el libro de la compuerta es publicados.csv y la huella de contenido es la condición.
+
+TOLERANCIA_FUTURO = dt.timedelta(minutes=5)  # el reloj de la mesa y el de esta máquina pueden diferir un poco
+
+
+def fallas_mesa(slug, decision, hash_contenido, cita, decidido_utc, version, cola=None, cuando=None):
+    """Por qué NO se registra la aprobación de N en la mesa (lista vacía = se puede). Solo lee: no escribe nada."""
+    cuando = cuando or registro.ahora()
+    cita, hash_contenido = (cita or "").strip(), (hash_contenido or "").strip()
+    fallas = []
+    if not cita:
+        fallas.append("falta la cita literal de N: sin sus palabras no se registra")
+    if decision not in registro.DECISIONES_MESA:
+        fallas.append(f"la decisión de N es {decision!r}: solo se registra {' o '.join(registro.DECISIONES_MESA)}")
+    decidido = registro.de_utc(decidido_utc)
+    if decidido is None:
+        fallas.append("la fecha de la decisión de N tiene que ser ISO UTC, por ejemplo 2026-11-24T15:30:00Z")
+    elif decidido > cuando + TOLERANCIA_FUTURO:
+        fallas.append(f"la decisión de N lleva una fecha del futuro ({decidido_utc})")
+    if not hash_contenido:
+        fallas.append("falta el hash_contenido de la decisión")
+    e = leer_estado(slug, cola)
+    if not e:
+        return fallas + [f"{slug} no tiene estado.json en la cola: no hay pieza que aprobar"]
+    if str(version) != str(e.get("version")):
+        fallas.append(f"la decisión de N es de la versión {version} y la pieza va en la {e.get('version')}")
+    hashes = e.get("hashes") or {}
+    sin = [c for c in e.get("canales") or [] if not hashes.get(c)]
+    if not e.get("canales") or sin:
+        fallas.append(f"estado.json no trae la huella de {', '.join(sin) or 'ningún canal'}: no se puede registrar")
+    previas = [r for r in registro.leer() if r["slug"] == slug and r["version"] == str(e.get("version")) and not registro.es_auto(r)]
+    if previas:
+        r = previas[0]
+        fallas.append(f"ya está registrada: la versión {e.get('version')} tiene fila de {r['aprobado_por']} (via {r['via']}, {r['aprobado_utc']}, "
+                      f"huella {r['hash'][:12]}); no se vuelve a escribir")
+    elif e.get("estado") != "por-aprobar":
+        fallas.append(f"el estado de la pieza es {e.get('estado')!r}: solo se aprueba lo que está por-aprobar")
+    if e.get("fix"):
+        fallas.append("la pieza tiene revisiones en Fix: no se registra hasta que se arreglen (versión nueva)")
+    if hash_contenido and hash_contenido != e.get("hash_contenido"):
+        fallas.append("el hash_contenido de la decisión no es el de la pieza en la cola: la aprobación de N era de otra versión "
+                      f"(decisión {hash_contenido[:12]}, cola {str(e.get('hash_contenido'))[:12]})")
+    elif hash_contenido:  # coincide con estado.json: falta que la carpeta siga siendo esa (si no, N aprobó algo que ya no es)
+        try:
+            p = cargar(slug, cola)
+            if not all(os.path.exists(f) for f in archivos_de(p, cola)):
+                fallas.append("faltan archivos de la pieza: no se puede comprobar su huella")
+            elif huellas(p, cola)["contenido"] != hash_contenido:
+                fallas.append("la pieza cambió en la cola después de la versión que vio N (su huella de hoy no es la de la decisión): "
+                              "hace falta `version` y otra decisión de N")
+        except SystemExit as x:
+            fallas.append(f"no se pudo comprobar la huella de la pieza: {x.code}")
+    sale = registro.de_utc(e.get("sale_utc"))
+    if sale and cuando > sale + registro.GRACIA:
+        fallas.append(f"ya pasó la hora de salida ({e['sale_utc']}) más su gracia: la pieza caducó, no se aprueba")
+    dato = registro.de_utc(e.get("datos_utc"))
+    if not dato and not e.get("sin_cifras"):
+        fallas.append("falta la hora de las cifras (datos_utc): no hay control de frescura")
+    elif dato and decidido and cifras_viejas(decidido - dato, e.get("datos_max_h")):
+        fallas.append("las cifras tenían más de 12 h cuando N aprobó (regla 6): se rehacen y vuelve a decidir")
+    if not os.path.exists(registro.DECISIONES):
+        fallas.append(f"falta {registro.DECISIONES}: la decisión de N se anota ahí con su cita")
+    return fallas
+
+
+def aprobar_mesa(slug, decision, hash_contenido, cita, decidido_utc, version, cola=None, seco=False, cuando=None):
+    """Registra la aprobación que N dio en el artefacto de la mesa: una fila por canal en publicados.csv firmada por la mesa,
+    estado.json en `aprobado` con la decisión, la cita y la huella, y una fila en decisiones-sistema.csv. Todo o nada: si algo
+    falla (fallas_mesa) sale con la razón y no escribe nada. Idempotente por rechazo: lo ya registrado se niega, no se duplica.
+    Devuelve {slug, version, canales, leyenda}."""
+    fallas = fallas_mesa(slug, decision, hash_contenido, cita, decidido_utc, version, cola, cuando)
+    if fallas:
+        sys.exit(f"NO SE REGISTRA LA APROBACIÓN DE N EN LA MESA ({slug}):\n  " + "\n  ".join(fallas) + "\nNada se escribió.")
+    e = leer_estado(slug, cola)
+    cita = cita.strip()
+    decidido = registro.a_utc(registro.de_utc(decidido_utc))
+    leyenda = registro.leyenda_mesa(decidido, cita)
+    res = {"slug": slug, "version": e["version"], "canales": list(e["canales"]), "leyenda": leyenda}
+    if seco:
+        print(f"registraría {slug} v{e['version']} ({'+'.join(e['canales'])}), sale {e['sale_utc']}: {leyenda} [--seco: no se escribió nada]")
+        return res
+    sale = registro.de_utc(e["sale_utc"])
+    for canal in e["canales"]:
+        registro.anotar({
+            "slug": slug, "canal": canal, "issue": e.get("issue") or "", "version": e["version"],
+            "aprobado_por": registro.VIA_MESA, "aprobado_utc": decidido, "via": registro.VIA_MESA, "cita": leyenda,
+            "hash": e["hashes"][canal], "sale_utc": e["sale_utc"], "vence_utc": registro.a_utc(sale + registro.GRACIA)})
+    registrado = registro.a_utc(cuando or registro.ahora())
+    e.update(estado="aprobado", aprobacion=registro.VIA_MESA, aprobado_evento_utc=decidido,
+             mesa={"decision": decision, "cita": cita, "decidido_utc": decidido, "version": e["version"],
+                   "hash_contenido": e["hash_contenido"], "leyenda": leyenda, "registrado_utc": registrado})
+    for k in ("reel_fallo_utc", "caducado_por", "freno_de_n_utc"):  # lo de la versión anterior no cuenta para la nueva (como registrar)
+        e.pop(k, None)
+    guardar_estado(e, cola)
+    registro.anotar_decision({
+        "fecha_utc": registrado, "fila_gobierno": registro.FILA_MESA, "autor": registro.VIA_MESA, "vence_veto_utc": "", "veto": "",
+        "decision": f"{slug} v{e['version']} ({'+'.join(e['canales'])}): N aprobó en la mesa ({decision}) el {decidido}, "
+                    f"huella de contenido {e['hash_contenido']}, sale {e['sale_utc']}. N: «{cita}»",
+        "enlace": f"https://github.com/{os.environ['GITHUB_REPOSITORY']}/issues/{e['issue']}" if e.get("issue") and os.environ.get("GITHUB_REPOSITORY") else ""})
+    print(f"registrada {slug} v{e['version']} ({'+'.join(e['canales'])}), sale {e['sale_utc']}: {leyenda}")
+    return res
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--cola", help="carpeta de las piezas (por defecto cola/aprobar)")
@@ -2842,6 +2958,15 @@ def main():
     rt.add_argument("--seco", action="store_true", help="solo dice qué haría: no escribe ni llama a nadie")
     rt.add_argument("--bajar-shorts", action="store_true", help="además pasa a privado y sin fecha los Shorts ya programados de las piezas retiradas")
     rt.add_argument("--sin-git", action="store_true")
+    ms = sub.add_parser("mesa", help="N aprobó la pieza en la mesa: se registra con la firma de la mesa (via mesa), con sus palabras literales")
+    ms.add_argument("slug")
+    ms.add_argument("--decision", required=True, help="la decisión de N en el artefacto: aprobar o aprobar_con_nota")
+    ms.add_argument("--version", required=True, type=int, help="la versión de la pieza que N decidió")
+    ms.add_argument("--hash", required=True, dest="hash_contenido", help="el hash_contenido de la decisión (tiene que ser el de la pieza en la cola)")
+    ms.add_argument("--decidido-utc", required=True, help="la fecha UTC de la decisión de N, ISO (2026-11-24T15:30:00Z)")
+    ms.add_argument("--cita", required=True, help="las palabras literales de N")
+    ms.add_argument("--seco", action="store_true", help="solo dice qué registraría: no escribe nada")
+    ms.add_argument("--sin-git", action="store_true")
     bs = sub.add_parser("bajar-shorts", help="pasa a privado y sin fecha los Shorts ya programados de las piezas que se nombran, sin retirar nada")
     bs.add_argument("slugs", nargs="+")
     bs.add_argument("--seco", action="store_true", help="solo lista; no llama a YouTube")
@@ -2893,6 +3018,14 @@ def main():
         return
     if a.orden == "mover-fecha":
         mover_fecha(a.slug, a.a, a.seco, cola)
+        return
+    if a.orden == "mesa":  # sin GitHub: ni token ni comentarios; el libro de la compuerta es publicados.csv
+        con_git_mesa = not (a.seco or cola or a.sin_git or os.environ.get("NAOS_SIN_GIT") == "1")
+        if con_git_mesa:
+            git_traer()
+        aprobar_mesa(a.slug, a.decision, a.hash_contenido, a.cita, a.decidido_utc, a.version, cola, a.seco)
+        if con_git_mesa:
+            git_guardar(f"naos: {a.slug} aprobada por N en la mesa (via mesa)")
         return
     if a.orden == "retirar" and a.seco:
         res = retirar(a.slugs, a.cita, None, cola, True, a.decision)

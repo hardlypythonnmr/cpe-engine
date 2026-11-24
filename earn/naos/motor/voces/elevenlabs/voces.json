@@ -133,5 +133,11 @@
   "receta": "recetas/diseno-a1.json",
   "guardada": "2026-11-19",
   "nota": "Voz de los largos de NAOS: A1, mujer, clínica amiga (N, 19-nov-2026, sala de revisión). Alias de diseno-a1; armar-medio la lee con \"voz\": \"naos-largos\" en medio.json."
+ },
+ "naos-casa": {
+  "voice_id": "QlhI1hegsxRKejSbQ347",
+  "generated_voice_id": "QlhI1hegsxRKejSbQ347",
+  "receta": "ronda-1/trailers/naos/audio/catalogo.json (toma 3)",
+  "guardada": "2026-11-24"
  }
 }

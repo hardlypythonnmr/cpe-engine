@@ -4,7 +4,8 @@ Solo stdlib. El libro es motor/instagram/publicados.csv (privado). Lo escribe ap
 pieza y canal) y lo completan ig.py y subir.py al publicar. Contrato de las columnas:
 
   slug, canal (short|reel|carrusel|imagen|historia), issue, version   la pieza y la versión de la vista previa que N vio
-  aprobado_por, aprobado_utc, via            usuario de N, hora UTC y camino (reaccion|comentario)
+  aprobado_por, aprobado_utc, via            usuario de N, hora UTC y camino (reaccion|comentario); la fila de la mesa lleva
+                                             aprobado_por = via = "mesa" y la hora UTC de la decisión de N (punto 9)
   cita                                       "👍 de @<usuario> en <repo>#<n>, <fecha UTC>" (es el --ok de ig.py)
   hash                                       sha256 de lo que sale en ese canal (ver hash_canal)
   sale_utc, vence_utc                        hora de salida aprobada; la aprobación vale hasta vence_utc
@@ -39,6 +40,11 @@ Reglas de la compuerta (verificar):
      agente, no su cuenta. Se piden igual la marca, los canales, la llave de Instagram, el desde_utc, el veto de N antes de
      salir (carriles.d520.veto_h, nunca menos de 1 h) y que nada suba a N: lo que el revisor de ley y verdad marcó sensible
      (pieza.json "sensible"), lo condicional y una fuente sin abrir. El Short sigue con veto de N 12 h después de publicar (D-505).
+  9. Fila de la mesa (N, 24-nov-2026, opción A de empresa/mesa/ARTEFACTO-APROBACION.md; aprobado_por = via = "mesa", la escribe
+     solo `aprobar.py mesa`): N aprobó la pieza en el artefacto de la mesa y la mesa lo registra con su propia firma, nunca con
+     el usuario de N ni con su 👍 (D-301, D-461, D-520). Vale como aprobación de N (sin veto de espera) si la fila lleva la leyenda
+     "aprobado por N en la mesa, <fecha UTC>: <texto literal>" y estado.json trae aprobacion "mesa" con la misma decisión,
+     versión, huella de contenido y leyenda. Con otro aprobado_por o con otra vía, una fila de via mesa no vale (falla_fila_mesa).
 Las filas viejas de ig.py (sin hash) se leen y se dejan, pero nunca habilitan una publicación.
 """
 import csv, datetime as dt, hashlib, json, os, re, shutil, subprocess, sys
@@ -464,6 +470,10 @@ def cruce_con_estado(fila, filas, cola=None, estados=("aprobado", "subiendo")):
         suelto = agente_frenado(reglas)
         if suelto:
             return f"la fila es del agente y {suelto}: esa pieza necesita el 👍 de N"
+    elif es_mesa(fila):  # N en la mesa: firma de la mesa, nunca la cuenta de N; estado.json guarda lo que N dijo
+        mal = falla_fila_mesa(fila, _estado_json(fila["slug"], cola))
+        if mal:
+            return mal
     else:
         ap = aprobador_versionado()
         if not ap or fila["aprobado_por"].lower() != ap.lower():
@@ -477,7 +487,8 @@ def cruce_con_estado(fila, filas, cola=None, estados=("aprobado", "subiendo")):
         return "no hay estado.json de la pieza: la fila no salió de aprobar.py"
     if e.get("estado") not in estados:
         return f"estado.json dice {e.get('estado')!r}, no aprobado"
-    if str(e.get("version")) != fila["version"] or str(e.get("issue")) != fila["issue"]:
+    issue_e = str(e.get("issue") or "") if es_mesa(fila) else str(e.get("issue"))  # la pieza de la mesa puede no tener issue
+    if str(e.get("version")) != fila["version"] or issue_e != fila["issue"]:
         return "la versión o el issue de la fila no son los de estado.json"
     if (e.get("hashes") or {}).get(fila["canal"]) != fila["hash"]:
         return "la huella de la fila no es la que guardó estado.json"
@@ -632,6 +643,45 @@ def es_auto(fila):
 def es_espera(razon):
     """True si la razón de verificar es el veto de N todavía abierto: espera, no error ni caducada."""
     return str(razon or "").startswith((ESPERA, ESPERA_VIVA))
+
+
+# ---------- aprobación de N en la mesa (via = mesa; N, 24-nov-2026, opción A de ARTEFACTO-APROBACION.md) ----------
+# N decide en el artefacto de la mesa; la mesa lo registra aquí con su propia firma. Nunca se escribe con el usuario de N ni se
+# imita su 👍 (D-301: el 👍 es de N; D-461 y D-520: el agente aprobador firma con su propia fila). La escribe solo
+# `aprobar.py mesa`, que además exige la huella de contenido de la decisión igual a la de la pieza en la cola.
+VIA_MESA = "mesa"
+DECISIONES_MESA = ("aprobar", "aprobar_con_nota")  # las únicas decisiones del artefacto que se registran
+LEYENDA_MESA = "aprobado por N en la mesa, "
+FILA_MESA = "Aprobación de N en la mesa (via mesa)"  # fila_gobierno en decisiones-sistema.csv
+
+
+def es_mesa(fila):
+    """True si la fila dice ser de la mesa por la firma o por la vía. Una fila así solo vale entera (falla_fila_mesa): no se
+    cuela como fila de N con via mesa, ni como fila de la mesa con el usuario de N."""
+    return VIA_MESA in ((fila.get("aprobado_por") or "").strip().lower(), (fila.get("via") or "").strip().lower())
+
+
+def leyenda_mesa(decidido_utc, cita):
+    return f"{LEYENDA_MESA}{decidido_utc}: {cita}"
+
+
+def falla_fila_mesa(fila, e):
+    """'' si la fila de via mesa es la que escribe `aprobar.py mesa`; si no, la razón. e = estado.json de la pieza (o None)."""
+    if (fila.get("aprobado_por") or "").strip().lower() != VIA_MESA or (fila.get("via") or "").strip().lower() != VIA_MESA:
+        return "una fila de la mesa lleva la firma de la mesa (aprobado_por = via = mesa): no vale con el usuario de N ni con otra vía"
+    if not (fila.get("cita") or "").startswith(LEYENDA_MESA):
+        return "la fila de la mesa no trae la leyenda con las palabras literales de N"
+    e = e or {}
+    m = e.get("mesa")
+    if e.get("aprobacion") != VIA_MESA or not isinstance(m, dict):
+        return 'la fila es de la mesa y estado.json no trae aprobacion "mesa": la fila no salió de aprobar.py mesa'
+    if m.get("decision") not in DECISIONES_MESA or not str(m.get("cita") or "").strip():
+        return "estado.json no guarda una decisión de N que se registre (aprobar o aprobar_con_nota) con su cita literal"
+    if m.get("hash_contenido") != e.get("hash_contenido") or str(m.get("version")) != str(fila.get("version")):
+        return "la decisión de N en la mesa no es de esta versión ni de este contenido: hace falta una aprobación nueva"
+    if m.get("leyenda") != fila.get("cita") or fila.get("cita") != leyenda_mesa(m.get("decidido_utc"), m.get("cita")):
+        return "la leyenda de la fila no es la que guardó estado.json con las palabras de N"
+    return ""
 
 
 def reglas_vp():
