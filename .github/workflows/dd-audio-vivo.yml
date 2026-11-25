@@ -3,8 +3,10 @@
 # earn/naos/medicion/audio-vivo.csv. Solo lee Meta; escribe solo ese CSV.
 name: dd-audio-vivo
 on:
-  schedule:
-    - cron: "17 15 * * *"
+  # schedule off (org v3, 25-nov-2026): no crons that produce or publish; read-only measurement comes back only on N's word
+  # (SOURCE-OF-TRUTH 10.5). Re-enabling the workflow never starts a cron by itself; uncomment only with N's word.
+  # schedule:
+  #   - cron: "17 15 * * *"
   workflow_dispatch:
 permissions:
   contents: write

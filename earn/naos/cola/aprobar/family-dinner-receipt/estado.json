@@ -2,7 +2,7 @@
  "slug": "family-dinner-receipt",
  "issue": 54,
  "version": 1,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-24T21:35:00Z",
  "datos_utc": "",
  "hash_contenido": "e594656ec7f51c6e5010b4ed65738e580639c6162557f1b961b7b24373f98166",
@@ -18,5 +18,7 @@
  "sin_cifras": true,
  "tanda": "instagram-23-24-nov",
  "aprobado_evento_utc": "2026-11-06T10:43:02Z",
- "issue_n_system": 977
+ "issue_n_system": 977,
+ "retirado_utc": "2026-11-25T01:43:31Z",
+ "retirado_por": "N via Lauren, 24-nov"
 }

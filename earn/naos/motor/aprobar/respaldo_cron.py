@@ -14,8 +14,10 @@ import datetime as dt, json, os, re
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 FLUJOS = os.path.normpath(os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows"))
-RESPALDOS = {"fb-pagina.yml": {"de_verdad": "true"}, "dd-audio-aviso.yml": {}, "mercury-publicar.yml": {}, "dd-audio-vivo.yml": {},
+RESPALDOS = {"dd-audio-aviso.yml": {}, "dd-audio-vivo.yml": {},
              "dd-medir.yml": {"seco": "false"}}  # 20-nov: dd-medir (junta DD: sin corte desde el 18-nov 23:06Z)
+# 25-nov: fb-pagina.yml and mercury-publicar.yml left with the archive (archive/github-workflows/): nothing publishes on a
+# cron or a backup dispatch; posts go out only through publicar.yml on N's word.
 VENTANA = dt.timedelta(minutes=100)
 VIVO = dt.timedelta(hours=26)
 

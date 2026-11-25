@@ -1,0 +1,14 @@
+{
+  "_nota": "Proposal for N (25-nov-2026), not active: N adopts it by copying it over settings.json, or leaves it. Since the single publishing line (publicar.py, publicar.yml) is the only way out, no rule pre-approves a post. Removed from settings.json: the 7 rules that publish or dispatch outside the line (comentarios.py ronda --publicar --abrir, twice; comentarios.py responder and silenciar; programador.py --despachar, --subir-shorts, --aprobaciones) and the 3 stale ones (copia.py al-dia, copia.py guardar, fusionar.sh) and the push from /tmp/naos-main. Added: the line's dry test only. publicar.py itself stays unlisted on purpose: an allow rule cannot tell its dry run from --de-verdad, so every run of the line asks.",
+  "permissions": {
+    "allow": [
+      "Bash(python3 earn/naos/motor/prueba_publicar.py)"
+    ],
+    "deny": [
+      "Bash(env:*)",
+      "Bash(printenv:*)",
+      "Bash(set:*)",
+      "Read(//proc/**)"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
  "slug": "not-avoidant-hard-to-reach-moving",
  "issue": 108,
  "version": 1,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-24T22:15:00Z",
  "datos_utc": "",
  "hash_contenido": "bbcf4890c90ebd5a8a967553c7f736936f885aade9e06e5f4dc333070194b086",
@@ -21,5 +21,7 @@
  "datos_max_h": 12.0,
  "tanda": "piloto-corona-2428",
  "aprobado_evento_utc": "2026-11-15T14:15:56Z",
- "issue_n_system": 1555
+ "issue_n_system": 1555,
+ "retirado_utc": "2026-11-25T01:43:31Z",
+ "retirado_por": "N via Lauren, 24-nov"
 }

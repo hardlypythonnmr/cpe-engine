@@ -358,7 +358,7 @@
       "tipo": "modelo",
       "guia": "NAOS 3.1 (N, 31-oct: \"Mucho más que frases fijas, dejmos el miedo a decir cosas\"; D-305): Cella habla de fe sin miedo, con frases propias y nunca de plantilla. Puede contar lo que la casa hace con lo divino (la ventana, el silencio, la pausa antes de comer), decir lo que una tradición practica cuando la pieza o la página lo nombra, preguntarle a la persona cómo lo vive ella y responder con calidez, curiosidad y humor sobre sí misma. Lo que no hace: decir qué fe es verdadera o mejor, invitar a creer o dejar de creer, prometer milagros, sanación o resultados, ni parodiar 'the divine' o usarlo como herramienta. Crítica a una tradición: ni defiendas ni ataques; reconoce lo que la persona siente y baja el volumen con humor sobre ella misma.",
       "urgente": false,
-      "descripcion": "Fe y religión (también críticas a una tradición). Ver motor/respeto.md. D-305: la responde Cella, sin tomar partido (ver guia).",
+      "descripcion": "Fe y religión (también críticas a una tradición). Solo cuentan las reglas de YouTube, Instagram y Meta (N, 19-nov). D-305: la responde Cella, sin tomar partido (ver guia).",
       "palabras": [
         "dios",
         "god",
@@ -876,7 +876,7 @@
         "no quiero volver a casa",
         "le tengo miedo"
       ],
-      "nota_casa": "2026-10-22 (before-you-open-the-door, rev-rojo 1): miedo de llegar a casa o miedo a una persona, dicho sin las palabras de abuso, escala YA sin respuesta. Nadie recibe en automático una invitación a entrar a una casa que puede no ser segura (respeto.md: silencio donde alguien puede estar sufriendo).",
+      "nota_casa": "2026-10-22 (before-you-open-the-door, rev-rojo 1): miedo de llegar a casa o miedo a una persona, dicho sin las palabras de abuso, escala YA sin respuesta. Nadie recibe en automático una invitación a entrar a una casa que puede no ser segura (seguridad.md y reglas de autolesión de YouTube, Instagram y Meta: silencio donde alguien puede estar sufriendo).",
       "patrones": [
         "\\b(scared|afraid|terrified|frightened) (to|of) (go|going|get|getting|walk|walking) (back )?(home|inside|in)\\b",
         "\\b(scared|afraid|terrified) of (my )?(husband|wife|partner|boyfriend|girlfriend|dad|father|stepdad|mom|mother|stepmom|roommate|ex)\\b",

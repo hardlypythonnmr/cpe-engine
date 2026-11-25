@@ -9,11 +9,15 @@ import os, subprocess, tempfile, unittest
 import yaml
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-FLUJOS = os.path.normpath(os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows"))
+FLUJOS = os.path.normpath(os.path.join(AQUI, "..", "..", "..", "..", "archive", "github-workflows"))  # 25-nov: archived; the line is publicar.yml
+
+
+VIVOS = os.path.normpath(os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows"))  # the ones still live (naos-ig-salud)
 
 
 def flujo(nombre):
-    with open(os.path.join(FLUJOS, nombre), encoding="utf-8") as f:
+    ruta = os.path.join(FLUJOS, nombre)
+    with open(ruta if os.path.exists(ruta) else os.path.join(VIVOS, nombre), encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 

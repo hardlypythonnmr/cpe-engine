@@ -1,0 +1,88 @@
+{
+ "_nota": "The channel registry of the publishing line (org v3, section 5). One entry per channel. It holds NAMES of secrets and repo variables, never values. publicar.py reads it; ig.py and youtube/ytapi.py take the current handles from here. The engine still calls Dee Dee 'mercury' inside (marca_motor): that is plumbing, it does not show. Change a handle, an id or a secret name here and nowhere else.",
+ "canales": {
+  "naos": {
+   "nombre": "NAOS",
+   "objetivo": "Strategies for life that make people choose friction.",
+   "marca_motor": "naos",
+   "valvula": "PUBLICAR_NAOS",
+   "ia_por_defecto": false,
+   "ia_nota": "AI disclosure is decided per piece: pieza.json 'sintetico' manda. This is only the default when a piece says nothing.",
+   "identidad": "n-system: content-production-enterprise/channels/naos/identity (Cella is the logo and the house)",
+   "pages": {
+    "repo": "hardlypythonnmr/naos",
+    "base": "https://hardlypythonnmr.github.io/naos",
+    "secreto": "NAOS_PAGINA_TOKEN"
+   },
+   "plataformas": {
+    "youtube": {
+     "activo": true,
+     "canal_id": "UC7Lo3rK5sEOWuDYhAaQKtNw",
+     "handle": "",
+     "canal_motor": "naos",
+     "secretos": ["GOOGLE_OAUTH_CLIENT_ID", "GOOGLE_OAUTH_CLIENT_SECRET", "GOOGLE_OAUTH_REFRESH_TOKEN"],
+     "opcionales": ["YOUTUBE_API_KEY"],
+     "nota": "GOOGLE_OAUTH_* are not cpe-engine secrets yet (CAPABILITIES gap 3). From the Action, NAOS YouTube stops at the keys step until N copies them; from a session that holds them it works."
+    },
+    "instagram": {
+     "activo": true,
+     "user_id": "17841452348710663",
+     "usuario": "naos.v3",
+     "api": "instagram",
+     "secretos": ["INSTAGRAM_TOKEN"],
+     "opcionales": ["YOUTUBE_API_KEY"],
+     "nota": "Instagram Login token; it expires 2026-12-15 (ig.py refrescar, needs N's go)."
+    },
+    "facebook": {
+     "activo": false,
+     "pagina_id": "",
+     "pagina_variable": "NAOS_FB_PAGE_ID",
+     "secretos": ["NAOS_FB_TOKEN"],
+     "nota": "Off (org v3: Facebook stays off as a platform). NAOS_FB_TOKEN failed its probe on 23-nov and NAOS has no Page id yet."
+    }
+   }
+  },
+  "deedee": {
+   "nombre": "Dee Dee",
+   "objetivo": "The cultural and political content N asks for.",
+   "marca_motor": "mercury",
+   "valvula": "PUBLICAR_DEEDEE",
+   "ia_por_defecto": false,
+   "ia_nota": "AI disclosure is decided per piece: pieza.json 'sintetico' manda. This is only the default when a piece says nothing.",
+   "identidad": "n-system: content-production-enterprise/channels/deedee/canal.json",
+   "nombre_nota": "Current handles until N renames the accounts after the platforms' limit (24-nov): Instagram @artdirection_dd, YouTube @debtdesiredirection.",
+   "pages": {
+    "repo_variable": "DD_PAGES_REPO",
+    "base_variable": "DD_PAGES_BASE",
+    "secreto": "DD_PAGINA_TOKEN",
+    "nota": "Dee Dee media never goes to the NAOS site (accion_reel.py guard). The repo and base live in the repo variables; test fixtures use hardlypythonnmr/mercury-now."
+   },
+   "plataformas": {
+    "youtube": {
+     "activo": true,
+     "canal_id": "UCytkPYhBZpN_wl9E4o0W19A",
+     "handle": "@debtdesiredirection",
+     "canal_motor": "mercury",
+     "secretos": ["DD_OAUTH_CLIENT_ID", "DD_OAUTH_CLIENT_SECRET", "DD_OAUTH_REFRESH_TOKEN"],
+     "opcionales": ["DD_YOUTUBE_API_KEY"]
+    },
+    "instagram": {
+     "activo": true,
+     "user_id": "17841441415985060",
+     "usuario": "artdirection_dd",
+     "api": "facebook",
+     "secretos": ["DD_INSTAGRAM_TOKEN"],
+     "opcionales": ["YOUTUBE_API_KEY"],
+     "nota": "Facebook Login (system user token, does not expire). The account id is the identity; the handle only warns if it changes."
+    },
+    "facebook": {
+     "activo": false,
+     "pagina_id": "1460531677137999",
+     "pagina_variable": "DD_FB_PAGE_ID",
+     "secretos": ["DD_INSTAGRAM_TOKEN"],
+     "nota": "Off (org v3: Facebook stays off as a platform). The Page works (last post 24-nov 04:53Z); turning it on is one line here, by PR, on N's word."
+    }
+   }
+  }
+ }
+}

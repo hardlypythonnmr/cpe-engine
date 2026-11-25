@@ -11,6 +11,7 @@ vista previa dentro. **`ok` o 👍 de N en ese issue es su aprobación**; sin el
 | `agente.json`, `agente.py` | el agente aprobador (D-461): la regla, el dictamen por pieza, el freno y el registro. Ver "Agente aprobador" |
 | `vp.json` | la regla de la aprobación del VP (D-274, D-322): desde cuándo, qué canales, regresos, horas de veto y exclusiones. La cambia solo un PR con el 👍 de N |
 | `plantilla-issue.md` | los textos fijos de los issues (inglés) |
+| `LEEME-MESA.md` | la orden `aprobar.py mesa` (`via = mesa`): lo que N aprobó en el artefacto de la mesa, registrado con la firma de la mesa |
 | `prueba_aprobar.py` | 202 pruebas sin red (más un repo git local con remoto), 43 de ellas de la tanda y 25 de la aprobación del VP (D-274): `python3 prueba_aprobar.py` |
 | `mesa_estado.py`, `prueba_mesa_estado.py` | la sección "Mesa" de `estado-hoy.md` (la engancha `estado.py`): tandas sin 👍, posibles salidas fallidas, falta de cierre y lo que sale en 6 h; sin red, solo lectura, 10 pruebas: `python3 mesa_estado.py` |
 | `prueba_retirar.py` | 14 pruebas sin red de `retirar` y de `retirar --bajar-shorts` (GitHub y YouTube simulados): `python3 prueba_retirar.py` |
@@ -55,7 +56,7 @@ huella: nunca habilitan una publicación.
 3. Vale hasta `vence_utc`. `subir.py` además exige que `--publicar-en` sea la hora que N aprobó.
 4. El último gesto de N no manda: **cualquier comentario que no sea `ok`, o un 👎, frena esa versión** y el `ok` posterior no la aprueba;
    hace falta `version` (vista previa nueva, otro 👍). Si ya estaba aprobada, además anula las filas (`procesar` lo hace al instante con un comentario).
-5. Solo cuenta el usuario `NAOS_APROBADOR` (variable del repo; por defecto el dueño), sobre la vista previa vigente.
+5. Solo cuenta el usuario `NAOS_APROBADOR` (variable del repo; por defecto el dueño), sobre la vista previa vigente. Una sola excepción: la fila `via = mesa`, firmada por la mesa con las palabras de N (`LEEME-MESA.md`).
    Los comentarios del propio script llevan `<!-- naos:... -->` y nunca cuentan como palabra de N.
 6. Cifras del titular con más de 12 h cuando N aprueba: caduca y se pide un 👍 nuevo. Sin `datos_utc` en `pieza.json` hay un `Fix`
    ("Data time missing"), salvo `"sin_cifras": true`: toda cifra lleva su fuente y su hora.

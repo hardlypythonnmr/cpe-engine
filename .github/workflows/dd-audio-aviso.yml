@@ -5,8 +5,10 @@
 # sale con su sonido propio (accion_reel.audio_para_publicar). Sin veto, sale con ese sonido.
 name: dd-audio-aviso
 on:
-  schedule:
-    - cron: "37 * * * *"
+  # schedule off (org v3, 25-nov-2026): no crons that produce or publish; read-only measurement comes back only on N's word
+  # (SOURCE-OF-TRUTH 10.5). Re-enabling the workflow never starts a cron by itself; uncomment only with N's word.
+  # schedule:
+  #   - cron: "37 * * * *"
   workflow_dispatch:
     inputs:
       seco:

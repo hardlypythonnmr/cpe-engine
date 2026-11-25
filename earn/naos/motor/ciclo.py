@@ -35,7 +35,7 @@ FASES = {
     "abanico": ["angulos.md", "preguntas/r1.md"],
     "investigar": ["asientos/filosofia.md", "asientos/psicologia.md", "asientos/arte.md", "afirmaciones.csv",
                    "asientos/viralidad.md", "asientos/produccion.md", "mesa.md", "ciclo.md",
-                   "rojo-hechos.md", "rojo-respeto.md", "rojo-gusto.md", "preguntas/r2.md"],
+                   "rojo-hechos.md", "rojo-gusto.md", "preguntas/r2.md"],
     "producir": ["fichas/short.md", "fichas/micro.md", "fichas/largo.md", "hipotesis.md", "animatica/short.mp4",
                  "animatica/micro.mp4", "animatica/largo.mp4", "preguntas/r3.md"],
     "render": ["short/naos.mp4", "micro/naos.mp4"],

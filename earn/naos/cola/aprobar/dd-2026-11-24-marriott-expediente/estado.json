@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-24-marriott-expediente",
  "issue": 16,
  "version": 2,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-24T21:00:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "c89f2ba5e86ebd7240cd55516006ef5f4f780f3aa3bcf1dbec372bbe31b3189f",
@@ -20,5 +20,7 @@
  "tanda": "dd-reserva-1730-b",
  "caducado_utc": "2026-11-14T23:33:00Z",
  "aprobado_evento_utc": "2026-11-14T23:58:12Z",
- "issue_n_system": 1332
+ "issue_n_system": 1332,
+ "retirado_utc": "2026-11-25T01:43:31Z",
+ "retirado_por": "N via Lauren, 24-nov"
 }

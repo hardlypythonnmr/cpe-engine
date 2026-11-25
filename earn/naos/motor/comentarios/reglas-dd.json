@@ -205,7 +205,7 @@
     "no quiero volver a casa",
     "le tengo miedo"
    ],
-   "nota_casa": "2026-10-22 (before-you-open-the-door, rev-rojo 1): miedo de llegar a casa o miedo a una persona, dicho sin las palabras de abuso, escala YA sin respuesta. Nadie recibe en automático una invitación a entrar a una casa que puede no ser segura (respeto.md: silencio donde alguien puede estar sufriendo).",
+   "nota_casa": "2026-10-22 (before-you-open-the-door, rev-rojo 1): miedo de llegar a casa o miedo a una persona, dicho sin las palabras de abuso, escala YA sin respuesta. Nadie recibe en automático una invitación a entrar a una casa que puede no ser segura (seguridad.md y reglas de autolesión de YouTube, Instagram y Meta: silencio donde alguien puede estar sufriendo).",
    "patrones": [
     "\\b(scared|afraid|terrified|frightened) (to|of) (go|going|get|getting|walk|walking) (back )?(home|inside|in)\\b",
     "\\b(scared|afraid|terrified) of (my )?(husband|wife|partner|boyfriend|girlfriend|dad|father|stepdad|mom|mother|stepmom|roommate|ex)\\b",

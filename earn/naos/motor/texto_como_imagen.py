@@ -12,7 +12,7 @@ los renglones solo en espacios. El script comprueba que unir los renglones con u
 de la primera línea `# completo: ...` si existe, y con uharfbuzz que ningún carácter cae en .notdef, que la
 dirección es la pedida y que los grupos cubren el texto. Deja también el .html al lado del .png.
 
-Reglas: legible y con su fuente; crédito y licencia según licencias.md (respeto.md, D-336).
+Reglas: legible y con su fuente; crédito y licencia según licencias.md; solo cuentan las reglas de YouTube, Instagram y Meta (N, 19-nov).
 """
 import argparse
 import glob

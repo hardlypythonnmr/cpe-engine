@@ -324,7 +324,7 @@ def tabla_mas():
         ("Decisiones anuladas", "`historia/decisiones-anuladas.md`"),
         ("Palabras literales de N", "`historia/respuestas/naos.md` (384 KB): solo grep por tema o por fecha"),
         ("Tema, quién aprueba, qué sale", "`REGLAS.md`: " + sec("REGLAS.md", "Tema y lema", "Quién decide y quién aprueba", "Qué sale y cuándo")),
-        ("Cómo habla NAOS, texto, Cella, respeto", "`REGLAS.md`: " + sec("REGLAS.md", "Cómo habla NAOS", "Texto en pantalla", "Cella y la casa", "Respeto a las tradiciones")),
+        ("Cómo habla NAOS, texto, Cella, plataformas", "`REGLAS.md`: " + sec("REGLAS.md", "Cómo habla NAOS", "Texto en pantalla", "Cella y la casa", "Reglas de plataforma")),
         ("Voz, aprobación, medición, Claude, Mercury", "`REGLAS.md`: " + sec("REGLAS.md", "Voz sintética", "Aprobación y publicación", "Medición", "Uso de Claude", "Mercury")),
         ("Términos internos", "`REGLAS.md`: " + sec("REGLAS.md", "Glosario")),
         ("Tipos de pieza y camino de producción", "`" + MAPA + "`: " + sec(MAPA, "2. Tipos de contenido", "3. El camino de producción")),
