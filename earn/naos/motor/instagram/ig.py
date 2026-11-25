@@ -103,8 +103,8 @@ Las órdenes sin slug (yo, cupo, estado, salud, refrescar) llevan --marca mercur
 Errores de Meta: cada error queda en errores.csv (hora UTC, ruta sin parámetros, HTTP, code, error_subcode, type, clase y
 el mensaje sin token) y se clasifica: INVALIDADO, VENCIDO, CHECKPOINT, APP_QUITADA, PERMISO, MEDIA, LIMITE, TRANSITORIO, TOKEN, OTRO.
 
-Video en GitHub Pages: copiar el mp4 a `assets/reels/<slug>.mp4` en hardlypythonnmr/naos, push a main y esperar el
-despliegue; la URL queda https://hardlypythonnmr.github.io/naos/assets/reels/<slug>.mp4. Subirlo ahí ya lo hace
+Video en GitHub Pages: copiar el mp4 a `assets/reels/<slug>.mp4` en hardlypythonnmr/naos-site, push a main y esperar el
+despliegue; la URL queda https://hardlypythonnmr.github.io/naos-site/assets/reels/<slug>.mp4. Subirlo ahí ya lo hace
 público por URL, así que se sube solo lo que N aprobó para publicar.
 """
 import argparse, csv, datetime as dt, hashlib, json, os, re, shutil, subprocess, sys, time, urllib.error, urllib.parse, urllib.request

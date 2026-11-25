@@ -58,7 +58,7 @@ when it is not set in the environment, and prints what it read. Never export the
 sidesteps N's setting. If `gh` cannot read it, the run stops at `valvula: unset`; tell N.
 
 From a session, a live Instagram or Facebook post also needs a checkout of the channel's Pages repo (NAOS:
-`hardlypythonnmr/naos`; Dee Dee: the repo in `DD_PAGES_REPO`) at `./sitio`, or at the path in `PUBLICAR_SITIO`. The
+`hardlypythonnmr/naos-site`, renamed from `naos` on 25-nov-2026; Dee Dee: the repo in `DD_PAGES_REPO`) at `./sitio`, or at the path in `PUBLICAR_SITIO`. The
 Action makes that checkout itself.
 
 The rule for both: run it dry first (`seco=true`, or no `--de-verdad`). Show N what it says. Run it live

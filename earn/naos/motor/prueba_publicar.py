@@ -102,7 +102,7 @@ class TestNaos(Linea):
         self.assertEqual((datos[2], pagina[2], pub[2]), ("datos", "pagina", "publicar"))
         self.assertIn("--naos", pagina)
         self.assertNotIn("esperar", [a[2] for a in (datos, pagina, pub)])  # no waits in the line
-        self.assertEqual(plan.entorno["NAOS_PAGES_BASE"], "https://hardlypythonnmr.github.io/naos/assets/reels")
+        self.assertEqual(plan.entorno["NAOS_PAGES_BASE"], "https://hardlypythonnmr.github.io/naos-site/assets/reels")
 
     def test_el_seco_de_subir_py_dice_que_la_aprobacion_esta_en_regla(self):
         """The real subir.py --seco, fed by the line's command: the mesa row is valid for that video, text and time."""
@@ -570,7 +570,7 @@ class TestFormatos(unittest.TestCase):
         plan, _ = self.plan("naos-reel", donde="facebook", de_verdad=True)
         fb = plan.pasos[-1]["argv"]
         self.assertEqual(fb[2:6], ["reel", "naos-reel", "--marca", "naos"])
-        self.assertEqual(fb[fb.index("--video") + 1], "https://hardlypythonnmr.github.io/naos/assets/reels/naos-reel.mp4")
+        self.assertEqual(fb[fb.index("--video") + 1], "https://hardlypythonnmr.github.io/naos-site/assets/reels/naos-reel.mp4")
         self.assertIn("--de-verdad", fb)
         self.pieza("hist", ["historia"])
         plan, _ = self.plan("hist", donde="facebook")
@@ -602,6 +602,17 @@ class TestRegistro(unittest.TestCase):
                 for n in p.get("secretos", []) + p.get("opcionales", []):
                     self.assertRegex(n, r"^[A-Z][A-Z0-9_]+$")  # a name, never a value
 
+    def test_el_sitio_de_naos_es_naos_site(self):
+        """25-nov-2026: the NAOS Pages repo was renamed naos -> naos-site (github.io/naos answers 404). Every live default agrees."""
+        pages = self.reg["naos"]["pages"]
+        self.assertTrue(pages["base"].endswith("/naos-site"), pages["base"])
+        self.assertEqual(pages["repo"], "hardlypythonnmr/naos-site")
+        ar = _cargar("accion_reel_sitio", os.path.join(AQUI, "instagram", "accion_reel.py"))
+        self.assertEqual(ar.REPO_NAOS, pages["repo"])
+        self.assertIn("hardlypythonnmr/naos", ar.REPO_NAOS_ANTES)  # the old name still counts as NAOS for the Dee Dee guard
+        fuente = "".join(open(os.path.join(AQUI, f), encoding="utf-8").read() for f in ("fb_ronda.py", "sombra_tanda.py", "instagram/accion_reel.py"))
+        self.assertNotRegex(fuente, r"github\.io/naos(?![-\w])")
+
     def test_ig_y_youtube_toman_las_cuentas_del_registro(self):
         ig = _cargar("ig_registro", os.path.join(AQUI, "instagram", "ig.py"))
         self.assertEqual(ig.CUENTAS["mercury"]["username"], "artdirection_dd")
@@ -619,7 +630,7 @@ class TestRegistro(unittest.TestCase):
         self.assertEqual([k[f"v{i}"] for i in range(1, 5) if k[f"v{i}"]], ["PUBLICAR_DEEDEE", "DD_PAGES_REPO", "DD_PAGES_BASE"])
         self.assertEqual((k["pages_repo"], k["pages_repo_variable"], k["hospedar"]), ("", "DD_PAGES_REPO", "true"))
         k = publicar.llaves_para_action(self.reg, "naos", "youtube", "retirar")
-        self.assertEqual((k["s1"], k["pages_repo"], k["hospedar"]), ("GOOGLE_OAUTH_CLIENT_ID", "hardlypythonnmr/naos", "false"))
+        self.assertEqual((k["s1"], k["pages_repo"], k["hospedar"]), ("GOOGLE_OAUTH_CLIENT_ID", "hardlypythonnmr/naos-site", "false"))
         e = publicar.entorno_desde_action({"LINEA_S1_NOMBRE": "DD_INSTAGRAM_TOKEN", "LINEA_S1": "t", "LINEA_S2_NOMBRE": "x; rm", "LINEA_S2": "v",
                                            "LINEA_V1_NOMBRE": "PUBLICAR_DEEDEE", "LINEA_V1": "on", "LINEA_S3_NOMBRE": "", "LINEA_S3": ""})
         self.assertEqual((e["DD_INSTAGRAM_TOKEN"], e["PUBLICAR_DEEDEE"]), ("t", "on"))

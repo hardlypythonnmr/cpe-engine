@@ -1146,7 +1146,7 @@ class AccionReelMercury(unittest.TestCase):
 
     def test_un_archivo_de_mercury_nunca_cae_en_el_checkout_de_naos(self):
         info = self.datos_mercury()
-        naos = self.sitio("naos-pagina", "hardlypythonnmr/naos")
+        naos = self.sitio("naos-pagina", "hardlypythonnmr/naos-site")
         otro = self.sitio("otro", "alguien/otro-repo")
         for sitio in (naos, otro):
             with mock.patch.object(self.ar, "cabecera", return_value=(None, "")), self.git_de_mentira() as git, self.assertRaises(SystemExit) as cm:
@@ -1163,7 +1163,7 @@ class AccionReelMercury(unittest.TestCase):
     def test_la_orden_pagina_no_le_pasa_el_checkout_de_naos_a_una_pieza_de_mercury(self):
         """accion_reel.py pagina --naos naos-pagina (sin --sitio-marca): se niega y el checkout de NAOS queda intacto."""
         self.datos_mercury()
-        naos = self.sitio("naos-pagina", "hardlypythonnmr/naos")
+        naos = self.sitio("naos-pagina", "hardlypythonnmr/naos-site")
         with mock.patch.object(sys, "argv", ["accion_reel.py", "pagina", "mercury-gta", "--dir", self.dir, "--naos", naos]), \
                 mock.patch.object(self.ar, "cabecera", return_value=(None, "")), self.assertRaises(SystemExit) as cm:
             self.ar.main()
@@ -1185,7 +1185,7 @@ class AccionReelMercury(unittest.TestCase):
                 "urls": ["https://hardlypythonnmr.github.io/mercury-now/assets/imagenes/mercury-img/imagen.jpg"]}
         os.environ["MERCURY_PAGES_REPO"] = "hardlypythonnmr/mercury-now"
         sitio = self.sitio("mercury-pagina", "hardlypythonnmr/mercury-now")
-        naos = self.sitio("naos-pagina", "hardlypythonnmr/naos")
+        naos = self.sitio("naos-pagina", "hardlypythonnmr/naos-site")
         servido = iter([(None, ""), ("150", "image/jpeg")])
         with mock.patch.object(self.ar, "cabecera", side_effect=lambda u: next(servido)), self.git_de_mentira(), contextlib.redirect_stdout(io.StringIO()):
             self.ar.pagina(info, naos=sitio)
@@ -1202,7 +1202,7 @@ class AccionReelMercury(unittest.TestCase):
         with mock.patch.object(registro, "ahora", return_value=self.sale), contextlib.redirect_stdout(io.StringIO()):
             info = self.ar.datos("uno", self.dir, self.cola, self.csv)
         self.assertEqual((info["marca"], info["video_url"]), ("naos", f"{self.ar.PAGES}/uno.mp4"))
-        self.assertEqual(self.ar.sitio_de(info, "naos-pagina"), ("naos-pagina", "hardlypythonnmr/naos"))
+        self.assertEqual(self.ar.sitio_de(info, "naos-pagina"), ("naos-pagina", "hardlypythonnmr/naos-site"))
         sitio = os.path.join(self.tmp.name, "naos-pagina")
         os.makedirs(sitio)
         peso, sha = os.path.getsize(info["video"]), registro.sha_archivo(info["video"])
@@ -1215,7 +1215,7 @@ class AccionReelMercury(unittest.TestCase):
         with mock.patch.object(self.ar, "cabecera", return_value=(None, "")), self.assertRaises(SystemExit) as cm:
             self.ar.pagina(info, naos=None)
         self.assertIn("falta el secreto NAOS_PAGINA_TOKEN", str(cm.exception))
-        self.assertIn("en hardlypythonnmr/naos, push a main", str(cm.exception))
+        self.assertIn("en hardlypythonnmr/naos-site, push a main", str(cm.exception))
 
     def test_el_reintento_consulta_la_cuenta_de_la_marca(self):
         e = os.path.join(self.cola, "mercury-gta", "estado.json")
