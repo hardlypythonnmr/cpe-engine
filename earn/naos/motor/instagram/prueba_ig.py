@@ -611,7 +611,7 @@ class AccionReelImagen(unittest.TestCase):
 
 
 TOKEN_M = "IGAAtokenFALSOdeMERCURY0987654321"
-YO_M = {"user_id": "999", "username": "done_damages", "account_type": "MEDIA_CREATOR"}
+YO_M = {"user_id": "999", "username": "artdirection_dd", "account_type": "MEDIA_CREATOR"}
 
 
 class Mercury(Base):
@@ -696,7 +696,7 @@ class Mercury(Base):
         with mock.patch.object(self.ig.urllib.request, "urlopen", red), self.assertRaises(SystemExit) as cm:
             self.ig.llamar_crudo("POST", "me/media", {"media_type": "REELS"})
         self.assertIn("NO SE PUBLICA", str(cm.exception))
-        self.assertIn("done_damages", str(cm.exception))
+        self.assertIn("artdirection_dd", str(cm.exception))
         self.assertEqual(len(red.llamadas), 1)  # solo la lectura de `me`
 
     def test_token_de_la_cuenta_de_naos_no_escribe(self):
@@ -757,18 +757,18 @@ class Mercury(Base):
         with mock.patch.object(self.ig.urllib.request, "urlopen", red):
             codigo, texto = self.ig.salud()
         self.assertEqual(codigo, 1)
-        self.assertIn("not @done_damages", texto)
+        self.assertIn("not @artdirection_dd", texto)
         red = meta({"me": YO_M, "me/content_publishing_limit": CUPO, "debug_token": (403, err(10))})
         with mock.patch.object(self.ig.urllib.request, "urlopen", red):
             codigo, texto = self.ig.salud(emitido="2026-11-11", ahora=dt.datetime(2026, 11, 13, tzinfo=UTC))
         self.assertEqual(codigo, 0, texto)
-        self.assertIn("@done_damages", texto)
+        self.assertIn("@artdirection_dd", texto)
         self.assertTrue(os.path.exists(os.path.join(self.tmp.name, "token_estado-mercury.json")))
         self.sin_token_en(os.path.join(self.tmp.name, "token_estado-mercury.json"))
 
 
 IDM = "17841400000000999"
-YO_FB = {"id": IDM, "username": "done_damages"}
+YO_FB = {"id": IDM, "username": "artdirection_dd"}
 
 
 class MercuryFacebook(Base):
@@ -877,11 +877,11 @@ class MercuryFacebook(Base):
             with self.assertRaises(SystemExit) as cm:
                 self.ig.llamar_crudo("POST", "me/media", {"media_type": "REELS"})
             self.assertIn("NO SE PUBLICA", str(cm.exception))
-            self.assertIn("done_damages", str(cm.exception))
+            self.assertIn("artdirection_dd", str(cm.exception))
             self.assertEqual(len(red.llamadas), 1)  # solo la lectura de identidad; el POST nunca salió
 
     def test_misma_cuenta_con_otro_usuario_avisa_y_no_frena(self):
-        # 19-nov: difficultdecisionhq pasó a done_damages; el número de la cuenta manda, el usuario solo avisa
+        # 19-nov: difficultdecisionhq pasó a artdirection_dd; el número de la cuenta manda, el usuario solo avisa
         self.ig._cuenta_vista = False
         self.red({IDM: {"id": IDM, "username": "otro_nombre"}})
         self.ig.comprobar_cuenta()
@@ -919,7 +919,7 @@ class MercuryFacebook(Base):
         codigo, texto = self.ig.salud()
         self.assertEqual(codigo, 0, texto)
         self.assertIn("does not expire", texto)
-        self.assertIn("@done_damages", texto)
+        self.assertIn("@artdirection_dd", texto)
         self.assertFalse(os.path.exists(self.ig.TOKEN_ESTADO))
         self.assertFalse(any("graph.instagram.com" in u for u in red.llamadas))
 
@@ -927,7 +927,7 @@ class MercuryFacebook(Base):
         self.red({IDM: {"id": IDM, "username": "otra"}, IDM + "/content_publishing_limit": CUPO})
         codigo, texto = self.ig.salud()
         self.assertEqual(codigo, 1)
-        self.assertIn("not @done_damages", texto)
+        self.assertIn("not @artdirection_dd", texto)
 
     def test_salud_token_rechazado_falla(self):
         self.red({IDM: (400, err(190, msg="Error validating access token: Session has expired"))})
@@ -954,11 +954,11 @@ class MercuryFacebook(Base):
 
     def test_comando_cuenta_por_paginas(self):
         red = self.red({"me": {"id": "U1", "name": "sistema"}, "me/permissions": PERMS,
-                        "me/accounts": {"data": [{"id": "P1", "instagram_business_account": {"id": IDM, "username": "done_damages"}}, {"id": "P2"}]},
+                        "me/accounts": {"data": [{"id": "P1", "instagram_business_account": {"id": IDM, "username": "artdirection_dd"}}, {"id": "P2"}]},
                         "P2": {"id": "P2"}, "me/businesses": {"data": []}})
         codigo, salida = self.cli("--marca", "mercury", "cuenta")
         self.assertEqual(codigo, 0, salida)
-        self.assertIn(IDM + "  @done_damages   <- esta es", salida)
+        self.assertIn(IDM + "  @artdirection_dd   <- esta es", salida)
         self.assertIn("DD_INSTAGRAM_USER_ID = " + IDM, salida)
         self.assertIn("[me] ", salida)
         self.assertNotIn(TOKEN_M, salida)
@@ -970,11 +970,11 @@ class MercuryFacebook(Base):
         self.ig.usar_marca("mercury")
         red = self.red({"me": {"id": "U1", "name": "sistema"}, "me/permissions": PERMS, "me/accounts": {"data": [{"id": "P1"}]}, "P1": {"id": "P1"},
                         "me/businesses": {"data": [{"id": "B1", "name": "Difficult Decision"}]},
-                        "B1/owned_instagram_accounts": {"data": [{"id": IDM, "username": "done_damages"}, {"id": "55", "username": "otra"}]},
+                        "B1/owned_instagram_accounts": {"data": [{"id": IDM, "username": "artdirection_dd"}, {"id": "55", "username": "otra"}]},
                         "B1/instagram_accounts": {"data": []}})
         codigo, salida = self.cli("--marca", "mercury", "cuenta")
         self.assertEqual(codigo, 0, salida)
-        self.assertIn(IDM + "  @done_damages   <- esta es", salida)
+        self.assertIn(IDM + "  @artdirection_dd   <- esta es", salida)
         self.assertIn("55  @otra", salida)
         self.assertEqual(self.rutas_llamadas(red), ["me", "me/permissions", "me/accounts", "P1", "me/businesses", "B1/owned_instagram_accounts", "B1/instagram_accounts"])
 
@@ -982,7 +982,7 @@ class MercuryFacebook(Base):
         red = self.red({"me": {"id": "U1", "name": "sistema"}, "me/permissions": PERMS, "me/accounts": {"data": []},
                         "me/businesses": (403, err(200, msg="(#200) business_management")),
                         "B9/owned_instagram_accounts": (400, err(100, msg="Unsupported get request")),
-                        "B9/instagram_accounts": {"data": [{"id": IDM, "username": "done_damages"}]}})
+                        "B9/instagram_accounts": {"data": [{"id": IDM, "username": "artdirection_dd"}]}})
         codigo, salida = self.cli("--marca", "mercury", "cuenta", "--negocio", "B9")
         self.assertEqual(codigo, 0, salida)
         self.assertIn("[me/businesses] error de Meta: code=200", salida)
@@ -1012,7 +1012,7 @@ class MercuryFacebook(Base):
                   "me/businesses": (403, err(200, msg="(#200) permission"))})
         codigo, salida = self.cli("--marca", "mercury", "cuenta")
         self.assertEqual(codigo, 1)
-        self.assertIn("No encontré @done_damages", salida)
+        self.assertIn("No encontré @artdirection_dd", salida)
         self.assertIn("pages_show_list", salida)
         self.assertIn("business_management", salida)
         self.assertIn("--negocio", salida)
@@ -1028,7 +1028,7 @@ class MercuryFacebook(Base):
 
     def test_comando_cuenta_pagina_por_id_sin_business_management(self):
         red = self.red({"me": {"id": "U1", "name": "sistema"}, "me/permissions": PERMS, "me/accounts": {"data": [{"id": "P1", "name": "Done Damages"}]},
-                        "P1": {"id": "P1", "instagram_business_account": {"id": IDM, "username": "done_damages"}},
+                        "P1": {"id": "P1", "instagram_business_account": {"id": IDM, "username": "artdirection_dd"}},
                         "me/businesses": (403, err(200, msg="(#200) Requires business_management permission to manage the object"))})
         codigo, salida = self.cli("--marca", "mercury", "cuenta")
         self.assertEqual(codigo, 0, salida)
@@ -1040,7 +1040,7 @@ class MercuryFacebook(Base):
                   "me/businesses": {"data": []}})
         codigo, salida = self.cli("--marca", "mercury", "cuenta")
         self.assertEqual(codigo, 1)
-        self.assertIn("ninguna es @done_damages", salida)
+        self.assertIn("ninguna es @artdirection_dd", salida)
 
     def test_comando_cuenta_para_naos_no_llama(self):
         red = self.red({})

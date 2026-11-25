@@ -1,0 +1,188 @@
+# publicar: the single publishing line (org v3, section 5). By hand only (workflow_dispatch); no cron, no waits.
+# One Action for both channels: the channel is an input and every account, secret NAME and Pages repo comes from
+# earn/naos/motor/canales.json. The steps live in earn/naos/motor/publicar.py: validate, valve (repo variable
+# PUBLICAR_NAOS or PUBLICAR_DEEDEE = on), N's approval row via mesa, keys, host media on Pages, atomic claim, publish or
+# schedule, record. seco (default true) runs every check and prints the commands; nothing is written or posted.
+# Lauren dispatches it on N's word: see PUBLICAR.md at the repo root for every case.
+# Security: third-party text (cita, campo, archivo) never goes inside a shell line or an expression: it travels in env and
+# reaches publicar.py as one argument each. Secrets are read by name from the registry (secrets[name]) and only in the run step.
+name: publicar
+run-name: publicar ${{ inputs.canal }} ${{ inputs.modo }} ${{ inputs.slug }} ${{ inputs.seco && '(seco)' || '' }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "the piece (cola/aprobar/<slug>); empty for perfil and comprobar"
+        type: string
+        default: ""
+      canal:
+        description: "naos or deedee"
+        type: choice
+        options: [naos, deedee]
+        default: naos
+      donde:
+        description: "youtube, instagram, facebook: one or several, comma separated (empty: the active ones)"
+        type: string
+        default: ""
+      cuando:
+        description: "now, or an ISO UTC time (2026-11-25T21:00:00Z)"
+        type: string
+        default: "now"
+      modo:
+        description: "publicar, programar, mover, retirar, perfil, comprobar, comentario"
+        type: choice
+        options: [publicar, programar, mover, retirar, perfil, comprobar, comentario]
+        default: publicar
+      seco:
+        description: "dry: checks and prints, writes and posts nothing"
+        type: boolean
+        default: true
+      cita:
+        description: "N's literal words (retirar, mover, perfil)"
+        type: string
+        default: ""
+      campo:
+        description: "perfil: banner, descripcion, palabras, marca-de-agua, fb-about, fb-description, fb-foto, fb-portada"
+        type: string
+        default: ""
+      archivo:
+        description: "perfil (YouTube): repo path of the file with the new value"
+        type: string
+        default: ""
+      opcion:
+        description: "perfil fb-foto or fb-portada: the image letter of dd_perfil.py"
+        type: string
+        default: ""
+
+permissions:
+  contents: write  # the claim tag and the ledger rows on main
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  linea:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SLUG: ${{ inputs.slug }}
+      CANAL: ${{ inputs.canal }}
+      DONDE: ${{ inputs.donde }}
+      CUANDO: ${{ inputs.cuando }}
+      MODO: ${{ inputs.modo }}
+      SECO: ${{ inputs.seco }}
+      CITA: ${{ inputs.cita }}
+      CAMPO: ${{ inputs.campo }}
+      ARCHIVO: ${{ inputs.archivo }}
+      OPCION: ${{ inputs.opcion }}
+      NAOS_SIN_GIT: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Inputs (format only; the line checks the rest)
+        run: |
+          python3 - <<'PY'
+          import os, re, sys
+          e = os.environ
+          ok = (re.fullmatch(r"([a-z0-9][a-z0-9-]{0,80})?", e["SLUG"]) and re.fullmatch(r"[a-z, ]{0,40}", e["DONDE"])
+                and re.fullmatch(r"now|\d{4}-\d\d-\d\dT\d\d:\d\d(:\d\d)?Z", e["CUANDO"]) and re.fullmatch(r"[a-z-]{0,20}", e["CAMPO"])
+                and re.fullmatch(r"([A-Za-z0-9._/-]{1,200})?", e["ARCHIVO"]) and ".." not in e["ARCHIVO"] and re.fullmatch(r"[a-z]?", e["OPCION"]))
+          sys.exit(0 if ok else "an input is not in its format (slug, donde, cuando, campo, archivo, opcion); nothing ran")
+          PY
+      - uses: actions/checkout@v7
+        id: checkout
+        with:
+          ref: main
+          fetch-depth: 1
+          lfs: false
+      - name: Keys this run needs (names from canales.json)
+        id: llaves
+        run: python3 earn/naos/motor/publicar.py --canal "$CANAL" --donde "$DONDE" --modo "$MODO" --llaves-action >> "$GITHUB_OUTPUT"
+      - name: Media of the piece (LFS, only this piece)
+        if: ${{ inputs.slug != '' }}
+        run: |
+          git lfs install --local
+          [ -d "earn/naos/cola/aprobar/${SLUG}" ] || { echo "no folder for ${SLUG}; the line will say so"; exit 0; }
+          git lfs pull --include "earn/naos/cola/aprobar/${SLUG}/*"
+      - name: ffmpeg and ffprobe (the Instagram checks read the video)
+        if: ${{ steps.llaves.outputs.hospedar == 'true' && !inputs.seco }}
+        run: |
+          command -v ffprobe >/dev/null && exit 0
+          for i in 1 2 3; do
+            timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg >/dev/null 2>&1 && exit 0
+            timeout 150 sudo apt-get update -qq >/dev/null 2>&1 || true
+            sleep $((i * 20))
+          done
+          echo "::warning::ffmpeg could not be installed; the line stops at the Instagram checks if the piece has video"
+      - name: The channel's Pages repo (media hosting)
+        if: ${{ steps.llaves.outputs.hospedar == 'true' && !inputs.seco }}
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ steps.llaves.outputs.pages_repo || vars[steps.llaves.outputs.pages_repo_variable] }}
+          token: ${{ secrets[steps.llaves.outputs.pages_secreto] }}
+          path: sitio
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /data/
+            /assets/reels/${{ inputs.slug }}.mp4
+            /assets/historias/${{ inputs.slug }}/
+            /assets/carruseles/${{ inputs.slug }}/
+            /assets/imagenes/${{ inputs.slug }}/
+      - name: Git identity
+        run: |
+          git config --global user.name "cpe-publicar"
+          git config --global user.email "cpe-publicar@users.noreply.github.com"
+      - name: The line
+        id: linea
+        env:
+          PUBLICAR_SITIO: sitio
+          LINEA_S1_NOMBRE: ${{ steps.llaves.outputs.s1 }}
+          LINEA_S1: ${{ secrets[steps.llaves.outputs.s1] }}
+          LINEA_S2_NOMBRE: ${{ steps.llaves.outputs.s2 }}
+          LINEA_S2: ${{ secrets[steps.llaves.outputs.s2] }}
+          LINEA_S3_NOMBRE: ${{ steps.llaves.outputs.s3 }}
+          LINEA_S3: ${{ secrets[steps.llaves.outputs.s3] }}
+          LINEA_S4_NOMBRE: ${{ steps.llaves.outputs.s4 }}
+          LINEA_S4: ${{ secrets[steps.llaves.outputs.s4] }}
+          LINEA_S5_NOMBRE: ${{ steps.llaves.outputs.s5 }}
+          LINEA_S5: ${{ secrets[steps.llaves.outputs.s5] }}
+          LINEA_S6_NOMBRE: ${{ steps.llaves.outputs.s6 }}
+          LINEA_S6: ${{ secrets[steps.llaves.outputs.s6] }}
+          LINEA_S7_NOMBRE: ${{ steps.llaves.outputs.s7 }}
+          LINEA_S7: ${{ secrets[steps.llaves.outputs.s7] }}
+          LINEA_S8_NOMBRE: ${{ steps.llaves.outputs.s8 }}
+          LINEA_S8: ${{ secrets[steps.llaves.outputs.s8] }}
+          LINEA_V1_NOMBRE: ${{ steps.llaves.outputs.v1 }}
+          LINEA_V1: ${{ vars[steps.llaves.outputs.v1] }}
+          LINEA_V2_NOMBRE: ${{ steps.llaves.outputs.v2 }}
+          LINEA_V2: ${{ vars[steps.llaves.outputs.v2] }}
+          LINEA_V3_NOMBRE: ${{ steps.llaves.outputs.v3 }}
+          LINEA_V3: ${{ vars[steps.llaves.outputs.v3] }}
+          LINEA_V4_NOMBRE: ${{ steps.llaves.outputs.v4 }}
+          LINEA_V4: ${{ vars[steps.llaves.outputs.v4] }}
+        run: |
+          args=(--canal "$CANAL" --modo "$MODO" --cuando "$CUANDO")
+          [ -n "$SLUG" ] && args+=(--slug "$SLUG")
+          [ -n "$DONDE" ] && args+=(--donde "$DONDE")
+          [ -n "$CITA" ] && args+=(--cita "$CITA")
+          [ -n "$CAMPO" ] && args+=(--campo "$CAMPO")
+          [ -n "$ARCHIVO" ] && args+=(--archivo "$ARCHIVO")
+          [ -n "$OPCION" ] && args+=(--opcion "$OPCION")
+          [ "$SECO" = "true" ] || args+=(--de-verdad)
+          python3 earn/naos/motor/publicar.py "${args[@]}"
+      - name: Save to main (publicados.csv, estado.json, the ledger)
+        if: ${{ always() && !inputs.seco && steps.checkout.outcome == 'success' && steps.linea.outcome != 'skipped' }}
+        run: |
+          git add -- earn/naos/motor/instagram/publicados.csv earn/naos/motor/instagram/errores*.csv \
+            earn/naos/motor/instagram/fb-publicados.csv earn/naos/medicion 2>/dev/null || true
+          [ -n "$SLUG" ] && [ -d "earn/naos/cola/aprobar/$SLUG" ] && git add -- "earn/naos/cola/aprobar/$SLUG/estado.json" 2>/dev/null
+          git diff --cached --quiet && { echo "nothing to save"; exit 0; }
+          git commit -q -m "publicar: $CANAL $MODO $SLUG"
+          for i in 1 2 3 4; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          echo "::error::could not save to main; the result is in this run's log"
+          exit 1

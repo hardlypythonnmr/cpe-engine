@@ -152,12 +152,29 @@ TOKEN_ESTADO = os.path.join(AQUI, "token_estado.json")  # huella, emisión y ven
 CUENTA = {"user_id": "17841452348710663", "username": "naos.v3"}
 # Una cuenta por marca. "token" es el NOMBRE de la variable; el valor nunca se escribe ni se imprime.
 CUENTAS = {"naos": {"token": "INSTAGRAM_TOKEN", "username": "naos.v3", "user_id": "17841452348710663", "sufijo": ""},
-           "mercury": {"token": "MERCURY_INSTAGRAM_TOKEN", "username": "done_damages", "user_id_env": "MERCURY_INSTAGRAM_USER_ID",
+           "mercury": {"token": "MERCURY_INSTAGRAM_TOKEN", "username": "artdirection_dd", "user_id_env": "MERCURY_INSTAGRAM_USER_ID",
                        "sufijo": "-mercury", "api": "facebook"},
            # 21-nov (seco): la misma cuenta naos.v3 por Facebook Login, solo para los Reels de NAOS del grupo tendencia (la API de
            # audio no existe en Instagram Login). accion_reel la pide con NAOS_IG_VIA=facebook; apagado mientras audio-ab no la encienda.
            "naos-fb": {"token": "NAOS_FB_TOKEN", "username": "naos.v3", "user_id": "17841452348710663", "sufijo": "-naosfb",
                        "api": "facebook"}}
+
+
+def _usuarios_del_registro(ruta=os.path.join(AQUI, "..", "canales.json")):
+    """motor/canales.json is the one place for the handles (org v3, the channel registry): the expected username of each
+    account comes from there. The account id (user_id / user_id_env) does not change here: it is the identity."""
+    try:
+        with open(ruta, encoding="utf-8") as f:
+            canales = json.load(f)["canales"]
+    except (OSError, ValueError, KeyError, TypeError):
+        return
+    for c in canales.values():
+        cuenta = ((c.get("plataformas") or {}).get("instagram") or {})
+        if c.get("marca_motor") in CUENTAS and cuenta.get("usuario"):
+            CUENTAS[c["marca_motor"]]["username"] = cuenta["usuario"]
+
+
+_usuarios_del_registro()
 MARCA = "naos"  # usar_marca() la cambia
 _cuenta_vista = False
 

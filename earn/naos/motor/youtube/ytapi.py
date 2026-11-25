@@ -28,7 +28,24 @@ class ErrorApi(Exception):
 
 
 def canales():
-    return json.load(open(os.path.join(AQUI, "canales.json"), encoding="utf-8"))["canales"]
+    with open(os.path.join(AQUI, "canales.json"), encoding="utf-8") as f:
+        return con_registro(json.load(f)["canales"])
+
+
+def con_registro(c, ruta=os.path.join(AQUI, "..", "canales.json")):
+    """motor/canales.json (the channel registry, org v3) is the one place for the channel id and handle: they win over
+    youtube/canales.json, which keeps the token prefix, the key name and the quota ledger. An empty value does not override."""
+    try:
+        with open(ruta, encoding="utf-8") as f:
+            registro_canales = json.load(f)["canales"]
+    except (OSError, ValueError, KeyError, TypeError):
+        return c
+    for canal in registro_canales.values():
+        y = (canal.get("plataformas") or {}).get("youtube") or {}
+        m = y.get("canal_motor")
+        if m in c:
+            c[m] = dict(c[m], **{k: y[k] for k in ("canal_id", "handle") if y.get(k)}, nombre=canal.get("nombre") or c[m].get("nombre"))
+    return c
 
 
 def config(canal):
