@@ -2,7 +2,7 @@
  "slug": "dd-2026-11-24-marriott-historia",
  "issue": 16,
  "version": 2,
- "estado": "aprobado",
+ "estado": "vetada",
  "sale_utc": "2026-11-24T22:00:00Z",
  "datos_utc": "2026-11-13T15:00:00Z",
  "hash_contenido": "6db6e1b24f780b440f136b28505a6283fd30c3fd51b6641bcfa221448eef6757",
@@ -28,5 +28,7 @@
    "a": "2026-11-24T22:00:00Z",
    "ok_n": "Mover 24, 25 y 27 (Rec.)"
   }
- ]
+ ],
+ "retirado_utc": "2026-11-25T01:43:31Z",
+ "retirado_por": "N via Lauren, 24-nov"
 }
