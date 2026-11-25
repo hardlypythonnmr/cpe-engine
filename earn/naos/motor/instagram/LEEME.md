@@ -35,10 +35,10 @@ cuya hora del Short + 4 min pasó, con Reel aprobado y sin publicar, y no más d
 Qué hace, en orden (los pasos están en `accion_reel.py`; el texto de terceros nunca pasa por el shell):
 
 1. Checkout de main (solo `motor/aprobar`, `motor/instagram`, la carpeta de la pieza) y, con `NAOS_PAGINA_TOKEN`, de
-   `hardlypythonnmr/naos` (`data/enlaces.json`, `data/semana.json` y `assets/reels/<slug>.mp4`).
+   `hardlypythonnmr/naos-site` (`data/enlaces.json`, `data/semana.json` y `assets/reels/<slug>.mp4`).
 2. `datos`: la fila de aprobación de N para ESE video y ese caption (`registro.verificar`, la misma compuerta de `ig.py`), el
    enlace del Short (`url_short` de la versión aprobada), el título y la cita de N (columna `cita`). Si el Reel ya salió, no hace nada.
-3. `pagina`: el mp4 en `https://hardlypythonnmr.github.io/naos/assets/reels/<slug>.mp4`. Si no está, lo copia con `NAOS_PAGINA_TOKEN`,
+3. `pagina`: el mp4 en `https://hardlypythonnmr.github.io/naos-site/assets/reels/<slug>.mp4`. Si no está, lo copia con `NAOS_PAGINA_TOKEN`,
    empuja a `naos` y espera el despliegue (hasta 15 min). Sin ese secreto falla con la nota: alguien tiene que subirlo a mano.
 4. `esperar` hasta la hora del Short + 4 min; `short`: el Short es público y con ese título (`ig.revisar_short`; Data API con
    `YOUTUBE_API_KEY`, si no oEmbed).
@@ -118,7 +118,7 @@ Paso a paso de una pieza (el Short sale primero; el Reel nunca antes que su Shor
 1. N aprueba la pieza en su issue (`ok` o 👍, ver `../aprobar/LEEME.md`). La Action escribe su aprobación en
    `publicados.csv` con la huella del video y el caption; hacer `git pull` antes de seguir.
 2. El Short ya está público en YouTube (`youtube/subir.py ... --slug <pieza>`, que tampoco sube sin esa aprobación ni antes de la hora aprobada si es `--publico`).
-3. El mp4 va a `assets/reels/<slug>.mp4` en `hardlypythonnmr/naos` (push a main, esperar el despliegue de Pages).
+3. El mp4 va a `assets/reels/<slug>.mp4` en `hardlypythonnmr/naos-site` (push a main, esperar el despliegue de Pages).
 4. `python3 ig.py revisar <url> --caption caption.txt --short-url <enlace del Short> --titulo "<título del Short>" --archivo <mp4>
    [--clave AAAA-MM-DD|slot --semana semana.json --enlaces enlaces.json]`: revisión sin llamar a Meta. Falla si el caption no trae
    el pie "More today: link in bio. Not financial advice." ni el título del Short; si el Short no es público de verdad (Data API
@@ -157,7 +157,7 @@ imagen ancha de N x 1080 por 1350 se corta en N láminas exactas: al deslizar pa
    `python3 ../aprobar/aprobar.py abrir <slug>` (la vista previa muestra las láminas en orden). Cuando N responde `ok` o pone 👍,
    `publicados.csv` recibe una fila de canal `carrusel` cuya huella es el hash de **todas las láminas en orden + el caption**.
    Cambiar una lámina, el orden o una coma anula la aprobación (`aprobar.py version`). `git pull` antes de seguir.
-4. **Subir las láminas** a una URL pública (por ejemplo `assets/carruseles/<slug>/noche-1.jpg ...` en `hardlypythonnmr/naos`,
+4. **Subir las láminas** a una URL pública (por ejemplo `assets/carruseles/<slug>/noche-1.jpg ...` en `hardlypythonnmr/naos-site`,
    push a main, esperar Pages). Solo lo que N aprobó.
 5. **Revisar.** `python3 ig.py revisar-carrusel <url1> ... <urlN> --archivos noche-1.jpg ... noche-N.jpg --caption caption.txt`.
    Sin llamar a Meta (solo un HEAD a cada URL). Falla si: no son de 2 a 10; una no es JPEG (o es MPO), pesa más de 8 MB, no es 4:5
@@ -215,7 +215,7 @@ ubicación). Por eso el contenedor lleva solo `media_type=STORIES` y `image_url`
    (interno, no sale), `sale_utc` y `datos_utc` (o `"sin_cifras": true`); sin `caption` (si lo lleva, `abrir` lo marca Fix: no se publicaría).
    `python3 ../aprobar/aprobar.py abrir <slug>`. Cuando N responde `ok` o pone 👍, `publicados.csv` recibe una fila de canal `historia` con
    el hash del archivo. Cambiar el archivo anula la aprobación (`aprobar.py version`). `git pull` antes de seguir.
-3. **Subir el archivo** a una URL pública (por ejemplo `assets/historias/<slug>.jpg` en `hardlypythonnmr/naos`, push a main, esperar Pages).
+3. **Subir el archivo** a una URL pública (por ejemplo `assets/historias/<slug>.jpg` en `hardlypythonnmr/naos-site`, push a main, esperar Pages).
    Solo lo que N aprobó.
 4. **Revisar.** `python3 ig.py revisar-historia <url> --archivo historia.jpg`. Sin llamar a Meta (solo un HEAD a la URL). Falla si el
    archivo no es JPEG ni .mp4/.mov, si la imagen es MPO, pesa más de 8 MB o no mide 1080x1920, si el video dura menos de 3 s o más de

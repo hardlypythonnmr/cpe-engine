@@ -27,7 +27,7 @@ import fb_pagina as fp  # noqa: E402
 import registro  # noqa: E402
 
 PAGINA_NAOS = "1475549812298550"
-SITIO_NAOS = "https://hardlypythonnmr.github.io/naos"
+SITIO_NAOS = "https://hardlypythonnmr.github.io/naos-site"  # renamed from /naos (25-nov-2026)
 CANALES = ("reel", "imagen", "carrusel")
 
 

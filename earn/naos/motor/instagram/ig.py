@@ -73,7 +73,7 @@ false = solo Reels. https://developers.facebook.com/docs/instagram-platform/inst
   python3 ig.py refrescar                            renueva el token de 60 días (ver abajo)
   python3 ig.py salud [--emitido AAAA-MM-DD] [--dias 10]
                                                      token vivo, de naos.v3, cupo y vencimiento; sale con 1 si el token
-                                                     no sirve o vence en 10 días o menos (lo corre naos-ig-salud.yml)
+                                                     no sirve o vence en 10 días o menos (lo corre medir.yml, una vez al día)
 
 --prueba manda trial_params (Trial Reels: se muestra primero a no seguidores). El 2026-10-14 Meta lo rechazó con
 2207081 "Trial Reel Not Enough Followers" (la cuenta tenía 3); vuelve a probarse cuando la cuenta pase el mínimo.
@@ -103,8 +103,8 @@ Las órdenes sin slug (yo, cupo, estado, salud, refrescar) llevan --marca mercur
 Errores de Meta: cada error queda en errores.csv (hora UTC, ruta sin parámetros, HTTP, code, error_subcode, type, clase y
 el mensaje sin token) y se clasifica: INVALIDADO, VENCIDO, CHECKPOINT, APP_QUITADA, PERMISO, MEDIA, LIMITE, TRANSITORIO, TOKEN, OTRO.
 
-Video en GitHub Pages: copiar el mp4 a `assets/reels/<slug>.mp4` en hardlypythonnmr/naos, push a main y esperar el
-despliegue; la URL queda https://hardlypythonnmr.github.io/naos/assets/reels/<slug>.mp4. Subirlo ahí ya lo hace
+Video en GitHub Pages: copiar el mp4 a `assets/reels/<slug>.mp4` en hardlypythonnmr/naos-site, push a main y esperar el
+despliegue; la URL queda https://hardlypythonnmr.github.io/naos-site/assets/reels/<slug>.mp4. Subirlo ahí ya lo hace
 público por URL, así que se sube solo lo que N aprobó para publicar.
 """
 import argparse, csv, datetime as dt, hashlib, json, os, re, shutil, subprocess, sys, time, urllib.error, urllib.parse, urllib.request

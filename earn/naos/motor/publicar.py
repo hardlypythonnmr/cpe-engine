@@ -25,9 +25,10 @@ Steps, in a straight line, for every mode:
 
 Modes:
   publicar     post now (Instagram, Facebook); YouTube schedules with publishAt at the approved time (15 min ahead or more)
-  programar    YouTube: same as publicar (publishAt is native scheduling). Instagram has no native scheduling: the line
-               prints the one-off dispatch for the time (a Claude scheduled task that runs `gh workflow run publicar.yml`,
-               or with --cron a one-off workflow file publicar-una-vez-<slug>.yml that Lauren pushes and removes)
+  programar    YouTube: same as publicar (publishAt is native scheduling). Instagram has no native scheduling: with --cron
+               the line writes a one-off workflow file publicar-una-vez-<slug>.yml that dispatches publicar.yml at the time
+               and disables itself (N's decision, 25-nov-2026); Lauren pushes it and removes it after it fired.
+               --cuando now on Instagram means the approved time (plus 5 minutes when the piece also has a Short)
   mover        YouTube: move an uploaded, scheduled video to --cuando (aprobar.py mover-fecha)
   retirar      YouTube: private and without date (idiomas.quitar_fecha through agente.bajar_shorts), also when it is
                already public. Instagram and Facebook: no API; the line says what N does by hand
@@ -37,7 +38,14 @@ Modes:
   comprobar    read-only: ig.py salud, canal.py estado, the Page id. No valve
   comentario   the approved first comment of a piece (comentarios/fijar.py)
 
-Old per-channel scripts are library functions the line calls; it adds no platform client of its own. No cron, no waits.
+From a session (N's decision, 25-nov-2026: one route): each platform in --donde runs here when its keys are in this
+environment; the others go to publicar.yml in one dispatch (`gh workflow run publicar.yml -R hardlypythonnmr/cpe-engine`
+with the same slug, canal, modo, cuando and seco). The valve and N's approval are checked here for every platform first;
+the dispatched run checks them again. Each platform goes one way only, and the claim tags are the same on both routes, so
+a session and an Action never post the same platform twice. Seco prints the dispatch command and never runs it. Inside
+the Action (GITHUB_ACTIONS=true) nothing is dispatched: a missing key stops the run.
+
+Old per-channel scripts are library functions the line calls; it adds no platform client of its own. No standing cron, no waits.
 """
 import argparse, csv, datetime as dt, json, os, re, shlex, subprocess, sys, tempfile
 
@@ -65,6 +73,8 @@ CAMPOS_YT = ("banner", "descripcion", "palabras", "marca-de-agua")
 CAMPOS_FB = ("fb-about", "fb-description", "fb-foto", "fb-portada")
 MARGEN_YT = dt.timedelta(minutes=15)  # publishAt has to be in the future; the same margin as programador.MARGEN_SHORT
 VENTANA_IG = dt.timedelta(minutes=10)  # an Instagram post fired for a time may start this much before it
+DESPUES_SHORT = dt.timedelta(minutes=5)  # programar Instagram with cuando=now: the Reel goes this long after the Short's time
+REPO_LINEA = "hardlypythonnmr/cpe-engine"
 SCRIPTS = {
     "subir": os.path.join(AQUI, "youtube", "subir.py"),
     "canal": os.path.join(AQUI, "youtube", "canal.py"),
@@ -96,6 +106,8 @@ def secretos_de(canal_cfg, plataformas, modo):
     """The secret NAMES the run needs: each platform's, plus the Pages token when media has to be hosted."""
     nombres = []
     for p in plataformas:
+        if modo == "programar" and p in ("instagram", "facebook"):
+            continue  # it only writes the one-off workflow file; the Action that file dispatches holds the keys
         nombres += canal_cfg["plataformas"][p].get("secretos", [])
     if modo == "publicar" and set(plataformas) & {"instagram", "facebook"}:
         nombres.append(canal_cfg["pages"]["secreto"])
@@ -111,6 +123,15 @@ def variables_de(canal_cfg, plataformas, modo):
     if "facebook" in plataformas and canal_cfg["plataformas"]["facebook"].get("pagina_variable"):
         nombres.append(canal_cfg["plataformas"]["facebook"]["pagina_variable"])
     return list(dict.fromkeys(nombres))
+
+
+def faltan_llaves(canal_cfg, plataformas, modo, entorno):
+    """The secret and variable NAMES the run needs on these platforms that are not in the environment (names only)."""
+    faltan = [n for n in secretos_de(canal_cfg, plataformas, modo) if not presente(n, entorno)]
+    if modo == "publicar" and set(plataformas) & {"instagram", "facebook"}:
+        pages = canal_cfg["pages"]
+        faltan += [pages[k] for k in ("repo_variable", "base_variable") if pages.get(k) and not presente(pages[k], entorno)]
+    return faltan
 
 
 def presente(nombre, entorno):
@@ -157,8 +178,9 @@ class Plan:
     def fallas(self):
         return [f"{n}: {f}" for n, f in self.chequeos if f]
 
-    def paso(self, plataforma, que, argv=None, funcion=None, reclamo=None, libro=True):
-        self.pasos.append({"plataforma": plataforma, "que": que, "argv": argv, "funcion": funcion, "reclamo": reclamo, "libro": libro})
+    def paso(self, plataforma, que, argv=None, funcion=None, reclamo=None, libro=True, resultado="ok"):
+        self.pasos.append({"plataforma": plataforma, "que": que, "argv": argv, "funcion": funcion, "reclamo": reclamo, "libro": libro,
+                           "resultado": resultado})
 
 
 def lista_donde(texto):
@@ -205,8 +227,9 @@ def compuerta_real(slug, fila, cola, publicados=None):
     return None, r
 
 
-def planear(a, reg, entorno, cola=COLA, publicados=None, ahora=None, compuerta=compuerta_real, trabajo=None):
-    """Builds the plan with every check. Nothing here writes, posts or calls the network."""
+def planear(a, reg, entorno, cola=COLA, publicados=None, ahora=None, compuerta=compuerta_real, trabajo=None, rutear=False):
+    """Builds the plan with every check. Nothing here writes, posts or calls the network. rutear (a session): a platform
+    whose keys are not in the environment goes to publicar.yml in one dispatch step instead of stopping at the keys."""
     ahora = ahora or registro.ahora()
     plan = Plan(a)
     plan.trabajo = trabajo or tempfile.mkdtemp(prefix="publicar-")
@@ -262,24 +285,48 @@ def planear(a, reg, entorno, cola=COLA, publicados=None, ahora=None, compuerta=c
         plan.chequeo("cita", "" if (a.cita or "").strip() else "--cita carries N's literal words (taking down, moving and profile edits are on N's word)")
     plan.filas = filas
 
-    # 4. keys (names only)
+    # 4. keys (names only). From a session, a platform without its keys here goes to the Action (one dispatch)
+    usables = [d for d in donde if d not in apagadas or a.modo == "comprobar"]
+    fuera = [d for d in usables if faltan_llaves(cfg, [d], a.modo, entorno)] if rutear else []
+    plan.fuera = fuera
+    locales = [d for d in donde if d not in fuera]
     if a.modo != "comprobar" or a.de_verdad:
-        faltan = [n for n in secretos_de(cfg, [d for d in donde if d not in apagadas or a.modo == "comprobar"], a.modo) if not presente(n, entorno)]
-        if a.modo == "publicar" and set(donde) & {"instagram", "facebook"}:
-            faltan += [cfg["pages"][k] for k in ("repo_variable", "base_variable") if cfg["pages"].get(k) and not presente(cfg["pages"][k], entorno)]
+        faltan = faltan_llaves(cfg, [d for d in usables if d not in fuera], a.modo, entorno)
         plan.chequeo("llaves", f"missing in the environment: {', '.join(faltan)}" if faltan else "")
     plan.entorno = entorno_motor(cfg, entorno)
 
-    # 5 to 7: the steps per platform
+    # 5 to 7: the steps per platform (here), then the dispatch of the rest (the Action)
     for d in donde:
+        if d in fuera:
+            if (a.modo, d) in MANUAL:
+                plan.manual.append(MANUAL[(a.modo, d)])
+            continue
         hacer = {"publicar": pasos_publicar, "programar": pasos_programar, "mover": pasos_mover, "retirar": pasos_retirar,
                  "perfil": pasos_perfil, "comprobar": pasos_comprobar, "comentario": pasos_comentario}[a.modo]
         hacer(plan, d, ahora)
         if (a.modo, d) in MANUAL:
             plan.manual.append(MANUAL[(a.modo, d)])
+    if fuera:
+        argv = orden_despacho(a, fuera, plan.t, entorno.get("PUBLICAR_REPO") or REPO_LINEA)
+        plan.paso(",".join(fuera), f"dispatch publicar.yml for {', '.join(fuera)} (its keys are cpe-engine secrets, not in this "
+                  "session; the Action reads the piece, estado.json and N's row from main and takes the same claim tags)",
+                  argv=argv, resultado="despachado")
     if a.modo == "perfil" and "youtube" in donde:
         plan.manual.append(AVATAR_YT)
     return plan
+
+
+def orden_despacho(a, donde, t, repo=REPO_LINEA):
+    """The dispatch of publicar.yml for the platforms this session has no keys for: the same slug, canal, modo, cuando and
+    seco. Third-party text (cita, campo, archivo, opcion) goes as one argument each, never through a shell."""
+    argv = ["gh", "workflow", "run", "publicar.yml", "-R", repo]
+    campos = [("slug", a.slug or ""), ("canal", a.canal), ("donde", ",".join(donde)), ("cuando", registro.a_utc(t) if t else "now"),
+              ("modo", a.modo), ("seco", "false" if a.de_verdad else "true")]
+    campos += [(k, (getattr(a, k, "") or "").strip()) for k in ("cita", "campo", "archivo", "opcion")]
+    for k, v in campos:
+        if v or k in ("canal", "donde", "cuando", "modo", "seco"):
+            argv += ["-f", f"{k}={v}"]
+    return argv
 
 
 def seco_flag(plan, flag="--seco"):
@@ -358,21 +405,26 @@ def pasos_programar(plan, d, ahora):
     a = plan.a
     if d == "youtube":
         return pasos_youtube_subir(plan, ahora)
-    if not plan.t:
-        plan.chequeo("cuando", f"modo programar on {d} needs --cuando <ISO UTC>; for now use modo publicar")
-        return
-    if plan.t < ahora:
-        plan.chequeo("cuando", f"{registro.a_utc(plan.t)} already passed")
+    t = plan.t
+    if not t:  # now = the approved time, as on YouTube; a Reel waits 5 minutes for its Short to be public
+        r = plan.filas.get(tipo_ig(plan.pieza)) or {}
+        sale = registro.de_utc(r.get("sale_utc") or "")
+        if not sale:
+            plan.chequeo("cuando", f"modo programar on {d} needs --cuando <ISO UTC> or an approved time (--cuando now); for now use modo publicar")
+            return
+        t = sale + (DESPUES_SHORT if "short" in ((plan.pieza or {}).get("canales") or ["short", "reel"]) else dt.timedelta(0))
+    if t < ahora:
+        plan.chequeo("cuando", f"{registro.a_utc(t)} already passed")
     if d == "facebook":
         plan.chequeo("facebook programar", "the line does not schedule Facebook posts: fire modo publicar at the time, like Instagram")
-    texto = despacho_una_vez(a.slug, a.canal, d, plan.t)
-    plan.paso(d, "one-off dispatch at the time (Instagram has no native scheduling)", funcion=lambda: print(texto), libro=False)
+    texto = despacho_una_vez(a.slug, a.canal, d, t)
+    plan.paso(d, f"one-off dispatch at {registro.a_utc(t)} (Instagram has no native scheduling)", funcion=lambda: print(texto), libro=False)
     if getattr(a, "cron", False):
         ruta = ruta_una_vez(a.slug)
         if os.environ.get("GITHUB_ACTIONS") == "true":
             plan.chequeo("cron", "an Action cannot write a workflow file (GITHUB_TOKEN has no workflows permission): run this from a session")
-        plan.paso(d, f"write {os.path.relpath(ruta, REPO)} (Lauren commits and pushes it, and removes it after it fires)",
-                  funcion=(lambda: escribir_una_vez(a.slug, a.canal, [d], plan.t)) if a.de_verdad else (lambda: print(yml_una_vez(a.slug, a.canal, [d], plan.t))),
+        plan.paso(d, f"write {os.path.relpath(ruta, REPO)} (Lauren commits and pushes it to main, and removes it after it fires)",
+                  funcion=(lambda: escribir_una_vez(a.slug, a.canal, [d], t)) if a.de_verdad else (lambda: print(yml_una_vez(a.slug, a.canal, [d], t))),
                   libro=True)
 
 
@@ -477,15 +529,14 @@ def orden_dispatch(slug, canal, donde, t):
 
 
 def despacho_una_vez(slug, canal, donde, t):
-    return (f"Instagram has no native scheduling. To post {slug} ({canal}) at {registro.a_utc(t)}, Lauren picks one:\n"
-            f"  A. a Claude scheduled task that runs once at {registro.a_utc(t)} (send_later or a one-shot task) with:\n"
-            f"       {orden_dispatch(slug, canal, donde, t)}\n"
-            f"  B. a one-off cron line: python3 earn/naos/motor/publicar.py --modo programar --slug {slug} --canal {canal} "
+    return (f"Instagram has no native scheduling. To post {slug} ({canal}) at {registro.a_utc(t)}: the self-removing one-off cron "
+            "(decided by N, 25-nov-2026):\n"
+            f"  python3 earn/naos/motor/publicar.py --modo programar --slug {slug} --canal {canal} "
             f"--donde {donde} --cuando {registro.a_utc(t)} --cron --de-verdad\n"
-            f"     writes {os.path.relpath(ruta_una_vez(slug), REPO)}; Lauren commits and pushes it; at the time it dispatches "
-            "publicar.yml and disables itself; afterwards Lauren removes the file (publicar.py --quitar-cron <slug>).\n"
-            "  Never a standing cron. The run at the time goes through every step again (valve, approval, keys, claim).\n"
-            "  Pending N (SOURCE-OF-TRUTH 10.3): until he approves A or B, fire modo publicar by hand on his word at the time.")
+            f"  writes {os.path.relpath(ruta_una_vez(slug), REPO)}; Lauren commits and pushes it to main; at the time it runs:\n"
+            f"       {orden_dispatch(slug, canal, donde, t)}\n"
+            "  and disables itself; afterwards Lauren removes the file (publicar.py --quitar-cron <slug>), commit and push.\n"
+            "  Never a standing cron. The run at the time goes through every step again (valve, approval, keys, claim).")
 
 
 def ruta_una_vez(slug):
@@ -626,7 +677,7 @@ def correr(plan, ejecutar=correr_orden, reclamar=reclamo_real, libro=LIBRO, ahor
             break
         if p["libro"]:
             url = (re.findall(r"https://\S+", salida) or [""])[-1]
-            hechos[p["plataforma"]] = ("ok", url)
+            hechos[p["plataforma"]] = (p.get("resultado") or "ok", url)
     t = ahora or registro.ahora()
     for plataforma, (resultado, detalle) in hechos.items():
         anotar_libro({"utc": registro.a_utc(t), "canal": a.canal, "slug": a.slug or "", "plataforma": plataforma, "modo": a.modo,
@@ -716,7 +767,7 @@ def main(argv=None):
     entorno = entorno_desde_action(dict(os.environ))
     if a.canal in reg:
         entorno = valvula_desde_repo(reg[a.canal], entorno)
-    plan = planear(a, reg, entorno)
+    plan = planear(a, reg, entorno, rutear=entorno.get("GITHUB_ACTIONS") != "true")
     return correr(plan)
 
 

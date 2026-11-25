@@ -104,3 +104,32 @@ Status: retired on 25-nov-2026 (state only), with `dd-2026-11-24-marriott-expedi
 - Battery without keys or network: before 49 OK, 24 FALLA, 4 SALTA; after 51 OK, 23 FALLA, 4 SALTA. No new failure
   (`prueba_disco.py` fails the same way at `a1e7e20` in this container).
 
+
+### Step 3 (cpe-engine), 25-nov-2026: N's decisions of 25-nov
+
+Branch `cpe/decisiones-25nov`, from `main` at `5810ffc`. Dry only: no live run, no dispatch, no write endpoint, no account touched.
+
+- One route from a session (N: "wire them in to make it one"). `publicar.py` (session form) runs each platform in
+  `--donde` locally when its keys are in the environment and sends the others to `publicar.yml` in one dispatch with the
+  same slug, canal, modo, cuando and seco. Valve and approval are checked first for every platform; seco only prints the
+  dispatch; inside the Action nothing is dispatched. Each platform goes one way, and the claim tags are the same on both
+  routes, so a session and an Action cannot both post one platform. Tests: `prueba_publicar.py` `TestUnaRutaDesdeLaSesion`,
+  `TestUnaRutaDeeDee`.
+- Instagram at a time: the self-removing one-off cron (`--cron`, `--quitar-cron`) is decided (N, 25-nov-2026). The
+  "Pending N" text is gone from the printed output and from PUBLICAR.md section 4; LEEME-MESA points to it (it had no
+  pending wording). Two fixes a test showed: `programar` on Instagram asked for the Instagram keys in the session, so a
+  Dee Dee one-off stopped at the keys though only the dispatched Action needs them; and `--cuando now` on Instagram now
+  means the approved time (plus 5 minutes when the piece also has a Short), so one command covers a Short and its Reel.
+- One daily read (N): `.github/workflows/medir.yml` (18:47 UTC, one job, read only, commits only `earn/naos/medicion/`
+  files) runs `earn/naos/motor/medir_diario.py`: `medir.py` and `ig.py salud` for both channels, ids from `canales.json`.
+  It never comments (the old token check commented on an issue). `dd-medir.yml` and `naos-ig-salud.yml` moved with
+  `git mv` to `archive/github-workflows/`. `medir.py` now measures without YouTube when a channel has no YouTube key or
+  token (it used to stop), and without Instagram when the token is missing for NAOS too. `respaldo_cron.py` no longer
+  backs up `dd-medir.yml` and does not back up `medir.yml` (one read a day).
+- The NAOS Pages repo was renamed on GitHub from `naos` to `naos-site` (`github.io/naos` answers 404). Updated:
+  `canales.json` (repo and base), `accion_reel.py` (default base and `REPO_NAOS`; the old name still counts as NAOS for
+  the Dee Dee guard), `fb_ronda.py`, `sombra_tanda.py`, `ig.py` and `instagram/LEEME.md` text, PUBLICAR.md, the tests.
+  Historical rows (`publicados.csv`, dated notes, archived workflows) were left as they were. New test: the NAOS base
+  ends in `/naos-site`.
+- Battery without keys or network: before 53 OK, 21 FALLA, 4 SALTA; after 54 OK, 21 FALLA, 4 SALTA (the new
+  `prueba_medir_diario.py`). No new failure; the 21 are the same tests with the same notes. `prueba_publicar.py`: 50 tests OK.

@@ -50,12 +50,13 @@ import registro  # noqa: E402
 
 RAIZ = os.path.normpath(os.path.join(AQUI, "..", ".."))  # earn/naos
 COLA = os.path.join(RAIZ, "cola", "aprobar")
-PAGES = os.environ.get("NAOS_PAGES_BASE") or "https://hardlypythonnmr.github.io/naos/assets/reels"
+PAGES = os.environ.get("NAOS_PAGES_BASE") or "https://hardlypythonnmr.github.io/naos-site/assets/reels"
 DESPUES = registro.dt.timedelta(minutes=4)  # el Reel sale 4 minutes después del Short
 SLUG = re.compile(r"^[a-z0-9][a-z0-9-]{0,80}$")
 PY = sys.executable or "python3"
 BASE_PAGES = re.sub(r"/assets/reels/?$", "", PAGES)  # raíz del sitio de naos en Pages
-REPO_NAOS = "hardlypythonnmr/naos"  # el repo de la página de NAOS: nunca recibe un archivo de otra marca
+REPO_NAOS = "hardlypythonnmr/naos-site"  # el repo de la página de NAOS: nunca recibe un archivo de otra marca
+REPO_NAOS_ANTES = "hardlypythonnmr/naos"  # its name until 25-nov-2026; GitHub redirects it, so it still counts as the NAOS repo
 REPO = re.compile(r"^[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9._-]+$")  # "dueño/repo"
 CARPETA = {"historia": "historias", "carrusel": "carruseles", "imagen": "imagenes"}  # assets/<carpeta>/<slug>/ en el repo naos
 NOMBRE = {"historia": "Story", "carrusel": "Carousel", "imagen": "Image"}  # para el comentario a N (en inglés, como el del Reel)
@@ -170,14 +171,14 @@ def repo_de_marca(marca, slug=""):
     if not REPO.match(repo):
         sys.exit(f"NO SE PUBLICA: {de}falta la variable {var} (el repo de su sitio de GitHub Pages, escrito dueño/repo). "
                  f"Su video no se copia a la página de NAOS. No salió nada.")
-    if repo.lower() == REPO_NAOS.lower():
+    if repo.lower() in (REPO_NAOS.lower(), REPO_NAOS_ANTES.lower()):
         sys.exit(f"NO SE PUBLICA: {de}la variable {var} es el repo de la página de NAOS ({REPO_NAOS}). "
                  f"{marca.capitalize()} va en un repo aparte. No salió nada.")
     return repo
 
 
 def sitio_de(info, sitio):
-    """(checkout donde se copia, nombre del repo). Para NAOS, lo que llegó y hardlypythonnmr/naos, como siempre. Para otra marca,
+    """(checkout donde se copia, nombre del repo). Para NAOS, lo que llegó y hardlypythonnmr/naos-site, como siempre. Para otra marca,
     el checkout de SU repo (<MARCA>_PAGES_REPO, hecho con <MARCA>_PAGINA_TOKEN) o None si no hay; se niega si la pieza no dice
     esa marca en pieza.json o si el origin del checkout no es ese repo. Así un archivo de Mercury nunca cae en el repo de NAOS."""
     marca = info.get("marca", "naos")
@@ -189,7 +190,7 @@ def sitio_de(info, sitio):
     if info.get("marca_declarada") != marca:
         sys.exit(f'NO SE COPIA: {info["slug"]} parece de {marca} pero pieza.json no dice "marca": "{marca}". No salió nada.')
     origen = re.sub(r"(\.git)?/*$", "", git(sitio, "remote", "get-url", "origin", check=False).stdout.strip()).lower()
-    if not re.search(r"[/:]" + re.escape(repo.lower()) + "$", origen) or origen.endswith("/" + REPO_NAOS.lower()):
+    if not re.search(r"[/:]" + re.escape(repo.lower()) + "$", origen) or any(origen.endswith("/" + r.lower()) for r in (REPO_NAOS, REPO_NAOS_ANTES)):
         sys.exit(f"NO SE COPIA: el checkout {sitio} no es el repo {repo} de {marca}. Un archivo de {marca} nunca va al repo de NAOS. "
                  f"No salió nada.")
     return sitio, repo
@@ -423,7 +424,7 @@ def pagina(info, naos=None, tope_s=900, pausa=20, sin_espera=False, despues=Fals
                  f"no se copia a la página de NAOS.")
     if not naos:
         sys.exit(f"el mp4 no está en {url} y no hay checkout de naos (falta el secreto NAOS_PAGINA_TOKEN). "
-                 f"Copiarlo a {rel} en hardlypythonnmr/naos, push a main, y volver a correr.")
+                 f"Copiarlo a {rel} en {REPO_NAOS}, push a main, y volver a correr.")
     destino = os.path.join(naos, rel)
     os.makedirs(os.path.dirname(destino), exist_ok=True)
     shutil.copyfile(servir, destino)
@@ -480,7 +481,7 @@ def pagina_imagenes(info, naos=None, tope_s=900, pausa=20, sin_espera=False):
                  f"y volver a correr; no se copian a la página de NAOS.")
     if not naos:
         sys.exit(f"faltan {len(faltan)} imagen(es) en Pages y no hay checkout de naos (falta el secreto NAOS_PAGINA_TOKEN). "
-                 f"Copiarlas a {rel}/ en hardlypythonnmr/naos, push a main, y volver a correr.")
+                 f"Copiarlas a {rel}/ en {REPO_NAOS}, push a main, y volver a correr.")
     for a, _ in faltan:
         destino = os.path.join(naos, rel, os.path.basename(a))
         os.makedirs(os.path.dirname(destino), exist_ok=True)
@@ -1015,7 +1016,7 @@ def main():
         p = sub.add_parser(o)
         p.add_argument("slug")
         p.add_argument("--dir", required=True, help="carpeta de trabajo de la corrida (RUNNER_TEMP/reel)")
-        p.add_argument("--naos", help="checkout de hardlypythonnmr/naos (con NAOS_PAGINA_TOKEN)")
+        p.add_argument("--naos", help="checkout de hardlypythonnmr/naos-site (con NAOS_PAGINA_TOKEN)")
         p.add_argument("--sitio-marca", help="checkout del sitio de otra marca (MERCURY_PAGES_REPO con MERCURY_PAGINA_TOKEN)")
         p.add_argument("--errores", help="copia de errores.csv de esta corrida (aplicar)")
         p.add_argument("--log", help="salida de los pasos (fallo)")

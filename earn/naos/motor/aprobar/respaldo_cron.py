@@ -4,7 +4,7 @@ los workflows cuyo cron ya tocó y no corrió:
 
   fb-pagina.yml       (23 */2 * * *, de verdad)   dd-audio-aviso.yml (37 * * * *)
   mercury-publicar.yml (sus 5 respaldos diarios)   dd-audio-vivo.yml  (17 15 * * *)
-  dd-medir.yml (41 16 * * *, escribe el corte)
+  (dd-medir.yml: archived 25-nov-2026; medir.yml, its replacement, has no backup)
 
 Regla: para cada uno, la última hora del cron en los últimos VENTANA minutos; si no hay ninguna corrida de ese workflow (de
 cualquier tipo, también «schedule») creada desde esa hora, se despacha; si el cron corrió, no se duplica.
@@ -14,8 +14,9 @@ import datetime as dt, json, os, re
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 FLUJOS = os.path.normpath(os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows"))
-RESPALDOS = {"dd-audio-aviso.yml": {}, "dd-audio-vivo.yml": {},
-             "dd-medir.yml": {"seco": "false"}}  # 20-nov: dd-medir (junta DD: sin corte desde el 18-nov 23:06Z)
+RESPALDOS = {"dd-audio-aviso.yml": {}, "dd-audio-vivo.yml": {}}
+# 25-nov: dd-medir.yml was archived; its replacement medir.yml (one daily read, N's decision) gets no backup dispatch, so
+# the measurement stays at one run a day.
 # 25-nov: fb-pagina.yml and mercury-publicar.yml left with the archive (archive/github-workflows/): nothing publishes on a
 # cron or a backup dispatch; posts go out only through publicar.yml on N's word.
 VENTANA = dt.timedelta(minutes=100)

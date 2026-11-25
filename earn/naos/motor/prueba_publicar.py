@@ -102,7 +102,7 @@ class TestNaos(Linea):
         self.assertEqual((datos[2], pagina[2], pub[2]), ("datos", "pagina", "publicar"))
         self.assertIn("--naos", pagina)
         self.assertNotIn("esperar", [a[2] for a in (datos, pagina, pub)])  # no waits in the line
-        self.assertEqual(plan.entorno["NAOS_PAGES_BASE"], "https://hardlypythonnmr.github.io/naos/assets/reels")
+        self.assertEqual(plan.entorno["NAOS_PAGES_BASE"], "https://hardlypythonnmr.github.io/naos-site/assets/reels")
 
     def test_el_seco_de_subir_py_dice_que_la_aprobacion_esta_en_regla(self):
         """The real subir.py --seco, fed by the line's command: the mesa row is valid for that video, text and time."""
@@ -200,16 +200,18 @@ class TestNaos(Linea):
         cerca = registro.a_utc(registro.ahora() + dt.timedelta(minutes=5))  # the one-off dispatch fires a little early
         self.assertEqual(self.plan(donde="instagram", cuando=cerca).fallas, [])
 
-    def test_programar_instagram_da_las_dos_vias_y_nunca_un_cron_fijo(self):
+    def test_programar_instagram_da_la_via_decidida_y_nunca_un_cron_fijo(self):
         t = registro.a_utc(registro.ahora() + dt.timedelta(hours=5))
         plan = self.plan(modo="programar", donde="instagram", cuando=t)
         self.assertEqual(plan.fallas, [])
         rc, out = self.correr(plan, ejecutar=mock.Mock())
         self.assertEqual(rc, 0)
-        self.assertIn("A. a Claude scheduled task", out)
+        self.assertIn("self-removing one-off cron (decided by N, 25-nov-2026)", out)
+        self.assertIn(f"--donde instagram --cuando {t} --cron --de-verdad", out)
         self.assertIn(f"gh workflow run publicar.yml -R hardlypythonnmr/cpe-engine -f slug=cierre -f canal=naos -f donde=instagram -f cuando={t}", out)
-        self.assertIn("B. a one-off cron line", out)
         self.assertIn("Never a standing cron", out)
+        self.assertNotIn("Pending N", out)
+        self.assertNotIn("A. a Claude scheduled task", out)
 
     def test_programar_con_cron_escribe_un_flujo_de_una_vez(self):
         t = registro.de_utc("2026-12-03T21:07:00Z")
@@ -357,6 +359,173 @@ class TestDeeDee(Linea):
         self.assertEqual(self.argvs(plan)[0][2:], ["--solo", "fb-foto", "--foto", "d", "--seco"])
 
 
+SESION_NAOS = {n: "x" for n in ("GOOGLE_OAUTH_CLIENT_ID", "GOOGLE_OAUTH_CLIENT_SECRET", "GOOGLE_OAUTH_REFRESH_TOKEN", "INSTAGRAM_TOKEN",
+                                 "YOUTUBE_API_KEY")}  # what a Claude session holds: no NAOS_PAGINA_TOKEN, no DD_* key
+SESION_NAOS.update(PUBLICAR_NAOS="on", PUBLICAR_DEEDEE="on")
+
+
+class TestUnaRutaDesdeLaSesion(Linea):
+    """N, 25-nov-2026: one command from a session. A platform runs here when its keys are here; the rest goes to publicar.yml
+    in one dispatch. Valve, approval and claims as always; each platform goes one way only."""
+
+    def plan(self, entorno=None, rutear=True, **kw):
+        kw.setdefault("canal", self.CANAL)
+        return publicar.planear(args(**kw), self.reg, dict(SESION_NAOS if entorno is None else entorno), cola=self.cola,
+                                publicados=self.csv, trabajo=self.trabajo, rutear=rutear)
+
+    def test_youtube_aqui_e_instagram_por_la_action_en_seco_solo_imprime(self):
+        plan = self.plan()
+        self.assertEqual(plan.fallas, [])
+        self.assertEqual(plan.fuera, ["instagram"])
+        self.assertEqual([p["plataforma"] for p in plan.pasos], ["youtube", "instagram"])
+        yt, gh = plan.pasos
+        self.assertTrue(yt["argv"][1].endswith("youtube/subir.py"))
+        self.assertEqual(yt["reclamo"]["slug"], "cierre-youtube")
+        self.assertIsNone(gh["reclamo"])  # the Action takes the Instagram claim itself
+        self.assertEqual(gh["argv"], ["gh", "workflow", "run", "publicar.yml", "-R", "hardlypythonnmr/cpe-engine", "-f", "slug=cierre",
+                                      "-f", "canal=naos", "-f", "donde=instagram", "-f", "cuando=now", "-f", "modo=publicar", "-f", "seco=true"])
+        self.assertNotIn("accion_reel", " ".join(" ".join(p["argv"]) for p in plan.pasos))
+        ejecutar, reclamar = mock.Mock(), mock.Mock()
+        rc, out = self.correr(plan, ejecutar=ejecutar, reclamar=reclamar)
+        self.assertEqual(rc, 0, out)
+        ejecutar.assert_not_called()  # seco never dispatches
+        reclamar.assert_not_called()
+        self.assertIn("gh workflow run publicar.yml -R hardlypythonnmr/cpe-engine -f slug=cierre", out)
+        self.assertFalse(os.path.exists(self.libro))
+
+    def test_en_vivo_sube_aqui_despacha_el_resto_y_anota_las_dos(self):
+        plan = self.plan(de_verdad=True)
+        self.assertEqual(plan.fallas, [])
+        corridas = []
+
+        def ejecutar(argv, entorno):
+            corridas.append(argv)
+            if argv[0] == "gh":
+                return 0, "Created workflow_dispatch event for publicar.yml at main\n"
+            return 0, "https://www.youtube.com/shorts/abc\n"
+        reclamar = mock.Mock(return_value="ok")
+        rc, out = self.correr(plan, ejecutar=ejecutar, reclamar=reclamar)
+        self.assertEqual(rc, 0, out)
+        self.assertEqual([c[0] if c[0] == "gh" else "subir" for c in corridas], ["subir", "gh"])
+        self.assertIn("seco=false", corridas[1])
+        self.assertEqual([c.args[0]["slug"] for c in reclamar.call_args_list], ["cierre-youtube"])
+        filas = list(__import__("csv").DictReader(open(self.libro, encoding="utf-8")))
+        self.assertEqual([(f["plataforma"], f["resultado"]) for f in filas], [("youtube", "ok"), ("instagram", "despachado")])
+
+    def test_si_youtube_falla_no_se_despacha_instagram(self):
+        plan = self.plan(de_verdad=True)
+        ejecutar = mock.Mock(return_value=(1, "error\n"))
+        rc, out = self.correr(plan, ejecutar=ejecutar, reclamar=mock.Mock(return_value="ok"))
+        self.assertEqual(rc, 1)
+        self.assertEqual(ejecutar.call_count, 1)
+
+    def test_la_valvula_y_la_aprobacion_paran_tambien_lo_que_se_despacharia(self):
+        plan = self.plan(entorno=dict(SESION_NAOS, PUBLICAR_NAOS="off"), de_verdad=True)
+        ejecutar = mock.Mock()
+        rc, out = self.correr(plan, ejecutar=ejecutar, reclamar=mock.Mock())
+        self.assertEqual(rc, 1)
+        ejecutar.assert_not_called()
+        registro.escribir([r for r in registro.leer(self.csv) if r["canal"] != "reel"], self.csv)  # no Instagram row
+        plan = self.plan(de_verdad=True)
+        self.assertTrue(any(f.startswith("aprobacion reel:") for f in plan.fallas), plan.fallas)
+        rc, out = self.correr(plan, ejecutar=ejecutar, reclamar=mock.Mock())
+        self.assertEqual(rc, 1)
+        ejecutar.assert_not_called()
+
+    def test_cada_plataforma_va_por_una_sola_via_con_los_mismos_reclamos(self):
+        for entorno in (SESION_NAOS, LLAVES, {"PUBLICAR_NAOS": "on"}, dict(SESION_NAOS, GOOGLE_OAUTH_REFRESH_TOKEN="")):
+            plan = self.plan(entorno=entorno)
+            aqui = {p["plataforma"] for p in plan.pasos if not (p["argv"] and p["argv"][0] == "gh")}
+            self.assertFalse(aqui & set(plan.fuera), entorno)
+            self.assertEqual(sorted(aqui | set(plan.fuera)), ["instagram", "youtube"])
+            self.assertLessEqual(sum(1 for p in plan.pasos if p["argv"] and p["argv"][0] == "gh"), 1)
+            self.assertEqual(plan.fallas, [], entorno)
+        self.assertEqual(self.plan(entorno=LLAVES).fuera, [])  # every key here: nothing is dispatched
+        self.assertEqual(self.plan(entorno={"PUBLICAR_NAOS": "on"}).fuera, ["youtube", "instagram"])
+        # the claim tag of a platform is the same whichever route runs it (the Action runs the line without routing)
+        accion = self.plan(entorno=LLAVES, rutear=False)
+        sesion = self.plan()
+        self.assertEqual([p["reclamo"] for p in accion.pasos if p["plataforma"] == "youtube"],
+                         [p["reclamo"] for p in sesion.pasos if p["plataforma"] == "youtube"])
+        self.assertEqual([p["reclamo"]["slug"] for p in accion.pasos if p["reclamo"]], ["cierre-youtube", "cierre"])
+
+    def test_la_action_nunca_despacha_falta_una_llave_y_para(self):
+        plan = self.plan(rutear=False)
+        self.assertEqual(plan.fuera, [])
+        self.assertIn("llaves: missing in the environment: NAOS_PAGINA_TOKEN", plan.fallas)
+        visto, original = {}, publicar.planear
+
+        def planear(a, reg, entorno, **kw):
+            visto["rutear"] = kw.get("rutear")
+            return original(a, reg, entorno, cola=self.cola, publicados=self.csv, trabajo=self.trabajo, **kw)
+        for gha, rutea in (("true", False), ("", True)):
+            with mock.patch.object(publicar, "planear", planear), mock.patch.object(publicar, "valvula_desde_repo", lambda c, e: e), \
+                    mock.patch.dict(os.environ, dict(SESION_NAOS, GITHUB_ACTIONS=gha)), contextlib.redirect_stdout(io.StringIO()):
+                publicar.main(["--canal", "naos", "--slug", "cierre", "--donde", "youtube,instagram"])
+            self.assertIs(visto["rutear"], rutea)
+
+    def test_programar_los_dos_con_now_y_cron_no_despacha_nada(self):
+        """The one command for a NAOS Short and Reel at the approved time: YouTube publishAt here, Instagram by the one-off cron
+        five minutes after the Short's time. Instagram needs no key here: the cron's Action holds them."""
+        entorno = {k: v for k, v in SESION_NAOS.items() if k != "INSTAGRAM_TOKEN"}
+        plan = self.plan(entorno=entorno, modo="programar", cuando="now", cron=True)
+        self.assertEqual(plan.fallas, [])
+        self.assertEqual(plan.fuera, [])
+        yt = plan.pasos[0]["argv"]
+        self.assertEqual(yt[yt.index("--publicar-en") + 1], self.e["sale_utc"])
+        ig = registro.a_utc(registro.de_utc(self.e["sale_utc"]) + dt.timedelta(minutes=5))
+        self.assertIn(f"one-off dispatch at {ig}", plan.pasos[1]["que"])
+        rc, out = self.correr(plan, ejecutar=mock.Mock())
+        self.assertEqual(rc, 0, out)
+        self.assertIn(f"-f cuando={ig} -f modo=publicar -f seco=false", out)  # the yml it would write
+        t = registro.de_utc(ig)
+        self.assertIn(f'cron: "{t.minute} {t.hour} {t.day} {t.month} *"', out)
+
+    def test_programar_instagram_solo_reel_sale_a_la_hora_aprobada(self):
+        ruta = os.path.join(self.cola, "cierre", "pieza.json")
+        pj = json.load(open(ruta))
+        pj["canales"] = ["reel"]
+        json.dump(pj, open(ruta, "w"))
+        compuerta = mock.Mock(return_value=(None, {"version": "1", "sale_utc": self.e["sale_utc"], "url_reel": ""}))
+        plan = publicar.planear(args(modo="programar", donde="instagram", cuando="now"), self.reg, dict(SESION_NAOS), cola=self.cola,
+                                publicados=self.csv, trabajo=self.trabajo, compuerta=compuerta, rutear=True)
+        self.assertEqual(plan.fallas, [])
+        self.assertIn(f"one-off dispatch at {self.e['sale_utc']}", plan.pasos[0]["que"])
+
+    def test_el_texto_de_n_va_como_un_solo_argumento(self):
+        filas = registro.leer(self.csv)
+        for f in filas:
+            if f["canal"] == "short":
+                f["url_short"] = "https://www.youtube.com/shorts/abcdefghijk"
+        registro.escribir(filas, self.csv)
+        plan = self.plan(entorno={"PUBLICAR_NAOS": "on"}, modo="retirar", donde="youtube", cita="Bájalo; ya", de_verdad=True)
+        self.assertEqual(plan.fallas, [])
+        argv = plan.pasos[-1]["argv"]
+        self.assertIn("cita=Bájalo; ya", argv)
+        self.assertIn("seco=false", argv)
+
+
+class TestUnaRutaDeeDee(Linea):
+    CANAL = "deedee"
+
+    def test_dee_dee_desde_la_sesion_va_entera_por_la_action(self):
+        plan = publicar.planear(args(canal="deedee"), self.reg, dict(SESION_NAOS), cola=self.cola, publicados=self.csv,
+                                trabajo=self.trabajo, rutear=True)
+        self.assertEqual(plan.fallas, [])
+        self.assertEqual(plan.fuera, ["youtube", "instagram"])
+        self.assertEqual(len(plan.pasos), 1)
+        self.assertIn("donde=youtube,instagram", plan.pasos[0]["argv"])
+        self.assertIn("canal=deedee", plan.pasos[0]["argv"])
+
+    def test_programar_instagram_de_dee_dee_no_pide_sus_llaves_en_la_sesion(self):
+        """Bug the one-off cron had: from a session without DD keys it stopped at the keys, though only the Action that the
+        cron dispatches needs them."""
+        t = registro.a_utc(registro.ahora() + dt.timedelta(hours=3))
+        plan = publicar.planear(args(canal="deedee", modo="programar", donde="instagram", cuando=t, cron=True), self.reg,
+                                {"PUBLICAR_DEEDEE": "on"}, cola=self.cola, publicados=self.csv, trabajo=self.trabajo)
+        self.assertEqual(plan.fallas, [])
+
+
 class TestFormatos(unittest.TestCase):
     """Image, carousel, story and Facebook routes, with the gate mocked (the real gate is covered above)."""
 
@@ -401,7 +570,7 @@ class TestFormatos(unittest.TestCase):
         plan, _ = self.plan("naos-reel", donde="facebook", de_verdad=True)
         fb = plan.pasos[-1]["argv"]
         self.assertEqual(fb[2:6], ["reel", "naos-reel", "--marca", "naos"])
-        self.assertEqual(fb[fb.index("--video") + 1], "https://hardlypythonnmr.github.io/naos/assets/reels/naos-reel.mp4")
+        self.assertEqual(fb[fb.index("--video") + 1], "https://hardlypythonnmr.github.io/naos-site/assets/reels/naos-reel.mp4")
         self.assertIn("--de-verdad", fb)
         self.pieza("hist", ["historia"])
         plan, _ = self.plan("hist", donde="facebook")
@@ -433,6 +602,17 @@ class TestRegistro(unittest.TestCase):
                 for n in p.get("secretos", []) + p.get("opcionales", []):
                     self.assertRegex(n, r"^[A-Z][A-Z0-9_]+$")  # a name, never a value
 
+    def test_el_sitio_de_naos_es_naos_site(self):
+        """25-nov-2026: the NAOS Pages repo was renamed naos -> naos-site (github.io/naos answers 404). Every live default agrees."""
+        pages = self.reg["naos"]["pages"]
+        self.assertTrue(pages["base"].endswith("/naos-site"), pages["base"])
+        self.assertEqual(pages["repo"], "hardlypythonnmr/naos-site")
+        ar = _cargar("accion_reel_sitio", os.path.join(AQUI, "instagram", "accion_reel.py"))
+        self.assertEqual(ar.REPO_NAOS, pages["repo"])
+        self.assertIn("hardlypythonnmr/naos", ar.REPO_NAOS_ANTES)  # the old name still counts as NAOS for the Dee Dee guard
+        fuente = "".join(open(os.path.join(AQUI, f), encoding="utf-8").read() for f in ("fb_ronda.py", "sombra_tanda.py", "instagram/accion_reel.py"))
+        self.assertNotRegex(fuente, r"github\.io/naos(?![-\w])")
+
     def test_ig_y_youtube_toman_las_cuentas_del_registro(self):
         ig = _cargar("ig_registro", os.path.join(AQUI, "instagram", "ig.py"))
         self.assertEqual(ig.CUENTAS["mercury"]["username"], "artdirection_dd")
@@ -450,7 +630,7 @@ class TestRegistro(unittest.TestCase):
         self.assertEqual([k[f"v{i}"] for i in range(1, 5) if k[f"v{i}"]], ["PUBLICAR_DEEDEE", "DD_PAGES_REPO", "DD_PAGES_BASE"])
         self.assertEqual((k["pages_repo"], k["pages_repo_variable"], k["hospedar"]), ("", "DD_PAGES_REPO", "true"))
         k = publicar.llaves_para_action(self.reg, "naos", "youtube", "retirar")
-        self.assertEqual((k["s1"], k["pages_repo"], k["hospedar"]), ("GOOGLE_OAUTH_CLIENT_ID", "hardlypythonnmr/naos", "false"))
+        self.assertEqual((k["s1"], k["pages_repo"], k["hospedar"]), ("GOOGLE_OAUTH_CLIENT_ID", "hardlypythonnmr/naos-site", "false"))
         e = publicar.entorno_desde_action({"LINEA_S1_NOMBRE": "DD_INSTAGRAM_TOKEN", "LINEA_S1": "t", "LINEA_S2_NOMBRE": "x; rm", "LINEA_S2": "v",
                                            "LINEA_V1_NOMBRE": "PUBLICAR_DEEDEE", "LINEA_V1": "on", "LINEA_S3_NOMBRE": "", "LINEA_S3": ""})
         self.assertEqual((e["DD_INSTAGRAM_TOKEN"], e["PUBLICAR_DEEDEE"]), ("t", "on"))

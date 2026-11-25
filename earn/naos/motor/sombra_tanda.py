@@ -30,7 +30,7 @@ from lema import lema  # noqa: E402
 
 RAIZ = AQUI.parent
 MESES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-SITIO = "https://hardlypythonnmr.github.io/naos/"
+SITIO = "https://hardlypythonnmr.github.io/naos-site/"  # the NAOS Pages repo was renamed naos -> naos-site (25-nov-2026)
 X5 = "Did you catch it?"
 ANTES_S, DURANTE_S = 3.5, 4.5          # 8 s en total (de 6 a 10)
 W, H = 1080, 1920

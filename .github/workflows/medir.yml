@@ -1,0 +1,77 @@
+# medir: the one daily read-only measurement of both channels (N, 25-nov-2026: "one daily read").
+# It replaces dd-medir.yml (Dee Dee per-piece metrics) and naos-ig-salud.yml (Instagram token health), now in
+# archive/github-workflows/. It runs earn/naos/motor/medir_diario.py, which for every channel in canales.json runs
+#   medir.py --canal <engine name>       per-piece metrics and followers (YouTube, Instagram; Facebook for Dee Dee), GET only
+#   ig.py --marca <engine name> salud    Instagram token health and account, GET only
+# Account ids, the Page id and the handles come from canales.json; the secret names below are the ones canales.json lists.
+# It never posts, comments, opens an issue or changes an account: no write endpoint is called and the token has no
+# permission beyond contents. A failing read turns the run red (GitHub notifies the owner); nothing is commented.
+# It commits only measurement files under earn/naos/medicion/.
+# Minutes: one job, about 1 minute a day (~31 a month). By hand: Actions > medir > Run workflow (seco by default: prints only).
+name: medir
+
+on:
+  schedule:
+    - cron: "47 18 * * *"   # 18:47 UTC once a day (outside 11:00-16:00 UTC, off the hour)
+  workflow_dispatch:
+    inputs:
+      seco:
+        description: "dry: print the rows, write and push nothing"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write  # only to push the measurement files
+
+concurrency: { group: medir, cancel-in-progress: false }
+
+jobs:
+  medir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      SECO: ${{ github.event_name == 'workflow_dispatch' && inputs.seco }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          lfs: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /earn/naos/motor/
+            /earn/naos/medicion/
+            /earn/naos/cola/aprobar/*/pieza.json
+      - name: Read both channels (GET only)
+        id: leer
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+          DD_INSTAGRAM_TOKEN: ${{ secrets.DD_INSTAGRAM_TOKEN }}
+          DD_OAUTH_CLIENT_ID: ${{ secrets.DD_OAUTH_CLIENT_ID }}
+          DD_OAUTH_CLIENT_SECRET: ${{ secrets.DD_OAUTH_CLIENT_SECRET }}
+          DD_OAUTH_REFRESH_TOKEN: ${{ secrets.DD_OAUTH_REFRESH_TOKEN }}
+          DD_YOUTUBE_API_KEY: ${{ secrets.DD_YOUTUBE_API_KEY }}
+        run: |
+          args=()
+          [ "$SECO" = "true" ] && args+=(--seco)
+          python3 earn/naos/motor/medir_diario.py "${args[@]}"
+      - name: Save the measurement to main (earn/naos/medicion only)
+        if: ${{ always() && env.SECO != 'true' && steps.leer.outcome != 'skipped' }}
+        run: |
+          git config user.name "cpe-medir"; git config user.email "cpe-medir@users.noreply.github.com"
+          for f in earn/naos/medicion/metricas-piezas.csv earn/naos/medicion/seguidores.csv earn/naos/medicion/mercury \
+                   earn/naos/medicion/cuota-yt.csv earn/naos/medicion/cuota-yt-mercury.csv earn/naos/medicion/salud-cuentas.csv; do
+            if [ -e "$f" ]; then git add -- "$f"; fi
+          done
+          git diff --cached --quiet && { echo "nothing to save"; exit 0; }
+          git commit -q -m "medir: daily read of both channels $(date -u +%F)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

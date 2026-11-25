@@ -10,8 +10,8 @@
    "ia_nota": "AI disclosure is decided per piece: pieza.json 'sintetico' manda. This is only the default when a piece says nothing.",
    "identidad": "n-system: content-production-enterprise/channels/naos/identity (Cella is the logo and the house)",
    "pages": {
-    "repo": "hardlypythonnmr/naos",
-    "base": "https://hardlypythonnmr.github.io/naos",
+    "repo": "hardlypythonnmr/naos-site",
+    "base": "https://hardlypythonnmr.github.io/naos-site",
     "secreto": "NAOS_PAGINA_TOKEN"
    },
    "plataformas": {
