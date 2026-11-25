@@ -9,15 +9,23 @@ other way. Lauren runs it only on N's word, one ask at a time.
 | The entry point (all the steps) | `earn/naos/motor/publicar.py` |
 | The Action (by hand only, no cron) | `.github/workflows/publicar.yml` |
 | Its dry tests (in the battery) | `earn/naos/motor/prueba_publicar.py` |
-| The ledger of live runs | `earn/naos/medicion/publicar.csv` |
+| The approval and post ledger (N's rows, links of what went out) | `earn/naos/motor/instagram/publicados.csv` |
+| The ledger of the line's live runs (created on the first live run) | `earn/naos/medicion/publicar.csv` |
 | The old per-channel Actions (do not run) | `archive/github-workflows/` |
+
+**Status on 25-nov-2026: only the session route works.** `publicar.yml` lives only on branch `cpe/reconcile`; `main`
+still has no `publicar.yml`. GitHub dispatches a workflow only when its file is on the default branch, so every
+`gh workflow run publicar.yml ...` below fails until N merges `cpe/reconcile` into `main`, and a one-off cron file
+(section 4, B) would also have to land on `main`. Until that merge: run the line from a session (section 1), which needs
+the keys in the session (section 3, "Keys by route").
 
 Steps of every run, in order: validate, valve, N's approval, keys, host media on Pages, claim, publish or schedule,
 record. A failing check stops the run before anything is written.
 
 ## 1. Two ways to call it
 
-**From the Action** (keys live in the repo secrets):
+**From the Action** (keys live in the repo secrets). Unavailable until `cpe/reconcile` is merged into `main` (see the
+status above). The Action checks out `main`, so it reads the piece, `estado.json` and the approval row from `main`:
 
 ```
 gh workflow run publicar.yml -R hardlypythonnmr/cpe-engine \
@@ -30,6 +38,11 @@ gh workflow run publicar.yml -R hardlypythonnmr/cpe-engine \
 ```
 python3 earn/naos/motor/publicar.py --slug <slug> --canal <naos|deedee> --donde <...> --cuando <...> --modo <modo>
 ```
+
+The valve from a session: `PUBLICAR_NAOS` and `PUBLICAR_DEEDEE` are repo variables, so they are not in a session's
+environment. `publicar.py` reads the variable read-only with `gh api repos/hardlypythonnmr/cpe-engine/actions/variables/<name>`
+when it is not set in the environment, and prints what it read. Never export the valve by hand in a session: that
+sidesteps N's setting. If `gh` cannot read it, the run stops at `valvula: unset`; tell N.
 
 From a session, a live Instagram or Facebook post also needs a checkout of the channel's Pages repo (NAOS:
 `hardlypythonnmr/naos`; Dee Dee: the repo in `DD_PAGES_REPO`) at `./sitio`, or at the path in `PUBLICAR_SITIO`. The
@@ -44,10 +57,18 @@ would stop it; the output names every check (`ok` or `NO` with the reason) and p
 | What | Who | How |
 |---|---|---|
 | Open the valve | N | repo variable `PUBLICAR_NAOS` or `PUBLICAR_DEEDEE` = `on` (Settings > Secrets and variables > Actions > Variables). Off or unset stops every write mode |
-| Approve the piece in conversation | Lauren, with N's literal words | `python3 earn/naos/motor/aprobar/aprobar.py mesa <slug> --decision aprobar --version <n> --hash <hash_contenido from estado.json> --decidido-utc <ISO UTC> --cita "<N's words>" --seco`, then the same without `--seco`. The line accepts only this row (via mesa). See `earn/naos/motor/aprobar/LEEME-MESA.md` |
+| Put the piece in `por-aprobar` | Lauren | copy the piece to `earn/naos/cola/aprobar/<slug>/` (`pieza.json` and its files), then `python3 earn/naos/motor/aprobar/aprobar.py preparar <slug> --seco`, then without `--seco`. It writes `estado.json` (`por-aprobar`, version, `hash_contenido`, the per-channel hashes) from `pieza.json` and opens no issue. It refuses Fix revisions and a release time that already passed. Then commit the folder on the branch the line runs from and push the media with LFS (`git lfs push origin <branch>`). `abrir` (the GitHub issue) is the retired route |
+| Approve the piece in conversation | Lauren, with N's literal words | `python3 earn/naos/motor/aprobar/aprobar.py mesa <slug> --decision aprobar --version <n> --hash <hash_contenido from estado.json> --decidido-utc <ISO UTC> --cita "<N's words>" --seco`, then the same without `--seco`. The line accepts only this row (via mesa). See `earn/naos/motor/aprobar/LEEME-MESA.md`. Which branch: until N merges `cpe/reconcile`, add `--sin-git` and commit the row (`publicados.csv`, `estado.json`, `medicion/decisiones-sistema.csv`) on the branch by hand; without `--sin-git`, `mesa` pulls and pushes to `main` and refuses any other branch. After the merge, approval rows land on `main` and the Action reads them from `main` |
 | Keys present | N | the secret names below. Values never go in chat or in a file |
 
 ## 3. The cases
+
+**Keys by route today** (open decision, SOURCE-OF-TRUTH section 10.2). This session's environment holds
+`INSTAGRAM_TOKEN`, `GOOGLE_OAUTH_*` and `YOUTUBE_API_KEY`; it does not hold `NAOS_PAGINA_TOKEN`, any `DD_*` key,
+`DD_PAGES_REPO` or `DD_PAGES_BASE`, and has no `./sitio` checkout. cpe-engine's secrets hold the Instagram and Dee Dee
+keys but not `GOOGLE_OAUTH_*`. So today: NAOS YouTube goes only from a session; a live NAOS Instagram post and every
+Dee Dee post go only through the Action, which waits on the merge. A NAOS piece for both platforms needs two routes.
+If N decides 10.2 (copy the NAOS OAuth into cpe-engine secrets), both channels use the Action once it is on `main`.
 
 `seco=true` everywhere below; repeat with `seco=false` on N's word. `S` is the slug.
 
@@ -83,14 +104,19 @@ YouTube `youtube/subir.py` (private with `publishAt`), `aprobar.py mover-fecha`,
   for an uploaded video, or approve again with the new time. `publishAt` must be 15 minutes ahead or more; for "right
   now", approve with a time about 20 minutes ahead.
 - **Instagram**: no native scheduling. `modo publicar` posts at once (with `cuando` = an ISO time, it starts at most 10
-  minutes early and refuses earlier). For a later time, see section 4.
+  minutes early and refuses earlier). For a later time, see section 4. For "now": `preparar` and `mesa` refuse a
+  `sale_utc` that already passed, so set `pieza.json` `sale_utc` to now plus about 20 minutes before `preparar`, approve,
+  then fire `modo publicar` before `sale_utc` plus the grace window (3 hours, `registro.GRACIA`), when the row expires.
 - **Facebook**: never scheduled by the line; fire `modo publicar` at the time, as for Instagram.
 
 ## 4. Instagram at a time: the one-off dispatch
 
+**Pending N (SOURCE-OF-TRUTH section 10.3).** Neither option below is approved yet. Until N decides, Instagram goes out
+only when Lauren fires `modo publicar` on N's word at the time. Both options also need `publicar.yml` on `main`.
+
 `modo programar` with `donde=instagram` prints both options with the exact command. Never a standing cron.
 
-**A. A Claude scheduled task (preferred).** Lauren creates a one-shot scheduled task (send_later, or a task with
+**A. A Claude scheduled task.** Lauren creates a one-shot scheduled task (send_later, or a task with
 `run_once_at`) at N's time that runs:
 
 ```
@@ -130,10 +156,17 @@ before the time: cancel the scheduled task (A) or remove the file (B).
   that holds them it works.
 - Facebook is off for both channels in `canales.json` (`activo: false`, org v3). Turning it on is one line there, by PR,
   on N's word. NAOS has no Page id and `NAOS_FB_TOKEN` failed its probe on 23-nov.
-- A piece whose `pieza.json` `canales` has both `short` and `reel`: `ig.py` still requires the Short to be public before
-  the Reel (an old rule, PROD-08.7). For a Reel alone, the piece's `canales` is `["reel"]`.
-- `aprobar.py mesa` needs the piece in `por-aprobar`, which today only `aprobar.py abrir` writes, and `abrir` opens a
-  GitHub issue. The gate itself does not read the issue.
+- A piece whose `pieza.json` `canales` has both `short` and `reel`: the code still requires the Short to be uploaded
+  and public before the Reel (an old rule, PROD-08.7, that org v3 section 5 lists as stripped; the code removal is not
+  ported yet). `accion_reel.py datos` needs the Short's `url_short` in `publicados.csv`, `accion_reel.esperar` waits
+  until `sale_utc` plus 4 minutes, and `ig.py` checks the Short is public. So for one approval on both platforms: run
+  YouTube first (`programar`, `publishAt` = `sale_utc`), then fire Instagram `modo publicar` about 5 to 10 minutes after
+  `sale_utc` (inside the 3-hour grace). Instagram and YouTube at the same minute need two pieces: one with
+  `canales` `["short"]` and one with `["reel"]`, each approved by N.
+- `aprobar.py mesa` needs the piece in `por-aprobar`: `aprobar.py preparar` writes it with no issue (section 2).
+- The gate (`registro.verificar`) still accepts old VP and agent rows (`es_auto`) when `subir.py`, `ig.py` or
+  `accion_reel.py` are called directly. `publicar.py` refuses any row that is not via mesa. Call the platform scripts only
+  through the line.
 - The first comment (`fijar.py`) still checks the issue's preview comment, so it refuses pieces approved only via mesa
   until that check is ported.
 - Comments (read, reply), measurement (`medir.py`, `dd-medir.yml`, `naos-ig-salud.yml`), voice, music and render stay

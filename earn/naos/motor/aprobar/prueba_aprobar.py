@@ -3569,5 +3569,57 @@ class TestMoverHora(Base):
         self.assertEqual(res["hechas"][0][2], "2026-11-24T22:00:00Z")
 
 
+
+class TestPreparar(Base):
+    """org v3 (25-nov-2026): `preparar` deja la pieza por-aprobar sin issue, y `mesa` la registra desde ahí."""
+
+    def setUp(self):
+        super().setUp()
+        self.dec = os.path.join(self.tmp.name, "decisiones-sistema.csv")
+        open(self.dec, "w", encoding="utf-8").write(DEC_CAB)
+        p = mock.patch.object(registro, "DECISIONES", self.dec)
+        p.start()
+        self.addCleanup(p.stop)
+        pieza_falsa(self.cola)
+
+    def test_seco_no_escribe(self):
+        aprobar.preparar("cierre", self.cola, seco=True)
+        self.assertIsNone(aprobar.leer_estado("cierre", self.cola))
+
+    def test_escribe_por_aprobar_sin_issue_y_mesa_la_aprueba(self):
+        e = aprobar.preparar("cierre", self.cola)
+        self.assertEqual((e["estado"], e["version"], e["issue"]), ("por-aprobar", 1, None))
+        self.assertEqual(set(e["hashes"]), {"short", "reel"})
+        self.assertEqual(self.gh.comentarios, [])
+        decidido = registro.a_utc(registro.ahora() - dt.timedelta(minutes=1))
+        aprobar.aprobar_mesa("cierre", "aprobar", e["hash_contenido"], "Sale", decidido, 1, self.cola)
+        p = aprobar.cargar("cierre", self.cola)
+        ok, r = registro.verificar("cierre", "reel", aprobar.huellas(p, self.cola)["reel"], ruta=self.csv)
+        self.assertTrue(ok, r)
+        self.assertTrue(registro.es_mesa(r))
+
+    def test_misma_huella_no_sube_version_y_cambio_si(self):
+        aprobar.preparar("cierre", self.cola)
+        self.assertEqual(aprobar.preparar("cierre", self.cola)["version"], 1)
+        d = os.path.join(self.cola, "cierre")
+        pz = json.load(open(os.path.join(d, "pieza.json")))
+        pz["titulo"] = "Close brief two"
+        pz["caption"] = pz["caption"].replace("Close brief", "Close brief two", 1)
+        json.dump(pz, open(os.path.join(d, "pieza.json"), "w"))
+        self.assertEqual(aprobar.preparar("cierre", self.cola)["version"], 2)
+
+    def test_no_prepara_lo_aprobado_ni_con_fix(self):
+        e = aprobar.preparar("cierre", self.cola)
+        aprobar.aprobar_mesa("cierre", "aprobar", e["hash_contenido"], "Sale",
+                             registro.a_utc(registro.ahora() - dt.timedelta(minutes=1)), 1, self.cola)
+        with self.assertRaises(SystemExit):
+            aprobar.preparar("cierre", self.cola)
+        pieza_falsa(self.cola, slug="otra", caption="Sin pie y con raya \u2014 aqui")
+        with self.assertRaises(SystemExit) as cm:
+            aprobar.preparar("otra", self.cola)
+        self.assertIn("Fix", str(cm.exception.code))
+        self.assertIsNone(aprobar.leer_estado("otra", self.cola))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

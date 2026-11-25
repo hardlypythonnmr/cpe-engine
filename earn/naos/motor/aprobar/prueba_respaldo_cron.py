@@ -20,9 +20,10 @@ class Cron(unittest.TestCase):
         self.assertEqual(rc.ultima_hora(["37 * * * *"], T("2026-11-20T09:57")), T("2026-11-20T09:37"))
         self.assertIsNone(rc.ultima_hora(["17 15 * * *"], T("2026-11-20T09:57")))
 
-    def test_los_crons_reales_se_leen(self):
+    def test_los_crons_reales_estan_apagados(self):
+        """org v3 (25-nov-2026): no crons that produce or publish; the schedule blocks are commented, so nothing is backed up."""
         for f in rc.RESPALDOS:
-            self.assertTrue(rc.crons(f), f)
+            self.assertEqual(rc.crons(f), [], f)
 
 
 class Decidir(unittest.TestCase):
@@ -39,7 +40,16 @@ class Decidir(unittest.TestCase):
         self.assertEqual(rc.decidir("x", self.A, [{"event": "schedule", "created_at": "2026-11-20T01:53:00Z"}], T("2026-11-20T09:57"))[0], "despachar")
         self.assertEqual(rc.decidir("x", self.A, [{"event": "schedule", "created_at": "2026-11-20T09:40:00Z"}], T("2026-11-20T09:57"))[0], "nada")
 
+    def test_sin_crons_la_ronda_no_despacha_nada(self):
+        l, x = rc.ronda(T("2026-11-20T09:57"), False, lambda f: [], lambda f, e: self.fail("despachó sin cron"))
+        self.assertEqual(x, [])
+
     def test_ronda_seco_y_de_verdad(self):
+        from unittest import mock
+        reales = {"dd-audio-aviso.yml": ["37 * * * *"], "dd-audio-vivo.yml": ["17 15 * * *"], "dd-medir.yml": ["41 16 * * *"]}
+        parche = mock.patch.object(rc, "crons", lambda f, carpeta=rc.FLUJOS: reales.get(f, []))
+        parche.start()
+        self.addCleanup(parche.stop)
         leer = lambda f: []  # noqa: E731
         enviados = []
         l, x = rc.ronda(T("2026-11-20T09:57"), True, leer, lambda f, e: self.fail("despachó en seco"))

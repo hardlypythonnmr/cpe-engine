@@ -33,6 +33,7 @@ en motor/instagram/publicados.csv (contrato en registro.py) y ig.py y subir.py s
                                                  para la tanda de N. Nace aprobada por el agente, con veto de N de 12 h
   python3 aprobar.py agente <nombre> [--veto <slug>... --cita "<palabras de N>"] [--sin-git]
                                                  el agente aprueba su tanda (idempotente), o pasa un veto de N de la mesa
+  python3 aprobar.py preparar <slug> [--seco]       org v3: estado.json por-aprobar (versión y huellas) desde pieza.json, sin issue
   python3 aprobar.py mesa <slug> --decision aprobar|aprobar_con_nota --version <n> --hash <hash_contenido> --decidido-utc <ISO UTC>
                          --cita "<palabras de N>" [--seco] [--sin-git]
                                                  N aprobó esa pieza en el artefacto de la mesa: la mesa lo registra con SU firma
@@ -2910,6 +2911,50 @@ def aprobar_mesa(slug, decision, hash_contenido, cita, decidido_utc, version, co
     return res
 
 
+
+# ---------- preparar: the piece to por-aprobar without a GitHub issue (org v3, 25-nov-2026) ----------
+# Org v3 retired the issue as the approval surface: N approves in conversation and `mesa` records it. `mesa` needs estado.json
+# in por-aprobar with the version and the per-channel hashes; `preparar` writes exactly that from pieza.json, and opens nothing.
+
+def preparar(slug, cola=None, seco=False):
+    """Writes estado.json in por-aprobar (version, hash_contenido, per-channel hashes) from pieza.json, with no issue and no
+    network. Refuses a piece that is approved or going out, or one that still has open Fix revisions. Returns the state."""
+    p = cargar(slug, cola)
+    previo = leer_estado(slug, cola)
+    if previo and previo.get("estado") in ("aprobado", "subiendo"):
+        sys.exit(f"NO SE PREPARA {slug}: ya está {previo['estado']} (v{previo.get('version')}). Nada se escribió.")
+    if previo and previo.get("estado") == "por-aprobar" and previo.get("issue"):
+        sys.exit(f"NO SE PREPARA {slug}: tiene el issue #{previo['issue']} abierto (camino viejo); usar `version`. Nada se escribió.")
+    for f in archivos_de(p, cola):
+        if not os.path.exists(f):
+            sys.exit(f"NO SE PREPARA {slug}: falta {f}. Nada se escribió.")
+    malos = sin_faststart(p, cola)
+    if malos:
+        sys.exit("NO SE PREPARA:\n  " + "\n  ".join(malos))
+    revs = [(r["que"], r["estado"], r.get("nota", "")) for r in p["revisiones"]] + fallas_de(p, cola=cola)
+    fix = [f"{a}: {c}" for a, b, c in revs if b.lower() == "fix"]
+    if fix:
+        sys.exit(f"NO SE PREPARA {slug}: hay revisiones en Fix:\n  " + "\n  ".join(fix) + "\nNada se escribió.")
+    h = huellas(p, cola)
+    if previo and previo.get("estado") == "por-aprobar" and previo.get("hash_contenido") == h["contenido"]:
+        print(f"{slug} ya está por-aprobar en v{previo['version']} con esta huella ({h['contenido']}); nada cambió")
+        return previo
+    version = (previo or {}).get("version", 0) + 1
+    e = {"slug": slug, "issue": None, "version": version, "estado": "por-aprobar", "sale_utc": p["sale_utc"],
+         "datos_utc": datos_utc_de(p, cola, h["contenido"]), "hash_contenido": h["contenido"],
+         "hashes": {k: v for k, v in h.items() if k != "contenido"}, "canales": p["canales"], "fix": False,
+         "aprobador": "N", "sin_cifras": bool(p["sin_cifras"]), "datos_max_h": datos_max_h(p), "preparado": "sin-issue"}
+    if seco:
+        print(f"escribiría {slug} v{version} por-aprobar ({'+'.join(p['canales'])}), sale {p['sale_utc']}, "
+              f"hash_contenido {h['contenido']} [--seco: no se escribió nada]")
+        return e
+    guardar_estado(e, cola)
+    print(f"{slug} v{version} por-aprobar ({'+'.join(p['canales'])}), sale {p['sale_utc']}, hash_contenido {h['contenido']}\n"
+          f"Sigue: aprobar.py mesa {slug} --decision aprobar --version {version} --hash {h['contenido']} "
+          "--decidido-utc <ISO UTC> --cita \"<N's words>\" --seco")
+    return e
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--cola", help="carpeta de las piezas (por defecto cola/aprobar)")
@@ -2958,6 +3003,9 @@ def main():
     rt.add_argument("--seco", action="store_true", help="solo dice qué haría: no escribe ni llama a nadie")
     rt.add_argument("--bajar-shorts", action="store_true", help="además pasa a privado y sin fecha los Shorts ya programados de las piezas retiradas")
     rt.add_argument("--sin-git", action="store_true")
+    pp = sub.add_parser("preparar", help="org v3: deja la pieza por-aprobar (estado.json con versión y huellas) sin abrir issue")
+    pp.add_argument("slug")
+    pp.add_argument("--seco", action="store_true", help="solo dice qué escribiría")
     ms = sub.add_parser("mesa", help="N aprobó la pieza en la mesa: se registra con la firma de la mesa (via mesa), con sus palabras literales")
     ms.add_argument("slug")
     ms.add_argument("--decision", required=True, help="la decisión de N en el artefacto: aprobar o aprobar_con_nota")
@@ -3018,6 +3066,9 @@ def main():
         return
     if a.orden == "mover-fecha":
         mover_fecha(a.slug, a.a, a.seco, cola)
+        return
+    if a.orden == "preparar":  # sin GitHub ni git: Lauren hace commit y push de la carpeta (con su LFS) a mano
+        preparar(a.slug, cola, a.seco)
         return
     if a.orden == "mesa":  # sin GitHub: ni token ni comentarios; el libro de la compuerta es publicados.csv
         con_git_mesa = not (a.seco or cola or a.sin_git or os.environ.get("NAOS_SIN_GIT") == "1")

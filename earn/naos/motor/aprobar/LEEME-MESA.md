@@ -5,6 +5,12 @@ Qué te toca: si eres la mesa, correrla solo tras la aprobación explícita de N
 
 Origen: N escogió la opción A de `empresa/mesa/ARTEFACTO-APROBACION.md` (24-nov-2026). La fila la firma la mesa con su propio nombre. Nunca escribe como N ni pone su 👍 (D-301, D-461, D-520).
 
+## Antes: la pieza en `por-aprobar` (org v3, 25-nov-2026)
+
+`mesa` solo aprueba lo que está `por-aprobar`. Sin issue: `python3 earn/naos/motor/aprobar/aprobar.py preparar <slug> [--seco]`
+escribe `estado.json` (`por-aprobar`, versión, `hash_contenido`, huellas por canal) desde `pieza.json`. No abre issue ni
+toca git: Lauren hace commit de la carpeta y push del LFS. `abrir` (el issue) es el camino retirado. Ver `PUBLICAR.md` sección 2.
+
 ## Cómo se corre
 
 ```

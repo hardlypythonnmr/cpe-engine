@@ -4,8 +4,10 @@
 # 100 mejores en earn/naos/medicion/audio-banco.json. dd-audio-aviso elige de ahí (vigencia 10 días).
 name: dd-audio-banco
 on:
-  schedule:
-    - cron: "13 5 * * 1"
+  # schedule off (org v3, 25-nov-2026): no crons that produce or publish; read-only measurement comes back only on N's word
+  # (SOURCE-OF-TRUTH 10.5). Re-enabling the workflow never starts a cron by itself; uncomment only with N's word.
+  # schedule:
+  #   - cron: "13 5 * * 1"
   workflow_dispatch:
 permissions:
   contents: write

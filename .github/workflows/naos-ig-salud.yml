@@ -12,8 +12,10 @@
 # Si el token existe y falla, el aviso va a la misma bitácora y dice que es de Mercury.
 name: naos-ig-salud
 on:
-  schedule:
-    - cron: "30 12 * * *"
+  # schedule off (org v3, 25-nov-2026): no crons that produce or publish; read-only measurement comes back only on N's word
+  # (SOURCE-OF-TRUTH 10.5). Re-enabling the workflow never starts a cron by itself; uncomment only with N's word.
+  # schedule:
+  #   - cron: "30 12 * * *"
   workflow_dispatch:
 permissions:
   contents: read

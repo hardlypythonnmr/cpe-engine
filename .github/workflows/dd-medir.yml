@@ -14,8 +14,10 @@
 name: dd-medir
 
 on:
-  schedule:
-    - cron: "41 16 * * *"   # 16:41 UTC, 11:41 en Bogotá
+  # schedule off (org v3, 25-nov-2026): no crons that produce or publish; read-only measurement comes back only on N's word
+  # (SOURCE-OF-TRUTH 10.5). Re-enabling the workflow never starts a cron by itself; uncomment only with N's word.
+  # schedule:
+  #   - cron: "41 16 * * *"   # 16:41 UTC, 11:41 en Bogotá
   workflow_dispatch:
     inputs:
       seco:

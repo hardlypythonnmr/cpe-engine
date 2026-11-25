@@ -484,7 +484,8 @@ def despacho_una_vez(slug, canal, donde, t):
             f"--donde {donde} --cuando {registro.a_utc(t)} --cron --de-verdad\n"
             f"     writes {os.path.relpath(ruta_una_vez(slug), REPO)}; Lauren commits and pushes it; at the time it dispatches "
             "publicar.yml and disables itself; afterwards Lauren removes the file (publicar.py --quitar-cron <slug>).\n"
-            "  Never a standing cron. The run at the time goes through every step again (valve, approval, keys, claim).")
+            "  Never a standing cron. The run at the time goes through every step again (valve, approval, keys, claim).\n"
+            "  Pending N (SOURCE-OF-TRUTH 10.3): until he approves A or B, fire modo publicar by hand on his word at the time.")
 
 
 def ruta_una_vez(slug):
@@ -665,6 +666,27 @@ def entorno_desde_action(entorno):
     return e
 
 
+def valvula_desde_repo(cfg, entorno, leer=None):
+    """From a session the valve is not in the environment: it is a cpe-engine repo variable that only N sets. Read it,
+    read-only, with `gh api` (repos/<repo>/actions/variables/<name>). A value already in the environment wins (the Action
+    passes it). Never export the valve by hand: the line reads N's setting, or stops at 'unset'."""
+    nombre = cfg.get("valvula")
+    if not nombre or (entorno.get(nombre) or "").strip() or entorno.get("GITHUB_ACTIONS") == "true":
+        return entorno
+    repo = entorno.get("PUBLICAR_REPO") or "hardlypythonnmr/cpe-engine"
+    leer = leer or (lambda argv: subprocess.run(argv, capture_output=True, text=True, timeout=30))
+    try:
+        r = leer(["gh", "api", f"repos/{repo}/actions/variables/{nombre}", "--jq", ".value"])
+        valor = (r.stdout or "").strip() if r.returncode == 0 else ""
+    except (OSError, subprocess.SubprocessError):
+        valor = ""
+    e = dict(entorno)
+    if valor:
+        e[nombre] = valor
+        print(f"valvula: read {nombre}={valor} from the {repo} repo variable (gh api, read only)", file=sys.stderr)
+    return e
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0], formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
     ap.add_argument("--canal", help="naos or deedee (canales.json)")
@@ -692,6 +714,8 @@ def main(argv=None):
             print(f"{k}={v}")
         return 0
     entorno = entorno_desde_action(dict(os.environ))
+    if a.canal in reg:
+        entorno = valvula_desde_repo(reg[a.canal], entorno)
     plan = planear(a, reg, entorno)
     return correr(plan)
 

@@ -457,6 +457,36 @@ class TestRegistro(unittest.TestCase):
         self.assertNotIn("x; rm", e)
 
 
+class TestValvulaDesdeSesion(unittest.TestCase):
+    """From a session the valve is read from the repo variable with gh api (read only); never exported by hand."""
+    CFG = {"valvula": "PUBLICAR_NAOS"}
+
+    def resp(self, codigo, salida):
+        return lambda argv: subprocess.CompletedProcess(argv, codigo, salida, "")
+
+    def test_lee_la_variable_del_repo(self):
+        llamadas = []
+        def leer(argv):
+            llamadas.append(argv)
+            return subprocess.CompletedProcess(argv, 0, "on\n", "")
+        with contextlib.redirect_stderr(io.StringIO()):
+            e = publicar.valvula_desde_repo(self.CFG, {}, leer)
+        self.assertEqual(e["PUBLICAR_NAOS"], "on")
+        self.assertEqual(llamadas[0][:2], ["gh", "api"])
+        self.assertIn("actions/variables/PUBLICAR_NAOS", llamadas[0][2])
+
+    def test_el_entorno_gana_y_la_action_no_pregunta(self):
+        nunca = lambda argv: self.fail("no debía llamar a gh")
+        self.assertEqual(publicar.valvula_desde_repo(self.CFG, {"PUBLICAR_NAOS": "off"}, nunca)["PUBLICAR_NAOS"], "off")
+        self.assertNotIn("PUBLICAR_NAOS", publicar.valvula_desde_repo(self.CFG, {"GITHUB_ACTIONS": "true"}, nunca))
+
+    def test_sin_gh_o_sin_variable_queda_sin_valor(self):
+        self.assertNotIn("PUBLICAR_NAOS", publicar.valvula_desde_repo(self.CFG, {}, self.resp(1, "")))
+        def roto(argv):
+            raise OSError("no gh")
+        self.assertNotIn("PUBLICAR_NAOS", publicar.valvula_desde_repo(self.CFG, {}, roto))
+
+
 class TestAction(unittest.TestCase):
     def setUp(self):
         import yaml
