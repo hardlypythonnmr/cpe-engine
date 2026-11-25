@@ -46,7 +46,7 @@ class Decidir(unittest.TestCase):
 
     def test_ronda_seco_y_de_verdad(self):
         from unittest import mock
-        reales = {"dd-audio-aviso.yml": ["37 * * * *"], "dd-audio-vivo.yml": ["17 15 * * *"], "dd-medir.yml": ["41 16 * * *"]}
+        reales = {"dd-audio-aviso.yml": ["37 * * * *"], "dd-audio-vivo.yml": ["17 15 * * *"], "medir.yml": ["47 18 * * *"]}
         parche = mock.patch.object(rc, "crons", lambda f, carpeta=rc.FLUJOS: reales.get(f, []))
         parche.start()
         self.addCleanup(parche.stop)

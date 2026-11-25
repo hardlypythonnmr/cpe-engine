@@ -16,5 +16,6 @@ here can fire. They are kept whole for how things were built. Their content is n
 | `dd-perfil.yml` | DD YouTube and Page profile | `publicar.yml` modo perfil |
 | `dd-cuenta.yml`, `naos-fb-prueba.yml` | account and token probes | `publicar.yml` modo comprobar |
 | `fb-pagina.yml` | Facebook Page posts every 2 h | `publicar.yml` donde facebook (off in canales.json for now) |
+| `dd-medir.yml`, `naos-ig-salud.yml` | Dee Dee per-piece metrics, and the Instagram token check that commented on an issue (archived 25-nov-2026) | `medir.yml`: one daily read-only run for both channels that never comments (N's decision, 25-nov-2026) |
 
 `earn/naos/motor/aprobar/prueba_flujos.py` and `prueba_avisar.py` read these archived files.

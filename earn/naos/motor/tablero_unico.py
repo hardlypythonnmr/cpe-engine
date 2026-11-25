@@ -1020,7 +1020,7 @@ def construir(ahora, raiz=None):
     tipos = {k: v for k, v in (json_de(med / "tipos.json") or {}).items() if isinstance(v, str) and not k.startswith("_")}
     vig = vigentes(pub)
 
-    # Mediciones: NAOS en medicion/, DD en medicion/mercury/ (lo escribe medir.py --canal mercury; el workflow dd-medir.yml lo corre una vez al día).
+    # Mediciones: NAOS en medicion/, DD en medicion/mercury/ (lo escribe medir.py --canal mercury; el workflow medir.yml lo corre una vez al día).
     r_m_n, r_s_n = med / "metricas-piezas.csv", med / "seguidores.csv"
     r_m_d, r_s_d = med / "mercury" / "metricas-piezas.csv", med / "mercury" / "seguidores.csv"
     m_n, s_n, m_d, s_d = csv_filas(r_m_n), csv_filas(r_s_n), csv_filas(r_m_d), csv_filas(r_s_d)

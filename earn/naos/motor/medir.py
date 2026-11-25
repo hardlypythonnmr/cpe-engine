@@ -112,7 +112,8 @@ def leer_ig(ig_piezas, canal="naos"):
     sys.path.insert(0, str(MOTOR / "instagram"))
     import ig  # noqa: E402
     ig.usar_marca(canal)
-    if canal != "naos" and ig.faltan_credenciales(canal):  # otra cuenta sin su token: no se lee con la de NAOS
+    sin_local = canal != "naos" or not Path(ig.TOKEN_LOCAL).exists()  # NAOS in a session may keep its token in ~/.config
+    if ig.faltan_credenciales(canal) and sin_local:  # a channel without its token: no Instagram read (never with another's)
         print(f"AVISO Instagram de {canal}: falta {', '.join(ig.faltan_credenciales(canal))}; se mide solo YouTube", file=sys.stderr)
         return None, None
 
@@ -143,10 +144,14 @@ def leer_yt(yt_piezas, ahora, canal="naos"):
     yt.usar_canal(canal)  # token, clave, cuota y crudo de ese canal
     stats, extra = {}, {}
     ids = list(yt_piezas)
-    for i in range(0, len(ids), 50):
-        r = yt.yt("videos", part="statistics,snippet", id=",".join(ids[i:i + 50]))
-        for v in r.get("items", []):
-            stats[v["id"]] = v
+    try:
+        for i in range(0, len(ids), 50):
+            r = yt.yt("videos", part="statistics,snippet", id=",".join(ids[i:i + 50]))
+            for v in r.get("items", []):
+                stats[v["id"]] = v
+    except SystemExit as e:  # no key or token for this channel (or no quota): YouTube is not read, Instagram still is
+        print(f"AVISO YouTube de {canal}: {e}; se mide sin YouTube", file=sys.stderr)
+        return None, None, None
     subs = None
     try:
         c = yt.yt("channels", oauth=True, part="statistics", mine="true")
@@ -292,6 +297,8 @@ def main():
                       "tiempo_medio_s": round(m["ig_reels_avg_watch_time"] / 1000, 1)
                       if m.get("ig_reels_avg_watch_time") else "", "retencion_pct": "", "subs": "", "vistas_comprometidas": ""})
     stats, extra, seg_yt = leer_yt(yt_p, ahora, a.canal) if yt_p or a.canal != "naos" else ({}, {}, None)
+    if stats is None:  # YouTube could not be read: no empty rows
+        stats, extra, yt_p = {}, {}, {}
     for vid, p in yt_p.items():
         st = stats.get(vid, {}).get("statistics", {})
         ex = extra.get(vid, {})

@@ -73,7 +73,7 @@ false = solo Reels. https://developers.facebook.com/docs/instagram-platform/inst
   python3 ig.py refrescar                            renueva el token de 60 días (ver abajo)
   python3 ig.py salud [--emitido AAAA-MM-DD] [--dias 10]
                                                      token vivo, de naos.v3, cupo y vencimiento; sale con 1 si el token
-                                                     no sirve o vence en 10 días o menos (lo corre naos-ig-salud.yml)
+                                                     no sirve o vence en 10 días o menos (lo corre medir.yml, una vez al día)
 
 --prueba manda trial_params (Trial Reels: se muestra primero a no seguidores). El 2026-10-14 Meta lo rechazó con
 2207081 "Trial Reel Not Enough Followers" (la cuenta tenía 3); vuelve a probarse cuando la cuenta pase el mínimo.
