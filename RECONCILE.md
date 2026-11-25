@@ -67,7 +67,7 @@ Found with the engine's own dry listing (`programador.tocan` and `shorts_tocan`,
 | `dd-2026-11-24-marriott-historia` | Marriott (Mar 2025): $21.9 million CEO total pay, $46,211 median pay. The math. | v2, #16, `dd-reserva-1730-b` | historia, 2026-11-24T22:00:00Z |
 | `not-avoidant-hard-to-reach-moving` | Not avoidant. Just very, very hard to reach. | v1, #108, `piloto-corona-2428` | short+reel, 2026-11-24T22:15:00Z |
 
-Status: NOT retired yet. See the step log below.
+Status: retired on 25-nov-2026 (state only), with `dd-2026-11-24-marriott-expediente`. See step 2 in the log below.
 
 ## Step log
 
@@ -90,3 +90,17 @@ Status: NOT retired yet. See the step log below.
   - n-system's `medir.py` should take this engine version when it moves (step 3g).
   - `.claude/settings.json` in this repo was not edited (stale allow rules for `copia.py` and `fusionar.sh` are harmless, per N).
   - Not pushed. The plan expects one PR in cpe-engine merged by N.
+
+### Step 2 (cpe-engine), 25-nov-2026: the single publishing line
+
+- New: `earn/naos/motor/canales.json` (registry), `earn/naos/motor/publicar.py` (the line), `.github/workflows/publicar.yml`
+  (workflow_dispatch only), `earn/naos/motor/prueba_publicar.py` (dry tests, in the battery), `PUBLICAR.md` (how Lauren
+  calls it), `.claude/settings.propuesta.json` (proposal; `settings.json` untouched).
+- `ig.py` and `youtube/ytapi.py` take the handles from the registry (Dee Dee: @artdirection_dd, @debtdesiredirection).
+- Moved (`git mv`): 12 per-channel publishing Actions to `archive/github-workflows/`, after the line's dry tests passed.
+- Retired (state only, no GitHub, no network): the 4 pieces above and `dd-2026-11-24-marriott-expediente`; `estado.json`
+  `vetada` with `retirado_utc` and `retirado_por` "N via Lauren, 24-nov"; one row in `decisiones-sistema.csv`. Their rows
+  in `publicados.csv` had already expired (00:00Z to 01:15Z on 25-nov) and were left as they were.
+- Battery without keys or network: before 49 OK, 24 FALLA, 4 SALTA; after 51 OK, 23 FALLA, 4 SALTA. No new failure
+  (`prueba_disco.py` fails the same way at `a1e7e20` in this container).
+
