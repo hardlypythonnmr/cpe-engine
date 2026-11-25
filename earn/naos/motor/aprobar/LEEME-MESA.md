@@ -57,3 +57,9 @@ La compuerta (`registro.verificar`) acepta la fila solo si la firma es de la mes
 - Antes de registrar, la mesa corre `--seco` si tiene dudas; tras registrar, marca `registrado = true` en el artefacto.
 
 Pruebas: `python3 earn/naos/motor/aprobar/prueba_aprobar.py TestViaMesa`.
+
+## After approval: Instagram at a time N names
+
+Decided by N on 25-nov-2026 (no longer pending): Instagram at a time N names goes by the self-removing one-off cron,
+`publicar.py --modo programar --donde instagram --cuando <ISO|now> --cron`. A piece on both platforms goes with one
+command from a session. See `PUBLICAR.md` at the repo root, sections 3 and 4.
