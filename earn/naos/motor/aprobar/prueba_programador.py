@@ -881,7 +881,7 @@ class TestDispararMercury(unittest.TestCase):
         self.assertEqual((p.returncode, p.stdout.strip()), (0, "mercury: nada en ventana, no se dispara mercury-publicar.yml"))
 
     def test_el_workflow_ya_no_tiene_el_cron_cada_30_minutos(self):
-        ruta = os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows", "mercury-publicar.yml")
+        ruta = os.path.join(AQUI, "..", "..", "..", "..", "archive", "github-workflows", "mercury-publicar.yml")  # archived 25-nov
         if not os.path.exists(ruta):
             self.skipTest("copia del motor sin .github (prueba_duplicar)")
         crons = [l.split('"')[1] for l in open(ruta, encoding="utf-8") if l.strip().startswith("- cron:")]

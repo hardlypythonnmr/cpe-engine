@@ -10,7 +10,7 @@ import datetime as dt, os, shutil, subprocess, sys, tempfile, textwrap, unittest
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ_REPO = os.path.normpath(os.path.join(AQUI, "..", "..", "..", ".."))
-YML = os.path.join(RAIZ_REPO, ".github", "workflows", "naos-reel.yml")
+YML = os.path.join(RAIZ_REPO, "archive", "github-workflows", "naos-reel.yml")  # archived 25-nov
 sys.path.insert(0, AQUI)
 sys.path.insert(0, os.path.join(AQUI, "..", "aprobar"))
 import accion_reel as ar  # noqa: E402
@@ -273,7 +273,7 @@ class LoQueEstaBien(unittest.TestCase):
         self.assertEqual(len(reclamos), 1, pasos)
         self.assertEqual(len(publicar), 1, pasos)
         self.assertEqual(reclamos[0] + 1, publicar[0], pasos)
-        mercury = open(os.path.join(RAIZ_REPO, ".github", "workflows", "mercury-publicar.yml"), encoding="utf-8").read()
+        mercury = open(os.path.join(RAIZ_REPO, "archive", "github-workflows", "mercury-publicar.yml"), encoding="utf-8").read()
         self.assertNotIn("SLUGS", mercury)  # la variable del lote; "slugs" en minúscula sale en un comentario
         self.assertNotIn("lote_reel", mercury)
 

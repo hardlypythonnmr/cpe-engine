@@ -5,7 +5,7 @@ import json, os, shutil, subprocess, tempfile, unittest
 import yaml
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-YML = os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows", "naos-avisar.yml")
+YML = os.path.join(AQUI, "..", "..", "..", "..", "archive", "github-workflows", "naos-avisar.yml")  # 25-nov: archived
 
 ARNES = r"""
 const datos = JSON.parse(require('fs').readFileSync(process.argv[2], 'utf8'))

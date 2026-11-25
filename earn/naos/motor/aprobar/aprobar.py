@@ -98,7 +98,7 @@ Solo stdlib. No lleva credenciales ni datos del trabajo de N.
 import argparse, datetime as dt, json, os, re, shlex, subprocess, sys, time, urllib.parse, urllib.request
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-AVISAR = os.path.join(AQUI, "..", "..", "..", "..", ".github", "workflows", "naos-avisar.yml")  # con ella, el bot avisa a N
+AVISAR = os.path.join(AQUI, "..", "..", "..", "..", "archive", "github-workflows", "naos-avisar.yml")  # con ella, el bot avisa a N (archived 25-nov with the issue path)
 sys.path.insert(0, AQUI)
 sys.path.insert(0, os.path.join(AQUI, ".."))
 import registro  # noqa: E402

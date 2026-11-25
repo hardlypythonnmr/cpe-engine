@@ -153,7 +153,8 @@ def revisar(ref=REF):
 
 class PruebaSparse(unittest.TestCase):
     def test_hay_casos(self):
-        self.assertGreaterEqual(len(casos()), 10)
+        # 25-nov: 12 publishing workflows went to archive/github-workflows/ (the line, publicar.yml, has no sparse-checkout); 5 remain
+        self.assertGreaterEqual(len(casos()), 5)
 
     def test_cada_script_encuentra_sus_imports(self):
         conocidos = set(json.loads((Path(__file__).with_name("prueba_sparse_conocidos.json")).read_text(encoding="utf-8"))["conocidos"])

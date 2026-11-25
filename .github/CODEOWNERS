@@ -11,7 +11,10 @@
 
 # Compuerta del 👍 de N
 /earn/naos/motor/aprobar/                         @hardlypythonnmr
-/.github/workflows/naos-aprobar.yml               @hardlypythonnmr
+
+# La línea única de publicación (org v3, 25-nov): el registro de canales y el punto de entrada
+/earn/naos/motor/publicar.py                      @hardlypythonnmr
+/earn/naos/motor/canales.json                     @hardlypythonnmr
 
 # Bandas de Cella (qué responde sola y qué calla)
 /earn/naos/motor/comentarios/reglas.json          @hardlypythonnmr

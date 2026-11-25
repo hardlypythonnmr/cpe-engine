@@ -24,7 +24,7 @@ import registro  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parents[2]  # earn/naos
 COLA = RAIZ / "cola" / "aprobar"
-YML = RAIZ.parents[1] / ".github" / "workflows" / "naos-despacho-media.yml"
+YML = RAIZ.parents[1] / "archive" / "github-workflows" / "naos-despacho-media.yml"  # archived 25-nov: no dispatcher runs; the line is publicar.yml
 CANALES = ("reel", "imagen", "carrusel", "historia")
 MINUTOS = range(18, 40)  # :18 a :39, la ventana de la Action (--antes 13 desde las :26)
 MINUTO_CRON = 26

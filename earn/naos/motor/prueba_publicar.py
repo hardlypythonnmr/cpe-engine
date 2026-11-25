@@ -482,5 +482,18 @@ class TestAction(unittest.TestCase):
         self.assertIn('[ "$SECO" = "true" ] || args+=(--de-verdad)', self.fuente)
 
 
+    def test_ninguna_otra_action_publica_por_su_cuenta(self):
+        """After the archive, no workflow left in .github/workflows posts with a schedule."""
+        carpeta = os.path.join(REPO, ".github", "workflows")
+        import yaml
+        for n in sorted(os.listdir(carpeta)):
+            if not n.endswith(".yml") or n.startswith("publicar-una-vez-"):
+                continue
+            texto = open(os.path.join(carpeta, n), encoding="utf-8").read()
+            if "schedule" in (yaml.safe_load(texto) or {}).get(True, {}):
+                for orden in ("ig.py publicar", "subir.py", "accion_reel.py publicar", "fb_ronda.py", "--despachar"):
+                    self.assertNotIn(orden, texto, n)
+
+
 if __name__ == "__main__":
     unittest.main()

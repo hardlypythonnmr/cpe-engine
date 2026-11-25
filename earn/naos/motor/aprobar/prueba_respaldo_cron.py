@@ -46,7 +46,7 @@ class Decidir(unittest.TestCase):
         self.assertTrue(any("SECO" in s and "dd-audio-aviso" in s for s in l))
         l, x = rc.ronda(T("2026-11-20T09:57"), False, leer, lambda f, e: enviados.append((f, e)) or 204)
         self.assertIn(("dd-audio-aviso.yml", {}), enviados)
-        self.assertIn(("fb-pagina.yml", {"de_verdad": "true"}), enviados)
+        self.assertFalse([f for f, _ in enviados if f in ("fb-pagina.yml", "mercury-publicar.yml")])  # archived 25-nov: no backup dispatch publishes
         self.assertEqual(x, [])
 
 
