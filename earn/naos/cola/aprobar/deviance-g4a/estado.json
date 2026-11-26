@@ -2,7 +2,7 @@
  "slug": "deviance-g4a",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-26T16:00:00Z",
  "datos_utc": "",
  "hash_contenido": "67d96de078fcb867666e94157e545ce8d467259128bddc97bc917236de9a9976",
@@ -18,5 +18,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-26T14:50:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "\"R2 ya\" (26-nov); \"g4 hoy a las 11, son las 10am we have time\" (26-nov); \"que empeicen a publicar desde hoy asap\" (26-nov)",
+  "decidido_utc": "2026-11-26T14:50:00Z",
+  "version": 1,
+  "hash_contenido": "67d96de078fcb867666e94157e545ce8d467259128bddc97bc917236de9a9976",
+  "leyenda": "aprobado por N en la mesa, 2026-11-26T14:50:00Z: \"R2 ya\" (26-nov); \"g4 hoy a las 11, son las 10am we have time\" (26-nov); \"que empeicen a publicar desde hoy asap\" (26-nov)",
+  "registrado_utc": "2026-11-26T14:58:30Z"
+ }
 }
