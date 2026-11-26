@@ -3,3 +3,5 @@ utc,canal,slug,plataforma,modo,cuando,resultado,detalle
 2026-11-26T15:10:17Z,naos,deviance-g4a,youtube,programar,2026-11-26T16:00:00Z,ok,
 2026-11-26T15:10:28Z,naos,deviance-g4a,valvula,programar,2026-11-26T16:05:00Z,on,PUBLICAR_NAOS=on read from run 45846158804 (2026-11-26T15:09:04Z) https://github.com/hardlypythonnmr/cpe-engine/actions/runs/45846158804
 2026-11-26T15:10:28Z,naos,deviance-g4a,instagram,programar,2026-11-26T16:05:00Z,ok,
+2026-11-26T16:22:10Z,naos,deviance-g5,valvula,programar,2026-11-27T00:00:00Z,on,PUBLICAR_NAOS=on read from run 45846158804 (2026-11-26T15:09:04Z) https://github.com/hardlypythonnmr/cpe-engine/actions/runs/45846158804
+2026-11-26T16:22:10Z,naos,deviance-g5,youtube,programar,2026-11-27T00:00:00Z,ok,
