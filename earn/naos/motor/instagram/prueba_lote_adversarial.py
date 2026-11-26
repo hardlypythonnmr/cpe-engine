@@ -101,7 +101,7 @@ class ReclamoAbierto(unittest.TestCase):
         subprocess.run(["git", "init", "-q", "--bare", r], check=True)
         hook = os.path.join(r, "hooks", "pre-receive")
         with open(hook, "w") as f:
-            f.write("#!/bin/sh\nwhile read o n ref; do case $ref in refs/tags/*) exit 1;; esac; done\n")
+            f.write("#!/bin/sh\nwhile read o n ref; do case $ref in refs/tags/*|refs/heads/claims/*) exit 1;; esac; done\n")
         os.chmod(hook, 0o755)
         clon = os.path.join(t, "clon")
         subprocess.run(["git", "init", "-q", clon], check=True)
@@ -109,7 +109,7 @@ class ReclamoAbierto(unittest.TestCase):
         return clon
 
     def test_si_el_remoto_rechaza_etiquetas_el_lote_no_publica_y_sale_como_infra(self):
-        """Un ruleset o la red impide crear la etiqueta: `reclamar --estricto` (lo que usa el lote) sale con error e infra.txt,
+        """Un ruleset o la red impide crear el reclamo (la etiqueta y también la rama claims/ de respaldo): `reclamar --estricto` (lo que usa el lote) sale con error e infra.txt,
         así que aplicar anota infra_fallo_utc y la ronda siguiente manda la pieza suelta (con su grupo de concurrencia).
         Sin --estricto (el job `reel` suelto) sigue abierto como siempre."""
         with tempfile.TemporaryDirectory() as t:
