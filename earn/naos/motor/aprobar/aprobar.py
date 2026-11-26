@@ -922,6 +922,11 @@ def cerrar(slug, short, reel, gh, cola=None, enlaces=None, semana=None, carrusel
             print(f"{r}: url_largo -> {short}")
         elif pz.get("estrategia") and embudo.es_largo(pz):
             print(f"AVISO {slug}: no escribí url_largo en {pz['estrategia']} (no está, o no se puede leer; estrategia.json vive en n-system): url_largo queda por escribir a mano", file=sys.stderr)
+    if e.get("issue") is None:  # pieza sin issue (la aprobó la mesa): no hay a quién comentar ni qué cerrar; solo queda publicada
+        e["estado"] = "publicado"
+        guardar_estado(e, cola)
+        print(f"{slug}: publicada; sin issue, no se comenta nada")
+        return
     if e.get("tanda"):  # el issue es de la tanda: se comenta la pieza y se cierra cuando ninguna pieza sigue viva
         comentar(gh, e["issue"], llenar(plantilla()["tanda_publicada"], slug=slug, url_short=short or "n/a",
                                         url_reel=reel or carrusel or imagen or historia or "n/a"))
