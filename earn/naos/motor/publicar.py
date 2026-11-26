@@ -45,6 +45,11 @@ the dispatched run checks them again. Each platform goes one way only, and the c
 a session and an Action never post the same platform twice. Seco prints the dispatch command and never runs it. Inside
 the Action (GITHUB_ACTIONS=true) nothing is dispatched: a missing key stops the run.
 
+A session whose proxy refuses actions/variables (26-nov-2026): the Action prints the valve it read; Lauren dispatches a dry
+run through the GitHub MCP tool (the line prints the exact spec) and passes --valvula-run <run id>; the line reads that
+run's log itself (gh api, read only, at most 3 hours old) and records the run in the ledger on a live run. If gh may not
+dispatch, the dispatch step prints the MCP spec and exits 4; --anotar-despacho <run id> records the run Lauren sent.
+
 Old per-channel scripts are library functions the line calls; it adds no platform client of its own. No standing cron, no waits.
 """
 import argparse, csv, datetime as dt, json, os, re, shlex, subprocess, sys, tempfile
@@ -306,6 +311,7 @@ def planear(a, reg, entorno, cola=COLA, publicados=None, ahora=None, compuerta=c
         hacer(plan, d, ahora)
         if (a.modo, d) in MANUAL:
             plan.manual.append(MANUAL[(a.modo, d)])
+    plan.en_sesion = rutear
     if fuera:
         argv = orden_despacho(a, fuera, plan.t, entorno.get("PUBLICAR_REPO") or REPO_LINEA)
         plan.paso(",".join(fuera), f"dispatch publicar.yml for {', '.join(fuera)} (its keys are cpe-engine secrets, not in this "
@@ -631,8 +637,22 @@ def resumen(plan):
         cmd = " ".join(shlex.quote(os.path.relpath(x, REPO) if isinstance(x, str) and x.startswith(REPO + os.sep) else str(x))
                        for x in (p["argv"] or []))
         lineas.append(f"  step [{p['plataforma']}] {p['que']}" + (f"\n        {cmd}" if cmd else ""))
+        if p["argv"] and p["argv"][0] == "gh":
+            lineas.append(f"        or, if this session's gh may not dispatch, Lauren pastes into the GitHub MCP tool:\n        {linea_mcp(p['argv'])}")
     for m in plan.manual:
         lineas.append(f"  by hand: {m}")
+    if getattr(plan, "valvula_fuente", ""):
+        lineas.append(f"  valve source: {plan.valvula_fuente}")
+    falla_valvula = next((f for n, f in plan.chequeos if n == "valvula" and f), "")
+    if falla_valvula and "'unset'" in falla_valvula and getattr(plan, "en_sesion", False):
+        seco = argparse.Namespace(**dict(vars(a), de_verdad=False))
+        donde = getattr(plan, "fuera", None) or getattr(plan, "donde", None) or lista_donde(a.donde)
+        argv = orden_despacho(seco, donde, getattr(plan, "t", None))
+        lineas.append("  valve unknown here (the proxy refuses actions/variables). To read N's setting: Lauren dispatches this dry "
+                      f"run (seco=true, posts nothing) through the GitHub MCP tool,\n        {linea_mcp(argv)}\n"
+                      "        then runs this same command again with --valvula-run <run id> (the line reads the run's log itself)")
+    if getattr(plan, "valvula_error", ""):
+        lineas.append(f"  NO  {plan.valvula_error}")
     return "\n".join(lineas)
 
 
@@ -669,6 +689,13 @@ def correr(plan, ejecutar=correr_orden, reclamar=reclamo_real, libro=LIBRO, ahor
                 break
         else:
             rc, salida = (p["funcion"]() or 0), ""
+        if rc and p["argv"] and p["argv"][0] == "gh":  # this session may not dispatch: Lauren does it through the MCP tool
+            hechos[p["plataforma"]] = ("despacho-pendiente", f"gh refused (exit {rc}); MCP run_workflow, then --anotar-despacho <run id>")
+            print(f"[{p['plataforma']}] DISPATCH NOT SENT (gh exit {rc}). Lauren pastes into the GitHub MCP tool (actions_run_trigger):\n"
+                  f"  {linea_mcp(p['argv'])}\n"
+                  f"  then records it: python3 earn/naos/motor/publicar.py --anotar-despacho <run id> --slug {a.slug} --canal {a.canal} "
+                  f"--donde {p['plataforma']} --modo {a.modo} --cuando {a.cuando or 'now'}")
+            continue
         if rc:
             hechos[p["plataforma"]] = ("fallo", f"{p['que']} (exit {rc})")
             print(f"[{p['plataforma']}] STOPPED at: {p['que']} (exit {rc})")
@@ -679,10 +706,15 @@ def correr(plan, ejecutar=correr_orden, reclamar=reclamo_real, libro=LIBRO, ahor
             url = (re.findall(r"https://\S+", salida) or [""])[-1]
             hechos[p["plataforma"]] = (p.get("resultado") or "ok", url)
     t = ahora or registro.ahora()
+    if hechos and getattr(plan, "valvula_fuente", ""):  # the valve came from a run's log: the ledger says which run
+        anotar_libro({"utc": registro.a_utc(t), "canal": a.canal, "slug": a.slug or "", "plataforma": "valvula", "modo": a.modo,
+                      "cuando": a.cuando or "now", "resultado": "on", "detalle": plan.valvula_fuente}, libro)
     for plataforma, (resultado, detalle) in hechos.items():
         anotar_libro({"utc": registro.a_utc(t), "canal": a.canal, "slug": a.slug or "", "plataforma": plataforma, "modo": a.modo,
                       "cuando": a.cuando or "now", "resultado": resultado, "detalle": detalle}, libro)
-    return 1 if any(r == "fallo" for r, _ in hechos.values()) else 0
+    if any(r == "fallo" for r, _ in hechos.values()):
+        return 1
+    return 4 if any(r == "despacho-pendiente" for r, _ in hechos.values()) else 0
 
 
 # ---------- the keys the Action has to pass (names only) ----------
@@ -715,6 +747,127 @@ def entorno_desde_action(entorno):
         if nombre and (entorno.get(k) or "").strip() and re.fullmatch(r"[A-Z][A-Z0-9_]*", nombre):
             e[nombre] = entorno[k]
     return e
+
+
+VALVULA_VIGENCIA = dt.timedelta(hours=3)  # a valve read from a run counts this long (the same as the approval grace)
+LINEA_VALVULA = re.compile(r"^valvula: ([A-Z][A-Z0-9_]*)=(\S+) \(repo variable, read by this Action run\)$")
+LINEA_VIEJA = re.compile(r"^  (ok|NO)  valvula(?:: the repo variable ([A-Z][A-Z0-9_]*) is '([^']*)', not 'on')?$")
+CABECERA = re.compile(r"^publicar: canal ([a-z]+),")
+
+
+def gh_json(leer, ruta):
+    r = leer(["gh", "api", ruta])
+    if r.returncode != 0:
+        raise ValueError(f"gh api {ruta}: {((r.stdout or '') + (r.stderr or '')).strip()[:200]}")
+    return json.loads(r.stdout or "{}")
+
+
+def run_de_la_linea(run_id, repo, leer, ahora, seco=None):
+    """The run of publicar.yml with that id, read-only through gh api (the session's proxy lets runs and job logs through;
+    it refuses actions/variables). Returns (run, log text of its job). Raises ValueError when it is not a run of the line."""
+    if not re.fullmatch(r"\d{1,20}", str(run_id or "")):
+        raise ValueError(f"'{run_id}' is not a run id")
+    run = gh_json(leer, f"repos/{repo}/actions/runs/{run_id}")
+    if run.get("path") != ".github/workflows/publicar.yml" or (run.get("repository") or {}).get("full_name", repo) != repo:
+        raise ValueError(f"run {run_id} is not a run of {repo} publicar.yml ({run.get('path')})")
+    if run.get("event") != "workflow_dispatch" or run.get("head_branch") != "main":
+        raise ValueError(f"run {run_id} is not a dispatch on main ({run.get('event')}, {run.get('head_branch')})")
+    creado = registro.de_utc(run.get("created_at") or "")
+    if not creado or creado < ahora - VALVULA_VIGENCIA:
+        raise ValueError(f"run {run_id} is from {run.get('created_at')}: older than {VALVULA_VIGENCIA}; dispatch a new dry run")
+    if seco is not None and ("(seco)" in (run.get("display_title") or "")) != seco:
+        raise ValueError(f"run {run_id} is {'not ' if seco else ''}a dry run ({run.get('display_title')})")
+    jobs = gh_json(leer, f"repos/{repo}/actions/runs/{run_id}/jobs").get("jobs") or []
+    if run.get("status") != "completed" or not jobs:
+        raise ValueError(f"run {run_id} has not finished ({run.get('status')}); read it again when it has")
+    r = leer(["gh", "api", f"repos/{repo}/actions/jobs/{jobs[0]['id']}/logs"])
+    if r.returncode != 0:
+        raise ValueError(f"the log of run {run_id} could not be read")
+    return run, r.stdout or ""
+
+
+def valvula_de_log(log, cfg, canal):
+    """The valve the Action run saw: its explicit line (publicar.py since the session route), or the old check line. Every
+    valve line must agree, there must be one explicit line at most, and the run must be of this channel."""
+    lineas = [re.sub(r"^\S+Z ", "", l.rstrip("\r")) for l in log.splitlines()]
+    canales = {m.group(1) for m in map(CABECERA.match, lineas) if m}
+    if canales != {canal}:
+        raise ValueError(f"the run is of canal {', '.join(sorted(canales)) or '(none: the line did not start)'}, not {canal}")
+    nuevas = [m for m in map(LINEA_VALVULA.match, lineas) if m]
+    viejas = [m for m in map(LINEA_VIEJA.match, lineas) if m]
+    if len(nuevas) > 1:
+        raise ValueError("the log carries more than one valve line; read it by hand")
+    vistos = {(m.group(1), m.group(2).lower()) for m in nuevas}
+    vistos |= {(m.group(2) or cfg["valvula"], "on" if m.group(1) == "ok" else (m.group(3) or "unset").lower()) for m in viejas}
+    if not vistos:
+        raise ValueError("the run printed no valve check (it stopped before the valve: slug or piece not on main?)")
+    if len(vistos) > 1 or next(iter(vistos))[0] != cfg["valvula"]:
+        raise ValueError(f"valve lines disagree or name another variable: {sorted(vistos)}")
+    return next(iter(vistos))[1]
+
+
+def valvula_desde_run(cfg, canal, entorno, run_id, leer=None, ahora=None):
+    """When the session cannot read the repo variable (proxy 403 on actions/variables), it reads the valve that a dry run of
+    publicar.yml printed, from that run's log (read-only gh api). Nobody types the value. Returns (entorno, fuente, error)."""
+    nombre = cfg.get("valvula")
+    if (entorno.get(nombre) or "").strip() or not run_id:
+        return entorno, "", ""
+    repo = entorno.get("PUBLICAR_REPO") or REPO_LINEA
+    leer = leer or (lambda argv: subprocess.run(argv, capture_output=True, text=True, timeout=60))
+    try:
+        run, log = run_de_la_linea(run_id, repo, leer, ahora or registro.ahora())
+        valor = valvula_de_log(log, cfg, canal)
+    except (ValueError, OSError, subprocess.SubprocessError, KeyError) as ex:
+        return entorno, "", f"valvula from run {run_id}: {ex}"
+    e = dict(entorno)
+    e[nombre] = valor
+    fuente = f"{nombre}={valor} read from run {run_id} ({run.get('created_at')}) {run.get('html_url', '')}".strip()
+    print(f"valvula: {fuente}", file=sys.stderr)
+    return e, fuente, ""
+
+
+def spec_mcp(argv):
+    """The dispatch as the GitHub MCP tool takes it (actions_run_trigger, method run_workflow): the same inputs as the gh
+    argv, every value a string, ref main (the Action reads the piece and N's row from main)."""
+    repo = argv[argv.index("-R") + 1] if "-R" in argv else REPO_LINEA
+    owner, nombre = repo.split("/", 1)
+    entradas = {}
+    for i, x in enumerate(argv):
+        if x == "-f" and i + 1 < len(argv):
+            k, _, v = argv[i + 1].partition("=")
+            entradas[k] = v
+    return {"method": "run_workflow", "owner": owner, "repo": nombre, "workflow_id": "publicar.yml", "ref": "main",
+            "inputs": entradas}
+
+
+def linea_mcp(argv):
+    return "MCP run_workflow " + json.dumps(spec_mcp(argv), ensure_ascii=False, sort_keys=False)
+
+
+def anotar_despacho(a, run_id, leer=None, libro=LIBRO, ahora=None):
+    """After Lauren dispatched publicar.yml through the MCP tool: check the run is the live line run for this channel and
+    piece (read-only gh api) and write one ledger row per platform with its link. Posts nothing."""
+    ahora = ahora or registro.ahora()
+    repo = os.environ.get("PUBLICAR_REPO") or REPO_LINEA
+    leer = leer or (lambda argv: subprocess.run(argv, capture_output=True, text=True, timeout=60))
+    try:
+        if not re.fullmatch(r"\d{1,20}", str(run_id or "")):
+            raise ValueError(f"'{run_id}' is not a run id")
+        run = gh_json(leer, f"repos/{repo}/actions/runs/{run_id}")
+        titulo = run.get("display_title") or ""
+        if run.get("path") != ".github/workflows/publicar.yml" or run.get("event") != "workflow_dispatch":
+            raise ValueError(f"run {run_id} is not a dispatch of publicar.yml")
+        if titulo.split()[:2] != ["publicar", a.canal] or (a.slug and a.slug not in titulo.split()) or "(seco)" in titulo:
+            raise ValueError(f"run {run_id} is '{titulo}', not the live run of {a.canal} {a.slug}")
+    except (ValueError, OSError, subprocess.SubprocessError) as ex:
+        print(f"not recorded: {ex}")
+        return 1
+    for d in lista_donde(a.donde) or ["?"]:
+        anotar_libro({"utc": registro.a_utc(ahora), "canal": a.canal, "slug": a.slug or "", "plataforma": d, "modo": a.modo,
+                      "cuando": a.cuando or "now", "resultado": "despachado",
+                      "detalle": f"{run.get('html_url', '')} ({run.get('status')}, {run.get('conclusion') or 'running'})"}, libro)
+    print(f"recorded run {run_id} for {lista_donde(a.donde)} in {os.path.relpath(libro, REPO)}: {run.get('html_url', '')}")
+    return 0
 
 
 def valvula_desde_repo(cfg, entorno, leer=None):
@@ -753,9 +906,15 @@ def main(argv=None):
     ap.add_argument("--quitar-cron", metavar="SLUG", help="remove the one-off workflow file of SLUG after it fired (git rm)")
     ap.add_argument("--de-verdad", action="store_true", help="live: without it nothing is written or posted (seco)")
     ap.add_argument("--llaves-action", action="store_true", help="print the key slots for publicar.yml (names only) and exit")
+    ap.add_argument("--valvula-run", metavar="RUN_ID", default="",
+                    help="a session whose proxy refuses actions/variables: read the valve from the log of this dry run of publicar.yml")
+    ap.add_argument("--anotar-despacho", metavar="RUN_ID", default="",
+                    help="record in the ledger the publicar.yml run Lauren dispatched through the GitHub MCP tool (posts nothing)")
     a = ap.parse_args(argv)
     if a.quitar_cron:
         return quitar_una_vez(a.quitar_cron)
+    if a.anotar_despacho:
+        return anotar_despacho(a, a.anotar_despacho)
     reg = cargar_registro()
     if a.llaves_action:
         if a.canal not in reg:
@@ -765,9 +924,16 @@ def main(argv=None):
             print(f"{k}={v}")
         return 0
     entorno = entorno_desde_action(dict(os.environ))
+    fuente = error = ""
     if a.canal in reg:
-        entorno = valvula_desde_repo(reg[a.canal], entorno)
+        nombre = reg[a.canal]["valvula"]
+        if entorno.get("GITHUB_ACTIONS") == "true":  # the line a session reads back with --valvula-run (a variable, never a key)
+            print(f"valvula: {nombre}={(entorno.get(nombre) or '').strip().lower() or 'unset'} (repo variable, read by this Action run)")
+        else:
+            entorno = valvula_desde_repo(reg[a.canal], entorno)
+            entorno, fuente, error = valvula_desde_run(reg[a.canal], a.canal, entorno, a.valvula_run)
     plan = planear(a, reg, entorno, rutear=entorno.get("GITHUB_ACTIONS") != "true")
+    plan.valvula_fuente, plan.valvula_error = fuente, error
     return correr(plan)
 
 
