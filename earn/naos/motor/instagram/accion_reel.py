@@ -891,7 +891,8 @@ def reclamar(info, d, cwd=".", remoto="origin", ahora=None, salio=None):
     Devuelve 'ok', 'ocupada' (otra corrida la tiene: no publicar) o 'sin-reclamo' (el remoto no dejó crear la etiqueta por otra
     razón: el despacho suelto sigue como siempre, la guarda de url_reel y la compuerta de N no cambian; el lote lo trata como fallo,
     ver `--estricto`). Un reclamo vencido NO se toma si la pieza ya salió (`ya_salio`; `salio` lo fuerza en las pruebas)."""
-    ref = f"refs/tags/reel-claim/{info['slug']}-v{info['version']}"
+    nombre = f"{info['slug']}-v{info['version']}"
+    ref, alterna = f"refs/tags/reel-claim/{nombre}", f"refs/heads/claims/{nombre}"
     ahora = ahora or registro.ahora()
     arbol = _g(cwd, "hash-object", "-t", "tree", "-w", "--stdin", entrada="").stdout.strip()
     msg = f"reclamo {info['slug']} v{info['version']} corrida {os.environ.get('GITHUB_RUN_ID', '-')} {registro.a_utc(ahora)} {os.urandom(6).hex()}"  # el azar: dos corridas nunca arman el mismo commit (un push idéntico no falla)
@@ -900,24 +901,40 @@ def reclamar(info, d, cwd=".", remoto="origin", ahora=None, salio=None):
     if c.returncode or not sha:
         print(f"::warning::no pude armar el reclamo ({c.stderr.strip()[:200]}); sigo sin él")
         return "sin-reclamo"
+
+    def con_dueno(r, viejo):
+        """Alguien tiene el reclamo r (commit `viejo`): 'ocupada', salvo que sea de una corrida muerta (viejo y la pieza no salió)."""
+        if _g(cwd, "fetch", "-q", "--depth=1", remoto, viejo).returncode == 0:
+            t = _g(cwd, "show", "-s", "--format=%ct", viejo).stdout.strip()
+            if t.isdigit() and ahora.timestamp() - int(t) > RECLAMO_VIEJO_S:
+                if (ya_salio(info) if salio is None else salio):
+                    print(f"{info['slug']}: el reclamo es viejo pero la pieza ya salió (url_reel o estado publicado); no se toma")
+                    return "ocupada"
+                if _g(cwd, "push", "-q", f"--force-with-lease={r}:{viejo}", remoto, f"{sha}:{r}").returncode == 0:
+                    print(f"reclamo tomado de una corrida vieja: {r}")
+                    return "ok"
+        print(f"{info['slug']}: otra corrida tiene el reclamo de esta pieza ({r}); no se publica desde aquí")
+        return "ocupada"
+
+    # La sesión de Claude no puede crear etiquetas (su proxy rechaza el push de refs/tags con 403; el repo y la Action sí pueden). El reclamo
+    # tiene entonces dos refs equivalentes: la etiqueta y la rama claims/<mismo nombre>. Las dos rutas miran las dos antes de tomar una.
+    en_rama = _g(cwd, "ls-remote", remoto, alterna).stdout.split()
+    if en_rama:
+        return con_dueno(alterna, en_rama[0])
     if _g(cwd, "push", "-q", remoto, f"{sha}:{ref}").returncode == 0:
         print(f"reclamo tomado: {ref}")
         return "ok"
     viejo = _g(cwd, "ls-remote", remoto, ref).stdout.split()
     if not viejo:
-        print("::warning::el remoto no dejó crear la etiqueta del reclamo; sigo sin él")
+        if _g(cwd, "push", "-q", remoto, f"{sha}:{alterna}").returncode == 0:  # crear una rama que ya existe con otro commit lo rechaza el servidor
+            print(f"reclamo tomado (rama, este remoto no deja etiquetas): {alterna}")
+            return "ok"
+        if _g(cwd, "ls-remote", remoto, alterna).stdout.split():
+            print(f"{info['slug']}: otra corrida tomó el reclamo de esta pieza ({alterna}); no se publica desde aquí")
+            return "ocupada"
+        print("::warning::el remoto no dejó crear el reclamo (ni etiqueta ni rama claims/); sigo sin él")
         return "sin-reclamo"
-    if _g(cwd, "fetch", "-q", "--depth=1", remoto, viejo[0]).returncode == 0:
-        t = _g(cwd, "show", "-s", "--format=%ct", viejo[0]).stdout.strip()
-        if t.isdigit() and ahora.timestamp() - int(t) > RECLAMO_VIEJO_S:
-            if (ya_salio(info) if salio is None else salio):
-                print(f"{info['slug']}: el reclamo es viejo pero la pieza ya salió (url_reel o estado publicado); no se toma")
-                return "ocupada"
-            if _g(cwd, "push", "-q", f"--force-with-lease={ref}:{viejo[0]}", remoto, f"{sha}:{ref}").returncode == 0:
-                print(f"reclamo tomado de una corrida vieja: {ref}")
-                return "ok"
-    print(f"{info['slug']}: otra corrida tiene el reclamo de esta pieza ({ref}); no se publica desde aquí")
-    return "ocupada"
+    return con_dueno(ref, viejo[0])
 
 
 def videos_de(pieza):

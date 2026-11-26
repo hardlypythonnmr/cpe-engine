@@ -172,16 +172,22 @@ jobs:
           [ -n "$OPCION" ] && args+=(--opcion "$OPCION")
           [ "$SECO" = "true" ] || args+=(--de-verdad)
           python3 earn/naos/motor/publicar.py "${args[@]}"
-      - name: Save to main (publicados.csv, estado.json, the ledger)
+      - name: Save to main (publicados.csv, estado.json, contenedores.json, the ledger)
         if: ${{ always() && !inputs.seco && steps.checkout.outcome == 'success' && steps.linea.outcome != 'skipped' }}
         run: |
-          git add -- earn/naos/motor/instagram/publicados.csv earn/naos/motor/instagram/errores*.csv \
-            earn/naos/motor/instagram/fb-publicados.csv earn/naos/medicion 2>/dev/null || true
+          # contenedores.json (ig.py anotar_contenedor) is written by every Instagram run: it must travel with the rest, and any other
+          # tracked file the line touched must not stop the rebase (the first live run died on "cannot pull with rebase: unstaged changes").
+          # one path at a time: a path that does not exist must not stop the others from being staged
+          for f in earn/naos/motor/instagram/publicados.csv earn/naos/motor/instagram/errores*.csv \
+            earn/naos/motor/instagram/fb-publicados.csv earn/naos/motor/instagram/contenedores*.json earn/naos/medicion; do
+            git add -- "$f" 2>/dev/null || true
+          done
           [ -n "$SLUG" ] && [ -d "earn/naos/cola/aprobar/$SLUG" ] && git add -- "earn/naos/cola/aprobar/$SLUG/estado.json" 2>/dev/null
           git diff --cached --quiet && { echo "nothing to save"; exit 0; }
           git commit -q -m "publicar: $CANAL $MODO $SLUG"
+          git status --short | head -20   # what is left outside the commit (autostash keeps it out of the way)
           for i in 1 2 3 4; do
-            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && exit 0
             sleep $((i * 10))
           done
           echo "::error::could not save to main; the result is in this run's log"

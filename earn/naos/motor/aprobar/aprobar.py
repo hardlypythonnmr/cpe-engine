@@ -922,6 +922,11 @@ def cerrar(slug, short, reel, gh, cola=None, enlaces=None, semana=None, carrusel
             print(f"{r}: url_largo -> {short}")
         elif pz.get("estrategia") and embudo.es_largo(pz):
             print(f"AVISO {slug}: no escribí url_largo en {pz['estrategia']} (no está, o no se puede leer; estrategia.json vive en n-system): url_largo queda por escribir a mano", file=sys.stderr)
+    if e.get("issue") is None:  # pieza sin issue (la aprobó la mesa): no hay a quién comentar ni qué cerrar; solo queda publicada
+        e["estado"] = "publicado"
+        guardar_estado(e, cola)
+        print(f"{slug}: publicada; sin issue, no se comenta nada")
+        return
     if e.get("tanda"):  # el issue es de la tanda: se comenta la pieza y se cierra cuando ninguna pieza sigue viva
         comentar(gh, e["issue"], llenar(plantilla()["tanda_publicada"], slug=slug, url_short=short or "n/a",
                                         url_reel=reel or carrusel or imagen or historia or "n/a"))
@@ -1002,19 +1007,24 @@ def _huella_caption(t):
 def edad_reclamo(slug, version, cwd=None, remoto="origin"):
     """Segundos de vida del reclamo reel-claim/<slug>-v<version> en el remoto (como accion_reel.reclamar: ls-remote, fetch del commit
     y su %ct), None si no existe, "no-se-pudo" si no se puede leer."""
-    ref = f"refs/tags/reel-claim/{slug}-v{version}"
+    refs = [f"refs/tags/reel-claim/{slug}-v{version}", f"refs/heads/claims/{slug}-v{version}"]  # la etiqueta, o la rama de la sesión
     g = lambda *a: subprocess.run(["git", *([] if cwd is None else ["-C", cwd]), *a], capture_output=True, text=True, timeout=30)
     try:
-        ls = g("ls-remote", remoto, ref)
+        ls = g("ls-remote", remoto, *refs)
         if ls.returncode:
             return "no-se-pudo"
-        viejo = ls.stdout.split()
-        if not viejo:
+        shas = [l.split()[0] for l in ls.stdout.splitlines() if l.split()]
+        if not shas:
             return None
-        if g("fetch", "-q", "--depth=1", remoto, viejo[0]).returncode:
-            return "no-se-pudo"
-        t = g("show", "-s", "--format=%ct", viejo[0]).stdout.strip()
-        return registro.ahora().timestamp() - int(t) if t.isdigit() else "no-se-pudo"
+        edades = []
+        for viejo in shas:
+            if g("fetch", "-q", "--depth=1", remoto, viejo).returncode:
+                return "no-se-pudo"
+            t = g("show", "-s", "--format=%ct", viejo).stdout.strip()
+            if not t.isdigit():
+                return "no-se-pudo"
+            edades.append(registro.ahora().timestamp() - int(t))
+        return min(edades)
     except (OSError, subprocess.SubprocessError):
         return "no-se-pudo"
 

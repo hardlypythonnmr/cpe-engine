@@ -3598,6 +3598,16 @@ class TestPreparar(Base):
         self.assertTrue(ok, r)
         self.assertTrue(registro.es_mesa(r))
 
+    def test_cerrar_una_pieza_sin_issue_no_comenta_y_queda_publicada(self):
+        """G4a (26-nov): la pieza de la mesa no tiene issue; cerrar pedia comentar en /issues/None y no podia terminar."""
+        e = aprobar.preparar("cierre", self.cola)
+        aprobar.aprobar_mesa("cierre", "aprobar", e["hash_contenido"], "Sale", registro.a_utc(registro.ahora() - dt.timedelta(minutes=1)), 1, self.cola)
+        aprobar.cerrar("cierre", "https://www.youtube.com/shorts/AbCdEfGhIjK", "https://www.instagram.com/reel/AbC/", self.gh, self.cola)
+        self.assertEqual(aprobar.leer_estado("cierre", self.cola)["estado"], "publicado")
+        self.assertEqual(self.gh.comentarios, [])
+        filas = [r for r in registro.leer(self.csv) if r["slug"] == "cierre"]
+        self.assertTrue(all(r["url_short"] for r in filas))
+
     def test_misma_huella_no_sube_version_y_cambio_si(self):
         aprobar.preparar("cierre", self.cola)
         self.assertEqual(aprobar.preparar("cierre", self.cola)["version"], 1)

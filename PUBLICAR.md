@@ -18,6 +18,10 @@ other way. Lauren runs it only on N's word, one ask at a time.
 (25-nov-2026): a piece goes out with ONE command from a session (section 1), Instagram at a time goes by the
 self-removing one-off cron (section 4), and both channels are measured with one daily read (`medir.yml`).
 
+The Action's last step saves to `main` the ledger, `publicados.csv`, `estado.json` and `contenedores.json`. Fixed 26-nov-2026: it
+used to leave `contenedores.json` unstaged, so `git pull --rebase` refused four times after the first live Reel; it now stages it and
+uses `--autostash` so another stray file cannot block the save.
+
 Steps of every run, in order: validate, valve, N's approval, keys, host media on Pages, claim, publish or schedule,
 record. A failing check stops the run before anything is written.
 
@@ -47,7 +51,11 @@ anything runs or is dispatched, the session checks the valve and N's approval fo
 checks them again. Local platforms run first; if one fails, nothing is dispatched. Dry (no `--de-verdad`) prints the
 dispatch command with `seco=true` and never runs it. Each platform goes one way only, and the claim tags
 (`reel-claim/<slug>-v<N>` for Instagram, `reel-claim/<slug>-<platform>-v<N>` for the others) are the same tags on the
-same remote whichever route runs it, so a session and an Action can never both post one platform. Inside the Action
+same remote whichever route runs it, so a session and an Action can never both post one platform. (26-nov-2026: the Claude
+session proxy answers 403 to any push of `refs/tags/*`, while the Action can create tags. When the tag cannot be pushed the session
+takes the same claim as the branch `claims/<same name>`; both routes look at both refs before taking one, and `aprobar.py` reads
+the age of either. A claim branch is a few bytes; a deleted tag or branch is not possible from the session, so Lauren clears old
+ones from the GitHub page.) Inside the Action
 nothing is dispatched: a missing key stops the run.
 
 The dispatched run checks out `main`, so the piece, `estado.json` and N's approval row must be on `main` first.
@@ -154,6 +162,21 @@ and push.
 
 The run at the time goes through every step again (valve, approval, keys, claim). If N changes his mind before the time,
 Lauren removes the file (`--quitar-cron S`) and pushes.
+
+### 4b. Instagram at a time, the session way (proposed 26-nov-2026; N decides)
+
+Found 26-nov-2026: the one-off cron for `deviance-g4a` (16:05Z) had not fired by 16:13Z. GitHub starts scheduled workflows
+late and sometimes drops them. The session way does not depend on that:
+
+1. Lauren arms a scheduled message in her own session for the approved minute (the Reel's `cuando`), so the session wakes at the time.
+2. At that minute she dispatches `publicar.yml` herself through the GitHub MCP tool (`run_workflow`, `ref` `main`, the inputs the
+   dry run printed in its `MCP run_workflow {...}` line, `seco: "false"`), then reads the run with `gh api`.
+3. The Action goes through every step again (valve, approval, keys, claim), so a dispatch twice is stopped by the claim.
+4. The cron stays as the fallback: `--cron` is still written and pushed. Whichever comes first posts; the other finds the claim
+   (`ocupada`) or the piece already out (`ya=true`) and posts nothing. After the piece is out, Lauren removes the cron
+   (`--quitar-cron S`), commit, push.
+
+The session dispatches on N's word only, like every live run; the scheduled message is a reminder to Lauren, not a publisher.
 
 ## 5. What N does by hand (no API)
 
