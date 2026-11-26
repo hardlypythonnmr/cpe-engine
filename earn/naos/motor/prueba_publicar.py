@@ -667,6 +667,139 @@ class TestValvulaDesdeSesion(unittest.TestCase):
         self.assertNotIn("PUBLICAR_NAOS", publicar.valvula_desde_repo(self.CFG, {}, roto))
 
 
+class TestRutaSinVariables(unittest.TestCase):
+    """26-nov-2026: the session's proxy refuses actions/variables (403) but lets runs and job logs through. The valve comes
+    from the log of a dry run of publicar.yml that Lauren dispatched through the GitHub MCP tool; nobody types it."""
+    CFG = {"valvula": "PUBLICAR_NAOS"}
+    AHORA = dt.datetime(2026, 11, 26, 18, 0, tzinfo=dt.timezone.utc)
+
+    def gh(self, log, **run):
+        datos = dict(path=".github/workflows/publicar.yml", event="workflow_dispatch", head_branch="main", status="completed",
+                     conclusion="failure", created_at="2026-11-26T17:30:00Z", display_title="publicar naos publicar prueba-ruta (seco)",
+                     html_url="https://github.com/hardlypythonnmr/cpe-engine/actions/runs/123", repository={"full_name": "hardlypythonnmr/cpe-engine"})
+        datos.update(run)
+        llamadas = []
+
+        def leer(argv):
+            llamadas.append(argv)
+            ruta = argv[2]
+            if ruta.endswith("/jobs"):
+                return subprocess.CompletedProcess(argv, 0, json.dumps({"jobs": [{"id": 9}]}), "")
+            if ruta.endswith("/logs"):
+                return subprocess.CompletedProcess(argv, 0, log, "")
+            return subprocess.CompletedProcess(argv, 0, json.dumps(datos), "")
+        leer.llamadas = llamadas
+        return leer
+
+    LOG = ("2026-11-26T17:31:00.1Z valvula: PUBLICAR_NAOS=on (repo variable, read by this Action run)\n"
+           "2026-11-26T17:31:00.2Z publicar: canal naos, modo publicar, slug prueba-ruta, donde instagram, cuando now, SECO\n"
+           "2026-11-26T17:31:00.3Z   ok  valvula\n")
+
+    def leer_valvula(self, log=None, run_id="123", **run):
+        leer = self.gh(self.LOG if log is None else log, **run)
+        with contextlib.redirect_stderr(io.StringIO()):
+            return publicar.valvula_desde_run(self.CFG, "naos", {}, run_id, leer, self.AHORA), leer
+
+    def test_lee_la_valvula_del_log_de_la_corrida_seca(self):
+        (e, fuente, error), leer = self.leer_valvula()
+        self.assertEqual((e.get("PUBLICAR_NAOS"), error), ("on", ""))
+        self.assertIn("run 123", fuente)
+        self.assertTrue(all(a[:2] == ["gh", "api"] and "variables" not in a[2] for a in leer.llamadas))  # read only, never the 403 path
+        vieja = "2026-11-26T17:31:00Z publicar: canal naos, modo publicar\n2026-11-26T17:31:01Z   NO  valvula: the repo variable PUBLICAR_NAOS is 'off', not 'on'\n"
+        (e, _, error), _ = self.leer_valvula(vieja)  # a run of the code on main before this change
+        self.assertEqual(e["PUBLICAR_NAOS"], "off")
+
+    def test_una_corrida_que_no_sirve_deja_la_valvula_sin_valor(self):
+        casos = [dict(path=".github/workflows/medir.yml"), dict(head_branch="lauren/x"), dict(event="schedule"),
+                 dict(created_at="2026-11-26T10:00:00Z"), dict(status="in_progress")]
+        for run in casos:
+            (e, fuente, error), _ = self.leer_valvula(**run)
+            self.assertNotIn("PUBLICAR_NAOS", e, run)
+            self.assertTrue(error.startswith("valvula from run 123"), run)
+        for log in ("2026-11-26T17:31:00Z publicar: canal deedee, modo publicar\n2026-11-26T17:31:00Z   ok  valvula\n",  # another channel
+                    "2026-11-26T17:31:00Z publicar: canal naos, modo publicar\n",  # stopped before the valve
+                    self.LOG + "2026-11-26T17:31:00Z valvula: PUBLICAR_NAOS=off (repo variable, read by this Action run)\n",
+                    "2026-11-26T17:31:00Z publicar: canal naos\n2026-11-26T17:31:00Z   CITA:   ok  valvula\n"):  # text inside env, not anchored
+            (e, _, error), _ = self.leer_valvula(log)
+            self.assertNotIn("PUBLICAR_NAOS", e, log)
+        (e, _, error), leer = self.leer_valvula(run_id="123; rm -rf /")
+        self.assertEqual(leer.llamadas, [])
+        nunca = lambda argv: self.fail("no debía llamar a gh")
+        self.assertEqual(publicar.valvula_desde_run(self.CFG, "naos", {"PUBLICAR_NAOS": "off"}, "123", nunca)[0]["PUBLICAR_NAOS"], "off")
+
+    def test_la_action_imprime_la_linea_que_la_sesion_lee(self):
+        out = io.StringIO()
+        entorno = {"GITHUB_ACTIONS": "true", "LINEA_V1_NOMBRE": "PUBLICAR_NAOS", "LINEA_V1": "on"}
+        with mock.patch.dict(os.environ, entorno, clear=True), contextlib.redirect_stdout(out):
+            publicar.main(["--canal", "naos", "--modo", "comprobar", "--donde", "instagram"])
+        primera = out.getvalue().splitlines()[0]
+        self.assertRegex(primera, publicar.LINEA_VALVULA)
+        self.assertEqual(publicar.valvula_de_log(out.getvalue(), self.CFG, "naos"), "on")
+
+    def test_el_despacho_para_mcp_tiene_las_entradas_de_publicar_yml(self):
+        import yaml
+        wf = yaml.safe_load(open(os.path.join(REPO, ".github", "workflows", "publicar.yml"), encoding="utf-8"))
+        entradas = wf[True]["workflow_dispatch"]["inputs"]
+        a = args(slug="prueba-ruta", donde="instagram", cita="Sí; \"así\"", campo="banner", archivo="a/b.txt", opcion="c")
+        spec = publicar.spec_mcp(publicar.orden_despacho(a, ["instagram"], None))
+        self.assertEqual((spec["owner"], spec["repo"], spec["workflow_id"], spec["ref"], spec["method"]),
+                         ("hardlypythonnmr", "cpe-engine", "publicar.yml", "main", "run_workflow"))
+        self.assertLessEqual(set(spec["inputs"]), set(entradas))
+        self.assertTrue(all(isinstance(v, str) for v in spec["inputs"].values()))
+        self.assertIn(spec["inputs"]["canal"], entradas["canal"]["options"])
+        self.assertIn(spec["inputs"]["modo"], entradas["modo"]["options"])
+        self.assertEqual((spec["inputs"]["seco"], spec["inputs"]["cita"]), ("true", "Sí; \"así\""))
+        linea = publicar.linea_mcp(publicar.orden_despacho(a, ["instagram"], None))
+        self.assertEqual(json.loads(linea.split(" ", 2)[2]), spec)  # machine-readable: one JSON after the label
+
+    def test_anotar_despacho_solo_acepta_la_corrida_viva_de_la_pieza(self):
+        with tempfile.TemporaryDirectory() as d:
+            libro = os.path.join(d, "publicar.csv")
+            a = args(slug="prueba-ruta", donde="instagram")
+            vivo = self.gh("", display_title="publicar naos publicar prueba-ruta ", status="in_progress", conclusion=None)
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(publicar.anotar_despacho(a, "123", vivo, libro, self.AHORA), 0)
+                self.assertEqual(publicar.anotar_despacho(a, "123", self.gh(""), libro, self.AHORA), 1)  # a dry run
+                self.assertEqual(publicar.anotar_despacho(args(slug="otra", donde="instagram"), "123", vivo, libro, self.AHORA), 1)
+            filas = list(__import__("csv").DictReader(open(libro, encoding="utf-8")))
+            self.assertEqual([(f["plataforma"], f["resultado"]) for f in filas], [("instagram", "despachado")])
+            self.assertIn("actions/runs/123", filas[0]["detalle"])
+
+
+class TestRutaSinVariablesLinea(Linea):
+    """The whole path on a test piece: valve unknown, dry prints the MCP spec; with the valve from a run, live runs YouTube
+    here and, when gh may not dispatch, leaves Instagram for the MCP tool (exit 4) with the rows in the ledger."""
+
+    def plan(self, entorno=None, **kw):
+        return publicar.planear(args(**kw), self.reg, dict(SESION_NAOS if entorno is None else entorno), cola=self.cola,
+                                publicados=self.csv, trabajo=self.trabajo, rutear=True)
+
+    def test_valvula_desconocida_imprime_la_corrida_seca_para_mcp(self):
+        plan = self.plan(entorno={k: v for k, v in SESION_NAOS.items() if k != "PUBLICAR_NAOS"})
+        rc, out = self.correr(plan, ejecutar=mock.Mock(), reclamar=mock.Mock())
+        self.assertEqual(rc, 3)
+        self.assertIn("valve unknown here", out)
+        linea = next(l for l in out.splitlines() if "MCP run_workflow" in l and '"seco": "true"' in l)
+        self.assertIn('"donde": "instagram"', linea)
+
+    def test_en_vivo_con_valvula_de_corrida_y_gh_sin_permiso(self):
+        plan = self.plan(de_verdad=True)
+        plan.valvula_fuente = "PUBLICAR_NAOS=on read from run 123"
+
+        def ejecutar(argv, entorno):
+            if argv[0] == "gh":
+                return 1, "HTTP 403: Access to this GitHub Actions path is not permitted through this proxy.\n"
+            return 0, "https://www.youtube.com/shorts/abc\n"
+        rc, out = self.correr(plan, ejecutar=ejecutar, reclamar=mock.Mock(return_value="ok"))
+        self.assertEqual(rc, 4, out)
+        self.assertIn("DISPATCH NOT SENT", out)
+        self.assertIn('"seco": "false"', out)
+        self.assertIn("--anotar-despacho <run id>", out)
+        filas = list(__import__("csv").DictReader(open(self.libro, encoding="utf-8")))
+        self.assertEqual([(f["plataforma"], f["resultado"]) for f in filas],
+                         [("valvula", "on"), ("youtube", "ok"), ("instagram", "despacho-pendiente")])
+
+
 class TestAction(unittest.TestCase):
     def setUp(self):
         import yaml

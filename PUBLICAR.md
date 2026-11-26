@@ -55,7 +55,7 @@ The dispatched run checks out `main`, so the piece, `estado.json` and N's approv
 The valve from a session: `PUBLICAR_NAOS` and `PUBLICAR_DEEDEE` are repo variables, so they are not in a session's
 environment. `publicar.py` reads the variable read-only with `gh api repos/hardlypythonnmr/cpe-engine/actions/variables/<name>`
 when it is not set in the environment, and prints what it read. Never export the valve by hand in a session: that
-sidesteps N's setting. If `gh` cannot read it, the run stops at `valvula: unset`; tell N.
+sidesteps N's setting. If `gh` cannot read it (the Claude session proxy answers 403 on `actions/variables`), use section 7.
 
 From a session, a live Instagram or Facebook post also needs a checkout of the channel's Pages repo (NAOS:
 `hardlypythonnmr/naos-site`, renamed from `naos` on 25-nov-2026; Dee Dee: the repo in `DD_PAGES_REPO`) at `./sitio`, or at the path in `PUBLICAR_SITIO`. The
@@ -191,4 +191,26 @@ Lauren removes the file (`--quitar-cron S`) and pushes.
   daily read-only run for both channels, `.github/workflows/medir.yml` (decided by N, 25-nov-2026), which replaced
   `dd-medir.yml` and `naos-ig-salud.yml` (archived).
 - Dispatching from a session needs `gh` with permission to run workflows on cpe-engine. If the session's proxy refuses
-  it, the line prints the failure and the exit code; run the printed command where `gh` may dispatch.
+  it, the line prints the GitHub MCP spec (section 7) and exits 4.
+
+## 7. From a session whose proxy blocks the Actions API
+
+Found 26-nov-2026: the Claude session proxy answers 403 on `actions/variables` (the valve) but lets `gh api` read runs
+and job logs. Lauren's GitHub MCP tools can dispatch (`actions_run_trigger`, `run_workflow`) and list runs. So:
+
+1. **Valve.** Run the session command dry. When the valve is unknown it prints `MCP run_workflow {...}` with `seco: "true"`.
+   Lauren pastes that JSON into the MCP tool, takes the run id from the MCP run list, and runs the same command again with
+   `--valvula-run <run id>`. The line reads that run's log itself (read only): the Action prints
+   `valvula: PUBLICAR_NAOS=<value> (repo variable, read by this Action run)`. The run must be `publicar.yml`, dispatched on
+   `main`, finished, of the same channel, and at most 3 hours old; nobody types the value. A live run writes a `valvula`
+   row in `medicion/publicar.csv` with the run's link. Before this change reaches `main`, the old `ok  valvula` check line
+   is read the same way, but only when the piece is on `main` (the line prints checks after it finds the piece).
+2. **Dispatch.** Every dispatch step prints its `MCP run_workflow {...}` line next to the `gh workflow run` command: owner,
+   repo, `workflow_id` `publicar.yml`, `ref` `main`, and the inputs of `publicar.yml` as strings. Live, if `gh` is refused,
+   the line exits 4, writes `despacho-pendiente` in the ledger and prints the spec with `seco: "false"`. Lauren pastes it
+   into the MCP tool on N's word, then records the run:
+   `python3 earn/naos/motor/publicar.py --anotar-despacho <run id> --slug S --canal naos --donde instagram --modo publicar`
+   (it checks the run is the live `publicar.yml` run of that piece; it posts nothing).
+3. **NAOS YouTube** still runs from the session (`GOOGLE_OAUTH_*` are not cpe-engine secrets). If N adds the three
+   secrets to cpe-engine, the whole piece can go through the MCP dispatch.
+
