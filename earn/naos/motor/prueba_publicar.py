@@ -825,6 +825,46 @@ class TestAction(unittest.TestCase):
         self.assertIn('[ "$SECO" = "true" ] || args+=(--de-verdad)', self.fuente)
 
 
+    def test_guardar_en_main_lleva_contenedores_y_no_se_atasca_con_otro_archivo_sin_preparar(self):
+        """Primera corrida en vivo (G4a): ig.py dejó contenedores.json sin preparar y 'git pull --rebase' se negó cuatro veces.
+        Corre el paso real en un clon de verdad: sale a main con contenedores.json, y un archivo suelto no lo frena."""
+        import subprocess, shutil
+        paso = next(p for p in self.wf["jobs"]["linea"]["steps"] if p.get("name", "").startswith("Save to main"))
+        self.assertIn("contenedores", paso["run"])
+        self.assertIn("--autostash", paso["run"])
+        with tempfile.TemporaryDirectory() as t:
+            g = lambda cwd, *a: subprocess.run(["git", "-C", cwd, *a], capture_output=True, text=True, check=True).stdout
+            bare, w = os.path.join(t, "o.git"), os.path.join(t, "w")
+            subprocess.run(["git", "init", "-q", "--bare", "-b", "main", bare], check=True)
+            subprocess.run(["git", "clone", "-q", bare, w], capture_output=True, check=True)
+            for k, v in (("user.name", "t"), ("user.email", "t@t")):
+                g(w, "config", k, v)
+            ig = os.path.join(w, "earn", "naos", "motor", "instagram")
+            os.makedirs(ig)
+            os.makedirs(os.path.join(w, "earn", "naos", "medicion"))
+            os.makedirs(os.path.join(w, "earn", "naos", "motor", "investigacion", "datos"))
+            for rel, txt in (("earn/naos/motor/instagram/publicados.csv", "a\n"), ("earn/naos/motor/instagram/contenedores.json", "{}"),
+                             ("earn/naos/medicion/publicar.csv", "a\n"), ("earn/naos/motor/investigacion/datos/cuota.json", "{}")):
+                open(os.path.join(w, rel), "w").write(txt)
+            g(w, "add", "-A"); g(w, "commit", "-q", "-m", "base"); g(w, "push", "-q", "origin", "HEAD:main")
+            open(os.path.join(ig, "contenedores.json"), "w").write('{"1": "h"}')
+            open(os.path.join(ig, "publicados.csv"), "a").write("b\n")
+            open(os.path.join(w, "earn", "naos", "medicion", "publicar.csv"), "a").write("b\n")
+            open(os.path.join(w, "earn/naos/motor/investigacion/datos/cuota.json"), "w").write('{"x": 1}')  # fuera de la lista
+            otro = os.path.join(t, "otro")  # main avanzó mientras corría la línea
+            subprocess.run(["git", "clone", "-q", bare, otro], capture_output=True, check=True)
+            for k, v in (("user.name", "t"), ("user.email", "t@t")):
+                g(otro, "config", k, v)
+            open(os.path.join(otro, "x.txt"), "w").write("x")
+            g(otro, "add", "-A"); g(otro, "commit", "-q", "-m", "otro"); g(otro, "push", "-q", "origin", "HEAD:main")
+            env = dict(os.environ, SLUG="", CANAL="naos", MODO="publicar")
+            r = subprocess.run(["bash", "-e", "-c", paso["run"]], cwd=w, env=env, capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            visto = g(bare, "show", "main:earn/naos/motor/instagram/contenedores.json")
+            self.assertEqual(visto, '{"1": "h"}')
+            self.assertIn("b", g(bare, "show", "main:earn/naos/medicion/publicar.csv"))
+            self.assertEqual(g(bare, "show", "main:earn/naos/motor/investigacion/datos/cuota.json"), "{}")  # lo suelto no se guarda
+
     def test_ninguna_otra_action_publica_por_su_cuenta(self):
         """After the archive, no workflow left in .github/workflows posts with a schedule."""
         carpeta = os.path.join(REPO, ".github", "workflows")

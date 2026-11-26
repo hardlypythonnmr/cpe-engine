@@ -49,6 +49,35 @@ class Reclamo(unittest.TestCase):
         self.assertEqual(ar.reclamar(self.info, "x", cwd=self.b, ahora=despues), "ok")
         self.assertEqual(ar.reclamar(self.info, "x", cwd=self.a), "ocupada")
 
+    def _sin_etiquetas(self):
+        """El remoto de la sesión de Claude: acepta ramas y rechaza todo push de refs/tags (el proxy da 403)."""
+        hook = os.path.join(self.t.name, "remoto.git", "hooks", "pre-receive")
+        with open(hook, "w") as f:
+            f.write("#!/bin/sh\nwhile read a b ref; do case \"$ref\" in refs/tags/*) echo 'tags refused' >&2; exit 1;; esac; done\n")
+        os.chmod(hook, 0o755)
+
+    def test_si_el_remoto_rechaza_etiquetas_el_reclamo_se_toma_en_una_rama_que_ven_las_dos_rutas(self):
+        self._sin_etiquetas()
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.a), "ok")  # la sesión: rama claims/
+        remoto = os.path.join(self.t.name, "remoto.git")
+        self.assertIn("refs/heads/claims/pieza-uno-v2", git(remoto, "for-each-ref", "--format=%(refname)"))
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.b), "ocupada")  # otra sesión
+        os.remove(os.path.join(remoto, "hooks", "pre-receive"))  # la Action sí crea etiquetas: ve la rama y no publica dos veces
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.b), "ocupada")
+        self.assertEqual(ar.reclamar(dict(self.info, version=3), "x", cwd=self.b), "ok")
+
+    def test_si_la_etiqueta_ya_esta_la_sesion_sin_etiquetas_no_publica(self):
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.b), "ok")  # la Action: etiqueta
+        self._sin_etiquetas()
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.a), "ocupada")
+
+    def test_un_reclamo_en_rama_viejo_de_una_corrida_muerta_se_puede_tomar(self):
+        self._sin_etiquetas()
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.a), "ok")
+        despues = registro.ahora() + dt.timedelta(seconds=ar.RECLAMO_VIEJO_S + 60)
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.b, ahora=despues, salio=False), "ok")
+        self.assertEqual(ar.reclamar(self.info, "x", cwd=self.a, salio=False), "ocupada")
+
     def test_un_remoto_que_no_deja_crear_la_etiqueta_no_bloquea(self):
         self.assertEqual(ar.reclamar(self.info, "x", cwd=self.a, remoto="no-existe"), "sin-reclamo")
 
