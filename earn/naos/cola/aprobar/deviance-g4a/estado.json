@@ -1,0 +1,22 @@
+{
+ "slug": "deviance-g4a",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-26T16:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "67d96de078fcb867666e94157e545ce8d467259128bddc97bc917236de9a9976",
+ "hashes": {
+  "short": "655ddb20d69a86553fe9d4060902bd443aa5b7103ce6761dc8da9b3094743825",
+  "reel": "fbd061d62288f585988683e4a01021a288112ede729fee20e456b2a8d0cf99e4"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

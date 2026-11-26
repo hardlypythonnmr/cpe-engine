@@ -1,0 +1,42 @@
+{
+ "slug": "deviance-g4a",
+ "titulo": "Slow Life History Strategy: How Safe Choices Become Bumpers",
+ "clave": "2026-11-26|deviance-g4a",
+ "caption": "Slow Life History Strategy: How Safe Choices Become Bumpers\n\nEcologists call it a slow life history strategy: you go to Pilates, worry about your 401(k), and everything has to last.\n\nAdam Mastroianni thinks most of us never choose it. Each decision gets nudged toward the safer option until your life runs between bumpers, like a ball on a bowling lane. \"You start out following the rules, then you never stop, then you forget that it's possible to break the rules in the first place.\" Lift one bumper this week, a small one.\n\nSource: \"The Decline of Deviance\" by Adam Mastroianni, Experimental History, 28 Oct 2025. Link: https://www.experimental-history.com/p/the-decline-of-deviance . Drawn in black and red ink on white paper. The last line is ours.\n\nMore strategies: link in bio.\n\n#declineofdeviance #slowlife #handdrawnanimation #lineart",
+ "descripcion": "A slow life history strategy is what ecologists call living in a land of milk and honey. Instead of driving drunk, you go to Pilates and worry about your 401(k). Adam Mastroianni explains it in his essay The Decline of Deviance.\nHe thinks most of us don't pick the slow life on purpose. Each decision gets nudged toward the safer option until your path runs between bumpers, like a ball on a bowling lane.\n\nOur suggestion, not his: lift one bumper this week, a small one.\n\nSource link in this description, under Credits.\n\nCredits\nEssay: Adam Mastroianni, \"The Decline of Deviance\", Experimental History, 28 Oct 2025. https://www.experimental-history.com/p/the-decline-of-deviance\nThe retelling, and the lines said to you, are ours (NAOS).\n\n#DeclineOfDeviance #SlowLife #HandDrawnAnimation",
+ "sintetico": false,
+ "alt": "Hand-drawn line animation in black and red ink on white paper. A field, a jug and a honeycomb; a car, a Pilates figure and a piggy bank; a name tag with the word reputation. A bowling lane is drawn and two bumpers thicken as small arrows nudge the ball. The words follow, never stop and forget are written and the last one rubs itself out. The lane forks, and at the end one bumper lifts and the ball rolls off the edge of the page.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "57.70 s, 1080x1920, 30 fps, H.264 + AAC; vertical reframe of G4a r2 v2 (D-627)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate 0 opposing transitions; max 0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "CHECKPOINT-r2.md and copies check 26-nov: quotes match the essay; credit block complete"
+  },
+  {
+   "que": "Captions",
+   "estado": "OK",
+   "nota": "burned-in captions from words.json"
+  }
+ ],
+ "sale_utc": "2026-11-26T16:00:00Z",
+ "pie": "More strategies: link in bio."
+}
