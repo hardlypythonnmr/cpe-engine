@@ -1,0 +1,22 @@
+{
+ "slug": "deviance-g5",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-27T00:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "4c4e37d4a375d67b6b752a134494dc509e5df162bb3d3c82f523c9654c2c9332",
+ "hashes": {
+  "short": "c9e39bf4c5968215e4f9e52263cce9f0b0cb4edcd8e0b3255e63ca0082919fbd",
+  "reel": "b1cb06d748642b0ddcc74853b897b201deddd3e0c18c8b77b5ca0ef2b201abbc"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}
