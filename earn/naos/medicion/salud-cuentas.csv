@@ -1,3 +1,5 @@
 utc,canal,plataforma,resultado,detalle
 2026-11-26T01:56:59Z,naos,instagram,OK,"OK: valid token, @naos.v3 (MEDIA_CREATOR), quota 0/50 in 24 h, expires 2026-12-15 (19 days, from token_estado.json)."
 2026-11-26T01:56:59Z,deedee,instagram,OK,"OK: valid token, @artdirection_dd (business), quota 0/100 in 24 h, system user token (Facebook Login): it does not expire."
+2026-11-27T01:56:17Z,naos,instagram,OK,"OK: valid token, @naos.v3 (MEDIA_CREATOR), quota 2/50 in 24 h, expires 2026-12-15 (18 days, from token_estado.json)."
+2026-11-27T01:56:17Z,deedee,instagram,OK,"OK: valid token, @artdirection_dd (business), quota 0/100 in 24 h, system user token (Facebook Login): it does not expire."
