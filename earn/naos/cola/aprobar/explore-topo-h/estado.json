@@ -1,0 +1,22 @@
+{
+ "slug": "explore-topo-h",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-16T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8a7e228d0619ca10e5e8b1a15efdafac296a4da0e1fe176d71aa5b9726420c4f",
+ "hashes": {
+  "short": "5e88f0b743b41f1670450e674410015430b9e20a711c739c6580bcfcfdf68ad6",
+  "reel": "946aae14ed582e1abfa78d20321003a1f7f3f76a171ea523a7abc948bb7348fd"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

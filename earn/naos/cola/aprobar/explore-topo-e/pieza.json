@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-e",
+ "titulo": "Infinite Zoom Into a Contour Map, Timed to Gongs",
+ "clave": "2026-12-12|explore-topo-e",
+ "caption": "Infinite Zoom Into a Contour Map, Timed to Gongs\n\nThe bells set the speed of the fall, and when they stop, the fall stops with them. Let it play twice: the last frame runs into the first. A wordless exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore from NAOS: link in bio.\n\n#infinitezoom #contourlines #generativeart",
+ "descripcion": "An infinite zoom animation that falls into a contour map without end, through the same land again and again.\nBronze bells set the speed of the fall, slow and huge at first and frantic by 20 seconds. Then a hard silence stops the fall dead, and one low gong lets it drift out. The last frame runs into the first, so it loops.\nA wordless NAOS exploration of contour lines and sound.\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#infinitezoom #contourlines #generativeart",
+ "sintetico": true,
+ "alt": "Endless zoom into a glowing contour map on near black. Neon lines in six bright colors ring round hills and hollows. The camera falls into them while slowly turning, and the same shapes come back at every scale. The fall speeds up to a rush, stops dead on a frozen frame, then drifts slowly to rest where the video began. No text, no people.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "35.00 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 0 opposing transitions >= 0.10 rel. luminance; max 0.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-12T18:00:00Z",
+ "pie": "More from NAOS: link in bio."
+}

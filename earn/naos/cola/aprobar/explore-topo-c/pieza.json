@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-c",
+ "titulo": "Geological Time Lapse on a Contour Map, Set by Music",
+ "clave": "2026-12-20|explore-topo-c",
+ "caption": "Geological Time Lapse on a Contour Map, Set by Music\n\nTime on this map runs at the speed of the music. Bursts of marimba raise and erode the land, and a held chord or a silence stops the clock. The quotes are from \"The Decline of Deviance\" by Adam Mastroianni (Experimental History) and \"How I Learn Languages\" by Sofia Balderson (Sofia's Notes from the Margin). Both texts are linked on the NAOS page in our bio. A NAOS exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore strategies: link in bio.\n\n#timelapse #contourlines #generativeart",
+ "descripcion": "A geological time lapse on a contour map seen from above. The land rises and erodes only as fast as the music plays. A burst of marimba runs time fast, and a held chord or a silence stops it.\nThree quotes by Adam Mastroianni and Sofia Balderson rise with the land in its still moments. Watch the frozen frame at 27 seconds, when the music drops to true silence.\nA NAOS exploration of contour lines and sound.\n\nSources (the quotes on screen):\nAdam Mastroianni, \"The Decline of Deviance\", Experimental History, 28 Oct 2025. https://www.experimental-history.com/p/the-decline-of-deviance\nSofia Balderson, \"How I Learn Languages\", Sofia's Notes from the Margin, 11 Jan 2026. https://notingthemargin.substack.com/p/how-i-learn-languages\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#timelapse #contourlines #generativeart",
+ "sintetico": true,
+ "alt": "A contour map seen from straight above on black, its lines colored by height. The land rises out of a plain in icy blue while the words \"Creativity is just deviance put to good use.\" and the name Adam Mastroianni press into the terrain. The colors turn to ember and \"Consistency matters more than talent.\" appears with the name Sofia Balderson, then wears away as rivers cut in and the peaks erode. As the erosion settles, \"Half an hour every day beats three hours on Sunday.\" with the name Sofia Balderson holds through a frozen frame. On the last chord the colors turn bright, magenta to yellow.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "36.00 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 0 opposing transitions >= 0.10 rel. luminance; max 0.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-20T18:00:00Z",
+ "pie": "More strategies: link in bio."
+}
