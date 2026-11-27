@@ -2,7 +2,7 @@
  "slug": "languages-r4-topo",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-27T18:00:00Z",
  "datos_utc": "",
  "hash_contenido": "b4cbbc770e043e3ec8cac913d964b1c610f219b318e0115d5087ec60eb4f6e89",
@@ -18,5 +18,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-27T00:20:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "The first one is amazing. I will post them, like post all of them.",
+  "decidido_utc": "2026-11-27T00:20:00Z",
+  "version": 1,
+  "hash_contenido": "b4cbbc770e043e3ec8cac913d964b1c610f219b318e0115d5087ec60eb4f6e89",
+  "leyenda": "aprobado por N en la mesa, 2026-11-27T00:20:00Z: The first one is amazing. I will post them, like post all of them.",
+  "registrado_utc": "2026-11-27T02:43:45Z"
+ }
 }
