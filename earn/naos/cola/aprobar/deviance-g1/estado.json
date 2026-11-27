@@ -1,0 +1,22 @@
+{
+ "slug": "deviance-g1",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-27T16:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "38599c7f385d548f39f971d07dbcf0a9f1872628ced98ff21aa9916635ae44be",
+ "hashes": {
+  "short": "56ebcbda93faf5116b21117c4ba35656b7b05c6b9ded5fa648c7d5352aee829d",
+  "reel": "b4b66d3bef9ca84ab7dc6cd9fc2b38ff7957a28b85e3a0f7b0af6f7a793b6d19"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}
