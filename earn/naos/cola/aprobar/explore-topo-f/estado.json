@@ -2,7 +2,7 @@
  "slug": "explore-topo-f",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-14T18:00:00Z",
  "datos_utc": "",
  "hash_contenido": "065f91d39a80a97c65b25632c8e87aedfef806a0dc1eb579ae197604e34b0470",
@@ -18,5 +18,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-27T16:16:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "i like them schedule all round 5 / Get them also as reels and shorts?",
+  "decidido_utc": "2026-11-27T16:16:00Z",
+  "version": 1,
+  "hash_contenido": "065f91d39a80a97c65b25632c8e87aedfef806a0dc1eb579ae197604e34b0470",
+  "leyenda": "aprobado por N en la mesa, 2026-11-27T16:16:00Z: i like them schedule all round 5 / Get them also as reels and shorts?",
+  "registrado_utc": "2026-11-27T16:27:14Z"
+ }
 }
