@@ -1,0 +1,20 @@
+{
+ "slug": "explore-topo-b-story",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-29T17:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "15d68f9f3abac634425dca7d825677dea9826d74ffb81435d4e0a5d7010179cd",
+ "hashes": {
+  "historia": "762dcaf7f7af24bc162a3e55778af27048648e9192fc52b47f92218e031122bd"
+ },
+ "canales": [
+  "historia"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

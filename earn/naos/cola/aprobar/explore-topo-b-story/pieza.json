@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-b-story",
+ "titulo": "exp-topo-B",
+ "clave": "2026-11-29|explore-topo-b-story",
+ "caption": "",
+ "descripcion": "",
+ "sintetico": true,
+ "alt": "",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "historia"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "30.00 s, 1080x1920; Instagram Story, 9:16"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 0 opposing transitions >= 0.10 rel. luminance; max 0.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-11-29T17:00:00Z",
+ "pie": "",
+ "archivo": "historia.mp4"
+}
