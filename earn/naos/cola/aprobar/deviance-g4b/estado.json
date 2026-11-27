@@ -2,7 +2,7 @@
  "slug": "deviance-g4b",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-11-27T20:00:00Z",
  "datos_utc": "",
  "hash_contenido": "19108728998156dd84b5a14f99f843efdb2872161d6a0e42cc5fbc472ac6cfe5",
@@ -16,5 +16,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-27T00:20:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "R2 ya, r3 cuando las vea / just post",
+  "decidido_utc": "2026-11-27T00:20:00Z",
+  "version": 1,
+  "hash_contenido": "19108728998156dd84b5a14f99f843efdb2872161d6a0e42cc5fbc472ac6cfe5",
+  "leyenda": "aprobado por N en la mesa, 2026-11-27T00:20:00Z: R2 ya, r3 cuando las vea / just post",
+  "registrado_utc": "2026-11-27T16:05:41Z"
+ }
 }
