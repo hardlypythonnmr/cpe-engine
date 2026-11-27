@@ -2,7 +2,7 @@
  "slug": "dj-p3",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-11T18:00:00Z",
  "datos_utc": "",
  "hash_contenido": "439420811567f2a3b33a1f558e51eabb3d57e2ce613c431b070939acbb0caa2b",
@@ -18,5 +18,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-27T18:10:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "i lvoe them all,s chedule them but fixx those little things prior hand / DJ first, explorations later (Recommended)",
+  "decidido_utc": "2026-11-27T18:10:00Z",
+  "version": 1,
+  "hash_contenido": "439420811567f2a3b33a1f558e51eabb3d57e2ce613c431b070939acbb0caa2b",
+  "leyenda": "aprobado por N en la mesa, 2026-11-27T18:10:00Z: i lvoe them all,s chedule them but fixx those little things prior hand / DJ first, explorations later (Recommended)",
+  "registrado_utc": "2026-11-27T18:21:23Z"
+ }
 }
