@@ -2426,3 +2426,7 @@ fecha_pacifico,hora_utc,consumidor,operacion,unidades
 2026-11-26,2026-11-26T16:22:06Z,shorts,videos.insert,1
 2026-11-26,2026-11-26T16:22:10Z,shorts,thumbnails.set,50
 2026-11-26,2026-11-26T16:22:10Z,shorts,videos.list,1
+2026-11-26,2026-11-27T02:24:17Z,shorts,channels.list,1
+2026-11-26,2026-11-27T02:24:19Z,shorts,videos.insert,1
+2026-11-26,2026-11-27T02:24:21Z,shorts,thumbnails.set,50
+2026-11-26,2026-11-27T02:24:21Z,shorts,videos.list,1
