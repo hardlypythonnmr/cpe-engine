@@ -1,0 +1,22 @@
+{
+ "slug": "languages-r4-topo",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-11-27T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b4cbbc770e043e3ec8cac913d964b1c610f219b318e0115d5087ec60eb4f6e89",
+ "hashes": {
+  "short": "f9fd3a7203c207c51c4678a5118e2fcdf9977905cc3a57e5696145d742124c51",
+  "reel": "bbc42b5a8c60f2429dd13ffc3e573d9aebc24e8ad3a9a6ef978922add8f6c3d2"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}
