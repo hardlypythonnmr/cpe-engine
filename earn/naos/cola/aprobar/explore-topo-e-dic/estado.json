@@ -1,0 +1,22 @@
+{
+ "slug": "explore-topo-e-dic",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-19T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "3c958b2290d9b5fafb3a620f4fa5832f7ffa22d0742f067c4f50733300bf829f",
+ "hashes": {
+  "short": "98113265636520a26e753edf60576a16d627e6ca8144c52a1457610c0ed90305",
+  "reel": "768889b4bb21f7181c72afd1d7eb82a18a8b1afb2a32438826c829f50d7de2df"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

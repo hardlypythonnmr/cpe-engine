@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-b-dic",
+ "titulo": "Audio Reactive Landscape: Industrial Techno as Terrain",
+ "clave": "2026-12-15|explore-topo-b-dic",
+ "caption": "Audio Reactive Landscape: Industrial Techno as Terrain\n\nThe land in this one is the track itself: each sound becomes height and runs off to the horizon. After the silence at 14 seconds, every kick leaves as a ring. A wordless exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore from NAOS: link in bio.\n\n#audioreactive #industrialtechno #generativeart",
+ "descripcion": "An audio reactive landscape built from the music's spectrogram. Every sound becomes height and runs away to the horizon, with the bass in the middle and the highs at the edges.\nAt 14 seconds the track goes silent and the land holds still. On the next hit the same history wraps round a center, and every kick leaves as a ring.\nA wordless NAOS exploration of contour lines and sound.\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#audioreactive #techno #generativeart",
+ "sintetico": true,
+ "alt": "White contour lines on black form a landscape that scrolls from the bottom of the screen toward the horizon. Its ridges rise with each sound of the music, with a bright acid-green line at the front edge. After a brief still moment the picture cuts to the same land wrapped into circles round a center, like ripples. The camera circles in and down over the rings, the newest ring in acid green. No text, no people.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "30.00 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 0 opposing transitions >= 0.10 rel. luminance; max 0.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-15T18:00:00Z",
+ "pie": "More from NAOS: link in bio."
+}

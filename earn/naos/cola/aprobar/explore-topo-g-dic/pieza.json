@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-g-dic",
+ "titulo": "Paper Cut Animation: A Mountain Built on a Schranz Kick",
+ "clave": "2026-12-14|explore-topo-g-dic",
+ "caption": "Paper Cut Animation: A Mountain Built on a Schranz Kick\n\nCount the kicks: a layer of fluorescent paper lands every two. Then a noise rip tears them off and the mountain comes back one layer a kick. Look at the paper after the tear, where the colors leave stains. A wordless exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore from NAOS: link in bio.\n\n#papercut #schranz #topography",
+ "descripcion": "A pencil contour drawing of a mountain on white paper. Layers of fluorescent paper get pasted on as if by hand, one every two kicks of a schranz loop, and the whole stack jitters like stop-motion.\nAfter a beat of silence a noise rip tears the layers off, and the mountain is built again one layer a kick. The torn paper leaves stains of its color, and the pencil stays.\nA wordless NAOS exploration of contour lines and sound.\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#papercut #schranz #topography",
+ "sintetico": true,
+ "alt": "Stop-motion style animation on white paper covered in pencil contour lines. Cut layers of fluorescent paper, from yellow to violet, are pasted one by one into a stepped mountain, each with a small shadow. After a still moment the layers are torn off from the top and fly out of frame. They leave faint colored stains, and the mountain is rebuilt layer by layer, jumping on every beat. A vermilion dot lands on the summit at the end. No text, no people.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "28.22 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 4 opposing transitions >= 0.10 rel. luminance; max 1.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-14T18:00:00Z",
+ "pie": "More from NAOS: link in bio."
+}

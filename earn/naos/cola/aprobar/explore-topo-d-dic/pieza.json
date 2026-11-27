@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-d-dic",
+ "titulo": "Sand Dunes That Move at the Speed of a Dembow Beat",
+ "clave": "2026-12-17|explore-topo-d-dic",
+ "caption": "Sand Dunes That Move at the Speed of a Dembow Beat\n\nWatch the tape stop around 16 seconds. The dunes slow down with the beat and freeze in the silence, then race on the drop. A wordless exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore from NAOS: link in bio.\n\n#topography #dembow #generativeart",
+ "descripcion": "Sand dunes seen from above in a topographic map animation, drifting downwind as fast as the music lets them.\nWatch the tape stop around 16 seconds: the dunes slow down on the same curve and freeze in the silence. On the drop the land runs six times faster.\nA wordless NAOS exploration of contour lines and sound.\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#topographicmap #dembow #generativeart",
+ "sintetico": true,
+ "alt": "Animated topographic map of a sand dune field seen from straight above. Blue contour lines on hot orange drift diagonally as the dunes move downwind. As the music slows to a stop the orange drains to dark red and one frame holds in silence. On the drop the picture cuts to flat bands of bright color with black edges, drawn at a choppy 12 frames a second. The dunes race and the colors shift on each bar. No text, no people.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "33.48 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 2 opposing transitions >= 0.10 rel. luminance; max 0.5 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-17T18:00:00Z",
+ "pie": "More from NAOS: link in bio."
+}

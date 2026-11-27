@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-h-dic",
+ "titulo": "Gas Giant Planet Animation: Weather Set by an Orchestra",
+ "clave": "2026-12-23|explore-topo-h-dic",
+ "caption": "Gas Giant Planet Animation: Weather Set by an Orchestra\n\nThe orchestra sets the weather here. The bands creep while the strings are quiet and churn in the storm, and in each silence the planet stops. Watch the big vortex open and close twice. A wordless exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore from NAOS: link in bio.\n\n#gasgiant #orchestra #generativeart",
+ "descripcion": "A gas giant's weather drawn in contour lines and run by the loudness of an orchestra. The bands creep under quiet pizzicato and churn when the brass and timpani come in.\nWatch for the great vortex that opens and closes twice. On the last hit, six versions of the planet flash by and the last one holds.\nA wordless NAOS exploration of contour lines and sound.\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#gasgiant #orchestra #generativeart",
+ "sintetico": true,
+ "alt": "A gas giant planet on black. Its surface is drawn in glowing neon contour lines that follow the winds in bands and swirls. The bands drift slowly at first, freeze for a moment, then churn hard as a large vortex opens and closes twice. A rapid burst of six differently colored versions of the planet ends on one held image. Then the planet moves again, fades toward icy white and disappears. No text, no people.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "34.23 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 2 opposing transitions >= 0.10 rel. luminance; max 0.5 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-23T18:00:00Z",
+ "pie": "More from NAOS: link in bio."
+}

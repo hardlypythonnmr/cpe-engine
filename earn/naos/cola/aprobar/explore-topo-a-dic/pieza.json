@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-a-dic",
+ "titulo": "Topographic Map Animation: A Fall to the Horizon",
+ "clave": "2026-12-25|explore-topo-a-dic",
+ "caption": "Topographic Map Animation: A Fall to the Horizon\n\nOne camera move, from the map above to eye level, where the red contour ring sits on the horizon. The quotes are from \"The Decline of Deviance\" by Adam Mastroianni (Experimental History) and \"How I Learn Languages\" by Sofia Balderson (Sofia's Notes from the Margin). Both texts are linked on the NAOS page in our bio. \"Keep one thing you do your own way\" is our line, after Mastroianni. A NAOS exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore strategies: link in bio.\n\n#topography #contourlines #generativeart",
+ "descripcion": "A topographic map animation in one camera move, from straight above into a spinning fall. Then the camera tilts to eye level and the red contour ring lies on the horizon.\nThree lines appear in the land on the way. The first two are quotes from Sofia Balderson and Adam Mastroianni. The third, \"Keep one thing you do your own way,\" is our line after Mastroianni's essay.\nA NAOS exploration of contour lines and sound.\n\nSources (the quotes on screen):\nSofia Balderson, \"How I Learn Languages\", Sofia's Notes from the Margin, 11 Jan 2026. https://notingthemargin.substack.com/p/how-i-learn-languages\nAdam Mastroianni, \"The Decline of Deviance\", Experimental History, 28 Oct 2025. https://www.experimental-history.com/p/the-decline-of-deviance\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#topographicmap #contourlines #generativeart",
+ "sintetico": true,
+ "alt": "White contour lines of a mountain map on black. Seen from above, the words \"Be brutally honest about your goal.\" and the name Sofia Balderson sit inside a red ring on the ground. The camera falls and spins, then tilts to eye level, where the red ring lies along the horizon. Above it appears \"For the first time in history, weirdness is a choice.\" with the name Adam Mastroianni. As the camera circles the summit, \"Keep one thing you do your own way.\" appears, credited after Adam Mastroianni. The camera rises back to the map from above.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "32.00 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 0 opposing transitions >= 0.10 rel. luminance; max 0.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-25T18:00:00Z",
+ "pie": "More strategies: link in bio."
+}

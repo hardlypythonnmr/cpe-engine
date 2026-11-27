@@ -1,0 +1,37 @@
+{
+ "slug": "explore-topo-f-dic",
+ "titulo": "Twelve Materials in One Contour, Cut to 90s Jungle",
+ "clave": "2026-12-21|explore-topo-f-dic",
+ "caption": "Twelve Materials in One Contour, Cut to 90s Jungle\n\nA fingerprint, wood grain, a hurricane and lava are all drawn here with the same kind of line. They swap on the beat, up to ten times a second, so pause anywhere to catch one. A wordless exploration of contour lines and music.\n\nMusic made with ElevenLabs.\n\nMore from NAOS: link in bio.\n\n#contourlines #junglemusic #generativeart",
+ "descripcion": "One island crosses a black screen, and its contour lines change material on the beat. The twelve skins: terrain, fingerprint, wood, water, marble, a gas giant's bands, a hurricane, a magnet's field, rice terraces, moon craters, silk folds and lava.\nThe swaps follow a slow dub at first and reach ten a second when the jungle comes in. A moment of silence holds them still before the island leaves.\nPause anywhere and look: all twelve are drawn with the same kind of line.\nA wordless NAOS exploration of contour lines and sound.\n\nMusic made with ElevenLabs.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#contourlines #jungle #generativeart",
+ "sintetico": true,
+ "alt": "An island-shaped outline crosses a black screen from the lower right to the top. Inside it, white contour lines change material on the beat. The materials include terrain, a fingerprint, wood grain, water ripples, marble, a hurricane, rice terraces, moon craters and lava. The swaps start slow and speed up to a rapid run of patterns. After a moment of stillness the island leaves through the top and the screen ends empty. No text, no people.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "24.09 s, 1080x1920; exploration, 9:16 (D-641)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 0 opposing transitions >= 0.10 rel. luminance; max 0.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-21T18:00:00Z",
+ "pie": "More from NAOS: link in bio."
+}
