@@ -1,0 +1,20 @@
+{
+ "slug": "languages-5min-lapiz-yt",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-08T16:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "59bd9588e2c822fd631786d0106a3892f4064b559dcc1863e202788618651fca",
+ "hashes": {
+  "short": "905b00d30d61fa8869e1dfcf892ed2e05b997ebca8250359e30b6fa37ce054ff"
+ },
+ "canales": [
+  "short"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}
