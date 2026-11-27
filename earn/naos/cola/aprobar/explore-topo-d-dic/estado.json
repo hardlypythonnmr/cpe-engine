@@ -2,7 +2,7 @@
  "slug": "explore-topo-d-dic",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-17T18:00:00Z",
  "datos_utc": "",
  "hash_contenido": "f68b5e8970a54976f4b03da92d8e2755e454eff8cf7be79b95f127d11e509ade",
@@ -18,5 +18,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-27T18:15:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "DJ first, explorations later (Recommended)",
+  "decidido_utc": "2026-11-27T18:15:00Z",
+  "version": 1,
+  "hash_contenido": "f68b5e8970a54976f4b03da92d8e2755e454eff8cf7be79b95f127d11e509ade",
+  "leyenda": "aprobado por N en la mesa, 2026-11-27T18:15:00Z: DJ first, explorations later (Recommended)",
+  "registrado_utc": "2026-11-27T18:12:12Z"
+ }
 }
