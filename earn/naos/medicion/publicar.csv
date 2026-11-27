@@ -14,3 +14,11 @@ utc,canal,slug,plataforma,modo,cuando,resultado,detalle
 2026-11-27T02:44:19Z,naos,languages-r4-topo,youtube,programar,2026-11-27T18:00:00Z,ok,
 2026-11-27T16:08:42Z,naos,deviance-g1,instagram,publicar,now,ok,https://www.instagram.com/reel/DgQEqOXSOou/
 2026-11-27T16:10:00Z,naos,deviance-g1,instagram,publicar,now,despachado,"https://github.com/hardlypythonnmr/cpe-engine/actions/runs/46030508654 (completed, success)"
+2026-11-27T17:56:16Z,naos,languages-5min-topo,valvula,programar,2026-12-06T16:00:00Z,on,PUBLICAR_NAOS=on read from run 46045512575 (2026-11-27T17:55:07Z) https://github.com/hardlypythonnmr/cpe-engine/actions/runs/46045512575
+2026-11-27T17:56:16Z,naos,languages-5min-topo,youtube,programar,2026-12-06T16:00:00Z,fallo,upload private with publishAt 2026-12-06T16:00:00Z (exit 2)
+2026-11-27T17:56:21Z,naos,languages-5min-lapiz,valvula,programar,2026-12-08T16:00:00Z,on,PUBLICAR_NAOS=on read from run 46045512575 (2026-11-27T17:55:07Z) https://github.com/hardlypythonnmr/cpe-engine/actions/runs/46045512575
+2026-11-27T17:56:21Z,naos,languages-5min-lapiz,youtube,programar,2026-12-08T16:00:00Z,fallo,upload private with publishAt 2026-12-08T16:00:00Z (exit 2)
+2026-11-27T17:57:35Z,naos,languages-5min-topo-yt,valvula,programar,2026-12-06T16:00:00Z,on,PUBLICAR_NAOS=on read from run 46045512575 (2026-11-27T17:55:07Z) https://github.com/hardlypythonnmr/cpe-engine/actions/runs/46045512575
+2026-11-27T17:57:35Z,naos,languages-5min-topo-yt,youtube,programar,2026-12-06T16:00:00Z,ok,
+2026-11-27T17:57:45Z,naos,languages-5min-lapiz-yt,valvula,programar,2026-12-08T16:00:00Z,on,PUBLICAR_NAOS=on read from run 46045512575 (2026-11-27T17:55:07Z) https://github.com/hardlypythonnmr/cpe-engine/actions/runs/46045512575
+2026-11-27T17:57:45Z,naos,languages-5min-lapiz-yt,youtube,programar,2026-12-08T16:00:00Z,ok,

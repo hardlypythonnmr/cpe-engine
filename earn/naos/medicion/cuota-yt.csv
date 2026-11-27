@@ -2434,3 +2434,13 @@ fecha_pacifico,hora_utc,consumidor,operacion,unidades
 2026-11-26,2026-11-27T02:44:15Z,shorts,videos.insert,1
 2026-11-26,2026-11-27T02:44:18Z,shorts,thumbnails.set,50
 2026-11-26,2026-11-27T02:44:19Z,shorts,videos.list,1
+2026-11-27,2026-11-27T17:57:27Z,shorts,channels.list,1
+2026-11-27,2026-11-27T17:57:32Z,shorts,videos.insert,1
+2026-11-27,2026-11-27T17:57:32Z,shorts,playlistItems.insert,50
+2026-11-27,2026-11-27T17:57:35Z,shorts,thumbnails.set,50
+2026-11-27,2026-11-27T17:57:35Z,shorts,videos.list,1
+2026-11-27,2026-11-27T17:57:40Z,shorts,channels.list,1
+2026-11-27,2026-11-27T17:57:42Z,shorts,videos.insert,1
+2026-11-27,2026-11-27T17:57:43Z,shorts,playlistItems.insert,50
+2026-11-27,2026-11-27T17:57:45Z,shorts,thumbnails.set,50
+2026-11-27,2026-11-27T17:57:45Z,shorts,videos.list,1
