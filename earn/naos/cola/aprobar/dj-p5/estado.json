@@ -1,0 +1,22 @@
+{
+ "slug": "dj-p5",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-13T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "8a4d2e5464046a1eb96d603ca0dcb7969ffaa52597f9620f99d096c610f1e215",
+ "hashes": {
+  "short": "f13d2f2f70abb1ffa9eb1eb85f2327d2ca39608b191b473bce01837077fe6622",
+  "reel": "d6eb641d841c4d3e74106611f307ca8349af6851ca1b0d70df4cc3859533379d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

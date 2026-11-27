@@ -1,0 +1,22 @@
+{
+ "slug": "dj-p2",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-10T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "6b3bf7c58d23df7c4fbde299e5167d26d6abfbbc2cefc908ef1abfec2e9256c9",
+ "hashes": {
+  "short": "3b7b5c3eeb210378db109ff3f889f02b86e04e9db9c2172fb57400a6520ac981",
+  "reel": "db1910eec0a6fcf70bc9a95bb3fc1f46f18cb69f89f54ab043a4c651538acddd"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

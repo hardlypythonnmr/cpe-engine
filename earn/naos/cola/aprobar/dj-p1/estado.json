@@ -1,0 +1,22 @@
+{
+ "slug": "dj-p1",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-09T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "552d783d7a30def82b8d5304555486aa40aae17c834ca4c7bf923174135a4f87",
+ "hashes": {
+  "short": "2b9fd0237c99b40207c7fd622e10ad16cea7bf0178693731d67d14c469245392",
+  "reel": "291085634bdd3bc92deb6fb4822a343b8139d8170f8a09ad4536e418a8b8806d"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

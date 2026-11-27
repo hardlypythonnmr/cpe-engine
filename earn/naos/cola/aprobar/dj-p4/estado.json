@@ -1,0 +1,22 @@
+{
+ "slug": "dj-p4",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-12T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "b5fedf97a91e9bca2b7610fa359639ab33ea907fa9281e798b6ee033074bc08b",
+ "hashes": {
+  "short": "0818a81f44a6ed9e9ec4c86e7a3ca259cb6de490138d7dca1f6622ddbd1e5635",
+  "reel": "c567182cc955463823c48087dbb167e3da3d21eae7c93253594187eaae7287b9"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}

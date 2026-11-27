@@ -1,0 +1,38 @@
+{
+ "slug": "dj-p5",
+ "titulo": "Topographic Map Animation: When the Music Keeps Time",
+ "clave": "2026-12-13|dj-p5",
+ "caption": "Topographic Map Animation: When the Music Keeps Time\n\nA map seen from straight above. First a nervous clock pushes up sharp, separate peaks. Then a groove takes over, the peaks flow together, and the land moves only when the music does. Watch the silence at 28 seconds.\n\nOur words, our view: \"Parties are godlike events, spiritual events, where people share their energy through music and through their bodies in one of the most primal ways.\" Try it: go dancing with people, phone in your pocket. When did a dance floor last make you lose track of time?\n\nFrom \"everyone wants to be a DJ, no one wants to dance\" by Dani Offline, offline soul, 11 Sep 2025: https://danioffline.substack.com/p/everyone-wants-to-be-a-dj-no-one . Her line on screen is marked as hers. The sentence about parties, the \"try it\" and the question are ours: our words, our view. Dani Offline did not make or endorse this video. Her essay and every NAOS strategy are on the NAOS page linked in our bio.\n\nMore strategies: link in bio.\n\n#topographicmap #dancefloor #generativeart\n\nIf this touches something hard for you, free help is at findahelpline.com.",
+ "descripcion": "A topographic map animation where the music keeps time. A nervous clock pushes up sharp, separate peaks, then a groove takes over and the land moves only when the music does.\nAfter \"everyone wants to be a DJ, no one wants to dance\", an essay by the songwriter Dani Offline. Watch the silence at 28 seconds: one frame holds, then a warm chord lifts the land as one.\nOur sentence about parties is set along the contour lines. Our words, our view: \"Parties are godlike events, spiritual events, where people share their energy through music and through their bodies in one of the most primal ways.\" Try it: go dancing with people, phone in your pocket.\n\nCredits\nEssay: Dani Offline, \"everyone wants to be a DJ, no one wants to dance\", offline soul, 11 Sep 2025. https://danioffline.substack.com/p/everyone-wants-to-be-a-dj-no-one\nHer line on screen, \"beyond any fixed identity or role\", is marked as hers. It comes after \"she writes:\" with her name under it. The sentence about parties, the \"try it\" and the closing question are ours: our words, our view.\nDani Offline did not make or endorse this video.\nEvery NAOS strategy and its sources: https://hardlypythonnmr.github.io/naos-site/biblioteca/\n\n#topographicmap #dancefloor #generativeart\n\nIf this touches something hard for you, free help is at findahelpline.com.",
+ "sintetico": true,
+ "alt": "Topographic map seen from straight above; the camera never moves. The title \"everyone wants to be a DJ, no one wants to dance\" and \"dani offline\" are set along the contour lines. To a fast ticking click, sharp separate peaks push up one by one in cold colors and jitter. The click stops on a deep chord. In bursts of percussion the peaks erode and flow together, ripples run ring to ring, and the colors warm. Our sentence about parties is set along the lines phrase by phrase, with \"our words, our view\" beside each phrase. One frame holds in silence. Then a bright chord lifts the land as one, and her line appears: \"she writes:\", \"beyond any fixed identity or role\", \"dani offline\". End card: when did a dance floor last make you lose track of time? and the credit.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "dj",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "38.00 s, 1080x1920; DJ round 1, 9:16 (D-642)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 2 opposing transitions >= 0.10 rel. luminance; max 0.5 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-12-13T18:00:00Z",
+ "pie": "More strategies: link in bio.",
+ "comentario_fijado": "When did a dance floor last make you lose track of time? Dani Offline's essay: https://danioffline.substack.com/p/everyone-wants-to-be-a-dj-no-one"
+}

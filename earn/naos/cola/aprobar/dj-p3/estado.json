@@ -1,0 +1,22 @@
+{
+ "slug": "dj-p3",
+ "issue": null,
+ "version": 1,
+ "estado": "por-aprobar",
+ "sale_utc": "2026-12-11T18:00:00Z",
+ "datos_utc": "",
+ "hash_contenido": "439420811567f2a3b33a1f558e51eabb3d57e2ce613c431b070939acbb0caa2b",
+ "hashes": {
+  "short": "40adbfbbbca3acc30d347e55f95c31310b98cbcec34a109557d704607da23042",
+  "reel": "4f6b4dd740c6e49b2cbf0b68378e7527738b943678893b12b6d18ef0edf6070e"
+ },
+ "canales": [
+  "short",
+  "reel"
+ ],
+ "fix": false,
+ "aprobador": "N",
+ "sin_cifras": true,
+ "datos_max_h": 12.0,
+ "preparado": "sin-issue"
+}
