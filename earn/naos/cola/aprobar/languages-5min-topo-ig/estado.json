@@ -2,7 +2,7 @@
  "slug": "languages-5min-topo-ig",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-06T16:00:00Z",
  "datos_utc": "",
  "hash_contenido": "c7702a07d4492a98839a0ee1f16d52f386f72595b65d435b87f67291e5967b27",
@@ -16,5 +16,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-27T16:50:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "love them, post them",
+  "decidido_utc": "2026-11-27T16:50:00Z",
+  "version": 1,
+  "hash_contenido": "c7702a07d4492a98839a0ee1f16d52f386f72595b65d435b87f67291e5967b27",
+  "leyenda": "aprobado por N en la mesa, 2026-11-27T16:50:00Z: love them, post them",
+  "registrado_utc": "2026-11-27T17:54:55Z"
+ }
 }
