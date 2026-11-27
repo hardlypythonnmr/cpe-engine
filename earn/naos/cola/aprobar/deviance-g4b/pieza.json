@@ -1,0 +1,36 @@
+{
+ "slug": "deviance-g4b",
+ "titulo": "your life between bumpers",
+ "clave": "2026-11-27|deviance-g4b",
+ "caption": "your life between bumpers\n\nYour safe choices add up until your life runs between bumpers, like a ball on a bowling lane, says Adam Mastroianni. Ecologists call that kind of life a slow life history strategy.\n\nHe thinks most of us don't pick it on purpose: each decision gets nudged toward the safer option. \"You start out following the rules, then you never stop, then you forget that it's possible to break the rules in the first place.\" Our suggestion: lift one bumper this week, a small one.\n\nSource: \"The Decline of Deviance\" by Adam Mastroianni, Experimental History, 28 Oct 2025. Link: https://www.experimental-history.com/p/the-decline-of-deviance . Drawn in ink brush on watercolour paper.\n\nMore strategies: link in bio.\n\n#declineofdeviance #slowlife #handdrawnanimation #bowling",
+ "descripcion": "",
+ "sintetico": true,
+ "alt": "Hand-drawn line animation in ink brush on watercolour paper. A field, a jug and a honeycomb; a car, a Pilates figure and a piggy bank; a name tag with the word reputation. A bowling lane is drawn and two bumpers thicken as small arrows nudge the ball. The words follow, never stop and forget are written and the last one rubs itself out. The lane forks, and at the end one bumper lifts and the ball rolls off the edge of the page.",
+ "datos_utc": "",
+ "sin_cifras": true,
+ "canales": [
+  "reel"
+ ],
+ "video": "video.mp4",
+ "portada": "portada.jpg",
+ "seccion": "deviance",
+ "revisiones": [
+  {
+   "que": "Duration",
+   "estado": "OK",
+   "nota": "57.70 s, 1080x1920; vertical re-layout (D-627)"
+  },
+  {
+   "que": "Flash",
+   "estado": "OK",
+   "nota": "flash_rate: 0 opposing transitions >= 0.10 rel. luminance; max 0.0 flashes in any 1 s (limit 3)"
+  },
+  {
+   "que": "Credits and facts",
+   "estado": "OK",
+   "nota": "checkpoint passes (CHECKPOINT-r2/r3, copies check 26-nov)"
+  }
+ ],
+ "sale_utc": "2026-11-27T20:00:00Z",
+ "pie": "More strategies: link in bio."
+}
