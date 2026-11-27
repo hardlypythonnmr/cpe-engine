@@ -2,7 +2,7 @@
  "slug": "languages-5min-topo-yt",
  "issue": null,
  "version": 1,
- "estado": "por-aprobar",
+ "estado": "aprobado",
  "sale_utc": "2026-12-06T16:00:00Z",
  "datos_utc": "",
  "hash_contenido": "12fffef5adbaa672fa8be2872c5bec6de7780830e2166522878d2fd80fa62bba",
@@ -16,5 +16,16 @@
  "aprobador": "N",
  "sin_cifras": true,
  "datos_max_h": 12.0,
- "preparado": "sin-issue"
+ "preparado": "sin-issue",
+ "aprobacion": "mesa",
+ "aprobado_evento_utc": "2026-11-27T16:50:00Z",
+ "mesa": {
+  "decision": "aprobar",
+  "cita": "love them, post them",
+  "decidido_utc": "2026-11-27T16:50:00Z",
+  "version": 1,
+  "hash_contenido": "12fffef5adbaa672fa8be2872c5bec6de7780830e2166522878d2fd80fa62bba",
+  "leyenda": "aprobado por N en la mesa, 2026-11-27T16:50:00Z: love them, post them",
+  "registrado_utc": "2026-11-27T17:57:16Z"
+ }
 }
